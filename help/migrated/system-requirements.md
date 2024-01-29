@@ -1,0 +1,364 @@
+---
+jcr-language: en_us
+title: Requisitos del sistema
+description: Requisitos del sistema para Adobe Learning Manager
+contentowner: dvenkate
+source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 0%
+
+---
+
+
+# Requisitos del sistema para Adobe Learning Manager
+
+## Windows {#windows}
+
+Microsoft Windows 7, 8, 10 (solo versiones de 64 bits).
+
+## macOS {#macos}
+
+macOS X 10.12, 10.13, 10.14, 10.15
+
+## RAM
+
+8 GB de RAM.
+
+## Pantalla
+
+Resolución mínima admitida: 1024 x 720.
+
+## Espacio en disco
+
+5 GB como mínimo de espacio disponible en el disco duro.
+
+## Grabación
+
+* Micrófono necesario para la grabación de audio.
+* Cámara web necesaria para grabar vídeo.
+
+## Varios
+
+Se requiere una conexión a Internet activa y una cuenta de alumno de Adobe Learning Manager para utilizar la aplicación.
+
+## Especificaciones del navegador
+
+La página principal de diseño envolvente no es compatible con los navegadores IE 11.
+
+* Google Chrome versión 43 y superior.
+* Versiones más recientes de Edge, Safari (versión 13 y superior) y Firefox.
+* Internet Explorer versión 11 y superior
+
+## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
+
+* Cabecera: 1280 x 360 px.
+* Imagen en la tarjeta del catálogo: 280 x 100 px
+* Tamaño de la tarjeta de formación: 300 x 240 px
+* Banner social: 1600 x 240 px
+
+## Escritorio
+
+### Sistema operativo
+
+Windows 10 y 11, macOS X 10.12, 10.13, 10.14, 10.15
+
+### Procesador
+
+Intel® CoreTM i5 o superior.
+
+### RAM
+
+Se requieren 8 GB como mínimo.
+
+### Resolución de pantalla
+
+1366 x 768 píxeles
+
+### Espacio en disco
+
+5 GB como mínimo de espacio disponible en el disco duro.
+
+### Grabación
+
+Se requiere un micrófono para la grabación de audio; se requiere una cámara web para la grabación de vídeo.
+
+## Aplicación móvil
+
+### Dispositivos
+
+* iOS: Las dos últimas versiones principales.
+* Android: últimas dos versiones principales.
+
+### Navegadores
+
+* Chrome en Android.
+* Safari en iOS.
+
+### Velocidad de red
+
+* 1 Mbps
+
+### CPU, dispositivos de memoria (min.)
+
+* Qualcomm® Snapdragon™ 695 5G o equivalente, 6 GB de memoria
+
+### Se requiere escáner de código QR/espacio en disco
+
+* 250 MB
+
+>[!NOTE]
+>
+>El navegador para dispositivos móviles solo admite la función de alumno en **diseño envolvente**.
+
+>[!NOTE]
+>
+>La aplicación móvil de Learning Manager solo admite la función de alumno.
+
+## Tamaño máximo de contenido {#maximumcontentsize}
+
+El tamaño máximo de archivo que se puede cargar es de 600 MB.
+
+>[!NOTE]
+>
+>Si el tamaño del *user.csv* supera los 100 MB, importar este archivo puede provocar comportamientos inesperados en el navegador. El problema se produce porque el navegador se queda sin memoria.
+
+Se recomienda importar a tamaño grande *user.csv* mediante el flujo de trabajo automatizado de Box/Exavault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+
+
+## Formatos de contenido admitidos
+
+### Carga de módulo {#moduleupload}
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Tipo de contenido</b></p></td>
+   <td>
+    <p><b>Extensiones</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Documentos</p></td>
+   <td>
+    <p>"pdf", "docx", "doc", "xls", "xlsx"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Presentaciones de PowerPoint</p></td>
+   <td>
+    <p>"pptx", "ppt"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Vídeos</p></td>
+   <td>
+    <p>"mp4", "wmv", "3gp", "3g2", "3gp2", "asf", "avi", "f4v", "h264", "mpe", "mpeg", "mpg", "mpg2", "m4v", "mov", "wmv"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>SCORM 1.2</p></td>
+   <td>
+    <p>"zip"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>SCORM 2004</p></td>
+   <td>
+    <p>"zip"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>CAPI</p></td>
+   <td>
+    <p>"zip"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>AICC</p></td>
+   <td>
+    <p>"zip"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audio</p></td>
+   <td>
+    <p>"mp3", "wav", "aac", "m4a", "wma", "vorbis", "pcm", "eac3", "amr", "ac3"</p></td>
+  </tr>
+ </tbody>
+</table>
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><strong>Insignias</strong></p></td>
+   <td>
+    <p>"png", "jpg", "jpeg", "gif"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><strong>Imagen de perfil de usuario</strong></p></td>
+   <td>
+    <p>"png", "jpg", "jpeg", "gif"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><strong>Logotipo de empresa</strong></p></td>
+   <td>
+    <p>"png", "jpg", "jpeg", "bmp", "gif"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><strong>Carga de certificaciones</strong></p></td>
+   <td>
+    <p> "png", "jpg", "jpeg", "pdf", "doc", "docx", "gif"</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><strong>Archivos adjuntos de cursos/recursos</strong></p></td>
+   <td>
+    <p> Todos los formatos de archivo</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Especificación de altura y anchura para cargar elementos {#heightandwidthspecificationforuploadingelements}
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Elements</b></p></td>
+   <td>
+    <p><b>Tamaño</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Insignia en el tablero de logros del alumno</p></td>
+   <td>
+    <p>40x40 píxeles</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Distintivo ampliado en la aplicación del alumno</p></td>
+   <td>
+    <p>90x90 píxeles</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Imagen de perfil de usuario en los logros del alumno</p></td>
+   <td>
+    <p>100x100 píxeles</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Imagen de perfil de usuario en el menú desplegable de cierre de sesión</p></td>
+   <td>
+    <p>42x42 píxeles</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Logotipo de empresa en el encabezado</p></td>
+   <td>
+    <p>45 píxeles de alto; la anchura se calcula en consecuencia.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Logotipo de empresa en la página de inicio de Learning Manager</p></td>
+   <td>
+    <p>100 píxeles de altura; la anchura se calcula en consecuencia.</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Accesibilidad
+
+### Navegadores y lectores de pantalla compatibles
+
+Se admiten las siguientes combinaciones:
+
+* Chrome + NVDA
+* Edge + Narrator
+* Mac Safari + VoiceOver
+
+### Compatibilidad con dispositivos móviles envolventes
+
+Se admiten los siguientes:
+
+* Android+TalkBack
+* iOS+voz en off
+
+## Requisitos de red {#networkrequirements}
+
+Asegúrese de que los siguientes dominios de terceros estén en la lista blanca si se encuentra en cualquier red que tenga restricciones.
+
+* &#42;.adobe.com
+* &#42;.boltdns.net
+* &#42;.brightcove.com
+* &#42;.amazon.com
+* &#42;.adobedtm.com
+* &#42;.typekit.net
+* &#42;.demdex.net
+* &#42;.brightcove.net
+* &#42;.zencdn.net
+* &#42;.cloudflare.com
+* bam.nr-data.net
+* &#42;.akamaihd.net
+
+
+### Casos específicos ampliados {#specificextendedcases}
+
+<table>
+ <tbody>
+  <tr>
+   <th>Función</th>
+   <th>Servicios utilizados</th>
+  </tr>
+  <tr>
+   <td>Conector FTP</td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
+  </tr>
+  <tr>
+   <td>Migración</td>
+   <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
+  </tr>
+  <tr>
+   <td>Conector de Lynda</td>
+   <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
+  </tr>
+  <tr>
+   <td>Conector de Harvard ManageMentor</td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
+  </tr>
+  <tr>
+   <td>Conector de GetAbstracts</td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+  </tr>
+  <tr>
+   <td>Conector de Box</td>
+   <td>Zonas de Box ubicadas en Frankfurt</td>
+  </tr>
+  <tr>
+   <td>Conector Mini Orange</td>
+   <td>Mini Orange</td>
+  </tr>
+  <tr>
+   <td>Conector de Workday</td>
+   <td>Workday</td>
+  </tr>
+  <tr>
+   <td>Conector de Blue Jeans<br></td>
+   <td>Blue Jeans</td>
+  </tr>
+  <tr>
+   <td>Microsoft Power BI</td>
+   <td>Licencia comercial de Power BI solo admitida.</td>
+  </tr>
+ </tbody>
+</table>
+
+## Descripción técnica {#technicaloverview}
+
+[Introducción técnica de Learning Manager](assets/learning-manager-technicaloverview.pdf)
