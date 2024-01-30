@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -146,7 +146,7 @@ La siguiente tabla proporciona los límites de los distintos puntos finales de l
    <td><p><b>API de alumno</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>DELETE</p></td> 
+   <td><p>ELIMINAR</p></td> 
    <td><p>(25, 10) <br></p></td> 
    <td><p>(20, 10)<br></p></td> 
   </tr> 

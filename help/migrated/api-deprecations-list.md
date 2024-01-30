@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -124,26 +124,26 @@ En la siguiente versión de Adobe Learning Manager, name y -name dejan de utiliz
 
 ## Desutilizaciones de API en la versión de noviembre de 2023 de Adobe Learning Manager
 
-### Anular indicador
+### Indicador de anulación
 
-En la versión de noviembre de 2023 de Adobe Learning Manager, se ha interrumpido el indicador de anulación de las API. El indicador override no forma parte de la especificación de la API pública y está pensado para pruebas de backend. El indicador ya no está disponible para las API de alumno. Sin embargo, el indicador sigue siendo válido para las API de administración.
+En la versión de noviembre de 2023 de Adobe Learning Manager, se ha interrumpido el indicador de anulación de las API. El indicador de anulación no forma parte de la especificación de las API públicas y se ha diseñado para las pruebas de back-end. El indicador ya no está disponible para las API de alumno. Sin embargo, sigue siendo válido para las API de administrador.
 
 La razón por la que estamos dejando de utilizar el indicador para las API de alumno es que el indicador de anulación obtenía una gran cantidad de datos a través de las API de alumno.
 
-En adelante, la siguiente API de alumno dejará de funcionar porque tiene el indicador de anulación.
+A partir de ahora, la siguiente API de alumno dejará de funcionar debido a que presenta el indicador de anulación.
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;página[límite]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### Cambios en la API para nuevas recomendaciones basadas en aptitudes
 
-Adobe Learning Manager mejora las recomendaciones para las cuentas habilitadas para clientes y partners. Esta mejora en el algoritmo de recomendación con el cambio en el algoritmo de clasificación para cursos, rutas de aprendizaje y certificaciones proporciona una mejor experiencia del usuario en la detección de contenido.
+Adobe Learning Manager mejora las recomendaciones para las cuentas de clientes y socios. Esta mejora en el algoritmo de recomendación con el cambio en el algoritmo de clasificación por curso, ruta de aprendizaje y certificación proporciona una mejor experiencia al usuario a la hora de descubrir contenidos.
 
-El algoritmo ya no permitirá recomendaciones basadas en pares. El cambio no afectará a los usuarios existentes, pero la opción Adaptado al sector seguirá existiendo. Para la opción Personalizado, Adobe Learning Manager ya no permitirá la selección personalizada basada en compañeros.
+El algoritmo ya no permitirá recomendaciones entre iguales. El cambio no afectará a los usuarios existentes, pero seguirá existiendo la opción Adaptado al sector. En el caso de la opción Personalizado, Adobe Learning Manager ya no permitirá la selección personalizada entre iguales.
 
-El grupo de compañeros ahora se convierte en una cuenta y los alumnos verán una cadena que muestra los temas de tendencia del grupo. Todas las recomendaciones son explicables. Por ejemplo, si está viendo algo sobre un tema, la tarjeta de la tira mostrará el motivo del curso.
+El grupo de iguales se convierte ahora en una cuenta y los alumnos verán una cadena que muestra los temas destacados del grupo. Todas las recomendaciones tienen una explicación. Por ejemplo, si ve algo sobre un tema, la tarjeta de la tira mostrará el motivo del curso.
 
 ### Cambios En El Informe De Anuncio De Notificaciones
 
-En versiones anteriores de Adobe Learning Manager, el informe Anuncio de notificación no tenía filtros. Adobe Learning Manager descargó todas las notificaciones de la cuenta.
+En versiones anteriores de Adobe Learning Manager, el informe Anuncio de notificación no tenía filtros. Adobe Learning Manager ha descargado todas las notificaciones de la cuenta.
 
 En la versión de noviembre de 2023, hemos añadido un filtro de fecha mediante el cual puede descargar las notificaciones dentro de un período especificado.  Sin embargo, puede descargar el informe sólo durante los últimos seis meses.

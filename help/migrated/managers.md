@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/manager2.png"></td> 
-   <td><p>Siga leyendo para conocer las funciones de Learning Manager y las preguntas frecuentes asociadas a la función de responsable. </p></td> 
+   <td><p>Continúe leyendo para conocer las funciones y las preguntas más frecuentes de Learning Manager asociadas con la función de responsable. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## Preguntas más frecuentes (FAQ) {#frequentlyaskedquestionsfaq}
+## Preguntas más frecuentes {#frequentlyaskedquestionsfaq}
 
-[Preguntas frecuentes sobre la función de responsable](managers/frequently-asked-questions-for-managers.md)
+[Preguntas más frecuentes sobre la función de responsable](managers/frequently-asked-questions-for-managers.md)
 
 ## Funciones {#features}
 
-* [Introducción a](managers/feature-summary/learning-objects.md#main-pars_header)
+* [Introducción](managers/feature-summary/learning-objects.md#main-pars_header)
 * [Usuarios de tabletas iPad y Android](managers/feature-summary/ipad-android-tablet-users.md)
 * [Informes](managers/feature-summary/reports.md)
 * [Configuración](managers/feature-summary/settings.md)

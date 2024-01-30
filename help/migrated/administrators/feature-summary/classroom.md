@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Añadir ubicaciones de clase
-description: Ahora los administradores pueden configurar una biblioteca de ubicaciones de clase. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos, así como información adicional como la dirección URL de la ubicación. A continuación, los autores y los administradores pueden utilizar estas ubicaciones de clase preconfiguradas para configurar eventos de formación dirigidos por un instructor (módulos de clase).
+title: Añadir ubicaciones de clases
+description: Los administradores pueden crear ahora una biblioteca de ubicaciones de clases. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos e información adicional como, por ejemplo, la dirección URL de la ubicación. Los autores y los administradores pueden utilizar estas ubicaciones de clases preconfiguradas para establecer eventos de formación dirigidos por un instructor (módulos de clase).
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
 
-# Classroom
+# Clase
 
-## Resumen
+## Información general
 
-Ahora los administradores pueden configurar una biblioteca de ubicaciones de clase. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos, así como información adicional como la dirección URL de la ubicación. A continuación, los autores y los administradores pueden utilizar estas ubicaciones de clase preconfiguradas para configurar eventos de formación dirigidos por un instructor (módulos de clase).
+Los administradores pueden crear ahora una biblioteca de ubicaciones de clases. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos e información adicional como, por ejemplo, la dirección URL de la ubicación. Los autores y los administradores pueden utilizar estas ubicaciones de clases preconfiguradas para establecer eventos de formación dirigidos por un instructor (módulos de clase).
 
-Puede utilizar las dos maneras siguientes para agregar una ubicación de clase.
+Puede utilizar los siguientes dos métodos para añadir una ubicación de clase.
 
-## Añadir clase mediante la interfaz de usuario
+## Añadir una clase mediante la interfaz de usuario
 
 Puede agregar una ubicación de clase mediante la interfaz de usuario:
 
@@ -28,12 +28,12 @@ Puede agregar una ubicación de clase mediante la interfaz de usuario:
 
 1. Haga clic en **[!UICONTROL Añadir más]** botón.
 
-1. En la **[!UICONTROL Ubicación de clase]** , introduzca la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Ubicación de clase]**, introduzca la siguiente información:
 
-   * Escriba el **[!UICONTROL Nombre de ubicación de clase]**. Utilice un nombre único. De lo contrario, Learning Manager muestra un mensaje de error.
-   * Escriba la descripción de la ubicación en la **[!UICONTROL Información de ubicación]** campo. Este campo es opcional.
-   * Escriba el **[!UICONTROL URL de ubicación]**. El alumno puede ver esta información en los detalles de la clase. La dirección URL también puede ser una dirección URL de ubicación de mapas, si es necesario. Éste es un campo opcional.
-   * Escriba el número de puestos disponibles en el **[!UICONTROL Límite de asientos]** campo. Esto indica la capacidad del asiento de la clase. Este valor se puede cambiar al crear el evento de formación real dirigido por el instructor.
+   * Especifique el **[!UICONTROL nombre de la ubicación de clase]**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
+   * Introduzca la descripción de la ubicación en el campo **[!UICONTROL Información de ubicación]**. Este campo es opcional.
+   * Introduzca la **[!UICONTROL URL de ubicación]**. El alumno puede ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
+   * Introduzca el número de puestos disponibles en el campo **[!UICONTROL Límite de puestos]**. Esto indica el número de puestos disponibles para la clase. Este valor se puede modificar al crear el evento real de formación dirigido por un instructor.
 
    ![](assets/add-classroom-location.png)
 
@@ -45,7 +45,7 @@ Después de añadir la ubicación, el **[!UICONTROL Configuración]** > **[!UICO
 
 *Ver todas las salas de reuniones*
 
-La lista tiene los siguientes campos:
+La lista presenta los siguientes campos:
 
 **[!UICONTROL Nombre de ubicación]** - Nombre de la ubicación de la clase.
 
@@ -55,7 +55,7 @@ La lista tiene los siguientes campos:
 
 *Ver sesiones futuras*
 
-El cuadro de diálogo muestra los detalles de cada sesión, incluido el nombre de la sesión, el nombre de la formación que incluye la sesión y la programación de la sesión. La hora mostrada se alinea con la zona horaria del sistema del alumno.
+En el cuadro de diálogo, se muestran los detalles de cada sesión, incluidos el nombre y el horario de la sesión, además del nombre del curso de formación que incluye la sesión. La hora mostrada se ajusta a la zona horaria del sistema del alumno.
 
 La **[!UICONTROL Sesiones futuras]** visualizaciones de campo **cero** cuando la clase no se utiliza para ninguna sesión o cuando la clase está asociada a sesiones anteriores.
 
@@ -65,28 +65,28 @@ La **[!UICONTROL Sesiones futuras]** visualizaciones de campo **cero** cuando la
 
 ## Añadir clase mediante CSV
 
-Como alternativa, puede agregar una o varias ubicaciones de clase importando un archivo CSV que contenga la información de la clase.
+También puede añadir una o varias ubicaciones de clases mediante la importación de un archivo CSV que contenga la información de clase.
 
-En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**, haga clic en el **[!UICONTROL Importar archivos CSV de ubicaciones]** botón. Vaya a la ubicación que contenga el archivo CSV y seleccione el archivo.
+En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**, haga clic en el **[!UICONTROL Importar archivos CSV de ubicaciones]** botón. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
 
-El archivo CSV utiliza estos campos para almacenar detalles sobre una o varias ubicaciones de clase:
+El archivo CSV utiliza estos campos para almacenar información sobre una o varias ubicaciones de clases:
 
 * name
-* información
+* info
 * url
 * seatLimit
 
 Puede personalizar los encabezados.
 
-El archivo CSV debe contener obligatoriamente todas las columnas en el mismo orden que se especifica aquí.
+El archivo CSV debe contener obligatoriamente todas las columnas en el mismo orden especificado aquí.
 
-Después de que el sistema importe el archivo CSV, las ubicaciones se añaden a la biblioteca.
+Una vez que el sistema importe el archivo CSV, las ubicaciones se añadirán a la biblioteca.
 
 ## Buscar clases
 
-Un autor o administrador puede empezar a escribir el nombre de la ubicación para ver los resultados relevantes que empiezan a aparecer. A continuación, un autor o un administrador puede seleccionar una ubicación entre los resultados mostrados. Si no se muestra ninguna ubicación en los resultados de escritura anticipada, el usuario puede agregar el nuevo nombre de ubicación de clase. Tenga en cuenta que este nombre de ubicación creado mediante el flujo de trabajo de creación de sesiones no se añade a la biblioteca de ubicaciones creada por el administrador.
+Un autor o un administrador pueden iniciar la escritura del nombre de la ubicación para que empiecen a aparecer los resultados correspondientes. A continuación, el autor o el administrador pueden seleccionar una ubicación en los resultados mostrados. Si no se muestra ninguna ubicación en los resultados de escritura anticipada, el usuario puede añadir el nombre de la nueva ubicación de clase. Tenga en cuenta que este nombre de ubicación establecido durante el flujo de trabajo de creación de sesiones no se ha añadido a la biblioteca de ubicaciones creada por el administrador.
 
-Cuando se añade una clase, la plataforma de aprendizaje también indica si la clase ya está reservada para el período de tiempo mencionado. Incluso proporciona franjas horarias alternativas como sugerencias. Por lo tanto, esto permite al autor ajustar la hora de la reunión si decide utilizar la misma ubicación de clase.
+Al añadir una clase, la plataforma de aprendizaje indica también si esta ya se ha reservado para el periodo indicado. Incluso ofrece sugerencias de horarios alternativos. Por lo tanto, esto permite al autor ajustar la hora de la reunión si decide utilizar la misma ubicación de clase.
 
 ![](assets/classroom-search.png)
 
@@ -94,9 +94,9 @@ Cuando se añade una clase, la plataforma de aprendizaje también indica si la c
 
 ## Limitar a una lista predeterminada de instructores
 
-Actualmente, los usuarios pueden agregar cualquier usuario registrado como instructor al crear una sesión de clase o de clase virtual. Esta funcionalidad no se ha modificado en esta versión.
+Actualmente, los usuarios pueden añadir a cualquier usuario registrado como instructor al crear una sesión de clase o de clase virtual. Esta función permanece invariable en esta versión.
 
-Sin embargo, ahora los administradores tienen una opción adicional para controlar mejor quién se asigna como instructor en la plataforma de aprendizaje. Esto evita que se añada accidentalmente un nuevo instructor al crear una sesión.
+Sin embargo, los administradores cuentan ahora con una opción adicional para controlar de forma más eficaz quién se asigna como instructor en la plataforma de aprendizaje. Esto impide la adición accidental de un nuevo instructor al crear una sesión.
 
 ## Administrador
 
@@ -106,41 +106,41 @@ Para configurar un instructor, los administradores pueden seleccionar **[!UICONT
 
 ## Autor
 
-Si el administrador selecciona la **[!UICONTROL Gestión de instructores]** , un autor solo puede buscar y añadir los usuarios con la función de instructor a las sesiones de clase, las sesiones de clase virtual, las listas de comprobación y los módulos de envío de archivos.
+Si el administrador selecciona la opción **[!UICONTROL Administración de instructores]**, un autor solo puede buscar y añadir usuarios con la función de instructor a las sesiones de clase y de clase virtual, las listas de verificación y los módulos de envío de archivos.
 
-Además, un autor puede:
+Además, el autor puede realizar lo siguiente:
 
-* Agregar y quitar instructores de las sesiones existentes.
-* Añada instructores a las sesiones existentes que ya tengan uno o más instructores.
+* Añadir y eliminar instructores de las sesiones existentes.
+* Añadir instructores a las sesiones existentes que ya tienen uno o varios instructores.
 
-Por lo tanto, después de que un administrador active la **[!UICONTROL Gestión de instructores]** , solo se pueden añadir como instructores los usuarios con la función de instructor.
+Por lo tanto, después de que un administrador active la opción **[!UICONTROL Administración de instructores]**, solo se pueden añadir como instructores los usuarios con esta función.
 
 >[!NOTE]
 >
->Esto no es aplicable al migrar sesiones mediante el archivo CSV de sesiones. En este caso, se puede añadir como instructor a un usuario que no tenga la función de instructor.
+>Esto no es aplicable al migrar sesiones mediante el archivo CSV de sesiones. En ese caso, se puede añadir como instructor un usuario que no tenga esta función.
 
-## Cancelar la sesión existente
+## Cancelar sesión existente
 
-Un autor o administrador puede cancelar una sesión y volver a programarla, si es necesario.
+Un autor o un administrador pueden cancelar una sesión y reprogramarla, si es necesario.
 
-Cuando un usuario cancela una sesión, el sistema envía un correo electrónico de cancelación de la reunión a todos los alumnos e instructores inscritos. El correo electrónico incluye los detalles actualizados de la sesión.
+Cuando un usuario cancela una sesión, el sistema envía un mensaje de correo electrónico de cancelación de la reunión a todos los instructores y los alumnos inscritos. Este mensaje incluye información actualizada de la sesión.
 
-Hay una plantilla llamada **[!UICONTROL Cancelación de sesión]** que ayuda a cancelar una sesión.
+Hay una plantilla denominada **[!UICONTROL Cancelación de la sesión]** que ayuda a cancelar una sesión.
 
-En la **[!UICONTROL Instancia del curso]** , cada sesión enumerada en una instancia de curso incluye una opción para cancelar la sesión.
+En la página **[!UICONTROL Instancia de curso]**, cada una de las sesiones mostradas en una instancia del curso incluye una opción para su cancelación.
 
 ![](assets/cancel-session.png)
 
 *Cancelar una sesión existente*
 
-Al hacer clic en **[!UICONTROL Cancelar sesión]** , aparece un mensaje de advertencia.
+Al hacer clic en el vínculo **[!UICONTROL Cancelar sesión]**, aparece un mensaje de advertencia.
 
-En el cuadro de diálogo del mensaje de advertencia, si hace clic en **[!UICONTROL Continuar]**, el sistema cancela la sesión.
+En el cuadro de diálogo de este mensaje, si hace clic en **[!UICONTROL Continuar]**, el sistema cancela la sesión.
 
-El sistema también borra los siguientes detalles después de cancelar una sesión:
+Después de cancelar la sesión, el sistema también borra los siguientes detalles:
 
 * Fecha de inicio de la sesión
-* Fecha de finalización del período de sesiones
+* Fecha de finalización de la sesión
 * Hora de inicio de la sesión
 * Hora de finalización de la sesión
 * Instructores añadidos a la sesión
@@ -150,21 +150,21 @@ El sistema también borra los siguientes detalles después de cancelar una sesi�
 
 ## Administrador
 
-En la **[!UICONTROL Instancia del curso]** , un administrador puede cancelar una o varias sesiones. Una vez que el administrador cancela una sesión, el sistema borra todos los detalles de la sesión, excepto el límite de puestos.
+En la página **[!UICONTROL Instancia de curso]**, un administrador puede cancelar una o varias sesiones. Después de que el administrador cancele una sesión, el sistema borra todos los detalles de la sesión, excepto el límite de puestos.
 
-Además, un administrador puede:
+Además, el administrador puede realizar lo siguiente:
 
-* Ver los alumnos inscritos y los alumnos en lista de espera de una sesión.
-* Dar de baja a los alumnos de un curso con una o varias sesiones canceladas.
-* Marcar la asistencia para las sesiones que se cancelan.
-* Marcar un curso como completo que contenga una o varias sesiones canceladas.
-* Reprogramar una sesión que se canceló.
-* Agregar un instructor a una sesión cancelada al reprogramarla.
+* Consultar los alumnos de una sesión que se han inscrito o están en lista de espera.
+* Dar de baja a alumnos de un curso con una o varias sesiones canceladas.
+* Marcar la asistencia a las sesiones canceladas.
+* Marcar como completado un curso que contenga una o varias sesiones canceladas.
+* Reprogramar una sesión cancelada.
+* Añadir un instructor a una sesión cancelada al reprogramarla.
 
-Tenga en cuenta que, incluso después de la cancelación, los alumnos inscritos en la instancia de formación siguen inscritos. Sus estados de inscripción (incluida la inscripción confirmada, en lista de espera y a la espera de la aprobación del responsable) no cambian. Esto resulta útil porque el administrador puede configurar y volver a programar la sesión cancelada en el futuro.
+Tenga en cuenta que, incluso después de la cancelación, los alumnos inscritos en la instancia del curso de formación permanecerán inscritos. Sus estados de inscripción (incluida la inscripción confirmada, en lista de espera y a la espera de la aprobación del responsable) no cambian. Esto es útil porque el administrador puede configurar y reprogramar la sesión cancelada en el futuro.
 
 ## Autor
 
-En la **[!UICONTROL Instancia del curso]** , un autor puede cancelar una o varias sesiones. Una vez que el autor cancela una sesión, el sistema borra todos los detalles de la sesión, excepto el límite de puestos.
+En la página **[!UICONTROL Instancia de curso]**, un autor puede cancelar una o varias sesiones. Cuando el autor cancela una sesión, el sistema borra todos los detalles de la sesión, excepto el límite de puestos.
 
 Por lo tanto, un autor puede utilizar la **[!UICONTROL Cancelar sesión]** vínculos para cancelar una o varias sesiones de clase o sesiones de clase virtual disponibles en la misma instancia del curso o en instancias diferentes.

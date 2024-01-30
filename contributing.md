@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # Colaboración
@@ -13,7 +13,7 @@ A continuación se muestra un conjunto de directrices que debe seguir para colab
 
 ## Código De Conducta
 
-Este proyecto se adhiere al Adobe [código de conducta](code-of-conduct.md). Al participar, se espera que cumpla este código. Denuncie un comportamiento inaceptable a
+Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. Al participar, se espera que cumpla este código. Denuncie un comportamiento inaceptable a
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentación de la Guía del colaborador
@@ -30,7 +30,7 @@ Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un
 
 ## Revisiones de código
 
-Todos los envíos deben presentarse en forma de solicitudes de recepción y deben revisarlos los confirmadores del proyecto. Leer [Documentación de solicitud de recepción de GitHub](https://help.github.com/articles/about-pull-requests/)
+Todos los envíos deben presentarse en forma de solicitudes de recepción y deben revisarlos los confirmadores del proyecto. Leer [Documentación de solicitud de recepción de GitHub](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 para obtener más información sobre el envío de solicitudes de recepción.
 
 <!--

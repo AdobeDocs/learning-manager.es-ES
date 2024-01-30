@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 74%
 
 ---
 
@@ -26,13 +26,13 @@ Una vez que un alumno completa un curso/programa de aprendizaje/certificación, 
 
 La insignia asignada al objeto de aprendizaje se añade una vez que el alumno ha completado el objeto de aprendizaje.
 
-En la versión anterior, no se podía añadir una insignia posteriormente si no había ninguna insignia asignada a un objeto de aprendizaje en el momento en que el alumno completaba el objeto de aprendizaje.
+En la versión anterior, no se podía añadir una insignia posteriormente si no había ninguna insignia asignada a un objeto de aprendizaje en el momento en el que el alumno completaba ese objeto.
 
-En las versiones actuales, la función está disponible.
+En las versiones actuales, esta función está disponible.
 
 ## Resolución
 
-Si el alumno experimenta un problema, pruebe los pasos que se indican a continuación:
+Si el alumno experimente un problema, pruebe a realizar los pasos siguientes:
 
 ## Curso/programa de aprendizaje
 

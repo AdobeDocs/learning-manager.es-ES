@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: No se puede registrar como usuario externo
+title: Imposible registrarse como usuario externo
 description: Los alumnos externos no pueden registrarse en un perfil en Adobe Learning Manager.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
 
 
-# No se puede registrar como usuario externo
+# Imposible registrarse como usuario externo
 
 ## Problema
 
@@ -28,23 +28,23 @@ El ID de correo electrónico ya está registrado. Utilice un correo electrónico
 
 ## Descripción
 
-Hay situaciones en las que un usuario no puede registrarse en un perfil externo. El usuario recibe el error anterior al registrarse.
+Hay situaciones en las que un usuario no puede registrarse en un perfil externo. El usuario recibe el error mostrado anteriormente al registrarse.
 
 ## Causa
 
-Este problema se produce en una de las situaciones siguientes:
+Este problema se produce en uno de los casos siguientes:
 
 * El usuario ya está registrado en otro perfil externo.
 * El usuario ya es un alumno interno.
 * El usuario presenta el estado Eliminado.
 
-## Resolución:
+## Solución:
 
 **Escenario 1:** El usuario ya está registrado en otro perfil externo.
 
-1. Inicie sesión como administrador.
+1. Inicie sesión como Administrador.
 1. Debajo **Gestionar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Externo]**.
-1. Abra el perfil del que el usuario ya forma parte haciendo clic en Puestos usados.
+1. Abra el perfil del que el usuario ya forma parte. Para ello, haga clic en Puestos usados.
 
    ![](assets/cp-seats-used.png)
 
@@ -56,7 +56,7 @@ Este problema se produce en una de las situaciones siguientes:
 
    *Cambiar perfil de usuario*
 
-   Esto abre una ventana para seleccionar un nuevo perfil, como se muestra a continuación.
+   Se abrirá una ventana para seleccionar un nuevo perfil, como se muestra a continuación.
 
    ![](assets/cp-select-profiles.png)
 
@@ -66,7 +66,7 @@ Este problema se produce en una de las situaciones siguientes:
 
 **Escenario 2:** El usuario está presente como alumno interno.
 
-1. Inicie sesión como administrador.
+1. Inicie sesión como Administrador.
 1. Debajo **Gestionar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Interno]**.
 1. Haga clic para abrir un perfil de alumno y haga clic en el icono Editar.
 
@@ -80,11 +80,11 @@ Este problema se produce en una de las situaciones siguientes:
 
 1. Haga clic en **Guardar** para conservar los cambios realizados.
 
-**Escenario 3**: el usuario presenta el estado Eliminado.
+**Situación 3**: el usuario presenta el estado Eliminado.
 
-1. Inicie sesión como administrador.
+1. Inicie sesión como Administrador.
 1. Debajo **Gestionar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Limpieza de usuarios]**.
-1. Seleccione el alumno y haga clic en el icono Editar .
+1. Seleccione el alumno y haga clic en el icono Editar.
 
    ![](assets/cp-deleted-learner.png)
 

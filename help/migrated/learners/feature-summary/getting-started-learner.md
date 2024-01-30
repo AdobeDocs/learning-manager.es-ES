@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # Primeros pasos como alumno
 
-Introducción a la aplicación del alumno en el Administrador de aprendizaje
+Empiece a utilizar la aplicación de alumno en Learning Manager.
 
-La aplicación del alumno en Learning Manager se basa completamente en widgets, lo que le ayuda a recorrer las distintas funciones con uno o dos clics.
+La aplicación de alumno en Learning Manager está totalmente basada en widgets; gracias a ello, se puede acceder a las diferentes funciones con uno o dos clics.
 
-En la aplicación web de Learning Manager, después de iniciar sesión como alumno, pueden verse los siguientes widgets en la página de inicio:
+En la aplicación web Learning Manager, después de iniciar sesión como alumno, puede ver los widgets siguientes en la página de inicio:
 
 ![](assets/l-1.png)
 
 *Ver widgets de aprendizaje*
 
-**Mi aprendizaje**: puede ver y hacer clic en los objetos de aprendizaje por tipo y por plazo. Haga clic en el círculo del widget Mi aprendizaje para ir directamente al tipo de objeto de aprendizaje o para ver los objetos de aprendizaje por plazo.
+**Mi aprendizaje**: puede ver y hacer clic en los objetos de aprendizaje por tipo y por plazo. Haga clic en el círculo del widget Mi aprendizaje para acceder directamente al tipo de objeto de aprendizaje o para ver los objetos de aprendizaje por plazo.
 
-**Mis habilidades**: También puede ver el mapa de aptitudes en la esquina superior derecha de la página. Consulte  [mapa de aptitudes](skills-levels.md)para obtener más información.
+**Mis aptitudes**: ahora puede ver el mapa de actitudes en la esquina superior derecha de la página. Consulte  [mapa de aptitudes](skills-levels.md)para obtener más información.
 
-**Widget de objeto de aprendizaje**: se encuentra justo debajo de Mi aprendizaje y muestra los objetos de aprendizaje del usuario. Debajo de Mi aprendizaje, puede ver todos los  [cursos](courses.md),  [programas de aprendizaje](learning-programs.md) y  [certificaciones](certifications.md) que estén inscritos por usted o asignados a usted. Puede Comenzar a consumir un objeto de aprendizaje directamente o volver a visitar un objeto de aprendizaje desde este widget.
+**Widget Objeto de aprendizaje**: está justo debajo de Mi aprendizaje; muestra los objetos de aprendizaje para el usuario. Debajo de Mi aprendizaje, puede ver todos los  [cursos](courses.md),  [programas de aprendizaje](learning-programs.md) y  [certificaciones](certifications.md) que estén inscritos por usted o asignados a usted. Puede empezar a consumir un objeto de aprendizaje o regresar a uno desde este widget.
 
-**Calendario de aprendizaje**: este widget muestra la lista de actividades de aprendizaje planificadas y futuras de su organización por trimestre. El estado de inscripción en es Inscrito si se ha inscrito en un curso específico.
+**Calendario de aprendizaje**: este widget muestra la lista de aprendizaje previsto y planificado en su empresa en la empresa por trimestres. El estado de inscripción es Inscrito, si se ha inscrito en un determinado curso.
 
-**Aprendizaje recomendado**: En este widget, puede ver todos los cursos recomendados para su perfil por el administrador o responsable de su empresa. Puede hacer clic en estos vínculos para desplazarse a las páginas del curso.
+**Aprendizaje recomendado**: en este widget, puede ver todos los cursos recomendados para su perfil por el administrador o el responsable de su empresa. Puede hacer clic en estos vínculos para navegar a las páginas del curso.
 
-**Mis logros**: obtiene insignias después de completar los cursos. Estas insignias se muestran junto a su perfil en la parte superior de la página. Haga clic en Insignias para obtener información específica. Para obtener más información sobre insignias, consulte  [distintivos](badges.md) función.
+**Mis logros**: obtendrá insignias después de completar los cursos. Estas insignias se muestran junto a su perfil en la parte superior de la página. Haga clic en Insignias para ver información específica. Para obtener más información sobre insignias, consulte  [distintivos](badges.md) función.
 
-Este widget también muestra los puntos de interacción del alumno. Haga clic en el vínculo Interacción para ver los puntos detallados y otras funciones de Interacción. Para obtener más información sobre los puntos de interacción y la tabla de posiciones, consulte  [Interacción](gamification.md) función.
+Este widget también muestra los puntos de interacción para el alumno. Haga clic en el vínculo Interacción para ver los puntos con más información y otras funciones de Interacción. Para obtener más información sobre los puntos de interacción y la tabla de posiciones, consulte  [Interacción](gamification.md) función.
 
-Si accede a Learning Manager mediante una tableta iPad o Android, consulte el tema sobre la aplicación iPad y Android en esta página.
+Si accede a Learning Manager desde una tableta iPad o Android, consulte el tema Aplicaciones de iPad y Android en esta página.
 
-## Cronología de aprendizaje {#learningtimeline}
+## Línea de tiempo de aprendizaje {#learningtimeline}
 
-La línea de tiempo de aprendizaje muestra a los alumnos la programación de los cursos que deben completar. En esta sección, puede ver las alertas de todos los cursos, las certificaciones y los programas de aprendizaje en orden ascendente de las fechas límite. Las fechas límite para cada una de sus actividades de aprendizaje se muestran en el panel izquierdo.
+La línea de tiempo de aprendizaje muestra a los alumnos la programación con los cursos que deben realizar. En esta sección, podrá ver las alertas para todos los cursos, certificaciones y programas de aprendizaje en orden ascendente de las fechas límite. Las fechas límite en cada una de sus actividades de aprendizaje se muestran en el panel izquierdo.
 
-Haga clic en cada objeto de aprendizaje en el icono de la izquierda para ver la información correspondiente como tarjeta del curso en el panel derecho. Puede hacer clic en el icono del curso/programa de aprendizaje/certificación para ver la información completa de cada objeto de aprendizaje.
+Haga clic en cada uno de los objetos de aprendizaje en el icono a la izquierda para ver la información correspondiente como tarjetas de cursos en el panel derecho. Puede hacer clic en el icono del curso/programa de aprendizaje/certificación para ver la información completa de cada objeto de aprendizaje.
 
-Pase el ratón sobre el área de la cronología para ver la barra de desplazamiento en el lado derecho. Utilice la barra de desplazamiento para desplazarse hacia arriba o hacia abajo y ver más alertas.
+Deslice el ratón sobre el área de la línea de tiempo para ver la barra de desplazamiento del lado derecho. Utilice la barra de desplazamiento para ir hacia arriba o hacia abajo y ver más alertas.
 
 ## Usuarios de aplicaciones de iPad y Android {#ipadandandroidappusers}
 
@@ -62,18 +62,18 @@ Para desplazarse a las funciones de aprendizaje y catálogo, pulse el icono **Me
 
 *Elementos de la lista desplegable Menú*
 
-### Acceder a la aplicación sin conexión
+### Acceso a la aplicación sin conexión
 
-Puede acceder a la aplicación de Learning Manager sin conexión en tabletas iPad y Android. Descargue y realice cursos en modo sin conexión, y vuelva a sincronizar el contenido con la aplicación en línea cuando se conecte a la red.
+Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y Android. Descargue y realice cursos en modo sin conexión; vuelva a sincronizar el contenido con la aplicación en línea cuando se conecte a la red.
 
-1. Toque el menú desplegable en la parte superior y toque la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en mosaicos.
-1. Toque el icono de descarga situado en la parte inferior de cada icono de objeto de aprendizaje para descargar el contenido de aprendizaje.
+1. Toque el menú desplegable en la parte superior y toque la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en iconos.
+1. Toque el icono de descarga en la parte inferior de cada icono de objeto de aprendizaje para descargar el contenido de aprendizaje.
 
 ![](assets/download-ipad.png)
 
 *Descargar los cursos*
 
-1. Cuando esté en línea, aparecerá un mensaje en una barra en la parte superior de la aplicación para comprobar si desea sincronizar su contenido en línea. Pulse la barra de color rojo si la respuesta es sí. Una barra de color verde indica que el contenido está sincronizado con la aplicación en línea.
+1. Cuando está en línea, aparece un mensaje en una barra situada en la parte superior de la aplicación para comprobar si desea sincronizar el contenido en línea. Presione la barra en rojo si su respuesta es sí. Una barra de color verde indica que el contenido está sincronizado con la aplicación en línea.
 
 <!--### Track device storage
 

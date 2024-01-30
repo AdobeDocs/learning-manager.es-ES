@@ -6,7 +6,7 @@ contentowner: admin
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 +++¿Cómo puede un responsable acceder a los cursos?
 
-En el modo de inicio de sesión Responsable, no podría acceder a los cursos. Debe cambiar su inicio de sesión al modo Alumno para poder realizar cursos.
+En el modo de inicio de sesión Responsable, no es posible acceder a cursos. Debe cambiar su sesión al modo Alumno para participar en los cursos.
 
 +++
 
 +++¿Cómo puedo enviar comentarios sobre el N3 a mis alumnos?
 
-Los administradores pueden activar o desactivar la provisión de comentarios de L3 para los cursos adecuados en función de los requisitos de la organización. Si el curso requiere comentarios sobre el N3 del responsable, este recibe una notificación cuando el alumno completa ese tipo de curso.
+Los administradores pueden activar/desactivar la opción de comentarios sobre el N3 para los cursos adecuados en función de los requisitos de su empresa. Si el curso exige comentarios sobre el N3 del responsable, este recibe una notificación en el momento en que el alumno completa este tipo de curso.
 
 1. Haga clic en Notificaciones en el panel izquierdo.
 1. Haga clic en la ficha Tareas pendientes.
@@ -38,32 +38,32 @@ Puede ver el icono de notificaciones resaltado con el número de mensajes pendie
 
 +++¿Puedo asignar varios alumnos a cursos e importar alumnos?
 
-Solo puede nominar a los miembros de su equipo a cursos. Solo los administradores pueden asignar cursos en bloque a los alumnos e importar un conjunto de alumnos.
+Solo puede nominar a los miembros de su equipo a cursos. Solo los administradores pueden asignar cursos de manera masiva a los alumnos e importar grupos de alumnos.
 
 En el panel izquierdo de la aplicación, haga clic en Notificaciones.
 
-1. Aparecerá una lista detallada de notificaciones.
-1. En la ficha de tareas pendientes, elija un curso para el que desee asignar miembros de su equipo y haga clic en Nominar.\
+1. Aparece una lista detallada de notificaciones.
+1. En la ficha de tareas pendientes, elija el curso que desee asignar a los miembros de su equipo y haga clic en Nominar.\
    Aparece el cuadro de diálogo Nominación del curso con el número de puestos disponibles para el curso.
-1. Haga clic en Nominar en el cuadro de diálogo.
-1. Seleccione la casilla de verificación junto a cada uno de los miembros del equipo para la nominación y haga clic en Hecho.\
+1. Haga clic en Nominar en el diálogo.
+1. Seleccione la casilla de verificación junto a cada uno de sus miembros para nominarlos y haga clic en Listo.\
    Aparece una ventana emergente en la parte superior de la aplicación como confirmación.
 
 +++
 
-+++¿Puedo configurar notificaciones para los alumnos? ¿Cómo?
++++¿Puedo configurar notificaciones para los alumnos? ¿Cómo lo hago?
 
-Al asignar cursos a los alumnos, estos reciben una notificación a través de la aplicación Learning Manager.
+Al asignar cursos a los alumnos, recibirá una notificación mediante la aplicación Learning Manager.
 
-El administrador de su organización configura las notificaciones.
+El administrador de su empresa configura las notificaciones.
 
 +++
 
-+++¿Puedo ver las actividades de los alumnos durante un período específico? ¿Cómo?
++++¿Puedo ver las actividades de los alumnos durante un período específico? ¿Cómo lo hago?
 
 Sí. Puede ver el estado de los alumnos con sus cursos dentro de un período específico creando informes basados en el estado de finalización del curso de los alumnos dentro de un intervalo de fechas determinado.
 
-Puede hacer clic en el icono desplegable para modificar el intervalo de fechas, guardar y ver los informes.
+Puede hacer clic en el icono desplegable para modificar el intervalo de fechas y guardar y ver informes.
 
 +++
 
@@ -77,7 +77,7 @@ Para obtener más información, consulte [Informes](feature-summary/reports.md) 
 
 +++¿Cómo puedo ver las solicitudes pendientes de los miembros de mi equipo?
 
-Cuando un miembro del equipo solicita un curso, puede ver el icono de notificaciones resaltado con el número de mensajes pendientes.
+Cuando un miembro de su equipo solicite un curso, podrá ver el icono de notificaciones resaltado con el número de mensajes pendientes.
 
 Para ver las solicitudes pendientes, haga clic en este icono de notificación.
 
@@ -85,7 +85,7 @@ Para ver las solicitudes pendientes, haga clic en este icono de notificación.
 
 +++¿Cómo añado o modifico informes?
 
-Puede agregar nuevos informes si selecciona Informes y, a continuación, hace clic en Agregar en la esquina superior derecha de la página.
+Puede añadir nuevos informes si selecciona Informes y, a continuación, hace clic en Añadir en la esquina superior derecha de la página.
 
 Modificar / Cambiar el tamaño de informes
 
@@ -93,7 +93,7 @@ Para modificar un informe, haga clic en la flecha desplegable en la esquina supe
 
 Para cancelar los cambios, haga clic en Restablecer.
 
-Para cambiar el tamaño del informe, haga clic en Cambiar tamaño y elija una de las dos opciones: 1×1 es pequeño y 1×2 es grande.
+Para cambiar el tamaño del informe, haga clic en Redimensionar y elija una de las dos opciones: 1×1 es pequeño y 1×2 es grande.
 
 Para obtener más información, consulte  [Función Informes.](feature-summary/reports.md)
 
@@ -103,19 +103,19 @@ Para obtener más información, consulte  [Función Informes.](feature-summary/r
 
 Puede ver los siguientes tipos de informes:
 
-* Competencias asignadas y obtenidas
-* Curso inscrito y completado
+* Competencias asignadas y logradas
+* Cursos en los que me inscribí y que finalicé
 * Eficacia de los cursos
-* Programas de aprendizaje inscritos y completados
+* Programas de aprendizaje en los que me inscribí y que finalicé
 * Tiempo de aprendizaje dedicado a cada curso
 * Tiempo de aprendizaje dedicado por trimestre
-* Informes de certificación
+* Informes del certificado
 
-Puede ver todos estos informes con un intervalo de fechas.
+Todos estos informes con un intervalo de fechas.
 
 +++
 
-+++¿Puedo ver todos los cursos disponibles? ¿Cómo?
++++¿Puedo ver todos los cursos disponibles? ¿Cómo lo hago?
 
 Puede cambiar a la función de alumno para ver todos los cursos disponibles. Consulte la  [Cursos](../learners/feature-summary/courses.md) para obtener más información
 
@@ -123,21 +123,21 @@ Puede cambiar a la función de alumno para ver todos los cursos disponibles. Con
 
 +++¿Cómo obtengo acceso a la función de responsable?
 
-El administrador de su empresa le asignará la función de responsable en función de sus requisitos y designación en su organización. Al iniciar sesión, verá la página principal de la función Responsable en Adobe Learning Manager.
+El administrador de su empresa le asignará la función de responsable si cumple con determinados requisitos y su empresa lo designa. Al iniciar sesión, verá la página principal de la función Responsable en Adobe Learning Manager.
 
 +++
 
 +++ ¿Cómo inicio sesión por primera vez en el Administrador de aprendizaje?
 
-Cuando utilice Learning Manager por primera vez, tiene tres opciones:
+Cuando utiliza Learning Manager por primera vez, tiene tres opciones:
 
-* Inicie sesión con Adobe ID y contraseña. Si no tiene un Adobe ID, puede crear uno haciendo clic en el inicio de sesión con el vínculo de Adobe ID y siguiendo las instrucciones.
+* Inicie sesión con el Adobe ID y la contraseña. Si no dispone de un Adobe ID, puede crear uno. Para ello, haga clic en el inicio de sesión con el vínculo de Adobe ID y siga las instrucciones.
 * Si aún no ha creado una cuenta en Adobe Learning Manager, haga clic en Crear cuenta en la pantalla de inicio de sesión para crear su cuenta.
 
 +++
 
 +++¿Cómo asigno cursos a los miembros de mi equipo?
 
-Los responsables pueden nominar directamente a los miembros del equipo para un curso concreto solo cuando un administrador ha solicitado la nominación del responsable para ese curso.
+Los responsables pueden nominar directamente a los miembros de un equipo a cursos concretos solo cuando un administrador ha especificado la nominación del responsable a ese curso.
 
 +++

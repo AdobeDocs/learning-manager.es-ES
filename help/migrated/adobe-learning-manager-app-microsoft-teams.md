@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
@@ -31,7 +31,7 @@ El administrador de MS Teams de su Centro de administración debe fijar la aplic
 
 ## La función de administrador de integración aprueba la aplicación para equipos
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. En la aplicación Integration Administrator, seleccione **[!UICONTROL Aplicaciones]** > **[!UICONTROL Aplicaciones destacadas]** y seleccione **[!UICONTROL Aplicación ALM Teams]**.
 
@@ -55,9 +55,9 @@ Siga estos pasos:
 
 Ahora, los usuarios pueden acceder a la aplicación ALM en MS Teams.
 
-## El administrador de Microsoft Azure aprueba el permiso para la aplicación de ALM en el panel de Azure
+## El administrador de Microsoft Azure aprueba el permiso para la aplicación ALM en el panel de Azure
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Como administrador de Azure, vaya a la sección Administrar Azure Active Directory en el panel de Azure.
 
@@ -100,9 +100,9 @@ Siga estos pasos:
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
    *Acceso concedido*
 
-## El administrador de MS Teams crea una normativa para la aplicación de Teams
+## El administrador de MS Teams crea una política para la aplicación Teams
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Como administrador de MS Teams, en el Centro de administración, cree una normativa para añadir la aplicación Teams a la aplicación Teams de los alumnos.
 

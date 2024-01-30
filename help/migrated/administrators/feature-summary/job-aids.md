@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Ayudas de trabajo para administradores en Learning Manager.
 
-Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener ayuda para realizar cualquier actividad o tarea en una organización.
+Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
 
-Las ayudas de trabajo se pueden consumir de forma independiente o junto con el consumo de cursos en Learning Manager.
+Ayudas de trabajo se puede utilizar de modo independiente o junto con la realización de cursos en Learning Manager.
 
-Los administradores de una empresa pueden gestionar la asignación de ayudas de trabajo a los alumnos y también retirar o volver a publicar las ayudas de trabajo.
+Los administradores de una empresa pueden gestionar las ayudas de trabajo para los alumnos, así como retirar y volver a publicarlas.
 
-## Retirar/volver a publicar ayudas de trabajo {#withdrawrepublishjobaids}
+## Retirar o volver a publicar ayudas de trabajo {#withdrawrepublishjobaids}
 
 En Inicio de sesión como administrador, haga clic en **[!UICONTROL Ayudas de trabajo]** en el panel izquierdo para acceder a las ayudas de trabajo.
 
@@ -32,7 +32,7 @@ Puede retirar una ayuda de trabajo publicada haciendo clic en el icono de config
 
 *Administrar ayudas de trabajo*
 
-Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirado. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publicar. Haga clic en Previsualizar en configuración para previsualizar la ayuda de trabajo en el reproductor.
+Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirado. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publicar. Haga clic en la configuración de vista previa para previsualizar la ayuda de trabajo en el reproductor.
 
 ## Administrar asignaciones de ayudas de trabajo {#managejobaidassignments}
 
@@ -67,6 +67,6 @@ En **[!UICONTROL Publicado]** , haga clic en el icono de configuración junto a 
 
 +++Cómo retirar una ayuda de trabajo?
 
-En **[!UICONTROL Publicado]** , haga clic en el icono de configuración junto a una ayuda de trabajo. Haga clic en **[!UICONTROL Retirar]**. La ayuda de trabajo ya no aparece en la pestaña Publicadas . Para ver la ayuda de trabajo retirada, haga clic en la pestaña Retirado .
+En **[!UICONTROL Publicado]** , haga clic en el icono de configuración junto a una ayuda de trabajo. Haga clic en **[!UICONTROL Retirar]**. La ayuda de trabajo ya no aparecerá en la ficha Publicadas. Para ver la ayuda de trabajo retirada, haga clic en la ficha Retirado.
 
 +++

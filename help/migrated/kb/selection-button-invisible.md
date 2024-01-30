@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 Debido a la falta de botones de opción, un administrador no puede realizar lo siguiente (no es una lista exhaustiva):
 
 * Asignar o quitar funciones.
-* Envía un correo de bienvenida.
+* Enviar un correo de bienvenida.
 * Eliminar un usuario.
 
 ## Causa
 
-El problema se produce debido a temas incorrectos en la cuenta.
+El problema se debe a temas incorrectos en la cuenta.
 
 ![](assets/radio-buttons.png)
 
@@ -32,9 +32,9 @@ El problema se produce debido a temas incorrectos en la cuenta.
 
 ## Resolución
 
-Vuelva a cargar los temas y corrija el aspecto de los botones de opción. Realice los siguientes pasos:
+Vuelva a cargar los temas y corrija el aspecto de los botones de opción. Efectúe los pasos siguientes:
 
-1. Como administrador, haga clic en **[!UICONTROL Branding]**.
+1. Como administrador, haga clic en **[!UICONTROL Marca]**.
 1. En la **Temas** , haga clic en **[!UICONTROL Editar].**
 1. Elija cualquier tema y guarde los cambios.
 

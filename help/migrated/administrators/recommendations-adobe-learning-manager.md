@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: Recommendations en Adobe Learning Manager
+title: Recomendaciones en Adobe Learning Manager
 description: Recommendations en Adobe Learning Manager.
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 
 
-# Resumen
+# Información general
 
-Adobe Learning Manager ha introducido un nuevo y mejorado sistema de recomendaciones para los cursos. Esta función de recomendaciones utiliza algoritmos de IA y los intereses de los usuarios, como productos, funciones y niveles, para ofrecer recomendaciones de contenido personalizadas.
+Adobe Learning Manager ha introducido un nuevo y mejorado sistema de recomendaciones en los cursos. Esta función de recomendaciones utiliza algoritmos de IA y los intereses de los usuarios, como productos, funciones y niveles, para ofrecer recomendaciones de contenido personalizadas.
 
-El nuevo sistema de recomendaciones le permite crear parámetros personalizados que los alumnos pueden seleccionar para recibir recomendaciones personalizadas. Estas recomendaciones se mostrarán como cursos, rutas de aprendizaje y certificaciones para los alumnos en su fuente de la página de inicio.
+El nuevo sistema de recomendaciones le permite crear parámetros personalizados que los alumnos pueden seleccionar para recibir recomendaciones personalizadas. Estas recomendaciones se mostrarán como cursos, rutas de aprendizaje y certificaciones a los alumnos en su fuente de la página de inicio.
 
 Para empezar a utilizar esta función, debe activarla en la aplicación de administración.
 
@@ -23,7 +23,7 @@ Para empezar a utilizar esta función, debe activarla en la aplicación de admin
 
 Cargue el curso y los datos de usuario (opcional).
 
-Realice los cambios en tiempo real.
+Lleve a cabo los cambios en tiempo real.
 
 Después de activar y configurar las recomendaciones, cargue los datos en Adobe Learning Manager para que las recomendaciones empiecen a funcionar. Estos datos incluyen
 
@@ -38,7 +38,7 @@ El núcleo del motor de recomendaciones se basa en el nuevo **Algoritmo de clasi
 
 El nuevo motor de recomendaciones basado en IA de Learning Manager ofrece a los líderes de aprendizaje un **basado en parámetros** sistema de recomendaciones para crear una experiencia personalizada para los alumnos.
 
-Los parámetros son:**Productos/temas, funciones y niveles**. Además, se puede cambiar el nombre de estos parámetros para adaptarlos a sus necesidades. Así, los &#39;productos&#39; pueden convertirse en &#39;temas&#39; o los &#39;roles&#39; pueden convertirse en &#39;región&#39;.
+Los parámetros son: **Productos/temas, funciones y niveles**. Además, se puede cambiar el nombre de estos parámetros para adaptarlos a sus necesidades. Así, los &#39;productos&#39; pueden convertirse en &#39;temas&#39; o los &#39;roles&#39; pueden convertirse en &#39;región&#39;.
 
 ## Configurar el sistema de recomendaciones
 

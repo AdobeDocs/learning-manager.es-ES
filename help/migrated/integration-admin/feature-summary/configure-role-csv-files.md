@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Administrar funciones personalizadas mediante archivos CSV
-description: El administrador de integración puede añadir varias funciones personalizadas a su cuenta en bloque mediante CSV, así como asignar las mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
+description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Administrar funciones personalizadas mediante archivos CSV
 
-El administrador de integración puede añadir varias funciones personalizadas a su cuenta en bloque mediante CSV, así como asignar las mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
+El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 
-Puede configurar funciones mediante los conectores FTP y Box de Learning Manager.
+Puede configurar las funciones a través de los conectores de FTP y Box de Learning Manager.
 
-Después de iniciar sesión en su cuenta de almacenamiento de Box o ExaVault, el administrador de integración puede añadir los siguientes archivos CSV a la cuenta:
+Después de iniciar sesión en su cuenta de almacenamiento de Box o ExaVault, el administrador de integración puede añadir los siguientes CSV a la cuenta:
 
 * role.csv
 * user_role.csv
 
-Para empezar, descargue los archivos CSV y cambie los valores según sus necesidades.
+En primer lugar, descargue el archivo CSV y cambie los valores en función de sus requisitos.
 
 **role.csv**
 [Archivo de muestra: role.csv](assets/role.csv) [Archivo de muestra: user_role.csv](assets/user-role.csv)
@@ -32,7 +32,7 @@ Para empezar, descargue los archivos CSV y cambie los valores según sus necesid
  <tbody>
   <tr>
    <td>
-    <p><b>Nombre de columna</b></p></td>
+    <p><b>Nombre de la columna</b></p></td>
    <td>
     <p><b>Descripción</b></p></td>
    <td>
@@ -42,7 +42,7 @@ Para empezar, descargue los archivos CSV y cambie los valores según sus necesid
    <td>
     <p>Nombre</p></td>
    <td>
-    <p>Identifique la función en el archivo CSV para asignarla a los usuarios.</p></td>
+    <p>Identifique la función en el CSV que se asignará a los usuarios.</p></td>
    <td>
     <p>Autor de ventas</p></td>
   </tr>
@@ -54,15 +54,15 @@ Para empezar, descargue los archivos CSV y cambie los valores según sus necesid
    <td>
     <p>COMPLETO</p>
     <p>NINGUNO</p>
-    <p>ESCRIBIR | INFORME</p>
-    <p>Los nombres de columna se corresponderán con nombres de tipos de entidad como Catálogo, Curso, Plan de aprendizaje, etc.</p>
-    <p>En el CSV estará presente una columna por cada tipo de entidad. Las entidades para las que no se conceda permiso deben incluirse con un valor NINGUNO</p></td>
+    <p>ESCRITURA | INFORME</p>
+    <p>Los nombres de columna se corresponden con los nombres de tipos de entidad, como Catálogo, Curso, Plan de aprendizaje, etc.</p>
+    <p>En el CSV habrá una columna para cada tipo de entidad. Las entidades para las que no sea necesario dar ningún permiso deben incluirse con el valor NINGUNO.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Especificador de ámbito de catálogo</p></td>
+    <p>Especificador de ámbito del catálogo</p></td>
    <td>
-    <p>Un solo nombre de catálogo o una lista separada por PIPE (|) de nombres de catálogo que determinan el ámbito de esta función.</p></td>
+    <p>Nombre de catálogo o lista separada por BARRAS VERTICALES (|) de los nombres de catálogo que determinan el ámbito de esta función.</p></td>
    <td>
     <p>Catálogo de ventas | Catálogo general</p></td>
   </tr>
@@ -70,32 +70,32 @@ Para empezar, descargue los archivos CSV y cambie los valores según sus necesid
    <td>
     <p>Especificador de ámbito de grupo de usuarios</p></td>
    <td>
-    <p>Grupo de usuarios Nombre y valor de atributo que determinan el ámbito de los usuarios de esta función.</p>
-    <p>Consulte los ámbitos en la sección siguiente.</p></td>
+    <p>Nombre del atributo del grupo de usuarios y valor que determinan el ámbito de los usuarios de esta función.</p>
+    <p>Consulte la sección siguiente para obtener información sobre los ámbitos.</p></td>
    <td>
-    <p>location=Londres</p></td>
+    <p>location=London</p></td>
   </tr>
   <tr>
    <td>
     <p>Descripción</p></td>
    <td>
-    <p>Descripción opcional fácil de usar para ayudar a comprender el propósito de la función y la referencia posterior.</p></td>
+    <p>Descripción sencilla opcional para facilitar la comprensión del objetivo de la función y para futura referencia.</p></td>
    <td>
-    <p>Acceso completo del autor a los objetos de aprendizaje en el catálogo de ventas</p></td>
+    <p>Acceso completo del autor a los objetos de aprendizaje del catálogo de ventas</p></td>
   </tr>
  </tbody>
 </table>
 
 Todas las columnas excepto Descripción son obligatorias.
 
-## Definir ámbito de grupos de usuarios {#definescopeofusergroups}
+## Definir el ámbito de los grupos de usuarios {#definescopeofusergroups}
 
-Puede especificar ámbitos para grupos de usuarios para varios tipos de grupos de las siguientes maneras:
+Puede especificar los ámbitos de los grupos de usuarios para varios tipos de grupos, del modo siguiente:
 
-* Nombre del grupo de usuarios tal como está (por ejemplo, Todos los autores, Mi grupo personalizado)
-* Atributo y valor de hoja (por ejemplo, Department=HR)
-* Grupos de perfiles de autorregistro (self_registration=profilename)
-* Grupos de perfiles de registro externos (ext_registration=profilename)
+* Nombre del grupo de usuarios tal cual (por ejemplo, Todos los autores, Mi grupo personalizado)
+* Valor y atributo de la hoja (por ejemplo, Department=HR)
+* Grupos de perfiles de registro automático (self_registration=profilename)
+* Grupos de perfiles de registro externo (ext_registration=profilename)
 * El equipo de un responsable de informes directos (manager_direct=`<emailid>`)
 * Una organización completa del responsable (manager_org=`<emailid>`)
 
@@ -105,7 +105,7 @@ Puede especificar ámbitos para grupos de usuarios para varios tipos de grupos d
  <tbody>
   <tr>
    <td>
-    <p><b>Nombre de columna</b></p></td>
+    <p><b>Nombre de la columna</b></p></td>
    <td>
     <p><b>Descripción</b></p></td>
    <td>
@@ -113,28 +113,28 @@ Puede especificar ámbitos para grupos de usuarios para varios tipos de grupos d
   </tr>
   <tr>
    <td>
-    <p>Id</p></td>
+    <p>ID</p></td>
    <td>
-    <p>ID de correo electrónico del usuario al que se va a asignar una función configurable.</p></td>
+    <p>ID de correo electrónico del usuario al que se asignará una función configurable.</p></td>
    <td>
-    <p>Si el usuario ya tiene asignada una función configurable, la función se reemplaza por una nueva función especificada en el archivo CSV. No se notifica ningún error.</p></td>
+    <p>Si el usuario ya tiene una función configurable asignada, la función se sustituye por otra función nueva especificada en el CSV. No se genera ningún error.</p></td>
   </tr>
   <tr>
    <td>
-    <p>CustomRole</p></td>
+    <p>Función personalizada</p></td>
    <td>
-    <p>Nombre de la función configurable que se va a asignar al usuario</p></td>
+    <p>Nombre de la función configurable que se asignará al usuario.</p></td>
    <td>
-    <p>El nombre de la función debe ser una función existente tal y como se especifica en el CSV. Las funciones creadas por el administrador a través de la interfaz de usuario se pueden utilizar aquí.</p></td>
+    <p>El nombre de la función debe corresponder a una función existente especificada en el CSV. Aquí se pueden usar las funciones creadas por el administrador a través de la IU.</p></td>
   </tr>
  </tbody>
 </table>
 
 **Funciones de ámbito completo**
 
-Cada vez que se asigna el permiso completo para cualquiera de las siguientes funciones (funciones de nivel de cuenta), el ámbito de grupo de usuarios y el ámbito de catálogo se toman automáticamente como COMPLETOS, ya que el usuario no puede tener acceso limitado a estas funciones.
+Siempre que se asigna permiso completo a cualquiera de las funciones siguientes (del nivel Cuenta), las opciones Ámbito del grupo de usuarios y Ámbito del catálogo se consideran que tienen permiso COMPLETO, puesto que el usuario no puede tener acceso limitado a dichas funciones.
 
-Si en el CSV se proporciona algún nombre de catálogo o de grupo de usuarios, se sobrescribe con el permiso COMPLETO.
+Si en el archivo CSV se proporcionan nombres de catálogos o de grupos de usuarios, se sobrescriben mediante el permiso COMPLETO.
 
 * Anuncios
 * Aptitudes
@@ -143,47 +143,47 @@ Si en el CSV se proporciona algún nombre de catálogo o de grupo de usuarios, s
 * Planes de aprendizaje
 * Plantillas de correo electrónico
 
-## Añadir los archivos CSV de funciones en la cuenta {#addtherolecsvsintheaccount}
+## Añadir CSV de función a la cuenta {#addtherolecsvsintheaccount}
 
-En su cuenta de Box, elija **Importar > usuario > interno** y cargue los archivos: role.csv y user_role.csv.
+En la cuenta de Box, seleccione **Importar > usuario > interno** y cargue los archivos role.csv y user_role.csv.
 
 * Los archivos CSV de funciones personalizadas se deben copiar en la carpeta &quot;import->user->internal->user_role&quot;
 * El archivo CSV de usuarios debe copiarse en la carpeta &quot;import->user->internal&quot;.
 
-Ambos archivos CSV deben cargarse solo a través de Box o FTP y no pueden cargarse a través de la interfaz de usuario.
+Ambos CSV se deben cargar únicamente a través de Box o FTP, no mediante la IU.
 
 >[!NOTE]
 >
->El archivo CSV de usuarios es obligatorio, pero los archivos CSV de funciones personalizadas son opcionales. Todos los archivos presentes se procesan y los demás se omiten.
+>El archivo CSV de usuarios es obligatorio, pero los archivos CSV de funciones personalizadas son opcionales. Se procesan todos los archivos que están presentes y se omiten otros.
 
-Los administradores de la interfaz de usuario no pueden ver las funciones personalizadas creadas con el archivo csv. Estos roles no se relacionarán ni se verán afectados por los roles creados (o que se vayan a crear posteriormente) por la interfaz de usuario.
+Las funciones personalizadas que se creen con el archivo CSV no están visibles para los administradores de la IU. Estas funciones no están relacionadas con las funciones creadas (o que se vayan a crear) con la IU, ni se ven afectadas por ellas.
 
 Las funciones personalizadas creadas por un archivo .csv se pueden administrar completamente a través del propio archivo .csv. Esto incluye agregar, modificar y eliminar roles.
 
-Las funciones asignadas se pueden revocar eliminando entradas de asignación del archivo csv user_role. Sin embargo, esto no afecta a las tareas realizadas a través de la IU de administración.
+Las funciones asignadas se pueden revocar eliminando las entradas de asignación de user_role csv. Ahora bien, esto no afecta a las asignaciones realizadas desde la interfaz de usuario del administrador.
 
-Para asignar y revocar una función personalizada, actualice los archivos csv.
+Para asignar y revocar una función personalizada, cargue los archivos CSV.
 
-## Sincronización de funciones personalizadas {#synchronizationofcustomroles}
+## Sincronización de las funciones de personalizadas {#synchronizationofcustomroles}
 
-Después de que el administrador de integración cargue los archivos CSV basados en funciones en el almacenamiento del conector, el administrador puede habilitar la sincronización en los archivos CSV. Cada vez que se actualiza, añade o elimina una función personalizada en los archivos CSV, el administrador puede sincronizar la información de los archivos y actualizar la lista de funciones.
+Una vez que el administrador de integración carga los CSV basados en funciones en el almacenamiento del conector, el administrador puede habilitar la sincronización con los CSV. Cada vez que se actualiza, se añade o se elimina una función personalizada en los archivos CSV, el administrador puede sincronizar la información en los archivos y actualizar la lista de funciones.
 
 En la página Introducción del panel Administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Orígenes de datos]**.
 
-En la sección Ajustes de sincronización , habilite la opción **[!UICONTROL Habilitar la sincronización automática]**.
+En la sección Configuración de sincronización, habilite la opción **[!UICONTROL Activar sincronización automática]**.
 
 ![](assets/sync-settings.png)
 
 *Seleccione la opción Activar sincronización automática*
 
-Al seleccionar esta opción, puede programar la hora de sincronización en el momento exacto que especifique en el campo Hora de sincronización. Si especifica la hora de sincronización como 12:00 a.m., las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
+Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si configura las 12:00 h como hora de sincronización, las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
 
-Si desea sincronizar los datos a petición, haga clic en **[!UICONTROL Sincronizar ahora]**.
+Si desea sincronizar los datos bajo demanda, haga clic en **[!UICONTROL Sincronizar ahora]**.
 
-## Restricciones al configurar roles {#constraintswhileconfiguringroles}
+## Restricciones en la configuración de funciones {#constraintswhileconfiguringroles}
 
-En cualquier cuenta, el nombre de una función debe ser único. Por lo tanto, una función creada a través de la interfaz de usuario o CSV no debe tener el mismo nombre que otra función ya creada mediante la interfaz de usuario o CSV.
+En cualquier cuenta, el nombre de una función debe ser exclusivo. Por tanto, una función creada mediante la IU o un CSV no debe tener el mimo nombre que otra función ya creada por la IU o un CSV.
 
-En líneas similares, en la IU de administración, no se puede asignar a un usuario una función configurable creada mediante CSV, ya que estas funciones no estarán disponibles.
+De modo similar, en la IU del administrador, no es posible asignar a un usuario una función configurable que se haya creado mediante CSV, ya que estas funciones no estarán disponibles.
 
-Sin embargo, el archivo CSV de asignación de usuarios se puede utilizar para asignar funciones creadas por la interfaz de usuario.
+Sin embargo, se puede utilizar un CSV de asignación para asignar funciones creadas por la IU.

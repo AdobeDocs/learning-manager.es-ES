@@ -1,37 +1,37 @@
 ---
-title: Inscripción múltiple en Adobe Learning Manager
-description: Como administrador de cuentas, una de sus principales tareas es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, posiblemente, crear sesiones para grupos de usuarios específicos.
+title: Varias inscripciones en Adobe Learning Manager
+description: Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
 source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
-# Inscripción múltiple en Adobe Learning Manager
+# Varias inscripciones en Adobe Learning Manager
 
-En Adobe Learning Manager, cada curso puede tener instancias diferentes. Como administrador de cuentas, una de sus principales tareas es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, posiblemente, crear sesiones para grupos de usuarios específicos.
+En Adobe Learning Manager, cada curso puede presentar diferentes instancias. Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
 
-Antes de la versión de julio de 2023, cuando un administrador inscribía a un alumno, solo podía inscribirse en una instancia. Si un alumno deseara realizar un curso en instancias diferentes, el administrador crearía muchos cursos, uno para cada instancia.
+Antes de la versión de julio de 2023, cuando un administrador inscribía a un alumno, solo podía hacerlo en una instancia. Si un alumno deseaba realizar un curso en diferentes instancias, el administrador debía crear muchos cursos, uno para cada instancia.
 
-La función de inscripción múltiple de Adobe Learning Manager ayuda a un administrador a evitar estos escenarios.
+La función Varias inscripciones de Adobe Learning Manager ayuda al administrador a evitar este tipo de situaciones.
 
-## Qué es la inscripción múltiple
+## ¿Qué es la función Varias inscripciones?
 
-La inscripción múltiple inscribe a un alumno varias veces en un curso a través de varias instancias disponibles.  Un alumno puede inscribirse en varias instancias de curso, independientemente del estado en el que se haya inscrito, se haya completado o aún no se haya iniciado. Cuando el autor habilita la [!UICONTROL Inscripción múltiple] , un alumno puede inscribirse en varias instancias del curso.
+La función Varias inscripciones permite que un alumno se inscriba varias veces en un curso a través de las diversas instancias disponibles.  Un alumno puede inscribirse en varias instancias de curso, independientemente del estado en el que se haya inscrito, se haya completado o aún no se haya iniciado. Cuando el autor activa la función [!UICONTROL Varias inscripciones], un alumno puede inscribirse en varias instancias del curso.
 
 ![imagen de inscripción múltiple](assets/multi-enrollment-author.png)
 *Iniciar inscripción múltiple desde configuración*
 
-Se puede realizar un seguimiento individual del progreso de cada instancia y se puede exportar un informe para realizar un seguimiento del progreso de cada instancia.
+El progreso de cada instancia puede seguirse individualmente, y puede exportarse un informe para seguir el progreso de cada instancia.
 
 ## Aspectos importantes
 
-* La inscripción múltiple solo se aplica cuando un curso tiene varias instancias.
-* Una vez activada la opción de inscripción múltiple y inscritos los usuarios en varias instancias, se crean nuevas filas para cada curso en el informe Transcripciones de alumnos (una fila para cada instancia y cada alumno)
-* Si se ha configurado la automatización de informes que solo prevé una fila por curso, debe realizar los ajustes necesarios en la automatización de informes antes de activar la función Inscripción múltiple.
+* La función Varias inscripciones solo es aplicable cuando un curso tiene varias instancias.
+* Una vez que se haya activado la función Varias inscripciones y los usuarios se hayan inscrito en varias instancias, se crearán nuevas filas para cada curso en el informe Transcripciones de alumnos (una fila para cada instancia y cada alumno).
+* Si se ha configurado la automatización de informes que solo prevé una fila por curso, debe llevar a cabo los ajustes necesarios en la automatización de informes antes de activar la función Varias inscripciones.
 
-## Cómo habilitar la inscripción múltiple
+## ¿Cómo se activa la función Varias inscripciones?
 
 1. Inicie sesión como autor en su cuenta de Adobe Learning Manager.
 1. Seleccione el curso en el que desea que los alumnos se inscriban varias veces.
@@ -46,9 +46,9 @@ Se puede realizar un seguimiento individual del progreso de cada instancia y se 
 
 ## Vista de alumno
 
-Las inscripciones múltiples son útiles cuando un alumno desea inscribirse en un curso de clase o clase virtual, o bien desea completar un curso de nuevo antes de pasar a otro curso.
+La opción Varias inscripciones resulta útil cuando un alumno desea inscribirse en un curso de clase o clase virtual, o desea volver a completar un curso antes de pasar a otro.
 
-En el caso de los alumnos que no se inscribieron, cuando seleccionen un curso, verán la pantalla debajo del curso con varias instancias. Luego, pueden seleccionar cada instancia e inscribirse.
+En el caso de los alumnos que no se hayan inscrito, cuando seleccionen un curso, verán la pantalla debajo del curso con varias instancias. A continuación, pueden seleccionar cada instancia e inscribirse.
 
 ![imagen de vista del alumno](assets/learner-view.png)
 *Ver las instancias*
@@ -58,18 +58,18 @@ Después de inscribirse en una instancia, pueden inscribirse en otras instancias
 ![imagen del curso de inscripción múltiple](assets/enroll-instance.png)
 *Inscribirse en una instancia*
 
-El progreso de cada instancia se puede seguir como se indica a continuación:
+El seguimiento del progreso de cada instancia puede realizarse como se indica a continuación:
 
 ![seguimiento del progreso](assets/check-progress.png)
 *Seguimiento del progreso de cada instancia*
 
-## Cambios de inscripción múltiple en el administrador
+## Cambios de Varias instancias del administrador
 
 **Inscripción:**
 
 Al inscribir a los alumnos, puede marcar la siguiente casilla de verificación:
 
-*&quot;Es posible que los alumnos seleccionados ya se hayan inscrito en otras instancias de este curso. Permitir que estos alumnos también se inscriban en la instancia ...&quot;*
+*&quot;Es posible que los alumnos seleccionados ya se hayan inscrito en otras instancias de este curso. Permita que estos alumnos se inscriban también en la instancia...&quot;*.
 
 ![cambios de administrador](assets/admin-changes.png)
 *Opción de inscripción para administradores*
@@ -78,4 +78,4 @@ Si el alumno ya está inscrito en una instancia y usted, como administrador, est
 
 ## Informes
 
-Para un alumno que se inscribe en dos instancias del mismo curso, se crean dos filas para cada instancia del curso. El informe también muestra el progreso de las instancias.
+Para un alumno inscrito en dos instancias del mismo curso, se crean dos filas, una para cada instancia. El informe también muestra el progreso de las instancias.

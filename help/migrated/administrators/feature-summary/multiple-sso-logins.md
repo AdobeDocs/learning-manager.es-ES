@@ -1,56 +1,56 @@
 ---
 description: Adobe Learning Manager admite varios métodos de inicio de sesión mediante varias configuraciones de SSO para usuarios internos y externos.
-title: Varios inicios de sesión de SSO
+title: Varios métodos de inicio de sesión único (SSO)
 contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
 
-# Varios inicios de sesión de SSO {#multiple-sso-logins}
+# Varios métodos de inicio de sesión único (SSO) {#multiple-sso-logins}
 
-Un administrador puede configurar varios métodos de inicio de sesión tanto para usuarios internos como externos. Adobe Learning Manager admite varios inicios de sesión de SSO que ayudarán a los administradores a configurar el método de inicio de sesión en función de sus necesidades y casos prácticos.
+Un administrador puede configurar varios métodos de inicio de sesión tanto para usuarios internos como externos. Adobe Learning Manager admite varios inicios de sesión único (SSO) que ayudarán a los administradores a configurar el método de inicio de sesión según sus necesidades y casos prácticos.
 
-El objetivo es permitir a los administradores configurar diferentes SSO para diferentes grupos de usuarios en función de su ubicación, organización, etc.
+El objetivo es permitir a los administradores configurar diferentes métodos de SSO para diversos grupos de usuarios en función de su ubicación, organización, etc.
 
-Se pueden añadir hasta 20 configuraciones de SSO a una cuenta. Se pueden utilizar para configurar el inicio de sesión único tanto para usuarios internos como externos.
+Se pueden añadir hasta 20 configuraciones de SSO a una cuenta. Estas se pueden utilizar para configurar el SSO tanto para usuarios internos como externos.
 
 >[!NOTE]
 >
 >Al habilitar el inicio de sesión único múltiple, puede elegir valores o grupos de usuarios en el perfil de registro automático. Al elegir un valor, se crea un grupo de usuarios con cero usuarios. Este tipo de grupo de usuarios no tiene ningún usuario. Cuando se importe el siguiente archivo CSV, este grupo de usuarios se eliminará.
 
-## Habilitar SSO múltiple
+## Activar varios métodos de inicio de sesión único (SSO)
 
 Para habilitar el SSO múltiple, seleccione **Configuración** > **Métodos de inicio de sesión**.
 
 En la página de configuración, seleccione la casilla de verificación Habilitar el inicio de sesión único múltiple (SSO) para usuarios internos o externos.
 
-Cuando se habilita el inicio de sesión único múltiple, el método de inicio de sesión seleccionado para &quot;Método de inicio de sesión predeterminado&quot; se convierte en el tipo de inicio de sesión predeterminado para los grupos de usuarios o perfiles que no están vinculados a ninguna configuración de inicio de sesión único. El inicio de sesión predeterminado puede ser Adobe ID o SSO o ALM ID (usuarios externos).
+Cuando se habilita el inicio de sesión único múltiple, el método de inicio de sesión seleccionado para &quot;Método de inicio de sesión predeterminado&quot; se convierte en el tipo de inicio de sesión predeterminado para los grupos de usuarios o perfiles que no están vinculados a ninguna configuración de inicio de sesión único. El inicio de sesión predeterminado puede ser Adobe ID, SSO o ALM ID (usuarios externos).
 
 Para configurar un SSO, siga los pasos que se indican a continuación:
 
 1. Haga clic en Configurar inicio de sesión único (SSO).
 1. Haga clic en Añadir nueva configuración de SSO.
-1. En el cuadro de diálogo Configuración de SSO , añada lo siguiente:
+1. En el cuadro de diálogo Configuración de SSO, añada lo siguiente:
 
-   * Introduzca el nombre del inicio de sesión único.
-   * Seleccione el tipo de SSO-IDP iniciado o SP iniciado.
+   * Introduzca el nombre del SSO.
+   * Seleccione el tipo de SSO: iniciado por IdP p SP.
 
-      * Si ha seleccionado IDP iniciado, introduzca la URL de IDP. Esta será la dirección URL que será el identificador único de su aplicación y es la información que proporciona su proveedor de servicios de IDP. Esta es la dirección URL a la que se redirigirán todos los usuarios de Adobe Learning Manager después de iniciar sesión.
-      * Cargue el XML de metadatos de IDP de su proveedor de IDP. Este archivo contiene información sobre el IdP que permite a Adobe Learning Manager aceptar aserciones SAML a partir de él
+      * Si ha seleccionado IDP iniciado, introduzca la URL de IDP. Esta será la dirección URL que se utilizará como identificador único de su aplicación y es la información que proporciona su proveedor de servicios de IdP. Esta es la dirección URL a la que se redirigirán todos los usuarios de Adobe Learning Manager después de iniciar sesión.
+      * Cargue el documento XML de metadatos de IDP de su proveedor IdP. Este archivo contiene información sobre el IdP que permite a Adobe Learning Manager aceptar aserciones SAML de él.
       * Si ha seleccionado SP iniciado, introduzca el ID de entidad. El ID de entidad es una dirección URL que proporciona el proveedor de servicios (SP).
-      * Introduzca la URL de inicio de sesión del SP. Los usuarios utilizan esta dirección URL para iniciar sesión en la aplicación.
+      * Introduzca la dirección URL de inicio de sesión del SP. Los usuarios utilizan esta dirección URL para iniciar sesión en la aplicación.
 
 1. La configuración de SSO se agrega a la lista.
 
-## Configurar SSO para usuarios internos
+## Configurar el SSO para usuarios internos
 
-### Usuarios de un CSV
+### Usuarios de un archivo CSV
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Importe el archivo CSV que contiene los campos activos y sus valores.
 1. Haga clic en Configuración > Métodos de inicio de sesión.
@@ -58,9 +58,9 @@ Siga estos pasos:
 1. Asigne las configuraciones de SSO a los valores del campo activo.
 1. Guarde la configuración. Vuelva a importar el archivo CSV.
 
-### Un solo usuario
+### Usuario único
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Haga clic en Configuración > Métodos de inicio de sesión.
 1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
@@ -70,7 +70,7 @@ Siga estos pasos:
 
 ### Usuarios registrados automáticamente
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Haga clic en Configuración > Métodos de inicio de sesión.
 1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
@@ -81,9 +81,9 @@ Siga estos pasos:
 
 Después de guardar la configuración del perfil, la URL copiada redirige a los usuarios al SSO vinculado al valor elegido para el perfil.
 
-### Configurar SSO para usuarios externos
+### Configurar el SSO para usuarios externos
 
-Siga estos pasos:
+Siga los pasos mostrados a continuación:
 
 1. Cree un perfil externo.
 1. Haga clic en Configuración > Métodos de inicio de sesión.
@@ -107,7 +107,7 @@ Sí, puede utilizar un campo activo de un solo valor nuevo o uno existente para 
 
 +++Si hay campos desactivados en un CSV, ¿fallará la configuración de varios SSO?
 
-No, no afectará a la configuración de los SSO. Los usuarios se redirigirán a un SSO ya configurado.
+No, no afectará a la configuración de los SSO. Los usuarios se redirigirán a un SSO configurado.
 +++
 
 +++¿Puede un administrador añadir nuevos valores al campo activo de la página al configurar Multi-SSO?

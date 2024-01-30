@@ -1,12 +1,12 @@
 ---
-description: Aprenda a administrar etiquetas en Learning Manager.
+description: Obtenga información sobre cómo administrar etiquetas en Learning Manager.
 jcr-language: en_us
 title: Etiquetas
 contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 # Etiquetas
 
-Ahora, los administradores pueden gestionar etiquetas en Learning Manager. Utiliza una base de datos de etiquetado y gestión mejoradas para ayudar a los alumnos a buscar mejor y a obtener resultados de búsqueda adecuados rápidamente. Puede administrar etiquetas redundantes, mal escritas e irrelevantes con esta función. También puede agregar, editar, eliminar, anexar o reemplazar etiquetas.
+Ahora los administradores pueden gestionar etiquetas en Learning Manager. Use una base de datos de etiquetado de mejor calidad y que sea manejable para ayudar a los alumnos a buscar mejor y obtener resultados de búsqueda apropiados rápidamente. Puede gestionar las etiquetas redundantes, mal escritas e irrelevantes con esta función. También puede añadir, editar, eliminar, adjuntar o reemplazar etiquetas.
 
-La lista de objetos de aprendizaje asociados a la etiqueta se puede ver haciendo clic en el recuento proporcionado junto a cada etiqueta. La lista muestra el número de cursos, programas de aprendizaje, certificados, ayudas de trabajo y grupos de contenido. Haga clic en cualquiera de estas opciones para ver la lista.
+La lista de objetos de aprendizaje asociados con la etiqueta se puede ver si hace clic en el recuento proporcionado junto a cada etiqueta. La lista muestra la cantidad de cursos, programas de aprendizaje, certificados, ayudas de trabajo y grupos de contenido. Haga clic en cualquiera de estas opciones para ver la lista.
 
-Puede ordenar las etiquetas según el uso o el orden alfabético mediante la **[!UICONTROL Ordenar por]** opción.
+Puede ordenar las etiquetas según el uso o por orden alfabético con la opción **[!UICONTROL Ordenar por]**.
 
-## Agregar/ eliminar/ editar etiquetas {#adddeleteedittags}
+## Añadir, eliminar y editar etiquetas {#adddeleteedittags}
 
-1. Como administrador, en el panel de navegación izquierdo, haga clic en **[!UICONTROL Etiquetas]**. La **[!UICONTROL Tag Management]** se abre la página.
-1. Para añadir una nueva etiqueta, haga clic en **[!UICONTROL Añadir]**. El botón Añadir está disponible en la esquina superior derecha de la página. Si no hay etiquetas existentes, el **[!UICONTROL Añadir]** botón también estará disponible en el medio de la **[!UICONTROL Tag Management]** página.
+1. Como administrador, en el panel de navegación izquierdo, haga clic en **[!UICONTROL Etiquetas]**. Se abre la página **[!UICONTROL Gestión de etiquetas]**.
+1. Para añadir una nueva etiqueta, haga clic en **[!UICONTROL Añadir]**. El botón Añadir está disponible en la esquina superior derecha de la página. Si no hay etiquetas existentes, el botón **[!UICONTROL Añadir]** también estará disponible en el medio de la página **[!UICONTROL Gestión de etiquetas]**.
 
-   Al añadir varias etiquetas, sepárelas con (,) o (;). Un nombre de etiqueta puede contener un máximo de 50 caracteres.
+   Al añadir varias etiquetas, sepárelas con (,) o (;). El nombre de una etiqueta puede contener un máximo de 50 caracteres.
 
-1. Para eliminar una etiqueta existente, selecciónela haciendo clic en la casilla de verificación. Puede seleccionar varias etiquetas de hasta cincuenta en número para eliminarlas a la vez. Para eliminar, siga este paso:
+1. Para eliminar una etiqueta existente, seleccione la etiqueta haciendo clic en la casilla de verificación. Puede seleccionar varias etiquetas de hasta cincuenta en número para eliminarlas a la vez. Para eliminar, siga este paso:
 
-   * Seleccione las etiquetas que desea eliminar > abra el **[!UICONTROL Acción]** menú desplegable > seleccionar **[!UICONTROL Eliminar]**.
+   * Seleccione las etiquetas que se eliminarán > abra el menú desplegable **[!UICONTROL Acción]** > seleccione **[!UICONTROL Eliminar]**.
 
 1. Solo puede editar una etiqueta a la vez. Para editar una etiqueta, siga este paso:
 
    * Seleccione la etiqueta que desea editar > abra el icono **[!UICONTROL Acciones]**menú desplegable > clic **[!UICONTROL Editar]**.
 
-   La **[!UICONTROL Editar etiqueta]** que aparece. Introduzca el nuevo nombre de etiqueta y haga clic en **[!UICONTROL Guardar]**.
+   Aparece el cuadro de diálogo **[!UICONTROL Editar etiqueta]**. Ingrese el nuevo nombre de la etiqueta y haga clic en **[!UICONTROL Guardar]**.
 
    Si el nombre de la etiqueta que ha introducido ya existe, Adobe Learning Manager muestra un mensaje de advertencia. No pueden existir dos etiquetas con el mismo nombre.
 
@@ -44,23 +44,23 @@ Puede ordenar las etiquetas según el uso o el orden alfabético mediante la **[
 1. Seleccione las etiquetas que desea reemplazar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el **[!UICONTROL Acciones]** menú desplegable y seleccione **[!UICONTROL Reemplazar]**.
 1. La **[!UICONTROL Reemplazar etiquetas]** que muestra las etiquetas seleccionadas.
 
-1. En la **[!UICONTROL Nombre de las etiquetas reemplazadas]** , introduzca el nombre de la nueva etiqueta con la que desea reemplazar las etiquetas seleccionadas. Puede sustituirlas por una etiqueta existente en el menú desplegable o añadir una nueva etiqueta.
+1. En la opción **[!UICONTROL Nombre para etiquetas reemplazadas]**, ingrese el nombre de la nueva etiqueta con la que desea reemplazar las etiquetas seleccionadas. Puede reemplazarlas con una etiqueta existente en el menú desplegable o añadir una nueva etiqueta.
 
-   El punto y coma o la coma no pueden formar parte del nombre de la etiqueta.  Tenga en cuenta que las etiquetas sin punto y coma y la visualización de mensajes de error al utilizar dichas etiquetas como parte de algún objeto de aprendizaje no se controlarán en los escenarios de migración.
+   El punto y coma o la coma no pueden formar parte del nombre de la etiqueta.  Tenga en cuenta que las etiquetas sin punto y coma y la visualización de los mensajes de error mientras se utilizan dichas etiquetas como parte de algunos objetos de aprendizaje no formarán parte de escenarios de migración.
 
 1. Haga clic en **[!UICONTROL Reemplazar]**.
 
-## Anexar etiquetas {#appendtags}
+## Adjuntar etiquetas {#appendtags}
 
 En el caso de la operación Anexar para etiquetas, la etiqueta nueva/existente se anexará a toda la lista de objetos de aprendizaje y grupos de contenido asociados a las etiquetas seleccionadas.
 
-1. Seleccione las etiquetas que desee anexar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el menú desplegable Acciones y seleccione **[!UICONTROL Anexar]**.
+1. Seleccione las etiquetas que desea adjuntar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el menú desplegable Acciones y seleccione **[!UICONTROL Anexar]**.
 1. La  **[!UICONTROL Anexar etiquetas]** que muestra las etiquetas seleccionadas.
-1. Puede añadir una etiqueta adicional a todo el aprendizaje con las etiquetas seleccionadas introduciendo el nombre de la **[!UICONTROL Nueva etiqueta]** o en la lista desplegable de las etiquetas existentes. La nueva etiqueta se añadirá a todo el aprendizaje asociado en Learning Manager.
+1. Puede adjuntar una etiqueta adicional a todo el aprendizaje con las etiquetas seleccionadas. Para hacerlo, especifique el nombre de la **[!UICONTROL Nueva etiqueta]** o seleccione una etiqueta en la lista desplegable de etiquetas existentes. La nueva etiqueta se adjuntará a todo el aprendizaje asociado en Learning Manager.
 
-   El punto y coma o la coma no pueden formar parte del nombre de la etiqueta. Si se utiliza, Prime mostrará un mensaje de error. Tenga en cuenta que las etiquetas sin punto y coma y la visualización de mensajes de error al utilizar dichas etiquetas como parte de algún objeto de aprendizaje no se controlarán en los escenarios de migración.
+   El nombre de una etiqueta no puede contener punto y coma ni coma. Si se utiliza, Prime mostrará un mensaje de error. Tenga en cuenta que las etiquetas sin punto y coma y la visualización de los mensajes de error mientras se utilizan dichas etiquetas como parte de algunos objetos de aprendizaje no formarán parte de escenarios de migración.
 
-1. Haga clic en **[!UICONTROL Anexar]**.
+1. Haga clic en **[!UICONTROL Adjuntar]**.
 
 ## Configuración {#settings}
 
@@ -72,8 +72,8 @@ Como administrador, puede otorgar permiso al autor para crear etiquetas haciendo
 
 * Cuando un usuario tiene permiso para crear etiquetas y selecciona etiquetas existentes que no son válidas en la actualidad,
 
-  Aparece un mensaje de error que sugiere que la etiqueta seleccionada ya no es válida. Las etiquetas nuevas se crearán eliminando los caracteres no admitidos. En este caso, el autor debería poder ver sus etiquetas antiguas convirtiéndose en etiquetas nuevas antes de guardarlas.
+  Aparece un mensaje de error que sugiere que la etiqueta seleccionada ya no es válida. Las nuevas etiquetas se crearán eliminando los caracteres no admitidos. En este caso, el autor debe poder ver que sus etiquetas antiguas cambien a etiquetas nuevas antes de guardarlas.
 
-* Si el usuario no tiene los permisos necesarios para crear etiquetas nuevas, aparecerá un mensaje de error que indica que la etiqueta seleccionada ya no es válida. Los autores pueden ponerse en contacto con los administradores para modificar etiquetas no válidas.
+* Si el usuario no tiene los permisos necesarios para crear etiquetas nuevas, aparecerá un mensaje de error que indica que la etiqueta seleccionada ya no es válida. Los autores pueden ponerse en contacto con los administradores para modificar las etiquetas inválidas.
 
   Los autores no pueden crear ni guardar etiquetas no válidas. Pueden quitar las etiquetas no válidas y añadir cualquier otra etiqueta válida existente y continuar.

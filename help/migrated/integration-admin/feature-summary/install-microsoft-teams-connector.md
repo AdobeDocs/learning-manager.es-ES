@@ -1,48 +1,48 @@
 ---
-description: Instalar el conector de Microsofts Teams en Adobe Learning Manager
+description: Instalar el conector de Microsoft Teams en Adobe Learning Manager
 jcr-language: en_us
-title: Instalar el conector de Microsofts Teams en Adobe Learning Manager
+title: Instalar el conector de Microsoft Teams en Adobe Learning Manager
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Instalar el conector de Microsofts Teams en Adobe Learning Manager
+# Instalar el conector de Microsoft Teams en Adobe Learning Manager
 
-## Resumen
+## Información general
 
-Microsoft® Teams® es una plataforma de colaboración persistente basada en chat que es totalmente compatible con el uso compartido de documentos, reuniones en línea y otras funciones para las comunicaciones empresariales.
+Microsoft® Teams® es una plataforma de colaboración persistente basada en chat que admite por completo el uso compartido de documentos, reuniones en línea y otras funciones para las comunicaciones empresariales.
 
 Adobe Learning Manager utiliza un conector de clase virtual que se puede utilizar para integrar reuniones de Microsofts Teams con Learning Manager.
 
-El conector de Microsofts Teams conecta Learning Manager y los sistemas de Microsofts Teams para habilitar la sincronización automática de reuniones virtuales. En la siguiente lista se describen las funciones del conector de Microsofts Teams:
+El conector de Microsoft Teams conecta los sistemas Learning Manager y Microsoft Teams para activar la sincronización automática de reuniones virtuales. En la siguiente lista, se describen las funciones del conector de Microsoft Teams:
 
 **Configurar sesiones virtuales mediante Microsofts Teams**
 
-Este conector ayuda a integrar su cuenta de Adobe Learning Manager con su cuenta de Microsofts Teams. Una vez integrado, el conector permite que un autor en Learning Manager utilice Microsofts Teams como proveedor de servicios de tecnología para los módulos de clase virtual creados en Learning Manager.
+Este conector ayuda a integrar su cuenta de Adobe Learning Manager con su cuenta de Microsoft Teams. Una vez integrado, el conector permite que un autor en Learning Manager utilice Microsoft Teams como proveedor de servicios de tecnología para los módulos de clase virtual creados en Learning Manager.
 
 **Permitir que los Microsofts Teams autentiquen a los alumnos al entrar en una clase virtual**
 
-Este conector ayuda a configurar el organizador de reuniones de Microsofts Teams desde Learning Manager al crear una reunión. El organizador de la reunión puede administrar el vestíbulo para restringir o admitir la entrada en una reunión, así como controlar otras opciones de reunión proporcionadas por los Microsofts Teams.
+Este conector ayuda a configurar el organizador de reuniones de Microsofts Teams desde Learning Manager al crear una reunión. El organizador de reuniones puede gestionar el punto de encuentro para restringir o admitir la entrada a la reunión, así como controlar las otras opciones de la reunión proporcionadas por Microsoft Teams.
 
 **Utilizar sincronización automática de finalización de usuarios**
 
 El proceso automatizado de sincronización de finalización de usuarios permite que un administrador de Learning Manager obtenga automáticamente los registros de finalización y la URL de registro para la reunión de Microsofts Teams.
 
-## Funciones en Microsofts Teams
+## Funciones en Microsoft Teams
 
 Si está organizando una reunión con varios participantes, puede asignar funciones a cada participante para que sepa lo que puede hacer en la reunión.
 
 Hay dos funciones entre las que elegir: **presentador** y **asistente**.
 
-Para obtener más información, consulte  [Funciones en una reunión de equipos: Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+Para obtener más información, consulte  [Funciones en una reunión de equipos: Microsoft](https://support.microsoft.com/es-es/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-## Configurar el conector de Microsofts Teams
+## Configurar el conector de Microsoft Teams
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Puede acceder al conector de Microsofts Teams si tiene Office 365 E3 u Office 36
 1. Haga clic en **[!UICONTROL Nuevo secreto de cliente]** y añada los siguientes detalles:
 
    1. **Descripción** - Introduzca cualquier nombre.
-   1. **Caduca** - Se establece en cualquier valor (el valor recomendado es de 24 meses. Asegúrese de que se generen nuevas credenciales de cliente una vez que caduque la anterior).
+   1. **Caduca** - Se establece en cualquier valor (el valor recomendado es de 24 meses. Asegúrese de que se generen nuevas credenciales de cliente una vez que caduquen las anteriores).
 
 Anote el secreto de cliente, que se usará más durante la integración.
 
@@ -91,7 +91,7 @@ Anote el secreto de cliente, que se usará más durante la integración.
 1. Inicie sesión con el Microsoft E5 que creó anteriormente.
 1. Buscar por **Azure Active Directory**.
 1. Haga clic en **[!UICONTROL Registros de aplicaciones]**.
-1. Haga clic en la aplicación que creó en la sección anterior.
+1. Haga clic en la aplicación que ha creado en la sección anterior.
 1. Haga clic en **[!UICONTROL Permisos de API]**.
 1. Haga clic en **[!UICONTROL Añadir un permiso]**.
 1. Seleccionar **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Permisos de aplicación]** y agregue los permisos siguientes:
@@ -121,9 +121,9 @@ Anote el secreto de cliente, que se usará más durante la integración.
 
 ## Configurar la directiva de acceso mediante scripts de PowerShell
 
-Para configurar la directiva de acceso a la aplicación para el conector de Microsofts Teams mediante la ejecución de scripts de PowerShell, siga el procedimiento que se describe en este documento  [documento](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
+Para configurar la directiva de acceso a la aplicación para el conector de Microsofts Teams mediante la ejecución de scripts de PowerShell, siga el procedimiento que se describe en este documento  [documento](https://docs.microsoft.com/es-es/graph/cloud-communication-online-meeting-application-access-policy).
 
-Esto permite al conector acceder a las reuniones en línea de Microsofts Teams.
+Esto permite al conector acceder a las reuniones en línea de Microsoft Teams.
 
 >[!NOTE]
 >
@@ -157,27 +157,27 @@ Esto permite al conector acceder a las reuniones en línea de Microsofts Teams.
 
 ## Grabar una sesión
 
-La API utilizada para grabar una sesión es una API protegida. Para acceder a la API, debe solicitar acceso a Microsoft. Para obtener más información, consulte este artículo  [documento](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+La API utilizada para grabar una sesión está protegida. Para acceder a la API, debe solicitar acceso a Microsoft. Para obtener más información, consulte este artículo  [documento](https://docs.microsoft.com/es-es/graph/teams-protected-apis).
 
-En el documento,
+En el documento:
 
-*&quot;Para solicitar acceso a estas API protegidas, complete lo siguiente  [formulario de solicitud](https://aka.ms/teamsgraph/requestaccess). Revisamos las solicitudes de acceso todos los miércoles e implementamos las aprobaciones todos los viernes, excepto durante las principales semanas de vacaciones en EE. UU. Los envíos durante esas semanas se procesarán la siguiente semana no festiva. Para verificar si su solicitud ha sido aprobada, pruebe el acceso a la aplicación el próximo lunes que corresponda.&quot;*
+*&quot;Para solicitar acceso a estas API protegidas, complete lo siguiente  [formulario de solicitud](https://aka.ms/teamsgraph/requestaccess). Revisamos las solicitudes de acceso todos los miércoles e implementamos aprobaciones todos los viernes, excepto durante las principales semanas de vacaciones en EE. UU. Los envíos durante esas semanas se procesarán la siguiente semana no festiva. Para verificar si su solicitud ha sido aprobada, pruebe el acceso a la aplicación el próximo lunes que corresponda.&quot;*
 
-Para los alumnos, la URL de grabación se muestra en la página de resumen del curso de clase virtual.
+Para los alumnos, la dirección URL de grabación se muestra en la página de resumen del curso de clase virtual.
 
-Después de 30 minutos de completar un curso, se marca la asistencia del alumno.
+30 minutos después de completar un curso, se marca la asistencia del alumno.
 
 ## Preguntas más frecuentes
 
 +++¿Quién es Organizador y Presentador?
 
-Consulte la  [documentación](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) de Microsoft para obtener diferentes funciones y capacidades admitidas por los Microsofts Teams.
+Consulte la  [documentación](https://support.microsoft.com/es-es/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) de Microsoft para obtener diferentes funciones y capacidades admitidas por los Microsofts Teams.
 
 +++
 
 +++ ¿Debe un organizador ser un usuario registrado tanto en el Administrador de aprendizaje como en los Microsofts Teams?
 
-Sí, el organizador también debe formar parte de Learning Manager y Microsofts Teams. Además, el organizador debe formar parte del mismo inquilino de Microsoft, que se configura en la aplicación de administración de integración.
+Sí, el organizador también debería formar parte tanto de Learning Manager como de Microsoft Teams. Además, el organizador debe formar parte del mismo inquilino de Microsoft, que se configura en la aplicación de administración de integración.
 
 +++
 
@@ -187,8 +187,8 @@ Sí, el presentador también debe formar parte de Learning Manager y Microsofts 
 
 +++
 
-+++Microsofts Teams tiene reuniones, seminarios web y eventos en directo. ¿Cuál es compatible con el conector de Teams?
++++Microsofts Teams tiene reuniones, seminarios web y eventos en directo. ¿Cuáles admite el conector de Teams?
 
-En la actualidad, el conector de Teams solo admite reuniones en Microsofts Teams. Para obtener más información, consulte este artículo  [documento](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
+En la actualidad, el conector de Teams solo admite reuniones en Microsofts Teams. Para obtener más información, consulte este artículo  [documento](https://docs.microsoft.com/es-es/microsoftteams/quick-start-meetings-live-events).
 
 +++

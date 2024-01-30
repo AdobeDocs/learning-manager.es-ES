@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -27,16 +27,16 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 ## Pantalla
 
-Resolución mínima admitida: 1024 x 720.
+Resolución mínima compatible: 1024 x 720.
 
 ## Espacio en disco
 
-5 GB como mínimo de espacio disponible en el disco duro.
+5 GB como mínimo de espacio disponible en el disco duro.
 
 ## Grabación
 
 * Micrófono necesario para la grabación de audio.
-* Cámara web necesaria para grabar vídeo.
+* Cámara web necesaria para la grabación de vídeo.
 
 ## Varios
 
@@ -46,16 +46,16 @@ Se requiere una conexión a Internet activa y una cuenta de alumno de Adobe Lear
 
 La página principal de diseño envolvente no es compatible con los navegadores IE 11.
 
-* Google Chrome versión 43 y superior.
-* Versiones más recientes de Edge, Safari (versión 13 y superior) y Firefox.
+* Google Chrome versión 43 y superior
+* Versiones más recientes de Edge, Safari (versión 13 y posterior) y Firefox.
 * Internet Explorer versión 11 y superior
 
 ## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
 
-* Cabecera: 1280 x 360 px.
+* Cabecera: 1280 x 360 px
 * Imagen en la tarjeta del catálogo: 280 x 100 px
 * Tamaño de la tarjeta de formación: 300 x 240 px
-* Banner social: 1600 x 240 px
+* Banner de redes sociales: 1600 x 240 px
 
 ## Escritorio
 
@@ -69,25 +69,25 @@ Intel® CoreTM i5 o superior.
 
 ### RAM
 
-Se requieren 8 GB como mínimo.
+Se requieren 8 GB como mínimo.
 
 ### Resolución de pantalla
 
-1366 x 768 píxeles
+1366 x 768 píxeles
 
 ### Espacio en disco
 
-5 GB como mínimo de espacio disponible en el disco duro.
+5 GB como mínimo de espacio disponible en el disco duro.
 
 ### Grabación
 
-Se requiere un micrófono para la grabación de audio; se requiere una cámara web para la grabación de vídeo.
+Se requiere un micrófono para la grabación de audio y una cámara web para la grabación de vídeo.
 
 ## Aplicación móvil
 
 ### Dispositivos
 
-* iOS: Las dos últimas versiones principales.
+* iOS: últimas dos versiones principales.
 * Android: últimas dos versiones principales.
 
 ### Navegadores
@@ -99,7 +99,7 @@ Se requiere un micrófono para la grabación de audio; se requiere una cámara w
 
 * 1 Mbps
 
-### CPU, dispositivos de memoria (min.)
+### CPU, dispositivos de memoria (min)
 
 * Qualcomm® Snapdragon™ 695 5G o equivalente, 6 GB de memoria
 
@@ -113,22 +113,22 @@ Se requiere un micrófono para la grabación de audio; se requiere una cámara w
 
 >[!NOTE]
 >
->La aplicación móvil de Learning Manager solo admite la función de alumno.
+>La aplicación Learning Manager para dispositivos móviles solo admite la función de alumno.
 
 ## Tamaño máximo de contenido {#maximumcontentsize}
 
-El tamaño máximo de archivo que se puede cargar es de 600 MB.
+El tamaño de archivo máximo que se puede cargar es de 600 MB.
 
 >[!NOTE]
 >
->Si el tamaño del *user.csv* supera los 100 MB, importar este archivo puede provocar comportamientos inesperados en el navegador. El problema se produce porque el navegador se queda sin memoria.
+>Si el tamaño del archivo *user.csv* es superior a 100 MB, importarlo puede provocar comportamientos inesperados en el navegador. Este problema se produce porque el navegador se queda sin memoria.
 
 Se recomienda importar a tamaño grande *user.csv* mediante el flujo de trabajo automatizado de Box/Exavault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de contenido admitidos
 
-### Carga de módulo {#moduleupload}
+### Carga del módulo {#moduleupload}
 
 <table>
  <tbody>
@@ -230,7 +230,7 @@ Se recomienda importar a tamaño grande *user.csv* mediante el flujo de trabajo 
  <tbody>
   <tr>
    <td>
-    <p><b>Elements</b></p></td>
+    <p><b>Elementos</b></p></td>
    <td>
     <p><b>Tamaño</b></p></td>
   </tr>
@@ -242,7 +242,7 @@ Se recomienda importar a tamaño grande *user.csv* mediante el flujo de trabajo 
   </tr>
   <tr>
    <td>
-    <p>Distintivo ampliado en la aplicación del alumno</p></td>
+    <p>Insignia ampliada en la aplicación del alumno</p></td>
    <td>
     <p>90x90 píxeles</p></td>
   </tr>
@@ -283,16 +283,16 @@ Se admiten las siguientes combinaciones:
 * Edge + Narrator
 * Mac Safari + VoiceOver
 
-### Compatibilidad con dispositivos móviles envolventes
+### Compatibilidad con la experiencia móvil envolvente
 
 Se admiten los siguientes:
 
-* Android+TalkBack
-* iOS+voz en off
+* Android + Talkback
+* iOS + VoiceOver
 
 ## Requisitos de red {#networkrequirements}
 
-Asegúrese de que los siguientes dominios de terceros estén en la lista blanca si se encuentra en cualquier red que tenga restricciones.
+Asegúrese de que los siguientes dominios de terceros estén incluidos en la lista blanca si se encuentra en cualquier red que tenga restricciones.
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -308,7 +308,7 @@ Asegúrese de que los siguientes dominios de terceros estén en la lista blanca 
 * &#42;.akamaihd.net
 
 
-### Casos específicos ampliados {#specificextendedcases}
+### Casos ampliados específicos {#specificextendedcases}
 
 <table>
  <tbody>
@@ -317,7 +317,7 @@ Asegúrese de que los siguientes dominios de terceros estén en la lista blanca 
    <th>Servicios utilizados</th>
   </tr>
   <tr>
-   <td>Conector FTP</td>
+   <td>Conector de FTP</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
@@ -333,7 +333,7 @@ Asegúrese de que los siguientes dominios de terceros estén en la lista blanca 
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>Conector de GetAbstracts</td>
+   <td>Conector de getAbstract</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
@@ -341,7 +341,7 @@ Asegúrese de que los siguientes dominios de terceros estén en la lista blanca 
    <td>Zonas de Box ubicadas en Frankfurt</td>
   </tr>
   <tr>
-   <td>Conector Mini Orange</td>
+   <td>Conector de Mini Orange</td>
    <td>Mini Orange</td>
   </tr>
   <tr>
@@ -359,6 +359,6 @@ Asegúrese de que los siguientes dominios de terceros estén en la lista blanca 
  </tbody>
 </table>
 
-## Descripción técnica {#technicaloverview}
+## Resumen técnico {#technicaloverview}
 
-[Introducción técnica de Learning Manager](assets/learning-manager-technicaloverview.pdf)
+[Resumen técnico de Learning Manager](assets/learning-manager-technicaloverview.pdf)

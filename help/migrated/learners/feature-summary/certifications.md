@@ -1,12 +1,12 @@
 ---
-description: Obtenga información sobre cómo realizar certificaciones con la aplicación de alumno de Learning Manager.
+description: Obtenga información sobre cómo conseguir certificaciones mediante la aplicación de alumno de Learning Manager.
 jcr-language: en_us
 title: Certificaciones
 contentowner: manochan
 source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # Certificaciones
 
-Obtenga información sobre cómo realizar certificaciones con la aplicación de alumno de Learning Manager.
+Obtenga información sobre cómo conseguir certificaciones mediante la aplicación de alumno de Learning Manager.
 
-Certifica a tus alumnos una vez o en un intervalo de tiempo recurrente con esta función. Solo los administradores pueden definir las certificaciones para los alumnos.
+Certifique a sus alumnos una vez o en un intervalo recurrente con esta función. Solo los administradores pueden definir las certificaciones para los alumnos.
 
-Los alumnos pueden realizar las certificaciones que les asignan los administradores de la organización. Hay dos tipos de certificaciones en Learning Manager.
+Los alumnos pueden realizar las certificaciones que les asignan los administradores de la empresa. Existen dos tipos de certificaciones en Learning Manager.
 
 1. Externo
 
-   Estos certificados se pueden obtener desde fuera de su organización. Su organización le recomienda que acepte estas certificaciones y envíe una prueba.
+   Estos certificados se pueden obtener desde fuera de su organización. Su empresa le recomienda realizar estas certificaciones y enviar la prueba.
 
 1. Interno
 
-   Estos certificados pueden obtenerse completando ciertos cursos prescritos como parte del plan de estudios. Su organización emite estas certificaciones tras su finalización.
+   Estos certificados pueden obtenerse completando ciertos cursos prescritos como parte del plan de estudios. Su empresa emite estas certificaciones después de su finalización.
 
-## Realización de certificaciones internas {#takingupinternalcertifications}
+## Cómo realizar certificaciones internas {#takingupinternalcertifications}
 
 1. En la página de inicio del alumno, en el widget Mi aprendizaje, haga clic en Certificaciones.
 
@@ -38,7 +38,7 @@ Aparecerá una página con una lista de todas las certificaciones relevantes par
 
    1. Haga clic en el widget Pendiente para ver todas las certificaciones que debe completar.
    1. Haga clic en Mi aprendizaje en el panel izquierdo y seleccione Certificaciones para ver todas las certificaciones.
-   1. Ordenar y ver la lista de certificaciones según la relevancia y la fecha de publicación.
+   1. Ordene y vea la lista de certificaciones por relevancia y fecha de publicación.
 
 1. En el widget Pendiente de la página de inicio, haga clic en la certificación interna que debe realizar.\
    Las certificaciones pendientes aparecen debajo del widget.
@@ -49,9 +49,9 @@ Aparecerá una página con una lista de todas las certificaciones relevantes par
 >
 >Si tiene varios cursos en la certificación, el último curso pendiente aparece en un reproductor seguido de otros cursos pendientes. También puede hacer clic en cada curso de certificación pendiente asociado y realizar el curso.
 
-## Realización de certificaciones externas {#takingupexternalcertifications}
+## Cómo realizar certificaciones externas {#takingupexternalcertifications}
 
-Debe aceptar la certificación externa fuera de su organización y enviar la prueba.
+Debe realizar las certificaciones externas fuera de su empresa y enviar la prueba.
 
 1. En el panel izquierdo, haga clic en Mi aprendizaje.
 
@@ -65,6 +65,6 @@ Debe aceptar la certificación externa fuera de su organización y enviar la pru
 
 ## Finalización de certificaciones {#completingcertifications}
 
-Los criterios de finalización de la certificación dependen del número de cursos que el autor o el administrador hayan establecido como obligatorios. Por ejemplo, para una certificación que contiene cuatro cursos, si el autor o el administrador ha establecido dos cursos como obligatorios, cuando un alumno complete dos de cuatro cursos, el alumno alcanzará el estado de finalización.
+Los criterios de finalización de certificaciones dependen de la cantidad de cursos que hayan establecido como obligatorios el autor o el administrador. Por ejemplo, para una certificación que contiene cuatro cursos, si el autor o el administrador han fijado dos cursos como obligatorios, cuando un alumno complete dos cursos de los cuatro, logrará el estado de finalización.
 
-Por otro lado, si todos los cursos son obligatorios en una certificación, el alumno debe completar todos los cursos de la certificación.
+Por otra parte, si todos los cursos son obligatorios en un certificado, el alumno debe completar todos los cursos del certificado.

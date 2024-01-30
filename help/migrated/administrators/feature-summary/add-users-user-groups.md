@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '3913'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -18,14 +18,14 @@ Obtenga información sobre cómo añadir usuarios o grupos de usuarios en la apl
 
 <!--![](assets/user-mgmt-new.png)-->
 
-## Resumen {#overview}
+## Información general {#overview}
 
-En Adobe Learning Manager, puede asumir las siguientes funciones:
+En Adobe Learning Manager, puede asumir las funciones siguientes:
 
-* **Administrador:** Un administrador define la estrategia de formación de la organización. Un administrador puede añadir alumnos, buscar las aptitudes necesarias para los alumnos, gestionar y asignar cursos, crear planes de aprendizaje, certificaciones y programas de aprendizaje, y gestionar informes para toda la organización.
-* **Autor:** Los autores son diseñadores de instrucciones y creadores de contenido. Un autor puede añadir módulos y cursos a Learning Manager.
-* **Responsable:** Un responsable gestiona las actividades de aprendizaje de un equipo. Un responsable puede designar a miembros del equipo para que realicen un curso, aprueben las solicitudes de los miembros del equipo y proporcionen comentarios sobre el rendimiento de los miembros del equipo tras la finalización de la formación. Los responsables también pueden ver los informes de su equipo para realizar un seguimiento de su rendimiento.
-* **Alumno:** Los alumnos pueden acceder a los cursos, los programas de aprendizaje y las certificaciones que se les asignan. Los alumnos también pueden examinar todos los cursos disponibles mediante un catálogo e inscribirse en cursos, programas de aprendizaje o certificaciones.
+* **Administrador:** define la estrategia de formación de la empresa. Un administrador puede agregar alumnos, buscar las aptitudes correspondientes para los alumnos, administrar y asignar cursos, crear planes de aprendizaje, certificaciones y programas de aprendizaje, y administrar informes para toda la empresa.
+* **Autor:** diseñador pedagógico y creador de contenido. Un autor puede añadir módulos y cursos a Learning Manager.
+* **Responsable:** administra las actividades de aprendizaje de un equipo. Un responsable puede nominar integrantes del equipo para realizar un curso, aprobar solicitudes de integrantes del equipo y proporcionar comentarios sobre su rendimiento tras haber completado la formación. Los responsables también pueden ver informes de su equipo para controlar el rendimiento.
+* **Alumno:** los alumnos pueden tener acceso a los cursos, programas de aprendizaje y certificaciones que se les han asignado. Asimismo, pueden explorar todos los cursos disponibles mediante un catálogo e inscribirse en cursos, programas de aprendizaje o certificaciones.
 
 Como administrador, puede añadir usuarios de tres maneras:
 
@@ -33,143 +33,143 @@ Como administrador, puede añadir usuarios de tres maneras:
 * Externo
 * Grupos de usuarios
 
-## Añadir un único usuario {#addasingleuser}
+## Agregar un único usuario {#addasingleuser}
 
 Para añadir usuarios:
 
-1. Inicie sesión en Adobe Learning Manager como administrador.
-1. En la página principal, haga clic en **[!UICONTROL Añadir usuarios]**. En esta página, puede añadir uno o varios usuarios a la vez mediante un archivo CSV. También puede crear un vínculo de registro automático para empleados internos o crear un perfil de alumno externo.
-1. Para añadir un solo usuario, haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha y seleccione la opción **[!UICONTROL Usuario único]**.
+1. Inicie sesión como administrador en Adobe Learning Manager.
+1. En la página de inicio, haga clic en **[!UICONTROL Añadir usuarios]**. En esta página, puede agregar un único usuario o varios a la vez mediante un archivo .csv. También puede crear un vínculo de registro automático para empleados internos o crear un perfil de alumno externo.
+1. Para agregar un único usuario, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha; a continuación, elija la opción **[!UICONTROL Usuario único]**.
 
    ![](assets/single-user.png)
    *Añadir un único usuario interno*
 
-1. En la **[!UICONTROL Añadir usuario]** , introduzca los detalles del alumno. Para el campo **[!UICONTROL Nombre del responsable]**, seleccione el nombre de un usuario existente en el sistema.
+1. En el cuadro de diálogo **[!UICONTROL Añadir usuario]**, indique los datos del alumno. En el campo **[!UICONTROL Nombre del responsable]**, seleccione el nombre de un usuario que ya exista en el sistema.
 
    ![](assets/manager.png)
    *Cuadro de diálogo Agregar usuario*
 
-1. Para añadir el nuevo usuario en Learning Manager, haga clic en **[!UICONTROL Añadir]**. Una vez agregado el usuario, este recibe un correo de verificación. A continuación, el alumno activa la cuenta y comienza a utilizar el Administrador de aprendizaje. Este flujo de trabajo es útil si necesita añadir un número limitado de alumnos a su cuenta de Learning Manager. Sin embargo, si tiene previsto inscribir a todos los empleados de una organización grande, puede agregarlos en un solo intento. Para obtener más información, consulte la siguiente sección.
+1. Para añadir el nuevo usuario a Learning Manager, haga clic en **[!UICONTROL Añadir]**. Después de agregar el usuario, este recibe un correo de verificación. A continuación, el alumno activa la cuenta y empieza a utilizar Learning Manager. Este flujo de trabajo es útil si necesita añadir un número limitado de alumnos a su cuenta de Learning Manager. Ahora bien, si tiene previsto inscribir a todos los empleados de una empresa grande, los puede incorporar de una sola vez. Para obtener más información, consulte la sección siguiente.
 
-## Añadir usuarios en bloque {#addusersinbulk}
+## Agregar usuarios en bloque {#addusersinbulk}
 
-Por lo general, la mayoría de las organizaciones trabajan con un sistema de gestión de recursos humanos (HRMS), que mantiene todos los registros de los empleados, como la designación, la ubicación, la fecha de incorporación o la jerarquía de los empleados. Puede exportar estos datos en formato CSV. Para importar un archivo CSV, siga los pasos que se indican a continuación:
+En general, las empresas utilizan sistemas de administración de recursos humanos con los cuales mantienen todos los registros de los empleados, por ejemplo denominación, ubicación, fecha de incorporación o jerarquía. Esta información se puede exportar a formato .csv. Para importar a un archivo .csv, siga los pasos que se indican a continuación:
 
-1. Haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha y seleccione la opción **[!UICONTROL Cargar un CSV]**.
+1. Haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha y elija la opción **[!UICONTROL Cargar un CSV]**.
 
    ![](assets/upload-a-csv.png)
    *Cargar un archivo CSV para añadir usuarios en bloque*
 
-1. El archivo CSV que cargue consta de los campos, como se muestra a continuación:
+1. El archivo .csv que se carga se compone de campos, como se muestra a continuación:
 
    ![](assets/csv.png)
    *Estructura del CSV*
 
-   Debe mantener un archivo CSV maestro y realizar todas las adiciones y eliminaciones en el archivo CSV maestro. El archivo CSV principal contiene los siguientes campos:
+   Debe mantener un archivo CSV maestro y realizar todas las adiciones y eliminaciones en el archivo CSV maestro. El informe csv maestro contiene los siguientes campos:
 
    * name &#42;
    * correo electrónico &#42;
    * perfil
-   * gerente
+   * responsable
 
    (&#42;) Campo obligatorio.
 
-1. Después de hacer clic en la opción **[!UICONTROL Cargar un CSV]**, se muestra el cuadro de diálogo siguiente.
+1. Tras hacer clic en la opción **[!UICONTROL Cargar un CSV]**, se muestra el cuadro de diálogo siguiente.
 
    ![](assets/upload-a-csv-dialog.png)
    *Cuadro de diálogo Cargar CSV*
 
-1. Elija el archivo CSV o arrastre y suelte el archivo. Una vez que haya elegido el archivo, asigne los campos de datos a los del archivo CSV. Haga clic en el menú desplegable correspondiente y elija el campo adecuado.
+1. Elija el archivo .csv, o arrástrelo y suéltelo. Una vez que haya elegido el archivo, asigne los campos de datos a los del archivo CSV. Haga clic en el menú desplegable pertinente y elija el campo adecuado.
 
    ![](assets/map-data-fields.png)
    *Asignar campos en CSV*
 
-1. Para empezar a importar los usuarios, haga clic en **[!UICONTROL Guardar]**. Puede ver un mensaje de confirmación.
+1. Para empezar a importar usuarios, haga clic en **[!UICONTROL Guardar]**. Puede ver un mensaje de confirmación.
 
    ![](assets/save-csv.png)
    *Mensaje de confirmación para la carga correcta del archivo CSV*
 
-1. Los nuevos usuarios se añadirán a su cuenta de Adobe Learning Manager. Para seleccionar los nuevos usuarios, seleccione la casilla de verificación junto a los nombres para que todos estén seleccionados.
+1. Los nuevos usuarios ahora se incorporan a su cuenta de Adobe Learning Manager. Para seleccionar los usuarios nuevos, marque la casilla de verificación junto a los nombres.
 
    ![](assets/select-new-users.png)
    *Nuevos usuarios añadidos*
 
 >[!NOTE]
 >
->Para obtener más información, consulte las preguntas frecuentes, [Añadir usuarios en bloque](../add-users-in-bulk.md).
+>Para obtener más información, consulte las preguntas frecuentes y [Agregar usuarios en bloque](../add-users-in-bulk.md).
 
-Después de seleccionar los usuarios, puede realizar lo siguiente:
+Tras haber seleccionado los usuarios, puede efectuar las acciones siguientes:
 
 ## Registrar un usuario {#registerauser}
 
-Con el usuario seleccionado, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha y haga clic en **[!UICONTROL Registro]**.
+Después de seleccionar el usuario, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha y elija la opción **[!UICONTROL Registrar]**.
 
-Los usuarios seleccionados recibirán un correo electrónico de bienvenida. Si los alumnos ya tienen un Adobe ID, pueden hacer clic en este vínculo. Si no tienen un Adobe ID existente, pueden hacer clic en el vínculo Bienvenido para crear un Adobe ID y vincularlo a su cuenta de Learning Manager.
+Los usuarios seleccionados reciben un correo electrónico de bienvenida. Si los alumnos ya tienen un Adobe ID, pueden hacer clic en este vínculo. Si no tienen un Adobe ID existente, pueden hacer clic en el vínculo Bienvenido para crear un Adobe ID y vincularlo a su cuenta de Learning Manager.
 
 ## Asignar una función {#assignarole}
 
-Después de añadir alumnos a la cuenta de Adobe Learning Manager, si desea cambiar sus funciones, haga clic en Acciones en la esquina superior derecha de la página. Elija la opción **[!UICONTROL Asignar función]**. Aquí puede decidir si desea conceder acceso de autor o de administrador al alumno. Después de asignar una función, este alumno tiene acceso de autor a la cuenta y puede añadir módulos y crear cursos.
+Tras añadir alumnos a la cuenta de Adobe Learning Manager, si desea cambiarles las funciones, haga clic en Acciones en la esquina superior derecha de la página. Elija la opción **[!UICONTROL Asignar función]**. Aquí puede decidir si otorga acceso de autor o de administrador al alumno. Después de asignar una función, este alumno tiene acceso de autor a la cuenta y puede añadir módulos y crear cursos.
 
 ![](assets/assign-a-role.png)
 *Asignar una función a un usuario*
 
-## Quitar un rol {#removearole}
+## Eliminar una función {#removearole}
 
-También puede eliminar el acceso de autor o administrador de los usuarios. Seleccione uno o más alumnos y haga clic en **[!UICONTROL Acciones]** y seleccione **[!UICONTROL Quitar rol]**. Elija una opción, por ejemplo, **[!UICONTROL Quitar autor]** y se revoca el acceso de autor para este alumno.
+También puede eliminar el acceso de autor o administrador a un usuario. Seleccione uno o más usuarios, haga clic en **[!UICONTROL Acciones]** y elija **[!UICONTROL Eliminar función]**. Elija una opción, por ejemplo, **[!UICONTROL Quitar autor]** y se revoca el acceso de autor para este alumno.
 
 >[!NOTE]
 >
->No se puede asignar manualmente una función de responsable a alguien del sistema. Obtienen acceso automáticamente al panel del responsable cuando se añaden uno o más empleados debajo de ellos.
+>No es posible asignar manualmente la función de responsable en el sistema. Se tiene acceso automáticamente al tablero de responsable cuando se agregan a él uno o más empleados.
 
 ## Eliminar un usuario {#deleteauser}
 
-Para eliminar un usuario, haga clic en **[!UICONTROL Acciones]** y elija **[!UICONTROL Eliminar usuario]**. En el cuadro de diálogo de confirmación, haga clic **[!UICONTROL Sí]** y el alumno se elimina.
+Para eliminar un usuario, haga clic en **[!UICONTROL Acciones]** y elija **[!UICONTROL Eliminar usuario]**. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Sí]** y el alumno se elimina.
 
 ![](assets/delete-a-role.png)
 *Mensaje de confirmación para eliminar un usuario*
 
 ## Editar un usuario {#editauser}
 
-En la lista de usuarios, elija un usuario y haga clic en el usuario. En los detalles del usuario, haga clic en **[!UICONTROL Editar]** ( ![](assets/edit-pen.png)). En la **[!UICONTROL Editar usuario]** , realice las ediciones necesarias y, para guardar los cambios, haga clic en **[!UICONTROL Guardar]**.
+En la lista de usuarios, elija un usuario y haga clic en él. En los detalles del usuario, haga clic en **[!UICONTROL Editar]** ( ![](assets/edit-pen.png)). En el cuadro de diálogo **[!UICONTROL Editar usuario]**, efectúe los cambios correspondientes; para guardarlos, haga clic en **[!UICONTROL Guardar]**.
 
 ![](assets/edit-user.png)
 *Cuadro de diálogo Editar usuario*
 
-## Flujos de trabajo para campos activos y valores de campos activos que mantienen la distinción entre mayúsculas y minúsculas
+## Flujos de trabajo para campos activos y valores de campos activos que conservan la distinción entre mayúsculas y minúsculas
 
 En esta versión, Learning Manager conserva la distinción entre mayúsculas y minúsculas del atributo de usuario y su valor. **Por ejemplo**, la distinción entre mayúsculas y minúsculas de un atributo de usuario es &#39;location&#39;; su valor &#39;PARIS&#39; se conservará y se mostrará de la misma manera. En caso de problemas, el administrador puede editar el nombre y los valores de atributo para corregir cualquier error de distinción entre mayúsculas y minúsculas.
 
 El administrador puede hacer esto visitando **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** y haciendo clic en el nombre del grupo.
 
-El administrador puede añadir y actualizar los valores de atributo permitidos para un alumno mediante la interfaz de usuario.
+El administrador puede añadir y actualizar los valores de atributos permitidos para un alumno mediante la interfaz de usuario.
 
 Tipos de campos activos:
 
-* Agrupable: los alumnos se agrupan en función de los valores
+* Agrupable: Los alumnos se agruparían según los valores
 * Comunicado: Los grupos de usuarios de informes se crearían en función de los campos activos
-* Exportable: Los campos se verán en el informe de grupos de usuarios exportado.
+* Exportable: Los campos se mostrarán en el informe de grupo de usuarios exportado.
 
-## Crear un vínculo de registro automático {#createaselfregistrationlink}
+## Crear un registro automático {#createaselfregistrationlink}
 
-También puede permitir que los empleados de su organización se registren como alumnos en la cuenta de Adobe de Learning Manager sin tener que recibir ayuda de usted como administrador. El administrador puede crear un vínculo de registro automático y compartirlo con los empleados, que pueden registrarse en el administrador de aprendizaje utilizando sus credenciales de Adobe.
+También puede permitir que los empleados de su empresa se registren como alumnos en la cuenta de Adobe Learning Manager sin que intervenga en ese proceso como administrador. El administrador puede crear un vínculo de registro automático y compartirlo con los empleados, que pueden registrarse en el administrador de aprendizaje utilizando sus credenciales de Adobe.
 
-En la esquina superior derecha de la página, haga clic **[!UICONTROL Añadir]** y elija **[!UICONTROL Registro automático]**.
+En la esquina superior derecha de la página, haga clic en **[!UICONTROL Agregar]** y elija **[!UICONTROL Registro automático]**.
 
 ![](assets/self-registration.png)
 *Crear vínculo para registrarse como alumno*
 
-La **[!UICONTROL Agregar perfil de registro automático]** se abre. Asigne un nombre a este perfil. A continuación, agregue el nombre del responsable. Es importante saber que el responsable ya debe estar registrado como alumno en Learning Manager.
+Aparece el cuadro de diálogo **[!UICONTROL Añadir perfil de registro automático]**. Asigne un nombre a este perfil. A continuación, indique el nombre del responsable. Es importante saber que el responsable ya debe estar registrado como alumno en Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
 *Añadir perfil para el registro automático*
 
-Después de hacer clic **[!UICONTROL Guardar]**, se genera una dirección URL que puede compartir con los alumnos para que puedan hacer clic en ella y registrarse ellos mismos.
+Después de hacer clic en **[!UICONTROL Guardar]**, se genera una URL que se puede compartir con los alumnos. Al hacer clic en ella, los alumnos se pueden registrar por su cuenta.
 
 ## Inscribir alumnos externos {#enrollexternallearners}
 
-En Adobe Learning Manager, también puede crear vínculos de registro para socios externos o agencias con acceso limitado a su cuenta y proporcionarles material de aprendizaje.
+En Adobe Learning Manager, también es posible crear vínculos de registro para empresas o socios externos con acceso limitado a su cuenta y proporcionarles material de aprendizaje.
 
-Existen algunas diferencias entre los registros internos y externos.
+Los registros internos y externos presentan algunas diferencias.
 
 <table>
  <tbody>
@@ -181,9 +181,9 @@ Existen algunas diferencias entre los registros internos y externos.
   </tr>
   <tr>
    <td>
-    <p>Inicie sesión con las credenciales de Adobe ID o SSO.</p></td>
+    <p>Inicio de sesión con Adobe ID o mediante credenciales de inicio de sesión único.</p></td>
    <td>
-    <p>Inicie sesión con cualquier ID de correo electrónico.</p></td>
+    <p>Inicio de sesión con cualquier ID de correo electrónico.</p></td>
   </tr>
   <tr>
    <td>
@@ -193,14 +193,14 @@ Existen algunas diferencias entre los registros internos y externos.
   </tr>
   <tr>
    <td>
-    <p>Hay disponibles jerarquías de alumnos.</p></td>
+    <p>Las jerarquías de alumno están disponibles.</p></td>
    <td>
-    <p>Las jerarquías de alumnos no están disponibles.</p></td>
+    <p>Las jerarquías de alumno no están disponibles.</p></td>
   </tr>
  </tbody>
 </table>
 
-Para inscribir usuarios externos, siga los pasos que se indican a continuación:
+Para inscribir usuarios externos, siga los pasos que se indican continuación:
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Externo]**.
 
@@ -208,13 +208,13 @@ Para inscribir usuarios externos, siga los pasos que se indican a continuación:
 
    *Inscribir usuarios externos*
 
-1. En la esquina superior derecha de la página, haga clic **[!UICONTROL Añadir]**.
-1. En la **[!UICONTROL Añadir perfil de registro externo]** , añada los siguientes detalles:
+1. En la esquina superior derecha de la página, haga clic en **[!UICONTROL Agregar]**.
+1. En el cuadro de diálogo **[!UICONTROL Añadir perfil de registro externo]**, indique la información siguiente:
 
    * El nombre de perfil de la organización asociada.
    * La dirección de correo electrónico del responsable de la organización asociada.
    * Límite de puestos para la inscripción externa de este socio.
-   * Fecha de caducidad para establecer una fecha límite para dejar de permitir nuevos registros en este grupo. Después de la fecha de caducidad, solo los usuarios registrados existentes pueden acceder a esta formación.
+   * Fecha de caducidad para establecer una fecha límite para dejar de permitir nuevos registros en este grupo. Posteriormente a la fecha de caducidad, solo pueden acceder a esta formación los usuarios que ya se hayan registrado.
 
    ![](assets/map-data-fields-2.png)
 
@@ -222,7 +222,7 @@ Para inscribir usuarios externos, siga los pasos que se indican a continuación:
 
    * En la **[!UICONTROL Configuración avanzada]** , introduzca lo siguiente:
 
-      * **[!UICONTROL Requisito de inicio de sesión]:** Especifique un valor en días. Los alumnos se eliminan si no inician sesión durante el período anterior.
+      * **[!UICONTROL Requisito de inicio de sesión]:** Especifique un valor en días. Los alumnos se eliminan si no inician sesión durante el tiempo especificado.
       * **[!UICONTROL Dominios permitidos]:** Una lista separada por comas de nombres de dominio de correo electrónico de la lista blanca.
       * **[!UICONTROL Verificación por correo electrónico obligatoria]:** Seleccione esta opción para que la verificación por correo electrónico sea obligatoria para un alumno.
 
@@ -230,40 +230,40 @@ Para inscribir usuarios externos, siga los pasos que se indican a continuación:
 
    *Introduzca los detalles en la sección Configuración avanzada*
 
-1. Después de hacer clic **[!UICONTROL Guardar]**, aparece el siguiente mensaje de confirmación. Debe compartir la dirección URL con su socio externo.
+1. Tras hacer clic en **[!UICONTROL Guardar]**, puede ver el mensaje de confirmación siguiente. Debe compartir la URL con su socio externo.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## Habilitar un perfil externo {#enableanexternalprofile}
+## Activar un perfil externo {#enableanexternalprofile}
 
-Después de crear un perfil externo, debe habilitar su estado. En la lista de perfiles externos, elija el perfil requerido y active el botón de estado.
+Después de crear un perfil externo, debe activar su estado. En la lista de perfiles externos, elija el perfil correspondiente y active el botón de estado.
 
 ![](assets/choose-required-profiles.png)
 *Habilitar un perfil externo*
 
-Esto habilita el vínculo Inscripción externa. Se enviará automáticamente un correo electrónico de bienvenida al socio. También puede copiar el vínculo y compartirlo con ellos haciendo clic en el icono Copiar URL (), o puede volver a enviar el correo electrónico de bienvenida a la organización asociada haciendo clic en el icono Correo ().
+De este modo, se activa el vínculo de inscripción externa. El socio recibe automáticamente un correo electrónico de bienvenida. También puede copiar el vínculo y compartirlo haciendo clic en el icono Copiar URL (); otra opción es reenviar el correo electrónico de bienvenida a la empresa asociada haciendo clic en el icono Correo ().
 
-El gestor de socios puede compartir el enlace con los empleados que deben realizar la formación en PreLearning Manager. Al hacer clic en el vínculo, pueden inscribirse ellos mismos después de completar algunos detalles para crear su perfil en Learning Manager. Estos usuarios no aparecerán en la ficha Alumnos junto con los empleados internos. Puede ver sus nombres debajo de la **[!UICONTROL Alumnos externos]** .
+El gestor de socios puede compartir el enlace con los empleados que deben realizar la formación en PreLearning Manager. Al hacer clic en el vínculo, se pueden inscribir por su cuenta tras facilitar algunos datos a fin de crear su perfil en Learning Manager. Estos usuarios no seleccionados no aparecerán en la Ficha Alumnos con los alumnos internos. Sus nombres figuran en la ficha **[!UICONTROL Alumnos externos]**.
 
 ## Pausar un perfil externo {#pause}
 
-Después de añadir un grupo de usuarios externos a Learning Manager, también puede pausar el proceso de registro de usuarios externos. Al pausar, se bloquea el proceso de registro de los usuarios externos. Sin embargo, este proceso solo funciona cuando los usuarios aún no se han registrado al aceptar la invitación.
+Después de añadir un grupo de usuarios externos a Learning Manager, también puede pausar el proceso de registro de usuarios externos. Al pausar, se bloquea el proceso de registro de los usuarios externos. Sin embargo, este proceso solo funciona cuando los usuarios aún no se han registrado aceptando la invitación.
 
-Para pausar los grupos de usuarios externos, elija uno o varios grupos, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y haga clic en **[!UICONTROL Pausa]**.
+Para pausar los grupos de usuarios externos, elija uno o más grupos; a continuación, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y seleccione **[!UICONTROL Pausar]**.
 
 ## Reanudar un perfil externo {#resumeanexternalprofile}
 
-En cualquier momento, siempre puede revocar el estado de pausa de un socio externo y reanudar los servicios normales. Haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y seleccione **[!UICONTROL Currículum]**.
+En cualquier momento puede revocar el estado de pausa de un socio externo y reanudar los servicios normales. Haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y elija **[!UICONTROL Reanudar]**.
 
-Los siguientes estados son aplicables a los usuarios externos:
+Los estados siguientes se aplican a usuarios externos:
 
-* **Estado inactivo** - En este estado, el registro de los usuarios externos ha caducado. Los administradores establecen la fecha de caducidad de los usuarios externos al añadirlos a través del flujo de trabajo Añadir usuario .
-* **Estado activo** - En este estado, los usuarios externos pueden registrarse en la aplicación de Learning Manager e iniciar sesión en la aplicación.
-* **Pausa** - En este estado, el proceso de registro para usuarios externos está bloqueado. Sin embargo, los usuarios existentes pueden seguir iniciando sesión.
+* **Estado inactivo** - En este estado, el registro de los usuarios externos ha caducado. Los administradores establecen la fecha de caducidad de los usuarios externos al incorporarlos mediante el flujo de trabajo Añadir usuario.
+* **Estado Activo:** en este estado, los usuarios externos se pueden registrar en la aplicación Learning Manager e iniciar sesión en ella.
+* **Pausa**: en este estado, el proceso de registro está bloqueado para usuarios externos. Sin embargo, los usuarios que ya existen pueden seguir iniciando sesión.
 
-## Comprobar asientos usados {#checkusedseats}
+## Comprobar los puestos utilizados {#checkusedseats}
 
-En la lista de perfiles externos, haga clic en **[!UICONTROL Asientos usados]**. Puede ver el número de alumnos de la organización asociada que se han añadido.
+En la lista de perfiles externos, haga clic en **[!UICONTROL Puestos usados]**. Puede ver la cantidad de alumnos de la empresa asociada que se han agregado.
 
 ![](assets/seats-used.png)
 *Comprobar asientos usados*
@@ -278,42 +278,42 @@ Para mover un usuario a otro perfil externo, elija un usuario. En la esquina sup
 
 ## Asignar una función {#Assignarole-1}
 
-Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Asignar función]** > **Crear`<role>`**. El usuario obtiene una nueva función.
+Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Asignar función]** > **Crear`<role>`**. El usuario recibe una función nueva.
 
-## Quitar un rol {#Removearole-1}
+## Eliminar una función {#Removearole-1}
 
-Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Quitar rol]** > **Quitar`<role>`**. El rol seleccionado se elimina de la lista de roles asignados al usuario.
+Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Quitar rol]** > **Quitar`<role>`**. La función seleccionada se elimina de la lista de funciones que el usuario tenía asignadas.
 
 ## Crear grupos de usuarios {#createusergroups}
 
-Un grupo de usuarios es un conjunto de usuarios relacionados con una categoría. Los grupos de usuarios ayudan a los administradores a seleccionar alumnos en su organización en función de sus atributos y, a continuación, les asignan contenido de aprendizaje. Además, estos grupos de usuarios permiten a los administradores asignar logotipos y catálogos personalizados a los alumnos y mostrar informes personalizados sobre su progreso.
+Un grupo de usuarios es un conjunto de usuarios que se inscriben en una categoría determinada. Los grupos de usuarios permiten a los administradores seleccionar los alumnos de la empresa según sus atributos y, de este modo, asignarles contenido de aprendizaje. Además, estos grupos de usuarios permiten a los administradores asignar logotipos y catálogos personalizados a los alumnos, y mostrar informes personalizados sobre su progreso.
 
-Para acceder a Grupos de usuarios, en el panel de navegación izquierdo, haga clic en **[!UICONTROL Grupos de usuarios]**.
+Para acceder a los grupos de usuarios, en el panel izquierdo haga clic en **[!UICONTROL Grupos de usuarios]**.
 
 ![](assets/user-groups.png)
 *Crear grupos de usuarios*
 
-Hay dos tipos de grupos en Adobe Learning Manager: Personalizados y Generados automáticamente. Al añadir alumnos a su cuenta, algunos grupos se crean automáticamente en función de sus propiedades comunes.
+Existen dos tipos de grupos en Adobe Learning Manager: personalizados y generados automáticamente. Al agregar alumnos a su cuenta, algunos grupos se crean automáticamente a partir de sus propiedades comunes.
 
-Para ver los grupos creados automáticamente, haga clic en la ficha **[!UICONTROL Generado automáticamente]**.
+Para ver grupos que se han creado de manera automática, haga clic en la ficha **[!UICONTROL Generado automáticamente]**.
 
 ![](assets/auto-generated.png)
 *Ver grupos generados automáticamente*
 
-Puede ver que hay diferentes grupos, como Todos los usuarios internos, Todos los responsables, grupos basados en el Centro de costes, en función del departamento y en función de los equipos de los responsables.
+Aquí existen diferentes grupos, por ejemplo Todos los usuarios internos o Todos los responsables, grupos que se basan en el centro de costes, en el departamento y en los equipos de los responsables.
 
 Además de los grupos generados automáticamente, puede crear grupos personalizados. Para añadir un nuevo grupo personalizado, en la esquina superior derecha, haga clic en **[!UICONTROL Añadir]**.
 
-1. Introduzca el nombre y la descripción del grupo.
-1. Introduzca el nombre de usuario o el perfil en el campo de búsqueda según escribe y selecciónelo en la lista desplegable para añadir usuarios.
+1. Escriba el nombre y la descripción del grupo.
+1. Escriba el nombre o el perfil de usuario en el campo de búsqueda según se escribe y selecciónelo en la lista desplegable para añadir usuarios.
 1. Para añadir más alumnos, haga clic en **[!UICONTROL Añadir más usuarios].**
 1. Para crear el grupo de usuarios, haga clic en **[!UICONTROL Guardar]**.
 
-Este grupo personalizado se crea y se añade al perfil. Los grupos de usuarios que cree son de naturaleza dinámica. Si se añaden nuevos usuarios con atributos similares, se añaden automáticamente al grupo de usuarios.
+Se crea este grupo personalizado y se incorpora al perfil. Los grupos de usuarios que crea son de naturaleza dinámica. Si se añaden usuarios con atributos similares, de manera automática se agregan al grupo de usuarios.
 
 ## Exclusión de grupos de usuarios
 
-A veces, es posible que desee excluir un pequeño conjunto de usuarios de un grupo de usuarios grande. Esto es necesario para inscribir este conjunto específico de usuarios en la formación mediante planes de aprendizaje o para configurar la visibilidad correcta de los catálogos. En esta versión de Learning Manager, puede excluir alumnos o grupos de usuarios al crear un grupo de usuarios personalizado. En el cuadro de diálogo Añadir grupo de usuarios, la sección Excluir alumnos le permite hacerlo.
+A veces, es posible que desee excluir un pequeño conjunto de usuarios de un grupo de usuarios grande. Esto es necesario para inscribir este conjunto específico de usuarios en la formación mediante planes de aprendizaje o para configurar la visibilidad correcta de los catálogos. En esta versión de Learning Manager, puede excluir alumnos o grupos de usuarios al crear un grupo de usuarios personalizado. En el cuadro de diálogo Añadir grupo de usuarios, la sección Excluir alumnos le permite realizar esta acción.
 
 ![](assets/exclude-user-groups.png)
 *Excluir grupos de usuarios*
@@ -322,7 +322,7 @@ Por ejemplo, si desea configurar un plan de aprendizaje para que se inscriban to
 
 ## Configuración avanzada {#advancedsettings}
 
-## Orígenes de datos {#datasources}
+## Fuentes de datos {#datasources}
 
 Puede utilizar esta función cuando desee importar o sincronizar los usuarios o los datos de aprendizaje de la base de datos de su organización en la aplicación Learning Manager. También puede configurar la frecuencia de esta sincronización.
 
@@ -334,11 +334,11 @@ Haga clic en **[!UICONTROL Orígenes de datos]** en el panel izquierdo debajo de
 
 Elija el tipo de origen de datos de la **[!UICONTROL Source]** , seleccione la frecuencia de actualización y haga clic en **[!UICONTROL Sincronizar ahora]** si necesita sincronizar inmediatamente o hacer clic en **[!UICONTROL Guardar].** Los tipos de orígenes de datos son SFDC, FTP, etc., para usuarios internos.
 
-Puede agregar varios orígenes de datos.
+Puede añadir varias fuentes de datos.
 
 ## Campos activos {#activefields}
 
-Esta función permite a los administradores añadir más campos activos además de lo que se ha proporcionado durante el registro del usuario.
+Esta función permite a los administradores agregar más campos activos además de lo que se ha proporcionado durante el registro del usuario.
 
 Haga clic en **Campos activos** disponible en la página usuarios. Los alumnos solo pueden elegir entre los valores proporcionados en valores personalizados.
 
@@ -349,7 +349,7 @@ Haga clic en **Campos activos** disponible en la página usuarios. Los alumnos s
 
 **Usuarios internos**
 
-Puede agregar un valor personalizado para los campos de usuario de los usuarios internos.
+Puede añadir valores personalizados para campos de usuario de usuarios internos.
 
 Para añadir valores personalizados, siga estos pasos:
 
@@ -363,14 +363,14 @@ Para añadir valores personalizados, siga estos pasos:
    ![](assets/values-in-customfields.png)
    *Valores del cuadro de diálogo Campos personalizados*
 
-1. Seleccione el valor que desea añadir en el **[!UICONTROL Seleccionar campo]** del menú desplegable.
-1. Introduzca nuevos valores en el **[!UICONTROL Nuevo valor]** campo.
-1. Haga clic en **[!UICONTROL Hecho]**.
-1. Haga clic en Guardar en la esquina superior derecha para **[!UICONTROL Guardar]** cambios.
+1. En el menú desplegable **[!UICONTROL Campo seleccionado]**, seleccione el valor que añadir.
+1. Indique valores nuevos en el campo **[!UICONTROL Nuevo valor]**.
+1. Haga clic en **[!UICONTROL Listo]**.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Guardar]** para conservar los cambios.
 
 **Usuarios externos**
 
-Añada valores personalizados similares a los de los usuarios internos.
+Añada valores personalizados similares a ese para usuarios internos.
 
 ![](assets/modify-values-forexternalusers.png)
 *Modificar valores para usuarios externos*
@@ -384,7 +384,7 @@ Si la opción **Mostrar solo campos sin rellenar al iniciar sesión como alumno*
 ![](assets/settings-tab.png)
 *Mostrar campos sin rellenar*
 
-Con esta opción, un administrador puede decidir si desea mostrar los campos u ocultarlos una vez que se hayan rellenado.
+Con esta opción, un administrador puede decidir mostrar los campos u ocultarlos una vez que se hayan rellenado.
 
 ## Restringir campos activos en informes {#restrictactivefields}
 
@@ -393,12 +393,12 @@ Learning Manager 27.7 presenta dos nuevas opciones: **[!UICONTROL Comunicado]** 
 ![](assets/options-in-activefields.png)
 *Opciones de Campos activos*
 
-Para los campos CSV y los campos añadidos manualmente, si un campo activo se marca como **[!UICONTROL Comunicado]**, el campo activo se puede buscar en un filtro dentro de un informe de tablero.
+Para los campos CSV y los campos añadidos manualmente, si un campo activo se marca como **[!UICONTROL Reportable]**, se puede buscar en un filtro dentro de un informe del tablero.
 
 ![](assets/filters-in-a-dashboardreport.png)
 *Filtros en un informe de tablero*
 
-Si un campo activo se marca como **[!UICONTROL Exportable]**, el campo activo aparece en el archivo de Excel al descargar cualquier informe de Excel.
+Si un campo activo se marca como **[!UICONTROL Exportable]**, aparece en el archivo de Excel al descargar cualquier informe de Excel.
 
 Estas opciones aparecen para los campos activos internos y externos.
 
@@ -410,7 +410,7 @@ Puede ocultar toda la página &quot;Completar su perfil&quot; a los alumnos. La 
 
 Tenga en cuenta que el comportamiento predeterminado existente no cambia. Esta es una capacidad opcional que ahora están disponibles para los administradores.
 
-Active las opciones siguientes:
+Habilite las opciones siguientes:
 
 ![](assets/user-display.png)
 *Sección Visualización de usuario*
@@ -427,58 +427,58 @@ Sucede que, a veces, un usuario no desea asignar un campo activo a un campo espe
 
 ## Funciones personalizadas {#customroles}
 
-Añada cualquier campo que desee como parte de la información del usuario y haga clic en **[!UICONTROL Guardar]**. Después de agregar los campos, también puede comprobar la disponibilidad de los campos en el **[!UICONTROL Editar usuarios]** diálogo.
+Añada cualquier campo que desee como parte de su información de usuario y haga clic en **[!UICONTROL Guardar]**. Después de agregar los campos, también puede comprobar la disponibilidad de los campos en el **[!UICONTROL Editar usuarios]** diálogo.
 
-Después de agregar los campos, puede observar que los campos marcados con una marca de verificación proceden del origen de datos o del archivo CSV, como se indica en la captura de pantalla siguiente. El administrador puede editar estos campos de origen habilitando o deshabilitando los campos.
+Después de añadir los campos, puede observar que los campos que llevan la marca de verificación se obtienen de la fuente de datos o del archivo .csv como se muestra en la captura de pantalla siguiente. El administrador puede editar estos campos de origen habilitando o deshabilitando los campos.
 
 **Valores de campos activos en Learning Manager**
 
 Los valores de los campos activos se obtienen de las siguientes maneras:
 
-1. La aplicación Learning Manager importa metadatos de orígenes de datos asociados a su cuenta.
-1. Metadatos capturados desde el archivo CSV importado manualmente.
-1. Los alumnos rellenan metadatos al iniciar sesión
-1. El administrador introduce los datos de los usuarios.
+1. La aplicación Learning Manager importa metadatos de fuentes de datos asociadas con su cuenta.
+1. Metadatos capturados desde el archivo .csv importado manualmente.
+1. Los alumnos rellenan los metadatos al iniciar sesión.
+1. El administrador proporciona los datos para los usuarios.
 
 >[!NOTE]
 >
->La aplicación Learning Manager crea grupos de usuarios automáticamente a partir de estos metadatos.
+>La aplicación Learning Manager crea automáticamente grupos de usuarios a partir de estos metadatos.
 
 **Añadir valor personalizado**
 
-Puede agregar un valor personalizado para los campos de usuario en los campos Usuario interno y Usuario externo.
+Puede añadir valores personalizados para campos de usuario en los campos de usuario Interno y Externo.
 
 Para añadir valores personalizados, siga estos pasos:
 
-Los campos personalizados se pueden agregar y eliminar; son aplicables a todos los usuarios. Los campos CSV se pueden habilitar o deshabilitar; solo se aplican al cargar el archivo CSV después de realizar las modificaciones en los campos activos. Todos los campos activos internos son aplicables a todos los tipos de usuarios internos. Los campos externos solo se aplican a usuarios externos. Si un campo personalizado está presente en CSV, en la próxima carga se convierte automáticamente en un campo CSV y está habilitado.
+Los campos personalizados se pueden añadir y eliminar; son aplicables a todos los usuarios. Los campos CSV se pueden habilitar o deshabilitar; solo se aplican al cargar el archivo .csv tras efectuar las modificaciones en los campos activos. Todos los campos activos internos son aplicables a todos los tipos de usuarios internos. Los campos externos solo son aplicables a usuarios externos. Si un campo personalizado está presente en el archivo .csv, en la siguiente carga se convierte automáticamente a un campo CSV y queda habilitado.
 
-## Valores para campos CSV {#valuesforcsvfields}
+## Valores de campos CSV {#valuesforcsvfields}
 
-Los usuarios solo pueden elegir entre campos predefinidos para campos CSV si la **[!UICONTROL Restringir selección]** la casilla de verificación está activada.
+Los usuarios solo pueden elegir en campos predefinidos de campos CSV si se selecciona la casilla de verificación **[!UICONTROL Restringir selección]**.
 
 ![](assets/value-field-for-csv.png)
 *Casilla de verificación Restringir selección*
 
 ## Importar registros {#importlogs}
 
-En este espacio, puede ver el historial de importación de CSV para los usuarios que el administrador ha añadido mediante la función de importación en bloque. También puede hacer clic en **Añadir** en la esquina superior derecha de la página para añadir usuarios mediante la función de carga de CSV.
+En este espacio, puede ver el historial de importación del archivo .csv para los usuarios que el administrador ha añadido mediante la función de importación en bloque. También puede hacer clic en **Añadir** en la esquina superior derecha de la página para añadir usuarios mediante la función de carga de CSV.
 
-## Campos activos multivalor
+## Campos activos de varios valores
 
-Con esta función, puede tener más de un campo para un campo activo. En una cuenta, puede haber como máximo tres campos activos multivalor. Los campos activos multivalor están disponibles para usuarios internos y externos.
+Con esta función, puede tener más de un campo para un campo activo. En una cuenta, puede haber como máximo tres campos activos de varios valores. Los campos activos de varios valores están disponibles para usuarios internos y externos.
 
-Una vez marcado un campo activo como multivalor, no puede volver a convertirlo en un solo valor. Esto es irreversible.
+Una vez marcado un campo activo como de varios valores, no puede volver a convertirlo en uno de un solo valor. Este proceso es irreversible.
 
-Un campo de un solo valor existente no se puede marcar como campo de varios valores.
+Un campo de un solo valor existente no se puede marcar como un campo de varios valores.
 
-Para crear un campo activo multivalor, siga los pasos que se indican a continuación:
+Para crear un campo activo de varios valores, siga los pasos que se indican a continuación:
 
-1. Agregar un campo activo.
+1. Añada un campo activo.
 
    ![Agregar un campo activo](assets/add-active-field.png)
    *Agregar un campo activo*
 
-1. Haga clic en Agregar.
+1. Haga clic en Añadir.
 1. En la ficha Configuración, marque el nuevo campo como multivalor.
 
    ![Marcar como multivalor](assets/mark-multi-valued.png)
@@ -491,37 +491,37 @@ Para crear un campo activo multivalor, siga los pasos que se indican a continuac
    ![Agregar valores](assets/add-values.png)
    *Agregar valores*
 
-1. Haga clic en [!UICONTROL **Hecho**].
+1. Haga clic en [!UICONTROL **Listo**].
 
 >[!NOTE]
 >
 >Una vez creado el grupo de usuarios y rellenado el campo, no se pueden convertir varios valores en valores individuales y viceversa.
 
-### Agregar un campo activo multivalor mediante CSV
+### Añadir un campo activo de varios valores mediante un archivo .csv
 
-Siga estos pasos:
+Siga los pasos a continuación:
 
-1. Cree un archivo CSV con los nuevos campos activos como columnas (valores separados por comas o valores individuales).
-1. Importe el archivo CSV.
+1. Cree un archivo .csv con los nuevos campos activos como columnas (valores separados por comas o valores únicos).
+1. Importe el archivo .csv.
 1. Marque los campos como multivalor en el cuadro de diálogo Valores en campos personalizados .
-1. Vuelva a importar el archivo CSV.
+1. Vuelva a importar el archivo .csv.
 
-El archivo CSV debe tener una columna con el mismo nombre que la de un campo activo marcado como multivalor.
+El archivo .csv debe tener una columna con el mismo nombre que la de un campo activo marcado como de varios valores.
 
-El archivo CSV contiene los campos:
+El archivo .csv contiene los siguientes campos:
 
 * **[!UICONTROL Usuario]**: grupos de usuarios creados como funciones.
 * **[!UICONTROL Funciones]**: Campo activo multivalor con valores.
 
-Si el archivo CSV se vuelve a cargar con nuevos valores o se eliminan valores, los campos y grupos activos también se actualizan en consecuencia.
+Si se vuelve a cargar el archivo .csv con nuevos valores o se eliminan valores, los campos y los grupos activos también se actualizan en consecuencia.
 
 ### Informes
 
-Todos los informes incluyen los campos activos multivalor y sus valores.
+Todos los informes incluyen campos activos y sus valores.
 
-El administrador puede añadir campos activos generados automáticamente y configurar la actividad del usuario y los informes de formación.
+El administrador puede añadir campos activos generados automáticamente y configurar los informes de formación y actividad del usuario.
 
-El informe Transcripciones de alumnos contiene todos los campos activos y valores separados por comas. A continuación, el administrador puede filtrar los datos en consecuencia.
+El informe Transcripciones de alumnos contiene todos los campos activos y valores separados por comas. A continuación, el administrador puede filtrar los datos como corresponda.
 
 ## Preguntas más frecuentes {#faq}
 
@@ -533,7 +533,7 @@ Después de agregar un usuario y asignarle una función, puede registrarlo reali
 
 1. En la ventana emergente, haga clic en **[!UICONTROL Sí]**.
 
-Los usuarios seleccionados recibirán un correo electrónico de bienvenida. Si los alumnos ya tienen un Adobe ID, pueden hacer clic en este vínculo. Si no tienen un Adobe ID existente, pueden hacer clic en el vínculo Bienvenido para crear un Adobe ID y vincularlo a su cuenta de Learning Manager.
+Los usuarios seleccionados reciben un correo electrónico de bienvenida. Si los alumnos ya tienen un Adobe ID, pueden hacer clic en este vínculo. Si no tienen un Adobe ID existente, pueden hacer clic en el vínculo Bienvenido para crear un Adobe ID y vincularlo a su cuenta de Learning Manager.
 
 Es obligatorio que los alumnos hagan clic en uno de estos vínculos para que Learning Manager verifique sus cuentas.
 
@@ -541,30 +541,30 @@ Es obligatorio que los alumnos hagan clic en uno de estos vínculos para que Lea
 
 +++Cómo editar datos de usuarios?
 
-Para editar un usuario, siga los pasos que se indican a continuación:
+Para editar un usuario, siga los pasos que se indican continuación:
 
-1. En la lista de usuarios, haga clic en el usuario cuyos datos desea editar.
-1. Haga clic en el icono del lápiz, como se muestra a continuación.
+1. En la lista de usuarios, haga clic en el usuario para el que desea editar los datos.
+1. Haga clic en el ícono de lápiz, como se muestra a continuación.
 
 ![](assets/edit-user-data.png)
 
-En la **[!UICONTROL Editar usuario]** , actualice los campos en consecuencia. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**.
+En el cuadro de diálogo **[!UICONTROL Editar usuario]**, actualice los campos, según sea necesario. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**.
 
 +++
 
 +++Cómo pausar y reanudar un usuario externo en Learning Manager
 
-En la lista de usuarios externos, elija el usuario que desea eliminar. En la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Pausa]**.
+En la lista de usuarios externos, seleccione el usuario que desea eliminar. En la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Pausa]**.
 
 Para obtener más información, consulte [Pausar un perfil externo](add-users-user-groups.md#pause).
 
-Después de pausar un perfil, el perfil externo muestra el estado como ***En pausa***.
+Después de pausar un perfil, el perfil externo muestra el estado como ***Pausado***.
 
 +++
 
 +++Cómo enviar el correo electrónico de bienvenida al perfil externo recién creado?
 
-Al añadir un usuario externo, en el **[!UICONTROL Añadir perfil de registro externo]** , introduzca el correo electrónico del responsable externo. Al hacer clic en Guardar, también se envía un correo electrónico de bienvenida a la dirección de correo electrónico especificada. Si desea volver a enviar el correo de bienvenida, haga clic en el icono del sobre, como se muestra a continuación:
+Al añadir un usuario externo, en el **[!UICONTROL Añadir perfil de registro externo]** , introduzca el correo electrónico del responsable externo. Al hacer clic en Guardar, también se enviará un mensaje de bienvenida a la dirección de correo electrónico especificada. Si desea volver a enviar el mensaje de bienvenida, haga clic en el icono de sobre, como se muestra a continuación:
 
 ![](assets/send-welcome-mail.png)
 
@@ -592,13 +592,13 @@ Si desea que los alumnos solo vean los campos activos que no han rellenado, siga
 
 +++Cómo evitar que los alumnos introduzcan valores aleatorios en los campos activos.
 
-Puede restringir la selección de los alumnos para que solo puedan seleccionar los valores predefinidos y no introducir valores aleatorios. Siga estos pasos:
+Puede restringir la selección de los alumnos para que solo puedan seleccionar los valores predefinidos y no introducir valores aleatorios. Siga los pasos a continuación:
 
 1. Haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Campos activos]**.
 1. En la sección **[!UICONTROL Configurar campos]**, haga clic en **[!UICONTROL Modificar valores]**.
 
 1. Active la opción **[!UICONTROL Restringir selección]**.
-1. Haga clic en **[!UICONTROL Hecho]**.
+1. Haga clic en **[!UICONTROL Listo]**.
 
 +++
 

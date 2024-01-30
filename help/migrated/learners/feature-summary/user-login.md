@@ -1,12 +1,12 @@
 ---
-description: Inicie sesión como alumno en Learning Manager.
+description: Inicie sesión en Learning Manager como alumno.
 jcr-language: en_us
 title: Iniciar sesión
 contentowner: manochan
 source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Iniciar sesión
 
-Inicie sesión como alumno en Learning Manager.
+Inicie sesión en Learning Manager como alumno.
 
-Cuando utilice Adobe Learning Manager por primera vez, debe crear su cuenta siguiendo los pasos que se indican a continuación:
+Al utilizar Adobe Learning Manager por primera vez, debe crear la cuenta mediante los pasos que se indican a continuación:
 
 1. Inicie Adobe Learning Manager mediante el vínculo seguro que recibió en el correo electrónico de bienvenida de su administrador.
 
@@ -28,7 +28,7 @@ Cuando utilice Adobe Learning Manager por primera vez, debe crear su cuenta sigu
 
    *Iniciar sesión con nombre de usuario y contraseña*
 
-1. Introduzca el Adobe ID, la contraseña y haga clic en Iniciar sesión.
+1. Introduzca el Adobe ID y la contraseña y haga clic en Iniciar sesión.
 
    Si ha olvidado la contraseña, haga clic en ¿Ha olvidado la contraseña? y proporcione el ID de correo electrónico que utilizó para crear Adobe ID.
 
@@ -40,4 +40,4 @@ Cuando utilice Adobe Learning Manager por primera vez, debe crear su cuenta sigu
 
 >[!NOTE]
 >
->Una vez que inicie sesión por primera vez, su Adobe ID se asociará a la cuenta de su empresa. Para cualquier inicio de sesión posterior, puede marcar la dirección URL de su cuenta (segunda dirección URL) que recibió en el correo electrónico de bienvenida.
+>Una vez que inicie sesión por primera vez, su Adobe ID se asociará a la cuenta de su empresa. Para las sesiones subsiguientes, puede marcar la URL de su cuenta (segunda URL) que recibió en el correo electrónico de bienvenida.

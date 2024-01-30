@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # No se pueden ver los envíos de archivos en Adobe Learning Manager
 
-## Problema
+## El problema
 
 Un instructor no puede ver los envíos de archivos que ha cargado un alumno.
 
@@ -28,9 +28,9 @@ Por ejemplo, un alumno se ha inscrito en una instancia denominada **Instancia de
 
 *Ver instancia*
 
-A continuación, el alumno abre el curso y carga un archivo en el módulo de actividad.
+A continuación, el alumno abre el curso y carga un archivo en el módulo Actividad.
 
-Cuando el instructor intenta aprobar el envío, no puede hacerlo.
+Al intentar aprobar un envío, el instructor no puede realizar esta acción.
 
 ![](assets/activity.png)
 

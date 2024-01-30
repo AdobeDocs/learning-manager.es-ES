@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: El usuario se elimina automáticamente en Learning Manager
-description: Un usuario se elimina de Learning Manager; sin embargo, el administrador nunca ha realizado dicha acción.
+description: Se elimina un usuario de Learning Manager. Sin embargo, el administrador no ha realizado nunca esta acción.
 contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## Problema
 
-Un usuario se elimina de Learning Manager; sin embargo, el administrador nunca ha realizado dicha acción.
+Se elimina un usuario de Learning Manager. Sin embargo, el administrador no ha realizado nunca esta acción.
 
 ## Causa
 
-En Adobe Learning Manager, hay una opción que le permite eliminar un usuario si este no ha iniciado sesión en el sistema durante un período de tiempo determinado.
+En Adobe Learning Manager, hay una opción que permite eliminar un usuario si este no ha iniciado sesión en el sistema durante un periodo específico.
 
 ## ¿Cómo cambiar o aplicar la configuración?
 
 ### Para alumnos internos
 
-1. Inicie sesión como **Administrador**.
+1. Inicie sesión como **administrador**.
 1. Debajo **Configurar**, haga clic en **Configuración** > **General**.
 1. En la página Configuración general, busque la opción **Eliminar automáticamente usuarios internos**.
 1. Haga clic en **[!UICONTROL Editar]** para introducir el número de días en el campo, para eliminar automáticamente un alumno si no ha accedido al sistema.
@@ -44,11 +44,11 @@ En Adobe Learning Manager, hay una opción que le permite eliminar un usuario si
 
 ### Para alumnos externos:
 
-1. Inicie sesión como **Administrador**.
+1. Inicie sesión como **administrador**.
 1. Debajo **Gestionar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Externo]**.
 1. Haga clic en el nombre de un usuario externo al que se debe aplicar la configuración.
 
-   Esto abre el **Editar perfil de registro externo** ventana.
+   Se abrirá la ventana **Editar perfil de registro externo**.
 
 1. Haga clic en **[!UICONTROL Configuración avanzada]** en la esquina inferior izquierda.
 

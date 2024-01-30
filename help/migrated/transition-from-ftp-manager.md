@@ -1,25 +1,25 @@
 ---
-title: Transición desde el Administrador de FTP de Adobe
-description: Adobe Learning Manager admite un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP de Adobe.
+title: Transición desde el Administrador de FTP Adobe
+description: Adobe Learning Manager admite un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
 source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
-# Transición desde el Administrador de FTP de Adobe
+# Transición desde el Administrador de FTP Adobe
 
-Adobe Learning Manager admite un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer.
+Adobe Learning Manager es compatible con un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer.
 
-Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP de Adobe.
+Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
 
-Se muestran algunos clientes FTP recomendados por AWS [aquí](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
+Algunos clientes FTP recomendados por AWS se muestran [a continuación](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
 
 * FileZilla (Windows, macOS y Linux)
-* OpenSSH (macOS y Linux) - Nota: Este cliente solo funciona con servidores habilitados para el protocolo de transferencia de archivos (SFTP) de Secure Shell (SSH).
-* WinSCP (solo Microsoft para Windows)
+* OpenSSH (macOS y Linux); Nota: Este cliente únicamente funciona con servidores habilitados para el protocolo de transferencia de archivos (SFTP) de Secure Shell (SSH).
+* WinSCP (solo Microsoft Windows)
 * Cyberduck (Windows, macOS y Linux)
 
 ## Configurar el conector FTP basado en AWS
@@ -36,7 +36,7 @@ Una vez que se conecte, podrá ver la página Detalles de la conexión.
 
 Hay tres opciones de autenticación:
 
-### Crear autenticación generando nuevas claves SSH
+### Crear la autenticación generando nuevas claves SSH
 
 Si desea generar la clave SSH en el propio sistema, puede hacerlo. Haga clic en Generar clave SSH.
 
@@ -51,31 +51,31 @@ Si ya dispone de una clave SSH, pegue la clave pública en el **[!UICONTROL Clav
 ![Teclas SSH](assets/ssh-keys.png)
 *Pegar las teclas*
 
-### Crear una autenticación básica mediante una contraseña
+### Crear autenticación básica mediante una contraseña
 
 Este es el mecanismo de autenticación básico. Seleccione la primera opción, **[!UICONTROL Crear una autenticación básica mediante una contraseña]**. Introduzca la contraseña y haga clic en **[!UICONTROL Connect]**.
 
 Esto crea una conexión.
 
-## ¿Qué viene después?
+## Pasos siguientes
 
 ### Configuración del cliente FTP
 
-Configure la conexión en un cliente FTP (recomendado en la sección anterior) con las claves descargadas o las claves o contraseñas existentes.
+Configure la conexión en un cliente FTP (recomendado en la sección anterior) con las claves que ha descargado o las claves o contraseñas que ya existen.
 
 ### Ejemplo de exportación de prueba
 
-* En su cliente FTP, cambie la ubicación del FTP de ExaVault a la nueva ubicación de FTP. El nuevo dominio es `http://almftp.adobelearningmanager.com/`.
+* En su cliente FTP, cambie la ubicación del FTP ExaVault a la nueva ubicación de FTP. El nuevo dominio es `http://almftp.adobelearningmanager.com/`.
 * También debe incluir la dirección IP en la lista blanca. `18.195.107.67`.
-* Después de la autenticación, debe cargar y descargar algunos archivos de muestra desde y hacia la nueva ubicación de FTP mediante clientes FTP externos o scripts de automatización.
-* Debe transferir datos de la ubicación antigua a la nueva.
-* La política de retención de datos para el conector sigue siendo la misma. ExaVault también admitía algunas políticas de conservación de datos además de la política oficial. Estas políticas de retención de datos no estarán disponibles para el nuevo conector. Compruebe si el conector utiliza alguna retención de datos que no sean las políticas admitidas oficialmente.
+* Una vez se haya autenticado, debe cargar y descargar algunos archivos de muestra desde la nueva ubicación de FTP y hacia ella mediante clientes FTP externos o secuencias de comandos de automatización.
+* Debe transferir los datos de la ubicación antigua a la nueva.
+* La política de retención de datos del conector sigue siendo la misma. ExaVault también era compatible con algunas políticas de conservación de datos, además de la política oficial. Estas políticas de retención de datos no estarán disponibles con el nuevo conector. Compruebe si el conector emplea alguna retención de datos que no pertenezca a las políticas compatibles oficialmente.
 
 ### Qué sucede con los proyectos de migración
 
 | Estado | Recomendación |
 |---|---|
-| Nueva migración | No se pueden iniciar nuevas migraciones desde el antiguo FTP. Debe utilizar el nuevo FTP para las nuevas migraciones. Para obtener más ayuda al respecto, póngase en contacto con el equipo de éxito del cliente. |
+| Nueva migración | No puede iniciar nuevas migraciones desde el antiguo FTP. Debe utilizar el nuevo FTP para las nuevas migraciones. Para obtener más ayuda al respecto, póngase en contacto con el equipo de éxito del cliente. |
 | Migración en curso | Crear un sprint: puede seguir utilizando el antiguo FTP, pero le recomendamos que utilice el nuevo FTP. Póngase en contacto con el equipo de éxito del cliente para cualquier sprint existente que no se pueda desplazar. |
 | Migración cerrada | No hay acción. |
 
@@ -156,9 +156,9 @@ Para generar nuevas claves SSH, haga clic en el icono &#39;**[!UICONTROL Generar
 
 Asigne los detalles. Seleccione el tipo de inicio de sesión como Archivo de clave. Seleccione el archivo de clave privada.
 
-Haga clic en **[!UICONTROL Connect]**.
+Haga clic en **[!UICONTROL Conectar]**.
 
-## ¿Qué sucede después de que ExaVault deje de utilizarse?
+## Qué sucede cuando ExaVault se deja de utilizar
 
 Una vez que ExaVault ya no se utilice, todos los proyectos de migración existentes que estén en curso se transferirán al nuevo FTP como ubicación de origen. A continuación, debe configurar el nuevo conector FTP y continuar con el proceso de migración.
 

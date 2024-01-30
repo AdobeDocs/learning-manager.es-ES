@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 # Asignación predeterminada de funciones de instructor a grupos de usuarios en Learning Manager
 
-## Problema
+## El problema
 
 A todos los usuarios asignados a una sesión se les asigna la función de instructor.
 
 ## Descripción
 
-Hay situaciones en las que una sesión puede requerir varios instructores o un administrador o autor asigna un grupo de usuarios a una sesión. Esto hace que a todos los usuarios del grupo de usuarios se les asigne la función de instructor.
+Hay situaciones en las que una sesión puede requerir varios instructores o que un administrador/autor asigne un grupo de usuarios a una sesión. Esto provoca que a todos los usuarios del grupo de usuarios se les asigne la función de instructor.
 
 ## Causa
 
-Como las funciones no se pueden bifurcar durante la asignación en bloque de usuarios en un grupo de usuarios, la función de instructor se asigna a todos los usuarios.
+Como las funciones no se pueden bifurcar durante la asignación masiva de usuarios de un grupo, la función de instructor se asigna a todos los usuarios.
 
 ## Solución
 
-Crear grupos de usuarios personalizados para filtrar las funciones de usuario asignadas a una sesión. Para eliminar las funciones de instructor asignadas a un grupo de usuarios, siga estos pasos:
+Cree grupos de usuarios personalizados para filtrar las funciones de usuario asignadas a una sesión. Para eliminar las funciones de instructor asignadas a un grupo de usuarios, siga estos pasos:
 
-1. Inicie sesión como administrador. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]**.
+1. Inicie sesión como Administrador. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]**.
 1. Para evitar activadores de correo electrónico para los cambios que se van a realizar, haga clic en **[!UICONTROL Desactivar todo]**.
 
    ![](assets/instructor-disable-all.png)

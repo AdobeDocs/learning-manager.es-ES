@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -24,7 +24,7 @@ Un alumno no puede buscar un curso en Learning Manager.
 
 Hay situaciones en las que un alumno busca en un curso y este no aparece en la lista. Sin embargo, si el alumno se ha inscrito en un programa de aprendizaje/certificación, este puede ver el curso en el objeto de aprendizaje.
 
-### ¿Por qué sucede esto?
+### ¿Por qué ocurre?
 
 En Learning Manager, cuando un alumno se inscribe a través de un programa de aprendizaje/certificación, la inscripción en ese curso se realiza a través del programa de aprendizaje/certificación.
 
@@ -38,11 +38,11 @@ Sin embargo, el alumno no puede ver los cursos dentro del programa de aprendizaj
 
 Un alumno no puede buscar cursos en el catálogo o el panel de aprendizaje.
 
-### ¿Por qué sucede esto?
+### ¿Por qué ocurre?
 
 Este problema se produce si:
 
-* El alumno no forma parte del catálogo que contiene el curso **O**
+* El alumno no forma parte del catálogo que contiene el curso, **O BIEN**
 * El curso no forma parte del catálogo al que tiene acceso el alumno.
 
 ### Resolución

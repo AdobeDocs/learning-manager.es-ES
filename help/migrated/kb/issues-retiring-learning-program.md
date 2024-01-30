@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ Un programa de aprendizaje se retira automáticamente.
 
 Hay situaciones en las que se ha retirado un programa de aprendizaje sin que el administrador o el autor lo hayan hecho de forma explícita.
 
-Este problema se produce porque un programa de aprendizaje es una colección de cursos. Los cursos de formación de pedidos superiores se retiran si alguno de los cursos que contiene contiene una instancia retirada o si se retira la instancia del curso.
+Este problema se debe a que un programa de aprendizaje es una colección de cursos. Los cursos superiores en el orden se retiran si alguno de los cursos que contienen incluye una instancia retirada o si se retira la instancia del curso.
 
 ## Resolución
 
@@ -30,7 +30,7 @@ Para comprobar el curso que contiene una instancia retirada, siga los pasos que 
 
 1. Inicie sesión como administrador e inicie el programa de aprendizaje correspondiente.
 
-1. Haga clic en **[!UICONTROL Instancias]** > **CCursos**. La página muestra todos los cursos que forman parte de este programa de aprendizaje. Podrá ver el curso que contiene una instancia retirada.
+1. Haga clic en **[!UICONTROL Instancias]** > **CCursos**. En esta página, se muestran todos los cursos que forman parte de este programa de aprendizaje. Podrá ver el curso que contiene una instancia retirada.
 
    ![](assets/retired-instance.png)
 
@@ -44,7 +44,7 @@ Para comprobar el curso que contiene una instancia retirada, siga los pasos que 
 
    *Editar la fecha de finalización de un curso*
 
-1. Una vez completado el proceso, haga clic en el menú desplegable, como se muestra en la imagen siguiente. A continuación, haga clic **[!UICONTROL Reabrir instancia]**.
+1. Una vez completado el proceso, haga clic en la lista desplegable, como se muestra en la siguiente imagen. A continuación, haga clic en **[!UICONTROL Reabrir instancia]**.
 
    ![](assets/re-open-instance.png)
 

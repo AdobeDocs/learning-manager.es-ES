@@ -6,7 +6,7 @@ contentowner: shhivkum
 source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -18,84 +18,84 @@ Lea este artículo para obtener información sobre cómo administrar a los asist
 
 ## Ver sesiones o módulos con revisiones pendientes {#pending}
 
-Como instructor, puede ver las sesiones o los módulos con revisiones pendientes.
+Como instructor, puede ver las sesiones o los módulos que tienen revisiones pendientes.
 
 En la página Sesiones/Módulos, puede ver una columna **Revisiones pendientes** que muestra el número de revisiones pendientes para la sesión/actividad correspondiente.
 
 ## Administrar la lista de espera de la sesión {#managewaitlistforyoursession}
 
-A medida que los alumnos se registran en el módulo, puede ver el estado más reciente de la inscripción y la lista de espera en la página Lista de espera .
+A medida que los alumnos se inscriben en el módulo, en la página Lista de espera puede ver el estado más actual de la inscripción y de la lista de espera.
 
 1. En la aplicación del instructor, seleccione Sesiones futuras > Lista de espera en el panel de navegación izquierdo.
 
-   Puede ver el Límite de puestos, el número de puestos actualmente ocupados y el número de puestos vacantes. Una tabla también muestra los alumnos que se han puesto en lista de espera. Está en blanco si no hay colas en la lista de espera.
+   Puede ver los valores del límite de puestos, la cantidad de puestos rellenados y de puestos libres. En una tabla figuran los alumnos que están en lista de espera. Si está en blanco, significa que no hay ninguna lista de espera.
 
    ![](assets/waitlist.png)
    *Ver alumnos en lista de espera*
 
-1. En la tabla Lista de espera, seleccione el alumno o los alumnos que desea confirmar.
+1. En la tabla Lista de espera, seleccione a los alumnos que quiera confirmar.
 1. Seleccione Acciones > Confirmar alumnos.
 
-   Los alumnos que ha confirmado se añaden a la lista Alumnos confirmados.
+   Los alumnos que haya confirmado se incorporan a la lista de alumnos confirmados.
 
-Los instructores pueden dar de baja a los alumnos de las sesiones. Esto también les da de baja de los aprendizajes correspondientes. Seleccionar **[!UICONTROL Lista de espera]** . Seleccione los alumnos que desea dar de baja con la casilla de verificación. Para darse de baja, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Dar de baja alumnos]**.
+Los instructores tienen la capacidad de dar de baja de las sesiones a los alumnos. Esto también les da de baja de los correspondientes aprendizajes. Seleccione la ficha **[!UICONTROL Lista de espera]**. Con la casilla de verificación, seleccione los alumnos a los que dar de baja. Para darse de baja, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Dar de baja alumnos]**.
 
 ![](assets/unenroll-learners.png)
 *Dar de baja a los alumnos*
 
-## Marcar la asistencia a la sesión {#markattendanceforyoursession}
+## Marcar la asistencia de la sesión {#markattendanceforyoursession}
 
-Puede ver el número de alumnos confirmados que asisten a la sesión, sus nombres, el estado de asistencia de los alumnos y otros detalles en la página Alumnos.
+En la página Alumnos, puede ver la cantidad de alumnos confirmados que asisten a la sesión, sus nombres, el estado de asistencia y demás datos.
 
 1. En el panel de navegación izquierdo, haga clic en Sesiones futuras > Alumnos.
-1. Seleccione el alumno o los alumnos de la lista de asistentes y realice una de las siguientes acciones:
+1. En la lista de asistentes, seleccione a uno o más alumnos, y efectúe una de las acciones siguientes:
 
-   * Para marcar la asistencia, haga clic en Acciones > Marcar asistencia. Una vez marcado el estado como Asistido, no se puede cambiar.
-   * Para marcar la no asistencia, haga clic en Acciones > No asistido.
+   * Para marcar la asistencia, haga clic en Acciones > Marcar asistencia. Cuando el estado se marca como Ha asistido, no se puede cambiar.
+   * Para marcar la no asistencia, haga clic en Acciones > No ha asistido.
    * Para eliminar un alumno por cancelación u otros motivos, haga clic en Acciones > Eliminar alumnos.
 
-   Un alumno no puede completar un módulo hasta que el estado de asistencia sea Asistencia.
+   Un alumno no puede completar un módulo a menos que su estado de asistencia sea Ha asistido.
 
    ![](assets/markattendance.png)
    *Marcar la asistencia del alumno*
 
-## Enviar correos electrónicos a los alumnos {#sendemailstolearners}
+## Enviar correos electrónicos a alumnos {#sendemailstolearners}
 
-Puede enviar correos electrónicos a determinados o a todos los asistentes a la sesión. La función Enviar correo electrónico es muy útil si desea confirmar la asistencia de los alumnos o si desea enviar comunicaciones relacionadas con la sesión. También puede utilizar la opción Enviar correo electrónico a todos para enviar por correo electrónico la tarea y el material de la sesión, o para enviar una comunicación general a todos los alumnos.
+Puede enviar correos electrónicos a uno o a todos los asistentes a la sesión. La función de envío de correo electrónico es muy útil para confirmar la asistencia de alumnos o para enviar comunicados relativos a la sesión. También se puede activar la función enviar correo electrónico a todos para enviar la asignación y material de la sesión, o comunicados a todos los alumnos.
 
-Para enviar correos electrónicos a los alumnos, en la página Alumnos de la aplicación del instructor, realice una de las siguientes acciones:
+Para enviar correos electrónicos a los alumnos, en la página Alumnos de la aplicación del instructor, efectúe una de las acciones siguientes:
 
-* Para enviar correos electrónicos a asistentes específicos, seleccione el asistente y haga clic en Acciones > Enviar correo electrónico a los seleccionados.
-* Para enviar correos electrónicos a todos los asistentes para enviar un material del curso o una tarea, haga clic en Acciones > Enviar correo electrónico a todos.
+* Para enviar correos electrónicos a determinados asistentes, seleccione el asistente y haga clic en Acciones > Enviar correo electrónico a los seleccionados.
+* Para enviar correos electrónicos a fin de enviar material del curso o una asignación, haga clic en Acciones > Enviar correo electrónico a todos.
 
 ## Exportar lista de alumnos {#exportinglearnerslist}
 
-Como instructor, puede marcar fácilmente la asistencia de todos los alumnos exportando la lista de asistentes en formato PDF. Para exportar la lista de asistentes, vaya al alumno en el panel izquierdo. Haga clic en Acciones > Exportar lista de alumnos (PDF).
+Como instructor, puede marcar fácilmente la asistencia de todos sus alumnos exportando la lista de asistentes en formato pdf. Para exportar la lista de asistentes, vaya al alumno en el panel izquierdo. Haga clic en Acciones > Exportar lista de alumnos (PDF).
 
-Una vez confirmada la lista de asistentes para la sesión, puede exportar la lista como PDF. Este PDF fácil de imprimir muestra a los alumnos en forma de tabla. A continuación, puede marcar la asistencia o proporcionar puntuaciones y crear o proporcionar notas para el alumno, todo ello en el mismo PDF.
+Tras confirmar la lista de asistentes a la sesión, puede exportarla como archivo PDF. Este PDF fácil de imprimir muestra a los alumnos en forma de tabla. Luego puede marcar la asistencia o proporcionar puntuaciones, así como crear notas para los alumnos, todo ello en el mismo PDF.
 
-Observe un código QR en la esquina superior derecha de este PDF. Esta funcionalidad permite que los alumnos individuales escaneen el código mediante la aplicación móvil de Learning Manager para que los alumnos marquen su asistencia.
+Observe el código QR en la esquina superior derecha de este PDF. Esta funcionalidad permite a los alumnos individuales escanear el código mediante la aplicación Learning Manager para dispositivos móviles para que marquen su asistencia.
 
 ![](assets/exportpdf.png)
 *Escanea el código QR para marcar la asistencia*
 
 ## Aprobar o rechazar envíos {#approveorrejectsubmissions}
 
-Si los alumnos han cargado documentos como asignaciones, informes o evaluaciones para la sesión, puede ver los documentos en la página Envíos . Puede utilizar los materiales para clasificar al alumno y aprobar o rechazar el envío.
+Si los alumnos han cargado documentos como asignaciones, informes o evaluaciones para la sesión, los documentos figuran en la página de envíos. Puede utilizar los materiales para calificar al alumno, así como para aprobar o rechazar el envío.
 
-1. En el panel izquierdo, haga clic en Sesiones futuras o Sesiones pasadas, según la programación de la sesión.
-1. Haga clic en el curso para el que desee ver los envíos.
+1. En el panel izquierdo, haga clic en Sesiones futuras o Sesiones pasadas, según el horario de la sesión.
+1. Haga clic en el curso cuyos envíos desea ver.
 
    En el panel izquierdo, haga clic en Envíos.
 
-1. Puede ver los envíos de los alumnos de la sesión seleccionada. Seleccione el envío que desea aprobar o rechazar y haga clic en Aprobar o Rechazar.
+1. Puede ver los envíos de los alumnos relativos a la sesión que ha seleccionado. Seleccione el envío que quiere aprobar o rechazar; a continuación, haga clic en Aprobar o Rechazar.
 
-   El estado del envío cambia a Aprobado o Rechazado, según la acción realizada.
+   Según la acción elegida, el estado del envío pasa a ser Aprobado o Rechazado.
 
-## Configurar recordatorios para la sesión {#configureremindersforyoursession}
+## Configurar recordatorios de la sesión {#configureremindersforyoursession}
 
 1. En el panel izquierdo, haga clic en Sesiones futuras.
-1. Haga clic en el curso para el que desee establecer el recordatorio. En el panel izquierdo, haga clic en Recordatorios.
+1. Haga clic en el curso para el cual desea definir el recordatorio. En el panel izquierdo, haga clic en Recordatorios.
 1. En el mosaico Seleccionar recordatorio, haga clic en Establecer recordatorio.
 
    ![](assets/setreminder.png)
@@ -103,20 +103,20 @@ Si los alumnos han cargado documentos como asignaciones, informes o evaluaciones
 
 1. Realice lo siguiente:
 
-   * En el cuadro de diálogo Configuración de recordatorio, defina la opción en cuándo enviar el recordatorio a los alumnos: Antes de la fecha límite, En la fecha límite o Después de la fecha límite.
-   * En el campo Días antes de la fecha límite , establezca el número de días antes de la fecha límite en los que desea enviar el recordatorio a los alumnos.
+   * En el cuadro de diálogo de configuración de recordatorios, defina la opción relativa al momento de enviar el recordatorio a los alumnos: antes del plazo, según el plazo o después del plazo.
+   * En el campo de días antes del plazo, indique el número de días antes del plazo que desea enviar el recordatorio a los alumnos.
    * Establezca la periodicidad del recordatorio.
 
    ![](assets/remindersettings.png)
    *Ver configuración de recordatorio*
 
-1. Realice una de las acciones siguientes:
+1. Elija una de las opciones siguientes:
 
    * Haga clic en la marca de verificación para guardar el recordatorio.
    * Haga clic en la cruz para cancelar el recordatorio.
 
-   Se envía un recordatorio automatizado del curso a todos los alumnos en la fecha establecida que haya indicado en la configuración del recordatorio.
+   Un recordatorio automatizado del curso se envía a todos los alumnos en la fecha establecida en la configuración del recordatorio.
 
-   Si ya ha configurado recordatorios para sus sesiones, puede verlos en los mosaicos Recordatorio existente. Además, también puede añadir recordatorios adicionales a los recordatorios existentes.
+   Si ya ha definido recordatorios de las sesiones, aparecen en los mosaicos de recordatorios existentes. Asimismo, puede añadir recordatorios a los ya creados.
 
-   Para eliminar un recordatorio existente, haga clic en él. En la ventana emergente que aparece, haga clic en el icono Eliminar (icono Papelera) para eliminar el recordatorio.
+   Para eliminar un recordatorio, haga clic en él. En el menú emergente, haga clic en el icono de eliminar (icono de papelera) para suprimir el recordatorio.

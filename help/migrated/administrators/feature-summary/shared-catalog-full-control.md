@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Permitir control total del catálogo compartido
 description: Permitir control total del catálogo compartido en Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener más información, consulte [Catálogos](/help/migrated/administrat
 
 ## Compartir catálogo {#sharecatalog}
 
-Puede compartir los catálogos con usuarios internos de una organización o con cualquier usuario externo. Sin embargo, el uso compartido es exclusivo. En otras palabras, un catálogo compartido internamente no se puede compartir con grupos externos y viceversa.
+Puede compartir los catálogos con usuarios internos de una empresa o con cualquier usuario externo. Sin embargo, el uso compartido es exclusivo. Es decir, un catálogo compartido internamente no se puede compartir con grupos externos y viceversa.
 
 Los cursos, los programas de aprendizaje, las ayudas de trabajo y las certificaciones son los objetos de aprendizaje admitidos para el catálogo compartido.
 
@@ -30,32 +30,32 @@ Para obtener más información, consulte [Compartir catálogos](/help/migrated/a
 
 ## Permitir control total del catálogo compartido {#fullcontrol}
 
-Puede conceder acceso completo al catálogo a cuentas externas. El administrador de la cuenta puede aceptar el catálogo y, en consecuencia, añadir o eliminar aprendizajes o módulos.
+Puede otorgar acceso completo a su catálogo a cuentas externas. De este modo, el administrador de la cuenta puede aceptar el catálogo y, en consecuencia, añadir o eliminar aprendizajes o módulos.
 
-Para otorgar control total a una cuenta externa:
+Para otorgar el control total a una cuenta externa:
 
-1. Después de añadir los aprendizajes a un catálogo, debe compartir el catálogo con usuarios externos.
-1. En el cuadro de diálogo Cuenta externa, añada el subdominio y el ID de correo electrónico del administrador de la organización externa.
-1. En la opción Control de catálogo, active el botón para permitir a los usuarios externos el control total del catálogo.
+1. Después de añadir aprendizajes a un catálogo, debe compartir el catálogo con usuarios externos.
+1. En el cuadro de diálogo Cuenta externa, añada el subdominio y el ID de correo electrónico del administrador de la empresa externa.
+1. En la opción Control de catálogo, cambie el botón para permitir que los usuarios externos tengan control total del catálogo.
 
    ![](assets/catalog-control.png)
 
    *Permitir control total del catálogo compartido*
 
-   Cuando se permite el control total del catálogo, el administrador de la organización externa acepta la solicitud para permitir modificaciones en el catálogo. A continuación, el autor de la organización externa puede editar los cursos o añadir módulos.
+   Al permitir el control total del catálogo, el administrador de la empresa externa acepta la solicitud para permitir modificaciones en el catálogo. A continuación, el creador de la empresa externa puede editar los cursos o añadir módulos.
 
    Consulte las secciones siguientes para obtener más información.
 
-## Administrador de la organización externa {#administratorofexternalorganization}
+## Administrador de empresa externa {#administratorofexternalorganization}
 
-Una vez que el administrador de la organización anterior activa el control total del catálogo, el administrador de la organización externa acepta la solicitud y la visualiza.
+Una vez que el administrador de la empresa anterior permite el control total del catálogo, el administrador de la empresa externa acepta la solicitud, acepta el catálogo y lo visualiza.
 
-1. Haga clic en el icono de notificación para ver la notificación para aceptar el catálogo.
+1. Haga clic en el icono de la notificación para aceptar el catálogo.
 
    <!--![](assets/notification-to-acceptcatalog.png)-->
 
-1. Para aceptar la invitación para el catálogo, haga clic en Aceptar.
-1. En la lista de catálogos, si inicia el catálogo que se ha compartido con usted, puede ver un mensaje que indica que el catálogo ahora tiene control total.
+1. Para aceptar la invitación del catálogo, haga clic en Aceptar.
+1. En la lista de catálogos, si inicia el catálogo que se ha compartido con usted, verá un mensaje que indica que el catálogo ahora tiene control total.
 
    ![](assets/catalog-details.png)
 
@@ -63,9 +63,9 @@ Una vez que el administrador de la organización anterior activa el control tota
 
 1. Puede modificar el nombre del catálogo y la descripción.
 
-## Compartir catálogo para el programa de aprendizaje, la certificación y las ayudas de trabajo {#sharecatalogforlearningprogramcertificationandjobaids}
+## Compartir catálogo para programa de aprendizaje, certificación y ayudas de trabajo {#sharecatalogforlearningprogramcertificationandjobaids}
 
-Al igual que la concesión del control total del catálogo para los cursos, el administrador también puede conceder el control total del catálogo para lo siguiente:
+Al igual que la concesión del control total del catálogo para los cursos, el administrador puede otorgar el control total del catálogo en los casos siguientes:
 
 * Programas de aprendizaje
 * Certificaciones
@@ -77,22 +77,22 @@ Al igual que la concesión del control total del catálogo para los cursos, el a
 
 <!-- ![](assets/reset-course.png)-->
 
-1. Aparece un mensaje de alerta después de hacer clic en el botón Restablecer. Restablecimiento del curso:
+1. Verá un mensaje de alerta después de hacer clic en el botón Restablecer. La acción de restablecer el curso:
 
-   * Quita todo el contenido recién agregado del catálogo.
-   * Actualiza el catálogo sincronizado con el catálogo compartido original.
+   * Elimina todo el contenido recién añadido del catálogo.
+   * Actualiza el catálogo en sincronización con el catálogo compartido original.
    * Restaura la relación con el objeto de aprendizaje principal.
 
-   El restablecimiento del catálogo es irreversible. Los cambios realizados en el catálogo no se pueden deshacer.
+   La acción de restablecer el catálogo es irreversible. No puede deshacer los cambios que haya realizado en el catálogo.
 
 1. Para aceptar los cambios, haga clic en Sí.
-1. En el Catálogo de cursos, puede ver que el catálogo no contiene el mensaje *Vínculo roto* ya no.
+1. En el catálogo de cursos, puede ver el que catálogo ya no muestra el mensaje *Vínculo interrumpido*.
 
-   Al ver los detalles del catálogo, puede ver que el catálogo se ha restaurado a su estado original.
+   Si examina los detalles del catálogo, verá que se ha restaurado su estado original.
 
 ## Volver a añadir un objeto de aprendizaje {#readdalearningobject}
 
-Si ha eliminado un curso, un programa de aprendizaje, una certificación o una ayuda de trabajo por error, puede restaurarlo.
+Si de forma involuntaria ha eliminado un curso, un programa de aprendizaje, una certificación o ayuda de trabajo, se pueden restaurar.
 
 Para restaurar un objeto de aprendizaje eliminado, haga clic en Volver a añadir.
 
@@ -104,24 +104,24 @@ Esta acción invierte la acción y restaura el objeto de aprendizaje en la vista
 
 Después de hacer clic en el botón Volver a añadir, aparece un mensaje de confirmación que indica que el objeto de aprendizaje se ha añadido correctamente al catálogo.
 
-## Organización externa {#externalorganization}
+## Empresa externa {#externalorganization}
 
-Una vez que el administrador de la cuenta externa haya aceptado el catálogo, el autor podrá añadir cursos y programas de aprendizaje.
+Una vez que el administrador de la cuenta externa ha aceptado el catálogo, el autor ya puede añadir cursos y programas de aprendizaje.
 
-1. Como usuario, recibirá una notificación de que el catálogo ya está disponible en su cuenta.
-1. Para ver la lista de cursos, haga clic en **[!UICONTROL Cursos]** en el panel de navegación izquierdo. Puede ver todos los cursos creados por usted y compartidos con usted.
+1. Como usuario, recibe una notificación de que el catálogo ya está disponible en su cuenta.
+1. Para ver una lista de los cursos, haga clic en **[!UICONTROL Cursos]** en el panel de navegación izquierdo. Puede ver todos los cursos que ha creado y los que se comparten con usted.
 1. Para ver los detalles del curso, haga clic en **[!UICONTROL Ver curso]** en la tarjeta del curso.
 
    <!--![](assets/view-course.png)-->
 
-1. En la página de detalles del curso, puede ver información sobre el curso y los módulos compartidos. Para añadir un módulo, haga clic en Añadir módulos. Cuando se agregan módulos a los módulos existentes, los nuevos módulos aparecen al final de los módulos existentes. Siempre puede reorganizar los módulos.
-1. Una vez agregados los módulos, haga clic en Volver a publicar.
+1. En la página de detalles del curso, puede ver información sobre el curso y los módulos compartidos. Para añadir un módulo, haga clic en Añadir módulos. Al añadir módulos a los módulos existentes, los nuevos aparecen al final de los que ya existían. Los módulos siempre se pueden reordenar.
+1. Tras haber añadido los módulos, haga clic en Volver a publicar.
 
-   Después de volver a publicar los módulos, en la tarjeta del catálogo, verá un mensaje *Vínculo roto*.
+   Una vez que haya vuelto a publicar los módulos, en la tarjeta del catálogo aparece el mensaje *Vínculo interrumpido*.
 
-   Dado que ha actualizado el catálogo original con nuevos módulos, la relación existente con el curso adquirido ya no existe.
+   Como ha actualizado el catálogo original con módulos nuevos, la relación vigente con el curso adquirido ya no existe.
 
-   El objeto de aprendizaje no estará sincronizado con la cuenta de origen porque se ha modificado su contenido.
+   El objeto de aprendizaje no estará sincronizado con la cuenta de origen, ya que el contenido del objeto de aprendizaje se ha modificado.
 
    <!--![](assets/link-broken.png)-->
 

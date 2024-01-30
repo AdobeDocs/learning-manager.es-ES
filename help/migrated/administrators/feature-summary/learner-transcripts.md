@@ -1,12 +1,12 @@
 ---
-description: Descargue la transcripción del alumno y administre informes con Learning Manager.
+description: Descargue la transcripción de alumnos y administre los informes con Learning Manager.
 jcr-language: en_us
 title: Transcripciones de alumnos
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1910'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Transcripciones de alumnos
 
-Descargue la transcripción del alumno y administre informes con Learning Manager.
+Descargue la transcripción de alumnos y administre los informes con Learning Manager.
 
-Adobe Learning Manager permite a los administradores de una empresa generar las transcripciones asociadas a los alumnos.
+Adobe Learning Manager permite a los administradores de una empresa generar transcripciones asociadas a los alumnos.
 
 ## Generar transcripciones de alumnos {#generatelearnertranscripts}
 
 1. Para generar transcripciones de alumnos, haga clic en **[!UICONTROL Informes]** en el panel izquierdo del inicio de sesión del administrador.
 
-   El administrador accede a la ficha Informes de Excel dentro de la **[!UICONTROL Informes]** página.
+   El administrador accede a la ficha Informes de Excel dentro de la página **[!UICONTROL Informes]**.
 
 1. Haga clic en el vínculo **[!UICONTROL Transcripciones de alumnos]**.
 
@@ -30,11 +30,11 @@ Adobe Learning Manager permite a los administradores de una empresa generar las 
 
    <!--[](assets/learner-transcripts.png)-->
 
-   Aparece el cuadro de diálogo Transcripciones de alumnos. Elija el intervalo de fechas para el que necesita generar la transcripción.
+   Aparece un cuadro de diálogo con las transcripciones de los alumnos. Elija el intervalo de fechas para el que necesita la transcripción generada.
 
    >[!NOTE]
    >
-   >De forma predeterminada, la fecha de inicio es la fecha de registro del alumno y la fecha de finalización es siempre la fecha actual. Sólo se puede modificar la fecha de inicio desde el momento en que se necesitan los datos.
+   >De forma predeterminada, la fecha de inicio es la fecha de registro del alumno y la fecha de finalización es siempre la fecha actual. Solo puede modificar la fecha de inicio &quot;desde&quot; cuando necesita los datos.
 
 1. Elija los nombres de los alumnos en la **[!UICONTROL Seleccionar alumnos]** y haga clic en **[!UICONTROL Generar].**
 1. Puede elegir un solo alumno o grupos de alumnos. Para añadir a más de un alumno, haga clic en **[!UICONTROL Añadir más alumnos]**.
@@ -53,7 +53,7 @@ Adobe Learning Manager permite a los administradores de una empresa generar las 
    * Completado
    * En curso
    * No iniciado
-   * Dado de baja
+   * No inscrito
 
    ![](assets/add-enrollment-status-lt.png)
 
@@ -67,14 +67,14 @@ Adobe Learning Manager permite a los administradores de una empresa generar las 
 
    *Descargar transcripciones de alumnos de alumnos eliminados*
 
-1. Puede optar por descargar información a nivel de módulo en la transcripción del alumno habilitando la opción &quot;**[!UICONTROL Habilitar información de nivel de módulo]**&quot; en la casilla de verificación. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está activada.
+1. Puede optar por descargar información a nivel de módulo en la transcripción del alumno habilitando la opción &quot;**[!UICONTROL Habilitar información de nivel de módulo]**&quot; en la casilla de verificación. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se extraen como parte de la transcripción si esta opción está habilitada.
 1. Puede optar por descargar datos de aptitudes y hojas de resumen habilitando la opción &quot;**[!UICONTROL Incluir datos de aptitudes y hojas de resumen]**&quot; en la casilla de verificación.
 
-   Las transcripciones se generan y se descargan en el equipo como archivos .csv cuando no se incluyen los datos de aptitudes. Si se activa la casilla de verificación Datos de aptitudes, se generan transcripciones y se descargan archivos .xls.
+   Las transcripciones se generan y se descargan en el equipo como archivos CSV cuando no se incluyen datos de aptitudes. Si la casilla de verificación Aptitudes está seleccionada, las transcripciones se generan y se descargan en el equipo como archivos XLS.
 
-## Generar transcripciones de alumnos usando copiar y pegar
+## Generar una transcripción de alumno mediante copiar y pegar
 
-La obtención de transcripciones de alumnos se convierte en un proceso tedioso, ya que solo se puede obtener para un alumno o un grupo de usuarios de uno en uno. Aquí, con la función de copiar y pegar, puede copiar la lista de ID de correo electrónico del alumno y pegarla de una vez.
+La obtención de transcripciones de alumnos se convierte en un proceso tedioso, ya que solo se puede obtener para un alumno o un grupo de usuarios cada vez. Aquí, con la función de copiar y pegar, puede copiar la lista de ID de correo electrónico del alumno y pegarla de una sola vez.
 
 1. Inicie sesión como **[!UICONTROL Administrador]** o **[!UICONTROL Responsable]**.
 1. Vaya a **[!UICONTROL Informes]** bajo **[!UICONTROL Gestionar]**, se carga el **[!UICONTROL Actividad de usuario]** página.
@@ -100,7 +100,7 @@ La obtención de transcripciones de alumnos se convierte en un proceso tedioso, 
 
    *Generar transcripciones de alumnos*
 
-1. Haga clic en **[!UICONTROL Generar]** para generar transcripciones de alumnos para todos los ID de correo electrónico mencionados. Recibirá un mensaje de confirmación como el siguiente que indica la generación del informe.
+1. Haga clic en **[!UICONTROL Generar]** para generar transcripciones de alumnos para todos los ID de correo electrónico mencionados. Recibirá un mensaje de confirmación como el anterior, en el que se indica que se ha generado el informe.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
@@ -118,13 +118,13 @@ En la **[!UICONTROL Transcripciones de alumnos]** página de descarga, para gene
 
 Haga clic en **[!UICONTROL Opciones avanzadas]** y expanda el panel.
 
-Elija los usuarios y el catálogo al que pertenecen. Después de hacer clic en **[!UICONTROL Generar]** , aparece un cuadro de diálogo que indica el tiempo aproximado que se tardará en descargar el informe. Para generar el informe, haga clic en **[!UICONTROL Generar]**.
+Elija los usuarios y el catálogo al que pertenecen. Después de hacer clic en el botón **[!UICONTROL Generar]**, aparece un cuadro de diálogo que indica el tiempo aproximado que se tardará en descargar el informe. Para generar el informe, haga clic en **[!UICONTROL Generar]**.
 
 ![](assets/download-learnertranscripts.png)
 
 *Seleccione el botón Generar*
 
-La transcripción se genera en segundo plano y puede continuar con sus tareas en Learning Manager. Una vez generada la transcripción, puede descargar la transcripción de la lista.
+La transcripción se genera en segundo plano y puede continuar con sus tareas en Learning Manager. Una vez que se genera la transcripción, puede descargar la transcripción de la lista.
 
 Como administrador, puede ver todas las transcripciones generadas por cualquier persona en el sistema.
 
@@ -132,13 +132,13 @@ Como administrador, puede ver todas las transcripciones generadas por cualquier 
 
 *Ver el historial de descargas*
 
-La lista de descargas muestra los siguientes atributos:
+La lista de descargas muestra los atributos siguientes:
 
 * **Alumnos:** Los alumnos/grupos de alumnos cuyas transcripciones se van a descargar.
-* **Datos Adicionales Incluidos:** Depende de los datos adicionales que el administrador desee descargar de la opción Avanzadas en el modo Agregar transcripción de alumno
+* **Datos adicionales incluidos:** Depende de los datos adicionales que el administrador desee descargar de la opción Avanzadas en el modo Agregar transcripción de alumno.
 * **Estado:** Descargado, En Cola o En curso.
-* **Desde** y **Para**: Duración de las transcripciones a descargar.
-* **Filtros aplicados:** Si ha aplicado los filtros de Estado de inscripción.
+* **Desde** y **Hasta**: Duración de las transcripciones que se van a descargar.
+* **Filtros aplicados:** Determina si ha aplicado los filtros del estado de inscripción.
 * **Generado por:** El ID del usuario de Learning Manager que ha solicitado la descarga.
 * **Estado:** Descargado, En Cola o En curso.
 
@@ -154,7 +154,7 @@ Puedes **rescindir** la descarga en cualquier momento. Si se cancela un trabajo,
 
 Puede incluir los datos de los alumnos eliminados en la lista Transcripciones de alumnos. En el cuadro de diálogo Transcripciones de alumnos , habilite la opción **[!UICONTROL Incluir datos de alumnos eliminados]**.
 
-Después de activar la opción y hacer clic en **[!UICONTROL Generar]**, los datos de los alumnos eliminados figuran en la página de descargas Transcripciones de alumnos, como se muestra a continuación:
+Tras activar la opción y hacer clic en **[!UICONTROL Generar]**, los datos de los alumnos eliminados figuran en la página de descargas Transcripciones de alumnos, como se muestra a continuación:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
@@ -174,27 +174,27 @@ La personalización solo se permite cuando un usuario descarga la transcripción
 
 ## Contenido del archivo de transcripciones de alumnos {#learnertranscriptfilecontent}
 
-Un archivo de transcripciones de alumnos típico consta de seis hojas de Excel en un único archivo. Las hojas de transcripciones de alumnos proporcionan una visión general de los datos, incluido el número de alumnos que participan en cada curso, sus aptitudes, el porcentaje de finalización según el curso o alumno y un tablero de cumplimiento. A continuación, se indican los paneles disponibles en las transcripciones de alumnos:
+Un archivo de transcripciones de alumnos típico se compone de seis hojas de cálculo en un solo archivo. Las hojas de transcripciones de alumnos proporcionan una visión general de los datos, incluido el número de alumnos que participan en cada curso, sus aptitudes, el porcentaje de finalización según el curso o alumno y un tablero de cumplimiento. Estos son los tableros disponibles en las transcripciones de alumnos:
 
 **Transcripciones de alumnos**
 
-En la hoja de Excel de la transcripción del alumno, junto con los detalles del perfil del alumno, se proporcionan detalles de consumo del objeto de aprendizaje, como la fecha de inscripción, la fecha de inicio, la nota obtenida y la puntuación de la prueba obtenida. Si los cursos forman parte de un programa de aprendizaje, se enumeran por separado, además de los detalles de consumo de cada curso.
+En la hoja de cálculo de transcripción de alumno, además de los datos sobre el alumno, se proporciona información sobre el consumo del objeto de aprendizaje como la fecha de inscripción, la fecha de inicio, la nota conseguida o la puntuación de las pruebas. Si los cursos forman parte de un programa de aprendizaje, se enumeran por separado, además de los detalles de consumo de cada curso.
 
 **1- Tablero de actividades de aprendizaje**
 
-En este tablero específico de objetos de aprendizaje, puede ver el número de alumnos de cada curso, programa de aprendizaje o certificación. Puede ver la hoja de progreso de los alumnos para un objeto de aprendizaje concreto. Esta hoja muestra datos como el número de alumnos que han completado el curso o programa de aprendizaje, los alumnos en curso y las fechas de vencimiento de los alumnos.
+En este tablero específico de objetos de aprendizaje, puede ver la cantidad de alumnos de cada curso, programa de aprendizaje o certificación. Puede examinar la hoja de progreso de los alumnos respecto a un determinado objeto de aprendizaje. En esta hoja, se facilitan datos como la cantidad de alumnos que han completado el curso o el programa de aprendizaje, los alumnos que lo están realizando y las fechas de vencimiento de los alumnos.
 
-El progreso de los usuarios para el curso específico se calcula en función de los campos de entrada en los que se especifican los umbrales de porcentaje de progreso y la fecha de vencimiento. Por ejemplo, si especifica 7 días y 70 % como valores en el campo Entrada, se muestra el progreso del curso para los cursos que vencen en 7 días y para los cursos que tienen un progreso superior al 70 %. También puede cambiar el período de tiempo en esta hoja, donde los datos modificados se muestran automáticamente en este panel.
+El progreso de los usuarios del curso concreto se calcula a partir de los campos de Entrada en los que se especifican los umbrales de porcentaje de progreso y la fecha de vencimiento. Por ejemplo, si especifica 7 días y un 70 % en los valores del campo Entrada, se muestra el progreso de los cursos que vencen dentro de 7 días y los cursos que tienen un progreso de más del 70 %. También puede cambiar el período de tiempo en esta hoja, donde se muestran automáticamente en el tablero los datos modificados.
 
-**2 - Tablero de actividades de aprendizaje**
+**2- Tablero de actividades de aprendizaje**
 
-Este tablero de aprendizaje muestra los datos de un usuario específico. Desde este panel, puede ver los cursos, los programas de aprendizaje o las certificaciones en los que se ha inscrito un usuario determinado. La tabla también muestra los datos sobre los objetos de aprendizaje que el usuario ha completado, los objetos de aprendizaje en curso y las fechas de vencimiento próximas para el usuario.
+En este tablero de aprendizaje, se facilitan datos de un usuario determinado. En este tablero, puede ver los cursos, los programas de aprendizaje o las certificaciones en que se ha inscrito un usuario determinado. Asimismo, la tabla ofrece datos sobre los objetos de aprendizaje completados por el usuario, los objetos de aprendizaje en curso y las próximas fechas de vencimiento para el usuario.
 
-El progreso de los usuarios para cada curso se calcula en función de las entradas que especifique. Es decir, la fecha de vencimiento y los valores de porcentaje de progreso. Por ejemplo, si especifica 7 días y 70 % como valores en el campo Entrada, se muestra el progreso del usuario para los diferentes cursos que vencen en 7 días y para los cursos que tienen un progreso superior al 70 %.
+El progreso de los usuarios de cada curso se calcula en función de las entradas que haya especificado. Es decir, los valores de porcentaje de progreso y la fecha de vencimiento. Por ejemplo, si especifica 7 días y un 70 % en los valores del campo Entrada, se muestra el progreso del usuario en los diferentes cursos que vencen dentro de 7 días y en los cursos que tienen un progreso de más del 70 %.
 
 **Aptitud**
 
-En la hoja de aptitudes, se proporciona el nombre de la aptitud, el nivel de aptitud, los créditos necesarios, los créditos ganados, el porcentaje de finalización y otros detalles del perfil. A continuación se proporciona una captura de pantalla de ejemplo de la hoja de cálculo de aptitudes como referencia.
+En esta hoja, se proporcionan, entre otros, datos como el nombre y el nivel de la aptitud, los créditos necesarios y los obtenidos, y el porcentaje de finalización. A continuación se muestra una captura de pantalla de hoja de cálculo de aptitudes de ejemplo.
 
 ![](assets/skills-learner-transcript.png)
 
@@ -202,21 +202,21 @@ En la hoja de aptitudes, se proporciona el nombre de la aptitud, el nivel de apt
 
 **1- Tablero de aptitudes**
 
-En este tablero, puede ver si su organización está equipada con varias aptitudes. Para una aptitud específica, puede comprobar el número de usuarios de una organización que se supone que tienen esta aptitud frente al número que realmente la tiene. Este tablero también especifica los usuarios que deben actualizar sus aptitudes. Este valor se calcula en función de la entrada que introduzca en el campo Entrada. Por ejemplo, si introduce 50 días como entrada, el tablero proporciona datos sobre los usuarios que necesitan actualizar sus aptitudes pasados 50 días.
+En este panel, podrá ver si su empresa está dotada de varias aptitudes. Para una aptitud concreta, puede consultar la cantidad de usuarios de una empresa que deben tener dicha aptitud frente a la cantidad que realmente la tienen. Este tablero también especifica los usuarios que podrían necesitar una actualización de sus aptitudes. Este valor se calcula en función de lo que se indique en el campo Entrada. Por ejemplo, si indica 50 días, el tablero proporciona información sobre los usuarios que podrían necesitar una actualización de sus aptitudes transcurridos 50 días.
 
 **2- Tablero de aptitudes**
 
-Este tablero de aptitudes es más específico del usuario. Puede filtrar uno o varios usuarios específicos y ver su nivel de aptitud como un tablero. Esta hoja puede ayudar a los gestores y administradores a realizar un seguimiento de la cualificación de cada alumno en comparación con la cualificación que se espera que tengan. El tablero de aptitudes también ilumina a los alumnos que deben actualizar sus aptitudes. La lista de actualización de alumnos se calcula en función del número de días que se especifican en el campo Entrada.
+Este tablero de aptitudes es más específico del usuario. Puede filtrar uno o varios usuarios y ver su nivel de aptitud en forma de tablero. Con esta hoja, los responsables y los administradores realizan el seguimiento del nivel de aptitud de cada alumno en comparación con el nivel de aptitud que está previsto que adquieran. Asimismo, el tablero de aptitudes indica quiénes son los alumnos que deben poner al día sus aptitudes. La lista de actualización de alumnos se basa en el número de días que se especifican en el campo Entrada.
 
-**Panel de cumplimiento**
+**Tablero de cumplimiento**
 
-El tablero de cumplimiento consta de dos partes: informe de cumplimiento por usuario e informe de cumplimiento por formación. En el caso del informe basado en usuario, puede utilizar el Panel de cumplimiento para realizar un seguimiento de los usuarios que tienen fechas de vencimiento próximas para iniciativas de cumplimiento importantes. En el informe basado en formación, puede filtrar por programa de aprendizaje o certificación.
+Este tablero tiene dos partes, el informe de cumplimiento de usuario y el informe de cumplimiento por formación. En el informe basado en usuario, el tablero de cumplimiento es válido para efectuar el seguimiento de los alumnos que tienen fechas de vencimiento inminentes relativas a iniciativas importantes de cumplimiento. En el caso del informe basado en formación, puede filtrar por programa de aprendizaje o certificación.
 
-Para ambos informes de conformidad, filtre por la fecha de vencimiento para ver los datos adecuados.
+En los dos informes de cumplimiento, filtre por fecha de vencimiento para ver los datos correspondientes.
 
 ### Columnas de fecha y hora en la transcripción {#datetime}
 
-Los valores de las siguientes columnas tienen minutos redondeados al minuto más próximo y segundos a 00:
+Los valores de las columnas siguientes tienen minutos redondeados al minuto más próximo y los segundos a 00:
 
 * Fecha de inscripción (zona horaria UTC)
 * Fecha de inicio (zona horaria UTC)
@@ -226,7 +226,7 @@ Los valores de las siguientes columnas tienen minutos redondeados al minuto más
 
 *Columnas de fecha y hora en la hoja de Excel*
 
-### Columnas ID y duración del módulo en la transcripción {#moduledurationandidcolumnsinthetranscript}
+### Columnas de ID y duración del módulo en la transcripción {#moduledurationandidcolumnsinthetranscript}
 
 La transcripción del alumno también muestra las columnas: **[!UICONTROL Duración del módulo]** y **[!UICONTROL ID]**.
 
@@ -238,14 +238,14 @@ La transcripción del alumno también muestra las columnas: **[!UICONTROL Duraci
 
 | **Columna** | **Descripción** |
 |---|---|
-| Después | Número de alumnos que obtuvieron la aptitud antes del número de días introducido (valor) que debe actualizarse |
+| Después | Número de alumnos que obtuvieron la aptitud antes del número de días introducido (valor) que debe actualizarse. |
 | Aptitud | Los nombres de las aptitudes asignadas a los alumnos. |
-| Nombre del responsable | El nombre del responsable cuyos datos de participación en aptitudes de los subordinados se mostrarán en la tabla Resumen de aptitudes |
+| Nombre del responsable | El nombre del responsable cuyos datos de participación en aptitudes de los subordinados deben mostrarse en la tabla Resumen de la aptitud. |
 | Etiquetas de fila | El nombre del alumno con la lista de aptitudes asignadas. |
-| Número de aptitudes que debe tener cada usuario | Número de aptitudes asignadas al alumno |
-| Número de aptitudes que tiene cada usuario | Número de aptitudes obtenidas por el alumno |
-| Número de aptitudes que se deben actualizar | Número de alumnos cuya aptitud se debe actualizar |
-| Porcentaje de cumplimiento | El porcentaje de progreso de la aptitud asignada |
+| El número de aptitudes que debe tener cada usuario. | El número de aptitudes asignadas al alumno. |
+| El número de aptitudes que tiene cada usuario. | El número de aptitudes obtenidas por el alumno. |
+| El número de aptitudes que se deben actualizar. | El número de alumnos cuya aptitud se debe actualizar. |
+| Porcentaje de cumplimiento | El porcentaje de progreso de la aptitud asignada. |
 | Ruta incrustada | Estas filas mostrarán el nombre del programa de aprendizaje incrustado. |
 | ID de ruta incrustada | Estas filas mostrarán los ID del programa de aprendizaje incrustado |
-| Idioma de ruta incrustada | En estas filas, se mostrará el idioma en el que se creó el programa de aprendizaje. |
+| Idioma de ruta incrustada | En estas filas, se mostrará el idioma en el que se ha creado el programa de aprendizaje. |

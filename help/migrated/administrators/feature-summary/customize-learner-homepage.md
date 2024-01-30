@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 0%
+ht-degree: 47%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Personalizar la página de inicio del alumno
 
-## Resumen {#overview}
+## Información general {#overview}
 
 Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 
@@ -28,19 +28,19 @@ En la **Branding** > **Página de inicio del alumno** Un administrador puede per
 
 Los administradores pueden configurar la interfaz de usuario (aspecto y funcionalidad) desde la aplicación de administración (**Branding** > **Página de inicio del alumno** ).
 
-Los administradores pueden cambiar a la vista de widget de interfaz de usuario envolvente, personalizar los widgets y las funciones según corresponda y, a continuación, activar la interfaz de usuario envolvente.
+Los administradores pueden cambiar a la vista de widget de interfaz de usuario envolvente, personalizar los widgets y las funciones como corresponda y, a continuación, activar la interfaz de usuario envolvente.
 
 La **Página de inicio del alumno** Esta pantalla contiene las siguientes secciones:
 
 ## Opción de diseño envolvente {#immersivelayoutoption}
 
-Para ver el diseño de una página envolvente, habilite la opción **Envolvente**. Puede activar o desactivar esta opción **Marca > General**.
+Para ver el diseño de una página envolvente, active la opción **Envolvente**. Puede activar o desactivar esta opción en **Marca > General**.
 
 En versiones anteriores, las opciones de la página de inicio del alumno se encontraban en Configuración.
 
 Estas son las opciones que puede definir:
 
-**Experiencia de la página principal:** Active cualquiera de las opciones **Classic** o **Envolvente**. Si elige Envolvente, aparecerán las siguientes opciones:
+**Experiencia de la página principal:** Active cualquiera de las opciones **Classic** o **Envolvente**. Si selecciona Envolvente, aparecerán las siguientes opciones:
 
 * **Tipo de formación:** Elija una de las opciones **Industria** o **Alineado personalizado**. Los cursos de formación personalizados se crean internamente. Los cursos de formación adaptados al sector incluyen contenido comercial de otros proveedores.
 
@@ -54,7 +54,7 @@ La opción **Permitir al alumno explorar áreas de interés** está disponible t
  <tbody>
   <tr>
    <td>
-    <p><b>Si elige Personalizado...</b></p></td>
+    <p><b>Si selecciona Personalizado...</b></p></td>
    <td>
     <p><b>Si elige Adaptado al sector...</b><br></p></td>
   </tr>
@@ -62,12 +62,12 @@ La opción **Permitir al alumno explorar áreas de interés** está disponible t
    <td>
     <p>Puede elegir como máximo un campo activo interno y externo.</p></td>
    <td>
-    <p>Puede elegir como máximo cinco campos y como mínimo uno. De forma predeterminada, la opción <b>Perfil </b>está seleccionado.</p></td>
+    <p>Puede elegir como máximo cinco campos y como mínimo uno. La opción <b>Perfil </b>está seleccionada de forma predeterminada.</p></td>
   </tr>
  </tbody>
 </table>
 
-Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. Esto es específico para el tipo de formación personalizada. Si la cuenta tiene menos de 1000 usuarios, considera la cuenta completa como su ámbito.
+Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. Esto es específico para el tipo de formación personalizada. Si la cuenta tiene menos de 1000 usuarios, se considera la cuenta completa como su ámbito.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ El diseño envolvente es el predeterminado para todas las cuentas nuevas. El dis
 
 Estos son los widgets que puede activar o desactivar.
 
-De este modo, puede obtener una vista previa de la interfaz de usuario del alumno antes de que se active.
+Mediante esta opción, puede obtener una vista previa de la interfaz de usuario del alumno cuando esta se active.
 
 Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se activa para una nueva cuenta con las opciones de redes sociales e interacción activadas.
 
@@ -101,18 +101,18 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
   </tr>
   <tr>
    <td>
-    <p>Cabeza</p></td>
+    <p>Cabecera</p></td>
    <td>
     <p><b>¿Qué es una cabecera y cómo se personaliza la cabecera del alumno? </b><br></p>
     <p>Es un banner de bienvenida para los alumnos. El banner puede ser una imagen o un vídeo. Puede dirigir la cabecera a grupos de usuarios específicos; un alumno verá la cabecera en cuanto acceda a la página de inicio. Un grupo de usuarios puede ver varios heros images o vídeos según el plan de destino establecido por el administrador. </p>
     <p>Así es como un administrador carga un banner:</p>
     <ol>
      <li>En el panel izquierdo, haga clic en <b>Anuncios</b>.<br></li>
-     <li>En la esquina superior derecha de la página, haga clic <b>Añadir</b>.</li>
-     <li>Desde el <b>Tipo </b>lista desplegable, elija <b>Como cabecera</b>.</li>
-     <li>Escriba un mensaje que aparecerá en la cabecera.</li>
+     <li>En la esquina superior derecha de la página, haga clic en <b>Agregar</b>.</li>
+     <li>En la lista desplegable <b>Tipo</b>, elija <b>Como cabecera</b>.</li>
+     <li>Escriba el mensaje que aparecerá en la cabecera.</li>
      <li>Cargue una imagen o un vídeo.</li>
-     <li>Elige el público objetivo. Seleccione un grupo de usuarios o un curso de formación donde se mostrará la cabecera.</li>
+     <li>Elija la audiencia de destino. Seleccione un grupo de usuarios o un curso de formación en los que se mostrará la cabecera.</li>
      <li>Guarde el anuncio de la cabecera.</li>
     </ol></td>
   </tr>
@@ -126,7 +126,7 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
    <td>
     <p>Calendario</p></td>
    <td>
-    <p>Muestra los próximos cursos de formación de clase y clase virtual para los alumnos por mes. Se muestran aquellos en los que el alumno puede inscribirse o en los que ya se ha inscrito, incluidos los cursos de formación aprobados por el responsable. </p></td>
+    <p>Muestra los próximos cursos de formación de clase y clase virtual para los alumnos por mes. Se muestran aquellos en los que el alumno se puede inscribir o en los que ya se ha inscrito, incluidos los cursos de formación aprobados por el responsable. </p></td>
   </tr>
   <tr>
    <td>
@@ -144,12 +144,12 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
    <td>
     <p>Recomendado por la organización</p></td>
    <td>
-    <p>Cuando está activado, este widget recomienda cursos de formación para grupos de usuarios específicos. Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un intervalo de tiempo. <br></p>
+    <p>Si se ha activado, este widget recomienda cursos de formación para grupos de usuarios específicos.  Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un intervalo de tiempo. <br></p>
     <ul>
      <li>
       <p>En primer lugar, el administrador <a href="announcements.md#recommendation">crea un anuncio</a> de tipo <b>Como recomendación</b> y, a continuación, selecciona el curso de formación necesario y utiliza grupos. Un alumno que pertenezca a un grupo de usuarios verá el curso de formación recomendado.</p></li>
      <li>
-      <p>En segundo lugar, el administrador también puede decidir si las recomendaciones se inician de inmediato o en una fecha especificada.</p></li>
+      <p>En segundo lugar, el administrador también puede decidir si las recomendaciones se inician inmediatamente o en una fecha especificada.</p></li>
     </ul></td>
   </tr>
   <tr>
@@ -162,7 +162,7 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
    <td>
     <p>Examinar por catálogo<br></p></td>
    <td>
-    <p>Muestra los catálogos como mosaicos en la página principal. </p></td>
+    <p>Muestra los catálogos como mosaicos en la página de inicio. </p></td>
   </tr>
   <tr>
    <td>
@@ -194,13 +194,13 @@ Cuando el alumno inicia sesión en la aplicación a través de un navegador, pue
 
 ## Opción de diseño clásico {#classiclayoutoption}
 
-El diseño de interfaz de usuario que siempre ha existido hasta ahora se denomina Diseño clásico. Al seleccionar esta opción, la vista de la página de inicio del alumno vuelve al diseño clásico.
+El diseño de interfaz de usuario que siempre ha existido hasta ahora se denomina Diseño clásico.  Al seleccionar esta opción, la vista de la página de inicio del alumno vuelve al diseño clásico.
 
 ![](assets/classic-layout.png)
 
 *Vista previa del diseño clásico*
 
-## Configurar opciones de recomendación {#configurerecommendationsettings}
+## Configurar parámetros de recomendación {#configurerecommendationsettings}
 
 Activado **Branding** > **General** Además, puede configurar los ámbitos de recomendación para alumnos internos y externos y permitir que los alumnos elijan aptitudes en la página de inicio del alumno.
 
@@ -242,13 +242,13 @@ En la **General** , dispone de las siguientes opciones:
    <td>
     <p>Página de inicio del alumno</p></td>
    <td>
-    <p>Elija una de las opciones <b>Classic </b>o <b>Envolvente</b>. Si elige Envolvente, aparecerán otras opciones.</p></td>
+    <p>Seleccione <b>Clásico </b>o <b>Envolvente</b>. Si elige Envolvente, aparecerán otras opciones.</p></td>
   </tr>
   <tr>
    <td>
     <p>Tipo de formación<br></p></td>
    <td>
-    <p>Elija una de las opciones <b>Personalizado </b>o <b>Adaptado al sector</b>. Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. La recomendación se basa en todos los alumnos.<br></p></td>
+    <p>Elija <b>Personalizado </b>o <b>Alineado en la industria</b>. Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. La recomendación se basa en todos los alumnos.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -266,7 +266,7 @@ En la **General** , dispone de las siguientes opciones:
    <td>
     <p>Solicitar a los usuarios que seleccionen áreas de interés (aptitudes) <br></p></td>
    <td>
-    <p>Solo para una experiencia envolvente. Elegir <b>Sí</b> o <b>No</b>. <br></p></td>
+    <p>Solo para la experiencia envolvente. Elegir <b>Sí</b> o <b>No</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

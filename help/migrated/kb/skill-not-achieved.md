@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 
@@ -24,9 +24,9 @@ Este problema se produce si el **Créditos necesarios** para lograr esta aptitud
 
 ## Solución
 
-Compruebe la **Créditos de aptitudes** y **Punto** información necesaria para obtener la aptitud. Siga estos pasos:
+Compruebe la **Créditos de aptitudes** y **Punto** información necesaria para obtener la aptitud. Siga los pasos mostrados a continuación:
 
-1. Para el alumno, genere un **Transcripciones de alumnos** informe.
+1. Genere un informe de **transcripciones de alumnos** para el alumno.
 1. Al generar la transcripción del alumno, haga clic en **[!UICONTROL Opciones avanzadas]** y marque la opción **[!UICONTROL Incluir datos de aptitudes y hojas de resumen]**.
 
    ![](assets/advanced-options.png)
@@ -34,7 +34,7 @@ Compruebe la **Créditos de aptitudes** y **Punto** información necesaria para 
    *Seleccione la opción Incluir datos de aptitudes y hojas de resumen*
 
 1. Abra el informe de transcripciones de alumnos descargado.
-1. Vaya a la **[!UICONTROL Transcripción de aptitudes]** hoja. Aquí puede ver la **[!UICONTROL Créditos necesarios]** y **[!UICONTROL Créditos obtenidos]** por el alumno.
+1. Vaya a la hoja **[!UICONTROL Transcripción de aptitudes]**. Aquí puede ver la **[!UICONTROL Créditos necesarios]** y **[!UICONTROL Créditos obtenidos]** por el alumno.
 
    Por ejemplo, en el ejemplo siguiente, los créditos necesarios para obtener la aptitud de un curso son 50. Sin embargo, el alumno solo ha obtenido un crédito.
 
@@ -42,7 +42,7 @@ Compruebe la **Créditos de aptitudes** y **Punto** información necesaria para 
 
    *Ver créditos necesarios*
 
-1. Para comprobar los créditos asignados a una aptitud concreta, inicie sesión como administrador y vaya a **Aptitudes** , como se muestra a continuación:
+1. Para comprobar los créditos asignados a una aptitud concreta, inicie sesión como administrador y vaya a la ficha **Aptitudes**, como se muestra a continuación:
 
    ![](assets/skill.png)
 

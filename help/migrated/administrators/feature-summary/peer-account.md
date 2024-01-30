@@ -6,7 +6,7 @@ contentowner: shhivkum
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Lea este artículo para saber cómo crear y administrar cuentas de igual a igual en Learning Manager.
 
-Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante la función Cuenta de igual a igual. Con las cuentas de igual a igual en Learning Manager, un administrador puede compartir los puestos adquiridos con las cuentas de igual a igual a las que está asociado el administrador. Además, el administrador que ha iniciado el uso compartido de puestos puede ver los informes de las cuentas de igual a igual.
+Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante la función Cuenta de igual a igual. Con las cuentas de igual a igual en Learning Manager, un administrador puede compartir los puestos adquiridos con las cuentas de igual a igual a las que está asociado el administrador. Asimismo, el administrador que ha iniciado el uso compartido de puestos puede ver los informes de las cuentas de igual a igual.
 
-## Agregar una cuenta de igual a igual {#addapeeraccount}
+## Añadir una cuenta de igual a igual {#addapeeraccount}
 
 1. En el tablero del administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Cuentas de igual a igual]**.
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Añadir]**.
@@ -33,42 +33,42 @@ Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante 
 
    *Añadir un subdominio*
 
-1. Introduzca el ID de correo electrónico del administrador que acepta o rechaza la solicitud de cuenta de igual a igual.
-1. Especifique el número de puestos que desea compartir con el igual. Cuando comparte puestos con la cuenta de igual a igual, la cuenta de igual a igual pasa al estado Activo con los puestos recibidos o con los puestos adquiridos por el propio igual.
+1. Indique el ID de correo electrónico del administrador que acepta o rechaza la solicitud de cuenta de igual a igual.
+1. Especifique la cantidad de puestos que desea compartir con su igual. Cuando comparte puestos con la cuenta de igual a igual, la cuenta de igual a igual pasa al estado Activo con los puestos recibidos o con los puestos adquiridos por el propio igual.
 
-   Si introduce un número superior a los puestos disponibles, el sistema muestra una advertencia.
+   Si indica un número mayor que el de los puestos disponibles, el sistema muestra una advertencia.
 
-1. Seleccione la casilla de verificación si desea ver los informes de inscripción y los informes de catálogos compartidos de sus compañeros.
-1. Haga clic en Agregar para agregar la cuenta de igual a igual.
+1. Seleccione la casilla de verificación si desea ver los informes de inscripción y los informes de catálogo compartido de sus iguales.
+1. Haga clic en Añadir para añadir la cuenta de igual a igual.
 
-   Si un administrador comparte puestos con un igual, el igual no puede compartirlos con nadie más. Sin embargo, el igual puede adquirir algunas licencias por separado y compartirlas.
+   Si un administrador comparte puestos con un igual, este no puede compartirlos con nadie más. Sin embargo, el igual puede adquirir algunos puestos por separado y compartirlos.
 
 ## Ver informes asociados a cuentas de igual a igual {#viewreportsassociatedwithpeeraccounts}
 
-Después de establecer una cuenta de igual a igual, también puede trazar informes para las cuentas de igual a igual. Como administrador, si inicia la solicitud de cuenta de igual a igual, puede ver los informes de la cuenta de igual a igual.
+Después de establecer una cuenta de igual a igual, también puede generar informes para las cuentas de igual a igual. Como administrador, si inicia la solicitud de cuenta de igual a igual, puede ver los informes de la cuenta de igual a igual.
 
 Si el igual también desea ver los informes del administrador, el igual debe enviar una solicitud de cuenta de igual a igual al administrador.
 
-Para saber cómo generar y ver los catálogos compartidos para la cuenta de igual a igual, consulte [Ver informes de igual a igual](reports.md#main-pars_header_894271250).
+Para obtener información sobre cómo generar y ver los catálogos compartidos, consulte [Ver informes de igual a igual](reports.md#main-pars_header_894271250).
 
-## Eliminación de cuentas de igual a igual {#deletingpeeraccounts}
+## Eliminar cuentas de igual a igual {#deletingpeeraccounts}
 
-Si ya no desea compartir puestos o compras con una cuenta, puede eliminar la cuenta de igual a igual.
+Si ya no desea compartir puestos o adquisiciones con una cuenta, puede eliminar la cuenta de igual a igual.
 
 1. En la aplicación de administrador de Learning Manager, haga clic en Configuración > Cuentas de igual a igual.
 1. Seleccione la cuenta o cuentas de igual a igual que desee eliminar.
-1. Realice una de las acciones siguientes:
+1. Elija una de las opciones siguientes:
 
-   * Haga clic en Eliminar en la esquina superior derecha de la página.
+   * Haga clic en Eliminar en la esquina superior derecha de la página.
    * Haga clic en el icono Eliminar junto a la cuenta de igual a igual que desea eliminar.
 
-   Después de eliminar una cuenta de igual a igual, los puestos recibidos dejan de estar disponibles. Si la cuenta de igual a igual solo ha recibido puestos y no ha adquirido puestos, la cuenta pasa al estado Inactivo.
+   Después de eliminarse una cuenta de igual a igual, los puestos recibidos ya no están disponibles. Si la cuenta de igual a igual solo recibió puestos y no se adquirieron puestos, la cuenta pasa a estado Inactivo.
 
-## Informe de usuario para cuentas de igual a igual {#download-peer-account}
+## Informe de usuarios para cuentas de igual a igual {#download-peer-account}
 
 El administrador puede ver el informe de usuario de la cuenta de igual a igual. El administrador de la cuenta principal puede solicitar acceso al informe y, una vez que el administrador de la cuenta de igual a igual lo acepte, el administrador principal podrá ver el número de usuarios registrados en la cuenta de igual a igual y descargar el informe de usuarios para la cuenta de igual a igual.
 
-1. En la página Cuentas de igual a igual, haga clic en **[!UICONTROL Añadir]**.
+1. En la página Cuentas de igual a igual, haga clic en **[!UICONTROL Añadir]**.
 1. Active la opción. **[!UICONTROL Solicitar permiso para descargar informes de usuarios para toda la cuenta]**.
 
 ![](assets/image034.png)

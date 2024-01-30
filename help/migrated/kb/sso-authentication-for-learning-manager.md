@@ -1,28 +1,28 @@
 ---
-description: Este documento le ayuda a configurar la autenticación SSO para iniciar sesión en su cuenta de Learning Manager.
+description: Este documento proporciona información sobre cómo configurar la autenticación con SSO para iniciar sesión en una cuenta de Learning Manager.
 jcr-language: en_us
-title: Inicie sesión en Learning Manager mediante la autenticación SSO
+title: Iniciar sesión en Learning Manager mediante autenticación con inicio de sesión único (SSO)
 contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 
 
-# Inicie sesión en Learning Manager mediante la autenticación SSO
+# Iniciar sesión en Learning Manager mediante autenticación con inicio de sesión único (SSO)
 
-Este documento le ayuda a configurar la autenticación SSO para iniciar sesión en su cuenta de Learning Manager.
+Este documento proporciona información sobre cómo configurar la autenticación con SSO para iniciar sesión en una cuenta de Learning Manager.
 
-Para configurar la autenticación SSO, realice los siguientes pasos:
+Para configurar la autenticación con SSO, siga estos pasos:
 
-1. Abrir **[!UICONTROL Configuración]** > **[!UICONTROL Métodos de inicio de sesión.]**
+1. Abra **[!UICONTROL Configuración]** > **[!UICONTROL Métodos de inicio de sesión.]**
 
    ![](assets/login-methods.png)
 
-1. Elegir **[!UICONTROL Usuarios internos]** o **[!UICONTROL Usuarios externos]** dependiendo de sus necesidades.
+1. Elija **[!UICONTROL Usuarios internos]** o **[!UICONTROL Usuarios externos]**, según lo que se necesite.
 1. Haga clic en el menú desplegable situado junto a  **[!UICONTROL login]** y seleccione **[!UICONTROL Inicio de sesión único]**.
 
    ![](assets/single-sign-on.png)
@@ -37,5 +37,5 @@ Para configurar la autenticación SSO, realice los siguientes pasos:
 
    El SSO que configure en Learning Manager debe ser compatible con SAML 2.0.
 
-   Ahora puede iniciar sesión en Learning Manager utilizando su autenticación SSO.
+   Ya puede iniciar sesión en Learning Manager mediante autenticación con SSO.
 

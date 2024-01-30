@@ -1,11 +1,11 @@
 ---
-description: Lea este artículo para saber cómo configurar plantillas de correo electrónico para eventos relacionados con todos los objetos de aprendizaje.
+description: Lee este artículo para obtener información sobre cómo configurar plantillas de correo electrónico para eventos relacionados con todos los objetos de aprendizaje.
 jcr-language: en_us
 title: Plantillas de correo electrónico
 source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Plantillas de correo electrónico
 
-Lea este artículo para saber cómo configurar plantillas de correo electrónico para eventos relacionados con todos los objetos de aprendizaje.
+Lee este artículo para obtener información sobre cómo configurar plantillas de correo electrónico para eventos relacionados con todos los objetos de aprendizaje.
 
-La aplicación Learning Manager envía notificaciones por correo electrónico a varios roles de usuarios en función de los eventos.
+La aplicación Learning Manager envía notificaciones por correo electrónico a usuarios con varias funciones según los eventos.
 
-Como autor, puede personalizar las plantillas de correo electrónico agregando o modificando el contenido y enviando notificaciones a los usuarios para varios eventos desencadenados por actividades de alumnos, responsables y autores. Por ejemplo, puede enviar un correo electrónico personalizado cada vez que un alumno se inscriba en el curso. Al inscribirse, el alumno recibirá automáticamente el correo electrónico específico del curso.
+Como autor, puede personalizar las plantillas de correo electrónico añadiendo o modificando el contenido y enviando notificaciones a los usuarios para varios eventos de actividades de alumnos, responsables y autores. Por ejemplo, puede enviar un correo electrónico personalizado siempre que un alumno se inscriba en su curso. Al inscribirse, el alumno recibe automáticamente el correo electrónico del curso.
 
-También puede optar por no enviar notificaciones por correo electrónico para determinados eventos deshabilitando la opción de plantilla de correo electrónico.
+También puede optar por no enviar notificaciones por correo electrónico para ciertos eventos deshabilitando la opción de plantilla de correo electrónico.
 
-## Configuración de notificaciones por correo electrónico {#settingemailnotifications}
+## Notificaciones por correo electrónico {#settingemailnotifications}
 
 1. En la aplicación de autor, haga clic en el objeto de aprendizaje para el que desea configurar la plantilla de correo electrónico. Por ejemplo, Cursos.
-1. En la página Objeto de aprendizaje, haga clic en el curso, la certificación o el programa de aprendizaje en el que desea configurar las opciones de correo electrónico.
+1. En la página Objeto de aprendizaje, haga clic en el curso, certificación o programa de aprendizaje para el que desea configurar el correo electrónico.
 1. En la página de detalles del objeto de aprendizaje, haga clic en Plantillas de correo electrónico.
 
-   Puede ver la lista de plantillas disponibles para el objeto de aprendizaje elegido.
+   Puede ver la lista de plantillas disponibles para el objeto de aprendizaje que elija.
 
    ![](assets/email-templates-forlearningprograms.png)
    *Lista de plantillas*
@@ -38,12 +38,12 @@ También puede optar por no enviar notificaciones por correo electrónico para d
 
    *Ver vista previa de plantilla*
 
-   Puede personalizar cada plantilla haciendo clic en el texto del cuerpo de la plantilla. Puede insertar variables en el texto haciendo clic en los iconos correspondientes, como se muestra en la captura de pantalla. Pase el ratón por cada icono para ver los nombres.
+   Puede personalizar cada plantilla haciendo clic en el texto en el cuerpo de la plantilla. Puede insertar variables en el texto haciendo clic en los iconos apropiados como se muestra en la captura de pantalla. Pase el ratón por cada icono para ver los nombres.
 
    ![](assets/insert-variable.png)
    *Insertar una variable*
 
-   Están disponibles las siguientes variables:
+   Están disponibles las variables siguientes:
 
    * LPName
    * LPCompletionDeadline
@@ -60,11 +60,11 @@ También puede optar por no enviar notificaciones por correo electrónico para d
    Como puede ver en la parte superior de la plantilla, puede personalizar la plantilla para varias funciones (responsable, alumno, etc.) en función del tipo de notificación por correo electrónico.
 
 1. Haga clic en Guardar en la parte inferior de la página de plantillas.
-1. En la página Plantillas de correo electrónico, haga clic en el botón circular Sí/No para enviar o deshabilitar la notificación.
+1. En la página Plantillas de correo electrónico, haga clic en el botón circular Sí/No para enviar o desactivar la notificación.
 
 ![](assets/email-notification-e1437624109719.png)
 *Habilitar o deshabilitar la notificación por correo electrónico*
 
-Si el círculo del botón de notificación junto a cada nombre de evento es adyacente a Sí (con un fondo azul), la notificación está habilitada. Si está en gris y el círculo es adyacente a No, la notificación está deshabilitada.
+Si el círculo en el botón de notificación junto a cada nombre de evento es adyacente a Sí (con un fondo azul), la notificación está activada. Si el fondo es gris y el círculo es adyacente a No, la notificación está desactivada.
 
-Cada vez que se configura una plantilla de correo electrónico en el nivel del curso, tiene prioridad sobre la configuración del nivel de administrador de ese curso en particular.
+Cada vez que configura una plantilla de correo electrónico en el nivel del curso, tiene prioridad sobre la configuración del nivel de administrador de ese curso en particular.

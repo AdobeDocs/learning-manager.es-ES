@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Consulte su información de perfil, añada o cambie la foto de perfil y modifíquela **Acerca de mí** contenido.
 
-## Configuración de cuenta {#accountsettings}
+## Configuración de la cuenta {#accountsettings}
 
 1. Haga clic en la flecha desplegable en la esquina superior derecha, junto a su fotografía/cuenta y elija **Configuración de perfil**.
 1. En el cuadro de diálogo emergente, puede añadir o cambiar la fotografía si pasa el ratón por encima y hace clic en **Editar** en el área de la foto de perfil.

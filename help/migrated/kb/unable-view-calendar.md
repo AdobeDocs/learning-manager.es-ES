@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Problema
 
-No se puede ver el calendario al editar la fecha de caducidad de un perfil externo.
+No puede ver el calendario al editar la fecha de caducidad de un perfil externo.
 
 ## Descripción
 
@@ -42,8 +42,8 @@ El problema se debe a lo siguiente:
 ### Configuración de visualización
 
 1. Haga clic en **[!UICONTROL Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Sistema]**.
-1. Haga clic en **[!UICONTROL Pantalla]**.
-1. En el **[!UICONTROL Escala y distribución]** , utilice la lista desplegable. Cambie la configuración al 100 %.
+1. Haga clic en **[!UICONTROL Mostrar]**.
+1. En la sección **[!UICONTROL Escala y diseño]**, utilice la lista desplegable. Cambie la configuración al 100 %.
 
    ![](assets/scale-layout.png)
 
