@@ -3,7 +3,7 @@ description: Obtenga información sobre las funciones nuevas y las mejoras de Ad
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Para obtener más información, consulte  [***Novedades de la versión de agosto
 
 **Anuncios**
 
-* Si un anuncio contiene la etiqueta <a>, el anuncio no se crea del modo esperado.
+* Si un anuncio contiene la etiqueta `<a>`, el anuncio no se crea del modo esperado.
 
 **La cuenta**
 
