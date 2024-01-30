@@ -2,10 +2,10 @@
 description: Manual de referencia para los administradores de integración que desean migrar un LMS existente al LMS de Learning Manager
 jcr-language: en_us
 title: Manual de migración
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
-ht-degree: 72%
+source-wordcount: '3641'
+ht-degree: 73%
 
 ---
 
@@ -419,11 +419,11 @@ Antes de comenzar con el procedimiento de migración, es importante tener en cue
 
 Es muy importante planificar el proyecto de migración. Se recomienda dividir los proyectos en varios sprints e identificar claramente lo que se desea migrar en cada sprint. Incluso puede ser buena idea hacer una validación después de cada sprint para tener seguridad sobre los datos migrados en ese sprint, en lugar de una validación a gran escala al final del proyecto. Antes de comenzar el sprint como parte del proyecto de migración, debe cargar archivos CSV de datos y contenido en servidores de FTP y Box, respectivamente. Si no tiene cuentas para FTP y Box personalizados, puede crearlas.
 
-**Crear cuenta de FTP**
+<!--**Create FTP account**-->
 
-Haga clic en **[!UICONTROL Solicitar carpeta de FTP de CSV]**. Aparece un cuadro de diálogo emergente que le pide introducir su identificación de correo electrónico. Consulte las instrucciones en línea y cree una cuenta de FTP. En cuanto cree su cuenta, podrá ver las carpetas de su proyecto de migración y del proyecto de sprint en FTP.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A continuación se muestra una captura de pantalla de ejemplo de los archivos de proyecto y la carpeta de FTP como referencia.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
