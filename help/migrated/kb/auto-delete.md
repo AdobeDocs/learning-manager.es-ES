@@ -3,10 +3,10 @@ jcr-language: en_us
 title: El usuario se elimina automáticamente en Learning Manager
 description: Se elimina un usuario de Learning Manager. Sin embargo, el administrador no ha realizado nunca esta acción.
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ## Problema
 
-A **usuario** se elimina de Learning Manager; sin embargo, el administrador nunca ha realizado dicha acción.
+Se elimina un usuario de Learning Manager. Sin embargo, el administrador no ha realizado nunca esta acción.
 
 ## Causa
 
