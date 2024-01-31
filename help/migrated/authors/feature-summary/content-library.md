@@ -2,7 +2,7 @@
 description: Obtenga información sobre cómo crear contenido para alinear con cursos como contenido de ritmo personalizado.
 jcr-language: en_us
 title: Biblioteca de contenido
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 1. En el campo Descripción, escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 245.
 1. Para cargar el contenido, haga clic en Añadir archivo de contenido y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
-* [Tipos de archivo compatibles](content-library.md#supported)*
+* [Tipos de archivo admitidos](content-library.md#supported)
 
   El contenido interactivo puede ser un proyecto publicado de Captivate, SCORM o AICC. El archivo debe ser un archivo zip.
 
