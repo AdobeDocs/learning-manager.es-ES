@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Catálogos
 description: Los catálogos son una colección de cursos de aprendizaje, programas de aprendizaje y certificaciones. Utilice los catálogos para proporcionar a los alumnos un conjunto personalizado de materiales de aprendizaje. Puede asociar aprendizaje con un catálogo durante la creación de un catálogo.
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 Los catálogos son una colección de cursos de aprendizaje, programas de aprendizaje y certificaciones. Utilice los catálogos para proporcionar a los alumnos un conjunto personalizado de materiales de aprendizaje. Puede asociar aprendizaje con un catálogo durante la creación de un catálogo.
 
 Como administrador, puede crear catálogos personalizados si desea que determinados cursos estén disponibles para varios alumnos de su cuenta o de diferentes cuentas.
+
+## Introducción a los catálogos
+
+En este curso de formación, aprenderá a crear y administrar catálogos.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
 
 ## Crear un catálogo {#createacatalog}
 
