@@ -3,10 +3,10 @@ description: Obtenga información sobre la configuración de la cuenta de Learni
 jcr-language: en_us
 title: Configuración
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
-ht-degree: 70%
+source-wordcount: '3815'
+ht-degree: 69%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 70%
 Obtenga información sobre la configuración de la cuenta de Learning Manager que puede efectuar como administrador.
 
 Puede cambiar la configuración de su perfil de administrador y actualizar la configuración de su cuenta. Consulte su información de perfil, añada o cambie la foto de perfil y modifíquela **[!UICONTROL Acerca de mí]** contenido. Actualice la información de su empresa, establezca los métodos de inicio de sesión para los usuarios y configure la integración de la conexión a través de la configuración de la cuenta.
+
+## Configurar el administrador de aprendizaje de Adobe
+
+Este curso de formación describe los aspectos básicos de la configuración de nivel de cuenta.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Configuración de la cuenta {#accountsettings}
 
