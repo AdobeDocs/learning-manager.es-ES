@@ -3,10 +3,10 @@ description: Temas de color y marca en Learning Manager
 jcr-language: en_us
 title: Temas de color
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Temas de color y marca en Learning Manager
 
 Learning Manager le permite cambiar el aspecto de la aplicación para que coincida con los requisitos de marca de su empresa.
+
+## Personalizar la interfaz de usuario
+
+En este curso de formación, explorará formas de personalizar el aspecto de la interfaz para adaptarla a los requisitos de marca de una organización.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Marca {#branding}
 
