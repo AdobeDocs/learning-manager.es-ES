@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ A menudo, los administradores están interesados en crear un plan de estudios de
 Aquí es donde la ruta de aprendizaje entra en escena. Una ruta de aprendizaje es un recorrido que un alumno debe recorrer para dominar algún tema a lo largo del tiempo. Los alumnos controlan su experiencia de formación y pueden adquirir y conservar conocimientos a su ritmo personalizado con mayor eficacia.
 
 Por ejemplo, cuando se incorporan nuevos empleados, una organización imparte formación en políticas y procedimientos, cultura, historia, etc. Una ruta de aprendizaje configura los cursos según las necesidades de los empleados, de modo que éstos puedan inscribirse en los cursos según la ruta de aprendizaje establecida para ellos. puede elegir e inscribir usuarios en esta ruta para que puedan avanzar de un curso a otro.
+
+## Crear y configurar rutas de aprendizaje
+
+En este curso de formación, aprenderá a crear una ruta de aprendizaje, añadir un curso, publicar y retirar una ruta de aprendizaje, y configurar instancias dentro de una ruta de aprendizaje.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Ventajas de una ruta de aprendizaje
 
