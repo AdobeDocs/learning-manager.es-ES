@@ -3,7 +3,7 @@ description: Obtenga información sobre cómo añadir usuarios o grupos de usuar
 jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
-source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
 source-wordcount: '3982'
 ht-degree: 64%
@@ -25,8 +25,6 @@ En este curso de formación, aprenderá a crear un grupo de usuarios por nombres
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
