@@ -3,10 +3,10 @@ description: Los eventos de su actividad de formación activan mensajes de corre
 jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ La aplicación Learning Manager envía notificaciones por correo electrónico a 
 Como administrador, puede personalizar las plantillas de correo electrónico añadiendo o modificando el contenido, y enviando notificaciones a los usuarios para varios eventos de actividades de alumnos, responsables y autores.
 
 Los administradores también pueden optar por no enviar notificaciones por correo electrónico sobre determinados eventos.
+
+## Introducción a las plantillas de correo electrónico
+
+En este curso de formación, aprenderá a personalizar plantillas de correo electrónico individuales y a personalizar la configuración de nivel de curso y de cuenta para las plantillas de correo electrónico.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Configurar plantillas de correo electrónico {#configureemailtemplates}
 
