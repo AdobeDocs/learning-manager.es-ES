@@ -3,9 +3,9 @@ description: Obtenga información sobre los informes asociados a la función de 
 jcr-language: en_us
 title: Informes
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
+source-wordcount: '6502'
 ht-degree: 65%
 
 ---
@@ -25,6 +25,14 @@ El proceso de generación de informes es similar para el administrador y el resp
 Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. A **[!UICONTROL Panel predeterminado]** existe de forma predeterminada en la página informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para agregar informes a paneles individuales, utilice la flecha desplegable y elija **[!UICONTROL Agregar informe]**. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
 
 ## Tableros de resumen del aprendizaje {#dashboards}
+
+### Generar informes del tablero
+
+En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 Consulte un informe resumido de todas las actividades de aprendizaje en la plataforma. En esta página, puede ver la siguiente información de resumen del equipo y los perfiles externos del usuario raíz seleccionado. También se puede seleccionar el intervalo de tiempo:
 
@@ -502,6 +510,14 @@ Si varios responsables le informan a usted, podrá ver los informes rápidamente
 >Los valores de responsable que utiliza para ver el informe son temporales. Esta vista del informe no se descarga cuando selecciona la opción Descargar. Esta vista solo es temporal.
 
 ## Ver informes de cursos {#viewcoursereports}
+
+### Generar informes de cursos
+
+En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 Puede ver los informes específicos de cada curso siguiendo estos pasos:
 
