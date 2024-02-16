@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Manual de desarrolladores de aplicaciones
 description: La API V1 de Learning Manager ha dejado de utilizarse. Las API V1 dejarán de funcionar a partir del 28 de febrero de 2021. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 64%
+source-wordcount: '3383'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 64%
 
 # Manual de desarrolladores de aplicaciones
 
-La API V1 de Learning Manager ha dejado de utilizarse. Las API V1 dejarán de funcionar a partir del 28 de febrero de 2021. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
+>[!NOTE]
+>
+>La API V1 de Learning Manager ha dejado de utilizarse. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
+
 
 ## Información general {#overview}
 
@@ -29,6 +32,10 @@ Mediante la API de Learning Manager, los desarrolladores pueden crear aplicacion
 La API de Learning Manager se basa en los principios de REST y presenta elementos clave del modelo de objetos de Learning Manager a los desarrolladores de aplicaciones mediante HTTP. Antes de conocer los detalles de los puntos finales de la API y los métodos HTTP, los desarrolladores pueden familiarizarse con los diferentes objetos de Learning Manager, sus atributos y sus interrelaciones. Una vez que se conozcan los modelos, resultará útil tener nociones básicas sobre la estructura de las solicitudes y respuestas de la API y de algunos lenguajes de programación conocidos que se admiten de modo genérico en ella.
 
 Para obtener más información sobre los distintos métodos y puntos finales de la API, consulte la  [Documentación de API de Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Las API de alumno de Adobe Learning Manager permiten crear una experiencia de aprendizaje personalizada para los usuarios. El uso de estas API requiere un token de usuario válido y solo se deben usar para los flujos de trabajo en los que haya un alumno con licencia o registrado completa. No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo. Los casos de uso sin registro requieren un manejo especial. Póngase en contacto con el equipo de Arquitectura de soluciones, en caso de que tenga alguna pregunta sobre el uso adecuado de estas API, y asegúrese de que un arquitecto de soluciones haya revisado una solución antes de implementarla.
 
 ## Autenticación de API {#apiauthentication}
 
@@ -763,7 +770,7 @@ dateStart\
 inscrito\
 id\
 mes\
-cuartear
+trimestre
 
 **Relaciones**
 containerLO(learningObject)\
