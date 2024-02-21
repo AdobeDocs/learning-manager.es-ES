@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Manual de desarrolladores de aplicaciones
 description: La API V1 de Learning Manager ha dejado de utilizarse. Las API V1 dejarán de funcionar a partir del 28 de febrero de 2021. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 62%
 
 ---
@@ -33,9 +33,17 @@ La API de Learning Manager se basa en los principios de REST y presenta elemento
 
 Para obtener más información sobre los distintos métodos y puntos finales de la API, consulte la  [Documentación de API de Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## API de alumno
+
+Adobe Learning Manager: las API de alumno permiten crear una experiencia de aprendizaje personalizada para los usuarios. El uso de estas API requiere un token de usuario válido y solo se deben usar para los flujos de trabajo en los que haya un alumno con licencia o registrado completa.
+
 >[!IMPORTANT]
 >
->Las API de alumno de Adobe Learning Manager permiten crear una experiencia de aprendizaje personalizada para los usuarios. El uso de estas API requiere un token de usuario válido y solo se deben usar para los flujos de trabajo en los que haya un alumno con licencia o registrado completa. No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo. Los casos de uso sin registro requieren un manejo especial. Póngase en contacto con el equipo de Arquitectura de soluciones, en caso de que tenga alguna pregunta sobre el uso adecuado de estas API, y asegúrese de que un arquitecto de soluciones haya revisado una solución antes de implementarla.
+>No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo.
+
+Los casos prácticos no registrados requieren un tratamiento especial.
+
+**Póngase en contacto con el equipo de Arquitectura de soluciones, en caso de que tenga alguna pregunta sobre el uso adecuado de estas API, y asegúrese de que un arquitecto de soluciones haya revisado una solución antes de implementarla**.
 
 ## Autenticación de API {#apiauthentication}
 

@@ -1,9 +1,9 @@
 ---
 title: Experiencia sin inicio de sesión para alumnos
 description: El portal nativo de Adobe Learning Manager admitirá una forma no registrada de acceder al sitio de formación. Con este modo activado, los alumnos pueden descubrir y acceder al sitio de formación y consultar los distintos cursos y contenidos disponibles. Esta experiencia permite a los alumnos examinar cursos sin haber iniciado sesión en un portal.
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '557'
 ht-degree: 43%
 
 ---
@@ -24,10 +24,17 @@ A continuación, el curso de formación se puede exportar desde el conector.
 
 El administrador puede modificar y configurar la página de inicio, que está destinada a los usuarios que no han iniciado sesión.
 
+## API de alumno
+
+Adobe Learning Manager: las API de alumno permiten crear una experiencia de aprendizaje personalizada para los usuarios. El uso de estas API requiere un token de usuario válido y solo se deben usar para los flujos de trabajo en los que haya un alumno con licencia o registrado completa.
+
 >[!IMPORTANT]
 >
->Las API de alumno de Adobe Learning Manager permiten crear una experiencia de aprendizaje personalizada para los usuarios. El uso de estas API requiere un token de usuario válido y solo se deben usar para los flujos de trabajo en los que haya un alumno con licencia o registrado completa. No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo. Los casos de uso sin registro requieren un manejo especial. Póngase en contacto con el equipo de Arquitectura de soluciones, en caso de que tenga alguna pregunta sobre el uso adecuado de estas API, y asegúrese de que un arquitecto de soluciones haya revisado una solución antes de implementarla.
+>No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo.
 
+Los casos prácticos no registrados requieren un tratamiento especial.
+
+**Póngase en contacto con el equipo de Arquitectura de soluciones, en caso de que tenga alguna pregunta sobre el uso adecuado de estas API, y asegúrese de que un arquitecto de soluciones haya revisado una solución antes de implementarla**.
 
 ## Iniciar las opciones de la página de inicio
 
