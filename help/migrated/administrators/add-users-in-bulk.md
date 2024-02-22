@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Agregar usuarios en bloque
 description: Descubra cómo añadir varios usuarios a la vez.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '316'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 33%
 
 # Agregar usuarios en bloque
 
-Sí, puede añadir varios usuarios a la vez siguiendo los pasos a continuación:
+En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.
+
+[![botón](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
+## Cómo añadir varios usuarios
+
+Puede añadir varios usuarios a la vez siguiendo los pasos que se indican a continuación:
 
 1. Haga clic en **[!UICONTROL Usuarios]** en el panel izquierdo del inicio de sesión del administrador y, a continuación, haga clic en **[!UICONTROL Añadir]** > **[!UICONTROL Cargar un archivo csv]**. Aparecerá un cuadro de diálogo emergente.
 

@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo administrar etiquetas en Learning 
 jcr-language: en_us
 title: Etiquetas
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Ahora los administradores pueden gestionar etiquetas en Learning Manager. Use un
 La lista de objetos de aprendizaje asociados con la etiqueta se puede ver si hace clic en el recuento proporcionado junto a cada etiqueta. La lista muestra la cantidad de cursos, programas de aprendizaje, certificados, ayudas de trabajo y grupos de contenido. Haga clic en cualquiera de estas opciones para ver la lista.
 
 Puede ordenar las etiquetas según el uso o por orden alfabético con la opción **[!UICONTROL Ordenar por]**.
+
+## Introducción a las etiquetas
+
+En este curso de formación aprenderá a añadir, editar, sustituir, añadir y eliminar etiquetas. También aprenderá a cambiar la configuración de permisos y a utilizar filtros de etiquetas.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Añadir, eliminar y editar etiquetas {#adddeleteedittags}
 
