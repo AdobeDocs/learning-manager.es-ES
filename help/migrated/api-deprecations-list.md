@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Rechazas de API en Adobe Learning Manager
 description: A medida que evolucionan las API de Adobe Learning Manager, estas se reorganizan o actualizan periódicamente. Cuando las API evolucionan, la API antigua queda obsoleta y, finalmente, se elimina. Esta página contiene información que debe conocer al migrar de versiones de API obsoletas a versiones de API más nuevas y estables.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Rechazas de API en Adobe Learning Manager
+# Cambios y depreciaciones de la API en Adobe Learning Manager
 
 ## Rechazas de API en la versión de marzo de 2024 de Adobe Learning Manager
 
-### Cambios en los límites de tasas
+<!-- ### Changes in Rate Limits
 
-Con la próxima versión de Adobe Learning Manager, estamos reestructurando los límites de tasas de API para las nuevas cuentas. Para las cuentas existentes, solo se limitarán las API de administración. Después de los 90 días (unos 3 meses), reestructuraremos los límites de tasas para todas las API, pero las cuentas existentes se incluirán en la lista blanca de acuerdo con el uso actual. Las cuentas existentes deben volver a consultar su uso de la API de alumno.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-En el caso de las cuentas nuevas, si desean aumentar los límites de las tasas, deben ponerse en contacto con el equipo de éxito del cliente de ALM.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### ¿Qué API tendrán límite de velocidad?
+#### Which APIs will be rate limited 
 
-En el caso de las nuevas cuentas, todas las API de administrador, alumno y búsqueda tendrán límites de velocidad y se aplicará el desglose.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-La velocidad de ráfaga o el límite de ráfaga de la API se refiere al número máximo de solicitudes que se pueden realizar a una API en un breve intervalo de tiempo limitado.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-En la tabla siguiente se enumeran los límites de velocidad y fragmentación para las API.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Número de solicitudes-RPM</th>
-        <th>Número de solicitudes-Ráfaga</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Administrador</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Alumno</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Buscar</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Cambios en los límites de desplazamiento
 
