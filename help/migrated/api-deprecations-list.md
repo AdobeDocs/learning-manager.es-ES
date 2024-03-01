@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Rechazas de API en Adobe Learning Manager
 description: A medida que evolucionan las API de Adobe Learning Manager, estas se reorganizan o actualizan periódicamente. Cuando las API evolucionan, la API antigua queda obsoleta y, finalmente, se elimina. Esta página contiene información que debe conocer al migrar de versiones de API obsoletas a versiones de API más nuevas y estables.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ La razón por la que estamos dejando de utilizar el indicador para las API de al
 
 A partir de ahora, la siguiente API de alumno dejará de funcionar debido a que presenta el indicador de anulación.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;página[límite]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[offset]=0&amp;página[límite]=10&amp;sort=id&amp;override=TRUE_
 
 ### Cambios en la API para nuevas recomendaciones basadas en aptitudes
 
