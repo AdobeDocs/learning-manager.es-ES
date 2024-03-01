@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Rechazas de API en Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas a la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ Después de generar los archivos binarios, muévalos a Play Store o App Store.
 
 ## ¿Cómo puedo aplicar los cambios?
 
-El cliente envía los activos y archivos necesarios al equipo de CSM. A continuación, el equipo de CSM rellena el [forma](https://forms.office.com/r/bJRRaRBvSh) con los cambios necesarios y adjunta los activos necesarios. A continuación, el equipo examinará los cambios e informará a los equipos de ingeniería al respecto. A continuación, el equipo de ingeniería generará una compilación y la compartirá con el equipo de CSM.
+Envía los activos y archivos necesarios al equipo de CSM. A continuación, el equipo de CSM rellena el [forma](https://forms.office.com/r/bJRRaRBvSh) con los cambios necesarios y adjunta los activos necesarios. A continuación, el equipo examinará los cambios e informará a los equipos de ingeniería al respecto. A continuación, el equipo de ingeniería generará una compilación y la compartirá con el equipo de CSM.
 
 El equipo de CSM compartirá la compilación con el cliente.
 
