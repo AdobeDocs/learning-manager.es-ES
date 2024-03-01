@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Rechazas de API en Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas a la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Se pueden personalizar las siguientes opciones:
 
   <td>
 
-  <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es- com.`<company-name>`.`<product-name>`.</p></td>
+  <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es: com.nombre-empresa.nombre-producto.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ Se pueden personalizar las siguientes opciones:
 
   <td>
 
-  <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato para asignar un nombre es `<account-id>`_appIcon.png.</p></td>
+  <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Se pueden personalizar las siguientes opciones:
 
   <td>
 
-  <p>En la pantalla de bienvenida de la aplicación, proporcione una imagen (png) que aparezca cuando los usuarios inicien la aplicación. El formato para asignar un nombre es `<account-id>`_splashIcon.png.</p></td>
+  <p>Para la pantalla de bienvenida de su aplicación, proporcione una imagen (png) que aparezca cuando los usuarios inicien la aplicación. El formato que se debe asignar al nombre es account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Se pueden personalizar las siguientes opciones:
 
   <td>
 
-  <p>El administrador de integración de su cuenta proporciona los detalles al registrar la aplicación. El administrador de integración debe utilizar lo siguiente:<ul><li>"learner:read,learner:write" como función.</li><li>`<internal app name>`://redirigir como URL de redirección. </li></ul> </p></td>
+  <p>El administrador de integración de su cuenta proporciona los detalles al registrar la aplicación. El administrador de integración debe utilizar lo siguiente: * alumno:leer,alumno:escribir como función * aplicación interna name://redirect como URL de redirección
+
+  </p></td>
 
   </tr>
 
