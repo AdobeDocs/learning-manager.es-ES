@@ -3,10 +3,10 @@ description: Temas de color y marca en Learning Manager
 jcr-language: en_us
 title: Temas de color
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 45%
 
 ---
 
@@ -85,6 +85,39 @@ Haga clic en **[!UICONTROL Previsualización dinámica]** en la esquina inferior
 Elija un tema en la lista desplegable, ajuste la configuración y haga clic en **[!UICONTROL Vista previa]** para ver los cambios aplicados dinámicamente en la aplicación. A continuación, puede revisar todas las funciones de la aplicación y observar los cambios. También puede cambiar sus funciones mientras se realiza la previsualización dinámica. Una vez que esté satisfecho con los cambios, puede volver a la función emergente Vista previa del tema en vivo y hacer clic en **[!UICONTROL Aplicar tema]**.
 
 Mientras previsualiza los cambios dinámicos, la ventana de Previsualización dinámica aparece en la parte inferior de la pantalla. Puede elegir minimizar la ventana emergente.
+
+## Varias marcas {#multiple-branding}
+
+A continuación se explica cómo implementar varias marcas:
+
+1. En la aplicación de administración, seleccione **Branding** en el panel izquierdo.
+1. Seleccionar **Editar** en la sección Marca múltiple .
+1. Seleccione el botón de alternancia y actívelo.
+
+### Usuarios internos
+
+1. Seleccione un campo activo en el menú desplegable.
+1. En función de la selección, puede cambiar el nombre de la organización y cargar un nuevo logotipo para los usuarios.
+
+### Usuarios externos
+
+1. Seleccione un campo activo en el menú desplegable.
+1. En función de la selección, puede cambiar el nombre de la organización y cargar un nuevo logotipo para los usuarios.
+
+>[!NOTE]
+>
+>Los usuarios internos pueden tener campos activos como Usuarios externos (por ejemplo, el administrador debe añadir la marca múltiple para los usuarios internos y usuarios externos por separado, seleccionando los valores de campo activos por separado).
+
+#### Aspectos a tener en cuenta
+
+* Un administrador puede añadir la marca de varios niveles para este valor de campo activo y el usuario externo puede iniciar sesión con diferentes mecanismos (SSO único (Okta, Mini naranja), inicio de sesión social) y comprobar si la marca múltiple es aplicable.
+* Un usuario externo tiene un campo activo y un valor de campo activo como el usuario interno: aunque se comparta, el administrador debe especificarlo por separado en la marca múltiple. Una vez aplicado, el usuario externo puede iniciar sesión con diferentes mecanismos (SSO Single (Okta, Mini orange), Social Login) y comprobar si la marca múltiple es aplicable.
+* Un usuario externo movido de un perfil a otro: Mover el usuario externo de un perfil a otro perfil no afectará el valor del campo activo para el usuario a menos que el administrador o el usuario externo editen o eliminen el valor del campo activo al iniciar sesión o registrarse
+
+>[!NOTE]
+>
+>Cuando se establecen varias marcas para usuarios internos y externos, con el mismo nombre de campo activo, con el mismo valor de campo activo pero con una configuración diferente. En este caso, se recomienda a los clientes que utilicen la misma configuración (logotipo, tema, nombre de la organización) para evitar discrepancias.
+
 
 ## Personalizar la cuenta {#customize}
 
