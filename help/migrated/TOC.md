@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
    * [Tienda de contenido](administrators/feature-summary/content-marketplace.md)
    * [Informes](administrators/feature-summary/reports.md)
    * [Rutas de aprendizaje](administrators/feature-summary/learning-paths.md)
-   * [Programas de aprendizaje](administrators/feature-summary/learning-programs.md)
+   * [Planes de aprendizaje](administrators/feature-summary/learning-plans.md)
    * [Administrar pedidos y facturación de Learning Manager](administrators/feature-summary/billing-management.md)
    * [Ayudas de trabajo](administrators/feature-summary/job-aids.md)
    * [Certificaciones](administrators/feature-summary/certifications.md)
@@ -81,6 +81,7 @@ ht-degree: 90%
    * [Extensibilidad nativa](administrators/feature-summary/native-extensibility.md)
    * [Inscripción múltiple](administrators/feature-summary/multiple-enrollment.md)
    * [Experiencia sin inicio de sesión para alumnos](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [Programas de aprendizaje](administrators/feature-summary/learning-programs.md)
 * Administrador de integración {#integration}
    * [Manual de migración](integration-admin/feature-summary/migration-manual.md)
    * [Conectores de Learning Manager](integration-admin/feature-summary/connectors.md)
