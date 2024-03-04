@@ -3,9 +3,9 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Ver [Varias marcas personalizadas](administrators/feature-summary/themes.md#mult
 
 ### Administrador: páginas del curso o de la ruta de aprendizaje
 
-Si un gran número de alumnos se inscribe en el curso, por ejemplo, más de 50 000, no se mostrará la lista de alumnos. Puede buscar un alumno en el *Buscar alumnos* o seleccione la barra de búsqueda **Descargar** situado encima de la barra de búsqueda para descargar la lista de alumnos.
+Si un gran número de alumnos se inscribe en el curso, por ejemplo, más de 50 000, no se mostrará la lista de alumnos. Puede buscar un alumno en el *Buscar alumnos* o seleccione la barra de búsqueda **Descargar** en la parte superior de la barra de búsqueda para descargar la lista de alumnos.
 
 ### Administrador: página de alumnos
 
