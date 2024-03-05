@@ -3,9 +3,9 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ Con esta versión, la API de trabajos conservará el informe de acceso de inicio
 ```
 
 Si intenta descargar el **Acceso de inicio de sesión** informe que va más allá de cinco trimestres, aparece un mensaje de error. Aparecerá un mensaje de error similar si intenta descargar el **Auditoría de usuarios** informe que va más allá de seis meses.
+
+### API en desuso
+
+Ver [Rechazos de API en Adobe Learning Manager](api-deprecations-list.md) para obtener una lista acumulativa de todas las API obsoletas del producto.
 
 ## Errores solucionados en esta actualización {#bug-fixes}
 
