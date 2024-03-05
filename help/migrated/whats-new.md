@@ -3,10 +3,10 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ Ver [Estado del envío](instructors/feature-summary/learners.md#filter-file-subm
 
 En las versiones actuales de Adobe Learning Manager, para una lista de comprobación, se permitía el progreso de un módulo incluso si un revisor había marcado los módulos como erróneos. En esta versión, un autor puede configurar para evitar que un alumno deje de pasar la lista de comprobación.
 
-Para obtener más información, consulte [Mejoras de lista de comprobación](authors/feature-summary/courses.md#mandatory-checklist) en Adobe Learning Manager.
+#### Revalorización de la lista de comprobación
+
+En el mismo flujo de trabajo, usted, como autor, puede volver a evaluar a un alumno que ha suspendido una lista de comprobación. Seleccione la **Habilitar** en la sección Revalorización, al crear una lista de comprobación.
+
+Ver [Crear una lista de comprobación](authors/feature-summary/courses.md#checklist-fail) para obtener más información.
 
 ## Otras mejoras
 
-### Cambios en la lista de comprobación
+### Notificaciones por correo electrónico relacionadas con la sesión
 
-Al crear una lista de comprobación, puede seleccionar el **Lista de comprobación obligatoria** casilla de verificación. Al hacerlo, se impide que el módulo o curso continúe si un alumno suspende la lista de comprobación.
+En versiones anteriores de Adobe Learning Manager, un alumno no enviaba correos electrónicos relacionados con la sesión, actualizaba los detalles de la sesión, invitaba a la sesión y recordaba la sesión cuando:
+
+* Los alumnos han completado un curso,
+* Se añaden nuevas sesiones a un curso, o
+* Hay cambios en las sesiones existentes.
+
+En la versión de marzo de 2024 de Adobe Learning Manager, se indican a continuación los nuevos cambios:
+
+* Detalles de la sesión actualizada e invitación de sesión (para alumno e instructor)
+   * Para sesiones futuras, correos electrónicos para **Detalles de sesión actualizados**, **Invitación de sesión** para alumnos inscritos y los instructores actuales quedarán obsoletos. Para sesiones anteriores, correos electrónicos para **Detalles de sesión actualizados** y **Invitación de sesión** para los alumnos inscritos Los alumnos y los instructores actuales se mantendrán tal cual.
+* Correos electrónicos de recordatorio (para administradores y alumnos)
+   * Sólo para futuros períodos de sesiones **Recordatorio de sesión** se enviarán correos electrónicos.
+
+>[!NOTE]
+>
+>Los correos electrónicos no dependen de la finalización de la sesión y del curso.
+
 
 ### AEM Cambios en el sitio de referencia
 
