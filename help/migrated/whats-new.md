@@ -3,9 +3,9 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ Como instructor, ahora puede filtrar los envíos de archivos de los alumnos en f
 
 Ver [Estado del envío](instructors/feature-summary/learners.md#filter-file-submissions) para obtener más información.
 
-### Mejoras de lista de comprobación
+## Mejoras de lista de comprobación
+
+### Lista de comprobación obligatoria
 
 En las versiones actuales de Adobe Learning Manager, para una lista de comprobación, se permitía el progreso de un módulo incluso si un revisor había marcado los módulos como erróneos. En esta versión, un autor puede configurar para evitar que un alumno deje de pasar la lista de comprobación.
 
-#### Revalorización de la lista de comprobación
+### Revalorización de la lista de comprobación
 
 En el mismo flujo de trabajo, usted, como autor, puede volver a evaluar a un alumno que ha suspendido una lista de comprobación. Seleccione la **Habilitar** en la sección Revalorización, al crear una lista de comprobación.
 
