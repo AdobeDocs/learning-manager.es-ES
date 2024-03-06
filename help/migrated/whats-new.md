@@ -3,9 +3,9 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Ver etiquetado blanco en [aplicación móvil de Adobe Learning Manager](white-la
 ### Clasificación de aplicaciones
 
 Un alumno puede proporcionar sus comentarios en la aplicación Adobe Learning Manager para mejorar aún más la experiencia de la aplicación. Si el alumno valora cuatro estrellas o más, aparece un mensaje emergente que solicita al alumno que valore la aplicación en Play Store o App Store.
+
+### Bluejeans ha llegado a su final de vida (EOL) en febrero de 2024
+
+Queremos informarte de que BlueJeans ha llegado a su final de vida (EOL) en febrero de 2024. Después de febrero de 2024, BlueJeans ya no recibirá actualizaciones ni asistencia técnica. Nuestro CSAM y los equipos de asistencia le ayudarán con cualquier pregunta o duda que pueda tener durante este período de transición.
+
+Ver [Conectores en Adobe Learning Manager](integration-admin/feature-summary/connectors.md) para obtener más información sobre la configuración de conectores.
 
 ## Cambios en las API de esta versión
 
