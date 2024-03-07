@@ -3,9 +3,9 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Ver [Estado del envío](instructors/feature-summary/learners.md#filter-file-subm
 
 ## Mejoras de lista de comprobación
 
-### Lista de comprobación obligatoria
+En la versión de marzo de 2024 de Adobe Learning Manager, las mejoras realizadas en el flujo de trabajo de la lista de comprobación son las siguientes:
 
-En las versiones actuales de Adobe Learning Manager, para una lista de comprobación, se permitía el progreso de un módulo incluso si un revisor había marcado los módulos como erróneos. En esta versión, un autor puede configurar para evitar que un alumno deje de pasar la lista de comprobación.
+### No permitir el progreso en el error de una lista de comprobación
 
-### Revalorización de la lista de comprobación
+Al crear una lista de comprobación, un autor puede seleccionar **Habilitar** en la sección Lista de comprobación obligatoria. Al hacerlo, se impide que un alumno continúe en el módulo si no supera la lista de comprobación. Sólo pueden continuar si pasan la lista de comprobación.
 
-En el mismo flujo de trabajo, usted, como autor, puede volver a evaluar a un alumno que ha suspendido una lista de comprobación. Seleccione la **Habilitar** en la sección Revalorización, al crear una lista de comprobación.
+Los revisores de la lista de comprobación, es decir, los instructores o responsables, pueden comprobar el estado de la lista de comprobación. Los revisores también pueden revisar la lista de comprobación de un alumno sin ordenar.
+
+### Reevaluación de una lista de comprobación
+
+Al crear una lista de comprobación, un autor puede seleccionar **Habilitar** en la sección Reevaluación. De este modo, un responsable o un instructor pueden volver a evaluar a un alumno hasta que apruebe la lista de comprobación.
+
+Si el módulo es obligatorio, la casilla de verificación de reevaluación estará seleccionada de forma predeterminada.
+
+Un instructor o responsable también puede cambiar el estado de una lista de comprobación de No superado a Aprobado cuando la reevaluación está habilitada.
+
+En la página Lista de comprobación , un instructor puede ver el número de alumnos que están en estado Pendiente. Como instructor, puede evaluar a un alumno y aprobarlo o suspenderlo. Si un alumno se encuentra en estado suspendido, solo podrá ver la lista de comprobación cuando la reevaluación no esté activada.
+
+Esto significa que el **Habilitar** no se seleccionó la casilla de verificación en la sección Reevaluación al crear la lista de comprobación. Si esta casilla de verificación está seleccionada, aparecerá el botón Ver/Volver a evaluar en la página Lista de comprobación del instructor .
+
+Al seleccionar el botón, puede volver a evaluar a un alumno y marcarlo como aprobado o suspendido.
+
+>[!NOTE]
+>
+>Ambas funciones (Volver a evaluar y Convertir la lista de comprobación en obligatoria) solo se aplican a los módulos recién creados. Una vez publicado un curso, no se puede activar ni desactivar.
+
 
 Ver [Crear una lista de comprobación](authors/feature-summary/courses.md#checklist-fail) para obtener más información.
 
