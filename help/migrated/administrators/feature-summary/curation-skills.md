@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Asignar aptitud con dominios de aptitudes
 description: Para que el motor de revisión habilitado para inteligencia artificial revise automáticamente una publicación de un usuario en relación con un determinado dominio, la empresa del usuario debe tener asignadas aptitudes personalizadas con los dominios de aptitudes admitidos que existen en el sistema de gestión de aprendizaje Learning Manager.
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 95%
+source-wordcount: '373'
+ht-degree: 90%
 
 ---
 
@@ -43,6 +43,11 @@ Al crear una aptitud, un administrador puede asignarla con los dominios de aptit
 * Diseño
 * Análisis
 * Ventas
+
+>[!NOTE]
+>
+>Según el algoritmo, si la puntuación de confianza es inferior al 50 %, el contenido se marca para la revisión manual.
+
 
 Para añadir un dominio de aptitud, siga los pasos que se indican a continuación:
 
