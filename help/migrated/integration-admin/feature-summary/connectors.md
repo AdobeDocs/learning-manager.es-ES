@@ -3,7 +3,7 @@ description: Obtenga más información sobre cómo integrar varios conectores en
 jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
@@ -774,7 +774,7 @@ El usuario puede configurar tareas de programación conforme a los requisitos de
 
 >[!NOTE]
 >
->   Learning Manager utiliza la versión 28.1 de la API de Workday.
+>   Learning Manager utiliza la versión 40.1 de la API de Workday.
 
 
 ![](assets/configure-connector.png)
