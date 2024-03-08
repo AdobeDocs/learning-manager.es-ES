@@ -3,14 +3,13 @@ description: Obtenga información sobre la configuración de la cuenta de Learni
 jcr-language: en_us
 title: Configuración
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 69%
+source-wordcount: '3980'
+ht-degree: 66%
 
 ---
-
-
 
 # Configuración
 
@@ -421,10 +420,26 @@ Active o desactive las opciones siguientes:
    <td>
     <p>Administración de instructores<br></p></td>
    <td>
-    <p>Active este ajuste para restringir la lista de instructores que se pueden seleccionar al crear sesiones de clase o de clase virtual. Todos los usuarios con privilegios de instructor solo se pueden asignar como instructores a cualquier sesión. Esta restricción no se aplica a los flujos de trabajo de migración.<br></p></td>
+    <p>Active este ajuste para restringir la lista de instructores que se pueden seleccionar al crear sesiones de clase o de clase virtual. Todos los usuarios con privilegios de instructor solo se pueden asignar como instructores a cualquier sesión. Esta restricción no se aplica a los flujos de trabajo de migración.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Importación de aptitudes</p>
+    </td>
+    <td>
+      <p>Si está activado, puede elegir un origen externo para importar aptitudes. Las aptitudes de los recursos de aprendizaje existentes se importarán al repositorio de aptitudes una vez durante la ejecución inicial. Para todas las importaciones posteriores de recursos de aprendizaje, las aptitudes se importarán en el repositorio de aptitudes solo para los elementos recién importados.
+      Una vez activada la opción, la acción es irreversible. No puede deshabilitar ni cambiar a otro origen más adelante.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Una vez activada la configuración de importación de aptitudes, el diseño de cuenta no se puede cambiar a clásico. Es decir, el cambio a la cuenta clásica se desactiva después de activar la importación de aptitudes.
+
 
 ## Recomendación basada en Inteligencia artificial
 
@@ -578,6 +593,13 @@ También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo 
 *  (región)
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Configuración {#admin-classroom-settings}
+
+Seleccionar **Editar** para cambiar lo siguiente:
+
+* **Permitir a los autores crear ubicaciones**: Una vez habilitadas, todas las ubicaciones creadas por los autores se mostrarán en la pestaña &quot;Todas las ubicaciones&quot;. Los alumnos también verán estas ubicaciones en los filtros Catálogo y Calendario.
+* **Permitir a los autores modificar y eliminar ubicaciones**: Una vez activada, los autores podrán modificar y eliminar todas las ubicaciones de clase. Las modificaciones de los autores se reflejarán en toda la plataforma, incluidos los informes.
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 

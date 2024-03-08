@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Importar aptitudes desde orígenes externos
 description: Importe aptitudes de proveedores de contenido, como LinkedIn y Go1, mediante los conectores correspondientes.  Las aptitudes importadas se añadirán a las aptitudes definidas por el administrador en Learning Manager y estarán disponibles para los autores durante el flujo de trabajo de creación del curso.
 contentowner: saghosh
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 1%
 
 ---
-
 
 # Importar aptitudes desde orígenes externos
 
@@ -23,6 +23,23 @@ Siga los pasos del procedimiento para habilitar la importación de aptitudes en 
 1. Seleccionar **General**.
 1. En la **Importación de aptitudes** , seleccione **Habilitar**. Si está activado, puede elegir un origen externo para importar **Aptitudes**. Las aptitudes de los recursos de aprendizaje existentes se importarán al repositorio de aptitudes una vez durante la ejecución inicial. Para todas las importaciones posteriores de recursos de aprendizaje, las aptitudes se importarán en el repositorio de aptitudes solo para los elementos recién importados.
 1. Seleccione un proveedor de contenido en el menú desplegable.
+
+Como administrador, solo puede importar una aptitud como origen.
+
+### Nivel de aptitud predeterminado
+
+El nivel de aptitud predeterminado es uno y el crédito es 10 después de migrar las aptitudes. El administrador posterior puede cambiar el crédito.
+
+No puede editar el nombre de la aptitud, la descripción y añadir niveles a aptitudes externas. Sin embargo, puede añadir dominios, insignias y editar créditos.
+
+#### Cambios en los informes
+
+Hemos añadido una nueva columna **Source** con valores: Interno, Aprendizaje de LinkedIn, Ir1, que indica el origen de la importación de aptitudes.
+
+Las aptitudes añadidas recientemente estarán en la parte superior.
+
+En la página Configuración del curso, hemos añadido una nueva columna **Asignado por** que contiene valores, interno y proveedor de contenido.
+
 
 ## Flujo de trabajo del administrador de integración
 
