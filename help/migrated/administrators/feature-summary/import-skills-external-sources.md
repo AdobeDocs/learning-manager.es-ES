@@ -4,7 +4,7 @@ title: Importar aptitudes desde orígenes externos
 description: Importe aptitudes de proveedores de contenido, como LinkedIn y Go1, mediante los conectores correspondientes.  Las aptitudes importadas se añadirán a las aptitudes definidas por el administrador en Learning Manager y estarán disponibles para los autores durante el flujo de trabajo de creación del curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
