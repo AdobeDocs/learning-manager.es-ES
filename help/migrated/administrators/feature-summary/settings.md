@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '3980'
+source-wordcount: '3983'
 ht-degree: 66%
 
 ---
@@ -438,7 +438,7 @@ Active o desactive las opciones siguientes:
 
 >[!NOTE]
 >
->Una vez activada la configuración de importación de aptitudes, el diseño de cuenta no se puede cambiar a clásico. Es decir, el cambio a la cuenta clásica se desactiva después de activar la importación de aptitudes.
+>Una vez activada la configuración de importación de aptitudes, el diseño de cuenta no se puede cambiar a clásico, es decir, el cambio a una cuenta clásica se desactiva después del **Importación de aptitudes** está activada.
 
 
 ## Recomendación basada en Inteligencia artificial
