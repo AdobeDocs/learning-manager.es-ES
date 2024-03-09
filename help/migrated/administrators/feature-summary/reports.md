@@ -3,14 +3,13 @@ description: Obtenga información sobre los informes asociados a la función de 
 jcr-language: en_us
 title: Informes
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 65%
+source-wordcount: '6624'
+ht-degree: 64%
 
 ---
-
-
 
 # Informes
 
@@ -580,6 +579,14 @@ Al crear una cuenta de igual a igual, si no se había seleccionado la opción Co
 
 Puede recibir sus informes favoritos por correo electrónico mediante una suscripción.
 
+### Configurar suscripciones de correo electrónico
+
+En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
 En **[!UICONTROL Informes]** , haga clic en el  **[!UICONTROL Suscripción]** . Aparece la página de suscripción a informes.
 
 Para seleccionar el nombre del informe en la lista desplegable, empiece a escribir el nombre del informe en el campo Informes. Seleccione la frecuencia del correo electrónico en la lista desplegable. Puede añadir el asunto del correo electrónico y proporcionar un ID de correo electrónico alternativo.
@@ -600,6 +607,7 @@ A continuación, se muestran los tipos de informes disponibles para la descarga.
 * Registro de auditoría de usuarios
 * Informe de inicio de sesión o de acceso
 * Transcripciones de interacciones
+* Registro de auditoría de interacción
 
 ## Transcripciones de alumnos {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Los administradores pueden descargar la transcripción de interacción en format
 
    Cuando el administrador restablece la interacción, todos los puntos del alumno se restablecen en consecuencia.
 
+## Informe de seguimiento de auditoría de interacción {#gamification-audit-trail}
+
+Este informe contiene el historial y los motivos de los puntos de interacción de los alumnos obtenidos para cada regla.
+
+### Descargar el informe
+
+1. Seleccione la URL de seguimiento de auditoría de interacción.
+1. En la **Seguimiento de auditoría de interacción** , seleccione el intervalo de fechas.
+1. Seleccionar **Generar**.
+
+El informe se descarga como archivo CSV. El archivo contiene las siguientes columnas:
+
+* Nombre
+* Correo electrónico/UUID,
+* Estado
+* Acción
+* Puntos,
+* Puntos de saldo
+* Regla/ Tarea
+* Subtarea de regla/tarea,
+* Detalles de regla/tarea
+* Tipo,
+* Nombre,
+* Nombre de instanciaFecha de obtención (zona horaria UTC)
+* Hora de inicio de regla/tarea
+* Hora de finalización de regla/tarea
+
 ## Informe de inscripción y baja {#enrollmentandunenrollmentreport}
 
 Los administradores y responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Mientras que, como responsable, solo puede obtener un informe de los miembros del equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
@@ -900,7 +935,7 @@ El informe tendrá los siguientes campos:
 ![](assets/more-options.png)
 *Opciones adicionales*
 
-## Informe de resumen de sesión
+## Informe de resumen de sesión {#session-summary-report}
 
 El informe de resumen de sesión contiene todas las sesiones planificadas para un alumno en una fecha especificada.
 
@@ -925,17 +960,17 @@ El informe csv contiene los siguientes campos:
 * Recuento de puestos
 * Ubicación
 * Nombre de la instancia
-
 * Nombre del curso
 * Id. del curso
 * Nombre del instructor
 * Correo electrónico del instructor
 * Recuento de inscripciones
-
 * Tipo de sesión
 * Límite de lista de espera
 * N.º en lista de espera
 * Mensajes de correo electrónico de usuario de la lista de espera
+* Información de ubicación
+* Región de la ubicación
 
 ## Informe de utilización del instructor
 

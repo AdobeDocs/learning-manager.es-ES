@@ -3,14 +3,13 @@ description: Este documento consta de ayuda para crear módulos de cursos, insta
 jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
+source-wordcount: '4604'
 ht-degree: 65%
 
 ---
-
-
 
 # Crear módulos de cursos, instancias y programas de aprendizaje
 
@@ -23,6 +22,16 @@ Los autores crean cursos. Los alumnos pueden realizar cursos y los administrador
 Los autores crean cursos. Los alumnos pueden realizar los cursos y los administradores pueden hacer un seguimiento del rendimiento de los alumnos según el consumo del curso. Los administradores pueden ver los cursos creados por los autores y realizar algunas actividades, como se explica en esta sección. Los administradores pueden crear programas de aprendizaje únicos con un conjunto predefinido de cursos para alumnos.
 
 ## Crear la instancia de un curso {#createinstanceofacourse}
+
+### Administrar instancias
+
+En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
+### Cómo crear una instancia
 
 Una vez que un autor ha creado un curso, puede crear instancias del mismo. Al crear instancias de un curso, puede ofrecer el mismo curso a los alumnos en períodos de tiempo diferentes. Los alumnos pueden elegir cualquier instancia e inscribirse. Puede configurar cada instancia para que tenga su propia serie de insignias, comentarios y otras opciones de configuración.
 
@@ -105,6 +114,14 @@ Para enviar correos electrónicos a nivel de instancia a alumnos inscritos:
 1. Después de hacer clic en **[!UICONTROL Guardar]**, verá un mensaje de confirmación informándole de la creación correcta del anuncio. Para publicar el anuncio, haga clic en **[!UICONTROL Publicar ahora]**.
 
    ![Anuncio creado correctamente](assets/announcement-successful.png)
+
+### Inscribir alumnos en cursos
+
+En este curso de formación, aprenderá a inscribir, dar de baja y volver a inscribir alumnos.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ### Inscribir a los alumnos en varias instancias
 

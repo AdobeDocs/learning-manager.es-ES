@@ -3,14 +3,13 @@ description: Los eventos de su actividad de formación activan mensajes de corre
 jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # Plantillas de correo electrónico
 
@@ -219,6 +218,14 @@ También puede personalizar lo siguiente:
 * Edite el pie de página del correo electrónico. El área del pie de página contiene variables predefinidas para la dirección URL de la cuenta, la firma y cualquier texto de formato libre que el usuario agregue.
 
 Las plantillas también son compatibles con funciones de edición avanzadas, como que el formato se conserve al copiar y pegar contenido desde y en Microsoft Word.
+
+### Configurar instancias
+
+En este curso de formación, aprenderá a configurar los valores predeterminados de las instancias, añadir una nueva instancia, retirar y volver a abrir una instancia, y configurar las plantillas de correo electrónico de una instancia.
+
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Invitaciones en línea {#inlineinvitations}
 
