@@ -3,14 +3,13 @@ description: Obtenga más información sobre las nuevas funciones y mejoras de l
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # Resumen de nuevas funciones {#new-features-summary}
 
@@ -376,6 +375,14 @@ Un alumno puede proporcionar sus comentarios en la aplicación Adobe Learning Ma
 Queremos informarte de que BlueJeans ha llegado a su final de vida (EOL) en febrero de 2024. Después de febrero de 2024, BlueJeans ya no recibirá actualizaciones ni asistencia técnica. Nuestro CSAM y los equipos de asistencia le ayudarán con cualquier pregunta o duda que pueda tener durante este período de transición.
 
 Ver [Conectores en Adobe Learning Manager](integration-admin/feature-summary/connectors.md) para obtener más información sobre la configuración de conectores.
+
+### Cambios en el informe Acceso de inicio de sesión
+
+El informe Acceso de inicio de sesión solo estará disponible durante los últimos cinco trimestres. Si algún administrador de integración solicita la descarga a petición de la exportación unificada con **Acceso de inicio de sesión** Si se selecciona, Adobe Learning Manager mostrará un mensaje de error. Sin embargo, no hay repercusiones en otros informes.
+
+### Cambios de ADFS
+
+Los campos Tipo de empleado e ID de empleado de ADFS ahora están disponibles en Adobe Learning Manager, en función de las asignaciones.
 
 ## Cambios en las API de esta versión
 
