@@ -1,10 +1,11 @@
 ---
 title: Experiencia sin inicio de sesión para alumnos
 description: El portal nativo de Adobe Learning Manager admitirá una forma no registrada de acceder al sitio de formación. Con este modo activado, los alumnos pueden descubrir y acceder al sitio de formación y consultar los distintos cursos y contenidos disponibles. Esta experiencia permite a los alumnos examinar cursos sin haber iniciado sesión en un portal.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Adobe Learning Manager: las API de alumno permiten crear una experiencia de apre
 
 >[!IMPORTANT]
 >
->No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo.
+>No se utilizarán, como está, para cualquier tipo de recuperación de datos para admitir a ningún usuario o usuario compartido no registrado, ni en ningún otro caso de este tipo. Para crear una experiencia de inicio de sesión sin encabezado o basada en AEM, póngase en contacto con nosotros. Le sugeriremos el enfoque correcto en función de sus necesidades.
 
 Los casos prácticos no registrados requieren un tratamiento especial.
 
