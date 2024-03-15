@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ En esta versión, el estado cambia a **Aún por marcar**.
 La aplicación móvil de Adobe Learning Manager ahora admite el etiquetado de blancos, lo que significa que ahora puede publicar la aplicación con su propia marca.
 
 Ver etiquetado blanco en [aplicación móvil de Adobe Learning Manager](white-label.md) para obtener más información.
+
+### Nueva columna en archivos CSV de migración
+
+En esta versión, hay una nueva columna (opcional), uniqueLoId, en los siguientes archivos CSV de migración.
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+La columna UniqueLoId no es aplicable al archivo CSV de ayudas de trabajo.
+
+>[!IMPORTANT]
+>
+>Los valores de columna deben ser únicos en toda la cuenta. No puede utilizar el mismo valor con un curso o certificación.
+
+Descargue los archivos CSV de la [Manual de migración](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### Clasificación de aplicaciones
 
