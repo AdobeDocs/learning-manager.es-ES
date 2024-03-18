@@ -4,16 +4,16 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3666'
 ht-degree: 1%
 
 ---
 
 # Resumen de nuevas funciones {#new-features-summary}
 
-Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
+Obtenga más información sobre las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager.
 
 ## Novedades de esta versión {#whatsnewandchanged}
 
