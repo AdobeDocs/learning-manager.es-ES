@@ -1,16 +1,15 @@
 ---
-description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
+description: Notas de la versión de Adobe Learning Manager
 jcr-language: en_us
-title: Resumen de nuevas funciones
+title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26221'
 ht-degree: 72%
 
 ---
-
-
 
 # Resumen de nuevas funciones
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Actualización 95: versión de noviembre de 2023 de Adobe Learning Manager
++++Actualización 96: versión de marzo de 2024 de Adobe Learning Manager
 
 **Fecha de publicación:** 18 de noviembre de 2023
 
 ## Novedades de esta versión
 
 Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new.md).
++++
+
++++Actualización 95: versión de noviembre de 2023 de Adobe Learning Manager
+
+**Fecha de publicación:** 18 de noviembre de 2023
+
+## Novedades de esta versión
+
+Para obtener más información, consulte [Novedades de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
 +++
 
 +++Actualización 94
