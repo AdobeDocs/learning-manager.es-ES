@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Instalar paquete de Salesforce
 description: Learning Manager ofrece un paquete de la aplicación Salesforce. Una vez instalado y configurado en SFDC, los empleados de ventas pueden realizar sus actividades de formación en el portal de SFDC. Esta aplicación permite a los usuarios de SFDC explorar nuevas formaciones, ver recomendaciones y consumirlas directamente en el portal de SFDC. Los usuarios también reciben los anuncios enviados por los administradores en forma de membretes dentro de la aplicación dentro del portal de SFDC.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 51%
 
 ---
-
-
 
 # Instalar paquete de Salesforce
 
@@ -48,7 +47,7 @@ Si desea instalar el paquete, primero debe eliminar el paquete existente en Sale
 >
 >La aplicación Adobe Learning Manager solo se admite en la vista de Salesforce Lightning.
 
-1. Inicie el  [URL del paquete de Learning Manager](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. Inicie el  [URL del paquete de Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. En la **Inicio de sesión** página, haga clic en **[!UICONTROL Usar dominio personalizado]**.
 
 1. Introduzca la URL del paquete y haga clic en **[!UICONTROL Continuar]**. La página de instalación debe tener seleccionada la opción Instalar solo para administradores . No cambie esta opción.
