@@ -4,7 +4,7 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas a la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: 37f89d8555cd4c0f0fc0aeb82e12bce8ed85106d
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Si utiliza un dominio personalizado o learningmanager\*.adobe.com como host, no 
 
 Consulte los siguientes vínculos para obtener más información:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Generar notificaciones push
 
@@ -257,6 +256,7 @@ Siga el procedimiento:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 Si puede conectarse al servidor, el certificado que ha creado es válido. En el archivo myapnappkey.pem, copie el certificado y los valores de clave privada.
 
 ### Notificaciones push en Android
