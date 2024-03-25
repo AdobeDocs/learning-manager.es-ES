@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas a la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ Se pueden personalizar las siguientes opciones:
 
 </table>
 
+>[!NOTE]
+>
+>Proporciona los datos a tus CSAM para que puedan añadirlos al binario de tu aplicación personalizada.
 
-#### Actualizar asociación de sitio
+
+#### Actualizar asociación de sitio para controlar vínculos profundos personalizados
 
 Si utiliza un dominio personalizado o learningmanager\*.adobe.com como host, no es necesario realizar ninguna acción. Sin embargo, si utiliza una solución personalizada o un nombre de host específico para las direcciones URL, agregue los archivos de asociación del sitio.
+
+>[!CAUTION]
+>
+>Si los archivos no están presentes, los vínculos profundos no funcionarán. Asegúrese de que los archivos estén presentes.
+
 
 Consulte los siguientes vínculos para obtener más información:
 
@@ -212,9 +221,16 @@ Consulte los siguientes vínculos para obtener más información:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Generar certificado de notificaciones push
+## Generar notificaciones push
 
-### Certificado de notificaciones push en iOS
+El envío de notificaciones push a las aplicaciones Android y iOS requiere dos mecanismos diferentes.
+
+* Para iOS, genere los certificados de notificación de inserción.
+* Para Android, proporcione una clave de servidor generada a partir del proyecto Firebase.
+
+Siga las instrucciones que se indican a continuación para configurar los proyectos en Firebase:
+
+### Notificaciones push en iOS
 
 En el desarrollo de aplicaciones de iOS, un certificado de notificación de inserción es una credencial criptográfica emitida por Apple que permite a un servidor enviar notificaciones de inserción de forma segura a un dispositivo iOS a través del servicio de notificaciones de inserción (APN) de Apple.
 
@@ -241,19 +257,24 @@ Siga el procedimiento:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 Si puede conectarse al servidor, el certificado que ha creado es válido. En el archivo myapnappkey.pem, copie el certificado y los valores de clave privada.
 
-1. Póngase en contacto con el equipo de CSM y obtenga los archivos agregados a los servicios SNS en AWS. Los usuarios tendrán que obtener la entrada registrada en el servicio SNS para la notificación de inserción, lo que les exigirá compartir los certificados generados anteriormente para su validación.
+### Notificaciones push en Android
+
+Configure un proyecto en Firebase y comparta la clave del servidor con el CSAM.
+
+Póngase en contacto con el equipo de CSM y obtenga los archivos agregados a los servicios SNS en AWS. Los usuarios tendrán que obtener la entrada registrada en el servicio SNS para la notificación de inserción, lo que les exigirá compartir los certificados generados anteriormente para su validación.
 
 >[!NOTE]
 >
 >Para Android, el usuario debe proporcionar la clave de servidor del proyecto de Firebase que crea para Android para añadir la entrada en el servicio SNS.
 
 
-## Agregar el proyecto a Firebase
+## Crear proyecto en Firebase
 
 ### Android
+
+Vuelva a utilizar el mismo proyecto que ha creado en los pasos anteriores para las notificaciones push.
 
 [Agregar el proyecto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) en Firebase y recupere el ***google-services.json*** archivo.
 
@@ -261,19 +282,24 @@ Si puede conectarse al servidor, el certificado que ha creado es válido. En el 
 
 [Agregar el proyecto](https://firebase.google.com/docs/ios/setup) a Firebase y recuperar el ***GoogleService-Info.plist*** archivo.
 
+>[!IMPORTANT]
+>
+>Envíe los archivos al equipo de CSAM de Adobe Learning Manager para incluirlos en la compilación del archivo binario de la aplicación.
+
+
 ## Generar los archivos binarios firmados
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->Necesitará XCode 14.2 o superior para crear los archivos binarios firmados.
+>Necesitará XCode 15.2 o superior para crear los archivos binarios firmados.
 
 
 ## Android
