@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Al asignar los cursos a un nivel de aptitud, la lista de aptitudes es la búsque
 
 ### Grupos de usuarios
 
-#### Administrador: página de alumnos
+#### Página Administrador: Alumnos
 
 Al buscar cualquier usuario, el **Descargar alumno** y **Exportar** opciones descargar el mismo informe. Mientras tanto, al buscar un grupo de usuarios, ahora puede descargar usuarios filtrados de ese grupo de usuarios. Al buscar en un grupo de usuarios, el **Descargar lista de alumnos** cambios en **Descargar lista de alumnos para grupos de usuarios** La **Exportar** de nuevo descarga toda la lista.
 
