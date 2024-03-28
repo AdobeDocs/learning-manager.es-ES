@@ -3,14 +3,13 @@ description: El administrador puede activar, desactivar y supervisar las activid
 jcr-language: en_us
 title: Supervisión y moderación de Aprendizaje social como administrador
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # Supervisión y moderación de Aprendizaje social como administrador
 
@@ -265,9 +264,9 @@ Dispone de otras opciones:
 * **[!UICONTROL Replicar]:** Haga clic en este botón para replicar el título y el subtítulo en todos los idiomas.
 * **[!UICONTROL Restablecer]:** Haga clic en este botón para volver al título y al subtítulo originales.
 
-En la página principal de Aprendizaje social, la información proporcionada por el administrador se muestra como encabezado de página.
+  En la página principal de Aprendizaje social, la información proporcionada por el administrador se muestra como encabezado de página.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Tendencias {#trends}
 

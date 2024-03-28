@@ -3,14 +3,13 @@ description: Descargue la transcripción de alumnos y administre los informes co
 jcr-language: en_us
 title: Transcripciones de alumnos
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Transcripciones de alumnos
 
@@ -22,7 +21,7 @@ Adobe Learning Manager permite a los administradores de una empresa generar tran
 
 1. Para generar transcripciones de alumnos, haga clic en **[!UICONTROL Informes]** en el panel izquierdo del inicio de sesión del administrador.
 
-   El administrador accede a la ficha Informes de Excel dentro de la página **[!UICONTROL Informes]**.
+   El administrador accede a la **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** dentro de la **[!UICONTROL Informes]** página.
 
 1. Haga clic en el vínculo **[!UICONTROL Transcripciones de alumnos]**.
 

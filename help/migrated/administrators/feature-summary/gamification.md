@@ -3,14 +3,13 @@ description: La interacción es el uso del pensamiento lúdico y la mecánica de
 jcr-language: en_us
 title: Interacción
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # Interacción
 
@@ -76,7 +75,7 @@ Para restablecer la configuración y la puntuación del alumno, haga clic en Res
 
 ## Deshabilitar la interacción {#disablegamification}
 
-Haga clic en [!UICONTROL **Interacción**] > [!UICONTROL **Función de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
+Haga clic en [!UICONTROL **Interacción**] > **[!UICONTROL Configuración]** > [!UICONTROL **Función de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
 
 ![](assets/gamification-feature.png)
 

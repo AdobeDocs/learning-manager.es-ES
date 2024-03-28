@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Rutas de aprendizaje
 
@@ -132,9 +131,9 @@ La **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje f
 
 Hay tres opciones:
 
-1. **[!UICONTROL Cursos de todos los niveles y rutas de aprendizaje (opción seleccionada de forma predeterminada)]:** El alumno recibe notificaciones de cualquier curso incompleto, independientemente del nivel dentro de una ruta de aprendizaje.
+1. **[!UICONTROL Cursos y rutas de aprendizaje de todos los niveles de aptitudes (opción seleccionada de forma predeterminada)]:** El alumno recibe notificaciones de cualquier curso incompleto, independientemente del nivel dentro de una ruta de aprendizaje.
 1. **[!UICONTROL Ruta de aprendizaje raíz]:** El alumno recibe notificaciones de cualquier curso incompleto que pertenezca a una ruta de aprendizaje principal.
-1. **[!UICONTROL Ruta de aprendizaje y solo secundario de primer nivel]:** El alumno recibe notificaciones de cualquier curso incompleto que sea un primer elemento secundario de una ruta de aprendizaje principal.
+1. **[!UICONTROL Ruta de aprendizaje + solo niños de primer nivel de aptitud]:** El alumno recibe notificaciones de cualquier curso incompleto que sea un primer elemento secundario de una ruta de aprendizaje principal.
 
 Los recordatorios de notificación se activan en función de la opción. De forma predeterminada, la opción **[!UICONTROL Cursos de todos los niveles y rutas de aprendizaje]** está activada para una instancia.
 

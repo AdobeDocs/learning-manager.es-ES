@@ -4,7 +4,7 @@ title: Catálogos
 description: Los catálogos son una colección de cursos de aprendizaje, programas de aprendizaje y certificaciones. Utilice los catálogos para proporcionar a los alumnos un conjunto personalizado de materiales de aprendizaje. Puede asociar aprendizaje con un catálogo durante la creación de un catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,31 +220,31 @@ Cualquier modificación realizada en los objetos de aprendizaje en la aplicació
    <td>
     <p><strong>Programa de aprendizaje</strong></p></td>
    <td>
-    <p>nombre, descripción y otros campos del objeto LP excepto badgeId, retirar</p></td>
+    <p>Nombre, descripción y otros campos del objeto LP excepto badgeId, retirada</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certificación</strong></p></td>
    <td>
-    <p>todas las propiedades del objeto de certificación excepto badgeId, retirada de la certificación</p></td>
+    <p>Todas las propiedades del objeto de certificación excepto badgeId, retirada de la certificación</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Insignia</strong></p></td>
    <td>
-    <p>nombre y retirada del distintivo</p></td>
+    <p>Nombre y retirada del distintivo</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Categoría </strong></p></td>
    <td>
-    <p>nombre, descripción, color y retirada de la categoría, adición de un nuevo nivel</p></td>
+    <p>Nombre, descripción, color y retirada de la categoría, adición de un nuevo nivel</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Job-Aid</strong></p></td>
    <td>
-    <p>todas las propiedades del objeto jobAid</p></td>
+    <p>Todas las propiedades del objeto jobAid</p></td>
   </tr>
   <tr>
    <td>

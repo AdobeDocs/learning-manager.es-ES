@@ -3,14 +3,13 @@ description: Administre la facturación de Learning Manager, realice pedidos con
 jcr-language: en_us
 title: Administrar pedidos y facturación de Learning Manager
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 70%
 
 ---
-
-
 
 # Administrar pedidos y facturación de Learning Manager
 

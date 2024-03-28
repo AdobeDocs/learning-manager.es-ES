@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 64%
 
 ---
@@ -46,7 +46,7 @@ Si hay administradores internos de nivel raíz, se mostrarán uno tras otro.
 
 Todos los perfiles externos se enumerarán después de los perfiles internos (usuarios internos de nivel raíz).
 
-Si un perfil externo tiene un responsable, la jerarquía de responsables se mostrará en el **[!UICONTROL Mostrar datos para]** lista desplegable. - El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes).
+Si un perfil externo tiene un responsable, la jerarquía de responsables se mostrará en el **[!UICONTROL Mostrar datos para]** lista desplegable. El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes)
 
 Si no es así, todos los detalles de los usuarios individuales se mostrarán en la lista.
 
@@ -58,9 +58,9 @@ Para ver información más detallada de las inscripciones de varios equipos inte
 Al hacer clic en cualquier inscripción, puede ver los alumnos de cada responsable y las inscripciones a cada objeto de aprendizaje. También puede ver los detalles de progreso y finalización de cada alumno.
 
 ![](assets/learners-for-a-manager.png)
-*Ver alumnos asignados a un responsable*
+*alumnos asignados a un responsable*
 
-Haga clic en cualquier equipo y exporte la informe como un archivo csv. Un administrador puede exportar el informe para cualquier grupo de usuarios o usuario individual seleccionando el grupo de usuarios o usuario individual y, a continuación, exportando detalles desde la lista desplegable Acción.
+Haga clic en cualquier equipo y exporte la informe como un archivo csv. Un administrador puede exportar el informe para cualquier grupo de usuarios o usuario individual seleccionando el grupo de usuarios o usuario individual y, a continuación, exportar los detalles desde el **[!UICONTROL Acción]** lista desplegable.
 
 Además, puede ver un gráfico de barras con las aptitudes que están en curso y las que se han alcanzado. Puede añadir o quitar las aptitudes que desee incluir en el gráfico.
 
@@ -69,7 +69,7 @@ Además, puede ver un gráfico de barras con las aptitudes que están en curso y
 
 En la visualización final, puede comprobar el estado de cumplimiento de los alumnos y tomar las medidas adecuadas.
 
-Además, un administrador puede ver datos de formación individuales en el tablero de cumplimiento.
+Además, un administrador puede ver los datos de formación individuales en el **[!UICONTROL Panel de cumplimiento]**.
 
 Por ejemplo, el administrador ha identificado tres cursos de formación en los que realizar un seguimiento del cumplimiento. Learning Manager proporciona la información de cumplimiento de los tres cursos de formación a la vez.
 
@@ -617,7 +617,7 @@ Las transcripciones de alumnos en informes de Excel muestran las columnas Crédi
 
 Como administrador, puede descargar informes de cursos. Siga estos pasos:
 
-1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes del curso]**.
+1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes del curso]**.
 1. Se muestra el cuadro de diálogo **[!UICONTROL Informe del curso]**. Seleccione el curso, cuyo informe quiere obtener y haga clic en **[!UICONTROL Mostrar]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ Como administrador, puede generar un informe de todos los anuncios que envíe. E
 
 Para descargar un informe, siga cualquiera de estos pasos:
 
-1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de anuncios]**. Se abre el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en Aceptar.
+1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de anuncios]**. Se abre el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en Aceptar.
 1. [!UICONTROL **Anuncios**] > [!UICONTROL **Acciones**] > [!UICONTROL **Exportar informe**].
 
    ![](assets/announcements.png)
    *Informe de anuncios*
 
-1. Puede extraer un informe de un anuncio específico haciendo clic en Exportar informe debajo del icono de configuración.
+1. Puede extraer un informe de un anuncio específico haciendo clic en **[!UICONTROL Exportar informe]** bajo el icono de configuración.
 
    ![](assets/announcements-specific-report.png)
    *Informe de anuncios específicos*
@@ -686,7 +686,7 @@ El informe extraído incluye información sobre lo siguiente:
 
 Para descargar un informe, realice una de las siguientes acciones:
 
-* Abrir  **[!UICONTROL Informes]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes de ayudas de trabajo]**. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL Aceptar]**.
+* Abrir  **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes de ayudas de trabajo]**. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL Aceptar]**.
 * Abrir **[!UICONTROL Ayuda de trabajo]** > **[!UICONTROL Acciones]** > **[!UICONTROL Exportar informe]**.
 
 ![](assets/job-aids.png)

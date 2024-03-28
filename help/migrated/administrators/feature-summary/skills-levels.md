@@ -3,14 +3,13 @@ description: Cree, asigne y modifique aptitudes y niveles.
 jcr-language: en_us
 title: Crear y modificar aptitudes y niveles
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Crear y modificar aptitudes y niveles
 
@@ -32,7 +31,7 @@ Como administrador, puede efectuar las acciones siguientes:
 
 Para añadir una aptitud, siga los pasos que se indican a continuación:
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Aptitudes]**. Asigne un nombre a la aptitud y escriba una descripción.
+1. En el panel izquierdo, seleccione **[!UICONTROL Aptitudes]** > **[!UICONTROL Añadir]** > **[!UICONTROL Añadir SKills]**. Asigne un nombre a la aptitud y escriba una descripción.
 
    ![](assets/add-skill-name-anddescription.png)
 

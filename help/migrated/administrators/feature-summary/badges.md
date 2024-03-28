@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Insignias
 description: Las insignias son logros que el empleado puede ganar por la realización de un curso. Adobe Learning Manager presenta uno de los conceptos de aprendizaje electrónico más recientes denominado Insignias. Los profesionales de todo el mundo utilizan estas insignias como representación de aptitudes o logros de aprendizaje.
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 58%
 
 ---
-
-
 
 # Insignias
 
@@ -26,7 +25,7 @@ Los administradores pueden crear insignias para los alumnos de la siguiente mane
    >
    >De forma predeterminada, hay disponible una lista de algunas insignias de muestra.
 
-1. Haga clic en **[!UICONTROL Agregar insignia]** en la esquina superior derecha de la página. Se abre el cuadro de diálogo Añadir insignia.
+1. Haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha de la página. Se abre el cuadro de diálogo Añadir insignia.
 
    ![](assets/add-badge1.png)
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Añadir ubicaciones de clases
 description: Los administradores pueden crear ahora una biblioteca de ubicaciones de clases. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos e información adicional como, por ejemplo, la dirección URL de la ubicación. Los autores y los administradores pueden utilizar estas ubicaciones de clases preconfiguradas para establecer eventos de formación dirigidos por un instructor (módulos de clase).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Clase
 
@@ -26,13 +25,14 @@ Puede agregar una ubicación de clase mediante la interfaz de usuario:
 
 1. En la aplicación de administración (la IU para las funciones de administrador), haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
 
-1. Haga clic en **[!UICONTROL Añadir más]** botón.
+1. Haga clic en **[!UICONTROL Añadir]** > **[!UICONTROL Nueva ubicación]**.
 
 1. En el cuadro de diálogo **[!UICONTROL Ubicación de clase]**, introduzca la siguiente información:
 
-   * Especifique el **[!UICONTROL nombre de la ubicación de clase]**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
+   * Escriba el **[!UICONTROL Nombre de ubicación]**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
    * Introduzca la descripción de la ubicación en el campo **[!UICONTROL Información de ubicación]**. Este campo es opcional.
    * Introduzca la **[!UICONTROL URL de ubicación]**. El alumno puede ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
+   * Escriba y seleccione la **[!UICONTROL Región de ubicación]**. Este campo es opcional.
    * Introduzca el número de puestos disponibles en el campo **[!UICONTROL Límite de puestos]**. Esto indica el número de puestos disponibles para la clase. Este valor se puede modificar al crear el evento real de formación dirigido por un instructor.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ En el cuadro de diálogo, se muestran los detalles de cada sesión, incluidos el
 
 La **[!UICONTROL Sesiones futuras]** visualizaciones de campo **cero** cuando la clase no se utiliza para ninguna sesión o cuando la clase está asociada a sesiones anteriores.
 
+**[!UICONTROL Límite de asientos]** - Muestra la capacidad del asiento de la clase.
+
 **URL de ubicación** - URL que proporcionó al crear la ubicación de clase.
 
 **Información de ubicación** - La información de clase que proporcionó al crear la clase.
@@ -67,7 +69,7 @@ La **[!UICONTROL Sesiones futuras]** visualizaciones de campo **cero** cuando la
 
 También puede añadir una o varias ubicaciones de clases mediante la importación de un archivo CSV que contenga la información de clase.
 
-En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**, haga clic en el **[!UICONTROL Importar archivos CSV de ubicaciones]** botón. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
+En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** > **[!UICONTROL Añadir]**, haga clic en el **[!UICONTROL Ubicaciones de importación masiva]** botón. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
 
 El archivo CSV utiliza estos campos para almacenar información sobre una o varias ubicaciones de clases:
 

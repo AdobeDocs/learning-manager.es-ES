@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ En la página Administrador, seleccione **Administrador** > **Aptitudes** > **Ap
 ## Cambios en la creación de clases
 
 Según [Configuración de administrador](administrators/feature-summary/classroom.md#classroom-settings), como autor, puede [crear, modificar y eliminar ubicaciones](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Al añadir etiquetas de ubicación y de catálogo, los autores (en la página de creación del curso) y los administradores (en la página de instancia) verán una lista de ubicaciones y etiquetas de catálogo rellenada automáticamente, respectivamente.

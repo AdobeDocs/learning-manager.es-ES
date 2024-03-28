@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
+source-wordcount: '4613'
 ht-degree: 65%
 
 ---
@@ -53,6 +53,7 @@ Para crear una instancia:
    * Haga clic en **[!UICONTROL Mostrar más opciones]** para mostrar otras opciones de fecha límite.
    * **[!UICONTROL Plazo de inscripción]:** Se trata de la fecha en la que se espera que un alumno se inscriba en un objeto de aprendizaje en caso de inscripción automática.
    * **[!UICONTROL Fecha límite de cancelación]:** Puede optar por restringir que el propio alumno se dé de baja estableciendo una fecha límite para darse de baja.
+   * **[!UICONTROL Zona horaria]:** Busque y seleccione la **[!UICONTROL Zona horaria]** en el menú desplegable.
 
    Un administrador puede decidir establecer límites de finalización para un curso o programa de aprendizaje según los requisitos. Ahora bien, se recomienda tener uno según las modalidades de formación de clase o clase virtual.
 
@@ -99,13 +100,13 @@ Para devolver una instancia al estado activo, aplique los pasos siguientes:
 
 Para enviar correos electrónicos a nivel de instancia a alumnos inscritos:
 
-1. En la página Instancias, seleccione las opciones de cualquier instancia y, a continuación, haga clic en **[!UICONTROL Enviar correo electrónico a alumnos inscritos]**.
+1. En la **[!UICONTROL Instancias]** , seleccione las opciones en cualquier instancia y, a continuación, haga clic en **[!UICONTROL Enviar correo electrónico a alumnos inscritos]**.
 
 ![correos electrónicos de nivel de instancia](assets/adhoc-email.png)
 
 *Enviar por correo electrónico a los alumnos inscritos en la instancia*
 
-1. En el cuadro de diálogo Crear anuncio, seleccione Escribir como correo electrónico. Especifique el asunto, escriba el mensaje y haga clic en Guardar. La formación se selecciona automáticamente.
+1. En la **[!UICONTROL Crear anuncio]** , seleccione Escribir como correo electrónico. Especifique el asunto, escriba el mensaje y haga clic en **[!UICONTROL Guardar]**. La formación se selecciona automáticamente.
 
    ![Crear anuncio como correo electrónico](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ El archivo de Excel contiene las hojas de cálculo de cada instancia. Una hoja d
 
 >[!NOTE]
 >
->Nota: Al activar la inscripción múltiple, se añaden varias filas al informe de transcripciones de alumnos para cada curso (una fila para cada instancia).
+>Al activar la opción de varias inscripciones, se añaden diferentes filas al informe de transcripciones de alumnos por cada curso (una fila por instancia).
 >
 >Si ha configurado la automatización de informes que solo prevé una fila por curso, debe realizar los ajustes necesarios en la automatización de informes antes de activar la función Inscripción múltiple.
 
