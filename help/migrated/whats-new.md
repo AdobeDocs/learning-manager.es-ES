@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Si un gran número de alumnos se inscribe en el curso, por ejemplo, más de 50 0
 
 ### Administrador: página de alumnos
 
-Al buscar cualquier usuario, el **Descargar alumno** y **Exportar** opciones descargar el mismo informe. Mientras tanto, al buscar un grupo de usuarios, ahora puede descargar usuarios filtrados de ese grupo de usuarios. Al buscar en un grupo de usuarios, el **Descargar lista de alumnos** cambios en **Descargar la lista de alumnos del grupo de usuarios** La **Exportar** de nuevo descarga toda la lista.
+Al buscar cualquier usuario, el **Descargar alumno** y **Exportar** opciones descargar el mismo informe. Mientras tanto, al buscar un grupo de usuarios, ahora puede descargar usuarios filtrados de ese grupo de usuarios. Al buscar en un grupo de usuarios, el **Descargar lista de alumnos** cambios en **Descargar lista de alumnos para grupos de usuarios** La **Exportar** de nuevo descarga toda la lista.
 
 ### Página Administrador: Usuarios
 
@@ -230,11 +230,24 @@ Si el número de usuarios de un grupo de usuarios es grande, el **Estado** el me
 En esta versión, hemos mejorado la experiencia de búsqueda. Los resultados de la búsqueda se obtienen no solo en función de los metadatos, sino también de la búsqueda semántica y en el contenido para obtener resultados basados en la precisión, la actualidad y el contenido relevante.
 
 Este cambio se refleja en lo siguiente:
+
 * Página Catálogo y Mi aprendizaje: Se ha eliminado la acción de pasar el cursor en el curso, la ruta de aprendizaje y la certificación.
 * Apariencia de la barra de búsqueda.
 * Se han añadido etiquetas de filtro en la aplicación de aprendizaje.
 
 Para habilitar las funciones de búsqueda, póngase en contacto con el equipo de CSAM de Adobe Learning Manager.
+
+## Cambios en la interfaz de usuario {#ui-changes}
+
+### Página de creación del curso
+
+Al asignar los cursos a un nivel de aptitud, la lista de aptitudes es la búsqueda. En otras palabras, busque aptitudes y verá una lista de aptitudes que coinciden con el término buscado.
+
+### Grupos de usuarios
+
+#### Administrador: página de alumnos
+
+Al buscar cualquier usuario, el **Descargar alumno** y **Exportar** opciones descargar el mismo informe. Mientras tanto, al buscar un grupo de usuarios, ahora puede descargar usuarios filtrados de ese grupo de usuarios. Al buscar en un grupo de usuarios, el **Descargar lista de alumnos** cambios en **Descargar lista de alumnos para grupos de usuarios** La **Exportar** de nuevo descarga toda la lista.
 
 ## Cambios en los informes
 
