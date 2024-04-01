@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Manual de desarrolladores de aplicaciones
 description: La API V1 de Learning Manager ha dejado de utilizarse. Las API V1 dejarán de funcionar a partir del 28 de febrero de 2021. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 62%
 
 ---
-
-
 
 # Manual de desarrolladores de aplicaciones
 

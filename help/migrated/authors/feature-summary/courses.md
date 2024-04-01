@@ -3,14 +3,13 @@ description: Lea este artículo para obtener información sobre cómo crear curs
 jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Crear, modificar y publicar cursos
 
@@ -70,6 +69,7 @@ Para crear un curso, siga los pasos a continuación:
    NOTA: Esto solo se activa cuando se configura el conector de Adobe Commerce.
 
 1. Seleccione la casilla de verificación **Los alumnos pueden darse de baja** para que puedan darse de baja de su curso.
+
 1. **Configuración de instancia**
 
    Si activa esta opción, los alumnos con el estado En curso pueden visitar otras instancias e inscribirse en ellas. Un alumno puede conservar el progreso de la instancia anterior.
@@ -898,4 +898,3 @@ Para obtener más información, consulte la [sección sobre varios intentos](cou
 No, el contenido cargado en Learning Manager es un archivo zip publicado y no es el archivo de origen. Por lo tanto, incluso aunque se descargue el contenido, este no se puede editar en una herramienta de creación. Es necesario un archivo de origen para editar el contenido.
 
 +++
-

@@ -3,14 +3,13 @@ description: Lea este artículo para obtener información sobre cómo ver y cons
 jcr-language: en_us
 title: Cursos
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Cursos
 
@@ -170,7 +169,7 @@ Solo después de inscribirse en un curso, un alumno puede proporcionar comentari
 
 Un alumno podrá seleccionar una estrella en particular (de un total de 5) y enviar la valoración. El alumno también puede editar la selección haciendo clic en una estrella diferente. Una vez enviado, se mostrará un mensaje de agradecimiento por sus comentarios.
 
-Si el alumno desea volver a enviar los comentarios, puede realizar esta acción haciendo clic en el mensaje. El botón **Enviar **se vuelve a activar. Un alumno puede proporcionar una valoración basada en estrellas varias veces después de inscribirse en un curso. Siempre se tiene en cuenta la valoración más reciente.
+Si el alumno desea volver a enviar los comentarios, puede realizar esta acción haciendo clic en el mensaje. La **Enviar** se vuelve a activar el botón. Un alumno puede proporcionar una valoración basada en estrellas varias veces después de inscribirse en un curso. Siempre se tiene en cuenta la valoración más reciente.
 
 Una vez que el alumno haya proporcionado una valoración, la valoración media de estrellas y el número de alumnos que han proporcionado la valoración aparecen en la **Resumen del curso** página.
 
@@ -211,7 +210,7 @@ Todos los filtros y otras opciones se muestran en el siguiente vídeo.
 
 ### Vista previa del contenido
 
-Puede explorar y previsualizar el curso para ver si este se adapta a sus necesidades de aprendizaje. Haga clic en el botón **Vista previa **y consulte la vista previa del curso. La vista previa está disponible durante dos minutos.
+Puede explorar y previsualizar el curso para ver si este se adapta a sus necesidades de aprendizaje. Haga clic en **Vista previa** y ver la vista previa del curso. La vista previa está disponible durante dos minutos.
 
 ![](assets/content-marketplace-learner.gif)
 *Vista previa de contenido en la tienda*
@@ -272,7 +271,7 @@ Como alumno, puede interactuar con otros alumnos y sus instructores en la ficha 
 
 Al hacer clic en la ficha Debates, puede ver las publicaciones y los comentarios de ese curso. Si ya se ha inscrito en un curso, también puede empezar a escribir publicaciones o comentarios para que los vean los demás usuarios. Tras escribir el mensaje, haga clic en Publicar. Su publicación debe contener al menos 10 caracteres.
 
-La publicación se ve al instante en la ficha Debates. Puede ordenar las publicaciones a partir de la más reciente o de la más antigua, y eliminar publicaciones que haya escrito. Aunque se dé de baja del curso, puede seguir viendo todas las publicaciones y eliminar las que haya escrito.
+La publicación se ve al instante en la ficha Debates. Puede ordenar las publicaciones como Más recientes primero o Más antiguos primero, y eliminar las publicaciones que haya escrito. Aunque se dé de baja del curso, puede seguir viendo todas las publicaciones y eliminar las que haya escrito.
 
 ![](assets/learner-discussion.png)
 *Ver discusiones de participantes*
