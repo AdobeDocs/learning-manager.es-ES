@@ -375,7 +375,7 @@ Para el conector de LinkedIn Learning, hay una nueva casilla de verificación qu
 
 **Fecha de publicación:** 5 de noviembre de 2022
 
-**Nota:** Con esta versión de Adobe Learning Manager, los usuarios con cuentas inactivas ya no pueden acceder a sus cuentas mediante subdominios. Se puede acceder a las cuentas mediante el ID de cuenta o mediante la página acapindex.html e introduciendo el ID de correo electrónico.
+**Nota:** Con esta versión de Adobe Learning Manager, los usuarios con cuentas inactivas ya no pueden acceder a sus cuentas a través de subdominios. Se puede acceder a las cuentas mediante el ID de cuenta o mediante la página acapindex.html e introduciendo el ID de correo electrónico.
 
 ### Novedades de esta versión
 
@@ -389,7 +389,7 @@ La versión de noviembre de 2022 de Adobe Learning Manager consta de lo siguient
 
 Para obtener más información, consulte [Novedades de la versión de noviembre de 2022 de Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
-**Nota:** Con la versión de noviembre de 2022 de Adobe Learning Manager, el zoom dejará de utilizarse [Autenticación JWT para junio de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Por lo tanto, el conector de Zoom con JWT seguirá funcionando hasta la fecha indicada, pero recomendamos a los usuarios que creen una aplicación OAuth de servidor a servidor para reemplazar esta función en la cuenta. Todas las conexiones nuevas tendrán la autenticación de OAuth de Zoom de forma predeterminada.
+**Nota:** Con la versión de noviembre de 2022 de Adobe Learning Manager, Zoom dejará de utilizarse [Autenticación JWT para junio de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Por lo tanto, el conector de Zoom con JWT seguirá funcionando hasta la fecha indicada, pero recomendamos a los usuarios que creen una aplicación OAuth de servidor a servidor para reemplazar esta función en la cuenta. Todas las conexiones nuevas tendrán la autenticación de OAuth de Zoom de forma predeterminada.
 
 ### Errores solucionados en esta actualización
 
