@@ -2,14 +2,13 @@
 description: Obtenga información sobre cómo crear contenido para alinear con cursos como contenido de ritmo personalizado.
 jcr-language: en_us
 title: Biblioteca de contenido
-source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
+exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
+source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3145'
+ht-degree: 53%
 
 ---
-
-
 
 # Biblioteca de contenido
 
@@ -115,21 +114,26 @@ Como se indica en la sección anterior, puede añadir contenido tanto estático 
 
 ## Añadir contenido estático {#addstaticcontent}
 
-1. Haga clic en Biblioteca de contenido en el panel izquierdo tras iniciar sesión como autor; a continuación, haga clic en Añadir.
+1. Seleccione la **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo después de iniciar sesión como **Autor** y seleccione **[!UICONTROL Añadir]** > **[!UICONTROL Contenido]**.
 
-   O, si lo desea, haga clic en Crear contenido en la página Introducción.
+>[!NOTE]
+>
+>Selección **[!UICONTROL Añadir]** mostrará dos opciones. **[!UICONTROL Contenido]** y **[!UICONTROL Prueba]**: Consulte [Crear una prueba](content-library.md#createaquiz) para obtener más información.
 
-1. En el campo Nombre, especifique un nombre para el contenido que desea cargar.
-1. En el campo Descripción, escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 400.
-1. Para cargar el contenido, haga clic en Añadir archivo de contenido y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
+
+Como alternativa, puede seleccionar **[!UICONTROL Crear contenido]** de la **[!UICONTROL Procedimientos iniciales]** página.
+
+1. En la **[!UICONTROL Nombre]** , escriba un nombre para el contenido que desea cargar.
+1. En la **[!UICONTROL Descripción]** , escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 400.
+1. Para añadir el contenido, seleccione **[!UICONTROL Agregar archivo de contenido]** y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
    Si desea reemplazar el contenido, puede reemplazar un contenido estático con un contenido estático diferente. Lo mismo se aplica al contenido interactivo.
 
-1. En el campo Duración, tiene la opción de introducir el tiempo que se espera que un alumno dedique al módulo. La duración se indica en minutos.
+1. En la **[!UICONTROL Duración]** , si lo desea, puede escribir el tiempo esperado que un alumno pasaría en este módulo. La duración se indica en minutos.
 
-   El tiempo de aprendizaje empleado por el alumno se calcula en función de la duración especificada si el alumno ha marcado el curso como completado. Si el alumno consume el contenido en el reproductor, el tiempo que pasa en él se añade al tiempo dedicado al aprendizaje. Si el tiempo de contenido real es menor que la duración especificada, no ocurre nada, ya que el reproductor siempre respeta el tiempo de visualización del contenido.
+   El tiempo de aprendizaje empleado por el alumno se calcula en función de la duración especificada si el alumno ha marcado el curso como completado. Si el alumno consume el contenido del reproductor, el tiempo dedicado al reproductor se añade al tiempo dedicado al aprendizaje. Si el tiempo de contenido real es menor que la duración especificada, no ocurre nada, ya que el reproductor siempre respeta el tiempo de visualización del contenido.
 
-1. En el campo Etiquetas de contenido, especifique las etiquetas para el contenido cargado, para que se pueda detectar.
+1. En la **[!UICONTROL Etiquetas]** , introduzca las etiquetas del contenido cargado para que su contenido sea detectable.
 
    Un autor puede utilizar estas etiquetas para buscar el contenido al añadir el contenido al curso.
 
@@ -139,23 +143,25 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
 ## Añadir contenido interactivo {#addinteractivecontent}
 
-1. Haga clic en Biblioteca de contenido en el panel izquierdo tras iniciar sesión como autor; a continuación, haga clic en Añadir.
+1. Seleccionar **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo después de iniciar sesión como **Autor** y seleccione **[!UICONTROL Añadir]** > **[!UICONTROL Contenido]**.
 
-   O, si lo desea, haga clic en Crear contenido en la página Introducción.
+>[!NOTE]
+>
+>Selección **[!UICONTROL Añadir]** mostrará dos opciones. **[!UICONTROL Contenido]** y **[!UICONTROL Prueba]**: Consulte [Crear una prueba](content-library.md#createaquiz) para obtener más información.
 
-1. En el campo Nombre, especifique un nombre para el contenido que desea cargar.
-1. En el campo Descripción, escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 245.
-1. Para cargar el contenido, haga clic en Añadir archivo de contenido y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
+Como alternativa, puede seleccionar **[!UICONTROL Crear contenido]** de la **[!UICONTROL Procedimientos iniciales]** página.
+
+1. En la **[!UICONTROL Nombre]** , escriba un nombre para el contenido que desea cargar.
+1. En la **[!UICONTROL Descripción]** , escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 245.
+1. Para añadir el contenido, seleccione **[!UICONTROL Agregar archivo de contenido]** y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
 * [Tipos de archivo admitidos](content-library.md#supported)
 
   El contenido interactivo puede ser un proyecto publicado de Captivate, SCORM o AICC. El archivo debe ser un archivo zip.
 
-  También puede agregar contenido HTML generado desde Captivate, Presenter o Presenter Video Express.
+También puede agregar contenido HTML generado desde Captivate, Presenter o Presenter Video Express.
 
-[Tipos de archivo admitidos](content-library.md#supported)
-
-1. Learning Manager admite subtítulos para contenido de vídeo cargado en esta aplicación. Ahora, los autores pueden cargar el archivo que contiene los subtítulos junto con el archivo de vídeo.
+1. **Learning Manager** admite subtítulos para contenido de vídeo cargado en Learning Manager. Ahora, los autores pueden cargar el archivo que contiene los subtítulos junto con el archivo de vídeo.
 
    A continuación, los alumnos podrán ver los subtítulos durante la reproducción del módulo de vídeo.
 
@@ -163,11 +169,11 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
    La compatibilidad con los subtítulos está disponible para el contenido de vídeo cargado en la biblioteca de contenido de Learning Manager.
 
-   Como autor, cuando cargue contenido de vídeo o audio, también puede cargar el archivo .vtt que contiene los subtítulos.
+   Como autor, al cargar un contenido de vídeo o audio, también puede cargar el archivo VTT que contiene los subtítulos.
 
    A continuación, los subtítulos aparecen en el reproductor Fluidic. Los subtítulos también son compatibles con [Estándares WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
-   Al añadir contenido de vídeo a la biblioteca, también puede añadir el archivo vtt, que **debe** ser un archivo válido.
+   Al añadir contenido de vídeo a la biblioteca, también puede añadir el archivo VTT, que debe ser un archivo válido.
 
    ![](assets/webvtt.png)
 
@@ -185,44 +191,44 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
    Después de añadir este contenido a un curso y previsualizarlo como alumno, puede ver los subtítulos en el vídeo.
 
-   Active el botón CC del reproductor Fluidic para que se muestren o se oculten los subtítulos.
+   En el reproductor, active el botón CC del reproductor Fluidic para mostrar u ocultar los subtítulos.
 
    La misma vista está presente en la **aplicación del alumno** y en la **Vista previa como alumno**.
 
-   Cuando usted **agregar, actualizar o eliminar** en el archivo vtt, recibirá una notificación.
+   Cuando usted **agregar, actualizar o eliminar** En el archivo VTT, recibirá una notificación.
 La compatibilidad con WebVTT no está disponible para:
 
    1. Anuncios de vídeo.
-   1. Vídeo reproducido en el contenido de aprendizaje electrónico. Esta acción la controla el contenido.
+   1. Vídeo reproducido dentro del contenido de aprendizaje electrónico. Esta acción la controla el contenido.
    1. Vídeo cargado en Aprendizaje social.
    1. Vídeo creado en la aplicación Learning Manager para escritorio
    1. Contenido de vídeo creado mediante el proceso de migración.
    1. Reproducción de vídeo en una aplicación para dispositivos móviles en el modo sin conexión.
 
-1. En el campo Duración, tiene la opción de introducir el tiempo que se espera que un alumno dedique al módulo. La duración se indica en minutos.
-1. En el campo Etiquetas de contenido, especifique las etiquetas para el contenido cargado, para que se pueda detectar.
+1. En la **[!UICONTROL Duración]** , si lo desea, puede escribir el tiempo esperado que un alumno pasaría en este módulo. La duración se indica en minutos.
+1. En la **[!UICONTROL Etiquetas]** , escriba las etiquetas del contenido cargado para que se pueda detectar el contenido.
 
 ### Compatibilidad con catálogos compartidos
 
 Si una cuenta de vendedor comparte un catálogo que contiene los cursos y estos contienen los módulos, el audio o el vídeo con los subtítulos, los cursos deben tener el mismo comportamiento en la cuenta del comprador.
 
-La propagación de los módulos debe funcionar correctamente de la cuenta de vendedor a la del comprador. Esto puede incluir: editar/eliminar/añadir el archivo vtt en el módulo.
+La propagación de módulos debe funcionar correctamente de una cuenta de vendedor a otra de comprador. Esto puede incluir: editar/eliminar/añadir el archivo VTT en el módulo.
 
-Una vez que haya subido el contenido, puede ver una notificación. Para ello, haga clic en el icono de campana ubicado en la esquina superior derecha de la página. Recibirá una notificación cada vez que modifique el contenido y lo vuelva a cargar. Si es la persona que realiza los cambios, solo usted obtendrá la notificación, no los demás autores.
+Una vez que haya cargado el contenido, puede ver una notificación seleccionando la **Campana** en la esquina superior derecha de la página. Recibirá una notificación cada vez que modifique el contenido y lo vuelva a cargar. Si es la persona que realiza los cambios, solo usted obtendrá la notificación, no los demás autores.
 
-## Cree una prueba
+## Cree una prueba {#createaquiz}
 
-Cree evaluaciones en Adobe Learning Manager con la nueva herramienta de creación de pruebas de la página Biblioteca de contenido. Las evaluaciones creadas pasan a formar parte de la biblioteca de contenido y se pueden añadir a una carpeta &quot;pública&quot; para reutilizar el curso.
+Cree evaluaciones en Adobe Learning Manager con la nueva herramienta de creación de pruebas en el **[!UICONTROL Biblioteca de contenido]** página. Las evaluaciones creadas forman parte de la **Biblioteca de contenido** y se puede añadir a una carpeta &quot;pública&quot; para reutilizarla en el curso.
 
-1. Seleccione Biblioteca de contenido en el panel izquierdo.
+1. Seleccione **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo.
 1. En la esquina superior derecha de la pantalla, seleccione **Agregar > Prueba**.
-1. En la página Crear prueba, escriba el nombre y la descripción de la prueba.
-1. En la sección Contenido de la prueba, seleccione **Añadir pregunta de prueba**.
-1. En el cuadro de diálogo Pregunta de prueba, seleccione el tipo de pregunta. Existen tres tipos de preguntas:
+1. En la **[!UICONTROL Crear prueba]** , escriba el nombre y la descripción de la prueba.
+1. En la **[!UICONTROL Contenido de prueba]** , seleccione **Añadir pregunta de prueba**.
+1. En la **[!UICONTROL Pregunta de prueba]** , seleccione el tipo de pregunta. Existen tres tipos de preguntas:
    * Pregunta de opción múltiple
    * Verdadero o falso
    * Rellenar los espacios en blanco
-1. Introduzca la pregunta y seleccione la respuesta correcta.
+1. Escriba la pregunta y seleccione la respuesta correcta.
 1. Establezca los puntos para la prueba.
 1. Si desea que la pregunta se responda correctamente para aprobar la prueba, seleccione la casilla de verificación **Es obligatorio responder correctamente para aprobar la prueba**.
 1. Seleccione **Guardar y cerrar**.
@@ -242,17 +248,17 @@ La prueba se añade a la biblioteca de contenido. Como cualquier contenido de la
 
 ## Añadir a carpeta {#add-folder}
 
-Después de que un administrador cree las carpetas de contenido, usted, como autor, puede cargar contenido en una de estas carpetas para que solo esté visible para usted o para un grupo seleccionado de autores de la cuenta. También puede hacer público el contenido a fin de que esté visible para todos los autores de la cuenta.
+Después de que un administrador cree las carpetas de contenido, usted, como autor, puede cargar contenido en una carpeta de contenido, de modo que el contenido solo esté visible para usted o para un grupo seleccionado de autores de la cuenta. También puede hacer público el contenido a fin de que esté visible para todos los autores de la cuenta.
 
 **Uso de ejemplo**
 
 Por ejemplo, las agencias desean mantener un control total del contenido y alguien que pasa por alto el contenido debe tener acceso a todo el contenido. Al mismo tiempo, los creadores de contenido de las agencias deben tener acceso solo a su propio contenido y, en algunos casos, al contenido de otra persona.
 
-La biblioteca de contenido con contenido existente (es decir, contenido cargado antes de configurar las carpetas de contenido) se define como **Carpeta pública**. Esta carpeta no se puede retirar ni eliminar. El contenido que forma parte de la carpeta pública está accesible para todos los tipos de autores. Una vez configuradas las carpetas de contenido, los autores estándar y personalizados deben seleccionar la carpeta en la que se debe colocar el contenido al cargar contenido nuevo.
+La biblioteca de contenido con contenido existente (es decir, contenido cargado antes de configurar las carpetas de contenido) se define como **Carpeta pública**. Esta carpeta no se puede retirar ni eliminar. El contenido que forma parte de una carpeta pública está accesible para todos los tipos de autores. Una vez configuradas las carpetas de contenido, los autores estándar y personalizados deben seleccionar la carpeta en la que se debe colocar el contenido al cargar contenido nuevo.
 
 >[!NOTE]
 >
->Las carpetas públicas y privadas se excluyen mutuamente. Esto significa que el contenido **no** se asociarán a la carpeta pública y a la carpeta privada al mismo tiempo. Se puede asociar a una carpeta pública, **o** se puede asociar a una o varias carpetas privadas en cualquier momento.
+>Las carpetas públicas y privadas se excluyen mutuamente. Esto significa que el contenido **no** estar asociado a carpetas públicas y privadas al mismo tiempo. Se puede asociar a una carpeta pública, **o** se puede asociar a una o varias carpetas privadas en cualquier momento.
 
 Al añadir contenido, puede elegir la carpeta en la que se incluirá este.
 
@@ -294,13 +300,13 @@ Para mover el contenido de una carpeta pública a cualquier carpeta privada:
 
    *Ver todo el contenido cargado*
 
-1. Elija el contenido que desea mover a una carpeta. A continuación, haga clic **[!UICONTROL Acciones]** > **[!UICONTROL Organizar contenido]** > **[!UICONTROL Mover contenido a la carpeta]**.
+1. Elija el contenido que desea mover a una carpeta. A continuación, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Organizar contenido]** > **[!UICONTROL Mover contenido a la carpeta]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Mover el contenido seleccionado a la carpeta*
 
-1. Elija la carpeta a la que desee mover el contenido. Haga clic en **[!UICONTROL Mover]**.
+1. Elija la carpeta a la que desee mover el contenido. Seleccionar **[!UICONTROL Mover]**.
 
 ## Copiar contenido en la carpeta {#copycontenttofolder}
 
@@ -326,14 +332,14 @@ El contenido se puede desvincular de una carpeta especificada **SOLO** si tambi�
 
 ## Añadir contenido para diferentes idiomas {#addcontentfordifferentlanguages}
 
-1. Para añadir el contenido para diferentes idiomas, haga clic en el **Añadir nuevo idioma** y elija los idiomas correspondientes. Gracias a esto, puede añadir soporte multilingüe para su contenido.
+1. Para añadir contenido para diferentes idiomas, seleccione el **Añadir nuevo idioma** y elija los idiomas correspondientes. Gracias a esto, puede añadir soporte multilingüe para su contenido.
 
    ![](assets/add-new-languagetab.png)
 
    *Añadir nuevo idioma a un contenido*
 
 1. Repita el proceso de carga de contenido para los nuevos idiomas.
-1. Si desea eliminar un idioma, haga clic en la pestaña Añadir nuevo idioma y borre la selección.
+1. Si desea quitar un idioma, seleccione la **[!UICONTROL Añadir nuevo idioma]** y borre su selección.
 
    Una vez que haya realizado los cambios, haga clic en Guardar. En la biblioteca, el nuevo contenido ahora está disponible para su uso.
 
@@ -456,7 +462,7 @@ Tenga en cuenta que los cursos que utilizan el contenido, que se eliminan de la 
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++ ¿Cómo cargar contenido SCORM en Adobe Learning Manager?
++++ Cómo cargar contenido SCORM en Adobe Learning Manager
 
 Cree un curso de aprendizaje electrónico compatible con SCORM en cualquier herramienta, como Adobe Captivate, y publique el contenido como archivo zip. A continuación, en Learning Manager, cargue el archivo zip en el catálogo y establezca los criterios de finalización y éxito.
 +++
