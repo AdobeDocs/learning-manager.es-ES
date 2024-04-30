@@ -1,19 +1,19 @@
 ---
-description: Obtenga más información sobre las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager
+description: Descubra las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # Resumen de nuevas funciones {#new-features-summary}
 
-Obtenga más información sobre las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager.
+Descubra las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager.
 
 ## Novedades de esta versión {#whatsnewandchanged}
 
@@ -287,7 +287,7 @@ Ver [Estado del envío](instructors/feature-summary/learners.md#filter-file-subm
 
 ## Mejoras de lista de comprobación
 
-En la versión de marzo de 2024 de Adobe Learning Manager, las mejoras realizadas en el flujo de trabajo de la lista de comprobación son las siguientes:
+En la versión de marzo de 2024 de Adobe Learning Manager, las mejoras realizadas en el flujo de trabajo de lista de comprobación son las siguientes:
 
 ### No permitir el progreso en el error de una lista de comprobación
 
@@ -326,7 +326,7 @@ En versiones anteriores de Adobe Learning Manager, un alumno no enviaba correos 
 * Se añaden nuevas sesiones a un curso, o
 * Hay cambios en las sesiones existentes.
 
-En la versión de marzo de 2024 de Adobe Learning Manager, se indican a continuación los nuevos cambios:
+En la versión de marzo de 2024 de Adobe Learning Manager, los nuevos cambios son los siguientes:
 
 * Detalles de la sesión actualizada e invitación de sesión (para alumno e instructor)
    * Para sesiones futuras, correos electrónicos para **Detalles de sesión actualizados**, **Invitación de sesión** para alumnos inscritos y los instructores actuales quedarán obsoletos. Para sesiones anteriores, correos electrónicos para **Detalles de sesión actualizados** y **Invitación de sesión** para los alumnos inscritos Los alumnos y los instructores actuales se mantendrán tal cual.
@@ -376,9 +376,9 @@ En esta versión, el estado cambia a **Aún por marcar**.
 
 ### Etiquetado de blancos en Adobe Learning Manager
 
-La aplicación móvil de Adobe Learning Manager ahora admite el etiquetado de blancos, lo que significa que ahora puede publicar la aplicación con su propia marca.
+La aplicación móvil de Adobe Learning Manager ahora admite el etiquetado blanco, lo que significa que ahora puede publicar la aplicación con su propia marca.
 
-Ver etiquetado blanco en [aplicación móvil de Adobe Learning Manager](white-label.md) para obtener más información.
+Ver etiquetado blanco en [Aplicación móvil de Adobe Learning Manager](white-label.md) para obtener más información.
 
 ### Nueva columna en archivos CSV de migración
 
@@ -388,7 +388,21 @@ En esta versión, hay una nueva columna opcional, uniqueLoId, en los siguientes 
 * course.csv
 * learning_program.csv
 
-La columna UniqueLoId no es aplicable al archivo CSV de ayudas de trabajo.
+>[!NOTE]
+>
+>La **uniqueLoId** es opcional.
+
+
+Si realiza una migración para actualizar un curso o plan de aprendizaje o certificación existente, el curso o plan de aprendizaje o certificación con el **uniqueLOId** s se añade a la aplicación de autor.
+
+Durante la migración, debe actualizar el **uniqueLOId** en los archivos CSV del curso, el plan de aprendizaje o la certificación, aunque sea una columna opcional.
+
+Si el **uniqueLoId** no se añade antes de realizar la migración al actualizar el curso, el plan de aprendizaje o la certificación existentes que tienen **uniqueLOId** s y, después de la migración, el **uniqueLOId** los valores se reemplazarán por valores NULL.
+
+>[!NOTE]
+>
+>La columna UniqueLoId no es aplicable al archivo CSV de ayudas de trabajo.
+
 
 >[!IMPORTANT]
 >
@@ -399,7 +413,7 @@ Descargue los archivos CSV de la [Manual de migración](integration-admin/featur
 
 ### Clasificación de aplicaciones
 
-Un alumno puede proporcionar sus comentarios en la aplicación Adobe Learning Manager para mejorar aún más la experiencia de la aplicación. Si el alumno valora cuatro estrellas o más, aparece un mensaje emergente que solicita al alumno que valore la aplicación en Play Store o App Store.
+Un alumno puede proporcionar sus comentarios en la aplicación de Adobe Learning Manager para mejorar aún más la experiencia de la aplicación. Si el alumno valora cuatro estrellas o más, aparece un mensaje emergente que solicita al alumno que valore la aplicación en Play Store o App Store.
 
 ### Bluejeans ha llegado a su final de vida (EOL) en febrero de 2024
 
@@ -409,11 +423,11 @@ Ver [Conectores en Adobe Learning Manager](integration-admin/feature-summary/con
 
 ### Cambios en el informe Acceso de inicio de sesión
 
-El informe Acceso de inicio de sesión solo estará disponible durante los últimos cinco trimestres. Si algún administrador de integración solicita la descarga a petición de la exportación unificada con **Acceso de inicio de sesión** Si se selecciona, Adobe Learning Manager mostrará un mensaje de error. Sin embargo, no hay repercusiones en otros informes.
+El informe Acceso de inicio de sesión solo estará disponible durante los últimos cinco trimestres. Si algún administrador de integración solicita la descarga a petición de la exportación unificada con **Acceso de inicio de sesión** marcado, Adobe Learning Manager mostrará un mensaje de error. Sin embargo, no hay repercusiones en otros informes.
 
 ### Cambios de ADFS
 
-Los campos Tipo de empleado e ID de empleado de ADFS ahora están disponibles en Adobe Learning Manager, en función de las asignaciones.
+Los campos Tipo de empleado e Id. de empleado de ADFS ahora están disponibles en Adobe Learning Manager, según las asignaciones.
 
 ## Cambios en las API de esta versión
 
@@ -513,7 +527,7 @@ Si intenta descargar el **Acceso de inicio de sesión** informe que va más all�
 
 ### API en desuso
 
-Ver [Rechazos de API en Adobe Learning Manager](api-deprecations-list.md) para obtener una lista acumulativa de todas las API obsoletas del producto.
+Ver [Obsoletaciones de API en Adobe Learning Manager](api-deprecations-list.md) para obtener una lista acumulativa de todas las API obsoletas del producto.
 
 ## Errores solucionados en esta actualización {#bug-fixes}
 
