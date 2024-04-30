@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 Obtenga información sobre cómo añadir usuarios o grupos de usuarios en la aplicación Learning Manager.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Administrar grupos de usuarios
 
-En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.
+>[!INFO]
+>
+>En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br><br>
+[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
