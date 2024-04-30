@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: e80f68843d7f6b937d9be8917e7bf9c8a69b23db
+source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3124'
+ht-degree: 57%
 
 ---
 
@@ -110,25 +110,25 @@ En la tabla siguiente se muestra el tipo de archivos estáticos e interactivos q
 
 ## Añadir nuevo contenido en la biblioteca {#addnewcontentinthelibrary}
 
-Como se indica en la sección anterior, puede añadir contenido tanto estático como interactivo en la biblioteca.
+**Autores** Puede agregar contenido en ALM. Hay dos tipos de contenido en ALM: **[!UICONTROL Contenido]** y **[!UICONTROL Prueba]**. Para obtener más información sobre cómo añadir contenido, consulte [Añadir contenido estático](content-library.md#addstaticcontent) y [Crear una prueba](content-library.md##createaquiz).
 
 ## Añadir contenido estático {#addstaticcontent}
 
-1. Haga clic en Biblioteca de contenido en el panel izquierdo tras iniciar sesión como autor; a continuación, haga clic en Añadir.
+1. Seleccionar **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo después de iniciar sesión como **Autor** y seleccione **[!UICONTROL Añadir]**.
 
-   O, si lo desea, haga clic en Crear contenido en la página Introducción.
+   Como alternativa, puede seleccionar **[!UICONTROL Crear contenido]** de la **[!UICONTROL Procedimientos iniciales]** página.
 
-1. En el campo Nombre, especifique un nombre para el contenido que desea cargar.
-1. En el campo Descripción, escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 400.
-1. Para cargar el contenido, haga clic en Añadir archivo de contenido y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
+1. En la **[!UICONTROL Nombre]** , escriba un nombre para el contenido que desea cargar.
+1. En la **[!UICONTROL Descripción]** , escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 400.
+1. Para añadir el contenido, seleccione **[!UICONTROL Agregar archivo de contenido]** y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
    Si desea reemplazar el contenido, puede reemplazar un contenido estático con un contenido estático diferente. Lo mismo se aplica al contenido interactivo.
 
-1. En el campo Duración, tiene la opción de introducir el tiempo que se espera que un alumno dedique al módulo. La duración se indica en minutos.
+1. En la **[!UICONTROL Duración]** , si lo desea, puede escribir el tiempo esperado que un alumno pasaría en este módulo. La duración se indica en minutos.
 
-   El tiempo de aprendizaje empleado por el alumno se calcula en función de la duración especificada si el alumno ha marcado el curso como completado. Si el alumno consume el contenido en el reproductor, el tiempo que pasa en él se añade al tiempo dedicado al aprendizaje. Si el tiempo de contenido real es menor que la duración especificada, no ocurre nada, ya que el reproductor siempre respeta el tiempo de visualización del contenido.
+   El tiempo de aprendizaje empleado por el alumno se calcula en función de la duración especificada si el alumno ha marcado el curso como completado. Si el alumno consume el contenido del reproductor, el tiempo dedicado al reproductor se añade al tiempo dedicado al aprendizaje. Si el tiempo de contenido real es menor que la duración especificada, no ocurre nada, ya que el reproductor siempre respeta el tiempo de visualización del contenido.
 
-1. En el campo Etiquetas de contenido, especifique las etiquetas para el contenido cargado, para que se pueda detectar.
+1. En la **[!UICONTROL Etiquetas]** , escriba las etiquetas del contenido cargado para que se pueda detectar el contenido.
 
    Un autor puede utilizar estas etiquetas para buscar el contenido al añadir el contenido al curso.
 
@@ -138,21 +138,19 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
 ## Añadir contenido interactivo {#addinteractivecontent}
 
-1. Haga clic en Biblioteca de contenido en el panel izquierdo tras iniciar sesión como autor; a continuación, haga clic en Añadir.
+1. Seleccionar **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo después de iniciar sesión como **Autor** y seleccione **[!UICONTROL Añadir]**.
 
-   O, si lo desea, haga clic en Crear contenido en la página Introducción.
+   Como alternativa, puede seleccionar **[!UICONTROL Crear contenido]** de la **[!UICONTROL Procedimientos iniciales]** página.
 
-1. En el campo Nombre, especifique un nombre para el contenido que desea cargar.
-1. En el campo Descripción, escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 245.
-1. Para cargar el contenido, haga clic en Añadir archivo de contenido y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
+1. En la **[!UICONTROL Nombre]** , escriba un nombre para el contenido que desea cargar.
+1. En la **[!UICONTROL Descripción]** , escriba la descripción del contenido. Asegúrese de que la descripción sea significativa. El límite de caracteres es de 245.
+1. Para añadir el contenido, seleccione **[!UICONTROL Agregar archivo de contenido]** y cargue el archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
 * [Tipos de archivo admitidos](content-library.md#supported)
 
   El contenido interactivo puede ser un proyecto publicado de Captivate, SCORM o AICC. El archivo debe ser un archivo zip.
 
   También puede agregar contenido HTML generado desde Captivate, Presenter o Presenter Video Express.
-
-[Tipos de archivo admitidos](content-library.md#supported)
 
 1. Learning Manager admite subtítulos para contenido de vídeo cargado en esta aplicación. Ahora, los autores pueden cargar el archivo que contiene los subtítulos junto con el archivo de vídeo.
 
@@ -162,11 +160,11 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
    La compatibilidad con los subtítulos está disponible para el contenido de vídeo cargado en la biblioteca de contenido de Learning Manager.
 
-   Como autor, cuando cargue contenido de vídeo o audio, también puede cargar el archivo .vtt que contiene los subtítulos.
+   Como autor, al cargar un contenido de vídeo o audio, también puede cargar el archivo VTT que contiene los subtítulos.
 
    A continuación, los subtítulos aparecen en el reproductor Fluidic. Los subtítulos también son compatibles con [Estándares WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
-   Al añadir contenido de vídeo a la biblioteca, también puede añadir el archivo vtt, que **debe** ser un archivo válido.
+   Al añadir contenido de vídeo a la biblioteca, también puede añadir el archivo VTT, que **debe** ser un archivo válido.
 
    ![](assets/webvtt.png)
 
@@ -192,14 +190,14 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 La compatibilidad con WebVTT no está disponible para:
 
    1. Anuncios de vídeo.
-   1. Vídeo reproducido en el contenido de aprendizaje electrónico. Esta acción la controla el contenido.
+   1. Vídeo reproducido dentro del contenido de aprendizaje electrónico. Esta acción la controla el contenido.
    1. Vídeo cargado en Aprendizaje social.
    1. Vídeo creado en la aplicación Learning Manager para escritorio
    1. Contenido de vídeo creado mediante el proceso de migración.
    1. Reproducción de vídeo en una aplicación para dispositivos móviles en el modo sin conexión.
 
-1. En el campo Duración, tiene la opción de introducir el tiempo que se espera que un alumno dedique al módulo. La duración se indica en minutos.
-1. En el campo Etiquetas de contenido, especifique las etiquetas para el contenido cargado, para que se pueda detectar.
+1. En la **[!UICONTROL Duración]** , si lo desea, puede introducir el tiempo esperado que un alumno dedicaría a este módulo. La duración se indica en minutos.
+1. En la **[!UICONTROL Etiquetas]** , introduzca las etiquetas del contenido cargado para que su contenido sea detectable.
 
 ### Compatibilidad con catálogos compartidos
 
@@ -209,7 +207,7 @@ La propagación de los módulos debe funcionar correctamente de la cuenta de ven
 
 Una vez que haya subido el contenido, puede ver una notificación. Para ello, haga clic en el icono de campana ubicado en la esquina superior derecha de la página. Recibirá una notificación cada vez que modifique el contenido y lo vuelva a cargar. Si es la persona que realiza los cambios, solo usted obtendrá la notificación, no los demás autores.
 
-## Cree una prueba
+## Cree una prueba {#createaquiz}
 
 Cree evaluaciones en Adobe Learning Manager con la nueva herramienta de creación de pruebas de la página Biblioteca de contenido. Las evaluaciones creadas pasan a formar parte de la biblioteca de contenido y se pueden añadir a una carpeta &quot;pública&quot; para reutilizar el curso.
 
