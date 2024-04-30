@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
+source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
 workflow-type: tm+mt
-source-wordcount: '3978'
-ht-degree: 63%
+source-wordcount: '4016'
+ht-degree: 62%
 
 ---
 
@@ -20,12 +20,10 @@ Obtenga información sobre cómo añadir usuarios o grupos de usuarios en la apl
 
 ## Administrar grupos de usuarios
 
-<!-- >[!INFO]
+>[!INFO]
 >
->In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+>En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
@@ -53,7 +51,10 @@ Como administrador, puede añadir usuarios de tres maneras:
 
 Añadir alumnos internos a Adobe Learning Manager con la opción de un solo usuario.
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
+>[!INFO]
+>
+>En este curso de formación, aprenderá a añadir alumnos internos a Adobe Learning Manager.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
@@ -165,9 +166,9 @@ En la lista de usuarios, elija un usuario y haga clic en él. En los detalles de
 
 ### Administrar atributos de usuario
 
-En este curso de formación, aprenderá a agregar, personalizar y configurar campos activos.
-
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+>[!INFO]
+>
+>En este curso de formación, aprenderá a agregar, personalizar y configurar campos activos.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
