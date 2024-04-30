@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
+source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 1%
@@ -401,7 +401,7 @@ Si el **uniqueLoId** no se añade antes de realizar la migración al actualizar 
 
 >[!NOTE]
 >
->La columna UniqueLoId no es aplicable al archivo CSV de ayudas de trabajo.
+>La columna, **uniqueLoId**, no es aplicable al archivo CSV de ayudas de trabajo.
 
 
 >[!IMPORTANT]
