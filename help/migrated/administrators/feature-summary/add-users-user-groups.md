@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
+source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -22,7 +22,7 @@ Obtenga información sobre cómo añadir usuarios o grupos de usuarios en la apl
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br><br>
+>En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br/><br/>
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 
