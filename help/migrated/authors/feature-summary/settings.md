@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Configuración
 description: Consulte su información de perfil, añada o cambie la foto de perfil y modifique el contenido de Acerca de mí .
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 30a571de-22fc-4ce7-99c0-08e17665c340
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 8%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
-
-
 
 # Configuración
 
@@ -20,7 +19,13 @@ Consulte su información de perfil, añada o cambie la foto de perfil y modifíq
 
 ## Configuración de la cuenta {#accountsettings}
 
-1. Haga clic en la flecha desplegable en la esquina superior derecha, junto a su fotografía/cuenta y elija **Configuración de perfil**.
-1. En el cuadro de diálogo emergente, puede añadir o cambiar la fotografía si pasa el ratón por encima y hace clic en **Editar** en el área de la foto de perfil.
+1. Seleccione la flecha desplegable en la esquina superior derecha, junto a su foto/cuenta y elija **Configuración de perfil**.
+1. En el cuadro de diálogo emergente, puede añadir o cambiar la fotografía si pasa el ratón por encima y selecciona **Editar** en el área de la foto de perfil.
 1. Añadir/modificar **Acerca de mí** haciendo clic en el área de texto que se encuentra debajo.
+1. Modifique los siguientes ajustes:
+   * **Idioma de interfaz**: Puede seleccionar el idioma de la interfaz de ALM en el menú desplegable.
+   * **Idioma del contenido**: puede seleccionar el idioma predeterminado en el que se mostrará el contenido en el reproductor. Puede ver los idiomas disponibles en el reproductor.
+   * **Zona horaria**: Seleccione su zona horaria
+   * **[!UICONTROL Preferencias]**: Al hacer clic en el módulo, se inscribe e inicia la formación.
+   * Transcripción: puede descargar sus transcripciones de aprendizaje.
 1. Haga clic en **[!UICONTROL Guardar]**.

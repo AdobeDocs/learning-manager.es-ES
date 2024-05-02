@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ Cree evaluaciones en Adobe Learning Manager con la nueva herramienta de creació
 1. Añada un logotipo y un fondo a la prueba.
 1. En la esquina superior derecha de la página, seleccione **Publicar**.
 
-La prueba se añade a la biblioteca de contenido. Como cualquier contenido de la biblioteca, puede retirar una prueba y, a continuación, eliminarla.
+Para añadir los cuestionarios en otro idioma, siga los pasos que se indican a continuación:
+
+1. Para añadir la prueba para diferentes idiomas, seleccione la **Añadir nuevo idioma** y elija los idiomas correspondientes. Gracias a esto, puede añadir soporte multilingüe para su contenido.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Añadir nuevo idioma a un contenido*
+
+1. Repita el proceso de carga de contenido para los nuevos idiomas.
+1. Si desea quitar un idioma, seleccione la **[!UICONTROL Añadir nuevo idioma]** y borre su selección.
+
+   Una vez que haya realizado los cambios, haga clic en **[!UICONTROL Guardar]**. En la biblioteca, el nuevo contenido ahora está disponible para su uso.
+
+La prueba se añade a la **[!UICONTROL Biblioteca de contenido]**. Como cualquier contenido de la biblioteca, puede retirar una prueba y, a continuación, eliminarla.
 
 
 ## Añadir a carpeta {#add-folder}
@@ -430,6 +443,11 @@ Para retirar contenido, siga estos pasos:
 * Elija Acción > Retirar.
 
 No afecta a contenidos que se utilicen en objetos de aprendizaje. Los alumnos pueden seguir accediendo al contenido.
+
+>[!NOTE]
+>
+>También puede añadir contenido desde el **[!UICONTROL Retirado]** , vaya a **[!UICONTROL Biblioteca de contenido]** > **[!UICONTROL Retirado]** y seleccione **[!UICONTROL Añadir contenido]**. Para obtener más información, consulte [Añadir contenido estático](content-library.md#addstaticcontent).
+
 
 ## Volver a publicar contenido retirado {#republishretiredcontent}
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Ayudas de trabajo
 description: Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Ayudas de trabajo
 
@@ -35,6 +34,19 @@ Los autores pueden crear ayudas de trabajo para los alumnos. Utilice las ayudas 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    Se publica la ayuda de trabajo.
+
+## Añadir ayuda de trabajo en diferentes idiomas {#addcontentfordifferentlanguages}
+
+1. Para añadir la ayuda de trabajo en diferentes idiomas, seleccione la **Añadir nuevo idioma** y elija los idiomas correspondientes. Gracias a esto, puede añadir soporte multilingüe para su contenido.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Añadir nuevo idioma a un contenido*
+
+1. Repita el proceso de carga de la ayuda de trabajo para los nuevos idiomas.
+1. Si desea quitar un idioma, seleccione la ficha Agregar nuevo idioma y borre la selección.
+
+   Después de realizar los cambios, seleccione Guardar.
 
 ## Tipos de ayudas de trabajo admitidos {#typesofsupportedjobaids}
 
