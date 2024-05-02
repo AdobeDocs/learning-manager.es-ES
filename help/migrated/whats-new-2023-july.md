@@ -2,9 +2,10 @@
 title: Novedades de esta versión (julio de 2023)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ Este cambio también sustituirá al conector ExaVault, que ya no estará disponi
 
 ## Recordatorios en Outlook para sesiones de clase y virtuales
 
-Las sesiones de clase y de clase virtual creadas a partir de Adobe Learning Manager que se han agregado al calendario de Outlook del alumno ahora admiten recordatorios de Outlook de forma coherente (similar a los recordatorios de reuniones en Outlook).
+Las sesiones de clase y de clase virtual creadas a partir de Adobe Learning Manager que se han agregado al calendario de Outlook del alumno ahora admiten recordatorios de Outlook de forma coherente (similar a los avisos de reunión en Outlook).
 
 ## Mejoras en la asignación de aptitudes a los cursos
 
@@ -530,7 +531,11 @@ La derivación es el proceso de reducir una palabra a su forma raíz. De este mo
 
 En esta versión, hemos añadido la segmentación para las configuraciones regionales en inglés, que incluye las siguientes variantes: en_US, en_AU, en_GB.
 
-El atributo derivado menciona si es necesaria una derivación en los resultados de búsqueda. De forma predeterminada, esta opción está establecida en False
+El atributo derivado menciona si es necesaria una derivación en los resultados de búsqueda. De forma predeterminada, esta opción está establecida en False.
+
+Parámetros de consulta de API:
+
+matchType=phrase_and_match stemmed=true
 
 ### Eliminación de puntos finales de V1
 
