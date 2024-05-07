@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Ayudas de trabajo
 description: Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Ayudas de trabajo
 
-Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
+**Ayudas de trabajo** es un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
 
 Ayudas de trabajo se puede utilizar de modo independiente o junto con la realización de cursos en Learning Manager.
 
@@ -20,9 +20,9 @@ Los autores pueden crear ayudas de trabajo para los alumnos. Utilice las ayudas 
 
 ## Crear ayuda de trabajo {#createjobaid}
 
-1. En el inicio de sesión del autor, haga clic en Ayudas de trabajo en el panel izquierdo.
-1. Haga clic en Crear en la esquina superior derecha de la página que aparece.
-1. Indique un nombre, una descripción y etiquetas. Elija las aptitudes y los niveles asociados. Seleccione el contenido como privado si no desea que otros autores accedan a la ayuda de trabajo para asignarla a sus cursos respectivos.
+1. En el inicio de sesión del autor, seleccione **[!UICONTROL Ayudas de trabajo]** en el panel izquierdo.
+1. Seleccionar **[!UICONTROL Crear]** en la esquina superior derecha de la página que aparece.
+1. Escriba el nombre, descripción y etiquetas. Elija las aptitudes y los niveles asociados. Seleccione el contenido como privado si no desea que otros autores accedan a la ayuda de trabajo para asignarla a sus cursos respectivos.
 
    Las aptitudes existentes son las únicas que se pueden asignar a ayudas de trabajo. Las aptitudes no son obligatorias.
 
@@ -44,7 +44,7 @@ Los autores pueden crear ayudas de trabajo para los alumnos. Utilice las ayudas 
    *Añadir nuevo idioma a un contenido*
 
 1. Repita el proceso de carga de la ayuda de trabajo para los nuevos idiomas.
-1. Si desea quitar un idioma, seleccione la ficha Agregar nuevo idioma y borre la selección.
+1. Si desea quitar un idioma, seleccione la **[!UICONTROL Añadir nuevo idioma]** y borre su selección.
 
    Después de realizar los cambios, seleccione Guardar.
 

@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo utilizar catálogos en Learning Ma
 jcr-language: en_us
 title: Catálogos
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Catálogos
 
@@ -22,7 +21,7 @@ Los alumnos pueden ver todos los objetos de aprendizaje asignados y aptos (progr
 
 Puede filtrar la lista de objetos de aprendizaje mediante las aptitudes y el tipo de objetos de aprendizaje (con ritmo personalizado, mixto, clase, clase virtual, actividad). También puede filtrar mediante las opciones del panel izquierdo: por objetos de aprendizaje, por aptitudes y por estado de finalización.
 
-Utilice la barra de búsqueda situada en la parte superior de la página para introducir los nombres de los objetos de aprendizaje que ya conoce.
+Utilice la barra de búsqueda situada en la parte superior de la página para introducir los nombres de los objetos de aprendizaje que ya conoce. Los alumnos pueden cambiar entre la vista de cuadrícula y de lista al seleccionar esta ![](assets/icon-list.png) icono.
 
 ![](assets/catalogs.png)
 *Ver catálogos*
