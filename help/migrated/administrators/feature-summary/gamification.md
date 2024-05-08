@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Interacción
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 67%
+source-wordcount: '1646'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,7 @@ La interacción es el uso del pensamiento lúdico y la mecánica del juego en co
 
 ## Información general {#overview}
 
-Learning Manager le permite aplicar una capa de interacción estructural al contenido para atraer a los alumnos y motivarlos a alcanzar sus objetivos de aprendizaje. Permite a los alumnos ganar puntos por distintas actividades de aprendizaje y para alcanzar niveles de bronce, plata, oro y platino.
+La Adobe Learning Manager incluye una función denominada Interacción, que está diseñada para motivar a los alumnos y fomentar el aprendizaje a través de elementos de juego interactivos. Fomenta el comportamiento deseado de los alumnos mediante recompensas y les permite ganar puntos y competir con sus compañeros. Esta función mejora la participación y la motivación del usuario en la plataforma de aprendizaje.
 
 De forma predeterminada, hay algunos datos y puntos de interacción de muestra para que los usuarios entiendan el patrón. Puede modificar los puntos como corresponda.
 
@@ -32,57 +32,6 @@ Para acceder a la configuración, siga los pasos que se indican a continuación:
 1. Inicie sesión como administrador y, en el panel izquierdo, haga clic en **[!UICONTROL Interacción]**.
 1. Al crear una nueva cuenta de Learning Manager, la interacción se desactiva de forma predeterminada. Para activarla, haga clic en **[!UICONTROL Activar]** en la esquina superior derecha de la página.
 
-## Acciones del administrador {#administratoractions}
-
-El administrador puede crear una lista de usuarios confidenciales, restablecer los puntos de interacción y deshabilitar o habilitar la función de interacción para los alumnos. Haga clic en la lista desplegable Acciones en la esquina superior derecha de la página para ver las acciones como se muestra en la captura de pantalla siguiente.
-
-![](assets/gamification-actions.png)
-
-*Opciones de interacción para un administrador*
-
-## Configuración de confidencialidad {#confidentialitysettings}
-
-Si es necesario, puede hacer que algunos usuarios de administración superiores sean usuarios confidenciales. Las actividades de interacción del usuario confidencial no son visibles para otros alumnos en la Tabla de posiciones.
-
-La configuración de confidencialidad se puede aplicar a usuarios internos y externos.
-
-1. Haga clic en **[!UICONTROL Interacción]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de confidencialidad]**.
-
-![](assets/confidentiality-settings.png)
-
-*Ver configuración de confidencialidad*
-
-1. En la lista de usuarios, haga clic en la casilla junto al nombre de usuario y seleccione Ocultar para que el usuario se convierta en usuario confidencial.
-
-   >[!NOTE]
-   >
-   >Puede identificar a los usuarios confidenciales de los usuarios de la lista marcando la casilla de verificación correspondiente al nombre de usuario.
-
-1. Haga clic en la ficha Usuarios confidenciales para ver la lista de usuarios confidenciales. De forma predeterminada, no son visibles. Haga clic en el icono de la flecha desplegable para ver la lista.
-1. Haga clic en la casilla de verificación junto al nombre de usuario en la lista de usuarios confidenciales y seleccione Añadir para eliminar a los usuarios de la lista confidencial.
-
-## Restablecer la interacción {#resetgamification}
-
-Puede restablecer los puntos de interacción obtenidos por el alumno y las opciones de configuración. Si elige restablecer la puntuación de los usuarios, todos los puntos que hayan obtenido se borran y se restablecen a cero. Si elige restablecer la puntuación de los usuarios y las opciones de configuración, se restablecen a cero todos los puntos predeterminados asignados a los niveles y las tareas.
-
-El restablecimiento de la configuración de interacción se puede aplicar tanto a usuarios internos como externos.
-
-Para restablecer la configuración y la puntuación del alumno, haga clic en Restablecer interacción y elija una opción según lo que se necesite. Puede elegir entre Restablecer solo las puntuaciones del alumno y Restablecer las puntuaciones del alumno y los parámetros de configuración. Una vez que se haya seleccionado, haga clic en Aceptar.
-
-![](assets/reset-gamification.png)
-
-*Restablecer los puntos de interacción*
-
-## Deshabilitar la interacción {#disablegamification}
-
-Haga clic en [!UICONTROL **Interacción**] > **[!UICONTROL Configuración]** > [!UICONTROL **Función de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
-
-![](assets/gamification-feature.png)
-
-*Desactivar interacción*
-
-Puede deshabilitar la interacción para usuarios internos y externos.
-
 ## Establecer puntos {#setuppoints}
 
 Los administradores pueden configurar los puntos de interacción para los alumnos siguiendo los pasos a continuación:
@@ -92,6 +41,8 @@ Los administradores pueden configurar los puntos de interacción para los alumno
 1. Haga clic en el icono Editar junto a cada tarea para configurar los puntos.
 1. Modifique la frecuencia de las tareas, por ejemplo la finalización de un número concreto de cursos por mes, trimestre o año.
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+![](assets/set-up-points.png)
 
 ## Tareas {#tasks}
 
@@ -177,9 +128,15 @@ Situaciones posibles para mejorar las aptitudes en niveles en una competencia pa
 >
 >El período de tiempo no es aplicable a esta tarea. Si los alumnos obtienen un nivel superior y luego un nivel inferior de una competencia, obtienen puntos solo para el nivel superior.
 
+**Para referencia**
+
+Esta tarea se aplica a los alumnos que hacen referencia a su curso completado en los N días posteriores a su finalización.
+
+Escenario posible: cuando un alumno hace referencia al curso completado en los 30 días siguientes a su finalización, recibe 50 puntos.
+
 **Puntos de finalización anticipada**
 
-Esta tarea se aplica a los alumnos que se convierten en los primeros alumnos del nivel en finalizar el curso.
+Esta tarea se aplica a los alumnos que hacen referencia al curso marcado en un plazo de N días para completarlo.
 
 Escenario posible:\
 Cuando un alumno se convierte en uno de los 10 primeros alumnos en completar el curso, obtiene 100 puntos.
@@ -190,6 +147,87 @@ Esta tarea se aplica a los alumnos que completan un curso en el plazo de un núm
 
 Escenario posible:\
 Cuando los alumnos completan un curso en los 10 días siguientes al comienzo del curso, obtienen 100 puntos.
+
+**Alumno completo**
+
+Esta tarea se aplica a los alumnos que consumen material de aprendizaje opcional como trabajos previos, recursos y ayudas de trabajo al mes.
+
+Situaciones posibles:
+
+1. Cuando los alumnos completan uno o varios aprendizajes al mes, obtienen 20 puntos.
+1. Cuando los alumnos completan dos aprendizajes al mes, obtienen 40 puntos.
+1. Cuando los alumnos completan tres aprendizajes al mes, obtienen 80 puntos.
+
+**Aprendizaje coherente**
+
+Esta tarea se aplica a los alumnos que realizan actividades de aprendizaje durante un número específico de días a la semana, al mes o al trimestre. Las actividades incluyen el uso de contenido de aprendizaje, la descarga de recursos y ayudas de trabajo.
+
+Situaciones posibles:
+
+1. Cuando los alumnos realizan actividades de aprendizaje durante un día de la semana, obtienen 20 puntos.
+1. Cuando los alumnos realizan actividades de aprendizaje durante dos días a la semana, obtienen 40 puntos.
+1. Cuando los alumnos realizan actividades de aprendizaje durante un día de la semana, obtienen 80 puntos.
+
+**Comentarios**
+
+Esto se aplica a los alumnos que proporcionan comentarios sobre los cursos.
+
+Situaciones posibles:
+
+1. Para empezar a valorar los comentarios, obtienen 20 puntos.
+1. Para comentarios de reacción, obtienen 20 puntos.
+1. Para los comentarios del responsable, obtienen 20 puntos.
+
+## Acciones del administrador {#administratoractions}
+
+El administrador puede crear una lista de usuarios confidenciales, restablecer los puntos de interacción y deshabilitar o habilitar la función de interacción para los alumnos. Seleccione la **[!UICONTROL Configuración]** en la página interacción para ver las acciones como se muestra en la captura de pantalla siguiente.
+
+![](assets/gamification-actions.png)
+
+*Opciones de interacción para un administrador*
+
+## Configuración de confidencialidad {#confidentialitysettings}
+
+Si es necesario, puede hacer que algunos usuarios de administración superiores sean usuarios confidenciales. Las actividades de interacción del usuario confidencial no son visibles para otros alumnos en la Tabla de posiciones.
+
+La configuración de confidencialidad se puede aplicar a usuarios internos y externos.
+
+1. Haga clic en **[!UICONTROL Interacción]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de confidencialidad]**.
+
+![](assets/confidentiality-settings.png)
+
+*Ver configuración de confidencialidad*
+
+1. En la lista de usuarios, haga clic en la casilla junto al nombre de usuario y seleccione Ocultar para que el usuario se convierta en usuario confidencial.
+
+   >[!NOTE]
+   >
+   >Puede identificar a los usuarios confidenciales de los usuarios de la lista marcando la casilla de verificación correspondiente al nombre de usuario.
+
+1. Haga clic en la ficha Usuarios confidenciales para ver la lista de usuarios confidenciales. De forma predeterminada, no son visibles. Haga clic en el icono de la flecha desplegable para ver la lista.
+1. Haga clic en la casilla de verificación junto al nombre de usuario en la lista de usuarios confidenciales y seleccione Añadir para eliminar a los usuarios de la lista confidencial.
+
+## Restablecer la interacción {#resetgamification}
+
+Puede restablecer los puntos de interacción obtenidos por el alumno y las opciones de configuración. Si elige restablecer la puntuación de los usuarios, todos los puntos que hayan obtenido se borran y se restablecen a cero. Si elige restablecer la puntuación de los usuarios y las opciones de configuración, se restablecen a cero todos los puntos predeterminados asignados a los niveles y las tareas.
+
+El restablecimiento de la configuración de interacción se puede aplicar tanto a usuarios internos como externos.
+
+Para restablecer la configuración y la puntuación del alumno, haga clic en Restablecer interacción y elija una opción según lo que se necesite. Puede elegir entre Restablecer solo las puntuaciones del alumno y Restablecer las puntuaciones del alumno y los parámetros de configuración. Una vez que se haya seleccionado, haga clic en Aceptar.
+
+![](assets/reset-gamification.png)
+
+*Restablecer los puntos de interacción*
+
+## Deshabilitar la interacción {#disablegamification}
+
+Haga clic en [!UICONTROL **Interacción**] > **[!UICONTROL Configuración]** > [!UICONTROL **Función de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
+
+![](assets/gamification-feature.png)
+
+*Desactivar interacción*
+
+Puede deshabilitar la interacción para usuarios internos y externos.
 
 ## Interacción de niveles de grupo {#grouplevelgamification}
 

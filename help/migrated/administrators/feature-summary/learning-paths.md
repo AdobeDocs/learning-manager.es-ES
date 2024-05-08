@@ -4,9 +4,9 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para a�
 ![](assets/add-skills.png)
 
 Asigne una insignia a la ruta de aprendizaje. Elija una insignia de la lista de insignias disponibles.
+
+Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que han manifestado interés en esos productos y funciones.
+
+![](assets/recommend-for.png)
 
 Elija el tipo de secuencia para las secciones y el curso de formación como Ordenado o Sin ordenar según sus preferencias.
 

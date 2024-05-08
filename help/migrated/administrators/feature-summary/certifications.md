@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo crear certificaciones, inscribir a
 jcr-language: en_us
 title: Certificaciones
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # Certificaciones
 
@@ -103,6 +102,10 @@ Como administrador, puede crear un programa de certificación alojado internamen
  </tbody>
 </table>
 
+Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que han manifestado interés en esos productos y funciones.
+
+![](assets/recommend-for.png)
+
 Elija los cursos que se añadirán a la certificación de **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]** .
 
 Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de añadirlo.
@@ -165,6 +168,8 @@ Un administrador puede editar una certificación en un estado publicado. En este
 Para editar una certificación publicada, haga clic en la tarjeta de certificación y, a continuación, en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
 
 Mientras edita las secciones de una certificación, si necesita abandonar la página, debe volver a publicar la certificación. Aparece un cuadro de diálogo de confirmación que le solicita volver a publicar la certificación.
+
+![](assets/edit-a-certificate.png)
 
 ## Suscripción {#subscription}
 
