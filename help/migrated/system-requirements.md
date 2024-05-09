@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Requisitos del sistema
 description: Requisitos del sistema para Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
 # Requisitos del sistema para Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (solo versiones de 64 bits).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB de RAM.
-
-## Pantalla
-
-Resolución mínima compatible: 1024 x 720.
-
-## Espacio en disco
-
-5 GB como mínimo de espacio disponible en el disco duro.
-
-## Grabación
-
-* Micrófono necesario para la grabación de audio.
-* Cámara web necesaria para la grabación de vídeo.
-
-## Varios
-
-Se requiere una conexión a Internet activa y una cuenta de alumno de Adobe Learning Manager para utilizar la aplicación.
-
-## Especificaciones del navegador
-
-La página principal de diseño envolvente no es compatible con los navegadores IE 11.
-
-* Google Chrome versión 43 y superior
-* Versiones más recientes de Edge, Safari (versión 13 y posterior) y Firefox.
-* Internet Explorer versión 11 y superior
-
-## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
-
-* Cabecera: 1280 x 360 px
-* Imagen en la tarjeta del catálogo: 280 x 100 px
-* Tamaño de la tarjeta de formación: 300 x 240 px
-* Banner de redes sociales: 1600 x 240 px
 
 ## Escritorio
 
@@ -114,6 +70,25 @@ Se requiere un micrófono para la grabación de audio y una cámara web para la 
 >[!NOTE]
 >
 >La aplicación Learning Manager para dispositivos móviles solo admite la función de alumno.
+
+## Varios
+
+Se requiere una conexión a Internet activa y una cuenta de alumno de Adobe Learning Manager para utilizar la aplicación.
+
+## Especificaciones del navegador
+
+La página principal de diseño envolvente no es compatible con los navegadores IE 11.
+
+* Google Chrome versión 43 y superior
+* Versiones más recientes de Edge, Safari (versión 13 y posterior) y Firefox.
+* Internet Explorer versión 11 y superior
+
+## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
+
+* Cabecera: 1280 x 360 px
+* Imagen en la tarjeta del catálogo: 280 x 100 px
+* Tamaño de la tarjeta de formación: 300 x 240 px
+* Banner de redes sociales: 1600 x 240 px
 
 ## Tamaño máximo de contenido {#maximumcontentsize}
 

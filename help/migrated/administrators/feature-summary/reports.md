@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '6629'
-ht-degree: 64%
+source-wordcount: '6931'
+ht-degree: 60%
 
 ---
 
@@ -23,107 +23,17 @@ El proceso de generación de informes es similar para el administrador y el resp
 
 Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. A **[!UICONTROL Panel predeterminado]** existe de forma predeterminada en la página informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para agregar informes a paneles individuales, utilice la flecha desplegable y elija **[!UICONTROL Agregar informe]**. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
 
-## Tableros de resumen del aprendizaje {#dashboards}
+## Tipos de informes {#typesofreports}
 
-### Generar informes del tablero
+Adobe Learning Manager admite cuatro tipos principales de informes: de finalización, tiempo dedicado, aptitudes y eficacia. Puede utilizar los siguientes tipos de informe para generar informes de más de 300 variaciones:
 
-En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.
-
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
-
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
-
-Consulte un informe resumido de todas las actividades de aprendizaje en la plataforma. En esta página, puede ver la siguiente información de resumen del equipo y los perfiles externos del usuario raíz seleccionado. También se puede seleccionar el intervalo de tiempo:
-
-* Resumen de aprendizaje en forma de inscripciones, vistas y finalizaciones
-* Aptitudes principales
-* Resumen del cumplimiento
-
-![](assets/summary-charts.png)
-*Gráficos de resumen*
-
-Si hay administradores internos de nivel raíz, se mostrarán uno tras otro.
-
-Todos los perfiles externos se enumerarán después de los perfiles internos (usuarios internos de nivel raíz).
-
-Si un perfil externo tiene un responsable, la jerarquía de responsables se mostrará en el **[!UICONTROL Mostrar datos para]** lista desplegable. El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes)
-
-Si no es así, todos los detalles de los usuarios individuales se mostrarán en la lista.
-
-Para ver información más detallada de las inscripciones de varios equipos internos, haga clic en **[!UICONTROL Detalles del resumen de aprendizaje]**.
-
-![](assets/learning-sunnarydetails.png)
-*Detalles del resumen de aprendizaje*
-
-Al hacer clic en cualquier inscripción, puede ver los alumnos de cada responsable y las inscripciones a cada objeto de aprendizaje. También puede ver los detalles de progreso y finalización de cada alumno.
-
-![](assets/learners-for-a-manager.png)
-*alumnos asignados a un responsable*
-
-Haga clic en cualquier equipo y exporte la informe como un archivo csv. Un administrador puede exportar el informe para cualquier grupo de usuarios o usuario individual seleccionando el grupo de usuarios o usuario individual y, a continuación, exportar los detalles desde el **[!UICONTROL Acción]** lista desplegable.
-
-Además, puede ver un gráfico de barras con las aptitudes que están en curso y las que se han alcanzado. Puede añadir o quitar las aptitudes que desee incluir en el gráfico.
-
-![](assets/skill-status-stackedbarchart.png)
-*Gráfico de barras apiladas de estado de aptitudes*
-
-En la visualización final, puede comprobar el estado de cumplimiento de los alumnos y tomar las medidas adecuadas.
-
-Además, un administrador puede ver los datos de formación individuales en el **[!UICONTROL Panel de cumplimiento]**.
-
-Por ejemplo, el administrador ha identificado tres cursos de formación en los que realizar un seguimiento del cumplimiento. Learning Manager proporciona la información de cumplimiento de los tres cursos de formación a la vez.
-
-Ahora, un administrador puede hacer clic en cualquier curso de formación y ver rápidamente el cumplimiento del curso de formación solicitado.
-
-![](assets/compliance-dashboard.png)
-*Ver tablero de cumplimiento*
-
-También puede ver el estado de cumplimiento de cada equipo interno.
-
-Haga clic en el vínculo **[!UICONTROL Detalles del estado de cumplimiento]** en la parte inferior de la visualización.
-
-Puede comprobar si, en un equipo, algunos alumnos están infringiendo o respetando el cumplimiento de aprendizaje.
-
-![](assets/compliance-statusofateam.png)
-*Estado de cumplimiento de un equipo*
-
-## Compartir formación con responsables
-
-Learning Manager ofrece un panel de cumplimiento a todos los administradores y responsables. A los gestores les resulta muy útil realizar un seguimiento del cumplimiento de los miembros de su equipo para una formación concreta. Al mismo tiempo, los administradores desean que todos los responsables añadan cursos de formación sobre cumplimiento a su panel y realicen un seguimiento.
-
-En Learning Manager, el **[!UICONTROL Compartir con responsables]** El flujo de trabajo permite a los administradores compartir la formación con los responsables para que puedan ser añadidos al tablero de cumplimiento de un responsable. Por lo tanto, los responsables no necesitan realizar ninguna acción y pueden empezar a realizar un seguimiento del cumplimiento de forma inmediata.
-
-Un administrador puede compartir un conjunto de cursos de formación con responsables de forma individual o en grupo. Este uso compartido puede ayudar a un responsable a realizar un seguimiento sencillo del cumplimiento de su equipo para la formación especificada.
-
-El administrador puede insertar una lista predeterminada de cursos de formación sobre cumplimiento para que se visualice en el panel de cumplimiento del responsable.
-
-### Compartir formación
-
-1. En **[!UICONTROL Informes]** > **[!UICONTROL Resumen del aprendizaje]**, desplácese hacia abajo y haga clic en la ficha **[!UICONTROL Compartir con responsables]**.
-
-   ![](assets/share-with-managers.png)
-   *Compartir formación con responsables*
-
-1. Para añadir formación o formación múltiple, haga clic en **[!UICONTROL Compartir más]**.
-
-1. En la **[!UICONTROL Compartir con responsables]** , elija los cursos de formación y el responsable.
-
-   ![](assets/select-training.png)
-   *Seleccione la formación que desea compartir con los responsables*
-
-1. Haga clic en **[!UICONTROL Compartir]**.
-
-El curso de formación ahora se comparte con el responsable especificado.
-
-### Ver formación
-
-En la lista de formación compartida, haga clic en **[!UICONTROL Ver]**. Puede ver la formación asignada a un responsable o a algunos responsables.
-
-### Retirar formación
-
-1. Para retirar la formación de un responsable, haga clic en **[!UICONTROL Retirar]**.
-
-1. Haga clic en **[!UICONTROL Continuar]**. Esto retira la formación previamente compartida del tablero de cumplimiento del responsable.
+* Estadísticas de entrega del curso para alumnos
+* Informe sobre la eficacia de los cursos
+* Informe basado en las aptitudes del alumno
+* Estadísticas de inscripción en el programa de aprendizaje para alumnos
+* Tiempo de aprendizaje dedicado por los alumnos
+* Recuento de alumnos
+* Finalización de la certificación
 
 ## Tableros de actividad de usuario {#useractivitydashboards}
 
@@ -137,7 +47,7 @@ En el tablero de actividad de usuario, se muestra la actividad de los usuarios d
 
 * **Informe de tiempo dedicado al aprendizaje:** Este informe proporciona información sobre el tiempo de aprendizaje empleado en la plataforma diariamente. También está disponible el informe mensual.
 
-## Usuarios registrados {#registeredusers}
+### Usuarios registrados {#registeredusers}
 
 Learning Manager realiza un recuento del número de usuarios registrados en el sistema cada semana. Los administradores pueden ver este informe para conocer el número de usuarios registrados ese día de la semana. Una vez almacenado, el recuento semanal de usuarios registrados no cambia. Por lo tanto, el recuento registrado histórico no está relacionado con el conjunto actual de alumnos del sistema.
 
@@ -156,18 +66,18 @@ En este informe, se muestra el recuento de alumnos activos en la plataforma de a
 
 Una vez realizado y almacenado, el recuento activo mensual no cambia. Por lo tanto, el recuento histórico mostrado no está relacionado con el conjunto actual de alumnos del sistema.
 
-## Visitas de usuarios {#uservisits}
+### Visitas de usuarios {#uservisits}
 
-En este informe, se muestra el total de alumnos que acceden al sistema en un día o un mes. Explorar la plataforma de aprendizaje sin consumir ningún elemento de aprendizaje también se considera como un &quot;acceso&quot; a la plataforma de aprendizaje. Esto ayuda al administrador a conocer el conjunto total de usuarios que acceden al sistema. El primer día del mes, Learning Manager crea un registro del número total de usuarios que acceden a la plataforma durante el mes anterior. También captura la información de estos usuarios por grupo de usuarios.
+En este informe, se muestra el total de alumnos que acceden al sistema en un día o un mes. Explorar la plataforma de aprendizaje sin consumir ningún elemento de aprendizaje también se considera como un &quot;acceso&quot; a la plataforma de aprendizaje. Esto ayuda al administrador a conocer el conjunto total de usuarios que acceden al sistema. El primer día del mes, Learning Manager crea un registro del número total de usuarios que acceden a la plataforma durante el mes anterior. También captura la información de los grupos de usuarios de estos usuarios.
 
-Solo se registran los grupos de usuarios configurados por el administrador. Esto permite también que los administradores apliquen filtros en grupos de usuarios para conocer los datos mensuales históricos. Tenga en cuenta que, en caso de que se modifique la configuración de grupos de usuarios y Learning Manager no haya registrado datos para ese grupo de usuarios en meses anteriores, Learning Manager no podrá mostrar los datos de meses anteriores de esos grupos recién configurados.
+Solo se registran los grupos de usuarios configurados por el administrador. Esto también permite a los administradores aplicar filtros en los grupos de usuarios para los datos mensuales históricos. Tenga en cuenta que, en caso de que la configuración de grupos de usuarios se modifique y Learning Manager no haya registrado datos para este grupo de usuarios en meses anteriores, Learning Manager no podrá mostrar los datos de los grupos de usuarios recién configurados de meses anteriores.
 
 Este informe contiene usuarios que acceden a la plataforma mediante todos los formatos, como la Web, la aplicación para dispositivos móviles, las soluciones personalizadas sin encabezado, etc. El gráfico de uso de la aplicación para dispositivos menciona específicamente solo a los usuarios que acceden a la plataforma mediante la aplicación de Learning Manager para dispositivos. Esto ayuda a los administradores a identificar el uso de la aplicación para dispositivos móviles en la cuenta.
 
 ![](assets/user-visit-report.png)
 *Informe de visitas de usuarios*
 
-## Informe de tiempo dedicado al aprendizaje {#learningtimespentreport}
+### Informe de tiempo dedicado al aprendizaje {#learningtimespentreport}
 
 Aquí puede ver un gráfico de líneas de doble eje que muestra el tiempo total de aprendizaje dedicado por todos los alumnos durante un periodo de 12 meses. El segundo eje representa el tiempo medio dedicado al aprendizaje por parte de un individuo.
 
@@ -194,14 +104,14 @@ El filtro de fecha y grupo de usuarios seleccionado se aplica a todos los gráfi
 
 El tablero de contenido de formación ofrece información sobre los cursos disponibles en la plataforma. Puede ver los cursos de formación más populares o realizar un seguimiento de todos los cursos disponibles.
 
-## Informe de cursos de formación {#trainingsreport}
+### Informe de cursos de formación {#trainingsreport}
 
 Este informe proporciona información sobre el total de cursos de formación disponibles en la plataforma (con el estado Publicado) mensualmente. En él, se indica el número de cursos de formación que se ofrecen a lo largo del tiempo.
 
 ![](assets/training-report.png)
 *Informe de formación*
 
-## Informe de cursos de formación activos {#activetrainingsreport}
+### Informe de cursos de formación activos {#activetrainingsreport}
 
 Este informe proporciona información sobre los cursos de formación que están activos durante el intervalo de tiempo seleccionado. Los cursos de formación activos son aquellos que permiten la inscripción, su visualización en un reproductor o su finalización en un periodo determinado.
 
@@ -275,17 +185,622 @@ El informe de formación tiene dos columnas adicionales:
 >
 >En ambos informes (Contenido de formación y Actividad de usuario), puede configurar un máximo de 10 grupos de usuarios. Pueden transcurrir hasta 24 horas hasta que se complete el procesamiento y se faciliten los filtros recién configurados.
 
-## Informes de tableros {#dashboardreports}
+## Tableros de resumen del aprendizaje {#dashboards}
 
-Un tablero es una colección de informes. Los informes se pueden agrupar en un tablero según su elección.
+### Generar informes del tablero
 
-## Informes de muestra {#samplereports}
+>[!INFO]
+>
+>En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
+Consulte un informe resumido de todas las actividades de aprendizaje en la plataforma. En esta página, puede ver la siguiente información de resumen del equipo y los perfiles externos del usuario raíz seleccionado. También se puede seleccionar el intervalo de tiempo:
+
+* Resumen de aprendizaje en forma de inscripciones, vistas y finalizaciones
+* Aptitudes principales
+* Resumen del cumplimiento
+
+![](assets/summary-charts.png)
+*Gráficos de resumen*
+
+Si hay administradores internos de nivel raíz, se mostrarán uno tras otro.
+
+Todos los perfiles externos se enumerarán después de los perfiles internos (usuarios internos de nivel raíz).
+
+Si un perfil externo tiene un responsable, la jerarquía de responsables se mostrará en el **[!UICONTROL Mostrar datos para]** lista desplegable. El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes)
+
+Si no es así, todos los detalles de los usuarios individuales se mostrarán en la lista.
+
+Para ver información más detallada de las inscripciones de varios equipos internos, haga clic en **[!UICONTROL Detalles del resumen de aprendizaje]**.
+
+![](assets/learning-sunnarydetails.png)
+*Detalles del resumen de aprendizaje*
+
+Al hacer clic en cualquier inscripción, puede ver los alumnos de cada responsable y las inscripciones a cada objeto de aprendizaje. También puede ver los detalles de progreso y finalización de cada alumno.
+
+![](assets/learners-for-a-manager.png)
+*alumnos asignados a un responsable*
+
+Haga clic en cualquier equipo y exporte la informe como un archivo csv. Un administrador puede exportar el informe para cualquier grupo de usuarios o usuario individual seleccionando el grupo de usuarios o usuario individual y, a continuación, exportar los detalles desde el **[!UICONTROL Acción]** lista desplegable.
+
+Además, puede ver un gráfico de barras con las aptitudes que están en curso y las que se han alcanzado. Puede añadir o quitar las aptitudes que desee incluir en el gráfico.
+
+![](assets/skill-status-stackedbarchart.png)
+*Gráfico de barras apiladas de estado de aptitudes*
+
+En la visualización final, puede comprobar el estado de cumplimiento de los alumnos y tomar las medidas adecuadas.
+
+Además, un administrador puede ver los datos de formación individuales en el **[!UICONTROL Panel de cumplimiento]**.
+
+Por ejemplo, el administrador ha identificado tres cursos de formación en los que realizar un seguimiento del cumplimiento. Learning Manager proporciona la información de cumplimiento de los tres cursos de formación a la vez.
+
+Ahora, un administrador puede hacer clic en cualquier curso de formación y ver rápidamente el cumplimiento del curso de formación solicitado.
+
+![](assets/compliance-dashboard.png)
+*Ver tablero de cumplimiento*
+
+También puede ver el estado de cumplimiento de cada equipo interno.
+
+Haga clic en el vínculo **[!UICONTROL Detalles del estado de cumplimiento]** en la parte inferior de la visualización.
+
+Puede comprobar si, en un equipo, algunos alumnos están infringiendo o respetando el cumplimiento de aprendizaje.
+
+![](assets/compliance-statusofateam.png)
+*Estado de cumplimiento de un equipo*
+
+### Compartir formación con responsables
+
+Learning Manager ofrece un panel de cumplimiento a todos los administradores y responsables. A los gestores les resulta muy útil realizar un seguimiento del cumplimiento de los miembros de su equipo para una formación concreta. Al mismo tiempo, los administradores desean que todos los responsables añadan cursos de formación sobre cumplimiento a su panel y realicen un seguimiento.
+
+En Learning Manager, el **[!UICONTROL Compartir con responsables]** El flujo de trabajo permite a los administradores compartir la formación con los responsables para que puedan ser añadidos al tablero de cumplimiento de un responsable. Por lo tanto, los responsables no necesitan realizar ninguna acción y pueden empezar a realizar un seguimiento del cumplimiento de forma inmediata.
+
+Un administrador puede compartir un conjunto de cursos de formación con responsables de forma individual o en grupo. Este uso compartido puede ayudar a un responsable a realizar un seguimiento sencillo del cumplimiento de su equipo para la formación especificada.
+
+El administrador puede insertar una lista predeterminada de cursos de formación sobre cumplimiento para que se visualice en el panel de cumplimiento del responsable.
+
+### Compartir formación
+
+1. En **[!UICONTROL Informes]** > **[!UICONTROL Resumen del aprendizaje]**, desplácese hacia abajo y haga clic en la ficha **[!UICONTROL Compartir con responsables]**.
+
+   ![](assets/share-with-managers.png)
+   *Compartir formación con responsables*
+
+1. Para añadir formación o formación múltiple, haga clic en **[!UICONTROL Compartir más]**.
+
+1. En la **[!UICONTROL Compartir con responsables]** , elija los cursos de formación y el responsable.
+
+   ![](assets/select-training.png)
+   *Seleccione la formación que desea compartir con los responsables*
+
+1. Haga clic en **[!UICONTROL Compartir]**.
+
+El curso de formación ahora se comparte con el responsable especificado.
+
+### Ver formación
+
+En la lista de formación compartida, haga clic en **[!UICONTROL Ver]**. Puede ver la formación asignada a un responsable o a algunos responsables.
+
+### Retirar formación
+
+1. Para retirar la formación de un responsable, haga clic en **[!UICONTROL Retirar]**.
+
+1. Haga clic en **[!UICONTROL Continuar]**. Esto retira la formación previamente compartida del tablero de cumplimiento del responsable.
+
+## Informes personalizados
+
+Los administradores pueden generar informes específicos utilizando la plantilla personalizada disponible en el **[!UICONTROL Informes]** sección.
+
+### Informes de muestra {#samplereports}
 
 La ficha **[!UICONTROL Informes de muestra]** presenta algunos informes indicativos que se basan en puntos de datos de muestra. Explore estos informes para tener una idea de los distintos tipos de informes repletos de funciones que puede generar con los datos de su cuenta.
 
-## Informes de tableros {#DashboardReports-1}
+### Informes de tableros {#dashboardreports}
 
-Para ver todos los tableros creados, haga clic en esta ficha del tablero. Desde el **[!UICONTROL Ver panel]** , puede seleccionar el tablero predeterminado o un tablero que haya creado.
+Un tablero es una colección de informes. Los informes se pueden agrupar en un tablero según su elección. Para ver todos los tableros creados, haga clic en esta ficha del tablero. Desde el **[!UICONTROL Ver panel]** , puede seleccionar el tablero predeterminado o un tablero que haya creado.
+
+### Informes de Excel {#excelreports}
+
+La ficha **[!UICONTROL Informes de Excel]** permite exportar informes con formato de archivo XLS.
+
+A continuación, se muestran los tipos de informes disponibles para la descarga.
+
+* Informes del curso
+* Transcripciones de alumnos
+* Informe de anuncios
+* Informe de ayudas de trabajo
+* Registro de auditoría de contenido
+* Registro de auditoría de usuarios
+* Informe de inicio de sesión o de acceso
+* Transcripciones de interacciones
+* Registro de auditoría de interacción
+
+### Transcripciones de alumnos {#learnertranscripts}
+
+Las transcripciones de alumnos en informes de Excel muestran las columnas Créditos necesarios y Créditos obtenidos en números decimales.
+
+### Informes del curso {#coursereports}
+
+Como administrador, puede descargar informes de cursos. Siga estos pasos:
+
+1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes del curso]**.
+1. Se muestra el cuadro de diálogo **[!UICONTROL Informe del curso]**. Seleccione el curso, cuyo informe quiere obtener y haga clic en **[!UICONTROL Mostrar]**.
+
+   ![](assets/course-reports.png)
+   *Informes del curso*
+
+1. Se le redirige a la página del curso. Puede exportar la puntuación de la prueba por usuario y por pregunta en función de cada inscripción seleccionando el tipo de inscripción específico.
+1. Seleccione **[!UICONTROL Exportar puntuación de prueba]** para exportar el informe. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL OK]** para confirmar.
+
+   ![](assets/generating-reportrequest.png)
+   *Generando solicitud de informe*
+
+   >[!NOTE]
+   >
+   >El informe de puntuaciones de pruebas exportado contendrá datos de puntuación de cualquier intento si el módulo tiene activada la opción Varios intentos.
+
+### Transcripciones de alumnos {#LearnerTranscripts-1}
+
+Adobe Learning Manager permite a los administradores de una empresa generar transcripciones asociadas a los alumnos. El informe de transcripciones de alumnos muestra lo siguiente:
+
+1. Transcripciones de alumnos: Tablero de actividades de aprendizaje
+1. Aptitud: Tablero de aptitudes
+1. Tablero de cumplimiento
+
+Las transcripciones de alumnos en informes de Excel muestran las columnas Créditos necesarios y Créditos obtenidos en números decimales.
+
+Para obtener información sobre cómo generar informes de transcripciones de alumnos y más información, consulte [Transcripciones de alumnos](learner-transcripts.md).
+
+### Informes de anuncios {#announcementsreports}
+
+Como administrador, puede generar un informe de todos los anuncios que envíe. El informe contiene datos relativos a los aspectos siguientes:
+
+* Tipo de anuncio
+* Nombre del anuncio
+* Fecha del anuncio
+* Estado del anuncio
+* Nombre del alumno
+
+Para descargar un informe, siga cualquiera de estos pasos:
+
+1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de anuncios]**. Se abre el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en Aceptar.
+1. [!UICONTROL **Anuncios**] > [!UICONTROL **Acciones**] > [!UICONTROL **Exportar informe**].
+
+   ![](assets/announcements.png)
+   *Informe de anuncios*
+
+1. Puede extraer un informe de un anuncio específico haciendo clic en **[!UICONTROL Exportar informe]** bajo el icono de configuración.
+
+   ![](assets/announcements-specific-report.png)
+   *Informe de anuncios específicos*
+
+### Informe de ayudas de trabajo {#jobaidsreport}
+
+Las ayudas de trabajo consisten en contenido de formación al que puede tener acceso un alumno sin inscribirse en ningún objeto de aprendizaje concreto como un curso o un programa de aprendizaje. Los administradores puedan extraer y descargar el informe de ayudas de trabajo.
+
+El informe extraído incluye información sobre lo siguiente:
+
+* Nombre
+* Tipo de ayuda de trabajo
+* Estado de la ayuda de trabajo (publicado o retirado)
+* Fecha de inscripción
+* Fecha de finalización
+* Fecha de descarga
+* Nombre del alumno
+* Nombre del responsable
+* Autor
+
+Para descargar un informe, realice una de las siguientes acciones:
+
+* Abrir  **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes de ayudas de trabajo]**. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL Aceptar]**.
+* Abrir **[!UICONTROL Ayuda de trabajo]** > **[!UICONTROL Acciones]** > **[!UICONTROL Exportar informe]**.
+
+![](assets/job-aids.png)
+*Informe de ayudas de trabajo*
+
+* También puede extraer un informe de una ayuda de trabajo específica haciendo clic en **[!UICONTROL Exportar informe]** debajo del icono de configuración.
+
+![](assets/job-aid-specific-download.png)
+*Informe de ayuda de trabajo específica*
+
+### Informe de ayudas de trabajo
+
+Después de seleccionar **[!UICONTROL Informe de ayudas de trabajo]** en la lista, aparecen dos opciones:
+
+![informe de ayudas de trabajo](assets/job-aids-new.png)
+*Descargar ayudas de trabajo USer Enrollment Report*
+
+**Todas las ayudas de trabajo**: si el número de ayudas de trabajo de la cuenta es inferior a 10 millones, el informe generado contendrá la información de inscripción de todas las ayudas de trabajo. Esta será la selección predeterminada. Si el número de filas supera los 10 millones, se mostrará un error y deberá seleccionar manualmente las ayudas de trabajo necesarias.
+
+**Ayudas de trabajo seleccionadas**: Si selecciona esta opción, puede introducir las ayudas de trabajo para las que desea generar el informe. Puede seleccionar un máximo de 10 ayudas de trabajo. Adobe Learning Manager comprueba si el número de ayudas de trabajo supera los 10 millones.
+
+![registro de informe de ayudas de trabajo](assets/job-aids-2-new.png)
+*Seleccionar una ayuda de trabajo*
+
+**Informe de ayudas de trabajo**
+
+Si selecciona esta opción, se descargarán los detalles de todas las ayudas de trabajo presentes en el sistema, junto con sus metadatos y formación.
+
+El informe descargado consta de los siguientes campos:
+
+* Nombre de ayuda de trabajo
+* Idioma(s)
+* ID
+* Tipo
+* Duración (minutos)
+* Estado
+* Fecha de publicación (zona horaria UTC)
+* Creado por nombre
+* Creado por correo electrónico
+* Creado por ID exclusivo de usuario
+* Catálogo(s)
+* Ruta(s) de aprendizaje
+* Curso(s)
+* Etiqueta(s)
+* Aptitud(es)
+
+**Informe de inscripción de usuarios de ayudas de trabajo**
+
+El informe de inscripción contiene detalles sobre la inscripción de usuarios y otra información.
+
+El informe descargado consta de los siguientes campos:
+
+* Nombre de ayuda de trabajo
+* Tipo
+* Estado
+* Fecha de inscripción (zona horaria UTC)
+* Fecha de finalización (zona horaria UTC)
+* Fecha de descarga (zona horaria UTC)
+* Nombre del alumno
+* Correo electrónico
+* ID exclusivo de usuario
+* Nombre del responsable
+* Correo electrónico del responsable
+* ID exclusivo de usuario responsable
+* Asignado por nombre
+* Asignado por correo electrónico
+* Asignado por ID exclusivo de usuario
+* Creado por nombre
+* Creado por correo electrónico
+* Creado por ID exclusivo de usuario
+* Código de trabajo
+* Nuevo campo
+* Perfil
+
+### Informes de registro de auditoría de contenido {#contentaudittrailreports}
+
+Utilice la **[!UICONTROL Registro de auditoría de contenido]** generador de informes para generar un informe de todos los cambios y ediciones realizados en un curso durante su duración en el sistema. El informe generado muestra la información siguiente recopilada:
+
+* ID de objeto
+* Nombre del objeto
+* Tipo de objeto
+* Tipo de modificación
+* Descripción
+* ID de objeto de referencia
+* Nombre de objeto de referencia
+* Modificado por nombre de usuario
+* Modificado por UUID de usuario
+* Fecha de modificación (zona horaria UTC)
+
+La información relativa a metadatos no se recopila en el informe generado.
+
+Para generar un informe de registro de auditoría de un curso, siga estos pasos.
+
+1. Seleccionar **[!UICONTROL Informe]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Seguimiento de auditoría del curso]**. Aparece el cuadro de diálogo **[!UICONTROL Registro de auditoría de contenido]**.
+
+   ![](assets/course-audit-trial.png)
+   *Registro de auditoría del curso*
+
+1. Seleccione el curso, el programa de aprendizaje y la certificación de los que desea descargar el informe. Si no se especifica, de manera predeterminada se descargan todos los informes.
+1. Seleccione un intervalo de fechas para el informe y haga clic en **[!UICONTROL Generar]**.
+1. El informe se genera y se le notifica que el informe de auditoría de contenido está listo. Puede descargar el informe.
+
+### Informes de registro de auditoría de usuarios {#useraudittrailreports}
+
+El seguimiento de auditoría de usuarios captura el ciclo de vida de los usuarios, los grupos de usuarios y los perfiles de registro automático. Se captura la adición y eliminación de usuarios, y los cambios del responsable. Se registra la creación y eliminación de perfiles de registro automático. El registro automático también se puede pausar y reanudar.
+
+Durante el registro automático puede añadir, habilitar, deshabilitar, pausar o reanudar en perfiles externos. También se capturan las cargas de CSV.
+
+1. Seleccionar  **[!UICONTROL Informe > Informe de Excel > Registro de auditoría de usuarios]**. Aparece el cuadro de diálogo Registro de auditoría de usuarios.
+1. Se muestra el cuadro de diálogo Registro de auditoría de usuarios. Seleccione el intervalo de fechas en el menú emergente. Puede elegir entre generar el informe de la última semana, el último mes o seleccionar una fecha personalizada.
+
+   ![](assets/user-audit-trail.png)
+   *Registro de auditoría de usuarios*
+
+1. Haga clic en **[!UICONTROL Generar]** para generar el informe.
+
+Hay dos filtros en el cuadro de diálogo **[!UICONTROL Informe de seguimiento de auditoría de usuarios]**.
+
+**Filtro de intervalo de fechas:** Elija el intervalo de fechas para el que desea generar el informe. Hay tres opciones:
+
+* Última semana
+* Último mes
+* Fecha personalizada
+
+Seleccionar filtro de alumnos: Buscar un usuario o un grupo de usuarios.
+
+El informe exportado contendrá datos de los usuarios que cumplan los dos criterios de búsqueda especificados.
+
+![](assets/user-audit-trail.png)
+*Registro de auditoría de usuarios*
+
+>[!NOTE]
+>
+>Cuando se asigna o se elimina una aptitud, se puede realizar un seguimiento de la aptitud en el Informe de auditoría de usuarios, tanto si se asigna como si se elimina.
+
+### Informe de configuración de extensiones
+
+Este informe proporciona información sobre los detalles de configuración de todas las extensiones nativas agregadas, incluido su estado de activación. Obtenga información sobre cómo descargar el informe de extensión, consulte [Descargar informe de extensión](native-extensibility.md#download-extension-report).
+
+### Informe de actividad de xAPI
+
+Este informe proporciona los datos de todas las instrucciones de xAPI registradas y generadas durante los módulos de actividad de xAPI.
+
+Para descargar este informe, siga estos pasos:
+
+1. Seleccionar  **[!UICONTROL Informe > Informe de Excel > Informe de actividad de xAPI]**. Aparece el cuadro de diálogo Informe de actividad de xAPI.
+1. Seleccione el intervalo de fechas en el menú emergente. Puede elegir entre generar el informe de la última semana, el último mes o seleccionar una fecha personalizada.
+1. Seleccione los alumnos y la actividad en el menú desplegable.
+1. Seleccionar **[!UICONTROL Generar]** para generar el informe.
+
+### Informes de interacciones {#gamification}
+
+Los administradores pueden descargar la transcripción de interacción en formato .csv. Puede descargar el informe para usuarios individuales o grupos de usuarios. El nombre de usuario, el correo electrónico del usuario, el UUID del usuario, el total de puntos de usuario obtenidos, la agrupación de puntos recopilados, el nombre de los grupos en los que el usuario interviene, el nombre del responsable y los valores de los campos activos se obtienen en el informe. Los administradores pueden usar este informe para evaluar y comprender las clasificaciones de usuarios en el nivel de la empresa o para un grupo específico.
+
+1. Seleccione Informe > Informe de Excel > Informe de interacción.
+
+   ![](assets/gamification.png)
+   *Informe de interacción*
+
+1. Aparece el cuadro de diálogo Transcripciones de interacciones. Seleccione alumnos usando su nombre, perfil, grupos de usuarios, ID de correo electrónico o UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Diálogo Transcripciones de interacciones*
+
+1. Haga clic en  **[!UICONTROL Generar]** para generar el informe.
+
+   Después de generar el informe de un alumno, debe poder exportar la información actual y del nivel alcanzado para todos los usuarios (internos, externos o eliminados) de la cuenta. También puede consultar las fechas de los niveles alcanzados por un alumno:
+
+   * Fecha de obtención de Bronce
+   * Fecha de obtención de Plata
+   * Fecha de obtención de Oro
+   * Fecha de obtención de Platino
+
+   Estas columnas contienen las fechas en que se alcanzó el nivel por primera vez. La columna **[!UICONTROL Nivel actual]** muestra el nivel actual del alumno.
+
+   Cuando el administrador restablece la interacción, todos los puntos del alumno se restablecen en consecuencia.
+
+### Informe de seguimiento de auditoría de interacción {#gamification-audit-trail}
+
+Este informe contiene el historial y los motivos de los puntos de interacción de los alumnos obtenidos para cada regla.
+
+### Descargar el informe
+
+1. Seleccione la URL de seguimiento de auditoría de interacción.
+1. En la **Seguimiento de auditoría de interacción** , seleccione el intervalo de fechas.
+1. Seleccionar **Generar**.
+
+El informe se descarga como archivo CSV. El archivo contiene las siguientes columnas:
+
+* Nombre
+* Correo electrónico/UUID,
+* Estado
+* Acción
+* Puntos,
+* Puntos de saldo
+* Regla/ Tarea
+* Subtarea de regla/tarea,
+* Detalles de regla/tarea
+* Tipo,
+* Nombre,
+* Nombre de instanciaFecha de obtención (zona horaria UTC)
+* Hora de inicio de regla/tarea
+* Hora de finalización de regla/tarea
+
+### Informe de inscripción y baja {#enrollmentandunenrollmentreport}
+
+Los administradores y responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Mientras que, como responsable, solo puede obtener un informe de los miembros del equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
+
+Para descargar un informe, siga estos pasos: Abra el  **[!UICONTROL Curso/ Programa de aprendizaje/ Certificación]** > **[!UICONTROL Alumnos]** > **[!UICONTROL Acción]** > **[!UICONTROL Exportar informe]**.
+
+![](assets/unenrollment.png)
+*Informe de cancelación de inscripción*
+
+### Informe de comentarios {#feedback-report}
+
+Como administrador, ahora puede obtener comentarios del alumno (L1) y del responsable (L3) en relación con los cursos de formación seleccionados durante un periodo especificado.
+
+Puede exportar los datos desde la interfaz de usuario o a través del conector de Power BI para realizar un análisis más detallado.
+
+Los informes de comentarios de L1 y L3 ofrecen la opción de descargar un informe de comentarios consolidado para las respuestas de L1 y L3 de los cursos de formación seleccionados para un **de un año** o de hasta 10 cursos de formación seleccionados para cualquier intervalo de fechas.
+
+Inicie sesión como administrador y haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** y, en la lista de informes, haga clic en **[!UICONTROL Informe de comentarios]**.
+
+![](assets/download-feedbackreport.png)
+*Descargar informe de comentarios*
+
+Al hacer clic en Descargar después de seleccionar los filtros, recibirá una notificación para descargar el informe en formato CSV.
+
+El informe descargado incluirá detalles como el nombre y el tipo de curso de formación, el nombre de la instancia, el nombre y el correo electrónico del alumno, el tipo de comentarios: L1 o L3, las fechas de los comentarios enviados para los nuevos datos.
+
+Para los datos existentes antes de la implementación de esta función, se mostrará la fecha de finalización del objeto de aprendizaje, el texto real de ritmo personalizado de la pregunta de comentarios de L1 y el texto de clase en diferentes columnas, las respuestas respectivas de los comentarios de L1, el nombre y el correo electrónico del responsable, el valor de los comentarios de L3 y la fecha de envío, y los campos activos.
+
+También puede exportar los datos desde la interfaz de usuario o en Power BI, que admite todos los cursos de formación de cualquier intervalo de fechas, para realizar un análisis más detallado
+
+### Informe de cursos de formación {#training-report}
+
+Learning Manager admite el informe de formación, que permite a los administradores descargar detalles de formación y sus metadatos asociados, como el autor, la fecha de publicación, las aptitudes, las etiquetas de catálogo, etc.
+
+En la aplicación de administración, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de formación]**.
+
+Puede descargar informes para lo siguiente:
+
+* Cursos de formación seleccionados (límite de 10): permite elegir uno o varios cursos de formación (hasta 10) de cualquier catálogo
+* Cursos de formación de los catálogos seleccionados (límite de 5): se pueden seleccionar hasta cinco catálogos.
+* Todos los cursos de formación: todos los cursos de formación de la cuenta.
+
+![](assets/download-trainingreport.png)
+*Descargar informe de formación*
+
+En la sección Opciones avanzadas, están disponibles las siguientes opciones:
+
+* Incluir asignaciones de cursos con programa de aprendizaje/certificación
+* Incluir información en el nivel de módulo
+
+Después de seleccionar los filtros y hacer clic en Descargar, recibirá una notificación para descargar el informe en formato CSV.
+
+El informe tendrá los siguientes campos:
+
+*Nombre del catálogo, Tipo de curso de formación, ID del curso de formación, ID exclusivo del curso de formación, Nombre del curso de formación, Subcursos de formación, Módulos, Duración del curso de formación o el módulo, Formato, Estado del curso de formación, Aptitudes, Autor, Fecha de la última publicación, Fecha de la última finalización, Recuento de inscripciones de instructores, Cantidad de iniciados, Cantidad de finalizaciones, Puntuación L1 media, Puntuación L2 media, Puntuación L3 media, Respuestas L1 recibidas, Respuestas L2 recibidas, Respuestas L3 recibidas, Etiquetas de catálogo y Etiquetas.*
+
+![](assets/more-options.png)
+*Opciones adicionales*
+
+### Informe de resumen de sesión {#session-summary-report}
+
+El informe de resumen de sesión contiene todas las sesiones planificadas para un alumno en una fecha especificada.
+
+Esto permite al administrador exportar todos los detalles de la sesión virtual y de clase que estén dentro del intervalo de fechas especificado. El administrador también puede exportar el informe de la sesión con respecto a determinados instructores o formadores.
+
+Esto también ayudará al administrador a comprender las sesiones programadas mensualmente e identificar el horario de los instructores y las sesiones ya realizadas.
+
+Como administrador, haga clic en **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de resumen de sesión]**.
+
+En el cuadro de diálogo que aparece a continuación, elija el intervalo de fechas y el instructor o la formación para un resumen.
+
+![](assets/session-summary-report.png)
+*Informe de resumen de sesión*
+
+El informe csv contiene los siguientes campos:
+
+* Fecha y hora de inicio
+* Fecha y hora de finalización
+
+* Nombre de módulo
+* Duración de la sesión (en minutos)
+* Recuento de puestos
+* Ubicación
+* Nombre de la instancia
+* Nombre del curso
+* Id. del curso
+* Nombre del instructor
+* Correo electrónico del instructor
+* Recuento de inscripciones
+* Tipo de sesión
+* Límite de lista de espera
+* N.º en lista de espera
+* Mensajes de correo electrónico de usuario de la lista de espera
+* Información de ubicación
+* Región de la ubicación
+
+### Informe de utilización del instructor
+
+Este informe captura el tiempo (en minutos) que un instructor dedica diariamente a impartir las sesiones asignadas. El informe se puede descargar durante un período de tres meses a partir de la fecha de inicio seleccionada.
+
+Para descargar el informe, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de utilización del instructor]**.
+
+Seleccione uno o varios instructores y el intervalo de fechas.
+
+![Descargar informe de utilización del instructor](assets/utilization-report.png)
+*Descargar informe de utilización del instructor*
+
+El informe descargado contiene los siguientes campos:
+
+* Nombre del instructor
+* ID del instructor
+* Nivel de competencia
+* Fechas como columnas. Si el instructor se utiliza en una fecha, se muestra el número de sesiones. Si no se utiliza el instructor en un día, el valor muestra cero.
+
+El informe contiene registros de tres meses a partir del mes seleccionado.
+
+Para recuperar los registros de todos los instructores, deje el campo Instructor en blanco.
+
+Además, un administrador personalizado con permiso para generar informes puede recuperar este informe.
+
+### Informe de registro de auditoría de usuarios
+
+Este informe captura información sobre los alumnos que cambiaron instancias, &quot;de instancia&quot; a &quot;instancia&quot;, cambiaron por hora, fecha, etc.
+
+Seleccione los alumnos o un grupo de usuarios.
+
+Para descargar el informe, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de seguimiento de auditoría de usuarios]**.
+
+![Descargar informe de seguimiento de auditoría de usuarios](assets/user-audit-report.png)
+
+*Descargar informe de seguimiento de auditoría de usuarios*
+
+### Informe de plan de aprendizaje
+
+Este informe contiene información detallada sobre todos los planes de aprendizaje de una cuenta, por ejemplo, los grupos de usuarios relacionados, el estado y la información sobre activadores.
+
+El informe contiene los siguientes campos:
+
+* Nombre del plan de aprendizaje
+* Tipo (se produce cuando)
+* Formación (finalizada)
+* Aptitud (conseguida)
+* Fecha (en fecha)
+* Acción
+* Estado, creado por
+* Fecha de creación
+* Fecha de la última modificación
+* Grupo de usuarios (se aplica a)
+* Grupo de usuarios (añadir a)
+* Inscribirse después de
+* Tipos de elemento de aprendizaje
+* Elementos de aprendizaje
+* Instancias de elemento de aprendizaje
+* Elemento de aprendizaje
+* Fecha de finalización
+* Recordatorio de elemento de aprendizaje
+* Ámbito: catálogo
+* Ámbito: grupo de usuarios
+
+## Suscripciones de correo electrónico {#emailsubscriptions}
+
+Puede recibir sus informes favoritos por correo electrónico mediante una suscripción.
+
+### Configurar suscripciones de correo electrónico
+
+>[!INFO]
+>
+>En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+
+
+Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+
+En **[!UICONTROL Informes]** , haga clic en el  **[!UICONTROL Suscripción]** . Aparece la página de suscripción a informes.
+
+Para seleccionar el nombre del informe en la lista desplegable, empiece a escribir el nombre del informe en el campo Informes. Seleccione la frecuencia del correo electrónico en la lista desplegable. Puede añadir el asunto del correo electrónico y proporcionar un ID de correo electrónico alternativo.
+
+Puede editar y eliminar las suscripciones.
+
+## Informes históricos
+
+Los informes históricos de Adobe Learning Manager (ALM) hacen referencia a los informes que capturan los datos históricos y las actividades dentro de la plataforma de aprendizaje. Estos informes proporcionan información sobre actividades de alumnos anteriores, contenido de formación, rendimiento de grupos de usuarios y otros datos relevantes. Los informes históricos permiten a los administradores hacer un seguimiento, supervisar y analizar el progreso y la eficacia de las iniciativas de aprendizaje a lo largo del tiempo.
+
+### Informes de acceso al curso
+
+Los informes de acceso al curso proporcionan información sobre la revisión de cada curso.
+
+Para descargar este informe, siga estos pasos:
+
+1. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes históricos]**.
+1. Seleccionar **[!UICONTROL Informe de acceso al curso]**. Se abre el cuadro de diálogo Generando solicitud de informe.
+1. Seleccione el año y el trimestre en el menú desplegable.
+1. Seleccionar **[!UICONTROL Generar]**.
+
+### Informes de inicio de sesión/acceso
+
+Los informes de inicio de sesión/acceso proporcionan información sobre los inicios de sesión y el acceso de los usuarios. Puede generar informes que contengan datos de tres meses a la vez.
+
+Para descargar este informe, siga estos pasos:
+
+1. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes históricos]**.
+1. Seleccionar **[!UICONTROL Informe de inicio de sesión/acceso]**. Se abre el cuadro de diálogo Generando solicitud de informe.
+1. Seleccione el año y el trimestre en el menú desplegable.
+1. Seleccionar **[!UICONTROL Generar]**.
 
 ## Crear un tablero {#createadashboard}
 
@@ -473,18 +988,6 @@ También puede crear grupos de usuarios personalizados con la función Añadir u
 
 En el eje X, elija la opción Atributos de usuario y seleccione el atributo en la **seleccionar** situado junto a él. Para crear un informe de grupo de usuarios personalizado basado en estos atributos, también debe elegir el grupo de usuarios adecuado en el filtro.
 
-## Tipos de informes {#typesofreports}
-
-Adobe Learning Manager admite cuatro tipos principales de informes: de finalización, tiempo dedicado, aptitudes y eficacia. Puede utilizar los siguientes tipos de informe para generar informes de más de 300 variaciones:
-
-* Estadísticas de entrega del curso para alumnos
-* Informe sobre la eficacia de los cursos
-* Informe basado en las aptitudes del alumno
-* Estadísticas de inscripción en el programa de aprendizaje para alumnos
-* Tiempo de aprendizaje dedicado por los alumnos
-* Recuento de alumnos
-* Finalización de la certificación
-
 ## Visualización de informes {#viewingreports}
 
 En la página Informes, puede ver todos los informes. Puede minimizar cada informe si hace clic en el icono menos (-) situado en la esquina superior derecha de cada informe. Haga clic en el icono (+) para ver su informe nuevamente.
@@ -512,9 +1015,10 @@ Si varios responsables le informan a usted, podrá ver los informes rápidamente
 
 ### Generar informes de cursos
 
-En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.
+>[!INFO]
+>
+>En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
@@ -574,466 +1078,6 @@ Al crear una cuenta de igual a igual, si no se había seleccionado la opción Co
    >[!NOTE]
    >
    >Los responsables no pueden ver los informes de los iguales.
-
-## Suscripciones de correo electrónico {#emailsubscriptions}
-
-Puede recibir sus informes favoritos por correo electrónico mediante una suscripción.
-
-### Configurar suscripciones de correo electrónico
-
-En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.
-
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
-
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
-
-En **[!UICONTROL Informes]** , haga clic en el  **[!UICONTROL Suscripción]** . Aparece la página de suscripción a informes.
-
-Para seleccionar el nombre del informe en la lista desplegable, empiece a escribir el nombre del informe en el campo Informes. Seleccione la frecuencia del correo electrónico en la lista desplegable. Puede añadir el asunto del correo electrónico y proporcionar un ID de correo electrónico alternativo.
-
-Puede editar y eliminar las suscripciones.
-
-## Informes de Excel {#excelreports}
-
-La ficha **[!UICONTROL Informes de Excel]** permite exportar informes con formato de archivo XLS.
-
-A continuación, se muestran los tipos de informes disponibles para la descarga.
-
-* Informes del curso
-* Transcripciones de alumnos
-* Informe de anuncios
-* Informe de ayudas de trabajo
-* Registro de auditoría de contenido
-* Registro de auditoría de usuarios
-* Informe de inicio de sesión o de acceso
-* Transcripciones de interacciones
-* Registro de auditoría de interacción
-
-## Transcripciones de alumnos {#learnertranscripts}
-
-Las transcripciones de alumnos en informes de Excel muestran las columnas Créditos necesarios y Créditos obtenidos en números decimales.
-
-## Informes del curso {#coursereports}
-
-Como administrador, puede descargar informes de cursos. Siga estos pasos:
-
-1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes del curso]**.
-1. Se muestra el cuadro de diálogo **[!UICONTROL Informe del curso]**. Seleccione el curso, cuyo informe quiere obtener y haga clic en **[!UICONTROL Mostrar]**.
-
-   ![](assets/course-reports.png)
-   *Informes del curso*
-
-1. Se le redirige a la página del curso. Puede exportar la puntuación de la prueba por usuario y por pregunta en función de cada inscripción seleccionando el tipo de inscripción específico.
-1. Seleccione **[!UICONTROL Exportar puntuación de prueba]** para exportar el informe. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL OK]** para confirmar.
-
-   ![](assets/generating-reportrequest.png)
-   *Generando solicitud de informe*
-
-   >[!NOTE]
-   >
-   >El informe de puntuaciones de pruebas exportado contendrá datos de puntuación de cualquier intento si el módulo tiene activada la opción Varios intentos.
-
-## Transcripciones de alumnos {#LearnerTranscripts-1}
-
-Adobe Learning Manager permite a los administradores de una empresa generar transcripciones asociadas a los alumnos. El informe de transcripciones de alumnos muestra lo siguiente:
-
-1. Transcripciones de alumnos: Tablero de actividades de aprendizaje
-1. Aptitud: Tablero de aptitudes
-1. Tablero de cumplimiento
-
-Las transcripciones de alumnos en informes de Excel muestran las columnas Créditos necesarios y Créditos obtenidos en números decimales.
-
-Para obtener información sobre cómo generar informes de transcripciones de alumnos y más información, consulte [Transcripciones de alumnos](learner-transcripts.md).
-
-## Informes de anuncios {#announcementsreports}
-
-Como administrador, puede generar un informe de todos los anuncios que envíe. El informe contiene datos relativos a los aspectos siguientes:
-
-* Tipo de anuncio
-* Nombre del anuncio
-* Fecha del anuncio
-* Estado del anuncio
-* Nombre del alumno
-
-Para descargar un informe, siga cualquiera de estos pasos:
-
-1. Abrir **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de anuncios]**. Se abre el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en Aceptar.
-1. [!UICONTROL **Anuncios**] > [!UICONTROL **Acciones**] > [!UICONTROL **Exportar informe**].
-
-   ![](assets/announcements.png)
-   *Informe de anuncios*
-
-1. Puede extraer un informe de un anuncio específico haciendo clic en **[!UICONTROL Exportar informe]** bajo el icono de configuración.
-
-   ![](assets/announcements-specific-report.png)
-   *Informe de anuncios específicos*
-
-## Informe de ayudas de trabajo {#jobaidsreport}
-
-Las ayudas de trabajo consisten en contenido de formación al que puede tener acceso un alumno sin inscribirse en ningún objeto de aprendizaje concreto como un curso o un programa de aprendizaje. Los administradores puedan extraer y descargar el informe de ayudas de trabajo.
-
-El informe extraído incluye información sobre lo siguiente:
-
-* Nombre
-* Tipo de ayuda de trabajo
-* Estado de la ayuda de trabajo (publicado o retirado)
-* Fecha de inscripción
-* Fecha de finalización
-* Fecha de descarga
-* Nombre del alumno
-* Nombre del responsable
-* Autor
-
-Para descargar un informe, realice una de las siguientes acciones:
-
-* Abrir  **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informes de ayudas de trabajo]**. Aparece el cuadro de diálogo **[!UICONTROL Generando solicitud de informe]**. Haga clic en **[!UICONTROL Aceptar]**.
-* Abrir **[!UICONTROL Ayuda de trabajo]** > **[!UICONTROL Acciones]** > **[!UICONTROL Exportar informe]**.
-
-![](assets/job-aids.png)
-*Informe de ayudas de trabajo*
-
-* También puede extraer un informe de una ayuda de trabajo específica haciendo clic en **[!UICONTROL Exportar informe]** debajo del icono de configuración.
-
-![](assets/job-aid-specific-download.png)
-*Informe de ayuda de trabajo específica*
-
-### Informe de ayudas de trabajo
-
-Después de seleccionar **[!UICONTROL Informe de ayudas de trabajo]** en la lista, aparecen dos opciones:
-
-![informe de ayudas de trabajo](assets/job-aids-new.png)
-*Descargar ayudas de trabajo USer Enrollment Report*
-
-**Todas las ayudas de trabajo**: si el número de ayudas de trabajo de la cuenta es inferior a 10 millones, el informe generado contendrá la información de inscripción de todas las ayudas de trabajo. Esta será la selección predeterminada. Si el número de filas supera los 10 millones, se mostrará un error y deberá seleccionar manualmente las ayudas de trabajo necesarias.
-
-**Ayudas de trabajo seleccionadas**: Si selecciona esta opción, puede introducir las ayudas de trabajo para las que desea generar el informe. Puede seleccionar un máximo de 10 ayudas de trabajo. Adobe Learning Manager comprueba si el número de ayudas de trabajo supera los 10 millones.
-
-![registro de informe de ayudas de trabajo](assets/job-aids-2-new.png)
-*Seleccionar una ayuda de trabajo*
-
-**Informe de ayudas de trabajo**
-
-Si selecciona esta opción, se descargarán los detalles de todas las ayudas de trabajo presentes en el sistema, junto con sus metadatos y formación.
-
-El informe descargado consta de los siguientes campos:
-
-* Nombre de ayuda de trabajo
-* Idioma(s)
-* ID
-* Tipo
-* Duración (minutos)
-* Estado
-* Fecha de publicación (zona horaria UTC)
-* Creado por nombre
-* Creado por correo electrónico
-* Creado por ID exclusivo de usuario
-* Catálogo(s)
-* Ruta(s) de aprendizaje
-* Curso(s)
-* Etiqueta(s)
-* Aptitud(es)
-
-**Informe de inscripción de usuarios de ayudas de trabajo**
-
-El informe de inscripción contiene detalles sobre la inscripción de usuarios y otra información.
-
-El informe descargado consta de los siguientes campos:
-
-* Nombre de ayuda de trabajo
-* Tipo
-* Estado
-* Fecha de inscripción (zona horaria UTC)
-* Fecha de finalización (zona horaria UTC)
-* Fecha de descarga (zona horaria UTC)
-* Nombre del alumno
-* Correo electrónico
-* ID exclusivo de usuario
-* Nombre del responsable
-* Correo electrónico del responsable
-* ID exclusivo de usuario responsable
-* Asignado por nombre
-* Asignado por correo electrónico
-* Asignado por ID exclusivo de usuario
-* Creado por nombre
-* Creado por correo electrónico
-* Creado por ID exclusivo de usuario
-* Código de trabajo
-* Nuevo campo
-* Perfil
-
-### Informes de registro de auditoría de contenido {#contentaudittrailreports}
-
-Utilice la **[!UICONTROL Registro de auditoría de contenido]** generador de informes para generar un informe de todos los cambios y ediciones realizados en un curso durante su duración en el sistema. El informe generado muestra la información siguiente recopilada:
-
-* ID de objeto
-* Nombre del objeto
-* Tipo de objeto
-* Tipo de modificación
-* Descripción
-* ID de objeto de referencia
-* Nombre de objeto de referencia
-* Modificado por nombre de usuario
-* Modificado por UUID de usuario
-* Fecha de modificación (zona horaria UTC)
-
-La información relativa a metadatos no se recopila en el informe generado.
-
-Para generar un informe de registro de auditoría de un curso, siga estos pasos.
-
-1. Seleccionar **[!UICONTROL Informe]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Seguimiento de auditoría del curso]**. Aparece el cuadro de diálogo **[!UICONTROL Registro de auditoría de contenido]**.
-
-   ![](assets/course-audit-trial.png)
-   *Registro de auditoría del curso*
-
-1. Seleccione el curso, el programa de aprendizaje y la certificación de los que desea descargar el informe. Si no se especifica, de manera predeterminada se descargan todos los informes.
-1. Seleccione un intervalo de fechas para el informe y haga clic en **[!UICONTROL Generar]**.
-1. El informe se genera y se le notifica que el informe de auditoría de contenido está listo. Puede descargar el informe.
-
-## Informes de registro de auditoría de usuarios {#useraudittrailreports}
-
-El seguimiento de auditoría de usuarios captura el ciclo de vida de los usuarios, los grupos de usuarios y los perfiles de registro automático. Se captura la adición y eliminación de usuarios, y los cambios del responsable. Se registra la creación y eliminación de perfiles de registro automático. El registro automático también se puede pausar y reanudar.
-
-Durante el registro automático puede añadir, habilitar, deshabilitar, pausar o reanudar en perfiles externos. También se capturan las cargas de CSV.
-
-1. Seleccionar  **[!UICONTROL Informe > Informe de Excel > Registro de auditoría de usuarios]**. Aparece el cuadro de diálogo Registro de auditoría de usuarios.
-1. Se muestra el cuadro de diálogo Registro de auditoría de usuarios. Seleccione el intervalo de fechas en el menú emergente. Puede elegir entre generar el informe de la última semana, el último mes o seleccionar una fecha personalizada.
-
-   ![](assets/user-audit-trail.png)
-   *Registro de auditoría de usuarios*
-
-1. Haga clic en **[!UICONTROL Generar]** para generar el informe.
-
-Hay dos filtros en el cuadro de diálogo **[!UICONTROL Informe de seguimiento de auditoría de usuarios]**.
-
-**Filtro de intervalo de fechas:** Elija el intervalo de fechas para el que desea generar el informe. Hay tres opciones:
-
-* Última semana
-* Último mes
-* Fecha personalizada
-
-Seleccionar filtro de alumnos: Buscar un usuario o un grupo de usuarios.
-
-El informe exportado contendrá datos de los usuarios que cumplan los dos criterios de búsqueda especificados.
-
-![](assets/user-audit-trail.png)
-*Registro de auditoría de usuarios*
-
->[!NOTE]
->
->Cuando se asigna o se elimina una aptitud, se puede realizar un seguimiento de la aptitud en el Informe de auditoría de usuarios, tanto si se asigna como si se elimina.
-
-## Informes de interacciones {#gamification}
-
-Los administradores pueden descargar la transcripción de interacción en formato .csv. Puede descargar el informe para usuarios individuales o grupos de usuarios. El nombre de usuario, el correo electrónico del usuario, el UUID del usuario, el total de puntos de usuario obtenidos, la agrupación de puntos recopilados, el nombre de los grupos en los que el usuario interviene, el nombre del responsable y los valores de los campos activos se obtienen en el informe. Los administradores pueden usar este informe para evaluar y comprender las clasificaciones de usuarios en el nivel de la empresa o para un grupo específico.
-
-1. Seleccione Informe > Informe de Excel > Informe de interacción.
-
-   ![](assets/gamification.png)
-   *Informe de interacción*
-
-1. Aparece el cuadro de diálogo Transcripciones de interacciones. Seleccione alumnos usando su nombre, perfil, grupos de usuarios, ID de correo electrónico o UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Diálogo Transcripciones de interacciones*
-
-1. Haga clic en  **[!UICONTROL Generar]** para generar el informe.
-
-   Después de generar el informe de un alumno, debe poder exportar la información actual y del nivel alcanzado para todos los usuarios (internos, externos o eliminados) de la cuenta. También puede consultar las fechas de los niveles alcanzados por un alumno:
-
-   * Fecha de obtención de Bronce
-   * Fecha de obtención de Plata
-   * Fecha de obtención de Oro
-   * Fecha de obtención de Platino
-
-   Estas columnas contienen las fechas en que se alcanzó el nivel por primera vez. La columna **[!UICONTROL Nivel actual]** muestra el nivel actual del alumno.
-
-   Cuando el administrador restablece la interacción, todos los puntos del alumno se restablecen en consecuencia.
-
-## Informe de seguimiento de auditoría de interacción {#gamification-audit-trail}
-
-Este informe contiene el historial y los motivos de los puntos de interacción de los alumnos obtenidos para cada regla.
-
-### Descargar el informe
-
-1. Seleccione la URL de seguimiento de auditoría de interacción.
-1. En la **Seguimiento de auditoría de interacción** , seleccione el intervalo de fechas.
-1. Seleccionar **Generar**.
-
-El informe se descarga como archivo CSV. El archivo contiene las siguientes columnas:
-
-* Nombre
-* Correo electrónico/UUID,
-* Estado
-* Acción
-* Puntos,
-* Puntos de saldo
-* Regla/ Tarea
-* Subtarea de regla/tarea,
-* Detalles de regla/tarea
-* Tipo,
-* Nombre,
-* Nombre de instanciaFecha de obtención (zona horaria UTC)
-* Hora de inicio de regla/tarea
-* Hora de finalización de regla/tarea
-
-## Informe de inscripción y baja {#enrollmentandunenrollmentreport}
-
-Los administradores y responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Mientras que, como responsable, solo puede obtener un informe de los miembros del equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
-
-Para descargar un informe, siga estos pasos: Abra el  **[!UICONTROL Curso/ Programa de aprendizaje/ Certificación]** > **[!UICONTROL Alumnos]** > **[!UICONTROL Acción]** > **[!UICONTROL Exportar informe]**.
-
-![](assets/unenrollment.png)
-*Informe de cancelación de inscripción*
-
-## Informe de comentarios {#feedback-report}
-
-Como administrador, ahora puede obtener comentarios del alumno (L1) y del responsable (L3) en relación con los cursos de formación seleccionados durante un periodo especificado.
-
-Puede exportar los datos desde la interfaz de usuario o a través del conector de Power BI para realizar un análisis más detallado.
-
-Los informes de comentarios de L1 y L3 ofrecen la opción de descargar un informe de comentarios consolidado para las respuestas de L1 y L3 de los cursos de formación seleccionados para un **de un año** o de hasta 10 cursos de formación seleccionados para cualquier intervalo de fechas.
-
-Inicie sesión como administrador y haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** y, en la lista de informes, haga clic en **[!UICONTROL Informe de comentarios]**.
-
-![](assets/download-feedbackreport.png)
-*Descargar informe de comentarios*
-
-Al hacer clic en Descargar después de seleccionar los filtros, recibirá una notificación para descargar el informe en formato CSV.
-
-El informe descargado incluirá detalles como el nombre y el tipo de curso de formación, el nombre de la instancia, el nombre y el correo electrónico del alumno, el tipo de comentarios: L1 o L3, las fechas de los comentarios enviados para los nuevos datos.
-
-Para los datos existentes antes de la implementación de esta función, se mostrará la fecha de finalización del objeto de aprendizaje, el texto real de ritmo personalizado de la pregunta de comentarios de L1 y el texto de clase en diferentes columnas, las respuestas respectivas de los comentarios de L1, el nombre y el correo electrónico del responsable, el valor de los comentarios de L3 y la fecha de envío, y los campos activos.
-
-También puede exportar los datos desde la interfaz de usuario o en Power BI, que admite todos los cursos de formación de cualquier intervalo de fechas, para realizar un análisis más detallado
-
-## Informe de cursos de formación {#training-report}
-
-Learning Manager admite el informe de formación, que permite a los administradores descargar detalles de formación y sus metadatos asociados, como el autor, la fecha de publicación, las aptitudes, las etiquetas de catálogo, etc.
-
-En la aplicación de administración, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de formación]**.
-
-Puede descargar informes para lo siguiente:
-
-* Cursos de formación seleccionados (límite de 10): permite elegir uno o varios cursos de formación (hasta 10) de cualquier catálogo
-* Cursos de formación de los catálogos seleccionados (límite de 5): se pueden seleccionar hasta cinco catálogos.
-* Todos los cursos de formación: todos los cursos de formación de la cuenta.
-
-![](assets/download-trainingreport.png)
-*Descargar informe de formación*
-
-En la sección Opciones avanzadas, están disponibles las siguientes opciones:
-
-* Incluir asignaciones de cursos con programa de aprendizaje/certificación
-* Incluir información en el nivel de módulo
-
-Después de seleccionar los filtros y hacer clic en Descargar, recibirá una notificación para descargar el informe en formato CSV.
-
-El informe tendrá los siguientes campos:
-
-*Nombre del catálogo, Tipo de curso de formación, ID del curso de formación, ID exclusivo del curso de formación, Nombre del curso de formación, Subcursos de formación, Módulos, Duración del curso de formación o el módulo, Formato, Estado del curso de formación, Aptitudes, Autor, Fecha de la última publicación, Fecha de la última finalización, Recuento de inscripciones de instructores, Cantidad de iniciados, Cantidad de finalizaciones, Puntuación L1 media, Puntuación L2 media, Puntuación L3 media, Respuestas L1 recibidas, Respuestas L2 recibidas, Respuestas L3 recibidas, Etiquetas de catálogo y Etiquetas.*
-
-![](assets/more-options.png)
-*Opciones adicionales*
-
-## Informe de resumen de sesión {#session-summary-report}
-
-El informe de resumen de sesión contiene todas las sesiones planificadas para un alumno en una fecha especificada.
-
-Esto permite al administrador exportar todos los detalles de la sesión virtual y de clase que estén dentro del intervalo de fechas especificado. El administrador también puede exportar el informe de la sesión con respecto a determinados instructores o formadores.
-
-Esto también ayudará al administrador a comprender las sesiones programadas mensualmente e identificar el horario de los instructores y las sesiones ya realizadas.
-
-Como administrador, haga clic en **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de resumen de sesión]**.
-
-En el cuadro de diálogo que aparece a continuación, elija el intervalo de fechas y el instructor o la formación para un resumen.
-
-![](assets/session-summary-report.png)
-*Informe de resumen de sesión*
-
-El informe csv contiene los siguientes campos:
-
-* Fecha y hora de inicio
-* Fecha y hora de finalización
-
-* Nombre de módulo
-* Duración de la sesión (en minutos)
-* Recuento de puestos
-* Ubicación
-* Nombre de la instancia
-* Nombre del curso
-* Id. del curso
-* Nombre del instructor
-* Correo electrónico del instructor
-* Recuento de inscripciones
-* Tipo de sesión
-* Límite de lista de espera
-* N.º en lista de espera
-* Mensajes de correo electrónico de usuario de la lista de espera
-* Información de ubicación
-* Región de la ubicación
-
-## Informe de utilización del instructor
-
-Este informe captura el tiempo (en minutos) que un instructor dedica diariamente a impartir las sesiones asignadas. El informe se puede descargar durante un período de tres meses a partir de la fecha de inicio seleccionada.
-
-Para descargar el informe, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de utilización del instructor]**.
-
-Seleccione uno o varios instructores y el intervalo de fechas.
-
-![Descargar informe de utilización del instructor](assets/utilization-report.png)
-*Descargar informe de utilización del instructor*
-
-El informe descargado contiene los siguientes campos:
-
-* Nombre del instructor
-* ID del instructor
-* Nivel de competencia
-* Fechas como columnas. Si el instructor se utiliza en una fecha, se muestra el número de sesiones. Si no se utiliza el instructor en un día, el valor muestra cero.
-
-El informe contiene registros de tres meses a partir del mes seleccionado.
-
-Para recuperar los registros de todos los instructores, deje el campo Instructor en blanco.
-
-Además, un administrador personalizado con permiso para generar informes puede recuperar este informe.
-
-## Informe de registro de auditoría de usuarios
-
-Este informe captura información sobre los alumnos que cambiaron instancias, &quot;de instancia&quot; a &quot;instancia&quot;, cambiaron por hora, fecha, etc.
-
-Seleccione los alumnos o un grupo de usuarios.
-
-Para descargar el informe, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informe de seguimiento de auditoría de usuarios]**.
-
-![Descargar informe de seguimiento de auditoría de usuarios](assets/user-audit-report.png)
-
-*Descargar informe de seguimiento de auditoría de usuarios*
-
-## Informe de plan de aprendizaje
-
-Este informe contiene información detallada sobre todos los planes de aprendizaje de una cuenta, por ejemplo, los grupos de usuarios relacionados, el estado y la información sobre activadores.
-
-El informe contiene los siguientes campos:
-
-* Nombre del plan de aprendizaje
-* Tipo (se produce cuando)
-* Formación (finalizada)
-* Aptitud (conseguida)
-* Fecha (en fecha)
-* Acción
-* Estado, creado por
-* Fecha de creación
-* Fecha de la última modificación
-* Grupo de usuarios (se aplica a)
-* Grupo de usuarios (añadir a)
-* Inscribirse después de
-* Tipos de elemento de aprendizaje
-* Elementos de aprendizaje
-* Instancias de elemento de aprendizaje
-* Elemento de aprendizaje
-* Fecha de finalización
-* Recordatorio de elemento de aprendizaje
-* Ámbito: catálogo
-* Ámbito: grupo de usuarios
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
