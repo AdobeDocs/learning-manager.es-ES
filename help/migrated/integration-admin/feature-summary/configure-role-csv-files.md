@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Administrar funciones personalizadas mediante archivos CSV
 description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Administrar funciones personalizadas mediante archivos CSV
 
@@ -18,7 +17,7 @@ El administrador de integración puede añadir funciones personalizadas en bloqu
 
 Puede configurar las funciones a través de los conectores de FTP y Box de Learning Manager.
 
-Después de iniciar sesión en su cuenta de almacenamiento de Box o ExaVault, el administrador de integración puede añadir los siguientes CSV a la cuenta:
+Después de iniciar sesión en su cuenta de almacenamiento de Box, el administrador de integración puede añadir los siguientes archivos CSV a la cuenta:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Después de iniciar sesión en su cuenta de almacenamiento de Box o ExaVault, el
 En primer lugar, descargue el archivo CSV y cambie los valores en función de sus requisitos.
 
 **role.csv**
-[Archivo de muestra: role.csv](assets/role.csv) [Archivo de muestra: user_role.csv](assets/user-role.csv)
+* Archivo de muestra: [role.csv](assets/role.csv)
+* Archivo de muestra: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Si en el archivo CSV se proporcionan nombres de catálogos o de grupos de usuari
 * Planes de aprendizaje
 * Plantillas de correo electrónico
 
-## Añadir CSV de función a la cuenta {#addtherolecsvsintheaccount}
+## Añadir los archivos CSV de funciones en la cuenta {#addtherolecsvsintheaccount}
 
 En la cuenta de Box, seleccione **Importar > usuario > interno** y cargue los archivos role.csv y user_role.csv.
 
