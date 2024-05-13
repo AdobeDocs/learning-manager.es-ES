@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ Los autores crean cursos. Los alumnos pueden realizar los cursos y los administr
 
 ### Administrar instancias
 
-En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.
+>[!INFO]
+>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Un ciclo de vida del curso típico tiene el siguiente aspecto:
 
 **Retirado** - Después de publicar un curso, un autor puede moverlo al estado retirado si no desea que el curso aparezca en el catálogo de cursos para los alumnos. Puede volver a publicar o eliminar un curso en este estado.
 
-**Eliminado** - Un curso en estado eliminado se elimina por completo de la aplicación Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos están en estado Borrador. También puede eliminar cursos del estado retirado.
+**Eliminado** - Un curso que se encuentra en estado eliminado se elimina por completo de la aplicación Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos están en estado Borrador. También puede eliminar cursos del estado retirado.
 
 ![](assets/lifecycle-03.png)
 

@@ -4,7 +4,7 @@ title: Administrar funciones personalizadas mediante archivos CSV
 description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 83%

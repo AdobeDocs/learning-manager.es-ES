@@ -4,14 +4,13 @@ title: Accesibilidad en Adobe Learning Manager
 description: En este documento, se describe la compatibilidad con la accesibilidad proporcionada por el sistema de gestión de aprendizaje Learning Manager para los alumnos con discapacidad. También proporciona a los usuarios opciones de navegación y funciones de accesibilidad de la plataforma.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Accesibilidad en Adobe Learning Manager
 
@@ -19,7 +18,7 @@ En este documento, se describe la compatibilidad con la accesibilidad proporcion
 
 Learning Manager sigue los estándares de accesibilidad WCAG 2.1 Nivel A y AA de W3C para la plataforma.
 
-La función de alumno de Adobe Learning Manager permite a los alumnos navegar por la plataforma y aprovechar las siguientes funciones de accesibilidad clave:
+La función Alumno de Adobe Learning Manager permite a los alumnos navegar por la plataforma y aprovechar las siguientes funciones de accesibilidad clave:
 
 * Lector de pantalla
 * Teclado
@@ -151,8 +150,8 @@ La función de alumno de Learning Manager admite otras funciones de accesibilida
 
 Para obtener más información, consulte:
 
-* [Informe de conformidad de accesibilidad para un alumno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Informe de conformidad de accesibilidad para todas las funciones](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Informe de conformidad de accesibilidad para un alumno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Informe de conformidad de accesibilidad para todas las funciones](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Flujos de trabajo principales de Learning Manager (función Alumno) {#captivateprimetopworkflowslearnerrole}
 
