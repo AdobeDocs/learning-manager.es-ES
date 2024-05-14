@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Rechazas de API en Adobe Learning Manager
+title: Obsoletaciones de API en Adobe Learning Manager
 description: A medida que evolucionan las API de Adobe Learning Manager, estas se reorganizan o actualizan periódicamente. Cuando las API evolucionan, la API antigua queda obsoleta y, finalmente, se elimina. Esta página contiene información que debe conocer al migrar de versiones de API obsoletas a versiones de API más nuevas y estables.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
-
 
 # Cambios y depreciaciones de la API en Adobe Learning Manager
 
@@ -113,7 +113,7 @@ En la siguiente versión de Adobe Learning Manager, en el extremo de resumen de 
 
 ### Ordenar por nombre
 
-En la siguiente versión de Adobe Learning Manager, name y -name dejan de utilizarse en el campo de ordenación de las siguientes API:
+En la siguiente versión de Adobe Learning Manager, name y -name ya no se usan en el campo de ordenación de las siguientes API:
 
 * GET /userGroups/{userGroupId}/users
 * GET/usuarios
@@ -123,11 +123,11 @@ En la siguiente versión de Adobe Learning Manager, name y -name dejan de utiliz
 >Para todas las cuentas existentes y nuevas, la ordenación por nombre y -name quedará obsoleta.
 
 
-## Desutilizaciones de API en la versión de noviembre de 2023 de Adobe Learning Manager
+## Rechazas de API en la versión de noviembre de 2023 de Adobe Learning Manager
 
 ### Indicador de anulación
 
-En la versión de noviembre de 2023 de Adobe Learning Manager, se ha interrumpido el indicador de anulación de las API. El indicador de anulación no forma parte de la especificación de las API públicas y se ha diseñado para las pruebas de back-end. El indicador ya no está disponible para las API de alumno. Sin embargo, sigue siendo válido para las API de administrador.
+En la versión de noviembre de 2023 de Adobe Learning Manager, hemos suspendido el indicador de anulación de las API. El indicador de anulación no forma parte de la especificación de las API públicas y se ha diseñado para las pruebas de back-end. El indicador ya no está disponible para las API de alumno. Sin embargo, sigue siendo válido para las API de administrador.
 
 La razón por la que estamos dejando de utilizar el indicador para las API de alumno es que el indicador de anulación obtenía una gran cantidad de datos a través de las API de alumno.
 
@@ -148,3 +148,8 @@ El grupo de iguales se convierte ahora en una cuenta y los alumnos verán una ca
 En versiones anteriores de Adobe Learning Manager, el informe Anuncio de notificación no tenía filtros. Adobe Learning Manager ha descargado todas las notificaciones de la cuenta.
 
 En la versión de noviembre de 2023, hemos añadido un filtro de fecha mediante el cual puede descargar las notificaciones dentro de un período especificado.  Sin embargo, puede descargar el informe sólo durante los últimos seis meses.
+
+### Rechazo de valores de desplazamiento altos en el extremo GET/usuarios
+
+Para mejorar el rendimiento del sistema y administrar el uso de recursos de forma más eficaz, Adobe ha eliminado los valores de desplazamiento alto en el extremo GET/usuarios para ambos **ADMINISTRADOR** y **ALUMNO** ámbitos. Se recomienda utilizar la **API de trabajos** para recuperar los registros con un valor de desplazamiento.
+
