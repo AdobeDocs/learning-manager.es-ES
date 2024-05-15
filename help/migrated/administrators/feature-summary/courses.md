@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ Para devolver una instancia al estado activo, aplique los pasos siguientes:
    *Restaurar una instancia*
 
 1. La instancia se restaura a un modo activo.
+
+## Eliminación de una instancia
+
+Los administradores pueden eliminar la instancia mediante **Eliminar esta instancia** inmediatamente después de la creación. No se pueden eliminar instancias si hay una sesión vinculada a ella o si algún alumno se ha inscrito en ella.
+
+![](assets/delete-this-instance.png)
+
+*Eliminación de una instancia*
+
+>[!NOTE]
+>
+>No se puede eliminar la instancia predeterminada.
 
 ## Enviar correos electrónicos a nivel de instancia
 

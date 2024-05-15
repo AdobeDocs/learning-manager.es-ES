@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Interacción
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 55%
+source-wordcount: '1649'
+ht-degree: 54%
 
 ---
 
@@ -43,6 +43,8 @@ Los administradores pueden configurar los puntos de interacción para los alumno
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ![](assets/set-up-points.png)
+
+*Configurar puntos*
 
 ## Tareas {#tasks}
 
@@ -103,7 +105,7 @@ Situaciones posibles para la suscripción de alumnos en cursos además de los cu
 
 Esta tarea se aplica cuando los alumnos completan un número determinado de competencias. El administrador puede escoger esta tarea para motivar a los alumnos a obtener tantas competencias como sea posible.
 
-Situaciones posibles para mejorar las aptitudes en competencias:
+Posibles escenarios para mejorar las aptitudes en competencias:
 
 1. Cuando el alumno adquiere una competencia, obtiene 100 puntos.
 1. Cuando un alumno adquiere dos competencias, obtiene 300 puntos.

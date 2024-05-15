@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Certificaciones
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1024'
 ht-degree: 68%
 
 ---
@@ -106,6 +106,8 @@ Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar par
 
 ![](assets/recommend-for.png)
 
+*Recomendación*
+
 Elija los cursos que se añadirán a la certificación de **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]** .
 
 Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de añadirlo.
@@ -170,6 +172,8 @@ Para editar una certificación publicada, haga clic en la tarjeta de certificaci
 Mientras edita las secciones de una certificación, si necesita abandonar la página, debe volver a publicar la certificación. Aparece un cuadro de diálogo de confirmación que le solicita volver a publicar la certificación.
 
 ![](assets/edit-a-certificate.png)
+
+*Editar un certificado*
 
 ## Suscripción {#subscription}
 

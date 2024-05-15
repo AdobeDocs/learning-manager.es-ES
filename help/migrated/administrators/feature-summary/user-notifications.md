@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Notificaciones
 description: La función Notificaciones es aplicable a todos los usuarios de Adobe Learning Manager. Sin embargo, cada usuario, según su función, recibe distintos tipos de notificaciones en distintos escenarios.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # Notificaciones
 
@@ -42,7 +41,11 @@ En la siguiente captura de pantalla se muestra un ejemplo de ventana de notifica
 
 Esta ventana emergente muestra resaltadas todas las notificaciones junto con la hora de aparición y una barra de desplazamiento. Puede obtener la cantidad de notificaciones más recientes según el número resaltado en el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número 5 aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
 
-Haga clic en **[!UICONTROL Mostrar todas las notificaciones]** situado en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente.
+Haga clic en **[!UICONTROL Mostrar todas las notificaciones]** situado en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente. En la página notificaciones, puede ver lo siguiente:
+
+* **Todas las notificaciones**: Vea todas las notificaciones aquí
+* **Pendiente**: Vea las notificaciones pendientes aquí
+* **Discusión**: busque cursos para ver los debates que tienen lugar.
 
 ## Configuración de notificaciones de escalación multinivel {#setupmultilevelescalationnotifications}
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Anuncios
 description: Un anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador difunde entre un determinado conjunto de usuarios.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Anuncios
 
@@ -29,6 +28,11 @@ Hay cuatro tipos de anuncios:
 1. Como usuario administrador, haga clic en Anuncios en el panel izquierdo.
 1. Haga clic en Añadir en la esquina superior derecha de la página.
 1. En la lista desplegable Tipo, seleccione la opción **Como notificación**.
+
+![](assets/as-notofocation.png)
+
+*Personalizar la notificación*
+
 1. En el campo Mensaje, añada el mensaje para el anuncio. Aquí también puede agregar una URL para anuncios. Sin embargo, la URL debe añadirse en formato HTML.
 
    Por ejemplo,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

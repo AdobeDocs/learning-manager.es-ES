@@ -4,10 +4,10 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ En la **[!UICONTROL Ruta de aprendizaje]** página, haga clic en **[!UICONTROL A
 
 *Añadir una nueva ruta de aprendizaje*
 
+En la **Tipo de inscripción** opción, seleccionar **Inscripción automática** o **Inscripción de administrador**.
+
+>[!NOTE]
+>
+>Si selecciona la **Inscripción de administrador** Los alumnos solo verán los cursos con nominación de responsable o aprobados por responsable. Los alumnos no podrán ver la ruta de aprendizaje en la sección de recomendaciones.
+
 Después de crear la ruta de aprendizaje, seleccione la ruta de aprendizaje recién creada y añada los cursos en la ruta.
 
 Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para añadir una aptitud, seleccione la aptitud o aptitudes necesarias en el **[!UICONTROL Elegir una aptitud]** lista desplegable. Seleccione también el nivel de la aptitud o las aptitudes.
 
 ![](assets/add-skills.png)
 
+*Añadir una aptitud*
+
 Asigne una insignia a la ruta de aprendizaje. Elija una insignia de la lista de insignias disponibles.
 
 Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que han manifestado interés en esos productos y funciones.
 
 ![](assets/recommend-for.png)
+
+*Recomendación*
 
 Elija el tipo de secuencia para las secciones y el curso de formación como Ordenado o Sin ordenar según sus preferencias.
 
@@ -141,6 +151,20 @@ Hay tres opciones:
 
 Los recordatorios de notificación se activan en función de la opción. De forma predeterminada, la opción **[!UICONTROL Cursos de todos los niveles y rutas de aprendizaje]** está activada para una instancia.
 
+## Suscripciones
+
+Puede suscribirse a las rutas de aprendizaje individuales para recibir directamente en su bandeja de entrada datos completos que incluyan las puntuaciones de las pruebas y el estado de los alumnos.
+
+Siga estos pasos:
+
+1. Vaya a cualquier ruta de aprendizaje > Suscripciones.
+1. Seleccione Añadir más.
+1. Seleccione los detalles y escriba el ID de correo electrónico para recibir los informes.
+
+![](assets/subscriptions.png)
+
+*Suscribirse a rutas de aprendizaje individuales*
+
 ## Nota importante
 
 Tenga en cuenta que la función existente de los programas de aprendizaje cambiará de nombre a Ruta de aprendizaje justo después de la publicación. Si desea continuar llamándolo Programas de aprendizaje, le recomendamos que utilice la función &quot;Terminologías&quot; para aplicar la terminología necesaria. De este modo, puede permitirse utilizar la palabra Programa de aprendizaje.
@@ -151,76 +175,76 @@ Los alumnos pueden seguir consumiendo programas de aprendizaje (ahora denominado
 
 La **[!UICONTROL Configuración]** > **[!UICONTROL General]** tiene una nueva opción para activar las rutas de aprendizaje. Si esta opción está activada, puede añadir cursos y programas de aprendizaje en una ruta de aprendizaje. Una vez activada, no se puede cambiar la opción.
 
-## Otros detalles relacionados con la ruta de aprendizaje
+<!-- ## Other Learning Path-related details 
 
-### La opción Ruta de aprendizaje está desactivada o desmarcada en Configuración de administración
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Cuentas que utilizan aplicaciones web nativas**
+**Accounts using Native Web apps**
 
-**Alumnos**
+**Learners**
 
-* De forma predeterminada, los alumnos observarán un cambio en la terminología de &quot;Programa de aprendizaje&quot; a &quot;Ruta de aprendizaje&quot;. Esto se ha hecho para que la interfaz sea más intuitiva. Si no desea este cambio, consulte los puntos siguientes.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Sin embargo, este cambio no se reflejará en la interfaz de usuario si ya ha utilizado la función &quot;Terminología personalizada&quot; para sustituir la terminología &quot;Programas de aprendizaje&quot; por texto personalizado.
-* En caso de que aún no haya utilizado la función Terminología personalizada, pero ahora desee conservar los &quot;Programas de aprendizaje&quot; como terminología, puede hacerlo a través de la función &quot;Terminología personalizada&quot; tras la publicación de la versión.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* El aspecto y la sensación cosméticos generales de los antiguos &quot;programas de aprendizaje&quot; se actualizarán para obtener un aspecto y una sensación visualmente más ricos.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Autores y administradores**
+**Authors and Admins**
 
-* La terminología de las aplicaciones de administrador y autor es la misma que la de los alumnos.
-* La interfaz de usuario para que la creen los autores y los administradores, y los objetos del antiguo programa de aprendizaje, se actualizará a la nueva interfaz de usuario. No hay pérdida de funcionalidad, solo que la interfaz de usuario para realizar la operación será mucho más intuitiva. Estos cambios en la interfaz de usuario se reflejarán en su cuenta, incluso si ha optado por no habilitar las &quot;Funciones ampliadas de la ruta de aprendizaje&quot;, sin ninguna pérdida de funcionalidad.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Tenga en cuenta que los objetos existentes del programa de aprendizaje no cambiarán, por lo que no tendrá ningún impacto en los alumnos (salvo el punto de terminología mencionado anteriormente). Los autores/administradores podrían observar una agrupación predeterminada denominada &quot;Sección&quot; dentro de sus objetos existentes, que no tendría ningún impacto material en lo que respecta a la funcionalidad. Los autores y administradores también verán funcionalidades añadidas como Aptitudes, Ayudas de trabajo, etc. Sin embargo, como aún no lo has utilizado, no tendrá ningún impacto en el alumno hasta que empieces a usarlo.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Informes**
+**Reporting**
 
-* Si no activa la opción Ruta de aprendizaje , no se producirán cambios en la estructura de informes de transcripciones de alumnos debido a la ruta de aprendizaje. Sin embargo, como se comunicó en el aviso anterior (consulte la tabla compartida en la comunicación anterior), se agregará una nueva columna al extremo derecho de la transcripción del alumno inmediatamente después de la publicación.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Cuentas que usan LMS descentralizado**
+**Accounts using Headless LMS**
 
-**Alumnos**
+**Learners**
 
-* No hay cambios para los alumnos en la interfaz sin encabezado. Las API que también se utilizan para generar los informes no tienen cambios inmediatos.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Autores y administradores**
+**Authors and Admins**
 
-* Los mismos cambios que el de Autores/Administradores indicado anteriormente.
+* Same changes as that of Authors/Admins stated above.
 
-**Informes**
+**Reporting**
 
-* Los mismos cambios que los de los informes mencionados anteriormente.
+* Same changes as that of Reporting stated above.
 
-### La opción Rutas de aprendizaje está activada o activada en Configuración de administración
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Cuentas que utilizan aplicaciones web nativas**
+**Accounts using Native Web apps**
 
-**Alumnos**
+**Learners**
 
-* Los mismos cambios que los de los alumnos cuando la opción está desactivada.
-* A medida que comience a utilizar la funcionalidad ampliada de las rutas de aprendizaje, los alumnos se beneficiarán de ver rutas y secciones más elaboradas, así como de las aptitudes e insignias que se obtienen al finalizar las rutas, los recursos en el nivel de rutas y otras ventajas.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Autores y administradores**
+**Authors and Admins**
 
-* Los mismos cambios que los de los autores y administradores cuando la opción está desactivada.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Los usuarios obtendrán más funcionalidad en la creación de rutas elaboradas. Puede definir niveles de aptitud que un alumno alcanzaría automáticamente al finalizar la trayectoria (no tiene que centrarse en la aritmética de créditos para los niveles). Los recursos se pueden agregar a nivel de ruta (no es posible a partir de hoy). Las secciones se pueden crear con cada sección que tenga la capacidad de tener opciones X de Y. Se puede incrustar una ruta de aprendizaje en otra ruta de aprendizaje (se admite un nivel de jerarquía)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Informes**
+**Reporting**
 
-* Se añadirán algunas columnas nuevas a las estructuras &quot;Transcripción del alumno&quot; e &quot;Informe de contenido&quot; para incorporar la nueva función de incrustación de rutas en rutas. Esto puede afectar al código de integración que haya escrito para exportar estos datos a su almacén de datos o base de datos personalizada fuera de Learning Manager. Esta información se comunica en el cuadro que figura en la comunicación anterior.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Cuentas que usan LMS descentralizado**
+**Accounts using Headless LMS**
 
-**Alumnos**
+**Learners**
 
-* No hay cambios para los alumnos, a menos que realice cambios en su implementación sin encabezado del LMS, ya que las API en las que ha creado su interfaz sin encabezado no cambiarán.
-* Si empieza a utilizar las funciones ampliadas de las rutas de aprendizaje creando nuevas rutas de aprendizaje, sin embargo, tendrá que realizar cambios en la implementación sin encabezado del LMS para reflejar las de la aplicación de alumno. Las API de Learning Manager le permitirán hacerlo.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Autores y administradores**
+**Authors and Admins**
 
-* Los mismos cambios que el de Autores/Administradores indicado anteriormente.
+* Same changes as that of Authors/Admins stated above.
 
-**Informes**
+**Reporting**
 
-* Los mismos cambios que los de los informes mencionados anteriormente.
+* Same changes as that of Reporting stated above. -->
