@@ -1,8 +1,8 @@
 ---
 title: Novedades de esta versión
-description: Obtenga más información sobre las nuevas funciones y mejoras de la versión de noviembre de 2023 de Adobe Learning Manager.
+description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -273,7 +273,7 @@ A partir de ahora, la siguiente API de alumno dejará de funcionar debido a que 
 
 ### Resaltar resultados
 
-En la próxima versión de Adobe Learning Manager, por ejemplo, en la API /search, estamos cambiando el valor predeterminado de highlightResults a false.
+En la próxima versión de Adobe Learning Manager, por ejemplo, en la API /search, vamos a cambiar el valor predeterminado de highlightResults a false.
 
 Además, cambiaremos el valor predeterminado de snippetTypes a courseName. Al hacerlo, solo se resaltarán los nombres de los cursos en la búsqueda si highlightResults es True.
 
