@@ -2,7 +2,7 @@
 title: Transición desde el Administrador de FTP Adobe
 description: Adobe Learning Manager admite un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 68%
@@ -172,5 +172,3 @@ Si hay una migración en curso, cierre el sprint actual que utiliza Exavault com
 
 * La asignación del ID de curso se realiza en el proyecto actual para los cursos que se migran de sistemas heredados externos a Adobe Learning Manager. Solo puede hacerlo si desea actualizar los mismos cursos en el mismo proyecto. Una vez que cierre el proyecto, no podrá modificar sus detalles.
 * Para proyectos de migración basados en API, donde no debe cerrar un proyecto.
-
-<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
