@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ Siga leyendo para saber cómo configurar y usar cada uno de estos conectores en 
 
 >[!NOTE]
 >
->Con la versión de noviembre de 2022 de Adobe Learning Manager, Zoom ha quedado obsoleto [Autenticación JWT para junio de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Por lo tanto, el conector de Zoom con JWT seguirá funcionando hasta la fecha indicada, pero recomendamos a los usuarios que creen una aplicación OAuth de servidor a servidor para reemplazar esta función en la cuenta. Todas las conexiones nuevas tendrán la autenticación de OAuth de Zoom de forma predeterminada.
+>Con la versión de noviembre de 2022 de Adobe Learning Manager, Zoom ha dejado de utilizarse [Autenticación JWT para junio de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Por lo tanto, el conector de Zoom con JWT seguirá funcionando hasta la fecha indicada, pero recomendamos a los usuarios que creen una aplicación OAuth de servidor a servidor para reemplazar esta función en la cuenta. Todas las conexiones nuevas tendrán la autenticación de OAuth de Zoom de forma predeterminada.
 
 ## Conector de Salesforce {#sfconnector}
 
@@ -152,6 +152,10 @@ A continuación, se explica cómo crear los objetos:
 1. Cambie el nombre de los objetos personalizados en Salesforce.
 1. Seleccione los eventos y haga clic en **[!UICONTROL Guardar]**.
 
+>[!NOTE]
+>
+>Asegúrese de que se haya concedido acceso de administrador del sistema a todos los campos activos añadidos después de la instalación del paquete.
+
 **Vincular eventos con:** Elija la sección que desea exportar: Usuario o Contacto. Si elige el objeto Contacto, los usuarios que estén presentes en Learning Manager pero no en Salesforce se crearán en Salesforce.
 
 ![](assets/link-events.png)
@@ -195,7 +199,7 @@ Si desea instalar el paquete, primero debe eliminar el paquete existente en Sale
 
 >[!NOTE]
 >
->La aplicación Adobe Learning Manager solo se admite en la vista de Salesforce Lightning.
+>La aplicación de Adobe Learning Manager solo se admite en la vista de Salesforce Lightning.
 
 1. Inicie el [URL del paquete de Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. En la **Inicio de sesión** página, haga clic en **[!UICONTROL Usar dominio personalizado]**.
@@ -749,7 +753,7 @@ La opción Exportación de aptitudes de usuario permite exportar aptitudes de us
 #### Aspectos a tener en cuenta
 
 * Asegúrese de que el UUID, la dirección de correo electrónico y el nombre del empleado sean únicos en varias integraciones de Workday. Si los valores son incorrectos, se producirá un error de conexión.
-* El campo UUID, una vez rellenado a través de Workday en, no lo puede eliminar ningún cliente que tenga que ver con el administrador de LMS. Si deseas cambiar el valor, ponte en contacto con el equipo de incorporación o asistencia de Adobe Learning Manager.
+* El campo UUID, una vez rellenado a través de Workday en, no lo puede eliminar ningún cliente que tenga que ver con el administrador de LMS. Si deseas cambiar el valor, ponte en contacto con el equipo de Asistencia o incorporación de Adobe Learning Manager.
 * La opción Purga de usuarios también puede no funcionar, ya que Purga de usuarios solo admite 50 usuarios para que sean purgas por ejecución. Tenga sumo cuidado al cargar los usuarios mediante los UUID.
 
 ### Programación {#Scheduling-1}
@@ -958,7 +962,7 @@ Siga estos pasos para configurar y utilizar el conector.
 
 ### Crear una aplicación de OAuth de servidor a servidor de zoom
 
-Al crear una aplicación de OAuth de servidor a servidor de Zoom para utilizarla en Adobe Learning Manager, debe añadir los ámbitos necesarios para Adobe Learning Manager al crear la conexión.
+Al crear una aplicación Zoom de servidor a servidor OAuth para utilizarla en Adobe Learning Manager, debe agregar los ámbitos requeridos por Adobe Learning Manager al crear la conexión.
 
 Adobe Learning Manager requiere los ámbitos siguientes y los ámbitos deben seleccionarse en la aplicación OAuth.
 
