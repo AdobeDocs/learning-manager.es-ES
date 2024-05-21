@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Personalizar la página de inicio del alumno
 description: Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # Personalizar la página de inicio del alumno
 
@@ -85,7 +84,7 @@ Esta opción se activará y aparecerá atenuada si se elige la experiencia envol
 
 ![](assets/option-immersive.png)
 
-*Selección para la experiencia clásica*
+*Configuración de la página principal del alumno*
 
 El diseño envolvente es el predeterminado para todas las cuentas nuevas. El diseño está controlado por widgets que un administrador puede activar o desactivar. En función de cómo se coloquen los widgets, se mostrará lo mismo en la página de inicio del alumno.
 

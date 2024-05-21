@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Para enviar notificaciones por correo electrónico, un administrador debe establ
 ![](assets/escalation-notification.png)
 
 *Establecer nivel de escalación*
+
+## Lista de espera
+
+La sección Lista de espera permite que los alumnos estén en lista de espera para cursos de clase cuando las plazas son limitadas, en función de su orden de inscripción. Los administradores pueden gestionar esto seleccionando alumnos en lista de espera y asignando puestos que superen el límite inicial. Una vez que el administrador asigna una licencia, el alumno se inscribe inmediatamente en el curso.
+
+## Foro de debate
+
+La función Foro de debate permite a los alumnos ver las discusiones del curso. Como administrador, tiene la posibilidad de eliminar cualquier comentario que considere necesario. Los administradores pueden activar esta opción en la configuración del curso.
 
 ## Moderación de los cursos {#coursemoderation}
 

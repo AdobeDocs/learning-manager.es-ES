@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Resumen de nuevas funciones {#new-features-summary}
 
 Descubra las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager.
+
+Explora algunas de las últimas funciones de Adobe Learning Manager, como:
+
+1. Importar aptitudes desde orígenes externos
+1. Compatibilidad con varias marcas
+1. Módulo de actividad de reevaluación de la lista de comprobación
+1. Aplicación de aprendizaje móvil con etiqueta blanca
+
+>[!NOTE]
+>
+>Mira esto [seminario web](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) para obtener más información sobre las nuevas funciones de esta versión.
+
 
 ## Novedades de esta versión {#whatsnewandchanged}
 
