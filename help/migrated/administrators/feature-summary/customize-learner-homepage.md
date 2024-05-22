@@ -4,9 +4,9 @@ title: Personalizar la página de inicio del alumno
 description: Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
   </tr>
   <tr>
    <td>
+    <p>Inscripciones que muestran el plazo</p></td>
+   <td>
+    <p>Muestra las inscripciones que han vencido, que tienen fechas límite próximas o que están en curso. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Interacción</p></td>
    <td>
     <p>Muestra la tabla de clasificación en función de las actividades de aprendizaje.</p></td>
@@ -159,24 +165,24 @@ Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se
       <p>En segundo lugar, el administrador también puede decidir si las recomendaciones se inician inmediatamente o en una fecha especificada.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recomendación en función del área de interés</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Muestra los objetos de aprendizaje en función del área de interés elegida por el alumno. La recomendación se basa en un algoritmo de aprendizaje automático.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Examinar por catálogo<br></p></td>
    <td>
     <p>Muestra los catálogos como mosaicos en la página de inicio. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recomendación en función de la actividad de los compañeros<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Muestra la formación en función de lo que estén realizando los compañeros de un alumno. Esto se controla de nuevo mediante un algoritmo de aprendizaje automático.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ En la **General** , dispone de las siguientes opciones:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>En la nueva cuenta, la configuración de la página de inicio del alumno, el tipo de curso de formación y el ámbito de recomendación no estarán visibles.
+
