@@ -2,14 +2,13 @@
 description: Lee este artículo para obtener información sobre cómo configurar plantillas de correo electrónico para eventos relacionados con todos los objetos de aprendizaje.
 jcr-language: en_us
 title: Plantillas de correo electrónico
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # Plantillas de correo electrónico
 
@@ -21,11 +20,13 @@ Como autor, puede personalizar las plantillas de correo electrónico añadiendo 
 
 También puede optar por no enviar notificaciones por correo electrónico para ciertos eventos deshabilitando la opción de plantilla de correo electrónico.
 
-## Notificaciones por correo electrónico {#settingemailnotifications}
+## Configurar notificaciones por correo electrónico {#settingemailnotifications}
 
-1. En la aplicación de autor, haga clic en el objeto de aprendizaje para el que desea configurar la plantilla de correo electrónico. Por ejemplo, Cursos.
+1. En la aplicación de autor, seleccione el objeto de aprendizaje para el que desea configurar la plantilla de correo electrónico. Por ejemplo, Cursos.
+
 1. En la página Objeto de aprendizaje, haga clic en el curso, certificación o programa de aprendizaje para el que desea configurar el correo electrónico.
-1. En la página de detalles del objeto de aprendizaje, haga clic en Plantillas de correo electrónico.
+
+1. En la página de detalles del objeto de aprendizaje, seleccione **Plantillas de correo electrónico** > **Todas las plantillas**. Las plantillas de correo electrónico están disponibles para **Instancia predeterminada** y **Curso actual**. Puede cambiar entre ellos usando el menú desplegable situado en la esquina superior derecha.
 
    Puede ver la lista de plantillas disponibles para el objeto de aprendizaje que elija.
 
@@ -68,3 +69,11 @@ También puede optar por no enviar notificaciones por correo electrónico para c
 Si el círculo en el botón de notificación junto a cada nombre de evento es adyacente a Sí (con un fondo azul), la notificación está activada. Si el fondo es gris y el círculo es adyacente a No, la notificación está desactivada.
 
 Cada vez que configura una plantilla de correo electrónico en el nivel del curso, tiene prioridad sobre la configuración del nivel de administrador de ese curso en particular.
+
+## Configuración de plantilla de correo electrónico
+
+El autor puede configurar lo siguiente en la configuración de la plantilla de correo electrónico:
+
+* **Banner de correo electrónico**: permite modificar el banner del correo electrónico.
+
+* **Firma por correo electrónico**: permite añadir o editar la firma del correo electrónico.

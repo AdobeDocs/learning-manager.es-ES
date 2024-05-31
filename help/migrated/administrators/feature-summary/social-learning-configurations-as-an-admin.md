@@ -4,16 +4,18 @@ jcr-language: en_us
 title: Supervisión y moderación de Aprendizaje social como administrador
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3604'
-ht-degree: 63%
+source-wordcount: '3756'
+ht-degree: 62%
 
 ---
 
 # Supervisión y moderación de Aprendizaje social como administrador
 
 El administrador puede activar, desactivar y supervisar las actividades que se efectúan en Aprendizaje social. Cuando está activada la función Aprendizaje social, los alumnos pueden verla y empezar a participar en ella.
+
+El aprendizaje social permite a los alumnos estudiar desde cualquier lugar y compartir contenido con sus compañeros. Esta función permite a los alumnos interactuar, intercambiar ideas y colaborar, lo que mejora su experiencia de aprendizaje general.
 
 ## Activar y configurar las opciones de Aprendizaje social {#enableandconfiguresettingsinsociallearning}
 
@@ -32,7 +34,7 @@ Si desea activar y configurar las opciones de Aprendizaje social, efectúe el pr
 
 El administrador puede configurar opciones de Aprendizaje social. La configuración incluye tipos de gestión del contenido como **[!UICONTROL Conservación solo manual]** y **[!UICONTROL Sin gestión]**. La configuración del ámbito se puede establecer en un ámbito diferente, como el tipo de usuario (interno/externo) o cualquier otro campo activo presente en la cuenta. El administrador define la ruta de la dirección URL desde donde los alumnos pueden descargar la aplicación Adobe Learning Manager para escritorio.
 
-## Revisión de contenido {#contentcuration}
+### Revisión de contenido {#contentcuration}
 
 Debido a que Aprendizaje social es un tipo de aprendizaje informal, funciona de manera similar a otras plataformas de redes sociales. A menudo, las redes sociales distraen a las personas porque consumen con frecuencia contenido irrelevante que afecta a su productividad. Esta opinión se puede contrarrestar mediante la revisión y la moderación del contenido.
 
@@ -40,11 +42,163 @@ Debido a que Aprendizaje social es un tipo de aprendizaje informal, funciona de 
 
 **[!UICONTROL Gestión manual asistida automáticamente]:** Learning Manager cuenta con un motor de revisión automática basado en inteligencia artificial que puede descubrir de forma inteligente la esencia del contenido en cualquier formato que se pueda proporcionar posteriormente a los alumnos deseados. También puede aprobar o rechazar la publicación de un contenido en función de su puntuación de confianza.
 
-Por ejemplo, Adarsh es un alumno y encontró un blog interesante, por lo que lo publica en la plataforma de aprendizaje social de Adobe Learning Manager. A continuación, la publicación se envía al motor de gestión de contenido basado en IA, que predice las aptitudes presentes en el contenido y las compara con las aptitudes asociadas del tablero. Si alguna de las aptitudes coincide, el contenido se publica; de lo contrario, se envía para una revisión solo manual.
+Por ejemplo, Adarsh es un alumno y encontró un blog interesante, por lo que lo publica en la plataforma de Aprendizaje social de Adobe Learning Manager. A continuación, la publicación se envía al motor de gestión de contenido basado en IA, que predice las aptitudes presentes en el contenido y las compara con las aptitudes asociadas del tablero. Si alguna de las aptitudes coincide, el contenido se publica; de lo contrario, se envía para una revisión solo manual.
 
 La puntuación de confianza mínima necesaria para publicar es del 50 %.
 
 **[!UICONTROL Conservación solo manual]:** Para comprobar la autenticidad del contenido antes de que se active, el administrador puede activar la configuración de gestión solo manual. Tras activarla, el contenido se transfiere a los principales expertos en la materia (tres como máximo) para que lo revisen. Sobre la base de la respuesta media, la publicación se aprueba o se rechaza en consecuencia. Si la respuesta es mayor que el 50 por ciento, la publicación se publica o se rechaza. Para obtener más información sobre los expertos en la materia, [haga clic aquí](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+
+
+En el ámbito nuevo, el usuario adquiere puntos para actividades en los tableros.
+
+En las secciones de la tabla de posiciones de Social, un usuario puede ver a todos los usuarios de su mismo ámbito y a los usuarios especiales.
+
+Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
+
+Si los usuarios especiales se convierten en PYMES al obtener puntos suficientes, aparecen en el **[!UICONTROL Principales expertos en la materia]** en la tabla de líderes sociales.
+
+Para que el cambio surta efecto, espere 60 minutos.
+
+### Configuración del ámbito {#scopesettings}
+
+En Aprendizaje social, un ámbito determina los tableros que se pueden ver, lo cual controla la visibilidad del contenido. Si un usuario tiene un ámbito, por ejemplo, ***Proveedor_A***, solo puede ver los tableros y publicaciones asociadas creados por otras personas que pertenezcan al mismo ámbito ***Proveedor_A***.
+
+De este modo, los administradores mantienen una serie de usuarios, por ejemplo proveedores, socios o departamentos en una organización aparte.
+
+El aprendizaje social y las tablas de posiciones se pueden activar para usuarios internos y externos.
+
+Hay secciones independientes para activar usuarios internos y externos.
+
+**Activar para alumnos internos**
+
+En esta sección, puede elegir la característica de usuario para definir el ámbito de aprendizaje social para usuarios internos. Usuarios con las mismas características **valor** compartir el mismo espacio de Aprendizaje social.
+
+Desde el **Característica de usuario** , elija la opción que corresponda.
+
+![](assets/choose-value-of-usercharacteristic.png)
+
+*Seleccione las características del usuario para definir el ámbito*
+
+De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** en la opción Lista desplegable de características de usuario siempre está seleccionada.
+
+Puede elegir el ámbito de los usuarios internos en función de sus campos activos.
+
+**Activar para alumnos externos**
+
+Para definir el ámbito del aprendizaje de los usuarios externos, utilice un perfil externo. Los alumnos con el mismo perfil externo comparten un espacio común de aprendizaje social.
+
+![](assets/choose-an-externalprofile.png)
+
+*Habilitar ámbito para alumnos externos*
+
+El ámbito de los usuarios externos se determina en función de sus perfiles externos.
+
+Por ejemplo, en la lista de arriba, si activa **[!UICONTROL Acme Corp]**, todos los alumnos que pertenezcan a Acme Corp pueden ver los tableros que han creado. Si desactiva la opción **Henry Cavill**, los alumnos no pueden ver ningún tablero creado por Henry Cavill.
+
+El administrador puede examinar la visibilidad del contenido según el campo activo que se visualiza en **[!UICONTROL Característica de usuario]**.
+
+Por ejemplo, el administrador puede definir el ámbito en **[!UICONTROL Tipo de usuario (interno/externo)]**. Al establecer el ámbito en Tipo de usuario, el contenido compartido en la plataforma de Aprendizaje social por cualquier alumno interno solo es visible para otros alumnos internos de la organización, no para los usuarios externos, y viceversa.
+
+Cuando el administrador selecciona una opción de Característica de usuario, la función Aprendizaje social se puede limitar a alumnos y grupos de alumnos marcando la casilla de verificación debajo del campo Característica de usuario. Haga clic en el campo de valor para seleccionar el alumno o los grupos de alumnos para quienes desea activar la función Aprendizaje social.
+
+De forma predeterminada, el ámbito lo establece el **[!UICONTROL Tipo de usuario]** alumnos internos o externos.
+
+Si el campo activo no contiene ningún valor, el administrador no tendrá acceso a la lista desplegable del campo **[!UICONTROL Valor]**.
+
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
+
+Los usuarios también pueden publicar su contenido mediante la aplicación de escritorio de Adobe Learning Manager. En función de si el usuario es de Mac o Windows, debe hacerse clic en los vínculos para descargar la aplicación y aplicar las instrucciones para instalarla en el sistema correspondiente. Si tiene problemas para realizar la instalación, [haga clic aquí](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+
+### Configuraciones de las descargas {#downloadconfigurations}
+
+<!--![](assets/download-config.png)-->
+
+En Servidores Enterprise, el administrador puede cambiar la ubicación desde la cual los alumnos pueden descargar la aplicación para escritorio en Windows y Mac.
+
+![](assets/enterprise-servers.png)
+
+*Cambiar la ubicación de descarga*
+
+La URL del servidor Enterprise debe hospedarse de manera pública.
+
+### Permisos de creación de tableros {#permission}
+
+Para restringir la creación de tableros de todos los alumnos y moderarlos con eficacia, un administrador puede otorgar permisos a fin de crear tableros para un determinado grupo de usuarios.
+
+![](assets/grant-permissiontocreateboards.png)
+
+*Definir permisos para crear un tablero*
+
+De forma predeterminada, la opción **[!UICONTROL Todos los alumnos]** está activada.
+
+**[!UICONTROL Todos los alumnos]:** Si elige esta opción, todos los usuarios internos y externos pueden crear tableros.
+
+**Un grupo de alumnos:** si elige esta opción, los usuarios con permiso para crear un tablero son los únicos que ven el vínculo **[!UICONTROL Crear un nuevo tablero]** en Aprendizaje social. Elija el grupo de usuarios al que se debe conceder permiso para crear un tablero. También puede añadir grupos de usuarios generados automáticamente y personalizados.
+
+<!--![](assets/grant-permissiontoausergroup.png)-->
+
+Los usuarios que comparten el mismo ámbito solo pueden ver el tablero. Los usuarios que no tienen el permiso no pueden ver el vínculo **[!UICONTROL Crear un nuevo tablero]**.
+
+Para que el cambio surta efecto, espere 60 minutos.
+
+## Usuarios especiales {#privilege}
+
+Un administrador puede otorgar privilegios especiales a un grupo de usuarios y determinar los miembros del grupo que pueden participar en todos los tableros. El grupo de usuarios especiales pasa por alto cualquier restricción que se hubiera definido en la configuración del ámbito.
+
+El grupo de usuarios puede ser de generación automática o personalizado.
+
+Un usuario al que se otorgue este privilegio tiene acceso a todos los tableros, excepto los **tableros privados**.
+
+![](assets/special-users.png)
+
+*Otorgar privilegios especiales*
+
+Cuando el administrador selecciona un grupo de usuarios, de forma predeterminada todos los usuarios del grupo pueden acceder a todos los tableros, sea cual sea el ámbito del usuario. Cualquier usuario con estos privilegios superiores puede ver y participar en todos los tableros internos y externos.
+
+Los usuarios especiales reciben solicitudes de revisión en todos los ámbitos si los usuarios tienen suficientes puntos de experto en la materia para esa aptitud.
+
+Si el usuario carece de los correspondientes puntos de experto en la materia, los privilegios de revisión se transfieren a los tres expertos en la materia principales de la aptitud.
+
+En el ámbito nuevo, el usuario adquiere puntos para actividades en los tableros.
+
+En las secciones de la tabla de posiciones de Social, un usuario puede ver a todos los usuarios de su mismo ámbito y a los usuarios especiales.
+
+Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
+
+Si los usuarios especiales se convierten en PYMES al obtener puntos suficientes, aparecen en el **[!UICONTROL Principales expertos en la materia]** en la tabla de líderes sociales.
+
+Para que el cambio surta efecto, espere 60 minutos.
+
+### Personalizar el banner social {#customize-social-banner}
+
+El administrador puede personalizar el título y el subtítulo que aparecen en la imagen de encabezado de la página principal de Aprendizaje social. Independientemente de lo que el administrador decida introducir como título y subtítulo, las mismas funciones se encuentran en la página principal de Aprendizaje social del alumno.
+
+1. En la aplicación de administración, haga clic en **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**.
+1. Haga clic en **[!UICONTROL Personalizar]**.
+1. Cambie la imagen del banner. Las dimensiones de la imagen deben ser al menos **1600 x 240 px**.
+1. Active la opción para ocultar o mostrar el **[!UICONTROL Más información]** en el banner.
+1. Introduzca el título y el subtítulo en los campos especificados a continuación:
+
+   ![](assets/image012.png)
+
+   *Personalizar el banner social*
+
+Dispone de otras opciones:
+
+* **[!UICONTROL Idioma]:** En la lista desplegable, elija el idioma al que traducir el título y el subtítulo. También puede añadir texto personalizado para diferentes idiomas.
+* **[!UICONTROL Replicar]:** Haga clic en este botón para replicar el título y el subtítulo en todos los idiomas.
+* **[!UICONTROL Restablecer]:** Haga clic en este botón para volver al título y al subtítulo originales.
+
+  En la página principal de Aprendizaje social, la información proporcionada por el administrador se muestra como encabezado de página.
+
+  <!--![](assets/banner-learner.png)-->
+
+### Vista de aprendizaje social
+
+Un administrador puede seleccionar la vista de aprendizaje social de las siguientes configuraciones:
+
+* Vista de publicación: al seleccionar esta opción, se muestran las publicaciones individuales de todos los tableros.
+* Vista de tablero: al seleccionar esta opción, se muestran todos los tableros disponibles.
 
 ## Revisión automática de contenido {#autocuration}
 
@@ -146,128 +300,6 @@ Si no se alcanza el 50 % después de un día, se envía al siguiente conjunto d
 
 +++
 
-## Configuración del ámbito {#scopesettings}
-
-En Aprendizaje social, un ámbito determina los tableros que se pueden ver, lo cual controla la visibilidad del contenido. Si un usuario tiene un ámbito, por ejemplo, ***Proveedor_A***, solo puede ver los tableros y publicaciones asociadas creados por otras personas que pertenezcan al mismo ámbito ***Proveedor_A***.
-
-De este modo, los administradores mantienen una serie de usuarios, por ejemplo proveedores, socios o departamentos en una organización aparte.
-
-El aprendizaje social y las tablas de posiciones se pueden activar para usuarios internos y externos.
-
-Hay secciones independientes para activar usuarios internos y externos.
-
-**Activar para alumnos internos**
-
-En esta sección, puede elegir la característica de usuario para definir el ámbito de aprendizaje social para usuarios internos. Usuarios con las mismas características **valor** compartir el mismo espacio de Aprendizaje social.
-
-Desde el **Característica de usuario** , elija la opción que corresponda.
-
-![](assets/choose-value-of-usercharacteristic.png)
-
-*Seleccione las características del usuario para definir el ámbito*
-
-De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** en la opción Lista desplegable de características de usuario siempre está seleccionada.
-
-Puede elegir el ámbito de los usuarios internos en función de sus campos activos.
-
-**Activar para alumnos externos**
-
-Para definir el ámbito del aprendizaje de los usuarios externos, utilice un perfil externo. Los alumnos con el mismo perfil externo comparten un espacio común de aprendizaje social.
-
-![](assets/choose-an-externalprofile.png)
-
-*Habilitar ámbito para alumnos externos*
-
-El ámbito de los usuarios externos se determina en función de sus perfiles externos.
-
-Por ejemplo, en la lista de arriba, si activa **[!UICONTROL Acme Corp]**, todos los alumnos que pertenezcan a Acme Corp pueden ver los tableros que han creado. Si desactiva la opción **Henry Cavill**, los alumnos no pueden ver ningún tablero creado por Henry Cavill.
-
-El administrador puede examinar la visibilidad del contenido según el campo activo que se visualiza en **[!UICONTROL Característica de usuario]**.
-
-Por ejemplo, el administrador puede definir el ámbito en **[!UICONTROL Tipo de usuario (interno/externo)]**. Al establecer el ámbito en Tipo de usuario, el contenido compartido en la plataforma de Aprendizaje social por cualquier alumno interno solo es visible para otros alumnos internos de la organización, no para los usuarios externos, y viceversa.
-
-Cuando el administrador selecciona una opción de Característica de usuario, la función Aprendizaje social se puede limitar a alumnos y grupos de alumnos marcando la casilla de verificación debajo del campo Característica de usuario. Haga clic en el campo de valor para seleccionar el alumno o los grupos de alumnos para quienes desea activar la función Aprendizaje social.
-
-De forma predeterminada, el ámbito lo establece el **[!UICONTROL Tipo de usuario]** alumnos internos o externos.
-
-Si el campo activo no contiene ningún valor, el administrador no tendrá acceso a la lista desplegable del campo **[!UICONTROL Valor]**.
-
-<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
-
-Los usuarios también pueden publicar su contenido mediante la aplicación de Adobe Learning Manager para escritorio. En función de si el usuario es de Mac o Windows, debe hacerse clic en los vínculos para descargar la aplicación y aplicar las instrucciones para instalarla en el sistema correspondiente. Si tiene problemas para realizar la instalación, [haga clic aquí](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
-
-## Permisos de creación de tableros {#permission}
-
-Para restringir la creación de tableros de todos los alumnos y moderarlos con eficacia, un administrador puede otorgar permisos a fin de crear tableros para un determinado grupo de usuarios.
-
-![](assets/grant-permissiontocreateboards.png)
-
-*Definir permisos para crear un tablero*
-
-De forma predeterminada, la opción **[!UICONTROL Todos los alumnos]** está activada.
-
-**[!UICONTROL Todos los alumnos]:** Si elige esta opción, todos los usuarios internos y externos pueden crear tableros.
-
-**Un grupo de alumnos:** si elige esta opción, los usuarios con permiso para crear un tablero son los únicos que ven el vínculo **[!UICONTROL Crear un nuevo tablero]** en Aprendizaje social. Elija el grupo de usuarios al que se debe conceder permiso para crear un tablero. También puede añadir grupos de usuarios generados automáticamente y personalizados.
-
-<!--![](assets/grant-permissiontoausergroup.png)-->
-
-Los usuarios que comparten el mismo ámbito solo pueden ver el tablero. Los usuarios que no tienen el permiso no pueden ver el vínculo **[!UICONTROL Crear un nuevo tablero]**.
-
-Para que el cambio surta efecto, espere 60 minutos.
-
-## Usuarios especiales {#privilege}
-
-Un administrador puede otorgar privilegios especiales a un grupo de usuarios y determinar los miembros del grupo que pueden participar en todos los tableros. El grupo de usuarios especiales pasa por alto cualquier restricción que se hubiera definido en la configuración del ámbito.
-
-El grupo de usuarios puede ser de generación automática o personalizado.
-
-Un usuario al que se otorgue este privilegio tiene acceso a todos los tableros, excepto los **tableros privados**.
-
-![](assets/special-users.png)
-
-*Otorgar privilegios especiales*
-
-Cuando el administrador selecciona un grupo de usuarios, de forma predeterminada todos los usuarios del grupo pueden acceder a todos los tableros, sea cual sea el ámbito del usuario. Cualquier usuario con estos privilegios superiores puede ver y participar en todos los tableros internos y externos.
-
-Los usuarios especiales reciben solicitudes de revisión en todos los ámbitos si los usuarios tienen suficientes puntos de experto en la materia para esa aptitud.
-
-Si el usuario carece de los correspondientes puntos de experto en la materia, los privilegios de revisión se transfieren a los tres expertos en la materia principales de la aptitud.
-
-En el ámbito nuevo, el usuario adquiere puntos para actividades en los tableros.
-
-En las secciones de la tabla de posiciones de Social, un usuario puede ver a todos los usuarios de su mismo ámbito y a los usuarios especiales.
-
-Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
-
-Si los usuarios especiales se convierten en PYMES al obtener puntos suficientes, aparecen en el **[!UICONTROL Principales expertos en la materia]** en la tabla de líderes sociales.
-
-Para que el cambio surta efecto, espere 60 minutos.
-
-## Personalizar el banner social {#customize-social-banner}
-
-El administrador puede personalizar el título y el subtítulo que aparecen en la imagen de encabezado de la página principal de Aprendizaje social. Independientemente de lo que el administrador decida introducir como título y subtítulo, las mismas funciones se encuentran en la página principal de Aprendizaje social del alumno.
-
-1. En la aplicación de administración, haga clic en **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**.
-1. Haga clic en **[!UICONTROL Personalizar]**.
-1. Cambie la imagen del banner. Las dimensiones de la imagen deben ser al menos **1600 x 240 px**.
-1. Active la opción para ocultar o mostrar el **[!UICONTROL Más información]** en el banner.
-1. Introduzca el título y el subtítulo en los campos especificados a continuación:
-
-   ![](assets/image012.png)
-
-   *Personalizar el banner social*
-
-Dispone de otras opciones:
-
-* **[!UICONTROL Idioma]:** En la lista desplegable, elija el idioma al que traducir el título y el subtítulo. También puede añadir texto personalizado para diferentes idiomas.
-* **[!UICONTROL Replicar]:** Haga clic en este botón para replicar el título y el subtítulo en todos los idiomas.
-* **[!UICONTROL Restablecer]:** Haga clic en este botón para volver al título y al subtítulo originales.
-
-  En la página principal de Aprendizaje social, la información proporcionada por el administrador se muestra como encabezado de página.
-
-  <!--![](assets/banner-learner.png)-->
-
 ## Tendencias {#trends}
 
 Las tendencias de actividad social del alumno se pueden ver y seguir en la pestaña Actividad en la sección Tendencias . Estos datos se pueden ver durante diferentes períodos de tiempo, por ejemplo los últimos siete días, el mes pasado, los últimos tres meses y todo el tiempo.
@@ -363,7 +395,7 @@ El administrador puede ver la puntuación de la actividad, el número de publica
 
 ## Dominio de aptitudes {#skilldomain}
 
-En función de las aptitudes utilizadas principalmente por los usuarios finales de Learning Manager, Adobe Learning Manager ha categorizado una lista de 25 dominios de aptitudes que el sistema de gestión automática utiliza para seleccionar contenido. El administrador debe asignar las aptitudes empresariales configuradas a los dominios de aptitudes proporcionados por Captivate Prime. La asignación de aptitudes se puede realizar desde la página Aptitud de administrador al crear una aptitud o modificando una aptitud existente. Para obtener más información sobre cómo asignar o añadir una aptitud, [haga clic aquí](skills-levels.md#Createaskillandalevel).
+En función de las aptitudes utilizadas principalmente por los usuarios finales de Learning Manager, Adobe Learning Manager ha categorizado una lista de 25 dominios de aptitudes que el sistema de selección automática utiliza para seleccionar contenido. El administrador debe asignar las aptitudes empresariales configuradas a los dominios de aptitudes proporcionados por Captivate Prime. La asignación de aptitudes se puede realizar desde la página Aptitud de administrador al crear una aptitud o modificando una aptitud existente. Para obtener más información sobre cómo asignar o añadir una aptitud, [haga clic aquí](skills-levels.md#Createaskillandalevel).
 
 +++Lista de dominios de aptitudes que utiliza el sistema de revisión de Learning Manager
 
@@ -449,18 +481,6 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 **Los expertos en la materia también reciben puntos según las actividades de revisión siguientes:**
 
 * Cuando una publicación se envía a revisión manual porque el proceso automático no sabe decidir si el contenido es relevante o no, el experto en la materia obtiene 5 puntos al enviar la moderación.
-
-## Configuraciones de las descargas {#downloadconfigurations}
-
-<!--![](assets/download-config.png)-->
-
-En Servidores Enterprise, el administrador puede cambiar la ubicación desde la cual los alumnos pueden descargar la aplicación para escritorio en Windows y Mac.
-
-![](assets/enterprise-servers.png)
-
-*Cambiar la ubicación de descarga*
-
-La URL del servidor Enterprise debe hospedarse de manera pública.
 
 ## Actividades sociales para el plan de facturación de usuarios activos mensuales {#socialactivitiesformonthlyactiveusersbillingplan}
 

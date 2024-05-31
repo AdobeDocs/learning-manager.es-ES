@@ -2,26 +2,30 @@
 description: Este documento contiene información sobre objetos de aprendizaje para responsables.
 jcr-language: en_us
 title: Objetos de aprendizaje
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Objetos de aprendizaje
 
 Este documento contiene información sobre objetos de aprendizaje para responsables.
 
-Un responsable puede inscribir alumnos debajo de él en cursos, programas de aprendizaje y certificaciones. Para obtener más información y los pasos necesarios para inscribirse, consulte [Inscribir alumnos](../../administrators/feature-summary/courses.md#main-pars_header_1058138132).
+Un responsable puede inscribir a los alumnos debajo de él en cursos, rutas de aprendizaje y certificaciones. Para obtener más información y los pasos necesarios para inscribirse, consulte [Inscribir alumnos](../../administrators/feature-summary/courses.md#main-pars_header_1058138132).
 
 ## Cursos {#courses}
 
 ## Cómo ver los cursos {#viewingcourses}
 
 Puede ver una lista de todos los cursos disponibles como responsable. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo para ver la lista de cursos con las opciones de búsqueda y filtro. También puede ver el porcentaje de eficacia de cada curso en las miniaturas del curso. Tenga en cuenta que solo puede inscribir miembros del equipo en cursos que sean visibles para usted en la aplicación del alumno.
+
+![](assets/view-course.png)
+
+*Ver cursos*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ Como responsable, puede obtener una lista de alumnos de los miembros de su equip
 ![](assets/courses-learners.png)
 
 *Seleccionar una acción del alumno*
+
+>[!NOTE]
+>
+>**Exportar aprobaciones pendientes** se puede realizar desde la aplicación del alumno.
 
 En la página Alumnos, puede realizar las acciones siguientes:
 
@@ -98,20 +106,30 @@ En esta captura de pantalla de ejemplo, 1 de 1 usuarios ha recibido los tres com
 
 Según el gráfico circular que se muestra arriba, se le da más peso a los comentarios de L3 del responsable.
 
-## Buscar cursos, programas de aprendizaje y certificaciones {#searchingcourseslearningprogramsandcertifications}
+## Búsqueda de cursos, rutas de aprendizaje y certificaciones {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Learning Manager hace que sea más fácil encontrar los cursos o los programas de aprendizaje de su elección. Puede buscar los cursos de dos maneras:
+Adobe Learning Manager le facilita la búsqueda rápida de los cursos y rutas de aprendizaje que elija. Puede buscar los cursos de dos maneras:
 
-1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o programas de aprendizaje. También puede realizar búsquedas con etiquetas predefinidas, como Captivate, C, Java y HTML. Las etiquetas se pueden buscar dentro del campo Buscar, lo que significa que las etiquetas se muestran en el campo de búsqueda mientras escribe. La búsqueda también se puede ejecutar mediante un ID único.
-1. Utilizar los filtros en la lista de cursos o programas de aprendizaje y certificaciones. Puede filtrar los cursos por estado, por ejemplo todos los cursos publicados y los retirados.
+1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o rutas de aprendizaje. También puede realizar búsquedas con etiquetas predefinidas, como Captivate, C, Java y HTML. Las etiquetas se pueden buscar dentro del campo Buscar, lo que significa que las etiquetas se muestran en el campo de búsqueda mientras escribe. La búsqueda también se puede ejecutar mediante un ID único.
+1. Filtrando la lista de cursos/rutas de aprendizaje/certificaciones mediante los filtros. Puede filtrar los cursos por estado, por ejemplo todos los cursos publicados y los retirados.
 
-Puede realizar búsquedas según las competencias si hace clic en Competencias y las selecciona. Como responsable, puede ordenar los cursos de cuatro maneras para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso o eficacia de los cursos:
+Puede buscar en función de las competencias seleccionando **Competencias** y elegirlas. Como responsable, puede ordenar los cursos de cuatro maneras para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso, fecha de creación del curso o eficacia de los cursos:
 
-![](assets/admin-sortby.png)
+* Nombre (a-z)
+* Nombre (z-a)
+* Fecha de actualización
+* Fecha de creación
+* Eficacia del curso
 
-*Búsqueda basada en competencias*
+![](assets/filter-courses.png)
 
-Puede ordenar los programas de aprendizaje de tres maneras: orden alfabético ascendente, orden alfabético descendente y según la fecha de actualización.
+*Filtrar cursos*
+
+Puede ordenar las rutas de aprendizaje de tres maneras: orden alfabético ascendente, orden alfabético descendente y según la fecha de actualización.
+
+![](assets/filter-learning-paths.png)
+
+*Filtrar ruta de aprendizaje*
 
 ## Inscribir alumnos en cursos {#enrollinglearnersintocourses}
 
@@ -128,28 +146,28 @@ El responsable inscribe algunos alumnos en cursos obligatorios en función de lo
 >
 >Solo puede inscribir alumnos que pertenezcan a su equipo.
 
-## Programas de aprendizaje {#learningprograms}
+## Rutas de aprendizaje {#learningprograms}
 
 El responsable puede inscribir, ver puntuaciones de pruebas, comentarios de L1 y L3, y anular la inscripción solo de los autores de los informes.
 
-## Añadir alumnos a un programa de aprendizaje {#addlearnerstoalearningprogram}
+## Añadir alumnos a una ruta de aprendizaje {#addlearnerstoalearningprogram}
 
-1. En modo de responsable, haga clic en Programas de aprendizaje en el panel izquierdo.
-1. Seleccione el programa de aprendizaje publicado en la lista de mosaicos al que desea añadir alumnos.
+1. En el modo de responsable, haga clic en Rutas de aprendizaje en el panel izquierdo.
+1. Seleccione la ruta de aprendizaje publicada en la lista de mosaicos a la que desea añadir alumnos.
 1. Haga clic en Alumnos en el panel izquierdo en la categoría Informes de programas. Nota: El programa de aprendizaje se debe publicar antes de añadir alumnos.
 1. Haga clic en el vínculo Inscribir en la página.
 1. Empiece a escribir el nombre de los alumnos y seleccione los alumnos en la lista desplegable de alumnos. Haga clic en Guardar.
 
 ## Ver puntuaciones de pruebas {#Viewquizscores-1}
 
-1. Haga clic en cualquier mosaico de programa de aprendizaje.
+1. Haga clic en cualquier mosaico de ruta de aprendizaje.
 1. Haga clic en Puntuación de prueba en el panel izquierdo.
 
-Puede ver la puntuación de prueba de cualquier programa de aprendizaje en particular según el nombre de usuario o según cada pregunta. Para ello, elija la ficha Por usuario o Por pregunta, respectivamente. Las puntuaciones de pruebas se muestran solo de curso en curso. Cambie el nombre del curso en el menú desplegable para ver las puntuaciones de pruebas de otros cursos. También puede exportar puntuaciones de pruebas de cada curso. Elija el tipo de instancia de la lista desplegable para ver las puntuaciones según cada instancia del programa de aprendizaje.
+Puede ver las puntuaciones de las pruebas de cualquier ruta de aprendizaje concreta en función del nombre de usuario o de cada pregunta. Para ello, elija la ficha Por usuario o Por pregunta, respectivamente. Las puntuaciones de pruebas se muestran solo de curso en curso. Cambie el nombre del curso en el menú desplegable para ver las puntuaciones de pruebas de otros cursos. También puede exportar puntuaciones de pruebas de cada curso. Elija el tipo de instancia en la lista desplegable para ver las puntuaciones según cada instancia del trazado de aprendizaje.
 
 ## Dar de baja alumnos {#unenrollmentforlearners}
 
-El responsable puede dar de baja un alumno si el alumno aún no ha iniciado el programa de aprendizaje.
+El responsable puede dar de baja a un alumno si este aún no ha iniciado la ruta de aprendizaje.
 
 ## Marcar finalización {#markcompletion}
 
@@ -217,7 +235,7 @@ Si el alumno envía el archivo, el responsable puede verlo desde la página de e
 
 Cuando los cursos se definen como obligatorios:
 
-* En la página de envíos, los alumnos solo se enumeran después de que estos hayan completado los cursos.
+* La página de envío muestra los alumnos solo después de que estos hayan completado los cursos.
 * El alumno solo puede cargar un archivo después de completar el curso.
 
 ## Ayudas de trabajo {#jobaids}
