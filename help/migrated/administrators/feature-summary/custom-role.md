@@ -4,7 +4,7 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -224,7 +224,7 @@ Un usuario con una función personalizada puede:
 
 1. **Usuarios:** utilice esta opción para determinar los usuarios a los que se asigna esta función. Puede elegir uno o varios usuarios mediante el cuadro de búsqueda.
 
-   **Añadir usuarios a la carga de CSV de funciones personalizadas:** Para añadir usuarios mediante carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador utilizó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en  **[!UICONTROL Agregar > Cargar un CSV]**.
+   **Añadir usuarios a la carga de CSV de funciones personalizadas:** Para añadir usuarios mediante la carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador utilizó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en  **[!UICONTROL Agregar > Cargar un CSV]**.
 
    Columna CustomRoleNota:
 
@@ -483,3 +483,4 @@ Una función personalizada es como un subconjunto de la función de autor o admi
 
 Haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Funciones personalizadas]**. En la página Roles personalizados, haga clic en **[!UICONTROL Crear función]**. Introduzca el nombre de la función personalizada y establezca los privilegios de la función. Para obtener más información, consulte [Creación de una cuenta personalizada](custom-role.md#create-role).
 +++
+
