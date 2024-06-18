@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Para implementar y administrar su propia aplicación con etiqueta blanca, siga e
 
 1. Asignar un recurso técnico que sea capaz de:
 
-* Generando los archivos de certificado de notificación de inserción.
-* Firmar los archivos binarios de la aplicación proporcionados por el equipo de ALM.
-* Cargar y administrar el proceso de publicación. El proceso de publicación requiere la comunicación entre el administrador de aplicaciones y los equipos de la tienda de aplicaciones/play para que la aplicación cumpla con todas las directrices de publicación. Desde ALM, recibirá un binario de aplicación totalmente compatible.
+   * Generando los archivos de certificado de notificación de inserción.
+   * Firmar los archivos binarios de la aplicación proporcionados por el equipo de ALM.
+   * Cargar y administrar el proceso de publicación. El proceso de publicación requiere la comunicación entre el administrador de aplicaciones y los equipos de la tienda de aplicaciones/play para que la aplicación cumpla con todas las directrices de publicación. Desde ALM, recibirá un binario de aplicación totalmente compatible.
 
 ## Información general
 
@@ -39,165 +39,211 @@ Se pueden personalizar las siguientes opciones:
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>Id De Cuenta</p></td>
-
-   <td>
-
-    <p>El ID de su cuenta. Tenga en cuenta que los alumnos que pertenezcan a cualquier otra cuenta no podrán acceder a la aplicación con etiqueta blanca.</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>Id. de cuenta adicionales</p></td>
+    <p>Id De Cuenta</p>
+
+   </td>
 
    <td>
 
-    <p>Agregue varias cuentas (subdominios) si lo desea. Añada los subdominios separados por comas sin espacios. Por ejemplo, acc01,acc02,acc03, etc.<br> <b>Nota:</b> Debe añadir el ID de cuenta al especificar los subdominios.</br> </p></td>
+    <p>El ID de su cuenta. Tenga en cuenta que los alumnos que pertenezcan a cualquier otra cuenta no podrán acceder a la aplicación con etiqueta blanca.</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nombre de aplicación</p></td>
+    <p>Id. de cuenta adicionales</p>
 
-  <td>
+   </td>
 
-  <p>El nombre que desea usar para la aplicación.</p></td>
+   <td>
 
-  </tr>
+    <p>Agregue varias cuentas (subdominios) si lo desea. Añada los subdominios separados por comas sin espacios. Por ejemplo, acc01,acc02,acc03, etc.<br> <b>Nota:</b> Debe añadir el ID de cuenta al especificar los subdominios.</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>Nombre abreviado de la aplicación</p></td>
-
-  <td>
-
-  <p>En los casos en que el nombre de la aplicación sea largo, asigne a la aplicación un nombre corto que aparezca en el dispositivo.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Nombre de aplicación interna</p></td>
-
-  <td>
-
-  <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es: com.nombre-empresa.nombre-producto.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nombre de la aplicación interna: iOS</p></td>
+    <p>Nombre de aplicación</p></td>
 
-  <td>
+   <td>
 
-  <p>Asigne a la aplicación un nombre diferente si los usuarios están en iOS. Se recomienda utilizar el mismo nombre para iOS y Android.</p></td>
+    <p>El nombre que desea usar para la aplicación.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Icono de aplicación</p></td>
-
-  <td>
-
-  <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Pantalla de bienvenida de aplicaciones</p></td>
+    <p>Nombre abreviado de la aplicación</p>
 
-  <td>
+   </td>
 
-  <p>Para la pantalla de bienvenida de su aplicación, proporcione una imagen (png) que aparezca cuando los usuarios inicien la aplicación. El formato que se debe asignar al nombre es account-id_splashIcon.png. Las dimensiones de las pantallas de bienvenida basadas en cuadrados son de 1052 × 1052 píxeles y las pantallas de bienvenida basadas en círculos son de 768 x 768 píxeles.</p></td>
+   <td>
 
-  </tr>
+    <p>En los casos en que el nombre de la aplicación sea largo, asigne a la aplicación un nombre corto que aparezca en el dispositivo.</p>
 
-  <tr>
-
-  <td>
-
-  <p>ID de cliente y secreto de cliente</p></td>
-
-  <td>
-
-  <p>El administrador de integración de su cuenta proporciona los detalles al registrar la aplicación. El administrador de integración debe utilizar lo siguiente:<ul><li>alumno:leer,alumno:escribir como función</li><li>aplicación interna name://redirect como URL de redirección</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Logotipo de la cuenta</p></td>
+    <p>Nombre de aplicación interna</p></td>
 
-  <td>
+   <td>
 
-  <p>La dirección URL que aloja el logotipo de su organización. Proporcione un vínculo cpcontents como logotipo de la cuenta. La URL debe estar codificada en la web.</p></td>
+    <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es: com.nombre-empresa.nombre-producto.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Id. de App Store para la aplicación (iOS)</p></td>
-
-  <td>
-
-  <p>El ID necesario para implementar la actualización forzada. La aplicación debe saber que el alumno debe redirigirse a la tienda de aplicaciones para actualizar la aplicación.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>ID de Google Play Store para la aplicación (Android)</p></td>
-
-  <td>
-
-  <p>El ID necesario para implementar la actualización forzada.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nombre de host para enlaces profundos</p></td>
+    <p>Nombre de la aplicación interna: iOS</p>
 
-  <td>
+   </td>
 
-  <p>Para alojar vínculos profundos, utilice learning Manager. Si desea utilizar otra dirección URL de nombre de host como vínculo profundo, proporcione la dirección URL del host. Por ejemplo, learningmanager.adobe.com.</p></td>
+   <td>
+
+    <p>Asigne a la aplicación un nombre diferente si los usuarios están en iOS. Se recomienda utilizar el mismo nombre para iOS y Android.</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>Icono de aplicación</p>
+
+   </td>
+
+   <td>
+
+    <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Pantalla de bienvenida de aplicaciones</p></td>
+
+   <td>
+
+    <p>Para la pantalla de bienvenida de su aplicación, proporcione una imagen (png) que aparezca cuando los usuarios inicien la aplicación. El formato que se debe asignar al nombre es account-id_splashIcon.png. Las dimensiones de las pantallas de bienvenida basadas en cuadrados son de 1052 × 1052 píxeles y las pantallas de bienvenida basadas en círculos son de 768 x 768 píxeles.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>ID de cliente y secreto de cliente</p>
+
+   </td>
+
+   <td>
+
+    <p>El administrador de integración de su cuenta proporciona los detalles al registrar la aplicación. El administrador de integración debe utilizar lo siguiente:<ul><li>alumno:leer,alumno:escribir como función</li><li>aplicación interna name://redirect como URL de redirección</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Logotipo de la cuenta</p>
+
+   </td>
+
+   <td>
+
+    <p>La dirección URL que aloja el logotipo de su organización. Proporcione un vínculo cpcontents como logotipo de la cuenta. La URL debe estar codificada en la web.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Id. de App Store para la aplicación (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>El ID necesario para implementar la actualización forzada. La aplicación debe saber que el alumno debe redirigirse a la tienda de aplicaciones para actualizar la aplicación.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>ID de Google Play Store para la aplicación (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>El ID necesario para implementar la actualización forzada.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Nombre de host para enlaces profundos</p>
+
+   </td>
+
+   <td>
+
+    <p>Para alojar vínculos profundos, utilice learning Manager. Si desea utilizar otra dirección URL de nombre de host como vínculo profundo, proporcione la dirección URL del host. Por ejemplo, learningmanager.adobe.com.</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
