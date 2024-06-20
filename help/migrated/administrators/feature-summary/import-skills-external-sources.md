@@ -4,9 +4,9 @@ title: Importar aptitudes desde orígenes externos
 description: Importe aptitudes de proveedores de contenido, como LinkedIn y Go1, mediante los conectores correspondientes.  Las aptitudes importadas se añadirán a las aptitudes definidas por el administrador en Learning Manager y estarán disponibles para los autores durante el flujo de trabajo de creación del curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ No puede editar el nombre de la aptitud, la descripción y añadir niveles a apt
 
 ### Aptitudes y créditos del curso predeterminado
 
-Después de importar aptitudes, se añaden a los recursos de aprendizaje importados del origen que se seleccionó como origen de aptitudes. Por ejemplo, si el origen de la aptitud es LinkedIn Learning, todos los recursos de aprendizaje importados de LinkedIn Learning tendrán las aptitudes que proporciona. Cuando se importa a recursos de aprendizaje, cada recurso de aprendizaje proporciona un valor predeterminado de 10 créditos. Si desea cambiar esto, póngase en contacto con su CSM.
+Después de importar aptitudes, se añaden a los recursos de aprendizaje importados del origen que se seleccionó como origen de aptitudes. Por ejemplo, si el origen de la aptitud es LinkedIn Learning, todos los recursos de aprendizaje importados de LinkedIn Learning tendrán las aptitudes que proporciona. Cuando se importa a recursos de aprendizaje, cada recurso de aprendizaje proporciona un valor predeterminado de 10 créditos.
 
 #### Informes
 
