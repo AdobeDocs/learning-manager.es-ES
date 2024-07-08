@@ -1,16 +1,16 @@
 ---
 description: Obtenga más información sobre las nuevas funciones y mejoras de la versión de julio de 2024 de Adobe Learning Manager
 jcr-language: en_us
-title: Novedades de esta versión
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: Resumen de nuevas funciones
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 3%
+source-wordcount: '2178'
+ht-degree: 2%
 
 ---
 
 
-# Novedades de esta versión {#whatsnewandchanged}
+# Resumen de nuevas funciones {#new-features-summary}
 
 Obtenga más información sobre las nuevas funciones y mejoras de la versión de julio de 2024 de Adobe Learning Manager.
 
@@ -77,7 +77,7 @@ La experiencia de no haber iniciado sesión le permite crear una experiencia en 
 
 ### Qué es lo que cambia en esta versión
 
-Los clientes pueden comprar un plan premium para crear estas experiencias altamente escalables sin sesión iniciada. Esta experiencia no registrada, con tecnología de Acceso a datos](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) de formación, proporciona datos en tiempo real sobre los límites de puestos, puestos ocupados, los límites de la lista de espera y el recuento de la lista de espera utilizando las API de [Adobe Learning Manager. Los clientes pueden utilizar estas API para ofrecer a los alumnos que no han iniciado sesión capacidades de búsqueda y filtro, así como un resumen completo del curso.
+Los clientes pueden comprar un plan premium para crear estas experiencias altamente escalables sin sesión iniciada. Esta experiencia no registrada, con tecnología de Acceso a datos](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) de formación, proporciona datos en tiempo real sobre los límites de puestos, puestos ocupados, los límites de la lista de espera y el recuento de la lista de espera utilizando las API de [Adobe Learning Manager. Los clientes pueden utilizar estas API para ofrecer a los alumnos que no han iniciado sesión capacidades de búsqueda y filtro, así como un resumen completo del curso. Consulte este artículo [API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) no conectadas para obtener más información sobre las API.
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ Vea [los requisitos](/help/migrated/system-requirements.md) del sistema de Adobe
 ## Versiones anteriores de Adobe Learning Manager
 
 * [Versión de marzo de 2024](/help/migrated/whats-new-march-2024.md)
-* [Versión de noviembre de 2024](/help/migrated/whats-new-november-2023.md)
+* [Versión de noviembre de 2023](/help/migrated/whats-new-november-2023.md)
