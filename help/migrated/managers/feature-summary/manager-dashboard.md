@@ -3,24 +3,23 @@ description: Obtenga información sobre cómo ver y realizar el seguimiento de a
 jcr-language: en_us
 title: Tablero de responsable
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 68%
+source-wordcount: '1432'
+ht-degree: 49%
 
 ---
-
-
 
 # Tablero de responsable
 
 Obtenga información sobre cómo ver y realizar el seguimiento de aprendizajes desde el tablero de responsable.
 
-Los gestores desempeñan un papel importante en las iniciativas de aprendizaje de un equipo. Para que los responsables trabajen en mejores condiciones, la plataforma de aprendizaje proporciona una vista de tablero en la que se puede realizar el seguimiento de los aprendizajes de su equipo.
+Los gerentes juegan un papel importante en las iniciativas de aprendizaje de un equipo. Para que los responsables trabajen en mejores condiciones, la plataforma de aprendizaje proporciona una vista de tablero en la que se puede realizar el seguimiento de los aprendizajes de su equipo.
 
 ![](assets/dashboard-final.png)
 
-*Informe de tablero de un responsable*
+*Informe de tablero para un responsable*
 
 Para ver los detalles de un gráfico, haga clic en el gráfico o en el vínculo **[!UICONTROL Detalles]**.
 
@@ -32,7 +31,7 @@ Las opciones Mes y Año se basan en el año natural. Por su parte, Trimestre se 
 
 ![](assets/learning-summarydashboard.png)
 
-*Ver las actividades de aprendizaje durante períodos de tiempo*
+*Ver las actividades de aprendizaje durante un período de tiempo*
 
 ## Vista de equipo {#teamview}
 
@@ -40,9 +39,9 @@ En la vista de equipo, se muestran los equipos, los integrantes y sus inscripcio
 
 ![](assets/ls-team-view.png)
 
-*La vista de equipo muestra los equipos, sus miembros y sus inscripciones respectivas*
+*La vista de equipo muestra los equipos, sus miembros y sus respectivas inscripciones*
 
-Al hacer clic en los nombres de los equipos, por ejemplo, el equipo de Venkatesh, puede ver los miembros del equipo de Venkatesh junto con el número total de inscripciones, progresos y finalizaciones de un objeto de aprendizaje.
+Al hacer clic en los nombres de los equipos, por ejemplo, Equipo de Venkatesh, puede ver los miembros del equipo de Venkatesh junto con el número total de inscripciones, progresiones y finalizaciones de un objeto de aprendizaje.
 
 ![](assets/ls-click-team-names.png)
 
@@ -52,7 +51,7 @@ Para ver el resumen del aprendizaje de cada integrante del equipo, haga clic en 
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
-*Seleccionar un jefe de equipo*
+*Seleccione un administrador de equipo*
 
 También es posible ver objetos de aprendizaje y la cantidad de inscripciones, progresos o finalizaciones haciendo clic en los valores de las columnas correspondientes.
 
@@ -60,7 +59,7 @@ También es posible ver objetos de aprendizaje y la cantidad de inscripciones, p
 
 *Ver cursos y resumen de aprendizaje*
 
-Al hacer clic en el número de inscripciones, progresos o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
+Al hacer clic en la cantidad de inscripciones, progresiones o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
@@ -76,98 +75,150 @@ Para ver información sobre personas, fechas de inscripción, de vencimiento y e
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Vista de aprendizaje*
+*Vista de aprendizajes*
 
 ## Exportar informe {#exportreport}
 
-Para generar un informe de Excel, haga clic en **[!UICONTROL Acciones] > [!UICONTROL Informe]**
+Para generar un informe de Excel, seleccione **[!UICONTROL Acciones] > [!UICONTROL informe]**
 
 ## Estado de cumplimiento {#compliancestatus}
 
-Los responsables pueden ver el estado de cumplimiento general del equipo para los aprendizajes configurados en el tablero de cumplimiento. La lista de aprendizajes se puede configurar. Por su parte, el responsable puede seleccionar los aprendizajes para efectuar el seguimiento del estado del cumplimiento.
+En el tablero de cumplimiento, los responsables pueden ver el estado general de cumplimiento del equipo para los aprendizajes configurados en categorías específicas (por ejemplo, ventas, marketing y legal). Los administradores pueden crear un tablero con cursos de conformidad, rutas de aprendizaje o certificaciones, y compartirlo con los responsables. Los responsables pueden ver el tablero compartido por el administrador en sus instancias.
 
-En este tablero, los responsables también pueden ver los alumnos que cumplen, si aún les queda plazo, si el plazo se aproxima y si no cumplen respecto a un objeto de aprendizaje.
+### Ver el tablero
 
-En el tablero de cumplimiento, se pueden configurar objetos de aprendizaje con límites de finalización para realizar el seguimiento.
+Para ver el tablero, seleccione **[!UICONTROL el tablero]** de cumplimiento desde la aplicación del administrador.
 
-**Compatibles**: muestra la cantidad de alumnos que han finalizado el objeto de aprendizaje dentro del límite de finalización.
+![](assets/compliance-dashboard-manager.png)
+_Aplicación Compliance dashboard-Manager_
 
-**Plazo prudente**: muestra la cantidad de alumnos que tienen menos de 30 días para finalizar un objeto de aprendizaje.
+El tablero de cumplimiento incluye los siguientes estados de cumplimiento:
 
-**Próximo plazo**: muestra la cantidad de alumnos que disponen de más de 30 días para completar un objeto de aprendizaje.
+* **[!UICONTROL Alumnos]** que no cumplen las normas: muestra la cantidad de alumnos que incumplieron los plazos.
+* **[!UICONTROL Alumnos que se acercan a la fecha límite]**: muestra el número de alumnos con plazos en menos de 30 días.
+* **[!UICONTROL Alumnos con plazos]** seguros: muestra el recuento de alumnos con plazos más lejanos (más de 30 días).
+* **[!UICONTROL Alumnos]** totalmente conformes: muestra el número de alumnos que cumplen todos los requisitos.
+* **[!UICONTROL Alumnos no inscritos en ninguna parte]**: muestra el recuento de alumnos que no se han inscrito en ningún curso, rutas de aprendizaje ni certificaciones.
 
-**No cumplen**: muestra la cantidad de alumnos que no han finalizado el objeto de aprendizaje dentro del límite de finalización.
+### Gestores de correo electrónico y alumnos
+
+**Gestión de varios equipos**
+
+Si gestiona varios equipos, puede notificar a los responsables sobre el estado de aprendizaje de los miembros de su equipo mediante la selección de la opción Responsables ]**de**[!UICONTROL  correo electrónico disponible en la sección Vista ]**de**[!UICONTROL  equipo.
+
+![](assets/email-managers.png)
+_Gestores de correo electrónico_
+
+Email **[!UICONTROL Managers]** le ofrece las siguientes opciones:
+
+* **[!UICONTROL Responsables de correo electrónico de alumnos que no cumplen las]** normas: notifique a los responsables cuyos miembros del equipo incumplieron los plazos.
+* **[!UICONTROL Los responsables de correo electrónico de los alumnos se acercan a las fechas límite]**: notifique a los responsables cuyos miembros del equipo tienen fechas límite próximas.
+
+**Gestión de un solo equipo**
+
+Si gestiona un único equipo, puede notificar a sus alumnos sobre su estado de aprendizaje seleccionando la **[!UICONTROL opción Enviar correo electrónico a los]** alumnos disponible en la sección Vista ]**de**[!UICONTROL  equipo.
+
+![](assets/email-learners.png)
+_Alumnos con correo electrónico_
+
+La **[!UICONTROL opción Alumnos]** por correo electrónico le ofrece las siguientes opciones:
+
+* **[!UICONTROL Enviar por correo electrónico a alumnos]** que no cumplen las normas: notifique a los alumnos que no cumplieron los plazos.
+* **[!UICONTROL Enviar un correo electrónico a los alumnos que se acercan a las fechas límite]**: notifique a los alumnos que tienen fechas límite próximas.
+
+### Descargar informe
+
+Para descargar el informe, siga estos pasos:
+
+1. En la aplicación del responsable, vaya al **[!UICONTROL Tablero]** de cumplimiento > **[!UICONTROL a la vista]** Equipo.
+1. Seleccione **[!UICONTROL Descargar informe]** para guardar el tablero como un informe.
+Esto le permite realizar un seguimiento del progreso general del aprendizaje de su equipo.
+
+![](assets/download-report.png)
+_Descargar informes_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+
+Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
+
+**Compliant**: Displays the number of learners who have completed the learning object within completion deadline.
+
+**Safe deadline**: Displays the number of learners who have less than 30 days available to complete a learning object.
+
+**Upcoming Deadline**: Displays the number of learners with more than 30 days available to complete a learning object.
+
+**Non-compliant**: Displays the number of learners who did not complete the learning object within the completion deadline.
 
 ![](assets/cs-dashboard.png)
 
-*Ver panel de cumplimiento*
+*View compliance dashboard*
 
-## Vista de equipo {#TeamView-1}
+## Team View {#TeamView-1}
 
-Muestra el estado del cumplimiento de un curso de los equipos respectivos. En la tabla Vista de equipo, se muestran las columnas Compatibles, Plazo prudente, Próximo plazo y No cumplen.
+Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
 ![](assets/cs-team-view.png)
 
-*estado de cumplimiento de un curso para los equipos respectivos*
+*compliance status of a course for respective teams*
 
-Para mostrar los nombres de los miembros de un equipo y el número individual de cursos para los que su estado es Compatible, en Fecha límite segura, Fecha límite próxima y No compatible, haga clic en los valores correspondientes de la tabla.
+To display names of the members in a team and the individual number of courses for which their status is Compliant, in Safe Deadline, reaching Upcoming Deadline, and Non Compliant, click the corresponding values in the table.
 
 ![](assets/cs-team-view-on-clickingthenumber.png)
 
-*Seleccionar equipos individuales*
+*Select individual teams*
 
-Al hacer clic en los valores de las columnas Compatibles, Plazo prudente, Próximo plazo y No cumplen, se muestran los detalles de curso correspondientes: nombre de objeto de aprendizaje, fecha de inscripción o de finalización, fecha de vencimiento y progreso en porcentaje.
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non-compliant column, the corresponding course details are displayed: Learning object name, enrollment/ completion date, due date, and progress in percentage.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
-*Ver progreso de cursos*
+*View progress of courses*
 
-## Vista de aprendizajes {#LearningsView-1}
+## Learnings View {#LearningsView-1}
 
-En Vista de aprendizajes de Estado de cumplimiento, se muestra la lista de objetos de aprendizaje y el número correspondiente de miembros del equipo que hay en cada columna de Compatibles, Plazo prudente, Próximo plazo o No cumplen.
+In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
 ![](assets/cs-learnings-view.png)
 
-*Ver fecha límite y estado de cumplimiento*
+*View deadline and compliance status*
 
-Al hacer clic en los valores de las columnas Compatibles, Plazo prudente, Próximo plazo y No cumplen, se muestran los datos siguientes: Personas, Fecha de inscripción, Fecha de finalización y Progreso.
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non compliant columns, the following data is displayed: People, Enrollment Date, Completion date, and Progress.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
-*Ver detalles del cumplimiento*
+*View details of compliance*
 
-## Exportar datos y enviar correos electrónicos {#exportdataampsendemails}
+## Export data & send emails {#exportdataampsendemails}
 
-* Para exportar el estado de cumplimiento para la vista de equipo y de aprendizaje, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Exportar]**.
+* To export the compliance status for team and learnings view, click **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
 
-* Para enviar un correo electrónico a los miembros del equipo, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Enviar correo electrónico]**.
+* To send an email to team members, click **[!UICONTROL Actions]** > **[!UICONTROL Send Email]**.
 
 ![](assets/cs-send-email-andexport.png)
 
-*Exportar y enviar datos por correo electrónico*
+*Export and email data*-->
 
 ## Aptitudes de equipo {#teamskills}
 
-Los responsables pueden ver el gráfico de finalización de aptitudes y configurar un pronóstico de finalización de aptitudes en diferentes niveles. En la lista desplegable de aptitudes, se enumeran cinco aptitudes. El responsable conoce la experiencia obtenida por los miembros del equipo e identifica dónde está el talento en determinadas aptitudes.
+Los responsables pueden ver el gráfico de finalización de aptitudes y configurar un pronóstico de finalización de aptitudes en diferentes niveles. La lista desplegable de aptitudes incluye cinco aptitudes. El gerente llega a conocer la experiencia adquirida por los miembros del equipo e identifica un fuerte talento en ciertas habilidades.
 
-Asimismo, puede impulsar aptitudes concretas en un equipo definiendo un objetivo y una previsión del tiempo que se necesitará para adquirir un determinado porcentaje de aptitudes de un equipo en un plazo de tiempo.
+Los gerentes también pueden impulsar ciertas habilidades en un equipo al establecer una meta y pronosticar cuánto tiempo tomaría lograr una habilidad para un porcentaje específico de un equipo dentro de una línea de tiempo.
 
 Esta previsión se basa en cálculos de sistema que ofrecen una perspectiva futura sobre el progreso de esa aptitud.
 
 ![](assets/ts-dashboard-02.png)
 
-*Ver previsión de aptitud*
+*Ver pronóstico de habilidades*
 
-Para ver el estado de aptitudes de un equipo, siga los pasos que se indican a continuación:
+Para ver el estado de las aptitudes de un equipo, siga los pasos que se indican a continuación:
 
-1. Haga clic en **[!UICONTROL Habilidades de equipo]** en el panel izquierdo, bajo la sección Vista de mi equipo.
+1. Haga clic **[!UICONTROL en Aptitudes]** de equipo en el panel izquierdo en la sección Mi vista de equipo.
 1. Para ver las aptitudes que se muestran, haga clic en el filtro de aptitudes y seleccione una de la lista desplegable.
 1. Para seleccionar un nivel (1, 2 o 3), haga clic en el menú desplegable de niveles.
 1. En función de la aptitud y el nivel seleccionados, se muestra un gráfico con su estado de aptitud. Al pasar el cursor sobre el gráfico, se pueden ver los porcentajes siguientes relativos al estado de la aptitud: **En curso** y **Conseguido**.
 
    ![](assets/first-graph.png)
 
-   *Ver porcentaje del estado de la aptitud*
+   *Ver porcentaje de estado de aptitud*
 
 ## Cómo prever el porcentaje de finalización del equipo respecto a una aptitud {#howtoforecasttheteamcompletionforaskill}
 
@@ -179,17 +230,17 @@ Para prever el porcentaje de finalización del equipo respecto a una aptitud, si
 
    *Seleccione el hipervínculo Configurar*
 
-1. En el cuadro de diálogo emergente configurar, introduzca un valor de porcentaje en la aptitud que desee configurar **% de finalización de objetivo** y la fecha en la que desea alcanzar el porcentaje de finalización objetivo en el campo **Fecha objetivo** campo.****
+1. En el cuadro de diálogo emergente de configuración, para la aptitud que desee configurar, introduzca un valor porcentual en el campo % de **finalización** de destino y la fecha en la que desea alcanzar el porcentaje de finalización previsto en el **campo Fecha** objetivo.****
 
    ![](assets/configure-tracker.png)
 
-   *Introducir porcentaje de finalización de destino*
+   *Introduzca el porcentaje de finalización del objetivo*
 
-1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado se parece a la captura de pantalla siguiente.
+1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado es similar a la captura de pantalla siguiente.
 
    ![](assets/skill-tracker-output.png)
 
-   *Ver salida del rastreador de aptitudes*
+   *Ver salida de tracxker de aptitudes*
 
 ## Previsión de finalización del nivel de aptitud {#skilllevelcompletionforecast}
 
@@ -201,19 +252,19 @@ En la línea continua, el primer punto muestra la fecha de la primera inscripci�
 
 ![](assets/1-dotted-line.png)
 
-*Ver la primera inscripción de un nivel de aptitud*
+*Ver la primera inscripción para un nivel de aptitud*
 
 El segundo punto muestra la fecha actual y el porcentaje de finalización del equipo respecto a la aptitud.
 
 ![](assets/2-solid-line.png)
 
-*Ver la fecha actual y el nivel % de finalización del equipo de la aptitud*
+*Ver la fecha actual y el nivel de porcentaje de finalización del equipo de la habilidad*
 
 El tercer punto de la línea muestra el porcentaje de finalización objetivo previsto y la fecha de finalización objetivo.
 
 ![](assets/3-solid-line.png)
 
-*Ver el porcentaje de finalización de destino esperado y la fecha de finalización de destino*
+*Ver el porcentaje previsto de finalización y la fecha de finalización del objetivo*
 
 ## Línea de previsión {#forecastline}
 
@@ -223,25 +274,25 @@ El primer punto de la línea discontinua muestra el porcentaje de finalización 
 
 ![](assets/1-dotted-line.png)
 
-*Ver el porcentaje de finalización del equipo y el porcentaje de finalización del equipo previsto para una aptitud*
+*Ver el porcentaje de finalización del equipo y el porcentaje de finalización proyectado del equipo para una aptitud*
 
 El segundo punto muestra la fecha en la cual se consiguió el porcentaje de finalización previsto del equipo respecto a una aptitud.
 
 ![](assets/2-dotted-line.png)
 
-*Ver la fecha en la que se alcanzó el porcentaje de finalización de equipo previsto para una aptitud*
+*Ver la fecha en la que se alcanzó el porcentaje de finalización del equipo proyectado para una aptitud*
 
 El tercer punto de la línea de previsión muestra el porcentaje de finalización del equipo conseguido en la fecha objetivo que se proporciona en el rastreador de aptitudes.
 
 ![](assets/3-dotted-line.png)
 
-*Ver el porcentaje de finalización del equipo alcanzado en la fecha objetivo proporcionada en el rastreador de habilidades*
+*Ver el porcentaje de finalización del equipo que se logra en la fecha objetivo proporcionada en el rastreador de habilidades*
 
 Debajo del gráfico, se muestra una tabla con la vista del equipo y la cantidad de aptitudes en las que se ha inscrito, las que se han conseguido y las que están en curso. Si un aprendizaje tiene una fecha de finalización, también se muestra la fecha de finalización prevista.
 
 ![](assets/ts-details.png)
 
-*Tabla con la vista del equipo y el número de aptitudes que se han inscrito, alcanzado y en curso*
+*Tabla con la vista del equipo y el número de habilidades que se han inscrito, obtenido y en progreso*
 
 Al hacer clic en el nombre del equipo, se muestra la lista de miembros que se inscribieron en la aptitud, el estado de la aptitud y la fecha de finalización.
 
@@ -249,11 +300,11 @@ Al hacer clic en el nombre del equipo, se muestra la lista de miembros que se in
 
 *Ver lista de miembros*
 
-Al hacer clic en el equipo, puede ver sus miembros y los detalles correspondientes a la aptitud seleccionada, por ejemplo, si está inscrito, el estado (en curso o conseguido) y la fecha de finalización si se ha definido.
+Al hacer clic en el equipo, puede ver los miembros que contiene y los detalles correspondientes de la aptitud seleccionada, como si están inscritos, el estado (en curso o logrado) y la fecha de finalización, si se ha establecido.
 
 ![](assets/on-clicking-the-teamnames.png)
 
-*Ver aptitudes de miembros*
+*Ver las aptitudes de los miembros*
 
 Al seleccionar los valores de un equipo en la columna de inscritos, conseguidos o en curso, se puede ver la cantidad de usuarios que se han inscrito en la aptitud. También se puede ver la fecha en que el usuario se había inscrito en la aptitud, el estado y la fecha de finalización de la aptitud si el usuario la ha completado.
 
@@ -261,7 +312,7 @@ Al seleccionar los valores de un equipo en la columna de inscritos, conseguidos 
 
 ## Exportar informe {#Exportreport-1}
 
-* Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Exportar]** para exportar los datos como un archivo de excel.
+* Haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Exportar]** para exportar los datos como un archivo de Excel.
 
 ![](assets/export-report.png)
 

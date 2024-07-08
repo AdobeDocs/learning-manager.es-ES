@@ -2,35 +2,36 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 90%
+source-wordcount: '599'
+ht-degree: 88%
 
 ---
 
 
-# Guía de Learning Manager {#using}
+# Guía del gestor de aprendizaje {#using}
 
 * [Guía del usuario de Learning Manager](user-guide.md)
 * Introducción {#introduction}
    * [Resumen de nuevas funciones](whats-new.md)
-   * [Nuevas funciones de noviembre de 2023](whats-new-november-2023.md)
-   * [Nuevas funciones de julio de 2023](whats-new-2023-july.md)
-   * [Nuevas funciones de abril de 2023](whats-new-2023-april.md)
-   * [Nuevas funciones de noviembre de 2022](whats-new-2022-november.md)
+   * [Nuevas funciones Marzo de 2024](whats-new-march-2024.md)
+   * [Nuevas funciones Noviembre de 2023](whats-new-november-2023.md)
+   * [Nuevas funciones Julio 2023](whats-new-2023-july.md)
+   * [Nuevas funciones Abril 2023](whats-new-2023-april.md)
+   * [Nuevas funciones Noviembre de 2022](whats-new-2022-november.md)
    * [Notas de la versión](release-note/release-notes.md)
    * [Requisitos del sistema](system-requirements.md)
-   * [Paquete de sitio de referencia de ALM para AEM Sites](adobe-learning-manager-integration-aem.md)
+   * [Paquete de sitios de referencia de ALM para sitios de AEM](adobe-learning-manager-integration-aem.md)
    * [Aplicación Adobe Learning Manager para Microsofts Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Cumplimiento del RGPD por parte de Learning Manager](kb/prime-gdpr.md)
    * [Accesibilidad en Learning Manager](accessibility-learning-manager.md)
    * [Compatibilidad con dominios personalizados](custom-domain.md)
    * [Recomendaciones en Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transición desde el Administrador de FTP Adobe](transition-from-ftp-manager.md)
-   * [Cambios y depreciaciones de la API en Adobe Learning Manager](api-deprecations-list.md)
-   * [Etiquetado en Adobe Learning Manager](white-label.md)
-* Introducción {#get-started}
+   * [Cambios y desuso de la API en Adobe Learning Manager](api-deprecations-list.md)
+   * [Etiquetas blancas en Adobe Learning Manager](white-label.md)
+* Comenzar {#get-started}
    * [Introducción a la función de administrador](administrators/feature-summary/getting-started-admin.md)
    * [Primeros pasos como autor](authors/feature-summary/getting-started-author.md)
    * [Primeros pasos como alumno](learners/feature-summary/getting-started-learner.md)
@@ -85,6 +86,7 @@ ht-degree: 90%
 * Administrador de integración {#integration}
    * [Manual de migración](integration-admin/feature-summary/migration-manual.md)
    * [Conectores de Learning Manager](integration-admin/feature-summary/connectors.md)
+   * [API que no han iniciado sesión](integration-admin/feature-summary/non-logged-in-apis.md)
    * [Integración de Learning Manager con AEM](integrate-aem-learning-manager.md)
    * [Instalar el paquete de Salesforce en Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar conector de Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -108,7 +110,7 @@ ht-degree: 90%
 * Instructor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Administrar a los alumnos de la sesión](instructors/feature-summary/learners.md)
-* Alumno {#learner}
+* Estudiante {#learner}
    * [Iniciar sesión](learners/feature-summary/user-login.md)
    * [Configuración de perfil](learners/feature-summary/settings.md)
    * [Catálogos](learners/feature-summary/catalogs.md)
@@ -117,6 +119,7 @@ ht-degree: 90%
    * [Programas de aprendizaje](learners/feature-summary/learning-programs.md)
    * [Certificaciones](learners/feature-summary/certifications.md)
    * [Ayudas de trabajo](learners/feature-summary/job-aids.md)
+   * [Carro de artículos múltiples en ALM](learners/feature-summary/multi-item-cart.md)
    * [Insignias](learners/feature-summary/badges.md)
    * [Aptitudes y niveles](learners/feature-summary/skills-levels.md)
    * [Interacción](learners/feature-summary/gamification.md)
@@ -131,7 +134,7 @@ ht-degree: 90%
    * [Página de inicio del alumno](learners/feature-summary/learner-home-page.md)
    * [Compartir en Aprendizaje social](learners/feature-summary/share-to-social.md)
    * [Requisitos del sistema | Aplicación Adobe Learning Manager para escritorio](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Responsable {#manager}
+* Director {#manager}
    * [Inicio de sesión de usuario](managers/feature-summary/user-login.md)
    * [Tablero de responsable](managers/feature-summary/manager-dashboard.md)
    * [Informes](managers/feature-summary/reports.md)
@@ -140,12 +143,12 @@ ht-degree: 90%
    * [Transcripciones de alumnos](managers/feature-summary/learner-transcripts.md)
    * [Configuración](managers/feature-summary/settings.md)
    * [Usuarios de tabletas iPad y Android](managers/feature-summary/ipad-android-tablet-users.md)
-* Preguntas más frecuentes {#faq}
+* Preguntas frecuentes {#faq}
    * [Preguntas más frecuentes para administradores](administrators/frequently-asked-questions-for-administrators.md)
    * [Preguntas más frecuentes para autores](authors/frequently-asked-questions-for-authors.md)
    * [Preguntas más frecuentes para instructores](instructors/frequently-asked-questions-for-instructors.md)
    * [Preguntas más frecuentes para responsables](managers/frequently-asked-questions-for-managers.md)
-* Base de conocimientos {#knowledge-base}
+* Knowledge base {#knowledge-base}
    * [No se puede iniciar sesión en Learning Manager](kb/unable-log-in-learning-manager.md)
    * [El resumen de aprendizaje no muestra los datos actuales](kb/learning-summary-not-display-data.md)
    * [No se puede cargar un archivo CSV](kb/unable-to-upload-csv.md)

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '6843'
-ht-degree: 75%
+source-wordcount: '7125'
+ht-degree: 72%
 
 ---
 
@@ -56,6 +56,7 @@ Para crear un curso, siga los pasos a continuación:
 
    1. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
    1. Elija las aptitudes del curso, el nivel y defina los créditos de la aptitud. Si es necesario, añada más aptitudes.
+   1. Si es necesario, añada las etiquetas de cumplimiento personalizadas al curso. Consulte Añadir [etiquetas de cumplimiento al curso, a la ruta de aprendizaje o a la certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
    1. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
 
    Estos son los tipos de inscripciones:
@@ -64,15 +65,15 @@ Para crear un curso, siga los pasos a continuación:
    * **Aprobados por responsable**: los responsables aprueban estos cursos. Los alumnos pueden inscribirse en estos cursos, pero no se inscriben directamente en ellos sin la aprobación del responsable. Se envía una solicitud de notificación a los responsables cuando los alumnos se inscriben en estos tipos de cursos. Tras la aprobación del responsable, estos cursos figuran como inscritos para los alumnos.
    * **Inscripción automática**: los alumnos pueden inscribirse directamente en este tipo de cursos.
 
-1. Elija si desea fijar un precio para el curso o hacerlo gratuito. Si desea que el curso sea de pago, elija la opción **[!UICONTROL De pago]** y especifique un precio. El precio aparecerá a continuación en la tarjeta del curso y en la página Resumen del curso de un alumno.
+1. Elija si desea fijar un precio para el curso o hacerlo gratuito. Si desea que el curso sea de pago, elija la opción **[!UICONTROL De pago]** y especifique un precio. El precio aparece entonces en la tarjeta del curso y en la página de resumen del curso de un alumno.
 
-   NOTA: Esto solo se activa cuando se configura el conector de Adobe Commerce.
+   NOTA: Esta opción solo está habilitada cuando está configurado el conector de Adobe Commerce.
 
 1. Seleccione la casilla de verificación **Los alumnos pueden darse de baja** para que puedan darse de baja de su curso.
 
 1. **Configuración de instancia**
 
-   Si activa esta opción, los alumnos con el estado En curso pueden visitar otras instancias e inscribirse en ellas. Un alumno puede conservar el progreso de la instancia anterior.
+   Si habilita esta opción, los alumnos que se encuentran en el estado En curso pueden visitar otras instancias e inscribirse allí. Un alumno puede conservar el progreso de la instancia anterior.
 
    Después de publicar el curso, si vuelve a la página Configuración, la opción ya no se puede editar.
 
@@ -83,40 +84,62 @@ Para crear un curso, siga los pasos a continuación:
    * Actividad
    * Mezclado
 
-   Nota: Al duplicar un curso, si ha activado la opción Configuración de instancia en el curso de origen, la opción permanece desactivada en el curso de destino.
+   Nota: Al duplicar un curso, si ha habilitado la opción Configuración de instancia en el curso de origen, la opción permanece deshabilitada en el curso de destino.
 
-   **El conmutador de instancia no es compatible con**:
+   **El modificador de instancia no es compatible con**:
 
-   * Cursos de pago
+   * Cursos pagados
    * Cursos de tipo de inscripción con nominación de responsable.
 
    La configuración del conmutador de instancias no se propagará a las cuentas de igual a igual si se comparte a través del catálogo. La opción permanece desactivada en el curso de destino.
 
-1. **Múltiples inscripciones**
+1. **Inscripciones múltiples**
 
-   De este modo, puede inscribir alumnos en más de una instancia del curso en uno o varios períodos.
+   De esta forma, puede inscribir alumnos en más de una instancia de curso en uno o en diferentes períodos.
 
-   Activar el conmutador **Inscripción múltiple** para cambiar entre varias inscripciones de curso de un alumno. Si ha habilitado el Cambio de instancia, no es posible utilizar la opción de varias inscripciones.
+   Active el conmutador **Inscripción** múltiple para alternar entre las distintas inscripciones de cursos de un alumno. Si ha habilitado el Cambio de instancia, no es posible utilizar la opción de varias inscripciones.
 
 1. Elija los requisitos previos de cursos que se deben completar antes de comenzar su curso. Haga clic en el campo Cursos y elija en la lista de cursos.
-1. Habilite la **Habilitar** **Requisitos previos** casilla de verificación si desea que los requisitos previos del curso sean obligatorios.
+1. Habilite la **casilla de** verificación Habilitar **** requisitos previos si desea que los cursos prerrequisitos sean obligatorios.
 1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
 1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
-1. En el campo Retirar automáticamente , seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
+1. En el campo Retiro automático, seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
 1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
+
+### Añada etiquetas de cumplimiento al curso, a la ruta de aprendizaje o a la certificación {#add-custom-compliance-label}
+
+Para añadir las etiquetas de conformidad a los cursos, siga estos pasos:
+
+1. En la aplicación de autor, vaya a **[!UICONTROL Cursos]**]**/**[!UICONTROL  Rutas de ]**aprendizaje/**[!UICONTROL  Certificaciones y seleccione **[!UICONTROL Añadir]**.
+1. Escriba el nombre y otros detalles, como descripción, aptitudes.
+1. En el cuadro de **[!UICONTROL texto Cumplimiento]** personalizado, escriba y seleccione la etiqueta de cumplimiento.
+
+   ![](assets/add-compliance-label.png)
+   _Adición de conformidad personalizada_
+
+   >[!IMPORTANT]
+   >
+   >Asegúrese de establecer una fecha límite para el curso cuando agregue Cumplimiento personalizado.
+
+1. Guarde y publique el curso, la ruta de aprendizaje o la certificación.
+Ahora, el curso, la ruta de aprendizaje o la certificación se consideran un tipo de cumplimiento. Los administradores pueden añadir este curso al tablero de cumplimiento y compartirlo con los responsables para realizar un seguimiento del progreso
+
+>[!NOTE]
+>
+>Los autores también pueden añadir etiquetas de cumplimiento a un curso, ruta de aprendizaje o certificación existente editándolas.
 
 ## Puntos de interacción
 
-Puede asignar puntos de interacción en los niveles de curso e instancia del curso. Con esta opción, puede conceder puntos a diferentes cursos o instancias. Se incentiva a los alumnos a realizar cursos específicos o a preferir una instancia de curso determinada sobre otras.
+Puede asignar puntos de interacción en los niveles de curso e instancia del curso. Con esta opción, puede conceder puntos a diferentes cursos o instancias. Se incentiva a los alumnos a realizar cursos específicos o a preferir una instancia de curso concreta en lugar de otras.
 
 1. En el nivel de instancia del curso, seleccione **[!UICONTROL Puntos de interacción]**.
 
-![puntos de interacción](assets/select-gamification-points-new.png)
+![Puntos de interacción](assets/select-gamification-points-new.png)
 
-*Establecer puntos para interacción*
+*Establecer puntos para la interacción*
 
 1. Seleccione **[!UICONTROL Editar]**.
-1. Si selecciona Usar configuración de nivel de curso, se muestran las siguientes opciones:
+1. Si selecciona Usar configuración del nivel del curso, aparecen las siguientes opciones:
 
    * **[!UICONTROL Al finalizar]**: seleccione este conmutador si desea que el alumno obtenga 100 puntos al completar un curso.
    * **Más reglas**
@@ -132,7 +155,7 @@ Puede asignar puntos de interacción en los niveles de curso e instancia del cur
       * **[!UICONTROL Finalización anticipada]**: si selecciona esta opción, puede determinar a cuántos alumnos se les concederán puntos específicos.
       * **[!UICONTROL Finalización puntual]**: si selecciona esta opción, puede determinar el número de puntos que se concederán a los alumnos que completen un curso en un periodo especificado.
 
-   ![puntos de interacción](assets/gamification-custom-settings.png)
+   ![Puntos de interacción](assets/gamification-custom-settings.png)
 
    *Establecer finalización anticipada y oportuna*
 
@@ -142,27 +165,27 @@ Puede asignar puntos de interacción en los niveles de curso e instancia del cur
 
 Un autor puede decidir si desea agregar los recursos de aprendizaje en el nivel de plan de aprendizaje o dejar que permanezcan en un nivel de curso individual.
 
-Como autor, seleccione **[!UICONTROL Ruta de aprendizaje]** > **[!UICONTROL Configuración]**. Haga clic en **[!UICONTROL Editar]**.
+Como autor, seleccione **[!UICONTROL Configuración >**[!UICONTROL  Ruta ]**]** de aprendizaje. Haga clic en **[!UICONTROL Editar]**.
 
-En la **[!UICONTROL Recursos]** , la casilla de verificación Mostrar recursos de curso constitutivos agregados en el nivel de ruta de aprendizaje muestra si los recursos presentes en el nivel de curso se mostrarán en el nivel de ruta de aprendizaje.
+En la sección Recursos ]**, la casilla de verificación Mostrar los recursos constituyentes del curso agregados en el nivel del programa de aprendizaje, cuando está activada esta opción, muestra si los recursos presentes en el**[!UICONTROL  nivel del curso se mostrarán en el nivel del programa de aprendizaje.
 
 >[!NOTE]
 >
->En la página Configuración de una ruta de aprendizaje, un administrador también puede activar esta opción, que muestra los recursos presentes en el nivel del curso que se mostrarían en el nivel de ruta de aprendizaje.
+>En la página Configuración de un programa de formación, un administrador también puede activar esta opción, que muestra los recursos presentes en el nivel del curso que se mostrarían en el nivel del programa de formación.
 
 ## Asistente de programación
 
-Gestiona conflictos en la reserva de los instructores y las clases. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, utilice el Ayudante de programación.
+Gestiona conflictos en la reserva de los instructores y las clases. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, use el Asistente de programación.
 
-Al crear un curso, para un curso de clase virtual o real, haga clic en Asistente de programación.
+Al crear un curso, para un curso de clase virtual o de clase virtual, haga clic en Asistente de programación.
 
-![Seleccione Asistente de Programación](assets/scheduling-assistant.png)
+![Seleccione Asistente de programación](assets/scheduling-assistant.png)
 
-*Iniciar asistente de programación*
+*Inicie el asistente de programación*
 
-Se abrirá la ventana Asistente de Programación.
+Se abrirá la ventana Asistente para programación.
 
-![Pantalla del Asistente de programación](assets/scheduling-assistant-window.png)
+![Pantalla Asistente de programación](assets/scheduling-assistant-window.png)
 
 *Cuadro de diálogo Asistente de programación*
 
@@ -179,7 +202,7 @@ En el campo Instructor, escriba el nombre del instructor o busque un nombre parc
 
 *Buscar instructores*
 
-Se pueden seleccionar varios instructores, pero solo se pueden asignar de uno en uno. La hora seleccionada se resaltará en la ventana de conflicto de tiempo. Junto al instructor, aparece un icono de cruz en el que puede hacer clic para quitarlo.
+Se pueden seleccionar varios instructores, pero solo se pueden asignar de uno en uno. La hora seleccionada se resaltará en la ventana de conflicto de tiempo. Cerca del instructor, aparece un icono de cruz, en el que puede hacer clic para eliminar al instructor.
 
 ![Seleccionar varios instructores](assets/busy-times.png)
 
@@ -193,11 +216,11 @@ Las aptitudes se pueden buscar solo por nombre de aptitud parcial o completo, no
 
 En el Asistente, introduzca el nombre del instructor, la ubicación y el límite de plazas.
 
-Además, puede buscar la aptitud, que se mostraría después de hacer clic en el icono de filtro que aparece en el lado derecho del cuadro de búsqueda del instructor. La captura de pantalla siguiente muestra el botón.
+Además, puede buscar aptitud, que se mostrarán después de hacer clic en el icono de filtro presente en el lado derecho del cuadro de búsqueda del instructor. La captura de pantalla siguiente muestra el botón.
 
-![Introducción de aptitudes para el instructor](assets/scheduling-assistant-instructor-skill.png)
+![Introducir aptitudes para el instructor](assets/scheduling-assistant-instructor-skill.png)
 
-*Buscar instructores por aptitudes*
+*Buscar instructores por habilidades*
 
 ### Filtro de grupo de usuarios
 
@@ -205,9 +228,9 @@ Seleccione el filtro en el campo Instructor. Existe un filtro de **[!UICONTROL G
 
 Si se aplican ambos filtros, se muestra una lista de instructores que pertenecen al grupo de usuarios y que tienen las aptitudes seleccionadas.
 
-Esto se aplica al Asistente de Programación en la página Cursos o Instancias.
+Se aplica al Asistente para programación de la página Cursos o Instancias.
 
-![asistente programación](assets/scheduling-assistant-2.png)
+![Asistente de programación](assets/scheduling-assistant-2.png)
 
 *Filtrar por grupos de usuarios*
 
@@ -215,25 +238,25 @@ Esto se aplica al Asistente de Programación en la página Cursos o Instancias.
 
 También puede acceder al Asistente de Programación desde la página Instancia, como se muestra a continuación.
 
-El Asistente de programación también está disponible en la página Instancia para administradores y administradores/autores personalizados.
+El Asistente de programación también está disponible en la página Instancia, así como para administradores y administradores/autores personalizados.
 
-![Asistente de Programación desde la página Instancia](assets/instances-scheduling.png)
+![Asistente de programación de la página Instancia](assets/instances-scheduling.png)
 
-*Planificar instructores desde la página Instancias*
+*Programar instructores desde la página Instancias*
 
 ### Buscar una ubicación
 
-Puede buscar una ubicación especificando el nombre de la clase y el nombre de la región de ubicación en las páginas del módulo y del Ayudante de programación.
+Puede buscar una ubicación especificando tanto el nombre del aula como el nombre de la región de la ubicación en las páginas del módulo y del Asistente de programación.
 
 ## Formato de texto enriquecido
 
 Al crear un curso, un programa de aprendizaje, una certificación o una ayuda de trabajo, los autores pueden introducir diferentes tipos de contenido, como texto o imágenes, o aplicar diversas opciones de formato de texto.
 
-Al crear un curso, puede ver el Editor de texto enriquecido en el campo Resumen del curso . Puede dar formato al contenido, agregar imágenes, agregar hipervínculos, etc.
+Al crear un curso, puede ver el Editor de texto enriquecido en el campo Resumen del curso. Puede dar formato al contenido, agregar imágenes, agregar hipervínculos, etc.
 
 ![](assets/rich-text-editor-author.png)
 
-*Iniciar el Editor de texto enriquecido*
+*Inicie el editor de texto enriquecido*
 
 Del mismo modo, puede utilizar el Editor de texto enriquecido para modificar la descripción al crear los siguientes elementos:
 
@@ -241,13 +264,13 @@ Del mismo modo, puede utilizar el Editor de texto enriquecido para modificar la 
 
 ![](assets/lp-rte-new.png)
 
-*Usar el Editor de texto enriquecido para un programa de aprendizaje*
+*Usar el editor de texto enriquecido para un programa de aprendizaje*
 
 **Certificación**
 
 ![](assets/cert-rte-new.png)
 
-*Usar el Editor de texto enriquecido para una certificación*
+*Usar el editor de texto enriquecido para una certificación*
 
 **Ayuda de trabajo**
 
@@ -265,7 +288,7 @@ El texto enriquecido se compone de formato HTML. Si se procesa el marcado tal y 
 
 ### Estilo predeterminado
 
-La hoja de estilos CSS adjunta contiene el estilo aplicado por Learning Manager. El estilo se ha modificado teniendo en cuenta la mayoría de los casos de uso. Descargue el archivo CSS adjunto e impórtelo a la aplicación web según sus convenciones y sistema de compilación. Las clases CSS definidas tienen un espacio entre nombres en la clase de editor de SQL y no interfieren con los estilos existentes.
+La hoja de estilos CSS adjunta contiene el estilo aplicado por Learning Manager. El estilo se ha modificado teniendo en cuenta la mayoría de los casos de uso. Descargue el archivo CSS adjunto e impórtelo a la aplicación web según sus convenciones y sistema de compilación. Las clases CSS definidas tienen un espacio de nombres en la clase ql-editor y no interfieren con los estilos existentes.
 
 ### Personalización de estilos
 
@@ -284,7 +307,7 @@ Es posible que el estilo predeterminado no satisfaga las necesidades de todos. L
 
 ### CAMBIOS EN LA API PARA HABILITAR LA REPRESENTACIÓN DE DESCRIPCIONES GENERALES DE TEXTO ENRIQUECIDO
 
-Cuando los clientes crean una interfaz sin encabezado, tienen que mostrar los objetos de aprendizaje en la interfaz de usuario personalizada que están desarrollando. Para ello, normalmente se utiliza la API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) que se muestra. Ahora que Learning Manager admite la captura de &quot;texto enriquecido&quot; para el campo de información general, el modelo de datos de objetos de aprendizaje en las respuestas de la API también muestra lo mismo. Consulte el campo denominado &quot;richTextOverview&quot; en el fragmento del modelo en la respuesta de la API que aparece a continuación. Tenga en cuenta también que el campo expuesto anteriormente (&quot;descripción general&quot;) no cambia para la compatibilidad con versiones anteriores.
+Cuando los clientes crean una interfaz sin encabezado, tienen que mostrar los objetos de aprendizaje en la interfaz de usuario personalizada que están desarrollando. Para ello, normalmente se utiliza la API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) que se muestra. Ahora que el Administrador de aprendizaje admite la captura de &quot;texto enriquecido&quot; para el campo de información general, el modelo de datos de los objetos de aprendizaje en las respuestas de la API también muestra lo mismo. Consulte el campo denominado &quot;richTextOverview&quot; en el fragmento del modelo en la respuesta de API siguiente. Tenga en cuenta también que el campo expuesto anteriormente (&quot;información general&quot;) no cambia para la compatibilidad con versiones anteriores.
 
 ```
 { 
@@ -324,7 +347,7 @@ Si el administrador ha activado varios intentos, un autor puede configurar vario
 
 ![](assets/allow-multipe-attempts.png)
 
-*Configurar varios intentos para un módulo de aprendizaje electrónico interactivo*
+*Configuración de intentos múltiples para un módulo de aprendizaje electrónico interactivo*
 
 <table>
  <tbody>
@@ -338,20 +361,20 @@ Si el administrador ha activado varios intentos, un autor puede configurar vario
    <td>
     <p>Definir intentos en</p></td>
    <td>
-    <p>Puede definir el número de intentos para un módulo en infinito o indicar un límite definitivo.<span style="font-size: 0.8125rem;">La información de intentos se mostrará al alumno una vez que se active. El alumno puede optar por volver a intentar el módulo haciendo clic en el botón Reintentar.</span></p></td>
+    <p>Puede definir el número de intentos para un módulo en infinito o indicar un límite definitivo.<span style="font-size: 0.8125rem;">La información de intentos se mostrará al alumno una vez que se active. El alumno puede optar por volver a intentar el módulo haciendo clic en el botón 'Volver a intentar'.</span></p></td>
   </tr>
   <tr>
    <td>
     <p>Detener el nuevo intento una vez que el módulo se complete y apruebe</p></td>
    <td>
-    <p>Para configurar cuándo se debe impedir que los alumnos seleccionen la opción de nuevo intento, marque la casilla de verificación Detener el nuevo intento una vez que el módulo se complete y apruebe. La opción Reintentar se eliminará de la vista del alumno una vez que complete el módulo correctamente.</p></td>
+    <p>Para configurar cuándo impedir que los alumnos seleccionen la opción Nuevo intento, active la casilla de verificación "Detener nuevo intento una vez que se haya completado o aprobado el módulo". La opción "Volver a intentar" se quitará de la vista del alumno una vez que complete correctamente el módulo.</p></td>
   </tr>
   <tr>
    <td>
     <p>Bloquear módulo entre intentos 0:0:1 Formato: Días/Horas/Minutos</p></td>
    <td>
-    <p>Puede bloquear módulos durante un intervalo de tiempo específico activando la casilla de verificación "<b>Bloquear módulo entre intentos 0:0:1 Formato: Días/Horas/Minutos</b>". Cuando un módulo está bloqueado, el alumno no puede visitarlo hasta que haya transcurrido el tiempo de bloqueo proporcionado. </p>
-    <p>Puede definir los criterios de finalización de un intento seleccionando la opción '<b>Cierre del reproductor</b>' o '<b>Finalización</b>' casillas de verificación.</p></td>
+    <p>Puede bloquear módulos durante un tiempo específico entre intentos, activando la casilla de verificación "<b>Bloquear módulo entre intentos 0:0:1 Formato: Días/Horas/Minutos</b>". Cuando un módulo está bloqueado, el alumno no puede visitarlo hasta que transcurra el tiempo de bloqueo proporcionado. </p>
+    <p>Puede definir los criterios finales de un intento seleccionando las casillas de verificación "<b>Cierre</b> del jugador" o "<b>Finalización</b>".</p></td>
   </tr>
   <tr>
    <td>
@@ -369,7 +392,7 @@ Si el administrador ha activado varios intentos, un autor puede configurar vario
    <td>
     <p>Definir un límite de tiempo para completar el módulo</p></td>
    <td>
-    <p>Los autores pueden establecer un límite de tiempo para completar un módulo activando la casilla de verificación ",<b>Definir límite de tiempo para completar el módulo</b>".</p>
+    <p>Los autores pueden establecer un límite de tiempo para completar un módulo habilitando la casilla de verificación "<b>Establecer límite de tiempo para completar el módulo</b>".</p>
     <p>Cada inicio de reproductor se considera un intento nuevo. Al iniciar, se proporciona al alumno información sobre la duración.</p>
     <p><b>Nota: </b><span style="font-size: 0.8125rem;">el intento finalizará automáticamente una vez que haya transcurrido el tiempo. Si se cierra el reproductor, el intento actual también se cerrará.</span></p></td>
   </tr>
@@ -414,7 +437,7 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    Si selecciona **Sí** para un organizador de reuniones, debe escribir el nombre del organizador. Escriba el nombre y seleccione el organizador.
 
-   **Evasión del vestíbulo**
+   **Circunvalación del vestíbulo**
 
    * Si selecciona **Sí**, cualquier alumno puede unirse a la reunión.
    * Si selecciona **No**, se envía una solicitud al organizador para permitir o evitar que el alumno se una a la reunión.
@@ -427,16 +450,16 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    *Añadir un módulo de clase*
 
-   Al crear un curso, en el cuadro de diálogo Configuración de clase virtual, establezca el sistema de conferencia en la conexión de Microsofts Teams que haya creado. Seleccione si desea un organizador de reuniones para el evento.
+   Al crear un curso, en el cuadro de diálogo de configuración del aula virtual, establezca el sistema de conferencia en la conexión de Microsoft Teams que ha creado. Seleccione si desea un organizador de reuniones para el evento.
 
    Si selecciona Sí para un organizador de reuniones, debe escribir el nombre del organizador. Escriba el nombre del organizador y seleccione el organizador.
 
-   **Evasión del vestíbulo**
+   **Circunvalación del vestíbulo**
 
-   * Si selecciona Sí, cualquier alumno puede unirse a la reunión.
-   * Si selecciona No, se envía una solicitud al organizador para permitir o evitar que el alumno se una a la reunión.
+   * Si selecciona Sí, cualquier alumno podrá unirse a la reunión.
+   * Si selecciona No, se enviará una solicitud al organizador para permitir o evitar que el alumno se una a la reunión.
 
-   **Nota:** Si un alumno desea unirse a Microsofts Teams como invitado, debe introducir el correo electrónico. El correo electrónico debe estar incluido en Learning Manager.
+   **Nota:** Si un alumno desea unirse a Microsoft Teams como invitado, debe escribir el correo electrónico. El correo electrónico debe estar presente en el Administrador de aprendizaje.
 
    **Módulo de actividad:** en este modo, los alumnos deben completar un conjunto de actividades, como talleres, ejercicios, cuestionarios y otras actividades de aprendizaje. Indique el título, redacte una descripción y escriba la URL externa de referencia. Para guardar los cambios, haga clic en **[!UICONTROL Listo]**.
 
@@ -444,7 +467,7 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    *Añadir un módulo de actividad*
 
-   Puede especificar la duración al añadir un módulo de actividad en un curso para el tipo de actividad Envío de archivos y módulos basados en xAPI.
+   Puede especificar la duración al añadir un módulo de actividad en un curso para el tipo de actividad: Envío de archivos y módulos basados en xAPI.
 
 1. Añada también módulos en los modos de trabajo previo y prueba.
 1. Elija el tipo de secuencia de los módulos como Ordenado o Sin ordenar según su preferencia.
@@ -456,20 +479,39 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    **Nota:** las dimensiones recomendadas son:
 
-   * **Imagen de portada:** 300 x 300 px
+   * **Imagen de portada:** 300 px x 300 px
    * **Imagen del banner:** 1600 x 140 px
 
 1. En la esquina superior derecha de la página, haga clic en **[!UICONTROL Guardar]**.
 
+#### Añadir vínculo HTML en el módulo de actividad
+
+Los autores pueden agregar enlaces HTML en el módulo de actividad y definir los criterios de finalización. Para agregar un vínculo HTML y definir un criterio de finalización, siga estos pasos:
+
+1. En la aplicación de autor, seleccione **[!UICONTROL Crear cursos]** en la página de inicio.
+1. Seleccione **[!UICONTROL Añadir]** en la **[!UICONTROL pantalla Catálogo]** de cursos
+1. Escriba el nombre y la descripción del curso.
+1. En la **[!UICONTROL opción Módulo]** , seleccione **[!UICONTROL Agregar módulo]** > **[!UICONTROL módulo de]** actividad.
+1. En el indicador Módulo ]**de**[!UICONTROL  actividad, escriba el nombre y la descripción.
+1. Seleccione el tipo ]**como**[!UICONTROL **[!UICONTROL URL]** externo.
+1. Seleccione cualquiera de las siguientes opciones de la **[!UICONTROL opción Criterios]** de finalización.
+   * **[!UICONTROL Notas de alumno completadas]**: el alumno tiene la opción de marcar el curso como completado en el reproductor Fluidic.
+   * **[!UICONTROL Al iniciar contenido]**: El curso se marcará automáticamente como completado cuando el alumno lo inicie.
+
+   ![](assets/completion-criteria-activity-module.png)
+   _Criterios de finalización_
+
+1. Seleccione Añadir **** y publicar el curso.
+
 ## Lista de comprobación {#create-checklist}
 
-La evaluación es un aspecto importante de cualquier sistema de gestión de aprendizaje. Las evaluaciones en línea son una de las principales formas de evaluar la comprensión de un tema por parte del alumno. Pero a menudo, es necesario evaluar la comprensión de una persona mientras está en el trabajo observando que lleva a cabo las tareas necesarias.
+La evaluación es un aspecto importante de cualquier sistema de gestión de aprendizaje. Las evaluaciones en línea son una de las mejores formas de evaluar la comprensión de un alumno sobre un tema. Pero a menudo, es necesario evaluar la comprensión de una persona mientras está en el trabajo observándola llevar a cabo las tareas necesarias.
 
 Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de un almacén en relación con las tareas que se supone que deben realizar diariamente. Podría tratarse de los pasos llevados a cabo para reparar una máquina de café o de las etapas de envasado de un material. Los instructores pueden evaluar a los empleados en relación con estas tareas según una lista de comprobación y calificar su labor como Aprobado o Suspenso en la actividad de evaluación.
 
 ### Crear una lista de comprobación {#createachecklist}
 
-Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, como autor, puede seleccionar una actividad como **Lista de comprobación**, como se muestra a continuación:
+Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, un autor, puede seleccionar una actividad como **lista de comprobación**, como se muestra a continuación:
 
 ![](assets/checklist-option.png)
 
@@ -500,13 +542,13 @@ Una vez que haya seleccionado la opción **Lista de comprobación**, aparecerán
 
 Elija el instructor o instructores que evaluarán al alumno.
 
-Además, si tiene algo que comentar o una nota, puede añadirlo en el **Nota para el instructor** campo de texto.
+Además, si tiene algo que comentar o una nota, puede agregarlo en el campo de texto Nota para el **instructor** .
 
 Ahora, añada las preguntas de la lista de comprobación. Haga clic en **[!UICONTROL Añadir]**. Se pueden añadir hasta 150 preguntas.
 
 ![](assets/add-checklist-questions.png)
 
-*Añadir preguntas de lista de comprobación*
+*Añadir preguntas de la lista de comprobación*
 
 Para añadir más preguntas, haga clic en **[!UICONTROL Añadir más]**.
 
@@ -533,7 +575,7 @@ En esta página, indique los datos siguientes:
 
    ![](assets/prerequisite-courses.png)
 
-   *Añadir cursos de requisitos previos*
+   *Añadir requisitos previos de cursos*
 
 1. Active la casilla de verificación **Requisitos previos** si los requisitos previos del curso deben ser obligatorios.
 1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
@@ -545,7 +587,7 @@ En esta página, indique los datos siguientes:
 
 1. Después de crear módulos para el curso, puede asignar instructores a los módulos. En el tablero del autor, haga clic en **[!UICONTROL Catálogo de cursos]**.
 1. Haga clic en el curso a cuyo módulo desea asignar instructores.
-1. Desde el **Añadir módulos** , haga clic en el módulo al que desee asignar un instructor.
+1. En la **sección Añadir módulos** , haga clic en el módulo al que desea asignar un instructor.
 1. En el campo **Instructor**, especifique el nombre de usuario de la persona a la que desea asignar la función de instructor.
 
    ![](assets/instructor-field.png)
@@ -558,19 +600,19 @@ En esta página, indique los datos siguientes:
 
 Los responsables, además de los instructores, ahora pueden revisar un módulo de Lista de verificación. Los responsables de personal, así como los responsables no jerárquicos, como los responsables de tienda o los responsables de ubicación, pueden revisar y completar la lista de verificación.
 
-Los autores del curso pueden añadir responsables de personal y responsables no jerárquicos (si procede) como revisores seleccionando estas opciones de función en la sección &quot;Revisores&quot; al configurar un módulo de lista de comprobación. Esto se puede hacer a nivel de instancia de curso.
+Los autores de los cursos pueden añadir administradores de personas y administradores no jerárquicos (si corresponde) como revisores seleccionando estas opciones de funciones en la sección &quot;Revisores&quot; al configurar un módulo Lista de verificación. Esto se puede hacer a nivel de instancia de curso.
 
 ![Lista de comprobación para responsables](assets/manager-checklist.png)
 
 *Añadir revisores en un módulo de actividad*
 
-Seleccionar el icono &quot;**[!UICONTROL +Administradores]**&quot; activará automáticamente el responsable de un alumno en la jerarquía de la organización para que revise la lista de comprobación. No es necesario buscar y agregar nombres de responsables individualmente.
+Al seleccionar la opción &quot;**[!UICONTROL +Responsables]**&quot;, el responsable de un alumno de la jerarquía de la organización podrá revisar la lista de comprobación. No es necesario buscar y agregar nombres de administrador individualmente.
 
 Si el administrador de cuentas ha configurado funciones de administrador no jerárquicas (como administradores de ubicación o administradores de sitio) mediante la opción Campos activos, esas funciones de administrador estarán disponibles para que pueda seleccionarlas y habilitarlas para revisar la lista de comprobación.
 
-No es necesario buscar y agregar nombres de responsables individualmente. Cuando los alumnos se inscriben en el curso de lista de comprobación, se envía automáticamente una notificación a los responsables/responsables de la tienda para que la revisen junto con el instructor seleccionado. Este flujo de trabajo facilita que los autores no mencionen los nombres de los responsables individuales.
+No es necesario buscar y agregar nombres de administrador individualmente. Cuando los alumnos se inscriben en el curso de lista de comprobación, se envía automáticamente una notificación a los responsables/responsables de la tienda para que la revisen junto con el instructor seleccionado. Este flujo de trabajo facilita que los autores no mencionen nombres de administradores individuales.
 
-En la captura de pantalla de ejemplo proporcionada anteriormente, seleccione el icono &quot;**[!UICONTROL +Administradores de tienda]**&quot; activará automáticamente el responsable no jerárquico alineado con el alumno para revisar la lista de comprobación. Tenga en cuenta que &quot;store&quot; aquí será reemplazado por el campo activo definido por el administrador.
+En la captura de pantalla de ejemplo proporcionada anteriormente, al seleccionar la opción &quot;**[!UICONTROL +Store Managers]**&quot; se habilitará automáticamente el responsable no jerárquico alineado con el alumno para revisar la lista de comprobación. Tenga en cuenta que &quot;store&quot; aquí se reemplazará por el campo activo definido por el administrador.
 
 Las actualizaciones del módulo de lista de verificación también incluyen notificaciones a los instructores y responsables cuando un alumno se inscribe en un curso que tiene un módulo de lista de verificación. El revisor recibirá una notificación en el centro de notificaciones de Learning Manager, así como en el tablero del instructor/responsable, de que debe realizarse una acción de lista de verificación.
 
@@ -580,13 +622,13 @@ El revisor podrá ver información sobre todos los elementos de revisión de lis
 
 ![Aprobaciones de certificados](assets/pending-task-managers.png)
 
-*Aprobaciones de certificación*
+*Aprobaciones para certificación*
 
 Después de hacer clic en Revisar lista de comprobación, el revisor puede completar la evaluación.
 
-![Revisar elementos de revisión de lista de comprobación pendientes](assets/evaluation-checklist.png)
+![Revisar los elementos de revisión de la lista de verificación pendientes](assets/evaluation-checklist.png)
 
-*Revisar elementos de revisión de lista de comprobación pendientes*
+*Revisar los elementos de revisión de la lista de verificación pendientes*
 
 Los informes se pueden descargar en listas de verificación, que incluyen información detallada sobre la evaluación del alumno, el nombre del revisor, la función y el correo electrónico.
 
@@ -620,10 +662,10 @@ Tras previsualizar un curso como alumno, publíquelo para que los alumnos puedan
 
 Un ciclo de vida del curso típico tiene el siguiente aspecto:
 
-* **Draft** - Cuando un autor termina de crear un curso y lo guarda. En este estado, el curso aún no está disponible para los alumnos.
-* **Publicado** - Cuando un autor finaliza la publicación de un curso. En este estado, el curso está disponible para que los alumnos se inscriban. También puede editar un curso en este estado.
-* **Retirado** - Después de publicar un curso, un autor puede moverlo al estado retirado si no desea que el curso aparezca en el catálogo de cursos para los alumnos.
-* **Eliminado** - Un curso en estado eliminado se elimina por completo de la aplicación Adobe Learning Manager. Solo los autores pueden eliminar cursos cuando están en estado Borrador o Retirado .
+* **Borrador** - Cuando un autor termina de crear un curso y lo guarda. En este estado, el curso aún no está disponible para los alumnos.
+* **Publicado** : cuando un autor finaliza la publicación de un curso. En este estado, el curso está disponible para que los alumnos se inscriban. También puede editar un curso en este estado.
+* **Retirado** : Después de publicar un curso, un autor puede moverlo al estado Retirado si dicho autor no desea que el curso aparezca en el catálogo de cursos para los alumnos.
+* **Suprimido: Un curso tiene el estado Suprimido** cuando se elimina totalmente de la aplicación Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos se encuentran en estado Borrador o Retirado.
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -683,7 +725,7 @@ Como autor, también puede ordenar los cursos de cinco formas para encontrar mej
 
 ![](assets/filter-list-of-courses.png)
 
-*Filtrar lista de cursos*
+*Filtrar la lista de cursos*
 
 ## Inscribir alumnos en un curso {#enrolllearnersinacourse}
 
@@ -709,14 +751,14 @@ Para cambiar al modo de administrador:
 
    ![](assets/include-learners.png)
 
-   *Añadir alumnos a un curso*
+   *Añadir learhers a un curso*
 
 1. Si desea excluir un alumno del curso, en el campo **Excluir alumnos**, escriba el nombre de dicho alumno.
 1. Tras haber inscrito los alumnos, haga clic en **[!UICONTROL Continuar]**. En el cuadro de diálogo Inscribir alumnos, puede ver un resumen de la inscripción.
 
    ![](assets/summary-of-enrollment.png)
 
-   *Ver resumen de inscripción de cursos*
+   *Ver resumen de inscripción del curso*
 
 1. Para inscribir todos los alumnos en un curso, haga clic en **[!UICONTROL Inscribir]**. Dichos alumnos ahora están inscritos en este curso correctamente. Los alumnos reciben una notificación para continuar y realizar el curso. Para inscribir más alumnos, repita el procedimiento de inscripción.
 
@@ -731,7 +773,7 @@ Una URL permanente siempre es fija. En el caso de los usuarios que no tienen Ado
 
 ![](assets/dynamic-room-options.png)
 
-*Opciones dinámicas de sala de reuniones*
+*Opciones de salas de reuniones dinámicas*
 
 Ya es posible cambiar la URL de la sala permanente en la página **Instancia del curso**.
 
@@ -754,7 +796,7 @@ Para obtener más información, consulte [Dar de baja a alumnos](/help/migrated/
 
 También puede publicar los módulos del curso en Learning Manager desde Adobe Captivate y Adobe Presenter mediante el menú Publicar.
 
-1. En Captivate, haga clic en **[!UICONTROL Publicar]** > **[!UICONTROL Publicar en Learning Manager]**.
+1. En Captivate, haga clic en **[!UICONTROL Publicar]** > **[!UICONTROL Publicar en el Administrador]** de aprendizaje.
 1. Proporcione el nombre del subdominio o el ID de correo electrónico; a continuación, haga clic en **[!UICONTROL Enviar]**. Si tiene varias cuentas, se le solicita que elija la cuenta.
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
@@ -763,7 +805,7 @@ Puede ver el módulo publicado en la página de módulos de Learning Manager. Pa
 
 ## Eficacia del curso {#courseeffectiveness}
 
-La puntuación de eficacia del curso ayuda a los autores a evaluar los cursos que no responden a las necesidades de los alumnos y los pueden modificar en consecuencia. La eficacia del curso se evalúa con el fin de comprender la utilidad de un curso para el alumno. Se trata de una combinación de resultados de los comentarios de los alumnos sobre el contenido del curso. Los resultados de las pruebas del curso de un alumno y los comentarios del responsable que evalúan a un alumno en función del aprendizaje del curso.
+La puntuación de eficacia del curso ayuda a los autores a evaluar los cursos que no responden a las necesidades de los alumnos y los pueden modificar en consecuencia. La eficacia del curso se evalúa con el fin de comprender la utilidad de un curso para el alumno. Es una combinación de resultados de comentarios de alumnos sobre el contenido del curso. Los resultados de los cuestionarios del curso de un alumno y los comentarios del responsable que evalúa a un alumno en función del aprendizaje del curso.
 
 En **Mis cursos**, el autor puede ver la clasificación de la eficacia del curso en las vistas en miniatura del curso, tal y como se muestra en la siguiente captura de pantalla. Puede ver la clasificación de 100 para este curso.
 
@@ -785,7 +827,7 @@ Según el gráfico circular que se muestra arriba, se le da más peso a los come
 
 Como autor y administrador, puede crear certificaciones y programas de aprendizaje para alumnos desde la aplicación de autor. En la página de inicio, haga clic en Certificaciones o Programas de aprendizaje para crear los objetos de aprendizaje respectivos.
 
-Para obtener información sobre cómo crear y administrar certificaciones y programas de aprendizaje, consulte  [Certificaciones](/help/migrated/administrators/feature-summary/certifications.md) y  [Programas de aprendizaje](/help/migrated/administrators/feature-summary/learning-programs.md).
+Para obtener información sobre cómo crear y administrar certificaciones y programas de aprendizaje, consulte [Certificaciones y [programas](/help/migrated/administrators/feature-summary/learning-programs.md) de](/help/migrated/administrators/feature-summary/certifications.md) aprendizaje.
 
 ## Cursos obligatorios para certificaciones externas {#mandatorycoursesforexternalcertification}
 
@@ -804,7 +846,7 @@ Cuando los cursos se definen como obligatorios:
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo eliminar la opción Buscar nominación de responsable para un curso
++++¿Cómo eliminar &quot;buscar nominación de responsable&quot; para un curso?
 
 Efectúe los pasos siguientes:
 
@@ -836,9 +878,9 @@ En un programa de aprendizaje, solo puede añadir cursos de inscripción automá
 
 +++
 
-+++Cómo asegurarse de que todos los alumnos no puedan ver todos los cursos
++++¿Cómo asegurarse de que no todos los alumnos puedan ver todos los cursos?
 
-Es factible mediante los catálogos. Un catálogo predeterminado contiene todos los cursos añadidos a Learning Manager de forma predeterminada.
+Es factible mediante los catálogos. Un catálogo predeterminado contiene todos los cursos añadidos al Administrador de aprendizaje de forma predeterminada.
 
 Debe desactivar el catálogo predeterminado y crear catálogos personalizados.
 
@@ -846,24 +888,24 @@ Debe desactivar el catálogo predeterminado y crear catálogos personalizados.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Catálogos]**.
 1. Cree un catálogo haciendo clic en **[!UICONTROL Crear]**. Indique los detalles y haga clic en **[!UICONTROL Guardar]**.
 
-1. En las opciones de Catálogo recién creadas, puede seleccionar diferentes tipos de aprendizaje que puede añadir, por ejemplo, programa de aprendizaje, certificación o curso.
+1. En las opciones del Catálogo recién creadas, puede seleccionar diferentes tipos de aprendizaje que puede añadir, por ejemplo, Programa de aprendizaje, certificación o curso.
 1. En la sección Programa de aprendizaje, haga clic en **[!UICONTROL Añadir contenido]**.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Compartir internamente]** o **[!UICONTROL Compartir externamente]**, en función de los destinatarios.
 
 1. Para añadir un grupo de usuarios, haga clic en **[!UICONTROL Añadir grupos de usuarios]**.
-1. En la página Catálogos, desactive la **D[!UICONTROL Catálogo predeterminado]** y active el catálogo que ha creado.
+1. En la página Catálogos, desactive el **[!UICONTROL catálogo]** defectuoso y active el catálogo que haya creado.
 
 ![](assets/enable-custom-catalog.png)
 
 +++
 
-+++Cómo volver a inscribirse en un curso completado
++++¿Cómo volver a inscribirse en un curso completado?
 
 La finalización de un curso no se puede revertir. Un alumno **no puede volver a inscribirse** en un curso completado.
 
 +++
 
-+++¿Cómo pueden ver los alumnos el curso aunque lo hayan completado?
++++¿Cómo pueden los alumnos ver el curso incluso después de haberlo completado?
 
 Un alumno puede ver un curso después de completarlo haciendo clic en el botón Regresar del curso.
 
@@ -875,7 +917,7 @@ Siga los pasos que se indican a continuación:
 
 +++
 
-+++Cómo añadir un archivo de recursos en el curso?
++++¿Cómo añadir un archivo de recursos al curso?
 
 Al crear un curso, puede añadir a él archivos de vídeo, audio, PDF o texto que sean pertinentes para el curso a fin de que el alumno pueda acceder a material de formación adicional.
 
@@ -883,9 +925,9 @@ Al crear un curso, puede añadir a él archivos de vídeo, audio, PDF o texto qu
 
 +++
 
-+++Cómo definir varios intentos en el módulo?
++++¿Cómo establecer varios intentos en el módulo?
 
-**Requisito previo:** El administrador debe activar la opción **Varios intentos** en **Configuración > General** en la aplicación de administración.
+**Requisito previo:** el administrador debe habilitar la opción **Varios intentos** en **Configuración > General** en la aplicación Administrador.
 
 Como autor, en la página Resumen del curso, active la opción **Permitir varios intentos**.
 
@@ -893,7 +935,7 @@ Para obtener más información, consulte la [sección sobre varios intentos](cou
 
 +++
 
-+++¿Puede descargar el contenido que se ha cargado en Adobe Learning Manager para modificarlo?
++++¿Se puede descargar el contenido que se ha cargado en Adobe Learning Manager para modificarlo?
 
 No, el contenido cargado en Learning Manager es un archivo zip publicado y no es el archivo de origen. Por lo tanto, incluso aunque se descargue el contenido, este no se puede editar en una herramienta de creación. Es necesario un archivo de origen para editar el contenido.
 
