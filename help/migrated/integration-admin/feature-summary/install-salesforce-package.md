@@ -4,9 +4,9 @@ title: Instalar paquete de Salesforce
 description: Learning Manager ofrece un paquete de aplicación de Salesforce. Una vez instalado y configurado en SFDC, los empleados de ventas pueden realizar sus actividades de formación en el portal de SFDC. Esta aplicación permite a los usuarios de SFDC explorar nuevas formaciones, ver recomendaciones y consumirlas directamente en el portal de SFDC. Los usuarios también reciben los anuncios enviados por los administradores en forma de cabeceras directamente dentro de la aplicación dentro del portal de SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Para añadir el dominio de Adobe a direcciones URL de confianza, siga estos paso
 1. En la consola de Salesforce, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Búsqueda]** rápida.
 1. **[!UICONTROL Busque URL]** de confianza y seleccione **[!UICONTROL Nueva URL]** de confianza.
 1. Escriba un nombre en el campo Nombre ]**de**[!UICONTROL  API.
-1. Agregue la URL como `{}.adobe.com{*}`.
+1. Escriba `*.adobe.com` en el campo URL.
 1. Seleccione todas las casillas de verificación de **las directivas CSP** y guarde los cambios.
 1. Edite el token de actualización de la aplicación Salesforce y guárdelo.
 1. Vuelva a iniciar la aplicación Salesforce.
