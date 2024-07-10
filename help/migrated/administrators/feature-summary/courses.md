@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Crear módulos de cursos, instancias y programas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 61%
 
 ---
 
@@ -62,7 +62,7 @@ Para crear una instancia:
 
    *Establecer fecha límite de finalización*
 
-## Ver las propiedades de la instancia {#viewpropertiesoftheinstance}
+### Ver las propiedades de la instancia {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Para crear una instancia:
 1. **Sesiones:** Cantidad de módulos de clase y clase virtual del curso.
 1. **Comentarios activados:** Indica si los comentarios de L1, L2 y L3 se han activado para este curso.
 
-## Retirar una instancia {#retireaninstance}
+>[!NOTE]
+>
+>El administrador cancela las sesiones yendo a Instancias > Sesiones y seleccionando Cancelar sesión.
+
+### Retirar una instancia {#retireaninstance}
 
 Para retirar una instancia, aplique los pasos siguientes:
 
@@ -85,7 +89,7 @@ Para retirar una instancia, aplique los pasos siguientes:
 
 1. Para buscar todas las instancias retiradas, en la página Instancias, haga clic en la pestaña **[!UICONTROL Retirado]**.
 
-## Restaurar una instancia {#restoreaninstance}
+### Restaurar una instancia {#restoreaninstance}
 
 Para devolver una instancia al estado activo, aplique los pasos siguientes:
 
@@ -97,7 +101,7 @@ Para devolver una instancia al estado activo, aplique los pasos siguientes:
 
 1. La instancia se restaura a un modo activo.
 
-## Eliminación de una instancia
+### Eliminación de una instancia
 
 Los administradores pueden eliminar la instancia mediante **Eliminar esta instancia** inmediatamente después de la creación. No se pueden eliminar instancias si hay una sesión vinculada a ella o si algún alumno se ha inscrito en ella.
 
@@ -109,7 +113,7 @@ Los administradores pueden eliminar la instancia mediante **Eliminar esta instan
 >
 >No se puede eliminar la instancia predeterminada.
 
-## Enviar correos electrónicos a nivel de instancia
+### Enviar correos electrónicos a nivel de instancia
 
 Para enviar correos electrónicos a nivel de instancia a alumnos inscritos:
 
@@ -129,7 +133,7 @@ Para enviar correos electrónicos a nivel de instancia a alumnos inscritos:
 
    ![Anuncio creado correctamente](assets/announcement-successful.png)
 
-### Inscribir alumnos en cursos
+## Inscribir alumnos en cursos
 
 En este curso de formación, aprenderá a inscribir, dar de baja y volver a inscribir alumnos.
 
@@ -145,7 +149,7 @@ Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
    ![Inscribir alumnos](assets/enroll-learners-new.png)
 
-   *Publicar el curso*
+   *Curso de Publish*
 
 1. En el cuadro de diálogo [!UICONTROL **Inscribir alumnos**], puede hacer lo siguiente:
 
@@ -196,42 +200,57 @@ El archivo de Excel contiene las hojas de cálculo de cada instancia. Una hoja d
 >
 >Si ha configurado la automatización de informes que solo prevé una fila por curso, debe realizar los ajustes necesarios en la automatización de informes antes de activar la función Inscripción múltiple.
 
-## Establecer nivel de escalación {#escalation}
+### Administrar la lista de alumnos de un curso {#managelearnerslistforacourse}
 
-Para enviar notificaciones por correo electrónico, un administrador debe establecer explícitamente el nivel de escalación en:
+1. Haga clic en el nombre del curso en la miniatura del curso.
+1. En el panel izquierdo, haga clic en **[!UICONTROL Alumnos]**.
 
-* Responsable
-* Responsable y responsable de un nivel superior
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Seleccionar alumnos de un curso*
 
-*Establecer nivel de escalación*
+En la página Alumnos, puede realizar las acciones siguientes:
+
+* Seleccione el alumno que desea eliminar y haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Quitar**].
+* Seleccione el alumno cuya asistencia desea marcar y haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Marcar como completado**].
+
+Para permitir que los alumnos restablezcan un módulo y vuelvan a utilizarlo, haga clic en [!UICONTROL **Restablecer**]. En el cuadro de diálogo emergente, haga clic en Sí para confirmar el restablecimiento. Los módulos que se han completado no se pueden restablecer. Solo se pueden restablecer los módulos incorrectos o incompletos.
+
+También puede exportar la lista de alumnos en una hoja de Excel. Para exportar la lista de alumnos, haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Exportar**].
+
+>[!NOTE]
+>
+>Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, o **En curso**, o **Completado**.
+
+### Exportar alumnos con estado de aprobación pendiente
+
+Un administrador, un responsable o un administrador personalizado pueden exportar datos de alumnos con un estado de inscripción de aprobación pendiente. Puede exportar los datos a través de la ficha **Curso > Alumno** y hacer clic en la lista desplegable Acción.
+
+La opción estará presente cuando no haya ningún alumno inscrito/pendiente de aprobación en el curso aprobado por el responsable y se generará un informe vacío. También puede exportar cuando los alumnos estén en estado de aprobación pendiente, inscrito, pendiente y no inscrito.
+
+El informe contiene datos de usuarios activos, eliminados y suspendidos si están pendientes de aprobación. Además, el informe contiene datos de usuarios internos y externos que están en estado de aprobación pendiente.
+
+Si un alumno con un estado de aprobación pendiente se da de baja, su registro no estará presente en el informe. Además, si un alumno con un estado de aprobación pendiente se inscribe en el curso mediante inscripción de administrador/responsable/administrador personalizado, su registro estará presente en el informe.
 
 ## Lista de espera
 
 La sección Lista de espera permite que los alumnos estén en lista de espera para cursos de clase cuando las plazas son limitadas, en función de su orden de inscripción. Los administradores pueden gestionar esto seleccionando alumnos en lista de espera y asignando puestos que superen el límite inicial. Una vez que el administrador asigna una licencia, el alumno se inscribe inmediatamente en el curso.
 
-## Foro de debate
+## Exportar asistencia de los alumnos {#attendance}
 
-La función Foro de debate permite a los alumnos ver las discusiones del curso. Como administrador, tiene la posibilidad de eliminar cualquier comentario que considere necesario. Los administradores pueden activar esta opción en la configuración del curso.
+Para cualquier clase y curso de clase virtual, puede descargar la lista de alumnos que han asistido a este curso.
 
-## Moderación de los cursos {#coursemoderation}
+En la página de detalles del curso, haga clic en **[!UICONTROL Asistencia y Puntuación]** en el panel derecho.
 
-Cada vez que un autor añade, actualiza o elimina módulos y vuelve a publicar un curso, todos los administradores reciben una notificación al respecto. Como administrador, puede ver los cambios, comparar el contenido antiguo y el nuevo haciendo clic en el vínculo, y aprobar o rechazar los cambios correspondientes.
+En la esquina superior derecha de la página, haga clic en la lista desplegable **[!UICONTROL Acciones]**. A continuación, haga clic en la opción **[!UICONTROL Exportar lista de alumnos (PDF)]**.
 
-Para activar Moderación de los cursos, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL General]**. Seleccione la casilla de verificación **[!UICONTROL Moderación de los cursos]** para activar esta función.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Exportar lista de alumnos como PDF*
 
-*Activar la moderación del curso*
+En el archivo PDF, puede ver el mismo conjunto de alumnos que un instructor.
 
-Haga clic en la notificación para ver los cambios que el autor ha realizado en el curso. A continuación, apruebe o rechace los cambios efectuados por el autor. Si elige aprobar, el curso se vuelve a publicar. Si rechaza las actualizaciones, seguirá existiendo la versión anterior del curso. En cualquier caso, se envía una notificación al autor.
-
-![](assets/1.png)
-
-*Creación de solicitudes de actualizaciones de cursos*
-
-Si varios autores actualizan el mismo curso, el último cambio realizado (o el más reciente) se reflejará en la notificación del administrador. En ese momento, puede aprobar o rechazar los últimos cambios.
+Cuando descarga el PDF, puede ver la zona horaria (en UTC) que se utilizó al crear el curso.
 
 ## Comentarios de L1 y L3 {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ Puede agregar las opciones de comentarios de L1 y L3 mientras crea los cursos:
 1. Haga clic en el círculo del botón de alternar junto a los comentarios de L1 o L3 para habilitarlos.
 1. Añada la pregunta de comentarios de L3 en el área de texto debajo de Pregunta de L3.
 
-## Comentarios de L1 obligatorios {#mandatory-l1-feedback}
+### Comentarios de L1 obligatorios {#mandatory-l1-feedback}
 
 Puede hacer que todas las preguntas o la primera pregunta sean obligatorias en los comentarios de L1.
 
@@ -269,7 +288,7 @@ En la página Valores predeterminados de instancia, si habilita **[!UICONTROL Es
 
 *Ver la página Valores por Defecto de Instancia*
 
-## Comentarios de L1 en el nivel del curso {#l1-feedback-course-level}
+### Comentarios de L1 en el nivel del curso {#l1-feedback-course-level}
 
 En versiones anteriores de Learning Manager, un administrador podía activar los comentarios de L1 para el programa de aprendizaje.
 
@@ -293,7 +312,7 @@ En esta versión de Learning Manager, el administrador puede enviar los comenta
 
    Si los comentarios de L1 están activados para todos los cursos, pero están desactivados en la instancia del programa de aprendizaje, los comentarios de L1 no se activarán para los cursos.
 
-## Informes de prueba específicos del idioma
+### Informes de prueba específicos del idioma
 
 Los informes de prueba ayudan a evaluar el rendimiento de un alumno después de la finalización de un programa de aprendizaje o un curso.
 
@@ -303,7 +322,7 @@ En los informes de prueba, se muestran datos en diferentes idiomas siempre que e
 
 Esto se ha solucionado, ya que el administrador ahora puede ver a la vez todos los informes en el idioma respectivo empleado por el usuario, independientemente de la configuración regional de contenido elegida. La prueba realizada en diferentes idiomas se añadirá como columnas adicionales en el informe de prueba.
 
-## Activar los comentarios de L1 en el nivel de cuenta {#l1-feedback-account-level}
+### Activar los comentarios de L1 en el nivel de cuenta {#l1-feedback-account-level}
 
 *Activar los comentarios de L1 en el nivel de cuenta*
 
@@ -329,7 +348,7 @@ También puede desactivar los comentarios de L1. Para ello, conmute el **[!UICON
 
 *Activar o desactivar los comentarios de L1*
 
-## Añadir preguntas descriptivas para los comentarios de L1 y L3 {#descriptive}
+### Añadir preguntas descriptivas para los comentarios de L1 y L3 {#descriptive}
 
 En la versión de noviembre de Learning Manager, se ha incluido una opción para añadir preguntas descriptivas. Los administradores tienen una opción para agregar estas preguntas para los alumnos. Esto se añade al conjunto predeterminado de preguntas proporcionadas por Learning Manager. También puede hacerlas obligatorias si es necesario al elegir la opción debajo de la pregunta.
 
@@ -363,7 +382,7 @@ A continuación, se proporciona un cuestionario de L3 de muestra como referencia
 
 *Ver salida de comentarios de L3*
 
-## Configurar el cuestionario de comentarios de L1 y L3 {#setupl1andl3feedbackquestionnaire}
+### Configurar el cuestionario de comentarios de L1 y L3 {#setupl1andl3feedbackquestionnaire}
 
 Puede configurar el cuestionario de comentarios L1 y L3 y establecer recordatorios en el nivel de cuenta.
 
@@ -379,6 +398,36 @@ Puede configurar el cuestionario de comentarios L1 y L3 y establecer recordatori
 1. Haga clic en **[!UICONTROL Guardar]** en la esquina superior derecha de la página.
 
 En los comentarios de L1, puede ver dos conjuntos de cuestionarios junto con una pregunta predeterminada. El primer conjunto de cuestionarios se refiere a cursos de tipo personalizado que también se pueden utilizar para cursos basados en actividades. El segundo conjunto de cuestionarios se puede utilizar para cursos de clase y de clase virtual.
+
+## Ver comentarios de L1 y L3 {#viewl1andl3feedback}
+
+Puede ver los comentarios de L1 proporcionados por los alumnos de un curso y los comentarios de L3 facilitados por los responsables de los alumnos.
+
+1. Haga clic en cualquier mosaico de curso de la lista Cursos.
+1. Haga clic en Comentarios de L1 o en Comentarios de L3 en el panel izquierdo para ver los comentarios que se han recibido.
+1. Seleccione la instancia en la lista desplegable para ver los Comentarios de esa instancia en concreto.
+
+## Foro de debate
+
+La función Foro de debate permite a los alumnos ver las discusiones del curso. Como administrador, tiene la posibilidad de eliminar cualquier comentario que considere necesario. Los administradores pueden activar esta opción en la configuración del curso.
+
+## Moderación de los cursos {#coursemoderation}
+
+Cada vez que un autor añade, actualiza o elimina módulos y vuelve a publicar un curso, todos los administradores reciben una notificación al respecto. Como administrador, puede ver los cambios, comparar el contenido antiguo y el nuevo haciendo clic en el vínculo, y aprobar o rechazar los cambios correspondientes.
+
+Para activar Moderación de los cursos, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL General]**. Seleccione la casilla de verificación **[!UICONTROL Moderación de los cursos]** para activar esta función.
+
+![](assets/2.png)
+
+*Activar la moderación del curso*
+
+Haga clic en la notificación para ver los cambios que el autor ha realizado en el curso. A continuación, apruebe o rechace los cambios efectuados por el autor. Si elige aprobar, el curso se vuelve a publicar. Si rechaza las actualizaciones, seguirá existiendo la versión anterior del curso. En cualquier caso, se envía una notificación al autor.
+
+![](assets/1.png)
+
+*Creación de solicitudes de actualizaciones de cursos*
+
+Si varios autores actualizan el mismo curso, el último cambio realizado (o el más reciente) se reflejará en la notificación del administrador. En ese momento, puede aprobar o rechazar los últimos cambios.
 
 ## Exportar datos de lista de comprobación {#export-checklist-data}
 
@@ -429,61 +478,26 @@ Puede ver la puntuación de cualquier curso en particular según el nombre de us
 
 Elija el tipo de instancia de la lista desplegable para ver las puntuaciones según cada instancia del curso.
 
-## Administrar la lista de alumnos de un curso {#managelearnerslistforacourse}
+## Instancia predeterminada
 
-1. Haga clic en el nombre del curso en la miniatura del curso.
-1. En el panel izquierdo, haga clic en **[!UICONTROL Alumnos]**.
+Los administradores pueden establecer insignias, configuraciones de interacción y recordatorios predeterminados en **[!UICONTROL Instancia predeterminada]** página. Para modificar la configuración de instancia predeterminada, seleccione **[!UICONTROL Instancia predeterminada]** > **[!UICONTROL Editar]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Insignia]**: seleccione las insignias predeterminadas en el menú desplegable.
+* **[!UICONTROL Interacción]**: configure los ajustes de interacción, incluidos los puntos para la finalización, la finalización anticipada y la finalización puntual. Los administradores tienen la opción de seleccionar la configuración de nivel de cuenta o personalizar los puntos de interacción para esta instancia.
+* **[!UICONTROL Comentarios de reacción de L1]**: activa preguntas predefinidas para los comentarios de los alumnos al finalizar el curso, con opciones para que las preguntas sean obligatorias.
+***[!UICONTROL Comentarios sobre cambios de comportamiento en L3]**: active las preguntas de comentarios para el responsable del alumno al finalizar el curso.
+***[!UICONTROL Configuración de recordatorio]**: Establecer y administrar recordatorios para las fechas límite, con opciones de escalación.
 
-*Seleccionar alumnos de un curso*
+### Establecer nivel de escalación {#escalation}
 
-En la página Alumnos, puede realizar las acciones siguientes:
+Para enviar notificaciones por correo electrónico, un administrador debe establecer explícitamente el nivel de escalación en:
 
-* Seleccione el alumno que desea eliminar y haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Quitar**].
-* Seleccione el alumno cuya asistencia desea marcar y haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Marcar como completado**].
+* Responsable
+* Responsable y responsable de un nivel superior
 
-Para permitir que los alumnos restablezcan un módulo y vuelvan a utilizarlo, haga clic en [!UICONTROL **Restablecer**]. En el cuadro de diálogo emergente, haga clic en Sí para confirmar el restablecimiento. Los módulos que se han completado no se pueden restablecer. Solo se pueden restablecer los módulos incorrectos o incompletos.
+![](assets/escalation-notification.png)
 
-También puede exportar la lista de alumnos en una hoja de Excel. Para exportar la lista de alumnos, haga clic en [!UICONTROL **Acciones**] > [!UICONTROL **Exportar**].
-
->[!NOTE]
->
->Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, o **En curso**, o **Completado**.
-
-## Exportar asistencia de los alumnos {#attendance}
-
-Para cualquier clase y curso de clase virtual, puede descargar la lista de alumnos que han asistido a este curso.
-
-En la página de detalles del curso, haga clic en **[!UICONTROL Asistencia y Puntuación]** en el panel derecho.
-
-En la esquina superior derecha de la página, haga clic en la lista desplegable **[!UICONTROL Acciones]**. A continuación, haga clic en la opción **[!UICONTROL Exportar lista de alumnos (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Exportar lista de alumnos como PDF*
-
-En el archivo PDF, puede ver el mismo conjunto de alumnos que un instructor.
-
-Cuando descarga el PDF, puede ver la zona horaria (en UTC) que se utilizó al crear el curso.
-
-## Exportar alumnos con estado de aprobación pendiente
-
-Un administrador, un responsable o un administrador personalizado pueden exportar datos de alumnos con un estado de inscripción de aprobación pendiente. Puede exportar los datos a través de la ficha **Curso > Alumno** y hacer clic en la lista desplegable Acción.
-
-La opción estará presente cuando no haya ningún alumno inscrito/pendiente de aprobación en el curso aprobado por el responsable y se generará un informe vacío. También puede exportar cuando los alumnos estén en estado de aprobación pendiente, inscrito, pendiente y no inscrito.
-
-El informe contiene datos de usuarios activos, eliminados y suspendidos si están pendientes de aprobación. Además, el informe contiene datos de usuarios internos y externos que están en estado de aprobación pendiente.
-
-Si un alumno con un estado de aprobación pendiente se da de baja, su registro no estará presente en el informe. Además, si un alumno con un estado de aprobación pendiente se inscribe en el curso mediante inscripción de administrador/responsable/administrador personalizado, su registro estará presente en el informe.
-
-## Ver comentarios de L1 y L3 {#viewl1andl3feedback}
-
-Puede ver los comentarios de L1 proporcionados por los alumnos de un curso y los comentarios de L3 facilitados por los responsables de los alumnos.
-
-1. Haga clic en cualquier mosaico de curso de la lista Cursos.
-1. Haga clic en Comentarios de L1 o en Comentarios de L3 en el panel izquierdo para ver los comentarios que se han recibido.
-1. Seleccione la instancia en la lista desplegable para ver los Comentarios de esa instancia en concreto.
+*Establecer nivel de escalación*
 
 ## Previsualizar cursos {#previewcourses}
 

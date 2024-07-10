@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 66%
+source-wordcount: '3836'
+ht-degree: 68%
 
 ---
 
@@ -483,24 +483,6 @@ Mezclado\
 Clase\
 Clase virtual\
 Actividad
-
-Para cambiar el nombre de las terminologías, siga estos pasos.
-
-1. Como administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL General]** > **[!UICONTROL Terminología del producto]**. Se abre la opción de terminología del producto.
-
-   ![](assets/product-terminology.png)
-
-   *Cambiar nombre de terminología de productos*
-
-1. Los cambios se pueden realizar cargando una plantilla de terminología del producto modificada descargando el archivo CSV de muestra. Para descargar el archivo CSV de muestra, haga clic en el **[!UICONTROL Descargar aquí]** opción.
-1. El archivo CSV descargado contiene el nombre de los objetos de la columna A. En la columna B, elija el nombre que desea asignar al objeto respectivo. Tenga en cuenta que debe actualizar la forma singular y plural del nombre separada por (|).
-1. Puede optar por modificar una o varias filas. Puede conservar las filas no modificadas o eliminarlas del archivo .csv antes de cargarlo.
-1. Cargue el archivo CSV modificado y haga clic en **[!UICONTROL Guardar]**. Learning Manager se actualiza para reflejar los cambios.
-1. Para restablecer las terminologías predeterminadas, haga clic en **[!UICONTROL Restablecer terminología del producto]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Restablecer la terminología del producto*
 
 ## Configuración de perfil {#profilesettings}
 

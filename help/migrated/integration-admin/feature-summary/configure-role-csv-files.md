@@ -4,10 +4,10 @@ title: Administrar funciones personalizadas mediante archivos CSV
 description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ Puede configurar las funciones a través de los conectores de FTP y Box de Learn
 
 Después de iniciar sesión en su cuenta de almacenamiento de Box, el administrador de integración puede añadir los siguientes archivos CSV a la cuenta:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 En primer lugar, descargue el archivo CSV y cambie los valores en función de sus requisitos.
 
-**role.csv**
 * Archivo de muestra: [role.csv](assets/role.csv)
 * Archivo de muestra: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Si en el archivo CSV se proporcionan nombres de catálogos o de grupos de usuari
 
 En la cuenta de Box, seleccione **Importar > usuario > interno** y cargue los archivos role.csv y user_role.csv.
 
-* Los archivos CSV de funciones personalizadas se deben copiar en la carpeta &quot;import->user->internal->user_role&quot;
-* El archivo CSV de usuarios debe copiarse en la carpeta &quot;import->user->internal&quot;.
+* Los archivos role.csv y user_role.csv deben copiarse en la carpeta **Importar** > **usuario** > **interno** > **user_role**.
+* El archivo user.csv debe copiarse en la carpeta **Importar** > **usuario** > **interno**.
 
-Ambos CSV se deben cargar únicamente a través de Box o FTP, no mediante la IU.
+Ambos archivos CSV deben cargarse solo a través de Box y no pueden cargarse a través de la interfaz de usuario.
 
 >[!NOTE]
 >
