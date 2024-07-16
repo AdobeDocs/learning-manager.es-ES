@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 68%
+source-wordcount: '3595'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 68%
 
 Obtenga información sobre la configuración de la cuenta de Learning Manager que puede efectuar como administrador.
 
-Puede cambiar la configuración de su perfil de administrador y actualizar la configuración de su cuenta. Consulte su información de perfil, añada o cambie la foto de perfil y modifíquela **[!UICONTROL Acerca de mí]** contenido. Actualice la información de su empresa, establezca los métodos de inicio de sesión para los usuarios y configure la integración de la conexión a través de la configuración de la cuenta.
+Puede cambiar la configuración de su perfil de administrador y actualizar la configuración de su cuenta. Visualiza tu información de perfil, añade o cambia fotos de perfil y modifica el contenido de **[!UICONTROL Acerca de mí]**. Actualice la información de su empresa, establezca los métodos de inicio de sesión para los usuarios y configure la integración de la conexión a través de la configuración de la cuenta.
+
+![](assets/settings-admin.png)
 
 ## Configurar el Adobe Learning Manager
 
@@ -24,7 +26,7 @@ Este curso de formación describe los aspectos básicos de la configuración de 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Configuración de la cuenta {#accountsettings}
 
@@ -36,13 +38,13 @@ Haga clic en **[!UICONTROL Cambiar]** en la página y edite la configuración de
 
 **Configurar los administradores de contactos**
 
-Si desea añadir o cambiar las direcciones de correo electrónico de los administradores que ofrecen asistencia en la empresa, haga clic en **[!UICONTROL General]** en el panel izquierdo. Haga clic en **[!UICONTROL Cambiar]** adyacente a **[!UICONTROL ID de correo electrónico de asistencia]** y añada los ID de correo electrónico. El correo electrónico se envía a estos administradores cuando el alumno hace clic en él **[!UICONTROL Contactar con administrador]** al pie de la página.
+Si desea añadir o cambiar las direcciones de correo electrónico de los administradores que ofrecen asistencia en la empresa, haga clic en **[!UICONTROL General]** en el panel izquierdo. Haga clic en **[!UICONTROL Cambiar]** junto a **[!UICONTROL ID de correo electrónico de asistencia]** y agregue los ID de correo electrónico. Se envía un correo electrónico a estos administradores cuando el alumno hace clic en **[!UICONTROL Contactar con el administrador]** en el pie de la página.
 
 Añada ID de correo electrónico adicionales con punto y coma como separador.
 
-**Métodos de acceso** - Los administradores pueden elegir el modo en el que los usuarios internos o externos pueden acceder a la cuenta.
+**Métodos de inicio de sesión**: los administradores pueden elegir el modo mediante el cual los usuarios internos o externos pueden acceder a la cuenta.
 
-* **Usuarios internos:** Para los usuarios internos, puede configurar Adobe ID o el inicio de sesión único como modo de inicio de sesión.
+* **Usuarios internos:** Para los usuarios internos, puede establecer Adobe ID o el inicio de sesión único como modo de inicio de sesión.
 * **Usuarios externos:** Para usuarios externos, puede establecer el ID de Adobe ID o de inicio de sesión único o de administrador de aprendizaje.
 
 Si elige ID de Learning Manager, los usuarios externos pueden iniciar sesión en esta cuenta después de crear su nombre de usuario y contraseña de Learning Manager.
@@ -55,11 +57,11 @@ Puede acceder a la aplicación Learning Manager mediante Adobe ID o el inicio de
 
 **Comentarios**
 
-Haga clic en **[!UICONTROL Comentarios]** en el panel izquierdo para configurar el cuestionario a fin de que los usuarios opinen una vez completado un curso. Consulte la [contenido de ayuda de la función cursos](courses.md) sobre la creación de comentarios de L1 y L3.
+Haga clic en **[!UICONTROL Comentarios]** en el panel izquierdo para configurar el cuestionario a fin de que los usuarios opinen una vez completado un curso. Consulte [contenido de ayuda sobre la función de cursos](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) al crear comentarios de L1 y L3.
 
 **Varios intentos**
 
-Seleccionar **[!UICONTROL Configuración]** > **[!UICONTROL General]** > **[!UICONTROL Varios intentos]**.
+Seleccione **[!UICONTROL Configuración]** > **[!UICONTROL General]** > **[!UICONTROL Varios Intentos]**.
 
 Si activa la casilla de verificación &quot;Varios intentos&quot;, los autores pueden definir &quot;Varios intentos&quot; para módulos o cursos de aprendizaje electrónico interactivos. Al seleccionar la segunda casilla, los administradores pueden definir &quot;Intentos infinitos&quot; de forma predeterminada para cualquier curso de aprendizaje electrónico interactivo recién creado.
 
@@ -81,7 +83,7 @@ En el panel izquierdo, haga clic en Tablero del alumno. Esta página le permite 
 
 **Adobe Connect**
 
-Haga clic en **[!UICONTROL Adobe Connect]** en el panel izquierdo a fin de configurar la cuenta de Adobe Connect para alojar sesiones de clase virtual. Para obtener más información, consulte  [Adobe Connect](adobeconnect-integration.md) ayuda de funciones.
+Haga clic en **[!UICONTROL Adobe Connect]** en el panel izquierdo a fin de configurar la cuenta de Adobe Connect para alojar sesiones de clase virtual. Para obtener más información, consulte la ayuda sobre la característica [Adobe Connect](adobeconnect-integration.md).
 
 ## Configuración general {#general}
 
@@ -204,7 +206,7 @@ Active o desactive las opciones siguientes:
     </ol>
     <p>Además, puede llevar a cabo las acciones siguientes:</p>
     <ul>
-     <li>Haga clic en <b>Restablecer</b> para restablecer los valores predeterminados en el <b>Ayuda</b> y <b>Contactar con administrador</b> campos.</li>
+     <li>Haga clic en el icono <b>Restablecer</b> para restablecer los valores predeterminados en los campos <b>Ayuda</b> y <b>Contactar con el administrador</b>.</li>
      <li>Personalizar el vínculo del pie de página para todos los idiomas. Haga clic en la lista desplegable <b>Idioma</b>; a continuación, seleccione el idioma y agregue los valores de <b>Nombre</b> y <b>URL</b> en los campos correspondientes. Después de guardar los cambios, los vínculos actualizados aparecen en el pie de página.<br></li>
     </ul></td>
   </tr>
@@ -402,8 +404,8 @@ Active o desactive las opciones siguientes:
     </ul>
     <p>Esta función solo está disponible para los cursos. La valoración basada en estrellas no es compatible con los programas de aprendizaje ni los certificados.<br><br><b>Nota: </b>Este cambio solo afecta a la aplicación del alumno. </p>
     <p>En el resto de aplicaciones (administrador, autor, responsable, administrador personalizado y autor personalizado), los cambios realizados en la configuración (clasificación basada en estrellas/eficacia del curso/desactivación de la visualización de valoraciones) no tendrán ningún efecto. </p>
-    <p>Para las nuevas cuentas, el <b>Mostrar valoraciones</b> tendrá la opción de <b>Valoración basada en estrellas</b> activado de forma predeterminada.</p>
-    <p>Para las cuentas existentes, si la cuenta tenía anteriormente la opción <b>Eficacia del curso</b> activado, a continuación el <b>Mostrar valoraciones</b> se activará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b>s está desactivada, a continuación, el <b>Mostrar valoraciones</b> sección también se deshabilitará. Cuando el <b>Mostrar valoraciones</b> está activada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
+    <p>Para las nuevas cuentas, la sección <b>Mostrar valoraciones</b> tendrá habilitada la opción <b>Valoración basada en estrellas</b> de forma predeterminada.</p>
+    <p>Para las cuentas existentes, si la cuenta tenía habilitada la opción <b>Eficacia del curso</b>, la sección <b>Mostrar valoraciones</b> se habilitará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b>s está deshabilitada, la sección <b>Mostrar valoraciones</b> también se deshabilitará. Cuando la sección <b>Mostrar valoraciones</b> está habilitada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Active o desactive las opciones siguientes:
 
 >[!NOTE]
 >
->Una vez activada la configuración de importación de aptitudes, el diseño de cuenta no se puede cambiar a la vista clásica; es decir, el cambio a la cuenta clásica se desactiva después de la **Importación de aptitudes** está activada.
-
-
-## Recomendación basada en Inteligencia artificial
-
-Learning Manager incluye una nueva página de inicio de alumno, moderna, más orientada al contenido y personalizada según las preferencias del alumno. Las recomendaciones de aprendizaje basadas en Inteligencia artificial tienen como objetivo mejorar la participación del alumno e identificar y solucionar las lagunas de aprendizaje.
-
-El algoritmo de recomendación se ha diseñado para admitir varias fuentes de entrada, incluidos datos del sector sobre las funciones de trabajo, los cargos y las descripciones que Adobe ha obtenido de sus socios. A continuación, estos datos se utilizan para formar algoritmos de IA de Adobe, de modo que Learning Manager pueda obtener un mapa que conecte las aptitudes alineadas con el sector a los cargos o las designaciones. A continuación, esto se convierte en una entrada en el algoritmo de recomendación.
-
-Learning Manager utiliza a continuación algoritmos de modelado de temas para analizar el contenido de formación de una cuenta y asignarlo a las aptitudes.
-
-Learning Manager utiliza los datos de actividad de los compañeros como otra señal para impulsar el algoritmo de recomendación de forma personalizada. Aquí se utilizan actividades como la inscripción, la finalización y cualquier comentario explícito proporcionado por los alumnos.
-
-Además, Learning Manager utiliza información explícita e implícita recopilada de alumnos individuales para personalizar aún más las recomendaciones. Un alumno podrá indicar explícitamente sus áreas de interés mediante inscripciones y Learning Manager recibirá esta información implícitamente en función de cómo el alumno termine realizando los cursos de formación.
-
-Por último, el administrador también podrá influir en el algoritmo de recomendación mediante atributos del alumno que Learning Manager debería tener en cuenta al definir grupos de compañeros y también al destacar los cursos de formación para grupos de usuarios específicos.
+>Una vez habilitada la configuración de importación de aptitudes, el diseño de cuenta no se puede cambiar a la vista clásica; es decir, se deshabilita el cambio a la cuenta clásica después de habilitar la opción **Importación de aptitudes**.
 
 ## Renombrar los objetos de aprendizaje {#renaminglearningobjects}
 
@@ -486,9 +473,9 @@ Actividad
 
 ## Configuración de perfil {#profilesettings}
 
-1. Haga clic en la flecha desplegable en la esquina superior derecha, junto a su fotografía/cuenta y elija **[!UICONTROL Configuración de perfil]**.
-1. En el cuadro de diálogo emergente, puede añadir o cambiar la fotografía si pasa el ratón por encima y hace clic en **[!UICONTROL Editar]** en el área de la foto de perfil.
-1. Añadir/modificar **[!UICONTROL Acerca]** contenido haciendo clic en **[!UICONTROL Editar]** junto a ella.
+1. Haz clic en la flecha desplegable en la esquina superior derecha, junto a tu foto/cuenta y elige **[!UICONTROL Configuración de perfil]**.
+1. En el cuadro de diálogo emergente, puedes añadir o cambiar una foto moviendo el ratón y haciendo clic en **[!UICONTROL Editar]** en el área de la foto de perfil.
+1. Agregue o modifique el contenido de **[!UICONTROL About]** haciendo clic en **[!UICONTROL Editar]** junto a él.
 1. Haga clic en **[!UICONTROL Guardar].**
 
 ## Carpeta de contenido {#content-folder}
@@ -497,7 +484,7 @@ Learning Manager admite carpetas de contenido privado. Un administrador puede co
 
 Los administradores pueden configurar las carpetas de contenido. Solo una vez que se hayan configurado, las carpetas de contenido pasan a estar visibles para los autores y estos podrán incluir el contenido en una o varias carpetas.
 
-Para añadir una carpeta de contenido, en la aplicación de administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Carpeta de contenido]**.
+Para agregar una carpeta de contenido, en la aplicación de administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Carpeta de contenido]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -532,7 +519,7 @@ Esta carpeta no puede formar parte de la definición de función configurable. P
 
 **Añadir una carpeta**
 
-Para añadir una carpeta, haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha de la ventana.
+Para agregar una carpeta, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha de la ventana.
 
 **Eliminar una carpeta**
 
@@ -564,7 +551,7 @@ Añada lo siguiente:
 
 ![ubicación de clase](assets/location-alm.gif)
 
-*Añadir ubicaciones de clase*
+*Agregar ubicaciones de clase*
 
 También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo CSV debe contener los campos:
 
@@ -578,16 +565,17 @@ También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo 
 
 ### Configuración {#admin-classroom-settings}
 
-Seleccionar **Editar** para cambiar lo siguiente:
+Seleccione **Editar** para cambiar lo siguiente:
 
-* **Permitir a los autores crear ubicaciones**: Una vez habilitadas, todas las ubicaciones creadas por los autores se mostrarán en la pestaña &quot;Todas las ubicaciones&quot;. Los alumnos también verán estas ubicaciones en los filtros Catálogo y Calendario.
-* **Permitir a los autores modificar y eliminar ubicaciones**: Una vez activada, los autores podrán modificar y eliminar todas las ubicaciones de clase. Las modificaciones de los autores se reflejarán en toda la plataforma, incluidos los informes.
+* **Permitir a los autores crear ubicaciones**: una vez habilitadas, todas las ubicaciones creadas por los autores se mostrarán en la ficha &#39;Todas las ubicaciones&#39;. Los alumnos también verán estas ubicaciones en los filtros Catálogo y Calendario.
+* **Permitir a los autores modificar y eliminar ubicaciones**:
+Una vez activada, los autores podrán modificar y eliminar todas las ubicaciones de clase. Las modificaciones de los autores se reflejarán en toda la plataforma, incluidos los informes.
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
 +++¿Cómo se crean diferentes carpetas para la biblioteca de contenido?
 
-Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Carpeta de contenido]**. Para añadir una carpeta, haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha y en el cuadro de diálogo, introduzca el nombre y la descripción de la carpeta.
+Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Carpeta de contenido]**. Para agregar una carpeta, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha y, en el cuadro de diálogo, escriba el nombre y la descripción de la carpeta.
 
 Los administradores pueden configurar las carpetas de contenido. Solo una vez que se hayan configurado, las carpetas de contenido pasan a estar visibles para los autores y estos podrán incluir el contenido en una o varias carpetas.
 
@@ -596,5 +584,5 @@ Para obtener más información, consulte la sección sobre [Carpeta de contenido
 
 +++¿Cómo se añade el ejercicio financiero para la cuenta?
 
-En **[!UICONTROL Configuración]** > **[!UICONTROL Información básica]**, haga clic en **[!UICONTROL Cambiar]**. Desde el **[!UICONTROL El ejercicio financiero comienza a partir de]** , seleccione el mes en cuestión.
+En **[!UICONTROL Configuración]** > **[!UICONTROL Información básica]**, haga clic en **[!UICONTROL Cambiar]**. En la lista desplegable **[!UICONTROL El año financiero comienza desde]**, seleccione el mes.
 +++
