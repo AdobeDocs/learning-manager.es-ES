@@ -3,14 +3,13 @@ description: Uso de Aprendizaje social como alumno
 jcr-language: en_us
 title: Aprendizaje social en Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 78%
 
 ---
-
-
 
 # Aprendizaje social en Learning Manager
 
@@ -22,15 +21,15 @@ El mero hecho de asistir a una formación no garantiza que los usuarios recuerde
 
 Del mismo modo, la función Aprendizaje social de Learning Manager permite a los usuarios interactuar entre sí al compartir contenido y aprender de él.
 
-En esta plataforma, se pueden compartir contenido de vídeo, audio, capturas de pantalla, texto, preguntas y encuestas. Los usuarios también pueden compartir sus conocimientos en línea con sus compañeros mediante el **Compartir en el marcador social**. Para obtener más información, consulte  [Compartir en Aprendizaje social](share-to-social.md).
+En esta plataforma, se pueden compartir contenido de vídeo, audio, capturas de pantalla, texto, preguntas y encuestas. Los usuarios también pueden compartir sus conocimientos en línea con sus compañeros mediante el marcador **Compartir en redes sociales**. Para obtener más información, consulte [Compartir en Aprendizaje social](share-to-social.md).
 
-El contenido también se puede publicar dentro de un tablero con la ayuda del **aplicación de Adobe Learning Manager para escritorio**. Para obtener más información, consulte  [Aplicación de Adobe Learning Manager para escritorio](../adobe-learning-manager-app-for-desktop.md).
+El contenido también se puede publicar dentro de un tablero con la ayuda de la **aplicación de escritorio de Adobe Learning Manager**. Para obtener más información, consulte [Aplicación para escritorio de Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
 El alumno puede ver la función solo si el administrador activa Aprendizaje social.
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-*Ver tablero de aprendizaje*
+*Ver panel de aprendizaje*
 
 <table>
  <tbody>
@@ -138,7 +137,7 @@ El contenido se crea como una publicación dentro de un tablero. Para crear una 
 
 1. Seleccione cualquiera de los tipos siguientes de contenido para publicar: Texto, Pregunta, Vídeo, Audio, Sondeo o Captura de pantalla. El contenido se puede cargar desde el sistema del usuario o desde la galería de la aplicación Adobe Learning Manager para escritorio.
 
-   Use la aplicación Adobe Learning Manager para escritorio para grabar un vídeo, una pantalla o un audio, o para realizar una captura de pantalla. Para obtener más información, consulte [aplicación de Adobe Learning Manager para escritorio](../adobe-learning-manager-app-for-desktop.md).
+   Use la aplicación Adobe Learning Manager para escritorio para grabar un vídeo, una pantalla o un audio, o para realizar una captura de pantalla. Para obtener más información, consulte [Aplicación de escritorio de Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
@@ -148,29 +147,29 @@ El contenido se crea como una publicación dentro de un tablero. Para crear una 
 
    *Crear un tablero*
 
-   Si es un usuario externo o interno, y si el administrador le ha otorgado acceso para crear un tablero, puede crearlo. Si no tiene los permisos para crear un tablero, el vínculo **Crear un nuevo tablero** no aparece.
+   Si es un usuario externo o interno, y si el administrador le ha otorgado acceso para crear un tablero, puede crearlo. Si no tiene los permisos para crear un tablero, el vínculo **Crear un nuevo tablero** no aparecerá.
 
 1. En el cuadro de diálogo que aparece en pantalla, complete los detalles y seleccione el siguiente tipo de tablero:
 
    * **Público** - La participación y la visibilidad de las publicaciones están disponibles para todos los usuarios.
-   * **Privado** - La publicación solo es visible para el creador del tablero, los moderadores y los usuarios añadidos al tablero.
-   * **Restringido** - Solo el propietario del tablero, el administrador y los moderadores del tablero pueden crear publicaciones. Otros usuarios pueden participar comentando/respondiendo, votando a favor/votando a favor/en contra, etc.
+   * **Privado**: la publicación solo está visible para el creador del tablero, los moderadores y los usuarios agregados al tablero.
+   * **Restringido**: el propietario, el administrador y los moderadores del tablero son los únicos que pueden crear publicaciones. Otros usuarios pueden participar comentando/respondiendo, votando a favor/votando a favor/en contra, etc.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >En la aplicación de Aprendizaje social, solo se crea un **Administrador** tiene la capacidad de crear tableros privados con grupos de usuarios (internos/externos).
+   >En la aplicación de Aprendizaje social, solo un **administrador** puede crear un tablero privado con grupos de usuarios (internos/externos).
    >
-   >Ningún otro usuario, a excepción de un administrador, un autor, un alumno, un responsable y un instructor, entre otros, **no** crear tableros privados con grupos de usuarios. No pueden ver la sección de **grupos de usuarios** en la creación de tablero privado.
+   >Ningún otro usuario, a excepción de un administrador, un autor, un alumno, un responsable y un instructor, entre otros, **no puede** crear tableros privados con grupos de usuarios. No pueden ver la sección de **grupos de usuarios** durante la creación de un tablero privado.
 
    Solo para un administrador: al elegir **Privado**, aparecen dos opciones: **Usuarios** y **Grupos de usuarios**. Elija la opción **Grupos de usuarios**; a continuación, agregue los grupos de usuarios con los que desea compartir el tablero privado.
 
    En el campo Grupos de usuarios, puede elegir grupos internos, externos o personalizados. Su tablero privado será visible para todos los grupos de usuarios especificados, sea cual sea la configuración del ámbito.
 
-1. Para compartir contenido, haga clic en **[!UICONTROL Post]**. Al hacer clic en Publicar, el usuario recibe una notificación.
+1. Para compartir contenido, haz clic en **[!UICONTROL Publicar]**. Al hacer clic en Publicar, el usuario recibe una notificación.
 
-   El contenido se publica en función de la configuración de revisión establecida por el administrador para el contenido de Aprendizaje social que puede seleccionar  [Moderadores de tableros/expertos en la materia](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   El contenido se publica según la configuración de revisión establecida por el administrador para el contenido de Aprendizaje social, que puede seleccionar [Moderadores del tablero/expertos en la materia](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -184,13 +183,13 @@ Al crear o responder a una publicación en Aprendizaje social, puede redactar un
 
 ![](assets/rte-learner.png)
 
-*Utilizar el Editor de texto enriquecido para crear una publicación*
+*Usar el Editor de texto enriquecido para crear una publicación*
 
 Además, al crear un tablero, tiene acceso al mismo conjunto de opciones en el Editor de texto enriquecido.
 
 ![](assets/create-board.png)
 
-*Utilizar el Editor de texto enriquecido para crear una publicación*
+*Usar el Editor de texto enriquecido para crear una publicación*
 
 ## Visualización del contenido aprobado {#viewingapprovedcontent}
 
@@ -222,9 +221,9 @@ Un alumno puede ver todos los tableros en una vista de lista. Inicie sesión en 
 
 ![](assets/image002.png)
 
-*Vista de tablero en Aprendizaje social*
+*Vista de tablero en redes sociales*
 
-Cuando vea las publicaciones en formato de tablero, puede ordenar las publicaciones según **Post** y **Colaborador**.
+Cuando vea las publicaciones en formato de tablero, puede ordenar las publicaciones según **Publicación** y **Colaborador**.
 
 ![](assets/image004.png)
 
@@ -386,17 +385,17 @@ La opción Social - Historia permite que los usuarios añadan o creen historias 
 
 Para añadir una publicación, siga los pasos que se indican a continuación:
 
-1. Haga clic en el icono de menú contraído en la esquina superior derecha de una publicación y haga clic en **[!UICONTROL Añadir a mi historia]**.
+1. Haga clic en el icono de menú contraído en la esquina superior derecha de una publicación y haga clic en **[!UICONTROL Agregar a mi historia]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Añadir a una historia*
+   *Agregar a un artículo*
 
 1. En el cuadro de diálogo **Seleccionar historia**, elija una historia y añádala a la publicación. Si no encuentra ninguna historia que le satisfaga, cree una haciendo clic en **Nueva historia**.
 
    ![](assets/select-story-or-newstory-06.png)
 
-   *Crear una historia*
+   *Crear un artículo*
 
 1. En el cuadro de diálogo Nueva historia, complete los campos Nombre de la historia y Descripción. La visibilidad de la historia se puede definir en Pública o Privada.
 
@@ -491,7 +490,7 @@ Los tableros son una colección de publicaciones. Cada tablero de Aprendizaje so
 
 En la página Todos los tableros, están visibles las publicaciones o los tableros creados por todos los alumnos de un ámbito de actividad. Ahora bien, en la página Mis tableros, solo están visibles los tableros creados por un usuario o los tableros en los que dicho usuario participa o los que sigue.
 
-En la página Mis tableros, los tableros visibles se pueden filtrar según lo siguiente: **Todo**, **Creado por mí**, **Comentado por mí**, **Seguido por mí**.
+En la página Mis tableros, los tableros visibles se pueden filtrar según lo siguiente: **Todos**, **Creados por mí**, **Comentados por mí**, **Seguidos por mí**.
 
 ![](assets/board-filter-07.png)
 
@@ -501,7 +500,7 @@ En Mis tableros y Todos los tableros, los usuarios pueden ordenar los tableros p
 
 ![](assets/sort-board-by-08.png)
 
-*Ordenar tableros por relevancia y fecha*
+*Ordenar los tableros por relevancia y fecha*
 
 Al crear una publicación, si no hay tableros relevantes para la publicación, haga clic en [Crear un nuevo tablero](social-learning-web-user.md#Creatingcontentasapost).  Para ver, editar, eliminar, informar, copiar URL y añadir un tablero a su lista de tableros favoritos, siga los pasos que se indican a continuación:
 
@@ -524,7 +523,7 @@ Compartir en Social es un bookmarklet que permite a los usuarios compartir sus a
 
 ![](assets/share-to-social-11.png)
 
-*Compartir en Aprendizaje social*
+*Compartir en aprendizaje social*
 
 ## Mis aptitudes {#myskills}
 
@@ -588,7 +587,7 @@ El administrador de la organización también tiene el privilegio de añadir má
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Para moderar la publicación, haga clic en **Haga clic para revisar** vínculo. De este modo, el experto en la materia accede a la página de moderación de contenido, similar a la captura de pantalla siguiente.
+1. Para moderar la publicación, haz clic en el vínculo **Haga clic para revisar**. De este modo, el experto en la materia accede a la página de moderación de contenido, similar a la captura de pantalla siguiente.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ Cualquier página de Aprendizaje social dispone de un campo para poder buscar un
 
 <!--![](assets/search-16.png)-->
 
-Las siguientes páginas de aprendizaje informal tienen un campo de búsqueda: **Mis tableros**, **Todos los tableros**, **Página Tableros**, del usuario **Página de perfil**, y **página de perfil de otro alumno**.
+Las siguientes páginas de aprendizaje informal tienen un campo de búsqueda: **Mis tableros**, **Todos los tableros**, **Página de tableros**, **Página de perfil** del usuario y **Página de perfil de otro alumno**.
 
 Cuando un alumno busca contenido en el aprendizaje informal, se muestra el número total de los resultados de la búsqueda del contenido de aprendizaje informal y formal de Learning Manager.
 
@@ -611,7 +610,7 @@ Asimismo, se muestra el número de los resultados de la búsqueda de aprendizaje
 
 ![](assets/formal-learning-search-20.png)
 
-*Resultados de búsqueda para aprendizaje*
+*Resultados de la búsqueda de aprendizaje*
 
 En la página del tablero de aprendizaje informal, solo pueden realizarse búsquedas relacionadas con el tablero. No se muestra ninguna búsqueda que no esté relacionada con un tablero.
 
@@ -627,7 +626,7 @@ En la página de perfil, los alumnos pueden ver el número total de puntos obten
 
 También pueden ver las aptitudes por las cuales han recibido la denominación de experto en la materia.
 
-En la página del alumno también se muestran sus **historias seleccionadas**, **actividades recientes** y el resultado de **personas seguidas** por ellos.
+La página del alumno también muestra las **historias revisadas** del alumno, las **actividades recientes** realizadas y las **personas a las que siguen**.
 
 ## Notificaciones {#notifications}
 

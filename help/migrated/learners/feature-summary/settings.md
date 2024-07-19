@@ -39,7 +39,7 @@ Lea este artículo para aprender a configurar el perfil de alumno y añadir una 
 
 **1. ¿Cómo descargar una transcripción de alumno como alumno?**
 
-En la esquina superior derecha, haga clic en su **[!UICONTROL perfil de usuario]** > **[!UICONTROL Configuración de perfil]**. En el cuadro de diálogo que aparece, haga clic en **Descargar la transcripción de mi aprendizaje (XLS)**.
+En la esquina superior derecha, haz clic en tu **[!UICONTROL perfil de usuario]** > **[!UICONTROL Configuración de perfil]**. En el cuadro de diálogo que aparece, haga clic en **Descargar mi transcripción de aprendizaje (XLS)**.
 
 ![](assets/dowload-lt.png)
 *Descargar transcripciones de alumnos*

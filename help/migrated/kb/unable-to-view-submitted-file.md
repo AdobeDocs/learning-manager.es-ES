@@ -3,14 +3,13 @@ jcr-language: en_us
 title: No se pueden ver los envíos de archivos en Adobe Learning Manager
 description: Los instructores no pueden ver los archivos que los alumnos han cargado en el módulo de actividad de envío.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 50%
 
 ---
-
-
 
 # No se pueden ver los envíos de archivos en Adobe Learning Manager
 
@@ -45,12 +44,12 @@ Si no hay ningún instructor en la instancia del curso en el que está inscrito 
 Para comprobar si se ha añadido un instructor a la instancia del curso, siga los pasos que se indican a continuación:
 
 1. Vaya a la configuración del curso.
-1. En la **Gestionar** , haga clic en **[!UICONTROL Instancias].**
-1. En la instancia en la que el alumno está inscrito, haga clic en **[!UICONTROL Sesiones]**.
+1. En la sección **Administrar**, haga clic en **[!UICONTROL Instancias].**
+1. En la instancia en la que está inscrito el alumno, haga clic en **[!UICONTROL Sesiones]**.
 
    ![](assets/check-instructor.png)
 
-   *Seleccione Sesiones en la instancia*
+   *Seleccionar sesiones en la instancia*
 
    No hay ningún instructor asignado a esta sesión.
 
@@ -58,6 +57,5 @@ Para comprobar si se ha añadido un instructor a la instancia del curso, siga lo
 
    ![](assets/assign-instructor.png)
 
-   *Añadir el instructor*
+   *Agregar el instructor*
 1. Guarde los cambios.
-

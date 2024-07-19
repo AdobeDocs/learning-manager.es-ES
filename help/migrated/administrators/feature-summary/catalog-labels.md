@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Etiquetas de catálogo
 description: Las etiquetas de catálogo permiten etiquetar objetos de aprendizaje con campos concretos y aplicar uno o más valores. Si la opción está habilitada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje.
 contentowner: dvenkate
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 966d163d-7878-44f4-afdc-38eb95996229
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 85%
 
 ---
-
-
 
 # Etiquetas de catálogo
 
@@ -27,7 +26,7 @@ Para activar etiquetas de catálogo, siga estos pasos:
 
 Para añadir etiquetas de catálogo, siga este paso:
 
-1. Abrir  **[!UICONTROL Configuración]** > **[!UICONTROL Etiquetas de catálogo]** en virtud del **[!UICONTROL Avanzado]** opción. Se abre la página [!UICONTROL Etiquetas de catálogo].
+1. Abra **[!UICONTROL Configuración]** > **[!UICONTROL Etiquetas de catálogo]** en la opción **[!UICONTROL Avanzadas]**. Se abre la página [!UICONTROL Etiquetas de catálogo].
 
    ![](assets/catalog-labels-page.png)
 
@@ -50,6 +49,6 @@ Tras haber creado etiquetas de catálogo, puede aplicarlas a catálogos siguiend
 1. Abra etiquetas de catálogo en el panel de la izquierda.
 1. Haga clic en **[!UICONTROL Editar]** en la esquina superior derecha. La página muestra la lista de etiquetas de catálogo disponibles.
 1. Para incorporar una etiqueta al catálogo, haga clic en **[!UICONTROL Añadir a catálogo]**.
-1. Para eliminar etiquetas añadidas a un catálogo, haga clic en **[!UICONTROL Quitar]**.
+1. Para quitar las etiquetas existentes agregadas a un catálogo, haga clic en **[!UICONTROL Quitar]**.
 
 Cuando el campo personalizado se añade al catálogo, se aplica a todos los objetos de aprendizaje que son parte del catálogo.

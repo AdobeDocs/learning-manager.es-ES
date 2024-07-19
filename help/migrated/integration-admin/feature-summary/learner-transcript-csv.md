@@ -59,13 +59,13 @@ Por supuesto, los conectores también permiten obtener la transcripción del alu
 
 Ahora vamos a definir qué se entiende por la transcripción del alumno incremental.
 
-En la transcripción del alumno, cada fila representa una actividad concreta relacionada con un alumno y un objeto de aprendizaje específicos. Nos interesa principalmente qué estado tiene un alumno con respecto al objeto de aprendizaje: **Inscrito**, **Iniciado**, **En curso**, y **Completado**. Por lo tanto, la transcripción del alumno captura también las cuatro fechas correspondientes.
+En la transcripción del alumno, cada fila representa una actividad concreta relacionada con un alumno y un objeto de aprendizaje específicos. Nos interesa principalmente qué estado tiene un alumno con respecto al objeto de aprendizaje: **Inscrito**, **Iniciado**, **En curso** y **Completado**. Por lo tanto, la transcripción del alumno captura también las cuatro fechas correspondientes.
 
 Ahora hay tres tipos de objetos de aprendizaje en los que Learning Manager realiza un seguimiento del progreso del alumno y los datos exportados contienen información de progreso en el nivel de módulo, que es la unidad de contenido más detallada que un alumno puede experimentar en Learning Manager.
 
-* **Curso** - una composición de uno o varios módulos
-* **Programa de aprendizaje** - un conjunto de uno o varios cursos
-* **Certificación** - un conjunto de uno o varios cursos.
+* **Curso**: una composición de uno o más módulos
+* **Programa de aprendizaje**: un conjunto de uno o más cursos
+* **Certificación**: un conjunto de uno o varios cursos.
 
 Cada fila de la transcripción del alumno podría estar relacionada con la participación de un usuario específico en un módulo, curso, programa de aprendizaje o certificación. Cuando un usuario se inscribe en un programa de aprendizaje, la transcripción indica que el usuario
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Notificaciones de usuarios
 description: La función Notificaciones es aplicable a todos los usuarios de Adobe Learning Manager. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones. Todas las alertas y notificaciones a los usuarios se muestran en cuadros de diálogo emergentes de notificaciones.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 85%
 
 ---
-
-
 
 # Notificaciones de usuarios
 
@@ -28,7 +27,7 @@ Esta ventana emergente muestra resaltadas todas las notificaciones junto con la 
 
 Puede saber la cantidad de notificaciones más recientes según el número resaltado sobre el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número cinco aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
 
-Haga clic en **[!UICONTROL Mostrar todas las notificaciones]** situado en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente.
+Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente.
 
 ![](assets/author-notifications-page.png)
 

@@ -2,14 +2,13 @@
 description: Obtenga información sobre cómo descargar las transcripciones de alumnos basadas en usuarios, objetos de aprendizaje o aptitudes en Learning Manager.
 jcr-language: en_us
 title: Transcripciones de alumnos
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # Transcripciones de alumnos
 
@@ -20,8 +19,8 @@ Adobe Learning Manager permite a los responsables de una empresa generar transcr
 ## Generar transcripciones de alumnos {#generatelearnertranscripts}
 
 1. Para generar transcripciones de alumnos, haga clic en **[!UICONTROL Informes]** en el panel izquierdo del inicio de sesión del responsable.
-1. Haga clic en **[!UICONTROL Mis informes]** de la página.
-1. Haga clic en **[!UICONTROL Transcripciones de alumnos]** vínculo.
+1. Haga clic en la pestaña **[!UICONTROL Mis informes]** en la página.
+1. Haga clic en el vínculo **[!UICONTROL Transcripciones de alumnos]**.
 
    ![](assets/learner-transcripts.png)
 
@@ -51,7 +50,7 @@ Si el responsable activa esta opción, la zona horaria se selecciona de la que s
 
 ![](assets/image030.png)
 
-*Descargar transcripciones de alumnos de una zona horaria*
+*Descargar transcripciones de alumnos para un intervalo de tiempo*
 
 ## Contenido del archivo de transcripciones de alumnos {#learnertranscriptfilecontent}
 

@@ -22,19 +22,19 @@ La configuración técnica de su cuenta de Learning Manager la necesitan princip
 
 Como administrador del sistema en el Admin Console, una de sus primeras tareas es definir y configurar un sistema de identidades con el que se autenticarán los usuarios finales. A medida que su organización adquiera licencias de Learning Manager, deberá aprovisionar dichas licencias a los usuarios finales. Para ello, necesitará una forma de autenticar a estos usuarios. Realice el siguiente procedimiento para configurar el inicio de sesión único para sus usuarios.
 
-1. En la página de inicio de Learning Manager, haga clic en **[!UICONTROL ** Configuración **>** Métodos de inicio de sesión **.]**
+1. En la página principal de Learning Manager, haga clic en **[!UICONTROL ** Configuración **>** Métodos de inicio de sesión **.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. En función del tipo de usuario, seleccione **[!UICONTROL ** Usuarios internos **o** Usuarios externos **.]**
+1. Según el tipo de usuario, seleccione **[!UICONTROL ** Usuarios internos **o** Usuarios externos **.]**
 
 
 
-1. Desde el **[!UICONTROL **Inicio de sesión**]**campo desplegable, seleccione **[!UICONTROL ** Inicio de sesión único **.]**
+1. En el campo desplegable **[!UICONTROL **Inicio de sesión**]**seleccione **[!UICONTROL ** Inicio de sesión único **.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Para configurar el Inicio de sesión único, haga clic en **[!UICONTROL ** Cambiar **.]**
+1. Para configurar el inicio de sesión único, haga clic en **[!UICONTROL ** Cambiar **.]**
 
    ![](assets/configure-sso-step4.png)
 
@@ -44,7 +44,7 @@ Como administrador del sistema en el Admin Console, una de sus primeras tareas e
 
    ![](assets/configure-sso-step5.png)
 
-1. Haga clic en **[!UICONTROL **Cargar **]**junto a la**[!UICONTROL  **Archivo XML de metadatos de IDP **]******y cargue el archivo XML.
+1. Haga clic en **[!UICONTROL **Cargar **]**junto al campo**[!UICONTROL  **Archivo XML de metadatos de IDP **]******y cargue el archivo XML.
 1. Haga clic en **[!UICONTROL ** Guardar **.]**
 1. La autenticación SSO se ha configurado correctamente para su cuenta. En principio, debe poder iniciar sesión en su cuenta de Learning Manager mediante SSO.
 
@@ -54,11 +54,11 @@ Como administrador del sistema en el Admin Console, una de sus primeras tareas e
 
 Como administrador, cuando su empresa adquiere Learning Manager, uno de los pasos cruciales que debe realizar es la migración. Es fundamental que mueva el contenido de formación y los datos de usuario existentes a Learning Manager. El siguiente flujo de trabajo de migración le ayuda a aprovechar las ventajas del LMS moderno e intuitivo sin perder ninguno de los datos heredados de su organización.
 
-Learning Manager le permite migrar desde su LMS existente mediante un asistente paso a paso en sprints iterativos. Puede obtener una visibilidad completa del estado de cada sprint para garantizar que los alumnos experimenten un tiempo de inactividad cero al migrar los datos heredados a Adobe Learning Manager.
+Learning Manager le permite migrar desde su LMS existente mediante un asistente paso a paso en sprints iterativos. Obtendrá una visibilidad completa del estado de cada sprint para garantizar que los alumnos experimenten un tiempo de inactividad cero al migrar los datos heredados a Adobe Learning Manager.
 
 Para realizar el flujo de trabajo de migración, necesita los privilegios de administrador de integración. Como administrador, puede asumir la función de administrador de integración o asignar esta función a otro usuario.
 
-**Podemos tomar la ayuda de Shaleen para crear una imagen.**
+**Podemos usar la ayuda de Shaleen para crear un efecto visual.**
 
 1. Requisito previo
 1. Evaluación del contenido existente y los datos de los usuarios
@@ -240,7 +240,7 @@ Asegúrese de que cada archivo .csv contiene los datos de cada campo en el forma
  </tbody> 
 </table>
 
-***Learning Manager solo admite valores de fecha y hora en formato UTF 8 y de 32 bits. Es posible que aparezcan errores durante la migración si especifica una fecha en los archivos CSV con una fecha fuera del intervalo, como 2038-07-17T08:53:21.000Z o 1980-04-17T08:13:25.322Z.***
+***Learning Manager admite valores de fecha y hora solo en formato UTF 8 y de 32 bits. Es posible que aparezcan errores durante la migración si especifica una fecha en los archivos CSV con una fecha fuera del intervalo, como 2038-07-17T08:53:21.000Z o 1980-04-17T08:13:25.322Z.***
 
 ### Dependencias al importar datos a archivos csv {#dependencieswhileimportingdatatocsvfiles}
 
@@ -292,7 +292,7 @@ En la sección Configuración, haga clic en Solicitar una carpeta de Box.
 
 En el campo ****[!UICONTROL Introduzca Correo electrónico]****, introduzca el ID de correo electrónico en el que desea recibir las instrucciones de inicio de sesión para conectarse a Box.
 
-Haga clic en **[!UICONTROL ** Connect **.]**
+Haga clic en **[!UICONTROL ** Conectar **.]**
 
 Recibirá un correo de Box con un vínculo a la carpeta compartida. Si no tiene ninguna cuenta de Box, haga clic en Registrar y cree una. Las instrucciones de inicio de sesión se envían al ID de correo electrónico del administrador de la integración.
 
@@ -313,7 +313,7 @@ En la página de inicio del administrador de integración, haga clic en **[!UICO
 
 En la página de inicio de migración, el sistema muestra los proyectos de migración que ya se han creado en su organización.
 
-Haga clic en **[!UICONTROL **Nuevo**]** en la esquina superior derecha de la página, para crear un proyecto de migración.
+Haga clic en **[!UICONTROL **Nuevo**]**en la esquina superior derecha de la página para crear un proyecto de migración.
 
 ***Si aún no ha creado una carpeta FTP, se le pedirá que cree una cuenta de Exavault para la carpeta FTP. Este es el paso obligatorio antes de comenzar a crear un proyecto de migración. ***
 
@@ -331,17 +331,17 @@ En la página Configuración de sprint, cree un sprint para su proyecto de migra
 
 Especifique un nombre para el sprint y una descripción para el sprint.
 
-Seleccione la ****[!UICONTROL Casilla de verificación Se han agregado o modificado usuarios desde la última ejecución]****, para sincronizar la lista de usuarios con la aplicación de Learning Manager. Si está migrando contenido y datos a la aplicación Learning Manager, puede que no sea necesario. Sin embargo, si transcurre un tiempo entre la migración de sprints anterior y la última, se recomienda sincronizar la lista de usuarios. Este paso permite que la base de datos de Learning Manager esté sincronizada con los usuarios del LMS.
+Seleccione la casilla de verificación ****[!UICONTROL Se han agregado o modificado usuarios desde la última ejecución]**** para sincronizar la lista de usuarios con la aplicación Learning Manager. Si está migrando contenido y datos a la aplicación Learning Manager, puede que no sea necesario. Sin embargo, si transcurre un tiempo entre la migración de sprints anterior y la última, se recomienda sincronizar la lista de usuarios. Este paso permite que la base de datos de Learning Manager esté sincronizada con los usuarios del LMS.
 
-***Se recomienda el paso Sincronización cuando se migran enrollment.csv y user_course_grade.csv. Este paso permite que la base de datos de Learning Manager esté sincronizada con la base de datos de migración y garantiza que todos los usuarios cuyos registros se vayan a migrar en el sprint estén disponibles en la base de datos de migración.***
+***Se recomienda realizar el paso de sincronización cuando se migran enrollment.csv y user_course_grade.csv. Este paso permite que la base de datos de Learning Manager esté sincronizada con la base de datos de migración y garantiza que todos los usuarios cuyos registros se vayan a migrar en el sprint estén disponibles en la base de datos de migración.***
 
 Haga clic en **[!UICONTROL ** Siguiente **.]**
 
-Haga clic en **[!UICONTROL **Inicio**]** para iniciar la migración del sprint con los datos y el contenido cargados. Haga clic en ****[!UICONTROL Actualizar]**** antes de iniciar la ejecución del sprint, sincroniza las carpetas de FTP y contenido con Learning Manager.
+Haga clic en **[!UICONTROL **Inicio**]**para iniciar la migración de Sprint con los datos y el contenido cargados. Haga clic en ****[!UICONTROL Actualizar]**** antes de iniciar la ejecución del sprint para sincronizar las carpetas de FTP y contenido con Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Puede hacer clic en ****[!UICONTROL Detener]**** en cualquier momento durante el proceso de migración del sprint para anular la migración del sprint.
+Puede hacer clic en ****[!UICONTROL Detener]****en cualquier momento durante el proceso de migración del sprint para anular la migración del sprint.
 
 El sistema muestra el estado de migración respecto a cada elemento de datos y contenido del sprint. Compruebe la cantidad de elementos correctos y fallidos como parte de la ejecución del sprint de migración.
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Introducción a la función de administrador
 description: Utilice la página de introducción para navegar por las funciones de administración clave de Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Introducción a la función de administrador
 
@@ -20,7 +19,7 @@ Tan pronto como inicia sesión como administrador, puede ver una ventana emergen
 
 ## Ver vídeos de muestra {#viewsamplevideos}
 
-Examine los tutoriales de vídeo de muestra para comprender las funciones principales de su función como administrador. Si no desea que esta ventana emergente aparezca durante el inicio de sesión, puede desactivarla haciendo clic en **[!UICONTROL No mostrar al iniciar sesión]** en la esquina inferior derecha de la ventana emergente.
+Examine los tutoriales de vídeo de muestra para comprender las funciones principales de su función como administrador. Si no desea que esta ventana emergente aparezca durante el inicio de sesión, puede deshabilitarla haciendo clic en la opción **[!UICONTROL No mostrar al iniciar sesión]** en la esquina inferior derecha de la ventana emergente.
 
 Haga clic en **[!UICONTROL Cerrar ventana]** para cerrar la ventana emergente.
 
@@ -38,4 +37,3 @@ En la página Introducción, puede realizar las siguientes actividades:
 También puede obtener más información sobre la aplicación Learning Manager al ver los tutoriales de vídeo y el contenido de ayuda y aprender sobre diferentes funciones.
 
 ![](assets/admin-landing-page-300x204.png)
-

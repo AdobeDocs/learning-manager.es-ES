@@ -1,14 +1,14 @@
 ---
-description: Adobe Learning Manager admite varios métodos de inicio de sesión mediante varias configuraciones de SSO para usuarios internos y externos.
+description: Adobe Learning Manager admite varios métodos de inicio de sesión a través de varias configuraciones de SSO para usuarios internos y externos.
 title: Varios métodos de inicio de sesión único (SSO)
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Varios métodos de inicio de sesión único (SSO) {#multiple-sso-logins}
 
@@ -24,7 +24,7 @@ Se pueden añadir hasta 20 configuraciones de SSO a una cuenta. Estas se pueden
 
 ## Activar varios métodos de inicio de sesión único (SSO)
 
-Para habilitar el SSO múltiple, seleccione **Configuración** > **Métodos de inicio de sesión**.
+Para habilitar varios SSO, seleccione **Configuración** > **Métodos de inicio de sesión**.
 
 En la página de configuración, seleccione la casilla de verificación Habilitar el inicio de sesión único múltiple (SSO) para usuarios internos o externos.
 
@@ -39,7 +39,7 @@ Para configurar un SSO, siga los pasos que se indican a continuación:
    * Introduzca el nombre del SSO.
    * Seleccione el tipo de SSO: iniciado por IdP p SP.
 
-      * Si ha seleccionado IDP iniciado, introduzca la URL de IDP. Esta será la dirección URL que se utilizará como identificador único de su aplicación y es la información que proporciona su proveedor de servicios de IdP. Esta es la dirección URL a la que se redirigirán todos los usuarios de Adobe Learning Manager después de iniciar sesión.
+      * Si ha seleccionado IDP iniciado, introduzca la URL de IDP. Esta será la dirección URL que se utilizará como identificador único de su aplicación y es la información que proporciona su proveedor de servicios de IdP. Esta es la URL a la que se redirigirá a todos los usuarios de Adobe Learning Manager después de iniciar sesión.
       * Cargue el documento XML de metadatos de IDP de su proveedor IdP. Este archivo contiene información sobre el IdP que permite a Adobe Learning Manager aceptar aserciones SAML de él.
       * Si ha seleccionado SP iniciado, introduzca el ID de entidad. El ID de entidad es una dirección URL que proporciona el proveedor de servicios (SP).
       * Introduzca la dirección URL de inicio de sesión del SP. Los usuarios utilizan esta dirección URL para iniciar sesión en la aplicación.

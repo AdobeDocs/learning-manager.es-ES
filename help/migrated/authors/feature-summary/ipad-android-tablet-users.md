@@ -19,7 +19,7 @@ En la aplicación de Learning Manager en tabletas iPad o Android, después de in
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para desplazarse a las funciones de aprendizaje y catálogo, pulse el icono **Menú** y elija la opción adecuada.
+Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desplegable **Menú** y elija la opción adecuada.
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y
 
 Puede controlar el almacenamiento de su dispositivo periódicamente.
 
-Toque el icono de perfil en la esquina superior derecha de la aplicación y toque **Almacenamiento del dispositivo** opción de menú.
+Toque el icono de perfil en la esquina superior derecha de la aplicación y toque la opción de menú **Almacenamiento del dispositivo**.
 
 ![](assets/app-device-storage.png)
 

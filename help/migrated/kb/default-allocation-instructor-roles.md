@@ -31,8 +31,8 @@ Como las funciones no se pueden bifurcar durante la asignación masiva de usuari
 
 Cree grupos de usuarios personalizados para filtrar las funciones de usuario asignadas a una sesión. Para eliminar las funciones de instructor asignadas a un grupo de usuarios, siga estos pasos:
 
-1. Inicie sesión como Administrador. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]**.
-1. Para evitar activadores de correo electrónico para los cambios que se van a realizar, haga clic en **[!UICONTROL Desactivar todo]**.
+1. Inicie sesión como Administrador. En el panel izquierdo, haz clic en **[!UICONTROL Plantillas de correo electrónico]**.
+1. Para evitar activadores de correo electrónico para los cambios que se van a realizar, haga clic en **[!UICONTROL Deshabilitar todo]**.
 
    ![](assets/instructor-disable-all.png)
 
@@ -42,16 +42,16 @@ Cree grupos de usuarios personalizados para filtrar las funciones de usuario asi
 
 1. Cree un grupo de usuarios personalizado en la ventana Añadir grupo de usuarios de la siguiente manera:
 
-   * Introduzca un nombre para el grupo personalizado en el **[!UICONTROL Nombre]** campo.
-   * Debajo **[!UICONTROL Incluir alumnos]** , añada el grupo de usuarios para el que desee filtrar los instructores.
-   * Debajo **[!UICONTROL Excluir alumnos]** , añada los usuarios para los que desee conservar la función de instructor.
+   * Escriba un nombre para el grupo personalizado en el campo **[!UICONTROL Nombre]**.
+   * En el campo **[!UICONTROL Incluir alumnos]**, agregue el grupo de usuarios para el que desea filtrar los instructores.
+   * En el campo **[!UICONTROL Excluir alumnos]**, agregue los usuarios para los que desee conservar la función de instructor.
 
    ![](assets/instructor-add-ug.png)
 
    Los pasos anteriores crean una lista de usuarios que se van a añadir al conjunto de inclusión y eliminan usuarios específicos (instructores) mencionados en el conjunto de exclusión.
 
 1. Haga clic en **[!UICONTROL Guardar]** los cambios realizados.
-1. Busque el grupo de usuarios personalizado creado yendo a **[!UICONTROL Usuarios]** > **[!UICONTROL Interno]**.
+1. Busque el grupo de usuarios personalizado creado yendo a **[!UICONTROL Usuarios]** > **[!UICONTROL Interna]**.
 
    ![](assets/instructor-custom-ug.png)
 

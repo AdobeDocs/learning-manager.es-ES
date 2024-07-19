@@ -3,14 +3,13 @@ description: Este documento contiene consejos para la resolución básica de los
 jcr-language: en_us
 title: Solución de problemas con la aplicación Adobe Learning Manager para escritorio
 contentowner: kuppan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 53%
 
 ---
-
-
 
 # Solución de problemas con la aplicación Adobe Learning Manager para escritorio
 
@@ -18,7 +17,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 ## No es posible efectuar lo siguiente {#iamunabletodothefollowing}
 
-+++No es posible descargar la aplicación de Adobe Learning Manager para escritorio
++++No es posible descargar la aplicación de escritorio de Adobe Learning Manager
 
 1. Compruebe la conexión a Internet y la configuración del servidor de seguridad.
 1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]** para crear una publicación. Si no tiene un tablero, cree primero un tablero.
@@ -27,23 +26,23 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No es posible instalar la aplicación de Adobe Learning Manager para escritorio
++++No es posible instalar la aplicación de escritorio de Adobe Learning Manager
 
 1. Asegúrese de que el sistema cumpla los requisitos mínimos. Consulte [Requisitos del sistema de la aplicación Adobe Learning Manager para escritorio](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
-1. Elimine cualquier instalación anterior de la aplicación Adobe Learning Manager para escritorio. Para obtener más información, consulte  [Cómo limpiar instalaciones anteriores](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp) para obtener más información.
-1. Para ver los errores durante el proceso de instalación, consulte [Cómo buscar registros de aplicaciones](#howtofindapplicationlogs). Póngase en contacto con el administrador de la aplicación Adobe Learning Manager para escritorio a fin de obtener más ayuda.
+1. Elimine cualquier instalación anterior de la aplicación Adobe Learning Manager para escritorio. Para obtener más información, consulte [Cómo limpiar instalaciones anteriores](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp) para obtener más información.
+1. Para ver los errores durante el proceso de instalación, consulte [Cómo encontrar los registros de la aplicación](#howtofindapplicationlogs). Póngase en contacto con el administrador de la aplicación Adobe Learning Manager para escritorio a fin de obtener más ayuda.
 
 +++
 
-+++No es posible iniciar la aplicación de Adobe Learning Manager para escritorio
++++No es posible iniciar la aplicación de escritorio de Adobe Learning Manager
 
 1. Compruebe que haya descargado e instalado la aplicación Adobe Learning Manager para escritorio.
-1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]**. Si no tiene un tablero, créelo. Haga clic en cualquiera de las siguientes opciones del botón Publicar que aparecen: Realizar una captura de pantalla, Grabación de audio, Grabación de vídeo, Galería de Adobe de Learning Manager. Se le redirige una página en la que puede iniciar la aplicación Adobe Learning Manager para escritorio.
+1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]**. Si no tiene un tablero, créelo. Haga clic en cualquiera de las siguientes opciones del botón de publicación que aparecen: Realizar una captura de pantalla, Grabación de audio, Grabación de vídeo, Galería de Adobe Learning Manager. Se le redirige una página en la que puede iniciar la aplicación Adobe Learning Manager para escritorio.
 1. Si la aplicación no se abre, también puede abrirla desde el menú Inicio de Windows o en el Launchpad de macOS X.
 
 +++
 
-+++No es posible iniciar sesión en mi cuenta en la aplicación de Adobe Learning Manager para escritorio
++++No puedo iniciar sesión en mi cuenta en la aplicación de escritorio de Adobe Learning Manager
 
 1. Compruebe que tenga conexión a Internet y que la configuración del servidor de seguridad no bloquee la aplicación Adobe Learning Manager para escritorio.
 1. Compruebe que disponga de una cuenta válida de alumno de Adobe Learning Manager y que Aprendizaje social esté activado.
@@ -61,7 +60,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No puedo publicar mis publicaciones desde la aplicación de Adobe Learning Manager para escritorio
++++No puedo publicar mis publicaciones desde la aplicación de escritorio de Adobe Learning Manager
 
 1. Compruebe que disponga de una cuenta válida de alumno de Adobe Learning Manager y que el administrador de Adobe Learning Manager haya activado Aprendizaje social.
 1. Restablezca las preferencias de la aplicación, inicie de nuevo aplicación Adobe Learning Manager para escritorio e inténtelo de nuevo. Para obtener más información, consulte [Cómo restablecer las preferencias de la aplicación](#howtoresetapplicationpreferences).
@@ -81,53 +80,53 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 ### Windows {#windows}
 
-1. Para abrir el cuadro de diálogo Ejecutar, pulse la tecla **Windows + R** las llaves.
-1. Tipo `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` y pulse Intro.
+1. Para abrir el cuadro de diálogo Ejecutar, presione las teclas **Windows + R**.
+1. Escriba `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` y presione Intro.
 1. Elimine los archivos **preferences.json** y **preferences.xml**.
 
 ### MAC OS X {#macosx}
 
 1. Abra el Finder.
-1. Para abrir el **Ir a** cuadro de diálogo de carpeta, Prensa **Cmd + Mayús + G** las llaves.
-1. Tipo `**~/Library/Application Support/Adobe/Learning Manager 1.0**` y pulse Intro.
+1. Para abrir el cuadro de diálogo de la carpeta **Ir a**, presione las teclas **Cmd + Mayús + G**.
+1. Escriba `**~/Library/Application Support/Adobe/Learning Manager 1.0**` y presione Intro.
 1. Elimine los archivos **preferences.json** y **preferences.xml**.
 
 ## Cómo buscar los registros de la aplicación {#howtofindapplicationlogs}
 
 ### Windows {#application-logs}
 
-1. Para abrir el cuadro de diálogo Ejecutar, presione **Windows + R** las llaves.
-1. Tipo `**%TEMP%\\elthor**` y pulse Intro.
-1. Ordenar las carpetas por **Fecha de modificación** y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
+1. Para abrir el cuadro de diálogo Ejecutar, presione las teclas **Windows + R**.
+1. Escriba `**%TEMP%\\elthor**` y presione Intro.
+1. Ordene las carpetas por **Fecha de modificación** y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
 
 ### MAC OS X {#MacOSX-1}
 
-1. Abrir **Finder**.
-1. Para abrir el **Ir a la carpeta** , presione **Cmd + Mayús + G** las llaves.
-1. Tipo &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
-1. Buscar &quot;**elthor**&quot; en la barra de búsqueda y abra la carpeta.
+1. Abra **Finder**.
+1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione las teclas **Cmd + Mayús + G**.
+1. Escriba &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
+1. Busque &quot;**elthor**&quot; en la barra de búsqueda y abra la carpeta.
 1. Ordene las carpetas por **Fecha de modificación **y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
 
 ## ¿Cómo se activa el registro avanzado? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Para abrir el cuadro de diálogo Ejecutar, pulse **Tecla Windows + R**.****
-1. Tipo &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.****
-1. Realizar una copia de seguridad del archivo **preferences.json** y luego ábralo en un editor de texto.****
-1. Buscar la clave **debugMode** y cambie la propiedad value de esta clave a &quot;**verdadero**&quot; (sin comillas).
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.****
+1. Escriba &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.****
+1. Haga una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.****
+1. Busque la clave **debugMode** y cambie la propiedad de valor de esta clave a &quot;**true**&quot; (sin comillas).
 
 ### MAC OS X {#MacOSX-2}
 
 1. Abra el Finder.
-1. Para abrir el **Ir a la carpeta** diálogo, presione **Cmd + Mayús + G**.
-1. Tipo &quot;**~/Biblioteca/Application Support/Adobe/Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.
+1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione **Cmd + Mayús + G**.
+1. Escriba &quot;**~/Biblioteca/Application Support/Adobe/Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.
 1. Efectúe una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.
-1. Buscar la clave **debugMode** y cambie la propiedad value de esta clave a &quot;**verdadero**&quot; (sin comillas)
+1. Busque la clave **debugMode** y cambie la propiedad de valor de esta clave a &quot;**true**&quot; (sin comillas)
 
 ## ¿Cómo se configuran los permisos de cámara web / micrófono en Mac OS X Mojave? {#howtosetwebcammicrophonepermissionsonmacosxmojave}
 
-1. Haga clic en **[!UICONTROL Preferencias del sistema]** en el Dock.
+1. Haga clic en el icono **[!UICONTROL Preferencias del sistema]** en el Dock.
 1. Haga clic en **[!UICONTROL Seguridad y privacidad]** > **[!UICONTROL Privacidad].**
 1. Haga clic en **[!UICONTROL Cámara web o en Micrófono]** y compruebe que esté seleccionada la casilla Adobe Learning Manager. Si no aparece Adobe Learning Manager, instale e inicie la aplicación Adobe Learning Manager para escritorio.
 
@@ -135,46 +134,46 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 ### Windows {#clean-previous-installation}
 
-1. Para abrir el cuadro de diálogo Ejecutar, pulse **Tecla Windows + R**.
-1. Tipo `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` y pulse Intro.
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.
+1. Escriba `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` y presione Intro.
 1. Elimine la carpeta **updates**.
 
 ### MAC OS X {#MacOSX-3}
 
 1. Abra el Finder.
-1. Para abrir el **Ir a la carpeta** diálogo, presione **Cmd + Mayús + G**.
-1. Tipo `**~/Library/Application Support/Adobe/Learning Manager 1.0**` y pulse Intro.
+1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione **Cmd + Mayús + G**.
+1. Escriba `**~/Library/Application Support/Adobe/Learning Manager 1.0**` y presione Intro.
 1. Elimine la carpeta **updates**.
 
 ## Cómo limpiar la carpeta de archivos temporales de Adobe Learning Manager para escritorio {#howtocleanupadobecaptivateprimefordesktoptempfolder}
 
 ### Windows {#clean-previous-installation-1}
 
-1. Para abrir el cuadro de diálogo Ejecutar, pulse **Tecla Windows + R**.
-1. Tipo &quot;**%TEMP%**&quot; (sin comillas) y pulse Intro.
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.
+1. Escriba &quot;**%TEMP%**&quot; (sin comillas) y pulse Intro.
 1. Elimine la carpeta denominada &quot;**elthor**&quot;.
 
 ### MAC OS X {#MacOSX-4}
 
 1. Abra el Finder.
-1. Para abrir el **Ir a la carpeta** diálogo, presione **Cmd + Mayús + G** las llaves.
-1. Tipo &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
-1. Buscar &quot;**elthor**&quot; en la barra de búsqueda.
+1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione las teclas **Cmd + Mayús + G**.
+1. Escriba &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
+1. Busque &quot;**elthor**&quot; en la barra de búsqueda.
 1. Elimine la carpeta denominada &quot;**elthor**&quot;.
 
 ## Cómo buscar proyectos de Adobe Learning Manager para escritorio {#howtolocateadobecaptivateprimefordesktopprojects}
 
 ### Windows {#Windows-2}
 
-1. Para abrir el cuadro de diálogo Ejecutar, pulse **Tecla Windows + R**.
-1. Tipo &quot;**~/Documents/My Adobe Learning Manager Projects**&quot; (sin comillas) y pulse Intro.
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.
+1. Escriba &quot;**~/Documents/My Adobe Learning Manager Projects**&quot; (sin comillas) y pulse Intro.
 1. Es posible que usted o el administrador de Adobe Learning Manager hayan cambiado la ubicación predeterminada de la carpeta de proyectos. Póngase en contacto con el administrador para obtener más ayuda para localizar y limpiar proyectos.
 
 ### MAC OS X {#MacOSX-5}
 
 1. Abra el Finder.
-1. Para abrir el **Ir a la carpeta** diálogo, presione **Cmd + Mayús + G** las llaves.
-1. Tipo &quot;**~/Documents/My Adobe Learning Manager Projects**&quot; (sin comillas) y pulse Intro.
+1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione las teclas **Cmd + Mayús + G**.
+1. Escriba &quot;**~/Documents/My Adobe Learning Manager Projects**&quot; (sin comillas) y pulse Intro.
 
    Es posible que usted o el administrador de Adobe Learning Manager hayan cambiado la ubicación predeterminada de la carpeta de proyectos. Póngase en contacto con el administrador para obtener más ayuda a fin de localizar y limpiar proyectos.
 
@@ -182,10 +181,10 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 ### Windows {#Windows-3}
 
-1. Para abrir el **Cuadro de diálogo Ejecutar,** prensa **Teclas Windows + R**.
-1. Escriba regedit y busque &quot;**HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\**&quot; (sin comillas) o &quot;**HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\**&quot; (sin comillas) y pulse Intro.
+1. Para abrir el cuadro de diálogo **Ejecutar,** presione **teclas de Windows + R**.
+1. Escriba regedit y busque &quot;**HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\**&quot; (sin comillas) o &quot;**HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\**&quot; (sin comillas) y presione Intro.
 1. Busque la carpeta Adobe Learning Manager y la instalación anterior. Elimine la entrada del Registro.  Puede encontrar la tecla pulsando la tecla F3.
 
 ### MAC OS X {#MacOSX-6}
 
-Mueva los archivos de la siguiente ruta &quot;**/Aplicaciones/Adobe Learning Manager/Users/Shared/Adobe/Learning Manager Assets/1.0**&quot; para tirar la basura y luego vaciar la basura.
+Mueva los archivos de la siguiente ruta &quot;**/Applications/Adobe Learning Manager/Users/Shared/Adobe/Learning Manager Assets/1.0**&quot; a la papelera y, a continuación, vacíe la papelera.

@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo conseguir certificaciones mediante
 jcr-language: en_us
 title: Certificaciones
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 62%
 
 ---
-
-
 
 # Certificaciones
 
@@ -61,7 +60,7 @@ Debe realizar las certificaciones externas fuera de su empresa y enviar la prueb
 
    Aparece una página de certificación con la información general de la certificación, la fecha de validez de la certificación, el emisor, la fecha de finalización, el tipo (periódico o permanente) y la insignia.
 
-1. Para enviar la prueba de finalización de la certificación, haga clic en Examinar, seleccione el archivo de la ruta de acceso local y haga clic en **[!UICONTROL Cargar]**.
+1. Para enviar la prueba de finalización de la certificación, haz clic en Examinar, selecciona el archivo de la ruta de acceso local y haz clic en **[!UICONTROL Cargar]**.
 
 ## Finalización de certificaciones {#completingcertifications}
 

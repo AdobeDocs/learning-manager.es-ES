@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integración de Adobe Connect
 description: Los autores pueden crear cursos de clase virtual con Adobe Connect durante el proceso de creación del curso. A fin de habilitar Adobe Connect para su cuenta de Learning Manager, debe ponerse en contacto con el administrador de su empresa.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Integración de Adobe Connect
 
@@ -24,7 +23,7 @@ Los administradores de una empresa pueden configurar las opciones de la cuenta d
 
    *Seleccione Adobe Connect en el panel izquierdo*
 
-1. Haga clic en **[!UICONTROL Configurar ahora]** enlace de entrada **[!UICONTROL Configuración de Adobe Connect]** sección.
+1. Haga clic en el vínculo **[!UICONTROL Configurar ahora]** en la sección **[!UICONTROL Configuración de Adobe Connect]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -51,7 +50,7 @@ Los administradores de una empresa pueden configurar las opciones de la cuenta d
 
 Si el autor de un curso de clase virtual no ha proporcionado información sobre la sesión, el administrador puede incluir los datos de la sesión.
 
-Tras iniciar sesión como administrador, haga clic en el nombre del curso de clase virtual. Haga clic en **[!UICONTROL Instancias]** en el panel izquierdo y haga clic en **[!UICONTROL Detalles de sesión]**.  Haga clic en el icono Editar situado en la esquina derecha de la página Detalles de la sesión para añadir la información de la sesión.
+Tras iniciar sesión como administrador, haga clic en el nombre del curso de clase virtual. Haga clic en **[!UICONTROL Instancias]** en el panel izquierdo y haga clic en **[!UICONTROL Detalles de la sesión]**.  Haga clic en el icono Editar situado en la esquina derecha de la página Detalles de la sesión para añadir la información de la sesión.
 
 ![](assets/session-creation-admin.png)
 

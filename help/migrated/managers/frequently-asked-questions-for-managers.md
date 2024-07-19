@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Preguntas más frecuentes para responsables
 description: Preguntas más frecuentes para responsables de Adobe Learning Manager
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # Preguntas más frecuentes para responsables
 
@@ -71,7 +70,7 @@ Puede hacer clic en el icono desplegable para modificar el intervalo de fechas y
 
 Puede crear informes para que los integrantes del equipo vean la lista de aptitudes asignadas y obtenidas por cada uno de ellos. Haga clic en Informes en el panel izquierdo y, a continuación, en la ficha Informes de muestra para ver un informe de muestra de Aptitudes frente a Responsables.
 
-Para obtener más información, consulte [Informes](feature-summary/reports.md) de la Ayuda de Learning Manager.
+Para obtener más información, consulte la función [Informes](feature-summary/reports.md) en la Ayuda de Learning Manager.
 
 +++
 
@@ -95,7 +94,7 @@ Para cancelar los cambios, haga clic en Restablecer.
 
 Para cambiar el tamaño del informe, haga clic en Redimensionar y elija una de las dos opciones: 1×1 es pequeño y 1×2 es grande.
 
-Para obtener más información, consulte  [Función Informes.](feature-summary/reports.md)
+Para obtener más información, consulte [Función Informes.](feature-summary/reports.md)
 
 +++
 
@@ -117,7 +116,7 @@ Todos estos informes con un intervalo de fechas.
 
 +++¿Puedo ver todos los cursos disponibles? ¿Cómo lo hago?
 
-Puede cambiar a la función de alumno para ver todos los cursos disponibles. Consulte la  [Cursos](../learners/feature-summary/courses.md) para obtener más información
+Puede cambiar a la función de alumno para ver todos los cursos disponibles. Consulte [Cursos](../learners/feature-summary/courses.md) para obtener más información
 
 +++
 

@@ -3,14 +3,13 @@ description: Creación y administración de informes para responsables.
 jcr-language: en_us
 title: Informes
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 63%
 
 ---
-
-
 
 # Informes
 
@@ -22,7 +21,7 @@ Adobe Learning Manager le permite crear diversos informes para supervisar y cont
 
 El proceso de generación de informes es el mismo para el administrador y para el responsable. Los responsables pueden ver los informes correspondientes a sus subordinados, mientras que el administrador puede ver todos los informes en toda la empresa.
 
-Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. A **Panel predeterminado** existe de forma predeterminada en la página informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para agregar informes a paneles individuales, utilice la flecha desplegable y elija Agregar informe. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
+Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. Existe un **Panel predeterminado** de forma predeterminada en la página Informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para agregar informes a paneles individuales, utilice la flecha desplegable y elija Agregar informe. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
 
 ## Tableros de responsables {#manager-dashboards}
 
@@ -92,11 +91,11 @@ Puede utilizar los tipos de informes especificados anteriormente para generar m�
 
 Nombre del informe Escriba un título para el informe.
 
-**Eje Y principal** Elija el criterio principal o el primero para el informe en las opciones desplegables. Para algunos de los criterios seleccionados, tiene la opción de elegir uno o varios estados en el cuadro desplegable Estados adyacente. Por ejemplo, para un criterio principal de estadísticas de inscripción en cursos, los estados pueden ser completado, incompleto, inscrito, etc. Los datos del intervalo principal se representan en forma de gráfico de barras en el informe.
+**Eje Y principal** Elija el criterio principal/principal para el informe entre las opciones desplegables. Para algunos de los criterios seleccionados, tiene la opción de elegir uno o varios estados en el cuadro desplegable Estados adyacente. Por ejemplo, para un criterio principal de estadísticas de inscripción en cursos, los estados pueden ser completado, incompleto, inscrito, etc. Los datos del intervalo principal se representan en forma de gráfico de barras en el informe.
 
-**Eje Y secundario** Seleccione los criterios/rango del eje Y secundario para el informe en las opciones desplegables. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados en el menú desplegable Estados adyacente. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
+**Eje Y secundario** Elija el criterio/rango del eje Y secundario para el informe entre las opciones desplegables. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados en el menú desplegable Estados adyacente. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
 
-**Eje X** Elija los criterios del eje X adecuados para el informe en las opciones desplegables. Si se selecciona la fecha como el eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+**Eje X** Elija los criterios apropiados del eje X para el informe entre las opciones desplegables. Si se selecciona la fecha como el eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 
 **Fecha** Elija la opción adecuada en el menú desplegable. Opciones: último mes, trimestre, año, trimestre hasta la fecha (últimos 90 días), año hasta la fecha (últimos 365 días) e intervalo de fecha. Si selecciona el intervalo de fechas, proporcione las fechas &quot;desde&quot; y &quot;hasta&quot; como se indica a continuación:
 
@@ -114,11 +113,11 @@ Los filtros aparecen en el cuadro de diálogo Añadir informe en la parte inferi
 
 **Grupo de usuarios** Seleccione el grupo de usuarios teniendo en cuenta para cuál desea filtrar informes. Learning Manager busca los grupos de usuarios definidos para su cuenta según la función Usuarios.
 
-**Curso** Puede filtrar su informe según cualquier curso si lo selecciona de la lista desplegable.
+**Curso** Puedes filtrar tu informe según cualquier curso seleccionándolos en el menú desplegable.
 
 ![](assets/sample-report-admin.png)
 
-*Ver el gráfico de los cursos inscritos y completados*
+*Ver gráfico de cursos inscritos y completados*
 
 >[!NOTE]
 >
@@ -132,7 +131,7 @@ Controle la manera en que los grupos de usuarios, como los departamentos, los so
 
 ### Grupos de usuarios {#usergroups}
 
-Para generar informes basados en grupos de usuarios, elija **Grupo de usuarios** en el eje X desde la lista de opciones desplegables como se muestra en la captura de pantalla a continuación.
+Para generar informes basados en grupos de usuarios, elija **Grupo de usuarios** en el eje X entre las opciones de la lista desplegable, como se muestra en la captura de pantalla a continuación.
 
 ![](assets/x-axis-reporting.png)
 
@@ -148,7 +147,7 @@ Este informe del grupo de usuarios le permite comparar el rendimiento de un depa
 
 También puede crear grupos de usuarios personalizados con la función Añadir usuarios/grupos de usuarios en Learning Manager. Después de crear los grupos de usuarios, puede generar informes para los grupos de usuarios personalizados con la ayuda de una lista de atributos, como, por ejemplo, ubicación, sucursal, etc.
 
-En el eje X, elija la opción Atributos de usuario y seleccione el atributo desde **seleccionar** situado junto a él. Para crear un informe de grupo de usuarios personalizado basado en estos atributos, también debe elegir el grupo de usuarios adecuado en el filtro.
+En el eje X, elija la opción Atributos de usuario y seleccione el atributo en el menú desplegable **seleccionar** situado junto a él. Para crear un informe de grupo de usuarios personalizado basado en estos atributos, también debe elegir el grupo de usuarios adecuado en el filtro.
 
 Los responsables pueden crear informes de grupos de usuarios solo para sus propios miembros del equipo como alumnos.
 
@@ -179,7 +178,7 @@ Haga clic en esta ficha del tablero para ver todos los tableros creados. En la l
 
    ![](assets/add-dashboard.png)
 
-   *Crear su propio tablero*
+   *Crea tu propio tablero*
 
 1. Proporcione un nombre y una descripción para el tablero y haga clic en **[!UICONTROL Guardar]**.
 
@@ -199,7 +198,7 @@ Los informes compartidos son una colección de informes que otros usuarios dentr
 
 Para suscribirse a sus informes favoritos, proporcione su Id. de correo electrónico aquí. Los informes a los que se suscribe se le envían por correo electrónico.
 
-Haga clic en **Editar** situado en la esquina derecha del nombre del informe en la lista de informes para modificar la suscripción en cualquier momento.
+Haz clic en el icono **Editar** situado en la esquina derecha del nombre de tu informe en la lista de informes para modificar tu suscripción en cualquier momento.
 
 ## Visualización de informes {#viewingreports}
 
@@ -214,19 +213,19 @@ Puede cambiar el intervalo/valor de fecha para cualquier informe y obtener una v
 **Vista rápida con responsables diferentes**
 
 Si varios responsables le informan a usted, podrá ver los informes rápidamente para cada responsable. Elija el nombre del responsable en la lista desplegable para mostrar un informe único para cada responsable.
-**Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño de informes** Haga clic en la flecha desplegable en la esquina superior derecha de cada informe para ver opciones desplegables como Editar/Mover al panel/Crear una copia/Eliminar/Cambiar el tamaño.
+**Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño de informes** Haga clic en la flecha desplegable en la esquina superior derecha de cada informe para ver opciones desplegables como Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
-**Editar** Al modificar datos, para volver a los valores iniciales, haga clic en Restablecer. Haga clic en Guardar después de modificar los valores.
+**Editar** Al modificar los datos, para volver a los valores iniciales, haga clic en Restablecer. Haga clic en Guardar después de modificar los valores.
 
-**Mover al panel** Puede mover el informe actual a otro tablero, que se selecciona de la lista de tableros.
+**Mover al panel** Puede mover el informe actual a otro panel, que se elige de la lista de paneles.
 
-**Crear una copia** Puede copiar el informe en el mismo tablero o en otro, que se selecciona de la lista de tableros.
+**Crear una copia** Puede copiar el informe en el mismo panel o en otro distinto, que se elija en la lista de paneles.
 
-**Eliminar** Haga clic en Eliminar para eliminar el informe. Aparece un mensaje de advertencia/confirmación antes de que se elimine el informe.
+**Eliminar** Haga clic en Eliminar para quitar el informe. Aparece un mensaje de advertencia/confirmación antes de que se elimine el informe.
 
-**Redimensionar** Puede cambiar el tamaño de los informes en tamaños 1×1 (medio) y 2×2 (grande).
+**Cambiar tamaño** Puedes cambiar el tamaño de tus informes en tamaños 1×1 (mediano) y 2×2 (grande).
 
 ## Suscripciones por correo electrónico {#emailsubscriptions}
 

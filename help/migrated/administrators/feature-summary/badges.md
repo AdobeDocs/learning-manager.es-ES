@@ -25,10 +25,10 @@ Los administradores pueden crear insignias para los alumnos de la siguiente mane
    >
    >De forma predeterminada, hay disponible una lista de algunas insignias de muestra.
 
-1. Haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha de la página. Se abre el cuadro de diálogo Añadir insignia.
+1. Haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha de la página. Se abre el cuadro de diálogo Añadir insignia.
 
    ![](assets/add-badge1.png)
 
-   *Añadir un nombre de insignia y su imagen*
+   *Agregar un nombre de insignia y su imagen*
 
-1. Escriba el nombre de la insignia. Cargue la insignia haciendo clic en **[!UICONTROL Cargar insignia]** y haga clic en **[!UICONTROL Guardar]**.
+1. Escriba el nombre de la insignia. Carga la insignia haciendo clic en **[!UICONTROL Cargar insignia]** y haz clic en **[!UICONTROL Guardar]**.

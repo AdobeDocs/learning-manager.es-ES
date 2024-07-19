@@ -1,7 +1,8 @@
 ---
 title: Varias inscripciones en Adobe Learning Manager
 description: Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 68%
@@ -33,9 +34,9 @@ El progreso de cada instancia puede seguirse individualmente, y puede exportarse
 
 ## ¿Cómo se activa la función Varias inscripciones?
 
-1. Inicie sesión como autor en su cuenta de Adobe Learning Manager.
+1. Inicie sesión en su cuenta de Adobe Learning Manager como autor.
 1. Seleccione el curso en el que desea que los alumnos se inscriban varias veces.
-1. En el panel izquierdo, seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Editar]** > **[!UICONTROL Configuración de instancias]** > **[!UICONTROL Habilitar inscripción múltiple]**.
+1. En el panel izquierdo, seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Editar]** > **[!UICONTROL Configuración de instancia]** > **[!UICONTROL Habilitar inscripción múltiple]**.
 
 ![imagen de inscripción múltiple](assets/multi-enrollment-author.png)
 *Habilitar inscripción múltiple*
@@ -50,7 +51,7 @@ La opción Varias inscripciones resulta útil cuando un alumno desea inscribirse
 
 En el caso de los alumnos que no se hayan inscrito, cuando seleccionen un curso, verán la pantalla debajo del curso con varias instancias. A continuación, pueden seleccionar cada instancia e inscribirse.
 
-![imagen de vista del alumno](assets/learner-view.png)
+![imagen de vista de alumno](assets/learner-view.png)
 *Ver las instancias*
 
 Después de inscribirse en una instancia, pueden inscribirse en otras instancias seleccionando la opción Ver todas las instancias en el panel derecho.
@@ -60,8 +61,8 @@ Después de inscribirse en una instancia, pueden inscribirse en otras instancias
 
 El seguimiento del progreso de cada instancia puede realizarse como se indica a continuación:
 
-![seguimiento del progreso](assets/check-progress.png)
-*Seguimiento del progreso de cada instancia*
+![realizar seguimiento del progreso](assets/check-progress.png)
+*Realizar un seguimiento del progreso de cada instancia*
 
 ## Cambios de Varias instancias del administrador
 

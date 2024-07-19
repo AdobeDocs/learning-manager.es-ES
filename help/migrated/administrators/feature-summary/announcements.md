@@ -35,7 +35,7 @@ Hay cuatro tipos de anuncios:
 
 1. En el campo Mensaje, añada el mensaje para el anuncio. Aquí también puede agregar una URL para anuncios. Sin embargo, la URL debe añadirse en formato HTML.
 
-   Por ejemplo,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Por ejemplo, `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Si especifica el destino en blanco, cuando un usuario hace clic en la URL del anuncio, el vínculo se abre en una nueva ficha. Si no especifica el destino, el vínculo se abre en el mismo navegador.
 
@@ -49,7 +49,7 @@ Hay cuatro tipos de anuncios:
    * Convertir este anuncio en fijo seleccionando la casilla de verificación Activar anuncios fijos.
    * Seleccionar la hora de entrega del anuncio.
 
-1. Seleccionar **[!UICONTROL En una fecha]** si desea programar el anuncio para una fecha posterior y hacer clic en el área de texto adyacente. En pantalla aparece un calendario en que seleccionar la fecha de inicio. Elija la fecha de finalización aplicando los mismos pasos.
+1. Seleccione **[!UICONTROL En una fecha]** si desea programar el anuncio para una fecha posterior y haga clic en el área de texto adyacente. En pantalla aparece un calendario en que seleccionar la fecha de inicio. Elija la fecha de finalización aplicando los mismos pasos.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. En la ficha Borrador, haga clic en el icono de configuración junto a un anuncio y haga clic en Enviar.
 
@@ -70,15 +70,15 @@ Al seleccionar esta opción, cualquier archivo multimedia que elija se mostrará
 
    Empiece a escribir el nombre del grupo de usuarios en el cuadro de texto y seleccione en la lista desplegable. También puede elegir el curso de formación especificando el nombre del objeto en el cuadro de texto.
 
-1. En la **[!UICONTROL Configuración avanzada]** , dispone de las siguientes opciones:
+1. En la sección **[!UICONTROL Configuración avanzada]**, tiene las siguientes opciones:
 
-   * Haga clic en **[!UICONTROL De inmediato]** si desea que el anuncio se publique en ese momento.
+   * Haga clic en **[!UICONTROL Inmediatamente]** si desea que el anuncio se publique en ese momento.
    * Haga clic en **[!UICONTROL Nunca]** si no desea que caduque el anuncio.
-   * Seleccione la **[!UICONTROL Inicio]** y **[!UICONTROL Fin]** fechas del anuncio.
+   * Seleccione las fechas **[!UICONTROL Inicio]** y **[!UICONTROL Fin]** del anuncio.
 
    ![](assets/advanced-settings.png)
 
-   *Establecer el tiempo que debe mostrar una cabecera*
+   *Establecer el tiempo de visualización de una cabecera*
 
 **¿Hay un límite en el número de anuncios de cabecera en directo?**
 
@@ -90,7 +90,7 @@ Al seleccionar esta opción, cualquier curso de formación que elija se recomend
 
 ![](assets/recommendation-announcement.png)
 
-*Seleccione la formación recomendada que se mostrará a un alumno*
+*Seleccione el curso de formación recomendado que se mostrará a un alumno*
 
 1. Elija el curso de formación que desea recomendar a los alumnos. Puede añadir hasta 10 cursos de formación.
 
@@ -102,9 +102,9 @@ Al seleccionar esta opción, cualquier curso de formación que elija se recomend
 
 1. En la sección Configuración avanzada, tiene las siguientes opciones:
 
-   * Haga clic en **[!UICONTROL De inmediato]** si desea que el anuncio se publique en ese momento.
+   * Haga clic en **[!UICONTROL Inmediatamente]** si desea que el anuncio se publique en ese momento.
    * Haga clic en **[!UICONTROL Nunca]** si no desea que caduque el anuncio.
-   * Seleccione la **[!UICONTROL Inicio]** y **[!UICONTROL Fin]** fechas del anuncio.
+   * Seleccione las fechas **[!UICONTROL Inicio]** y **[!UICONTROL Fin]** del anuncio.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -143,7 +143,7 @@ Utilice esta opción para enviar correos electrónicos ad hoc específicos a los
 
 *El administrador crea un anuncio por correo electrónico*
 
-1. Seleccionar **[!UICONTROL Escribir como correo electrónico]**.
+1. Seleccione **[!UICONTROL Escribir como correo electrónico]**.
 1. Introduzca el asunto del correo electrónico y el cuerpo del mensaje.
 1. En la sección Destino, puede:
 

@@ -19,15 +19,15 @@ Puede crear una función personalizada para proporcionar capacidades de autoría
 
 ## Crear una función personalizada {#create-role}
 
-1. Inicie sesión como Administrador. Abrir **[!UICONTROL Usuarios]** > **[!UICONTROL Función personalizada]**.
-1. Seleccionar **[!UICONTROL Crear función]**. Se abre la ficha **[!UICONTROL Crear función]**.
+1. Inicie sesión como Administrador. Abra **[!UICONTROL Usuarios]** > **[!UICONTROL Función personalizada]**.
+1. Seleccione **[!UICONTROL Crear rol]**. Se abre la ficha **[!UICONTROL Crear función]**.
 
    ![](assets/create-new-role.png)
 
    *Crear una función personalizada*
 
-1. Introduzca el nombre en el **[!UICONTROL Nombre de la función]** campo.
-1. **[!UICONTROL Privilegios de cuenta]**: Estos privilegios otorgan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
+1. Escriba el nombre en el campo **[!UICONTROL Nombre del rol]**.
+1. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Puede crear una función personalizada para proporcionar capacidades de autoría
 
 *Establecer el ámbito*
 
-1. **Privilegios de funciones principales**: Se utiliza para conceder acceso a funciones específicas de administración de actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
+1. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
 
    * Catálogos
    * Informes
@@ -46,9 +46,9 @@ Puede crear una función personalizada para proporcionar capacidades de autoría
 
    ![](assets/core-features.png)
 
-   *Establecer el ámbito para catálogos, informes y etiquetas*
+   *Establecer ámbito para catálogos, informes y etiquetas*
 
-1. **Privilegios de funciones: objetos de aprendizaje:**  Utilice esta opción para proporcionar acceso a las funciones relacionadas con los objetos de aprendizaje. Puede proporcionar acceso a los siguientes objetos de aprendizaje.
+1. **Privilegios de funciones: objetos de aprendizaje:** Utilice esta opción para proporcionar acceso a funciones relacionadas con objetos de aprendizaje. Puede proporcionar acceso a los siguientes objetos de aprendizaje.
 
    * Certificaciones
    * Cursos
@@ -224,7 +224,7 @@ Un usuario con una función personalizada puede:
 
 1. **Usuarios:** utilice esta opción para determinar los usuarios a los que se asigna esta función. Puede elegir uno o varios usuarios mediante el cuadro de búsqueda.
 
-   **Añadir usuarios a la carga de CSV de funciones personalizadas:** Para añadir usuarios mediante la carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador utilizó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en  **[!UICONTROL Agregar > Cargar un CSV]**.
+   **Agregar usuarios a la carga de CSV de funciones personalizadas:** Para agregar usuarios mediante la carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador usó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en **[!UICONTROL Agregar > Cargar un CSV]**.
 
    Columna CustomRoleNota:
 
@@ -253,9 +253,9 @@ Después de hacer clic en la opción, se abre un nuevo cuadro de diálogo en el 
 
 ![](assets/choose-folder.png)
 
-*Seleccione las carpetas del autor personalizado*
+*Seleccionar las carpetas del autor personalizado*
 
-Elija las carpetas y haga clic en **[!UICONTROL OK]**.
+Elija las carpetas y haga clic en **[!UICONTROL Aceptar]**.
 
 ## Tablero de resumen del aprendizaje para administradores personalizados {#custom-admin-dashboard}
 
@@ -265,7 +265,7 @@ Los administradores personalizados pueden ver la misma vista que un administrado
 
 *Crear una función personalizada*
 
-Como resultado, las opciones, **[!UICONTROL Todos los catálogos]** y **[!UICONTROL Todos los grupos de usuarios]** se seleccionará y el resto se desactivará.
+Como resultado, se seleccionarán las opciones **[!UICONTROL Todos los catálogos]** y **[!UICONTROL Todos los grupos de usuarios]** y se deshabilitará el resto.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -363,7 +363,7 @@ Cuando a un usuario se le asigna una función con una entidad específica, puede
   <tr>
    <td>*</td>
    <td>Configuración</td>
-   <td>Branding<br>
+   <td>Marca<br>
      Usuario</td>
    <td>Leer</td>
   </tr>
@@ -375,7 +375,7 @@ Cuando a un usuario se le asigna una función con una entidad específica, puede
   </tr>
   <tr>
    <td>*</td>
-   <td>Factura<br>
+   <td>Facturación<br>
      Interacción</td>
    <td>Usuario</td>
    <td>Leer</td>
@@ -441,7 +441,7 @@ Cuando el administrador cambia el ámbito de la función personalizada, el cambi
 
 ![](assets/change-scope.png)
 
-*Mensaje tras los cambios de ámbito*
+*Mensaje después de que cambie el ámbito*
 
 El administrador personalizado ahora debe actualizar o bien actualizar el ámbito anterior al nuevo ámbito.
 
@@ -458,7 +458,7 @@ Si se hace clic en **[!UICONTROL Sí]**, el ámbito se actualiza.
 Un administrador puede activar los informes de interacción para un usuario personalizado.
 
 1. En la página **[!UICONTROL Funciones personalizadas]**, escriba el nombre de la función personalizada.
-1. En la **[!UICONTROL Privilegios de funciones: funciones principales]** , habilite la opción **[!UICONTROL Control total]** para la categoría **[!UICONTROL Informes]**.
+1. En la sección **[!UICONTROL Privilegios de características principales: características principales]**, habilite la opción **[!UICONTROL Control total]** para la categoría **[!UICONTROL Informes]**.
 
 1. En la sección **[!UICONTROL Usuarios]**, seleccione el usuario al que se asignará la función personalizada que se acaba de crear.
 1. Haga clic en **[!UICONTROL Guardar]**.

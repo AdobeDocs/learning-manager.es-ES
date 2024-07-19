@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Inicio de sesión de usuario
 description: Inicio de sesión de usuario para Adobe Learning Manager
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 66%
 
 ---
-
-
 
 # Inicio de sesión de usuario
 
@@ -27,7 +26,7 @@ Al utilizar Adobe Learning Manager por primera vez, debe crear la cuenta mediant
 1. Introduzca el Adobe ID y la contraseña y haga clic en Iniciar sesión.\
    Si ha olvidado la contraseña, haga clic en **[!UICONTROL ¿Ha olvidado la contraseña?]** y proporcione el ID de correo electrónico que utilizó para crear Adobe ID.
 
-1. También puede utilizar Enterprise ID haciendo clic en **[!UICONTROL Iniciar sesión con un vínculo de Enterprise ID]**.
+1. También puede usar Enterprise ID haciendo clic en **[!UICONTROL Iniciar sesión con un vínculo de Enterprise ID]**.
 
 >[!NOTE]
 >

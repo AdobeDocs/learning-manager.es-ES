@@ -37,7 +37,7 @@ Cada vez es más necesario capturar las experiencias de aprendizaje del usuario 
 
    ![](assets/appregistration.png)
 
-   *Página de inicio para registrar una aplicación*
+   *Iniciar página para registrar una aplicación*
 
 1. Registre una aplicación nueva.
 
@@ -56,7 +56,7 @@ Cada vez es más necesario capturar las experiencias de aprendizaje del usuario 
 
 Haga clic en el vínculo siguiente para ver el documento xAPI Swagger:
 
-[Documento xAPI Swagger](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
+[documento de intercambio de xAPI](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisar la experiencia del usuario fuera de Learning Manager. Por ejemplo, puede usar esta función para evaluar las actividades de los usuarios en una plataforma de terceros utilizada para el consumo de cursos.
 
-1. Al crear un **[!UICONTROL Módulo de actividad]**, en el símbolo **[!UICONTROL Tipo]**, utilice el menú emergente para seleccionar  **[!UICONTROL Módulo basado en xAPI.]**
+1. Al crear un **[!UICONTROL Módulo de actividad]**, en la opción **[!UICONTROL Tipo]**utilice el menú emergente para seleccionar **[!UICONTROL Módulo basado en xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +97,7 @@ Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisa
 
 **Aspectos que tener en cuenta:**
 
-* Actualmente, Learning Manager solo admite mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid , account.
+* Actualmente, Learning Manager solo admite   mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid , account.
 
 * El stateId y el profileId son un UUID cuando se utilizan con Learning Manager.
 * La solicitud de PUT no sobrescribe el documento para los agentes/perfil, actividad/perfil y actividad/estado de xAPI
@@ -114,7 +114,7 @@ El informe descargado obtiene toda la información publicada por el alumno y el 
 
 Los mismos informes se pueden generar y programar mediante conectores de FTP y Box para cualquier integración de terceros. Siga estos pasos:
 
-Iniciar sesión como **Administrador de integración > Abrir conector de FTP/Box > Seleccionar informe de actividad de xAPI** en el panel izquierdo. Elija programar/ generar un informe.
+Inicie sesión como **Administrador de integración > Abra el conector de FTP/Box > Seleccione el informe de actividad de xAPI** en el panel izquierdo. Elija programar/ generar un informe.
 
 ![](assets/xapischedule.png)
 

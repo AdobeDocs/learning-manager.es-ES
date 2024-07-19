@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo utilizar la aplicación Adobe Lear
 jcr-language: en_us
 title: Aplicación Adobe Learning Manager para escritorio
 contentowner: kuppan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 76%
 
 ---
-
-
 
 # Aplicación Adobe Learning Manager para escritorio
 
@@ -51,15 +50,15 @@ Efectúe el procedimiento siguiente para realizar una grabación de vídeo y pub
 
    **Cámara web** La cámara web captura al narrador que muestra o presenta un proyecto o aplicación, incluido el audio. Seleccione el icono de cámara web de las opciones anteriores para que aparezca la ventana de Inicio.
 
-   **Pantalla** Grabar las acciones realizadas en la pantalla del monitor. Al seleccionar el icono de la pantalla, esta se resalta con un cuadro de diálogo de grabación en el centro de la pantalla.
+   **Screen** graba las acciones realizadas en la pantalla del monitor. Al seleccionar el icono de la pantalla, esta se resalta con un cuadro de diálogo de grabación en el centro de la pantalla.
 
-   **Ambos** Graba las acciones del narrador y de la pantalla. Al seleccionar el último icono, la pantalla se resalta y el usuario obtiene una ventana interactiva junto con ella.
+   **Ambos** Registra las acciones del narrador y de la pantalla. Al seleccionar el último icono, la pantalla se resalta y el usuario obtiene una ventana interactiva junto con ella.
 
 1. Defina las preferencias de grabación.
 
    **Seleccionar cámara** Haga clic en el icono de la cámara de vídeo que hay en la parte inferior de la ventana de grabación de vídeo. Seleccione una cámara que el usuario quiera usar entre las opciones.
 
-   **Seleccionar micrófono** Haga clic en el icono de micrófono situado en la parte inferior de la ventana de vídeo o audio y seleccione un micrófono que el usuario desee utilizar entre las opciones indicadas.
+   **Seleccionar micrófono** Haga clic en el icono del micrófono situado en la parte inferior de la ventana de vídeo o audio y seleccione un micrófono que el usuario desee utilizar en las opciones indicadas.
 
    >[!NOTE]
    >
@@ -73,7 +72,7 @@ Efectúe el procedimiento siguiente para realizar una grabación de vídeo y pub
 ## Creación de audio {#creatinganaudio}
 
 <!--![](assets/record-audio-2x.png)-->
-*Grabación de audio*
+*Grabar audio*
 
 Para grabar audio, realice el procedimiento siguiente:
 
@@ -82,7 +81,7 @@ Para grabar audio, realice el procedimiento siguiente:
 1. Haga clic en el botón de grabar para iniciar la grabación.
 1. Cuando los usuarios hayan finalizado la grabación de audio, haga clic en el botón de pausar para detener la grabación.
 1. Para previsualizar la grabación, haga clic en el botón de reproducción.
-1. Si los usuarios desean grabar más audio en el mismo archivo, haga clic en **[!UICONTROL Reanudar]**. Una vez que se alcance la grabación deseada, haga clic en **[!UICONTROL Siguiente]** para guardar el archivo en la ubicación deseada. La grabación se guarda en la galería de la aplicación Adobe Learning Manager para escritorio. En ella, los usuarios pueden ver sus grabaciones y capturas de pantalla.
+1. Si los usuarios desean grabar más audio en el mismo archivo, haga clic en **[!UICONTROL Reanudar]**. Una vez que se alcance la grabación deseada, haz clic en **[!UICONTROL Siguiente]** para guardar el archivo en la ubicación deseada. La grabación se guarda en la galería de la aplicación Adobe Learning Manager para escritorio. En ella, los usuarios pueden ver sus grabaciones y capturas de pantalla.
 1. Para editar la grabación, consulte [Edición de una grabación](adobe-learning-manager-app-for-desktop.md#Editing); para publicar, consulte [Publicación de una grabación](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Creación de una captura de pantalla {#creatingascreenshot}
@@ -96,7 +95,7 @@ Para obtener una captura de pantalla, efectúe estos pasos:
    *Capture a screenshot*-->
 
 1. Para ayudar a otros alumnos a comprender y conservar mejor la presentación o el contenido estático, agregue anotaciones al contenido.
-1. Para editar la captura de pantalla: [haga clic aquí](adobe-learning-manager-app-for-desktop.md#Editing)y para publicar una captura de pantalla [haga clic aquí](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Para editar la captura de pantalla, [haz clic aquí](adobe-learning-manager-app-for-desktop.md#Editing) y para publicar una captura de pantalla [haz clic aquí](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Edición de vídeo, audio y capturas de pantalla {#editing}
 
@@ -123,9 +122,9 @@ Las anotaciones se pueden usar en grabaciones de vídeo y en capturas de pantall
 
 Para recortar o eliminar fragmentos innecesarios de vídeo o de audio, utilice la herramienta de recorte.
 
-Para recortar, haga clic en **[!UICONTROL Iniciar recorte]** o haga clic en el icono más de la cronología para comenzar a recortar. A continuación, haga clic en el botón de pausar en el reproductor para detener el recorte. Haga clic en el botón **[!UICONTROL Confirmar]** para completar el recorte.
+Para recortar, haz clic en el botón **[!UICONTROL Iniciar recorte]** o en el icono del signo más en la línea de tiempo para comenzar a recortar. A continuación, haga clic en el botón de pausar en el reproductor para detener el recorte. Haga clic en el botón **[!UICONTROL Confirmar]** para completar el recorte.
 
-Las grabaciones se pueden recortar introduciendo el tiempo en el **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** campos de entrada después de habilitar **[!UICONTROL Cambiar temporización]**.
+Las grabaciones se pueden recortar especificando la hora en los campos de entrada **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** después de habilitar **[!UICONTROL Cambiar hora]**.
 
 ![](assets/start-trim-05.png)
 *Iniciar recorte*
@@ -135,7 +134,7 @@ Las grabaciones se pueden recortar introduciendo el tiempo en el **[!UICONTROL H
 
 ## Panorámica y zoom en cualquier grabación de vídeo {#panampzoomanyvideorecording}
 
-La acción Panorámica y zoom solo se puede realizar en **Ambos** (cámara web y pantalla) grabaciones de vídeo. De forma predeterminada, se selecciona toda la cámara web o la pantalla. Seleccione el punto de control de la esquina y seleccione la parte de la pantalla que se va a mostrar o a destacar. Haga doble clic en la ventana para ver la pantalla completa.
+La acción de panorámica y zoom solo se puede realizar en grabaciones de vídeo de **Ambos** (cámara web y pantalla). De forma predeterminada, se selecciona toda la cámara web o la pantalla. Seleccione el punto de control de la esquina y seleccione la parte de la pantalla que se va a mostrar o a destacar. Haga doble clic en la ventana para ver la pantalla completa.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panorámica y zoom*
@@ -147,7 +146,7 @@ Si desea crear un nombre exclusivo para un vídeo y un tema coherente, seleccion
 Para añadir una marca o un tema a un vídeo, haga lo siguiente:
 
 1. Haga clic en el icono de marca en el panel de navegación de la izquierda en la ventana de edición.
-1. Seleccione una **Tema** de las opciones especificadas o los usuarios pueden personalizar su propio tema añadiendo un **inicio**, **fondo,** y **fin** vídeo de su sistema.
+1. Seleccione un **Tema** de las opciones o los usuarios podrán personalizar su propio tema agregando un vídeo de **inicio**, **fondo,** y **fin** desde su sistema.
 
    >[!NOTE]
    >
@@ -165,7 +164,7 @@ Para añadir una marca o un tema a un vídeo, haga lo siguiente:
 
    ![](assets/branding-options.png)
 
-   *Branding*
+   *Marca*
 
 ## Recortar clips adicionales para toda clase de grabaciones de vídeo y audio {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
@@ -175,14 +174,14 @@ Para empezar una nueva grabación, haga clic en el icono de clip adicional de gr
 
 ## Publicación de grabaciones de vídeo, grabaciones de audio y capturas de pantalla {#publishing}
 
-Una vez que se hayan realizado todos los cambios y ediciones, haga clic en **[!UICONTROL Compartir]** > escriba o busque un **habilidad o tablero** que mejor se relacione con la publicación > **Post**.
+Una vez que se hayan realizado todos los cambios y modificaciones, haz clic en **[!UICONTROL Compartir]** > escribe o busca una **aptitud o tablero** que mejor se relacione con la publicación > **Publicación**.
 
 <!--![](assets/share-after-editing-07.png)-->
-*Publicación en la web*
+*Publicando en la web*
 
 ## Explorar la galería de la aplicación Learning Manager para escritorio {#browsingcaptivateprimedesktopgallery}
 
-Todas las grabaciones y capturas de pantalla se guardan en la aplicación Adobe Learning Manager para escritorio. Para examinar estos archivos, haga clic en **[!UICONTROL Galería]** desde el panel de navegación izquierdo en la página de inicio.
+Todas las grabaciones y capturas de pantalla se guardan en la aplicación Adobe Learning Manager para escritorio. Para examinar estos archivos, haga clic en **[!UICONTROL Galería]** en el panel de navegación izquierdo de la página principal.
 
 >[!NOTE]
 >
@@ -198,7 +197,7 @@ Para editar o eliminar un archivo de la galería, haga clic en los puntos suspen
 
 Las notificaciones de Learning Manager aparecen en la ventana de notificaciones aunque el alumno no esté registrado en la aplicación Learning Manager para web. Las notificaciones incluyen publicaciones o tableros que los usuarios han creado, siguen o participan. Al hacer clic en la notificación, el usuario accederá a la web de Aprendizaje social de Learning Manager.
 
-Para silenciar las notificaciones, haga clic en **[!UICONTROL Menú Perfil*]* > **[!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
+Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > **[!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
 
 ## Configuración de la aplicación Adobe Learning Manager para escritorio {#settingsinadobecaptivateprimedesktopapplication}
 

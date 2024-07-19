@@ -31,7 +31,7 @@ Instale el paquete de contenido de Learning Manager mediante el Administrador de
 
 >[!NOTE]
 >
->Para obtener información sobre la instalación de paquetes, consulte  [***Cómo trabajar con paquetes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=es#how-to-work-with-packages).
+>Para obtener información sobre la instalación de paquetes, consulte [***Cómo trabajar con paquetes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=es#how-to-work-with-packages).
 
 1. Como autor de AEM, abra el Administrador de paquetes de AEM.
 1. Haga clic en el botón **[!UICONTROL Cargar paquete]**.
@@ -59,7 +59,7 @@ El administrador de AEM necesita un token de actualización de la cuenta de Lear
 
    Copie el ID de aplicación y la descripción.
 
-1. Haga clic en **[!UICONTROL Recursos para desarrolladores]** > **[!UICONTROL Tokens de acceso]**.
+1. Haga clic en **[!UICONTROL Recursos del desarrollador]** > **[!UICONTROL Tokens de acceso]**.
 
    ![](assets/click-tokens.jpg)
 
@@ -71,7 +71,7 @@ El administrador de AEM necesita un token de actualización de la cuenta de Lear
    * Secreto de cliente, que está presente en la descripción.
 
 1. Obtenga el código de OAuth. Debe utilizar la API v2 en el URI de redirección.
-1. Haga clic en **[!UICONTROL Enviar]** y obtener el token de actualización.
+1. Haga clic en **[!UICONTROL Enviar]** y obtenga el token de actualización.
 
 ## Configurar el widget en AEM {#configurethewidgetinaem}
 
@@ -92,13 +92,13 @@ El autor de AEM debe añadir primero el componente de AEM.
 
 A continuación, el autor de AEM podrá arrastrar y soltar el componente Adobe Learning Manager y configurarlo según corresponda.
 
-El componente Learning Manager requiere que la configuración creada en el paso anterior se asigne a la página.  El autor puede asignar la configuración editando las propiedades de página en **[!UICONTROL Avanzado]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de nube]** y proporcionar una ruta de configuración. De este modo, el autor puede crear configuraciones para varias cuentas de Learning Manager y asignar cada una a una página de sitios diferente. Si una configuración no está asignada a la página, el componente leerá la configuración de Página principal de forma recursiva hasta que encuentre una.
+El componente Learning Manager requiere que la configuración creada en el paso anterior se asigne a la página.  El autor puede asignar la configuración editando las propiedades de la página en **[!UICONTROL Configuración avanzada]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la nube]** y proporcionar la ruta de la configuración. De este modo, el autor puede crear configuraciones para varias cuentas de Learning Manager y asignar cada una a una página de sitios diferente. Si una configuración no está asignada a la página, el componente leerá la configuración de Página principal de forma recursiva hasta que encuentre una.
 
 ## El alumno {#learner}
 
 El alumno puede realizar los cursos desde la página.
 
-Para poder acceder al widget de Learning Manager, el alumno debe haber iniciado sesión AEM usuario. Además, la propiedad **correo electrónico** debe estar presente en el nodo &quot;/profile&quot; del nodo Rep:User del alumno. Este correo electrónico debe ser exactamente igual al que aparece en la cuenta de Learning Manager.
+Para poder acceder al widget de Learning Manager, el alumno debe haber iniciado sesión AEM usuario. Además, la propiedad **email** debe estar presente en el nodo &quot;/profile&quot; del nodo rep:User del alumno. Este correo electrónico debe ser exactamente igual al que aparece en la cuenta de Learning Manager.
 
 El alumno puede realizar los cursos desde la página.
 
@@ -123,7 +123,7 @@ Skyline es la versión en la nube de AEM. Primero debe instalar Skyline desde el
 
 ### Implementar Skyline
 
-Los pasos para configurar Skyline se indican en el  [repositorio de GitHub](https://github.com/adobe/captivate-prime-aem-components).
+Los pasos para configurar Skyline se indican en el [repositorio de GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
 ## Widget Catálogo
 
@@ -133,15 +133,15 @@ El widget Catálogo muestra formación de un catálogo específico o un conjunto
 
 El widget Catálogo contiene las siguientes opciones:
 
-* **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que debe mostrarse el curso de formación.
-* **[!UICONTROL Ordenar]:** Tipo de clasificación del curso de formación. Las opciones son: nombre, fecha, fechaCreado, fechaInscrito, etc.
+* **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que se debe mostrar el curso de formación.
+* **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Las opciones son: nombre, fecha, fechaCreado, fechaInscrito, etc.
 * **[!UICONTROL Estado del alumno]:** Devuelve todos los cursos de formación que utilizan los siguientes filtros: enrolled, started, completed y not enrolled. Los resultados de la búsqueda no se mostrarán si la opción de ordenación es dateEnrolled, dueDate o dateEnrolled.
-* **[!UICONTROL Nombre de la aptitud]:** La aptitud utilizada para filtrar el entrenamiento exacto.
-* **[!UICONTROL Nombre de etiqueta]:** Etiqueta utilizada para filtrar los resultados exactos.
+* **[!UICONTROL Nombre de la aptitud]:** Aptitud utilizada para filtrar los cursos de formación exactos.
+* **[!UICONTROL Nombre de etiqueta]:** Etiqueta utilizada para filtrar resultados exactos.
 
 Estos son algunos componentes adicionales que puede personalizar:
 
-**[!UICONTROL Tipos de objetos de aprendizaje]:** Filtre según el tipo de objeto de aprendizaje. Los tipos admitidos son: curso, certificación, ayuda de trabajo y programa de aprendizaje.
+**[!UICONTROL Tipos de objetos de aprendizaje]:** Filtra según el tipo del objeto de aprendizaje. Los tipos admitidos son: curso, certificación, ayuda de trabajo y programa de aprendizaje.
 
 En AEM, el título de una tarjeta de una tira estará vacío inicialmente. En propiedades, escriba el nombre del título en widgets.html.
 
@@ -149,7 +149,7 @@ En AEM, el título de una tarjeta de una tira estará vacío inicialmente. En pr
 
 Puede personalizar la apariencia del diseño mediante widgets.html. Puede cambiar el aspecto de las tarjetas que aparecen y personalizar el tema.
 
-En la **[!UICONTROL Configuración general]** , puede elegir los colores primarios y secundarios de las tarjetas y especificar las propiedades para personalizar el tema.
+En la sección **[!UICONTROL Configuración general]**, puede elegir los colores principales y secundarios de las tarjetas y especificar las propiedades para personalizar el tema.
 
 ```
 { 
@@ -174,7 +174,7 @@ En la **[!UICONTROL Configuración general]** , puede elegir los colores primari
 
 ### Ignorar inscripción de objetos de aprendizaje de orden superior
 
-Si el **Ignorar inscripción de objetos de aprendizaje de orden superior** Si la casilla de verificación está activada y un usuario se inscribe directamente en un programa de aprendizaje o una certificación, los cursos de esa certificación o programa de aprendizaje se mostrarán para el usuario en los widgets.
+Si la casilla de verificación **Ignorar inscripción en objeto de aprendizaje de orden superior** está activada y un usuario está inscrito directamente en un programa de aprendizaje o certificación, los cursos de esa certificación o programa de aprendizaje se mostrarán para el usuario en los widgets.
 
 Si la casilla de verificación está desactivada, los cursos presentes en el programa de aprendizaje o la certificación en los que el usuario no se ha inscrito directamente no aparecerán.
 

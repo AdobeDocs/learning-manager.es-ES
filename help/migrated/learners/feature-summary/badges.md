@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo ver y descargar insignias mediante
 jcr-language: en_us
 title: Insignias
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
 
 ---
-
-
 
 # Insignias
 
@@ -30,7 +29,7 @@ Las insignias obtenidas recientemente se muestran en la parte situada más a la 
 
 Haga clic en cualquier insignia para obtener una lista de todas las insignias adquiridas por usted. También puede ver todas las insignias disponibles alineadas con los cursos respectivos. En las insignias que aún no se han alcanzado, haga clic en el nombre del curso para ver el curso alineado con la insignia. A continuación, se proporciona una captura de pantalla de muestra como referencia.
 
-Haga clic en **[!UICONTROL Descargar todas las insignias]** para descargar todas las insignias obtenidas en formato zip. También puede descargar una insignia individual si hace clic en el icono del cubo junto al nombre de cada insignia.
+Haga clic en el vínculo **[!UICONTROL Descargar todas las insignias]** para descargar todas las insignias obtenidas en formato ZIP. También puede descargar una insignia individual si hace clic en el icono del cubo junto al nombre de cada insignia.
 
 **Descargar insignia como PDF**
 

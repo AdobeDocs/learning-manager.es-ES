@@ -1,14 +1,13 @@
 ---
 title: Recomendaciones en Adobe Learning Manager
 description: El núcleo del motor de recomendaciones se basa en el nuevo algoritmo de clasificación de cursos de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 60%
 
 ---
-
-
 
 # Recomendaciones en Adobe Learning Manager
 
@@ -29,17 +28,17 @@ Para empezar a utilizar esta función, debe activarla en la aplicación de admin
 
 ## Algoritmo de clasificación del curso
 
-El núcleo del motor de recomendaciones se basa en el nuevo **[!UICONTROL Algoritmo de clasificación de cursos]**. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
+El núcleo del motor de recomendaciones se basa en el nuevo **[!UICONTROL algoritmo de clasificación de cursos]** de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 
 ## Términos clave
 
 El nuevo motor de recomendaciones basado en IA de Learning Manager ofrece a los líderes de aprendizaje un sistema de recomendaciones configurable basado en parámetros para crear una experiencia personalizada para los alumnos.
 
-Los parámetros son: **Productos/temas**, **Funciones**, y **Niveles**. Además, se puede cambiar el nombre de estos parámetros para adaptarlos a sus necesidades. Así, los &#39;productos&#39; pueden convertirse en &#39;temas&#39; o los &#39;roles&#39; pueden convertirse en &#39;región&#39;.
+Los parámetros son: **Productos/temas**, **Funciones** y **Niveles**. Además, se puede cambiar el nombre de estos parámetros para adaptarlos a sus necesidades. Así, los &#39;productos&#39; pueden convertirse en &#39;temas&#39; o los &#39;roles&#39; pueden convertirse en &#39;región&#39;.
 
 ## Configurar el sistema de recomendaciones
 
-El nuevo motor de recomendaciones de Adobe Learning Manager simplifica el flujo de trabajo del administrador que implica la configuración de recomendaciones personalizadas, ya que los datos sobre los productos y las funciones asociadas a un cliente/socio están disponibles generalmente para los administradores (por ejemplo, en los registros de compra).
+El nuevo motor de recomendaciones de Adobe Learning Manager simplifica el flujo de trabajo de administración que conlleva la configuración de recomendaciones personalizadas, ya que los datos sobre los productos y las funciones asociadas a un cliente o socio están disponibles generalmente para los administradores (por ejemplo, de los registros de compra).
 
 La configuración del nuevo motor de recomendaciones implica principalmente tres flujos de trabajo:
 
@@ -51,9 +50,9 @@ Los administradores configuran los valores de los parámetros Productos, Roles y
 
 Los administradores disponen de un flujo de trabajo guiado en Learning Manager para configurar de forma óptima el motor de recomendaciones y personalizarlo según el caso de uso de la cuenta. Además, los administradores también tienen la opción de configurar recomendaciones de PRL mediante una carga de CSV de un solo uso.
 
-1. Seleccionar **[!UICONTROL Recommendations]** en la aplicación de administración.
+1. Seleccione **[!UICONTROL Recommendations]** en la aplicación de administración.
 
-   ![Seleccione Recommendations en la aplicación de administración](assets/image831538.png)
+   ![Seleccionar Recommendations en la aplicación de administración](assets/image831538.png)
 
    *Seleccione la opción Recommendations*
 
@@ -61,7 +60,7 @@ Los administradores disponen de un flujo de trabajo guiado en Learning Manager p
 
    ![Actualizar al nuevo sistema](assets/image784236.png)
 
-   *Seleccione la opción Actualizar*
+   *Seleccionar la opción de actualización*
 
 1. Haga clic en **[!UICONTROL Continuar]** para actualizar al nuevo sistema de recomendaciones.
 
@@ -78,8 +77,8 @@ Los administradores disponen de un flujo de trabajo guiado en Learning Manager p
 
    Debe añadir al menos dos productos para poder empezar.
 
-   ![añadir productos](assets/image623058.png)
-   *Añadir productos*
+   ![agregar productos](assets/image623058.png)
+   *Agregar productos*
 
 1. Añada las funciones. Escriba los nombres de las funciones y pulse Intro.
 
@@ -97,7 +96,7 @@ Los administradores disponen de un flujo de trabajo guiado en Learning Manager p
 
 Para que las recomendaciones funcionen correctamente, se deben cargar los datos de interés del usuario, el producto, las funciones y los niveles.
 
-**Opciones de carga de datos**
+**Cargar opciones de datos**
 
 La función de recomendaciones se puede configurar. Así que en lugar de productos/roles/niveles, puede utilizar temas/roles/nivel o elegir cualquiera de estas opciones: producto/temas solamente, roles solamente, producto/temas y roles solamente, roles-niveles solamente o productos-niveles solamente.
 
@@ -151,8 +150,8 @@ Rellena estos CSV y ponte en contacto con tu equipo de éxito de clientes para d
 
 Una vez cargados ambos archivos CSV, haga clic en Activar. De este modo, los alumnos podrán ver el nuevo sistema de recomendaciones.
 
-![poner en marcha](assets/computerdescription-automatically.png)
-*Haz las recomendaciones en directo*
+![activar](assets/computerdescription-automatically.png)
+*Hacer recomendaciones en vivo*
 
 El sistema de recomendaciones ya está disponible para los alumnos.
 
@@ -171,15 +170,15 @@ El sistema de recomendaciones ya está disponible para los alumnos.
 
 1. En la lista de parámetros, seleccione el icono de tres puntos y, a continuación, la opción **[!UICONTROL Eliminar parámetro]**.
 
-![parámetro delete](assets/delete-parameter.png)
-*Elimine el parámetro*
+![eliminar parámetro](assets/delete-parameter.png)
+*Eliminar el parámetro*
 
 ## Página Configuración del curso
 
 En la página de configuración de un curso, se muestran las recomendaciones de productos y funciones. Se recomendará a los alumnos de este curso si han expresado interés en estos productos y funciones.
 
-![configurar imagen](assets/course-settings-image.png)
-*Página Configuración del curso*
+![imagen de configuración](assets/course-settings-image.png)
+*Página de configuración del curso*
 
 ## Vista de alumno
 
@@ -198,12 +197,12 @@ Los alumnos pueden ver lo siguiente:
 
 Después de seleccionar Recommendations en el panel izquierdo, el alumno ve un mensaje emergente para configurar las recomendaciones.
 
-![recomendaciones de configuración](assets/image575540.png)
+![recomendaciones de instalación](assets/image575540.png)
 *El alumno configura la recomendación*
 
 Al hacer clic en Configurar Recomendaciones, el alumno accede a la ventana emergente de selección de productos.
 
-![elemento emergente de selección de productos](assets/product-selection-popup.png)
+![elemento emergente de selección de producto](assets/product-selection-popup.png)
 *Seleccionar productos*
 
 A continuación, en la siguiente ventana emergente, el alumno puede seleccionar la función.
@@ -213,7 +212,7 @@ A continuación, en la siguiente ventana emergente, el alumno puede seleccionar 
 
 Después, el alumno puede añadir los niveles.
 
-![añadir niveles](assets/image650040.png)
+![agregar niveles](assets/image650040.png)
 *Seleccionar niveles*
 
 ## Tiras de aprendizaje de la aplicación del alumno
@@ -248,11 +247,11 @@ No aparecerá ninguna barra de progreso en la tarjeta una vez que el alumno haya
 
 ### Tarjetas en tiras súper relevantes
 
-![tarjetas de tira superrelevantes](assets/super-relevant-cards.png)
+![tarjetas de tira súper relevantes](assets/super-relevant-cards.png)
 *Tarjetas relevantes*
 
 Cada tarjeta tiene los botones Valoración, Imagen de la tarjeta, Título, Aptitud, fecha de publicación, Autor, Duración, barra de progreso y los botones Iniciar, Explorar, Continuar o Volver.
 
 No aparecerá ninguna barra de progreso en la tarjeta una vez que el alumno haya iniciado el curso.
 
-En el menú, hay dos opciones: **[!UICONTROL Guardar]** y **[!UICONTROL No se recomienda esto]**. Si el alumno hace clic **[!UICONTROL Guardar]**, el curso se guarda en la tira &quot;Guardados por mí&quot;. Si el alumno hace clic **[!UICONTROL No se recomienda esto]**, el curso de formación recomendado se elimina de la lista.
+En el menú, hay dos opciones: **[!UICONTROL Guardar]** y **[!UICONTROL No recomendar esto]**. Si el alumno hace clic en **[!UICONTROL Guardar]**, el curso se guarda en la tira &quot;Guardados por mí&quot;. Si el alumno hace clic en **[!UICONTROL No recomendar este]**, el curso de formación recomendado se elimina de la lista.

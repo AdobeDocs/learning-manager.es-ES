@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Cambios en los límites de desplazamiento
 
-Debido al gran número de registros recuperados por el valor de desplazamiento y a la ralentización del rendimiento general, estamos aplicando un límite de **500** registros. En la siguiente versión, tanto para el administrador como para el alumno, el **Usuarios de GET** La API devolverá un máximo de **500** registros.
+Debido a que el valor de desplazamiento recupera un gran número de registros y se ralentiza el rendimiento general, estamos aplicando un límite de **500** registros. En la próxima versión, tanto para el administrador como para el alumno, la API **Usuarios de GET** devolverá un máximo de **500** registros.
 
-Si necesita obtener más registros, utilice la **Trabajos de GET** API.
+Si necesita obtener más registros, use la API **Trabajos de GET**.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ La razón por la que estamos dejando de utilizar el indicador para las API de al
 
 A partir de ahora, la siguiente API de alumno dejará de funcionar debido a que presenta el indicador de anulación.
 
-_/primeapi/v2/users?page[offset]=0&amp;página[límite]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### Cambios en la API para nuevas recomendaciones basadas en aptitudes
 
@@ -149,5 +149,5 @@ En la versión de noviembre de 2023, hemos añadido un filtro de fecha mediante 
 
 ### Rechazo de valores de desplazamiento altos en el extremo GET/usuarios
 
-Para mejorar el rendimiento del sistema y administrar el uso de recursos de forma más eficaz, Adobe ha eliminado los valores de desplazamiento alto en el extremo GET/usuarios para ambos **ADMINISTRADOR** y **ALUMNO** ámbitos. Se recomienda utilizar la **API de trabajos** para recuperar los registros con un valor de desplazamiento.
+Para mejorar el rendimiento del sistema y administrar el uso de recursos de forma más eficaz, Adobe ha eliminado los valores de desplazamiento alto en el extremo GET/usuarios para los ámbitos **ADMIN** y **LEARNER**. Se recomienda usar la **API de trabajos** para recuperar los registros con un valor de desplazamiento.
 

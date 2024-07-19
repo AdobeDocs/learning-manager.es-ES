@@ -65,7 +65,7 @@ Se requiere un micrófono para la grabación de audio y una cámara web para la 
 
 >[!NOTE]
 >
->El navegador para dispositivos móviles solo admite la función de alumno en **diseño envolvente**.
+>El explorador para dispositivos móviles solo admite la función de alumno en **diseño envolvente**.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ El tamaño de archivo máximo que se puede cargar es de 600 MB.
 >
 >Si el tamaño del archivo *user.csv* es superior a 100 MB, importarlo puede provocar comportamientos inesperados en el navegador. Este problema se produce porque el navegador se queda sin memoria.
 
-Se recomienda importar a tamaño grande *user.csv* mediante el flujo de trabajo automatizado de Box/Exavault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Se recomienda importar archivos *user.csv* de tamaño grande mediante el flujo de trabajo automatizado de Box/Exavault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de contenido admitidos
@@ -309,7 +309,7 @@ Asegúrese de que los siguientes dominios de terceros estén incluidos en la lis
   </tr>
   <tr>
    <td>Conector de getAbstract</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Conector de Box</td>

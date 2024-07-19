@@ -27,12 +27,12 @@ Con la función Terminología del producto, puede cambiar el nombre de estas ter
 Para modificar las terminologías, siga los pasos indicados a continuación:
 
 1. Como administrador, seleccione **[!UICONTROL Configuración]** > **[!UICONTROL General]**.
-1. En la **[!UICONTROL Terminología del producto]**, seleccione **[!UICONTROL Editar]**.
+1. En **[!UICONTROL Terminología del producto]**, seleccione **[!UICONTROL Editar]**.
 
    ![](assets/product-terminology-settings.png)
    _Terminología del producto_
 
-1. Seleccionar **[!UICONTROL Descargar aquí]** y descargue la plantilla de las terminologías.
+1. Seleccione **[!UICONTROL Descargar aquí]** y descargue la plantilla de las terminologías.
 
    ![](assets/download-here-pt.png)
    _Descargar la plantilla_
@@ -42,13 +42,13 @@ Para modificar las terminologías, siga los pasos indicados a continuación:
 1. Después de descargar el archivo CSV, cambie las terminologías correspondientes en la segunda columna. Por ejemplo, puede cambiar Módulo a Formación o Tabla de posiciones a Ranking.
 
    ![](assets/csv-product-terminology.png)
-   _Editar el archivo CSV_
+   _Editar el archivo .csv_
 
 1. Guarde los cambios.
 
 ## Cargar el CSV actualizado
 
-1. En la **[!UICONTROL Terminología del producto]** , seleccione el vínculo para cargar el archivo CSV.
+1. En la sección **[!UICONTROL Terminología del producto]**, seleccione el vínculo para cargar el archivo CSV.
 
    ![](assets/update-the-csv.png)
    _Cargar el archivo .csv_
@@ -71,7 +71,7 @@ _Restablecer la terminología del producto_
 Al hacer clic en el vínculo, aparece un mensaje emergente de confirmación.
 
 ![](assets/confirmation.png)
-_Solicitud de confirmación_
+_Mensaje de confirmación_
 
 Las terminologías vuelven a sus nombres originales.
 

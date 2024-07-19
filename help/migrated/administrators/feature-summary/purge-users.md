@@ -40,20 +40,20 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Para purgar usuarios, siga estos pasos:
 
 1. Como administrador, seleccione **[!UICONTROL Usuarios]** del panel izquierdo. Se abre la página **[!UICONTROL Usuarios internos]**.
-1. Elimine los usuarios que desea purgar. Para eliminarlos, seleccione uno o más usuarios usando la casilla de verificación. Abra el **[!UICONTROL Acción]** y seleccione la opción **[!UICONTROL Eliminar usuario.]**
+1. Elimine los usuarios que desea purgar. Para eliminarlos, seleccione uno o más usuarios usando la casilla de verificación. Abra el menú desplegable **[!UICONTROL Acción]** y seleccione **[!UICONTROL Eliminar usuario.]**
 1. En el panel izquierdo seleccione **[!UICONTROL Limpieza de usuarios]**. Aparece la página **[!UICONTROL Limpieza de usuarios]** con la lista de usuarios eliminados. Use los botones de selección para seleccionar un usuario para purgar. Solo puede purgar un usuario a la vez.
 
    ![](assets/purge-1.png)
 
-   *Seleccione un usuario para purgar*
+   *Seleccionar un usuario para purgar*
 
-1. Abra el **[!UICONTROL Acciones]** menú desplegable y seleccione **[!UICONTROL Purgar usuario]**.
+1. Abra el menú desplegable **[!UICONTROL Acciones]** y seleccione **[!UICONTROL Purgar usuario]**.
 
    ![](assets/purge-2.png)
 
-   *Seleccione la opción Purgar usuario.*
+   *Seleccione la opción Purgar usuario*
 
-1. Aparece un cuadro de diálogo que solicita la confirmación. Una vez purgados, todos los datos del usuario y los registros de aprendizaje asociados con el usuario seleccionado se eliminan de forma permanente. Después de la purga, la acción no se puede deshacer. Para confirmar, haga clic en **[!UICONTROL Depurar]**.
+1. Aparece un cuadro de diálogo que solicita la confirmación. Una vez purgados, todos los datos del usuario y los registros de aprendizaje asociados con el usuario seleccionado se eliminan de forma permanente. Después de la purga, la acción no se puede deshacer. Para confirmar, haga clic en **[!UICONTROL Purgar]**.
 
    ![](assets/purge-3.png)
 
@@ -67,7 +67,7 @@ Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto p
 
 ![](assets/bulk-purge-users.png)
 
-*Purgar usuarios de forma masiva*
+*Purgar usuarios en bloque*
 
 +++Leer acerca de los resultados de la acción Purgar usuario
 
@@ -138,7 +138,7 @@ Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto p
    <td>Sí</td>
   </tr>
   <tr>
-   <td><strong>Depurar</strong> <strong>otros usuarios no empresariales (individuos que no son usuarios internos o externos de Learning Manager)</strong></td>
+   <td><strong>Purgar</strong> <strong>otros usuarios no empresariales (individuos que no son usuarios internos o externos de Learning Manager)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto p
 
 +++
 
-Learning Manager ahora cumple con el RGPD. Para obtener más información sobre el cumplimiento del RGPD, consulte  [Cumplimiento del RGPD por parte de Learning Manager](../../kb/prime-gdpr.md).
+Learning Manager ahora cumple con el RGPD. Para obtener más información sobre el cumplimiento del RGPD, consulte [Cumplimiento del RGPD por parte de Learning Manager](../../kb/prime-gdpr.md).
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 

@@ -3,14 +3,13 @@ description: Los administradores pueden ejecutar una sesión suplantada en la qu
 jcr-language: en_us
 title: Suplantación del alumno y el responsable
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # Suplantación del alumno y el responsable {#impersonation-of-learner-and-manager}
 
@@ -77,7 +76,7 @@ Cada inicio de sesión se cuenta por separado en el informe.
 
 ## Preguntas más frecuentes
 
-+++¿Puedo iniciar sesión en Adobe Learning Manager incluso cuando se me suplanta?
++++¿Puedo iniciar sesión en Adobe Learning Manager incluso cuando me están suplantando?
 
 Sí, el inicio de sesión de un usuario es independiente de la suplantación.
 +++

@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo ver y consumir programas de aprend
 jcr-language: en_us
 title: Programas de aprendizaje
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # Programas de aprendizaje
 
@@ -36,7 +35,7 @@ El autor y el administrador pueden crear programas de aprendizaje.
 
 Puede ver una lista de todos los programas de aprendizaje disponibles como alumno. El widget Objeto de aprendizaje muestra todos los programas de aprendizaje asignados a un alumno y en los que este se ha inscrito. En el panel izquierdo, haga clic en Catálogo y filtre para ver todos los programas de aprendizaje disponibles.
 
-En la **Mi aprendizaje** , puede filtrar la formación en la que se ha inscrito, según **duración** de la formación y la **formato** de la formación.
+En la página **Mi aprendizaje**, puedes filtrar la formación en la que estás inscrito, según la **duración** de la formación y el **formato** de la formación.
 
 Ahora puede ver el porcentaje de eficacia de cada curso en la página Catálogo. Un curso/programa de aprendizaje puede tener varias instancias/sesiones. Haga clic en el curso o el programa de aprendizaje para ver los detalles. También puede ver la fecha límite para cada instancia del curso o programa de aprendizaje.
 

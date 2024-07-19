@@ -110,7 +110,7 @@ Puede probar fácilmente esto golpeando este punto final con velocidades por deb
 
 Para que te resulte más fácil, echa un vistazo a este ejemplo de código JavaScript que ilustra esto. Haga clic en [violín](https://jsfiddle.net/ACAPJS/9yv8zcmL/) y ver el código en acción.
 
-Esta aplicación requiere que proporcione un token de aplicación de la función de alumno para su cuenta. Consulte la [Manual de desarrolladores de aplicaciones](https://captivateLearning Manager.adobe.com/docs/Learning Manager/api/v2/) para obtener información sobre los tokens de API y puede utilizar Token Helper en la sección de recursos para desarrolladores de la aplicación de administración de integración de Learning Manager para generar los tokens.
+Esta aplicación requiere que proporcione un token de aplicación de la función de alumno para su cuenta. Consulte el [Manual del desarrollador de aplicaciones](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) para obtener información sobre los tokens de API y puede utilizar Token Helper en la sección de recursos para desarrolladores de la aplicación de administración de integración de Learning Manager para generar los tokens.
 
 Esta aplicación está realizando 10 llamadas a la API ficticia en un bucle, de una sola vez. Dado que el límite de velocidad es (5, 2) para la API ficticia, el límite de velocidad se infringirá después de que las primeras llamadas 5+2 recibidas por Learning Manager se realicen correctamente y se obtenga una respuesta de éxito para ellas.
 

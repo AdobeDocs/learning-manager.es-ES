@@ -3,14 +3,13 @@ description: Lea este artículo para saber cómo crear y administrar cuentas de 
 jcr-language: en_us
 title: Cuentas de igual a igual
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # Cuentas de igual a igual
 
@@ -20,18 +19,18 @@ Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante 
 
 ## Añadir una cuenta de igual a igual {#addapeeraccount}
 
-1. En el tablero del administrador, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Cuentas de igual a igual]**.
-1. En la esquina superior derecha, haga clic en **[!UICONTROL Añadir]**.
+1. En el panel de administración, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Cuentas de igual a igual]**.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Agregar]**.
 
    ![](assets/peeraccount.png)
 
    *Agregar cuenta de igual a igual*
 
-1. En la **[!UICONTROL Subdominio de cuenta]** , especifique el subdominio con el que desea establecer una cuenta de igual a igual.
+1. En el campo **[!UICONTROL Subdominio de cuenta]**, especifique el subdominio con el que desea establecer una cuenta de igual a igual.
 
    ![](assets/addpeer.png)
 
-   *Añadir un subdominio*
+   *Agregar un subdominio*
 
 1. Indique el ID de correo electrónico del administrador que acepta o rechaza la solicitud de cuenta de igual a igual.
 1. Especifique la cantidad de puestos que desea compartir con su igual. Cuando comparte puestos con la cuenta de igual a igual, la cuenta de igual a igual pasa al estado Activo con los puestos recibidos o con los puestos adquiridos por el propio igual.
@@ -69,11 +68,11 @@ Si ya no desea compartir puestos o adquisiciones con una cuenta, puede eliminar 
 El administrador puede ver el informe de usuario de la cuenta de igual a igual. El administrador de la cuenta principal puede solicitar acceso al informe y, una vez que el administrador de la cuenta de igual a igual lo acepte, el administrador principal podrá ver el número de usuarios registrados en la cuenta de igual a igual y descargar el informe de usuarios para la cuenta de igual a igual.
 
 1. En la página Cuentas de igual a igual, haga clic en **[!UICONTROL Añadir]**.
-1. Active la opción. **[!UICONTROL Solicitar permiso para descargar informes de usuarios para toda la cuenta]**.
+1. Habilite la opción **[!UICONTROL Solicitar permiso para descargar informes de usuarios para toda la cuenta]**.
 
 ![](assets/image034.png)
 
-*Ver el informe de usuarios de una cuenta de igual a igual*
+*Ver informe de usuario de una cuenta de igual a igual*
 
 Para descargar los informes de cuentas de igual a igual, haga clic en **[!UICONTROL Descargar]**.
 

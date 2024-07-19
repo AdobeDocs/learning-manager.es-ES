@@ -3,14 +3,13 @@ description: Lea este artículo para aprender a administrar módulos como instru
 jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 63%
 
 ---
-
-
 
 # Módulos
 
@@ -70,7 +69,7 @@ Como instructor, puede cargar archivos de recursos como archivos de asignación,
 
 ## Envío de archivos para módulos de actividad {#filesubmissionforactivitymodules}
 
-El módulo de actividad admite el flujo de trabajo de envío de archivos. Como autor, cree un módulo de actividad y seleccione la  **[!UICONTROL Envío de archivos]** opción. De este modo, los alumnos pueden enviar un archivo.
+El módulo de actividad admite el flujo de trabajo de envío de archivos. Como autor, crea un módulo de actividad y selecciona la opción **[!UICONTROL Envío de archivos]**. De este modo, los alumnos pueden enviar un archivo.
 
 Los instructores pueden aprobar o rechazar estos archivos. El módulo se completa solo después de que el instructor apruebe el envío.
 
@@ -79,14 +78,14 @@ Los instructores pueden aprobar o rechazar estos archivos. El módulo se complet
 
 ## Módulo Lista de comprobación de evaluación {#evaluate-checklist-module}
 
-Una vez que el alumno realiza el curso, el instructor ve el módulo de lista de comprobación en la página Envíos/Listas de comprobación del **Módulos** sección. Esta página contiene todos los módulos de lista de comprobación de actividades, junto con los módulos de envío de actividades, para los que deben realizarse revisiones. Para cada módulo, se muestra el número de alumnos que se deben evaluar.
+Una vez que el alumno realice el curso, el instructor verá el módulo de lista de comprobación en la página Envíos/Listas de comprobación de la sección **Módulos**. Esta página contiene todos los módulos de lista de comprobación de actividades, junto con los módulos de envío de actividades, para los que deben realizarse revisiones. Para cada módulo, se muestra el número de alumnos que se deben evaluar.
 
-En la página siguiente, puede ver módulos de tipo **Envío** y **Lista de comprobación**. Para este ejemplo, utilizaremos el módulo Lista de comprobación.
+En la página siguiente, puede ver módulos del tipo **Envío** y **Lista de comprobación**. Para este ejemplo, utilizaremos el módulo Lista de comprobación.
 
 ![](assets/modules-list.png)
 *Ver lista de módulos*
 
-Haga clic en el módulo Lista de comprobación. En la **Lista de comprobación** , verá lo siguiente:
+Haga clic en el módulo Lista de comprobación. En la página **Lista de comprobación**, verá lo siguiente:
 
 * El nombre del módulo.
 * El nombre del curso.
@@ -97,12 +96,12 @@ Haga clic en el módulo Lista de comprobación. En la **Lista de comprobación**
 ![](assets/checklist-page.png)
 *Ver la página de lista de comprobación*
 
-Para evaluar a un alumno, haga clic en **[!UICONTROL Evaluar]** en el **[!UICONTROL Lista de comprobación]** columna. También puede ver que la revisión presenta el estado **Pendiente**.
+Para evaluar a un alumno, haga clic en **[!UICONTROL Evaluar]** en la columna **[!UICONTROL Lista de comprobación]**. También puede ver que la revisión presenta el estado **Pendiente**.
 
 Evalúe al alumno y haga clic en **[!UICONTROL Enviar]**. Como instructor, debe responder a todas las preguntas de evaluación.
 
 ![](assets/checklist-evaluation-screen.png)
-*Lista de comprobación para evaluación*
+*Lista de comprobación para la evaluación*
 
 En función de los criterios para aprobar, el estado será Suspendido o Aprobado.
 
@@ -112,7 +111,7 @@ Un instructor también puede ver las respuestas enviadas por otros instructores 
 
 Puede exportar a los alumnos como un archivo .csv en función del filtro de búsqueda aplicado.
 
-Una vez que el instructor evalúe el curso mediante la lista de comprobación, el alumno verá el estado del módulo como **Pass** y estado del curso como **Completado**, o el estado del módulo como **Fracasar** y el estado del curso como **Completado**.
+Una vez que el instructor evalúe el curso mediante la lista de comprobación, el alumno verá el estado del módulo como **Aprobado** y el estado del curso como **Completado**, o el estado del módulo como **Suspendido** y el estado del curso como **Completado**.
 
 ## Comentarios del instructor para rechazar una actividad {#rejection-comments}
 
@@ -132,7 +131,7 @@ Este es el flujo de trabajo:
    ![](assets/enter-comments.png)
    *Escribir comentarios de finalización*
 
-1. El instructor puede hacer clic **Rechazar**. El estado del envío cambia a **Marcado para rechazo**.
+1. El instructor puede hacer clic en **Rechazar**. El estado del envío cambia a **Marcado para rechazo**.
 
    ![](assets/marked-for-rejection.png)
    *Rechazar un envío*
@@ -161,7 +160,7 @@ Si desea añadir puntuaciones y comentarios a módulos de actividad que se han e
 1. En la página Alumno, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Editar puntuaciones y comentarios]**.
 
    ![](assets/edit-scores-comments.png)
-   *Añadir comentarios*
+   *Agregar comentarios*
 
    El campo de entrada de puntuaciones y comentarios no estará disponible para los alumnos que no hayan completado el curso.
 

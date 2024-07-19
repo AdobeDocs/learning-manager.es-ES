@@ -3,14 +3,13 @@ jcr-language: en_us
 title: No se puede buscar un curso en Learning Manager
 description: Un alumno no puede buscar un curso en Learning Manager.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # No se puede buscar un curso en Learning Manager
 
@@ -50,7 +49,7 @@ Este problema se produce si:
 1. Inicie sesión como administrador.
 
 1. Haga clic en **[!UICONTROL Catálogo]** y busque el catálogo que contiene el curso.
-1. Haga clic en **[!UICONTROL Compartir internamente]** o **[!UICONTROL Contenido]** (dependiendo del escenario mencionado anteriormente).
+1. Haga clic en **[!UICONTROL Compartir internamente]** o **[!UICONTROL Contenido]** (según el escenario mencionado anteriormente).
 
    ![](assets/cp-share-internally.png)
 
@@ -60,16 +59,16 @@ Este problema se produce si:
 
    * El alumno no forma parte del catálogo
 
-     Para compartir el catálogo, haga clic en **[!UICONTROL Añadir]** y añada el grupo de usuarios del que el usuario forma parte. Haga clic en **[!UICONTROL Guardar]**.
+     Para compartir el catálogo, haga clic en **[!UICONTROL Agregar]** y agregue el grupo de usuarios del que el usuario forma parte. Haga clic en **[!UICONTROL Guardar]**.
 
      ![](assets/cp-add-user-group.png)
 
-     *Añadir el grupo de usuarios*
+     *Agregar el grupo de usuarios*
 
    * El curso no forma parte del catálogo
 
-     En la sección Contenido, haga clic en **[!UICONTROL Añadir contenido]** y seleccione el curso que debe añadir al catálogo.
+     En la sección Contenido, haga clic en **[!UICONTROL Agregar contenido]** y seleccione el curso que necesita agregar al catálogo.
 
      ![](assets/cp-add-content.png)
 
-     *Añadir contenido al curso*
+     *Agregar contenido al curso*

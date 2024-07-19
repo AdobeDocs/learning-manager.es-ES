@@ -21,7 +21,7 @@ Los autores pueden crear ayudas de trabajo para los alumnos. Utilice las ayudas 
 ## Crear ayuda de trabajo {#createjobaid}
 
 1. En el inicio de sesión del autor, seleccione **[!UICONTROL Ayudas de trabajo]** en el panel izquierdo.
-1. Seleccionar **[!UICONTROL Crear]** en la esquina superior derecha de la página que aparece.
+1. Seleccione **[!UICONTROL Crear]** en la esquina superior derecha de la página que aparece.
 1. Escriba el nombre, descripción y etiquetas. Elija las aptitudes y los niveles asociados. Seleccione el contenido como privado si no desea que otros autores accedan a la ayuda de trabajo para asignarla a sus cursos respectivos.
 
    Las aptitudes existentes son las únicas que se pueden asignar a ayudas de trabajo. Las aptitudes no son obligatorias.
@@ -37,14 +37,14 @@ Los autores pueden crear ayudas de trabajo para los alumnos. Utilice las ayudas 
 
 ## Añadir ayuda de trabajo en diferentes idiomas {#addcontentfordifferentlanguages}
 
-1. Para añadir la ayuda de trabajo en diferentes idiomas, seleccione la **Añadir nuevo idioma** y elija los idiomas correspondientes. Gracias a esto, puede añadir soporte multilingüe para su contenido.
+1. Para agregar la ayuda de trabajo en diferentes idiomas, seleccione la pestaña **Agregar nuevo idioma** y elija los idiomas requeridos. Gracias a esto, puede añadir soporte multilingüe para su contenido.
 
    ![](assets/add-new-languagetab.png)
 
-   *Añadir nuevo idioma a un contenido*
+   *Agregar nuevo idioma para un contenido*
 
 1. Repita el proceso de carga de la ayuda de trabajo para los nuevos idiomas.
-1. Si desea quitar un idioma, seleccione la **[!UICONTROL Añadir nuevo idioma]** y borre su selección.
+1. Si deseas quitar un idioma, selecciona la pestaña **[!UICONTROL Añadir nuevo idioma]** y borra tu selección.
 
    Después de realizar los cambios, seleccione Guardar.
 
@@ -71,9 +71,9 @@ Puede retirar una ayuda de trabajo publicada. Para ello, haga clic en el icono d
 
 ![](assets/job-aid-withdraw.png)
 
-*Editar, retirar o previsualizar una ayuda de trabajo publicada*
+*Editar, retirar o obtener una vista previa de una ayuda de trabajo publicada*
 
-Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirar. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publicar.
+Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirar. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publish.
 
 ## Compatibilidad con los paquetes HTML en las ayudas de trabajo
 

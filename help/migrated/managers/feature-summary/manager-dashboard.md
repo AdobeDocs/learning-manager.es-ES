@@ -15,7 +15,7 @@ ht-degree: 49%
 
 Obtenga información sobre cómo ver y realizar el seguimiento de aprendizajes desde el tablero de responsable.
 
-Los gerentes juegan un papel importante en las iniciativas de aprendizaje de un equipo. Para que los responsables trabajen en mejores condiciones, la plataforma de aprendizaje proporciona una vista de tablero en la que se puede realizar el seguimiento de los aprendizajes de su equipo.
+Los gestores desempeñan un papel importante en las iniciativas de aprendizaje de un equipo. Para que los responsables trabajen en mejores condiciones, la plataforma de aprendizaje proporciona una vista de tablero en la que se puede realizar el seguimiento de los aprendizajes de su equipo.
 
 ![](assets/dashboard-final.png)
 
@@ -31,7 +31,7 @@ Las opciones Mes y Año se basan en el año natural. Por su parte, Trimestre se 
 
 ![](assets/learning-summarydashboard.png)
 
-*Ver las actividades de aprendizaje durante un período de tiempo*
+*Ver actividades de aprendizaje durante períodos de tiempo*
 
 ## Vista de equipo {#teamview}
 
@@ -41,7 +41,7 @@ En la vista de equipo, se muestran los equipos, los integrantes y sus inscripcio
 
 *La vista de equipo muestra los equipos, sus miembros y sus respectivas inscripciones*
 
-Al hacer clic en los nombres de los equipos, por ejemplo, Equipo de Venkatesh, puede ver los miembros del equipo de Venkatesh junto con el número total de inscripciones, progresiones y finalizaciones de un objeto de aprendizaje.
+Al hacer clic en los nombres de los equipos, por ejemplo, el equipo de Venkatesh, puede ver los miembros del equipo de Venkatesh junto con el número total de inscripciones, progresos y finalizaciones de un objeto de aprendizaje.
 
 ![](assets/ls-click-team-names.png)
 
@@ -51,7 +51,7 @@ Para ver el resumen del aprendizaje de cada integrante del equipo, haga clic en 
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
-*Seleccione un administrador de equipo*
+*Seleccionar un administrador de equipo*
 
 También es posible ver objetos de aprendizaje y la cantidad de inscripciones, progresos o finalizaciones haciendo clic en los valores de las columnas correspondientes.
 
@@ -59,7 +59,7 @@ También es posible ver objetos de aprendizaje y la cantidad de inscripciones, p
 
 *Ver cursos y resumen de aprendizaje*
 
-Al hacer clic en la cantidad de inscripciones, progresiones o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
+Al hacer clic en el número de inscripciones, progresos o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
@@ -75,64 +75,64 @@ Para ver información sobre personas, fechas de inscripción, de vencimiento y e
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Vista de aprendizajes*
+*Vista de aprendizaje*
 
 ## Exportar informe {#exportreport}
 
-Para generar un informe de Excel, seleccione **[!UICONTROL Acciones] > [!UICONTROL informe]**
+Para generar un informe de Excel, seleccione **[!UICONTROL Acciones] > [!UICONTROL Informe]**
 
 ## Estado de cumplimiento {#compliancestatus}
 
-En el tablero de cumplimiento, los responsables pueden ver el estado general de cumplimiento del equipo para los aprendizajes configurados en categorías específicas (por ejemplo, ventas, marketing y legal). Los administradores pueden crear un tablero con cursos de conformidad, rutas de aprendizaje o certificaciones, y compartirlo con los responsables. Los responsables pueden ver el tablero compartido por el administrador en sus instancias.
+En el tablero de cumplimiento, los responsables pueden ver el estado de cumplimiento general del equipo para los aprendizajes configurados en categorías específicas (por ejemplo, ventas, marketing y legal). Los administradores pueden crear un tablero con cursos de cumplimiento, rutas de aprendizaje o certificación y compartirlo con los responsables. Los responsables pueden ver el panel compartido por el administrador en sus instancias.
 
-### Ver el tablero
+### Ver el panel
 
-Para ver el tablero, seleccione **[!UICONTROL el tablero]** de cumplimiento desde la aplicación del administrador.
+Para ver el panel, seleccione **[!UICONTROL Panel de cumplimiento]** en la aplicación del administrador.
 
 ![](assets/compliance-dashboard-manager.png)
-_Aplicación Compliance dashboard-Manager_
+_Aplicación de administrador de tableros de cumplimiento_
 
 El tablero de cumplimiento incluye los siguientes estados de cumplimiento:
 
-* **[!UICONTROL Alumnos]** que no cumplen las normas: muestra la cantidad de alumnos que incumplieron los plazos.
-* **[!UICONTROL Alumnos que se acercan a la fecha límite]**: muestra el número de alumnos con plazos en menos de 30 días.
-* **[!UICONTROL Alumnos con plazos]** seguros: muestra el recuento de alumnos con plazos más lejanos (más de 30 días).
-* **[!UICONTROL Alumnos]** totalmente conformes: muestra el número de alumnos que cumplen todos los requisitos.
-* **[!UICONTROL Alumnos no inscritos en ninguna parte]**: muestra el recuento de alumnos que no se han inscrito en ningún curso, rutas de aprendizaje ni certificaciones.
+* **[!UICONTROL Alumnos no compatibles]**: Muestra el número de alumnos que incumplieron las fechas límite.
+* **[!UICONTROL Alumnos que se acercan a las fechas límite]**: Muestra el número de alumnos con fechas límite en menos de 30 días.
+* **[!UICONTROL Alumnos con fechas límite seguras]**: Muestra el número de alumnos con fechas límite más largas (más de 30 días).
+* **[!UICONTROL Alumnos que cumplen totalmente la normativa]**: muestra el número de alumnos que la cumplen totalmente.
+* **[!UICONTROL Alumnos no inscritos en ninguna parte]**: Muestra el número de alumnos que no se inscribieron en ningún curso, ruta de aprendizaje o certificación.
 
-### Gestores de correo electrónico y alumnos
+### Administradores de correo electrónico y alumnos
 
-**Gestión de varios equipos**
+**Administrar varios equipos**
 
-Si gestiona varios equipos, puede notificar a los responsables sobre el estado de aprendizaje de los miembros de su equipo mediante la selección de la opción Responsables ]**de**[!UICONTROL  correo electrónico disponible en la sección Vista ]**de**[!UICONTROL  equipo.
+Si administras varios equipos, puedes notificar a tus responsables sobre el estado de aprendizaje de los miembros de su equipo seleccionando la opción **[!UICONTROL Administradores de correo electrónico]** disponible en la sección **[!UICONTROL Vista de equipo]**.
 
 ![](assets/email-managers.png)
-_Gestores de correo electrónico_
+_Administradores de correo electrónico_
 
-Email **[!UICONTROL Managers]** le ofrece las siguientes opciones:
+**[!UICONTROL Administradores de correo electrónico]** le proporciona las siguientes opciones:
 
-* **[!UICONTROL Responsables de correo electrónico de alumnos que no cumplen las]** normas: notifique a los responsables cuyos miembros del equipo incumplieron los plazos.
-* **[!UICONTROL Los responsables de correo electrónico de los alumnos se acercan a las fechas límite]**: notifique a los responsables cuyos miembros del equipo tienen fechas límite próximas.
+* **[!UICONTROL Administradores de correo electrónico de alumnos que no cumplen la normativa]**: informa a los responsables cuyos miembros del equipo incumplieron los plazos de entrega.
+* **[!UICONTROL Directores de correo electrónico de alumnos que se acercan a las fechas límite]**: informa a los responsables cuyos integrantes del equipo tengan fechas límite próximas.
 
-**Gestión de un solo equipo**
+**Administrar un solo equipo**
 
-Si gestiona un único equipo, puede notificar a sus alumnos sobre su estado de aprendizaje seleccionando la **[!UICONTROL opción Enviar correo electrónico a los]** alumnos disponible en la sección Vista ]**de**[!UICONTROL  equipo.
+Si administras un solo equipo, puedes notificar a tus alumnos sobre su estado de aprendizaje seleccionando la opción **[!UICONTROL Alumnos por correo electrónico]** disponible en la sección **[!UICONTROL Vista de equipo]**.
 
 ![](assets/email-learners.png)
-_Alumnos con correo electrónico_
+_Alumnos por correo electrónico_
 
-La **[!UICONTROL opción Alumnos]** por correo electrónico le ofrece las siguientes opciones:
+La opción **[!UICONTROL Alumnos por correo electrónico]** le ofrece las siguientes opciones:
 
-* **[!UICONTROL Enviar por correo electrónico a alumnos]** que no cumplen las normas: notifique a los alumnos que no cumplieron los plazos.
-* **[!UICONTROL Enviar un correo electrónico a los alumnos que se acercan a las fechas límite]**: notifique a los alumnos que tienen fechas límite próximas.
+* **[!UICONTROL Enviar correo electrónico a alumnos que no cumplen los requisitos]**: informa a los alumnos que incumplen los plazos.
+* **[!UICONTROL Alumnos por correo electrónico que se acercan a las fechas límite]**: Notifica a los alumnos que tienen fechas límite próximas.
 
 ### Descargar informe
 
 Para descargar el informe, siga estos pasos:
 
-1. En la aplicación del responsable, vaya al **[!UICONTROL Tablero]** de cumplimiento > **[!UICONTROL a la vista]** Equipo.
-1. Seleccione **[!UICONTROL Descargar informe]** para guardar el tablero como un informe.
-Esto le permite realizar un seguimiento del progreso general del aprendizaje de su equipo.
+1. En la aplicación del administrador, ve a **[!UICONTROL Panel de cumplimiento]** > **[!UICONTROL Vista de equipo]**.
+1. Selecciona **[!UICONTROL Descargar informe]** para guardar tu panel como un informe.
+Esto te permite realizar un seguimiento del progreso general de aprendizaje de tu equipo.
 
 ![](assets/download-report.png)
 _Descargar informes_
@@ -199,26 +199,26 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Aptitudes de equipo {#teamskills}
 
-Los responsables pueden ver el gráfico de finalización de aptitudes y configurar un pronóstico de finalización de aptitudes en diferentes niveles. La lista desplegable de aptitudes incluye cinco aptitudes. El gerente llega a conocer la experiencia adquirida por los miembros del equipo e identifica un fuerte talento en ciertas habilidades.
+Los responsables pueden ver el gráfico de finalización de aptitudes y configurar un pronóstico de finalización de aptitudes en diferentes niveles. La lista desplegable de aptitudes incluye cinco aptitudes. El gerente conoce la experiencia adquirida por los miembros del equipo e identifica el talento fuerte en ciertas habilidades.
 
-Los gerentes también pueden impulsar ciertas habilidades en un equipo al establecer una meta y pronosticar cuánto tiempo tomaría lograr una habilidad para un porcentaje específico de un equipo dentro de una línea de tiempo.
+Los gestores también pueden impulsar determinadas habilidades en un equipo estableciendo un objetivo y pronosticando el tiempo que se tardaría en conseguir una habilidad para un porcentaje específico de un equipo dentro de un plazo.
 
 Esta previsión se basa en cálculos de sistema que ofrecen una perspectiva futura sobre el progreso de esa aptitud.
 
 ![](assets/ts-dashboard-02.png)
 
-*Ver pronóstico de habilidades*
+*Ver previsión de aptitud*
 
-Para ver el estado de las aptitudes de un equipo, siga los pasos que se indican a continuación:
+Para ver el estado de aptitudes de un equipo, siga los pasos que se indican a continuación:
 
-1. Haga clic **[!UICONTROL en Aptitudes]** de equipo en el panel izquierdo en la sección Mi vista de equipo.
+1. Haga clic en **[!UICONTROL Aptitudes del equipo]** en el panel izquierdo, en la sección Vista de mi equipo.
 1. Para ver las aptitudes que se muestran, haga clic en el filtro de aptitudes y seleccione una de la lista desplegable.
 1. Para seleccionar un nivel (1, 2 o 3), haga clic en el menú desplegable de niveles.
 1. En función de la aptitud y el nivel seleccionados, se muestra un gráfico con su estado de aptitud. Al pasar el cursor sobre el gráfico, se pueden ver los porcentajes siguientes relativos al estado de la aptitud: **En curso** y **Conseguido**.
 
    ![](assets/first-graph.png)
 
-   *Ver porcentaje de estado de aptitud*
+   *Ver porcentaje del estado de aptitud*
 
 ## Cómo prever el porcentaje de finalización del equipo respecto a una aptitud {#howtoforecasttheteamcompletionforaskill}
 
@@ -228,19 +228,19 @@ Para prever el porcentaje de finalización del equipo respecto a una aptitud, si
 
    ![](assets/configure.png)
 
-   *Seleccione el hipervínculo Configurar*
+   *Seleccione Configurar hipervínculo*
 
-1. En el cuadro de diálogo emergente de configuración, para la aptitud que desee configurar, introduzca un valor porcentual en el campo % de **finalización** de destino y la fecha en la que desea alcanzar el porcentaje de finalización previsto en el **campo Fecha** objetivo.****
+1. En el cuadro de diálogo emergente configurar, para la aptitud que desee configurar, introduzca un valor de porcentaje en el campo **Porcentaje de finalización de destino** y la fecha en la que desee alcanzar el porcentaje de finalización de destino en el campo **Fecha de destino**.****
 
    ![](assets/configure-tracker.png)
 
-   *Introduzca el porcentaje de finalización del objetivo*
+   *Especifique el porcentaje de finalización de destino*
 
-1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado es similar a la captura de pantalla siguiente.
+1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado se parece a la captura de pantalla siguiente.
 
    ![](assets/skill-tracker-output.png)
 
-   *Ver salida de tracxker de aptitudes*
+   *Ver salida del rastreador de aptitudes*
 
 ## Previsión de finalización del nivel de aptitud {#skilllevelcompletionforecast}
 
@@ -252,19 +252,19 @@ En la línea continua, el primer punto muestra la fecha de la primera inscripci�
 
 ![](assets/1-dotted-line.png)
 
-*Ver la primera inscripción para un nivel de aptitud*
+*Ver primera inscripción para un nivel de aptitud*
 
 El segundo punto muestra la fecha actual y el porcentaje de finalización del equipo respecto a la aptitud.
 
 ![](assets/2-solid-line.png)
 
-*Ver la fecha actual y el nivel de porcentaje de finalización del equipo de la habilidad*
+*Ver la fecha actual y el nivel de porcentaje de finalización del equipo de la aptitud*
 
 El tercer punto de la línea muestra el porcentaje de finalización objetivo previsto y la fecha de finalización objetivo.
 
 ![](assets/3-solid-line.png)
 
-*Ver el porcentaje previsto de finalización y la fecha de finalización del objetivo*
+*Ver el porcentaje de finalización de destino esperado y la fecha de finalización de destino*
 
 ## Línea de previsión {#forecastline}
 
@@ -274,25 +274,25 @@ El primer punto de la línea discontinua muestra el porcentaje de finalización 
 
 ![](assets/1-dotted-line.png)
 
-*Ver el porcentaje de finalización del equipo y el porcentaje de finalización proyectado del equipo para una aptitud*
+*Ver el porcentaje de finalización del equipo y el porcentaje de finalización del equipo previsto para una aptitud*
 
 El segundo punto muestra la fecha en la cual se consiguió el porcentaje de finalización previsto del equipo respecto a una aptitud.
 
 ![](assets/2-dotted-line.png)
 
-*Ver la fecha en la que se alcanzó el porcentaje de finalización del equipo proyectado para una aptitud*
+*Ver la fecha en la que se alcanzó el porcentaje de finalización de equipo previsto para una aptitud*
 
 El tercer punto de la línea de previsión muestra el porcentaje de finalización del equipo conseguido en la fecha objetivo que se proporciona en el rastreador de aptitudes.
 
 ![](assets/3-dotted-line.png)
 
-*Ver el porcentaje de finalización del equipo que se logra en la fecha objetivo proporcionada en el rastreador de habilidades*
+*Ver el porcentaje de finalización del equipo alcanzado en la fecha objetivo proporcionada en el rastreador de aptitudes*
 
 Debajo del gráfico, se muestra una tabla con la vista del equipo y la cantidad de aptitudes en las que se ha inscrito, las que se han conseguido y las que están en curso. Si un aprendizaje tiene una fecha de finalización, también se muestra la fecha de finalización prevista.
 
 ![](assets/ts-details.png)
 
-*Tabla con la vista del equipo y el número de habilidades que se han inscrito, obtenido y en progreso*
+*Tabla con la vista del equipo y el número de aptitudes que se han inscrito, alcanzado y en curso*
 
 Al hacer clic en el nombre del equipo, se muestra la lista de miembros que se inscribieron en la aptitud, el estado de la aptitud y la fecha de finalización.
 
@@ -300,7 +300,7 @@ Al hacer clic en el nombre del equipo, se muestra la lista de miembros que se in
 
 *Ver lista de miembros*
 
-Al hacer clic en el equipo, puede ver los miembros que contiene y los detalles correspondientes de la aptitud seleccionada, como si están inscritos, el estado (en curso o logrado) y la fecha de finalización, si se ha establecido.
+Al hacer clic en el equipo, puede ver sus miembros y los detalles correspondientes a la aptitud seleccionada, por ejemplo, si está inscrito, el estado (en curso o conseguido) y la fecha de finalización si se ha definido.
 
 ![](assets/on-clicking-the-teamnames.png)
 

@@ -23,7 +23,7 @@ En este curso de formación, aprenderá a crear y administrar catálogos.
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 
 ## Crear un catálogo {#createacatalog}
@@ -62,7 +62,7 @@ Para crear un catálogo, efectúe los pasos siguientes:
 
    ![](assets/click-content-inthecatalog.png)
 
-   *Seleccione un curso para añadirlo al catálogo*
+   *Seleccione un curso para agregarlo al catálogo*
 
    El curso que ha añadido figura en la ficha **[!UICONTROL Cursos]**.
 
@@ -72,7 +72,7 @@ Para crear un catálogo, efectúe los pasos siguientes:
 1. Guarde los cambios. Regrese a la lista de catálogos y haga clic en el nuevo catálogo de la lista.
 1. En la página del catálogo nuevo, en el panel izquierdo, haga clic en **[!UICONTROL Contenido]**.
 
-   El programa de aprendizaje que ha añadido aparece en el **[!UICONTROL Programas de aprendizaje]** .
+   El programa de aprendizaje que ha agregado aparece en la ficha **[!UICONTROL Programas de aprendizaje]**.
 
 ## Agregar una certificación al catálogo {#cert}
 
@@ -80,7 +80,7 @@ Para crear un catálogo, efectúe los pasos siguientes:
 1. Guarde los cambios. Regrese a la lista de catálogos y haga clic en el nuevo catálogo de la lista.
 1. En la página del catálogo nuevo, en el panel izquierdo, haga clic en **[!UICONTROL Contenido]**.
 
-   La certificación que ha agregado aparece en el **[!UICONTROL Certificaciones]** .
+   La certificación que ha agregado aparece en la ficha **[!UICONTROL Certificaciones]**.
 
 ## Agregar una ayuda de trabajo al catálogo {#job}
 
@@ -88,7 +88,7 @@ Para crear un catálogo, efectúe los pasos siguientes:
 1. Guarde los cambios. Regrese a la lista de catálogos y haga clic en el nuevo catálogo de la lista.
 1. En la página del catálogo nuevo, en el panel izquierdo, haga clic en **[!UICONTROL Contenido]**.
 
-   La ayuda de trabajo que ha añadido aparece en el **[!UICONTROL Ayudas de trabajo]** .
+   La ayuda de trabajo que ha agregado aparece en la ficha **[!UICONTROL Ayudas de trabajo]**.
 
 El contenido aparece en cada una de estas fichas si ya está disponible en la cuenta. De lo contrario, primero debe crear el contenido. Por ejemplo, si no ha añadido ninguno de los cursos o programas de aprendizaje que ya están en la aplicación Learning Manager, antes debe comenzar a crearlos.
 
@@ -96,7 +96,7 @@ El contenido aparece en cada una de estas fichas si ya está disponible en la cu
 
 Un administrador puede generar un vínculo profundo para un catálogo que pueda llevar a los alumnos a la página específica del catálogo.
 
-En la **[!UICONTROL Catálogos]** , coloque el cursor sobre el catálogo para el que haya generado el vínculo profundo y haga clic en el icono resaltado.
+En la página **[!UICONTROL Catálogos]**, coloque el cursor sobre el catálogo para el que haya generado el vínculo profundo y haga clic en el icono resaltado.
 
 ![](assets/catalog-deep-link.png)
 
@@ -116,13 +116,13 @@ Para activar el catálogo,
 
 Para desactivar un catálogo, desactive la opción junto al catálogo.
 
-También puede seleccionar la casilla de verificación junto al catálogo, hacer clic en Acciones en la esquina superior derecha y, a continuación, hacer clic en **[!UICONTROL Desactivar]**.
+También puede seleccionar la casilla de verificación junto al catálogo, hacer clic en Acciones en la esquina superior derecha y elegir **[!UICONTROL Deshabilitar]**.
 
-Asimismo, es posible desactivar varios catálogos de la lista. Seleccione los catálogos; a continuación, en el menú Acción, elija la opción **[!UICONTROL Desactivar]**.
+Asimismo, es posible desactivar varios catálogos de la lista. Seleccione los catálogos y, en el menú Acción, elija la opción **[!UICONTROL Deshabilitar]**.
 
 ## Eliminar el catálogo {#deletethecatalog}
 
-Para eliminar un catálogo, seleccione un catálogo de la lista. Haga clic en el botón Eliminar junto al catálogo o haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Eliminar]**.
+Para eliminar un catálogo, seleccione un catálogo de la lista. Haga clic en el botón Eliminar cerca del catálogo o en **[!UICONTROL Acciones]** > **[!UICONTROL Eliminar]**.
 
 También puede eliminar varios catálogos.
 
@@ -138,7 +138,7 @@ Esta formación le enseñará a compartir catálogos con grupos de usuarios inte
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Compartir el catálogo de manera interna {#int}
 
@@ -164,7 +164,7 @@ En la página Catálogos, haga clic en el catálogo que desea compartir. En el p
 
 *Compartir un catálogo externamente*
 
-Indique el subdominio asociado a su cuenta de Learning Manager. Haga clic en **[!UICONTROL ¿Cómo obtener un subdominio?]** para obtener información sobre el uso de subdominios. También puede hacer clic en **[!UICONTROL Branding]** en el panel izquierdo de la página principal del administrador para ver el subdominio asociado a la cuenta de su organización.
+Indique el subdominio asociado a su cuenta de Learning Manager. Haga clic en **[!UICONTROL ¿Cómo obtener un subdominio?]** para obtener información sobre el uso del subdominio. También puede hacer clic en **[!UICONTROL Marca]** en el panel izquierdo de la página principal del administrador para ver el subdominio asociado a la cuenta de su organización.
 
 **Límite de inscripciones**
 
@@ -172,9 +172,9 @@ Puede definir el límite de inscripciones por curso en el catálogo compartido a
 
 **Vencimiento**
 
-Puede establecer la validez del catálogo compartido configurando una fecha de caducidad en **[!UICONTROL Vencimiento]** campo. Después de la fecha de vencimiento del catálogo compartido, no se permiten inscripciones en los cursos. Los alumnos siguen pudiendo acceder al contenido. Los objetos de aprendizaje se retiran, pero las insignias y las aptitudes continúan activas. En este estado, el receptor del catálogo compartido no puede anular la retirada de los objetos de aprendizaje retirados.
+Puede establecer la validez del catálogo compartido configurando una fecha de caducidad en el campo **[!UICONTROL Caducidad]**. Después de la fecha de vencimiento del catálogo compartido, no se permiten inscripciones en los cursos. Los alumnos siguen pudiendo acceder al contenido. Los objetos de aprendizaje se retiran, pero las insignias y las aptitudes continúan activas. En este estado, el receptor del catálogo compartido no puede anular la retirada de los objetos de aprendizaje retirados.
 
-Haga clic en **[!UICONTROL Guardar]** después de añadir toda la información requerida. Haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y haga clic en **[!UICONTROL Compartir]** para compartir el catálogo con cuentas externas.
+Haga clic en **[!UICONTROL Guardar]** después de añadir toda la información requerida. Haga clic en el menú desplegable **[!UICONTROL Acciones]** en la esquina superior derecha de la página y haga clic en **[!UICONTROL Compartir]** para compartir el catálogo con cuentas externas.
 
 Los catálogos propiedad del titular de la cuenta compartida solo se pueden compartir con cuentas externas. No puede compartir los catálogos que ya están compartidos por otras cuentas.
 
@@ -186,13 +186,13 @@ Los objetos de aprendizaje con el estado abierto o activo para inscripción solo
 
 **Dejar de compartir catálogos**
 
-Dejar de compartir un catálogo significa deshabilitar una cuenta externa en la aplicación. Para dejar de compartir un catálogo, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y haga clic en **[!UICONTROL Dejar de compartir]**. Un catálogo puede dejarse de compartir en cualquier momento. Cuando se deja de compartir un catálogo, todos los objetos de aprendizaje de ese catálogo compartido pasan al estado retirado. Los catálogos desactivados aparecen como retirados en la aplicación del receptor.
+Dejar de compartir un catálogo significa deshabilitar una cuenta externa en la aplicación. Para dejar de compartir un catálogo, haz clic en **[!UICONTROL Acciones]** en la esquina superior derecha de la página y haz clic en **[!UICONTROL Dejar de compartir]**. Un catálogo puede dejarse de compartir en cualquier momento. Cuando se deja de compartir un catálogo, todos los objetos de aprendizaje de ese catálogo compartido pasan al estado retirado. Los catálogos desactivados aparecen como retirados en la aplicación del receptor.
 
 Puede eliminar una cuenta externa de una lista compartida solo antes de que el destinatario acepte la solicitud.
 
 **Eliminar catálogos**
 
-Para eliminar un catálogo compartido, haga clic en **[!UICONTROL Acciones]** y haga clic en **[!UICONTROL Eliminar]**.
+Para eliminar un catálogo compartido, haz clic en el menú desplegable **[!UICONTROL Acciones]** y haz clic en **[!UICONTROL Eliminar]**.
 
 * No puede compartir un catálogo predeterminado con cuentas externas.
 * No puede eliminar un catálogo que haya compartido externamente.
@@ -330,7 +330,7 @@ Tras haber creado etiquetas de catálogo, puede aplicarlas a catálogos siguiend
 1. Abra etiquetas de catálogo en el panel de la izquierda.
 1. Haga clic en **[!UICONTROL Editar]** en la esquina superior derecha. La página muestra la lista de etiquetas de catálogo disponibles.
 1. Para incorporar una etiqueta al catálogo, haga clic en **[!UICONTROL Añadir a catálogo]**.
-1. Para eliminar etiquetas añadidas a un catálogo, haga clic en **[!UICONTROL Quitar]**.
+1. Para quitar las etiquetas existentes agregadas a un catálogo, haga clic en **[!UICONTROL Quitar]**.
 
 +++
 

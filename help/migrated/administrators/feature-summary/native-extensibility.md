@@ -1,7 +1,8 @@
 ---
 title: Extensibilidad nativa
-description: Configura experiencias personalizadas en la versión nativa de Adobe Learning Manager, lo que te permite no usar el enfoque descentralizado en casos menos complicados.
-source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
+description: Configura experiencias personalizadas en la versión nativa de Adobe Learning Manager, lo que te permite no usar la descentralización para casos menos complicados.
+exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 48%
@@ -18,19 +19,19 @@ Adobe Learning Manager admite 15 puntos de llamada en las aplicaciones de admin
 
 1. Como administrador, en el panel izquierdo, seleccione **[!UICONTROL Extensiones nativas]**.
 1. Seleccione Añadir una extensión.
-1. Escriba el nombre de la extensión en la **[!UICONTROL Nombre]** campo.
-1. Escriba la descripción de la extensión en la **[!UICONTROL Descripción]** campo.
+1. Escriba el nombre de la extensión en el campo **[!UICONTROL Nombre]**.
+1. Escriba la descripción de la extensión en el campo **[!UICONTROL Descripción]**.
 1. Seleccione un punto de llamada. Un punto de llamada es cualquier ubicación de Adobe Learning Manager en la que se pueda insertar un enlace o un botón en una aplicación personalizada. Están disponibles los siguientes puntos de llamada:
 
-   Para este ejemplo, seleccione **[!UICONTROL Administrador]**, **[!UICONTROL Autor: Curso]**, **[!UICONTROL Ruta de aprendizaje]** - **[!UICONTROL Instancias]** - **[!UICONTROL Fila de instancia]**.
+   Para este ejemplo, seleccione **[!UICONTROL Administrador]**, **[!UICONTROL Autor: Curso]**, **[!UICONTROL Ruta de aprendizaje]** - **[!UICONTROL Instancias]** - **[!UICONTROL Fila de instancias]**.
 
    ![imagen de extensión](assets/list-native-extensions.png)
    *Seleccionar punto de invocación*
 
-1. Escriba la etiqueta de la extensión que aparecerá en la interfaz de usuario en la **[!UICONTROL Etiqueta de extensión]** campo.
+1. Escriba la etiqueta de extensión que aparecerá en la interfaz de usuario en el campo **[!UICONTROL Etiqueta de extensión]**.
 1. Escriba la dirección URL en la que desea alojar la extensión en el campo **[!UICONTROL URL]**.
 1. En el menú desplegable Abrir en , seleccione si desea iniciar la extensión en un modo o en una nueva pestaña.
-1. Seleccione el tamaño de la ventana modal. Las opciones están disponibles si ha seleccionado *En la aplicación* modal en el paso anterior.
+1. Seleccione el tamaño de la ventana modal. Las opciones están disponibles si ha seleccionado el modo *En la aplicación* en el paso anterior.
 
    Para mantener la accesibilidad dentro de la ventana emergente, la aplicación de extensión debe enviarse al evento una vez que se encuentren en el último elemento enfocable de su sitio web, y luego el usuario selecciona la tecla TAB. Esto es necesario para mantener el centro de atención en la ventana emergente y favorecer la accesibilidad.
 
@@ -45,7 +46,7 @@ Adobe Learning Manager admite 15 puntos de llamada en las aplicaciones de admin
 1. Establezca el ámbito de la extensión. Están disponibles los siguientes ámbitos:
 
    * **[!UICONTROL Todos los cursos, rutas de aprendizaje y certificaciones]**: esta extensión está habilitada para todos los cursos, rutas de aprendizaje y certificaciones. Junto con los administradores, los autores pueden desactivarla para algunos cursos, rutas de aprendizaje y certificaciones.
-   * **[!UICONTROL Cursos seleccionados, rutas de aprendizaje y certificaciones]**: esta extensión está desactivada para todos los cursos, rutas de aprendizaje y certificaciones. Junto con los administradores, los autores pueden activarla para algunos cursos, rutas de aprendizaje y certificaciones.
+   * **[!UICONTROL Cursos seleccionados, rutas de aprendizaje y certificaciones]**: esta extensión está deshabilitada para todos los cursos, rutas de aprendizaje y certificaciones. Junto con los administradores, los autores pueden activarla para algunos cursos, rutas de aprendizaje y certificaciones.
 
 1. Seleccione el conmutador **[!UICONTROL Activar]** para activar la extensión. Una vez activa, la extensión aparece en el punto de invocación especificado según el ámbito.
 1. Seleccione **[!UICONTROL Guardar]** en la esquina superior derecha de la página para crear la extensión.
@@ -98,7 +99,7 @@ La clave de acceso se debe compartir para inscribirse en el curso o la ruta de a
 
 En la ficha Configuración, genere la clave.
 
-![compartir imagen clave](assets/share-extension.png)
+![compartir imagen de clave](assets/share-extension.png)
 *Compartir la clave de acceso*
 
 ## Descargar informe de extensiones
@@ -116,8 +117,8 @@ Hay dos formas de descargar este informe.
 
 1. Seleccione Aceptar.
 
-   ![generar imagen de informe](assets/generating-report.png)
-   *Generación del informe*
+   ![generando imagen del informe](assets/generating-report.png)
+   *Generando el informe*
 
    El informe contiene los siguientes campos:
 
@@ -132,11 +133,11 @@ Hay dos formas de descargar este informe.
    * Tipo de formación
    * Nombre de la formación
 
-**Página Informes**
+**Página de informes**
 
 1. En **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]**, seleccione **[!UICONTROL Informe de configuración de extensión]**.
 
-   ![imagen de página de informes](assets/extension-report-page.png)
+   ![imagen de la página de informes](assets/extension-report-page.png)
    *Descargar el informe de la página Informes*
 
 El estado debe estar en el intervalo **0 - 4294967295**, al configurar el estado de inscripción.

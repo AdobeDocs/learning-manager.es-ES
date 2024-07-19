@@ -15,7 +15,7 @@ ht-degree: 72%
 
 <!--User notifications for Learners in Learning Manager.-->
 
-La función de notificaciones es aplicable a todos los usuarios de Adobe Learning Manager. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones. Todas las alertas y notificaciones a los usuarios se muestran en cuadros de diálogo emergentes de notificaciones.
+La función de notificaciones se aplica a todos los usuarios de Adobe Learning Manager. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones. Todas las alertas y notificaciones a los usuarios se muestran en cuadros de diálogo emergentes de notificaciones.
 
 ## Notificaciones de acceso {#accessnotifications}
 
@@ -33,13 +33,13 @@ Puede obtener la cantidad de notificaciones más recientes según el número res
 
 Los alumnos pueden rechazar un curso que los responsables les hayan asignado si hacen clic en Rechazar notificaciones en la ventana emergente.
 
-## Programar la notificación push
+## Programar la notificación de inserción
 
-Los alumnos recibirán notificaciones push cada vez que incumplan la fecha límite del curso. Los alumnos tendrán la opción de posponer un recordatorio durante 24 horas o de recibir recordatorios la próxima semana por cada recordatorio vencido que reciban. Esto solo se aplica a las notificaciones de plazos vencidos.
+Los alumnos recibirán notificaciones push cada vez que incumplan la fecha límite de un curso. Los alumnos tendrán la opción de posponer un recordatorio durante 24 horas o recibir un recordatorio la semana que viene por cada recordatorio vencido que reciban. Esto solo es aplicable a las notificaciones vencidas.
 
 ## Mostrar todas las notificaciones {#showallnotifications}
 
-Haga clic **[!UICONTROL en el vínculo Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de las notificaciones para ver todas las notificaciones en una página independiente.
+Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +61,7 @@ Los alumnos obtienen notificaciones cada vez que se activan los siguientes event
 1. El alumno ha rechazado la nominación
 1. Para los cursos aprobados por el responsable, el responsable aprueba/rechaza una solicitud de inscripción en el curso
 1. La lista de espera del alumno se borra.
-1. El alumno se ha inscrito a un curso, programa de aprendizaje o certificación
+1. El alumno se ha inscrito automáticamente en un curso, programa de aprendizaje o certificación
 1. El alumno finaliza una certificación
 1. El responsable aprueba/rechaza el documento de prueba de finalización de la certificación cargado por el alumno
 1. Cuando la fecha límite para una instancia particular del curso se está acercando. (El administrador puede establecer la fecha en la que las notificaciones de recordatorio aparecen para el alumno).
@@ -72,7 +72,7 @@ Los alumnos pueden proporcionar comentarios sobre el N1 después de completar un
 
 ![](assets/feedback.png)
 
-*Proporcionar comentarios sobre el curso*
+*Proporcionar comentarios del curso*
 
 >[!NOTE]
 >

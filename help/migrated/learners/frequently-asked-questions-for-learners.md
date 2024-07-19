@@ -32,7 +32,7 @@ Sin embargo, tiene la opción de seguir cualquiera de los cursos que aparecen en
 
 Sí, puede acceder al contenido sin conexión a través de las fichas de iPad, Android y Smartphones.
 
-Para obtener más información sobre el acceso sin conexión, consulte  [Usuarios de tabletas iPad y Android](feature-summary/ipad-android-tablet-users.md) función.
+Para obtener más información sobre el acceso sin conexión, consulte la función [Usuarios de tabletas iPad y Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Haga clic en el campo de búsqueda. Puede buscar a medida que escribe en este ca
 
 Sí, puede comparar sus puntos de aprendizaje con sus iguales. Pase el ratón sobre el círculo del perfil. Puede ver sus propios puntos aquí. Para ver el cuadro de diálogo Tabla de posiciones, haga clic en Ir a Tabla de posiciones. En este cuadro de diálogo, puede ver la lista de sus iguales con una clasificación similar a la suya.
 
-Para obtener más información, consulte  [Tabla de posiciones](feature-summary/gamification.md)función.
+Para obtener más información, consulte la función [Tabla de posiciones](feature-summary/gamification.md).
 
 +++
 
@@ -68,7 +68,7 @@ Haga clic en la flecha hacia abajo en la esquina inferior derecha de la ventana 
 
 +++¿Cuál es la diferencia entre aprendizaje y catálogo?
 
-En la ficha Aprendizaje, puede ver todos los  [cursos](feature-summary/courses.md),  [programas de aprendizaje](feature-summary/learning-programs.md) y  [certificaciones](feature-summary/certifications.md) que estén inscritos por usted o asignados a usted. También puede ir a la ficha Aprendizaje haciendo clic en el vínculo Ir a Aprendizaje.
+En la ficha Aprendizaje, puede ver todos los [cursos](feature-summary/courses.md), [programas de aprendizaje](feature-summary/learning-programs.md) y [certificaciones](feature-summary/certifications.md) que se le han asignado o en los que se ha inscrito. También puede ir a la ficha Aprendizaje haciendo clic en el vínculo Ir a Aprendizaje.
 
 En la ficha Catálogo, puede ver todos los cursos, los programas de aprendizaje y las certificaciones disponibles para su función en la cuenta de la empresa. También puede ir a la ficha Catálogo si hace clic en el vínculo Ir al catálogo.
 
@@ -94,7 +94,7 @@ Cuando los alumnos completan algunos cursos, pueden saber su posición respecto 
 
 Para ver las aptitudes, haga clic en cualquiera de los nombres de aptitudes en el área de mapas de aptitudes en la esquina superior derecha de la página de inicio. Las aptitudes se muestran junto con sus niveles.
 
-Para obtener más información, consulte  [Aptitudes y niveles](feature-summary/skills-levels.md) función.
+Para obtener más información, consulte la función [Aptitudes y niveles](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Para obtener más información, consulte  [Aptitudes y niveles](feature-summary/
 
 Sí, puedes acceder a Learning Manager desde smartphones, iPad o cualquier otra tableta Android.
 
-Para obtener más información sobre esta función, consulte  [Usuarios de aplicaciones de iPad y Android](feature-summary/ipad-android-tablet-users.md) función.
+Para obtener más información sobre esta función, consulte [Usuarios de aplicaciones de iPad y Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Para obtener más información sobre esta función, consulte  [Usuarios de aplic
 
 Sí, puede acceder a Learning Manager mediante un iPad. Puede descargar la aplicación desde App Store o Google Play.
 
-Solo es posible acceder a las funciones de los alumnos mediante una tableta iPad o Android. También puede utilizar los cursos en línea y realizar la sincronización con la aplicación cuando vuelva a estar en línea. Para obtener más información, consulte  [Usuarios de aplicaciones de iPad y Android](feature-summary/ipad-android-tablet-users.md) característica
+Solo es posible acceder a las funciones de los alumnos mediante una tableta iPad o Android. También puede utilizar los cursos en línea y realizar la sincronización con la aplicación cuando vuelva a estar en línea. Para obtener más información, consulte [Usuarios de aplicaciones de iPad y Android](feature-summary/ipad-android-tablet-users.md)
 
 +++
 
 +++No se puede iniciar sesión en el Administrador de aprendizaje. ¿Qué debo hacer?
 
-Si ya tiene un Adobe ID, puede iniciar sesión en Learning Manager. Siga las instrucciones que se indican en  [inicio de sesión de usuario](feature-summary/user-login.md) para obtener más información sobre cómo iniciar sesión en la aplicación. Si el problema persiste, contacte con el equipo de asistencia.
+Si ya tiene un Adobe ID, puede iniciar sesión en Learning Manager. Siga las instrucciones de la función [inicio de sesión del usuario](feature-summary/user-login.md) para obtener más información sobre cómo iniciar sesión en la aplicación. Si el problema persiste, contacte con el equipo de asistencia.
 
 +++
 
 +++Cómo alcanzar un nivel de aptitud?
 
-Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre aptitudes y niveles, consulte  [aptitudes y niveles](feature-summary/skills-levels.md) función.
+Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre aptitudes y niveles, consulte la función [aptitudes y niveles](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,9 +140,9 @@ Puede expresar interés en unirse a cualquier curso de la clase para el que no t
 
 +++¿Cuál es la diferencia entre créditos y puntos de interacción?
 
-Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre créditos, aptitudes y niveles, consulte  [aptitudes y niveles](feature-summary/skills-levels.md) función.
+Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre créditos, aptitudes y niveles, consulte la función [aptitudes y niveles](feature-summary/skills-levels.md).
 
-Se obtienen puntos de interacción cada vez que se completa una tarea. Actualmente, hay seis tareas de interacción disponibles en Learning Manager. Al finalizar cada tarea, adquiere un número específico de puntos asociados a ella. Para obtener más información, consulte  [interacción](feature-summary/gamification.md) función.
+Se obtienen puntos de interacción cada vez que se completa una tarea. Actualmente, hay seis tareas de interacción disponibles en Learning Manager. Al finalizar cada tarea, adquiere un número específico de puntos asociados a ella. Para obtener más información, consulte la característica [interacción](feature-summary/gamification.md).
 
 +++
 
@@ -154,7 +154,7 @@ La lista de insignias adquiridas por el alumno aparece en la parte superior de l
 
 Las insignias se asignan a los alumnos según criterios específicos definidos por la empresa, por ejemplo al finalizar con éxito un curso o cualquier objeto de aprendizaje.
 
-Para obtener más información, consulte  [distintivos](feature-summary/badges.md) función.
+Para obtener más información, consulte la característica [insignias](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente
 
 Para comenzar a realizar el programa de aprendizaje, haga clic en el programa que se le asignó. Puede ver información detallada de ese programa concreto.
 
-A **Iniciar programa** aparece en la esquina superior derecha de la página del programa de aprendizaje. Haga clic en **[!UICONTROL Iniciar programa]** para comenzar a realizar el curso.
+Aparece el botón **Iniciar programa** en la esquina superior derecha de la página del programa de aprendizaje. Haga clic en **[!UICONTROL Iniciar programa]** para comenzar a realizar el curso.
 
 +++
 
@@ -181,7 +181,7 @@ Según los puntos que haya obtenido al completar los cursos, se le recompensará
 
 Puede ver sus puntos de nivel actuales en su perfil y fijarlos como objetivo para conseguir puntos más altos, si es necesario.
 
-Consulte  [Función de interacción](feature-summary/gamification.md) para obtener más información.
+Consulte [Función de interacción](feature-summary/gamification.md) para obtener más información.
 
 +++
 
@@ -189,7 +189,7 @@ Consulte  [Función de interacción](feature-summary/gamification.md) para obten
 
 Todos los cursos de Learning Manager se reproducen en navegadores. Puede ver los cursos a pantalla completa con el reproductor Fluidic de Learning Manager.
 
-Consulte  [Función del reproductor Fluidic](feature-summary/fluidic-player.md) para obtener más información acerca de Player.
+Consulte [Función de reproductor Fluidic](feature-summary/fluidic-player.md) para obtener más información sobre el reproductor.
 
 [¿Puedo exportar mis notas personales?](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Para tomar notas cuando lee el contenido de un curso, siga estos pasos:
 Tiene la opción de descargar o enviar por correo electrónico sus notas del curso siguiendo los pasos que se indican a continuación:
 
 1. Haga clic en el icono del curso para el cual desea ver las notas.
-1. Haga clic en **Notas** pestaña adyacente a **Módulos** .
+1. Haga clic en la ficha **Notas** junto a la ficha **Módulos**.
 
-1. Haga clic en **[!UICONTROL Notas de descarga]** para descargar como pdf.
-1. Haga clic en **[!UICONTROL Notas de correo electrónico]** para recibir las notas como un correo electrónico a su cuenta de correo electrónico.
+1. Haz clic en **[!UICONTROL Descargar notas]** para descargarlas como PDF.
+1. Haga clic en **[!UICONTROL Enviar notas por correo electrónico]** para recibir las notas en un correo electrónico a su cuenta de correo electrónico.
 
 +++
 
@@ -259,7 +259,7 @@ Recibirá notificaciones sobre la finalización del curso junto con un vínculo 
 
 Como parte de la recompensa y el reconocimiento de los logros de los alumnos, Learning Manager introduce insignias en línea para los alumnos. Las insignias se otorgan en función de un criterio establecido y, a continuación, se muestran en el perfil de un alumno en la parte superior de la página de inicio del alumno.
 
-Consulte  [Función Certificaciones](feature-summary/certifications.md) para obtener más información sobre las certificaciones para alumnos.
+Consulte [Certificaciones feature](feature-summary/certifications.md) para obtener más información sobre las certificaciones para alumnos.
 
 +++
 
@@ -308,8 +308,8 @@ En función de lo que escoja, puede ver la lista filtrada de cursos y escoger se
 
 +++¿Cómo puedo acceder a mis cursos en Learning Manager?
 
-1. Inicie sesión en Learning Manager como alumno. Si ha olvidado la contraseña, haga clic en **[!UICONTROL Olvidé la contraseña]** incluido en la página de inicio de sesión para que se le envíe nuevamente su ID de correo electrónico.
-1. Una vez que inicie sesión, podrá ver la ficha CURSOS en la parte superior. Haga clic en **[!UICONTROL CURSOS]** para mostrar la lista de cursos que tiene asignados.
+1. Inicie sesión en Learning Manager como alumno. Si has olvidado la contraseña, haz clic en el vínculo **[!UICONTROL Olvidé la contraseña]** incluido en la página de inicio de sesión para que se te envíe nuevamente tu ID de correo electrónico.
+1. Una vez que inicie sesión, podrá ver la ficha CURSOS en la parte superior. Haga clic en la ficha **[!UICONTROL CURSOS]** para ver la lista de cursos que tiene asignados.
 
 +++
 

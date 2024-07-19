@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo administrar etiquetas en Learning 
 jcr-language: en_us
 title: Etiquetas
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # Etiquetas
 
@@ -26,7 +25,7 @@ En este curso de formación aprenderá a añadir, editar, sustituir, añadir y e
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Añadir, eliminar y editar etiquetas {#adddeleteedittags}
 
@@ -41,7 +40,7 @@ Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 1. Solo puede editar una etiqueta a la vez. Para editar una etiqueta, siga este paso:
 
-   * Seleccione la etiqueta que desea editar > abra el icono **[!UICONTROL Acciones]**menú desplegable > clic **[!UICONTROL Editar]**.
+   * Seleccione la etiqueta que desea editar > abra el menú desplegable **[!UICONTROL Acciones]**y haga clic en **[!UICONTROL Editar]**.
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar etiqueta]**. Ingrese el nuevo nombre de la etiqueta y haga clic en **[!UICONTROL Guardar]**.
 
@@ -49,8 +48,8 @@ Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 
 ## Reemplazar etiquetas {#replacetags}
 
-1. Seleccione las etiquetas que desea reemplazar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el **[!UICONTROL Acciones]** menú desplegable y seleccione **[!UICONTROL Reemplazar]**.
-1. La **[!UICONTROL Reemplazar etiquetas]** que muestra las etiquetas seleccionadas.
+1. Seleccione las etiquetas que desea reemplazar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el menú desplegable **[!UICONTROL Acciones]** y seleccione **[!UICONTROL Reemplazar]**.
+1. Aparece el cuadro de diálogo **[!UICONTROL Reemplazar etiquetas]**, que muestra las etiquetas seleccionadas.
 
 1. En la opción **[!UICONTROL Nombre para etiquetas reemplazadas]**, ingrese el nombre de la nueva etiqueta con la que desea reemplazar las etiquetas seleccionadas. Puede reemplazarlas con una etiqueta existente en el menú desplegable o añadir una nueva etiqueta.
 
@@ -63,7 +62,7 @@ Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
 En el caso de la operación Anexar para etiquetas, la etiqueta nueva/existente se anexará a toda la lista de objetos de aprendizaje y grupos de contenido asociados a las etiquetas seleccionadas.
 
 1. Seleccione las etiquetas que desea adjuntar. Puede seleccionar hasta 50 etiquetas a la vez. Abra el menú desplegable Acciones y seleccione **[!UICONTROL Anexar]**.
-1. La  **[!UICONTROL Anexar etiquetas]** que muestra las etiquetas seleccionadas.
+1. Aparece el cuadro de diálogo **[!UICONTROL Anexar etiquetas]**, que muestra las etiquetas seleccionadas.
 1. Puede adjuntar una etiqueta adicional a todo el aprendizaje con las etiquetas seleccionadas. Para hacerlo, especifique el nombre de la **[!UICONTROL Nueva etiqueta]** o seleccione una etiqueta en la lista desplegable de etiquetas existentes. La nueva etiqueta se adjuntará a todo el aprendizaje asociado en Learning Manager.
 
    El nombre de una etiqueta no puede contener punto y coma ni coma. Si se utiliza, Prime mostrará un mensaje de error. Tenga en cuenta que las etiquetas sin punto y coma y la visualización de los mensajes de error mientras se utilizan dichas etiquetas como parte de algunos objetos de aprendizaje no formarán parte de escenarios de migración.
@@ -76,7 +75,7 @@ Como administrador, puede otorgar permiso al autor para crear etiquetas haciendo
 
 ![](assets/unknown-1.jpeg)
 
-*Página Configuración para crear una etiqueta*
+*Página de configuración para crear una etiqueta*
 
 * Cuando un usuario tiene permiso para crear etiquetas y selecciona etiquetas existentes que no son válidas en la actualidad,
 

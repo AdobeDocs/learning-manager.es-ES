@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Recomendación basada en Inteligencia artificial
 description: Learning Manager incluye una nueva página de inicio de alumno, moderna, más orientada al contenido y personalizada según las preferencias del alumno. Las recomendaciones de aprendizaje basadas en Inteligencia artificial tienen como objetivo mejorar la participación del alumno e identificar y solucionar las lagunas de aprendizaje.
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 75%
 
 ---
 
-
-
 # Recomendación basada en Inteligencia artificial
 
 ## Información general {#overview}
 
-Adobe Learning Manager incluye una página de inicio del alumno moderna, más orientada al contenido y personalizada según las preferencias del alumno. Las recomendaciones de aprendizaje basadas en Inteligencia artificial tienen como objetivo mejorar la participación del alumno e identificar y solucionar las lagunas de aprendizaje.
+Adobe Learning Manager incluye una página de inicio de alumno moderna, más orientada al contenido y personalizada según las preferencias del alumno. Las recomendaciones de aprendizaje basadas en Inteligencia artificial tienen como objetivo mejorar la participación del alumno e identificar y solucionar las lagunas de aprendizaje.
 
 El algoritmo de recomendación se ha diseñado para admitir varias fuentes de entrada, incluidos datos del sector sobre las funciones de trabajo, los cargos y las descripciones que Adobe ha obtenido de sus socios. A continuación, estos datos se utilizan para formar algoritmos de IA de Adobe, de modo que Learning Manager pueda obtener un mapa que conecte las aptitudes alineadas con el sector a los cargos o las designaciones. A continuación, esto se convierte en una entrada en el algoritmo de recomendación.
 

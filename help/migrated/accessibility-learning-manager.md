@@ -157,21 +157,21 @@ Para obtener más información, consulte:
 
 Veamos cómo las funciones de accesibilidad le ayudan a navegar por algunas funciones clave para los alumnos en Learning Manager.
 
-Utilice la `kbd Tab`para desplazarse por los elementos de la página. Utilice la `kbd Shift + Tab` para invertir la dirección de navegación. La selección del teclado se indica mediante un contorno azul que se muestra alrededor de un elemento. Un lector de pantalla debe leer en voz alta el texto del elemento que está resaltado.
+Utilice la tecla `kbd Tab` para navegar por los elementos de la página. Use la tecla `kbd Shift + Tab` para invertir la dirección de navegación. La selección del teclado se indica mediante un contorno azul que se muestra alrededor de un elemento. Un lector de pantalla debe leer en voz alta el texto del elemento que está resaltado.
 
 ## Buscar un curso de formación en Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Use estas indicaciones para navegar y acceder al cuadro Buscar en la esquina superior derecha de la página de inicio.
 1. Escriba texto con el teclado. Aparecerán los resultados de la búsqueda.
-1. Utilizar el teclado `kbd Up/Down` para navegar por los resultados o pulsar `kbd ENTER`para ver todos los resultados.
+1. Use las flechas `kbd Up/Down` del teclado para navegar por los resultados o presione `kbd ENTER` para ver todos los resultados.
 
-1. Una vez identificado el entrenamiento, presione `kbd ENTER`para acceder a la página de formación.
+1. Una vez que se identifique el curso de formación, pulse `kbd ENTER` para acceder a la página de formación.
 
 ## Consumir formación en Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Una vez que se identifica un curso de formación, utilice `kbd Tab`o `kbd Shift + Tab` para ir al botón Inscribirme/Iniciar. El estado del botón depende del estado de inscripción de esa formación.
+1. Una vez que se identifique un curso de formación, use `kbd Tab` o `kbd Shift + Tab` para ir al botón Inscribir/Iniciar. El estado del botón depende del estado de inscripción de esa formación.
 
-1. Golpe `kbd ENTER`para comenzar el entrenamiento.
+1. Pulse `kbd ENTER` para comenzar el entrenamiento.
 1. A continuación se indican los controles que aparecen independientemente del tipo de contenido:
 
    * Índice
@@ -188,9 +188,9 @@ Utilice la `kbd Tab`para desplazarse por los elementos de la página. Utilice la
    * Contenido de documento: número de página, retroceder página, avanzar página, acercar, alejar.
    * Aprendizaje electrónico: botón Subtítulos opcionales.
 
-1. Pulsar los controles del teclado `kbd Tab`o `kbd Shift + Tab` para navegar por los controles y pulsar `kbd ENTER`para habilitar o deshabilitar cualquier control.
+1. Pulse los controles del teclado `kbd Tab` o `kbd Shift + Tab` para navegar por los controles y pulse `kbd ENTER` para habilitar o deshabilitar cualquier control.
 
-1. Para tipo de documento, utilice los controles de flecha como `kbd UP/DOWN` para desplazarse por el documento.
+1. Para tipo de documento, utilice controles de flecha como `kbd UP/DOWN` para desplazarse por el documento.
 
 ## Compatibilidad con la accesibilidad para necesidades concretas
 
@@ -200,7 +200,7 @@ Veamos las funciones de accesibilidad que los alumnos pueden utilizar según sus
 
 * Use subtítulos opcionales disponibles en el contenido creado con la herramienta de creación de Adobe Captivate.
 * En los vídeos, los autores pueden codificarlos con texto de subtítulos. Dichos vídeos tienen subtítulos opcionales incrustados que los alumnos pueden utilizar.
-* Learning Manager permite cargar archivos WebVTT de subtítulos opcionales para contenido de vídeo. Para obtener más información, consulte  [*Cargar archivo WebVTT de subtítulos opcionales*](/help/migrated/authors/feature-summary/content-library.md).
+* Learning Manager permite cargar archivos WebVTT de subtítulos opcionales para contenido de vídeo. Para obtener más información, consulte [*Cargar archivo WebVTT de subtítulos opcionales*](/help/migrated/authors/feature-summary/content-library.md).
 
 ### Usuarios ciegos o con visión reducida
 

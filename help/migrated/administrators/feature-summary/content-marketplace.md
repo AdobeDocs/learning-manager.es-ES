@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Tienda de contenido
 description: Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 69%
 
 ---
 
-
-
 # Tienda de contenido
 
 Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
 
-En la aplicación del administrador, hay una nueva opción **[!UICONTROL Tienda de contenido]**, que encontrará en el panel izquierdo.
+En la aplicación del administrador, hay una nueva opción **[!UICONTROL Mercado de contenido]**, que encontrarás en el panel izquierdo.
 
 Los usuarios pueden comprar contenido en listas de reproducción revisadas que cubren varios temas o adquirir el catálogo completo.
 
@@ -28,17 +27,17 @@ La página Formación empresarial de la aplicación del administrador permite in
 
 Invite a usuarios a la Tienda de contenido para explorar cursos y expresar su interés. Como administrador, puede invitar a todos los alumnos de la cuenta o a los alumnos seleccionados. Para conceder acceso a los alumnos, debe invitarlos.
 
-También se puede revocar el acceso de un alumno a la opción Tienda de contenido. Para revocar el acceso, haga clic en **[!UICONTROL Revocar acceso]** vínculo.  Los usuarios ya no podrán ver la página Tienda de contenido en la aplicación del alumno.
+También se puede revocar el acceso de un alumno a la opción Tienda de contenido. Para revocar el acceso, haz clic en el vínculo **[!UICONTROL Revocar acceso]**.  Los usuarios ya no podrán ver la página Tienda de contenido en la aplicación del alumno.
 
 Esta opción está seleccionada de forma predeterminada para todas las cuentas nuevas. Para las cuentas existentes, el administrador debe invitar a los usuarios a explorar la tienda.
 
 ## Comprar
 
-Obtendrá acceso ilimitado a toda la biblioteca de cursos. Haga clic en **[!UICONTROL Comprar]** para descargar un formulario de solicitud de compra.
+Obtendrá acceso ilimitado a toda la biblioteca de cursos. Haz clic en el botón **[!UICONTROL Comprar]** para descargar un formulario de solicitud de compra.
 
 ![](assets/purchase-request.png)
 
-*Introduzca el número de puestos que desea comprar*
+*Especifique el número de puestos que desea comprar*
 
 Especifique el número de puestos para los que desea comprar los cursos. Descargue el formulario de solicitud de compra y, a continuación, envíelo al equipo de ventas de Learning Manager.
 
@@ -48,7 +47,7 @@ Una vez que el equipo de CSAM genere la clave, el administrador podrá utilizarl
 
 Durante la migración de cursos, el estado se muestra como **[!UICONTROL Importando cursos]**. Una vez finalizada la migración, el administrador recibirá una notificación en la que se indica que la migración se ha completado y se ha realizado correctamente.
 
-La **[!UICONTROL Licencias]** a continuación, se muestran todas las licencias adquiridas para la cuenta.
+La sección **[!UICONTROL Licencias]** muestra todas las licencias adquiridas para la cuenta.
 
 El administrador puede ver los vínculos de los catálogos adquiridos en la página Resumen de catálogo.
 
@@ -70,9 +69,9 @@ Cuando un alumno hace clic en la opción Expresar interés en el catálogo de la
 
 Para admitir este flujo de trabajo, puede utilizar tres plantillas de correo electrónico:
 
-1. **[!UICONTROL Activación de contenido correcta]:** Esto se envía cuando se adquiere correctamente un contenido con un nombre de clave. Todos los cursos de formación adquiridos ya están disponibles.
-1. **[!UICONTROL Error de carga automatizada de usuarios]:** Esto se envía cuando falla la actualización automática del archivo CSV en la cuenta por algún motivo.
-1. **[!UICONTROL Invitar a usuarios a explorar contenido]:** Se trata de un mensaje de correo electrónico de invitación que se envía a los alumnos cuando el administrador adquiere cursos. El administrador puede ver el informe de intereses para comprender los requisitos generales y tomar la decisión de compra.
+1. **[!UICONTROL Activación correcta del contenido]:** Esta acción se envía cuando se adquiere correctamente un contenido con un nombre de clave. Todos los cursos de formación adquiridos ya están disponibles.
+1. **[!UICONTROL Error en la carga automatizada de usuarios]:** Esto se envía cuando falla la actualización automática del archivo CSV en la cuenta por algún motivo.
+1. **[!UICONTROL Invitar a usuarios a explorar contenido]:** Este es un correo electrónico de invitación que se envía a los alumnos cuando el administrador adquiere cursos. El administrador puede ver el informe de intereses para comprender los requisitos generales y tomar la decisión de compra.
 
 1. Los cursos adquiridos no se pueden añadir en certificados recurrentes.
 1. Los cursos adquiridos no se pueden compartir en cuentas de igual a igual.
@@ -99,7 +98,7 @@ La página Centro de contenido está visible de forma continua para los administ
 
 Learning Manager también permite a los administradores descargar una lista de reproducción preseleccionada y compartirla con el equipo de ventas de Adobe. Antes de descargar la lista de selección, visite el centro de contenido y preseleccione una lista de reproducción mediante la adición de una a su biblioteca.
 
-Como administrador, haga clic en **[!UICONTROL Tienda de contenido]** > **[!UICONTROL Formación empresarial]** > **[!UICONTROL Sección Comprar]** > **[!UICONTROL Listas de reproducción seleccionadas]**. Haga clic en el botón **[!UICONTROL Comprar]** para descargar el formulario de solicitud de compra que contiene los detalles de la lista de reproducción preseleccionada.
+Luego, como administrador, haz clic en **[!UICONTROL Mercado de contenido]** > **[!UICONTROL Formación empresarial]** > **[!UICONTROL Sección de compras]** > **[!UICONTROL Listas de reproducción revisadas]**. Haga clic en el botón **[!UICONTROL Comprar]** para descargar el formulario de solicitud de compra que contiene los detalles de la lista de reproducción preseleccionada.
 
 ![](assets/download-purchase-request.png)
 

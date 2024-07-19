@@ -24,17 +24,17 @@ En la aplicación web Learning Manager, después de iniciar sesión como alumno,
 
 **Mi aprendizaje**: puede ver y hacer clic en los objetos de aprendizaje por tipo y por plazo. Haga clic en el círculo del widget Mi aprendizaje para acceder directamente al tipo de objeto de aprendizaje o para ver los objetos de aprendizaje por plazo.
 
-**Mis aptitudes**: ahora puede ver el mapa de actitudes en la esquina superior derecha de la página. Consulte  [mapa de aptitudes](skills-levels.md)para obtener más información.
+**Mis aptitudes**: ahora puede ver el mapa de actitudes en la esquina superior derecha de la página. Consulte [mapa de aptitudes](skills-levels.md) para obtener más información.
 
-**Widget Objeto de aprendizaje**: está justo debajo de Mi aprendizaje; muestra los objetos de aprendizaje para el usuario. Debajo de Mi aprendizaje, puede ver todos los [cursos](courses.md), [programas de aprendizaje](learning-programs.md) y [certificaciones](certifications.md) que estén inscritos por usted o asignados a usted. Puede empezar a consumir un objeto de aprendizaje o regresar a uno desde este widget.
+**Widget Objeto de aprendizaje**: está justo debajo de Mi aprendizaje; muestra los objetos de aprendizaje para el usuario. Debajo de Mi aprendizaje, puedes ver todos los [cursos](courses.md), [programas de aprendizaje](learning-programs.md) y [certificaciones](certifications.md) que te has inscrito o que tienes asignados. Puede empezar a consumir un objeto de aprendizaje o regresar a uno desde este widget.
 
 **Calendario de aprendizaje**: este widget muestra la lista de aprendizaje previsto y planificado en su empresa en la empresa por trimestres. El estado de inscripción es Inscrito, si se ha inscrito en un determinado curso.
 
 **Aprendizaje recomendado**: en este widget, puede ver todos los cursos recomendados para su perfil por el administrador o el responsable de su empresa. Puede hacer clic en estos vínculos para navegar a las páginas del curso.
 
-**Mis logros**: obtendrá insignias después de completar los cursos. Estas insignias se muestran junto a su perfil en la parte superior de la página. Haga clic en Insignias para ver información específica. Para obtener más información sobre insignias, consulte  [distintivos](badges.md) función.
+**Mis logros**: obtendrá insignias después de completar los cursos. Estas insignias se muestran junto a su perfil en la parte superior de la página. Haga clic en Insignias para ver información específica. Para obtener más información sobre insignias, consulte la función [insignias](badges.md).
 
-Este widget también muestra los puntos de interacción para el alumno. Haga clic en el vínculo Interacción para ver los puntos con más información y otras funciones de Interacción. Para obtener más información sobre los puntos de interacción y la tabla de posiciones, consulte  [Interacción](gamification.md) función.
+Este widget también muestra los puntos de interacción para el alumno. Haga clic en el vínculo Interacción para ver los puntos con más información y otras funciones de Interacción. Para obtener más información sobre los puntos de interacción y la tabla de posiciones, consulte la función [Interacción](gamification.md).
 
 Si accede a Learning Manager desde una tableta iPad o Android, consulte el tema Aplicaciones de iPad y Android en esta página.
 
@@ -52,7 +52,7 @@ En la aplicación de Learning Manager en tabletas iPad o Android, después de in
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para desplazarse a las funciones de aprendizaje y catálogo, pulse el icono **Menú** y elija la opción adecuada.
+Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desplegable **Menú** y elija la opción adecuada.
 
 ![](assets/menu-ipad.png)
 
@@ -70,7 +70,7 @@ Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y
 **Controlar el almacenamiento del dispositivo**
 
 Puede controlar el almacenamiento de su dispositivo periódicamente.\
-Toque el icono de perfil en la esquina superior derecha de la aplicación y toque **Almacenamiento del dispositivo** opción de menú.
+Toque el icono de perfil en la esquina superior derecha de la aplicación y toque la opción de menú **Almacenamiento del dispositivo**.
 
 ![](assets/device-storage-option-ipad.png)
 

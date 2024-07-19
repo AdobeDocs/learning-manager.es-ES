@@ -26,7 +26,7 @@ También puede optar por no enviar notificaciones por correo electrónico para c
 
 1. En la página Objeto de aprendizaje, haga clic en el curso, certificación o programa de aprendizaje para el que desea configurar el correo electrónico.
 
-1. En la página de detalles del objeto de aprendizaje, seleccione **Plantillas de correo electrónico** > **Todas las plantillas**. Las plantillas de correo electrónico están disponibles para **Instancia predeterminada** y **Curso actual**. Puede cambiar entre ellos usando el menú desplegable situado en la esquina superior derecha.
+1. En la página de detalles del objeto de aprendizaje, seleccione **Plantillas de correo electrónico** > **Todas las plantillas**. Hay plantillas de correo electrónico disponibles para **Instancia predeterminada** y **Curso actual**. Puede cambiar entre ellos usando el menú desplegable situado en la esquina superior derecha.
 
    Puede ver la lista de plantillas disponibles para el objeto de aprendizaje que elija.
 
@@ -37,7 +37,7 @@ También puede optar por no enviar notificaciones por correo electrónico para c
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
 
-   *Ver vista previa de plantilla*
+   *Ver vista previa de la plantilla*
 
    Puede personalizar cada plantilla haciendo clic en el texto en el cuerpo de la plantilla. Puede insertar variables en el texto haciendo clic en los iconos apropiados como se muestra en la captura de pantalla. Pase el ratón por cada icono para ver los nombres.
 
@@ -74,6 +74,6 @@ Cada vez que configura una plantilla de correo electrónico en el nivel del curs
 
 El autor puede configurar lo siguiente en la configuración de la plantilla de correo electrónico:
 
-* **Banner de correo electrónico**: permite modificar el banner del correo electrónico.
+* **Banner de correo electrónico**: Permite modificar el banner de correo electrónico.
 
-* **Firma por correo electrónico**: permite añadir o editar la firma del correo electrónico.
+* **Firma de correo electrónico**: Permite agregar o editar la firma de correo electrónico.

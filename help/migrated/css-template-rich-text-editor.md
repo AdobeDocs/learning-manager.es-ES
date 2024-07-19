@@ -28,10 +28,10 @@ La hoja de estilos CSS adjunta contiene el estilo aplicado por Learning Manager.
 Es posible que el estilo predeterminado no satisfaga las necesidades de todos. Las personalizaciones se pueden realizar mediante la modificación del CSS proporcionado. Todo el estilo se ajusta en el editor de SQL como selectores descendientes. Se utilizan las clases siguientes:
 
 * **Sangría**: li.ql-guión-$number. $number varía de 1 a 9.
-* **talla**: ql-size-small, ql-size-large, ql-size-huge
-* **alineación**: ql-align-center, ql-align-justify, ql-align-right
+* **tamaño**: ql-size-small, ql-size-large, ql-size-huge
+* **alignment**: ql-align-center, ql-align-justify, ql-align-right
 * **color**: ql-color-$color. $color = blanco, rojo, naranja, amarillo, verde, azul, púrpura
-* **antecedentes**: ql-bg-$color. $color = negro, rojo, naranja, amarillo, verde, azul, púrpura
+* **fondo**: ql-bg-$color. $color = negro, rojo, naranja, amarillo, verde, azul, púrpura
 * **etiquetas html**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [Archivo CSS que se va a utilizar para la personalización.](assets/ql-headless.css)

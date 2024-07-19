@@ -3,14 +3,13 @@ description: Ayudas de trabajo para administradores en Learning Manager.
 jcr-language: en_us
 title: Ayudas de trabajo
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 4881f7d0-27da-4c41-a8cd-ad937f913157
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 39%
 
 ---
-
-
 
 # Ayudas de trabajo
 
@@ -32,7 +31,7 @@ Puede retirar una ayuda de trabajo publicada haciendo clic en el icono de config
 
 *Administrar ayudas de trabajo*
 
-Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirado. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publicar. Haga clic en la configuración de vista previa para previsualizar la ayuda de trabajo en el reproductor.
+Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirado. Puede volver a publicar los trabajos retirados haciendo clic en el icono de configuración y eligiendo Publish. Haga clic en la configuración de vista previa para previsualizar la ayuda de trabajo en el reproductor.
 
 ## Administrar asignaciones de ayudas de trabajo {#managejobaidassignments}
 
@@ -41,32 +40,32 @@ Para ver las ayudas de trabajo retiradas, haga clic en la ficha Retirado. Puede 
 
 1. Haga clic en **[!UICONTROL Administrar asignación]**.
 
-   La **[!UICONTROL Inscribir alumnos]** aparece un cuadro de diálogo emergente.
+   Aparece el cuadro de diálogo emergente **[!UICONTROL Inscribir alumnos]**.
 
    ![](assets/enroll-learners-job-aids.png)
 
    *Ver el cuadro de diálogo Inscribir alumnos*
 
-1. En la **[!UICONTROL Alumnos]** , empiece a escribir el nombre de los alumnos y elija los alumnos en la lista desplegable. También puede encontrar alumnos por nombre, perfil, etc.
-1. Haga clic en **[!UICONTROL Añadir].**
+1. En el campo **[!UICONTROL Alumnos]**, escriba el nombre de los alumnos y selecciónelos en la lista desplegable. También puede encontrar alumnos por nombre, perfil, etc.
+1. Haga clic en **[!UICONTROL Agregar].**
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
 +++Cómo exportar informes de ayudas de trabajo?
 
-En la esquina superior derecha de la pantalla, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Exportar informe]**.
+En la esquina superior derecha de la pantalla, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Informe de exportación]**.
 
 +++
 
 +++Cómo administrar las asignaciones de ayudas de trabajo?
 
-En **[!UICONTROL Publicado]** , haga clic en el icono de configuración junto a una ayuda de trabajo. Añada un alumno y haga clic en **[!UICONTROL Añadir]**.
+En la pestaña **[!UICONTROL Publicado]**, haga clic en el icono de configuración junto a una ayuda de trabajo. Añada un alumno y haga clic en **[!UICONTROL Añadir]**.
 
 +++
 
 +++Cómo retirar una ayuda de trabajo?
 
-En **[!UICONTROL Publicado]** , haga clic en el icono de configuración junto a una ayuda de trabajo. Haga clic en **[!UICONTROL Retirar]**. La ayuda de trabajo ya no aparecerá en la ficha Publicadas. Para ver la ayuda de trabajo retirada, haga clic en la ficha Retirado.
+En la pestaña **[!UICONTROL Publicado]**, haga clic en el icono de configuración junto a una ayuda de trabajo. Haga clic en **[!UICONTROL Retirar]**. La ayuda de trabajo ya no aparecerá en la ficha Publicadas. Para ver la ayuda de trabajo retirada, haga clic en la ficha Retirado.
 
 +++

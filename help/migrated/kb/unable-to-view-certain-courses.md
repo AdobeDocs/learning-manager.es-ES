@@ -3,14 +3,13 @@ jcr-language: en_us
 title: No se pueden ver determinados cursos en el catálogo al crear una certificación
 description: Al buscar un curso específico para añadirlo a una certificación, este no aparece en el catálogo.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # No se pueden ver determinados cursos en el catálogo al crear una certificación
 
@@ -42,7 +41,7 @@ Estos cursos solo los pueden nominar los responsables. Un alumno no puede inscri
 
 En una certificación, solo puede añadir cursos de inscripción automática y no cursos con nominación de responsable o aprobados por responsable.
 
-* **Certificaciones perpetuas:**  Puede añadir cursos de sesión de clase real o virtual en una certificación.
+* **Certificaciones perpetuas:** Puede agregar cursos de sesión de clase real o virtual en una certificación.
 * **Certificaciones recurrentes:** no puede añadir cursos de sesión de clase real o virtual en una certificación.
 
 Es un comportamiento predeterminado en Learning Manager.

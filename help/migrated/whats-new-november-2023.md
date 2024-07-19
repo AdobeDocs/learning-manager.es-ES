@@ -54,7 +54,7 @@ Consulte [Extensibilidad nativa](/help/migrated/administrators/feature-summary/n
 
 Ahora podrá crear evaluaciones en Learning Manager con la nueva herramienta de creación de pruebas en la página Biblioteca de contenido. Las evaluaciones creadas pasan a formar parte de la biblioteca de contenido y se pueden añadir a una carpeta &quot;pública&quot; para reutilizar el curso.
 
-Ver [Crear una prueba](/help/migrated/authors/feature-summary/content-library.md) para obtener más información.
+Vea [Crear una prueba](/help/migrated/authors/feature-summary/content-library.md) para obtener más información.
 
 ## Cambios de esta versión relacionados con los informes
 
@@ -255,7 +255,7 @@ En esta versión, si el informe de ayuda de trabajo supera los 10 millones gener
 
 En versiones anteriores de Adobe Learning Manager, si se eliminaba cualquier curso, certificación o plan de aprendizaje y su notificación estaba presente, aún podía acceder a uno de estos componentes mediante ella.
 
-En esta versión, nos aseguraremos de que ya no se pueda acceder a una publicación eliminada. Si especifica el id en la opción /posts/{id} API, y el ID de la publicación ya no está disponible, la API muestra el mensaje &quot;Publicación no encontrada para el recurso especificado&quot;.
+En esta versión, nos aseguraremos de que ya no se pueda acceder a una publicación eliminada. Si especifica el id. en la API /posts/{id} y el id. de la publicación ya no está disponible, la API muestra el mensaje &quot;No se encontró la publicación para el recurso especificado&quot;.
 
 ### Plazo de finalización de la API de alumno
 
@@ -279,7 +279,7 @@ Además, cambiaremos el valor predeterminado de snippetTypes a courseName. Al ha
 
 ### Nuevo tipo de recurso para la prueba
 
-La `instances.loResources.resources` punto final devolverá `ResourceContentType` con Quiz.
+El extremo `instances.loResources.resources` devolverá `ResourceContentType` con Prueba.
 
 ## Aviso de retirada
 
@@ -288,7 +288,7 @@ Adobe Learning Manager dejará de ofrecer BlueJeans en febrero de 2024. Todas la
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte la [Notas de la versión](release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](release-note/release-notes.md).
 
 ## Errores solucionados en esta versión
 
@@ -305,7 +305,7 @@ Para obtener información sobre las versiones actuales y anteriores de la aplica
 * Un alumno no puede reproducir cursos de LinkedIn en la aplicación MS Teams.
 * La API de inscripción no devuelve las inscripciones en un plan de aprendizaje flexible o incrustado como se esperaba.
 * En la aplicación para dispositivos móviles, los nombres de un curso, una certificación o un plan de aprendizaje aparecen en minúsculas.
-* En versiones anteriores de Adobe Learning Manager, si se eliminaba cualquier curso, certificación o plan de aprendizaje y su notificación estaba presente, aún podía acceder a uno de estos componentes mediante ella. En esta versión, nos aseguraremos de que ya no se pueda acceder a una publicación eliminada. Si especifica el id en la opción /posts/{id} API, y el ID de la publicación ya no está disponible, la API muestra el mensaje &quot;Publicación no encontrada para el recurso especificado&quot;.
+* En versiones anteriores de Adobe Learning Manager, si se eliminaba cualquier curso, certificación o plan de aprendizaje y su notificación estaba presente, aún podía acceder a uno de estos componentes mediante ella. En esta versión, nos aseguraremos de que ya no se pueda acceder a una publicación eliminada. Si especifica el id. en la API /posts/{id} y el id. de la publicación ya no está disponible, la API muestra el mensaje &quot;No se encontró la publicación para el recurso especificado&quot;.
 * En la API de alumno, el campo de plazo de finalización no se muestra en la respuesta de la API de inscripción.
 * En la API para obtener inscripciones de los alumnos, los detalles de inscripción aparecen incluso después de especificar un ID de instancia incorrecto.
 

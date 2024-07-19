@@ -41,11 +41,11 @@ En la siguiente captura de pantalla se muestra un ejemplo de ventana de notifica
 
 Esta ventana emergente muestra resaltadas todas las notificaciones junto con la hora de aparición y una barra de desplazamiento. Puede obtener la cantidad de notificaciones más recientes según el número resaltado en el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número 5 aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
 
-Haga clic en **[!UICONTROL Mostrar todas las notificaciones]** situado en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente. En la página notificaciones, puede ver lo siguiente:
+Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente. En la página notificaciones, puede ver lo siguiente:
 
 * **Todas las notificaciones**: Vea todas las notificaciones aquí
-* **Pendiente**: Vea las notificaciones pendientes aquí
-* **Discusión**: busque cursos para ver los debates que tienen lugar.
+* **Pendiente**: Ver notificaciones pendientes aquí
+* **Discusión**: Busque cursos para ver las discusiones que tienen lugar.
 
 ## Configuración de notificaciones de escalación multinivel {#setupmultilevelescalationnotifications}
 
@@ -74,7 +74,7 @@ Los correos electrónicos de escalación cuando los alumnos no cumplen los plazo
 
    ![](assets/deadline-reminder.png)
 
-   *Establecer una fecha de recordatorio de fecha límite*
+   *Establecer una fecha de aviso de fecha límite*
 
 1. Seleccione una fecha después de la fecha límite para configurar un calendario de recordatorios para las notificaciones del alumno y de escalación al administrador.
 
@@ -82,11 +82,11 @@ Los correos electrónicos de escalación cuando los alumnos no cumplen los plazo
 
    *Establecer recordatorios y fechas de escalación*
 
-1. Si el alumno sigue sin completar el curso incluso después de la escalación al responsable, la configuración le permite escalar al responsable de omisión del alumno. Haga clic en una fecha posterior a la fecha límite ampliada, seleccione la periodicidad de los recordatorios, el número de días para la programación y seleccione **Responsable y responsable de nivel de omisión** en el **Escalación** menú desplegable. Haga clic en la marca de verificación azul para guardar la configuración de notificaciones.
+1. Si el alumno sigue sin completar el curso incluso después de la escalación al responsable, la configuración le permite escalar al responsable de omisión del alumno. Haga clic en una fecha posterior a la fecha límite ampliada, seleccione la periodicidad de los recordatorios, el número de días para la programación y seleccione **Administrador y administrador de nivel de omisión** en el menú desplegable **Escalación**. Haga clic en la marca de verificación azul para guardar la configuración de notificaciones.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
-   *Guardar la configuración de notificaciones*
+   *Guardar la configuración de notificación*
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 

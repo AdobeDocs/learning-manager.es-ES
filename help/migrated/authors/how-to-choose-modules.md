@@ -3,14 +3,13 @@ jcr-language: en_us
 title: ¿Cómo se eligen los módulos del curso?
 description: Adobe Learning Manager admite cuatro tipos de módulos de curso. Si usted es el encargado de crear un programa de formación, tal vez se pregunte qué tipo de módulo debe elegir para satisfacer los requisitos de su empresa. Puede elegir los módulos del curso según el presupuesto y las necesidades de la audiencia de su empresa. A continuación, se explican algunos de los casos de uso típicos para cada tipo de módulo para que los tenga en cuenta.
 contentowner: jayakarr
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
 
 ---
-
-
 
 # ¿Cómo se eligen los módulos del curso?
 

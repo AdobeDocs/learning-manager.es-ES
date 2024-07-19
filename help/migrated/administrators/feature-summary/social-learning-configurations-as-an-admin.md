@@ -22,31 +22,31 @@ El aprendizaje social permite a los alumnos estudiar desde cualquier lugar y com
 Si desea activar y configurar las opciones de Aprendizaje social, efectúe el procedimiento siguiente:
 
 1. En el panel de navegación de la izquierda, haga clic en **[!UICONTROL Aprendizaje social]**. Se le redirigirá a la página de actividad.
-1. Habilitar **[!UICONTROL Aprendizaje social]** mediante la función **[!UICONTROL Habilitar]** en la página Actividad si la está activando por primera vez. De lo contrario, se puede activar desde la **[!UICONTROL Configuración]** página.
+1. Habilite la característica **[!UICONTROL Aprendizaje social]** con el botón **[!UICONTROL Habilitar]** en la página Actividad si la está activando por primera vez. De lo contrario, se puede habilitar desde la página **[!UICONTROL Settings]**.
 
    Aparece un cuadro de diálogo similar a la captura de pantalla siguiente.
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png)
 
-   *Activar el aprendizaje social*
+   *Habilitar aprendizaje social*
 
 <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-El administrador puede configurar opciones de Aprendizaje social. La configuración incluye tipos de gestión del contenido como **[!UICONTROL Conservación solo manual]** y **[!UICONTROL Sin gestión]**. La configuración del ámbito se puede establecer en un ámbito diferente, como el tipo de usuario (interno/externo) o cualquier otro campo activo presente en la cuenta. El administrador define la ruta de la dirección URL desde donde los alumnos pueden descargar la aplicación Adobe Learning Manager para escritorio.
+El administrador puede configurar opciones de Aprendizaje social. La configuración incluye tipos de curaciones de contenido como **[!UICONTROL Curación solo manual]** y **[!UICONTROL Sin curación]**. La configuración del ámbito se puede establecer en un ámbito diferente, como el tipo de usuario (interno/externo) o cualquier otro campo activo presente en la cuenta. El administrador define la ruta de la dirección URL desde donde los alumnos pueden descargar la aplicación Adobe Learning Manager para escritorio.
 
 ### Revisión de contenido {#contentcuration}
 
 Debido a que Aprendizaje social es un tipo de aprendizaje informal, funciona de manera similar a otras plataformas de redes sociales. A menudo, las redes sociales distraen a las personas porque consumen con frecuencia contenido irrelevante que afecta a su productividad. Esta opinión se puede contrarrestar mediante la revisión y la moderación del contenido.
 
-**[!UICONTROL Conservación solo manual]** y **[!UICONTROL Sin gestión]** Hay dos opciones de revisión que el administrador puede seleccionar.
+**[!UICONTROL Revisión solo manual]** y **[!UICONTROL Sin revisión]** son dos opciones de revisión que el administrador puede seleccionar.
 
-**[!UICONTROL Gestión manual asistida automáticamente]:** Learning Manager cuenta con un motor de revisión automática basado en inteligencia artificial que puede descubrir de forma inteligente la esencia del contenido en cualquier formato que se pueda proporcionar posteriormente a los alumnos deseados. También puede aprobar o rechazar la publicación de un contenido en función de su puntuación de confianza.
+**[!UICONTROL Revisión manual asistida automáticamente]:** Learning Manager dispone de un motor de revisión automática basado en inteligencia artificial que puede descubrir de forma inteligente la esencia del contenido en cualquier formato que se pueda distribuir posteriormente a los alumnos deseados. También puede aprobar o rechazar la publicación de un contenido en función de su puntuación de confianza.
 
 Por ejemplo, Adarsh es un alumno y encontró un blog interesante, por lo que lo publica en la plataforma de Aprendizaje social de Adobe Learning Manager. A continuación, la publicación se envía al motor de gestión de contenido basado en IA, que predice las aptitudes presentes en el contenido y las compara con las aptitudes asociadas del tablero. Si alguna de las aptitudes coincide, el contenido se publica; de lo contrario, se envía para una revisión solo manual.
 
 La puntuación de confianza mínima necesaria para publicar es del 50 %.
 
-**[!UICONTROL Conservación solo manual]:** Para comprobar la autenticidad del contenido antes de que se active, el administrador puede activar la configuración de gestión solo manual. Tras activarla, el contenido se transfiere a los principales expertos en la materia (tres como máximo) para que lo revisen. Sobre la base de la respuesta media, la publicación se aprueba o se rechaza en consecuencia. Si la respuesta es mayor que el 50 por ciento, la publicación se publica o se rechaza. Para obtener más información sobre los expertos en la materia, [haga clic aquí](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Revisión de solo manual]:** Para comprobar la autenticidad del contenido antes de que se active, el administrador puede habilitar la configuración de revisión de solo manual. Tras activarla, el contenido se transfiere a los principales expertos en la materia (tres como máximo) para que lo revisen. Sobre la base de la respuesta media, la publicación se aprueba o se rechaza en consecuencia. Si la respuesta es mayor que el 50 por ciento, la publicación se publica o se rechaza. Para obtener más información sobre los expertos en la materia, [haga clic aquí](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 
 En el ámbito nuevo, el usuario adquiere puntos para actividades en los tableros.
@@ -55,13 +55,13 @@ En las secciones de la tabla de posiciones de Social, un usuario puede ver a tod
 
 Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
 
-Si los usuarios especiales se convierten en PYMES al obtener puntos suficientes, aparecen en el **[!UICONTROL Principales expertos en la materia]** en la tabla de líderes sociales.
+Si los usuarios especiales se convierten en expertos en la materia al obtener puntos suficientes, aparecerán en la lista de **[!UICONTROL expertos en la materia principal]** en la tabla de posiciones de las redes sociales.
 
 Para que el cambio surta efecto, espere 60 minutos.
 
 ### Configuración del ámbito {#scopesettings}
 
-En Aprendizaje social, un ámbito determina los tableros que se pueden ver, lo cual controla la visibilidad del contenido. Si un usuario tiene un ámbito, por ejemplo, ***Proveedor_A***, solo puede ver los tableros y publicaciones asociadas creados por otras personas que pertenezcan al mismo ámbito ***Proveedor_A***.
+En Aprendizaje social, un ámbito determina los tableros que se pueden ver, lo cual controla la visibilidad del contenido. Si un usuario tiene un ámbito, por ejemplo, ***Proveedor_A***, solo puede ver los tableros y publicaciones asociadas creados por otras personas que pertenecen al mismo ámbito ***Proveedor_A***.
 
 De este modo, los administradores mantienen una serie de usuarios, por ejemplo proveedores, socios o departamentos en una organización aparte.
 
@@ -71,15 +71,15 @@ Hay secciones independientes para activar usuarios internos y externos.
 
 **Activar para alumnos internos**
 
-En esta sección, puede elegir la característica de usuario para definir el ámbito de aprendizaje social para usuarios internos. Usuarios con las mismas características **valor** compartir el mismo espacio de Aprendizaje social.
+En esta sección, puede elegir la característica de usuario para definir el ámbito de aprendizaje social para usuarios internos. Los usuarios con las mismas características **value** comparten el mismo espacio de aprendizaje social.
 
-Desde el **Característica de usuario** , elija la opción que corresponda.
+En la lista desplegable **Característica de usuario**, elija la opción requerida.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Seleccione las características del usuario para definir el ámbito*
 
-De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** en la opción Lista desplegable de características de usuario siempre está seleccionada.
+De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** de la opción de la lista desplegable de características de usuario siempre está seleccionada.
 
 Puede elegir el ámbito de los usuarios internos en función de sus campos activos.
 
@@ -101,7 +101,7 @@ Por ejemplo, el administrador puede definir el ámbito en **[!UICONTROL Tipo de 
 
 Cuando el administrador selecciona una opción de Característica de usuario, la función Aprendizaje social se puede limitar a alumnos y grupos de alumnos marcando la casilla de verificación debajo del campo Característica de usuario. Haga clic en el campo de valor para seleccionar el alumno o los grupos de alumnos para quienes desea activar la función Aprendizaje social.
 
-De forma predeterminada, el ámbito lo establece el **[!UICONTROL Tipo de usuario]** alumnos internos o externos.
+De forma predeterminada, el ámbito lo establece el **[!UICONTROL Tipo de usuario]**, que son alumnos internos o externos.
 
 Si el campo activo no contiene ningún valor, el administrador no tendrá acceso a la lista desplegable del campo **[!UICONTROL Valor]**.
 
@@ -127,7 +127,7 @@ Para restringir la creación de tableros de todos los alumnos y moderarlos con e
 
 ![](assets/grant-permissiontocreateboards.png)
 
-*Definir permisos para crear un tablero*
+*Establecer permisos para crear un tablero*
 
 De forma predeterminada, la opción **[!UICONTROL Todos los alumnos]** está activada.
 
@@ -165,7 +165,7 @@ En las secciones de la tabla de posiciones de Social, un usuario puede ver a tod
 
 Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
 
-Si los usuarios especiales se convierten en PYMES al obtener puntos suficientes, aparecen en el **[!UICONTROL Principales expertos en la materia]** en la tabla de líderes sociales.
+Si los usuarios especiales se convierten en expertos en la materia al obtener puntos suficientes, aparecerán en la lista de **[!UICONTROL expertos en la materia principal]** en la tabla de posiciones de las redes sociales.
 
 Para que el cambio surta efecto, espere 60 minutos.
 
@@ -173,10 +173,10 @@ Para que el cambio surta efecto, espere 60 minutos.
 
 El administrador puede personalizar el título y el subtítulo que aparecen en la imagen de encabezado de la página principal de Aprendizaje social. Independientemente de lo que el administrador decida introducir como título y subtítulo, las mismas funciones se encuentran en la página principal de Aprendizaje social del alumno.
 
-1. En la aplicación de administración, haga clic en **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**.
+1. En la aplicación de administración, haz clic en **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**.
 1. Haga clic en **[!UICONTROL Personalizar]**.
-1. Cambie la imagen del banner. Las dimensiones de la imagen deben ser al menos **1600 x 240 px**.
-1. Active la opción para ocultar o mostrar el **[!UICONTROL Más información]** en el banner.
+1. Cambie la imagen del banner. Las dimensiones de la imagen deben ser de al menos **1600 x 240 px**.
+1. Active la opción para ocultar o mostrar el vínculo **[!UICONTROL Saber más]** en el banner.
 1. Introduzca el título y el subtítulo en los campos especificados a continuación:
 
    ![](assets/image012.png)
@@ -187,7 +187,7 @@ Dispone de otras opciones:
 
 * **[!UICONTROL Idioma]:** En la lista desplegable, elija el idioma al que traducir el título y el subtítulo. También puede añadir texto personalizado para diferentes idiomas.
 * **[!UICONTROL Replicar]:** Haga clic en este botón para replicar el título y el subtítulo en todos los idiomas.
-* **[!UICONTROL Restablecer]:** Haga clic en este botón para volver al título y al subtítulo originales.
+* **[!UICONTROL Restablecer]:** Haga clic en este botón para volver al título y subtítulo originales.
 
   En la página principal de Aprendizaje social, la información proporcionada por el administrador se muestra como encabezado de página.
 
@@ -221,7 +221,7 @@ Un administrador puede habilitar la opción para revisar contenido automáticame
 
    ![](assets/auto-curation.png)
 
-   *Seleccione la opción Gestión manual con asistencia automática*
+   *Seleccione la opción Conservación manual con asistencia automática*
 
 Cuando un usuario carga contenido en un tablero, un algoritmo basado en inteligencia artificial extrae el texto del contenido y luego el texto se pasa al motor de revisión. El motor de revisión trata de encontrar las aptitudes presentes en el contenido.
 
@@ -233,9 +233,9 @@ Cada vez que se revisa automáticamente contenido, el usuario recibe una notific
 
 *Diagrama de flujo de la configuración de revisión*
 
-Se recomienda que el administrador añada expertos en la materia para aptitudes si está activada la opción Revisión solo manual. El administrador puede agregar expertos en la materia al proporcionar puntos de experto en la materia por adelantado a los usuarios con experiencia en una aptitud. Para obtener más información sobre cómo proporcionar puntos a las PYME,  [haga clic aquí](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+Se recomienda que el administrador añada expertos en la materia para aptitudes si está activada la opción Revisión solo manual. El administrador puede agregar expertos en la materia al proporcionar puntos de experto en la materia por adelantado a los usuarios con experiencia en una aptitud. Para obtener más información sobre cómo proporcionar puntos a expertos en la materia, [haga clic aquí](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
-**Sin gestión:** Las publicaciones de todos los alumnos se publican automáticamente sin moderación de contenido.
+**Sin revisión:** Las publicaciones de todos los alumnos se publican automáticamente sin moderación de contenido.
 
 <!--![](assets/artboard-6-2x.png)-->
 
@@ -288,7 +288,7 @@ Los expertos en la materia se añaden o se asignan en función de la aptitud, no
 
 **Moderadores:** propietarios secundarios del tablero. Los creadores los añaden cuando crean el tablero para que puedan controlarlo en ausencia del creador. De forma predeterminada, el creador del tablero es el moderador.
 
-**PYME:** Los expertos en la materia son expertos en habilidades específicas. El administrador puede asignar expertos en la materia a una aptitud específica para que revise el contenido de esa aptitud. Los expertos en la materia reciben las solicitudes de revisión de los tableros vinculados a sus aptitudes. Los alumnos también pueden convertirse en expertos en la materia si obtienen los puntos de experiencia necesarios.
+**Experto en la materia:** Los expertos en la materia son expertos en aptitudes específicas. El administrador puede asignar expertos en la materia a una aptitud específica para que revise el contenido de esa aptitud. Los expertos en la materia reciben las solicitudes de revisión de los tableros vinculados a sus aptitudes. Los alumnos también pueden convertirse en expertos en la materia si obtienen los puntos de experiencia necesarios.
 
 +++
 
@@ -314,13 +314,13 @@ La primera pantalla proporciona al administrador la información siguiente relat
 
 1. **[!UICONTROL Nuevas publicaciones]**: muestra el número de publicaciones que se han creado en ese intervalo temporal. También se muestra el número total de publicaciones de todo el período.
 1. **[!UICONTROL Porcentaje de usuarios activos]**: muestra el porcentaje total de usuarios activos de Aprendizaje social en comparación con el número total de usuarios disponibles en la cuenta.
-1. **[!UICONTROL Nuevas placas]**: muestra el número de tableros nuevos que se han creado. También se muestra el número total de tableros para todo el período.
+1. **[!UICONTROL Nuevos tableros]**: muestra el número de nuevos tableros que se han creado. También se muestra el número total de tableros para todo el período.
 
 La segunda pantalla es un gráfico de líneas que muestra la tendencia del número de tableros o publicaciones que se han publicado durante el período de tiempo seleccionado en el filtro de fecha. Haga clic en el filtro para ver diferentes opciones de períodos de tiempo, por ejemplo los últimos siete días, el mes pasado, los últimos tres meses y todo el tiempo.
 
 ![](assets/trends.png)
 
-*Gráfico de líneas que muestra la tendencia*
+*Gráfico de LIne que muestra la tendencia*
 
 ## Aptitudes {#skills}
 
@@ -395,7 +395,7 @@ El administrador puede ver la puntuación de la actividad, el número de publica
 
 ## Dominio de aptitudes {#skilldomain}
 
-En función de las aptitudes utilizadas principalmente por los usuarios finales de Learning Manager, Adobe Learning Manager ha categorizado una lista de 25 dominios de aptitudes que el sistema de selección automática utiliza para seleccionar contenido. El administrador debe asignar las aptitudes empresariales configuradas a los dominios de aptitudes proporcionados por Captivate Prime. La asignación de aptitudes se puede realizar desde la página Aptitud de administrador al crear una aptitud o modificando una aptitud existente. Para obtener más información sobre cómo asignar o añadir una aptitud, [haga clic aquí](skills-levels.md#Createaskillandalevel).
+En función de las aptitudes utilizadas principalmente por los usuarios finales de Learning Manager, Adobe Learning Manager ha categorizado una lista de 25 dominios de aptitudes que el sistema de selección automática utiliza para seleccionar contenido. El administrador debe asignar las aptitudes empresariales configuradas a los dominios de aptitudes proporcionados por Captivate Prime. La asignación de aptitudes se puede realizar desde la página Aptitud de administrador al crear una aptitud o modificando una aptitud existente. Para obtener más información sobre cómo asignar o agregar una aptitud, [haga clic aquí](skills-levels.md#Createaskillandalevel).
 
 +++Lista de dominios de aptitudes que utiliza el sistema de revisión de Learning Manager
 
@@ -429,7 +429,7 @@ En función de las aptitudes utilizadas principalmente por los usuarios finales 
 
 ## Expertos en la materia {#subjectmatterexpertssmes}
 
-**Expertos en la materia** son personas que tienen un conocimiento y experiencia considerable en una habilidad. Una **PYME** desempeña un papel importante en el aprendizaje social cuando el administrador ha configurado la configuración de revisión como manual o cuando el método de revisión automática no puede seleccionar el contenido. En la columna de expertos en la materia solo se muestran los tres expertos principales.
+**Expertos en la materia** son personas con conocimientos y experiencia considerables en una aptitud. Un **experto en la materia** desempeña un papel importante en el aprendizaje social cuando el administrador ha establecido la configuración de revisión como manual o cuando el método de revisión automática no puede seleccionar el contenido. En la columna de expertos en la materia solo se muestran los tres expertos principales.
 
 ## Requisitos para ser experto en la materia {#requirementstobeansme}
 
@@ -439,11 +439,11 @@ Solo se puede llegar a ser experto en la materia obteniendo puntos de experto en
 
 Siga los pasos que se indican a continuación para añadir expertos en la materia a una aptitud:
 
-1. Haga clic en **[!UICONTROL Añadir expertos en la materia]** o **[!UICONTROL Modificar expertos en la materia]**.
+1. Haga clic en **[!UICONTROL Agregar expertos en la materia]** o **[!UICONTROL Modificar expertos en la materia]**.
 
    ![](assets/add-smes-06.png)
 
-   *Añadir o modificar SME*
+   *Agregar o modificar SME*
 
 1. Haga clic en **[!UICONTROL Opciones avanzadas]** en el cuadro de diálogo emergente.
 
@@ -451,7 +451,7 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 
    *Cuadro de diálogo Ver opciones avanzadas*
 
-1. Busque al usuario con experiencia en la aptitud. Una vez que se encuentre el usuario, escriba el número de puntos que desea darle en la **Agregar puntos** cuadro de entrada.
+1. Busque al usuario con experiencia en la aptitud. Una vez que encuentre al usuario, escriba el número de puntos que desea darle en el cuadro de entrada **Agregar puntos**.
 
    Si el usuario ya tiene puntos, los puntos nuevos otorgados al usuario se suman al número actual de puntos.
 
@@ -459,13 +459,13 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 
    ![](assets/advanced-options.png)
 
-   *Añadir puntos para un usuario*
+   *Agregar puntos para un usuario*
 
 1. Al seleccionar la casilla de verificación **[!UICONTROL Habilitar puntos de EM mínimos]**, se puede establecer el mínimo de puntos que requiere un usuario para que aparezca como experto en la materia en la lista EM principales. Tras definir el mínimo, los expertos en la materia con puntuación igual o inferior a él no aparecen en las listas de expertos en la materia.
 
-   Si el **[!UICONTROL Activar puntos mínimos de SME]** Si la casilla de verificación no está seleccionada, los tres usuarios principales con puntos más altos se consideran expertos en la materia para esa aptitud en particular.
+   Si la casilla de verificación **[!UICONTROL Habilitar puntos mínimos de SME]** no está seleccionada, los tres usuarios principales con puntos más altos se consideran expertos en la materia para esa aptitud en particular.
 
-1. Haga clic en **[!UICONTROL Guardar]** para mostrar los cambios que se han realizado.
+1. Haga clic en el botón **[!UICONTROL Guardar]** para mostrar los cambios realizados.
 
 ## Sistema de puntos de los expertos en la materia {#smepointsystem}
 
@@ -484,15 +484,15 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 
 ## Actividades sociales para el plan de facturación de usuarios activos mensuales {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Cada vez que un usuario crea un nuevo tablero social, publicación social o comentario social, se contaría como actividad válida para ser contada contra el **Usuario de activación mensual**(MAU) si la cuenta sigue el modelo de facturación MAU. Para obtener más información, consulte [Gestión de la facturación](billing-management.md).
+Cada vez que un usuario crea un nuevo tablero social, publicación social o comentario social, se contaría como actividad válida para ser contada en el plan **Usuario de activación mensual**(MAU) si la cuenta sigue el modelo de facturación MAU. Para obtener más información, consulte [Gestión de la facturación](billing-management.md).
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
 +++Cómo habilitar el aprendizaje social para alumnos externos
 
-En **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**, en la sección Configuración del ámbito, habilite la opción **[!UICONTROL Activar para alumnos externos]**. En el menú desplegable, seleccione un perfil externo y defina el ámbito de aprendizaje de ese perfil.
+En **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**, en la sección Configuración del ámbito, habilite la opción **[!UICONTROL Habilitar para alumnos externos]**. En el menú desplegable, seleccione un perfil externo y defina el ámbito de aprendizaje de ese perfil.
 
 ![](assets/social-scope-external-users.png)
 
-*Seleccione la opción Activar para alumnos externos .*
+*Seleccione la opción Habilitar para alumnos externos*
 +++

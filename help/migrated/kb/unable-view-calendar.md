@@ -3,14 +3,13 @@ jcr-language: en_us
 title: No se puede ver el calendario
 description: Cuando un administrador intenta editar la fecha de caducidad de un perfil de inscripción externo y hace clic en el calendario para editar la fecha de caducidad, el calendario no aparece.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 88%
 
 ---
-
-
 
 # No se puede ver el calendario
 
@@ -47,6 +46,6 @@ El problema se debe a lo siguiente:
 
    ![](assets/scale-layout.png)
 
-   *Cambiar configuración de visualización*
+   *Cambiar configuración de pantalla*
 
 1. Reinicie el equipo.

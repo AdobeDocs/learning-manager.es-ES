@@ -31,11 +31,11 @@ Como administrador, puede efectuar las acciones siguientes:
 
 Para añadir una aptitud, siga los pasos que se indican a continuación:
 
-1. En el panel izquierdo, seleccione **[!UICONTROL Aptitudes]** > **[!UICONTROL Añadir]** > **[!UICONTROL Añadir SKills]**. Asigne un nombre a la aptitud y escriba una descripción.
+1. En el panel izquierdo, seleccione **[!UICONTROL Aptitudes]** > **[!UICONTROL Agregar]** > **[!UICONTROL Agregar Aptitudes]**. Asigne un nombre a la aptitud y escriba una descripción.
 
    ![](assets/add-skill-name-anddescription.png)
 
-   *Añadir nombre y descripción de una aptitud*
+   *Agregar nombre y descripción de una aptitud*
 
 1. Asigne un dominio a la aptitud. Al crear una aptitud, puede asignarla a los dominios de aptitudes más relevantes que admita Learning Manager. Para obtener más información, consulte [***Asignar aptitud con dominios***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
@@ -43,7 +43,7 @@ Para añadir una aptitud, siga los pasos que se indican a continuación:
 
    ![](assets/map-domain-with-skills.png)
 
-   *Añadir un dominio*
+   *Agregar un dominio*
 
 1. Asigne los niveles a la aptitud. Para añadir un nivel, haga clic en **[!UICONTROL Agregar]**.
 
@@ -55,7 +55,7 @@ Para añadir una aptitud, siga los pasos que se indican a continuación:
 
    ![](assets/add-skill-levels.png)
 
-   *Añadir niveles de aptitud*
+   *Agregar niveles de aptitud*
 
    Al añadir una aptitud, también puede asignar decimales a los créditos. Los créditos muestran hasta dos decimales.
 
@@ -68,7 +68,7 @@ Para añadir una aptitud, siga los pasos que se indican a continuación:
 
    ![](assets/list-of-skills.png)
 
-   *Ver lista de aptitudes oif*
+   *Ver lista de aptitudes*
 
 ## Asignar la aptitud a alumnos {#assigntheskilltolearners}
 
@@ -94,7 +94,7 @@ Después de crear las aptitudes y guardarlas, aparecerán en la página de aptit
 
    ![](assets/search-and-add-learners.png)
 
-   *Buscar y añadir alumnos*
+   *Buscar y agregar alumnos*
 
 1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**.
 
@@ -102,7 +102,7 @@ Después de crear las aptitudes y guardarlas, aparecerán en la página de aptit
 
    ![](assets/turn-off-auto-enrollment.png)
 
-   *Desactivar la inscripción automática*
+   *Deshabilitar inscripción automática*
 
    Los alumnos individuales pueden inscribirse automáticamente o el administrador puede inscribirse en un programa de aprendizaje.
 
@@ -152,7 +152,7 @@ Puede buscar aptitudes en las secciones **[!UICONTROL Activo]** y **[!UICONTROL 
 
 ## Editar una aptitud {#editaskill}
 
-En la página **[!UICONTROL Aptitud]**, haga clic en la aptitud que desea modificar. En la **[!UICONTROL Editar aptitud]** , realice los cambios necesarios, por ejemplo,
+En la página **[!UICONTROL Aptitud]**, haga clic en la aptitud que desea modificar. En el cuadro de diálogo **[!UICONTROL Editar aptitud]**, realice los cambios necesarios, por ejemplo:
 
 * Añadir o eliminar un dominio de aptitud.
 * Editar el nombre y la descripción de la aptitud.
@@ -191,7 +191,7 @@ Puede eliminar una aptitud solo cuando no está asociada a ningún alumno, curso
 
 Agregue un archivo CSV que contenga las aptitudes de los instructores. Estas aptitudes se añaden a continuación a la lista de aptitudes.
 
-1. En la esquina superior derecha de la pantalla, seleccione **[!UICONTROL Añadir]** > **[!UICONTROL Asignar aptitudes al instructor]**.
+1. En la esquina superior derecha de la pantalla, seleccione **[!UICONTROL Agregar]** > **[!UICONTROL Asignar aptitudes al instructor]**.
 1. Cargue un archivo csv. Las columnas del archivo CSV son:
 
    * Nombre de la aptitud
@@ -202,9 +202,9 @@ Agregue un archivo CSV que contenga las aptitudes de los instructores. Estas apt
 
    Haga clic en Guardar.
 
-   ![Añadir CSV de aptitudes de instructores](assets/instructor-skills.png)
+   ![Añadir CSV de aptitudes de instructor](assets/instructor-skills.png)
 
-   *Añadir aptitudes de instructores desde un CSV*
+   *Agregar aptitudes de instructor desde un archivo CSV*
 
 1. Verá un mensaje emergente de confirmación.
 
@@ -220,12 +220,12 @@ En la página Aptitudes, hay una columna denominada Instructores, que indica el 
 
 ![Aptitudes asignadas a los instructores](assets/instructor-skill-assigned.png)
 
-*Página Aptitudes*
+*Página de aptitudes*
 
 ### Descargar el archivo CSV de asignación de aptitudes
 
-1. En la página Aptitudes, haga clic en **[!UICONTROL Añadir]** > **[!UICONTROL Asignar aptitudes al instructor]**.
-1. En el cuadro de diálogo, haga clic **[!UICONTROL Asignación Añadida Anteriormente]**.
+1. En la página Aptitudes, haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Asignar aptitudes al instructor]**.
+1. En el cuadro de diálogo, haga clic en **[!UICONTROL Asignación agregada anteriormente]**.
 1. Se descargará el último archivo CSV que haya cargado.
 
 >[!NOTE]
@@ -283,4 +283,4 @@ Es decir, para conseguir la insignia, **se debe completar el objeto de aprendiza
 
 ### Vínculos relacionados
 
-* [Gestor de aprendizaje de aptitudes y Adobe](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Aptitudes y Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

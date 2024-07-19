@@ -3,14 +3,13 @@ description: Lea este artículo para obtener información sobre cómo administra
 jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # Administrar a los alumnos de la sesión
 
@@ -20,7 +19,7 @@ Lea este artículo para obtener información sobre cómo administrar a los asist
 
 Como instructor, puede ver las sesiones o los módulos que tienen revisiones pendientes.
 
-En la página Sesiones/Módulos, puede ver una columna **Revisiones pendientes** que muestra el número de revisiones pendientes para la sesión/actividad correspondiente.
+En la página Sesiones/Módulos, puede ver una columna **Revisiones pendientes** que muestra el número de revisiones pendientes de la sesión/actividad correspondiente.
 
 ## Administrar la lista de espera de la sesión {#managewaitlistforyoursession}
 
@@ -38,7 +37,7 @@ A medida que los alumnos se inscriben en el módulo, en la página Lista de espe
 
    Los alumnos que haya confirmado se incorporan a la lista de alumnos confirmados.
 
-Los instructores tienen la capacidad de dar de baja de las sesiones a los alumnos. Esto también les da de baja de los correspondientes aprendizajes. Seleccione la ficha **[!UICONTROL Lista de espera]**. Con la casilla de verificación, seleccione los alumnos a los que dar de baja. Para darse de baja, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Dar de baja alumnos]**.
+Los instructores tienen la capacidad de dar de baja de las sesiones a los alumnos. Esto también les da de baja de los correspondientes aprendizajes. Seleccione la ficha **[!UICONTROL Lista de espera]**. Con la casilla de verificación, seleccione los alumnos a los que dar de baja. Para cancelar la inscripción, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Dar de baja a los alumnos]**.
 
 ![](assets/unenroll-learners.png)
 *Dar de baja a los alumnos*
@@ -77,7 +76,7 @@ Tras confirmar la lista de asistentes a la sesión, puede exportarla como archiv
 Observe el código QR en la esquina superior derecha de este PDF. Esta funcionalidad permite a los alumnos individuales escanear el código mediante la aplicación Learning Manager para dispositivos móviles para que marquen su asistencia.
 
 ![](assets/exportpdf.png)
-*Escanea el código QR para marcar la asistencia*
+*Analizar el código QR para marcar la asistencia*
 
 ## Aprobar o rechazar envíos {#approveorrejectsubmissions}
 
@@ -99,7 +98,7 @@ Si los alumnos han cargado documentos como asignaciones, informes o evaluaciones
 1. En el mosaico Seleccionar recordatorio, haga clic en Establecer recordatorio.
 
    ![](assets/setreminder.png)
-   *Configurar recordatorios para la sesión*
+   *Configurar recordatorios para tu sesión*
 
 1. Realice lo siguiente:
 

@@ -36,7 +36,7 @@ Los alumnos no pueden inscribirse en varias instancias desde una aplicación mó
 
 ### Formato de las insignias en una instancia de inscripción múltiple
 
-Para admitir insignias en una instancia de inscripción múltiple, el formato de insignia se cambia a `userId_badgeId_COURSE_courseId_courseInstanceId`.
+Para admitir insignias en una instancia de inscripción múltiple, el formato de insignia cambia a `userId_badgeId_COURSE_courseId_courseInstanceId`.
 
 ### Iniciar el reproductor en inscripción múltiple mediante un modo sin encabezado
 
@@ -86,7 +86,7 @@ El informe de cursos de formación contiene una columna adicional para mostrar l
 
 Se abre una ventana emergente en la que llevar a cabo la valoración basada en estrellas de un curso en cuanto el usuario finalice el último módulo del curso.
 
-![calificaciones](assets/ratings.png)
+![clasificaciones](assets/ratings.png)
 
 ## Personalizar plantillas de correo electrónico
 
@@ -106,7 +106,7 @@ Los autores ahora pueden facilitar una fecha en la que se vaya a **Retirar autom
 
 Los administradores también pueden decidir a nivel de cuenta la naturaleza del acceso a los objetos de aprendizaje &quot;retirados&quot;.
 
-El informe de formación incluye una nueva columna, **Fecha de jubilación automática**, para mostrar la fecha de baja de cada objeto de aprendizaje (si se ha definido).
+El informe de formación incluye una nueva columna, **Fecha de baja automática**, para mostrar la fecha de baja de cada objeto de aprendizaje (si se ha definido).
 
 ## Valores de etiquetas de catálogo por autores
 
@@ -134,7 +134,7 @@ Se han llevado a cabo mejoras en la API de inscripción para admitir y optimizar
 
 Los alumnos pueden descargar y utilizar contenido sin conexión. Las rutas de aprendizaje anidadas y flexibles no se admiten para la visualización sin conexión.
 
-*En esta versión, la visualización de contenido sin conexión solo se admite para el contenido en inglés.*
+*En esta versión, la visualización de contenido sin conexión solo se admite para contenido en inglés.*
 
 ## Accesibilidad
 
@@ -175,11 +175,11 @@ Para obtener más información sobre los cambios en la API, consulte la [Referen
 
 ### Compatibilidad de API con nuevas recomendaciones
 
-**GET/cuenta**
+**GET /cuenta**
 
 Devuelve si prlRecommendations está habilitado.
 
-**Solicitar**
+**Solicitud**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
@@ -187,7 +187,7 @@ Devuelve si prlRecommendations está habilitado.
 
 Devuelve una lista de productos/temas. Los resultados dependen de la configuración de la cuenta, que confirma si el alumno podrá ver todos los productos si se verá el catálogo en los productos o temas.
 
-**Solicitar**
+**Solicitud**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
@@ -195,7 +195,7 @@ Devuelve una lista de productos/temas. Los resultados dependen de la configuraci
 
 Devuelve una lista de funciones recomendadas.
 
-**Solicitar**
+**Solicitud**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
@@ -203,7 +203,7 @@ Devuelve una lista de funciones recomendadas.
 
 Devuelve una lista de funciones recomendadas.
 
-**Solicitar**
+**Solicitud**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
@@ -211,7 +211,7 @@ Devuelve una lista de funciones recomendadas.
 
 La búsqueda también contiene los productos y los parámetros de función de la consulta. No hay cambios en la consulta ni en el cuerpo. Añadiremos nuevas opciones de clasificación
 
-**Solicitar**
+**Solicitud**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
@@ -449,7 +449,7 @@ Se han añadido dos nuevos atributos:
 * instanceSwitchEnabled
 * multiEnrollmentEnabled
 
-**GET /usuarios/{userId}/userNotifications**
+**GET /users/{userId}/userNotifications**
 
 Se ha añadido el ID de instancia de curso en las notificaciones del nuevo atributo de metadatos.
 
@@ -473,11 +473,11 @@ Recupera la inscripción de cursos con varias inscripciones.
 
 Anula la inscripción de una determinada instancia de objeto de aprendizaje.
 
-**POST /inscripciones**
+**POST /enrollments**
 
 Es compatible con la inscripción en diferentes instancias.
 
-**GET/inscripciones**
+**GET /enrollments**
 
 Obtiene las inscripciones únicamente de las inscripciones principales del objeto de aprendizaje.
 
@@ -565,15 +565,15 @@ Por ejemplo,
 * Anular indicador de la API de alumno.
 * Se cambiará el valor predeterminado de highlightResults=false. Además, cambiaremos el valor predeterminado de snippetType=courseName.
 * Eliminaremos matchType=bool en el punto final de búsqueda.
-* autoCompleteMode tiene el [Obsoleto] y para proporcionar la misma funcionalidad de autoCompleteMode =false, se ha añadido un matchType denominado Match.
+* autoCompleteMode tiene la etiqueta [Deprecated] y, para proporcionar la misma funcionalidad de autoCompleteMode =false, se ha agregado un matchType denominado Match.
 
 ### Formato de identificación de insignia con inscripción múltiple
 
-Para admitir insignias de instancia de inscripción múltiple, estamos cambiando el formato de las insignias de curso de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` para identificar insignias de forma exclusiva.
+Para admitir insignias de instancia de inscripción múltiple, estamos cambiando el formato de las insignias de curso de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` para identificar las insignias de forma exclusiva.
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte la [Notas de la versión](/help/migrated/release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
 
 ## Limitaciones o problemas conocidos de esta versión
 

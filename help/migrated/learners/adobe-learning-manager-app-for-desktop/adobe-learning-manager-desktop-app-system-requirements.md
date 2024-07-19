@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: Requisitos del sistema | Aplicación Adobe Learning Manager para escritorio
-description: Requisitos del sistema para la aplicación de Adobe Learning Manager para escritorio
+description: Requisitos del sistema para la aplicación de escritorio de Adobe Learning Manager
 contentowner: kuppan
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 70%
 
 ---
 
-
-
-# Requisitos del sistema para la aplicación de Adobe Learning Manager para escritorio
+# Requisitos del sistema para la aplicación de escritorio de Adobe Learning Manager
 
 ## Windows {#windows}
 

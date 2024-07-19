@@ -4,14 +4,13 @@ jcr-language: en_us
 title: Programas de aprendizaje
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 75%
 
 ---
-
-
 
 # Programas de aprendizaje
 
@@ -41,7 +40,7 @@ Los administradores pueden crear programas de aprendizaje. Para crear un program
 
    Se pueden añadir todos los tipos de cursos a un programa de aprendizaje. Entre ellos se incluyen cursos de clase y de clase virtual, cursos de actividad, cursos con ritmo personalizado y cursos mixtos. Los cursos con nominación de responsable y aprobados por responsable no aparecen durante la selección de cursos en los programas de aprendizaje.
 
-1. Debe añadir cursos al programa de aprendizaje antes de publicarlo. Haga clic en **[!UICONTROL Catálogo]** para asociar cursos al programa de aprendizaje. Se muestra una lista con todos los cursos disponibles.
+1. Debe añadir cursos al programa de aprendizaje antes de publicarlo. Haga clic en la ficha **[!UICONTROL Catálogo]** para asociar cursos al programa de aprendizaje. Se muestra una lista con todos los cursos disponibles.
 
 1. Elija los cursos que desee añadir al programa de aprendizaje. Para ello, coloque el puntero del ratón sobre cualquier tarjeta de curso y haga clic en ella. Si el curso aún no se ha añadido al programa de aprendizaje, puede ver un símbolo de + en el centro de esa tarjeta de curso.
 
@@ -49,18 +48,18 @@ Los administradores pueden crear programas de aprendizaje. Para crear un program
 
    **Nota**
 
-   Consulte la lista de todos los cursos añadidos del programa de aprendizaje en **[!UICONTROL Plan de estudios]** . Se puede ver una etiqueta nueva para los cursos añadidos en la parte inferior de la tarjeta del curso en la **[!UICONTROL Catálogo]**.
+   Vea la lista de todos los cursos agregados del programa de aprendizaje en la pestaña **[!UICONTROL Programa]**. Se puede ver una etiqueta nueva para los cursos añadidos en la parte inferior de la tarjeta del curso en la **[!UICONTROL Catálogo]**.
 
-1. Haga clic en **[!UICONTROL Volver a programas]** en la parte superior del panel izquierdo, para ver una lista de todos los programas de aprendizaje. En ella, figura su programa de aprendizaje recién añadido.
+1. Haga clic en **[!UICONTROL Volver a programas]** en la parte superior del panel izquierdo para ver una lista de todos los programas de aprendizaje. En ella, figura su programa de aprendizaje recién añadido.
 1. Puede publicar el programa de aprendizaje haciendo clic en Resumen en el panel izquierdo y seleccionando Acciones > Publicar. También puede publicar el programa de aprendizaje desde las vistas Cursos e Instancias haciendo clic en Publicar en la esquina superior derecha de la página.
 
 ## Añadir alumnos a un programa de aprendizaje {#addlearnerstoalearningprogram}
 
-Para obtener más información sobre cómo inscribir alumnos y los pasos a seguir, consulte  [Inscribir alumnos.](courses.md#main-pars_header_1058138132)
+Para obtener más información sobre cómo inscribir alumnos y los pasos a seguir, consulte [Inscribir alumnos.](courses.md#main-pars_header_1058138132)
 
 ## Habilitar el control total del catálogo para los programas de aprendizaje {#catalog}
 
-Como conceder el pleno [control del catálogo para los aprendizajes o módulos](shared-catalog-full-control.md), también puede habilitar el control total del catálogo para los programas de aprendizaje.
+Al igual que la concesión del control total del [catálogo para los aprendizajes o módulos](shared-catalog-full-control.md), también puede habilitar el control total del catálogo para los programas de aprendizaje.
 
 ## Restablecer curso
 
@@ -70,11 +69,11 @@ En un programa de aprendizaje, el administrador puede restablecer el progreso de
 
 Para restablecer un curso, el administrador debe seleccionar uno en el menú desplegable Cursos.
 
-A continuación, desde la **[!UICONTROL Acciones]** lista desplegable, haga clic en **[!UICONTROL Restablecer curso]**.
+A continuación, en la lista desplegable **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Restablecer curso]**.
 
 Los alumnos pueden iniciar ahora los módulos de los cursos seleccionados desde el principio.
 
-**Nota: Solo se restablecerán los módulos fallidos e incompletos del curso.**
+**Nota: solo se restablecerán los módulos erróneos e incompletos del curso.**
 
 ## Crear varias instancias de programas de aprendizaje {#createmultipleinstancesoflearningprograms}
 
@@ -155,7 +154,7 @@ Los administradores pueden establecer el orden en el cual los alumnos deben efec
 
 Para actualizar el orden de los cursos en un programa de aprendizaje:
 
-1. Haga clic en la tarjeta del programa de aprendizaje que elija y, a continuación, haga clic en **[!UICONTROL Cursos]** en el panel izquierdo.
+1. Haga clic en la tarjeta del programa de aprendizaje que elija; a continuación, haga clic en **[!UICONTROL Cursos]** en el panel izquierdo.
 
 1. Se muestra una lista de las tarjetas de curso asociadas al programa de aprendizaje. Haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
 1. Puede cambiar el orden de la lista haciendo clic y arrastrando cada tarjeta de curso a la posición adecuada.

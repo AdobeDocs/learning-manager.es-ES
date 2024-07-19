@@ -2,7 +2,8 @@
 title: Novedades de esta versión (abril de 2023)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -64,7 +65,7 @@ La nueva aplicación móvil es compatible con las siguientes funciones clave en 
 * Compatibilidad con las insignias.
 * Compatibilidad con inicio de sesión de usuario externo.
 
-**Qué no se admite en esta versión**
+**Elementos no admitidos en esta versión**
 
 * Compatibilidad con varios intentos de añadir un módulo de prueba en un curso cuando este se realiza desde la aplicación móvil.
 * Opciones de búsqueda que permiten especificar parámetros de búsqueda, como metadatos del curso, etiquetas y aptitudes para especificar el ámbito de búsqueda.
@@ -121,7 +122,7 @@ Cuando el alumno hace clic en el vínculo o en el botón Ir al catálogo, se le 
 
 Es posible que en ocasiones quiera que un alumno filtre una sesión en el calendario en función de la ubicación. Una vez que haya añadido una ubicación mediante el cuadro de diálogo Ubicaciones de clase o el archivo CSV, el alumno podrá aplicar el filtro.
 
-![Añadir ubicaciones de clase](assets/add-classroom-locations.png)
+![Agregar ubicaciones de clase](assets/add-classroom-locations.png)
 
 Para obtener más información, consulte [Añadir ubicaciones de clase](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
@@ -129,7 +130,7 @@ Para obtener más información, consulte [Añadir ubicaciones de clase](/help/mi
 
 Como alumno, puede filtrar las sesiones que se le asignan por ubicación. Vaya al widget Calendario, seleccione Filtrar sesiones y seleccione la ubicación.
 
-![Sin filtros aplicados](assets/no-filters-applied.png)
+![No se aplicaron filtros](assets/no-filters-applied.png)
 
 ![Sesiones en el calendario sin filtros aplicados](assets/sessions-on-calendar-no-filters.png)
 
@@ -160,7 +161,7 @@ El chatbot:
 * Transferirá el chat a un agente en persona.
 * Conservará su historial de chat.
 
-![chatbot](assets/chatbot-new.png)
+![bot de chat](assets/chatbot-new.png)
 
 ## Mejorará de la lista de verificación de observaciones
 
@@ -221,13 +222,13 @@ Un administrador puede cambiar las instancias de los alumnos.
 
 ![cambiar instancias](assets/switch-instances.png)
 
-![cambiar instancias seleccionar](assets/switch-instances-select.png)
+![seleccionar instancias de modificador](assets/switch-instances-select.png)
 
 No puede cambiar de instancia hasta que se complete cualquier instancia del curso desde la aplicación del alumno o del administrador.
 
 Los autores, al crear un curso, pueden alternar entre activar o desactivar &quot;Cambio de instancia&quot;. El cambio de instancia solo está disponible para cursos gratuitos.
 
-Para obtener más información, consulte [Configuración de instancias](/help/migrated/authors/feature-summary/courses.md).
+Para obtener más información, vea [Configuración de instancias](/help/migrated/authors/feature-summary/courses.md).
 
 **Alumnos**
 
@@ -253,7 +254,7 @@ Para obtener más información, consulte [Informe de registro de auditoría de u
 
 Este informe captura el tiempo (en minutos) que un instructor dedica diariamente a impartir las sesiones asignadas. El informe se puede descargar durante un período de tres meses a partir de la fecha de inicio seleccionada.
 
-Para obtener más información, consulte [Informe de utilización del instructor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Para obtener más información, consulte [Informe de uso del instructor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![informe de utilización del instructor](assets/instructor-utilization.png)
 
@@ -261,7 +262,7 @@ Para obtener más información, consulte [Informe de utilización del instructor
 
 Un nuevo informe para hacer un seguimiento de las ayudas de trabajo presentes en la cuenta y otra información sobre las ayudas de trabajo, como el idioma, el tipo, la duración, el autor, las etiquetas, etc.
 
-Para obtener más información, consulte [Informe de inscripción de ayudas de trabajo](/help/migrated/administrators/feature-summary/reports.md).
+Para obtener más información, consulte el [informe de inscripción de ayudas de trabajo](/help/migrated/administrators/feature-summary/reports.md).
 
 ### Correos electrónicos ad hoc específicos para alumnos inscritos en una instancia de curso específica
 
@@ -281,7 +282,7 @@ Para los administradores, se ha añadido un nuevo tipo de anuncio: «Como correo
 
 Los administradores y autores personalizados también pueden ver esta opción en el nivel de instancia si tienen el acceso necesario.
 
-Para obtener más información, consulte [Anuncios](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Para obtener más información, vea [Anuncios](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Nuevas plantillas de correo electrónico
 
@@ -417,7 +418,7 @@ Se añaden los siguientes atributos:
 * instructorSkills
 * instructorSkillLevel
 
-**Extremo**: GET /primeapi/v2/account /&lt;account_id>/instructorskill/search
+**Extremo**: GET /primeapi/v2/account /&lt;ID_cuenta>/instructorskill/search
 
 ### Cambios de ILT
 
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Filtrado de grupos de usuarios de anuncios para pérdida en aplicación de alumno
 
-* El GET /users/{userId}La API /userGroups tiene un nuevo parámetro, filter.annodGroupsOnly, que toma un valor booleano (true/false). Esto filtra solo los grupos de usuarios que el administrador anuncia. El valor predeterminado de este parámetro es false.
+* La API GET /users/{userId}/userGroups tiene un nuevo parámetro, filter.annuncigroupOnly, que toma un valor booleano (true/false). Esto filtra solo los grupos de usuarios que el administrador anuncia. El valor predeterminado de este parámetro es false.
 * La API GET/learningObjects tiene un nuevo parámetro, filter.annunciedGroups, que acepta identificadores de grupos de anuncios para filtrar resultados.
 * La API de GET/búsqueda tiene un nuevo parámetro, filter.annunciedGroups, que acepta identificadores de grupos de anuncios para filtrar resultados.
 
@@ -631,11 +632,11 @@ Ejemplo de respuesta a continuación:
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte la [Notas de la versión](/help/migrated/release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
 
 ## Correcciones de errores
 
-Para ver los errores que se han solucionado en esta actualización, consulte la [Lista de errores corregidos](release-note/release-notes.md#bugs-fixed-in-this-release).
+Para ver los errores corregidos en esta actualización, consulte la [lista de errores corregidos](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisitos del sistema
 

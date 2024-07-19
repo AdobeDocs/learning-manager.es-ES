@@ -26,9 +26,9 @@ Como administrador, puede crear un programa de certificación alojado internamen
 
 1. Vea las certificaciones en varios modos:
 
-   1. Haga clic en **[!UICONTROL Draft]** para ver todas las certificaciones que están en estado de borrador. Debe completar su creación.
+   1. Haga clic en la ficha **[!UICONTROL Borrador]** para ver todas las certificaciones que están en estado Borrador. Debe completar su creación.
    1. Haga clic en **[!UICONTROL Publicado]** para ver todas las certificaciones publicadas por usted.
-   1. Haga clic en **[!UICONTROL Todo]** para ver las certificaciones en todos los estados.
+   1. Haga clic en **[!UICONTROL Todas]** para ver las certificaciones en todos los estados.
    1. Ordene y vea la lista de certificaciones en orden ascendente o descendente, o según la fecha en que las actualizó.
 
 1. Haga clic en **[!UICONTROL Añadir]**.
@@ -37,7 +37,7 @@ Como administrador, puede crear un programa de certificación alojado internamen
 
 ![](assets/add-new-certification.png)
 
-*Ver la página para añadir una certificación*
+*Ver la página para agregar una certificación*
 
 1. Añada el nombre del certificado y la descripción.
 
@@ -79,7 +79,7 @@ Como administrador, puede crear un programa de certificación alojado internamen
   <tr>
    <td>Emisor del certificado<br></td>
    <td>
-    <p>Elegir <b>Interno</b> si pertenece a su organización, o elija <b>Externo</b> para certificaciones de organizaciones externas.</p>
+    <p>Elige <b>Interna</b> si pertenece a tu organización o <b>Externa</b> para certificaciones de organizaciones externas.</p>
     <p>Si se elige <b>Certificación externa</b>, hay dos opciones más:</p>
     <ul>
      <li>Igual que fecha de aprobación<br></li>
@@ -102,18 +102,18 @@ Como administrador, puede crear un programa de certificación alojado internamen
  </tbody>
 </table>
 
-Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que han manifestado interés en esos productos y funciones.
+Seleccione los productos, roles y nivel de roles de la sección **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que hayan expresado interés en esos productos y roles.
 
 ![](assets/recommend-for.png)
 
 *Recomendación*
 
-Elija los cursos que se añadirán a la certificación de **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]** .
+Elija los cursos que se van a agregar a la certificación en la pestaña **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]**.
 
-Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de añadirlo.
+Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de agregarlo.
 
-1. Haga clic en **[!UICONTROL Plan de estudios]** para ver o verificar la lista de cursos que ha añadido.
-1. Haga clic en **[!UICONTROL Publicar]**.
+1. Haga clic en la ficha **[!UICONTROL Programa]** para ver o comprobar la lista de cursos que ha agregado.
+1. Haga clic en **[!UICONTROL Publish]**.
 
 ## Asignación de instancias de curso para certificaciones {#courseinstancemappingforcertifications}
 
@@ -142,18 +142,18 @@ Al crear certificaciones, el administrador tiene una opción para seleccionar si
 
 ![](assets/unenrollment.png)
 
-*Seleccionar dar de baja a alumnos*
+*Elegir dar de baja a los alumnos*
 
 ## Marcar finalización {#markcompletion}
 
 Los administradores pueden marcar una certificación como completa mediante la opción pertinente. Para marcar una certificación como completa, efectúe los pasos siguientes.
 
-1. Abrir **[!UICONTROL Certificación]** > **[!UICONTROL Alumnos]**.
+1. Abra **[!UICONTROL Certificación]** > **[!UICONTROL Alumnos]**.
 
    Se abre la página Alumnos con la lista de alumnos inscritos.
 
 1. Seleccione uno, varios o todos los alumnos para marcar Finalización de la certificación con la casilla de verificación que hay para cada alumno.
-1. Haga clic en  **[!UICONTROL Acción]** > **[!UICONTROL Marcar finalización.]**
+1. Haga clic en **[!UICONTROL Acción]** > **[!UICONTROL Marcar finalización.]**
 
    Si una certificación tiene varios cursos, se marcará la finalización de todos ellos.
 
@@ -161,13 +161,13 @@ Los administradores pueden marcar una certificación como completa mediante la o
 
 En versiones anteriores de Learning Manager, para obtener un certificado, no era obligatorio que el alumno en certificación externa completase el curso.
 
-Ahora puede hacer que los cursos sean obligatorios habilitando la opción **[!UICONTROL Definir los cursos requeridos como obligatorios para la finalización del certificado]** en la ficha Programa durante la edición de la certificación.
+Ahora puede hacer que los cursos sean obligatorios habilitando la opción **[!UICONTROL Definir los cursos requeridos como obligatorios para la finalización del certificado]** en la ficha Programa al editar la certificación.
 
 ## Editar una certificación publicada {#editingapublishedcertification}
 
 Un administrador puede editar una certificación en un estado publicado. En este estado, el administrador puede editar todas las secciones de una certificación y volver a publicar.
 
-Para editar una certificación publicada, haga clic en la tarjeta de certificación y, a continuación, en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
+Para editar una certificación publicada, haga clic en la tarjeta de certificación y haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
 
 Mientras edita las secciones de una certificación, si necesita abandonar la página, debe volver a publicar la certificación. Aparece un cuadro de diálogo de confirmación que le solicita volver a publicar la certificación.
 
@@ -181,4 +181,4 @@ Un administrador puede recopilar la puntuación de la prueba y los informes de e
 
 ![](assets/report-subscription.jpeg)
 
-*Establecer la frecuencia del informe y otras propiedades*
+*Establecer frecuencia de informes y otras propiedades*

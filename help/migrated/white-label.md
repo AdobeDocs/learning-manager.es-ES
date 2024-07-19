@@ -67,7 +67,7 @@ Se pueden personalizar las siguientes opciones:
 
    <td>
 
-    <p>Agregue varias cuentas (subdominios) si lo desea. Añada los subdominios separados por comas sin espacios. Por ejemplo, acc01,acc02,acc03, etc.<br> <b>Nota:</b> Debe añadir el ID de cuenta al especificar los subdominios.</br> </p>
+    <p>Agregue varias cuentas (subdominios) si lo desea. Añada los subdominios separados por comas sin espacios. Por ejemplo, acc01,acc02,acc03, etc.<br> <b>Nota:</b> Debe agregar el id. de cuenta al especificar los subdominios.</br> </p>
 
    </td>
 
@@ -287,9 +287,9 @@ Tanto Android como iOS utilizan Firebase Cloud Messaging (FCM) como servicio par
 
 Siga el procedimiento:
 
-1. Genere o descargue el **Certificado de notificación de inserción** y clave privada (.p12). Para obtener más información, consulte la [Documento para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Genere o descargue el **certificado de notificación push** y la clave privada (.p12). Para obtener más información, consulte el [documento para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Instale el archivo p12 después de descargar el archivo. Utilice la contraseña para instalar en su **Acceso a Llaveros**.
+1. Instale el archivo p12 después de descargar el archivo. Usa la contraseña para instalar en tu **acceso a Llaveros**.
 
 1. Vaya a **Mis certificados** y exporte el certificado. Asegúrese de seleccionar el tipo MIME .cer.
 
@@ -313,19 +313,19 @@ Cree un proyecto en Firebase y comparta el archivo services.json con el equipo d
 
 Para descargar el archivo services.json, siga estos pasos:
 
-1. Inicie sesión en el **Firebase** consola.
-1. Vaya a **Ajustes del proyecto** y seleccione **Cloud Messaging**.
-1. Buscar **API de mensajería de nube de Firebase** y seleccione **Administrar cuentas de servicio**.
-1. En la **Cuentas de servicio** , seleccione la página **Cuentas de servicio** en el panel izquierdo.
-1. Busque la entrada del proyecto y seleccione **Administrar detalles** en acciones.
+1. Inicie sesión en la consola de **Firebase**.
+1. Ve a **Configuración del proyecto** y selecciona **Mensajería en la nube**.
+1. Busque la **API de mensajería de Firebase Cloud** y seleccione **Administrar cuentas de servicio**.
+1. En la página **Cuentas de servicio**, seleccione **Cuentas de servicio** en el panel izquierdo.
+1. Busque la entrada del proyecto y seleccione **Administrar detalles** en Acciones.
 
    >[!NOTE]
    >
    >   El formato de la entrada de proyecto será &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Vaya a la **Teclas** y seleccione **Agregar clave**.
+1. Vaya a la pestaña **Claves** y seleccione **Agregar clave**.
 1. Si no hay ninguna clave, seleccione **Crear nueva clave** y seleccione **JSON** como tipo de clave. Esto generará y descargará el archivo JSON.
-1. Si ya existe una clave, seleccione **Cargar clave existente**, pegue la clave y cárguela. Esto generará y descargará el archivo JSON.
+1. Si ya hay una clave, seleccione **Cargar clave existente**, pegue la clave y cárguela. Esto generará y descargará el archivo JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Póngase en contacto con el equipo de CSM y comparta el archivo JSON para añadi
 
 Vuelva a utilizar el mismo proyecto que ha creado en los pasos anteriores para las notificaciones push.
 
-[Agregar el proyecto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) en Firebase y recupere el ***google-services.json*** archivo.
+[Agregue el proyecto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) en Firebase y recupere el archivo ***google-services.json***.
 
 ### iOS
 
-[Agregar el proyecto](https://firebase.google.com/docs/ios/setup) a Firebase y recuperar el ***GoogleService-Info.plist*** archivo.
+[Agregue el proyecto](https://firebase.google.com/docs/ios/setup) a Firebase y recupere el archivo ***GoogleService-Info.plist***.
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >Necesitará herramientas de creación de sdk de Android para crear los archivos binarios firmados.
 
-**¿Qué viene después?**
+**Lo que está por llegar**
 
 Después de generar los archivos binarios, muévalos a Play Store o App Store.
 
 ## ¿Cómo puedo aplicar los cambios?
 
-Envía los activos y archivos necesarios al equipo de CSM. A continuación, el equipo de CSM rellena el [forma](https://forms.office.com/r/bJRRaRBvSh) con los cambios necesarios y adjunta los activos necesarios. A continuación, el equipo examinará los cambios e informará a los equipos de ingeniería al respecto. A continuación, el equipo de ingeniería generará una compilación y la compartirá con el equipo de CSM.
+Envía los activos y archivos necesarios al equipo de CSM. A continuación, el equipo de CSM rellena el [formulario](https://forms.office.com/r/bJRRaRBvSh) con los cambios necesarios y adjunta los activos necesarios. A continuación, el equipo examinará los cambios e informará a los equipos de ingeniería al respecto. A continuación, el equipo de ingeniería generará una compilación y la compartirá con el equipo de CSM.
 
 El equipo de CSM compartirá la compilación con el cliente.
 

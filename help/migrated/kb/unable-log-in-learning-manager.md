@@ -3,14 +3,13 @@ description: Qué hacer cuando no se puede iniciar sesión en Learning Manager.
 jcr-language: en_us
 title: No se puede iniciar sesión en Learning Manager
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 72%
 
 ---
-
-
 
 # No se puede iniciar sesión en Learning Manager
 
@@ -48,7 +47,7 @@ Si sigue sin poder iniciar sesión, póngase en contacto con el administrador de
 
 Si forma parte de la cuenta y sigue sin poder iniciar sesión, el administrador debe comprobar si su Adobe ID es el mismo con el que está intentando iniciar sesión.
 
-A veces, el Adobe ID es diferente al ID de Adobe Learning Manager de la cuenta.
+En ocasiones, el Adobe ID es diferente al Adobe Learning Manager ID de la cuenta.
 
 ## Pasos siguientes
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Asignar aptitud con dominios de aptitudes
 description: Para que el motor de revisión habilitado para inteligencia artificial revise automáticamente una publicación de un usuario en relación con un determinado dominio, la empresa del usuario debe tener asignadas aptitudes personalizadas con los dominios de aptitudes admitidos que existen en el sistema de gestión de aprendizaje Learning Manager.
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # Asignar aptitud con dominios de aptitudes
 
@@ -58,7 +57,7 @@ Para añadir un dominio de aptitud, siga los pasos que se indican a continuació
 
    ![](assets/skill-domain-mapping.png)
 
-   *Añada los dominios de aptitudes en la sección Dominio de aptitudes*
+   *Agregue los dominios de aptitudes en la sección Dominio de aptitudes*
 
 1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**.
 
@@ -71,4 +70,3 @@ Si el contenido que se carga tiene una puntuación de confianza de más del 50 
 ![](assets/curation-notification.png)
 
 *Ver notificaciones según la puntuación de confianza*
-

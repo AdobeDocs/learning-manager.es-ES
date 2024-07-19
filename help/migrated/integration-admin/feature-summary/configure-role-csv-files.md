@@ -98,8 +98,8 @@ Puede especificar los ámbitos de los grupos de usuarios para varios tipos de gr
 * Valor y atributo de la hoja (por ejemplo, Department=HR)
 * Grupos de perfiles de registro automático (self_registration=profilename)
 * Grupos de perfiles de registro externo (ext_registration=profilename)
-* El equipo de un responsable de informes directos (manager_direct=`<emailid>`)
-* Una organización completa del responsable (manager_org=`<emailid>`)
+* Equipo de un responsable de subordinado directo (manager_direct=`<emailid>`)
+* Organización completa de un administrador (manager_org=`<emailid>`)
 
 **user_role.csv**
 
@@ -149,8 +149,8 @@ Si en el archivo CSV se proporcionan nombres de catálogos o de grupos de usuari
 
 En la cuenta de Box, seleccione **Importar > usuario > interno** y cargue los archivos role.csv y user_role.csv.
 
-* Los archivos role.csv y user_role.csv deben copiarse en la carpeta **Importar** > **usuario** > **interno** > **user_role**.
-* El archivo user.csv debe copiarse en la carpeta **Importar** > **usuario** > **interno**.
+* Los archivos role.csv y user_role.csv deben copiarse en la carpeta **Import** > **user** > **internal** > **user_role**.
+* El archivo user.csv debe copiarse en la carpeta **Import** > **user** > **internal**.
 
 Ambos archivos CSV deben cargarse solo a través de Box y no pueden cargarse a través de la interfaz de usuario.
 
@@ -176,7 +176,7 @@ En la sección Configuración de sincronización, habilite la opción **[!UICONT
 
 ![](assets/sync-settings.png)
 
-*Seleccione la opción Activar sincronización automática*
+*Seleccione la opción Habilitar sincronización automática*
 
 Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si configura las 12:00 h como hora de sincronización, las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
 

@@ -20,8 +20,8 @@ Importe aptitudes de proveedores de contenido, como LinkedIn y Go1, mediante los
 Siga los pasos del procedimiento para habilitar la importación de aptitudes en la cuenta.
 
 1. En la aplicación de administración, seleccione **Configuración** en el panel izquierdo.
-1. Seleccionar **General**.
-1. En la **Importación de aptitudes** , seleccione **Habilitar**. Si está activado, puede elegir un origen externo para importar aptitudes. Una vez activada, para todas las importaciones posteriores de recursos de aprendizaje, las aptitudes se importarán en el repositorio de aptitudes para los elementos recién importados. Las aptitudes de los recursos de aprendizaje existentes se pueden importar al repositorio de aptitudes una vez y, para ejecutar esta ejecución inicial, póngase en contacto con su CSM.
+1. Seleccione **General**.
+1. En la sección **Importación de aptitudes**, seleccione **Habilitar**. Si está activado, puede elegir un origen externo para importar aptitudes. Una vez activada, para todas las importaciones posteriores de recursos de aprendizaje, las aptitudes se importarán en el repositorio de aptitudes para los elementos recién importados. Las aptitudes de los recursos de aprendizaje existentes se pueden importar al repositorio de aptitudes una vez y, para ejecutar esta ejecución inicial, póngase en contacto con su CSM.
 1. Seleccione un proveedor de contenido en el menú desplegable.
 
 Como administrador, solo puede importar aptitudes desde una fuente.
@@ -38,11 +38,11 @@ Después de importar aptitudes, se añaden a los recursos de aprendizaje importa
 
 #### Informes
 
-La columna **Source** con valores: Interno, Aprendizaje de LinkedIn, Ir1, que indica el origen de la importación de aptitudes.
+La columna **Origen** con valores: Interno, LinkedIn Learning, Go1, que indica el origen de la importación de aptitudes.
 
 Las aptitudes añadidas recientemente estarán en la parte superior.
 
-Vaya a la página Configuración del curso, en la columna **Asignado por** que contiene valores, interno y proveedor de contenido.
+En la página de configuración del curso, la columna **Asignado por** que contiene valores, Interno y Proveedor de contenido.
 
 
 ## Flujo de trabajo del administrador de integración
@@ -53,9 +53,9 @@ El administrador de integración carga los archivos CSV (aptitud, nivel de aptit
 
 Como administrador,
 
-1. Seleccionar **Aptitudes** en el panel izquierdo.
+1. Seleccione **Aptitudes** en el panel izquierdo.
 1. Seleccione el origen de cualquier aptitud. Puede ver los cursos, las ayudas de trabajo, los alumnos inscritos y los instructores del curso.
 
 ### Editar una aptitud
 
-Seleccione una aptitud. En la **Editar una aptitud** , no se puede editar el nombre y la descripción de la aptitud. Sin embargo, puede añadir dominios de aptitudes y una insignia para la aptitud.
+Seleccione una aptitud. En el elemento emergente **Editar una aptitud**, no puedes editar el nombre y la descripción de la aptitud. Sin embargo, puede añadir dominios de aptitudes y una insignia para la aptitud.

@@ -3,14 +3,13 @@ description: Atraiga a usuarios mediante técnicas interactivas de Learning Mana
 jcr-language: en_us
 title: Interacción
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
 
 ---
-
-
 
 # Interacción
 
@@ -34,7 +33,7 @@ Algunas de las funciones de la tabla de posiciones para alumnos son las siguient
 
 * Los alumnos inscritos en una instancia del programa de aprendizaje pueden ver los puntos de los demás si la interacción está activada para esa instancia.
 * Haga clic en **[!UICONTROL Añadir compañeros]** para incluir un miembro de su equipo con el que desee compararse. La imagen de perfil del integrante del equipo se agrega a la escala de la línea de tiempo en la parte superior de la página Tabla de posiciones. Esta escala de la línea de tiempo muestra los puntos al inicio y mueve su posición hacia la derecha a medida que obtiene más puntos que los miembros de su equipo. Solo puede comparar respecto a otros miembros del mismo grupo.
-* **Grupos de usuarios:** En cualquier momento puede elegir los perfiles de los miembros de su equipo con los que desea comparar su clasificación, mediante la **[!UICONTROL Clasificarme con]** opción. En el campo Seleccionar grupos de usuarios, escriba y elija el grupo. La lista de todos los miembros del equipo, junto con sus últimos puntos se enumeran a continuación. Los usuarios internos y externos pueden ver la lista, pero solo los usuarios internos pueden buscar otros alumnos internos.
+* **Grupos de usuarios:** En cualquier momento, puedes elegir los perfiles de los miembros de tu equipo con los que deseas comparar tu clasificación mediante la opción **[!UICONTROL Clasificarme con]**. En el campo Seleccionar grupos de usuarios, escriba y elija el grupo. La lista de todos los miembros del equipo, junto con sus últimos puntos se enumeran a continuación. Los usuarios internos y externos pueden ver la lista, pero solo los usuarios internos pueden buscar otros alumnos internos.
 
 * Además, el cuadro de diálogo Personas alrededor de su nivel muestra los nombres de los miembros del equipo que están justo por debajo, por encima o en el mismo nivel que usted.
 * Cuando un usuario externo se convierte en interno, la cronología se actualiza automáticamente.
@@ -55,13 +54,13 @@ Las siguientes actividades se consideran actividades de aprendizaje:
 * Comentar en el tablero de aprendizaje social.
 * Publicar en el tablero de aprendizaje social.
 
-**Puntos de interacción para proporcionar comentarios de L1 y L3 y valoración de estrellas**
+**Puntos de interacción para proporcionar comentarios de L1 y L3 y valoraciones con estrellas**
 
 Adobe Learning Manager ahora permite que un administrador active un criterio de interacción que concede puntos a los usuarios cuando proporcionan comentarios de L1, de L3 y una valoración basada en estrellas.
 
 ![](assets/feedback-rating.png)
 
-*Ver valoración de comentarios*
+*Ver clasificación de comentarios*
 
 Esta función anima a los usuarios a proporcionar comentarios de forma activa, lo que beneficia tanto a los alumnos como a los administradores, que ahora comprenden mejor el punto de vista del alumno y pueden evaluar mejor la eficacia de un curso.
 

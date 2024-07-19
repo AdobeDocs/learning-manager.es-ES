@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Los botones de selección no aparecen en Learning Manager
 description: Debido a la falta de botones de opción, un administrador no puede asignar ni quitar funciones, enviar un mensaje de bienvenida ni eliminar a un usuario.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: d2c86f9f-3e79-4f1f-992e-f92873940061
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 55%
 
 ---
-
-
 
 # Los botones de selección no aparecen en Learning Manager
 
@@ -28,14 +27,14 @@ El problema se debe a temas incorrectos en la cuenta.
 
 ![](assets/radio-buttons.png)
 
-*Botones de opción no visibles*
+*Los botones de opción no están visibles*
 
 ## Resolución
 
 Vuelva a cargar los temas y corrija el aspecto de los botones de opción. Efectúe los pasos siguientes:
 
 1. Como administrador, haga clic en **[!UICONTROL Marca]**.
-1. En la **Temas** , haga clic en **[!UICONTROL Editar].**
+1. En la sección **Temas**, haga clic en **[!UICONTROL Editar].**
 1. Elija cualquier tema y guarde los cambios.
 
    ![](assets/set-themes.png)

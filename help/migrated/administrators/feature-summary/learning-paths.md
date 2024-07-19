@@ -27,7 +27,7 @@ En este curso de formación, aprenderá a crear una ruta de aprendizaje, añadir
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Ventajas de una ruta de aprendizaje
 
@@ -43,29 +43,29 @@ Las rutas de aprendizaje hacen que la entrega de un programa de formación sea p
 
 En Learning Manager, en la aplicación de administración, haga clic en **[!UICONTROL Ruta de aprendizaje]** en el panel izquierdo.
 
-En la **[!UICONTROL Ruta de aprendizaje]** página, haga clic en **[!UICONTROL Añadir]**. Introduzca los detalles.
+En la página **[!UICONTROL Ruta de aprendizaje]**, haga clic en **[!UICONTROL Agregar]**. Introduzca los detalles.
 
 ![](assets/add-learning-path.png)
 
-*Añadir una nueva ruta de aprendizaje*
+*Agregar una nueva ruta de aprendizaje*
 
-En la **Tipo de inscripción** opción, seleccionar **Inscripción automática** o **Inscripción de administrador**.
+En la opción **Tipo de inscripción**, seleccione **Inscripción automática** o **Inscripción de administrador**.
 
 >[!NOTE]
 >
->Si selecciona la **Inscripción de administrador** Los alumnos solo verán los cursos con nominación de responsable o aprobados por responsable. Los alumnos no podrán ver la ruta de aprendizaje en la sección de recomendaciones.
+>Si seleccionas la opción **Inscripción de administrador**, los alumnos solo verán los cursos con nominación de responsable o aprobados por responsable. Los alumnos no podrán ver la ruta de aprendizaje en la sección de recomendaciones.
 
 Después de crear la ruta de aprendizaje, seleccione la ruta de aprendizaje recién creada y añada los cursos en la ruta.
 
-Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para añadir una aptitud, seleccione la aptitud o aptitudes necesarias en el **[!UICONTROL Elegir una aptitud]** lista desplegable. Seleccione también el nivel de la aptitud o las aptitudes.
+Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para añadir una aptitud, selecciona la aptitud o aptitudes requeridas en la lista desplegable **[!UICONTROL Elegir una aptitud]**. Seleccione también el nivel de la aptitud o las aptitudes.
 
 ![](assets/add-skills.png)
 
-*Añadir una aptitud*
+*Agregar una aptitud*
 
 Asigne una insignia a la ruta de aprendizaje. Elija una insignia de la lista de insignias disponibles.
 
-Seleccione el nivel de productos, roles y roles del **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que han manifestado interés en esos productos y funciones.
+Seleccione los productos, roles y nivel de roles de la sección **[!UICONTROL Recomendar para]** para sugerir esta ruta de aprendizaje a los usuarios que hayan expresado interés en esos productos y roles.
 
 ![](assets/recommend-for.png)
 
@@ -81,7 +81,7 @@ En el cuadro de diálogo que aparece, seleccione la formación que desea añadir
 
 ![](assets/choose-training.png)
 
-*Añadir formación a la ruta de aprendizaje*
+*Agregar formación a la ruta de aprendizaje*
 
 Puede ordenar los cursos según las aptitudes asignadas, la fecha de modificación y la eficacia del curso.
 
@@ -91,25 +91,25 @@ En la ruta de aprendizaje, puede realizar lo siguiente:
 
 **Crear y configurar una sección:** Se crea una sección para agrupar varios cursos de formación que completen un área o componente sustancial de la formación. Cada sección puede tener un título. Cada sección también puede marcarse como Obligatoria con requisitos de finalización específicos.
 
-**Haga que los cursos sean obligatorios en cada sección:** Active o desactive la casilla de verificación Obligatorio si desea o no que los cursos de formación sean obligatorios en la ruta de aprendizaje. Si activa la casilla de verificación, puede hacer que todos los cursos de formación sean obligatorios o que algunos de ellos lo sean.
+**Convertir los cursos en obligatorios en cada sección:** Active o desactive la casilla de verificación Obligatorio si desea o no que los cursos de formación sean obligatorios en la ruta de aprendizaje. Si activa la casilla de verificación, puede hacer que todos los cursos de formación sean obligatorios o que algunos de ellos lo sean.
 
 ![](assets/choose-mandatory.png)
 
 *Convertir los cursos en obligatorios en cada sección*
 
-**Reorganizar el pedido:** Puede subir o bajar los cursos y cambiar su orden.
+**Reorganizar el pedido:** Puede mover los cursos hacia arriba o hacia abajo y cambiar su orden.
 
 ![](assets/rearrange.png)
 
-*Reorganizar el orden de la formación*
+*Reorganizar el orden del entrenamiento*
 
-**Eliminar un curso:** En la tarjeta del curso, haga clic en X y elimine el curso de la ruta de aprendizaje.
+**Quitar un curso:** En la tarjeta del curso, haga clic en X y quite el curso de la ruta de aprendizaje.
 
 ![](assets/remove-course.png)
 
 *Quitar un curso de la ruta de aprendizaje*
 
-Después de realizar los cambios, para publicar la ruta de aprendizaje, haga clic en Publicar.
+Después de realizar los cambios, para publicar la ruta de aprendizaje, haga clic en Publish.
 
 ## Ruta de aprendizaje anidada
 
@@ -119,7 +119,7 @@ Inserte la ruta de aprendizaje como insertar un curso.
 
 ![](assets/nested-learning-path.png)
 
-*Añadir una ruta de aprendizaje dentro de una ruta de aprendizaje*
+*Agregar una ruta de aprendizaje dentro de una ruta de aprendizaje*
 
 ## Configuración de ruta de aprendizaje
 
@@ -133,9 +133,9 @@ En la sección Configuración, puede agregar los requisitos previos y las ayudas
 
 Las instancias de Ruta de aprendizaje muestran un mosaico adicional, **[!UICONTROL Rutas de aprendizaje]**. El mosaico muestra el número de programas de aprendizaje añadidos a una ruta de aprendizaje.
 
-En la **Cursos** , puede ver las instancias del curso visibles para los alumnos que se inscriben en esta instancia.
+En el icono **Cursos**, puede ver las instancias de curso que están visibles para los alumnos que se inscriben en esta instancia.
 
-La **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje flexible)]** la casilla de verificación solo se aplica a los cursos. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a una ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
+La casilla de verificación **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje flexible)]** solo se aplica a cursos. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a una ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
 
 ![](assets/default-instance.png)
 
@@ -145,11 +145,11 @@ La **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje f
 
 Hay tres opciones:
 
-1. **[!UICONTROL Cursos y rutas de aprendizaje de todos los niveles de aptitudes (opción seleccionada de forma predeterminada)]:** El alumno recibe notificaciones de cualquier curso incompleto, independientemente del nivel dentro de una ruta de aprendizaje.
+1. **[!UICONTROL Cursos y rutas de aprendizaje de todos los niveles de aptitudes (seleccionados de forma predeterminada)]:** El alumno recibe notificaciones de cualquier curso incompleto, independientemente del nivel dentro de una ruta de aprendizaje.
 1. **[!UICONTROL Ruta de aprendizaje raíz]:** El alumno recibe notificaciones de cualquier curso incompleto que pertenezca a una ruta de aprendizaje principal.
-1. **[!UICONTROL Ruta de aprendizaje + solo niños de primer nivel de aptitud]:** El alumno recibe notificaciones de cualquier curso incompleto que sea un primer elemento secundario de una ruta de aprendizaje principal.
+1. **[!UICONTROL Ruta de aprendizaje + solo elementos secundarios del primer nivel de aptitud]:** El alumno recibe notificaciones de cualquier curso incompleto que sea el primer elemento secundario de una ruta de aprendizaje principal.
 
-Los recordatorios de notificación se activan en función de la opción. De forma predeterminada, la opción **[!UICONTROL Cursos de todos los niveles y rutas de aprendizaje]** está activada para una instancia.
+Los recordatorios de notificación se activan en función de la opción. De forma predeterminada, la opción **[!UICONTROL Cursos de todos los niveles y rutas de aprendizaje]** está habilitada para una instancia.
 
 ## Suscripciones
 
@@ -163,7 +163,7 @@ Siga estos pasos:
 
 ![](assets/subscriptions.png)
 
-*Suscribirse a rutas de aprendizaje individuales*
+*Suscribirse a la ruta de aprendizaje individual*
 
 ## Nota importante
 
@@ -173,7 +173,7 @@ Las rutas de aprendizaje le ofrecen una amplia gama de funciones. Algunas de ell
 
 Los alumnos pueden seguir consumiendo programas de aprendizaje (ahora denominados rutas de aprendizaje) y los autores/administradores también pueden seguir creándolos. Para aprovechar las funcionalidades ampliadas de la ruta de aprendizaje mencionadas anteriormente, el administrador debe habilitar la configuración como se indica a continuación. Una vez habilitadas, estarán disponibles todas las nuevas funciones ampliadas de la ruta de aprendizaje.
 
-La **[!UICONTROL Configuración]** > **[!UICONTROL General]** tiene una nueva opción para activar las rutas de aprendizaje. Si esta opción está activada, puede añadir cursos y programas de aprendizaje en una ruta de aprendizaje. Una vez activada, no se puede cambiar la opción.
+La página **[!UICONTROL Configuración]** > **[!UICONTROL General]** tiene una nueva opción para habilitar las rutas de aprendizaje. Si esta opción está activada, puede añadir cursos y programas de aprendizaje en una ruta de aprendizaje. Una vez activada, no se puede cambiar la opción.
 
 <!-- ## Other Learning Path-related details 
 

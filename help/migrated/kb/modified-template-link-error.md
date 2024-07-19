@@ -34,7 +34,7 @@ Esto suele ocurrir cuando las plantillas de correo electrónico se personalizan 
 Para evitar cualquier error relacionado con vínculos rotos que pueda aparecer debido a la personalización, siga los pasos que se indican a continuación:
 
 1. Inicie sesión como Administrador.
-1. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]**.
+1. En el panel izquierdo, haz clic en **[!UICONTROL Plantillas de correo electrónico]**.
 
 1. Desplácese hasta la plantilla correspondiente y haga clic en ella para modificarla.
 
@@ -46,8 +46,8 @@ Para evitar cualquier error relacionado con vínculos rotos que pueda aparecer d
 
    * Es recomendable que modifique una plantilla de correo electrónico en la interfaz de Learning Manager.
    * Copie y pegue la plantilla modificada en un archivo de Bloc de notas/Word para guardar una copia de los cambios realizados.
-   * Evite reemplazar el texto dinámico de la plantilla que aparece resaltado en azul. Por ejemplo, &quot;**NombreOrganización**&quot;, &quot;**Alumno**&quot;, &quot;**haga clic aquí**&quot;, &quot;**CertificateName**&quot;, etc.
+   * Evite reemplazar el texto dinámico de la plantilla que aparece resaltado en azul. Por ejemplo, &quot;**NombreOrganización**&quot;, &quot;**Alumno**&quot;, &quot;**haga clic aquí**&quot;, &quot;**NombreCertificado**&quot;, etc.
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar los cambios aplicados a la plantilla.
 1. Active el correo electrónico para verificar si los vínculos funcionan según lo previsto.
-1. Revertir los ajustes al original haciendo clic en la opción **Volver al original** para la plantilla modificada.
+1. Revierta la configuración a original haciendo clic en la opción **Volver a original** para la plantilla modificada.

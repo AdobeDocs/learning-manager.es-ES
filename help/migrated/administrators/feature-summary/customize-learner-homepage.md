@@ -27,17 +27,17 @@ En este curso de formación, explorará formas de personalizar la página de ini
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Configurar la página de inicio del alumno {#configurethelearnerhomepage}
 
-En la **Branding** > **Página de inicio del alumno** Un administrador puede personalizar la experiencia de la página de inicio de un alumno para que, cuando este inicie sesión en la aplicación del alumno, vea un aspecto completamente renovado.
+En la página **Marca** > **Página de inicio del alumno**, un administrador puede personalizar la experiencia de la página de inicio de un alumno para que, cuando este inicie sesión en la aplicación del alumno, vea un aspecto completamente renovado.
 
-Los administradores pueden configurar la interfaz de usuario (aspecto y funcionalidad) desde la aplicación de administración (**Branding** > **Página de inicio del alumno** ).
+Los administradores pueden configurar la interfaz de usuario (aspecto y funcionalidad) desde la aplicación de administración (**Marca** > pestaña **Página de inicio del alumno**).
 
 Los administradores pueden cambiar a la vista de widget de interfaz de usuario envolvente, personalizar los widgets y las funciones como corresponda y, a continuación, activar la interfaz de usuario envolvente.
 
-La **Página de inicio del alumno** Esta pantalla contiene las siguientes secciones:
+La pantalla **Página de inicio del alumno** contiene estas secciones:
 
 ## Opción de diseño envolvente {#immersivelayoutoption}
 
@@ -47,9 +47,9 @@ En versiones anteriores, las opciones de la página de inicio del alumno se enco
 
 Estas son las opciones que puede definir:
 
-**Experiencia de la página principal:** Active cualquiera de las opciones **Classic** o **Envolvente**. Si selecciona Envolvente, aparecerán las siguientes opciones:
+**Experiencia de página principal:** Habilite **Classic** o **Envolvente**. Si selecciona Envolvente, aparecerán las siguientes opciones:
 
-* **Tipo de formación:** Elija una de las opciones **Industria** o **Alineado personalizado**. Los cursos de formación personalizados se crean internamente. Los cursos de formación adaptados al sector incluyen contenido comercial de otros proveedores.
+* **Tipo de formación:** Elija **Sector** o **Personalizado**. Los cursos de formación personalizados se crean internamente. Los cursos de formación adaptados al sector incluyen contenido comercial de otros proveedores.
 
 ![](assets/select-homepage-experience.png)
 
@@ -78,13 +78,13 @@ Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. Es
 
 >[!NOTE]
 >
->La casilla de verificación **Explorar aptitudes** se ha trasladado a Configuración > General.
+>La casilla de verificación **Explorar aptitudes** se ha movido a Configuración > General.
 
 Esta opción se activará y aparecerá atenuada si se elige la experiencia envolvente. Esta casilla de verificación solo se activará para la experiencia clásica.
 
 ![](assets/option-immersive.png)
 
-*Configuración de la página principal del alumno*
+*Configuración de la página de inicio del alumno*
 
 El diseño envolvente es el predeterminado para todas las cuentas nuevas. El diseño está controlado por widgets que un administrador puede activar o desactivar. En función de cómo se coloquen los widgets, se mostrará lo mismo en la página de inicio del alumno.
 
@@ -92,11 +92,11 @@ Estos son los widgets que puede activar o desactivar.
 
 Mediante esta opción, puede obtener una vista previa de la interfaz de usuario del alumno cuando esta se active.
 
-Para las cuentas existentes, la opción **Envolvente** será **DESACTIVADO**. Se activa para una nueva cuenta con las opciones de redes sociales e interacción activadas.
+Para las cuentas existentes, la opción **Envolvente** estará **DESACTIVADA**. Se activa para una nueva cuenta con las opciones de redes sociales e interacción activadas.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Vista previa de la IU del alumno*
+*Vista previa de la interfaz de usuario del alumno*
 
 <table>
  <tbody>
@@ -203,7 +203,7 @@ Cuando el alumno inicia sesión en la aplicación a través de un navegador, pue
  </tbody>
 </table>
 
-*Ver el diseño envolvente para varias secciones en la página principal*
+*Ver diseño envolvente para varias secciones de la página principal*
 
 ## Opción de diseño clásico {#classiclayoutoption}
 
@@ -215,9 +215,9 @@ El diseño de interfaz de usuario que siempre ha existido hasta ahora se denomin
 
 ## Configurar parámetros de recomendación {#configurerecommendationsettings}
 
-Activado **Branding** > **General** Además, puede configurar los ámbitos de recomendación para alumnos internos y externos y permitir que los alumnos elijan aptitudes en la página de inicio del alumno.
+En **Marca** > **General**, puede configurar los ámbitos de recomendación para alumnos internos y externos y permitir que los alumnos elijan aptitudes en la página principal del alumno.
 
-En la **General** , dispone de las siguientes opciones:
+En la página **General**, tiene las siguientes opciones:
 
 <table>
  <tbody>
@@ -273,13 +273,13 @@ En la **General** , dispone de las siguientes opciones:
    <td>
     <p>Permitir al alumno explorar áreas de interés</p></td>
    <td>
-    <p>Solo para la experiencia clásica. Elegir <b>Sí </b>o <b>No</b>.<br></p></td>
+    <p>Solo para la experiencia clásica. Elija <b>Sí </b> o <b>No</b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Solicitar a los usuarios que seleccionen áreas de interés (aptitudes) <br></p></td>
    <td>
-    <p>Solo para la experiencia envolvente. Elegir <b>Sí</b> o <b>No</b>. <br></p></td>
+    <p>Solo para la experiencia envolvente. Elija <b>Sí</b> o <b>No</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

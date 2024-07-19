@@ -3,14 +3,13 @@ description: Primeros pasos como responsable en Learning Manager.
 jcr-language: en_us
 title: Primeros pasos para responsables
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Primeros pasos para responsables
 
@@ -36,4 +35,3 @@ En la página Introducción, puede realizar las siguientes actividades:
 También puede obtener más información sobre la aplicación Learning Manager al ver los tutoriales de vídeo y el contenido de ayuda y aprender sobre diferentes funciones.
 
 <!--![](assets/manager-experienceprime.png)-->
-

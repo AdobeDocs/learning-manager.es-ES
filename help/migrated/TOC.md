@@ -135,7 +135,7 @@ ht-degree: 88%
    * [Página de inicio del alumno](learners/feature-summary/learner-home-page.md)
    * [Compartir en Aprendizaje social](learners/feature-summary/share-to-social.md)
    * [Requisitos del sistema | Aplicación Adobe Learning Manager para escritorio](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Responsable {#manager}
+* Administrador {#manager}
    * [Inicio de sesión de usuario](managers/feature-summary/user-login.md)
    * [Tablero de responsable](managers/feature-summary/manager-dashboard.md)
    * [Informes](managers/feature-summary/reports.md)
@@ -149,7 +149,7 @@ ht-degree: 88%
    * [Preguntas más frecuentes para autores](authors/frequently-asked-questions-for-authors.md)
    * [Preguntas más frecuentes para instructores](instructors/frequently-asked-questions-for-instructors.md)
    * [Preguntas más frecuentes para responsables](managers/frequently-asked-questions-for-managers.md)
-* Base de conocimientos {#knowledge-base}
+* Base de conocimiento {#knowledge-base}
    * [No se puede iniciar sesión en Learning Manager](kb/unable-log-in-learning-manager.md)
    * [El resumen de aprendizaje no muestra los datos actuales](kb/learning-summary-not-display-data.md)
    * [No se puede cargar un archivo CSV](kb/unable-to-upload-csv.md)

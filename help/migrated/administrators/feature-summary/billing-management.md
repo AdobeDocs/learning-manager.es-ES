@@ -33,11 +33,11 @@ Puede comprar una suscripción para un máximo de 3500 alumnos mediante cualquie
 
    *Iniciar facturación de Adobe Learning Manager*
 
-1. En la **[!UICONTROL Información de facturación]** , añada el número de usuarios en la página **[!UICONTROL Añadir usuarios]** campo. Al utilizar una tarjeta de crédito para suscripciones de prepago, puede ver la cantidad de usuarios que puede añadir para la suscripción. El número de usuarios que puede agregar no debe exceder el número mencionado en la sección Restantes.1.
+1. En la página **[!UICONTROL Información de facturación]**, agregue el número de usuarios en el campo **[!UICONTROL Agregar usuarios]**. Al utilizar una tarjeta de crédito para suscripciones de prepago, puede ver la cantidad de usuarios que puede añadir para la suscripción. El número de usuarios que puede agregar no debe exceder el número mencionado en la sección Restantes.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
-   *Añadir número de usuarios*
+   *Agregar número de usuarios*
 
 1. Tras indicar la cantidad de usuarios que añadir, haga clic en Realizar pedido en la esquina superior derecha de la página.
 
@@ -59,7 +59,7 @@ Puede comprar una suscripción para un máximo de 3500 alumnos mediante cualquie
 
    ![](assets/payment-details.png)
 
-   *Ver datos de pago*
+   *Ver detalles de pago*
 
    También puede cambiar la configuración regional seleccionando el país en la lista desplegable.
 
@@ -67,8 +67,8 @@ Puede comprar una suscripción para un máximo de 3500 alumnos mediante cualquie
 
    *Seleccione el país de facturación*
 
-1. Proporcione su información de contacto, elija el tipo de tarjeta de crédito y especifique los datos de la tarjeta de crédito. Una vez que haya introducido los detalles necesarios, haga clic en **[!UICONTROL Completar pedido]**.
-1. Después de realizar el pedido, para ver los paquetes pedidos recientemente, haga clic en **[!UICONTROL Historial de pedidos]** de la pestaña **[!UICONTROL Factura]** página.
+1. Proporcione su información de contacto, elija el tipo de tarjeta de crédito y especifique los datos de la tarjeta de crédito. Después de introducir los detalles necesarios, haz clic en **[!UICONTROL Completar pedido]**.
+1. Después de realizar el pedido, para ver los paquetes pedidos recientemente, haz clic en la pestaña **[!UICONTROL Historial de pedidos]** en la página **[!UICONTROL Facturación]**.
 
    ![](assets/order-history.png)
 
@@ -80,7 +80,7 @@ Todos los pedidos pueden tener uno de los cuatro estados siguientes:
 
 **Activo:** un pedido está activo y los usuarios se registran correctamente.
 
-**Suspendido:** Un pedido pasa a tener el estado suspendido en los siguientes casos:
+**Suspendido:** Un pedido pasa a tener este estado en los siguientes casos:
 
 * Cuando hay algún retraso en el recibo del pago de la tarjeta de crédito.
 * Cuando caduca la tarjeta de crédito.
@@ -107,7 +107,7 @@ Todos los pedidos pueden tener uno de los cuatro estados siguientes:
 Para cancelar un pedido:
 
 1. En el panel izquierdo de la página Administrador, haga clic en Facturación.
-1. En la página Facturación, en la esquina superior derecha, seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Desactivar cuenta]**.
+1. En la página Facturación, en la esquina superior derecha, elija **[!UICONTROL Acciones]** > **[!UICONTROL Desactivar cuenta]**.
 1. Cuando el administrador desactiva la cuenta, se cancelan todos los pedidos a partir del siguiente ciclo de facturación.
 
 Cuando el cliente desactiva una cuenta, pasa a un estado de prueba durante los 30 días siguientes. El propietario de la cuenta recibe tres recordatorios por correo electrónico para reactivar la cuenta. Si no la reactiva, ninguno de los usuarios podrá acceder a Learning Manager, excepto el propietario.
@@ -125,9 +125,9 @@ El proceso de orden de compra es un método de pago alternativo. Como requisito 
 
 Tras la activación, una cuenta puede tener uno de los estados siguientes:
 
-* **Prueba** - Puedes crear una cuenta de Adobe Learning Manager y utilizarla sin ningún pago durante un período de 30 días. Durante el período de prueba, no hay límite en la cantidad de alumnos registrados.
-* **Activo** - En este estado, la cuenta tiene suscripciones activas de alumnos con pagos mensuales recurrentes según el pedido de suscripción.
-* **Inactivo** - Una cuenta pasa a estar inactiva en los siguientes casos:
+* **Prueba**: puedes crear una cuenta de Adobe Learning Manager y usarla sin ningún pago durante un período de 30 días. Durante el período de prueba, no hay límite en la cantidad de alumnos registrados.
+* **Activo**: en este estado, la cuenta tiene suscripciones de alumno activas con pagos mensuales recurrentes según el pedido de suscripción.
+* **Inactivo**: una cuenta pasa a este estado en los siguientes casos:
 
    * Después del período de prueba, si no hay pedidos de suscripción activos en la cuenta.
    * El administrador desactiva la cuenta, lo que hace que se cancelen todos los pedidos existentes en una cuenta a partir del siguiente ciclo de facturación de la suscripción.
@@ -139,7 +139,7 @@ su tarjeta de crédito si ha caducado. En un estado inactivo, sólo un administr
 
 cuenta de Learning Manager. Los demás usuarios no tienen acceso a la cuenta.
 
-* **Se requiere activación** - La cuenta pasa a este estado cuando el administrador de Learning Manager decide desactivar la cuenta. Se cancelan todos los pedidos de esta cuenta. El cobro de pagos de estos pedidos no se produce en el próximo ciclo de facturación. La cuenta se mantiene en este estado hasta la fecha del último ciclo de facturación. En este estado, todos los usuarios pueden continuar utilizando la aplicación sin problema hasta el final de la última fecha de pago recurrente.
+* **Se requiere activación**: tu cuenta pasa a este estado cuando el administrador de Learning Manager decide desactivar la cuenta. Se cancelan todos los pedidos de esta cuenta. El cobro de pagos de estos pedidos no se produce en el próximo ciclo de facturación. La cuenta se mantiene en este estado hasta la fecha del último ciclo de facturación. En este estado, todos los usuarios pueden continuar utilizando la aplicación sin problema hasta el final de la última fecha de pago recurrente.
 
 ## Cancelar una suscripción {#Cancelasubscription-1}
 
@@ -186,7 +186,7 @@ Cualquier usuario que efectúe las acciones siguientes o consiga finalizaciones 
 
 1. En la página que se muestra, puede ver el contenido siguiente:
 
-   * **Uso general:** Puede comprobar el número total de usuarios activos, los usuarios que consumen Learning Manager en un mes y el número de usuarios que aún no se han inscrito en ningún curso.
+   * **Uso general:** Puede comprobar el número total de usuarios activos, los usuarios que consumen Learning Manager en un mes y el número de usuarios que aún no se han registrado en ningún curso.
 
    * **Uso mensual:** Puede ver una tabla de usuarios activos únicos al mes.
 
@@ -219,25 +219,25 @@ Para eliminar una suscripción activa, póngase en contacto con el equipo de asi
 
 +++Cómo cambiar una tarjeta de crédito para suscripciones
 
-En la **[!UICONTROL Historial de pedidos]** , para una cuenta activa, haga clic en **[!UICONTROL Editar]**. A continuación, en la página Datos de la suscripción, haga clic en **[!UICONTROL Editar suscripción]**. Introduzca los datos de la nueva tarjeta de crédito y haga clic en **[!UICONTROL Actualizar método de pago]**.
+En la pestaña **[!UICONTROL Historial de pedidos]**, para una cuenta activa, haz clic en **[!UICONTROL Editar]**. A continuación, en la página Datos de la suscripción, haga clic en **[!UICONTROL Editar suscripción]**. Introduzca los datos de la nueva tarjeta de crédito y haga clic en **[!UICONTROL Actualizar método de pago]**.
 
 ![](assets/credit-card-details.png)
 
-*Ver datos de la tarjeta de crédito*
+*Ver detalles de la tarjeta de crédito*
 +++
 
 +++Cómo actualizar la información de facturación en Learning Manager
 
 Para actualizar la información de facturación, siga los pasos que se indican a continuación:
 
-1. Iniciar sesión como **Administrador** y haga clic en **[!UICONTROL Factura]**.
+1. Inicie sesión como **administrador** y haga clic en **[!UICONTROL Facturación]**.
 1. En la lista de pedidos, haga clic en **[!UICONTROL Editar]**.
 1. En la página Datos de la suscripción, haga clic en **[!UICONTROL Editar suscripción]**.
 
 Elija el elemento que desea editar:
 
-1. **[!UICONTROL Forma de pago]:** Utilice esta opción para actualizar los datos de pago como, por ejemplo, la tarjeta de crédito.
-1. **[!UICONTROL Dirección]:** Utilice esta opción para actualizar los detalles de la dirección.
+1. **[!UICONTROL Método de pago]:** Utilice esta opción para actualizar los datos de pago como, por ejemplo, la tarjeta de crédito.
+1. **[!UICONTROL Dirección]:** Use esta opción para actualizar los detalles de la dirección.
 +++
 
 +++¿Puedo cancelar parcialmente una suscripción?
@@ -249,6 +249,6 @@ No, no se puede cancelar parcialmente una suscripción. Si necesita reducir el n
 
 Póngase en contacto con [FastSpring](https://fastspring.com/) para obtener una factura de sus pagos mediante una de las siguientes formas:
 
-* Crear una solicitud de servicio con FastSpring mediante el vínculo `https://questionacharge.com`.
-* Enviar un correo electrónico a FastSpring el `orders@fastspring.com` solicitando la factura.
+* Cree una solicitud de servicio con FastSpring mediante el vínculo `https://questionacharge.com`.
+* Envíe un correo electrónico a FastSpring el `orders@fastspring.com` solicitando la factura.
 +++

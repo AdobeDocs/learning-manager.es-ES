@@ -2,7 +2,8 @@
 title: Novedades de esta versión (noviembre de 2022)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -275,8 +276,8 @@ Por lo tanto, para borrar la cookie, hemos introducido un nuevo punto final, que
 
 **Parámetros de consulta**
 
-* `cookie=true|false` - indica que la cookie debe ser revocada
-* `refresh_token=true|false` - indica que actualizar
+* `cookie=true|false` : indica que es necesario revocar la cookie
+* `refresh_token=true|false`: indica que se ha actualizado
 
 **Cuerpo de solicitud**
 
@@ -302,7 +303,7 @@ En esta versión, hemos hecho públicas algunas API.
 |---|---|---|
 | /social/search | GET | Realice búsquedas en las redes sociales. |
 | /anuncios | GET | Obtenga información detallada sobre el anuncio en la cabecera asignada al alumno. |
-| /anuncios/`{id}` | GET | Obtenga información detallada sobre el anuncio en la cabecera asignada al alumno. |
+| /notifications/`{id}` | GET | Obtenga información detallada sobre el anuncio en la cabecera asignada al alumno. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | URL de carga del archivo para loResource de resourceType &#39;Activity&#39; donde se requiere el envío del archivo. |
 | /jobAid/`{jobAidId}`/jobAidDownloaded | GET | Establecer informe de descarga de ayuda de trabajo. |
 | /bulkimport/startrun | POST | Ejecute una importación en bloque. |
@@ -315,7 +316,7 @@ En esta versión, hemos hecho públicas algunas API.
 
 ### Aplicación Salesforce
 
-La **Omitir pedido superior LO** Esta opción debe estar activada en la aplicación Salesforce para que todos los cursos, programas de aprendizaje y certificados se puedan ver al mismo tiempo.
+La opción **Ignorar objeto de aprendizaje de orden superior** debe estar habilitada en la aplicación Salesforce para que todos los cursos, programas de aprendizaje y certificados se puedan ver al mismo tiempo.
 
 ### API para la personalización del reproductor
 
@@ -339,23 +340,23 @@ La API /primeapi/v2/learningObjects/certification:xxxxx presentará el atributo 
 
 ### Obtener datos de vista previa de objetos de aprendizaje
 
-El GET /preview/learningObjects/{id} La API se añade a Obtener información de vista previa sobre un objeto de aprendizaje.
+La API GET /preview/learningObjects/{id} se añade a Obtener información de vista previa sobre un objeto de aprendizaje.
 
 ### Mover usuarios externos en perfiles
 
-La `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` Esta llamada ayuda a mover un usuario a otro perfil externo especificando un nuevo id. de perfil externo.
+La llamada `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` ayuda a mover un usuario a otro perfil externo especificando un nuevo id. externalProfile.
 
 ### Añadir usuarios a perfiles externos
 
-La `POST /externalProfiles/{id}/users` añade usuarios externos a un perfil externo.
+`POST /externalProfiles/{id}/users` agrega usuarios externos al perfil externo.
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte la [Notas de la versión](/help/migrated/release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
 
 ## Correcciones de errores
 
-Para ver los errores que se han solucionado en esta actualización, consulte la [Lista de errores corregidos](release-note/release-notes.md#bugs-fixed-in-this-release).
+Para ver los errores corregidos en esta actualización, consulte la [lista de errores corregidos](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisitos del sistema
 

@@ -3,14 +3,13 @@ description: Los catálogos en Learning Manager se componen de los cursos, los p
 jcr-language: en_us
 title: Catálogos
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 83%
 
 ---
-
-
 
 # Catálogos
 
@@ -30,7 +29,7 @@ Use las opciones de filtro como se muestra en la captura de pantalla siguiente p
 
 ![](assets/search-options.png)
 
-*Busque los cursos en el catálogo*
+*Buscar cursos en el catálogo*
 
 ## Crear curso de clase virtual con Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
@@ -46,7 +45,7 @@ Use las opciones de filtro como se muestra en la captura de pantalla siguiente p
 
    ![](assets/choose-instructor.png)
 
-   *Seleccione el instructor en la lista*
+   *Seleccione el instructor de la lista*
 
 1. Proporcionar criterios de finalización para el curso de clase virtual. Los criterios de finalización son el porcentaje de duración total del curso al que un alumno debe asistir para que un curso se considere completado. Por ejemplo, la duración del curso es 1 hora. Si define unos criterios de finalización del 50%, si un alumno asiste a él incluso durante 30 minutos, se considera que el alumno ha completado el curso.
 

@@ -19,9 +19,9 @@ Este documento proporciona un enfoque recomendado para que las empresas instalen
 
 Estas fases pueden realizarlas tres funciones diferentes, una o más personas según la configuración de su organización. Las tres funciones son las siguientes:
 
-1. **Administrador de TI** - El administrador de TI realiza actividades relacionadas con la activación o la integración asociadas a la aplicación Learning Manager en una organización. El administrador de TI también puede agregar uno o varios usuarios, y desempeñar una función de administrador de integración.
-1. **Autor** - El autor crea el contenido de aprendizaje necesario para los requisitos de aprendizaje de la organización. El autor del contenido de formación o de aprendizaje de su organización puede comenzar a crear el contenido básico necesario para la aplicación de Learning Manager.
-1. **Administrador de Learning Manager** - El administrador de la aplicación Learning Manager realiza actividades de configuración y configuración. En algunas empresas, el administrador de TI también puede desempeñar la función de administrador de la aplicación Learning Manager.
+1. **Administrador de TI**: el administrador de TI realiza actividades relacionadas con la activación o la integración asociadas con la aplicación Learning Manager en una organización. El administrador de TI también puede agregar uno o varios usuarios, y desempeñar una función de administrador de integración.
+1. **Autor**: el autor crea el contenido de aprendizaje necesario para los requisitos de aprendizaje de la organización. El autor del contenido de formación o de aprendizaje de su organización puede comenzar a crear el contenido básico necesario para la aplicación de Learning Manager.
+1. **Administrador de Learning Manager**: el administrador de la aplicación Learning Manager realiza actividades de configuración y configuración. En algunas empresas, el administrador de TI también puede desempeñar la función de administrador de la aplicación Learning Manager.
 
 Puede revisar la infografía que se proporciona a continuación para obtener una descripción general de las fases y las tareas correspondientes.
 
@@ -35,19 +35,19 @@ En la versión 1, el administrador de TI de su organización puede cambiar a la 
 
 ### Activar o añadir campos activos (administrador de Learning Manager) {#enableaddactivefieldscaptivateprimeadministrator}
 
-Además de los campos activos proporcionados por los usuarios durante el registro, el administrador puede agregar más campos activos. El administrador también puede habilitar y deshabilitar los campos de usuario. Los valores de estos campos activos se generan a partir de los metadatos de varias fuentes de datos asociadas a cuentas de usuario. Consulte la [Ayuda de campos activos](feature-summary/add-users-user-groups.md#active-fields) para obtener más información.
+Además de los campos activos proporcionados por los usuarios durante el registro, el administrador puede agregar más campos activos. El administrador también puede habilitar y deshabilitar los campos de usuario. Los valores de estos campos activos se generan a partir de los metadatos de varias fuentes de datos asociadas a cuentas de usuario. Consulte [Ayuda de campos activos](feature-summary/add-users-user-groups.md#active-fields) para obtener más información.
 
 ### Inicio de sesión único {#singlesignonsso}
 
-Puede acceder a la aplicación Learning Manager mediante Adobe ID o el inicio de sesión único. El inicio de sesión único es un mecanismo que permite a un usuario autenticarse una vez y obtener acceso a varias aplicaciones muchas veces. Esta configuración no es obligatoria para la empresa. Si su empresa tiene un proveedor de inicio de sesión único basado en SAML 2.0, puede usarlo para configurar la aplicación Learning Manager. La configuración es necesaria en su empresa y en la aplicación Learning Manager. Si elige usar inicio de sesión único, póngase en contacto con la asistencia de Adobe para recibir instrucciones sobre configuración. Consulte la [Ayuda de configuración](feature-summary/settings.md) para obtener más información.
+Puede acceder a la aplicación Learning Manager mediante Adobe ID o el inicio de sesión único. El inicio de sesión único es un mecanismo que permite a un usuario autenticarse una vez y obtener acceso a varias aplicaciones muchas veces. Esta configuración no es obligatoria para la empresa. Si su empresa tiene un proveedor de inicio de sesión único basado en SAML 2.0, puede usarlo para configurar la aplicación Learning Manager. La configuración es necesaria en su empresa y en la aplicación Learning Manager. Si elige usar inicio de sesión único, póngase en contacto con la asistencia de Adobe para recibir instrucciones sobre configuración. Consulte [Ayuda de configuración](feature-summary/settings.md) para obtener más información.
 
 ### Importación en bloque de usuarios {#bulkimportofusers}
 
-Cuando tiene un gran volumen de usuarios en su empresa, puede importar todos los usuarios en bloque a la aplicación Learning Manager mediante un archivo .csv. Antes de realizar esta tarea, le recomendamos que exporte la lista de usuarios de la aplicación de RR. HH. de su organización en formato .CSV. Incluso si no importa en bloque los usuarios en esta etapa, puede familiarizarse con el formato CSV. Para comenzar con el proceso de importación en Learning Manager, cargue el archivo .CSV y asigne los campos de datos de la aplicación a las columnas CSV de su organización. Consulte la [Ayuda de importación masiva](add-users-in-bulk.md) para obtener más información.
+Cuando tiene un gran volumen de usuarios en su empresa, puede importar todos los usuarios en bloque a la aplicación Learning Manager mediante un archivo .csv. Antes de realizar esta tarea, le recomendamos que exporte la lista de usuarios de la aplicación de RR. HH. de su organización en formato .CSV. Incluso si no importa en bloque los usuarios en esta etapa, puede familiarizarse con el formato CSV. Para comenzar con el proceso de importación en Learning Manager, cargue el archivo .CSV y asigne los campos de datos de la aplicación a las columnas CSV de su organización. Consulte [Ayuda de importación en bloque](add-users-in-bulk.md) para obtener más información.
 
 ### Integración del conector de FTP {#ftpconnectorintegration}
 
-Si debe afrontar la adición o eliminación continuas de empleados en su empresa, puede optar por automatizar la importación en bloque de usuarios mediante un conector FTP. Primero debe establecer una conexión; después, puede cargar un archivo .csv y asignar los atributos de CSV con los campos correspondientes de Learning Manager. Puede programar el proceso de importación automática y sincronizarlo cuando sea necesario. Consulte la [Ayuda del conector FTP](../integration-admin/feature-summary/connectors.md#ftpconnector) para obtener más información.
+Si debe afrontar la adición o eliminación continuas de empleados en su empresa, puede optar por automatizar la importación en bloque de usuarios mediante un conector FTP. Primero debe establecer una conexión; después, puede cargar un archivo .csv y asignar los atributos de CSV con los campos correspondientes de Learning Manager. Puede programar el proceso de importación automática y sincronizarlo cuando sea necesario. Consulte [Ayuda del conector de FTP](../integration-admin/feature-summary/connectors.md#ftpconnector) para obtener más información.
 
 ### Integración de conectores de Salesforce {#salesforceconnectorintegration}
 
@@ -67,7 +67,7 @@ El administrador de la aplicación Learning Manager de su empresa debe instalar 
 
 ### Marca {#branding}
 
-Es posible que una organización desee mostrar el logotipo de la empresa en la aplicación Learning Manager, tener su propio dominio en la URL, mostrar el nombre de la organización y mostrar esquemas de colores que coincidan con la marca de una organización. Learning Manager permite a las empresas usar todas estas funciones. Si desea personalizar la configuración y usar su propia marca, haga clic en la sección Marca en el panel izquierdo. Haga clic en Editar junto a todas estas opciones y personalice según sus requisitos. Consulte la [Ayuda de marcas y temas](feature-summary/themes.md) para obtener más información.
+Es posible que una organización desee mostrar el logotipo de la empresa en la aplicación Learning Manager, tener su propio dominio en la URL, mostrar el nombre de la organización y mostrar esquemas de colores que coincidan con la marca de una organización. Learning Manager permite a las empresas usar todas estas funciones. Si desea personalizar la configuración y usar su propia marca, haga clic en la sección Marca en el panel izquierdo. Haga clic en Editar junto a todas estas opciones y personalice según sus requisitos. Consulte [Ayuda de marcas y temas](feature-summary/themes.md) para obtener más información.
 
 ### Añadir usuarios o grupos de usuarios {#addusersusergroups}
 
@@ -76,8 +76,8 @@ Como los alumnos son los usuarios principales de su contenido de aprendizaje, ag
 #### Añadir usuarios (internos) {#addusersinternal}
 
 * **Como un solo usuario**: añadir usuarios individuales a la aplicación Learning Manager le permite probar algunos de los usuarios antes de incorporarlos de forma masiva. Además, esta opción es útil cuando desea agregar más usuarios individuales según sea necesario, después de la importación en bloque de usuarios.
-* **Registro automático** - Esta opción permite a los administradores permitir que sus empleados se registren en Learning Manager.
-* **Importación en bloque** (carga de CSV): con esta opción, puede importar usuarios en bloque a la aplicación Learning Manager. Como requisito previo, debe tener lista la lista de usuarios en formato CSV antes de utilizar esta función.
+* **Registro automático**: esta opción permite a los administradores permitir que sus empleados se registren en Learning Manager.
+* **Importación en bloque** (mediante carga de CSV): con esta opción, puede importar usuarios en bloque a la aplicación de Learning Manager. Como requisito previo, debe tener lista la lista de usuarios en formato CSV antes de utilizar esta función.
 
 #### Añadir usuarios (perfiles externos) {#addusersexternalprofiles}
 
@@ -89,7 +89,7 @@ La aplicación Learning Manager genera grupos de usuarios predeterminados basado
 
 ### Asignar funciones {#assignroles}
 
-Después de añadir usuarios a Learning Manager, el administrador puede empezar a asignar funciones de autor, administrador o administrador de integración a los usuarios según los requisitos de la empresa. Para asignar funciones a los usuarios, en el inicio de sesión del administrador, puede hacer clic en **[!UICONTROL Usuarios]**  en el panel izquierdo, seleccione la casilla de verificación junto a cada nombre de usuario y haga clic en **[!UICONTROL Acciones]** para elegir la función que desea asignar. Adobe Learning Manager asigna las funciones de responsable a los usuarios en función de las funciones o privilegios que indique su organización en el archivo CSV. También puede cambiar las funciones de los usuarios como responsables mediante el flujo de trabajo Editar usuarios. Consulte[ Ayuda para añadir usuarios](feature-summary/add-users-user-groups.md) para obtener más información.
+Después de añadir usuarios a Learning Manager, el administrador puede empezar a asignar funciones de autor, administrador o administrador de integración a los usuarios según los requisitos de la empresa. Para asignar funciones a los usuarios, en el inicio de sesión del administrador, puede hacer clic en **[!UICONTROL Usuarios]** en el panel izquierdo, seleccionar la casilla de verificación junto a cada nombre de usuario y hacer clic en el menú desplegable **[!UICONTROL Acciones]** para elegir la función que desea asignar. Adobe Learning Manager asigna funciones de responsable a los usuarios en función de las funciones o privilegios que indique su organización en el archivo CSV. También puede cambiar las funciones de los usuarios como responsables mediante el flujo de trabajo Editar usuarios. Consulte[ Ayuda para añadir usuarios](feature-summary/add-users-user-groups.md) para obtener más información.
 
 ### Plantillas de notificación {#notificationtemplates}
 
@@ -101,7 +101,7 @@ De forma predeterminada, en la aplicación Learning Manager las notificaciones e
 
 ### Insignias {#badges}
 
-Las insignias son logros que el empleado puede ganar por la realización de un curso. Los profesionales de todo el mundo utilizan estas insignias como representación de aptitudes o logros de aprendizaje. Puede crear una colección de insignias para asignarlas a los alumnos una vez que se completa el contenido de aprendizaje. Para comenzar a crear insignias, haga clic en la función **[!UICONTROL Insignias]** en el panel izquierdo. Consulte la  [Ayuda de insignias](feature-summary/badges.md) para obtener más información.
+Las insignias son logros que el empleado puede ganar por la realización de un curso. Los profesionales de todo el mundo utilizan estas insignias como representación de aptitudes o logros de aprendizaje. Puede crear una colección de insignias para asignarlas a los alumnos una vez que se completa el contenido de aprendizaje. Para comenzar a crear insignias, haga clic en la función **[!UICONTROL Insignias]** en el panel izquierdo. Consulte [Ayuda de insignias](feature-summary/badges.md) para obtener más información.
 
 ### Comentarios {#feedback}
 
@@ -124,11 +124,11 @@ En este punto, una vez creados los módulos y los cursos, puede comenzar a crear
 
 #### Crear certificaciones {#createcertifications}
 
-La certificación es una prueba de la finalización de un contenido de aprendizaje o una prueba de logro para los alumnos una vez o en un intervalo recurrente. La inscripción de los alumnos a contenido de aprendizaje se puede aumentar proporcionando certificación a los alumnos tras finalizar el curso. Como administrador, puede crear un programa de certificación alojado internamente o administrado por un tercero. En la certificación interna, defina los cursos que un alumno debe completar para obtener la certificación. Antes de crear la certificación, asegúrese de tener algunos varios cursos disponibles en la cuenta. Consulte la  [Ayuda de certificación](feature-summary/certifications.md) para obtener más información sobre cómo crear certificaciones.
+La certificación es una prueba de la finalización de un contenido de aprendizaje o una prueba de logro para los alumnos una vez o en un intervalo recurrente. La inscripción de los alumnos a contenido de aprendizaje se puede aumentar proporcionando certificación a los alumnos tras finalizar el curso. Como administrador, puede crear un programa de certificación alojado internamente o administrado por un tercero. En la certificación interna, defina los cursos que un alumno debe completar para obtener la certificación. Antes de crear la certificación, asegúrese de tener algunos varios cursos disponibles en la cuenta. Consulta [Ayuda de certificación](feature-summary/certifications.md) para obtener más información sobre cómo crear certificaciones.
 
 #### Crear ayudas de trabajo {#createjobaids}
 
-Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo mientras están en el trabajo a fin de obtener asistencia para efectuar cualquier actividad o tarea de una empresa. Aunque no es obligatorio utilizar ayudas de trabajo como parte de la creación del curso, el equipo de Learning Manager recomienda crear ayudas de trabajo como práctica recomendada para su empresa. Consulte la  [Ayuda de ayudas de trabajo](../authors/feature-summary/job-aids.md) para obtener información sobre cómo crear ayudas de trabajo.
+Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo mientras están en el trabajo a fin de obtener asistencia para efectuar cualquier actividad o tarea de una empresa. Aunque no es obligatorio utilizar ayudas de trabajo como parte de la creación del curso, el equipo de Learning Manager recomienda crear ayudas de trabajo como práctica recomendada para su empresa. Consulte la [Ayuda de ayudas de trabajo](../authors/feature-summary/job-aids.md) para obtener información sobre cómo crear ayudas de trabajo.
 
 #### Crear programas de aprendizaje {#createlearningprograms}
 
@@ -136,7 +136,7 @@ Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente
 
 ### Crear catálogos {#createcatalogs}
 
-Puede usar catálogos en una empresa para crear un contenido específico o para clasificar contenido para un conjunto definido de alumnos. En Learning Manager, un catálogo es una colección de objetos de aprendizaje como cursos, certificaciones o programas de aprendizaje. Puede elegir los objetos de aprendizaje que desee al crear catálogos. Asegúrese de haber creado ya un conjunto de cursos, certificaciones o programas de aprendizaje antes de crear los catálogos. Puede crear catálogos personalizados con un conjunto de objetos de aprendizaje si desea asignarlos a cualquier grupo de usuarios internos o externos. Consulte la  [Ayuda de catálogos](feature-summary/catalogs.md) para obtener más información sobre los catálogos.
+Puede usar catálogos en una empresa para crear un contenido específico o para clasificar contenido para un conjunto definido de alumnos. En Learning Manager, un catálogo es una colección de objetos de aprendizaje como cursos, certificaciones o programas de aprendizaje. Puede elegir los objetos de aprendizaje que desee al crear catálogos. Asegúrese de haber creado ya un conjunto de cursos, certificaciones o programas de aprendizaje antes de crear los catálogos. Puede crear catálogos personalizados con un conjunto de objetos de aprendizaje si desea asignarlos a cualquier grupo de usuarios internos o externos. Consulte la [Ayuda de catálogos](feature-summary/catalogs.md) para obtener más información sobre los catálogos.
 
 ### Activar notificaciones por correo electrónico/acceso de usuario {#turnonemailnotificationsuseraccess}
 
@@ -148,11 +148,11 @@ Los desarrolladores de contenido o los autores de su organización pueden empeza
 
 ### Crear módulos {#createmodules}
 
-Los módulos son los componentes básicos de la aplicación Learning Manager. Para organizar el contenido de aprendizaje, empiece a crear módulos como autor. Learning Manager le permite elegir cualquiera de los cuatro tipos de módulos del curso, por ejemplo aula, con ritmo personalizado, actividad y módulos de clase virtual. Consulte la  [Ayuda de módulos](../authors/how-to-choose-modules.md) para obtener más información sobre qué tipo de módulo de curso se adapta mejor a las necesidades de su organización.
+Los módulos son los componentes básicos de la aplicación Learning Manager. Para organizar el contenido de aprendizaje, empiece a crear módulos como autor. Learning Manager le permite elegir cualquiera de los cuatro tipos de módulos del curso, por ejemplo aula, con ritmo personalizado, actividad y módulos de clase virtual. Consulta [Ayuda de módulos](../authors/how-to-choose-modules.md) para saber qué tipo de módulo de curso se adapta mejor a las necesidades de tu organización.
 
 ### Crear cursos {#createcourses}
 
-Los administradores pueden asumir una función de autor en la aplicación Learning Manager y crear cursos. En la aplicación Learning Manager, un curso es una unidad básica con un conjunto de módulos que se pueden asignar al alumno. Los alumnos consumen cursos. Puede comenzar a crear cursos eligiendo los módulos que creó anteriormente, asociar las aptitudes que desea que los alumnos obtengan del curso, asociar niveles, créditos e insignias a un curso, seleccionar ayudas de trabajo, requisitos previos y recursos basados en su elección y publicar el curso. También puede crear varias instancias de un curso a fin de poder asignarlas a varios alumnos en diferentes zonas horarias, horarios, etcétera. Consulte la  [Ayuda de cursos](../authors/feature-summary/courses.md)para obtener más información sobre cómo crear un curso.
+Los administradores pueden asumir una función de autor en la aplicación Learning Manager y crear cursos. En la aplicación Learning Manager, un curso es una unidad básica con un conjunto de módulos que se pueden asignar al alumno. Los alumnos consumen cursos. Puede comenzar a crear cursos eligiendo los módulos que creó anteriormente, asociar las aptitudes que desea que los alumnos obtengan del curso, asociar niveles, créditos e insignias a un curso, seleccionar ayudas de trabajo, requisitos previos y recursos basados en su elección y publicar el curso. También puede crear varias instancias de un curso a fin de poder asignarlas a varios alumnos en diferentes zonas horarias, horarios, etcétera. Consulte la [Ayuda de cursos](../authors/feature-summary/courses.md) para obtener más información sobre cómo crear un curso.
 
 ### Crear objetos de aprendizaje {#Createlearningobjects-1}
 
@@ -162,11 +162,11 @@ En este punto, una vez creados los módulos y los cursos, puede comenzar a crear
 
 #### Crear certificaciones {#Createcertifications-1}
 
-La certificación es una prueba de la finalización de un contenido de aprendizaje o una prueba de logro para los alumnos una vez o en un intervalo recurrente. La inscripción de los alumnos a contenido de aprendizaje se puede aumentar proporcionando certificación a los alumnos tras finalizar el curso. Como administrador, puede crear un programa de certificación alojado internamente o administrado por un tercero. En la certificación interna, defina los cursos que un alumno debe completar para obtener la certificación. Antes de crear la certificación, asegúrese de tener algunos varios cursos disponibles en la cuenta. Consulte la  [Ayuda de certificación](feature-summary/certifications.md) para obtener más información sobre cómo crear certificaciones.
+La certificación es una prueba de la finalización de un contenido de aprendizaje o una prueba de logro para los alumnos una vez o en un intervalo recurrente. La inscripción de los alumnos a contenido de aprendizaje se puede aumentar proporcionando certificación a los alumnos tras finalizar el curso. Como administrador, puede crear un programa de certificación alojado internamente o administrado por un tercero. En la certificación interna, defina los cursos que un alumno debe completar para obtener la certificación. Antes de crear la certificación, asegúrese de tener algunos varios cursos disponibles en la cuenta. Consulta [Ayuda de certificación](feature-summary/certifications.md) para obtener más información sobre cómo crear certificaciones.
 
 #### Crear ayudas de trabajo {#CreateJobaids-1}
 
-Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo mientras están en el trabajo a fin de obtener asistencia para efectuar cualquier actividad o tarea de una empresa. Aunque no es obligatorio utilizar ayudas de trabajo como parte de la creación del curso, el equipo de Learning Manager recomienda crear ayudas de trabajo como práctica recomendada para su empresa. Consulte la  [Ayuda de ayudas de trabajo](../authors/feature-summary/job-aids.md) para obtener información sobre cómo crear ayudas de trabajo.
+Las ayudas de trabajo son un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo mientras están en el trabajo a fin de obtener asistencia para efectuar cualquier actividad o tarea de una empresa. Aunque no es obligatorio utilizar ayudas de trabajo como parte de la creación del curso, el equipo de Learning Manager recomienda crear ayudas de trabajo como práctica recomendada para su empresa. Consulte la [Ayuda de ayudas de trabajo](../authors/feature-summary/job-aids.md) para obtener información sobre cómo crear ayudas de trabajo.
 
 #### Crear programas de aprendizaje {#Createlearningprograms-1}
 
@@ -176,7 +176,7 @@ Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente
 
 ### Anuncios {#announcements}
 
-Los anuncios son útiles para que la empresa divulgue cualquier información importante a todos los alumnos de una cuenta de forma simultánea. En la aplicación Learning Manager, anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador crea y difunde entre un determinado conjunto de usuarios y objetos de aprendizaje. Puede enviar anuncios al instante o programarlos para que se activen automáticamente en una fecha específica. Si desea utilizar esta función en la aplicación Learning Manager, elija Anuncios en el panel izquierdo y haga clic en Añadir para crear anuncios. Consulte la [Ayuda de anuncios](feature-summary/announcements.md) para obtener más información.
+Los anuncios son útiles para que la empresa divulgue cualquier información importante a todos los alumnos de una cuenta de forma simultánea. En la aplicación Learning Manager, anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador crea y difunde entre un determinado conjunto de usuarios y objetos de aprendizaje. Puede enviar anuncios al instante o programarlos para que se activen automáticamente en una fecha específica. Si desea utilizar esta función en la aplicación Learning Manager, elija Anuncios en el panel izquierdo y haga clic en Añadir para crear anuncios. Consulte [Ayuda de anuncios](feature-summary/announcements.md) para obtener más información.
 
 ### Inscripción de usuarios {#userenrollment}
 
@@ -184,12 +184,12 @@ La inscripción de usuarios es un paso importante para una aplicación de sistem
 
 #### Inscripción manual {#manualenrollment}
 
-* **Inscripción automática -** Si activa esta opción al crear un objeto de aprendizaje, los alumnos pueden inscribirse en los objetos de aprendizaje.
-* **Aprobación del responsable** - Si elige esta opción en el tipo de inscripción al crear un curso, los responsables deben aprobar la inscripción de los alumnos.
-* **Nominación de responsable** - Si elige este tipo de inscripción durante la creación del curso, los responsables deben nominar dichos cursos.
-* **Inscripción de administrador** - En este caso, el administrador puede inscribir a algunos de los alumnos en función de los requisitos de la organización.
+* **Inscripción automática:** Si habilita esta opción al crear un objeto de aprendizaje, los alumnos pueden inscribirse en los objetos de aprendizaje.
+* **Aprobación del responsable**: si elige esta opción en el tipo de inscripción al crear un curso, los responsables deben aprobar la inscripción de los alumnos.
+* **Nominación de responsable**: si elige este tipo de inscripción durante la creación del curso, los responsables deben nominar dichos cursos.
+* **Inscripción de administrador**: en este caso, el administrador puede inscribir a algunos de los alumnos según los requisitos de la organización.
 
-Consulte la [Ayuda de inscripción de usuarios](feature-summary/courses.md)para obtener más información.
+Consulte el contenido de [Ayuda de inscripción de usuarios](feature-summary/courses.md)para obtener más información.
 
 Inscriba a los alumnos manualmente a objetos de aprendizaje de estas cuatro formas:
 
@@ -206,7 +206,7 @@ Puede utilizar planes de aprendizaje para asignar automáticamente cursos, progr
 * El alumno finaliza un objeto de aprendizaje
 * El usuario completa una aptitud
 
-Consulte la [Ayuda de planes de aprendizaje](feature-summary/learning-plans.md)  para obtener más información.
+Consulte el contenido de [Ayuda de planes de aprendizaje](feature-summary/learning-plans.md) para obtener más información.
 
 ### Crear informes {#createreports}
 
@@ -214,10 +214,10 @@ En esta etapa, puede comenzar a crear y administrar varios tipos de informes.
 
 Adobe Learning Manager le permite crear diversos informes para supervisar y controlar las actividades de los alumnos. Puede utilizar los siguientes tres tipos de funciones de generación de informes para generar informes:
 
-* **Panel Informes** - Crear informes de resumen para obtener información procesable sobre el consumo de contenido de aprendizaje de los alumnos en función de diversas categorías, como grupos de usuarios, eficacia, tiempo de los alumnos en los cursos, etc.
-* **Transcripciones de alumnos** - Crear informes centrados en el alumno con un historial completo de los alumnos desde el día del registro hasta la fecha.
-* **Informes del curso** - Crear estadísticas de consumo de cursos de alumnos a partir de cursos individuales. También puede crear informes de prueba en el nivel del curso.
+* **Tablero de informes**: crea informes de resumen para obtener información procesable sobre el consumo de contenido de aprendizaje por parte de los alumnos, en función de varias categorías, como grupos de usuarios, eficacia, tiempo de los alumnos en los cursos, etc.
+* **Transcripciones de alumnos**: crea informes centrados en los alumnos con el historial completo de los alumnos desde el día del registro hasta la fecha.
+* **Informes de cursos**: Crea estadísticas de consumo de cursos de alumnos a partir de cursos individuales. También puede crear informes de prueba en el nivel del curso.
 
-Consulte la  [Ayuda de informes](feature-summary/reports.md) para obtener más información sobre el proceso de generación de informes.
+Consulta [Ayuda de informes](feature-summary/reports.md) para obtener más información sobre el proceso de generación de informes.
 
-Para obtener más información sobre el uso de las funciones de la aplicación Learning Manager, consulte [Ayuda de Learning Manager](../topics.md) en función de cada función.
+Para obtener más información sobre el uso de las funciones de la aplicación Learning Manager, consulte la [Ayuda de Learning Manager](../topics.md) en función de cada función.

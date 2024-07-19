@@ -29,13 +29,13 @@ En este curso de formación, aprenderá a personalizar plantillas de correo elec
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Configurar plantillas de correo electrónico {#configureemailtemplates}
 
 Como administrador, puede activar, desactivar o modificar fácilmente estas plantillas de correo electrónico.
 
-1. Para acceder a las plantillas, haga clic en **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo. En esta página puede ver tres categorías diferentes de plantillas: **[!UICONTROL General]**, **[!UICONTROL Actividad de aprendizaje]**, y **[!UICONTROL Recordatorios y actualizaciones]**. Hay una cuarta pestaña, **[!UICONTROL Configuración]**, donde puede configurar las plantillas.
+1. Para tener acceso a las plantillas, haga clic en **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo. En esta página hay tres categorías diferentes de plantillas: **[!UICONTROL General]**, **[!UICONTROL Actividad de aprendizaje]** y **[!UICONTROL Recordatorios y actualizaciones]**. Hay una cuarta ficha, **[!UICONTROL Configuración]**, donde puede configurar las plantillas.
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -70,13 +70,13 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 ## Personalizar la configuración de una plantilla de correo electrónico {#customizesettingsofanemailtemplate}
 
 1. Para abrir la página de configuración, haga clic en **[!UICONTROL Configuración]**. Ahora puede personalizar las plantillas de correo electrónico.
-1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite el **[!UICONTROL Nombre y dirección del remitente].**
+1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite **[!UICONTROL Nombre y dirección del remitente].**
 
-   Contacto [***Compatibilidad con Adobes***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
+   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
 
-1. Personalizar el banner de correo electrónico del **[!UICONTROL Banner de correo electrónico]** opción. Cambie el color del banner seleccionando **[!UICONTROL Fondo del banner]**.
+1. Personalice su banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
 
-   Puede utilizar una imagen personalizada como banner seleccionando la **[!UICONTROL Imagen personalizada]** opción. Haga clic en **[!UICONTROL Guardar]** después de realizar los cambios.
+   Puede utilizar una imagen personalizada como banner seleccionando la opción **[!UICONTROL Imagen personalizada]**. Haga clic en **[!UICONTROL Guardar]** después de realizar los cambios.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -88,7 +88,7 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 
    ![](assets/customize-email-signature.png)
 
-   *Personalizar la firma del correo electrónico*
+   *Personaliza tu firma de correo electrónico*
 
 1. Edite la URL de su cuenta haciendo clic en Editar en la opción **[!UICONTROL URL de cuenta]**.
 
@@ -96,27 +96,27 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 
    ![](assets/customize-accounturl.png)
 
-   *Personalizar la URL de la cuenta*
+   *Personalizar la dirección URL de la cuenta*
 
-1. Configure si los responsables también deben recibir los mensajes de correo electrónico enviados a sus subordinados directos mediante la casilla de verificación bajo **[!UICONTROL Correo electrónico del responsable opcional]** opción.
+1. Configure si los responsables también deben recibir correos electrónicos enviados a sus subordinados directos usando la casilla de verificación bajo la opción **[!UICONTROL Correo electrónico de responsable opcional]**.
 
 ## Configurar la frecuencia de los mensajes de correo electrónico de resumen {#setfrequencyofdigestemails}
 
-En la **[!UICONTROL Plantillas de correo electrónico]** > **[!UICONTROL Configuración]** , el administrador puede cambiar la frecuencia de los mensajes de correo electrónico de resumen que se envían a los alumnos.
+En la página **[!UICONTROL Plantillas de correo electrónico]** > **[!UICONTROL Configuración]**, el administrador puede cambiar la frecuencia de los mensajes de correo electrónico de resumen que se envían a los alumnos.
 
 En la sección **[!UICONTROL Configuración de correo electrónico de resumen]**, haga clic en **[!UICONTROL Editar]**.
 
-En el menú desplegable, elija una de las siguientes opciones **[!UICONTROL Quincenal]** o **[!UICONTROL Mensual]**.
+En el menú desplegable, elija **[!UICONTROL Quincenal]** o **[!UICONTROL Mensual]**.
 
-* **[!UICONTROL Quincenal]:** Si establece la frecuencia en **[!UICONTROL Quincenal]**, los alumnos reciben el correo electrónico una vez cada dos semanas.
+* **[!UICONTROL Quincenal]:** Si establece la frecuencia en **[!UICONTROL Quincenal]**, los alumnos recibirán el correo electrónico una vez cada dos semanas.
 
-* **[!UICONTROL Mensual]:** Si establece la frecuencia en **[!UICONTROL Mensual]**, los alumnos reciben el correo electrónico una vez al mes.
+* **[!UICONTROL Mensual]:** Si establece la frecuencia en **[!UICONTROL Mensual]**, los alumnos recibirán el correo electrónico una vez al mes.
 
 ![](assets/digest-email-settings.png)
 
 *Configurar la frecuencia de los mensajes de correo electrónico de resumen*
 
-Al activar esta opción, la frecuencia se establece en **[!UICONTROL Quincenal]** para cuentas activas existentes o nuevas de forma predeterminada.
+Al habilitar esta opción, la frecuencia se establece de forma predeterminada en **[!UICONTROL Quincenal]** para las cuentas activas existentes o nuevas.
 
 ### Lista No molestar de alumnos
 
@@ -140,13 +140,13 @@ Los siguientes ejemplos representan el correo que recibe un alumno.
 
 ![](assets/email3.png)
 
-*Correo electrónico de la formación recomendada*
+*Correo electrónico del curso de formación recomendado*
 
 ### Tabla de posiciones
 
 ![](assets/email4.png)
 
-*Correo electrónico de la tabla de clasificación*
+*Correo electrónico de la tabla de posiciones*
 
 ### Publicaciones más recientes
 
@@ -156,11 +156,11 @@ Los siguientes ejemplos representan el correo que recibe un alumno.
 
 ### Descargar informe de acceso al correo electrónico
 
-Puede descargar el informe de acceso al correo electrónico haciendo clic en **[!UICONTROL Descargar]** botón. Este informe contiene el número de usuarios que han recibido el correo electrónico y el número de usuarios que han abierto los vínculos y han hecho clic en ellos.
+Puedes descargar el informe de acceso al correo electrónico haciendo clic en el botón **[!UICONTROL Descargar]**. Este informe contiene el número de usuarios que han recibido el correo electrónico y el número de usuarios que han abierto los vínculos y han hecho clic en ellos.
 
 ## Personalizar el dominio del correo electrónico {#customizeemaildomain}
 
-Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, póngase en contacto con el [***Asistencia de Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporcione los detalles del dominio que desea agregar, y su nuevo id de correo electrónico.
+Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
 
 Su solicitud se procesará y se le enviará un correo electrónico con un vínculo de confirmación a la nueva dirección de correo electrónico que especifique. Haga clic en el vínculo de verificación proporcionado en el correo electrónico para confirmar y completar el proceso de verificación.
 
@@ -168,7 +168,7 @@ Su solicitud se procesará y se le enviará un correo electrónico con un víncu
 
 Como administrador, puede seleccionar los usuarios que pueden recibir correo electrónico de Learning Manager y los que no pueden.
 
-Para ello, utilice el comando **[!UICONTROL No molestar]** opción bajo la **[!UICONTROL Configuración]** . Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario.
+Para ello, usa la opción **[!UICONTROL No molestar]** de la pestaña **[!UICONTROL Configuración]**. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario.
 
 Busque un usuario que añadir a la lista.
 
@@ -176,7 +176,7 @@ Busque un usuario que añadir a la lista.
 
 ## Correos electrónicos bloqueados {#blockedemails}
 
-Desde el **Correos electrónicos bloqueados** lista desplegable para que cada usuario seleccione los tipos de correo electrónico que se les bloqueará.
+En la lista desplegable **Correos electrónicos bloqueados** de cada usuario, selecciona los tipos de correo electrónico que se les bloqueará.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -206,7 +206,7 @@ Entre las mejoras más importantes que se han llevado a cabo para personalizar l
 
 ### Personalizar el saludo por correo electrónico en el nivel de cuenta
 
-Seleccionar **[!UICONTROL Plantillas de correo electrónico]** > **[!UICONTROL Configuración]**. Seleccionar **[!UICONTROL Editar]** en la sección **[!UICONTROL Saludo por correo electrónico]**.
+Seleccione **[!UICONTROL Plantillas de correo electrónico]** > **[!UICONTROL Configuración]**. Seleccionar **[!UICONTROL Editar]** en la sección **[!UICONTROL Saludo por correo electrónico]**.
 
 ![personalizar correo electrónico](assets/email-salutation.png)
 
@@ -225,7 +225,7 @@ En este curso de formación, aprenderá a configurar los valores predeterminados
 
 [![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
 
-Si no puede iniciar el curso de formación, escriba a <almacademy@adobe.com>.
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Invitaciones en línea {#inlineinvitations}
 
@@ -246,7 +246,7 @@ De momento, en Learning Manager, no es posible desactivar la **Ayuda** en las pl
 1. Inicie sesión como administrador en su cuenta de Learning Manager.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]** y seleccione la plantilla de correo electrónico que desea modificar.
 1. Personalice cada plantilla haciendo clic en el texto en el cuerpo de la plantilla. Puede insertar variables en el texto haciendo clic en los iconos apropiados, como se muestra en la captura de pantalla. Pase el ratón por cada icono para ver los nombres y aplicarlos en la plantilla.
-1. Después de realizar cambios en la plantilla, haga clic en **[!UICONTROL Guardar]**.
+1. Después de realizar cambios en la plantilla, haz clic en **[!UICONTROL Guardar]**.
 
 
 +++
@@ -265,6 +265,6 @@ Para desactivar la plantilla de correo electrónico, seleccione la plantilla cor
 
 +++Cómo cambiar el nombre y la dirección del remitente en la plantilla?
 
-Para cambiar el nombre y la dirección de correo electrónico del remitente, póngase en contacto con [Compatibilidad con Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

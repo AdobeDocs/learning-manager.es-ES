@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Permitir control total del catálogo compartido
 description: Permitir control total del catálogo compartido en Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # Permitir control total del catálogo compartido
 
@@ -73,7 +72,7 @@ Al igual que la concesión del control total del catálogo para los cursos, el a
 
 ## Restablecer curso {#resetcourse}
 
-1. En la tarjeta de catálogo que tiene un vínculo roto, haga clic en **[!UICONTROL Restablecer curso]**.
+1. En la tarjeta del catálogo que tenga un vínculo roto, haga clic en **[!UICONTROL Restablecer curso]**.
 
 <!-- ![](assets/reset-course.png)-->
 

@@ -32,17 +32,17 @@ Después de activar y configurar las recomendaciones, cargue los datos en Adobe 
 
 ## Algoritmo de clasificación del curso
 
-El núcleo del motor de recomendaciones se basa en el nuevo **Algoritmo de clasificación de cursos**. El algoritmo utiliza **50 millones de puntos de datos** y **cinco años de datos de aprendizaje agregados de millones de usuarios** para clasificar los cursos según sus **probabilidad de inscripción**. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
+El núcleo del motor de recomendaciones se basa en el nuevo **algoritmo de clasificación de cursos** de Learning Manager. El algoritmo utiliza **50 millones de puntos de datos** y **cinco años de datos de aprendizaje agregados de millones de usuarios** para clasificar los cursos según sus **probabilidad de inscripción**. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 
 ## Términos clave
 
-El nuevo motor de recomendaciones basado en IA de Learning Manager ofrece a los líderes de aprendizaje un **basado en parámetros** sistema de recomendaciones para crear una experiencia personalizada para los alumnos.
+El nuevo motor de recomendaciones de Learning Manager basado en Inteligencia artificial proporciona a los líderes de aprendizaje un sistema de recomendaciones configurable **basado en parámetros** para crear una experiencia personalizada para los alumnos.
 
 Los parámetros son: **Productos/temas, funciones y niveles**. Además, se puede cambiar el nombre de estos parámetros para adaptarlos a sus necesidades. Así, los &#39;productos&#39; pueden convertirse en &#39;temas&#39; o los &#39;roles&#39; pueden convertirse en &#39;región&#39;.
 
 ## Configurar el sistema de recomendaciones
 
-El nuevo motor de recomendaciones de Adobe Learning Manager simplifica el flujo de trabajo del administrador que implica la configuración de recomendaciones personalizadas, ya que los datos sobre los productos y las funciones asociadas a un cliente/socio están disponibles generalmente para los administradores (por ejemplo, en los registros de compra).
+El nuevo motor de recomendaciones de Adobe Learning Manager simplifica el flujo de trabajo de administración que conlleva la configuración de recomendaciones personalizadas, ya que los datos sobre los productos y las funciones asociadas a un cliente o socio están disponibles generalmente para los administradores (por ejemplo, de los registros de compra).
 
 La configuración del nuevo motor de recomendaciones implica principalmente tres flujos de trabajo:
 

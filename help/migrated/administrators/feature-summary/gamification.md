@@ -134,7 +134,8 @@ Situaciones posibles para mejorar las aptitudes en niveles en una competencia pa
 
 Esta tarea se aplica a los alumnos que hacen referencia a su curso completado en los N días posteriores a su finalización.
 
-Escenario posible: cuando un alumno hace referencia al curso completado en los 30 días siguientes a su finalización, recibe 50 puntos.
+Escenario posible:
+Cuando un alumno hace referencia al curso completado en los 30 días siguientes a su finalización, recibe 50 puntos.
 
 **Puntos de finalización anticipada**
 
@@ -182,7 +183,7 @@ Situaciones posibles:
 
 ## Acciones del administrador {#administratoractions}
 
-El administrador puede crear una lista de usuarios confidenciales, restablecer los puntos de interacción y deshabilitar o habilitar la función de interacción para los alumnos. Seleccione la **[!UICONTROL Configuración]** en la página interacción para ver las acciones como se muestra en la captura de pantalla siguiente.
+El administrador puede crear una lista de usuarios confidenciales, restablecer los puntos de interacción y deshabilitar o habilitar la función de interacción para los alumnos. Seleccione **[!UICONTROL Settings]** en la página de interacción para ver las acciones como se muestra en la captura de pantalla siguiente.
 
 ![](assets/gamification-actions.png)
 
@@ -223,11 +224,11 @@ Para restablecer la configuración y la puntuación del alumno, haga clic en Res
 
 ## Deshabilitar la interacción {#disablegamification}
 
-Haga clic en [!UICONTROL **Interacción**] > **[!UICONTROL Configuración]** > [!UICONTROL **Función de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
+Haga clic en [!UICONTROL **Interacción**] > **[!UICONTROL Configuración]** > [!UICONTROL **Característica de interacción**]. Podrá habilitar la función Interacción y la Tabla de posiciones por separado para sus alumnos. Seleccione entre Activar para alumnos internos y Activar para alumnos externos según lo que necesite, y haga clic en Aceptar. Se conservan todos los puntos cuando habilita de nuevo la interacción.
 
 ![](assets/gamification-feature.png)
 
-*Desactivar interacción*
+*Deshabilitar interacción*
 
 Puede deshabilitar la interacción para usuarios internos y externos.
 
@@ -236,7 +237,7 @@ Puede deshabilitar la interacción para usuarios internos y externos.
 Los administradores pueden definir el ámbito de la interacción cambiando la configuración del ámbito. Puede habilitar la interacción de forma selectiva entre usuarios, grupos o ubicaciones de perfil similares.
 
 1. En el inicio de sesión del administrador, haga clic en **[!UICONTROL Interacción]** en el panel izquierdo.
-1. Abrir **[!UICONTROL Interacciones]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración del ámbito]**. La [!UICONTROL Configuración del ámbito de interacción] se abre.
+1. Abra **[!UICONTROL Interacciones]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración del ámbito]**. Aparece el cuadro de diálogo [!UICONTROL Configuración del ámbito de interacción].
 
    ![](assets/scope-settings.png)
 

@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo utilizar el bookmarklet de Social 
 jcr-language: en_us
 title: Compartir en Aprendizaje social
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 76%
 
 ---
-
-
 
 # Compartir en Aprendizaje social
 
@@ -26,7 +25,7 @@ Compruebe que las ventanas emergentes estén permitidas en el navegador.
 
 Si está registrado en Learning Manager, el bookmarklet inicia la sesión automáticamente en su cuenta. De lo contrario, debe iniciar sesión mediante sus credenciales de alumno de Learning Manager.
 
-Redacte una descripción para la publicación, seleccione el tablero donde quiera publicarla y haga clic en **[!UICONTROL Publicar]**. El tablero se publica en su tablero, que se puede ver haciendo clic en **Ir a publicación**.
+Redacte una descripción para la publicación, seleccione el tablero donde quiera publicarla y haga clic en **[!UICONTROL Publicar]**. El tablero está publicado en tu tablero, que puedes ver haciendo clic en **Ir a la publicación**.
 
 ## Añadir el bookmarklet de Compartir en Social a la barra de marcadores {#addsharetosocialbookmarklettothebookmarksbar}
 
@@ -57,7 +56,7 @@ Redacte una descripción para la publicación, seleccione el tablero donde quier
 
 ## Internet Explorer {#internetexplorer}
 
-* En la esquina superior derecha del navegador, haga clic con el botón derecho en el icono de configuración. O utilice **Alt + C** en el teclado para abrir la ventana de la barra de favoritos.
+* En la esquina superior derecha del navegador, haga clic con el botón derecho en el icono de configuración. O usa **Alt + C** en el teclado para abrir la ventana de la barra de favoritos.
 * Para que la barra de favoritos esté visible en el explorador, haga clic en **[!UICONTROL Barra de favoritos]**.
 
 ## Microsoft Edge {#microsoftedge}
@@ -71,19 +70,19 @@ Redacte una descripción para la publicación, seleccione el tablero donde quier
 
 ## Cómo añadir manualmente bookmarklets a la barra de bookmarklets en diferentes navegadores {#add-bookmark-let-manually}
 
-Para añadir manualmente marcadores a la barra de marcadores, haga clic con el botón derecho en el **Compartir en redes sociales** icono > **Copiar dirección de vínculo** y siga el procedimiento que se indica a continuación:
+Para añadir manualmente marcadores a la barra de marcadores, haga clic con el botón derecho en el icono **Compartir en redes sociales** > **Copiar dirección del vínculo** y siga el procedimiento que se indica a continuación:
 
 ## Chrome en macOS {#chromeinmacos}
 
-1. Haga clic en el icono de menú contraído del navegador >  **Marcadores** > **Administrador de marcadores.**
-1. Haga clic en Opciones del menú Marcadores > **Añadir nuevo marcador.**
+1. Haga clic en el icono de menú contraído del explorador > **Marcadores** > **Administrador de marcadores.**
+1. Haga clic en Opciones del menú Marcadores > **Agregar nuevo marcador.**
 1. Aparece un cuadro de diálogo con dos campos de entrada. En el primer campo (Nombre), escriba un nombre para el marcador, por ejemplo **Compartir en Social**.
 1. Pegue el vínculo de **Compartir en Social** en el segundo campo (URL).
 
 ## Microsoft Edge en Windows {#microsoftedgeinwindows}
 
 1. Asegúrese de que la barra de favoritos esté visible. Haga clic con el botón derecho en la barra de favoritos y seleccione > **Crear nueva carpeta**.
-1. Para agregar la dirección URL a la carpeta de la barra de favoritos que desee, haga clic en el **Centro de marcadores** icono > **Icono Marcadores**.
+1. Para agregar la URL a la carpeta de la barra de favoritos que te guste, haz clic en el icono **Centro de marcadores** > icono **Marcadores**.
 1. Guarde cualquier página en línea en la carpeta y cambie su nombre a Compartir en Social.
 1. Seleccione el icono del centro de marcadores > Compartir en redes sociales > Editar URL.
 1. Pegue la dirección del vínculo y pulse Intro.

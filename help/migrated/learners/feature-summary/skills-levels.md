@@ -3,14 +3,13 @@ description: Lea este artículo para obtener información sobre cómo conseguir 
 jcr-language: en_us
 title: Aptitudes y niveles
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 90%
 
 ---
-
-
 
 # Aptitudes y niveles
 

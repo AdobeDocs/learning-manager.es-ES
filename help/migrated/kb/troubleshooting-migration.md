@@ -3,14 +3,13 @@ description: Este documento contiene consejos para la resolución básica de los
 jcr-language: en_us
 title: Solución de problemas de migración
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 43%
 
 ---
-
-
 
 # Solución de problemas de migración
 
@@ -56,29 +55,29 @@ Puede tardar entre 10 y 15 minutos en dejar de ejecutar todos los trabajos una v
 
 ### No es posible crear un Sprint porque el botón está desactivado {#unabletocreateasprintasthebuttonisdisabled}
 
-Asegúrese de que el sprint actual esté marcado como completado antes de crear un sprint. Haga clic en **[!UICONTROL Marcar sprint como completado]** en la parte superior de la página para completar una migración de Sprint.
+Asegúrese de que el sprint actual esté marcado como completado antes de crear un sprint. Haga clic en **[!UICONTROL Marcar sprint completado]** en la parte superior de la página para completar una migración de sprint.
 
 ### No es posible marcar un proyecto de migración como completado porque el botón está desactivado {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Asegúrese de que el sprint actual esté marcado como completado antes de marcar la finalización del proyecto de migración. Haga clic en **[!UICONTROL Marcar sprint como completado]** en la parte superior de la página para completar una migración de Sprint.
+Asegúrese de que el sprint actual esté marcado como completado antes de marcar la finalización del proyecto de migración. Haga clic en **[!UICONTROL Marcar sprint completado]** en la parte superior de la página para completar una migración de sprint.
 
 ## Problemas de CSV {#csvissues}
 
 ### La migración del archivo module_version.csv falla y el contenido no se migra {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Asegúrese de que el contenido esté disponible en la carpeta Contenido (cuenta de Box en el proyecto de migración especificado, ruta de sprint). Compruebe también que ha seleccionado la opción **Sí** para **¿Va a migrar contenido para este sprint?** pregunta en la página de creación de sprint.
+Asegúrese de que el contenido esté disponible en la carpeta Contenido (cuenta de Box en el proyecto de migración especificado, ruta de sprint). Además, asegúrese de haber seleccionado la opción **Sí** para **¿Va a migrar contenido para este sprint?Pregunta** en la página de creación de sprint.
 
-Si olvida seleccionar **Sí** y continúa en este Sprint, debe esperar a que se complete. Cree otro sprint y asegúrese de hacer clic **[!UICONTROL Sí]**.
+Si olvida seleccionar **Sí** y continúa en este Sprint, debe esperar a que se complete. Cree otro sprint y asegúrese de hacer clic en **[!UICONTROL Sí]**.
 
 ### Los registros enrollment.csv o user_course_grade.csv fallan con el mensaje de error &quot;No es un ID de Learning Manager válido&quot; {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 Asegúrese de que el ID del correo electrónico proporcionado como parte de los campos userId, assignedByUserID corresponda a usuarios válidos de Learning Manager. Si no es así, añada el usuario y cree un nuevo Sprint con la opción **Sincronizar usuarios** seleccionada. Si el usuario no forma parte de la organización, añádalo como usuario eliminado en Learning Manager mediante la especificación CSV Añadir usuarios . A continuación se incluye una especificación de ejemplo de CSV para añadir usuarios eliminados como referencia.
 
-[Users.csv](assets/users.zip) Consulte la **Especificaciones de CSV y ejemplos de CSV** sección en [Manual de migración](../integration-admin/feature-summary/migration-manual.md) para descargar un conjunto completo de especificaciones de CSV y archivos CSV de muestra.
+[Usuarios.csv](assets/users.zip) Consulte la sección **Especificaciones de CSV y ejemplos de CSV** en el [Manual de migración](../integration-admin/feature-summary/migration-manual.md) para descargar un conjunto completo de especificaciones de CSV y archivos CSV de muestra.
 
 ### Los cursos aparecen en blanco o se reproducen módulos incorrectos para un curso migrado {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Asegúrese de que el **moduleOrderInCourse** valor clave para un curso que comienza por **0** y está en orden continuo. El orden en términos de courseModuleType debe ser PRETEST, TESTOUT, CONTENT
+Asegúrese de que el valor de clave **moduleOrderInCourse** de un curso comience por **0** y esté en orden continuo. El orden en términos de courseModuleType debe ser PRETEST, TESTOUT, CONTENT
 
 Además, asegúrese de que dos versiones de la actividad, la clase y la clase virtual no estén vinculadas al curso existente.
 

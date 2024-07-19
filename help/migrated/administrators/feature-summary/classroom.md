@@ -23,23 +23,23 @@ Puede utilizar los siguientes dos métodos para añadir una ubicación de clase.
 
 Puede agregar una ubicación de clase mediante la interfaz de usuario:
 
-1. En la aplicación de administración (la IU para las funciones de administrador), haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
+1. En la aplicación de administración (la interfaz de usuario para las funciones de administrador), haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
 
-1. Haga clic en **[!UICONTROL Añadir]** > **[!UICONTROL Nueva ubicación]**.
+1. Haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Nueva ubicación]**.
 
 1. En el cuadro de diálogo **[!UICONTROL Ubicación de clase]**, introduzca la siguiente información:
 
    * Escriba el **[!UICONTROL Nombre de ubicación]**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
    * Introduzca la descripción de la ubicación en el campo **[!UICONTROL Información de ubicación]**. Este campo es opcional.
    * Introduzca la **[!UICONTROL URL de ubicación]**. El alumno puede ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
-   * Escriba y seleccione la **[!UICONTROL Región de ubicación]**. Este campo es opcional.
+   * Escriba y seleccione la **[!UICONTROL región de ubicación]**. Este campo es opcional.
    * Introduzca el número de puestos disponibles en el campo **[!UICONTROL Límite de puestos]**. Esto indica el número de puestos disponibles para la clase. Este valor se puede modificar al crear el evento real de formación dirigido por un instructor.
 
    ![](assets/add-classroom-location.png)
 
-   *Añadir una ubicación de clase*
+   *Agregar una ubicación de clase*
 
-Después de añadir la ubicación, el **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** muestra una lista de las salas de reuniones:
+Después de agregar la ubicación, la página **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** muestra las salas de reuniones:
 
 ![](assets/list-meeting-rooms.png)
 
@@ -47,9 +47,9 @@ Después de añadir la ubicación, el **[!UICONTROL Configuración]** > **[!UICO
 
 La lista presenta los siguientes campos:
 
-**[!UICONTROL Nombre de ubicación]** - Nombre de la ubicación de la clase.
+**[!UICONTROL Nombre de ubicación]**: nombre de la ubicación de la clase.
 
-**[!UICONTROL Sesiones futuras]** - Número de eventos que se producirán en la ubicación correspondiente. Haga clic en el número para ver los detalles en un cuadro de diálogo.
+**[!UICONTROL Sesiones futuras]**: número de eventos que se producirán en la ubicación correspondiente. Haga clic en el número para ver los detalles en un cuadro de diálogo.
 
 ![](assets/sessions-list.png)
 
@@ -57,23 +57,23 @@ La lista presenta los siguientes campos:
 
 En el cuadro de diálogo, se muestran los detalles de cada sesión, incluidos el nombre y el horario de la sesión, además del nombre del curso de formación que incluye la sesión. La hora mostrada se ajusta a la zona horaria del sistema del alumno.
 
-La **[!UICONTROL Sesiones futuras]** visualizaciones de campo **cero** cuando la clase no se utiliza para ninguna sesión o cuando la clase está asociada a sesiones anteriores.
+El campo **[!UICONTROL Sesiones futuras]** muestra **cero** cuando la clase no se usa en ninguna sesión o cuando la clase está asociada a sesiones anteriores.
 
-**[!UICONTROL Límite de asientos]** - Muestra la capacidad del asiento de la clase.
+**[!UICONTROL Límite de asientos]**: muestra la capacidad de asientos de la clase.
 
-**URL de ubicación** - URL que proporcionó al crear la ubicación de clase.
+**URL de ubicación**: URL que proporcionó al crear la ubicación de la clase.
 
-**Información de ubicación** - La información de clase que proporcionó al crear la clase.
+**Información de ubicación**: la información de clase que proporcionó al crear la clase.
 
 ### Editar las ubicaciones de la clase
 
 Para editar las ubicaciones de la clase, siga estos pasos:
 
-1. En la aplicación de administración (la IU para las funciones de administrador), seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
+1. En la aplicación de administración (la interfaz de usuario para las funciones de administrador), seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
 
 1. Pase el ratón sobre la ubicación de la clase que desee editar.
 
-1. Seleccionar **[!UICONTROL Editar ubicación de clase]** icono.
+1. Seleccione el icono **[!UICONTROL Editar ubicación de clase]**.
 
 1. Modifique la ubicación de la clase y seleccione **[!UICONTROL Guardar]**.
 
@@ -81,7 +81,7 @@ Para editar las ubicaciones de la clase, siga estos pasos:
 
 También puede añadir una o varias ubicaciones de clases mediante la importación de un archivo CSV que contenga la información de clase.
 
-En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** > **[!UICONTROL Añadir]**, haga clic en el **[!UICONTROL Ubicaciones de importación masiva]** botón. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
+En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** > **[!UICONTROL Agregar]**, haga clic en el botón **[!UICONTROL Ubicaciones de importación en bloque]**. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
 
 El archivo CSV utiliza estos campos para almacenar información sobre una o varias ubicaciones de clases:
 
@@ -113,11 +113,11 @@ Como administrador, puede administrar los instructores y las instancias del curs
 
 ### Configurar instructores:
 
-En la aplicación de administración, en **[!UICONTROL Configuración]** > **[!UICONTROL General]**, los administradores pueden encontrar el **[!UICONTROL Gestión de instructores]** opción. Esta función garantiza que solo los usuarios previamente aprobados asignados como instructores puedan añadirse para llevar a cabo las sesiones.
+En la aplicación de administración, en **[!UICONTROL Configuración]** > **[!UICONTROL General]**, los administradores pueden encontrar la opción **[!UICONTROL Administración de instructores]**. Esta función garantiza que solo los usuarios previamente aprobados asignados como instructores puedan añadirse para llevar a cabo las sesiones.
 
 Para asignar un instructor, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Procedimientos iniciales]** y seleccione **[!UICONTROL Usuarios]** en el panel izquierdo.
+1. Vaya a la página **[!UICONTROL Introducción]** y seleccione **[!UICONTROL Usuarios]** en el panel izquierdo.
 
 1. Seleccione el usuario que desee.
 
@@ -125,36 +125,36 @@ Para asignar un instructor, siga estos pasos:
 
 ### Cancelando Sesiones:
 
-En la **[!UICONTROL Instancia del curso]** , los administradores pueden cancelar una o varias sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
+En la página **[!UICONTROL Instancia del curso]**, los administradores pueden cancelar una o más sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
 
 Además, los administradores pueden:
 
-* **[!UICONTROL Ver inscripción]**: obtiene información sobre los alumnos inscritos y en lista de espera de cada sesión.
-* **[!UICONTROL Dar de baja alumnos]**: elimina alumnos de un curso con sesiones canceladas sin cambiar su estado de inscripción.
-* **[!UICONTROL Gestión de asistencia]**: marca la asistencia a las sesiones, incluso si se cancelan.
+* **[!UICONTROL Ver inscripción]**: obtenga información sobre los alumnos inscritos y en lista de espera de cada sesión.
+* **[!UICONTROL Dar de baja a alumnos]**: elimina alumnos de un curso con sesiones canceladas sin cambiar su estado de inscripción.
+* **[!UICONTROL Administración de asistencia]**: marca la asistencia a las sesiones, incluso si las sesiones se cancelan.
 * **[!UICONTROL Finalización del curso]**: los administradores pueden marcar un curso como completado aunque se hayan cancelado las sesiones.
-* **[!UICONTROL Reprogramación]**: programe sesiones canceladas para fechas posteriores y añada un instructor durante la reprogramación.
+* **[!UICONTROL Reprogramación]**: programa sesiones canceladas para fechas posteriores y añade un instructor durante la reprogramación.
 
 Tenga en cuenta que, después de la cancelación, los alumnos permanecen inscritos en la instancia de formación. Su estado de inscripción (como inscripción confirmada, en lista de espera y a la espera de aprobación del responsable) no cambia. Esto resulta útil porque el administrador puede configurar y volver a programar la sesión cancelada en el futuro.
 
 ## Autor
 
-Si el administrador selecciona la **[!UICONTROL Gestión de instructores]** , un autor solo puede buscar y añadir los usuarios con la función de instructor a las sesiones de clase, las sesiones de clase virtual, las listas de comprobación y los módulos de envío de archivos.
+Si el administrador selecciona la opción **[!UICONTROL Administración de instructores]**, un autor solo puede buscar y agregar los usuarios con la función de instructor a las sesiones de clase, las sesiones de clase virtual, las listas de comprobación y los módulos de envío de archivos.
 
 Además, el autor puede realizar lo siguiente:
 
 * Añadir y eliminar instructores de las sesiones existentes.
 * Añadir instructores a las sesiones existentes que ya tienen uno o varios instructores.
 
-Por lo tanto, después de que un administrador active la **[!UICONTROL Gestión de instructores]** , solo se pueden añadir como instructor los usuarios con la función de instructor.
+Por lo tanto, después de que un administrador habilite la opción **[!UICONTROL Administración de instructores]**, solo se pueden agregar como instructores los usuarios con la función de instructor.
 
 >[!NOTE]
 >
 >Esto no es aplicable al migrar sesiones mediante el archivo CSV de sesiones. En ese caso, se puede añadir como instructor un usuario que no tenga esta función.
 
-En la **[!UICONTROL Instancia del curso]** , un autor puede cancelar una o varias sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
+En la página **[!UICONTROL Instancia del curso]**, un autor puede cancelar una o más sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
 
-Por lo tanto, un autor puede utilizar la **[!UICONTROL Cancelar sesión]** vínculos para cancelar una o varias sesiones de clase o sesiones de clase virtual disponibles en la misma instancia del curso o en instancias diferentes.
+Por lo tanto, un autor puede utilizar los vínculos **[!UICONTROL Cancelar sesión]** para cancelar una o más sesiones de clase o sesiones de clase virtual disponibles en la misma instancia de curso o en diferentes instancias.
 
 ## Limitar a una lista predeterminada de instructores
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Problemas de inicio de sesión en Learning Manager
 description: Problemas de inicio de sesión en Adobe Learning Manager
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 87%
 
 ---
-
-
 
 # Problemas de inicio de sesión en Learning Manager
 
@@ -46,4 +45,4 @@ Existen otras razones por las que se produce este error, pero la indicada anteri
 
 ## Vínculos de referencia:
 
-[Microsoft: sesión de acceso condicional en la vida](https://docs.microsoft.com/es-es/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: sesión de acceso condicional durante toda la vida](https://docs.microsoft.com/es-es/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

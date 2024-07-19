@@ -20,7 +20,7 @@ Un responsable puede inscribir a los alumnos debajo de él en cursos, rutas de a
 
 ## Cómo ver los cursos {#viewingcourses}
 
-Puede ver una lista de todos los cursos disponibles como responsable. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo para ver la lista de cursos con las opciones de búsqueda y filtro. También puede ver el porcentaje de eficacia de cada curso en las miniaturas del curso. Tenga en cuenta que solo puede inscribir miembros del equipo en cursos que sean visibles para usted en la aplicación del alumno.
+Puede ver una lista de todos los cursos disponibles como responsable. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo para ver la lista de cursos con opciones de búsqueda y filtro. También puede ver el porcentaje de eficacia de cada curso en las miniaturas del curso. Tenga en cuenta que solo puede inscribir miembros del equipo en cursos que sean visibles para usted en la aplicación del alumno.
 
 ![](assets/view-course.png)
 
@@ -29,7 +29,7 @@ Puede ver una lista de todos los cursos disponibles como responsable. Haga clic 
 
 >[!NOTE]
 >
->Para ver la lista de todos los cursos retirados, haga clic en **Retirado** .
+>Para ver la lista de todos los cursos retirados, haz clic en la pestaña **Retirado**.
 
 ## Ver puntuaciones de pruebas {#viewquizscores}
 
@@ -53,7 +53,7 @@ Como responsable, puede obtener una lista de alumnos de los miembros de su equip
 
 >[!NOTE]
 >
->**Exportar aprobaciones pendientes** se puede realizar desde la aplicación del alumno.
+>La opción **Exportar aprobaciones pendientes** se puede realizar desde la aplicación del alumno.
 
 En la página Alumnos, puede realizar las acciones siguientes:
 
@@ -66,7 +66,7 @@ También puede exportar la lista de alumnos en una hoja de Excel. Para exportar 
 
 >[!NOTE]
 >
->Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, o **En curso**, o **Completado**.
+>Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, **En curso** o **Completado**.
 
 ## Ver comentarios de L1 y L3 {#viewl1andl3feedback}
 
@@ -78,7 +78,7 @@ Puede ver los comentarios de L1 proporcionados por los alumnos de un curso y los
 
 ## Previsualizar cursos {#previewcourses}
 
-El responsable puede obtener una vista previa de los cursos haciendo clic en **Vista previa como alumno** al visualizar los módulos del curso.
+El responsable puede obtener una vista previa de los cursos haciendo clic en la opción **Vista previa como alumno** mientras visualiza los módulos del curso.
 
 1. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo después de iniciar sesión.
 1. Haga clic en cualquier mosaico de curso de la lista de cursos en la página.
@@ -113,7 +113,7 @@ Adobe Learning Manager le facilita la búsqueda rápida de los cursos y rutas de
 1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o rutas de aprendizaje. También puede realizar búsquedas con etiquetas predefinidas, como Captivate, C, Java y HTML. Las etiquetas se pueden buscar dentro del campo Buscar, lo que significa que las etiquetas se muestran en el campo de búsqueda mientras escribe. La búsqueda también se puede ejecutar mediante un ID único.
 1. Filtrando la lista de cursos/rutas de aprendizaje/certificaciones mediante los filtros. Puede filtrar los cursos por estado, por ejemplo todos los cursos publicados y los retirados.
 
-Puede buscar en función de las competencias seleccionando **Competencias** y elegirlas. Como responsable, puede ordenar los cursos de cuatro maneras para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso, fecha de creación del curso o eficacia de los cursos:
+Puede buscar por competencias seleccionando **Competencias** y eligiéndolas. Como responsable, puede ordenar los cursos de cuatro maneras para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso, fecha de creación del curso o eficacia de los cursos:
 
 * Nombre (a-z)
 * Nombre (z-a)
@@ -192,7 +192,7 @@ Un responsable puede marcar la finalización de una certificación. Para obtener
 
 ## Notificaciones de responsables para la aprobación de cursos de alumnos {#manager-notifications-course-approval}
 
-Al intentar aceptar o rechazar la inscripción de un alumno, un responsable ahora puede ver los detalles de la sesión (**Videoconferencia** o **Classroom**) en la ventana emergente.
+Al intentar aceptar o rechazar la inscripción de un alumno, un responsable ahora puede ver los detalles de la sesión (**videoconferencia** o **clase**) en la ventana emergente.
 
 ![](assets/approve-a-learner.png)
 
@@ -209,7 +209,7 @@ Este es el flujo de trabajo:
 
 1. El responsable ve una notificación después de que un alumno solicite la aprobación de un curso.
 
-1. El responsable hace clic **Detalles de sesión**.
+1. El administrador hace clic en **Detalles de la sesión**.
 
    ![](assets/pending-tasks.png)
 
@@ -231,7 +231,7 @@ Si el alumno envía el archivo, el responsable puede verlo desde la página de e
 
 ![](assets/optional-submission.png)
 
-*Aceptar o rechazar según el envío de archivos*
+*Aceptar o rechazar según el envío del archivo*
 
 Cuando los cursos se definen como obligatorios:
 
