@@ -1,17 +1,17 @@
 ---
 description: Este documento consta de ayuda para crear módulos de cursos, instancias y cursos para la función de administrador.
 jcr-language: en_us
-title: Crear módulos de cursos, instancias y programas de aprendizaje
+title: Crear instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '4868'
+source-wordcount: '4866'
 ht-degree: 61%
 
 ---
 
-# Crear módulos de cursos, instancias y rutas de aprendizaje
+# Crear instancias de cursos y rutas de aprendizaje
 
 Este documento consta de ayuda para crear módulos de cursos, instancias y cursos para la función de administrador.
 
