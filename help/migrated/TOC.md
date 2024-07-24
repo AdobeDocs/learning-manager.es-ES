@@ -2,7 +2,7 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 87%
@@ -41,7 +41,7 @@ ht-degree: 87%
    * [Inicio de sesión de usuario](administrators/feature-summary/user-login.md)
    * [Añadir usuarios y crear grupos de usuarios](administrators/feature-summary/add-users-user-groups.md)
    * [Añadir ubicaciones de clases](administrators/feature-summary/classroom.md)
-   * [Crear instancias de cursos y rutas de aprendizaje](administrators/feature-summary/courses.md)
+   * [Creación de instancias de cursos y rutas de aprendizaje](administrators/feature-summary/courses.md)
    * [Tienda de contenido](administrators/feature-summary/content-marketplace.md)
    * [Informes](administrators/feature-summary/reports.md)
    * [Rutas de aprendizaje](administrators/feature-summary/learning-paths.md)

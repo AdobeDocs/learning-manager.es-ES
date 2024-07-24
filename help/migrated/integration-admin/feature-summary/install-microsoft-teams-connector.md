@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instalar el conector de Microsoft Teams en Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 24%
+source-wordcount: '1138'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ## Información general
 
-Microsoft® Teams® es una plataforma de colaboración persistente basada en chat que admite por completo el uso compartido de documentos, reuniones en línea y otras funciones para las comunicaciones empresariales.
+Microsoft Teams® es una plataforma de colaboración persistente basada en chat que es totalmente compatible con el uso compartido de documentos, reuniones en línea y otras funciones para las comunicaciones empresariales.
 
 Adobe Learning Manager utiliza un conector de clase virtual que se puede utilizar para integrar reuniones de Microsofts Teams con Learning Manager.
 
@@ -51,8 +51,7 @@ Para obtener más información, consulte [Funciones en una reunión de equipos: 
 
 Puede acceder al conector de Microsofts Teams si tiene Office 365 E3 u Office 365 E5. Se recomienda Office 365 E5.
 
-* Visita la [página de planes de Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . En la página web, puede comprar una cuenta E3 o E5 o hacer clic en Prueba gratis.
-
+* Visita la [página de planes de Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). En la página web, puede comprar una cuenta E3 o E5 o hacer clic en Prueba gratis.
 * Proporcione la información necesaria y cree una cuenta.
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Anote el secreto de cliente, que se usará más durante la integración.
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. Haga clic en **[!UICONTROL Conceder acceso de administrador para el Adobe]**.
 1. Haga clic en **[!UICONTROL Funciones de la aplicación]** > **[!UICONTROL Crear función de aplicación]**.
@@ -154,17 +154,17 @@ Esto permite al conector acceder a las reuniones en línea de Microsoft Teams.
 1. Haga clic en **[!UICONTROL Administrar licencias de productos]**.
 1. Habilitar licencia para Office 365 E5 sin audioconferencia.
 
-## Grabar una sesión
+<!--## Record a session
 
-La API utilizada para grabar una sesión está protegida. Para acceder a la API, debe solicitar acceso a Microsoft. Para obtener más información, vea este [documento](https://docs.microsoft.com/es-es/graph/teams-protected-apis).
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-En el documento:
+In the document,
 
-*&quot;Para solicitar acceso a estas API protegidas, completa el siguiente [formulario de solicitud](https://aka.ms/teamsgraph/requestaccess). Revisamos las solicitudes de acceso todos los miércoles e implementamos aprobaciones todos los viernes, excepto durante las principales semanas de vacaciones en EE. UU. Los envíos durante esas semanas se procesarán la siguiente semana no festiva. Para comprobar si su solicitud se ha aprobado, pruebe el acceso a la aplicación el próximo lunes aplicable.&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-Para los alumnos, la dirección URL de grabación se muestra en la página de resumen del curso de clase virtual.
+For learners, the recording URL is displayed on the VC course overview page.
 
-30 minutos después de completar un curso, se marca la asistencia del alumno.
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## Preguntas más frecuentes
 

@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
+source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Se pueden personalizar las siguientes opciones:
 
    <td>
 
-    <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.</p>
+    <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.<div><b>Nota:</b> Tenga en cuenta que Apple no permite el canal de Alpha en los iconos de la aplicación. Por lo tanto, asegúrese de eliminar el canal del Alpha del recurso antes de enviarlo.</div></p>
 
    </td>
 
