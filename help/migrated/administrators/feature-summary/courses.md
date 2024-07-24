@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
@@ -81,7 +81,7 @@ Para crear una instancia:
 
 Para retirar una instancia, aplique los pasos siguientes:
 
-1. En la instancia, haga clic en el menú desplegable y seleccione la opción **[!UICONTROL Retirar instancia]**.
+1. En la instancia, seleccione el menú desplegable y elija la opción **[!UICONTROL Retirar instancia]**.
 
    ![](assets/retire-an-instance.png)
 
