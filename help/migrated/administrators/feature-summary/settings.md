@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 67%
+source-wordcount: '3651'
+ht-degree: 66%
 
 ---
 
@@ -406,6 +406,10 @@ Active o desactive las opciones siguientes:
     <p>En el resto de aplicaciones (administrador, autor, responsable, administrador personalizado y autor personalizado), los cambios realizados en la configuración (clasificación basada en estrellas/eficacia del curso/desactivación de la visualización de valoraciones) no tendrán ningún efecto. </p>
     <p>Para las nuevas cuentas, la sección <b>Mostrar valoraciones</b> tendrá habilitada la opción <b>Valoración basada en estrellas</b> de forma predeterminada.</p>
     <p>Para las cuentas existentes, si la cuenta tenía habilitada la opción <b>Eficacia del curso</b>, la sección <b>Mostrar valoraciones</b> se habilitará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b>s está deshabilitada, la sección <b>Mostrar valoraciones</b> también se deshabilitará. Cuando la sección <b>Mostrar valoraciones</b> está habilitada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Retirar</td>
+   <td>Seleccione cualquiera de las opciones de retirada de las siguientes:<li>Una vez retirados, los alumnos inscritos podrán ver y realizar acciones, pero los alumnos que aún no se hayan inscrito perderán su acceso.</li><li>Una vez retirados, los alumnos inscritos y los que aún no se han inscrito perderán su acceso.</li><div><b>Nota:</b> Puedes retirar cursos, rutas de aprendizaje o certificaciones de sus páginas de información general.</div> </td>
   </tr>
  </tbody>
 </table>

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Interacción
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Los alumnos también pueden ver el nivel de logro según los puntos que han obte
 ## Tabla de posiciones {#leaderboard}
 
 La Tabla de posiciones es una función de interacción que actúa como un marcador para mostrar la clasificación de los principales competidores. Los alumnos pueden ver sus puntos de interacción con la Tabla de posiciones.
+
+![](assets/leaderboard.png)
 
 En la página de inicio del alumno, haga clic en **[!UICONTROL Interacción]** en el panel izquierdo. Haga clic en el vínculo Tabla de posiciones para ver la tabla de posiciones. Esta función permite a los alumnos comprender cómo se desempeñan frente a un miembro del equipo en particular. También muestra su posición de clasificación en relación con otros miembros del equipo.
 

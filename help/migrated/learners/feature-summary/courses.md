@@ -1,17 +1,17 @@
 ---
 description: Lea este artículo para obtener información sobre cómo ver y consumir cursos en Learning Manager. Participe en debates y proporcione comentarios.
 jcr-language: en_us
-title: Cursos
+title: Mi aprendizaje
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# Cursos
+# Mis conocimientos
 
 Lea este artículo para obtener información sobre cómo ver y consumir cursos en Learning Manager. Participe en debates y proporcione comentarios.
 
@@ -25,7 +25,7 @@ Adobe Learning Manager permite a los alumnos acceder a los cursos, programas de 
 >
 >Los alumnos también pueden instalar la aplicación de iPad de Learning Manager desde Apple Store y la aplicación de Android de Learning Manager desde Google Play y acceder a los cursos en dispositivos móviles. Todas las funciones de los alumnos también están disponibles en la aplicación. Además, los alumnos pueden realizar cursos sin conexión y obtener acceso sin problemas después de conectarse. Consulte [Usuarios de tabletas iPad y Android](ipad-android-tablet-users.md) para obtener más información.
 
-## Cómo ver los cursos {#viewingcourses}
+## Visualización de objetos de aprendizaje {#viewingcourses}
 
 Puede ver una lista de todos los cursos disponibles como alumno. Haga clic en Mi aprendizaje en la página de inicio o en el panel izquierdo para ver todos los cursos en los que se ha inscrito.
 

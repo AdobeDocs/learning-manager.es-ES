@@ -2,10 +2,10 @@
 title: Recomendaciones en Adobe Learning Manager
 description: El núcleo del motor de recomendaciones se basa en el nuevo algoritmo de clasificación de cursos de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Los administradores disponen de un flujo de trabajo guiado en Learning Manager p
 
 1. Haga clic en **[!UICONTROL Continuar]** para actualizar al nuevo sistema de recomendaciones.
 
-   ![Proceder al nuevo sistema](assets/image521152.png)
-   *Seleccione el botón Continuar*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Cree los parámetros de recomendación de productos y funciones.
 
@@ -168,7 +168,7 @@ El sistema de recomendaciones ya está disponible para los alumnos.
 
 ## Eliminar un parámetro
 
-1. En la lista de parámetros, seleccione el icono de tres puntos y, a continuación, la opción **[!UICONTROL Eliminar parámetro]**.
+Los administradores pueden eliminar un parámetro haciendo clic en el icono de tres puntos y seleccionando **[!UICONTROL Eliminar parámetro]**. Los administradores pueden eliminar un parámetro si no está vinculado a objetos de aprendizaje. Si está vinculado, solo pueden ocultar el parámetro. Sin embargo, no pueden ocultar los dos últimos parámetros porque se necesitan al menos dos parámetros para que funcionen las recomendaciones.
 
 ![eliminar parámetro](assets/delete-parameter.png)
 *Eliminar el parámetro*

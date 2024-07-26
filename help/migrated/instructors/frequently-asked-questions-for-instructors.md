@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Preguntas más frecuentes para instructores
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Sí, un autor puede asignar varios instructores a un solo módulo. En ese caso, 
 +++¿Puede un instructor modificar cualquier sesión?
 
 Como instructor, solo puede ver y editar los detalles de las sesiones a las que se le ha asignado. No puede modificar la sesión ni la lista de asistentes de ninguna otra sesión.
+
++++
+
++++Cómo asignar la función de instructor a usuarios externos
+
+* De forma predeterminada, en la sección **[!UICONTROL Asignar]** para **[!UICONTROL usuario externo]** solo se muestra **[!UICONTROL Administrador de marcas]** o **[!UICONTROL Autor de marcas]**.
+* Si desea asignar la función **Instructor** a cualquier usuario en el LMS, puede agregarlo como **Instructor** a cualquier módulo de **[!UICONTROL Clase]** o **[!UICONTROL Clase virtual]**, y la función **Instructor** se proporcionaría automáticamente al usuario en el LMS.
 
 +++

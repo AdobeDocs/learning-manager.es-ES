@@ -4,10 +4,10 @@ title: Preguntas más frecuentes para administradores
 description: Preguntas más frecuentes para administradores de Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Póngase en contacto con el equipo de asistencia de Learning Manager.
 Puede obtener el ID de cuenta desde el navegador en el que está abierto Learning Manager.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++¿Hay algún informe que pueda obtener o uno que alguien pueda obtener por mí que me muestre una lista de todos los cursos del LMS?
+
+Sí, puedes obtener un **[!UICONTROL informe de formación]** que contenga todos los cursos, el programa de aprendizaje y la certificación del LMS. Para descargar el informe, sigue estos pasos:
+
+1. Inicie sesión como administrador.
+2. Haz clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de cursos de formación]**.
+3. Seleccione **[!UICONTROL Todos los cursos de formación]** en el menú desplegable.
+4. Haga clic en **[!UICONTROL Descargar]**.
+
++++
+
++++ ¿Dónde puedo descargar la versión de escritorio de la aplicación?
+
+Siga los pasos que se indican a continuación para descargar la versión de escritorio:
+
+1. Inicie sesión como administrador.
+2. Haz clic en **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**.
+3. En **[!UICONTROL Configuración de descarga]**, haga clic en el hipervínculo en función de su sistema operativo.
 
 +++

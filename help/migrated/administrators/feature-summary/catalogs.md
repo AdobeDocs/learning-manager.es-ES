@@ -4,10 +4,10 @@ title: Catálogos
 description: Los catálogos son una colección de cursos de aprendizaje, programas de aprendizaje y certificaciones. Utilice los catálogos para proporcionar a los alumnos un conjunto personalizado de materiales de aprendizaje. Puede asociar aprendizaje con un catálogo durante la creación de un catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 75%
+source-wordcount: '2498'
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,11 @@ Para crear un catálogo, efectúe los pasos siguientes:
 
    Puede añadir varios cursos al catálogo.
 1. Puede filtrar los cursos por aptitudes, funciones e idioma. El curso seleccionado se recomendará a los alumnos interesados en esas aptitudes y funciones.
+
+   * **[!UICONTROL Aptitudes]**: Los filtros de aptitudes permiten a los usuarios encontrar cursos que se centran en aptitudes concretas.
+   * **[!UICONTROL Funciones]**: Los filtros de funciones ayudan a los usuarios a acceder a cursos adaptados a las responsabilidades y requisitos de las distintas funciones.
+   * **[!UICONTROL Idioma]**: los filtros de idioma ayudan a los usuarios a seleccionar los cursos disponibles en su idioma preferido o requerido
+
 1. Guarde los cambios. Regrese a la lista de catálogos y haga clic en el nuevo catálogo de la lista.
 1. En la página del catálogo nuevo, en el panel izquierdo, haga clic en **[!UICONTROL Contenido]**.
 
