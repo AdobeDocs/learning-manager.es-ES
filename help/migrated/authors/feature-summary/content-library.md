@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 50%
+source-wordcount: '3573'
+ht-degree: 49%
 
 ---
 
@@ -503,6 +503,10 @@ Para volver a publicar el contenido retirado:
 1. Seleccione **Acción** > **Volver a publicar**.
 
 El contenido ahora aparece en la lista Publicado.
+
+## Actualizar el contenido
+
+Los autores pueden actualizar el contenido del curso publicado. Esto ayudará a los alumnos a obtener la versión más reciente del contenido. Echa un vistazo a este [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) para obtener más información.
 
 ## Eliminar contenido {#deletecontent}
 

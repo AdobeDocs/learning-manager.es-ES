@@ -3,7 +3,7 @@ description: Adobe Learning Manager admite varios métodos de inicio de sesión 
 title: Varios métodos de inicio de sesión único (SSO)
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
@@ -54,7 +54,7 @@ Siga los pasos mostrados a continuación:
 
 1. Importe el archivo CSV que contiene los campos activos y sus valores.
 1. Haga clic en Configuración > Métodos de inicio de sesión.
-1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
+1. Seleccione la casilla de verificación **[!UICONTROL Habilitar inicio de sesión único múltiple (SSO)]** para el inicio de sesión.
 1. Asigne las configuraciones de SSO a los valores del campo activo.
 1. Guarde la configuración. Vuelva a importar el archivo CSV.
 
@@ -63,7 +63,7 @@ Siga los pasos mostrados a continuación:
 Siga los pasos mostrados a continuación:
 
 1. Haga clic en Configuración > Métodos de inicio de sesión.
-1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
+1. Seleccione la casilla de verificación **[!UICONTROL Habilitar inicio de sesión único múltiple (SSO)]** para el inicio de sesión.
 1. Seleccione un campo activo para un SSO.
 1. Vincule las configuraciones de SSO a los valores del campo.
 1. Guarde la configuración. Agregue un solo usuario y asigne un valor para el campo activo.
@@ -73,7 +73,7 @@ Siga los pasos mostrados a continuación:
 Siga los pasos mostrados a continuación:
 
 1. Haga clic en Configuración > Métodos de inicio de sesión.
-1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
+1. Seleccione la casilla de verificación **[!UICONTROL Habilitar inicio de sesión único múltiple (SSO)]** para el inicio de sesión.
 1. Vincule las configuraciones de SSO a los valores del campo.
 1. Guarde la configuración. Agregue un solo usuario y asigne un valor para el campo activo.
 1. Añada un perfil de registro automático.
@@ -87,7 +87,7 @@ Siga los pasos mostrados a continuación:
 
 1. Cree un perfil externo.
 1. Haga clic en Configuración > Métodos de inicio de sesión.
-1. Active la casilla de verificación Habilitar inicio de sesión único múltiple (SSO) para el inicio de sesión.
+1. Seleccione la casilla de verificación **[!UICONTROL Habilitar inicio de sesión único múltiple (SSO)]** para el inicio de sesión.
 1. Vincule la configuración de SSO al perfil externo creado.
 1. Guarde la configuración.
 
