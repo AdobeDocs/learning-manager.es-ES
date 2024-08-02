@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
-ht-degree: 72%
+source-wordcount: '7145'
+ht-degree: 71%
 
 ---
 
@@ -120,6 +120,10 @@ Para añadir etiquetas de cumplimiento a los cursos, siga estos pasos:
    >[!IMPORTANT]
    >
    >Asegúrese de establecer una fecha límite para el curso cuando añada Cumplimiento personalizado.
+
+   >[!NOTE]
+   >
+   >Un máximo de 50 cursos, rutas de aprendizaje o certificaciones puede tener el mismo valor para una etiqueta de tipo de conformidad personalizada.
 
 1. Guarde y publique el curso/ruta de aprendizaje/certificación.
 Ahora, el curso, la ruta de aprendizaje o la certificación se consideran un tipo de conformidad. Los administradores pueden añadir este curso al panel de cumplimiento y compartirlo con responsables para realizar un seguimiento del progreso

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ Para crear y compartir un tablero de cumplimiento, siga estos pasos:
 
 1. Ve a **[!UICONTROL Informes]** > **[!UICONTROL Resumen del aprendizaje]**.
 1. En la sección **[!UICONTROL Panel de cumplimiento]**, seleccione **[!UICONTROL Compartido con responsables]**.
-1. Seleccione **[!UICONTROL Compartir panel]** y seleccione las etiquetas creadas en el menú desplegable **[!UICONTROL Cumplimiento personalizado]**.
+1. Seleccione **[!UICONTROL Compartir panel]** y seleccione las etiquetas creadas en el menú desplegable **[!UICONTROL Seleccionar etiqueta de cumplimiento]**.
 
 
    ![](assets/compliance-type.png)
