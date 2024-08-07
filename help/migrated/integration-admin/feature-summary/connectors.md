@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Una vez que la conexión se establece correctamente, puede asignar columnas de a
    >
    >El campo de responsable debe asignarse necesariamente a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.
 
-1. Haga clic en **[!UICONTROL Guardar]** después de completar la asignación.
+1. Seleccione **[!UICONTROL Guardar]** después de completar la asignación.
 
    El conector ya está listo para utilizarse. La cuenta que se ha configurado ahora aparece como fuente de datos dentro de la aplicación del administrador, para que el administrador programe la importación o la sincronización a petición.
 
@@ -2073,32 +2073,7 @@ El proceso automatizado de sincronización de finalización de usuarios permite 
 
 Para obtener más información, consulte [**Instalar el conector de Microsofts Teams en Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Experiencia sin sesión iniciada
-
-La experiencia de no inicio de sesión le permite crear una experiencia en tiempo real para los usuarios que no han iniciado sesión. Por ejemplo, una experiencia que no haya iniciado sesión sirve como página de aterrizaje para las campañas de marketing que alientan los registros.
-
-La experiencia de inicio de sesión no registrado en Adobe Learning Manager se puede configurar mediante el conector **[!UICONTROL Training Data Access]**. El conector ofrece las siguientes opciones:
-
-* Oferta estándar
-* Oferta Premium
-
-**Oferta estándar**
-
-La oferta estándar es crear la versión nativa de Adobe Learning Manager. Los usuarios pueden crear una experiencia descentralizada, de solo demostración y sin haber iniciado sesión. La experiencia descentralizada de demostración no es escalable y no debe utilizarse en un entorno de producción.
-
-**Oferta premium**
-
-La oferta premium ayuda a los usuarios a crear una interfaz descentralizada, que se configura mediante el conector **[!UICONTROL Training Data Access]**. Esto permite a los usuarios obtener datos en tiempo real sobre detalles del curso y la ruta de aprendizaje, como el nombre, la descripción, el autor, las aptitudes, la duración, etc. En los escenarios de aprendizaje mixto, también se obtienen límites de puestos en tiempo real, puestos ocupados, listas de espera y recuentos de listas de espera. Los clientes pueden utilizar estas API para crear capacidades de búsqueda y filtro, así como un resumen completo del curso para los alumnos que no hayan iniciado sesión.
-
-Los clientes pueden adquirir un plan prémium para crear esta experiencia altamente ampliable sin haber iniciado sesión.
-
->[!NOTE]
->
->Póngase en contacto con el equipo de asistencia o el CSM para adquirir el plan premium.
-
-Después de que un usuario adquiera un plan, el equipo de CSM activará el plan premium para él. Mediante el conector de Acceso a datos de formación, los usuarios pueden configurar una experiencia sin conexión con las funciones mencionadas anteriormente.
-
-### Conector de acceso a datos de formación
+## Conector de acceso a datos de formación {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Después de que un usuario adquiera un plan, el equipo de CSM activará el plan 
 
 El conector **[!UICONTROL Training Data Access]** te permite crear una experiencia descentralizada. Esta experiencia puede ser independiente o una interfaz de usuario personalizada basada en AEM Sites. Ayuda a recuperar y mostrar información de formación a los alumnos y permite buscar y filtrar. Una vez habilitado el conector de datos, estará disponible un conjunto de API públicas para crear la interfaz, donde se mostrará a los alumnos la información de la ruta de aprendizaje/curso.
 
-#### Configurar el conector
+### Configurar el conector
 
 Usa el conector **[!UICONTROL Training Data Access]** para integrar tu cuenta de Adobe Learning Manager con sistemas de búsqueda y almacenamiento de datos. Esto ayuda a la interfaz basada en AEM Sites a obtener datos de formación, mostrar páginas web y ofrecer mejores opciones de búsqueda para los alumnos.
 
@@ -2164,6 +2139,31 @@ Para obtener más información, vea este [**documento**](../../adobe-learning-ma
 En el sitio web publicado, se muestra una lista de todos los cursos, las rutas de aprendizaje y los certificados migrados que se han recuperado del servicio de búsqueda para los alumnos que no han iniciado sesión.
 
 Cuando un alumno hace clic en Curso, Certificado o Ruta de aprendizaje, se inicia la página Descripción general. En esta página, cuando se inscribe un alumno, este debe iniciar sesión primero y, a continuación, realizar el curso.
+
+### Experiencia sin sesión iniciada
+
+La experiencia de no inicio de sesión le permite crear una experiencia en tiempo real para los usuarios que no han iniciado sesión. Por ejemplo, una experiencia que no haya iniciado sesión sirve como página de aterrizaje para las campañas de marketing que alientan los registros.
+
+La experiencia de inicio de sesión no registrado en Adobe Learning Manager se puede configurar mediante el conector **[!UICONTROL Training Data Access]**. El conector ofrece las siguientes opciones:
+
+* Oferta estándar
+* Oferta Premium
+
+**Oferta estándar**
+
+La oferta estándar es crear la versión nativa de Adobe Learning Manager. Los usuarios pueden crear una experiencia descentralizada, de solo demostración y sin haber iniciado sesión. La experiencia descentralizada de demostración no es escalable y no debe utilizarse en un entorno de producción.
+
+**Oferta premium**
+
+La oferta premium ayuda a los usuarios a crear una interfaz descentralizada, que se configura mediante el conector **[!UICONTROL Training Data Access]**. Esto permite a los usuarios obtener datos en tiempo real sobre detalles del curso y la ruta de aprendizaje, como el nombre, la descripción, el autor, las aptitudes, la duración, etc. En los escenarios de aprendizaje mixto, también se obtienen límites de puestos en tiempo real, puestos ocupados, listas de espera y recuentos de listas de espera. Los clientes pueden utilizar estas API para crear capacidades de búsqueda y filtro, así como un resumen completo del curso para los alumnos que no hayan iniciado sesión.
+
+Los clientes pueden adquirir un plan prémium para crear esta experiencia altamente ampliable sin haber iniciado sesión.
+
+>[!NOTE]
+>
+>Póngase en contacto con el equipo de asistencia o el CSM para adquirir el plan premium.
+
+Después de que un usuario adquiera un plan, el equipo de CSM activará el plan premium para él. Mediante el conector de Acceso a datos de formación, los usuarios pueden configurar una experiencia sin conexión con las funciones mencionadas anteriormente.
 
 ## Conector de Adobe Commerce
 
