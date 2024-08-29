@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 66%
+source-wordcount: '3669'
+ht-degree: 65%
 
 ---
 
@@ -165,7 +165,7 @@ Active o desactive las opciones siguientes:
   </tr>
   <tr>
    <td>Mostrar etiquetas de catálogo</td>
-   <td>Si la opción está activada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje.</td>
+   <td>Si está activada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje. Al seleccionar esta opción, los autores también pueden añadir cursos, rutas de aprendizaje, certificaciones o ayudas de trabajo a los catálogos.</td>
   </tr>
   <tr>
    <td>Los alumnos pueden ver sus puntuaciones</td>

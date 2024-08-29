@@ -2,10 +2,10 @@
 title: Experiencia sin inicio de sesión para alumnos
 description: El portal nativo de Adobe Learning Manager admitirá una forma no registrada de acceder al sitio de formación. Con este modo activado, los alumnos pueden descubrir y acceder al sitio de formación y consultar los distintos cursos y contenidos disponibles. Esta experiencia permite a los alumnos examinar cursos sin haber iniciado sesión en un portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '601'
+ht-degree: 40%
 
 ---
 
@@ -88,3 +88,4 @@ Estarán presentes todos los cursos de formación exportados.
 * Vista de la aplicación del alumno que se muestra en el catálogo.
 * Páginas de información general de formación: al hacer clic en la tarjeta, se redirige a Registrarse, tras lo cual se redirige al usuario a la página de información general de formación/página de instancias.
 * Estarán presentes todos los catálogos activados. Los alumnos que no tengan acceso a un catálogo no podrán verlo ni consultar los cursos de formación incluidos en él después de iniciar sesión.
+* Para la opción nativa, los cambios en un curso o ruta de aprendizaje se reflejarán después de 24 horas, no en tiempo real.
