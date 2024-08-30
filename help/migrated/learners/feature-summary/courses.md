@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mis conocimientos
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Puede ver todos los módulos del curso en una ventana del navegador.
 **Cerrar el curso** Haga clic en el icono de cerrar (x) en la esquina superior derecha del reproductor para salir del curso.
 
 *Después de salir del curso, puede volver a visitar el curso haciendo clic en el botón Regresar en la página de descripción del curso.*
+
+## Varias instancias de inscripción
+
+Si un curso tiene varias instancias, los alumnos tendrán la opción de elegir e inscribirse en una instancia específica. También pueden cambiar de instancia si es necesario.
 
 ## Valoración basada en estrellas
 
