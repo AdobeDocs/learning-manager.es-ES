@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
 workflow-type: tm+mt
-source-wordcount: '3573'
+source-wordcount: '3572'
 ht-degree: 49%
 
 ---
@@ -111,7 +111,7 @@ En la tabla siguiente se muestra el tipo de archivos estáticos e interactivos q
    <td>
     <p>HTML</p></td>
    <td>
-    <p>html o htm</p></td>
+    <p>archivo zip</p></td>
   </tr>
  </tbody>
 </table>
