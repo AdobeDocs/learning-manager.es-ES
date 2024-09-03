@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Necesitará herramientas de creación de sdk de Android para crear los archivos binarios firmados.
+
+Play Store requiere archivos binarios de Android en formato aab para su publicación. Por lo tanto, proporcionaremos el archivo .aab sin firmar.
+
+Esta es una versión revisada:
+
+>[!NOTE]
+>
+>Al crear un archivo de almacén de claves, debe generar una contraseña de almacén de claves, un alias de clave de firma y una contraseña de alias de clave de firma.
+
+Siga los pasos que se indican a continuación para firmar el archivo .aab:
+
+Ejecute el siguiente comando:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]** se incluye con Java. Asegúrese de que utiliza Java 21.
+
+Cuando se le solicite, introduzca las siguientes contraseñas:
+
+* Contraseña de almacén de claves
+* contraseña para el alias de clave de firma
+
+Puede utilizar el apk proporcionado. Sin embargo, si necesita generar un apk a partir de un archivo aab, siga estos pasos:
+
+>[!NOTE]
+>
+>Deberá instalar **[!UICONTROL bundletool]** para generar APK.
+
+
+Ejecute el siguiente comando para crear el archivo APK:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Para descomprimir el archivo, ejecute el siguiente comando:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+El archivo APK se obtendrá de la carpeta **[!UICONTROL output_dir]**.
 
 **Lo que está por llegar**
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
-ht-degree: 62%
+source-wordcount: '4061'
+ht-degree: 61%
 
 ---
 
@@ -235,7 +235,7 @@ Los registros internos y externos presentan algunas diferencias.
    <td>
     <p>La interacción está disponible.</p></td>
    <td>
-    <p>La interacción no está disponible.</p></td>
+    <p>La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en la configuración Interacción.</p></td>
   </tr>
   <tr>
    <td>
