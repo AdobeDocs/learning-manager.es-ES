@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -374,8 +374,6 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >Necesitará herramientas de creación de sdk de Android para crear los archivos binarios firmados.
 
 Play Store requiere archivos binarios de Android en formato aab para su publicación. Por lo tanto, proporcionaremos el archivo .aab sin firmar.
-
-Esta es una versión revisada:
 
 >[!NOTE]
 >
