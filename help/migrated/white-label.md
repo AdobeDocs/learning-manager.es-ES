@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-La carpeta raíz contiene el archivo **Runner.xcarchive.zip**. Ejecute los siguientes comandos para generar el binario firmado:
+La carpeta `<root>` contiene el archivo **Runner.xcarchive.zip**. Ejecute los siguientes comandos para generar el binario firmado:
 
 1. Ejecute el siguiente comando para descomprimir el archivo:
 
@@ -378,7 +378,7 @@ La carpeta raíz contiene el archivo **Runner.xcarchive.zip**. Ejecute los sigui
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Vuelva al directorio raíz (donde se encuentra Runner.xcarchive.zip):
+4. Vuelva a la carpeta `<root>` (donde se encuentra Runner.xcarchive.zip):
 
    ```
    cd <root>
