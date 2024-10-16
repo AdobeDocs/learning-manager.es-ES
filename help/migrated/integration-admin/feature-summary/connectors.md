@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ Escriba el nombre de conexión y el nombre de dominio
 1. Seleccione **[!UICONTROL Tipo de interfaz]** entre las siguientes opciones:
 
    * **[!UICONTROL Native Learning Manager]**: esta es la oferta estándar, que solo está disponible para la interfaz nativa.
-***[!UICONTROL Interfaces sin encabezado]**: esta es la oferta premium que expone las API para crear una experiencia sin inicio de sesión.
+   * **[!UICONTROL Interfaces sin encabezado]**: Esta es la oferta premium que expone las API para crear una experiencia sin inicio de sesión.
 
    ![](assets/types-of-interface.png)
 Tipos de interfaz

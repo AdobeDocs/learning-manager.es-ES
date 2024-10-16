@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de julio de 
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ Las API que admiten la ordenación por fecha y fecha mostrarán los resultados e
 ### Cambios en los límites de desplazamiento
 
 Para mejorar el rendimiento del sistema y administrar el uso de recursos de forma más eficaz, Adobe ha eliminado los valores de desplazamiento alto en el extremo GET/usuarios para los ámbitos ADMIN y LEARNER. Se recomienda utilizar la API de trabajos para recuperar los registros con un valor de desplazamiento.
+
+### Cambios en RPM y limitación de ráfagas
+
+En esta versión, se han añadido RPM (solicitudes por minuto) y límites de ráfaga para todas las API. Puede comprobar el RPM máximo de cada API en la página Swagger.
+
+RPM es el número de solicitudes que puede enviar al servidor de API en un minuto. El límite de ráfaga permite un mayor número de solicitudes durante un breve tiempo, superando el límite de velocidad habitual.
 
 ### API en desuso
 
