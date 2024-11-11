@@ -2,9 +2,9 @@
 description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Los administradores pueden encontrar estos cambios de informes en la sección **
 
 El informe **[!UICONTROL Transcripciones de aprendizaje]** contendrá dos nuevas columnas:
 
-* ID de módulo
-* ID de instancia del curso
+* **[!UICONTROL Id. de módulo]**: muestra el identificador único de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
+* **[!UICONTROL Id. de instancia del curso]**: muestra el identificador único de cada instancia del curso. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Instancia]** existente.
+* **[!UICONTROL Comentario de finalización]**: esta columna captura los comentarios introducidos por el administrador al marcar la finalización del usuario. Esta nueva columna se ha agregado al final del informe.
+
 
 ### Informe de resumen de sesión
 
 El informe **[!UICONTROL Resumen de sesión]** contendrá tres nuevas columnas:
 
-* ID de módulo
-* ID de sesión
-* ID de instancia del curso
-* Recuento de finalización
+* Se agregó la columna **[!UICONTROL ID de módulo]** antes de la columna **[!UICONTROL Nombre de sesión]**.
+* Se agregó la columna **[!UICONTROL Id. de sesión]** antes de la columna **[!UICONTROL Nombre de sesión]**.
+* Se agregó la columna **[!UICONTROL Id. de instancia del curso]** después de la columna **[!UICONTROL Nombre de instancia]**.
+* Se agregó la columna **[!UICONTROL Recuento de finalizaciones]** después de la columna **[!UICONTROL Recuento de inscripciones]**.
 
 ## Errores solucionados en esta actualización
 
