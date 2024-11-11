@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Novedades de esta versión
 
-Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new.md).
+Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-july-2024.md).
 +++
 
 +++Actualización 96: versión de marzo de 2024 de Adobe Learning Manager
@@ -47,7 +47,7 @@ Para obtener más información, consulte [Novedades de Adobe Learning Manager](/
 
 ## Novedades de esta versión
 
-Para obtener más información, consulte [Novedades de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
+Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-november-2023.md).
 +++
 
 +++Actualización 94
@@ -395,8 +395,6 @@ La versión de noviembre de 2022 de Adobe Learning Manager consta de lo siguient
 * Mejoras de la página de información general de formación
 * Personalización del reproductor
 * Suplantación del alumno y el responsable
-
-Para obtener más información, consulte [Novedades de la versión de noviembre de 2022 de Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
 **Nota:** Con la versión de noviembre de 2022 de Adobe Learning Manager, Zoom dejará de usar la [autenticación JWT en junio de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Por lo tanto, el conector de Zoom con JWT seguirá funcionando hasta la fecha indicada, pero recomendamos a los usuarios que creen una aplicación OAuth de servidor a servidor para reemplazar esta función en la cuenta. Todas las conexiones nuevas tendrán la autenticación de OAuth de Zoom de forma predeterminada.
 
@@ -3037,7 +3035,7 @@ En el inicio de sesión del administrador, la paginación no funcionaba en la p�
 
 **Creación de aptitudes**
 
-En el inicio de sesión de los alumnos, la información del nombre de la aptitud en **El mapa de aptitudes **era** **no mostraba el nombre completo***. Este problema se ha solucionado.
+En el inicio de sesión de los alumnos, la información del nombre de la aptitud en **Mapa de aptitudes **no se ****mostraba el**** nombre completo. Este problema se ha solucionado.
 
 **Cómo añadir socios externos**
 

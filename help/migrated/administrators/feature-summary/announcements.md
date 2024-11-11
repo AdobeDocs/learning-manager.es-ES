@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Anuncios
 description: Un anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador difunde entre un determinado conjunto de usuarios.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -59,26 +59,32 @@ Si el elemento adjunto multimedia es de gran tamaño, puede tardar en cargarse. 
 
 Al seleccionar esta opción, cualquier archivo multimedia que elija se mostrará como cabecera en la página de inicio del alumno. La cabecera actúa como una llamada a la acción para los alumnos a los que está destinada.
 
-![](assets/masthead-announcement.png)
+Los administradores pueden añadir texto alternativo para todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos.
 
-*Personalizar la cabecera*
+Para añadir la cabecera, siga estos pasos:
 
-1. Busque y elija una imagen que represente la cabecera. El tamaño recomendado es de 1280 x 360 px.
-1. Elija la configuración regional a la que desea añadir una cabecera. Para cada idioma, debe elegir un recurso de cabecera.
-1. En el campo **[!UICONTROL Botón Acción]**, añada una URL para que cuando los alumnos hagan clic en el botón de la cabecera, se les redirija a la URL. Se trata de un campo opcional.
-1. Elija los grupos de usuarios de destino o los objetos de aprendizaje de destino. Solo puede elegir uno de ellos para un anuncio.
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Seleccione **[!UICONTROL Anuncios]** > **[!UICONTROL Agregar]**.
+3. Seleccione **[!UICONTROL Como cabecera]** en el menú desplegable Tipo.
 
-   Empiece a escribir el nombre del grupo de usuarios en el cuadro de texto y seleccione en la lista desplegable. También puede elegir el curso de formación especificando el nombre del objeto en el cuadro de texto.
+   ![](assets/announcement.png)
+   _Crear un anuncio_
 
-1. En la sección **[!UICONTROL Configuración avanzada]**, tiene las siguientes opciones:
+4. Seleccione el idioma y cargue la imagen.
 
-   * Haga clic en **[!UICONTROL Inmediatamente]** si desea que el anuncio se publique en ese momento.
-   * Haga clic en **[!UICONTROL Nunca]** si no desea que caduque el anuncio.
+   >[!NOTE]
+   >
+   >Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos.
+
+5. Escriba el texto adecuado en el campo **[!UICONTROL Texto alternativo]**.
+6. En el campo **[!UICONTROL Botón de acción]**, agregue una dirección URL para redirigir a los alumnos cuando hagan clic en el botón en la cabecera.
+7. Seleccione los grupos de usuarios de destino o los objetos de aprendizaje de destino. Solo puede elegir uno de ellos para un anuncio.
+8. En la sección **[!UICONTROL Configuración avanzada]**, tiene las siguientes opciones:
+
+   * Seleccione **[!UICONTROL Inmediatamente]** si desea que el anuncio se publique en ese momento.
+   * Seleccione **[!UICONTROL Nunca]** si no desea que caduque el anuncio.
    * Seleccione las fechas **[!UICONTROL Inicio]** y **[!UICONTROL Fin]** del anuncio.
-
-   ![](assets/advanced-settings.png)
-
-   *Establecer el tiempo de visualización de una cabecera*
+9. Seleccione Guardar y publique el anuncio.
 
 **¿Hay un límite en el número de anuncios de cabecera en directo?**
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 61%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Si un alumno con un estado de aprobación pendiente se da de baja, su registro n
 ## Lista de espera
 
 La sección Lista de espera permite que los alumnos estén en lista de espera para cursos de clase cuando las plazas son limitadas, en función de su orden de inscripción. Los administradores pueden gestionar esto seleccionando alumnos en lista de espera y asignando puestos que superen el límite inicial. Una vez que el administrador asigna una licencia, el alumno se inscribe inmediatamente en el curso.
+
+### Informe de lista de espera
+
+Adobe Learning Manager permite a los administradores descargar la lista de alumnos en lista de espera para todas las instancias de un curso. Los administradores pueden acceder a este informe desde la sección Lista de espera de la página **[!UICONTROL Resumen del curso]**.
+
+Siguiendo las columnas disponibles en el informe de lista de espera:
+
+* Nombre del curso
+* Nombre de la instancia
+* ID de instancia
+* Estado de la instancia
+* Nombre de usuario
+* Correo electrónico
+* ID exclusivo de usuario
+* Fecha de inscripción (zona horaria UTC)
+* Estado
+* Número de lista de espera
+* Límite de lista de espera
+* Límite de puestos
+
+Para descargar el informe desde la sección de administración:
+
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a la sección **[!UICONTROL Curso]** y seleccione el curso requerido.
+3. Seleccione la opción **[!UICONTROL Lista de espera]** en la página **[!UICONTROL Descripción general del curso]**.
+4. Selecciona **[!UICONTROL Acciones]** > **[!UICONTROL Informe de exportación]** para descargar el informe de **[!UICONTROL lista de espera]**.
+
+   ![](assets/export-report-waitlist.png)
+   _Informe de exportación_
 
 ## Exportar asistencia de los alumnos {#attendance}
 
@@ -498,6 +527,31 @@ Para enviar notificaciones por correo electrónico, un administrador debe establ
 ![](assets/escalation-notification.png)
 
 *Establecer nivel de escalación*
+
+## Comentarios de finalización
+
+Los administradores pueden dejar comentarios cuando marcan a cualquier alumno como completado para cursos, rutas de aprendizaje o certificaciones. Estos comentarios ayudan con el cumplimiento y la auditoría. Los administradores pueden añadir comentarios fácilmente para uno o varios alumnos a la vez.
+
+### Agregar comentarios de finalización
+
+Siga estos pasos para agregar comentarios de finalización:
+
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a la página **[!UICONTROL Cursos]** y seleccione un curso.
+3. Seleccione **[!UICONTROL Alumnos]** en la página del curso.
+4. Elija el alumno individual o varios alumnos.
+5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione**[!UICONTROL  Marcar finalización]**.
+6. Escriba el comentario de finalización en el cuadro de diálogo.
+
+   ![](assets/comments.png)
+   _Comentario de finalización_
+
+Este proceso es el mismo para rutas de aprendizaje y certificaciones. En el caso de las rutas de aprendizaje, puede filtrar para seleccionar todos los cursos o solo los cursos individuales para marcarlos como completados.
+
+![](assets/learning-path.png)
+_Seleccionar varios cursos para completar_
+
+Los comentarios estarán visibles en el informe [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 ## Previsualizar cursos {#previewcourses}
 

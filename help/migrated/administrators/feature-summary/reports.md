@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 53%
 
 ---
 
@@ -289,63 +289,107 @@ Para crear y compartir un tablero de cumplimiento, siga estos pasos:
 >
 >Al compartir el nuevo panel, se sobrescribirá el panel existente en la aplicación del administrador seleccionado. Los responsables podrán ver el panel que los administradores han compartido recientemente.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Compartir el tablero de cumplimiento con administradores y administradores personalizados
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Los administradores pueden compartir el tablero con otros administradores y administradores personalizados, lo que les proporciona acceso instantáneo a todos los tableros de cumplimiento.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Siga estos pasos para compartir el tablero con administradores y administradores personalizados:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen del aprendizaje]**.
+3. Seleccione **[!UICONTROL Vista de administrador]** en la sección **[!UICONTROL Panel de cumplimiento]**.
+4. Seleccione el botón **[!UICONTROL Compartir panel]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Compartir panel - Administrador_
 
-You can also see the compliance status for each internal team.
+5. Seleccione las etiquetas de cumplimiento en el menú desplegable **[!UICONTROL Seleccionar cumplimiento personalizado]**. Esta opción seleccionará todos los cursos que tengan las etiquetas de cumplimiento seleccionadas.
+6. Seleccione los cursos, rutas de aprendizaje o certificaciones adicionales que desee compartir con los administradores.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Compartir panel de cumplimiento_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Seleccione los usuarios o grupos de usuarios que desee compartir en el panel y seleccione **[!UICONTROL Compartir]**.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Ver el panel de cumplimiento normativo: administradores personalizados y otros administradores
 
-### Share training with managers
+Todos los administradores personalizados y otros administradores del grupo de usuarios seleccionado pueden ver el panel de cumplimiento en su aplicación.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Siga estos pasos para ver el panel de cumplimiento:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen de aprendizaje]** > **[!UICONTROL Panel de cumplimiento]**.
+2. Seleccione **[!UICONTROL Tu vista]** en la sección **[!UICONTROL Panel de cumplimiento]**.
+3. Seleccione la opción **[!UICONTROL Ir al panel de cumplimiento]** y podrá ver el nuevo panel de cumplimiento compartido por el administrador.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Ver el panel de cumplimiento - Administrador personalizado_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Compartir con responsables de tienda
 
-### Share training
+Los administradores pueden compartir el tablero de cumplimiento con los responsables de tienda, lo que les permite supervisar el progreso del cumplimiento de sus alumnos.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Siga estos pasos para compartir el panel con los responsables de la tienda:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen de aprendizaje]** > **[!UICONTROL Panel de cumplimiento]**.
+3. Seleccione **[!UICONTROL Manager View]** en la sección **[!UICONTROL Compliance Dashboard]**.
+4. Seleccione el botón **[!UICONTROL Compartir panel]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Compartir el panel de cumplimiento con responsables_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Seleccione las etiquetas de cumplimiento en el menú desplegable **[!UICONTROL Seleccionar cumplimiento personalizado]**.
+Esta opción seleccionará todos los cursos que tengan las etiquetas de cumplimiento seleccionadas.
+6. Seleccione los cursos, rutas de aprendizaje o certificaciones adicionales que desee compartir con los administradores.
+7. Seleccione los usuarios o grupos de usuarios que desee compartir en el panel y seleccione **[!UICONTROL Compartir]**.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Ver el panel de cumplimiento: responsable
 
-1. Click **[!UICONTROL Share]**.
+Consulte este artículo [Ver el panel de cumplimiento](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) para obtener más información.
 
-The training is now shared with the specified manager.
+#### Editar el panel
 
-### View training
+Siga estos pasos para editar el panel de cumplimiento:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen de aprendizaje]** > **[!UICONTROL Panel de cumplimiento]**.
+3. Seleccione **[!UICONTROL Admin View]** o **[!UICONTROL Manager View]** en la sección **[!UICONTROL Compliance Dashboard]**. Puede ver los paneles de cumplimiento en esta sección.
+4. Seleccione **[!UICONTROL Editar]** en el panel de cumplimiento que desee editar.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Editar el panel de cumplimiento_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Cambie los detalles necesarios y seleccione **[!UICONTROL Compartir]**.
+6. El panel de cumplimiento se compartirá con los responsables seleccionados.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Retirar el panel: administrador
+
+Siga estos pasos para retirar el tablero de cumplimiento:
+
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen de aprendizaje]** > **[!UICONTROL Panel de cumplimiento]**.
+3. Seleccione **[!UICONTROL Admin View]** o **[!UICONTROL Manager View]** en la sección **[!UICONTROL Compliance Dashboard]**. Puede ver los paneles de cumplimiento en esta sección.
+4. Seleccione **[!UICONTROL Retirar]** en el panel de cumplimiento que desee quitar y seleccione **[!UICONTROL Continuar]**.
+5. Esta acción eliminará el panel de cumplimiento compartido de la aplicación del responsable.
+
+   ![](assets/manager-edit.png)
+   _Retirar el panel de cumplimiento_
+
+#### Establecer widget de cumplimiento predeterminado para alumnos
+
+Siga estos pasos para configurar el widget de cumplimiento predeterminado para los alumnos:
+
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Vaya a **[!UICONTROL Informes]** > **[!UICONTROL Resumen de aprendizaje]** > **[!UICONTROL Panel de cumplimiento]**.
+3. Seleccione **[!UICONTROL Vista del alumno]** en la sección **[!UICONTROL Panel de cumplimiento]**.
+4. Seleccione **[!UICONTROL Cambiar]** en la sección **[!UICONTROL Vista del alumno]**.
+
+   ![](assets/learner-widget.png)
+   _Establecer widget de cumplimiento predeterminado para alumnos_
+5. Seleccione las etiquetas de cumplimiento en el menú desplegable **[!UICONTROL Cumplimiento personalizado]**. Esta opción seleccionará todos los cursos que tengan las etiquetas de cumplimiento seleccionadas.
+6. Seleccione **[!UICONTROL Continuar]** para establecer el widget de cumplimiento predeterminado.
+
+Los alumnos pueden ver los cursos o rutas de aprendizaje seleccionados en el widget de cumplimiento en su página de inicio. Consulte [Widget de panel de cumplimiento](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) para obtener más información.
 
 ## Informes personalizados
 
@@ -846,6 +890,34 @@ El informe contiene los siguientes campos:
 * Recordatorio de elemento de aprendizaje
 * Ámbito: catálogo
 * Ámbito: grupo de usuarios
+
+### Seguimiento de auditoría para funciones personalizadas
+
+Los administradores pueden descargar el informe de auditoría de funciones personalizadas para realizar un seguimiento de todos los cambios realizados en las funciones personalizadas, incluida la creación, modificación y eliminación de funciones personalizadas y su acceso a las funciones asociadas.
+
+Para descargar el informe, siga estos pasos:
+
+1. Inicie sesión como administrador.
+2. Seleccione Informes > Informes personalizados.
+3. Seleccione Seguimiento de auditoría de funciones personalizadas y elija el intervalo de fechas
+4. Seleccione Generar para descargar el informe.
+
+El informe Seguimiento de auditoría de funciones personalizadas contiene los siguientes campos:
+
+* ID de función
+* Nombre de la función
+* Tipo de actividad
+* Tipo de modificación
+* Descripción
+* Tipo de objeto de referencia
+* ID de objeto de referencia
+* Nombre de objeto de referencia
+* Correo electrónico de objeto de referencia
+* Modificado por nombre de usuario
+* Modificado por UUID de usuario
+* Modificado por correo electrónico de usuario
+* Fecha de modificación (zona horaria UTC)
+* Origen
 
 ## Suscripciones de correo electrónico {#emailsubscriptions}
 

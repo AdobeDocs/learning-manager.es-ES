@@ -4,10 +4,10 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 57%
 
 ---
 
@@ -17,28 +17,33 @@ Esta función le ayuda a definir funciones personalizadas y a asignar responsabi
 
 Puede crear una función personalizada para proporcionar capacidades de autoría limitadas a un catálogo en particular. También puede crear una función destinada a gestionar informes. Dichas funciones después pueden asignarse a las personas que, se supone, asumirán estas responsabilidades.
 
+Ahora, los administradores pueden ver los permisos creados mediante CSV en Adobe Learning Manager. La opción filtrar por filtra las funciones personalizadas por administrador creadas y las importadas mediante CSV. Después de seleccionar una función personalizada, puede ver sus permisos.
+
+![](assets/filter.png)
+_Filtrar funciones personalizadas_
+
 ## Crear una función personalizada {#create-role}
 
 1. Inicie sesión como Administrador. Abra **[!UICONTROL Usuarios]** > **[!UICONTROL Función personalizada]**.
-1. Seleccione **[!UICONTROL Crear rol]**. Se abre la ficha **[!UICONTROL Crear función]**.
+2. Seleccione **[!UICONTROL Crear rol]**. Se abre la ficha **[!UICONTROL Crear función]**.
 
    ![](assets/create-new-role.png)
 
    *Crear una función personalizada*
 
-1. Escriba el nombre en el campo **[!UICONTROL Nombre del rol]**.
-1. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
+3. Escriba el nombre en el campo **[!UICONTROL Nombre del rol]**.
+4. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados. Los administradores pueden conceder permisos detallados para la sección Usuario, que tiene usuarios internos/externos, grupos de usuarios y usuarios avanzados.
 
->[!NOTE]
->
->   El ámbito no es aplicable a estos privilegios.
+   >[!NOTE]
+   >
+   >   El ámbito no es aplicable a estos privilegios.
 
 
-![](assets/account-privileges.png)
+   ![](assets/account-privileges.png)
 
-*Establecer el ámbito*
+   *Establecer el ámbito*
 
-1. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
+5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Con esta opción se pueden conceder permisos para las siguientes funciones. Los administradores pueden proporcionar permisos detallados, como permisos de solo lectura, de creación, de edición y de eliminación para los catálogos.
 
    * Catálogos
    * Informes
@@ -48,7 +53,7 @@ Puede crear una función personalizada para proporcionar capacidades de autoría
 
    *Establecer ámbito para catálogos, informes y etiquetas*
 
-1. **Privilegios de funciones: objetos de aprendizaje:** Utilice esta opción para proporcionar acceso a funciones relacionadas con objetos de aprendizaje. Puede proporcionar acceso a los siguientes objetos de aprendizaje.
+6. **Privilegios de funciones: objetos de aprendizaje:** Utilice esta opción para proporcionar acceso a funciones relacionadas con objetos de aprendizaje. Los administradores pueden proporcionar permisos detallados para todos los objetos de aprendizaje, incluidos cursos, rutas de aprendizaje, certificaciones y ayudas de trabajo. Pueden asignar permisos a los usuarios como crear, editar, eliminar o acceso de solo lectura.
 
    * Certificaciones
    * Cursos
@@ -57,16 +62,20 @@ Puede crear una función personalizada para proporcionar capacidades de autoría
 
    También puede otorgar un control de operación específico para los objetos de aprendizaje. El permiso puede ser uno de los siguientes:
 
-   * Control total
-   * Editar y eliminar
+   * Solo lectura
+   * Crear
+   * Editar
+   * Eliminar
    * Inscripción
    * Informe
 
-   ![](assets/learning-objects.png)
+   También puede otorgar control total a los objetos de aprendizaje.
+
+   ![](assets/learningobjects.png)
 
    *Conceder permisos específicos*
 
-1. **Ámbito de los privilegios de funciones:** El ámbito de los privilegios de funciones asignados a esta función se puede restringir a un grupo de usuarios específico o a uno o varios catálogos.
+7. **Ámbito de los privilegios de funciones:** El ámbito de los privilegios de funciones asignados a esta función se puede restringir a un grupo de usuarios específico o a uno o varios catálogos.
 
    Catálogos: utilice el botón de opción para proporcionar control sobre **[!UICONTROL Todos los catálogos]**; también puede utilizar la opción **[!UICONTROL Definir acceso por catálogo]** para conceder acceso a determinados catálogos. También puede seleccionar varios catálogos.
 
@@ -226,16 +235,41 @@ Un usuario con una función personalizada puede:
 
    **Agregar usuarios a la carga de CSV de funciones personalizadas:** Para agregar usuarios mediante la carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador usó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en **[!UICONTROL Agregar > Cargar un CSV]**.
 
-   Columna CustomRoleNota:
+   * No puede buscar grupos de usuarios
+   * No puede buscar usuarios que ya tengan asignada la función de administrador.
+   * La asignación de una nueva función personalizada a un usuario anula la función personalizada anterior del usuario.
 
-* No puede buscar grupos de usuarios
-* No puede buscar usuarios que ya tengan asignada la función de administrador.
-* La asignación de una nueva función personalizada a un usuario anula la función personalizada anterior del usuario.
+   <!--![](assets/users.png)-->
 
-  <!--![](assets/users.png)-->
+   * Un administrador personalizado con permiso en Configuración podrá configurar la programación para sincronizar o sincronizar usuarios desde la fuente de datos aunque no tenga permiso para la entidad Usuarios.
+   * Si un usuario personalizado tiene permiso en la entidad Usuarios, los usuarios se pueden asignar a si mismos la función de administrador y convertirse en administradores estándar.
 
-* Un administrador personalizado con permiso en Configuración podrá configurar la programación para sincronizar o sincronizar usuarios desde la fuente de datos aunque no tenga permiso para la entidad Usuarios.
-* Si un usuario personalizado tiene permiso en la entidad Usuarios, los usuarios se pueden asignar a si mismos la función de administrador y convertirse en administradores estándar.
+## Informe de función personalizada
+
+Los administradores pueden descargar un informe CSV de todas las funciones personalizadas y sus permisos. El informe muestra cómo se creó cada función, ya sea por parte de un administrador o a través de un archivo CSV, y resalta el acceso otorgado a cada función.
+
+Para descargar el informe, siga estos pasos:
+
+1. Inicie sesión como **[!UICONTROL administrador]**.
+2. Seleccione **[!UICONTROL Usuarios]** > **[!UICONTROL Funciones personalizadas]**.
+3. Seleccione la opción **[!UICONTROL Descargar]** para descargar el informe CSV.
+
+![](assets/download-report.png)
+_Descargar informe de funciones personalizadas_
+
+El informe tiene dos archivos CSV: role.csv y user_role.csv. El archivo role.csv incluye:
+
+* Función personalizada
+* ID de usuario
+* Fuente de creación.
+
+El archivo user_role.csv incluye los campos Función personalizada, Origen de la creación e información detallada para catálogos, usuarios, cursos, rutas de aprendizaje, etc.
+
+## Seguimiento de auditoría para funciones personalizadas
+
+Los administradores pueden descargar el informe de auditoría de funciones personalizadas para realizar un seguimiento de todos los cambios realizados en las funciones personalizadas, incluida la creación, modificación y eliminación de funciones personalizadas y su acceso a las funciones asociadas.
+
+Consulte este artículo [Seguimiento de auditoría de funciones personalizadas](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) para obtener más información.
 
 ## Restringir el acceso a las carpetas a los autores personalizados {#folder-custom-author}
 

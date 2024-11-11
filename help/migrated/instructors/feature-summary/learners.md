@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ Los instructores tienen la capacidad de dar de baja de las sesiones a los alumno
 
 ![](assets/unenroll-learners.png)
 *Dar de baja a los alumnos*
+
+### Informe de lista de espera
+
+El nuevo **[!UICONTROL informe de lista de espera]** de Adobe Learning Manager permite a los instructores descargar la lista de alumnos en lista de espera para todas las instancias de un curso. Los instructores pueden acceder a este informe desde la sección **[!UICONTROL Lista de espera]** de la página **[!UICONTROL Descripción general de la sesión]**.
+
+Siguiendo las columnas disponibles en el informe de lista de espera:
+
+* Nombre del curso
+* Nombre de la instancia
+* ID de instancia
+* Estado de la instancia
+* Nombre de usuario
+* Correo electrónico
+* ID exclusivo de usuario
+* Fecha de inscripción (zona horaria UTC)
+* Estado
+* Número de lista de espera
+* Límite de lista de espera
+* Límite de puestos
+
+Para descargar el informe desde la sección Instructor :
+
+1. Inicie sesión como **[!UICONTROL Instructor]**.
+2. Seleccione cualquier sesión de la página principal.
+3. Seleccione la opción **[!UICONTROL Lista de espera]** en la página **[!UICONTROL Introducción a la sesión]**.
+4. Selecciona **[!UICONTROL Acciones]** > **[!UICONTROL Informe de exportación]** para descargar el informe de **[!UICONTROL lista de espera]**.
 
 ## Marcar la asistencia de la sesión {#markattendanceforyoursession}
 
