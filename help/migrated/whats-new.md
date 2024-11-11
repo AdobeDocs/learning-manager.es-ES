@@ -2,9 +2,9 @@
 description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Consulte este artículo [Funciones personalizadas](/help/migrated/administrators
 
 ## Comentarios de finalización
 
-Los administradores ahora pueden añadir comentarios al marcar a los alumnos como completados en cursos, rutas de aprendizaje o certificaciones. Los administradores pueden añadir comentarios para uno o varios alumnos al mismo tiempo, y los comentarios aparecerán en el informe [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
+Los administradores ahora pueden añadir comentarios al marcar a los alumnos como completados en cursos, rutas de aprendizaje o certificaciones. Los administradores pueden añadir comentarios para uno o varios alumnos al mismo tiempo, y los comentarios aparecen en el informe [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 Consulte este artículo [Comentarios de finalización](/help/migrated/administrators/feature-summary/courses.md#completion-comments) para obtener más información.
 
