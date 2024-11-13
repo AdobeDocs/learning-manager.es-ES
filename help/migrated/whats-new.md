@@ -2,9 +2,10 @@
 description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3134'
 ht-degree: 2%
 
 ---
