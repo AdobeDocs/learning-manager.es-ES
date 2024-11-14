@@ -3,7 +3,7 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 370cffa791fed463420658ef1f2079a0608e964b
+source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
 workflow-type: tm+mt
 source-wordcount: '3134'
 ht-degree: 2%
@@ -544,4 +544,3 @@ Ver [requisitos del sistema de Adobe Learning Manager](/help/migrated/system-req
 
 * [Versión de julio de 2024](/help/migrated/whats-new-july-2024.md)
 * [Versión de marzo de 2024](/help/migrated/whats-new-march-2024.md)
-
