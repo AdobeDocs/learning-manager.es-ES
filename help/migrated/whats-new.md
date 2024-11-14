@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Siguiendo las columnas disponibles en el informe de lista de espera:
 * Límite de lista de espera
 * Límite de puestos
 
-Consulte los artículos [Informe de lista de espera](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Informe de lista de espera](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) para descargar el informe de la sección de administradores e instructores.
+Consulte estos artículos [Informe de lista de espera (administrador)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Informe de lista de espera (instructores)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) para descargar el informe de la sección de administradores e instructores.
 
 ## Accesibilidad en la página de inicio del alumno
 
@@ -149,6 +149,10 @@ Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/
 ## Compatibilidad con hindi
 
 Adobe Learning Manager presenta ahora el hindi como uno de los idiomas de interfaz de la plataforma y apoya el crecimiento de la plataforma en India. La compatibilidad con hablantes nativos de hindi garantiza que todos los usuarios puedan acceder a todas las funciones, informes y la experiencia del usuario en general.
+
+>[!NOTE]
+>
+>Los certificados de insignia generados por el sistema en formato de PDF no admiten hindi.
 
 Para cambiar el idioma de la interfaz, siga estos pasos:
 

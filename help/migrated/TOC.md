@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 685220000be6be524c0829fe400abec911cf067e
+source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '622'
 ht-degree: 85%
 
 ---
@@ -88,7 +88,9 @@ ht-degree: 85%
    * [Manual de migración](integration-admin/feature-summary/migration-manual.md)
    * [Conectores de Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API no registradas](integration-admin/feature-summary/non-logged-in-apis.md)
-   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * Webhooks {#webhooks}
+      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
+      * [Guía de uso de webhooks](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [Con Credibilidad](integration-admin/feature-summary/credly-integration.md)
    * [Interoperabilidad de herramientas de aprendizaje](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integración de Learning Manager con AEM](integrate-aem-learning-manager.md)
