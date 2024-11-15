@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de A
 ## Búsqueda basada en IA en Adobe Learning Manager
 
 Adobe Learning Manager está renovando la forma en que los alumnos buscan cursos o formación. Introduce una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. La búsqueda es ahora más inteligente, ya que busca términos específicos y entiende el contexto y la intención detrás de ellos. La búsqueda avanzada comprende el significado de la consulta y proporciona resultados relevantes. Identifica el foco principal de la búsqueda para ofrecerle el conjunto de resultados más completo.
+
+>[!NOTE]
+>
+>La búsqueda basada en IA solo está disponible para los alumnos.
 
 Consulte este artículo [Búsqueda avanzada](/help/migrated/learners/feature-summary/advanced-search.md) para obtener más información.
 

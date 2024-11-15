@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 La funcionalidad de búsqueda en ALM mejora la experiencia del usuario al permitirle encontrar contenido relevante de manera eficiente y ayudarles a consumir el contenido adecuado.
 
 Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. La búsqueda es más inteligente, ya que busca términos específicos y entiende el contexto y la intención detrás de ellos. La búsqueda avanzada basada en IA entiende el significado de tu consulta y ofrece resultados relevantes.
+
+>[!NOTE]
+>
+>La búsqueda basada en IA solo está disponible para los alumnos.
 
 ## ¿Por qué es importante la búsqueda?
 
