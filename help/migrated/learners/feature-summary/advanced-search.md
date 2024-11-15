@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ La funcionalidad de búsqueda es importante por varias razones:
 * **Accesibilidad**: Las funciones de búsqueda efectivas hacen que la información sea más accesible, lo que garantiza que los usuarios puedan interactuar con contenido relevante para sus necesidades.
 * **Personalización**: Los sistemas de búsqueda avanzada pueden adaptar los resultados en función de las preferencias del usuario, lo que mejora la relevancia de la información presentada.
 
-Evolución de los comportamientos de búsqueda en la web
+## Evolución de los comportamientos de búsqueda en la web
+
 A medida que la gente busca en línea, su forma de hacerlo está cambiando y los motores de búsqueda se están adaptando para mantenerse al día. Las siguientes son algunas de las formas clave en las que la gente busca información hoy en día:
 
 * **Impulsado por intención**: En lugar de escribir palabras clave exactas, los usuarios ahora expresan sus necesidades con frases como Deseo o Necesito hacerlo. Los motores de búsqueda modernos entienden el propósito detrás de estas frases y dan resultados más relevantes.
