@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Guía de uso de webhooks
 description: Más información sobre el uso de Webhooks, las prácticas recomendadas y las limitaciones
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ El proceso de reintento comienza con un intervalo inicial de 5 segundos. Si el s
 ### Duplicar eventos
 
 Si un suscriptor tarda más de 5 segundos en responder después de procesar un evento, el sistema podría intentar procesar el mismo evento de nuevo. Se recomienda utilizar los ID de evento para realizar un seguimiento de los eventos que ya se han procesado. Además, si el webhook se bloquea después de enviar el evento pero antes de guardar que se ha procesado, puede que se vuelva a intentar el mismo grupo de eventos. Se recomienda utilizar ID de lote o ID de evento individuales para reconocer e ignorar cualquier duplicado.
-
-### Eventos fuera de orden
-
-ALM intenta mantener los eventos en el orden correcto, pero a veces los eventos se pueden distribuir fuera de orden, especialmente entre eventos en tiempo real y no en tiempo real.
-
-Si un administrador inscribe a varios alumnos en un curso a la vez, los eventos de inscripción se marcan como no en tiempo real. Sin embargo, si un alumno finaliza el curso rápidamente, ese evento de finalización se marca como en tiempo real y se puede impartir antes de los eventos de inscripción.
 
 ### Recomendación de tolerancia a fallos
 
