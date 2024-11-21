@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ En general, la búsqueda de ALM basada en IA se ha diseñado para ser exhaustiva
 >
 >1. Los clientes que utilizan una implementación descentralizada deben seguir la documentación de la API para habilitar la búsqueda avanzada
 >2. La búsqueda avanzada no está disponible actualmente para la aplicación Salesforce.
+>3. Los datos de los clientes, incluidos el contenido y las transcripciones, no se comparten con ningún servicio externo de búsqueda impulsada por IA. Todo el contenido permanece almacenado de forma segura dentro del sistema de almacenamiento existente.
