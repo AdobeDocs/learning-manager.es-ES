@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Instalar el conector de Microsoft Teams en Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 17%
@@ -130,7 +130,7 @@ Esto permite al conector acceder a las reuniones en línea de Microsoft Teams.
 
 ## Configurar el conector de Microsofts Teams en Learning Manager
 
-1. Inicie sesión en Learning Manager como administrador de integración.
+1. Inicie sesión en Learning Manager como **administrador de integración**.
 
 1. En la página Conectores, selecciona Conector de Microsofts Teams y haz clic en **[!UICONTROL Conectar]**.
 
