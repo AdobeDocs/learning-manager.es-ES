@@ -4,10 +4,10 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 57%
+source-wordcount: '2662'
+ht-degree: 54%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 57%
 Esta función le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 
 Puede crear una función personalizada para proporcionar capacidades de autoría limitadas a un catálogo en particular. También puede crear una función destinada a gestionar informes. Dichas funciones después pueden asignarse a las personas que, se supone, asumirán estas responsabilidades.
+
+Los administradores pueden crear funciones de administrador y autor personalizadas con permisos personalizados para cada función. A continuación se muestra una descripción general de los permisos asociados a cada función:
+
+**Permisos de función de autor personalizados**
+
+Los autores personalizados pueden realizar las siguientes tareas:
+
+* Accede a la biblioteca de contenido para añadir, editar o eliminar contenido principal.
+* Crear, editar y eliminar:
+   * Cursos
+   * Ayudas de trabajo
+   * Certificaciones
+   * Rutas de aprendizaje
+   * Planes de aprendizaje
+
+Los administradores y los autores, incluidos los administradores personalizados y los autores personalizados, podrán compartir objetos de aprendizaje en catálogos compartidos externamente. Los administradores y los autores deben poder buscar catálogos compartidos externamente al crear objetos de aprendizaje (LO).
+
+**Permisos de funciones de administrador personalizadas**
+
+La función de administrador personalizada replica un conjunto de responsabilidades de administración, incluido el acceso a los privilegios de nivel de cuenta. A los administradores personalizados se les conceden permisos para administrar las funciones clave relacionadas con las actividades de aprendizaje, como:
+
+* Planes de aprendizaje
+* Catálogos
+* Informes
+* Etiquetas
+
+Además, los administradores personalizados pueden:
+
+* Administrar cursos y ayudas de trabajo, incluida la inscripción y eliminación de usuarios.
+* Cree, edite y elimine certificaciones, rutas de aprendizaje y planes de aprendizaje.
+* Accede a las funciones de informes e inscripción para todos los objetos de aprendizaje (LO).
 
 Ahora, los administradores pueden ver los permisos creados mediante CSV en Adobe Learning Manager. La opción filtrar por filtra las funciones personalizadas por administrador creadas y las importadas mediante CSV. Después de seleccionar una función personalizada, puede ver sus permisos.
 
@@ -32,7 +63,9 @@ _Filtrar funciones personalizadas_
    *Crear una función personalizada*
 
 3. Escriba el nombre en el campo **[!UICONTROL Nombre del rol]**.
-4. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados. Los administradores pueden conceder permisos detallados para la sección Usuario, que tiene usuarios internos/externos, grupos de usuarios y usuarios avanzados.
+4. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
+
+   Los administradores pueden conceder permisos detallados para la sección Usuario, que tiene usuarios internos/externos, grupos de usuarios y usuarios avanzados.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Filtrar funciones personalizadas_
 
    *Establecer el ámbito*
 
-5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Con esta opción se pueden conceder permisos para las siguientes funciones. Los administradores pueden proporcionar permisos detallados, como permisos de solo lectura, de creación, de edición y de eliminación para los catálogos.
+5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
+
+   Los administradores pueden proporcionar permisos detallados, como permisos de solo lectura, de creación, de edición y de eliminación para los catálogos.
 
    * Catálogos
    * Informes
