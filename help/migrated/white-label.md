@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ La carpeta `<root>` contiene el archivo **Runner.xcarchive.zip**. Ejecute los si
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Vuelva a la carpeta `<root>` (donde se encuentra Runner.xcarchive.zip):
+4. Ejecute el siguiente comando para actualizar la información de firma en la biblioteca del framework:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Vuelva a la carpeta `<root>` (donde se encuentra Runner.xcarchive.zip):
 
    ```
    cd <root>
    ```
 
-5. Exporte el archivo usando xcodebuild:
+6. Exporte el archivo usando xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Localice el archivo .ipa en la carpeta ipa_path.
-7. Cargue el archivo .ipa en el sitio web `Diawi`.
-8. Una vez cargado por completo, selecciona el botón **[!UICONTROL Enviar]**.
-9. Una vez completado el proceso, recibirá un código QR y un vínculo.
-10. Abra el código QR o el vínculo directamente en Safari.
+7. Localice el archivo .ipa en la carpeta ipa_path.
+8. Cargue el archivo .ipa en el sitio web `Diawi`.
+9. Una vez cargado por completo, selecciona el botón **[!UICONTROL Enviar]**.
+10. Una vez completado el proceso, recibirá un código QR y un vínculo.
+11. Abra el código QR o el vínculo directamente en Safari.
 
 Si el dispositivo está incluido en el perfil de aprovisionamiento, la instalación debe continuar en el dispositivo.
 
@@ -408,8 +414,12 @@ Si el dispositivo está incluido en el perfil de aprovisionamiento, la instalaci
 **Para el archivo APK**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>La ruta de la herramienta `apksigner` suele ser similar a la siguiente: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Para el archivo aab**
 
@@ -464,6 +474,36 @@ El archivo APK se obtendrá de la carpeta **[!UICONTROL output_dir]**.
 **Lo que está por llegar**
 
 Después de generar los archivos binarios, muévalos a Play Store o App Store.
+
+### Envío de las aplicaciones a la tienda para su revisión
+
+Después de obtener los archivos binarios finales, puede cargarlos en las tiendas de aplicaciones respectivas (iOS o Android) para su revisión. Siga estos pasos para cargar los archivos binarios en las tiendas de aplicaciones.
+
+**iOS**
+
+1. Inicie sesión en la aplicación Transporter con sus credenciales de App Store.
+2. Seleccione el botón **+** en la parte superior izquierda y cargue el certificado de producción (archivo .ipa).
+3. Si el archivo .ipa es correcto, se le pedirá que cargue la aplicación en App Store.
+4. Una vez entregada la aplicación, inicie sesión en App Store. Dentro de unas horas, el binario aparecerá en la sección TestFlight. Puede habilitarla para la prueba de corrección final en TestFlight antes de la revisión de la aplicación y usar este IPA como binario al enviar la aplicación para una nueva versión.
+
+**Android**
+
+1. Abra la consola de Google Play Store.
+2. Ve a **[!UICONTROL Panel]** > **[!UICONTROL Ver versiones de aplicaciones]** > **[!UICONTROL Panel de lanzamiento]** y, a continuación, selecciona **[!UICONTROL Crear nueva versión]**.
+3. Cargue el archivo .aab generado como el paquete de la aplicación y escriba los detalles de la versión, como el número de versión y la información nueva.
+4. Guarde los cambios y envíe la aplicación para su revisión.
+5. Asegúrese de establecer la distribución de la aplicación en 100 % (Google la establece en 20 % de forma predeterminada).
+
+#### Vínculos útiles para la publicación de aplicaciones
+
+**Android**
+
+[Crear y configurar la aplicación](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Preparar la aplicación para su revisión](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Enviar para revisión](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## ¿Cómo puedo aplicar los cambios?
 
