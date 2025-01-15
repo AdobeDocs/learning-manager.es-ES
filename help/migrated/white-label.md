@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
+source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 
 La aplicación móvil de Adobe Learning Manager ahora admite el etiquetado blanco, lo que significa que ahora puede publicar la aplicación con su propia marca.
+
+ALM pondrá a disposición archivos binarios con etiquetas blancas y actualizadas de acuerdo con las siguientes líneas de tiempo:
+
+1. Para las versiones principales de la aplicación móvil, los archivos estarán disponibles dos semanas antes
+2. Para cualquier actualización planificada de correcciones urgentes, los archivos estarán disponibles una semana antes
+3. Para las correcciones imprevistas, urgentes e inmediatas, los archivos estarán disponibles en el mejor esfuerzo posible
+
+Los archivos binarios estarán disponibles en las carpetas designadas por el cliente. Póngase en contacto con los CSM para acceder a los archivos. El cliente es responsable de la publicación puntual y de los procesos relacionados.
 
 ## Cómo debe empezar a prepararse para iniciar la aplicación con etiqueta blanca
 
