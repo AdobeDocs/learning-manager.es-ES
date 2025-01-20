@@ -4,9 +4,9 @@ title: Instalar paquete de Salesforce
 description: Learning Manager ofrece un paquete de la aplicación Salesforce. Una vez instalado y configurado en SFDC, los empleados de ventas pueden realizar sus actividades de formación en el portal de SFDC. Esta aplicación permite a los usuarios de SFDC explorar nuevas formaciones, ver recomendaciones y consumirlas directamente en el portal de SFDC. Los usuarios también reciben los anuncios enviados por los administradores en forma de membretes dentro de la aplicación dentro del portal de SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1057'
 ht-degree: 47%
 
 ---
@@ -47,11 +47,10 @@ Si desea instalar el paquete, primero debe eliminar el paquete existente en Sale
 >
 >La aplicación de Adobe Learning Manager solo se admite en la vista de Salesforce Lightning.
 
-1. Inicie la [URL del paquete de Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
+1. Inicie la [URL del paquete de Learning Manager (M42 Parche 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG).
 1. En la página **Inicio de sesión**, haga clic en **[!UICONTROL Usar dominio personalizado]**.
-
 1. Introduzca la dirección URL del paquete y haga clic en **[!UICONTROL Continuar]**. La página de instalación debe tener seleccionada la opción Instalar solo para administradores . No cambie esta opción.
-1. Haga clic en **Install**. Una vez instalado el paquete, haz clic en **[!UICONTROL Hecho]**. Se le guiará a la página Paquetes instalados y podrá ver el paquete instalado de Adobe Learning Manager.
+1. Haga clic en **[!UICONTROL Instalar]**. Una vez instalado el paquete, haz clic en **[!UICONTROL Hecho]**. Se le guiará a la página Paquetes instalados y podrá ver el paquete instalado de Adobe Learning Manager.
 
 1. Vaya al Iniciador de aplicaciones (junto a Configuración) y busque Adobe Learning Manager.
 1. Para configurar la aplicación, haga clic en **[!UICONTROL Configurar]**.
