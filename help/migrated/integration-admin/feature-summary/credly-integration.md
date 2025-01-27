@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Con Credibilidad
 description: Obtenga más información sobre la integración de Credly con ALM para administrar y compartir insignias externas de la plataforma en varios canales de medios sociales
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Siga estos pasos para añadir Credly Connector a Adobe Learning Manager:
 
 El archivo badge.csv de Adobe Learning Manager le permite migrar insignias desde el LMS o sistemas externos existentes. El archivo badge.csv se ha actualizado con dos nuevas columnas:
 
-* ID de insignia externa
-* Proveedor de insignias externo.
+* externalBadgeId
+* externalBadgeProvider
 
 El ID de insignia externo hace referencia al ID de plantilla de insignia en la plataforma Credly y el proveedor de insignias externo es Credly. Agregue estos valores en badge.csv y siga los pasos indicados en el [Manual de migración](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar el csv.
 
@@ -55,4 +56,3 @@ Una vez importada la insignia en Adobe Learning Manager, el administrador puede 
 El autor/administrador puede asignar estas insignias de ALM importadas con cuidado a un curso, una ruta de aprendizaje o una certificación (no solo aptitudes). Al consumir estos objetos de aprendizaje, se consigue la insignia y se puede ver en Credly y la aplicación de ALM.
 
 Los alumnos pueden iniciar sesión en Credly y ver las insignias en la plataforma Credly. Desde Credly, pueden compartir las insignias en plataformas externas como LinkedIn y otras redes sociales.
-
