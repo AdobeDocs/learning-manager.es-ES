@@ -2,10 +2,10 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [Agregar usuarios en bloque](administrators/add-users-in-bulk.md)
    * [Suplantar a un alumno y un responsable](administrators/feature-summary/impersonation-learner-manager.md)
    * [Varios métodos de inicio de sesión único (SSO)](administrators/feature-summary/multiple-sso-logins.md)
+   * [Configurar el idioma de la interfaz mediante SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Cuentas de igual a igual](administrators/feature-summary/peer-account.md)
    * [Crear y modificar aptitudes y niveles](administrators/feature-summary/skills-levels.md)
    * [Recomendación de cursos basada en Inteligencia artificial](ai-based-recommendations.md)

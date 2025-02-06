@@ -4,7 +4,7 @@ title: Manual de desarrolladores de aplicaciones
 description: La API V1 de Learning Manager ha dejado de utilizarse. Las API V1 dejarán de funcionar a partir del 28 de febrero de 2021. Es recomendable utilizar las API V2 para interactuar con Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3377'
 ht-degree: 62%
@@ -120,11 +120,11 @@ Los desarrolladores pueden acceder a un único modelo de objetos de API y tambi�
 
 **Solicitud de API**
 
-Las solicitudes de API se pueden realizar mediante una solicitud HTTP. En función del punto final y el método, el desarrollador puede elegir entre diversos verbos de HTTP, como GET, PUT, POST, DELETE, PATCH, etc. En algunas solicitudes, se pueden transferir parámetros de consulta. Al realizar una solicitud de un modelo de datos específico, el usuario también puede solicitar modelos relacionados, tal y como se describe en las especificaciones de la API JSON. La estructura de una solicitud API típica se describe en el [uso del modelo de ejemplo](#main-pars_header_1415780624).
+Las solicitudes de API se pueden realizar mediante una solicitud HTTP. En función del punto final y el método, el desarrollador puede elegir entre diversos verbos de HTTP, como GET, PUT, POST, DELETE, PATCH, etc. En algunas solicitudes, se pueden transferir parámetros de consulta. Al realizar una solicitud de un modelo de datos específico, el usuario también puede solicitar modelos relacionados, tal y como se describe en las especificaciones de la API JSON. La estructura de una solicitud API típica se describe en el [uso del modelo de ejemplo](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **Respuesta de API**
 
-Si un cliente realiza una solicitud de API, se obtiene un documento JSON según la especificación de API JSON. La respuesta también contiene el código de estado HTTP, que el desarrollador puede comprobar para realizar los pasos siguientes adecuados en la lógica de la aplicación. La estructura de una respuesta de API típica se describe en [uso del modelo de ejemplo](#main-pars_header_1415780624).
+Si un cliente realiza una solicitud de API, se obtiene un documento JSON según la especificación de API JSON. La respuesta también contiene el código de estado HTTP, que el desarrollador puede comprobar para realizar los pasos siguientes adecuados en la lógica de la aplicación. La estructura de una respuesta de API típica se describe en [uso del modelo de ejemplo](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **Errores**
 
