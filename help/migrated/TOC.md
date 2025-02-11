@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '639'
 ht-degree: 83%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 83%
    * [Idiomas admitidos en Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Cambios y depreciaciones de la API en Adobe Learning Manager](api-deprecations-list.md)
    * [Etiquetado blanco en Adobe Learning Manager](white-label.md)
+   * [Documentación de la API de interacción de Embedded Player](/help/migrated/embedded-player-interaction.md)
 * Introducción {#get-started}
    * [Introducción a la función de administrador](administrators/feature-summary/getting-started-admin.md)
    * [Primeros pasos como autor](authors/feature-summary/getting-started-author.md)
