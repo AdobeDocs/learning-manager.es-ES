@@ -4,9 +4,9 @@ title: Importar aptitudes desde orígenes externos
 description: Importe aptitudes de proveedores de contenido, como LinkedIn y Go1, mediante los conectores correspondientes.  Las aptitudes importadas se añadirán a las aptitudes definidas por el administrador en Learning Manager y estarán disponibles para los autores durante el flujo de trabajo de creación del curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Como administrador, solo puede importar aptitudes desde una fuente.
 
 ### Nivel de aptitud predeterminado
 
-El nivel de aptitud predeterminado es uno y el crédito es 10 después de migrar las aptitudes. El administrador posterior puede cambiar el crédito.
+El nivel de aptitud predeterminado es uno y el crédito es 10 después de migrar las aptitudes.
 
 No puede editar el nombre de la aptitud, la descripción y añadir niveles a aptitudes externas. Sin embargo, puede añadir dominios, insignias y editar créditos.
 
