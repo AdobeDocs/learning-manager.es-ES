@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,7 @@ Las siguientes direcciones IP se añadirán a nuestro grupo de entrega de correo
 
 >[!NOTE]
 >
->Si es necesario, le sugerimos que colabore con su equipo de TI para incluir en la lista blanca las nuevas direcciones IP.
+>Si es necesario, le sugerimos que colabore con su equipo de TI para añadir las direcciones IP a la lista de direcciones URL permitidas.
 
 ## Cambios de migración
 
