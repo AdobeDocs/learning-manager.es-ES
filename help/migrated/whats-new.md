@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3255'
 ht-degree: 2%
 
 ---
@@ -188,6 +188,26 @@ Los instructores que se eliminen de una sesión recibirán ahora solo un correo 
 Actualmente, los alumnos se marcan como asistentes aunque se unan a una sesión de formación virtual con instructor (VILT) durante unos segundos. Con esta versión, hemos introducido criterios de finalización para los módulos de equipos para garantizar una asistencia más precisa. Los autores ahora pueden establecer un tiempo mínimo que los alumnos deben pasar en una sesión VILT para que se cuente su asistencia.
 
 Se trata de una función de backend que está desactivada de forma predeterminada. Póngase en contacto con su CSM para que lo habilite.
+
+## Actualización de nuevas direcciones IP para la entrega de correo electrónico
+
+Para mejorar la fiabilidad de la entrega de correo electrónico, estamos añadiendo nuevas direcciones IP a nuestro grupo existente. Para garantizar una comunicación por correo electrónico ininterrumpida, actualice la configuración de correo electrónico de su organización según sea necesario.
+
+Actualmente utilizamos las siguientes direcciones IP para la entrega de correo electrónico:
+
+* 149.72.162.66
+* 167.89.5.155
+
+Las siguientes direcciones IP se añadirán a nuestro grupo de entrega de correo electrónico:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Si es necesario, le sugerimos que colabore con su equipo de TI para incluir en la lista blanca las nuevas direcciones IP.
 
 ## Cambios de migración
 
