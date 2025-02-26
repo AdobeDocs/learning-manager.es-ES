@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Búsqueda semántica_
 
 ### Búsqueda en contenido
 
-La funcionalidad de búsqueda de Adobe Learning Manager se ha mejorado para buscar contenido real. Transcribe automáticamente vídeos, archivos de audio y PDF, incorporando esas transcripciones en los resultados de búsqueda. Además, utiliza las grabaciones de reuniones de Adobe Connect para proporcionar resultados más completos y relevantes. Esta mejora garantiza que se incluyan cursos con contenido enriquecido, como vídeos y notas de reuniones, lo que mejora significativamente la precisión y la eficacia de la búsqueda.
+La funcionalidad de búsqueda de Adobe Learning Manager se ha mejorado para buscar contenido real. Transcribe automáticamente vídeos, archivos de audio, PDF, documentos, ppt y xls, incorporando esas transcripciones en los resultados de búsqueda. Además, utiliza las grabaciones de reuniones de Adobe Connect para proporcionar resultados más completos y relevantes. Esta mejora garantiza que se incluyan cursos con contenido enriquecido, como vídeos y notas de reuniones, lo que mejora significativamente la precisión y la eficacia de la búsqueda. La coincidencia en el contenido ayuda a mejorar la clasificación de los resultados de búsqueda al dar un impulso a los resultados encontrados a través de la coincidencia de frase tradicional y la coincidencia semántica.
 
 >[!NOTE]
 >
