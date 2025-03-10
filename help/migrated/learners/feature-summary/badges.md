@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Insignias
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
@@ -70,7 +70,7 @@ En la aplicación del alumno, en la página Insignias, hay una opción denominad
 
 ## Actualización de insignias
 
-Un alumno puede actualizar su insignia a la más reciente. Para ello, debe seleccionar la insignia y hacer clic en **Actualizar **en la sección superior derecha de la página. Se produce una actualización de insignia en caso de que un administrador o autor modifique la imagen de insignia o la insignia del objeto de aprendizaje.
+Un alumno puede actualizar su insignia a la más reciente. Para ello, debe seleccionar la insignia y hacer clic en **Actualizar** en la sección superior derecha de la página. Se produce una actualización de insignia en caso de que un administrador o autor modifique la imagen de insignia o la insignia del objeto de aprendizaje.
 
 Este proceso de actualización de la página se denomina reprocesamiento manual. En este caso, la insignia se vuelve a cargar en Backpack de Badgr una vez completado el procesamiento, incluso aunque presente la misma imagen o nombre. Después de actualizar la insignia, el alumno recibe una notificación de que la actualización se ha completado.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Tablero de responsable
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Para generar un informe de Excel, seleccione **[!UICONTROL Acciones] > [!UICONTR
 ## Estado de cumplimiento {#compliancestatus}
 
 En el tablero de cumplimiento, los responsables pueden ver el estado de cumplimiento general del equipo para los aprendizajes configurados en categorías específicas (por ejemplo, ventas, marketing y legal). Los administradores pueden crear un tablero con cursos de cumplimiento, rutas de aprendizaje o certificación y compartirlo con los responsables. Los responsables pueden ver el panel compartido por el administrador en sus instancias.
+
+El Usuario A es el responsable del Usuario B, Usuario C, Usuario D y Usuario E. El Usuario B y el Usuario C son responsables de sus respectivos equipos.
+
+El usuario A puede ver informes para sus informes directos (usuario B, usuario C, usuario D y usuario E) y los equipos gestionados por el usuario B y el usuario C.
 
 ### Ver el panel
 
