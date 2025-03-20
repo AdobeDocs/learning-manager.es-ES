@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Suplantación del alumno y el responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 71%
+source-wordcount: '547'
+ht-degree: 70%
 
 ---
 
@@ -30,6 +30,7 @@ Esto es lo que debe tener en cuenta al hacerse pasar por un usuario:
 * Un administrador no puede suplantarse a sí mismo.
 * Un administrador personalizado con acceso a la página Usuarios puede suplantar a usuarios.
 * Un administrador o un administrador personalizado solo pueden suplantar a un usuario durante 60 minutos.
+* Un administrador personalizado con acceso de solo lectura no puede suplantar a los usuarios.
 
 ## Suplantar a un usuario
 
