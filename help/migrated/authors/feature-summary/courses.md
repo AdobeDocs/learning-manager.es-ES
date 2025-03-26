@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
+source-wordcount: '7163'
 ht-degree: 71%
 
 ---
@@ -699,7 +699,7 @@ Se muestra la ventana de información del curso. El curso está en modo de solo 
 
 ## Retirar un curso {#retireacourse}
 
-Si retira un curso, no puede inscribir nuevos alumnos en él. Los alumnos que ya están inscritos pueden realizar el curso.
+Al retirar un curso, los alumnos lo ocultarán, incluso aunque estén inscritos o lo hayan completado. Si retira un curso, no puede inscribir nuevos alumnos en él. Los alumnos que ya están inscritos pueden realizar el curso.
 
 Para retirar un curso, en la tarjeta del curso, pase el ratón sobre las opciones y haga clic en Retirar curso.
 

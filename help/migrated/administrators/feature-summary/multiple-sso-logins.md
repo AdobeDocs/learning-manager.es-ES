@@ -3,10 +3,10 @@ description: Adobe Learning Manager admite varios métodos de inicio de sesión 
 title: Varios métodos de inicio de sesión único (SSO)
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ Se pueden añadir hasta 20 configuraciones de SSO a una cuenta. Estas se pueden
 
 Para habilitar varios SSO, seleccione **Configuración** > **Métodos de inicio de sesión**.
 
-En la página de configuración, seleccione la casilla de verificación Habilitar el inicio de sesión único múltiple (SSO) para usuarios internos o externos.
+En la página de configuración, seleccione la casilla de verificación &#39;**[!UICONTROL Habilitar inicio de sesión único múltiple (SSO)]**&#39; para usuarios internos o externos.
 
 Cuando se habilita el inicio de sesión único múltiple, el método de inicio de sesión seleccionado para &quot;Método de inicio de sesión predeterminado&quot; se convierte en el tipo de inicio de sesión predeterminado para los grupos de usuarios o perfiles que no están vinculados a ninguna configuración de inicio de sesión único. El inicio de sesión predeterminado puede ser Adobe ID, SSO o ALM ID (usuarios externos).
+
+>[!NOTE]
+>
+>Los administradores y los administradores personalizados con los permisos necesarios pueden realizar estos pasos.
 
 Para configurar un SSO, siga los pasos que se indican a continuación:
 
 1. Haga clic en Configurar inicio de sesión único (SSO).
-1. Haga clic en Añadir nueva configuración de SSO.
+1. Haga clic en Añadir nueva configuración de SSO.\
+   ![](assets/sso.png)
 1. En el cuadro de diálogo Configuración de SSO, añada lo siguiente:
 
    * Introduzca el nombre del SSO.

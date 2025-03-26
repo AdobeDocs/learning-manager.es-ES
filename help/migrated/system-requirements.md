@@ -4,10 +4,10 @@ title: Requisitos del sistema
 description: Requisitos del sistema para Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 65%
+source-wordcount: '590'
+ht-degree: 62%
 
 ---
 
@@ -85,7 +85,10 @@ La página principal de diseño envolvente no es compatible con los navegadores 
 
 ## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
 
-* Cabecera: 1280 x 360 px
+* Cabecera:
+   * Para configuraciones tan grandes: 1280 x 360 PX
+   * Para configuraciones como medio: 1280 x 273 PX
+   * Para configuraciones tan pequeñas: 1280 x 187 PX
 * Imagen en la tarjeta del catálogo: 280 x 100 px
 * Tamaño de la tarjeta de formación: 300 x 240 px
 * Banner de redes sociales: 1600 x 240 px

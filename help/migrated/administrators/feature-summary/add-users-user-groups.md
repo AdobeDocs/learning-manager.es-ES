@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 60%
+source-wordcount: '4231'
+ht-degree: 59%
 
 ---
 
@@ -358,6 +358,16 @@ Además de los grupos generados automáticamente, puede crear grupos personaliza
 1. Para crear el grupo de usuarios, haga clic en **[!UICONTROL Guardar]**.
 
 Se crea este grupo personalizado y se incorpora al perfil. Los grupos de usuarios que crea son de naturaleza dinámica. Si se añaden usuarios con atributos similares, de manera automática se agregan al grupo de usuarios.
+
+Para ver la lista de grupos a los que pertenece un usuario, vaya a **[!UICONTROL Usuario]** > **[!UICONTROL Grupos de usuarios]**, busque el nombre del usuario y selecciónelo. Se mostrarán todos los grupos a los que pertenece el usuario.
+
+![](assets/list-of-group.png)
+
+### Descargar la lista de usuarios de un grupo de usuarios
+
+Para descargar la lista de usuarios de un grupo de usuarios específico, vaya a **[!UICONTROL Usuario]** > **[!UICONTROL Grupos de usuarios]** y seleccione el **[!UICONTROL icono de descarga]** situado junto al grupo. Esto generará un archivo CSV que contendrá la lista de usuarios de ese grupo.
+
+![](assets/download-list-of-user.png)
 
 ## Exclusión de grupos de usuarios
 

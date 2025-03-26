@@ -3,10 +3,10 @@ title: Novedades de esta versión (abril de 2023)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ Si la opción Cambio de instancia está activada, los alumnos pueden cambiar a v
 
 Cuando el alumno selecciona **Ver todas las instancias**, puede ver todas las instancias del curso.
 
-![ver todas las instancias](assets/view-all-instances-new.png)
+![texto alt](assets/view-all-instance.png)
 
-Un administrador puede cambiar las instancias de los alumnos.
+_Ver todas las instancias desde la consola del alumno_
 
-![cambiar instancias](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Cambiar instancia de la página del alumno_
+
+Un administrador puede cambiar instancias de alumnos. Seleccione un curso en la Admin Console, vaya a la sección **[!UICONTROL Alumnos]**, elija un usuario y seleccione el botón **[!UICONTROL Acción]**. A continuación, seleccione **[!UICONTROL Cambiar instancia]** y elija la instancia deseada.
+
+![texto alt](assets/switch-instance-admin.png)
+_Cambiar instancia desde Admin Console_
 
 ![seleccionar instancias de modificador](assets/switch-instances-select.png)
+_Aviso de instancia de conmutador_
 
 No puede cambiar de instancia hasta que se complete cualquier instancia del curso desde la aplicación del alumno o del administrador.
 

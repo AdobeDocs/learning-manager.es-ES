@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mis conocimientos
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Puede registrarse para expresar interés en cualquier curso de clase que no teng
 >[!NOTE]
 >
 >Los alumnos deben ver un mensaje de conflicto si se inscriben en dos sesiones diferentes al mismo tiempo o en momentos superpuestos.
+
+## Cambiar instancias
+
+Un alumno inscrito en una instancia concreta de un curso puede ver una lista de todas las instancias disponibles del curso y cambiar a otra instancia que funcione mejor para él. El motivo del cambio puede ser que el alumno no haya asistido a la instancia anterior o que la hora de sesión de la nueva instancia sea más adecuada, entre otros motivos.
+
+Cualquier progreso realizado por el alumno como parte del curso, las puntuaciones de las pruebas de los alumnos, etc., se transfieren a la nueva instancia. Esta función está pensada principalmente para cursos en aula y mixtos, pero se admiten todos los tipos de cursos, incluidos los de ritmo personalizado.
+
+La opción Ver todas las instancias aparece independientemente de la configuración del conmutador de instancias. Los alumnos verán ahora una opción para ver todas las instancias si hay más de una instancia de un curso.
+
+Si la opción Cambio de instancia está activada, los alumnos pueden cambiar a varias instancias hasta que completen el curso. Si la opción está desactivada, los alumnos pueden ver las instancias, pero no se podrán inscribir en el curso.
+
+Cuando el alumno selecciona **Ver todas las instancias**, puede ver todas las instancias del curso.
+
+![texto alt](assets/view-all-instance.png)
+
+_Ver todas las instancias desde la consola del alumno_
+
+![](assets/switch-instance-learner.png)
+_Cambiar instancia de la página del alumno_
+
+Un administrador puede cambiar instancias de alumnos. Seleccione un curso en la Admin Console, vaya a la sección **[!UICONTROL Alumnos]**, elija un usuario y seleccione el botón **[!UICONTROL Acción]**. A continuación, seleccione **[!UICONTROL Cambiar instancia]** y elija la instancia deseada.
+
+![texto alt](assets/switch-instance-admin.png)
+_Cambiar instancia desde Admin Console_
+
+![seleccionar instancias de modificador](assets/switch-instances-select.png)
+_Aviso de instancia de conmutador_
+
+No puede cambiar de instancia hasta que se complete cualquier instancia del curso desde la aplicación del alumno o del administrador.
+
+Los autores, al crear un curso, pueden alternar entre activar o desactivar &quot;Cambio de instancia&quot;. El cambio de instancia solo está disponible para cursos gratuitos.
 
 ## Flujo de trabajo como alumno
 

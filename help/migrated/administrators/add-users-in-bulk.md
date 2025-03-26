@@ -4,10 +4,10 @@ title: Agregar usuarios en bloque
 description: Descubra cómo añadir varios usuarios a la vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 25%
+source-wordcount: '341'
+ht-degree: 23%
 
 ---
 
@@ -38,6 +38,10 @@ Puede añadir varios usuarios a la vez siguiendo los pasos que se indican a cont
 No es obligatorio añadir el perfil del usuario y el ID de correo electrónico del responsable en el CSV. El nombre de usuario y el ID de correo electrónico del usuario son los únicos campos obligatorios.
 
 En este caso, de forma predeterminada, el administrador de su empresa se trata como el responsable de los usuarios. De forma predeterminada, el empleado se considera el perfil del usuario.
+
+>[!NOTE]
+>
+>Para añadir nuevos usuarios, cree un nuevo archivo CSV con sus detalles y cárguelo. No es posible actualizar y volver a cargar un archivo CSV existente.
 
 **Archivo .csv de muestra**
 

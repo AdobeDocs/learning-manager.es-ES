@@ -4,10 +4,10 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ En la ruta de aprendizaje, puede realizar lo siguiente:
 
 Después de realizar los cambios, para publicar la ruta de aprendizaje, haga clic en Publish.
 
-## Ruta de aprendizaje anidada
+## Ruta de aprendizaje anidada o mejorada
 
-Puede incluir una ruta de aprendizaje dentro de una ruta de aprendizaje, pero puede anidar como máximo una ruta de aprendizaje dentro de ella.
-
-Inserte la ruta de aprendizaje como insertar un curso.
+Una ruta de aprendizaje anidada o mejorada es una ruta de aprendizaje que contiene varias rutas de aprendizaje. Para insertar una ruta de aprendizaje, siga el mismo proceso que para añadir un curso dentro de una ruta de aprendizaje.
 
 ![](assets/nested-learning-path.png)
 
-*Agregar una ruta de aprendizaje dentro de una ruta de aprendizaje*
+*Ruta de aprendizaje anidada o mejorada*
 
 ## Configuración de ruta de aprendizaje
 

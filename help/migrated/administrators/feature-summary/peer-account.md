@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cuentas de igual a igual
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante 
    ![](assets/addpeer.png)
 
    *Agregar un subdominio*
+
+>[!NOTE]
+>
+>Para buscar el subdominio de otra cuenta, compruebe la URL de la cuenta. El subdominio aparece antes del dominio principal y ayuda a identificar la cuenta específica.
+>
+>Por ejemplo:
+>
+>En la dirección URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), el subdominio es **account name**.
+>
+>En la dirección URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com), el subdominio también es **account name**.
+>
+>El subdominio es único para cada cuenta y se utiliza para acceder a la instancia de Learning Manager correspondiente.
 
 1. Indique el ID de correo electrónico del administrador que acepta o rechaza la solicitud de cuenta de igual a igual.
 1. Especifique la cantidad de puestos que desea compartir con su igual. Cuando comparte puestos con la cuenta de igual a igual, la cuenta de igual a igual pasa al estado Activo con los puestos recibidos o con los puestos adquiridos por el propio igual.
