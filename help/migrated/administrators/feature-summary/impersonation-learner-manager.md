@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Suplantación del alumno y el responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Para suplantar un usuario, siga los pasos que se indican continuación:
 
 **Una sesión suplantada dura 60 minutos.**
 
-Al cambiar a una función de alumno o responsable, aparece un mensaje que indica que el administrador o el administrador personalizado se encuentran en un modo de suplantación del usuario.
+Al cambiar a una función de alumno o responsable, aparece un mensaje que indica que el administrador se encuentra en un modo de suplantación del usuario.
 
 ## Inicio de sesión e informe de acceso
 
