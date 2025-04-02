@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Suplantación del alumno y el responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 En grandes organizaciones, el personal de asistencia al cliente necesita una capacidad de suplantación para depurar los problemas a los que se enfrentan los alumnos.
 
-Con esta función para suplantar a otros usuarios, los administradores y los administradores personalizados pueden identificar y realizar todas las actividades realizadas por los alumnos y responsables de su organización.
+Con esta capacidad para suplantar a otros usuarios, los administradores pueden identificar y realizar todas las actividades realizadas por los alumnos y responsables de su organización.
+
+>[!NOTE]
+>
+>Los administradores personalizados no tienen la capacidad de suplantar a usuarios; solo los administradores pueden realizar la suplantación de usuarios.
 
 ## Cómo funciona
 
-Los administradores (o los administradores personalizados) pueden buscar un usuario (interno o externo) y, a continuación, suplantarlo. A continuación, se redirige al administrador a la página del usuario (en la aplicación del responsable si corresponde o la aplicación del alumno) y, a continuación, se cierra la sesión del administrador. A continuación, se redirige al administrador a la página Completar el perfil, si se ha configurado para el usuario que suplanta el administrador.
-
-Si un administrador personalizado tiene permiso para acceder a la página de un usuario, puede buscar los usuarios que desea suplantar.
+Los administradores pueden buscar un usuario (interno o externo) y, a continuación, suplantar a un usuario. A continuación, se redirige al administrador a la página del usuario (en la aplicación del responsable si corresponde o la aplicación del alumno) y, a continuación, se cierra la sesión del administrador. A continuación, se redirige al administrador a la página Completar el perfil, si se ha configurado para el usuario que suplanta el administrador.
 
 Esto es lo que debe tener en cuenta al hacerse pasar por un usuario:
 
