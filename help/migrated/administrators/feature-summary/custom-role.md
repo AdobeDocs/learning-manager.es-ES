@@ -4,9 +4,9 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 54%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 54%
 Esta función le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 
 Puede crear una función personalizada para proporcionar capacidades de autoría limitadas a un catálogo en particular. También puede crear una función destinada a gestionar informes. Dichas funciones después pueden asignarse a las personas que, se supone, asumirán estas responsabilidades.
+
+>[!NOTE]
+>
+>La adición de una nueva función personalizada no afectará a los grupos de usuarios personalizados existentes ni a ningún grupo basado en funciones, como Todos los administradores, Todos los autores, etc.
 
 Los administradores pueden crear funciones de administrador y autor personalizadas con permisos personalizados para cada función. A continuación se muestra una descripción general de los permisos asociados a cada función:
 

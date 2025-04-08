@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 59%
+source-wordcount: '4290'
+ht-degree: 58%
 
 ---
 
@@ -172,6 +172,8 @@ En la lista de usuarios, elija un usuario y haga clic en él. En los detalles de
 
 ## Campos activos
 
+Los campos activos de Adobe Learning Manager son campos de metadatos personalizables que se utilizan para almacenar y administrar información específica del usuario. Estos campos ayudan a definir los atributos o características clave asociados a cada usuario del sistema.
+
 ### Administrar atributos de usuario
 
 >[!INFO]
@@ -329,6 +331,10 @@ Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL A
 ## Eliminar una función {#Removearole-1}
 
 Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Quitar rol]** > **Quitar`<role>`**. La función seleccionada se elimina de la lista de funciones que el usuario tenía asignadas.
+
+>[!NOTE]
+>
+>Asignar una nueva función no afectará a los grupos de usuarios personalizados. Sin embargo, afectará a los grupos de usuarios generados automáticamente, como Todos los administradores, Todos los autores y grupos basados en funciones similares.
 
 ## Crear grupos de usuarios {#createusergroups}
 

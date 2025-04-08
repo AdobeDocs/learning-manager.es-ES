@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Para enviar correos electrónicos a los alumnos, en la página Alumnos de la apl
 
 * Para enviar correos electrónicos a determinados asistentes, seleccione el asistente y haga clic en Acciones > Enviar correo electrónico a los seleccionados.
 * Para enviar correos electrónicos a fin de enviar material del curso o una asignación, haga clic en Acciones > Enviar correo electrónico a todos.
+
+## Capturar respuestas de invitación
+
+Puede ver las respuestas de la invitación en la sección Alumnos. Ve a cualquier sesión, selecciona **[!UICONTROL Alumnos]** y selecciona la respuesta a la invitación en el menú desplegable.
+
+![](assets/invitation-status.png)
 
 ## Exportar lista de alumnos {#exportinglearnerslist}
 

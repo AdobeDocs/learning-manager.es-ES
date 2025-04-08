@@ -4,10 +4,10 @@ title: Gestión de la lista de espera y la asistencia
 description: Los administradores pueden gestionar la lista de espera y la asistencia a los cursos de los alumnos.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ Los alumnos se colocan en una lista de espera para los cursos de clase cuando la
 
 1. Haga clic en **[!UICONTROL Lista de espera]** en el panel izquierdo de la página de detalles del curso. Lista de alumnos en lista de espera aparece en la página.
 1. Seleccione a los alumnos y haga clic en **[!UICONTROL Asignar puestos]** para inscribir a los alumnos directamente en los cursos reemplazando el límite de puestos.
+
+>[!NOTE]
+>
+>Los alumnos inscritos no se pueden mover a la lista de espera y sus puestos no se pueden reasignar a otros alumnos.
 
 ## Gestión de la asistencia {#attendancemanagement}
 

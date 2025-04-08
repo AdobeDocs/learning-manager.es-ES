@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ Adobe Learning Manager requiere los ámbitos siguientes y los ámbitos deben sel
 * Ver datos del informe `/report:read:admin`
 * Ver toda la información de usuario `/user:read:admin`
 * Ver la información de los usuarios y administrar los usuarios `/user:write:admin`
+* Agregar un registrador de reunión `/meeting:write:registrant:admin`
+* Enumerar todos los inscritos de la reunión `/meeting:read:list_registrants:admin`
+* Ver y administrar las reuniones de usuario de la subcuenta `/meeting:write:meeting:master`
+* Ver datos del informe `/report:read:list_meeting_participants:admin`
 
 ## Conector de Box {#box_connector}
 
