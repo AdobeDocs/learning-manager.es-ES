@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 53%
@@ -191,7 +191,7 @@ El informe de formación tiene dos columnas adicionales:
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+>En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
@@ -927,7 +927,7 @@ Puede recibir sus informes favoritos por correo electrónico mediante una suscri
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+>En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
@@ -1179,7 +1179,7 @@ Si varios responsables le informan a usted, podrá ver los informes rápidamente
 
 >[!INFO]
 >
->En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
+>En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.

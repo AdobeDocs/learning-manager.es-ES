@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '5111'
 ht-degree: 58%
@@ -27,7 +27,7 @@ Los autores crean cursos. Los alumnos pueden realizar los cursos y los administr
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
@@ -137,7 +137,7 @@ Para enviar correos electrónicos a nivel de instancia a alumnos inscritos:
 
 En este curso de formación, aprenderá a inscribir, dar de baja y volver a inscribir alumnos.
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 

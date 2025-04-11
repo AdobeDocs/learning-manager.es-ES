@@ -4,7 +4,7 @@ title: Personalizar la página de inicio del alumno
 description: Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 46%
@@ -25,7 +25,7 @@ La experiencia se basa en recomendaciones de formación personalizadas de un alg
 
 En este curso de formación, explorará formas de personalizar la página de inicio del alumno.
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 

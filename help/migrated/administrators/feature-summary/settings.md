@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '3669'
 ht-degree: 65%
@@ -23,7 +23,7 @@ Puede cambiar la configuración de su perfil de administrador y actualizar la co
 
 Este curso de formación describe los aspectos básicos de la configuración de nivel de cuenta.
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.

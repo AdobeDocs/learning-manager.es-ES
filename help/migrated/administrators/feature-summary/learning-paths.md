@@ -4,7 +4,7 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 35%
@@ -25,7 +25,7 @@ Por ejemplo, cuando se incorporan nuevos empleados, una organización imparte fo
 
 En este curso de formación, aprenderá a crear una ruta de aprendizaje, añadir un curso, publicar y retirar una ruta de aprendizaje, y configurar instancias dentro de una ruta de aprendizaje.
 
-[![botón](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 

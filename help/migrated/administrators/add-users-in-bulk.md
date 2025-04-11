@@ -4,7 +4,7 @@ title: Agregar usuarios en bloque
 description: Descubra cómo añadir varios usuarios a la vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.
 
-[![botón](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+[![botón](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
