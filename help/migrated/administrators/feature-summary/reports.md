@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 53%
@@ -442,6 +442,15 @@ Como administrador, puede descargar informes de cursos. Siga estos pasos:
    >[!NOTE]
    >
    >El informe de puntuaciones de pruebas exportado contendrá datos de puntuación de cualquier intento si el módulo tiene activada la opción Varios intentos.
+
+### Generar informes de cursos
+
+>[!INFO]
+>
+>En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ### Transcripciones de alumnos {#LearnerTranscripts-1}
 
@@ -1174,15 +1183,6 @@ Si varios responsables le informan a usted, podrá ver los informes rápidamente
 >Los valores de responsable que utiliza para ver el informe son temporales. Esta vista del informe no se descarga cuando selecciona la opción Descargar. Esta vista solo es temporal.
 
 ## Ver informes de cursos {#viewcoursereports}
-
-### Generar informes de cursos
-
->[!INFO]
->
->En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 Puede ver los informes específicos de cada curso siguiendo estos pasos:
 

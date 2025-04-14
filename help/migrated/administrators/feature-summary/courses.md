@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ Los autores crean cursos. Los alumnos pueden realizar los cursos y los administr
 
 ## Crear la instancia de un curso {#createinstanceofacourse}
 
-### Administrar instancias
+### Configurar instancias
 
->[!INFO]
->
->En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+En este curso de formación, aprenderá a configurar los valores predeterminados de las instancias, añadir una nueva instancia, retirar y volver a abrir una instancia, y configurar las plantillas de correo electrónico de una instancia.
 
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
@@ -76,6 +75,14 @@ Para crear una instancia:
 >[!NOTE]
 >
 >El administrador cancela las sesiones yendo a Instancias > Sesiones y seleccionando Cancelar sesión.
+
+### Administrar instancias
+
+>[!INFO]
+>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ### Retirar una instancia {#retireaninstance}
 

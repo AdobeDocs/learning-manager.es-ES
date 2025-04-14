@@ -4,10 +4,10 @@ title: Preguntas más frecuentes para administradores
 description: Preguntas más frecuentes para administradores de Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 50%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 50%
   </tr>
  </tbody>
 </table>
-
-+++Nuevo anuncio de Experience League
-
-Nos complace anunciar que, en nuestro viaje hacia una mejor conexión con la familia de soluciones de Adobe, Adobe Learning Manager añadirá un canal más al proceso de admisión de asistencia técnica. A partir del 12 de mayo de 2025, ahora podrá crear incidencias directamente desde Adobe Experience League. Experience League cuenta actualmente con documentación de autoayuda de Adobe Learning Manager, guías de usuario y prácticas recomendadas, y se convertirá en su recurso principal para todas las necesidades de asistencia, desde el autoservicio hasta la comunicación basada en agentes. Agradecemos su comprensión y apoyo en esta importante transición.
-
-+++
 
 +++¿Puedo añadir usuarios en bloque? ¿Cómo lo hago?
 

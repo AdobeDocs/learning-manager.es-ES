@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Añadir usuarios y crear grupos de usuarios
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4296'
 ht-degree: 58%
 
 ---
@@ -15,22 +15,7 @@ ht-degree: 58%
 
 Obtenga información sobre cómo añadir usuarios o grupos de usuarios en la aplicación Learning Manager.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Administrar grupos de usuarios
-
->[!INFO]
->
->En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Información general {#overview}
 
@@ -64,9 +49,6 @@ Para añadir usuarios:
 1. En la página de inicio, haga clic en **[!UICONTROL Añadir usuarios]**. En esta página, puede agregar un único usuario o varios a la vez mediante un archivo .csv. También puede crear un vínculo de registro automático para empleados internos o crear un perfil de alumno externo.
 1. Para agregar un único usuario, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha; a continuación, elija la opción **[!UICONTROL Usuario único]**.
 
-1. Para agregar un único usuario, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha; a continuación, elija la opción **Usuario único**.
-
-
    ![](assets/single-user.png)
    *Agregar un solo usuario interno*
 
@@ -79,16 +61,7 @@ Para añadir usuarios:
 
 ## Agregar usuarios en bloque {#addusersinbulk}
 
-### Administrar usuarios
-
-En este curso de formación, aprenderá a asignar y eliminar funciones, enviar un correo electrónico de bienvenida y eliminar y purgar usuarios.
-
-[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
-
 En general, las empresas utilizan sistemas de administración de recursos humanos con los cuales mantienen todos los registros de los empleados, por ejemplo denominación, ubicación, fecha de incorporación o jerarquía. Esta información se puede exportar a formato .csv. Para importar a un archivo .csv, siga los pasos que se indican a continuación:
-
 
 1. Haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha y elija la opción **[!UICONTROL Cargar un CSV]**.
 
@@ -135,11 +108,25 @@ En general, las empresas utilizan sistemas de administración de recursos humano
 
 Tras haber seleccionado los usuarios, puede efectuar las acciones siguientes:
 
+>[!INFO]
+>
+>En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
+
 ## Registrar un usuario {#registerauser}
 
 Después de seleccionar el usuario, haga clic en **[!UICONTROL Acciones]** en la esquina superior derecha y elija la opción **[!UICONTROL Registrar]**.
 
 Los usuarios seleccionados reciben un correo electrónico de bienvenida. Si los alumnos ya tienen un Adobe ID, pueden hacer clic en este vínculo. Si no tienen un Adobe ID existente, pueden hacer clic en el vínculo Bienvenido para crear un Adobe ID y vincularlo a su cuenta de Learning Manager.
+
+### Administrar usuarios
+
+En este curso de formación, aprenderá a asignar y eliminar funciones, enviar un correo electrónico de bienvenida y eliminar y purgar usuarios.
+
+[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## Asignar una función {#assignarole}
 
@@ -339,6 +326,18 @@ Elija un usuario y, en la esquina superior derecha, haga clic en **[!UICONTROL A
 ## Crear grupos de usuarios {#createusergroups}
 
 Un grupo de usuarios es un conjunto de usuarios que se inscriben en una categoría determinada. Los grupos de usuarios permiten a los administradores seleccionar los alumnos de la empresa según sus atributos y, de este modo, asignarles contenido de aprendizaje. Además, estos grupos de usuarios permiten a los administradores asignar logotipos y catálogos personalizados a los alumnos, y mostrar informes personalizados sobre su progreso.
+
+>[!INFO]
+>
+>En este curso de formación, aprenderá a crear un grupo de usuarios por nombres, ID de correo electrónico y combinando varios grupos de usuarios generados automáticamente.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 Para acceder a los grupos de usuarios, en el panel izquierdo haga clic en **[!UICONTROL Grupos de usuarios]**.
 

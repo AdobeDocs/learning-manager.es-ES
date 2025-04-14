@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 83%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 83%
    * [Preguntas más frecuentes para instructores](instructors/frequently-asked-questions-for-instructors.md)
    * [Preguntas más frecuentes para responsables](managers/frequently-asked-questions-for-managers.md)
    * [Preguntas más frecuentes para alumnos](learners/frequently-asked-questions-for-learners.md)
+   * [Nuevos anuncios de Experience League](/help/migrated/new-experience-league-announcement.md)
 * Base de conocimiento {#knowledge-base}
    * [No se puede iniciar sesión en Learning Manager](kb/unable-log-in-learning-manager.md)
    * [El resumen de aprendizaje no muestra los datos actuales](kb/learning-summary-not-display-data.md)

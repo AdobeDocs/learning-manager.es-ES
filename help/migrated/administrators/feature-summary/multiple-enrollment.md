@@ -2,10 +2,10 @@
 title: Varias inscripciones en Adobe Learning Manager
 description: Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ En Adobe Learning Manager, cada curso puede presentar diferentes instancias. Com
 Antes de la versión de julio de 2023, cuando un administrador inscribía a un alumno, solo podía hacerlo en una instancia. Si un alumno deseaba realizar un curso en diferentes instancias, el administrador debía crear muchos cursos, uno para cada instancia.
 
 La función Varias inscripciones de Adobe Learning Manager ayuda al administrador a evitar este tipo de situaciones.
+
+## Administrar instancias
+
+>[!INFO]
+>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## ¿Qué es la función Varias inscripciones?
 
