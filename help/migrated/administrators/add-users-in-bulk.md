@@ -4,7 +4,7 @@ title: Agregar usuarios en bloque
 description: Descubra cómo añadir varios usuarios a la vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -13,9 +13,9 @@ ht-degree: 23%
 
 # Agregar usuarios en bloque
 
-En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.
-
-[![botón](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.<br><br>[![botón](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
@@ -56,7 +56,7 @@ Antes de incluir el ID de correo electrónico del responsable de cualquier emple
 
 *Plantilla CSV para cargar*
 
-Además, los administradores de una organización pueden agregarse como empleados y mencionar el ID de correo electrónico de su responsable como raíz.
+Además, los administradores de una organización pueden agregar **ellos mismos** como empleados y mencionar el ID de correo electrónico de su responsable como raíz.
 
 **Archivo .csv de muestra**
 
