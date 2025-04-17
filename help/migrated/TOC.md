@@ -2,10 +2,10 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Cambios y depreciaciones de la API en Adobe Learning Manager](api-deprecations-list.md)
    * [Etiquetado blanco en Adobe Learning Manager](white-label.md)
    * [Documentación de la API de interacción de Embedded Player](/help/migrated/embedded-player-interaction.md)
-* Introducción {#get-started}
+* Cómo comenzar {#get-started}
    * [Introducción a la función de administrador](administrators/feature-summary/getting-started-admin.md)
    * [Primeros pasos como autor](authors/feature-summary/getting-started-author.md)
    * [Primeros pasos como alumno](learners/feature-summary/getting-started-learner.md)
    * [Primeros pasos para responsables](managers/feature-summary/getting-started-manager.md)
    * [Primeros pasos como instructor en Learning Manager](instructors/feature-summary/getting-started.md)
-* Administrador {#admin}
+* El administrador {#admin}
    * [Inicio de sesión de usuario](administrators/feature-summary/user-login.md)
    * [Añadir usuarios y crear grupos de usuarios](administrators/feature-summary/add-users-user-groups.md)
    * [Añadir ubicaciones de clases](administrators/feature-summary/classroom.md)
@@ -116,10 +116,10 @@ ht-degree: 83%
    * [¿Cómo se eligen los módulos del curso?](authors/how-to-choose-modules.md)
    * [Vista previa como alumno](authors/feature-summary/fluidic-player.md)
    * [Configuración](authors/feature-summary/settings.md)
-* Instructor {#instructor}
+* El instructor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Administrar a los alumnos de la sesión](instructors/feature-summary/learners.md)
-* Alumno {#learner}
+* El alumno {#learner}
    * [Iniciar sesión](learners/feature-summary/user-login.md)
    * [Configuración de perfil](learners/feature-summary/settings.md)
    * [Catálogos](learners/feature-summary/catalogs.md)
@@ -144,7 +144,7 @@ ht-degree: 83%
    * [Página de inicio del alumno](learners/feature-summary/learner-home-page.md)
    * [Compartir en Aprendizaje social](learners/feature-summary/share-to-social.md)
    * [Requisitos del sistema | Aplicación Adobe Learning Manager para escritorio](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Administrador {#manager}
+* Responsable {#manager}
    * [Inicio de sesión de usuario](managers/feature-summary/user-login.md)
    * [Tablero de responsable](managers/feature-summary/manager-dashboard.md)
    * [Informes](managers/feature-summary/reports.md)
@@ -160,7 +160,7 @@ ht-degree: 83%
    * [Preguntas más frecuentes para responsables](managers/frequently-asked-questions-for-managers.md)
    * [Preguntas más frecuentes para alumnos](learners/frequently-asked-questions-for-learners.md)
    * [Nuevos anuncios de Experience League](/help/migrated/new-experience-league-announcement.md)
-* Base de conocimiento {#knowledge-base}
+* Base de conocimientos de {#knowledge-base}
    * [No se puede iniciar sesión en Learning Manager](kb/unable-log-in-learning-manager.md)
    * [El resumen de aprendizaje no muestra los datos actuales](kb/learning-summary-not-display-data.md)
    * [No se puede cargar un archivo CSV](kb/unable-to-upload-csv.md)
