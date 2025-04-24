@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Purgar usuarios
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ Para purgar usuarios, siga estos pasos:
    *Mensaje de confirmación después de purgar un usuario*
 
 1. Una vez que confirme y haga clic en Purgar, se acepta la solicitud de purga. Recibe una notificación una vez que se completa la acción. También se proporciona un ID de solicitud de purga. Puede proporcionar este ID al CSM para rastrear la solicitud.
+
+>[!NOTE]
+>
+>Una vez que el usuario eliminado se vuelva a añadir al sistema, no se conservarán las funciones anteriores (por ejemplo, administrador, responsable, autor, instructor, etc.). Se añadirán con la función de alumno.
 
 ## Purga masiva de usuarios
 
