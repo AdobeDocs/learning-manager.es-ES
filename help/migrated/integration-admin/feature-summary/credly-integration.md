@@ -45,11 +45,11 @@ El archivo badge.csv de Adobe Learning Manager le permite migrar insignias desde
 * externalBadgeId
 * externalBadgeProvider
 
-El ID de insignia externo hace referencia al ID de plantilla de insignia en la plataforma Credly y el proveedor de insignias externo es Credly. Agregue estos valores en badge.csv y siga los pasos indicados en el [Manual de migración](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar el csv.
+El ID de insignia externo hace referencia al ID de plantilla de insignia en la plataforma Credly y el proveedor de insignias externo es Credly. Agregue estos valores en badge.csv y siga los pasos indicados en el [Manual de migración](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar el csv.
 
 ## Crear una aptitud: administrador
 
-Una vez importada la insignia en Adobe Learning Manager, el administrador puede crearla como aptitud. Para saber cómo crear una aptitud, consulte [Crear y modificar aptitudes](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+Una vez importada la insignia en Adobe Learning Manager, el administrador puede crearla como aptitud. Para saber cómo crear una aptitud, consulte [Crear y modificar aptitudes](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/skills-levels).
 
 ### Asigne la aptitud/insignia al objeto de aprendizaje: autor
 
