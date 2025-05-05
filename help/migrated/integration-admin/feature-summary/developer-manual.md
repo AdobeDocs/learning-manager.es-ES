@@ -189,7 +189,7 @@ Por ejemplo, &quot;userId&quot; puede ser 746783 y &quot;userSkills id&quot; pue
 
 La API de Learning Manager permite que los desarrolladores accedan a los objetos de Learning Manager como recursos RESTful. Cada punto final de la API representa un recurso, por lo general, una instancia de objeto como una insignia o una colección de esos objetos. Así, los desarrolladores utilizan verbos de HTTP como PUT, GET, POST y DELETE para efectuar operaciones CRUD en esos objetos (colecciones).
 
-API +++V1
++++API V1
 
 El siguiente diagrama representa los distintos elementos del Modelo de objetos de Learning Manager de la API V1.
 
@@ -370,7 +370,7 @@ En la siguiente tabla se describen varios elementos del modelo de objetos de Lea
 
 +++
 
-API +++V2
++++API V2
 
 A continuación, se muestran los distintos elementos del diagrama de clases de Learning Manager de la API V2.
 

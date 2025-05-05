@@ -563,7 +563,7 @@ También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo 
 * info
 * url
 * seatLimit
-*  (región)
+* (región)
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
 

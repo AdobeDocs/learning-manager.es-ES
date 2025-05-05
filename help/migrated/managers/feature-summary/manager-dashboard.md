@@ -232,7 +232,7 @@ Para prever el porcentaje de finalización del equipo respecto a una aptitud, si
 
    *Seleccione Configurar hipervínculo*
 
-1. En el cuadro de diálogo emergente configurar, para la aptitud que desee configurar, introduzca un valor de porcentaje en el campo **Porcentaje de finalización de destino** y la fecha en la que desee alcanzar el porcentaje de finalización de destino en el campo **Fecha de destino**.****
+1. En el cuadro de diálogo emergente configurar, para la aptitud que desee configurar, introduzca un valor de porcentaje en el campo **Porcentaje de finalización de destino** y la fecha en la que desee alcanzar el porcentaje de finalización de destino en el campo **Fecha de destino**.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

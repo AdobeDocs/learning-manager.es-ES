@@ -22,30 +22,30 @@ La configuración técnica de su cuenta de Learning Manager la necesitan princip
 
 Como administrador del sistema en el Admin Console, una de sus primeras tareas es definir y configurar un sistema de identidades con el que se autenticarán los usuarios finales. A medida que su organización adquiera licencias de Learning Manager, deberá aprovisionar dichas licencias a los usuarios finales. Para ello, necesitará una forma de autenticar a estos usuarios. Realice el siguiente procedimiento para configurar el inicio de sesión único para sus usuarios.
 
-1. En la página principal de Learning Manager, haga clic en **[!UICONTROL ** Configuración **>** Métodos de inicio de sesión **.]**
+1. En la página principal de Learning Manager, haga clic en **[!UICONTROL **&#x200B; Configuración &#x200B;**>**&#x200B; Métodos de inicio de sesión &#x200B;**.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Según el tipo de usuario, seleccione **[!UICONTROL ** Usuarios internos **o** Usuarios externos **.]**
+1. Según el tipo de usuario, seleccione **[!UICONTROL **&#x200B; Usuarios internos &#x200B;** o**&#x200B; Usuarios externos &#x200B;**.]**
 
 
 
-1. En el campo desplegable **[!UICONTROL **Inicio de sesión**]**seleccione **[!UICONTROL ** Inicio de sesión único **.]**
+1. En el campo desplegable **[!UICONTROL **Inicio de sesión**]**&#x200B;seleccione **[!UICONTROL **&#x200B; Inicio de sesión único &#x200B;**.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Para configurar el inicio de sesión único, haga clic en **[!UICONTROL ** Cambiar **.]**
+1. Para configurar el inicio de sesión único, haga clic en **[!UICONTROL **&#x200B; Cambiar &#x200B;**.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. En el campo ****[!UICONTROL URL de autenticación iniciada por IDP]****, introduzca la dirección URL de autenticación proporcionada por su proveedor de servicios.
+1. En el campo **&#x200B;**&#x200B;[!UICONTROL URL de autenticación iniciada por IDP]&#x200B;**&#x200B;**, introduzca la dirección URL de autenticación proporcionada por su proveedor de servicios.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Haga clic en **[!UICONTROL **Cargar **]**junto al campo**[!UICONTROL  **Archivo XML de metadatos de IDP **]******y cargue el archivo XML.
-1. Haga clic en **[!UICONTROL ** Guardar **.]**
+1. Haga clic en **[!UICONTROL **Cargar &#x200B;**]&#x200B;**junto al campo**&#x200B;[!UICONTROL &#x200B; **Archivo XML de metadatos de IDP &#x200B;**]&#x200B;**&#x200B;**&#x200B;**y cargue el archivo XML.
+1. Haga clic en **[!UICONTROL **&#x200B; Guardar &#x200B;**.]**
 1. La autenticación SSO se ha configurado correctamente para su cuenta. En principio, debe poder iniciar sesión en su cuenta de Learning Manager mediante SSO.
 
    ***El SSO que configure en Learning Manager debe admitir SAML 2.0.***
@@ -79,7 +79,7 @@ Antes de iniciar el proceso de migración, debe realizar el siguiente requisito 
 
 
 
-***Se recomienda que los administradores prueben el proceso de migración en una cuenta de prueba antes de migrar los datos y el contenido al entorno de producción de Learning Manager. ***
+***Se recomienda que los administradores prueben el proceso de migración en una cuenta de prueba antes de migrar los datos y el contenido al entorno de producción de Learning Manager. &#x200B;***
 
 ### Evaluación y exportación de datos {#evaluatingandexportingdata}
 
@@ -272,7 +272,7 @@ Antes de planificar e iniciar la migración real de todo el contenido, debe conf
 
 ### Configuración de una cuenta de FTP {#setupanftpaccount}
 
-En la página de inicio del administrador de integración, haga clic en **[!UICONTROL ** Solicitar carpeta CSV FTP **.]** En el cuadro de diálogo emergente que aparece, introduzca su ID de correo electrónico. Vaya al asistente en línea para crear la cuenta de FTP de Exavault. En cuanto cree su cuenta, podrá ver el proyecto de migración y las carpetas del proyecto de sprint en el FTP de Exavault.
+En la página de inicio del administrador de integración, haga clic en **[!UICONTROL **&#x200B; Solicitar carpeta CSV FTP &#x200B;**.]** En el cuadro de diálogo emergente que aparece, introduzca su ID de correo electrónico. Vaya al asistente en línea para crear la cuenta de FTP de Exavault. En cuanto cree su cuenta, podrá ver el proyecto de migración y las carpetas del proyecto de sprint en el FTP de Exavault.
 
 Vea una instantánea de ejemplo de los archivos de proyecto y la carpeta de ExaVault como se muestra aquí:
 
@@ -290,9 +290,9 @@ En la sección Configuración, haga clic en Solicitar una carpeta de Box.
 
 ![](assets/set-up-a-box-account.png)
 
-En el campo ****[!UICONTROL Introduzca Correo electrónico]****, introduzca el ID de correo electrónico en el que desea recibir las instrucciones de inicio de sesión para conectarse a Box.
+En el campo **&#x200B;**&#x200B;[!UICONTROL Introduzca Correo electrónico]&#x200B;**&#x200B;**, introduzca el ID de correo electrónico en el que desea recibir las instrucciones de inicio de sesión para conectarse a Box.
 
-Haga clic en **[!UICONTROL ** Conectar **.]**
+Haga clic en **[!UICONTROL **&#x200B; Conectar &#x200B;**.]**
 
 Recibirá un correo de Box con un vínculo a la carpeta compartida. Si no tiene ninguna cuenta de Box, haga clic en Registrar y cree una. Las instrucciones de inicio de sesión se envían al ID de correo electrónico del administrador de la integración.
 
@@ -313,11 +313,11 @@ En la página de inicio del administrador de integración, haga clic en **[!UICO
 
 En la página de inicio de migración, el sistema muestra los proyectos de migración que ya se han creado en su organización.
 
-Haga clic en **[!UICONTROL **Nuevo**]**en la esquina superior derecha de la página para crear un proyecto de migración.
+Haga clic en **[!UICONTROL **Nuevo**]**&#x200B;en la esquina superior derecha de la página para crear un proyecto de migración.
 
-***Si aún no ha creado una carpeta FTP, se le pedirá que cree una cuenta de Exavault para la carpeta FTP. Este es el paso obligatorio antes de comenzar a crear un proyecto de migración. ***
+***Si aún no ha creado una carpeta FTP, se le pedirá que cree una cuenta de Exavault para la carpeta FTP. Este es el paso obligatorio antes de comenzar a crear un proyecto de migración. &#x200B;***
 
-En la página ****[!UICONTROL Crear un nuevo proyecto de migración]****, especifique el nombre del proyecto.
+En la página **&#x200B;**&#x200B;[!UICONTROL Crear un nuevo proyecto de migración]&#x200B;**&#x200B;**, especifique el nombre del proyecto.
 
 ![](assets/migrating-the-content-1.png)
 
@@ -331,17 +331,17 @@ En la página Configuración de sprint, cree un sprint para su proyecto de migra
 
 Especifique un nombre para el sprint y una descripción para el sprint.
 
-Seleccione la casilla de verificación ****[!UICONTROL Se han agregado o modificado usuarios desde la última ejecución]**** para sincronizar la lista de usuarios con la aplicación Learning Manager. Si está migrando contenido y datos a la aplicación Learning Manager, puede que no sea necesario. Sin embargo, si transcurre un tiempo entre la migración de sprints anterior y la última, se recomienda sincronizar la lista de usuarios. Este paso permite que la base de datos de Learning Manager esté sincronizada con los usuarios del LMS.
+Seleccione la casilla de verificación **&#x200B;**&#x200B;[!UICONTROL Se han agregado o modificado usuarios desde la última ejecución]&#x200B;**&#x200B;** para sincronizar la lista de usuarios con la aplicación Learning Manager. Si está migrando contenido y datos a la aplicación Learning Manager, puede que no sea necesario. Sin embargo, si transcurre un tiempo entre la migración de sprints anterior y la última, se recomienda sincronizar la lista de usuarios. Este paso permite que la base de datos de Learning Manager esté sincronizada con los usuarios del LMS.
 
 ***Se recomienda realizar el paso de sincronización cuando se migran enrollment.csv y user_course_grade.csv. Este paso permite que la base de datos de Learning Manager esté sincronizada con la base de datos de migración y garantiza que todos los usuarios cuyos registros se vayan a migrar en el sprint estén disponibles en la base de datos de migración.***
 
-Haga clic en **[!UICONTROL ** Siguiente **.]**
+Haga clic en **[!UICONTROL **&#x200B; Siguiente &#x200B;**.]**
 
-Haga clic en **[!UICONTROL **Inicio**]**para iniciar la migración de Sprint con los datos y el contenido cargados. Haga clic en ****[!UICONTROL Actualizar]**** antes de iniciar la ejecución del sprint para sincronizar las carpetas de FTP y contenido con Learning Manager.
+Haga clic en **[!UICONTROL **Inicio**]&#x200B;**para iniciar la migración de Sprint con los datos y el contenido cargados. Haga clic en &#x200B;**&#x200B;**[!UICONTROL Actualizar]**&#x200B;** antes de iniciar la ejecución del sprint para sincronizar las carpetas de FTP y contenido con Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Puede hacer clic en ****[!UICONTROL Detener]****en cualquier momento durante el proceso de migración del sprint para anular la migración del sprint.
+Puede hacer clic en **&#x200B;**&#x200B;[!UICONTROL Detener]&#x200B;**&#x200B;**&#x200B;en cualquier momento durante el proceso de migración del sprint para anular la migración del sprint.
 
 El sistema muestra el estado de migración respecto a cada elemento de datos y contenido del sprint. Compruebe la cantidad de elementos correctos y fallidos como parte de la ejecución del sprint de migración.
 

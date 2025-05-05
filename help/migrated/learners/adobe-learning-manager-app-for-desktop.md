@@ -197,7 +197,7 @@ Para editar o eliminar un archivo de la galería, haga clic en los puntos suspen
 
 Las notificaciones de Learning Manager aparecen en la ventana de notificaciones aunque el alumno no esté registrado en la aplicación Learning Manager para web. Las notificaciones incluyen publicaciones o tableros que los usuarios han creado, siguen o participan. Al hacer clic en la notificación, el usuario accederá a la web de Aprendizaje social de Learning Manager.
 
-Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > **[!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
+Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > &#x200B;** [!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
 
 ## Configuración de la aplicación Adobe Learning Manager para escritorio {#settingsinadobecaptivateprimedesktopapplication}
 

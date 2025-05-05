@@ -105,15 +105,15 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione las teclas **Cmd + Mayús + G**.
 1. Escriba &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
 1. Busque &quot;**elthor**&quot; en la barra de búsqueda y abra la carpeta.
-1. Ordene las carpetas por **Fecha de modificación **y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
+1. Ordene las carpetas por **Fecha de modificación &#x200B;** y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
 
 ## ¿Cómo se activa el registro avanzado? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.****
-1. Escriba &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.****
-1. Haga una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.****
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.**&#x200B;**
+1. Escriba &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.**&#x200B;**
+1. Haga una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.**&#x200B;**
 1. Busque la clave **debugMode** y cambie la propiedad de valor de esta clave a &quot;**true**&quot; (sin comillas).
 
 ### MAC OS X {#MacOSX-2}

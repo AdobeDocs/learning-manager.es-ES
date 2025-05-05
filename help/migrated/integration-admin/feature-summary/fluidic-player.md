@@ -19,7 +19,7 @@ Lea este artículo para aprender a incrustar el reproductor Fluidic en una aplic
 
 Como empresa, ahora puede proporcionar una experiencia personalizada a sus alumnos, incluso fuera de Learning Manager. Con la API pública, puede obtener toda la información relacionada con los objetos de aprendizaje, las inscripciones de los alumnos y el progreso del aprendizaje, y mostrarlos en su sitio web. Y, lo que es más importante, incluso puede insertar el reproductor Fluidic de Learning Manager en su sitio web para que los alumnos puedan utilizar el contenido directamente en su sitio web. El reproductor Fluidic le ofrece la posibilidad de reproducir cualquier contenido compatible con Learning Manager. Cuando se incrusta en su propio sitio web, tiene exactamente las mismas capacidades que cuando se utiliza en Learning Manager.
 
-**Reproducir cualquier contenido de aprendizaje electrónico[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproducir cualquier contenido de aprendizaje electrónico[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 El reproductor Fluidic reproduce prácticamente cualquier tipo de contenido de aprendizaje electrónico de la misma forma coherente e intuitiva, sin necesidad de complementos ni descargas. El alumno puede abrir el contenido y, al margen del tipo de archivo de contenido, comienza a reproducirse.
 
@@ -31,7 +31,7 @@ Para obtener más información sobre el reproductor Fluidic, consulte [Reproduct
 
 A continuación se muestran algunos ejemplos de dónde puede utilizar el reproductor Fluidic incrustable.
 
-* Puede utilizar el reproductor Fluidic incrustable en su sitio web**** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
+* Puede utilizar el reproductor Fluidic incrustable en su sitio web&#x200B;**&#x200B;** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
 
 * Si está en el sector de la formación, tal vez tenga un sitio web donde los clientes adquieren cursos. Puedes integrar el reproductor incrustable en el mismo sitio web para que tus clientes puedan consumir el contenido que compren dentro de tu sitio web.
 
@@ -78,7 +78,7 @@ client_id= <application_id>
 Aquí, **[!UICONTROL ID de cliente]** es el ID de aplicación obtenido en el paso 1.
 **[!UICONTROL redirect_url]** es el valor de redirect_url establecido en el paso 1.
 **[!UICONTROL estado]** es cualquier dato ficticio en función del cual necesitamos filtrar la URL de redirección para obtener el código OAuth. El ámbito es el ámbito del alumno establecido en el paso 1.
-**[!UICONTROL response_type]**e siempre es &quot;CODE&quot;.\
+**[!UICONTROL response_type]**&#x200B;e siempre es &quot;CODE&quot;.\
 **[!UICONTROL la cuenta]** es un campo opcional\
 **[!UICONTROL correo electrónico]** es un campo opcional\
 &#42; Si se proporcionan el ID de cuenta y el correo electrónico, la URL anterior permitirá al usuario iniciar sesión en la misma cuenta. Este ejemplo de punto final se muestra en el archivo &quot;index.html&quot; de la aplicación de ejemplo.

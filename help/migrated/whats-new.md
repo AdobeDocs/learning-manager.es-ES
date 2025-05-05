@@ -228,7 +228,7 @@ La columna carpeta utiliza el tipo de datos cadena y es una columna opcional. A 
 * Si agrega un nuevo nombre de carpeta para un módulo que ya está presente en una carpeta diferente, el nuevo valor no sobrescribirá ni reemplazará la carpeta asignada. El módulo se agregará a la nueva carpeta y también permanecerá disponible en la carpeta existente.
 * Si el valor está en blanco, la carpeta se establecerá de forma predeterminada en **[!UICONTROL Public]**.
 
-Consulte el archivo csv spec](assets/4-module_version.xlsx) de [module_version para obtener más información.
+Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
 
 ### Cambios en la migración de módulos: criterios de finalización
 
@@ -258,7 +258,7 @@ A continuación se indican las condiciones de las nuevas columnas:
    * El tipo de datos debe ser una cadena de valores y los valores admitidos son `QUIZ_ATTEMPTED`, `QUIZ_PASSED` y `QUIZPASSED_OR_LIMITREACHED`.
    * Cuando `completionCriteria` esté establecido en `QUIZ`, escriba el valor de prueba adecuado en la columna `quizData`.
 
-Consulte el archivo csv spec](assets/4-module_version.xlsx) de [module_version para obtener más información.
+Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
 
 ### Cambios en la migración de cursos: criterios de finalización
 

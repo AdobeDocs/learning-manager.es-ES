@@ -301,7 +301,7 @@ El conector de getAbstract es válido para clientes empresariales de getAbstract
 
    Para que funcione cualquier tipo de sincronización, debe asegurarse de que la fuente del usuario esté presente en la carpeta FTP de getAbstract para las fechas especificadas en la sincronización.
 
-   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:** report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
+   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
    [hoja de Excel de ejemplo de fuente de usuario de getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Conector de Harvard ManageMentor {#hmmconnector}

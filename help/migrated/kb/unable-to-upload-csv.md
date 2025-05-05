@@ -76,7 +76,7 @@ Este problema se produce si hay un usuario que ya está presente en el sistema c
 En este escenario, hay dos razones para este error:
 
 1. El usuario que está intentando añadir es responsable de un perfil externo. Para resolver este problema, abra el perfil externo del que forma parte el usuario, seleccione el usuario, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Asignar función]** > **[!UICONTROL Responsable]** y cambie el responsable del perfil.
-1. El usuario que está intentando agregar se ha purgado. En este caso, no podrá añadir el usuario con la misma dirección de correo electrónico hasta que se complete el proceso de purga. Como solución alternativa**, a**ñada el usuario con una dirección de correo electrónico secundaria para proporcionar acceso a la plataforma. Una vez completado el proceso de purga, edite al usuario y cambie la dirección de correo electrónico a la dirección correcta.
+1. El usuario que está intentando agregar se ha purgado. En este caso, no podrá añadir el usuario con la misma dirección de correo electrónico hasta que se complete el proceso de purga. Como solución alternativa&#x200B;**, a**&#x200B;ñada el usuario con una dirección de correo electrónico secundaria para proporcionar acceso a la plataforma. Una vez completado el proceso de purga, edite al usuario y cambie la dirección de correo electrónico a la dirección correcta.
 
 ### Escenario 2
 

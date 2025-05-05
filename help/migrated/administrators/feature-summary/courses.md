@@ -547,7 +547,7 @@ Siga estos pasos para agregar comentarios de finalización:
 2. Vaya a la página **[!UICONTROL Cursos]** y seleccione un curso.
 3. Seleccione **[!UICONTROL Alumnos]** en la página del curso.
 4. Elija el alumno individual o varios alumnos.
-5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione**[!UICONTROL  Marcar finalización]**.
+5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione&#x200B;**[!UICONTROL &#x200B; Marcar finalización]**.
 6. Escriba el comentario de finalización en el cuadro de diálogo.
 
    ![](assets/comments.png)

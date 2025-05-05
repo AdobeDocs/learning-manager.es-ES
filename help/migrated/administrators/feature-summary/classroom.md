@@ -88,7 +88,7 @@ El archivo CSV utiliza estos campos para almacenar información sobre una o vari
 * name
 * info
 * url
-*  (región)
+* (región)
 * seatLimit
 
 Puede personalizar los encabezados.
