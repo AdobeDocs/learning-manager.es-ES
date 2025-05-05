@@ -1035,7 +1035,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
