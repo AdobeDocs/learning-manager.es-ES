@@ -2,15 +2,15 @@
 description: Descubra las nuevas funciones y mejoras de la versión de mayo de 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
 
 
-# Resumen de nuevas funciones
+# Resumen de las nuevas funciones de mayo de 2025
 
 La próxima versión de Adobe Learning Manager presenta una variedad de nuevas funciones y mejoras destinadas a racionalizar la plataforma y mejorar sus capacidades.
 
@@ -108,7 +108,7 @@ Consulte este [artículo](/help/migrated/administrators/feature-summary/purge-us
 
 Adobe Learning Manager ahora también admite la selección de salas de seminarios de Adobe Connect al configurar una sesión de clase virtual en Connect. Anteriormente, el administrador solo podía seleccionar el tipo de sala de reuniones. Esta mejora permite a los administradores con una licencia de seminario válida programar y administrar eventos únicos o a gran escala (hasta 1500 asistentes) en Adobe Learning Manager.
 
-Consulte este [artículo](https://helpx.adobe.com/es/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
+Consulte este [artículo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
 
 ### Compatibilidad con el acceso a los análisis de sesión
 
