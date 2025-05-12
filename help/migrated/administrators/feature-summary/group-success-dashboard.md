@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Panel de éxito de grupo
 description: Obtenga más información sobre el Panel de éxito de grupo en Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Un administrador puede activar y crear los paneles asignándoles un nombre, sele
 El administrador debe habilitar el Panel de control de éxito de grupo para la cuenta. Para activar el panel de éxito de grupo, siga estos pasos:
 
 1. Inicie sesión como administrador.
-2. Seleccione **[!UICONTROL Configuración]**&#x200B;y, a continuación, seleccione **[!UICONTROL Informes]**.
+2. Seleccione **[!UICONTROL Configuración]**y, a continuación, seleccione **[!UICONTROL Informes]**.
 3. Seleccione el conmutador **[!UICONTROL Visibilidad del panel]**.
 4. Escriba el nombre del panel (por ejemplo, **[!UICONTROL Panel del Administrador de tiendas]**).
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ Cuando selecciona más de un grupo de usuarios, Adobe Learning Manager utiliza r
 
 * **Grupos de usuarios con el mismo campo Activo**: si los grupos de usuarios usan el mismo campo (por ejemplo, Ubicación), el sistema incluye a todos los alumnos de ambos grupos. Combina los valores. Por ejemplo: **Location = Bangalore** y **Location = Chennai**. Incluye alumnos de ambas ubicaciones.
 * **Grupos de usuarios con diferentes campos activos**: si los grupos de usuarios usan campos diferentes (por ejemplo, Ubicación y Función), el sistema incluye solo alumnos que cumplen todas las condiciones. Por ejemplo: **Location = Bangalore o Chennai** y **Role = Manager**. Solo se incluyen los alumnos con la función de responsable y que se encuentran en Bangalore o Chennai.
+
+**Resumen:**
 
 * Mismo campo activo: los alumnos se combinan (lógica OR)
 * Diferentes campos activos: los alumnos deben cumplir todos los criterios (lógica AND)
