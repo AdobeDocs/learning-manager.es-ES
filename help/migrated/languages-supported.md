@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Idiomas admitidos en Adobe Learning Manager
 description: Explorar la interfaz y los idiomas de contenido admitidos en Adobe Learning Manager (ALM)
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 49%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Manager admite los siguientes idiomas de interfaz y contenido.
 | Búlgaro | - | bg |
 | Neerlandés (Bélgica) | - | nl-be |
 | Portugués Portugal | - | pt-PT |
+| Chino (tradicional, Hong Kong) | - | zh-HK |
+| Noruego Bokmål | - | nb-NO |
+| Tamil | - | ta-IN |
+| Telugu | - | te-IN |
+| Canarés | - | kn-IN |
+| Malayo | - | ml-IN |
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Purgar usuarios
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 72%
+source-wordcount: '1135'
+ht-degree: 52%
 
 ---
 
@@ -22,8 +22,8 @@ Utilice la función de purgar usuario para eliminar la información de identific
 La acción Purgar usuario puede tener los siguientes resultados:
 
 * Si se purga un usuario, los vínculos de los registros de importación no funcionan para evitar la descarga de archivos CSV antiguos y la recuperación de los datos del usuario en el sistema.
-* Si se purga un autor, su nombre se reemplaza por el nombre del Administrador que purgó ese usuario.
-* Si se purgan instructores, estos se eliminan de las sesiones. El administrador debe reemplazar o añadir instructores para estas sesiones.
+* Si se purga un autor, su nombre se sustituye por el nombre del administrador que purgó ese usuario.
+* Si se purgan instructores, estos se eliminan de las sesiones. El administrador debe reemplazar o agregar instructores para estas sesiones.
 * Purgar a un usuario en Learning Manager no elimina al usuario en ninguna aplicación externa (sistemas de terceros u otras aplicaciones escritas por usted). Póngase en contacto con los propietarios de aplicaciones externas para que eliminen a los usuarios de dichas aplicaciones.
 * Si se hace referencia a un usuario purgado en la configuración de un conector, el conector se deshabilita. El administrador debe volver a configurar el conector para reanudarlo.
 
@@ -67,11 +67,54 @@ Para purgar usuarios, siga estos pasos:
 
 ## Purga masiva de usuarios
 
-Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto permite a los administradores seleccionar 50 usuarios a la vez y purgarlos todos juntos. Esta opción ayuda a los administradores cuando desean purgar usuarios de forma masiva. Siempre es recomendable comprobar los usuarios seleccionados para la purga. Esto es importante para garantizar que solo se purgue el conjunto correcto de usuarios.
+Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto permite a los administradores seleccionar 50 usuarios a la vez y purgarlos juntos. Esto ayuda a los administradores cuando desean purgar usuarios en bloque. Siempre es recomendable comprobar los usuarios seleccionados para la purga. Esto es importante para garantizar que solo se purgue el conjunto correcto de usuarios.
 
 ![](assets/bulk-purge-users.png)
 
 *Purgar usuarios en bloque*
+
+## Filtrar usuarios eliminados antes de purgar
+
+Adobe Learning Manager permite a los administradores eliminar de forma permanente de la plataforma a los usuarios que ya se hayan eliminado. Este proceso, denominado purgar, ayuda a las organizaciones a mantener una base de datos de alumnos limpia, cumplir con las políticas de retención de datos y evitar el acceso no autorizado a los datos de usuario.
+Esto resulta especialmente útil para mantener la higiene de los datos y garantizar que se eliminen del sistema los datos antiguos y no utilizados de los usuarios.
+La purga de usuarios es esencial para cumplir con las directrices de privacidad de datos o para mantener un almacén de datos saneado mediante la eliminación de registros redundantes.
+
+### Filtrar usuarios eliminados por mes
+
+Puede filtrar los usuarios eliminados seleccionando un mes específico y, a continuación, eliminarlos permanentemente.
+
+Para filtrar los usuarios eliminados usando el mes de eliminación:
+
+1. Seleccione **[!UICONTROL Usuarios]** en la página principal del administrador y, a continuación, seleccione **[!UICONTROL Limpieza de usuarios]**.
+2. Seleccione el selector de fecha **[!UICONTROL Seleccionar mes de eliminación]** y elija la fecha.
+
+   ![](assets/deletion-date.png)
+   _Seleccione el mes en que se eliminaron los usuarios_
+
+   Aparecerá la lista de usuarios eliminados en el mes seleccionado.
+
+   ![](assets/list-of-user-deleted.png)
+   _Lista de usuarios eliminados mostrada para el mes seleccionado_
+
+### Ordenar usuarios eliminados por mes
+
+Puede ordenar los usuarios filtrados por su **[!UICONTROL ID de usuario único]** y su **[!UICONTROL fecha de eliminación]**.
+
+1. En la lista de usuarios eliminados, ordene los usuarios según sus ID de usuario o fecha de eliminación.
+
+   ![](assets/sort-by-date.png)
+   _Lista de usuarios filtrada por Id. de usuario único_
+
+2. Seleccione uno o varios usuarios.
+3. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione **[!UICONTROL Purgar usuario]**.
+4. Seleccione Purgar en el mensaje de confirmación para eliminar los registros de usuario de forma permanente de Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Confirmación final antes de purgar usuarios de forma permanente_
+
+>[!NOTE]
+>
+>Al purgar usuarios, se eliminan sus datos de forma permanente. Compruebe su selección antes de continuar.
 
 +++Leer acerca de los resultados de la acción Purgar usuario
 
@@ -162,7 +205,7 @@ Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto p
    <td> </td>
   </tr>
   <tr>
-   <td>Notificar al administrador de la empresa sobre la solicitud.</td>
+   <td>Notifique la solicitud al administrador de la empresa.</td>
    <td>Sí</td>
   </tr>
   <tr>
@@ -190,8 +233,6 @@ Puede seleccionar los primeros 50 usuarios y purgarlos simultáneamente. Esto p
 
 +++
 
-Learning Manager ahora cumple con el RGPD. Para obtener más información sobre el cumplimiento del RGPD, consulte [Cumplimiento del RGPD por parte de Learning Manager](../../kb/prime-gdpr.md).
-
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
 +++¿Cuántos días tarda en completarse una solicitud de purga?
@@ -199,7 +240,13 @@ Learning Manager ahora cumple con el RGPD. Para obtener más información sobre 
 Una solicitud para purgar usuarios tarda un máximo de 30 días en completarse.
 +++
 
-+++¿Se puede realizar una purga masiva en Learning Manager?
++++¿Se puede realizar una purga masiva en Adobe Learning Manager?
 
 Sí, se puede realizar una purga masiva. Sin embargo, solo se puede realizar una purga masiva de 50 usuarios.
++++
+
++++¿Puedo restaurar un usuario purgado?
+
+No. Una vez purgados, todos los datos del usuario se eliminan de forma permanente y no se pueden recuperar.
+
 +++

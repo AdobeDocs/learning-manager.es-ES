@@ -4,104 +4,192 @@ title: Tienda de contenido
 description: Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
 # Tienda de contenido
 
-Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
+Los administradores de aprendizaje a menudo se enfrentan a problemas al buscar y cargar contenido de calidad. La Tienda de contenido de Adobe Learning Manager simplifica este proceso al permitir la concesión de licencias de cursos premium a proveedores de confianza, lo que permite una distribución de aprendizaje más rápida y ampliable. Con la Tienda de contenido, el administrador puede examinar, previsualizar y comprar licencias de cursos de terceros de proveedores.
 
-En la aplicación del administrador, hay una nueva opción **[!UICONTROL Mercado de contenido]**, que encontrarás en el panel izquierdo.
+La Tienda de contenido ofrece los siguientes planes para adquirir contenido:
 
-Los usuarios pueden comprar contenido en listas de reproducción revisadas que cubren varios temas o adquirir el catálogo completo.
+* **[!UICONTROL Aspectos básicos premium]**
+* **[!UICONTROL Aspectos básicos premium Plus]**
 
-En la página, aparecen dos mosaicos: Formación empresarial y Formación de Creative Cloud. El primer mosaico inicia la tienda, en la que puede adquirir cursos para los alumnos. El último inicia el catálogo de contenido.
+| **[!UICONTROL Aspectos básicos premium]** | **[!UICONTROL Aspectos básicos premium Plus]** |
+|---|---|
+| Acceso a más de 90.000 cursos | Acceso a más de 100.000 cursos |
+| Contenido de más de 250 proveedores | Incluye todo el contenido de Premium Essentials |
+| Contenido exclusivo de proveedores de confianza como:<li>EasyLlama</li><li>Skillshub</li><li>Thomson Reuters</li><li>Emtrain</li><li>Harvard ManageMentor</li> | Cursos exclusivos de los principales proveedores, como: <li>Blinkist</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>Coursera</li> |
 
-La página Formación empresarial de la aplicación del administrador permite invitar a usuarios y descargar el informe de intereses, así como adquirir el catálogo completo o una lista de reproducción revisada.
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**Invitar a usuarios**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-Invite a usuarios a la Tienda de contenido para explorar cursos y expresar su interés. Como administrador, puede invitar a todos los alumnos de la cuenta o a los alumnos seleccionados. Para conceder acceso a los alumnos, debe invitarlos.
+**[!UICONTROL Premium Essentials Plus]**:
 
-También se puede revocar el acceso de un alumno a la opción Tienda de contenido. Para revocar el acceso, haz clic en el vínculo **[!UICONTROL Revocar acceso]**.  Los usuarios ya no podrán ver la página Tienda de contenido en la aplicación del alumno.
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-Esta opción está seleccionada de forma predeterminada para todas las cuentas nuevas. Para las cuentas existentes, el administrador debe invitar a los usuarios a explorar la tienda.
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## Comprar
+## Adquirir contenido de proveedores
 
-Obtendrá acceso ilimitado a toda la biblioteca de cursos. Haz clic en el botón **[!UICONTROL Comprar]** para descargar un formulario de solicitud de compra.
+Para examinar y adquirir contenido de proveedores de contenido, siga estos pasos:
+
+1. Seleccione **[!UICONTROL Mercado de contenido]** en la página principal del administrador. Aparece la página **[!UICONTROL Mercado de contenido]**.
+
+   ![](assets/purchase-plans.png)
+   _Ver los planes de compra en la página Tienda de contenido_
+
+2. Los administradores pueden obtener una vista previa y explorar el centro de contenido para los planes **[!UICONTROL Premium Essentials]** y **[!UICONTROL Premium Essentials Plus]**.
+
+Los proveedores de contenido gestionan la eliminación del contenido obsoleto, lo que garantiza que no se retire ningún material de aprendizaje sin previo aviso.
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## Solicitar un presupuesto
+
+Los administradores pueden seleccionar un plan, como Premium Essentials o Premium Essentials Plus, especificar el número de puestos necesarios y generar un formulario de solicitud de presupuesto descargable. Una vez completado, el formulario se envía al equipo de ventas de Adobe Learning Manager para su procesamiento. El proceso de solicitud de presupuesto también permite que el Adobe proporcione precios personalizados en función de las necesidades de la organización.
+
+Para descargar la petición de oferta, siga estos pasos:
+
+1. Seleccione **[!UICONTROL Mercado de contenido]** en la página principal del administrador.
+
+2. Seleccione el tipo de licencia y escriba el número de licencias para generar el presupuesto en la sección **[!UICONTROL Solicitar un presupuesto]**.
+
+3. Seleccione **[!UICONTROL Descargar petición de presupuesto]** para descargar el presupuesto.
+
+![](assets/purchase-plans-go1.png)
+_Descargar solicitud de presupuesto después de seleccionar un plan_
+
+Envíe el presupuesto a [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) para activar su licencia. También puede ponerse en contacto con el administrador Adobe de éxito de clientes para iniciar el proceso de compra.
+
+## Invitar a alumnos al centro de contenido
+
+Invita a los alumnos a la Tienda de contenido para explorar el contenido y expresar interés. Como administrador, puede invitar a todos los alumnos de la cuenta o a los alumnos seleccionados. Se debe invitar a los alumnos antes de que puedan explorar el contenido. Consulte el [artículo](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) para obtener más información sobre el centro de contenido.
+
+Para invitar a los alumnos:
+
+1. Seleccione **[!UICONTROL Mercado de contenido]** en la página principal del administrador.
+2. Seleccione **[!UICONTROL Invitar a alumnos]** y elija a los alumnos requeridos.
+3. Seleccione **[!UICONTROL Invitar a alumnos]**.
+
+Los administradores también pueden revocar el acceso al **[!UICONTROL Centro de contenido]** seleccionando el vínculo **[!UICONTROL Quitar el acceso de todos los usuarios]**. Una vez revocado el acceso, los alumnos ya no verán la página Centro de contenido en la aplicación del alumno.
+
+![](assets/invite-users.png)
+_Invitar a usuarios a acceder al centro de contenido_
+
+De forma predeterminada, esta opción está activada para todas las cuentas nuevas. Para las cuentas existentes, los administradores deben invitar manualmente a los alumnos a acceder a la Tienda de contenido.
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*Especifique el número de puestos que desea comprar*
+*Enter the number of seats to purchase*
 
-Especifique el número de puestos para los que desea comprar los cursos. Descargue el formulario de solicitud de compra y, a continuación, envíelo al equipo de ventas de Learning Manager.
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-Después, el equipo validará la información y, a continuación, generará una clave que se le proporcionará. Esta es la clave de activación con la que concederá acceso a los usuarios a la oferta de contenido.
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-Una vez que el equipo de CSAM genere la clave, el administrador podrá utilizarla para importar los cursos y migrarlos al catálogo existente o a uno nuevo.
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-Durante la migración de cursos, el estado se muestra como **[!UICONTROL Importando cursos]**. Una vez finalizada la migración, el administrador recibirá una notificación en la que se indica que la migración se ha completado y se ha realizado correctamente.
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-La sección **[!UICONTROL Licencias]** muestra todas las licencias adquiridas para la cuenta.
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-El administrador puede ver los vínculos de los catálogos adquiridos en la página Resumen de catálogo.
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-Una vez que se añadan los cursos al catálogo, el administrador puede conceder acceso a los cursos de formación a varios usuarios o grupos de usuarios.
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*Conceder acceso a la formación a usuarios y grupos de usuarios*
+*Grant access to training to users and user groups*-->
 
-## Informe de intereses
+<!--## Express interest report
 
-Cuando un alumno hace clic en la opción Expresar interés en el catálogo de la aplicación del alumno, el interés se registra en el informe de intereses. El administrador puede descargar este informe. El informe (csv) contiene los siguientes campos:
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* Nombre del catálogo
-* Número de usuarios que expresan interés
-* Dirección de correo electrónico del usuario que expresa interés
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## Centro de contenido
+
+El centro de contenido permite a los administradores preseleccionar listas de reproducción necesarias desde la aplicación del alumno. La página Centro de contenido está visible constantemente para los administradores en su función de alumno, ya que les permite preseleccionar listas de reproducción fácilmente. Para ayudarle a preseleccionar la lista de reproducción correcta, los administradores pueden hacer que esta página esté accesible para los expertos en la materia de su cuenta.
+
+Adobe Learning Manager se sincroniza con regularidad con el centro de contenido, lo que garantiza que las nuevas adiciones y actualizaciones se reflejen automáticamente en la plataforma.
+
+Todo el contenido se asigna a los idiomas admitidos, lo que permite a los administradores filtrar y administrar el contenido de forma más eficaz en función de las preferencias de idioma.
 
 ## Plantillas de correo electrónico
 
-Para admitir este flujo de trabajo, puede utilizar tres plantillas de correo electrónico:
+Adobe Learning Manager ofrece plantillas de correo electrónico preconfiguradas que notifican a los administradores y alumnos sobre compras de contenido, actualizaciones del sistema y actividades de aprendizaje.
 
-1. **[!UICONTROL Activación correcta del contenido]:** Esta acción se envía cuando se adquiere correctamente un contenido con un nombre de clave. Todos los cursos de formación adquiridos ya están disponibles.
-1. **[!UICONTROL Error en la carga automatizada de usuarios]:** Esto se envía cuando falla la actualización automática del archivo CSV en la cuenta por algún motivo.
-1. **[!UICONTROL Invitar a usuarios a explorar contenido]:** Este es un correo electrónico de invitación que se envía a los alumnos cuando el administrador adquiere cursos. El administrador puede ver el informe de intereses para comprender los requisitos generales y tomar la decisión de compra.
+Existen tres plantillas de correo electrónico que puede utilizar:
 
-1. Los cursos adquiridos no se pueden añadir en certificados recurrentes.
-1. Los cursos adquiridos no se pueden compartir en cuentas de igual a igual.
-1. Los cursos adquiridos los pueden consumir todos los usuarios que tengan acceso a ellos. Configure la visibilidad del catálogo para restringir la visibilidad de los cursos adquiridos a determinados usuarios.
-1. Los cursos adquiridos no se pueden consumir una vez que haya caducado la clave de activación. Compre o active otra clave para permitir el consumo.
+1. **[!UICONTROL Activación de contenido correcta]:** Enviada a los administradores tras una compra correcta de contenido de terceros. Esta notificación confirma que la activación ha finalizado y que el contenido adquirido ya está disponible en el sistema para la asignación de alumnos.
+2. **[!UICONTROL Error de carga automatizada de usuarios]:** Se activa cuando falla la importación automatizada de usuarios mediante CSV. Esta alerta ayuda a los administradores a identificar rápidamente los problemas en las actualizaciones de usuarios programadas, para que se puedan tomar medidas correctivas.
+3. **[!UICONTROL Invitar a usuarios a explorar contenido]:** Correo electrónico de invitación que se envía a los alumnos una vez que el administrador adquiere contenido en la tienda. Después de eso, los usuarios pueden comenzar su recorrido de aprendizaje inmediatamente.
 
-## Centro de contenido de la Tienda de contenido
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-El centro de contenido permite a los administradores y a los expertos en la materia preseleccionar listas de reproducción necesarias desde la aplicación del alumno. Una vez preseleccionado, los administradores pueden descargar el formulario de solicitud de compra y compartirlo con el agente de ventas de Adobe.
+<!--## Content Hub in Content Marketplace
 
-Un administrador puede invitar a los expertos en la materia a preseleccionar las listas de reproducción en las que están interesados.
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*Iniciar el centro de contenido desde la tienda*
+*Launch Content Hub from the marketplace*
 
-El centro de contenido está disponible en la función Alumno para todos los administradores. Los administradores permiten a los expertos en la materia preseleccionar las listas de reproducción que les interese comprar.
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-La página Centro de contenido está visible de forma continua para los administradores en la función Alumno, lo que les permite preseleccionar listas de reproducción fácilmente. Para ayudarle a seleccionar la lista de reproducción correcta, los administradores pueden hacer que esta página esté accesible para los expertos en el materia de su cuenta. Solo tiene que visitar la página Formación empresarial del administrador y realizar los pasos necesarios para proporcionar acceso.
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*Ver recursos en el centro de contenido*
+*View resources in the Content hub*
 
-Learning Manager también permite a los administradores descargar una lista de reproducción preseleccionada y compartirla con el equipo de ventas de Adobe. Antes de descargar la lista de selección, visite el centro de contenido y preseleccione una lista de reproducción mediante la adición de una a su biblioteca.
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-Luego, como administrador, haz clic en **[!UICONTROL Mercado de contenido]** > **[!UICONTROL Formación empresarial]** > **[!UICONTROL Sección de compras]** > **[!UICONTROL Listas de reproducción revisadas]**. Haga clic en el botón **[!UICONTROL Comprar]** para descargar el formulario de solicitud de compra que contiene los detalles de la lista de reproducción preseleccionada.
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*Descargar el formulario de solicitud de compra*
+*Download the Purchase Request form*
 
-Los cursos y la lista de reproducción que aparecen en el centro de contenido son los mismos que aparecen en la Tienda de contenido. El centro de contenido simplemente ofrece a los administradores y a algunos expertos en la materia la posibilidad de preseleccionar fácilmente listas de reproducción para su compra.
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->

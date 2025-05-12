@@ -2,10 +2,10 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Guía del usuario de Learning Manager](user-guide.md)
 * Introducción {#introduction}
    * [Resumen de nuevas funciones](/help/migrated/whats-new.md)
+   * [Resumen de las nuevas funciones de noviembre de 2024](/help/migrated/whats-new-nov-24.md)
    * [Resumen de las nuevas funciones de julio de 2024](whats-new-july-2024.md)
    * [Nuevas funciones de marzo de 2024](whats-new-march-2024.md)
    * [Nuevas funciones de noviembre de 2023](whats-new-november-2023.md)
    * [Nuevas funciones de julio de 2023](whats-new-2023-july.md)
-   * [Nuevas funciones de abril de 2023](whats-new-2023-april.md)
    * [Notas de la versión](release-note/release-notes.md)
    * [Requisitos del sistema](system-requirements.md)
    * [Paquete de sitio de referencia de ALM para AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -38,13 +38,15 @@ ht-degree: 84%
    * [Primeros pasos como alumno](learners/feature-summary/getting-started-learner.md)
    * [Primeros pasos para responsables](managers/feature-summary/getting-started-manager.md)
    * [Primeros pasos como instructor en Learning Manager](instructors/feature-summary/getting-started.md)
-* El administrador {#admin}
+* Administrador {#admin}
+   * [Asistente para IA de administración (beta) en Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Inicio de sesión de usuario](administrators/feature-summary/user-login.md)
    * [Añadir usuarios y crear grupos de usuarios](administrators/feature-summary/add-users-user-groups.md)
    * [Añadir ubicaciones de clases](administrators/feature-summary/classroom.md)
    * [Creación de instancias de cursos y rutas de aprendizaje](administrators/feature-summary/courses.md)
    * [Tienda de contenido](administrators/feature-summary/content-marketplace.md)
    * [Informes](administrators/feature-summary/reports.md)
+   * [Panel de éxito de grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Rutas de aprendizaje](administrators/feature-summary/learning-paths.md)
    * [Planes de aprendizaje](administrators/feature-summary/learning-plans.md)
    * [Administrar pedidos y facturación de Learning Manager](administrators/feature-summary/billing-management.md)

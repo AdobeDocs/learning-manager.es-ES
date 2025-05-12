@@ -1,582 +1,232 @@
 ---
-description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager
+description: Descubra las nuevas funciones y mejoras de la versión de mayo de 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
+source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
 workflow-type: tm+mt
-source-wordcount: '3260'
-ht-degree: 2%
+source-wordcount: '2479'
+ht-degree: 0%
 
 ---
 
-# Resumen de nuevas funciones {#new-features-summary}
 
-Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager.
+# Resumen de nuevas funciones
 
-* **Búsqueda basada en IA:** Combina la búsqueda léxica y semántica para obtener resultados más inteligentes según el contexto.
-* **Webhooks**: se integra con Webhooks para enviar información en tiempo real a direcciones URL específicas.
-* **Interoperabilidad de herramientas de aprendizaje (LTI)**: admite LTI para interoperabilidad con otras plataformas de LMS.
-* **Integración correcta**: administra y comparte insignias externas mediante Credly.
-* **Mejoras en el tablero de cumplimiento**: comparta tableros con otros administradores y establezca widgets de cumplimiento predeterminados en las páginas principales de los alumnos.
-* **Compatibilidad con varios idiomas**: cree instancias específicas del idioma para los módulos de clase y clase virtual.
-* **Funciones personalizadas**: control mejorado sobre las funciones y los permisos de los usuarios.
-* **Comentarios de finalización**: agregue comentarios al marcar alumnos como completados.
-* **Informe de grupo de usuarios**: administra grupos de usuarios con informes detallados.
-* **Informe de lista de espera**: descarga la lista de alumnos en lista de espera para instancias de curso.
-* **Mejoras de accesibilidad**: Compatibilidad con texto alternativo en encabezados y logotipos de empresas.
-* **Compatibilidad con hindi**: Compatibilidad con el idioma de la interfaz para hindi.
-* **Comprobación de blasfemias**: Bloquear publicaciones sociales que contengan palabras prohibidas.
-* **Optimización de plantilla de correo electrónico**: Plantillas de correo electrónico combinadas y optimizadas para asignaciones de instructores y cancelaciones de sesiones.
-* **Criterio de finalización de MS Teams**: Establece un tiempo mínimo de asistencia para las sesiones VILT.
-* **Nuevos flujos de trabajo de migración**: Los cambios de migración incluyen criterios de finalización para cursos y módulos, y la migración de módulos a carpetas.
+La próxima versión de Adobe Learning Manager presenta una variedad de nuevas funciones y mejoras destinadas a racionalizar la plataforma y mejorar sus capacidades.
 
->[!NOTE]
->
->Echa un vistazo a este [seminario web](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) para obtener más información sobre las nuevas funciones de esta versión.
+## Panel de éxito de grupo
 
-## Búsqueda basada en IA en Adobe Learning Manager
+El panel de éxito de grupo (GSD) de Adobe Learning Manager permite a los administradores y responsables supervisar el progreso del alumno en tiempo real (60 minutos de retraso desde la inscripción, el progreso o la finalización hasta la reflexión en el panel) entre departamentos o grupos de usuarios. Permite realizar un seguimiento proactivo de la finalización del curso, la inscripción y las acciones pendientes, lo que facilita la gestión del aprendizaje para equipos. El tablero de éxito de grupo simplifica el seguimiento del progreso al reemplazar las transcripciones basadas en Excel por una interfaz fácil de usar, lo que facilita la revisión de la actividad del alumno en situaciones como las evaluaciones de rendimiento o las comprobaciones de cumplimiento. Resulta especialmente útil para los responsables que supervisan equipos pequeños (de menos de 50 personas), como gerentes de tienda o equipos internos, ya que les permite supervisar rápidamente la finalización del curso y mantener el aprendizaje bajo control.
 
-Adobe Learning Manager está renovando la forma en que los alumnos buscan cursos o formación. Introduce una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. La búsqueda es ahora más inteligente, ya que busca términos específicos y entiende el contexto y la intención detrás de ellos. La búsqueda avanzada comprende el significado de la consulta y proporciona resultados relevantes. Identifica el foco principal de la búsqueda para ofrecerle el conjunto de resultados más completo.
+Consulte este [artículo](/help/migrated/administrators/feature-summary/group-success-dashboard.md) para obtener más información sobre el Panel de éxito de grupo.
 
->[!NOTE]
->
->La búsqueda basada en IA solo está disponible para los alumnos.
+## Mejoras en las funciones personalizadas
 
-Consulte este artículo [Búsqueda avanzada](/help/migrated/learners/feature-summary/advanced-search.md) para obtener más información.
+Adobe Learning Manager ahora permite a los usuarios tener varias funciones personalizadas, lo que responde a la necesidad de que los administradores personalizados gestionen diversas responsabilidades. Cada función puede tener hasta 500 usuarios, y cada usuario puede tener hasta 50 funciones, lo que proporciona flexibilidad a la hora de delegar tareas. Los usuarios pueden cambiar fácilmente entre sus funciones asignadas a través de una nueva opción en su perfil, lo que garantiza una gestión perfecta de las diferentes responsabilidades. Los administradores pueden asignar o modificar funciones para los usuarios mediante un nuevo vínculo en la página de usuario, lo que les permite agregar o quitar funciones según sea necesario. Estas mejoras simplifican la gestión de varias responsabilidades, especialmente para equipos pequeños con recursos limitados.
 
-## Webhooks
+Consulte este [artículo](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) para obtener más información sobre las funciones personalizadas.
 
-Adobe Learning Manager permite la integración con Webhooks para enviar información en tiempo real, como las inscripciones en cursos, la creación de cursos y otra información, a una dirección URL específica.
+## Inscripción, asistencia y finalización en bloque de alumnos {#bulk-enrollment}
 
-Un webhook en ALM permite que una entidad envíe datos automáticamente a otra aplicación a través de HTTP. Permitirá a una aplicación proporcionar información a otras aplicaciones sin solicitarla constantemente. Por ejemplo, si un usuario completa un curso de sistema de gestión de aprendizaje (LMS), un webhook puede enviar automáticamente esa información a otra plataforma, como CRM o herramienta de creación de informes. Los webhooks se suelen utilizar en integraciones para automatizar procesos y reducir la necesidad de actualizaciones manuales entre sistemas. Configure los webhooks proporcionando una URL de devolución de llamada a la que enviar los datos.
+Con la función de inscripción masiva de Adobe Learning Manager, los administradores pueden inscribir de manera eficiente grandes grupos de alumnos en cursos, certificaciones o programas de aprendizaje cargando un archivo CSV. Este proceso ahorra tiempo, garantiza la coherencia y respalda la escalabilidad de la organización. Además, los administradores y los instructores pueden actualizar la información del alumno, su asistencia y sus finalizaciones en bloque mediante la carga de archivos CSV, lo que minimiza el trabajo manual y garantiza la precisión de los datos.
 
-Consulte este artículo [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md) para obtener más información.
+Consulta este [artículo](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) para obtener más información sobre la inscripción, asistencia y finalización en bloque.
 
-## Interoperabilidad de herramientas de aprendizaje
+## Seguimiento del contenido mediante ID exclusivo de contenido y fechas de caducidad
 
-Adobe Learning Manager ahora admite LTI para mejorar la interoperabilidad entre Adobe Learning Manager y otros sistemas de administración de aprendizaje (LMS).
+El ID exclusivo de contenido es un código exclusivo que se asigna a cada elemento de contenido en Adobe Learning Manager. Ayuda a administradores y autores a encontrar y administrar contenido fácilmente, especialmente al actualizarlo o moverlo entre sistemas. Este ID exclusivo de contenido también es útil para conectar contenido con otras herramientas como RR. HH. o sistemas de cumplimiento normativo. Se utiliza el mismo ID exclusivo de contenido en todas las versiones de idioma, por lo que los alumnos mantienen la coherencia.
 
-### ¿Qué es LTI?
+La fecha de caducidad marca el contenido que puede estar obsoleto o que ya no se necesita. Incluso después de la fecha de caducidad, el contenido permanece disponible, pero se recuerda a los autores y administradores que lo comprueben y actualicen si es necesario. Según la configuración, el contenido caducado se puede eliminar de las nuevas inscripciones o archivarse. Al igual que el ID exclusivo de contenido, la fecha de caducidad funciona de la misma manera para todas las versiones de idioma, lo que ayuda a mantener el contenido limpio y actualizado para todos.
 
-LTI (Learning Tools Interoperability) es un estándar que permite a herramientas de terceros y proveedores de contenido conectarse con un sistema de administración de aprendizaje (LMS). Los usuarios pueden acceder al contenido de aprendizaje externo de proveedores de contenido externos directamente en su LMS sin iniciar sesión ni navegar a otro LMS.
+Además, el ID exclusivo de contenido admite la integración con los procesos de migración de contenido, lo que permite una transferencia y administración de contenido sencillas en diferentes sistemas.
 
-**LTI como proveedor de herramientas**: LTI como proveedor de herramientas permite que los sistemas externos se integren con un LMS. Adobe Learning Manager actúa como proveedor de herramientas de LTI, lo que permite a otras plataformas de LMS acceder a cursos, certificados o rutas de aprendizaje desde Adobe Learning Manager directamente en su LMS.
+* El ID exclusivo de contenido facilita la vinculación de contenido entre sistemas externos y Adobe Learning Manager.
+* La fecha de caducidad ayuda a los autores a realizar un seguimiento del contenido obsoleto que puede requerir revisión o actualizaciones.
 
-**LTI como consumidor de herramientas**: LTI como consumidor de herramientas permite a LMS integrar herramientas externas a través de la interoperabilidad de herramientas de aprendizaje (LTI). En este escenario, LMS es un consumidor de servicios proporcionados por herramientas externas. Adobe Learning Manager actúa como consumidor de herramientas de LTI, lo que le permite integrar herramientas de aprendizaje de terceros. Esto permite a los alumnos de Adobe Learning Manager consumir los cursos, certificados o rutas de aprendizaje de las herramientas de terceros en Adobe Learning Manager.
+Consulta este [artículo](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) para obtener más información sobre el ID exclusivo de contenido y la fecha de caducidad.
 
-Consulte este artículo [Interoperabilidad de la herramienta de aprendizaje](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) para obtener más información.
+## Asistente para IA de administración (beta)
 
-## Con Credibilidad
+En configuraciones de aprendizaje complejas, los administradores pueden tener dificultades para encontrar contenido o completar tareas debido a menús complicados y flujos de trabajo desconectados. Por ejemplo, tareas como ejecutar informes o acceder a información específica pueden requerir la exploración de varias pantallas. El Asistente para IA de administración (Beta) le ayuda a encontrar la información adecuada para comprender y completar las tareas de manera eficaz.
 
-Con Credly, un administrador de ALM permite a los alumnos gestionar y compartir insignias externas de la plataforma en diversos canales de redes sociales.
+El Asistente para IA de administración (Beta) de Adobe Learning Manager ayuda a los administradores a encontrar rápidamente respuestas a preguntas comunes, explorar las funciones del sistema y comprender cómo completar tareas clave, con solo preguntar en un lenguaje sencillo. Tanto si es la primera vez que usa Adobe Learning Manager como si busca formas más rápidas de solucionar problemas, la versión beta del asistente para IA de administración simplifica su flujo de trabajo al proporcionar ayuda según el contexto directamente en la plataforma.
 
-### ¿Qué es Credly?
+Utiliza las capacidades de IA de Adobe para permitir consultas de lenguaje natural en el contenido de aprendizaje y los flujos de trabajo del sistema.  Los administradores pueden hacer preguntas como **Cómo añadir usuarios a Adobe Learning Manager** o **Cómo añadir rutas de aprendizaje**. El Asistente para IA de administración de Adobe Learning Manager (Beta) está capacitado exclusivamente en documentación de Adobe disponible públicamente, como recursos alojados en **[!UICONTROL Experience League]**. No aprende ni accede a contenido del cliente, material de formación interno ni datos generados por el usuario.
 
-Credly es una plataforma de credenciales digitales que permite a los alumnos y a las organizaciones obtener, compartir y verificar logros profesionales, como insignias o certificaciones. Los alumnos pueden administrar y compartir insignias a través de su perfil de Credly en redes sociales y otros lugares.
+Consulte este [artículo](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) para obtener más información sobre el Asistente para inteligencia artificial (beta).
 
-### Integra con soltura con Adobe Learning Manager
+## Nuevos idiomas de contenido
 
-Primero, agregue el conector de Credly en Adobe Learning Manager (ALM). A continuación, migre las insignias existentes de Credly para garantizar la continuidad de los logros de los alumnos. Por último, cree una aptitud en Adobe Learning Manager en la ruta de aprendizaje adecuada para mejorar el desarrollo y el reconocimiento del alumno.
+Adobe Learning Manager es conocido por admitir muchos idiomas tanto para el contenido como para la interfaz, lo que lo hace destacar entre otras plataformas de aprendizaje. Con cada hito, Adobe Learning Manager amplía su oferta de idiomas para ofrecer una mejor compatibilidad con una base de usuarios global y diversa. En esta versión, presentamos nuevos lenguajes de contenido, lo que mejora aún más nuestro compromiso de ofrecer experiencias de aprendizaje inclusivas y accesibles para todos.
 
-Consulte este artículo [Credly](/help/migrated/integration-admin/feature-summary/credly-integration.md) para obtener más información
+* Chino-tradicional Hong Kong (cn-HK)
+* Noruego Bokmal (nb-NO)
+* Tamil (ta-IN)
+* Telugu (te-IN)
+* Kannada (kn-IN)
+* Malayalam (ml-IN)
 
-## Tablero de cumplimiento
+Consulte este [artículo](/help/migrated/languages-supported.md) para obtener una lista de los idiomas admitidos en Adobe Learning Manager.
 
-En esta versión, los administradores ahora pueden compartir el panel con otros administradores, administradores personalizados y responsables de tienda, lo que les proporciona acceso instantáneo a los paneles de cumplimiento. Ahora pueden establecer el widget de cumplimiento predeterminado en la página de inicio del alumno, lo que permite a los alumnos realizar un seguimiento de sus requisitos de cumplimiento. Consulte este artículo [Panel de cumplimiento](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins) para obtener más información.
+## Mejoras en Mercado de contenido
 
-## Compatibilidad con varios idiomas
+Adobe Learning Manager presenta nuevos modelos de compra para adquirir contenido, lo que proporciona más flexibilidad y opciones para adquirir contenido: Premium Essentials y Premium Essential Plus. Essentials ofrece soluciones rentables para aumentar la participación de los empleados e incluye proveedores de contenido como Skillshub, Thomson Reuters y Emtrain. Premium Essential Plus ofrece contenido adicional de proveedores premium como Blinkist, Pluralsight, Skillsoft, Traliant y Coursera.
 
-Adobe Learning Manager (ALM) ahora permite a los autores crear instancias específicas del idioma mediante el etiquetado de idioma para los módulos Clase y Clase virtual. Los alumnos pueden acceder a los módulos de clase real y virtual en el idioma que prefieran. Por ejemplo, un autor puede crear un módulo de clase real y virtual con dos instancias: una en inglés y otra en francés. Los alumnos pueden seleccionar las instancias en su idioma preferido.
+Consulte este [artículo](/help/migrated/administrators/feature-summary/content-marketplace.md) para obtener más información sobre los nuevos planes de compra.
 
-Consulte este artículo [Añadir objetos de aprendizaje en diferentes configuraciones regionales](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) para obtener más información.
+## Informe de acceso de inicio de sesión en FTP, FTP personalizado y Box {#log-in-access-report}
 
-## Funciones personalizadas
+Los informes de acceso de inicio de sesión ahora están disponibles para los conectores de Box, FTP y FTP personalizado, además de las API de trabajos existentes. Este informe proporciona información detallada sobre las actividades de inicio de sesión del usuario, incluido el estado de ejecución, la configuración de compresión y las opciones de programación. El informe se puede generar bajo demanda o programar, y los datos se almacenan en el conector especificado para facilitar el acceso y el análisis. Esta mejora mejora la capacidad de supervisar y auditar las actividades de inicio de sesión de los usuarios, lo que garantiza un mejor seguimiento de la seguridad y el cumplimiento normativo.
+El informe ahora está disponible en FTP, FTP y Box personalizados, junto con los informes existentes, como el progreso del alumno y la finalización del curso. Esta integración permite a los administradores acceder a todos los informes necesarios desde una única fuente, lo que facilita una mejor gestión y análisis de los datos.
 
-Las funciones personalizadas permiten a los administradores definir funciones y responsabilidades específicas para diferentes grupos de usuarios, lo que garantiza una mejor gestión y control. Con esta versión, ALM mejora las funciones personalizadas proporcionando un control más detallado de las siguientes secciones.
+El informe ayuda en la automatización al habilitar la exportación de datos de inicio de sesión y acceso al FTP, donde se pueden combinar con otros informes para crear paneles completos. Esta función es especialmente útil para las organizaciones que dependen de procesos automatizados para el análisis de datos y la creación de informes.
 
-* Usuarios
-* Cursos
-* Rutas de aprendizaje
-* Certificaciones
-* Ayudas de trabajo
-* Catálogos
+Consulte este [artículo](/help/migrated/integration-admin/feature-summary/connectors.md) para obtener más información sobre los conectores de FTP, FTP personalizado y Box.
 
-Los administradores pueden asignar permisos precisos en función de las responsabilidades del usuario, lo que garantiza que cada grupo solo tenga acceso a las funciones y el contenido relevantes. Estos controles mejorados permiten una gestión más detallada de las secciones clave.
+## Actualización de las preferencias de idioma del usuario al iniciar sesión mediante SAML
 
-Inicie sesión como administrador y vaya a **[!UICONTROL Usuarios]** > **[!UICONTROL Funciones personalizadas]** para crear y administrar las funciones personalizadas.
+Adobe Learning Manager es una plataforma multilingüe en la que se tienen en cuenta las preferencias de idioma de los alumnos de diversas formas, como el idioma de la interfaz, el idioma del contenido y los cursos, junto con sus módulos e instancias, también son multilingües.
 
-Consulte este artículo [Funciones personalizadas](/help/migrated/administrators/feature-summary/custom-role.md) para obtener más información.
+Para los usuarios de la plataforma nativa de Adobe Learning Manager, esta mejora satisface la necesidad de aprovisionamiento de usuarios Just-in-time. Cuando los usuarios crean cuentas e inician sesión por primera vez, esta función garantiza que sus preferencias de idioma se capturan y aplican con precisión.
 
-## Comentarios de finalización
+Esta función garantiza que las preferencias de idioma de los usuarios se actualicen automáticamente cuando inicien sesión a través de SAML. Esto ayuda a proporcionar una experiencia personalizada al mostrar la interfaz en el idioma preferido del usuario.
+Cuando los usuarios inician sesión a través de SAML, su preferencia de idioma (idioma de interfaz y contenido) se comprueba y actualiza en función de la información proporcionada durante el proceso de inicio de sesión.
 
-Los administradores ahora pueden añadir comentarios al marcar a los alumnos como completados en cursos, rutas de aprendizaje o certificaciones. Los administradores pueden añadir comentarios para uno o varios alumnos al mismo tiempo, y los comentarios aparecen en el informe [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
+La función se integra con el proceso de inicio de sesión de SAML para capturar y actualizar las preferencias de idioma del usuario sin problemas.
 
-Consulte este artículo [Comentarios de finalización](/help/migrated/administrators/feature-summary/courses.md#completion-comments) para obtener más información.
+Vea este [artículo](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) para obtener más información.
 
-## Informe de grupo de usuarios
+## Filtrar usuarios eliminados antes de purgar
 
-El nuevo **[!UICONTROL Informe de grupo de usuarios]** de Adobe Learning Manager ayuda a administrar grupos de usuarios al proporcionar visibilidad en los grupos que no se administran cuando los administradores se van. Los administradores pueden acceder a los informes en la sección **[!UICONTROL Usuarios]** > **[!UICONTROL Grupo de usuarios]**. Proporciona información detallada sobre cada grupo, incluyendo:
+Purgar usuarios significa eliminar permanentemente sus datos del sistema. Ordenar los usuarios por la fecha en que se eliminaron, lo que facilita la búsqueda y administración de registros específicos. Además, un nuevo filtro permite a los administradores seleccionar usuarios en función del año y el mes de eliminación, lo que limita la lista a un período de tiempo específico. Estos cambios agilizan el proceso de limpieza de usuarios, lo que permite a los administradores purgar usuarios de forma eficaz al seleccionar varios registros dentro de un período definido.
 
-* Tipo de grupo de usuarios
-* Nombre del grupo
-* Descripción
-* Creado por (nombre)
-* Creado por (correo electrónico)
-* Creado el (zona horaria UTC)
-* Número de usuarios
+Consulte este [artículo](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging) para obtener más información.
 
-Consulte este artículo [Informe de grupo de usuarios](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report) para obtener más información.
+## Mejoras del conector de Adobe Connect
 
-## Informe de lista de espera
+### Asistencia para seminarios con grandes audiencias
 
-El nuevo **[!UICONTROL informe de lista de espera]** de Adobe Learning Manager permite a los administradores descargar la lista de alumnos en lista de espera para todas las instancias de un curso. Los administradores e instructores pueden acceder a este informe desde la sección **[!UICONTROL Lista de espera]** de la página **[!UICONTROL Curso]** o **[!UICONTROL Descripción general de la sesión]**. El informe de lista de espera se puede descargar desde las secciones Administrador e Instructor .
+Adobe Learning Manager ahora también admite la selección de salas de seminarios de Adobe Connect al configurar una sesión de clase virtual en Connect. Anteriormente, el administrador solo podía seleccionar el tipo de sala de reuniones. Esta mejora permite a los administradores con una licencia de seminario válida programar y administrar eventos únicos o a gran escala (hasta 1500 asistentes) en Adobe Learning Manager.
 
-Siguiendo las columnas disponibles en el informe de lista de espera:
+Consulte este [artículo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
 
-* Nombre del curso
-* Nombre de la instancia
-* ID de instancia
-* Estado de la instancia
-* Nombre de usuario
-* Correo electrónico
-* ID exclusivo de usuario
-* Fecha de inscripción (zona horaria UTC)
-* Estado
-* Número de lista de espera
-* Límite de lista de espera
-* Límite de puestos
+### Compatibilidad con el acceso a los análisis de sesión
 
-Consulte estos artículos [Informe de lista de espera (administrador)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Informe de lista de espera (instructores)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) para descargar el informe de la sección de administradores e instructores.
+Adobe Learning Manager permite a los usuarios acceder a Análisis de sesión a través de una URL, que redirige al panel de análisis de sesión de Connect. Este panel proporciona información detallada sobre la duración de la sesión, el número de asistentes y los detalles de la grabación, disponible aproximadamente 20 minutos después de que finalice la sesión.
 
-## Accesibilidad en la página de inicio del alumno
+![](assets/adobe-connect-session-url.png)
+_Seleccionar URL de sesión_
 
-Adobe Learning Manager ahora admite texto alternativo en todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos. Asegúrese de que el logotipo de la empresa de su cuenta también incluya texto alternativo con el nombre de la empresa.
-Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obtener más información.
+![](assets/session-dashboard.png)
+_Panel de sesión_
 
-## Compatibilidad con hindi
-
-Adobe Learning Manager presenta ahora el hindi como uno de los idiomas de interfaz de la plataforma y apoya el crecimiento de la plataforma en India. La compatibilidad con hablantes nativos de hindi garantiza que todos los usuarios puedan acceder a todas las funciones, informes y la experiencia del usuario en general.
-
->[!NOTE]
->
->Los certificados de insignia generados por el sistema en formato de PDF no admiten hindi.
-
-Para cambiar el idioma de la interfaz, siga estos pasos:
-
-1. Inicie sesión como **[!UICONTROL administrador]**.
-2. Vaya a **[!UICONTROL Configuración de perfil]** > **[!UICONTROL Idioma de interfaz]**.
-3. Seleccione **[!UICONTROL Hindi]** como idioma de interfaz.
-
-
-## Comprobación de blasfemias para publicaciones sociales
-
-Adobe Learning Manager ahora bloquea las publicaciones en redes sociales de la aplicación del alumno que contengan palabras prohibidas. Esto ayuda a mantener las cosas profesionales y conformes con las normativas, especialmente en campos sensibles como la atención sanitaria.
-
-## Optimización de plantillas de correo electrónico
-
-### Enviar alumnos por correo electrónico cuando se asigne un instructor
-
-Los correos electrónicos existentes **[!UICONTROL Se le ha agregado como instructor]** y **[!UICONTROL Detalles de la sesión de VCProvider]** se han combinado en un correo electrónico **[!UICONTROL Se le ha agregado como UserType]**. **[!UICONTROL UserType]** será **[!UICONTROL Instructor]** u **[!UICONTROL Organizador]**, según la función del usuario. Estos correos electrónicos no estaban disponibles en la interfaz de usuario antes. Ahora se han combinado en un solo correo electrónico y se han añadido a la interfaz de usuario. Los administradores pueden acceder a esta plantilla en la sección **[!UICONTROL Plantilla de correo electrónico]**. Se habilitará de forma predeterminada para todas las cuentas nuevas y existentes, pero los administradores pueden deshabilitarla o habilitarla desde la misma sección. Este correo electrónico se enviará siempre que se cree una sesión y se asigne un instructor, ya sea para sesiones como Zoom, Teams, Connect u otros servicios.
-
-### Enviar un correo electrónico a los alumnos cuando se cancele una sesión
-
-Los instructores que se eliminen de una sesión recibirán ahora solo un correo electrónico de cancelación de sesión. Anteriormente, recibían un correo electrónico de cancelación y actualización. Los instructores que permanezcan en una sesión recibirán un correo electrónico de actualización de la sesión junto con una nueva invitación para la sesión.
-
-## Criterios de finalización de MS Teams
-
-Actualmente, los alumnos se marcan como asistentes aunque se unan a una sesión de formación virtual con instructor (VILT) durante unos segundos. Con esta versión, hemos introducido criterios de finalización para los módulos de equipos para garantizar una asistencia más precisa. Los autores ahora pueden establecer un tiempo mínimo que los alumnos deben pasar en una sesión VILT para que se cuente su asistencia.
-
-Se trata de una función de backend que está desactivada de forma predeterminada. Póngase en contacto con su CSM para que lo habilite.
-
-## Actualización de nuevas direcciones IP para la entrega de correo electrónico
-
-Para mejorar la fiabilidad de la entrega de correo electrónico, estamos añadiendo nuevas direcciones IP a nuestro grupo existente. Para garantizar una comunicación por correo electrónico ininterrumpida, actualice la configuración de correo electrónico de su organización según sea necesario.
-
-Actualmente utilizamos las siguientes direcciones IP para la entrega de correo electrónico:
-
-* 149.72.162.66
-* 167.89.5.155
-
-Las siguientes direcciones IP se añadirán a nuestro grupo de entrega de correo electrónico:
-
-* 159.183.228.93
-* 159.183.225.26
-* 159.183.218.22
-* 168.245.57.144
-
->[!NOTE]
->
->Si es necesario, le sugerimos que colabore con su equipo de TI para añadir las direcciones IP a la lista de direcciones URL permitidas.
+Consulte este [artículo](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) para obtener más información sobre el análisis de sesión de Connect.
 
 ## Cambios de migración
 
-Se realizan los siguientes cambios en el flujo de trabajo de migración:
+### Criterios de éxito para el contenido que utiliza la migración
 
-* Migrar módulos a carpetas específicas.
-* Se han añadido criterios de finalización para los módulos.
-* Se han añadido criterios de finalización para los cursos
+El proceso de migración en Adobe Learning Manager para la importación de módulos ahora admite la capacidad de agregar parámetros para definir criterios de éxito.
+Esto se admite ahora al añadir tres nuevas columnas opcionales en module_version.csv. Tres nuevas columnas opcionales son: `successCriteria`, `successQuizData` y `successViewPercent`.
 
-### Cambios en la migración de módulos
+Estos campos sólo aceptan valores específicos y el conector no procesará el archivo si se introducen valores no válidos.
+Un módulo de prueba puede utilizar tres tipos de criterios de éxito. Puede marcar aprobado si el alumno inicia el contenido, en función de un valor porcentual puntuado (definido por `successViewPercent`: a continuación), o puede basarse en el resultado del módulo de prueba (definido por `successQuizData`: a continuación). Este valor se rellenará de acuerdo con las instrucciones que se indican a continuación. Para ello se utiliza el parámetro successCriteria.
 
-Al migrar módulos a ALM, se guardarán en la carpeta pública de forma predeterminada. En esta versión, hemos agregado una nueva columna llamada `folder` en el archivo [module_version.csv](assets/module_version.csv). Los administradores pueden utilizar esta columna para especificar el nombre de la carpeta a la que deben ir los módulos después de la migración. Los administradores también pueden colocar un solo módulo en varias carpetas mostrando los nombres de las carpetas separados por comas.
+`successCriteria`: acepta `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` o `VIEWPERCENT_OR_QUIZ`.
 
-La columna carpeta utiliza el tipo de datos cadena y es una columna opcional. A continuación se indican las condiciones de la columna de carpeta:
+* Si `LAUNCH_CONTENT`: deja `successQuizData` y `successViewPercent` en blanco. Esto marcará al alumno como aprobado si el alumno inicia el contenido.
+* Si `VIEW_PERCENT`: escribe un valor para `successViewPercent`, deje `successQuizData` en blanco. Esto marcará el aprobado del alumno en función del valor porcentual puntuado en la prueba.
+* Si `QUIZ`: escribe un valor para `successQuizData`, deje `successViewPercent` en blanco. Esto marcará al alumno como aprobado en función del resultado del módulo de prueba.
+* Si `VIEWPERCENT_OR_QUIZ`: Escriba valores para `successQuizData` y `successViewPercent`. Esto marcará al alumno como aprobado en función del resultado del módulo de prueba o del porcentaje puntuado.
 
-* El nombre de carpeta que agregue debe ser una carpeta de contenido existente en la cuenta de ALM.
-* Los valores deben ser una cadena separada por comas.
-* Si agrega un nuevo nombre de carpeta para un módulo que ya está presente en una carpeta diferente, el nuevo valor no sobrescribirá ni reemplazará la carpeta asignada. El módulo se agregará a la nueva carpeta y también permanecerá disponible en la carpeta existente.
-* Si el valor está en blanco, la carpeta se establecerá de forma predeterminada en **[!UICONTROL Public]**.
+Este campo solo es válido si `hasQuiz` es verdadero. Además, si solo se pasa `completionCriteria`, `successCriteria` se considerará igual que `completionCriteria` para el contenido interactivo.
 
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
+`successQuizData`: acepta `QUIZ_ATTEMPTED`, `QUIZ_PASSED` o `QUIZPASSED_OR_LIMITREACHED`.
 
-### Cambios en la migración de módulos: criterios de finalización
+* `QUIZ_ATTEMPTED` significará que el alumno se marcará como aprobado para la prueba si el alumno ha intentado realizar la prueba.
+* `QUIZ_PASSED` significará que el alumno se marcará como aprobado para la prueba si aprueba la prueba según los criterios definidos en el contenido de la prueba. Por ejemplo, el módulo Scorm define los criterios y los informa a Adobe Learning Manager.
+* `QUIZPASSED_OR_LIMITREACHED` significará que el alumno se marcará como aprobado para la prueba si el alumno ha aprobado la prueba o ha agotado el número de límites.
 
-Los administradores pueden especificar los criterios de finalización de los módulos durante la migración de módulos. En esta versión, hemos agregado nuevas columnas `completionCriteria`, `viewPercent` y `quizData` en [module_version.csv](assets/module_version.csv).
+`successViewPercent`: Acepta valores enteros de 0 a 100.
 
-A continuación se indican las condiciones de las nuevas columnas:
+* Este criterio acepta un valor porcentual que el alumno debe obtener para aprobar la prueba
+Webhook cambia.
 
-1. `completionCriteria`:
+### Añadir ID exclusivo de contenido y fecha de caducidad para el contenido mediante la migración
 
-   * El tipo de datos debe ser una cadena de valores y los valores admitidos son:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
-   * Añada criterios de finalización en el nivel de módulo solo para los tipos de módulos con ritmo personalizado.
-   * Los valores admitidos para el contenido estático son `LAUNCH_CONTENT` y `VIEW_PERCENT`.
-   * Los valores admitidos para el contenido interactivo son `LAUNCH_CONTENT`, `VIEW_PERCENT` y `QUIZ`.
-   * Los valores admitidos para el contenido de HTML5 son `LAUNCH_CONTENT` y `MARK_COMPLETE`.
+El ID exclusivo de contenido y la fecha de caducidad ahora son compatibles durante la migración. Se han añadido dos columnas adicionales: expiryDate y uniqueContentId al archivo module_version.csv para habilitar esta funcionalidad.
 
-2. `viewPercent`:
+Consulte este [artículo](/help/migrated/integration-admin/feature-summary/migration-manual.md) para obtener más información sobre el proceso de migración.
 
-   * El tipo de datos de esta columna debe ser un entero y el valor debe estar entre 0 y 100.
-   * Cuando criterioDeFinalización está establecido en `VIEW_PERCENT`, escriba el porcentaje de vista requerido en esta columna o déjelo en blanco.
+## Mejoras en webhooks
 
-3. `quizData`:
+Los webhooks ahora admiten eventos para cursos en rutas de aprendizaje (LP) y certificaciones cuando se produce la inscripción, la anulación de la inscripción o la finalización.
+Esto incluye eventos de apoyo para cada curso dentro del programa de aprendizaje o la certificación, además del evento del objeto de aprendizaje principal.
 
-   * El tipo de datos debe ser una cadena de valores y los valores admitidos son `QUIZ_ATTEMPTED`, `QUIZ_PASSED` y `QUIZPASSED_OR_LIMITREACHED`.
-   * Cuando `completionCriteria` esté establecido en `QUIZ`, escriba el valor de prueba adecuado en la columna `quizData`.
-
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
-
-### Cambios en la migración de cursos: criterios de finalización
-
-Los administradores pueden especificar los criterios de finalización de los cursos durante la migración del curso. En esta versión, hemos agregado una nueva columna llamada `completionCriteria` en [course.csv](assets/course.csv).
-
-A continuación se indican las condiciones de la columna `completionCriteria`:
-
-* El tipo de datos debe ser una cadena o un número, y es un campo opcional.
-* Los valores deben ser `ALL`, `X` y `SELECTEDMODULES`.
-* X es un valor entero que debe ser mayor que 0 y menor que el número total de módulos.
-* Si establece `completionCriteria` en `SELECTEDMODULES`, debe marcar los módulos obligatorios en el archivo [course_module.csv](assets/course_module.csv).
-* En la columna `optionalCriteria`, escriba `TRUE` o `FALSE`. Si establece el valor como `TRUE`, el módulo será obligatorio.
-
-Consulte el archivo [course csv spec](assets/3-course.xlsx) y el archivo [course_module csv spec](assets/6-course_module.xlsx) para obtener más información.
+Consulte este [artículo](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) para obtener más información sobre Webhooks.
 
 ## Cambios en la API
 
-Estos son los cambios en la API:
+Todas las API públicas ahora admiten un control de errores mejorado, ya que devuelven mensajes de error claros y específicos cuando se pasan datos no válidos o incompletos en las solicitudes `POST` y `PATCH`. Esta mejora se aplica especialmente a los campos de relación dentro de las cargas de solicitud.
 
-* **API de búsqueda**:
-   * Nuevo filtro de modo con opciones: classicSearch y advancedSearch.
-   * Nueva opción loMetadata para snippetTypes.
-* **API de anuncio**:
-   * Incluye el atributo altText para las descripciones de cabecera.
-* **API de instancia**:
-   * Nuevo atributo de configuración regional para recuperar los detalles de configuración regional.
-* **Comprobación de profanidad**:
-   * API actualizadas para comprobar si hay palabras prohibidas en los comentarios y las respuestas en las publicaciones de redes sociales:
-* **RPM y límite de ráfaga**:
-   * Se han añadido RPM (solicitudes por minuto) y límites de fragmentación para todas las API.
-* **API de insignia**:
-   * Nuevo atributo externalProvider para recuperar información sobre insignias externas.
-* **API de trabajos**:
-   * Descargue el informe de grupos de usuarios y el informe de auditoría de funciones personalizadas mediante la API de trabajos.
+Cuando una solicitud incluye tipos de datos incorrectos o falta información necesaria en la sección de relaciones, la API responde con mensajes descriptivos que indican el problema exacto. Esto permite una identificación y resolución de errores más rápidas durante la integración o las pruebas.
 
-### Cambios en la API de búsqueda
-
-La API de búsqueda ahora tiene un nuevo filtro de modo con dos opciones: `classicSearch` y `advanceSearch`. También hay una nueva opción `loMetadata` para `snippetTypes`. Para obtener los mejores resultados, incluya `loMetadata` en `snippetTypes` al usar el modo `advanceSearch`.
-
-### Cambios en la API de anuncios
-
-`GET /announcements API` incluye ahora el atributo `altText` para proporcionar la descripción de la cabecera.
-
-#### Ejemplo de solicitud con cURL:
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' 'https://abcd.adobe.com/primeapi/v2/announcements/123456'
-```
-
-#### Ejemplo de respuesta:
+Las siguientes respuestas de ejemplo ilustran varios escenarios de error:
 
 ```
 {
-  "links": {
-    "self": "https://abcd.adobe.com/primeapi/v2/announcements/123456"
-  },
-  "data": {
-    "id": "12345",
-    "type": "adminAnnouncement",
-    "attributes": {
-      "actionUrl": "google.com",
-      "announcementType": "MASTHEAD",
-      "expiryDate": "2038-01-19T03:14:07.000Z",
-      "liveDate": "2024-07-31T11:11:30.000Z",
-      "contentMetaData": [
-        {
-          "contentType": "IMAGE",
-          "contentUrl": "https://abcd.adobe.com",
-          "locale": "en-US",
-          "altText": "Moonlight - english changed new",
-          "thumbnailUrl": "https://abcd.adobe.com/"
-        },      ]
-    }
-  }
-}
-```
-
-### Cambios en las API de instancias
-
-El nuevo atributo `locale` se ha agregado a las siguientes API para recuperar los detalles de la configuración regional.
-
-* `GET /learningObjects/{loId}/instances/{loInstanceId}`
-* `GET /learningObjects/{id}?include=instances,enrollment.loInstance`
-* `GET /learningObjects?include=instances,enrollment.loInstance`
-* `GET /learningObjects/{id}/relatedLOs?include=instances,enrollment.loInstance`
-* `POST /learningObjects/query?include=instances,enrollment.loInstance`
-* `POST /search/query?include=model.instances`
-* `GET /search?include=model.instances`
-
-#### Ejemplo de solicitud con cURL:
-
-```
-curl --location 'http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567' \
-```
-
-#### Ejemplo de solicitud:
-
-```
-{
-    "links": {
-        "self": "http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567"
-    },
-    "data": {
-        "id": "course:1234567_1234567",
-        "type": "learningObjectInstance",
-        "attributes": {
-            "dateCreated": "2024-02-27T09:21:25.000Z",
-            "isAET": false,
-            "isDefault": true,
-            "isFlexible": false,
-            "locale": "en-US",
-            "state": "Active",
-            "localizedMetadata": [
-                {
-                    "locale": "en-US",
-                    "name": "Default instance"
-                }
-            ]
-        },
-        "relationships": {
-            "learningObject": {
-                "data": {
-                    "id": "course:1234567",
-                    "type": "learningObject"
-                }
-            },
-            "loResources": {
-                "data": [
-                    {
-                        "id": "course:123456_1234567_1234567_1",
-                        "type": "learningObjectResource"
-                    }
-                ]
-            }
-        }
-    }
-}
-```
-
-### Cambios en la API pública para la comprobación de blasfemias
-
-Las siguientes API se han actualizado para realizar comprobaciones profanas de comentarios y respuestas en publicaciones de redes sociales.
-
-* `POST /boards/{id}/posts `
-* `PATCH /posts/{id}`
-* `POST /posts/{id}/comments`
-* `PATCH /comments/{id}`
-* `POST /comments/{id}/replies`
-* `PATCH /replies/{id}`
-
-Si se encuentra una palabra restringida en la publicación, se enviará la siguiente respuesta.
-
-#### Ejemplo de respuesta:
-
-```
-{
-  "status": "FORBIDDEN",
-  "title": "BAD_WORD_FOUND",
+  "status": "BAD_REQUEST",
+  "title": "Field Type incorrect",
   "source": {
-    "info": "Unacceptable word found in post"
+    "info": "incorrect relation type - Andrew"
   }
 }
 ```
 
-### Cambios en RPM y limitación de ráfagas
-
-En esta versión, se han añadido RPM (solicitudes por minuto) y límites de ráfaga para todas las API. El RPM máximo para cada API se puede comprobar en la página Swagger.
-
-RPM es el número de solicitudes que puede enviar al servidor de API en un minuto. El límite de ráfaga permite un mayor número de solicitudes durante un breve tiempo, superando el límite de velocidad habitual. Por ejemplo, la API `learningObject` permite un máximo de 15 solicitudes por minuto. Si se supera este límite, la API devolverá un mensaje de error.
-
-### Cambios en las API de insignias
-
-El nuevo atributo `externalProvider` se ha agregado a las siguientes API para recuperar información sobre insignias externas, incluidos el identificador de insignia y el nombre del proveedor.
-
-* `GET /badges `
-* `GET /badges/{id}`
-* `GET /skills?include=levels.badge`
-* `GET /skills/{id}?include=levels.badge`
-* `GET /learningObjects/{loId}/instances/{loInstanceId}?include=badge`
-* `GET /users/{userId}/userBadges`
-* `GET /users/{userId}/userBadges/{id}`
-
-#### Ejemplo de solicitud con cURL:
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 123456789' 'https://abcd.adobe.com/primeapi/v2/badges/44'
-```
-
-#### Ejemplo de respuesta:
-
 ```
 {
-  "links": {
-    "self": "https://abcd.adobe.com/primeapi/v2/badges/44"
-  },
-  "data": {
-    "id": "44",
-    "type": "badge",
-    "attributes": {
-      "imageUrl": "https://abcd.com/accountassets/1/badges/download.png",
-      "name": "external badge",
-      "state": "Active",
-      "externalProvider": {
-        "id": "1234sjd-b272-4de1-9b60-1234567",
-        "provider": "credly"
-      }
-    }
+  "status": "BAD_REQUEST",
+  "title": "Missing Param",
+  "source": {
+    "info": "skills"
   }
 }
 ```
-
-### Descargar informes de auditoría de grupos de usuarios y funciones personalizadas mediante la API de trabajos
-
-El usuario puede descargar el **[!UICONTROL Informe de grupo de usuarios]** y el **[!UICONTROL Informe de auditoría de funciones personalizadas]** mediante `Job API`.
-
-#### Ejemplo de solicitud de descarga del informe de grupo de usuarios:
-
-```
-curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' -d '{ \ 
-     "data": { \ 
-         "type": "job", \ 
-         "attributes": { \ 
-             "jobType": "generateUserGroupReport" \ 
-         } \ 
-    } \ 
- }' 'https://abcd.adobe.com/primeapi/v2/jobs'
-```
-
-#### Ejemplo de solicitud de descarga del informe de auditoría de funciones personalizadas:
-
-```
-curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 1234567' -d '{
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateCustomRoleAuditReport",
-            "payload":{
-                 "fromDate": "2020-01-01T18:30:00.000Z",
-                 "toDate": "2024-09-31T18:30:00.000Z",
-                 "locale":  "en-US"
-            }
-        }
-   }
-}
-```
-
-### Mensaje de error sin cuerpo de solicitud
-
-Hemos introducido mensajes de error específicos para los casos en los que el cuerpo de la solicitud es obligatorio, pero no se proporciona en la API.
-
-#### Ejemplo de mensaje de error:
-
-```
-{
-    "status": "BAD_REQUEST",
-    "title": "Generic Error"
-}
-```
-
-## Mejoras en la elaboración de informes
-
-Los administradores pueden encontrar estos cambios de informes en la sección **Administración** > **Informes**.
-
-### Informe Transcripciones de aprendizaje
-
-El informe **[!UICONTROL Transcripciones de aprendizaje]** contendrá dos nuevas columnas:
-
-* **[!UICONTROL Id. de módulo]**: muestra el identificador único de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
-* **[!UICONTROL Id. de instancia del curso]**: muestra el identificador único de cada instancia del curso. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Instancia]** existente.
-* **[!UICONTROL Comentario de finalización]**: esta columna captura los comentarios introducidos por el administrador al marcar la finalización del usuario. Esta nueva columna se ha agregado al final del informe.
-
-
-### Informe de resumen de sesión
-
-El informe **[!UICONTROL Resumen de sesión]** contendrá tres nuevas columnas:
-
-* Se agregó la columna **[!UICONTROL ID de módulo]** antes de la columna **[!UICONTROL Nombre de sesión]**.
-* Se agregó la columna **[!UICONTROL Id. de sesión]** antes de la columna **[!UICONTROL Nombre de sesión]**.
-* Se agregó la columna **[!UICONTROL Id. de instancia del curso]** después de la columna **[!UICONTROL Nombre de instancia]**.
-* Se agregó la columna **[!UICONTROL Recuento de finalizaciones]** después de la columna **[!UICONTROL Recuento de inscripciones]**.
 
 ## Errores solucionados en esta actualización
 
-* Se ha corregido el error que se producía al cargar vídeos desde el módulo de actividad durante el envío de archivos en dispositivos Android y iOS.
-* Se ha corregido el problema con la apertura de cursos en la aplicación móvil; la versión web funciona correctamente.
-* Se ha corregido el problema con la visualización de las ayudas de trabajo y otros recursos en Safari.
-* Se ha corregido el problema que impedía a los usuarios descargar ayudas de trabajo en la aplicación móvil.
-* Se ha corregido el error en la documentación de la API de usuario de Patch.
-* Se ha corregido el problema por el que los organizadores no recibían notificaciones por correo electrónico cuando se eliminaba una sesión del curso.
-* Se ha corregido el problema por el que los organizadores no recibían correos electrónicos de cancelación de sesiones cuando se eliminaba un módulo del curso y se volvía a publicar.
-* Se ha agregado la posibilidad de incluir caracteres especiales &quot;+&quot; y &quot;-&quot; en las direcciones de correo electrónico durante la creación de usuarios externos.
-* Se ha corregido el problema por el que la sincronización de informes unificados del conector de Marketo fallaba si el informe de aptitudes del usuario contenía comillas dobles en el valor de registro CSV
-* Se ha corregido el problema por el que el extremo `/skills` devolvía el estado correcto para la API de administración, pero la API del alumno mostraba sistemáticamente datos incorrectos o almacenados en caché.
-* Se ha corregido el problema con la incorporación de Go1 para cursos gratuitos que fallaba cuando la cuenta no tenía configurado el conector de Go1.
-* Se ha corregido el problema por el que no se podía acceder a los cursos en la ruta de aprendizaje (LP) mediante la migración si el alumno ya había completado el programa de aprendizaje.
-* Se ha corregido el problema por el que el archivo CSV de usuarios incrementales fallaba cuando tanto el administrador del usuario como el administrador de niveles de omisión se establecían como SU (superusuario) en lugar de administrador y no se incluían en el archivo CSV.
-* Se han corregido los problemas de ámbito de los administradores de almacén en los informes del tablero.
-* Se ha corregido el problema por el que xapi_iri no se eliminaba al eliminar un borrador de curso.
-* Se ha corregido el problema que impedía la adición de un ID de objeto de aprendizaje único en determinados casos.
-* Se ha corregido el problema por el que la propiedad IsEmbeddable del plan de aprendizaje no se actualizaba correctamente en los planes de aprendizaje compartidos.
-* Se ha corregido el problema que afectaba a la visualización de la duración total de las rutas de aprendizaje en la vista del alumno.
-* Se ha corregido el problema que permitía a los alumnos registrarse o registrarse a través de los vínculos de registro automático incluso después de que se hubieran eliminado sus cuentas.
-* Se ha solucionado el problema por el que se eliminaba `www` al añadir vínculos en la descripción del curso durante la creación del curso.
-* Se ha corregido el problema por el que las ayudas de trabajo para ocultar información y descargar no funcionaban correctamente.
-* Se ha corregido el problema por el que el inicio de sesión único (SSO) no funcionaba para los nuevos usuarios añadidos mediante el vínculo de registro automático con un ID IP.
-* Se ha corregido el problema por el que los datos del mensaje de notificación no se recuperaban después de eliminar un anuncio.
-* Se ha corregido el problema de los resultados de búsqueda insuficientes al buscar usuarios por correo electrónico.
+* Se han corregido marcas de tiempo inexactas en la respuesta de la API de objetos de aprendizaje de GET para las ayudas de trabajo en las que dateCompleted, dateEnrolled y dateStarted coincidían incorrectamente con dateModified.
+* El extremo de la API de usuario ahora muestra mensajes de error específicos en el nivel de campo en lugar de mensajes genéricos.
+* El extremo /learningObjects devolvió una respuesta en blanco cuando se invocó para el catálogo predeterminado.
+* Se han actualizado las respuestas de la API pública para mostrar las ayudas de trabajo que se habían excluido anteriormente debido a versiones obsoletas.
+* Se ha mejorado la precisión de la recomendación al eliminar las aptitudes no relacionadas que aparecen en la sección de recomendaciones de cursos del alumno.
+* Se sincronizaron los nombres de carpeta con los resultados de búsqueda para que las carpetas de contenido con nombre reflejen el nombre actualizado en todas las búsquedas de la plataforma.
+* El texto de la página Resumen del curso no se desborda. La experiencia es mucho más limpia ahora.
+* Se han restaurado los vínculos de registro automático para las cuentas que utilizan dominios personalizados para permitir un registro de usuarios más fluido.
+* El informe de suscripción evita inscripciones de cursos no deseadas en rutas de aprendizaje flexibles.
+* En configuraciones de SSO múltiple, todos los perfiles configurados ahora son visibles, más allá del límite anterior de 20 perfiles.
+* Se han excluido los cursos de Mercado de contenido de las inscripciones de certificación recurrentes cuando no se requieren explícitamente.
+* Se ha habilitado la duplicación de cursos para los usuarios con permisos de edición en las pestañas Mis cursos y Cursos.
+* La inscripción automática se activa según lo previsto para los cursos posteriores en rutas de aprendizaje mejoradas compartidas a través de catálogos.
+* Los inicios inesperados de reproductores se evitan controlando correctamente los cambios de fecha del sistema con los mensajes de error correspondientes.
+* Se ha estabilizado la sesión de un autor después de que los módulos se eliminen de un curso, lo que evita terminaciones bruscas de la sesión.
+* El logotipo de la organización aparece a tamaño completo en la pantalla de cierre de sesión.
+* Se ha restaurado la funcionalidad del botón Eliminar durante la creación de la ruta de aprendizaje, incluso después de varias acciones de arrastre.
+* Los responsables de tienda reciben notificaciones por correo electrónico cuando los alumnos carecen de un responsable asignado.
+* Terminología estandarizada actualizando las referencias de la interfaz de usuario de &quot;sesión virtual&quot; a &quot;Clase virtual&quot;.
+* Las insignias eliminadas ya no son visibles, por lo que los alumnos ya no ven ni desbloquean los logros obsoletos.
+* Las descripciones de los cursos se rellenan correctamente en las comunicaciones por correo electrónico al resolver problemas con el campo CourseDescription (Descripción del curso).
+* La configuración del panel de discusión en el nivel de cuenta no se sobrescribe con la del nivel de curso.
+* Se han resuelto las limitaciones de longitud de URL que bloqueaban las asignaciones del instructor en los módulos de lista de comprobación.
+* Mensajes de error más claros cuando se detectan columnas duplicadas en el archivo de carga del usuario.
+* Se procesan los datos completos en las API de rutas de aprendizaje mejoradas, lo que garantiza que las rutas de aprendizaje secundarias se muestren correctamente.
+* Se ha añadido formato de texto enriquecido para las descripciones de los cursos en la aplicación móvil para mejorar la experiencia del usuario.
 
 ## Requisitos del sistema
 
-Ver [requisitos del sistema de Adobe Learning Manager](/help/migrated/system-requirements.md).
-
-## Notas de la versión
-
-Consulta las [notas de la versión](/help/migrated/release-note/release-notes.md) para ver las últimas actualizaciones de la versión.
+[Requisitos del sistema de Adobe Learning Manager](/help/migrated/system-requirements.md)
 
 ## Versiones anteriores de Adobe Learning Manager
 
+* [Versión de noviembre de 2024](/help/migrated/whats-new-nov-24.md)
 * [Versión de julio de 2024](/help/migrated/whats-new-july-2024.md)
-* [Versión de marzo de 2024](/help/migrated/whats-new-march-2024.md)

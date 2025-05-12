@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3572'
-ht-degree: 49%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -190,19 +190,19 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
 1. Para agregar el contenido, selecciona **[!UICONTROL Agregar archivo de contenido]** y carga tu archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
-* [Tipos de archivo admitidos](content-library.md#supported)
+* [Tipos de archivos compatibles](content-library.md#supported)
 
   El contenido interactivo puede ser un proyecto publicado de Captivate, SCORM o AICC. El archivo debe ser un archivo zip.
 
   También puede agregar contenido HTML generado desde Captivate, Presenter o Presenter Video Express.
 
-1. Learning Manager admite subtítulos para contenido de vídeo cargado en esta aplicación. Ahora, los autores pueden cargar el archivo que contiene los subtítulos junto con el archivo de vídeo.
+1. Adobe Learning Manager admite subtítulos para contenido de vídeo cargado en Adobe Learning Manager. Ahora, los autores pueden cargar el archivo que contiene los subtítulos junto con el archivo de vídeo.
 
    A continuación, los alumnos podrán ver los subtítulos durante la reproducción del módulo de vídeo.
 
    El formato admitido es [Web Video Text Tracks (WebVTT)](https://www.w3.org/TR/webvtt1/).
 
-   La compatibilidad con los subtítulos está disponible para el contenido de vídeo cargado en la biblioteca de contenido de Learning Manager.
+   La compatibilidad con los subtítulos está disponible para el contenido de vídeo cargado en la biblioteca de contenido de Adobe Learning Manager.
 
    Como autor, al cargar un contenido de vídeo o audio, también puede cargar el archivo VTT que contiene los subtítulos.
 
@@ -222,7 +222,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
    >
    >   Un archivo VTT admite un idioma. Para admitir varios idiomas, cargue varios archivos de vídeo para cada idioma del contenido y, a continuación, cargue el archivo VTT correspondiente para cada archivo de vídeo.
 
-   Como autor, cada vez que cambie el contenido, el vídeo o el audio, Learning Manager le solicitará un nuevo archivo vtt.
+   Como autor, cada vez que cambie el contenido, el vídeo o el audio, Adobe Learning Manager le solicitará un nuevo archivo vtt.
 
    Después de añadir este contenido a un curso y previsualizarlo como alumno, puede ver los subtítulos en el vídeo.
 
@@ -236,7 +236,7 @@ La compatibilidad con WebVTT no está disponible para:
    1. Anuncios de vídeo.
    1. Vídeo reproducido dentro del contenido de aprendizaje electrónico. Esta acción la controla el contenido.
    1. Vídeo cargado en Aprendizaje social.
-   1. Vídeo creado en la aplicación Learning Manager para escritorio
+   1. Vídeo creado en la aplicación de escritorio de Adobe Learning Manager.
    1. Contenido de vídeo creado mediante el proceso de migración.
    1. Reproducción de vídeo en una aplicación para dispositivos móviles en el modo sin conexión.
 
@@ -422,9 +422,9 @@ El contenido se puede desvincular de una carpeta especificada **SOLO** si tambi�
 
 Después de agregar el contenido, puede modificar los criterios de finalización del contenido.
 
-En Learning Manager, se otorgan insignias y aptitudes en función de los criterios de éxito y finalización. Si el alumno ha completado un curso, pero no lo ha superado con éxito, no recibe la insignia ni la aptitud correspondientes al objeto de aprendizaje.
+En Adobe Learning Manager, se conceden insignias y aptitudes en función de los criterios de éxito y finalización. Si el alumno ha completado un curso, pero no lo ha superado con éxito, no recibe la insignia ni la aptitud correspondientes al objeto de aprendizaje.
 
-Por ejemplo, si ha utilizado Adobe Captivate para crear su curso y configurado los parámetros de aprendizaje en el cuadro de diálogo Preferencias, la misma configuración se migra a Learning Manager en las opciones de Criterios de finalización.
+Por ejemplo, si ha utilizado Adobe Captivate para crear el curso y establecer los parámetros de aprendizaje en el cuadro de diálogo Preferencias, la misma configuración se migra a Adobe Learning Manager en las opciones de Criterios de finalización.
 
 En la sección Criterios de finalización, puede configurar las opciones que se mencionan a continuación:
 
@@ -469,6 +469,110 @@ Organice el contenido en función de si se está utilizando en algún curso. En 
 
 *Ordenar contenido por uso*
 
+## Añadir ID exclusivo de contenido y fecha de caducidad
+
+### Qué es el ID exclusivo de contenido
+
+El ID exclusivo de contenido es un código exclusivo que se asigna a cada elemento de contenido en Adobe Learning Manager. Ayuda a administradores y autores a encontrar y administrar contenido fácilmente, especialmente al actualizarlo o moverlo entre sistemas. Este ID exclusivo de contenido también es útil para integrar contenido con otras herramientas como RR. HH. o sistemas de cumplimiento normativo. Se utiliza el mismo ID exclusivo de contenido en todas las versiones de idioma, por lo que los alumnos mantienen la coherencia.
+
+* Los ID únicos de contenido deben ser únicos en todo el contenido.
+* El ID exclusivo de contenido no puede incluir espacios ni caracteres especiales.
+* Si se introduce un ID exclusivo de contenido duplicado, aparecerá un error durante la creación.
+
+### Qué es la fecha de caducidad
+
+La fecha de caducidad marca el contenido que puede estar obsoleto o que ya no se necesita. Incluso después de la fecha de caducidad, el contenido permanece disponible, pero se recuerda a los autores y administradores que lo comprueben y actualicen si es necesario. Según la configuración, el contenido caducado se puede eliminar de las nuevas inscripciones o archivarse. Al igual que el ID exclusivo de contenido, la fecha de caducidad funciona de la misma manera para todas las versiones de idioma, lo que ayuda a mantener el contenido limpio y actualizado para todos.
+
+* El contenido sigue estando disponible incluso después de su caducidad.
+* Aparece una advertencia si se selecciona una fecha pasada.
+* El campo de caducidad acepta cualquier fecha entre 1990 y 2037.
+
+Esto ayuda a las organizaciones a mantener la relevancia del contenido sin eliminar accidentalmente los elementos publicados.
+
+El ID exclusivo del contenido y la fecha de caducidad se aplican a todas las versiones de idioma de un grupo de contenido, lo que garantiza una experiencia coherente para todos los usuarios, independientemente del idioma. Los autores pueden utilizar el ID exclusivo de contenido para buscar y encontrar rápidamente contenido específico, lo que facilita la gestión y actualización de materiales de formación.
+
+El **[!UICONTROL informe de formación]** ahora incluye dos nuevas columnas: **[!UICONTROL Fecha de caducidad del contenido (zona horaria UTC)]** e **[!UICONTROL ID único de contenido]**, para realizar un seguimiento del ID único de contenido y la fecha de caducidad. Estos campos se pueden añadir a través de la interfaz de usuario o la migración, y el administrador puede realizar un seguimiento centralizado a través de informes de formación.
+
+### Añadir ID exclusivo de contenido y fecha de caducidad
+
+Los autores pueden añadir un ID exclusivo de contenido y establecer una fecha de caducidad al crear contenido.
+
+Para agregar el ID exclusivo de contenido y la fecha de caducidad:
+
+1. Inicie sesión como autor.
+2. Seleccione **[!UICONTROL Crear contenido]** o seleccione **[!UICONTROL Biblioteca de contenido]** en el panel izquierdo.
+
+   ![](assets/create-content.png)
+   _Seleccionar Crear contenido en la página principal_
+
+3. Seleccione **[!UICONTROL Agregar]** y, a continuación, seleccione **[!UICONTROL Contenido]** en la página principal del autor.
+
+   ![](assets/add-content.PNG)
+   _Seleccionar Agregar contenido en la biblioteca de contenido_
+
+4. Escriba **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**
+
+5. Seleccione el contenido en la opción **[!UICONTROL Agregar archivo de contenido]**
+6. Seleccione la carpeta de la opción **[!UICONTROL Agregar a la carpeta]** para agregar el contenido a la carpeta.
+
+   ![](assets/add-a-new-content.png)
+   _Agregar nuevo contenido_
+
+7. Escriba el ID del contenido cargado en el campo **[!UICONTROL ID exclusivo de contenido]**. El ID debe ser único y seguir las instrucciones de nomenclatura correctas. El ID no debe contener caracteres ni espacios que no sean ASCII. Si introduce un ID duplicado, se muestra un mensaje de error.
+
+   ![](assets/content-unique-id.png)
+   _Campo para escribir un id. de contenido alfanumérico único_
+
+8. Seleccione la fecha de caducidad del contenido. Esta fecha no afecta a la disponibilidad de contenido ni al acceso de los alumnos. Puede elegir cualquier fecha entre 1990 y 2037. Si se selecciona una fecha pasada, aparece una advertencia, pero el contenido aún se puede publicar.
+9. Seleccione **[!UICONTROL Guardar]**.
+El contenido cargado aparece ahora en la **[!UICONTROL Biblioteca de contenido]**.
+
+### Definir ID exclusivo de contenido y fecha de caducidad para los idiomas
+
+El ID exclusivo de contenido y la fecha de caducidad se definen en el nivel de grupo de contenido, lo que significa que se establecen una vez y se aplican automáticamente a todas las versiones lingüísticas del contenido.
+
+1. Seleccione el contenido en la **[!UICONTROL Biblioteca de contenido]**.
+2. Seleccione **[!UICONTROL Editar]**.
+3. Seleccione **[!UICONTROL Agregar nuevo idioma]**.
+4. Seleccione cualquier idioma de la lista.
+5. Seleccione **[!UICONTROL Guardar]**.
+El ID exclusivo del contenido y la fecha de caducidad ahora se muestran en la versión específica del idioma del contenido, como el alemán en este ejemplo.
+
+### Buscar mediante el ID exclusivo de contenido
+
+Puede utilizar el ID exclusivo de contenido para buscar contenido en todas las versiones de idioma, lo que facilita la búsqueda y administración de elementos específicos. Además, tanto el ID exclusivo de contenido como la fecha de caducidad se incluyen en los informes de formación para mantener la coherencia en el seguimiento y la creación de informes.
+
+1. Inicie la **[!UICONTROL biblioteca de contenido]**.
+2. Escriba el **[!UICONTROL ID exclusivo de contenido]** en la barra de búsqueda.
+
+   ![](assets/search-unique-id.png)
+   _Buscando contenido con el ID exclusivo de contenido_
+3. Seleccione el contenido para verlo o editarlo.
+
+### Compatibilidad con migración de contenido
+
+Al migrar contenido, puedes incluir **expiryDate** y **uniqueContentId** en el archivo module_version.csv. Esto garantiza la continuidad de los metadatos al mover contenido entre sistemas.
+
+### Cambios en los informes
+
+El informe de formación ahora dispone de dos nuevas columnas, ID exclusivo de contenido y Fecha de caducidad de contenido. Estos campos ayudan a los administradores a supervisar las fechas de caducidad del contenido de forma más eficaz.
+
+## Retirar contenido {#retirecontent}
+
+Una vez que publica un contenido, no puede eliminarlo. Primero es necesario retirar el contenido. Cuando marca contenido como retirado, ya no está visible para los alumnos. El contenido también se mueve a la sección **[!UICONTROL Retirado]**.
+
+Para retirar contenido, siga estos pasos:
+
+* En **[!UICONTROL Biblioteca de contenido]**, seleccione el contenido que desea retirar.
+* Seleccione **[!UICONTROL Acción]** y, a continuación, seleccione **[!UICONTROL Retirar]**.
+
+No afecta a contenidos que se utilicen en objetos de aprendizaje. Los alumnos pueden seguir accediendo al contenido.
+
+>[!NOTE]
+>
+>También puedes añadir contenido desde la sección **[!UICONTROL Retirado]**, ir a la **[!UICONTROL Biblioteca de contenido]** y seleccionar **[!UICONTROL Retirado]**. Seleccione **[!UICONTROL Agregar contenido]**. Para obtener más información, consulte [Agregar contenido estático](content-library.md#addstaticcontent).
+
+
 ## Buscar contenido {#searchforcontent}
 
 En la Biblioteca de contenido, puede buscar contenido eligiendo su nombre o las etiquetas asociadas con él.
@@ -476,22 +580,6 @@ En la Biblioteca de contenido, puede buscar contenido eligiendo su nombre o las 
 En la barra de búsqueda, escriba el nombre de un curso o una etiqueta, y podrá ver las recomendaciones.
 
 <!--![](assets/search-bar.png)-->
-
-## Retirar contenido {#retirecontent}
-
-Una vez que publica un contenido, no puede eliminarlo. Primero es necesario retirar el contenido. Cuando marca contenido como retirado, ya no está visible para los alumnos. El contenido también pasa a la sección Retirado. También puede pasar el contenido al estado publicado más tarde.
-
-Para retirar contenido, siga estos pasos:
-
-* En la Biblioteca de contenido, seleccione el contenido que desea retirar.
-* Elija Acción > Retirar.
-
-No afecta a contenidos que se utilicen en objetos de aprendizaje. Los alumnos pueden seguir accediendo al contenido.
-
->[!NOTE]
->
->También puedes agregar contenido desde la sección **[!UICONTROL Retirado]**, ve a **[!UICONTROL Biblioteca de contenido]** > **[!UICONTROL Retirado]** y selecciona **[!UICONTROL Agregar contenido]**. Para obtener más información, consulte [Agregar contenido estático](content-library.md#addstaticcontent).
-
 
 ## Volver a publicar contenido retirado {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Tenga en cuenta que los cursos que utilizan el contenido, que se eliminan de la 
 
 +++ Cómo cargar contenido SCORM en Adobe Learning Manager
 
-Cree un curso de aprendizaje electrónico compatible con SCORM en cualquier herramienta, como Adobe Captivate, y publique el contenido como archivo zip. A continuación, en Learning Manager, cargue el archivo zip en el catálogo y establezca los criterios de finalización y éxito.
+Cree un curso de aprendizaje electrónico compatible con SCORM en cualquier herramienta, como Adobe Captivate, y publique el contenido como archivo zip. A continuación, en Adobe Learning Manager, cargue el archivo zip en el catálogo y establezca los criterios de finalización y éxito.
 +++
 
-+++¿Cómo cargo una nueva versión del mismo contenido en el Administrador de aprendizaje?
++++¿Cómo cargo una nueva versión del mismo contenido en Adobe Learning Manager?
 
-En Learning Manager, la biblioteca de contenido también mantiene las versiones del contenido cargado. Si realiza algún cambio en el contenido, por ejemplo, una presentación de PowerPoint, y vuelve a cargar la presentación en la biblioteca, el número de versión se incrementa en uno. Esto le ayuda a realizar un seguimiento de los cambios en el contenido. Se puede aplicar una nueva versión del contenido a todos los objetos de aprendizaje simultáneamente, o aplicar actualizaciones individuales para cada curso.
+En Adobe Learning Manager, la biblioteca de contenido también mantiene las versiones del contenido cargado. Si realiza algún cambio en el contenido, por ejemplo, una presentación de PowerPoint, y vuelve a cargar la presentación en la biblioteca, el número de versión se incrementa en uno. Esto le ayuda a realizar un seguimiento de los cambios en el contenido. Se puede aplicar una nueva versión del contenido a todos los objetos de aprendizaje simultáneamente, o aplicar actualizaciones individuales para cada curso.
 +++
 
 +++Cómo editar los detalles de un curso en otro idioma?

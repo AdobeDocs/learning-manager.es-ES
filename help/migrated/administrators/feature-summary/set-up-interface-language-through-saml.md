@@ -3,13 +3,13 @@ description: Aprenda a configurar el idioma de la interfaz con SAML
 jcr-language: en_us
 title: Configurar el idioma de la interfaz mediante SAML
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
-
 
 # Configurar el idioma de la interfaz mediante SAML
 
@@ -96,4 +96,18 @@ Si un usuario se elimina suavemente de ALM, la configuración de idioma se conse
 
 Los administradores pueden consultar los informes Actividad de usuario, Resumen de aprendizaje y Tablero de cumplimiento para obtener detalles específicos del idioma.
 
+## Actualización de las preferencias de idioma del usuario al iniciar sesión mediante SAML
 
+Adobe Learning Manager es una plataforma multilingüe que admite las preferencias de idioma de los alumnos de varias maneras, a través de la interfaz, el contenido y los módulos del curso, todos disponibles en varios idiomas.
+
+Con esta mejora, Adobe Learning Manager mejora el aprovisionamiento de usuarios Just-in-time para usuarios de plataformas nativas. Cuando los nuevos usuarios crean cuentas e inician sesión por primera vez, sus preferencias de idioma se capturan con precisión y se aplican automáticamente.
+
+### Principales ventajas
+
+* Actualiza automáticamente las preferencias de idioma de los usuarios al iniciar sesión.
+* Ofrece una experiencia personalizada al mostrar la interfaz y el contenido en el idioma preferido del usuario.
+* Se integra perfectamente con el proceso de autenticación de SAML.
+
+Cuando los usuarios inician sesión a través de SAML, su preferencia de idioma (idioma de interfaz y contenido) se comprueba y actualiza en función de la información proporcionada durante el proceso de inicio de sesión.
+
+La función se integra con el proceso de inicio de sesión de SAML para capturar y actualizar las preferencias de idioma del usuario sin problemas.

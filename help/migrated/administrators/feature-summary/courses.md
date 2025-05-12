@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -110,7 +110,7 @@ Para devolver una instancia al estado activo, aplique los pasos siguientes:
 
 ### Eliminación de una instancia
 
-Los administradores pueden eliminar la instancia usando la opción **Eliminar esta instancia** inmediatamente después de la creación. No se pueden eliminar instancias si hay una sesión vinculada a ella o si algún alumno se ha inscrito en ella.
+Los administradores pueden eliminar la instancia mediante la opción **Eliminar esta instancia** inmediatamente después de la creación. No se pueden eliminar instancias si hay una sesión vinculada a ella o si algún alumno se ha inscrito en ella.
 
 ![](assets/delete-this-instance.png)
 
@@ -239,6 +239,72 @@ El informe contiene datos de usuarios activos, eliminados y suspendidos si está
 
 Si un alumno con un estado de aprobación pendiente se da de baja, su registro no estará presente en el informe. Además, si un alumno con un estado de aprobación pendiente se inscribe en el curso mediante inscripción de administrador/responsable/administrador personalizado, su registro estará presente en el informe.
 
+## Administrar de forma masiva la inscripción, la asistencia y la finalización de alumnos {#bulk-enrollment}
+
+Con la función de inscripción masiva de Adobe Learning Manager, los administradores pueden inscribir de manera eficiente grandes grupos de alumnos en cursos, certificaciones o programas de aprendizaje cargando un archivo CSV. Este proceso ahorra tiempo, garantiza la coherencia y respalda la escalabilidad de la organización. Además, los administradores y los instructores pueden actualizar la información del alumno, su asistencia y sus finalizaciones en bloque mediante la carga de archivos CSV, lo que minimiza el trabajo manual y garantiza la precisión de los datos.
+
+Puede utilizar el mismo formato de archivo CSV para la inscripción, la asistencia y la finalización. Solo tiene que introducir los ID de correo electrónico del alumno en la columna &quot;Correo electrónico&quot; y guardar el archivo con un nombre basado en la acción, por ejemplo, bulk_enrollment.csv, bulk_attend.csv o bulk_completed.csv. Solo se admite el formato CSV. No se admite el formato UTF-8. Descargue el archivo .csv de ejemplo [aquí](assets/Sample-Bulk-Action-CSV.csv).
+
+### Inscribir alumnos en bloque mediante un archivo CSV
+
+En lugar de añadir alumnos de uno en uno, los administradores pueden inscribir hasta 100 000 usuarios simultáneamente cargando un archivo CSV. El archivo debe incluir una columna con la etiqueta **userEmail** y las direcciones de correo electrónico de los alumnos que se van a inscribir.
+
+Para inscribir alumnos en bloque mediante CSV:
+
+1. Inicie sesión como administrador.
+2. Seleccione un curso de la sección **[!UICONTROL Cursos]**.
+3. Seleccione **[!UICONTROL Alumnos]** en la página **[!UICONTROL Descripción general del curso]**.
+4. Seleccione **[!UICONTROL Inscribirme]** y, a continuación, seleccione **[!UICONTROL Cargar un CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _Inscribir a un alumno mediante la carga de CSV_
+5. Cargue un archivo CSV y seleccione **[!UICONTROL Continuar]**.
+
+El archivo CSV incluye una columna con la etiqueta &quot;Correo electrónico del usuario&quot;. Introduzca las direcciones de correo electrónico de los usuarios en esta columna.
+
+### Marcar la finalización del curso en bloque
+
+Los administradores pueden marcar rápidamente las finalizaciones de cursos de muchos alumnos a la vez cargando un archivo CSV con sus direcciones de correo electrónico. Esto ahorra tiempo en comparación con la actualización individual de cada alumno. La columna userEmail del CSV muestra qué alumnos deben actualizar. Puede marcar hasta 10 000 alumnos como completados en una carga.
+
+Para marcar la finalización en bloque:
+
+1. Seleccione un curso de la sección **[!UICONTROL Cursos]**.
+2. Seleccione **[!UICONTROL Alumnos]** en la página **[!UICONTROL Descripción general del curso]**.
+3. Seleccione **[!UICONTROL Acciones]** y, a continuación, **[!UICONTROL Marcar finalización]**.
+4. Seleccione **[!UICONTROL Bulk]**.
+5. Cargue un archivo CSV con una columna de correo electrónico del usuario que enumere a los alumnos que han completado el curso.
+
+   ![](assets/bulk-completion.png)
+   _Marcando finalización en bloque mediante CSV_
+
+### Marcar la asistencia de forma masiva
+
+Los administradores pueden marcar la asistencia de muchos alumnos a la vez mediante una función de asistencia en bloque. En lugar de actualizar la asistencia de cada alumno de forma individual, los administradores pueden cargar un archivo CSV que contenga las direcciones de correo electrónico de los alumnos. La columna userEmail del CSV identifica qué asistencia de alumnos se debe registrar. Este proceso puede gestionar hasta 10 000 alumnos en una sola carga, lo que hace que la marca de asistencia sea más rápida y eficaz.
+
+Para marcar la asistencia masiva:
+
+1. Seleccione un curso de la sección **[!UICONTROL Cursos]**.
+2. Seleccione **[!UICONTROL Asistencia y puntuación]** en la página **[!UICONTROL Descripción general del curso]**.
+3. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione **[!UICONTROL Marcar asistencia en bloque]**.
+4. Cargue un archivo CSV que incluya una columna userEmail con las direcciones de correo electrónico de los alumnos cuya asistencia desea actualizar.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Marcando la asistencia en bloque mediante CSV_
+
+>[!NOTE]
+>
+>Puede marcar la asistencia de hasta 10 000 usuarios en bloque mediante CSV.
+
+### Errores comunes de carga de CSV
+
+* El correo electrónico del alumno en el CSV no existe en el directorio de usuario de Adobe Learning Manager.
+* El formato del archivo es incorrecto.
+* El archivo contiene columnas adicionales o datos no válidos.
+
+![](assets/error-bulk.png)
+_Notificación de error_
+
+Puede descargar y ver el archivo CSV que enumera los errores de los usuarios con errores en el nivel de fila para facilitar su identificación.
+
 ## Lista de espera
 
 La sección Lista de espera permite que los alumnos estén en lista de espera para cursos de clase cuando las plazas son limitadas, en función de su orden de inscripción. Los administradores pueden gestionar esto seleccionando alumnos en lista de espera y asignando puestos que superen el límite inicial. Una vez que el administrador asigna una licencia, el alumno se inscribe inmediatamente en el curso.
@@ -352,7 +418,7 @@ En esta versión de Learning Manager, el administrador puede enviar los comenta
 
 Los informes de prueba ayudan a evaluar el rendimiento de un alumno después de la finalización de un programa de aprendizaje o un curso.
 
-Learning Manager proporciona actualmente aprendizaje en 13 idiomas para la interfaz y en 32 idiomas para el contenido. Aunque esta opción es fácil de usar para los alumnos y proporciona comodidad a nuestros alumnos de todo el mundo, es difícil para los administradores obtener los informes que se intentan recuperar en diferentes configuraciones regionales.
+Learning Manager proporciona actualmente aprendizaje en 13 idiomas para la interfaz y en 32 idiomas para el contenido. Aunque esta opción es fácil de usar para los alumnos y proporciona comodidad a nuestros alumnos de todo el mundo, es difícil para los administradores obtener los informes que se intentan obtener en varias configuraciones regionales.
 
 En los informes de prueba, se muestran datos en diferentes idiomas siempre que el curso se ofrezca en varios idiomas. Hasta ahora, los informes generados por el administrador mostraban las respuestas una debajo de la otra, independientemente del idioma en el que se intentara realizar la prueba. **Por ejemplo**, si un usuario ha realizado una prueba en neerlandés, el administrador solo podrá ver los informes de prueba que los usuarios realicen en este idioma cada vez. El administrador que había seleccionado el inglés como idioma de la interfaz no podía ver los informes de todos los usuarios a la vez, independientemente de la configuración regional empleada.
 
@@ -547,7 +613,7 @@ Siga estos pasos para agregar comentarios de finalización:
 2. Vaya a la página **[!UICONTROL Cursos]** y seleccione un curso.
 3. Seleccione **[!UICONTROL Alumnos]** en la página del curso.
 4. Elija el alumno individual o varios alumnos.
-5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione&#x200B;**[!UICONTROL &#x200B; Marcar finalización]**.
+5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione**[!UICONTROL  Marcar finalización]**.
 6. Escriba el comentario de finalización en el cuadro de diálogo.
 
    ![](assets/comments.png)
