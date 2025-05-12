@@ -70,7 +70,7 @@ Haga clic en el curso de clase virtual, haga clic en Asistencia en el panel izqu
 
 Adobe Learning Manager admite la selección de salas de seminarios de Adobe Connect al configurar una sesión de clase virtual en Connect. Anteriormente, el administrador solo podía seleccionar el tipo de sala de reuniones. Esta función permite al administrador con una licencia de seminario válida programar y administrar eventos únicos o a gran escala (hasta 1500 asistentes) en ALM.
 
-Consulte este [artículo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
+Consulte este [artículo](https://helpx.adobe.com/es/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
 
 ### Compatibilidad con el acceso a los análisis de sesión
 
