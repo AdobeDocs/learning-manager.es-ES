@@ -2,7 +2,7 @@
 description: Descubra las nuevas funciones y mejoras de la versión de mayo de 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Resumen de nuevas funciones
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Consulte este [artículo](/help/migrated/administrators/feature-summary/content-
 ## Informe de acceso de inicio de sesión en FTP, FTP personalizado y Box {#log-in-access-report}
 
 Los informes de acceso de inicio de sesión ahora están disponibles para los conectores de Box, FTP y FTP personalizado, además de las API de trabajos existentes. Este informe proporciona información detallada sobre las actividades de inicio de sesión del usuario, incluido el estado de ejecución, la configuración de compresión y las opciones de programación. El informe se puede generar bajo demanda o programar, y los datos se almacenan en el conector especificado para facilitar el acceso y el análisis. Esta mejora mejora la capacidad de supervisar y auditar las actividades de inicio de sesión de los usuarios, lo que garantiza un mejor seguimiento de la seguridad y el cumplimiento normativo.
+
 El informe ahora está disponible en FTP, FTP y Box personalizados, junto con los informes existentes, como el progreso del alumno y la finalización del curso. Esta integración permite a los administradores acceder a todos los informes necesarios desde una única fuente, lo que facilita una mejor gestión y análisis de los datos.
 
 El informe ayuda en la automatización al habilitar la exportación de datos de inicio de sesión y acceso al FTP, donde se pueden combinar con otros informes para crear paneles completos. Esta función es especialmente útil para las organizaciones que dependen de procesos automatizados para el análisis de datos y la creación de informes.
@@ -108,7 +109,7 @@ Consulte este [artículo](/help/migrated/administrators/feature-summary/purge-us
 
 Adobe Learning Manager ahora también admite la selección de salas de seminarios de Adobe Connect al configurar una sesión de clase virtual en Connect. Anteriormente, el administrador solo podía seleccionar el tipo de sala de reuniones. Esta mejora permite a los administradores con una licencia de seminario válida programar y administrar eventos únicos o a gran escala (hasta 1500 asistentes) en Adobe Learning Manager.
 
-Consulte este [artículo](https://helpx.adobe.com/es/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
+Consulte este [artículo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
 
 ### Compatibilidad con el acceso a los análisis de sesión
 
