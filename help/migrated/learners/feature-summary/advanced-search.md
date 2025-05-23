@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
+source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 0%
@@ -12,9 +12,15 @@ ht-degree: 0%
 
 # Búsqueda avanzada de IA en Adobe Learning Manager
 
-La funcionalidad de búsqueda en ALM mejora la experiencia del usuario al permitirle encontrar contenido relevante de manera eficiente y ayudarles a consumir el contenido adecuado.
+La funcionalidad de búsqueda de Adobe Learning Manager mejora la experiencia del usuario al permitirle encontrar contenido relevante de manera eficaz y ayudarles a consumir el contenido adecuado.
 
-Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. La búsqueda es más inteligente, ya que busca términos específicos y entiende el contexto y la intención detrás de ellos. La búsqueda avanzada basada en IA entiende el significado de tu consulta y ofrece resultados relevantes.
+Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. Esta funcionalidad mejorada permite a los alumnos encontrar contenido relevante de forma eficaz. La búsqueda avanzada basada en IA entiende el significado de tu consulta y ofrece resultados relevantes.
+
+## Principales ventajas
+
+* **Búsqueda más inteligente**: entiende el contexto y la intención detrás de los términos de búsqueda
+* **Relevancia mejorada**: Proporciona resultados basados en el significado de la consulta
+* **Experiencia de usuario mejorada**: Ayuda a los alumnos a consumir el contenido adecuado
 
 >[!NOTE]
 >
@@ -24,14 +30,14 @@ Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que comb
 
 La funcionalidad de búsqueda es importante por varias razones:
 
-* **Experiencia de usuario**: Una función de búsqueda bien implementada mejora la satisfacción de los usuarios al permitirles encontrar rápidamente la información que necesitan.
-* **Eficacia**: Ahorra tiempo al reducir el esfuerzo necesario para localizar contenido específico, especialmente en bases de datos grandes o sistemas de administración de aprendizaje.
+* **Experiencia de usuario**: Mejora la satisfacción de los usuarios al permitir una recuperación rápida de la información
+* **Eficacia**: Ahorra tiempo al reducir el esfuerzo por localizar contenido específico.
 * **Accesibilidad**: Las funciones de búsqueda efectivas hacen que la información sea más accesible, lo que garantiza que los usuarios puedan interactuar con contenido relevante para sus necesidades.
 * **Personalización**: Los sistemas de búsqueda avanzada pueden adaptar los resultados en función de las preferencias del usuario, lo que mejora la relevancia de la información presentada.
 
 ## Evolución de los comportamientos de búsqueda en la web
 
-A medida que la gente busca en línea, su forma de hacerlo está cambiando y los motores de búsqueda se están adaptando para mantenerse al día. Las siguientes son algunas de las formas clave en las que la gente busca información hoy en día:
+A medida que la gente busca en línea, su forma de hacerlo está cambiando y los motores de búsqueda se están adaptando para mantenerse al día. Las siguientes son algunas de las formas clave en las que las personas buscan información en los últimos tiempos:
 
 * **Impulsado por intención**: En lugar de escribir palabras clave exactas, los usuarios ahora expresan sus necesidades con frases como Deseo o Necesito hacerlo. Los motores de búsqueda modernos entienden el propósito detrás de estas frases y dan resultados más relevantes.
 * **Resultados clasificados**: los resultados de la búsqueda se organizan en función de lo que otros usuarios consideren útil. Esto significa que el contenido más útil aparece en la parte superior, lo que facilita la búsqueda de información de calidad.
@@ -40,7 +46,7 @@ A medida que la gente busca en línea, su forma de hacerlo está cambiando y los
 
 ## Por qué es mejor la búsqueda de Adobe Learning Manager
 
-Adobe Learning Manager ofrece una experiencia de búsqueda más inteligente y avanzada que no solo coincide con las palabras clave, sino que entiende contextualmente el significado de la consulta del usuario para encontrar los resultados más relevantes para ellos.
+Adobe Learning Manager ofrece una experiencia de búsqueda más inteligente y avanzada. No solo coincide con palabras clave, sino que también comprende contextualmente el significado de las consultas de usuario para encontrar los resultados más relevantes.
 
 * **Con tecnología de IA**: Adobe Learning Manager usa técnicas avanzadas de IA para entender el significado detrás de la intención de búsqueda y no solo las palabras. Esto ayuda a mostrar resultados que coinciden realmente con lo que el usuario quiere, haciendo las búsquedas más precisas.
 * **Impulsado por pares**: Adobe Learning Manager utiliza un rango de parámetros de calidad del curso para clasificar los resultados más útiles. Este algoritmo de clasificación está entrenado en 50 millones de puntos de datos que puntúan periódicamente cada contenido en el repositorio
@@ -71,6 +77,14 @@ _Expandiendo la consulta_
 La búsqueda de metadatos de Adobe Learning Manager abarca los metadatos de cursos nativos e importados (por ejemplo, de LinkedIn Learning o Go1). Esta función busca en los títulos, descripciones, etiquetas, notas personalizadas y otros metadatos del curso. Esto ayuda a que los resultados sean mejores y más precisos utilizando una gran cantidad de metadatos diferentes para encontrar resultados.
 Nota: Los datos de los clientes, incluidos el contenido y las transcripciones, no se comparten con ningún servicio externo de búsqueda impulsada por IA. Todo el contenido se almacena dentro del sistema de almacenamiento actual.
 
+#### Búsqueda en contenido
+
+Adobe Learning Manager ofrece funciones de búsqueda mejoradas que permiten a los usuarios buscar en el contenido real de diversos tipos de archivos, incluidos vídeos, archivos de audio, PDF, documentos, presentaciones y hojas de cálculo. El sistema transcribe automáticamente este contenido para proporcionar resultados de búsqueda más completos y precisos. Además, las grabaciones de las reuniones de Adobe Connect se incorporan a la búsqueda, lo que garantiza que no se pierda información valiosa. Si se encuentra una coincidencia dentro del contenido, el modelo de búsqueda aumenta la clasificación de ese contenido en los resultados finales. La clasificación final está determinada por varios factores, como se describe en la sección [Búsqueda y reclasificación basada en IA](/help/migrated/learners/feature-summary/advanced-search.md#ai-powered-search-and-re-ranking).
+
+>[!NOTE]
+>
+>El contenido recién añadido, como vídeos o PDF, estará disponible para la búsqueda en el contenido tras un período de procesamiento de 24 horas.
+
 ### Búsqueda semántica
 
 Adobe Learning Manager ahora incorpora la búsqueda semántica junto con la búsqueda léxica tradicional, lo que mejora la precisión de los resultados de búsqueda. Al generar incrustaciones vectoriales a partir de los títulos y descripciones de los cursos, se crea una base de datos vectorial completa. Cuando un alumno envía una consulta, el sistema vectoriza la consulta y realiza una coincidencia de similitud para identificar los resultados más relevantes. Por ejemplo, si un alumno busca un tutorial de Photoshop para principiantes, el sistema entiende la solicitud y encuentra cursos que son especialmente útiles para los principiantes con Photoshop .
@@ -82,20 +96,11 @@ _Búsqueda semántica_
 >
 >Actualmente, la búsqueda semántica solo admite contenido en inglés.
 
-### Búsqueda en contenido
-
-La funcionalidad de búsqueda de Adobe Learning Manager se ha mejorado para buscar contenido real. Transcribe automáticamente vídeos, archivos de audio, PDF, documentos, ppt y xls, incorporando esas transcripciones en los resultados de búsqueda. Además, utiliza las grabaciones de reuniones de Adobe Connect para proporcionar resultados más completos y relevantes. Esta mejora garantiza que se incluyan cursos con contenido enriquecido, como vídeos y notas de reuniones, lo que mejora significativamente la precisión y la eficacia de la búsqueda. La coincidencia en el contenido ayuda a mejorar la clasificación de los resultados de búsqueda al dar un impulso a los resultados encontrados a través de la coincidencia de frase tradicional y la coincidencia semántica.
-
->[!NOTE]
->
->El contenido recién añadido, como vídeos o PDF, estará disponible para la búsqueda en el contenido tras un período de procesamiento de 24 horas.
-
 ### Búsqueda y reclasificación basadas en IA
 
-La búsqueda de Adobe Learning Manager es líder en el sector y utiliza una combinación única de tecnologías avanzadas para proporcionar resultados de máxima calidad. Combina los métodos de búsqueda tradicionales (como la coincidencia de frase), la búsqueda semántica sofisticada y la búsqueda en el contenido para producir resultados completos. Estos resultados se clasifican según factores clave de calidad de los cursos, como las inscripciones, las fechas de publicación, las clasificaciones, la popularidad y mucho más, lo que garantiza que se alcancen los niveles de calidad más altos de todos los índices, guiados por nuestro sistema de clasificación de calidad de los cursos.
+La búsqueda de Adobe Learning Manager lidera el sector combinando tecnologías tradicionales y avanzadas. Combina los métodos de búsqueda tradicionales, como la coincidencia de frase y la búsqueda semántica sofisticada, para producir resultados completos. El sistema clasifica estos resultados en función de factores clave como los números de inscripción, las fechas de publicación, las calificaciones y la popularidad. Esto garantiza partidos de alta calidad de todos los índices, guiados por nuestro sistema de clasificación de calidad del curso.
 
-En general, la búsqueda de ALM basada en IA se ha diseñado para ser exhaustiva, precisa y fácil de usar, lo que ayuda a los alumnos a encontrar rápidamente exactamente lo que necesitan para respaldar su recorrido de aprendizaje.
-
+En general, la búsqueda basada en IA está diseñada para ser exhaustiva, precisa y fácil de usar, lo que ayuda a los alumnos a encontrar rápidamente los recursos que necesitan para completar su recorrido de aprendizaje.
 
 >[!NOTE]
 >

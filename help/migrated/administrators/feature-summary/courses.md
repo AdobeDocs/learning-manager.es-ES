@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ Siga estos pasos para agregar comentarios de finalización:
 2. Vaya a la página **[!UICONTROL Cursos]** y seleccione un curso.
 3. Seleccione **[!UICONTROL Alumnos]** en la página del curso.
 4. Elija el alumno individual o varios alumnos.
-5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione&#x200B;**[!UICONTROL &#x200B; Marcar finalización]**.
+5. Seleccione **[!UICONTROL Acciones]** y, a continuación, seleccione **[!UICONTROL Marcar finalización]**.
 6. Escriba el comentario de finalización en el cuadro de diálogo.
 
    ![](assets/comments.png)
