@@ -2,10 +2,10 @@
 title: Varias inscripciones en Adobe Learning Manager
 description: Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ El progreso de cada instancia puede seguirse individualmente, y puede exportarse
 * La función Varias inscripciones solo es aplicable cuando un curso tiene varias instancias.
 * Una vez que se haya activado la función Varias inscripciones y los usuarios se hayan inscrito en varias instancias, se crearán nuevas filas para cada curso en el informe Transcripciones de alumnos (una fila para cada instancia y cada alumno).
 * Si se ha configurado la automatización de informes que solo prevé una fila por curso, debe llevar a cabo los ajustes necesarios en la automatización de informes antes de activar la función Varias inscripciones.
+* Las API de administración no admiten escenarios de inscripción múltiple. Póngase en contacto con su CSM si tiene algún requisito.
 
 ## ¿Cómo se activa la función Varias inscripciones?
 
