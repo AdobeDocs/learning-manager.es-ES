@@ -4,9 +4,9 @@ title: Integración de Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -125,13 +125,15 @@ Skyline es la versión en la nube de AEM. Primero debe instalar Skyline desde el
 
 Los pasos para configurar Skyline se indican en el [repositorio de GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
-## Widget Catálogo
+## Widget Mi aprendizaje
 
-El widget Catálogo muestra formación de un catálogo específico o un conjunto de catálogos a un usuario. En la sección Propiedades de las propiedades de la página, seleccione Catálogo entre las opciones de la lista.
+El widget **[!UICONTROL Mi aprendizaje]** te permite mostrar formación de un catálogo específico o de un conjunto de catálogos a un usuario.
+
+En la sección **[!UICONTROL Propiedades]** de las propiedades de la página, seleccione **[!UICONTROL Catálogo]** entre las opciones que aparecen en la lista.
 
 <!--![](assets/catalog-widget.png)-->
 
-El widget Catálogo contiene las siguientes opciones:
+Las opciones de catálogo contienen las siguientes opciones:
 
 * **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que se debe mostrar el curso de formación.
 * **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Las opciones son: nombre, fecha, fechaCreado, fechaInscrito, etc.
