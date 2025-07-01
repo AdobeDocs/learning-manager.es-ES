@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1610'
+ht-degree: 55%
 
 ---
 
@@ -72,7 +72,7 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 1. Para abrir la página de configuración, haga clic en **[!UICONTROL Configuración]**. Ahora puede personalizar las plantillas de correo electrónico.
 1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite **[!UICONTROL Nombre y dirección del remitente].**
 
-   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
+   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
 
 1. Personalice su banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
 
@@ -99,6 +99,24 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
    *Personalizar la dirección URL de la cuenta*
 
 1. Configure si los responsables también deben recibir correos electrónicos enviados a sus subordinados directos usando la casilla de verificación bajo la opción **[!UICONTROL Correo electrónico de responsable opcional]**.
+
+## Habilitar o deshabilitar el correo electrónico en un nivel de función
+
+El administrador puede activar o desactivar las plantillas de correo electrónico según la función del destinatario, como alumno, responsable o instructor. Esto proporciona a los administradores más control sobre las notificaciones que se envían y ayuda a administrar el tipo y la frecuencia de las comunicaciones.
+
+Para activar o desactivar plantillas de correo electrónico:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo.
+3. Para habilitar o deshabilitar en bloque las plantillas de correo electrónico para una función en particular, seleccione los puntos suspensivos (...) en el encabezado de columna y habilite todas las funciones aplicables en **[!UICONTROL Destinatarios de correo electrónico]**.
+
+   ![](assets/email-template-role.png)
+   _Enviar todas las plantillas de correo electrónico en el nivel de rol_
+
+4. Para habilitar o deshabilitar una plantilla de correo electrónico específica para un rol, seleccione los puntos suspensivos (...) para esa plantilla y seleccione o anule la selección de un rol.
+
+   ![](assets/email-template-role-1.png)
+   _Enviar una plantilla de correo electrónico en un nivel de rol_
 
 ## Configurar la frecuencia de los mensajes de correo electrónico de resumen {#setfrequencyofdigestemails}
 
@@ -160,7 +178,7 @@ Puedes descargar el informe de acceso al correo electrónico haciendo clic en el
 
 ## Personalizar el dominio del correo electrónico {#customizeemaildomain}
 
-Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
+Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
 
 Su solicitud se procesará y se le enviará un correo electrónico con un vínculo de confirmación a la nueva dirección de correo electrónico que especifique. Haga clic en el vínculo de verificación proporcionado en el correo electrónico para confirmar y completar el proceso de verificación.
 
@@ -257,6 +275,6 @@ Para desactivar la plantilla de correo electrónico, seleccione la plantilla cor
 
 +++Cómo cambiar el nombre y la dirección del remitente en la plantilla?
 
-Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager).
+Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

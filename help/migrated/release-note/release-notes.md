@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b704d69970b0e1de6bb3b2ff682c286c1940a354
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '26471'
-ht-degree: 71%
+source-wordcount: '27011'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,83 @@ ht-degree: 71%
   </tr>
  </tbody>
 </table>-->
+
++++Actualización 101: versión de junio de 2025 de Adobe Learning Manager
+
+## Plantillas de correo electrónico basadas en funciones
+
+### Público
+
+Administradores y autores que gestionan plantillas de correo electrónico
+
+### Información general
+
+Usted (administrador o autor) puede habilitar o deshabilitar las plantillas de correo electrónico en función de la función del destinatario, alumno, responsable o instructor. Le proporciona más control sobre el tipo y la frecuencia de la comunicación con los alumnos.
+
+### Caso práctico
+
+* Los administradores y los autores deben enviar correos electrónicos a los alumnos sin notificárselo a los responsables (por ejemplo, inscripciones de alumnos).
+* La opción para activar o desactivar en bloque los mensajes de correo electrónico para un rol específico (por ejemplo, desactivar todos los mensajes de correo electrónico a los responsables).
+
+### Flujo de trabajo existente
+
+Si la intención es enviar correos electrónicos a los alumnos, pero no a los responsables (por ejemplo, inscripción de cursos), la plantilla actual envía correos electrónicos a todas las funciones.
+
+### Novedades
+
+* Alterna según funciones en la interfaz de usuario de las plantillas de correo electrónico.
+* Activar o desactivar en bloque para una función específica.
+* Visibilidad de los roles por plantilla.
+
+Consulte este [artículo](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) para obtener más información.
+
+## Se ha mejorado el control de versiones de contenido para los alumnos que han completado un curso.
+
+### Información general
+
+Cuando el módulo de contenido de un curso completado se actualizó a una versión más reciente, los alumnos encontraron una pantalla en blanco. Este problema se producía incluso cuando el autor optaba por aplicar el nuevo contenido únicamente a los alumnos que aún no habían iniciado el curso. El problema afectaba a la experiencia del usuario y provocaba confusión entre los alumnos que intentaban volver a visitar el curso, ya que tenían problemas de reproducción.
+
+### Comportamiento existente
+
+Cuando los autores actualizaron el contenido del curso a una nueva versión (V2) y lo aplicaron solo a alumnos que aún no habían comenzado, Adobe Learning Manager actualizó la versión del módulo para alumnos completados en segundo plano y estos alumnos vieron una pantalla en blanco al intentar acceder de nuevo al contenido, ya que el módulo actualizado ya no era válido para ellos.
+
+### Ejemplos:
+
+* Un alumno terminado intentó volver a visitar el curso después de la actualización y se le mostró una pantalla en blanco.
+* Un alumno en curso completó el curso, pero más tarde se encontró con una pantalla en blanco después de actualizar de forma silenciosa la versión del contenido.
+
+### Cambios habidos
+
+Adobe Learning Manager presenta opciones de control de versiones más claras para los autores al actualizar contenido. Los autores verán ahora tres opciones bien definidas durante una actualización de la versión del contenido:
+
+| Estado del alumno | Actualizar ahora | Actualizar eventualmente | Actualización no iniciada |
+|---|---|---|---|
+| No inscrito | V2 | V2 | V2 |
+| Todavía por comenzar | V2 | V2 | V2 |
+| En curso | V2 * | V1 → V2 * | V1 |
+| Completado | V2 * | V2 * | V1 (conservado) |
+
+(*) Indica que el módulo se restablecerá al actualizar la versión.
+
+En **[!UICONTROL Actualización no iniciada]**, el alumno completado seguirá viendo la versión de contenido existente (V1), lo que resolverá el problema de las pantallas en blanco inesperadas.
+
+* **[!UICONTROL Actualizar ahora]**: Aplicar actualización de contenido para todos los alumnos (los alumnos sin iniciar, en curso y completados se moverán a una nueva versión de contenido ahora)
+* **[!UICONTROL Actualizar al final]**: finalmente se aplica la actualización de contenido para todos los alumnos (los alumnos no iniciados y completados se moverán a la nueva versión de contenido ahora; los alumnos en curso se moverán al finalizar)
+* **[!UICONTROL Actualización no iniciada]**: Aplicar actualización de contenido solo para alumnos no iniciados (los alumnos en curso y completados permanecerían en la versión de contenido existente)
+
+### Cambios en la interfaz de usuario
+
+| Etiqueta antigua | Nueva opción |
+|---|---|
+| Aplicar actualización de contenido a todos los alumnos | Actualizar todos los alumnos ahora: Aplicar actualización de contenido para todos los alumnos |
+| Aplicar la actualización a los alumnos aún por iniciar | Actualizar sólo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
+| Los alumnos en curso reciben una actualización después de completarse | Actualizar todos los alumnos eventualmente: Aplicar la actualización de contenido para todos los alumnos eventualmente |
+
+![](assets/version-control-options.png)
+
+Consulte este [artículo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) para obtener más información sobre la biblioteca de contenido.
+
++++
 
 +++Actualización 100: versión de mayo de 2025 de Adobe Learning Manager
 
@@ -1498,7 +1575,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -1876,7 +1953,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -2500,7 +2577,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3010,7 +3087,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se usó para representar grupos externos,**&#x200B;** se **&#x200B;**&#x200B;quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se usó para representar grupos externos,**** se **** quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la dirección URL en el correo electrónico recibido por los administradores cada vez que se editan las plantillas de correo electrónico **Profile Created(Self-Registration)** y **Profile Created(External/Partners)**. Este problema se ha solucionado.

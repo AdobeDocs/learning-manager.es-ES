@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -595,6 +595,36 @@ El contenido ahora aparece en la lista Publicado.
 ## Actualizar el contenido
 
 Los autores pueden actualizar el contenido del curso publicado. Esto ayudará a los alumnos a obtener la versión más reciente del contenido. Echa un vistazo a este [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) para obtener más información.
+
+### Control de versiones de contenido para alumnos que han completado un curso
+
+Adobe Learning Manager ofrece a los autores opciones de control de versiones más claras al actualizar el contenido. Los autores verán ahora tres opciones bien definidas durante una actualización de la versión del contenido:
+
+| Estado del alumno | Actualizar ahora | Actualizar eventualmente | Actualización no iniciada |
+|---|---|---|---|
+| No inscrito | V2 | V2 | V2 |
+| Todavía por comenzar | V2 | V2 | V2 |
+| En curso | V2 * | V1 → V2 * | V1 |
+| Completado | V2 * | V2 * | V1 (conservado) |
+
+(*) Indica que el módulo se restablecerá al actualizar la versión.
+
+En **[!UICONTROL Actualización no iniciada]**, el alumno completado seguirá viendo la versión de contenido existente (V1), lo que resolverá el problema de las pantallas en blanco inesperadas.
+
+* **[!UICONTROL Actualizar ahora]**: Aplicar actualización de contenido para todos los alumnos (los alumnos sin iniciar, en curso y completados se moverán a una nueva versión de contenido ahora)
+* **[!UICONTROL Actualizar al final]**: finalmente se aplica la actualización de contenido para todos los alumnos (los alumnos no iniciados y completados se moverán a la nueva versión de contenido ahora; los alumnos en curso se moverán al finalizar)
+* **[!UICONTROL Actualización no iniciada]**: Aplicar actualización de contenido solo para alumnos no iniciados (los alumnos en curso y completados permanecerían en la versión de contenido existente)
+
+#### Cambios en la interfaz de usuario
+
+| Etiqueta antigua | Nueva opción |
+|---|---|
+| Aplicar actualización de contenido a todos los alumnos | Actualizar todos los alumnos ahora: Aplicar actualización de contenido para todos los alumnos |
+| Aplicar la actualización a los alumnos aún por iniciar | Actualizar sólo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
+| Los alumnos en curso reciben una actualización después de completarse | Actualizar todos los alumnos eventualmente: Aplicar la actualización de contenido para todos los alumnos eventualmente |
+
+![](assets/version-control-options.png)
+
 
 ## Eliminar contenido {#deletecontent}
 
