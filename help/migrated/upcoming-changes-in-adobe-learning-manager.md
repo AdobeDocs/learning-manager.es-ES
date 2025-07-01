@@ -1,13 +1,13 @@
 ---
 title: Próximos cambios en Adobe Learning Manager
 description: Descubre las nuevas funciones, mejoras y actualizaciones importantes que estarán disponibles próximamente en Adobe Learning Manager. Mantente informado de los cambios para poder planificar con antelación y aprovechar al máximo las mejoras más recientes.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # Próximos cambios en Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Nos complace compartir varias actualizaciones importantes que llegarán a Adobe 
 
 Estos cambios están diseñados para reducir el esfuerzo manual, fomentar la automatización y mejorar la gobernanza en las operaciones de formación.
 
-## Capturar finalizaciones con marca de instructor en transcripciones de alumnos (M44)
+## Capturar finalizaciones marcadas por el instructor en transcripciones de alumnos
 
 ### Público
 
@@ -45,7 +45,7 @@ Los estados de asistencia como &quot;Asistencia con aprobado/suspenso&quot; apar
 * Si utiliza nombres de columna, no es necesario realizar cambios.
 * No se incluyen las finalizaciones retroadaptadas (importaciones manuales).
 
-## Vínculos de descarga del informe Ayudas de trabajo (M44)
+## Vínculos de descarga del informe Ayudas de trabajo
 
 ### Público
 
@@ -69,7 +69,7 @@ Los usuarios con acceso (administradores/autores y funciones personalizadas) pue
 * Si el script se basa en la posición de la columna, actualice los scripts según corresponda.
 * No es necesario realizar ninguna acción si se utilizan nombres de columna.
 
-## Columnas de ID de usuario interno y correo electrónico del responsable añadidas al informe de usuario (M44)
+## Columnas de ID de usuario interno y correo electrónico del responsable añadidas al informe de usuario
 
 ### Público
 
@@ -88,7 +88,7 @@ El informe de usuarios incluye el ID de usuario interno de un usuario y la direc
 * Si se utiliza este informe en flujos automatizados, esta columna recién añadida se debe tener en cuenta en la automatización.
 * No es necesario realizar cambios si los flujos de trabajo no se ven afectados.
 
-## Permisos de anuncios con ámbito para administradores personalizados (M44)
+## Permisos de anuncios con ámbito para administradores personalizados
 
 ### Público
 
