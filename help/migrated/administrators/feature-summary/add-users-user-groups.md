@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Añadir usuarios en Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Añadir usuarios en Adobe Learning Manager
 
-En Adobe Learning Manager, los usuarios son personas que utilizan la plataforma para el aprendizaje o la formación. Hay dos tipos de usuarios: usuarios internos y usuarios externos.
+En Adobe Learning Manager, los usuarios son alumnos que utilizan la plataforma para el aprendizaje o la formación. Hay dos tipos de usuarios: usuarios internos y usuarios externos.
 
 Los usuarios internos son empleados o miembros del equipo de su organización.
 
-Los usuarios externos son personas ajenas a su empresa, como clientes, socios, proveedores o clientes, que pueden acceder a su contenido de aprendizaje.
+Los usuarios externos son alumnos externos a su empresa, como clientes, socios, proveedores o clientes, que pueden acceder a su contenido de aprendizaje.
 
 Adobe Learning Manager (ALM) permite a los administradores integrar y administrar usuarios internos y externos mediante diversos métodos, incluidas la entrada manual, la carga de CSV, el registro automático y las integraciones de sistemas.
 
@@ -248,7 +248,7 @@ Existen algunas diferencias entre los registros internos y externos:
 | Usuarios internos | Usuarios externos |
 |---|---|
 | Puede iniciar sesión con las credenciales de Adobe ID o SSO. | Puede iniciar sesión con cualquier ID de correo electrónico. |
-| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/gamification). |
+| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 

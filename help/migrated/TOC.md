@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 79%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 79%
    * [Nuevas funciones de julio de 2023](whats-new-2023-july.md)
    * [Notas de la versión](release-note/release-notes.md)
    * [Requisitos del sistema](system-requirements.md)
-   * [Paquete de sitio de referencia de ALM para AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Aplicación Adobe Learning Manager para Microsofts Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Cumplimiento del RGPD por parte de Learning Manager](kb/prime-gdpr.md)
    * [Accesibilidad en Learning Manager](accessibility-learning-manager.md)
@@ -103,7 +102,9 @@ ht-degree: 79%
       * [Guía de uso de webhooks](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [Con Credibilidad](integration-admin/feature-summary/credly-integration.md)
    * [Interoperabilidad de herramientas de aprendizaje](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [Integración de Learning Manager con AEM](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [Paquete de sitio de referencia de ALM para AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [Integración de Learning Manager con AEM](integrate-aem-learning-manager.md)
    * [Instalar el paquete de Salesforce en Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar conector de Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Aplicación Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
