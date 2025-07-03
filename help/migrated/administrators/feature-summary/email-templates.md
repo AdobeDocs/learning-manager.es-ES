@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 55%
+source-wordcount: '1512'
+ht-degree: 58%
 
 ---
 
@@ -41,21 +41,23 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 
    *Seleccione la ficha General*
 
-1. Para ver la lista de plantillas de correo electrónico, haga clic en cualquier ficha.
+2. Para habilitar o deshabilitar en bloque las plantillas de correo electrónico para una función en particular, seleccione los puntos suspensivos (...) en el encabezado de columna y habilite todas las funciones aplicables en **[!UICONTROL Destinatarios de correo electrónico]**.
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _Enviar todas las plantillas de correo electrónico en el nivel de rol_
 
-   *Ver la lista de plantillas de correo electrónico*
+3. Para habilitar o deshabilitar una plantilla de correo electrónico específica para un rol, seleccione los puntos suspensivos (...) para esa plantilla y seleccione o anule la selección de un rol.
 
-   Cualquiera de estas alertas de correo electrónico se puede activar o desactivar haciendo clic en el botón circular.
+   ![](assets/email-template-role-1.png)
+   _Enviar una plantilla de correo electrónico en un nivel de rol_
 
-1. Para modificar el contenido de la plantilla, haga clic en el nombre de la plantilla. Aquí se observa que se dispone de diferentes plantillas para distintos tipos de usuario.
+4. Para modificar el contenido de la plantilla, haga clic en el nombre de la plantilla. Aquí se observa que se dispone de diferentes plantillas para distintos tipos de usuario.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *Ver la plantilla de un correo electrónico*
 
-1. Para modificar el contenido de esta plantilla de correo electrónico, haga clic en el cuerpo del correo electrónico. A continuación, efectúe los cambios en la plantilla. Puede modificar el texto y utilizar una de estas variables en el correo electrónico. Los cambios que se efectúan en el cuerpo solo se pueden aplicar a esta plantilla de correo electrónico. Ahora bien, si los cambios se efectúan en la firma, se aplicarán globalmente en todas las plantillas.
+5. Para modificar el contenido de esta plantilla de correo electrónico, haga clic en el cuerpo del correo electrónico. A continuación, efectúe los cambios en la plantilla. Puede modificar el texto y utilizar una de estas variables en el correo electrónico. Los cambios que se efectúan en el cuerpo solo se pueden aplicar a esta plantilla de correo electrónico. Ahora bien, si los cambios se efectúan en la firma, se aplicarán globalmente en todas las plantillas.
 
    Pase el ratón por cada icono para ver los nombres.
 
@@ -65,14 +67,14 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 
    Puede restablecer el contenido predeterminado del cuerpo del mensaje haciendo clic en el vínculo **[!UICONTROL Volver a original]** encima de la plantilla.
 
-1. Para confirmar los cambios aplicados a esta plantilla, haga clic en Guardar. Ahora los usuarios pueden recibir notificaciones por correo electrónico con la plantilla de correo electrónico modificada.
+6. Para confirmar los cambios aplicados a esta plantilla, haga clic en Guardar. Ahora los usuarios pueden recibir notificaciones por correo electrónico con la plantilla de correo electrónico modificada.
 
 ## Personalizar la configuración de una plantilla de correo electrónico {#customizesettingsofanemailtemplate}
 
 1. Para abrir la página de configuración, haga clic en **[!UICONTROL Configuración]**. Ahora puede personalizar las plantillas de correo electrónico.
 1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite **[!UICONTROL Nombre y dirección del remitente].**
 
-   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
+   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
 
 1. Personalice su banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
 
@@ -100,23 +102,6 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 
 1. Configure si los responsables también deben recibir correos electrónicos enviados a sus subordinados directos usando la casilla de verificación bajo la opción **[!UICONTROL Correo electrónico de responsable opcional]**.
 
-## Habilitar o deshabilitar el correo electrónico en un nivel de función
-
-El administrador puede activar o desactivar las plantillas de correo electrónico según la función del destinatario, como alumno, responsable o instructor. Esto proporciona a los administradores más control sobre las notificaciones que se envían y ayuda a administrar el tipo y la frecuencia de las comunicaciones.
-
-Para activar o desactivar plantillas de correo electrónico:
-
-1. Inicie sesión en Adobe Learning Manager como administrador.
-2. Seleccione **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo.
-3. Para habilitar o deshabilitar en bloque las plantillas de correo electrónico para una función en particular, seleccione los puntos suspensivos (...) en el encabezado de columna y habilite todas las funciones aplicables en **[!UICONTROL Destinatarios de correo electrónico]**.
-
-   ![](assets/email-template-role.png)
-   _Enviar todas las plantillas de correo electrónico en el nivel de rol_
-
-4. Para habilitar o deshabilitar una plantilla de correo electrónico específica para un rol, seleccione los puntos suspensivos (...) para esa plantilla y seleccione o anule la selección de un rol.
-
-   ![](assets/email-template-role-1.png)
-   _Enviar una plantilla de correo electrónico en un nivel de rol_
 
 ## Configurar la frecuencia de los mensajes de correo electrónico de resumen {#setfrequencyofdigestemails}
 
@@ -178,7 +163,7 @@ Puedes descargar el informe de acceso al correo electrónico haciendo clic en el
 
 ## Personalizar el dominio del correo electrónico {#customizeemaildomain}
 
-Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
+Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
 
 Su solicitud se procesará y se le enviará un correo electrónico con un vínculo de confirmación a la nueva dirección de correo electrónico que especifique. Haga clic en el vínculo de verificación proporcionado en el correo electrónico para confirmar y completar el proceso de verificación.
 
@@ -275,6 +260,6 @@ Para desactivar la plantilla de correo electrónico, seleccione la plantilla cor
 
 +++Cómo cambiar el nombre y la dirección del remitente en la plantilla?
 
-Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager).
+Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

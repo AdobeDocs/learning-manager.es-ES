@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '27011'
+source-wordcount: '27129'
 ht-degree: 70%
 
 ---
@@ -56,20 +56,19 @@ Consulte este [artículo](/help/migrated/administrators/feature-summary/email-te
 
 ### Información general
 
-Cuando el módulo de contenido de un curso completado se actualizó a una versión más reciente, los alumnos encontraron una pantalla en blanco. Este problema se producía incluso cuando el autor optaba por aplicar el nuevo contenido únicamente a los alumnos que aún no habían iniciado el curso. El problema afectaba a la experiencia del usuario y provocaba confusión entre los alumnos que intentaban volver a visitar el curso, ya que tenían problemas de reproducción.
+Cuando el módulo de contenido de un curso completado se actualizaba a una versión más reciente, los alumnos que ya habían completado el curso seguían recibiendo la versión del módulo actualizada en segundo plano. Esto provocó un comportamiento inesperado al intentar volver a visitar el curso, ya que el contenido actualizado no estaba destinado a ellos.
 
 ### Comportamiento existente
 
-Cuando los autores actualizaron el contenido del curso a una nueva versión (V2) y lo aplicaron solo a alumnos que aún no habían comenzado, Adobe Learning Manager actualizó la versión del módulo para alumnos completados en segundo plano y estos alumnos vieron una pantalla en blanco al intentar acceder de nuevo al contenido, ya que el módulo actualizado ya no era válido para ellos.
+Cuando los autores actualizaron el contenido del curso a una nueva versión y optaron por aplicarlo solo a los alumnos que aún no habían iniciado el curso, Adobe Learning Manager siguió actualizando la versión del módulo para los alumnos que ya lo habían completado. Como resultado, estos alumnos no pudieron acceder al contenido original como se esperaba.
 
-### Ejemplos:
-
-* Un alumno terminado intentó volver a visitar el curso después de la actualización y se le mostró una pantalla en blanco.
-* Un alumno en curso completó el curso, pero más tarde se encontró con una pantalla en blanco después de actualizar de forma silenciosa la versión del contenido.
+Esta mejora garantiza que, cuando se actualice un módulo de curso y se defina para aplicarse solo a alumnos que aún no han comenzado, los alumnos que ya han completado el curso conserven el acceso ininterrumpido a la versión original.
 
 ### Cambios habidos
 
-Adobe Learning Manager presenta opciones de control de versiones más claras para los autores al actualizar contenido. Los autores verán ahora tres opciones bien definidas durante una actualización de la versión del contenido:
+Adobe Learning Manager ahora proporciona a los autores opciones más claras para administrar las actualizaciones de contenido. Los autores pueden actualizar el contenido ya disponible en un curso. Cuando se agrega una nueva versión, el número de versión aparece junto al contenido.
+
+Cuando un administrador visita un curso con contenido actualizado, verá un botón Actualizar junto a la nueva versión. Los administradores también verán opciones claras de actualización para elegir cómo se aplica la nueva versión de contenido a los alumnos.
 
 | Estado del alumno | Actualizar ahora | Actualizar eventualmente | Actualización no iniciada |
 |---|---|---|---|
@@ -78,13 +77,17 @@ Adobe Learning Manager presenta opciones de control de versiones más claras par
 | En curso | V2 * | V1 → V2 * | V1 |
 | Completado | V2 * | V2 * | V1 (conservado) |
 
-(*) Indica que el módulo se restablecerá al actualizar la versión.
+(*) Indica que el módulo se restablecerá cuando se actualice la versión.
 
-En **[!UICONTROL Actualización no iniciada]**, el alumno completado seguirá viendo la versión de contenido existente (V1), lo que resolverá el problema de las pantallas en blanco inesperadas.
+Con la actualización no iniciada, los alumnos que ya han completado el curso siguen viendo la versión de contenido original (V1). Esto evita problemas de reproducción inesperados y garantiza una experiencia uniforme para los alumnos que vuelven a visitar los cursos completados.
 
-* **[!UICONTROL Actualizar ahora]**: Aplicar actualización de contenido para todos los alumnos (los alumnos sin iniciar, en curso y completados se moverán a una nueva versión de contenido ahora)
-* **[!UICONTROL Actualizar al final]**: finalmente se aplica la actualización de contenido para todos los alumnos (los alumnos no iniciados y completados se moverán a la nueva versión de contenido ahora; los alumnos en curso se moverán al finalizar)
-* **[!UICONTROL Actualización no iniciada]**: Aplicar actualización de contenido solo para alumnos no iniciados (los alumnos en curso y completados permanecerían en la versión de contenido existente)
+### Opciones de actualización de contenido
+
+Cuando un administrador hace clic en **[!UICONTROL Actualizar]**, puede elegir entre las siguientes opciones:
+
+* **[!UICONTROL Actualizar todos los alumnos ahora]**: aplique la actualización de contenido inmediatamente para todos los alumnos. Los alumnos Sin iniciar, En curso y Completado se pasan inmediatamente a la nueva versión.
+* **[!UICONTROL Actualizar todos los alumnos]**: aplique la actualización para todos los alumnos en fases. Los alumnos No iniciado y Completado reciben ahora la nueva versión. Los alumnos en curso obtienen la actualización después de completar la versión actual.
+* **[!UICONTROL Actualizar solo alumnos no iniciados]**: aplique la actualización solo a los alumnos que aún no han iniciado el curso. Los alumnos en curso y completados permanecen en la versión original.
 
 ### Cambios en la interfaz de usuario
 
@@ -94,9 +97,14 @@ En **[!UICONTROL Actualización no iniciada]**, el alumno completado seguirá vi
 | Aplicar la actualización a los alumnos aún por iniciar | Actualizar sólo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
 | Los alumnos en curso reciben una actualización después de completarse | Actualizar todos los alumnos eventualmente: Aplicar la actualización de contenido para todos los alumnos eventualmente |
 
-![](assets/version-control-options.png)
+<!--![](assets/version-control-options.png)
+_Content update options_-->
 
 Consulte este [artículo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) para obtener más información sobre la biblioteca de contenido.
+
+## Error corregido en esta versión
+
+* Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
 +++
 
@@ -1575,7 +1583,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -1953,7 +1961,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -2577,7 +2585,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3087,7 +3095,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se usó para representar grupos externos,**&#x200B;** se **&#x200B;**&#x200B;quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se usó para representar grupos externos,**** se **** quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la dirección URL en el correo electrónico recibido por los administradores cada vez que se editan las plantillas de correo electrónico **Profile Created(Self-Registration)** y **Profile Created(External/Partners)**. Este problema se ha solucionado.
