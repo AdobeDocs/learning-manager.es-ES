@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Añadir usuarios en Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 6997eed011b0d133842473028826113b98322e87
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -28,14 +28,6 @@ Los usuarios internos de Adobe Learning Manager se refieren a los empleados o mi
 
 Los usuarios de Adobe Learning Manager pueden asumir diferentes responsabilidades y administrar diversas tareas en función de las funciones que tengan asignadas. Cada función, incluidos el administrador, el autor, el instructor y el administrador de integración, ofrece un conjunto de capacidades específicas adaptadas para respaldar las responsabilidades del usuario dentro de la plataforma.
 
-Adobe Learning Manager admite las siguientes funciones de usuario:
-
-* **Administrador**: Administra usuarios y grupos de usuarios, asigna funciones y configura preferencias en todo el sistema como orígenes de datos, dominios permitidos y opciones de visualización. Los administradores también son responsables de crear y organizar el contenido de aprendizaje, realizar el seguimiento del progreso de los alumnos, generar informes y configurar integraciones con sistemas externos.
-* **Autor**: Crea y administra contenido, incluidos módulos y cursos.
-* **Responsable**: supervisa las actividades de aprendizaje del equipo, designa a miembros del equipo para los cursos, aprueba solicitudes y proporciona comentarios.
-* **Administrador de integración**: Administra las integraciones del sistema y las conexiones de datos entre ALM y las plataformas externas.
-* **Funciones personalizadas**: los administradores pueden crear funciones personalizadas para dar a los usuarios acceso personalizado en función de sus responsabilidades. Consulte este artículo para obtener más información sobre las funciones personalizadas.
-
 ### Métodos para añadir usuarios internos
 
 Los administradores pueden añadir usuarios internos mediante los siguientes métodos:
@@ -46,7 +38,7 @@ Los administradores pueden añadir usuarios internos mediante los siguientes mé
 
 ### Añadir manualmente un usuario interno
 
-Los administradores pueden añadir manualmente usuarios individuales introduciendo su nombre, ID de correo electrónico, identificador único y nombre del responsable. El identificador único de Adobe Learning Manager es un identificador necesario que los administradores asignan al crear un usuario. Debe ser único para cada usuario y servir de referencia coherente en todo el sistema.
+Los administradores pueden agregar manualmente un usuario proporcionando su nombre, correo electrónico, identificador único y nombre del responsable. El identificador único de Adobe Learning Manager es un identificador necesario que los administradores asignan al crear un usuario. Debe ser único para cada usuario y servir de referencia coherente en todo el sistema.
 
 >[!INFO]
 >
@@ -55,8 +47,8 @@ Los administradores pueden añadir manualmente usuarios individuales introducien
 Para añadir un solo usuario a Adobe Learning Manager:
 
 1. Inicie sesión como administrador.
-2. Seleccione **Usuarios** y, a continuación, seleccione **Interno**.
-3. Seleccione **Agregar** y, a continuación, seleccione **Usuario único**.
+2. Seleccione **Usuarios** y, a continuación, elija **Interno**.
+3. Selecciona **Agregar** y luego elige **Usuario único**.
 
    ![](assets/add-single-user.png)
    _Interfaz de administrador que muestra la opción de agregar manualmente un único usuario interno_
@@ -76,8 +68,8 @@ El registro automático es un proceso de incorporación de autoservicio en el qu
 Para crear una URL de registro automático para un usuario:
 
 1. Inicie sesión como administrador.
-2. Seleccione **Usuarios** y, a continuación, seleccione **Interno**.
-3. Seleccione **Agregar** en la esquina superior derecha y, a continuación, seleccione **Registro automático.**
+2. Seleccione **Usuarios** y, a continuación, elija **Interno**.
+3. Seleccione **Agregar** y, a continuación, elija **Registro automático.**
 
 
    ![](assets/add-self-register-link.png)
@@ -108,7 +100,7 @@ _El vínculo de registro automático abre una página de registro_
 
 Para ver la lista de direcciones URL de registro automático:
 
-1. Seleccione **Usuarios** y, a continuación, seleccione **Interno**.
+1. Seleccione **Usuarios** y, a continuación, elija **Interno**.
 2. Seleccione **Registro automático**.
 
    Los administradores pueden ver la lista de direcciones URL de registro automático.
@@ -118,7 +110,7 @@ _Vista de lista que muestra las direcciones URL de registro automático disponib
 
 ### Cargar usuarios internos en bloque
 
-Adobe Learning Manager permite a los administradores añadir varios usuarios a la vez cargando un archivo CSV que contiene la información del usuario, incluidos el nombre, el ID de correo electrónico y el nombre del responsable. Esta función de carga en bloque ahorra tiempo y esfuerzo en comparación con la adición de usuarios individualmente.
+Los administradores pueden añadir varios usuarios a la vez cargando un archivo CSV con información de usuario como el nombre, la dirección de correo electrónico y el nombre del responsable. Esta función de carga en bloque ahorra tiempo y esfuerzo en comparación con la adición de usuarios individualmente.
 
 >[!INFO]
 >
@@ -127,8 +119,8 @@ Adobe Learning Manager permite a los administradores añadir varios usuarios a l
 Para añadir varios usuarios:
 
 1. Inicie sesión como administrador.
-2. Seleccione **Usuarios** y, a continuación, seleccione **Interno**.
-3. Seleccione **Agregar** en la esquina superior derecha y seleccione **Cargar un CSV**.
+2. Seleccione **Usuarios** y, a continuación, elija **Interno**.
+3. Selecciona **Agregar** y luego elige **Cargar un CSV**.
 
    ![](assets/select-upload-acsv.png)
    _Opción para cargar un archivo CSV para la importación masiva de usuarios_
@@ -171,7 +163,7 @@ Para registrar a los usuarios:
 
 1. Seleccione **Usuarios** en la página principal del administrador.
 2. Seleccione las casillas de verificación junto a los nombres de los usuarios que desea registrar.
-3. Seleccione **Acciones** y, a continuación, **Registrar**.
+3. Seleccione **Acciones** y, a continuación, elija **Registrar**.
 
    ![](assets/register-user.png)
    _Botón de registro para activar los usuarios seleccionados en Adobe Learning Manager_
@@ -196,17 +188,17 @@ Adobe Learning Manager admite la inscripción de estos usuarios a través de per
 Para crear un usuario externo, siga estos pasos:
 
 1. Inicie sesión como administrador.
-2. Seleccione **Usuarios** y, a continuación, seleccione **Externo**.
-3. En la esquina superior derecha, selecciona **Agregar** para crear un registro para un usuario externo.
+2. Seleccione **Usuarios** y, a continuación, elija **Externo**.
+3. Seleccione **Agregar** para crear un registro para un usuario externo.
 4. En el cuadro de diálogo **Agregar perfil de registro externo**, proporcione lo siguiente:
 
-   * **Nombre de perfil:** Escriba el nombre de la organización asociada que desea obtener acceso a Adobe Learning Manager
+   * **Nombre de perfil:** Escriba el nombre.
    * **Correo electrónico del administrador:** Escriba la dirección de correo electrónico del administrador.
    * **Límite de puestos:** Establezca el número máximo de inscripciones permitidas.
    * **Caducidad:** Defina la última fecha para nuevos registros. Una vez que caduque, el vínculo no funcionará para el nuevo registro de usuario.
 
    ![](assets/add-external-user-prompt.png)
-   _Cuadro de diálogo para introducir el nombre del perfil, el correo electrónico del administrador, el límite de puestos y la caducidad_
+   _Cuadro de diálogo para especificar el nombre del perfil, el correo electrónico del administrador, el límite de puestos y la caducidad_
 
 5. Seleccione una imagen con la opción **Agregar imagen**. Esta imagen estará visible para los alumnos en la sección de perfil.
 6. Seleccione la sección **Configuración avanzada** para expandirla y escriba los detalles necesarios:
@@ -226,7 +218,6 @@ Se generará una URL de registro.
 Para activar el perfil externo:
 
 1. Localice el perfil recién creado en la lista de perfiles externos.
-
 2. Seleccione el botón de alternancia **Estado** para habilitarlo.
 
 El administrador puede compartir esta dirección URL con el socio externo para que pueda registrarse e iniciar sesión en Adobe Learning Manager con ella.
@@ -248,7 +239,7 @@ Existen algunas diferencias entre los registros internos y externos:
 | Usuarios internos | Usuarios externos |
 |---|---|
 | Puede iniciar sesión con las credenciales de Adobe ID o SSO. | Puede iniciar sesión con cualquier ID de correo electrónico. |
-| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/gamification). |
+| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -259,7 +250,7 @@ Para pausar un perfil externo:
 1. Seleccione **Acciones** en la esquina superior derecha de la página **Usuarios externos**.
 2. Seleccione **Pausar** para pausar el perfil de registro externo.
 
-Esto bloquea el proceso de registro para los usuarios que aún no han aceptado sus invitaciones. Tenga en cuenta que esta acción solo afecta a los usuarios que aún no han completado su registro.
+Esto bloquea los nuevos registros de los usuarios que no hayan aceptado sus invitaciones. Tenga en cuenta que esta acción solo afecta a los usuarios que aún no han completado su registro.
 
 ![](assets/pause-external-user.png)
 _Opción para pausar un perfil de registro externo existente desde el menú Acciones_
@@ -288,7 +279,7 @@ Puede ver el número de alumnos añadidos a la organización asociada y si los a
 
 ## Administrar usuarios
 
-Los administradores pueden editar los detalles de los usuarios, eliminar usuarios, asignar funciones y eliminar funciones. Esto ayuda a garantizar que cada usuario tenga el acceso y las tareas adecuados.
+Los administradores pueden editar los detalles de los usuarios, eliminar usuarios, asignar funciones y eliminarlas. Esto ayuda a garantizar que cada usuario tenga el acceso y las tareas adecuados.
 
 >[!INFO]
 >
@@ -314,6 +305,14 @@ Aparece un mensaje de confirmación cuando el usuario se elimina correctamente.
 ## Asignar una función a un usuario
 
 Las funciones de usuario en Adobe Learning Manager definen qué acciones puede realizar cada persona en el sistema. Cada función incluye permisos específicos basados en las responsabilidades del usuario.
+
+Adobe Learning Manager admite las siguientes funciones de usuario:
+
+* **Administrador**: Administra usuarios y grupos de usuarios, asigna funciones y configura preferencias en todo el sistema como orígenes de datos, dominios permitidos y opciones de visualización. Los administradores también son responsables de crear y organizar el contenido de aprendizaje, realizar el seguimiento del progreso de los alumnos, generar informes y configurar integraciones con sistemas externos.
+* **Autor**: Crea y administra contenido, incluidos módulos y cursos.
+* **Responsable**: supervisa las actividades de aprendizaje del equipo, designa a miembros del equipo para los cursos, aprueba solicitudes y proporciona comentarios.
+* **Administrador de integración**: Administra las integraciones del sistema y las conexiones de datos entre ALM y las plataformas externas.
+* **Funciones personalizadas**: los administradores pueden crear funciones personalizadas para dar a los usuarios acceso personalizado en función de sus responsabilidades. Consulte este [artículo](/help/migrated/administrators/feature-summary/custom-role.md) para obtener más información sobre las funciones personalizadas.
 
 Para asignar funciones a usuarios:
 
