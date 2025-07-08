@@ -4,10 +4,10 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
-ht-degree: 6%
+source-wordcount: '4504'
+ht-degree: 5%
 
 ---
 
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Generar transcripciones de alumnos
 
-**Códigos de error**
+### Códigos de error
+
+Al trabajar con las API de Adobe Learning Manager (ALM), los desarrolladores pueden encontrar varios códigos de error HTTP durante las solicitudes. Estos errores proporcionan información importante sobre qué ha fallado y cómo solucionarlo. Conocer estos códigos ayuda a los desarrolladores a solucionar problemas rápidamente, mejorar la fiabilidad de la API y garantizar integraciones más fluidas. La siguiente tabla es una guía de los códigos de error HTTP comunes devueltos por las API de ALM, junto con explicaciones y situaciones típicas en las que se producen. Esta sección es esencial para cualquiera que cree, pruebe o depure aplicaciones que se conecten a ALM.
 
 | Estado HTTP | Significado | Resolución de problemas |
 |---|---|---|
