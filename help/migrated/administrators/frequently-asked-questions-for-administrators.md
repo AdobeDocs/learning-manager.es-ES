@@ -257,7 +257,7 @@ Puede cambiar el inicio de sesión de su cuenta a otras funciones como alumno, r
 Los responsables, autores y alumnos pueden ver las notificaciones basadas en las actividades del curso. El administrador puede habilitar y deshabilitar las notificaciones para todos los usuarios siguiendo los pasos a continuación:
 
 1. Haga clic en Plantillas de correo electrónico en el panel izquierdo y seleccione las pestañas General, Inscripciones de usuario, Finalizaciones y Comentarios.
-1. De los eventos que se enumeran a continuación, haga clic en los botones de alternar No/Sí junto a **cada evento **y seleccione Sí para habilitar la notificación. Haga clic en No para deshabilitar el envío de notificaciones para un determinado evento.
+1. De los eventos que se enumeran a continuación, haga clic en los botones de alternar No/Sí junto a **cada evento &#x200B;** y seleccione Sí para habilitar la notificación. Haga clic en No para deshabilitar el envío de notificaciones para un determinado evento.
 
 +++
 
