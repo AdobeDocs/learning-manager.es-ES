@@ -4,9 +4,9 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Este manual cubre lo siguiente:
 
 ## Escenarios de uso de API
 
-Los desarrolladores pueden utilizar las API de Learning Manager para mejorar o integrar Learning Manager con otras aplicaciones empresariales. Puede crear aplicaciones web, de escritorio o móviles con cualquier tecnología. Los desarrolladores pueden acceder a los datos de la aplicación en Learning Manager, pero la implementación es externa y está totalmente controlada por usted. Las aplicaciones las suelen desarrollar las organizaciones de clientes para sus propias cuentas, mientras que los socios de Adobe pueden crear aplicaciones generales para un uso más amplio.
+Los desarrolladores pueden utilizar las API de Learning Manager para mejorar o integrar Learning Manager con otras aplicaciones empresariales. Puede crear aplicaciones web, de escritorio o móviles con cualquier tecnología. Los desarrolladores pueden acceder a los datos de Learning Manager, pero el usuario controla dónde y cómo se utiliza la aplicación.
 
 ## Autenticación mediante OAuth 2.0
 
@@ -79,7 +79,7 @@ Integra Adobe Learning Manager con aplicaciones externas para una versatilidad m
 
 Después de obtener el ID de cliente y el secreto de cliente, utilícelos para solicitar un token de acceso, que se utiliza para autenticar llamadas de API.
 
-Para comenzar el flujo de código de autorización, dirija a los usuarios a la siguiente dirección URL en un navegador:
+Para comenzar el flujo de código de autorización, agregue la siguiente dirección URL en un explorador:
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ Un token de acceso es válido durante siete días. Después de siete días, debe
 
 ### Obtener tokens de acceso para pruebas y desarrollo
 
-Utilice la herramienta de generación de tokens de Adobe Learning Manager (ALM) para crear rápidamente tokens de acceso con fines de prueba y desarrollo. Estos tokens están pensados únicamente para su uso personal durante las fases de desarrollo y depuración. Tenga en cuenta que los tokens de prueba conceden acceso a sus datos de ALM, por lo que es esencial tratarlos de forma segura. No comparta nunca sus tokens de prueba con otros usuarios, no los utilice en aplicaciones de producción ni los incluya en repositorios de código públicos. Trátalos como contraseñas para garantizar la seguridad de tu cuenta y tus datos.
+Cuando se trabaja con API de Adobe Learning Manager (ALM), los desarrolladores necesitan un token de acceso de OAuth 2.0 válido para autenticar las solicitudes de API. La generación de este token a través del flujo estándar de OAuth puede resultar compleja y requerir mucho tiempo, especialmente para pruebas, aprendizaje o desarrollo rápidos. Adobe Learning Manager proporciona una herramienta de generación de tokens para simplificar este proceso.
+
+Esta herramienta es ideal durante:
+
+* Compilaciones de prueba de concepto (POC)
+
+* Desarrollo en fase inicial
+
+* Solución de problemas de integración de API
+
+Estos tokens están pensados únicamente para su uso personal durante las fases de desarrollo y depuración. Tenga en cuenta que los tokens de prueba conceden acceso a sus datos de ALM, por lo que es esencial tratarlos de forma segura. No comparta nunca sus tokens de prueba con otros usuarios, no los utilice en aplicaciones de producción ni los incluya en repositorios de código públicos. Trátalos como contraseñas para garantizar la seguridad de tu cuenta y tus datos.
 
 1. Inicie sesión en Adobe Learning Manager como administrador de integración.
 2. Seleccione **[!UICONTROL Recursos de desarrolladores]** y, a continuación, **[!UICONTROL seleccione Tokens de acceso para pruebas y desarrollo]**.
