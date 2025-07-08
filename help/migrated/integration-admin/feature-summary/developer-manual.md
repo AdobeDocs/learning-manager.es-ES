@@ -4,9 +4,9 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Este manual cubre lo siguiente:
 
 * Autenticación de OAuth2.0
 * Modelos de objetos de API
-* Muestra cómo utilizar include, campos y otros parámetros
-* Proporciona puntos finales para casos prácticos reales
+* Incluir, campos y otros parámetros
+* Casos prácticos del mundo real
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Para acceder a las API de Adobe Learning Manager de forma segura, debe autentica
 
 ### Registrar una aplicación
 
-Integra Adobe Learning Manager con aplicaciones externas para una versatilidad mejorada. Los pasos implican el acceso a la interfaz del administrador de integración, el registro de la aplicación y la obtención del ID y el secreto de cliente. Genere tokens de autenticación (OAuth, Refresh y Access Tokens) desde ALM, haciendo hincapié en el uso del marco de trabajo OAuth 2.0 para la autenticación y la autorización. El token de acceso tiene una validez de siete días.
+Integra Adobe Learning Manager con aplicaciones externas para una versatilidad mejorada. Los pasos implican el acceso a la interfaz del administrador de integración, el registro de la aplicación y la obtención del ID y el secreto de cliente. Genere tokens de autenticación de OAuth 2.0, incluidos tokens de autorización, actualización y acceso, desde Adobe Learning Manager. Use el flujo de OAuth 2.0 para autenticar y autorizar de forma segura su aplicación. El token de acceso tiene una validez de siete días.
 
 1. Inicie sesión en Adobe Learning Manager como administrador de integración.
 2. Seleccione **[!UICONTROL Aplicaciones]** en el panel izquierdo.
@@ -174,7 +174,7 @@ Como antes, el token de acceso para las pruebas caduca en siete días.
 
 ### Usar una herramienta de API para probar los puntos finales
 
-Aunque puedes usar cualquier herramienta de prueba de API de terceros, usaremos Postman para probar los puntos finales. En los ejemplos de este documento se utiliza Postman para pruebas de puntos finales.
+Aunque puedes usar cualquier herramienta de prueba de API de terceros, usaremos Postman para probar los puntos finales. En los ejemplos de este documento se utiliza Postman para probar los puntos finales.
 
 1. Abra Postman y cree una nueva solicitud.
 2. Seleccione la ficha Autorización.
@@ -283,7 +283,7 @@ Añada el parámetro include a la URL de la API y especifique las entidades rela
 
 **Ejemplo 1**
 
-Recupere los detalles de un usuario mediante el parámetro userID en el extremo
+Recupere los detalles de un usuario utilizando el parámetro userID en el extremo.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -430,7 +430,7 @@ Las API de ALM admiten la paginación a través de parámetros como:
 
 * page[limit]: número de registros por página.
 * page[offset]: número de registros que se van a omitir.
-* page[cursor]: puntero al siguiente conjunto de resultados. En lugar de utilizar la paginación basada en desplazamiento (que omite una serie de registros), la paginación basada en cursor utiliza un marcador único devuelto por la API para obtener la siguiente página de resultados.
+* page[cursor]: puntero al siguiente conjunto de resultados. En lugar de utilizar la paginación basada en desplazamiento (que omite varios registros), la paginación basada en cursor utiliza un marcador único devuelto por la API para obtener la siguiente página de resultados.
 
 A continuación se indica cómo utilizar la paginación en las API:
 
@@ -841,8 +841,11 @@ Esto significa que el usuario externo se ha añadido correctamente a Adobe Learn
 
 ### Extraer informe de usuarios con el ID de usuario y los detalles del responsable
 
-Se puede descargar un informe de usuario directamente desde la interfaz de usuario (**[!UICONTROL Administrador]** > **[!UICONTROL Usuarios]** > **[!UICONTROL Interno]**). Sin embargo, el informe no devuelve el ID de usuario ni los detalles del responsable asociado.
-Con la API de trabajos de un administrador, puede recuperar los detalles.
+Se puede descargar un informe de usuario directamente desde la interfaz de usuario del administrador (**[!UICONTROL Administrador]** > **[!UICONTROL Usuarios]** > **[!UICONTROL Interno]**). Sin embargo, el informe no devuelve el ID de usuario ni los detalles del responsable asociado.
+
+Utilice la API Trabajos para descargar el informe. La API de trabajos ayuda a generar informes, operaciones en bloque (inscripciones o asignaciones de insignias), finalizaciones de certificaciones o generación de insignias.
+
+Así es como puedes descargar el informe:
 
 1. Añada la siguiente carga a la API de trabajos.
 
