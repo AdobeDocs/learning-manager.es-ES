@@ -3,10 +3,10 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
-ht-degree: 73%
+source-wordcount: '3619'
+ht-degree: 72%
 
 ---
 
@@ -546,7 +546,7 @@ A continuación, encontrará las especificaciones de CSV estándar que puede usa
 
 ## Solución de problemas de migración {#troubleshootingmigrationissues}
 
-[Haga clic aquí](../../kb/troubleshooting-migration.md) para obtener información sobre la solución a los problemas que encuentran los administradores de integración al migrar datos y contenido de los LMS a la aplicación Learning Manager.
+Consulte este [artículo](../../kb/troubleshooting-migration.md) para obtener información sobre la solución a los problemas a los que se enfrentan los administradores de integración al migrar datos y contenido de su LMS existente a la aplicación Learning Manager.
 
 ## Consejos para la administración de usuarios {#usermanagement}
 

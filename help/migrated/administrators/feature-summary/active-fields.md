@@ -2,13 +2,13 @@
 description: Aprenda a utilizar Campos activos en Adobe Learning Manager para capturar, organizar y administrar información de usuario personalizada. Mejora la creación de informes, el filtrado y la segmentación de usuarios con configuraciones de campo flexibles.
 jcr-language: en_us
 title: Configurar campos activos en Adobe Learning Manager
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
-
 
 # Campos activos
 
@@ -122,6 +122,4 @@ En algunos casos, los administradores prefieren que los alumnos rellenen manualm
 
 Si un archivo CSV no incluye todos los campos activos, el administrador debe introducir manualmente los valores que faltan después de la importación.
 
-De forma predeterminada, todos los campos activos deben asignarse a un campo correspondiente en el archivo CSV de origen. Sin embargo, si no desea asignar un campo activo específico a ninguna columna del archivo CSV, puede seleccionar el valor **DontImportFromSource** en la lista desplegable durante los procesos de importación de Box y FTP. Esta opción está disponible al importar usuarios mediante conectores de FTP o Box. Consulte este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/connectors) para obtener más información sobre los conectores.
-
-
+De forma predeterminada, todos los campos activos deben asignarse a un campo correspondiente en el archivo CSV de origen. Sin embargo, si no desea asignar un campo activo específico a ninguna columna del archivo CSV, puede seleccionar el valor **DontImportFromSource** en la lista desplegable durante los procesos de importación de Box y FTP. Esta opción está disponible al importar usuarios mediante conectores de FTP o Box. Consulte este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) para obtener más información sobre los conectores.

@@ -4,9 +4,9 @@ title: Preguntas más frecuentes para administradores
 description: Preguntas más frecuentes para administradores de Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++¿Puedo añadir usuarios en bloque? ¿Cómo lo hago?
 
-Puede añadir usuarios en bloque con la función de carga del archivo .csv. Haga clic [aquí](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) para obtener más información.
+Puede añadir usuarios en bloque con la función de carga del archivo .csv. Consulte este [artículo](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) para obtener más información.
 
 +++
 
@@ -257,7 +257,7 @@ Puede cambiar el inicio de sesión de su cuenta a otras funciones como alumno, r
 Los responsables, autores y alumnos pueden ver las notificaciones basadas en las actividades del curso. El administrador puede habilitar y deshabilitar las notificaciones para todos los usuarios siguiendo los pasos a continuación:
 
 1. Haga clic en Plantillas de correo electrónico en el panel izquierdo y seleccione las pestañas General, Inscripciones de usuario, Finalizaciones y Comentarios.
-1. De los eventos que se enumeran a continuación, haga clic en los botones de alternar No/Sí junto a **cada evento &#x200B;** y seleccione Sí para habilitar la notificación. Haga clic en No para deshabilitar el envío de notificaciones para un determinado evento.
+1. De los eventos que se enumeran a continuación, haga clic en los botones de alternar No/Sí junto a cada evento y elija Sí para habilitar la notificación. Haga clic en No para deshabilitar el envío de notificaciones para un determinado evento.
 
 +++
 

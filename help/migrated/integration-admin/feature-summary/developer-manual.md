@@ -4,7 +4,7 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **Otros filtros incluidos**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Programas de aprendizaje</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerrequisitoLOs</br><br>authors</br><br>instance.loResources.resources</br><br>suplementarioLOs.instance.loResources.resources</br><br>suplementarioResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerrequisitoLOs.enrollment</br><br>enrollment.loResource Grados</br>
   </td>
   </tr>
+  </table>
 
 #### campos
 
