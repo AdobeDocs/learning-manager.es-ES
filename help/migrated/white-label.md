@@ -4,9 +4,9 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -46,109 +46,213 @@ Se pueden personalizar las siguientes opciones:
 ### Campos
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>Id De Cuenta</p>
+
    </td>
+
    <td>
+
     <p>El ID de su cuenta. Tenga en cuenta que los alumnos que pertenezcan a cualquier otra cuenta no podrán acceder a la aplicación con etiqueta blanca.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Id. de cuenta adicionales</p>
+
    </td>
+
    <td>
+
     <p>Agregue varias cuentas (subdominios) si lo desea. Añada los subdominios separados por comas sin espacios. Por ejemplo, acc01,acc02,acc03, etc.<br> <b>Nota:</b> Debe agregar el id. de cuenta al especificar los subdominios.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nombre de aplicación</p></td>
+
    <td>
+
     <p>El nombre que desea usar para la aplicación.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nombre abreviado de la aplicación</p>
+
    </td>
+
    <td>
+
     <p>En los casos en que el nombre de la aplicación sea largo, asigne a la aplicación un nombre corto que aparezca en el dispositivo.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nombre de aplicación interna</p></td>
+
    <td>
+
     <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es: com.nombre-empresa.nombre-producto.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nombre de la aplicación interna: iOS</p>
+
    </td>
+
    <td>
+
     <p>Asigne a la aplicación un nombre diferente si los usuarios están en iOS. Se recomienda utilizar el mismo nombre para iOS y Android.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Icono de aplicación</p>
+
    </td>
+
    <td>
+
     <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.<div>Tenga en cuenta que Apple no permite el canal de Alpha en los iconos de la aplicación. Por lo tanto, asegúrese de eliminar el canal del Alpha del recurso antes de enviarlo.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Pantalla de bienvenida de aplicaciones</p></td>
+
    <td>
+
     <p>Para la pantalla de bienvenida de su aplicación, proporcione una imagen (png) que aparezca cuando los usuarios inicien la aplicación. El formato que se debe asignar al nombre es account-id_splashIcon.png. Las dimensiones de las pantallas de bienvenida basadas en cuadrados son de 1052 × 1052 píxeles y las pantallas de bienvenida basadas en círculos son de 768 x 768 píxeles.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID de cliente y secreto de cliente</p>
+
    </td>
+
    <td>
+
     <p>El administrador de integración de su cuenta proporciona los detalles al registrar la aplicación. El administrador de integración debe utilizar lo siguiente:<ul><li>alumno:leer,alumno:escribir como función</li><li>aplicación interna name://redirect como URL de redirección</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Logotipo de la cuenta</p>
+
    </td>
+
    <td>
+
     <p>La dirección URL que aloja el logotipo de su organización. Proporcione un vínculo cpcontents como logotipo de la cuenta. La URL debe estar codificada en la web.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Id. de App Store para la aplicación (iOS)</p>
+
    </td>
+
    <td>
+
     <p>El ID necesario para implementar la actualización forzada. La aplicación debe saber que el alumno debe redirigirse a la tienda de aplicaciones para actualizar la aplicación.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID de Google Play Store para la aplicación (Android)</p>
+
    </td>
+
    <td>
+
     <p>El ID necesario para implementar la actualización forzada.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nombre de host para enlaces profundos</p>
+
    </td>
+
    <td>
+
     <p>Para alojar vínculos profundos, utilice learning Manager. Si desea utilizar otra dirección URL de nombre de host como vínculo profundo, proporcione la dirección URL del host. Por ejemplo, learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,7 +260,7 @@ Se pueden personalizar las siguientes opciones:
 >Proporciona los datos a tus CSAM para que puedan añadirlos al binario de tu aplicación personalizada.
 
 
-#### Actualizar asociación de sitio para controlar vínculos profundos personalizados
+#### Actualizar la asociación de sitios para controlar vínculos profundos personalizados
 
 Si utiliza un dominio personalizado o learningmanager\*.adobe.com como host, no es necesario realizar ninguna acción. Sin embargo, si utiliza una solución personalizada o un nombre de host específico para las direcciones URL, agregue los archivos de asociación del sitio.
 
@@ -169,6 +273,29 @@ Consulte los siguientes vínculos para obtener más información:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Obtener el ID del equipo para App Store
+
+Para obtener su ID de equipo:
+
+1. Inicie sesión en su cuenta de **[!UICONTROL Apple Developer]**.
+2. Selecciona **[!UICONTROL Detalles de la suscripción]** en la parte superior de la página y copia tu ID de equipo.
+
+Este ID es necesario para añadir la entrada de aplicación con etiqueta blanca en los archivos de metadatos para habilitar la vinculación profunda.
+
+## Obtener la huella digital SHA-256 para Android
+
+Se requiere la huella digital SHA-256 para el certificado de firma de Android al añadir la entrada de aplicación con etiqueta blanca.
+
+Para generar la huella digital SHA-256:
+
+1. Ejecute el siguiente comando:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+En la salida, busque las huellas digitales del certificado y, a continuación, copie el valor SHA-256. Comparta esta huella digital según sea necesario para la configuración de vínculos profundos.
 
 ## Generar notificaciones push
 
