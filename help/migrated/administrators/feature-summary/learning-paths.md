@@ -4,10 +4,10 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ La casilla de verificación **[!UICONTROL Permitir a los alumnos elegir instanci
 ![](assets/default-instance.png)
 
 *Instancias de ruta de aprendizaje*
+
+Los alumnos pueden inscribirse en un curso mediante un plan de aprendizaje o un administrador, incluso si el curso es flexible y requiere que el alumno seleccione una sesión. En estos casos, el sistema permite a los alumnos inscribirse aunque se alcance el límite de puestos, pero no pueden iniciar el curso hasta que haya un puesto disponible.
+
+La función de lista de espera solo se aplica cuando los alumnos se inscriben automáticamente. Cuando una sesión alcanza su límite de puestos, el instructor puede ver la lista de alumnos en lista de espera. Si hay puestos disponibles, el instructor puede añadir alumnos en lista de espera hasta que la sesión alcance su capacidad de nuevo.
 
 ## Notificaciones
 
