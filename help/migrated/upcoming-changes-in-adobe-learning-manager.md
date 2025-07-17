@@ -110,4 +110,4 @@ Los administradores personalizados solo pueden crear anuncios para los grupos de
 * El formato del informe se mantendrá sin cambios. Si los administradores personalizados lo descargan desde la interfaz de usuario, el contenido del informe estará sujeto a su ámbito.
 * No es necesario realizar modificaciones si este informe no se utiliza en ningún flujo de trabajo automatizado o descendente.
 
-Consulte el artículo [Notas de la versión](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) para obtener una lista acumulativa de las nuevas funciones y los cambios en Adobe Learning Manager.
+Consulte el artículo [Notas de la versión](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/release-notes) para obtener una lista acumulativa de las nuevas funciones y los cambios en Adobe Learning Manager.
