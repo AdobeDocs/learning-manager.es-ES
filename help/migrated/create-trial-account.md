@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Configurar una cuenta de prueba, de espacio aislado o de prueba en Adobe Learning Manager
 description: Aprenda a crear una prueba gratis de 30 días o una cuenta de espacio aislado en Adobe Learning Manager. Siga sencillos pasos para configurar su entorno de prueba y comenzar rápidamente.
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Crear una cuenta de prueba en Adobe Learning Manager
 
@@ -40,3 +40,4 @@ Para crear una cuenta de prueba:
 7. Después de la configuración, busque el ID de su cuenta en la URL de su URL de Adobe Learning Manager.
 
    ![](assets/account-id-trial.png)
+
