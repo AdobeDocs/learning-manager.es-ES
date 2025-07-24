@@ -4,10 +4,10 @@ title: Compatibilidad con dominios personalizados
 description: Los dominios personalizados no se admiten en una instancia de Azure de Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
@@ -32,9 +32,11 @@ La función de dominio personalizado está disponible por un coste adicional. P�
 
 * Para la función de alumno, el dominio comenzará por `https://cdn.<customer_custom_domain>/`. Por ejemplo, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Para todas las demás funciones, el dominio comenzará por `https://<customer_custom_domain>/`. Por ejemplo, `https://elearningstage1.cpdomaintest.in/`
-* La dirección URL de inicio de sesión real será `https://<customer_custom_domain>/acapindex` o `https://<customer_custom_domain>/login`. Reemplace `<customer_custom_domain>` por el dominio real de su organización.
+* La dirección URL de inicio de sesión real será `https://<customer_custom_domain>/acapindex` o `https://<customer_custom_domain>/login`.
 
-`<customer_custom_domain>` es la parte personalizable.
+>[!NOTE]
+>
+>Reemplace `<customer_custom_domain>` por el dominio real de su organización.
 
 ## Cómo configurar un dominio personalizado en una cuenta {#howtosetupacustomdomainonanaccount}
 
