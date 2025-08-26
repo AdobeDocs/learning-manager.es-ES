@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ En esta página, indique los datos siguientes:
 
 1. Para volver a publicar el curso con las actualizaciones, haga clic en **[!UICONTROL Volver a publicar]**.
 
+### Permitir a los instructores marcar como correcto
+
+Adobe Learning Manager permite a los instructores marcar el estado de éxito de los alumnos en un módulo de clase o de clase virtual. Los autores pueden conceder permiso a los instructores para marcar el estado de éxito de los alumnos al crear módulos de clase o de clase virtual. Los instructores pueden marcar el éxito marcando a un alumno como Aprobado o Suspenso y asegurándose de que el progreso se actualice en consecuencia.
+
+Para permitir que los instructores marquen el éxito del alumno:
+
+1. Inicie sesión en Adobe Learning Manager como autor.
+2. Seleccione **[!UICONTROL Crear cursos]** en la página principal.
+3. Seleccione **[!UICONTROL Agregar]**.
+4. Escriba los detalles necesarios y seleccione **[!UICONTROL Agregar módulos]**.
+5. Seleccione **[!UICONTROL Módulo de clase virtual]** o **[!UICONTROL Módulo de clase]**.
+6. Escriba los detalles necesarios y seleccione las fechas.
+7. Seleccione la opción **[!UICONTROL Permitir al instructor marcar como correcto]**.
+
+   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo ](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Pantalla Detalles de la sesión con la opción Permitir al instructor marcar como correcta resaltada para los módulos Clase o Clase virtual_
+
+8. Seleccione **[!UICONTROL Listo]**.
+
+
 ## Lista de verificación de observaciones
 
 Los responsables, además de los instructores, ahora pueden revisar un módulo de Lista de verificación. Los responsables de personal, así como los responsables no jerárquicos, como los responsables de tienda o los responsables de ubicación, pueden revisar y completar la lista de verificación.
@@ -805,7 +825,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Cuando los cursos se definen como obligatorios:
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo eliminar la opción Buscar nominación de responsable para un curso
++++¿Cómo eliminar Buscar nominación de responsable para un curso?
 
 Efectúe los pasos siguientes:
 
@@ -882,7 +902,7 @@ En un programa de aprendizaje, solo puede añadir cursos de inscripción automá
 
 +++
 
-+++Cómo asegurarse de que todos los alumnos no puedan ver todos los cursos
++++¿Cómo asegurarse de que no todos los alumnos puedan ver todos los cursos?
 
 Es factible mediante los catálogos. Un catálogo predeterminado contiene todos los cursos añadidos a Learning Manager de forma predeterminada.
 
@@ -903,13 +923,13 @@ Debe desactivar el catálogo predeterminado y crear catálogos personalizados.
 
 +++
 
-+++Cómo volver a inscribirse en un curso completado
++++¿Cómo volver a inscribirse en un curso completado?
 
 La finalización de un curso no se puede revertir. Un alumno **no puede volver a inscribirse** en un curso completado.
 
 +++
 
-+++¿Cómo pueden ver los alumnos el curso aunque lo hayan completado?
++++¿De qué manera pueden ver el curso los alumnos incluso después de haberlo completado?
 
 Un alumno puede ver un curso después de completarlo haciendo clic en el botón Regresar del curso.
 
@@ -921,7 +941,7 @@ Siga los pasos que se indican a continuación:
 
 +++
 
-+++Cómo añadir un archivo de recursos en el curso?
++++¿Cómo se añaden archivos de recursos al curso?
 
 Al crear un curso, puede añadir a él archivos de vídeo, audio, PDF o texto que sean pertinentes para el curso a fin de que el alumno pueda acceder a material de formación adicional.
 
@@ -929,7 +949,7 @@ Al crear un curso, puede añadir a él archivos de vídeo, audio, PDF o texto qu
 
 +++
 
-+++Cómo definir varios intentos en el módulo?
++++¿Cómo se configuran varios intentos en el módulo?
 
 **Requisito previo:** El administrador debe habilitar la opción **Varios intentos** en **Configuración > General** en la aplicación de administrador.
 
@@ -939,7 +959,7 @@ Para obtener más información, consulte la [sección sobre varios intentos](cou
 
 +++
 
-+++¿Puede descargar el contenido que se ha cargado en Adobe Learning Manager para modificarlo?
++++¿Se puede descargar el contenido que se ha cargado en Adobe Learning Manager para modificarlo?
 
 No, el contenido cargado en Learning Manager es un archivo zip publicado y no es el archivo de origen. Por lo tanto, incluso aunque se descargue el contenido, este no se puede editar en una herramienta de creación. Es necesario un archivo de origen para editar el contenido.
 

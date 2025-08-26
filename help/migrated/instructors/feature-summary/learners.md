@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ En la página Alumnos, puede ver la cantidad de alumnos confirmados que asisten 
 
    ![](assets/markattendance.png)
    *Marcar la asistencia del alumno*
+
+## Marcar como correcto para los alumnos
+
+Los instructores pueden marcar el estado de éxito de cada alumno como Aprobado o Suspenso directamente desde la página Alumnos. Esta función permite a los instructores registrar con precisión el resultado de las sesiones de clase o de clase virtual en función del rendimiento del alumno.
+
+Para marcar el éxito para los alumnos:
+
+1. Inicie sesión en Adobe Learning Manager como instructor.
+2. Seleccione **[!UICONTROL Próximas sesiones]** en el panel de navegación izquierdo.
+3. Seleccione **[!UICONTROL Alumnos]**.
+4. Seleccione a los alumnos y, a continuación, seleccione **[!UICONTROL Acciones]**.
+5. Seleccione cualquiera de las siguientes opciones para marcar el éxito de los alumnos seleccionados:
+
+   * **[!UICONTROL Marcar como aprobado y aprobado]**: los alumnos marcados como aprobado han completado correctamente el módulo.
+   * **[!UICONTROL Marcar como asistido y suspenso]**: los alumnos marcados como suspensos han completado el módulo, pero no lo han superado.
+
+   ![El menú desplegable Acciones resalta las opciones &quot;Marcar como asistido y aprobado&quot; y &quot;Marcar como asistido y suspenso&quot; para que los instructores establezcan el estado de éxito de cada alumno](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Página de alumnos que muestra el menú Acciones con las opciones Marcar como asistido y Aprobado y Marcar como asistido y Suspenso resaltadas para registrar los resultados de los alumnos_
+
+6. Seleccione **[!UICONTROL Sí]** en el mensaje de confirmación.
 
 ## Enviar correos electrónicos a alumnos {#sendemailstolearners}
 
