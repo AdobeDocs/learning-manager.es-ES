@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Reproductor Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido
 
 Después de salir del curso, puedes volver a visitarlo haciendo clic en el botón **Regresar** / **Continuar** en la página de descripción del curso.
 
+**Reproducción automática**: El reproductor Fluidic de Adobe Learning Manager no tiene una opción integrada para impedir que los vídeos se reproduzcan automáticamente. La reproducción automática de un vídeo depende de la configuración del navegador, no del reproductor en sí.
+
 El reproductor Fluidic también se puede incrustar en un sitio web o una aplicación externos mediante la API de Learning Manager.
 
 El reproductor Fluidic para dispositivos móviles dispone de las siguientes funciones:
@@ -67,3 +69,4 @@ El reproductor Fluidic para dispositivos móviles dispone de las siguientes func
 * Tocar o tocar la pantalla no debe pausar el reproductor. En su lugar, debería aparecer la barra de navegación del reproductor.
 * Si la barra de navegación no interactúa con, desaparecerá después de 3 segundos.
 * La barra de navegación permanecerá activa hasta que se cierren los elementos del menú de navegación (TDC, Notas, Configuración).
+

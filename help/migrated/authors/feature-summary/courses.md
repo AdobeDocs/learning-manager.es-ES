@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7321'
-ht-degree: 71%
+source-wordcount: '7433'
+ht-degree: 70%
 
 ---
 
@@ -513,6 +513,24 @@ La evaluación es un aspecto importante de cualquier sistema de gestión de apre
 
 Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de un almacén en relación con las tareas que se supone que deben realizar diariamente. Podría tratarse de los pasos llevados a cabo para reparar una máquina de café o de las etapas de envasado de un material. Los instructores pueden evaluar a los empleados en relación con estas tareas según una lista de comprobación y calificar su labor como Aprobado o Suspenso en la actividad de evaluación.
 
+### Reemplazar los módulos en cursos publicados
+
+Adobe Learning Manager proporciona a los autores herramientas para crear, editar y administrar cursos compuestos por varios módulos de contenido. Cuando sea necesario actualizar o mejorar el contenido del curso, los autores pueden reemplazar los módulos existentes sin interrumpir el progreso del alumno.
+
+Para reemplazar los módulos:
+
+1. Inicie sesión en Adobe Learning Manager como autor.
+2. Seleccione **[!UICONTROL Cursos]** en el panel de navegación izquierdo.
+3. Seleccione cualquier curso y, a continuación, seleccione **[!UICONTROL Editar]**.
+4. Seleccione el módulo que desea cambiar.
+5. Cambie el título y la descripción.
+6. Seleccione el módulo mediante la opción **Content**.
+   ![](assets/replace-the-module.png)
+7. Seleccione **[!UICONTROL Listo]**.
+8. Seleccione **[!UICONTROL Volver a publicar]**.
+
+Los alumnos mantendrán su progreso en otros módulos, pero deberán completar el nuevo módulo para finalizar el curso.
+
 ### Crear una lista de comprobación {#createachecklist}
 
 Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, como autor, puede seleccionar una actividad como **Lista de comprobación**, como se muestra a continuación:
@@ -825,7 +843,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 

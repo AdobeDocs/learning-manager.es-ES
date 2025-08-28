@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temas de color
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -174,7 +174,7 @@ En la lista siguiente se muestran los componentes que se pueden personalizar. Pa
    <td>
     <p>Fuentes</p></td>
    <td>
-    <p>Para aplicar las fuentes, se requiere un CDN. Además, debe compartir la familia de fuentes que se va a aplicar.</p>
+    <p>Los administradores pueden ponerse en contacto con el equipo de asistencia de Adobe Learning Manager en <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> para cambiar las fuentes. Para aplicar las fuentes, se requiere un CDN. Además, debe compartir la familia de fuentes que se va a aplicar.</p>
     <p><b>Nota:</b> la familia de fuentes debe ser compatible con todos los navegadores.</p></td>
   </tr>
   <tr>
