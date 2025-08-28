@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Los autores pueden añadir vínculos de HTML en el módulo de actividad y establ
 
 1. Seleccione **[!UICONTROL Agregar]** y publique el curso.
 
-## Lista de comprobación {#create-checklist}
-
-La evaluación es un aspecto importante de cualquier sistema de gestión de aprendizaje. Las evaluaciones en línea son una de las principales formas de evaluar la comprensión de un tema por parte del alumno. Pero a menudo, es necesario evaluar la comprensión de una persona mientras está en el trabajo observando que lleva a cabo las tareas necesarias.
-
-Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de un almacén en relación con las tareas que se supone que deben realizar diariamente. Podría tratarse de los pasos llevados a cabo para reparar una máquina de café o de las etapas de envasado de un material. Los instructores pueden evaluar a los empleados en relación con estas tareas según una lista de comprobación y calificar su labor como Aprobado o Suspenso en la actividad de evaluación.
-
 ### Reemplazar los módulos en cursos publicados
 
 Adobe Learning Manager proporciona a los autores herramientas para crear, editar y administrar cursos compuestos por varios módulos de contenido. Cuando sea necesario actualizar o mejorar el contenido del curso, los autores pueden reemplazar los módulos existentes sin interrumpir el progreso del alumno.
@@ -530,6 +524,12 @@ Para reemplazar los módulos:
 8. Seleccione **[!UICONTROL Volver a publicar]**.
 
 Los alumnos mantendrán su progreso en otros módulos, pero deberán completar el nuevo módulo para finalizar el curso.
+
+## Lista de comprobación {#create-checklist}
+
+La evaluación es un aspecto importante de cualquier sistema de gestión de aprendizaje. Las evaluaciones en línea son una de las principales formas de evaluar la comprensión de un tema por parte del alumno. Pero a menudo, es necesario evaluar la comprensión de una persona mientras está en el trabajo observando que lleva a cabo las tareas necesarias.
+
+Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de un almacén en relación con las tareas que se supone que deben realizar diariamente. Podría tratarse de los pasos llevados a cabo para reparar una máquina de café o de las etapas de envasado de un material. Los instructores pueden evaluar a los empleados en relación con estas tareas según una lista de comprobación y calificar su labor como Aprobado o Suspenso en la actividad de evaluación.
 
 ### Crear una lista de comprobación {#createachecklist}
 
@@ -843,7 +843,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 

@@ -2,9 +2,9 @@
 title: Novedades de la versión de octubre de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de octubre de 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL Como correo electrónico]**
 8. Seleccione **[!UICONTROL Guardar]**.
 
 Solo los alumnos que se encuentren dentro del ámbito del administrador personalizado podrán ver el anuncio. Consulte este [artículo](/help/migrated/administrators/feature-summary/announcements.md) para aprender a crear varios tipos de anuncios.
+
+### Restablecer el ámbito por administradores personalizados
+
+Los administradores personalizados pueden restablecer el ámbito de sus anuncios publicados si un administrador ha cambiado el ámbito de los mismos. Una vez restablecido el ámbito, el ámbito actualizado se aplicará al anuncio y solo los alumnos del nuevo ámbito podrán ver el anuncio.
+
+Para restablecer el ámbito:
+
+1. Inicie sesión en Adobe Learning Manager como administrador personalizado.
+2. Seleccione **[!UICONTROL Anuncio]** en el panel de navegación izquierdo.
+3. Seleccione la pestaña **[!UICONTROL Publicado]**.
+4. Seleccione cualquier anuncio y, a continuación, seleccione el icono de configuración.
+5. Seleccione **[!UICONTROL Editar]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Pantalla de anuncio que muestra los anuncios publicados con las opciones de edición, publicación y otras_
+
+6. Seleccione **Restablecer**.
+
+   ![](assets/reset-the-scope.png)
+   _Anuncio que muestra una notificación de cambio de ámbito, con una opción para que los administradores personalizados restablezcan y actualicen la selección de ámbito para reflejar los nuevos permisos de acceso_
+
+El ámbito se actualizará y solo los usuarios dentro del ámbito actualizado podrán ver el anuncio.
+
+### Editar el anuncio mediante la IU del administrador
+
+Los administradores pueden ver los anuncios creados por los administradores personalizados a través de su interfaz. Sólo pueden editar estos anuncios modificando o quitando el ámbito asignado. Si no se realizan cambios de ámbito, los administradores no podrán realizar más modificaciones en el anuncio.
+
+Para editar el anuncio a través de la IU del administrador:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **[!UICONTROL Anuncio]** en el panel de navegación izquierdo.
+3. Seleccione la pestaña **[!UICONTROL Publicado]**.
+4. Seleccione cualquier anuncio y, a continuación, seleccione el icono de configuración.
+5. Seleccione **[!UICONTROL Editar]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Pantalla de anuncio que muestra los anuncios publicados con las opciones de edición, publicación y otras_
+
+6. Seleccione **[!UICONTROL Quitar]**.
+
+   ![](assets/remove-the-scope.png)
+   _Pantalla de anuncio que indica que se debe quitar el ámbito para permitir a los administradores editar los anuncios creados para grupos de usuarios con ámbito_
+
+El administrador puede editar el anuncio después de eliminar el ámbito.
 
 ## Etiquetado de usuarios en tableros sociales
 
@@ -834,15 +878,13 @@ La API crea o actualiza el estado del objeto de aprendizaje para la configuraci�
 
 **Información general**
 
-La integración de Go1 se ha mejorado para admitir la administración de listas de reproducción, la creación de rutas de aprendizaje y los flujos de trabajo de certificación recurrentes, al tiempo que se realiza la transición a un modelo de contenido de vista previa y compra.
+La integración de Go1 se ha mejorado para permitir la selección directa de cursos de Go1 para crear programas de aprendizaje (LP) en Adobe Learning Manager. Esta actualización admite la inclusión de cursos de Go1 en certificaciones recurrentes e introduce una nueva versión de la experiencia del centro de contenido de Go1, lo que permite una gestión de cursos más eficaz.
 
 **Novedades**
 
 * Cree y administre listas de reproducción directamente en Go1 mediante la asistencia por chat de IA o la selección manual.
-* Convierte fácilmente listas de reproducción de Go1 en rutas de aprendizaje de Adobe Learning Manager.
 * Incluye cursos de Go1 en ciclos de certificación recurrentes con restablecimiento automático del progreso.
 * Se ha actualizado la interfaz de detección de contenido para mejorar la exploración y la selección de contenido.
-* Transición del contenido gratuito al modelo de costes transparente.
 
 **Principales ventajas**
 
@@ -863,29 +905,32 @@ La integración de Go1 se ha mejorado para admitir la administración de listas 
 * Programas de formación centrados en el cumplimiento que necesiten actualizaciones de contenido y ciclos de distribución periódicos.
 * Los equipos de aprendizaje intentan reducir la sobrecarga de la revisión de contenido mediante la asistencia de IA.
 
-### Crear una lista de reproducción de Go1
+### Añadir lista de reproducción de Go1 a una ruta de aprendizaje
 
-Los administradores pueden crear listas de reproducción con cursos de Go1 adaptados a diferentes grupos de alumnos en función de la ubicación, la función, el producto y otros criterios. Las listas de reproducción se pueden crear manualmente o generarse mediante IA.
+Los administradores pueden crear una ruta de aprendizaje que incluya una lista de reproducción de Go1 para que los alumnos puedan acceder a cursos de terceros seleccionados como parte de su formación.
 
-Para crear una lista de reproducción:
+Para crear una ruta de aprendizaje:
 
 1. Inicie sesión en Adobe Learning Manager como administrador.
-2. Seleccione **[!UICONTROL Mercado de contenido]** en el panel de navegación izquierdo.
+2. Seleccione **[!UICONTROL Rutas de aprendizaje]** en el panel de navegación izquierdo.
+3. Seleccione **[!UICONTROL Agregar]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Explora y agrega los mejores cursos de Go1 a tus listas de reproducción seleccionando Mercado de contenido en Adobe Learning Manager_
+   ![](assets/select-add-to-lp.png)
+   _Selecciona Añadir en la sección Rutas de aprendizaje para crear y organizar nuevos programas de formación estructurados para tus alumnos_
 
-3. Seleccione **[!UICONTROL Centro de contenido]** y luego **[!UICONTROL Biblioteca]**.
-4. Seleccione **[!UICONTROL Crear lista de reproducción]** y elija una de las siguientes opciones:
+4. Escriba los detalles necesarios y seleccione **[!UICONTROL Guardar]**. Consulte este [artículo](/help/migrated/administrators/feature-summary/learning-paths.md) para obtener más información.
+5. Seleccione **[!UICONTROL Agregar cursos Go1]**.
+
+   ![texto alt](assets/select-go1-courses.png)
+   _Añade cursos de Go1 a la lista de reproducción de Desarrollo de habilidades de ingenieros de ventas para ampliar las opciones de aprendizaje con contenido seleccionado de terceros_
+
+6. En **[!UICONTROL Biblioteca]**, busca y selecciona **[!UICONTROL Crear lista de reproducción]** y elige una de las siguientes opciones:
 a. **[!UICONTROL con IA]**: Crea una lista de reproducción con la ayuda de la IA.
 b. **[!UICONTROL por mí mismo]**: Cree una lista de reproducción agregándole cursos manualmente.
 
-   ![](assets/select-create-playlist.png)
-   _Crea una nueva lista de reproducción en Adobe Learning Manager seleccionando Crear lista de reproducción para organizar y ofrecer cursos específicos para tus alumnos_
-
 **Crear una lista de reproducción con IA**
 
-Los administradores pueden escribir la descripción de la lista de reproducción en el aviso de AI. La IA seleccionará los cursos relacionados y creará una lista de reproducción basada en los requisitos.
+Los administradores pueden escribir la descripción de la lista de reproducción en el aviso de AI. La IA seleccionará los cursos relacionados y creará una lista de reproducción basada en los requisitos. La inteligencia artificial genera listas de reproducción interpretando el objetivo de aprendizaje o el mensaje proporcionado por el usuario. Al crear una lista de reproducción, los administradores pueden seleccionar seleccionar contenido &quot;con IA&quot;, lo que permite al sistema utilizar modelos de lenguaje de gran tamaño para comprender los objetivos de aprendizaje y las preferencias de contenido especificados, como la duración y el tipo. A continuación, la IA busca en la biblioteca de contenido los objetos de aprendizaje relevantes que coincidan con estos criterios.
 
 Para crear una lista de reproducción con IA:
 
@@ -900,17 +945,25 @@ Para crear una lista de reproducción con IA:
    ![](assets/type-a-prompt.png)
    _Escribe tu objetivo de aprendizaje para crear una lista de reproducción personalizada, lo que ayuda a que Adobe Learning Manager recomiende cursos específicos adaptados a las necesidades de tus alumnos_
 
-4. Elija las aptitudes en la lista y, a continuación, seleccione la duración del curso y escriba en la lista de reproducción.
-5. Seleccione **[!UICONTROL Generar lista de reproducción]**.
+4. Elija las aptitudes de la lista.
 
-   ![](assets/select-generate-playlist.png)
-   _Personaliza tu lista de reproducción en Adobe Learning Manager seleccionando las aptitudes pertinentes y la duración del curso_
+   ![](assets/select-skills.png)
+   _Elija las aptitudes de la lista para seleccionar los cursos del ingeniero de ventas_
+5. Seleccione la duración del curso y escriba para la lista de reproducción.
+6. Seleccione **[!UICONTROL Generar lista de reproducción]**. La lista de reproducción se crea con 10 cursos y los administradores pueden utilizarla para crear una ruta de aprendizaje.
 
+   ![](assets/created-playlist.png)
+   _Revisar la lista de reproducción de la mejora de aptitudes del ingeniero de ventas seleccionado en Adobe Learning Manager_
+7. Seleccione **[!UICONTROL Agregar a biblioteca]**.
+8. Seleccione **Sí** en el mensaje de confirmación.
+9. Seleccione la lista de reproducción en el **[!UICONTROL Aviso de selección de lista de reproducción para importar]**.
 
-La lista de reproducción se crea con 10 cursos y los administradores pueden utilizarla para crear una ruta de aprendizaje.
+   ![](assets/add-playlist-to-lp.png)
+   _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Revisar la lista de reproducción de la mejora de aptitudes del ingeniero de ventas seleccionado en Adobe Learning Manager_
+10. Seleccione **[!UICONTROL Agregar listas de reproducción a la ruta de aprendizaje]** y, a continuación, **[!UICONTROL Publish]**.
+
+Los cursos de la lista de reproducción se añadirán a la ruta de aprendizaje. Los administradores pueden inscribir a los alumnos, que pueden comenzar inmediatamente a realizar los cursos.
 
 **Crear una lista de reproducción manualmente**
 
@@ -937,43 +990,6 @@ Para crear una lista de reproducción manualmente:
 5. Busque y seleccione los cursos requeridos.
 
 La lista de reproducción se ha creado con cursos relacionados y los administradores pueden utilizarla para crear una ruta de aprendizaje.
-
-### Añadir lista de reproducción de Go1 a una ruta de aprendizaje
-
-Los administradores pueden crear una ruta de aprendizaje que incluya una lista de reproducción de Go1 para que los alumnos puedan acceder a cursos de terceros seleccionados como parte de su formación.
-
-Para crear una ruta de aprendizaje:
-
-1. Inicie sesión en Adobe Learning Manager como administrador.
-2. Seleccione **[!UICONTROL Rutas de aprendizaje]** en el panel de navegación izquierdo.
-3. Seleccione **[!UICONTROL Agregar]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Selecciona Añadir en la sección Rutas de aprendizaje para crear y organizar nuevos programas de formación estructurados para tus alumnos_
-
-4. Escriba los detalles necesarios y seleccione **[!UICONTROL Guardar]**. Consulte este [artículo](/help/migrated/administrators/feature-summary/learning-paths.md) para obtener más información.
-5. Seleccione **[!UICONTROL Agregar cursos Go1]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Añade cursos de Go1 a la lista de reproducción de Desarrollo de habilidades de ingenieros de ventas para ampliar las opciones de aprendizaje con contenido seleccionado de terceros_
-
-6. En **[!UICONTROL Biblioteca]**, busque y seleccione la lista de reproducción en la pantalla Seleccionar **[!UICONTROL cursos Go1]**.
-
-   >[!NOTE]
-   >
-   >Asegúrese de establecer el filtro Creado por mí para encontrar fácilmente la lista de reproducción.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Seleccionar una lista de reproducción de ingeniero de ventas de la biblioteca de cursos de Go1 en Adobe Learning Manager_
-
-7. Seleccione **[!UICONTROL Agregar a biblioteca]** y luego **[!UICONTROL Guardar]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
-
-8. Seleccione **[!UICONTROL Agregar]** y luego **[!UICONTROL Publish]**.
-
-Los cursos de la lista de reproducción se añadirán a la ruta de aprendizaje. Los administradores pueden inscribir a los alumnos, que pueden comenzar inmediatamente a realizar los cursos.
 
 ## Guardar el progreso del estado del reproductor para idiomas
 
@@ -1044,6 +1060,18 @@ Anteriormente, los archivos role.csv y user_role.csv solo se podían cargar en m
 
 * Las empresas globales gestionan los equipos regionales cargando varios archivos de usuarios incrementales para cada región (UE, América, Asia), lo que permite a los administradores actualizar a los usuarios y asignar nuevas funciones para cada región en un único flujo de trabajo.
 * Las grandes empresas automatizan la incorporación y los permisos incorporando regularmente actualizaciones incrementales de los usuarios desde los sistemas de RR. HH. Esto admite actualizaciones perfectas de los perfiles de usuario y asignaciones de funciones específicas sin intervención manual.
+
+### Nuevas columnas añadidas a archivos CSV
+
+Se han introducido tres nuevas columnas para mejorar los datos capturados en las exportaciones/importaciones de CSV de usuarios, funciones y funciones de usuarios:
+
+* **Estado de registro del usuario (user.csv)**: indica el estado de registro actual del usuario.
+* **Estado del rol (role.csv)**: indica el estado actual de los roles dentro del sistema.
+* **Estado de rol de usuario (user_role.csv)**: indica el estado de la asociación de rol de usuario.
+
+Descargue los [archivos CSV de muestra](assets/sample-csv-Incremnetal.zip) aquí.
+
+
 
 ## Restablecer recomendaciones en la aplicación de Salesforce
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
