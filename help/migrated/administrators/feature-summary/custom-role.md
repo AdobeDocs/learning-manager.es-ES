@@ -4,7 +4,7 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 32%
@@ -300,7 +300,7 @@ Para asignar varias funciones personalizadas a un usuario, siga estos pasos:
 
 1. Inicie sesión como administrador y seleccione **[!UICONTROL Usuarios]**.
 2. Seleccione **[!UICONTROL Funciones personalizadas]** en el panel izquierdo.
-3. Cree una nueva función personalizada y agregue privilegios de cuenta, catálogos, objetos de aprendizaje o ámbitos. Consulte los pasos que se indican [aquí](#create-a-custom-role).
+3. Cree una nueva función personalizada y agregue privilegios de cuenta, catálogos, objetos de aprendizaje o ámbitos. Consulte los [pasos mencionados aquí](#create-a-custom-role).
 4. Agregar usuarios a la función personalizada.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ La carga de un archivo CSV en Adobe Learning Manager permite la asignación efic
 
 Ahora puede asignar varias funciones a un usuario mediante la importación de CSV cargando dos archivos en Box:
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 El archivo user_role.csv incluye los campos Función personalizada e ID de usuario.
 
@@ -658,7 +658,7 @@ El restablecimiento de la interacción no restablece la fecha de nivel alcanzado
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo crear una función personalizada
++++¿Cómo se crea una función personalizada?
 
 Una función personalizada es como un subconjunto de la función de autor o administrador. Permitir uno o varios privilegios, definir el ámbito y asignar la función a un usuario.
 
