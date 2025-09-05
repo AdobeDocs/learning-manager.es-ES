@@ -37,7 +37,7 @@ Un administrador puede activar y crear los paneles asignándoles un nombre, sele
 El administrador debe habilitar el Panel de control de éxito de grupo para la cuenta. Para activar el panel de éxito de grupo, siga estos pasos:
 
 1. Inicie sesión como administrador.
-2. Seleccione **[!UICONTROL Configuración]**y, a continuación, seleccione **[!UICONTROL Informes]**.
+2. Seleccione **[!UICONTROL Configuración]**&#x200B;y, a continuación, seleccione **[!UICONTROL Informes]**.
 3. Seleccione el conmutador **[!UICONTROL Visibilidad del panel]**.
 4. Escriba el nombre del panel (por ejemplo, **[!UICONTROL Panel del Administrador de tiendas]**).
    ![](assets/enable-gsd.png)
