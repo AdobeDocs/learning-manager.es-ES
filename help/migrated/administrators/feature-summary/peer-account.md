@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cuentas de igual a igual
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Learning Manager ofrece la posibilidad de compartir puestos adquiridos mediante 
 1. Haga clic en Añadir para añadir la cuenta de igual a igual.
 
    Si un administrador comparte puestos con un igual, este no puede compartirlos con nadie más. Sin embargo, el igual puede adquirir algunos puestos por separado y compartirlos.
+
+## Ver los puestos compartidos por cuentas de igual a igual
+
+Los administradores pueden ver el número de puestos compartidos por las cuentas de igual a igual en la interfaz del administrador.
+
+Para ver los puestos compartidos por la cuenta de igual a igual:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **[!UICONTROL Usuarios]** y, a continuación, seleccione **[!UICONTROL Interno]**.
+
+![](assets/peer-account-seats.png)
+_La sección Usuarios muestra el número de puestos compartidos por la cuenta de igual a igual_
 
 ## Ver informes asociados a cuentas de igual a igual {#viewreportsassociatedwithpeeraccounts}
 

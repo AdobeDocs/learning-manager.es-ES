@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Para enviar correos electrónicos a los alumnos, en la página Alumnos de la apl
 
 ## Capturar respuestas de invitación
 
-Puede ver las respuestas de la invitación en la sección Alumnos. Ve a cualquier sesión, selecciona **[!UICONTROL Alumnos]** y selecciona la respuesta a la invitación en el menú desplegable.
+Los instructores pueden capturar las respuestas de invitación de los alumnos solo cuando el administrador de ACAP ha habilitado la opción **[!UICONTROL Invitar respuesta]**. Para habilitar esta característica, los administradores deben ponerse en contacto con el equipo de soporte técnico en [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+
+Una vez hecho esto, puede ver las respuestas de la invitación en la sección **[!UICONTROL Alumnos]**. Ve a cualquier sesión, selecciona **[!UICONTROL Alumnos]** y selecciona la respuesta a la invitación en el menú desplegable.
 
 ![](assets/invitation-status.png)
 
