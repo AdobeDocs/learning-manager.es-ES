@@ -144,9 +144,9 @@ Las siguientes columnas capturan la actividad, el progreso o los intentos.
 | Puntuación_más_alta_de_prueba_máx | Las puntuaciones máximas de prueba más altas posibles para el módulo. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba. |
 | Intentos realizados | El número total de intentos realizados por el alumno para este módulo hasta la fecha actual. |
 | Máximo de intentos permitidos | El número máximo de intentos permitido para que el alumno consuma el módulo. |
-| Comentarios del envío | Comentarios del responsable de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
+| Comentarios del envío | Comentarios del responsable de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
 | Origen de finalización | <b>Nota:</b> En los flujos de trabajo de asistencia del conector de clase virtual, cuando un alumno se marca como asistido automáticamente, el origen mostrará &quot;SELF, (learner_email)&quot;. |
-| Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">Comentarios de finalización</a> para obtener más información. |
+| Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. Consulte <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/courses#completion-comments">Comentarios de finalización</a> para obtener más información. |
 
 **Información relacionada con objetos de aprendizaje**
 
@@ -278,7 +278,7 @@ Realiza un seguimiento de los alumnos con fechas de vencimiento próximas para c
 
 | Columna | Descripción |
 |---|---|
-| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">niveles de aptitud</a> para obtener más información. |
+| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/skills-levels">niveles de aptitud</a> para obtener más información. |
 | Nombre | El nombre completo del alumno al que se asigna la aptitud. |
 | Nombre del responsable | El nombre del responsable de informes del alumno. |
 | Etiquetas de fila | El nombre de aptitud específico asignado a los alumnos que aparecen en esta fila. Se utiliza como encabezado de agrupación para resumir los datos de aptitudes de los alumnos en cada categoría de aptitud. |
