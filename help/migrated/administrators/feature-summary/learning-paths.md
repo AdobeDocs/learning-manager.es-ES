@@ -4,9 +4,9 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ Las instancias de Ruta de aprendizaje muestran un mosaico adicional, **[!UICONTR
 
 En el icono **Cursos**, puede ver las instancias de curso que están visibles para los alumnos que se inscriben en esta instancia.
 
-La casilla de verificación **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje flexible)]** solo se aplica a cursos. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a una ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
+La casilla de verificación **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje flexible)]** solo se aplica a cursos. Esta opción permite a los alumnos cambiar sus instancias en la ruta de aprendizaje. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a una ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
 
 ![](assets/default-instance.png)
 

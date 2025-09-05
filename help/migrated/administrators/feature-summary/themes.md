@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Temas de color
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1261'
 ht-degree: 44%
 
 ---
@@ -186,6 +186,17 @@ En la lista siguiente se muestran los componentes que se pueden personalizar. Pa
     <ul>
      <li><b>Formato de imagen recomendado:</b> PNG, JPG, JPEG</li>
      <li><b>Tamaño recomendado: </b>1400x908 px</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>Favicon</p></td>
+   <td>
+    <p>Los administradores no pueden cambiar el icono de favoritos de la cuenta de Adobe Learning Manager. Para actualizar el favicon, póngase en contacto con el equipo de soporte técnico en <a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a> </p>
+    <p>Debe tener la imagen que necesita aplicar al fondo del alumno.</p>
+    <ul>
+     <li><b>Formato de imagen recomendado:</b>PNG</li>
+     <li>Tamaño recomendado: <b>32x32 px</b></li>
     </ul></td>
   </tr>
  </tbody>

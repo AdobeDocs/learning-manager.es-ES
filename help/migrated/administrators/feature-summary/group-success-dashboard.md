@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Panel de éxito de grupo
 description: Obtenga más información sobre el Panel de éxito de grupo en Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Un administrador puede activar y crear los paneles asignándoles un nombre, sele
 El administrador debe habilitar el Panel de control de éxito de grupo para la cuenta. Para activar el panel de éxito de grupo, siga estos pasos:
 
 1. Inicie sesión como administrador.
-2. Seleccione **[!UICONTROL Configuración]**&#x200B;y, a continuación, seleccione **[!UICONTROL Informes]**.
+2. Seleccione **[!UICONTROL Configuración]**y, a continuación, seleccione **[!UICONTROL Informes]**.
 3. Seleccione el conmutador **[!UICONTROL Visibilidad del panel]**.
 4. Escriba el nombre del panel (por ejemplo, **[!UICONTROL Panel del Administrador de tiendas]**).
    ![](assets/enable-gsd.png)
    _Campos para el nombre del panel, el grupo de usuarios y la selección de la ruta de aprendizaje_
 5. Seleccione **[!UICONTROL Visibilidad general]** para habilitar la sección de información general en el panel. Esta sección le permite ver el progreso de hasta 50 alumnos.
+
+   >[!NOTE]
+   >
+   >Si hay más de 50 alumnos en el equipo o más de 50 objetos de aprendizaje, ve a la pestaña **[!UICONTROL Transcripciones de alumnos]** en lugar de a la pestaña **[!UICONTROL Información general]**.
+
 6. Para la sección **[!UICONTROL Transcripciones de alumnos]**, seleccione las columnas obligatorias que desea ver.
+
 
    * Alumno
    * Trazados y cursos

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Planes de aprendizaje
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 61%
+source-wordcount: '1629'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,8 @@ Para crear un plan de aprendizaje, debe iniciar sesión como administrador.
 
    ![](assets/add-learning-plandialog.png)
 
-1. En la lista desplegable **[!UICONTROL Se produce cuando]**, elija el evento requerido. Las opciones determinan cuándo realiza el curso un alumno. Después de seleccionar el tipo de evento, seleccione la formación, los cursos, el programa de aprendizaje o la certificación correspondientes.
+1. En la lista desplegable **[!UICONTROL Se produce cuando]**, elija el evento requerido. Los administradores pueden añadir un evento cada vez.
+Las opciones determinan cuándo realiza el curso un alumno. Después de seleccionar el tipo de evento, seleccione la formación, los cursos, el programa de aprendizaje o la certificación correspondientes.
 
 >[!NOTE]
 >
