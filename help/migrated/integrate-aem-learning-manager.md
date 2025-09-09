@@ -4,10 +4,10 @@ title: Integrar Adobe Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -397,6 +397,22 @@ En la sección **[!UICONTROL Configuración general]**, puede elegir los colores
  } 
 }
 ```
+
+### Configurar los widgets Mis cursos guardados en AEM sitios
+
+El widget Mis cursos guardados permite a los alumnos ver sus cursos marcados o guardados directamente en las páginas de aprendizaje, lo que proporciona un acceso sencillo a los cursos que desean volver a visitar o completar más tarde.
+
+Para configurar el widget Mis cursos guardados en AEM sitios:
+
+1. Inicie los sitios de AEM.
+2. Abra la página en modo **[!UICONTROL Editar]**.
+3. Ve al **[!UICONTROL Explorador de componentes]** y añade el widget **[!UICONTROL Mi aprendizaje]** a la página.
+4. Seleccione el componente y, a continuación, seleccione **[!UICONTROL Configurar]**.
+5. Seleccione **[!UICONTROL Mis cursos guardados]** en el menú desplegable de **[!UICONTROL Propiedades]**.
+6. Seleccione **[!UICONTROL Listo]** y luego actualice la página en modo **[!UICONTROL Vista previa]** o **[!UICONTROL Publish]**.
+
+El widget mostrará los cursos guardados a los alumnos.
+
 
 ### Ignorar inscripción de objetos de aprendizaje de orden superior
 
