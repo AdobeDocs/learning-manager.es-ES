@@ -4,9 +4,9 @@ title: Integrar Adobe Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
+source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3116'
 ht-degree: 55%
 
 ---
