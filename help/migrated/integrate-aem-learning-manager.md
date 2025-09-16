@@ -4,10 +4,10 @@ title: Integrar Adobe Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ Después de instalar el paquete de sitios de referencia de ALM, puede comenzar a
 
 Después de proteger el entorno de AEM Sites, debe instalar el paquete de sitios de referencia de ALM. Este paquete incluye componentes de sitios web y páginas web de AEM que ayudan a crear la plataforma de aprendizaje.
 
-El paquete del sitio de referencia está alojado en el [**repositorio GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+El paquete del sitio de referencia está alojado en el [**repositorio GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
 
 Para obtener más información, consulte el archivo README (Léame).
 
@@ -413,6 +413,7 @@ Para configurar el widget Mis cursos guardados en AEM sitios:
 
 El widget mostrará los cursos guardados a los alumnos.
 
+Cuando se aplica otro filtro en el catálogo, solo se muestran los resultados que coinciden con ese filtro. Los elementos marcados no se incluyen automáticamente.
 
 ### Ignorar inscripción de objetos de aprendizaje de orden superior
 

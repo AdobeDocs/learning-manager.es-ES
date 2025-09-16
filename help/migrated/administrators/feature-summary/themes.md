@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temas de color
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 44%
+source-wordcount: '1295'
+ht-degree: 43%
 
 ---
 
@@ -86,6 +86,8 @@ Elija un tema en la lista desplegable, ajuste la configuración y haga clic en *
 Mientras previsualiza los cambios dinámicos, la ventana de Previsualización dinámica aparece en la parte inferior de la pantalla. Puede elegir minimizar la ventana emergente.
 
 ## Varias marcas {#multiple-branding}
+
+Los administradores pueden aplicar varios estilos de marca en la organización. La marca se puede personalizar en función de los campos activos, lo que permite a los diferentes grupos de usuarios experimentar una marca que se adapta a su perfil o función.
 
 A continuación se explica cómo implementar varias marcas:
 
