@@ -4,10 +4,10 @@ title: Integrar Adobe Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -360,7 +360,20 @@ En la sección **[!UICONTROL Propiedades]** de las propiedades de la página, se
 Las opciones de catálogo contienen las siguientes opciones:
 
 * **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que se debe mostrar el curso de formación.
-* **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Las opciones son: nombre, fecha, fechaCreado, fechaInscrito, etc.
+* **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Estas son las opciones de ordenación:
+   * nombre: ordena los objetos de aprendizaje alfabéticamente de la A a la Z.
+   * -name: ordena los objetos de aprendizaje alfabéticamente de Z a A.
+   * fecha: ordena por fecha en orden ascendente.
+   * -date: ordena por fecha en orden descendente (la última primero).
+   * dateCreated: ordena por la fecha de creación del objeto de aprendizaje (primero el más antiguo).
+   * -dateCreated: ordena por fecha de creación (la más reciente primero).
+   * dateEnrolled: ordena por la fecha de inscripción del alumno (primero la primera).
+   * -dateEnrolled: ordena por fecha de inscripción (la más reciente primero).
+   * valoración: ordena por valoraciones de alumno (de menor a mayor).
+   * -rating: Ordena por calificaciones (de mayor a menor).
+   * dueDate: ordena por la fecha de vencimiento del curso (primero la fecha límite más temprana).
+   * eficacia: ordena por puntuación de eficacia en función de los comentarios de los alumnos.
+   * progreso: ordena por progreso del alumno (de menor progreso a mayor).
 * **[!UICONTROL Estado del alumno]:** Devuelve todos los cursos de formación que utilizan los siguientes filtros: enrolled, started, completed y not enrolled. Los resultados de la búsqueda no se mostrarán si la opción de ordenación es dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nombre de la aptitud]:** Aptitud utilizada para filtrar los cursos de formación exactos.
 * **[!UICONTROL Nombre de etiqueta]:** Etiqueta utilizada para filtrar resultados exactos.
