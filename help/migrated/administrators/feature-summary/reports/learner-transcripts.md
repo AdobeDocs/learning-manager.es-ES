@@ -71,12 +71,12 @@ b. Seleccione catálogos específicos en la lista desplegable **[!UICONTROL Sele
        * En curso
        * No iniciado
        * Dado de baja
-   8. Opciones avanzadas: seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
+   &#x200B;8. Opciones avanzadas: seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
 
    a. Descargue transcripciones de alumnos que se han eliminado de una cuenta seleccionando la casilla de verificación **[!UICONTROL Incluir alumnos eliminados]**.
 b. Descargue información del nivel de módulo en la transcripción del alumno activando la casilla de verificación **[!UICONTROL Habilitar información del nivel de módulo]**. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está activada.
 c. Descargue datos de aptitudes y hojas de resumen activando la casilla de verificación **[!UICONTROL Incluir datos de aptitudes y hojas de resumen]**. Consulte la sección Informes de Excel para obtener más información.
-9. También puede seleccionar los valores de columna que se van a rellenar en el informe. Esto proporciona flexibilidad para descargar informes con valores de columna específicos según sea necesario. Seleccione las columnas en el menú desplegable.
+&#x200B;9. También puede seleccionar los valores de columna que se van a rellenar en el informe. Esto proporciona flexibilidad para descargar informes con valores de columna específicos según sea necesario. Seleccione las columnas en el menú desplegable.
 Las transcripciones se generan y se descargan en el equipo como archivos .zip cuando no se incluyen los datos de aptitudes. Si la casilla Datos de aptitudes está activada, las transcripciones se generan y se descargan como . archivos xlsx.
 
 ### Generar una transcripción de alumno mediante copiar y pegar
