@@ -4,10 +4,10 @@ title: Página de inicio del alumno
 description: Una vez que el administrador active el diseño envolvente, el alumno, después de iniciar sesión en la aplicación, recibe una interfaz de usuario completamente renovada.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ El widget Calendario presenta las siguientes funciones. Puede ver:
 * Formación por mes. Desplácese hacia la izquierda o la derecha.
 * Próximo curso de formación en clase real o virtual en el que puede inscribirse.
 * Próximo curso de formación en clase real o virtual en el que se ha inscrito.
+* Las sesiones de clase o clase virtual finalizadas
 * Curso de formación en clase real o virtual aprobado por el responsable.
+
+Puede aplicar el filtro **[!UICONTROL Ver solo sesiones inscritas]** para ver solo las sesiones inscritas en su calendario.
+
 
 ## Fuente de redes sociales {#socialfeed}
 

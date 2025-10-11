@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 65%
+source-wordcount: '3697'
+ht-degree: 64%
 
 ---
 
@@ -411,6 +411,10 @@ Active o desactive las opciones siguientes:
    <td height="19">Retirar</td>
    <td>Seleccione cualquiera de las opciones de retirada de las siguientes:<li>Una vez retirados, los alumnos inscritos podrán ver y realizar acciones, pero los alumnos que aún no se hayan inscrito perderán su acceso.</li><li>Una vez retirados, los alumnos inscritos y los que aún no se han inscrito perderán su acceso.</li><div><b>Nota:</b> Puedes retirar cursos, rutas de aprendizaje o certificaciones de sus páginas de información general.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Mostrar todos los cursos inscritos en los resultados de búsqueda</td>
+   <td>Si está activado, el alumno puede ver el curso en los resultados de búsqueda aunque forme parte de su ruta de aprendizaje o certificación inscrita.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,7 +424,7 @@ Active o desactive las opciones siguientes:
    <td>
     <p>Rutas de aprendizaje</p></td>
    <td>
-    <p>Si la opción <b>Activar las funciones ampliadas de la ruta de aprendizaje</b> está activada, los administradores podrán incluir las rutas de aprendizaje dentro de las rutas de aprendizaje y combinarlas con cursos. La opción es irreversible.<br></p></td>
+    <p>Si se selecciona la opción <b>Habilitar características ampliadas de la ruta de aprendizaje</b>, los administradores podrán incluir rutas de aprendizaje dentro de las rutas de aprendizaje y combinarlas con cursos. La opción es irreversible.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -563,7 +567,7 @@ También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo 
 * info
 * url
 * seatLimit
-* (región)
+*  (región)
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
 

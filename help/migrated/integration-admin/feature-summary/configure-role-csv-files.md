@@ -4,10 +4,10 @@ title: Administrar funciones personalizadas mediante archivos CSV
 description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ En la sección Configuración de sincronización, habilite la opción **[!UICONT
 
 *Seleccione la opción Habilitar sincronización automática*
 
-Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si configura las 12:00 h como hora de sincronización, las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
+Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si especifica la hora de sincronización como 12:00 a.m., las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
 
 Si desea sincronizar los datos bajo demanda, haga clic en **[!UICONTROL Sincronizar ahora]**.
 
@@ -189,3 +189,34 @@ En cualquier cuenta, el nombre de una función debe ser exclusivo. Por tanto, un
 De modo similar, en la IU del administrador, no es posible asignar a un usuario una función configurable que se haya creado mediante CSV, ya que estas funciones no estarán disponibles.
 
 Sin embargo, se puede utilizar un CSV de asignación para asignar funciones creadas por la IU.
+
+## Compatibilidad incremental y multiincremental para funciones personalizadas
+
+Los administradores pueden asignar funciones personalizadas a usuarios incrementales de forma más eficaz. Pueden cargar datos de usuario, función y función de usuario sin necesidad de volver a cargar el conjunto de datos completo cada vez.
+
+Para cada archivo de importación de usuario cargado, cree carpetas independientes en FTP utilizando la siguiente estructura:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Detalles del archivo**
+
+* Archivo de importación de usuario: user1.csv
+* Archivo de rol: usuario1_rol.csv
+* Archivo de asignación de funciones de usuario: user1_user_role.csv
+
+Descargue los [archivos CSV de muestra](/help/migrated/assets/sample-csv-Incremnetal.zip) aquí.
+
+Cada archivo de importación de usuarios se vincula directamente con sus archivos de asignación de roles y roles de usuario correspondientes, lo que garantiza un procesamiento incremental adecuado.

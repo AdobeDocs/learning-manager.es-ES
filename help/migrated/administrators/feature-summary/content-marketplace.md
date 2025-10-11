@@ -4,10 +4,10 @@ title: Tienda de contenido
 description: Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Centro de contenido
 
-El centro de contenido permite a los administradores preseleccionar listas de reproducción necesarias desde la aplicación del alumno. La página Centro de contenido está visible constantemente para los administradores en su función de alumno, ya que les permite preseleccionar listas de reproducción fácilmente. Para ayudarle a preseleccionar la lista de reproducción correcta, los administradores pueden hacer que esta página esté accesible para los expertos en la materia de su cuenta.
+Los administradores pueden acceder a la plataforma Go1 directamente en Adobe Learning Manager. Ve a **[!UICONTROL Mercado de contenido]** y selecciona **[!UICONTROL Centro de contenido]**.
 
-Adobe Learning Manager se sincroniza con regularidad con el centro de contenido, lo que garantiza que las nuevas adiciones y actualizaciones se reflejen automáticamente en la plataforma.
-
-Todo el contenido se asigna a los idiomas admitidos, lo que permite a los administradores filtrar y administrar el contenido de forma más eficaz en función de las preferencias de idioma.
+El centro de contenido replica la plataforma Go1, lo que permite a los administradores explorar cursos, crear varias listas de reproducción y explorar contenido, lo que proporciona una experiencia de Go1 perfecta dentro de Adobe Learning Manager.
 
 ## Plantillas de correo electrónico
 

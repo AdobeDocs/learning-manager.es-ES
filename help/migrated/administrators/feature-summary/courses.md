@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -788,7 +788,36 @@ Los alumnos utilizan la aplicación de dispositivos de Adobe Learning Manager pa
 
    ![](assets/qr-code-download-01.png)
 
-   *Compartir código QR con otros usuarios*
+   *Compartir código QR con alumnos*
+
+## Descargar el informe de alumnos interesados
+
+Vea [Registrar interés en los cursos](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) para obtener información sobre cómo los alumnos pueden registrar su interés.
+
+Los administradores pueden ver el interés de los alumnos y descargar el informe de alumnos interesados desde la página Resumen del curso .
+
+Para descargar el informe de alumnos interesados:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Vaya a **[!UICONTROL Cursos]** y seleccione el curso.
+3. Seleccione **[!UICONTROL Alumnos interesados]**.
+
+   ![](assets/select-interested-learner.png)
+   _La página de información general del curso de la interfaz de administrador muestra la sección Alumno interesado para ver y descargar el informe_
+4. Seleccione Acciones y, a continuación, seleccione Exportar informe.
+Se descargará el informe con la lista de alumnos interesados. El informe incluye las siguientes columnas:
+
+   * ID de curso
+   * Nombre del alumno
+   * Correo electrónico
+   * Tipo
+   * Estado
+   * Fecha y hora de registro (UTC)
+   * Estado activo
+
+>[!NOTE]
+>
+>El informe incluirá el UUID del alumno si está habilitado para la cuenta.
 
 ## Ciclo de vida del curso {#courselifecycle}
 
@@ -824,13 +853,13 @@ Después de hacer clic en la opción, se restablecerá el estado de los módulos
 
 +++
 
-+++Cómo añadir la URL del curso para redirigir a los alumnos directamente al curso.
++++¿Cómo se añade la dirección URL del curso para redirigir a los alumnos directamente al curso?
 
 Coloque el cursor del ratón sobre una tarjeta de curso y haga clic en **[!UICONTROL Copiar URL]**. Después de copiar la dirección URL, los alumnos pueden acceder al curso directamente con ella.
 
 +++
 
-+++Cómo volver a abrir una instancia?
++++¿Cómo se vuelve a abrir una instancia?
 
 Para volver a abrir una instancia retirada, haga clic en el menú desplegable de la instancia y, a continuación, en **[!UICONTROL Reabrir instancia]**.
 

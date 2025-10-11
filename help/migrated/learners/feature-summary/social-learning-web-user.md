@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aprendizaje social en Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
 
@@ -229,6 +229,64 @@ Cuando vea las publicaciones en formato de tablero, puede ordenar las publicacio
 
 * Si elige **Publicaciones**, los tableros se ordenarán según el número de publicaciones incluidas en el tablero.
 * Si elige **Colaboradores**, los tableros se ordenarán según el número de usuarios que hayan comentado o respondido en los hilos.
+
+## Etiquetar usuarios en tableros sociales
+
+Los alumnos con acceso al tablero social pueden etiquetar a otros usuarios en publicaciones de aprendizaje social y comentarios con el formato @nombre_usuario. El etiquetado funciona mediante la aplicación o las API. Solo se pueden etiquetar los usuarios con acceso al tablero, manteniendo las interacciones relevantes y privadas.
+
+* Los usuarios etiquetados reciben notificaciones en la aplicación y por correo electrónico
+* Las notificaciones incluyen vínculos directos al contenido
+* No se pueden etiquetar usuarios fuera del tablero
+* Los usuarios eliminados aparecen como &quot;Anónimos&quot;.
+
+>[!NOTE]
+>
+>Los alumnos no pueden etiquetar grupos de usuarios ni utilizar menciones @all para evitar el spam.
+
+### Etiquetar usuarios en publicaciones del tablero social
+
+Puede etiquetar a miembros específicos del tablero en publicaciones o comentarios mediante @username. El etiquetado se limita a los miembros con acceso a dicho tablero.
+Para etiquetar usuarios en un tablero social:
+
+1. Inicie sesión en Adobe Learning Manager como alumno.
+2. Seleccione **[!UICONTROL Aprendizaje social]** en el panel de navegación izquierdo.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Permite el aprendizaje colaborativo al seleccionar Aprendizaje social para acceder a foros de debate, compartir información y etiquetar a usuarios para la participación interactiva_
+
+3. Seleccione **[!UICONTROL Nueva publicación]**.
+
+   ![](assets/select-new-post.png)
+   _Inicie una nueva discusión seleccionando Nueva publicación en Aprendizaje social para compartir conocimientos con los usuarios etiquetados_
+
+4. Antes de etiquetar a los usuarios, seleccione el tablero en la opción **[!UICONTROL Publicar en un foro de debate]**.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Selecciona un foro de debate para publicar y etiquetar usuarios, lo que permite conversaciones colaborativas orientadas en Aprendizaje social_
+
+5. Escriba los detalles de la publicación y, a continuación, etiquete a un usuario introduciendo el signo @ seguido del nombre (por ejemplo, @andrew). Al escribir @ seguido de las tres primeras letras del nombre del usuario, aparece una lista de usuarios coincidentes.
+
+   ![](assets/type-a-user-tag.png)
+   _Etiquete a los usuarios en su publicación de discusión escribiendo @ seguido del nombre de usuario para habilitar la colaboración específica en los tableros de Aprendizaje social_
+
+6. Seleccione el usuario deseado de la lista.
+7. Seleccione **[!UICONTROL Publicación]**.
+
+Los usuarios etiquetados reciben notificaciones en la aplicación y por correo electrónico con un vínculo directo a la publicación. Esto hace que los debates sean más específicos y colaborativos.
+
+### Etiquetar usuarios según el ámbito del tablero
+
+Las etiquetas con ámbito restringido permiten etiquetar solo a los alumnos que tienen permiso para acceder a un tablero específico. Esto mantiene la privacidad al evitar el etiquetado de usuarios fuera del ámbito.
+
+Si intenta etiquetar alumnos que están fuera del ámbito del tablero, no aparecerá ninguna sugerencia y no podrá etiquetarlos.
+
+### Etiquetar usuarios eliminados
+
+Si un usuario que se ha eliminado está etiquetado en una publicación de Aprendizaje social, su nombre aparece como &quot;Anónimo&quot; en la publicación. El comentario y la etiqueta permanecen visibles para el contexto, pero no se muestran los vínculos o detalles del perfil.
+
+![](assets/deleted-users-tagged.png)
+_Publicación de aprendizaje social que resalta cómo un usuario eliminado aparece como anónimo cuando se etiqueta_
+
 
 ### Filtro de aptitudes {#skillfilter}
 

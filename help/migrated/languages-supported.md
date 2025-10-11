@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Idiomas admitidos en Adobe Learning Manager
 description: Explorar la interfaz y los idiomas de contenido admitidos en Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Learning Manager admite los siguientes idiomas de interfaz y contenido.
 
 | Idioma de la interfaz | Función | Código de configuración regional |
 |---|---|---|
-| idioma inglés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | en-us |
+| idioma inglés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | en-US |
 | Francés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | fr-FR |
 | Alemán | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | de-DE |
 | Chino | <li>Alumno</li><li>Responsable</li> | zh-CN |
@@ -49,38 +49,38 @@ Adobe Learning Manager admite los siguientes idiomas de interfaz y contenido.
 | Italiano | - | it-IT |
 | Japonés | - | ja-JP |
 | Portugués (Brasil) | - | pt-BR |
-| Danés (Dansk) | - | da |
-| Hindi | - | hi |
-| Húngaro (Magyar) | - | hu |
+| Danés (Dansk) | - | da-DK |
+| Hindi | - | hi-IN |
+| Húngaro (Magyar) | - | hu-HU |
 | Dutch (Nederland) | - | nl-NL |
 | Polaco | - | pl-PL |
-| Finés (Suomi) | - | fi |
-| Tailandés | - | th |
+| Finés (Suomi) | - | fi-FI |
+| Tailandés | - | th-TH |
 | Turco | - | tr-TR |
 | Coreano | - | ko-KR |
-| Chino tradicional | - | zh-CHT |
-| Noruego (Norsk) | - | nb-NO |
+| Chino tradicional | - | zh-TW |
+| Noruego (Norsk) | - | no-NO |
 | Sueco | - | sv-SE |
-| Rumano | - | ac |
-| Árabe | Sí | ar |
+| Rumano | - | ro-RO |
+| Árabe | Sí | ar-SA |
 | Ruso | - | ru-RU |
-| Amárico | - | am |
-| Checo | - | cs |
-| English UK | - | en-gb |
-| Vietnamita | Sí | vi |
-| Griego | - | el |
+| Amárico | - | am-ET |
+| Checo | - | cs-CZ |
+| English UK | - | en-GB |
+| Vietnamita | Sí | vi-VN |
+| Griego | - | el-GR |
 | Francés (Canadá) | - | fr-ca |
-| Inglés (Australia) | - | en-au |
+| Inglés (Australia) | - | en-AU |
 | Indonesio | - | id-ID |
-| Español (Latinoamérica) | - | es |
-| Serbio | - | sr-sp |
-| Esloveno | - | sl |
-| Eslovaco | - | sk |
-| Croata | - | h |
-| Ucraniano | - | reino unido |
-| Hebreo | Sí | él |
-| Búlgaro | - | bg |
-| Neerlandés (Bélgica) | - | nl-be |
+| Español (Latinoamérica) | - | es-XL |
+| Serbio | - | sr-SP |
+| Esloveno | - | sl-SL |
+| Eslovaco | - | sk-SK |
+| Croata | - | hr-HR |
+| Ucraniano | - | uk-UA |
+| Hebreo | Sí | he-IL |
+| Búlgaro | - | bg-BG |
+| Neerlandés (Bélgica) | - | nl-BE |
 | Portugués Portugal | - | pt-PT |
 | Chino (tradicional, Hong Kong) | - | zh-HK |
 | Noruego Bokmål | - | nb-NO |

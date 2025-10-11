@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Añadir usuarios en Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ Para registrar a los usuarios:
 
 Se envía un correo electrónico de verificación al usuario. El usuario debe seleccionar el vínculo en el correo electrónico para activar su cuenta y comenzar a utilizar Adobe Learning Manager.
 
+### Descargar el informe de usuarios
+
+Los administradores pueden exportar y descargar los datos de los usuarios como un informe completo. Al exportar estos datos, los administradores pueden realizar un seguimiento de la actividad de los alumnos, supervisar el ciclo de vida de las cuentas, identificar a los usuarios inactivos y mantener registros precisos con fines de cumplimiento normativo, auditoría e informes.
+
+Para descargar el informe de usuarios:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **Usuarios** y, a continuación, elija **Interno**.
+3. Seleccione **Exportar datos de usuario**. Recibirás una notificación cuando el informe esté listo.
+
+   ![](assets/select-export-user-data.png)
+   _Las secciones de usuarios internos muestran la opción de exportar y descargar el informe de usuarios._
+4. Seleccione la notificación y descargue el informe de usuarios.
+
+El informe incluye la siguiente información:
+
+* Nombre
+* Correo electrónico
+* Estado
+* Fecha en que se añadió (zona horaria UTC)
+* Fecha de eliminación (zona horaria UTC)
+* Última fecha de inicio de sesión (zona horaria UTC)
+* Adobe ID
+* Estado del usuario
+* perfil
+* Idioma de la interfaz
+* Idioma del contenido
+* Zona horaria
+* ID de usuario interno
+* Correo electrónico del responsable
+
 ## Usuarios externos
 
 Adobe Learning Manager le permite añadir usuarios fuera de su empresa, como clientes, socios, proveedores o clientes, para acceder al contenido de aprendizaje. Una vez agregados, puede agruparlos, asignar cursos y realizar un seguimiento de su progreso de aprendizaje.
@@ -239,7 +270,7 @@ Existen algunas diferencias entre los registros internos y externos:
 | Usuarios internos | Usuarios externos |
 |---|---|
 | Puede iniciar sesión con las credenciales de Adobe ID o SSO. | Puede iniciar sesión con cualquier ID de correo electrónico. |
-| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/gamification). |
+| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -266,6 +297,32 @@ Para reanudar un usuario externo:
 
 ![](assets/resume-an-external-user.png)
 _Opción para reanudar un perfil de registro externo previamente pausado_
+
+### Cambiar el perfil externo
+
+Los administradores pueden reasignar alumnos de un perfil externo a otro perfil.
+
+Para cambiar el perfil externo:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **[!UICONTROL Usuarios]** y, a continuación, seleccione **[!UICONTROL Externo]**.
+3. Seleccione **[!UICONTROL Puestos usados]** en la lista de perfiles externos.
+
+   ![](assets/select-learners-external-profile.png)
+   _Sección de perfil externo que muestra el número de puestos utilizados_
+
+4. Seleccione el alumno y, a continuación, seleccione **[!UICONTROL Acciones]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Resaltado de la página de perfil externa: opción Cambiar perfil para mover a los alumnos a un perfil diferente_
+
+5. Seleccione **[!UICONTROL Cambiar perfil]**.
+6. Busque y seleccione el perfil externo diferente.
+
+   ![](assets/search-and-select-profile.png)
+   _El mensaje Cambiar perfil muestra las opciones para buscar en el perfil externo_
+
+El alumno seleccionado se moverá al perfil externo seleccionado.
 
 ### Controlar el uso de asientos externos
 

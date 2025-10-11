@@ -4,10 +4,10 @@ title: Aplicación Learning Manager para Salesforce
 description: Salesforce&trade; es la solución de CRM más popular entre los equipos de ventas y marketing. Con la aplicación Adobe Learning Manager en Salesforce, los alumnos pueden acceder a todo su contenido de aprendizaje directamente desde la interfaz de Salesforce. Los alumnos pueden acceder a su contenido de aprendizaje asignado, por ejemplo cursos, programas de aprendizaje y ayudas de trabajo desde Salesforce. Asimismo, pueden recibir notificaciones sobre sus inscripciones y anuncios del administrador.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ A continuación, se proporciona una imagen de la vista del alumno de la aplicaci
 Puede hacer clic en el vínculo Desconectar que hay en la parte inferior de la página del alumno, como se indica en la imagen anterior, para **desconectarse** de la aplicación Adobe Learning Manager. Una vez desconectado, se le redirigirá a la página de bienvenida de la aplicación de Adobe Learning Manager.
 
 Puede conectarse a la aplicación o desconectarse las veces que quiera.
+
+## Restablecer recomendaciones en la aplicación de Salesforce
+
+Los alumnos pueden restablecer sus funciones y preferencias de aprendizaje sin necesidad de salir de Salesforce o iniciar sesión en la aplicación nativa de Adobe Learning Manager. La aplicación Adobe Learning Manager Salesforce ahora incluye el botón **[!UICONTROL Restablecer intereses]**.
+
+Para restablecer los intereses y las recomendaciones desde la aplicación Salesforce:
+
+1. Inicie sesión en la aplicación Adobe Learning Manager para Salesforce como alumno.
+2. Seleccione la opción **[!UICONTROL Restablecer intereses]** en la parte inferior.
+
+La recomendación o el interés del alumno se restablecerán a partir de la aplicación Adobe Learning Manager Salesforce.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mis conocimientos
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -291,6 +291,19 @@ Para cambiar la instancia de curso, siga estos pasos:
 
    Se inscribe la instancia recién seleccionada. Si un alumno se inscribe en una instancia de curso que forma parte de otro objeto de aprendizaje y actualiza la instancia de curso que forma parte del programa de aprendizaje flexible, se le dará de baja automáticamente de los demás objetos de aprendizaje tras recibir una advertencia.
 
+## Gestión del progreso basada en el idioma
+
+Se puede realizar un seguimiento del progreso del alumno por separado para cada configuración regional, lo que garantiza que el cambio entre los idiomas del reproductor no afecte al progreso alcanzado anteriormente. El progreso de cada módulo se mantiene de forma independiente tanto en el nivel de usuario como en el de módulo, lo que evita que el progreso se sobrescriba cuando los alumnos exploran contenido en diferentes configuraciones regionales.
+
+Por ejemplo, si un alumno alcanza el 75 % de progreso en inglés y, a continuación, cambia al español, la vuelta al inglés se reanuda desde el 75 % en lugar de restablecerse al 0 %. Cada configuración regional almacena su propio estado de progreso, lo que permite a los alumnos navegar y completar el contenido en varios idiomas sin perder su progreso individual.
+
+Los siguientes tipos de contenido no se admiten para el progreso del alumno según el idioma:
+
+* El contenido de vídeo y audio no es compatible.
+* El contenido de terceros, incluidos Go1, LinkedIn Learning, getAbstract y Harvard ManageMentor, no es compatible.
+* El progreso del contenido que no envía datos al almacén de registros de aprendizaje (LRS) no se registrará ni se guardará.
+* Los usuarios de aplicaciones móviles no pueden realizar un seguimiento del progreso de esta función en modo sin conexión.
+
 ## Cómo finalizar un curso {#completingacourse}
 
 En calidad de alumno, puede completar la cantidad pertinente de módulos de un curso para finalizar el curso. Los criterios de finalización de los cursos dependen de la cantidad de módulos que el autor haya definido como obligatorios. Cuando se inscriba en un curso con un criterio mínimo de finalización, puede ver dicho criterio en el panel derecho de la página Curso.
@@ -319,6 +332,19 @@ La ficha Debate no está activada para los usuarios externos.
 
 ![](assets/learning-program200s.jpg)
 *Ficha Discusión*
+
+## Registrar interés en los cursos
+
+Los alumnos pueden registrar su interés en los cursos que no tienen una instancia activa.
+
+Para registrar intereses:
+
+1. Inicie sesión en Adobe Learning Manager como alumno.
+2. Vaya a **[!UICONTROL Catalog]** y seleccione el curso que no tiene una instancia activa.
+3. Seleccione **[!UICONTROL Registrar interés]** en la página Resumen del curso.
+
+   ![](assets/register-interest.png)
+   _Sección de información general del curso en la IU del alumno, en la que se resalta la opción Registrar interés_
 
 ## Ciclo de vida del curso {#courselifecycle}
 

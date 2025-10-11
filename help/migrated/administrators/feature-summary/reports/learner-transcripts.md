@@ -2,9 +2,9 @@
 description: Las transcripciones de alumnos en Adobe Learning Manager (ALM) permiten a los administradores supervisar el progreso de los alumnos en cursos, módulos, rutas de aprendizaje y certificaciones. Apoya las evaluaciones de rendimiento, la supervisión del cumplimiento, las auditorías y la presentación de informes externos. El informe ofrece un resumen completo de la participación y el rendimiento de un alumno.
 jcr-language: en_us
 title: Transcripciones de alumnos en Adobe Learning Manager
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
 workflow-type: tm+mt
-source-wordcount: '4221'
+source-wordcount: '4354'
 ht-degree: 8%
 
 ---
@@ -59,9 +59,6 @@ Las transcripciones de alumnos en Adobe Learning Manager hacen un seguimiento de
 2. Seleccione **[!UICONTROL Informes]** en el menú de navegación izquierdo.
 3. Selecciona **[!UICONTROL Informes personalizados]** en Informes y luego selecciona **[!UICONTROL Informes de Excel]**.
 4. Seleccione **[!UICONTROL Transcripciones de alumnos]**.
-
-   ![] ()
-
 5. Seleccione **[!UICONTROL Generar nuevo]**.
 6. Seleccione el intervalo de fechas para el que necesita generar la transcripción. De forma predeterminada, la fecha **[!UICONTROL Desde]** es la fecha de registro del alumno, y la fecha **[!UICONTROL Hasta]** siempre es la fecha actual. Solo puede modificar la fecha de inicio &quot;desde&quot; cuando necesita los datos.
 7. Seleccione lo siguiente:
@@ -74,15 +71,12 @@ b. Seleccione catálogos específicos en la lista desplegable **[!UICONTROL Sele
        * En curso
        * No iniciado
        * Dado de baja
-   &#x200B;8. Opciones avanzadas: seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
+   8. Opciones avanzadas: seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
 
    a. Descargue transcripciones de alumnos que se han eliminado de una cuenta seleccionando la casilla de verificación **[!UICONTROL Incluir alumnos eliminados]**.
 b. Descargue información del nivel de módulo en la transcripción del alumno activando la casilla de verificación **[!UICONTROL Habilitar información del nivel de módulo]**. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está activada.
 c. Descargue datos de aptitudes y hojas de resumen activando la casilla de verificación **[!UICONTROL Incluir datos de aptitudes y hojas de resumen]**. Consulte la sección Informes de Excel para obtener más información.
-&#x200B;9. También puede seleccionar los valores de columna que se van a rellenar en el informe. Esto proporciona flexibilidad para descargar informes con valores de columna específicos según sea necesario. Seleccione las columnas en el menú desplegable.
-
-   
-
+9. También puede seleccionar los valores de columna que se van a rellenar en el informe. Esto proporciona flexibilidad para descargar informes con valores de columna específicos según sea necesario. Seleccione las columnas en el menú desplegable.
 Las transcripciones se generan y se descargan en el equipo como archivos .zip cuando no se incluyen los datos de aptitudes. Si la casilla Datos de aptitudes está activada, las transcripciones se generan y se descargan como . archivos xlsx.
 
 ### Generar una transcripción de alumno mediante copiar y pegar
@@ -90,9 +84,6 @@ Las transcripciones se generan y se descargan en el equipo como archivos .zip cu
 La obtención de transcripciones de alumnos se convierte en un proceso tedioso, ya que solo se puede obtener para un alumno o un grupo de usuarios cada vez. Aquí, con la función de copiar y pegar, puede copiar la lista de ID de correo electrónico del alumno y pegarla de una sola vez.
 
 1. Seleccione la pestaña **[!UICONTROL ID de correo electrónico]** para introducir la lista copiada de ID de correo electrónico únicos.
-
-   
-
 2. Pegue los ID de correo electrónico exclusivos de los alumnos que desea añadir, separados por una coma, un punto y coma o un salto de línea.
 3. Selecciona **[!UICONTROL Validar ID de correo electrónico]** para comprobar si el ID de correo electrónico que has introducido es válido. En caso de que el ID de correo electrónico introducido sea incorrecto, se resaltará en rojo junto con un mensaje de validación.
 
@@ -138,15 +129,15 @@ Las siguientes columnas capturan la actividad, el progreso o los intentos.
 | Progreso % | Progreso actual % del alumno que realiza el curso, certificación o ruta de aprendizaje. |
 | Tiempo empleado (minutos) | El tiempo de aprendizaje empleado por el alumno en el objeto de aprendizaje, las filas del nivel de módulo muestran el tiempo de aprendizaje empleado del módulo individual. Las filas del nivel Curso/Ruta de aprendizaje/Certificado muestran el tiempo de aprendizaje agregado dedicado. |
 | Nota | Indica el éxito del alumno. &quot;Aprobado&quot;, si el usuario ha cumplido los criterios de éxito de este objeto de aprendizaje; de lo contrario, &quot;Suspendido&quot;. |
-| Puntuación_de_prueba | La puntuación de prueba más reciente obtenida por el alumno. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba, o si el administrador o el instructor no ha asignado ninguna puntuación. |
-| Puntuación_máx_de_prueba | La puntuación máxima de prueba más reciente posible para el módulo. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba. |
-| Puntuación_más_alta_de_prueba | La puntuación de prueba más alta obtenida por el alumno en varios intentos. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba, o si el administrador o el instructor no han asignado ninguna puntuación. |
-| Puntuación_más_alta_de_prueba_máx | Las puntuaciones máximas de prueba más altas posibles para el módulo. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba. |
+| Puntuación_de_prueba | La columna se utiliza para registrar la puntuación del intento más reciente de una prueba. Por ejemplo, si un usuario realiza varios intentos (por ejemplo, puntuaciones 10, 50 y 30 en tres intentos), la columna Puntuación_de_prueba mostrará la puntuación del último intento, que es 30. Supongamos que una prueba tiene una puntuación máxima de 100 y el usuario realiza tres intentos, con una puntuación de 30, 60 y 90. La columna Puntuación_de_prueba mostrará 90 (la puntuación más reciente), mientras que Puntuación_más_alta_de_prueba mostrará 90 (la mejor puntuación en todos los intentos) y Puntuación_más_de_prueba seguirá siendo 100 (la puntuación máxima posible). |
+| Puntuación_máx_de_prueba | La columna Puntuación_de_prueba_máx representa la puntuación máxima posible que se puede alcanzar para una prueba o módulo específicos. Puesto que Quiz_score_max permanece constante, resulta útil en los informes mostrar la puntuación total alcanzable de una prueba o módulo, independientemente del rendimiento del usuario. |
+| Puntuación_más_alta_de_prueba | La columna Puntuación_más_alta_de_prueba representa la puntuación más alta alcanzada por un usuario en todos los intentos de una prueba específica. Por ejemplo, si un usuario realiza tres intentos y obtiene una puntuación de 10, 20 y 15, la puntuación más alta de la prueba mostrará 20, ya que es la puntuación más alta obtenida. |
+| Puntuación_más_alta_de_prueba_máx | La máxima puntuación posible asociada al mayor intento de prueba realizado por un alumno en varios intentos. No es la puntuación más alta que ha obtenido el alumno. En su lugar, captura la puntuación máxima posible en el intento en el que el alumno obtuvo la puntuación más alta. |
 | Intentos realizados | El número total de intentos realizados por el alumno para este módulo hasta la fecha actual. |
 | Máximo de intentos permitidos | El número máximo de intentos permitido para que el alumno consuma el módulo. |
-| Comentarios del envío | Comentarios del responsable de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
-| Origen de finalización | <b>Nota:</b> En los flujos de trabajo de asistencia del conector de clase virtual, cuando un alumno se marca como asistido automáticamente, el origen mostrará &quot;SELF, (learner_email)&quot;. |
-| Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. Consulte <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/courses#completion-comments">Comentarios de finalización</a> para obtener más información. |
+| Comentarios del envío | Comentarios del responsable de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
+| Origen de finalización | Hace referencia al origen o método mediante el cual se registra la finalización de un curso, un programa de aprendizaje o una certificación por parte de un alumno. Ayuda a los administradores a comprender cómo se ha conseguido la finalización o cómo se ha iniciado sesión en el sistema. La columna identifica si la finalización se notificó automáticamente, se registró automáticamente o se facilitó mediante una función o configuración específica. <b>Nota:</b> En los flujos de trabajo de asistencia del conector de clase virtual, cuando un alumno se marca como asistido automáticamente, el origen mostrará &quot;SELF, (learner_email)&quot;. |
+| Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. |
 
 **Información relacionada con objetos de aprendizaje**
 
@@ -204,8 +195,6 @@ El cuadro de diálogo Transcripciones de alumnos también permite descargar dato
 * Resumen de aptitudes I
 * Resumen de aptitudes II
 
-
-
 ### ¿Qué contiene la hoja Resumen del aprendizaje?
 
 Realiza un seguimiento de las rutas de aprendizaje, los cursos o las certificaciones que se utilizan de forma activa. Realiza un seguimiento de la actividad en curso, así como de las fechas de vencimiento próximas para la formación.
@@ -219,9 +208,6 @@ Realiza un seguimiento de las rutas de aprendizaje, los cursos o las certificaci
 ### Cómo interpretar los datos
 
 Este informe de resumen de aprendizaje realiza un seguimiento de dos rutas de aprendizaje asignadas al alumno.
-Del ejemplo,
-
-
 
 * El usuario se ha inscrito en dos rutas de aprendizaje y ha iniciado ambas.
 * Ninguno de los caminos de aprendizaje se ha completado todavía.
@@ -239,10 +225,6 @@ Haz un seguimiento de la actividad de aprendizaje por alumno. Realiza un seguimi
 * Número de objetos de aprendizaje con fecha de vencimiento en N días: identifica los objetos de aprendizaje que vencen en el siguiente número de días establecido (en este caso, 7 días), lo que ayuda a realizar un seguimiento de los plazos que se acercan.
 
 ### Cómo interpretar los datos
-
-Del ejemplo,
-
-
 
 * El alumno se inscribe en dos objetos de aprendizaje y ha iniciado ambos.
 * No se ha completado ningún objeto de aprendizaje.
@@ -278,7 +260,7 @@ Realiza un seguimiento de los alumnos con fechas de vencimiento próximas para c
 
 | Columna | Descripción |
 |---|---|
-| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/skills-levels">niveles de aptitud</a> para obtener más información. |
+| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">niveles de aptitud</a> para obtener más información. |
 | Nombre | El nombre completo del alumno al que se asigna la aptitud. |
 | Nombre del responsable | El nombre del responsable de informes del alumno. |
 | Etiquetas de fila | El nombre de aptitud específico asignado a los alumnos que aparecen en esta fila. Se utiliza como encabezado de agrupación para resumir los datos de aptitudes de los alumnos en cada categoría de aptitud. |
@@ -307,8 +289,6 @@ El historial de descargas de transcripciones de alumnos permite a los administra
 
 Después de descargar una transcripción del alumno, la página Transcripciones de alumnos muestra todas las transcripciones generadas por cualquier persona en la plataforma.
 
-
-
 La lista muestra los siguientes atributos:
 
 * Desde y Hasta: Duración de las transcripciones que se van a descargar.
@@ -332,8 +312,6 @@ Todos los cursos que formen parte de una ruta de aprendizaje (LP) aparecerán en
 Si se ha eliminado un alumno de la plataforma, su transcripción no mostrará sus registros en ningún informe generado para el grupo de usuarios del que formaba parte. Esto significa que los registros de los alumnos eliminados se excluirán de cualquier informe filtrado creado mediante filtros de grupos de usuarios.
 
 Sin embargo, puede seguir descargando los datos de los alumnos eliminados. Si ha seleccionado la opción **[!UICONTROL Incluir alumnos eliminados]** al establecer los filtros para generar el informe, puede descargar el informe de los alumnos eliminados.
-
-
 
 **Comportamiento de los administradores personalizados**
 

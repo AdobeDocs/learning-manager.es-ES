@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ A continuación, se explica cómo crear los objetos:
 
 1. Descargue e instale los paquetes para crear los objetos personalizados.
 
-   * [Paquete 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [Paquete 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [Paquete 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [Paquete 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [Paquete 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [Paquete 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Cambie el nombre de los objetos personalizados en Salesforce.
 1. Seleccione los eventos y haga clic en **[!UICONTROL Guardar]**.
@@ -430,7 +430,7 @@ La opción de importación de usuarios internos le permite importar los usuarios
 
 +++
 
-+++Asignar atributos
++++Asignación de atributos
 
 Una vez que la conexión se establece correctamente, puede asignar columnas de archivos .csv. Se coloca en la carpeta FTP para los atributos correspondientes de Learning Manager. Este paso es obligatorio.
 
@@ -475,7 +475,7 @@ Las opciones de Importar xAPI permiten programar la importación de declaracione
 
 +++
 
-+++Configuraciones necesarias para importar xAPI
++++Configuraciones requeridas para importar xAPI
 
 1. En la página de configuración, seleccione una configuración existente que esté disponible en la lista de configuración para importar declaraciones xAPI del CSV. Haga clic en editar o **agregar un nuevo vínculo de configuración** para ir a la página configurar orígenes de importación.
 
@@ -876,7 +876,7 @@ Workday tiene cuatro niveles de jerarquía, mientras que Learning Manager tiene 
 >
 >Puede añadir atributos de Workday adicionales. Póngase en contacto con su CSAM para obtener los atributos añadidos.
 
-+++Lista de atributos de Workday compatibles
++++Lista de atributos de Workday admitidos
 
 wd:User_ID
 wd:Worker_ID
@@ -921,7 +921,7 @@ wd:Employment_Data.wd:Worker_Status_Data.wd:Active
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
@@ -952,7 +952,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 Puede exportar todas las aptitudes logradas por un usuario de Learning Manager a Workday. Solo se exportan todas las aptitudes de usuario activas; Learning Manager no exporta aptitudes retiradas. También puede conectar varios gestores de aprendizaje\
 al mismo conector de Workday. Si los nombres de las aptitudes son los mismos en dos cuentas de Learning Manager, se asignan a la misma aptitud en Workday. Antes de actualizar la aptitud en Workday, en caso de que dos cuentas de Learning Manager utilicen la misma cuenta de Workday, es recomendable actualizar los nombres de las aptitudes en todas las cuentas de Learning Manager.
 
-+++Aptitudes del usuario: Configurar
++++Aptitudes de usuario: Configurar
 
 Esta opción le permite programar la extracción del informe. Asegúrese de que la casilla de verificación Habilitar exportación de aptitudes de usuario con esta conexión esté habilitada. Seleccione la casilla de verificación Habilitar programación y especifique la fecha y la hora de inicio. También puede especificar el intervalo en el que desea que se genere y se envíe el informe. Seleccione la casilla de verificación Habilitar programación; a continuación, indique valores para Fecha de inicio, Hora y Repetir después de &#39;n&#39; cantidad de días. Una vez hecho esto, haga clic en Guardar.
 
@@ -961,7 +961,7 @@ Esta opción le permite programar la extracción del informe. Asegúrese de que 
 
 +++
 
-+++Aptitudes del usuario: a petición
++++Aptitudes del usuario: A petición
 
 Puede especificar la fecha de inicio y exportar el informe usando la opción. El informe se extrae desde la fecha indicada hasta el presente. Especifique la fecha a partir de la cual desea comenzar a generar el informe y haga clic en Ejecutar.
 
@@ -970,7 +970,7 @@ Puede especificar la fecha de inicio y exportar el informe usando la opción. El
 
 +++
 
-+++Aptitudes del usuario: estado de ejecución
++++Aptitudes del usuario: Estado de la ejecución
 
 Aquí puede ver el resumen de todas las tareas y obtener su informe de estado. Puede descargar informes de errores haciendo clic en el vínculo del informe de errores.
 
@@ -1144,7 +1144,7 @@ La opción de importación de usuarios internos le permite programar la generaci
 
 +++
 
-+++Asignar atributos
++++Asignación de atributos
 
 Una vez que se establece correctamente una conexión, puede asignar las columnas de archivos CSV que se colocan en la carpeta de Box a los atributos correspondientes de Learning Manager. Este paso es obligatorio.
 
@@ -1165,7 +1165,7 @@ La opción Informe de actividad de xAPI permite generar la importación de decla
 
 +++
 
-+++Configuraciones necesarias para importar xAPI
++++Configuraciones requeridas para importar xAPI
 
 1. En la página de configuración, seleccione una configuración existente que esté disponible en la lista de configuración para importar declaraciones xAPI del CSV. Haga clic en editar o A **añadir un nuevo vínculo de configuración** para ir a la página Importar archivo de origen de configuración de declaraciones xAPI.
 
@@ -2235,7 +2235,7 @@ Una vez que un autor haya establecido los precios de varios cursos, rutas de apr
 
 >[!NOTE]
 >
->En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=es).
+>En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Haga clic en **[!UICONTROL Exportar metadatos de formación]** > **[!UICONTROL Bajo demanda]**.
@@ -2347,7 +2347,7 @@ Por AEM, no hay un botón Comprar ahora, solo **Agregar al carro**. Este botón 
 Un alumno no puede comprar cursos, como certificaciones recurrentes, formación de la tienda de contenido, formación obtenida, formación de conectores, ayudas de trabajo y cursos aprobados o presentados por el responsable.
 +++
 
-+++¿Se produce algún cambio en el informe de transcripciones de alumnos y cursos de formación?
++++¿Se produce algún cambio en los informes de cursos de formación y las transcripciones de alumnos?
 
 Estos informes muestran el precio y la fecha de compra de todos los cursos de formación adquiridos en la cuenta.
 +++

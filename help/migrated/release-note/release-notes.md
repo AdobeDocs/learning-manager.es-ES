@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 69%
   </tr>
  </tbody>
 </table>-->
+
++++Actualización 102: versión de octubre de 2025 de Adobe Learning Manager
+
+**Fecha de publicación**: 12 de octubre de 2025
+
+## Novedades de esta versión
+
+Consulte [Novedades de la versión de octubre de 2025 de Adobe Learning Manager](/help/migrated/whats-new.md) para obtener más información.
++++
 
 +++Actualización 101: versión de julio de 2025 de Adobe Learning Manager
 
@@ -93,7 +102,7 @@ Cuando un administrador hace clic en **[!UICONTROL Actualizar]**, puede elegir e
 
 | Etiqueta antigua | Nueva opción |
 |---|---|
-| Aplicar actualización de contenido a todos los alumnos | Actualizar todos los alumnos ahora: Aplicar actualización de contenido para todos los alumnos |
+| Aplicar actualización de contenido a todos los alumnos | Actualizar todos los alumnos ahora:Apply actualización de contenido para todos los alumnos |
 | Aplicar la actualización a los alumnos aún por iniciar | Actualizar sólo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
 | Los alumnos en curso reciben una actualización después de completarse | Actualizar todos los alumnos eventualmente: Aplicar la actualización de contenido para todos los alumnos eventualmente |
 
@@ -122,17 +131,17 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
-+++Actualización 100: versión de mayo de 2025 de Adobe Learning Manager
++++Actualización 10: versión de mayo de 2025 de Adobe Learning Manager
 
 **Fecha de publicación**: 10 de mayo de 2025
 
 ## Novedades de esta versión
 
-Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new.md).
+Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-may-2025.md).
 +++
 
 +++Actualización 99: versión de febrero de 2025 de Adobe Learning Manager
@@ -380,7 +389,7 @@ No ocurre nada al hacer clic en las notificaciones de la pestaña Actividad de l
 * No podrá iniciar sesión en LinkedIn Learning.
 +++
 
-+++Actualización 8
++++Actualización 88
 
 **Fecha de publicación:** 7 de marzo de 2023
 
@@ -605,7 +614,7 @@ La versión de noviembre de 2022 de Adobe Learning Manager consta de lo siguient
 * URL de subdominio incorrecta en la página de construcción de marca.
 +++
 
-+++Actualización 7
++++Actualización 77
 
 **Fecha de publicación: 24 de mayo de 2022**
 
@@ -653,7 +662,7 @@ Para completar esta acción, póngase en contacto con el departamento de TI de s
 * En versiones anteriores de Learning Manager, para configurar un conector de Zoom, era necesario configurar primero Exavault FTP para copiar el archivo csv. En esta versión, el conector de FTP ya no se utilizará para el archivo csv y, por lo tanto, no es necesario configurar el FTP primero.
 +++
 
-+++Actualización 74: instancia de Learning Manager AWS India
++++Actualización 74: Instancia de Learning Manager AWS India
 
 **Fecha de publicación:** miércoles, 15 de febrero de 2022
 
@@ -1601,7 +1610,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -1979,7 +1988,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+El aprendizaje social permite seleccionar el contenido publicado por los alumnos de dos formas: **Sin gestión** y **Gestión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza, el contenido se publica en directo o se envía para su revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -2167,7 +2176,7 @@ Fecha de publicación: 19 de mayo de 2018.
 
 * Se ha solucionado el problema para integrar la nueva cuenta de conexión.
 * La ventana emergente automática Comentarios de L1 podía no aparecer si estaba habilitada en instancias no predeterminadas. Se ha solucionado el problema.
-* Es posible que el instructor no pueda marcar la asistencia de todos los usuarios de una sola vez para las sesiones que forman parte del programa de aprendizaje/certificación. Esto se ha solucionado.
+* Es posible que el instructor no pueda marcar la asistencia de todos los usuarios de una sola vez para las sesiones que forman parte del programa de aprendizaje/certificación. Este problema se ha solucionado.
 
 +++
 
@@ -2237,7 +2246,7 @@ Esta versión de Learning Manager ofrece optimizaciones de rendimiento destinada
 
 +++
 
-+++Actualización 3
++++Actualización 33
 
 Fecha de publicación: 5 de octubre de 2017.
 
@@ -2563,7 +2572,7 @@ Se generaban informes de transcripción del alumno incorrectos en Learning Manag
 
 #### Capa API {#apilayer}
 
-Se produce un error al intentar obtener la información de la versión del módulo mediante AP/courses/{coursesid}. Esto ya se ha solucionado.
+Se produce un error al intentar obtener la información de la versión del módulo mediante AP/courses/{coursesid}. Esto se ha solucionado.
 
 +++
 
@@ -2603,7 +2612,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final [PATCH/usuarios/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Manager/api/v1/#!/user/patch_users_id) para actualizar usuarios en una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -2944,7 +2953,7 @@ Solía aparecer un título de encabezado inapropiado para la integración de Ado
 
 **Informes**
 
-A veces, incluso si se seleccionaba la opción &#39;Mostrar datos de valores actuales&#39;, los datos más recientes no se mostraban en los informes. Este problema se ha solucionado.
+A veces, incluso si se seleccionaba la opción &#39;Mostrar datos de valores actuales&#39;, los datos más recientes no se mostraban en los informes. Se ha solucionado el problema.
 
 +++
 
@@ -3009,7 +3018,7 @@ Si había un gran número de usuarios en Learning Manager, se producía un retra
 
 **Crear grupos de usuarios**
 
-A veces, el recuento de usuarios no se mostraba en la página de grupos por defecto de Learning Manager. Este problema se ha solucionado.
+A veces, el recuento de usuarios no se mostraba en la página de grupos por defecto de Learning Manager. Se ha solucionado el problema.
 
 +++
 
@@ -3113,10 +3122,10 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se usó para representar grupos externos,**&#x200B;** se **&#x200B;**&#x200B;quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se usó para representar grupos externos,**** se **** quitó del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
-* No se puede hacer clic en la dirección URL en el correo electrónico recibido por los administradores cada vez que se editan las plantillas de correo electrónico **Profile Created(Self-Registration)** y **Profile Created(External/Partners)**. Este problema se ha solucionado.
+* No se puede hacer clic en la dirección URL en el correo electrónico recibido por los administradores cada vez que se editan las plantillas de correo electrónico **Profile Created(Self-Registration)** y **Profile Created(External/Partners)**. Se ha solucionado el problema.
 
 +++
 
