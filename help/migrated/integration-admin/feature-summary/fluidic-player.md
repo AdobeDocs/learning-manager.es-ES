@@ -183,7 +183,7 @@ Se trata de un esfuerzo que debe realizar alguien de su equipo de TI o un consul
 
    Puede obtener su token configurando su reproductor Fluidic incrustable en su administrador de integración. Puede obtener su token de autenticación, que se puede utilizar como su token de acceso.
 
-   Ejemplo de URL creada; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   Ejemplo de URL creada; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    Aquí, lo_id será el ID del curso, el programa de aprendizaje, la certificación y jobAid .
 

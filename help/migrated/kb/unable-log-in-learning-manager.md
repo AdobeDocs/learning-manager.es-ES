@@ -31,7 +31,7 @@ La caché del navegador y las cookies pueden impedir el acceso a la plataforma A
 
 A continuación, se proporcionan vínculos a guías específicas del navegador para limpiar la caché:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=es)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=es)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ A continuación, se proporcionan vínculos a guías específicas del navegador p
 
 ## Usar el modo Incógnito
 
-Utilice el modo de incógnito del navegador y, a continuación, inicie sesión en Adobe Learning Manager. Consulte las [instrucciones](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=es&amp;oco=0).
+Utilice el modo de incógnito del navegador y, a continuación, inicie sesión en Adobe Learning Manager. Consulte las [instrucciones](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=es&oco=0).
 
 ## Contactar con el administrador
 

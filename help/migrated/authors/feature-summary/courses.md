@@ -632,7 +632,7 @@ Para permitir que los instructores marquen el éxito del alumno:
 6. Escriba los detalles necesarios y seleccione las fechas.
 7. Seleccione la opción **[!UICONTROL Permitir al instructor marcar como correcto]**.
 
-   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo ](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo &#x200B;](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Pantalla Detalles de la sesión con la opción Permitir al instructor marcar como correcta resaltada para los módulos Clase o Clase virtual_
 
 8. Seleccione **[!UICONTROL Listo]**.

@@ -26,7 +26,7 @@ Como administrador del sistema en el Admin Console, una de sus primeras tareas e
 
    ![](assets/configure-sso-step1.png)
 
-1. Según el tipo de usuario, seleccione **[!UICONTROL **&#x200B; Usuarios internos &#x200B;** o**&#x200B; Usuarios externos &#x200B;**.]**
+1. Según el tipo de usuario, seleccione **[!UICONTROL **&#x200B; Usuarios internos &#x200B;** o&#x200B;**&#x200B; Usuarios externos &#x200B;**.]**
 
 
 

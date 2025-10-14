@@ -162,7 +162,7 @@ Para configurar las plantillas de correo electrónico de un objeto de aprendizaj
 
 ### Restringir a los usuarios a recibir correos electrónicos {#restrictusersfromreceivingemails}
 
-Como administrador, puede seleccionar quién recibirá y quién no los mensajes de correo electrónico de Learning Manager. Puedes hacerlo mediante la opción **&#x200B;**&#x200B;[!UICONTROL Usuario restringido]&#x200B;**&#x200B;** en la pestaña **&#x200B;**&#x200B;[!UICONTROL Configuración] **&#x200B; **&#x200B;1. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario. Los usuarios que aparecen bajo esta opción no podrán recibir ninguna comunicación por correo electrónico de Learning Manager.
+Como administrador, puede seleccionar quién recibirá y quién no los mensajes de correo electrónico de Learning Manager. Puedes hacerlo mediante la opción **&#x200B;**&#x200B;[!UICONTROL Usuario restringido]&#x200B;**&#x200B;** en la pestaña **&#x200B;**&#x200B;[!UICONTROL Configuración] **&#x200B; &#x200B;**&#x200B;1. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario. Los usuarios que aparecen bajo esta opción no podrán recibir ninguna comunicación por correo electrónico de Learning Manager.
 
 ## Configurar los ajustes de su cuenta {#configureyouraccountsettings}
 
