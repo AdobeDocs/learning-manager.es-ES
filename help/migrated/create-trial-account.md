@@ -16,7 +16,7 @@ Puede configurar fácilmente una cuenta de prueba de 30 días gratuita en Adobe 
 
 Para crear una cuenta de prueba:
 
-1. Ve a [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Ve a [Adobe Learning Manager](https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html).
 2. Seleccione **[!UICONTROL Prueba gratis de 30 días]**.
 
    ![](assets/free-trial.png)
