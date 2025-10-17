@@ -2,9 +2,9 @@
 description: Obtén más información sobre Experience Builder, una herramienta sin código/de código bajo de Adobe Learning Manager que permite a los administradores diseñar y publicar páginas de marca y fáciles de usar sin conocimientos técnicos.
 jcr-language: en_us
 title: Experience Builder en Adobe Learning Manager
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,26 @@ Experience Builder se puede utilizar para varios escenarios de aprendizaje en lo
 * **Portales de formación basados en funciones**: las organizaciones con necesidades de formación específicas del departamento, como una empresa financiera con equipos de ventas y éxito del cliente independientes, pueden crear páginas de aprendizaje dedicadas para cada grupo para garantizar que el contenido sea muy relevante.
 * **Páginas de aprendizaje específicas para eventos**: puedes crear páginas temporales y especializadas para eventos corporativos como un Tech Summit o un Kick Off de ventas. Estas páginas pueden incluir información de la sesión, listas de oradores y un widget de calendario de eventos, y solo se pueden dirigir al equipo relevante durante un periodo específico antes de volver a la experiencia estándar del portal.
 * **Academias de clientes**: Experience Builder permite a las agencias crear academias orientadas al cliente que reflejen su identidad de marca, lo que permite obtener una experiencia personalizada sin el tiempo y el coste asociados a una compilación descentralizada.
+
+## Flujos de trabajo de portal externos autenticados
+
+Las academias orientadas al cliente creadas con Experience Builder se gestionan por completo en Adobe Learning Manager. Estos portales utilizan la autenticación, los permisos y el marco de seguridad integrados de Adobe Learning Manager.
+
+Cada alumno externo debe iniciar sesión en Adobe Learning Manager y ser abonado de al menos un grupo de usuarios. Actualmente, Experience Builder no es compatible con portales no autenticados ni públicos. Todas las experiencias personalizadas requieren que los alumnos inicien sesión en Adobe Learning Manager.
+
+Los administradores pueden usar la opción **[!UICONTROL Menú]** de Experience Builder para asignar páginas personalizadas como páginas de destino para grupos de usuarios específicos. Cuando los alumnos de ese grupo inician sesión, Adobe Learning Manager los dirige automáticamente a la página de inicio asignada, lo que crea una experiencia personalizada y de marca para esa audiencia, como la formación del cliente, la capacitación de socios o la incorporación.
+
+### Requisitos y limitaciones
+
+* Autenticación necesaria: el contenido personalizado, las páginas personalizadas y los menús solo están disponibles para los usuarios autenticados en Adobe Learning Manager.
+* Asignación de grupos de usuarios: los alumnos deben agregarse a los grupos de usuarios correctos para acceder a sus páginas de aterrizaje y menús designados.
+* Páginas de destino basadas en grupos: la configuración de la página de destino se aplica a todos los miembros de un grupo de usuarios, lo que garantiza experiencias uniformes para audiencias similares.
+* Ámbito de personalización: Experience Builder admite una amplia personalización de la interfaz de usuario y el diseño mediante widgets, HTML e iFrames. Sin embargo, las integraciones avanzadas como el comercio electrónico, el SSO federado o las conexiones de datos externos pueden requerir una implementación híbrida o descentralizada.
+
+### Flujo de trabajo de configuración de portal externo
+
+* Definir grupos de usuarios: cree o identifique grupos en ALM que representen a sus audiencias externas (por ejemplo, clientes, socios o distribuidores). Vea [Grupos de usuarios en Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md) para obtener más información sobre los grupos de usuarios.
+* Asignar alumnos a grupos: añada cada alumno externo al grupo de usuarios correspondiente para que se le dirija a la experiencia de portal correcta después de iniciar sesión.
+* Páginas del portal de diseño: use Experience Builder para crear páginas de marca con widgets, HTML y componentes de iFrame de Adobe Learning Manager. Vea [Crear una página personalizada en Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md) para obtener más información.
+* Configurar menús y páginas de destino: en el Creador de menús, asigne a cada grupo de usuarios un menú único y designe su página de portal personalizada como página de destino. Vea [Crear un menú](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md) para obtener más información.
+* Comprobar y Publish: compruebe la navegación, la visibilidad del contenido y el enrutamiento de páginas para cada grupo de usuarios antes de publicar el portal.

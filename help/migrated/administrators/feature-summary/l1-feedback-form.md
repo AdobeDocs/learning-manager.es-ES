@@ -2,7 +2,7 @@
 description: Más información sobre la creación de formularios de comentarios de L1 para los alumnos
 jcr-language: en_us
 title: Formulario de comentarios de L1
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Cree traducciones para las preguntas en el formulario de comentarios en varios i
 
 ## Establecer un formulario de comentarios como predeterminado
 
-Los administradores pueden establecer formularios de comentarios predeterminados para cursos personalizados, de clase, virtuales y mixtos. Una vez configurado, este formulario predeterminado se presentará automáticamente a los alumnos al finalizar cualquier curso. Este formulario predeterminado se aplicará a todos los cursos, a menos que el administrador decida asignar un formulario de comentarios diferente para cursos específicos.
+Los administradores pueden establecer formularios de comentarios predeterminados para cursos personalizados, de clase, virtuales y mixtos. Una vez que se establece un formulario predeterminado, se aplica automáticamente a todos los cursos recién creados. Los alumnos verán este formulario después de completar cualquier curso. Los administradores pueden optar por asignar un formulario de comentarios diferente para cursos específicos, si es necesario.
 
 ![](assets/set-as-default.png)
 _La pantalla de formularios de comentarios muestra la opción para establecer el formulario de comentarios predeterminado_
