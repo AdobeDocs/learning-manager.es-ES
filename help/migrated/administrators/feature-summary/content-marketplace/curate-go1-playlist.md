@@ -2,9 +2,9 @@
 description: Aprenda a crear y añadir una lista de reproducción de Go1 a una ruta de aprendizaje en Adobe Learning Manager. Esta guía trata las instrucciones paso a paso y las prácticas recomendadas para la integración de listas de reproducción.
 jcr-language: en_us
 title: Conservar lista de reproducción de Go1 en ruta de aprendizaje de Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,8 @@ Los administradores pueden escribir la descripción de la lista de reproducción
 12. Seleccione **Sí** en el mensaje de confirmación.
 13. Seleccione la lista de reproducción en el **[!UICONTROL Aviso de selección de lista de reproducción para importar]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
 
 14. Seleccione **[!UICONTROL Agregar listas de reproducción a la ruta de aprendizaje]** y, a continuación, **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ Para eliminar la lista de reproducción:
    _Pantalla de administración de listas de reproducción, resaltando la opción Eliminar lista de reproducción_
 
 La lista de reproducción seleccionada se eliminará de la biblioteca Go1.
+
+### Compartir la lista de reproducción
+
+La opción Compartir lista de reproducción no se admite en la integración de Go1 con Adobe Learning Manager. Esta opción se eliminará de la interfaz de usuario en la próxima versión.
 
 ## Límite de cursos superado
 
