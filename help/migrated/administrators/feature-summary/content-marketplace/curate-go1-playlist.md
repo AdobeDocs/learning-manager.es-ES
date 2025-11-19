@@ -2,7 +2,7 @@
 description: Aprenda a crear y añadir una lista de reproducción de Go1 a una ruta de aprendizaje en Adobe Learning Manager. Esta guía trata las instrucciones paso a paso y las prácticas recomendadas para la integración de listas de reproducción.
 jcr-language: en_us
 title: Conservar lista de reproducción de Go1 en ruta de aprendizaje de Adobe Learning Manager
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe Learning Manager ofrece asistencia basada en IA para facilitar la gestión
 
 Para crear una lista de reproducción con IA:
 
-1. Seleccione la opción **[!UICONTROL Chatear con IA]** en el centro de contenido de Go1.
+1. Seleccione la opción **[!UICONTROL Chatear con IA]** en el centro de contenido **Go1**.
 
    ![](assets/select-chat-with-ai.png)
    _La pantalla del centro de contenido muestra la opción Chat con IA, donde los administradores pueden interactuar con el Asistente de IA para hacer preguntas_
@@ -139,8 +139,8 @@ Los administradores pueden escribir la descripción de la lista de reproducción
 12. Seleccione **Sí** en el mensaje de confirmación.
 13. Seleccione la lista de reproducción en el **[!UICONTROL Aviso de selección de lista de reproducción para importar]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
 
 14. Seleccione **[!UICONTROL Agregar listas de reproducción a la ruta de aprendizaje]** y, a continuación, **[!UICONTROL Publish]**.
 
