@@ -139,8 +139,8 @@ Los administradores pueden escribir la descripción de la lista de reproducción
 12. Seleccione **Sí** en el mensaje de confirmación.
 13. Seleccione la lista de reproducción en el **[!UICONTROL Aviso de selección de lista de reproducción para importar]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Seleccione e importe la lista de reproducción de mejora de aptitudes del ingeniero de ventas de la biblioteca Go1 en Adobe Learning Manager_
 
 14. Seleccione **[!UICONTROL Agregar listas de reproducción a la ruta de aprendizaje]** y, a continuación, **[!UICONTROL Publish]**.
 
