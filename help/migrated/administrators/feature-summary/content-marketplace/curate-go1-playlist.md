@@ -2,7 +2,7 @@
 description: Aprenda a crear y añadir una lista de reproducción de Go1 a una ruta de aprendizaje en Adobe Learning Manager. Esta guía trata las instrucciones paso a paso y las prácticas recomendadas para la integración de listas de reproducción.
 jcr-language: en_us
 title: Conservar lista de reproducción de Go1 en ruta de aprendizaje de Adobe Learning Manager
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Añade cursos de Go1 directamente a las rutas de aprendizaje y las certificacion
 
 Para crear una ruta de aprendizaje con cursos Go1:
 
-1. Inicie sesión en Adobe Learning Manager como administrador.
+1. Inicie sesión en **Adobe Learning Manager** como administrador.
 2. Seleccione **[!UICONTROL Rutas de aprendizaje]** en el panel de navegación izquierdo.
 3. Seleccione **[!UICONTROL Agregar]**.
 
