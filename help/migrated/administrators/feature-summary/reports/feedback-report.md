@@ -2,9 +2,9 @@
 description: Obtenga más información sobre cómo acceder, descargar e interpretar el informe de comentarios en Adobe Learning Manager. Comprende las columnas de informes, los tipos de preguntas, las respuestas del responsable y del alumno, y cómo la información de los comentarios respalda la evaluación de la formación y la mejora continua.
 jcr-language: en_us
 title: Informe de comentarios en Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -102,4 +102,6 @@ En el informe de nivel de objeto de aprendizaje aparecen las siguientes columnas
 | Versión de los comentarios | Número de versión del formulario de comentarios |
 | Idioma del alumno | Idioma seleccionado por el alumno |
 
-
+>[!NOTE]
+>
+>El informe de nivel de objeto de aprendizaje también incluye las preguntas añadidas al formulario de comentarios. Cada pregunta aparece como un encabezado de columna y las respuestas del alumno a dichas preguntas se muestran en las filas correspondientes a continuación.
