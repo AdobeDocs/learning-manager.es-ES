@@ -2,7 +2,7 @@
 title: Novedades de la versión de octubre de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de octubre de 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
 source-wordcount: '8348'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Estos cambios garantizan que las finalizaciones marcadas después de la fecha de
 
 ### Transcripciones de alumnos con la nueva columna
 
-Consulte este [artículo](/help/migrated/administrators/feature-summary/learner-transcripts.md) para obtener información sobre cómo descargar transcripciones de alumnos.
+Consulte este [artículo](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) para obtener más información sobre el informe de transcripciones de alumnos.
 
 El informe de transcripciones de alumnos descargado contiene la nueva columna: Marcar fecha de finalización (zona horaria UTC).
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

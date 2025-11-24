@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 54%
 
 ---
 
@@ -450,15 +450,9 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ### Transcripciones de alumnos {#LearnerTranscripts-1}
 
-Adobe Learning Manager permite a los administradores de una empresa generar transcripciones asociadas a los alumnos. El informe de transcripciones de alumnos muestra lo siguiente:
+Adobe Learning Manager permite a los administradores de una empresa generar transcripciones asociadas a los alumnos.
 
-1. Transcripciones de alumnos: Tablero de actividades de aprendizaje
-1. Aptitud: Tablero de aptitudes
-1. Tablero de cumplimiento
-
-Las transcripciones de alumnos en informes de Excel muestran las columnas Créditos necesarios y Créditos obtenidos en números decimales.
-
-Para obtener información sobre cómo generar informes de transcripciones de alumnos, consulte [Transcripciones de alumnos](learner-transcripts.md).
+Consulte [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) para obtener más información.
 
 ### Informes de anuncios {#announcementsreports}
 
@@ -750,22 +744,7 @@ Para descargar un informe, sigue estos pasos: abre el **[!UICONTROL curso/progra
 
 Como administrador, ahora puede obtener comentarios del alumno (L1) y del responsable (L3) en relación con los cursos de formación seleccionados durante un periodo especificado.
 
-Puede exportar los datos desde la interfaz de usuario o a través del conector de Power BI para realizar un análisis más detallado.
-
-Los informes de comentarios de L1 y L3 ofrecen la opción de descargar un informe de comentarios consolidado para las respuestas de L1 y L3 de los cursos de formación seleccionados durante el intervalo de **un año** o de hasta 10 cursos de formación seleccionados para cualquier intervalo de fechas.
-
-Inicie sesión como administrador, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** y, en la lista de informes, haga clic en **[!UICONTROL Informe de comentarios]**.
-
-![](assets/download-feedbackreport.png)
-*Descargar informe de comentarios*
-
-Al hacer clic en Descargar después de seleccionar los filtros, recibirá una notificación para descargar el informe en formato CSV.
-
-El informe descargado incluirá detalles como el nombre y el tipo de curso de formación, el nombre de la instancia, el nombre y el correo electrónico del alumno, el tipo de comentarios: L1 o L3, las fechas de los comentarios enviados para los nuevos datos.
-
-Para los datos existentes antes de la implementación de esta función, se mostrará la fecha de finalización del objeto de aprendizaje, el texto real de ritmo personalizado de la pregunta de comentarios de L1 y el texto de clase en diferentes columnas, las respuestas respectivas de los comentarios de L1, el nombre y el correo electrónico del responsable, el valor de los comentarios de L3 y la fecha de envío, y los campos activos.
-
-También puede exportar los datos desde la interfaz de usuario o en Power BI, que admite todos los cursos de formación de cualquier intervalo de fechas, para realizar un análisis más detallado
+Consulte [Informe de comentarios](/help/migrated/administrators/feature-summary/reports/feedback-report.md) para obtener más información.
 
 ### Informe de cursos de formación {#training-report}
 
@@ -1035,7 +1014,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
@@ -1239,7 +1218,7 @@ Al crear una cuenta de igual a igual, si no se había seleccionado la opción Co
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo compartir un panel personalizado con un responsable
++++¿Cómo se comparte un tablero personalizado con un responsable?
 
 Al crear un tablero, introduzca el nombre y la descripción. Para compartirlo con responsables, introduzca el nombre del responsable en el campo **[!UICONTROL Compartir con]**.
 

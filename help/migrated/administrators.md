@@ -4,7 +4,7 @@ title: Administradores
 description: Continúe leyendo para conocer las funciones y las preguntas más frecuentes de Learning Manager asociadas a la función de administrador.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [Temas de color y marca](administrators/feature-summary/themes.md)
 * [Integración de Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Interacción](administrators/feature-summary/gamification.md)
 * [Añadir usuarios o grupos de usuarios](administrators/feature-summary/add-users-user-groups.md)
 * [Insignias](administrators/feature-summary/badges.md)

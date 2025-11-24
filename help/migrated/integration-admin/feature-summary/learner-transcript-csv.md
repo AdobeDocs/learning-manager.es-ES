@@ -4,7 +4,7 @@ title: Interpretar el archivo CSV de transcripciones de alumnos
 description: Interpretar el archivo CSV de transcripciones de alumnos
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Esta información puede ser útil para cualquier desarrollador que tenga intenci
 
 ## Recuperar transcripciones de alumnos desde la interfaz de usuario {#fetchlearnertranscriptfromtheuserinterface}
 
-En Configuración de perfil, un alumno puede descargar su transcripción. Para obtener más información, consulte *** [Descargar transcripciones de alumnos](../../administrators/feature-summary/learner-transcripts.md)***.
+En Configuración de perfil, un alumno puede descargar su transcripción. Para obtener más información, consulte ***[Descargar transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Los administradores pueden generar transcripciones de alumnos para toda la organización, un conjunto específico de usuarios, un conjunto específico de objetos de aprendizaje o un conjunto específico de ambos. También pueden obtener todos los registros de aprendizaje durante un intervalo de tiempo e indicar si se requiere información de nivel de módulo (de forma predeterminada, se omite esta información). Para obtener más detalles, consulte [***Descargar transcripciones de alumnos***](../../administrators/feature-summary/learner-transcripts.md).
+Los administradores pueden generar transcripciones de alumnos para toda la organización, un conjunto específico de usuarios, un conjunto específico de objetos de aprendizaje o un conjunto específico de ambos. También pueden obtener todos los registros de aprendizaje durante un intervalo de tiempo e indicar si se requiere información de nivel de módulo (de forma predeterminada, se omite esta información). Para obtener más detalles, consulte [***Descargar transcripciones de alumnos***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 
