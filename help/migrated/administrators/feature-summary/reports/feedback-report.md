@@ -2,10 +2,10 @@
 description: Obtenga más información sobre cómo acceder, descargar e interpretar el informe de comentarios en Adobe Learning Manager. Comprende las columnas de informes, los tipos de preguntas, las respuestas del responsable y del alumno, y cómo la información de los comentarios respalda la evaluación de la formación y la mejora continua.
 jcr-language: en_us
 title: Informe de comentarios en Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -92,6 +92,16 @@ Las siguientes columnas aparecen en el informe de nivel de cuenta en función de
 >[!NOTE]
 >
 >El informe de nivel de cuenta también incluye los campos activos configurados para los alumnos.
+
+## Descargar informe de nivel de objeto de aprendizaje
+
+Para descargar el informe de nivel de objeto de aprendizaje:
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **[!UICONTROL Cursos]** en el menú de navegación de la izquierda.
+3. Seleccione cualquier curso y, a continuación, seleccione **[!UICONTROL Ver curso]**.
+4. Seleccione **[!UICONTROL Comentarios de L1]**.
+5. Seleccione **[!UICONTROL Informe de exportación]** y, a continuación, seleccione **[!UICONTROL Aceptar]**.
 
 En el informe de nivel de objeto de aprendizaje aparecen las siguientes columnas:
 

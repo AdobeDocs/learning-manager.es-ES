@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ En el archivo PDF, puede ver el mismo conjunto de alumnos que un instructor.
 Cuando descarga el PDF, puede ver la zona horaria (en UTC) que se utilizó al crear el curso.
 
 ## Comentarios de L1 y L3 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Si esta opción de comentarios no está visible en su cuenta, significa que su cuenta ya se ha actualizado al nuevo formulario de comentarios de L1. Vea [formulario de comentarios de L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md) para obtener más información.
+
 
 Puede agregar las opciones de comentarios de L1 y L3 mientras crea los cursos:
 

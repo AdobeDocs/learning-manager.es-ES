@@ -2,9 +2,9 @@
 description: Descubra las nuevas funciones y mejoras de la versión de octubre de 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Novedades de la versión de octubre de 2025 de Adobe Learning Manager
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5638'
+source-wordcount: '5573'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ La versión de octubre de 2025 de Adobe Learning Manager presenta importantes me
 * API mejoradas para el análisis y la migración: las API nuevas y mejoradas proporcionan un mejor seguimiento del rendimiento de las pruebas, supervisión del estado de la migración y compatibilidad con el etiquetado de usuarios en el aprendizaje social.
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->Nos complace anunciar que Experience Builder, la innovadora herramienta para crear portales de aprendizaje personalizables, estará disponible tras la versión de octubre de 2025 de Adobe Learning Manager.
->
->Mantente atento a más actualizaciones a medida que nos acercamos a la fecha de lanzamiento. Esperamos ver cómo utilizas Experience Builder para transformar tus portales de aprendizaje.
->
->Si tiene alguna pregunta o desea obtener información adicional, póngase en contacto con el administrador de éxito de clientes.
 
 Experience Builder es una herramienta sin código/de código bajo en Adobe Learning Manager que te ayuda a crear portales de aprendizaje personalizados. Te permite diseñar portales de aprendizaje de marca y fáciles de usar sin necesidad de conocimientos técnicos o amplios conocimientos de codificación.
 Con Experience Builder, los administradores pueden crear páginas, menús y widgets con facilidad para ofrecer experiencias de aprendizaje personalizadas adaptadas a su audiencia.
