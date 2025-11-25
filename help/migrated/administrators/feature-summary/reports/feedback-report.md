@@ -2,7 +2,7 @@
 description: Obtenga más información sobre cómo acceder, descargar e interpretar el informe de comentarios en Adobe Learning Manager. Comprende las columnas de informes, los tipos de preguntas, las respuestas del responsable y del alumno, y cómo la información de los comentarios respalda la evaluación de la formación y la mejora continua.
 jcr-language: en_us
 title: Informe de comentarios en Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 8%
@@ -69,6 +69,10 @@ A continuación se indican las columnas predeterminadas del informe de nivel de 
 | Fecha de finalización | La fecha en la que el alumno ha completado el curso de formación. |
 | Fecha del comentario | La fecha en la que el alumno envió los comentarios |
 | Comentarios de L1 Idioma original | El idioma en el que el alumno envió originalmente los comentarios de L1 |
+| Escala L3 Likert Pregunta 1 | Mide el rendimiento del alumno después del curso de formación mediante una escala de clasificación |
+| Respuesta en escala Likert de L3 1 | Respuesta del responsable a esta pregunta de escala Likert |
+| Pregunta de texto libre 1 de L3 | Se ha añadido una pregunta de texto libre al formulario de comentarios de L3 para los responsables. Se puede configurar como opcional u obligatoria. |
+| Respuesta de texto libre de L3 1 | La respuesta del gerente a esa pregunta de texto libre |
 
 Las siguientes columnas aparecen en el informe de nivel de cuenta en función de los cuatro tipos de preguntas añadidas al formulario de comentarios:
 
@@ -83,10 +87,7 @@ Las siguientes columnas aparecen en el informe de nivel de cuenta en función de
 | Likert Answer 1 | Respuesta a la pregunta 1 de Likert |
 | Pregunta de texto 1 | Primera pregunta de texto o de composición abierta en el formulario |
 | Respuesta de texto 1 | Respuesta del alumno a la pregunta de texto 1 |
-| Escala L3 Likert Pregunta 1 | Mide el rendimiento del alumno después del curso de formación mediante una escala de clasificación |
-| Respuesta en escala Likert de L3 1 | Respuesta del responsable a esta pregunta de escala Likert |
-| Pregunta de texto libre 1 de L3 | Se ha añadido una pregunta de texto libre al formulario de comentarios de L3 para los responsables. Se puede configurar como opcional u obligatoria. |
-| Respuesta de texto libre de L3 1 | La respuesta del gerente a esa pregunta de texto libre |
+
 
 >[!NOTE]
 >
