@@ -2,9 +2,9 @@
 title: Añadir y configurar widgets en Experience Builder
 description: Aprenda a añadir, personalizar y configurar varios widgets en Experience Builder dentro de Adobe Learning Manager. Esta guía trata los widgets más utilizados, como calendarios, categorías, estado de cumplimiento, cursos y rutas, interacción lúdica, contenido para HTML, IFrames, aprendizaje social y mucho más.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Los administradores añaden el widget Categorías a una página para mostrar las
 
 Consulte [Catálogos](/help/migrated/administrators/feature-summary/catalogs.md) y [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) artículos para obtener más información sobre la configuración de catálogos y recomendaciones.
 
+<b>Nota</b>: En el widget Categorías, cuando se selecciona Catálogo, la lista se ordena por fecha de creación de forma predeterminada. Los catálogos creados más recientemente aparecen primero.
+
 ### Agregar un widget de categoría
 
 En una empresa de servicios financieros, los diferentes equipos suelen necesitar acceso a formación específica de la función. El widget Categorías ayuda a organizar el contenido de aprendizaje en mosaicos claros en los que se puede hacer clic, lo que facilita que los equipos de ventas y CSM encuentren rápidamente lo que necesitan.
@@ -85,8 +87,8 @@ Para configurar el widget Categorías:
 9. Escriba un **[!UICONTROL título del widget]** y una **[!UICONTROL descripción del widget]**.
 10. Busque y elija un catálogo del **[!UICONTROL origen de categoría]**.
 
-    ![](assets/configure-calendar-widget.png)
-    _Configure las opciones del widget Categorías para establecer el título y la descripción del widget, y seleccione la categoría de origen_
+   ![](assets/configure-calendar-widget.png)
+   _Configure las opciones del widget Categorías para establecer el título y la descripción del widget, y seleccione la categoría de origen_
 
 11. Seleccione **[!UICONTROL Agregar widget]**.
 
@@ -153,7 +155,7 @@ Para configurar el widget Cursos y trazados:
 
 ![](assets/configure-course-paths.png)
 _Widget de cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
-&#x200B;11. Seleccione **[!UICONTROL Agregar widget]**.
+11. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Cursos y trazados se añadirá a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
@@ -182,14 +184,14 @@ Para configurar el widget de cuadro de contenido:
 9. Escriba el texto en la **[!UICONTROL etiqueta del botón Acción]** y proporcione un vínculo.
 10. Seleccione cualquiera de las opciones de Relleno de fondo:
 
-    * **[!UICONTROL Color]**: seleccione el color en el selector de color o escriba el código de color en el campo de texto.
-    * **[!UICONTROL Imagen]**: examine y cargue una imagen.
+   * **[!UICONTROL Color]**: seleccione el color en el selector de color o escriba el código de color en el campo de texto.
+   * **[!UICONTROL Imagen]**: examine y cargue una imagen.
 
 11. Ajuste la altura del cuadro mediante la opción **[!UICONTROL Altura del cuadro de contenido]**.
 12. Seleccione las opciones de formato de texto.
 
-    ![](assets/configure-content-box.png)
-    _Pantalla de personalización del widget de cuadro de contenido, donde los administradores pueden introducir un título, descripción, etiqueta de botón de acción y vínculo_
+   ![](assets/configure-content-box.png)
+   _Pantalla de personalización del widget de cuadro de contenido, donde los administradores pueden introducir un título, descripción, etiqueta de botón de acción y vínculo_
 
 13. Seleccione **[!UICONTROL Agregar widgets]**.
 
