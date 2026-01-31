@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
 workflow-type: tm+mt
-source-wordcount: '15810'
+source-wordcount: '15789'
 ht-degree: 59%
 
 ---
@@ -2158,7 +2158,7 @@ La oferta estándar es crear la versión nativa de Adobe Learning Manager. Los u
 
 **Oferta premium**
 
-La oferta premium ayuda a los usuarios a crear una interfaz descentralizada, que se configura mediante el conector **[!UICONTROL Training Data Access]**. Esto permite a los usuarios obtener datos en tiempo real sobre detalles del curso y la ruta de aprendizaje, como el nombre, la descripción, el autor, las aptitudes, la duración, etc. En los escenarios de aprendizaje mixto, también se obtienen límites de puestos en tiempo real, puestos ocupados, listas de espera y recuentos de listas de espera. Los clientes pueden utilizar estas API para crear capacidades de búsqueda y filtro, así como un resumen completo del curso para los alumnos que no hayan iniciado sesión.
+La oferta premium ayuda a los usuarios a crear una interfaz descentralizada, que se configura mediante el conector **[!UICONTROL Training Data Access]**. En los escenarios de aprendizaje mixto, también se obtienen límites de puestos en tiempo real, puestos ocupados, listas de espera y recuentos de listas de espera. Los clientes pueden utilizar estas API para crear capacidades de búsqueda y filtro, así como un resumen completo del curso para los alumnos que no hayan iniciado sesión.
 
 Los clientes pueden adquirir un plan prémium para crear esta experiencia altamente ampliable sin haber iniciado sesión.
 
@@ -2235,7 +2235,7 @@ Una vez que un autor haya establecido los precios de varios cursos, rutas de apr
 
 >[!NOTE]
 >
->En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=es).
+>En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Haga clic en **[!UICONTROL Exportar metadatos de formación]** > **[!UICONTROL Bajo demanda]**.
