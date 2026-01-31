@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15789'
 ht-degree: 59%
@@ -2145,7 +2145,7 @@ Cuando un alumno hace clic en Curso, Certificado o Ruta de aprendizaje, se inici
 
 ### Experiencia sin sesión iniciada {#non-logged-in-experience}
 
-La experiencia de no inicio de sesión le permite crear una experiencia en tiempo real para los usuarios que no han iniciado sesión. Por ejemplo, una experiencia que no haya iniciado sesión sirve como página de aterrizaje para las campañas de marketing que alientan los registros.
+La experiencia de no inicio de sesión le permite crear experiencias de aprendizaje para usuarios que no han iniciado sesión. Por ejemplo, una experiencia que no haya iniciado sesión sirve como página de aterrizaje para las campañas de marketing que alientan los registros.
 
 La experiencia de inicio de sesión no registrado en Adobe Learning Manager se puede configurar mediante el conector **[!UICONTROL Training Data Access]**. El conector ofrece las siguientes opciones:
 
@@ -2235,7 +2235,7 @@ Una vez que un autor haya establecido los precios de varios cursos, rutas de apr
 
 >[!NOTE]
 >
->En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=es).
+>En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Haga clic en **[!UICONTROL Exportar metadatos de formación]** > **[!UICONTROL Bajo demanda]**.
