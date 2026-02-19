@@ -2,9 +2,9 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
+source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
 workflow-type: tm+mt
-source-wordcount: '7425'
+source-wordcount: '7458'
 ht-degree: 1%
 
 ---
@@ -920,6 +920,11 @@ El nuevo cálculo varía según el tipo de módulo:
 * **HTML, LTI y otro contenido**: Puede variar; compruebe la precisión de las transcripciones de alumnos.
 
 El tiempo de inactividad se resta, lo que garantiza que solo se notifique el tiempo de participación real.
+
+>[!NOTE]
+>
+>Si el portátil pasa al modo de suspensión, es posible que no se realice un seguimiento correcto del tiempo de aprendizaje. Esto se debe a que el seguimiento de la actividad se detiene mientras el sistema está en modo de suspensión y se reanuda sólo cuando se despierta el equipo portátil.
+
 
 ### Tabla de resumen
 
@@ -2705,4 +2710,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
