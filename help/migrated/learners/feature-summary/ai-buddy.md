@@ -2,17 +2,22 @@
 description: Learner AI Assistant (Beta) es un complemento de chat basado en GenAI en Adobe Learning Manager que ayuda a los alumnos a obtener respuestas rápidas y precisas a partir del contenido de aprendizaje asignado. Mediante el uso de consultas de lenguaje natural, los alumnos pueden recuperar instantáneamente respuestas centradas con citas claras, lo que facilita encontrar la información correcta, verificar las fuentes y aprender de manera eficaz sin buscar en cursos enteros.
 jcr-language: en_us
 title: Asistente de inteligencia artificial del alumno (beta) en Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Introducción
 
 El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
+
+>[!IMPORTANT]
+>
+>El Asistente de inteligencia artificial para alumnos está actualmente en fase beta y se está lanzando en una implementación gradual. El acceso puede variar según el usuario.
+
 
 ## ¿Qué es el Asistente de IA?
 
@@ -173,15 +178,13 @@ El asistente de inteligencia artificial del alumno responde a las preguntas util
 
 * El asistente utiliza contenido de los catálogos internos que el administrador habilita para el asistente de inteligencia artificial del alumno.
 
-* Si no tiene acceso a un curso, una ayuda de trabajo o un objeto de aprendizaje, el asistente no lo utilizará para generar respuestas.
-
 * El asistente respeta su función, pertenencia a grupos y permisos de catálogo al recuperar información.
 
 ### ¿Qué contenido no utiliza el Asistente de inteligencia artificial?
 
 El Asistente de inteligencia artificial para alumnos limita las respuestas al ámbito de aprendizaje asignado.
 
-* No utiliza contenido de catálogos compartidos, adquiridos, externos u otros catálogos que no sean internos.
+* No utiliza contenido de catálogos predeterminados, compartidos, adquiridos, externos u otros catálogos que no sean internos.
 
 * No recupera información de bibliotecas de contenido de terceros como LinkedIn Learning o Go1.
 
