@@ -3,25 +3,25 @@ description: Learner AI Assistant (Beta) es un complemento de chat basado en Gen
 jcr-language: en_us
 title: Asistente de inteligencia artificial del alumno (beta) en Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Introducción
+# Asistente del alumno
 
-El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
+El Asistente de inteligencia artificial del alumno (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
 
 >[!IMPORTANT]
 >
 >El Asistente de inteligencia artificial para alumnos está actualmente en fase beta y se está lanzando en una implementación gradual. El acceso puede variar según el usuario.
 
 
-## ¿Qué es el Asistente de IA?
+## ¿Qué es el Asistente de inteligencia artificial para alumnos?
 
-AI Assistant es un compañero de chat basado en GenAI en Adobe Learning Manager que ofrece respuestas rápidas y precisas a las preguntas de los alumnos mediante el contenido de aprendizaje de confianza disponible para ellos en Adobe Learning Manager. También incluye citas, por lo que los alumnos siempre conocen la fuente de la información.
+El asistente de inteligencia artificial para alumnos es un compañero de chat basado en la generación IA de Adobe Learning Manager que ofrece respuestas rápidas y precisas a las preguntas de los alumnos mediante el contenido de aprendizaje de confianza disponible para ellos en Adobe Learning Manager. También incluye citas, por lo que los alumnos siempre conocen la fuente de la información.
 
 ## ¿Por qué usarla?
 
