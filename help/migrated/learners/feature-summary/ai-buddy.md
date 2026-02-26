@@ -1,11 +1,11 @@
 ---
-description: AI Assistant (Beta) para alumnos es un complemento de chat impulsado por GenAI en Adobe Learning Manager que ayuda a los alumnos a obtener respuestas rápidas y precisas a partir del contenido de aprendizaje asignado. Mediante el uso de consultas de lenguaje natural, los alumnos pueden recuperar instantáneamente respuestas centradas con citas claras, lo que facilita encontrar la información correcta, verificar las fuentes y aprender de manera eficaz sin buscar en cursos enteros.
+description: El Asistente de inteligencia artificial (Beta) para alumnos es un complemento de chat potenciado por GenAI en Adobe Learning Manager que ayuda a los alumnos a obtener respuestas rápidas y precisas a partir del contenido de aprendizaje asignado. Mediante el uso de consultas de lenguaje natural, los alumnos pueden recuperar instantáneamente respuestas centradas con citas claras, lo que facilita encontrar la información correcta, verificar las fuentes y aprender de manera eficaz sin buscar en cursos enteros.
 jcr-language: en_us
-title: Asistente de inteligencia artificial (beta) para alumnos de Adobe Learning Manager
+title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -151,52 +151,52 @@ La personalización de solicitudes se gestiona en el nivel de cuenta y no se pue
 
 Los administradores seleccionan qué grupos de usuarios y catálogos internos pueden acceder a la función Asistente de IA. Deben asegurarse de que los catálogos asignados incluyan solo el contenido de aprendizaje que sea adecuado para aparecer en las respuestas y citas de IA, y de que dichos catálogos sean predeterminados, internos, no compartidos, adquiridos o externos.
 
-Antes de configurar el Asistente de IA, confirme que tiene credenciales de administrador y que ha identificado los grupos de usuarios y catálogos que deben tener acceso a la función.
+Antes de configurar el asistente de IA, confirme que tiene credenciales de administrador y que ha identificado qué grupos de usuarios y catálogos deben tener acceso a la función.
 
-### Configurar el acceso del Asistente de IA
+### Configuración del acceso al asistente de IA
 
-Para activar el Asistente de inteligencia artificial del alumno:
+Para habilitar el asistente de inteligencia artificial aplicada al alumno:
 
 1. Inicie sesión en Adobe Learning Manager como administrador.
 
-2. Seleccione **Configuración** en la página principal.
+2. Seleccione **Configuración** de la página principal.
    ![Consola de administrador con la opción Configuración en el panel izquierdo](assets/settings-menu.png)
 
-3. Seleccione **Asistente de inteligencia artificial del alumno (beta)** en el menú **Configuración**.
-   ![La consola del administrador muestra la opción Asistente de inteligencia artificial del alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
+3. Seleccione **Asistente de IA del alumno (Beta)** en el menú **Configuración**.
+   ![La consola de administrador muestra la opción Asistente de inteligencia artificial aplicada al alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
 
-4. Seleccione el conmutador para habilitar el **Asistente de inteligencia artificial del alumno (beta)**.
-   ![La consola de administradores muestra el conmutador habilitado para el Asistente de inteligencia artificial del alumno](assets/learner-assistant-toggle.png)
+4. Seleccione el conmutador a fin de habilitar el **Asistente de IA del alumno (Beta)**.
+   ![La consola de administradores muestra la opción habilitada para el asistente de IA del alumno](assets/learner-assistant-toggle.png)
 
-5. Seleccione uno o varios grupos de usuarios en la opción **Grupos de usuarios que cumplen los requisitos**.
+5. Seleccione uno o más grupos de usuarios de la opción **Grupos de usuarios aptos**.
 
 6. Seleccione **Guardar** para aplicar la configuración del grupo de usuarios.
 
-7. Seleccione uno o varios catálogos en la opción **Catálogos aptos**.
+7. Seleccione uno o más catálogos de la opción **Catálogos aptos**.
 
 8. Seleccione **Guardar** para aplicar la configuración del catálogo.
 
 >[!IMPORTANT]
 >
->El Asistente de IA solo admite catálogos internos. Si se selecciona un catálogo compartido, adquirido, externo u otro que no sea interno, el Asistente de AI no mostrará su contenido, aunque el catálogo aparezca en la lista Catálogos aptos.
+>El asistente de IA solo admite catálogos internos. Si se selecciona un catálogo compartido, adquirido, externo u otro catálogo no interno, el asistente de IA no mostrará su contenido, aunque el catálogo aparezca en la lista Catálogos aptos.
 
-## Guía del alumno: Iniciar el asistente de IA
+## Guía del alumno: inicio del asistente de IA
 
-### Iniciar el Asistente de IA
+### Inicio del asistente de IA
 
-Para iniciar el Asistente de IA:
+Para iniciar el asistente de IA:
 
 1. Inicie sesión en Adobe Learning Manager como alumno.
 
-2. Seleccione **Preguntar al Asistente de IA** en la página principal.
-   ![La página de inicio del alumno muestra Solicitar al Asistente de inteligencia artificial que seleccione y abra el panel Asistente de inteligencia artificial del alumno](assets/ask-ai-assistant.png)
+2. Seleccione **Preguntar al asistente de IA** en la página de inicio.
+   ![Se muestra la página de inicio del alumno. Solicite al asistente de IA que seleccione y abra el panel del asistente de IA del alumno](assets/ask-ai-assistant.png)
 
-3. Cuando aparezca la pantalla **Asistente de inteligencia artificial del alumno**, seleccione **Introducción**.
-   ![Seleccione Introducción para iniciar el Asistente del alumno](assets/get-started-learner-assistant.png)
+3. Cuando aparezca la pantalla **Asistente de IA del alumno**, seleccione **Introducción**.
+   ![Seleccione Comenzar para iniciar el Asistente para alumnos](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
 >
->Al iniciar AI Assistant por primera vez, debe dar su consentimiento antes de utilizarlo. El cuadro de diálogo de consentimiento solo aparecerá durante este inicio inicial. Para todos los inicios posteriores, se le dirigirá directamente al Asistente de inteligencia artificial para introducir sus indicaciones.
+>Al iniciar el asistente de IA por primera vez, debe proporcionar su consentimiento antes de utilizarlo. El cuadro de diálogo de consentimiento solo aparecerá durante este inicio inicial. Para todos los inicios posteriores, se le dirigirá directamente al Asistente de inteligencia artificial para introducir sus indicaciones.
 
 &#x200B;4. Escriba el mensaje en el campo de texto.
 
