@@ -2,10 +2,10 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '784'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 71%
    * [Notas de la versión](release-note/release-notes.md)
    * [Requisitos del sistema](system-requirements.md)
    * [Aplicación Adobe Learning Manager para Microsofts Teams](adobe-learning-manager-app-microsoft-teams.md)
-   * [Cumplimiento del RGPD por parte de Learning Manager](kb/prime-gdpr.md)
+   * [Cumplimiento de Adobe Learning Manager con el RGPD](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Accesibilidad en Learning Manager](accessibility-learning-manager.md)
    * [Compatibilidad con dominios personalizados](custom-domain.md)
    * [Transición desde el Administrador de FTP Adobe](transition-from-ftp-manager.md)
@@ -147,7 +148,7 @@ ht-degree: 71%
 * El instructor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Administrar a los alumnos de la sesión](instructors/feature-summary/learners.md)
-* El alumno {#learner}
+* Administración {#learner}
    * [Iniciar sesión](learners/feature-summary/user-login.md)
    * [Configuración de perfil](learners/feature-summary/settings.md)
    * [Catálogos](learners/feature-summary/catalogs.md)
@@ -163,7 +164,7 @@ ht-degree: 71%
    * [Notificaciones de usuarios](learners/feature-summary/user-notifications.md)
    * [Anuncios](learners/feature-summary/announcements.md)
    * [Gestión de la lista de espera y la asistencia](learners/feature-summary/waitlist-attendance-management.md)
-   * [Asistente de IA para los alumnos](learners/feature-summary/ai-buddy.md)
+   * [Asistente de IA para los alumnos](learners/feature-summary/learner-ai-assistant.md)
    * [Búsqueda basada en IA en Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Aplicación Learning Manager para Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integración de Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
