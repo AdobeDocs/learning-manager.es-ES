@@ -2,10 +2,10 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
-ht-degree: 1%
+source-wordcount: '8124'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Esta mejora ya se incluyó en la versión de noviembre de 2025 de Adobe Learning
 
 La acción &quot;Siguiente&quot; en el reproductor indica lo que ocurrirá al hacer clic mostrando el nombre del siguiente módulo o curso y señalando explícitamente cuando el alumno está a punto de salir del reproductor.
 
-### Novedades
+### Novedades...
 
 **&quot;Next Module: {ModuleName}&quot; etiqueta en el reproductor**
 
@@ -115,7 +115,7 @@ Para los alumnos que utilizan principalmente teléfonos o tabletas:
 
 La próxima actualización del conector de Zoom mejorará significativamente la forma en que Adobe Learning Manager administra la formación virtual con instructor (VILT). Antes, los usuarios solo podían crear una sesión de Zoom cada vez. Con la nueva actualización, los administradores y los autores pueden programar varias sesiones de Zoom al mismo tiempo mediante la integración estándar.
 
-### Novedades
+### Novedades...
 
 #### Compatibilidad con varias sesiones de zoom simultáneas a través del conector
 
@@ -181,7 +181,7 @@ Al vincular reuniones a cuentas de zoom de instructores individuales:
 
 * Cada instructor puede operar dentro de sus propios límites de licencia de Zoom.
 
-* Las organizaciones pueden utilizar su modelo de aprovisionamiento de Zoom existente (una cuenta por formador, por unidad de negocio, etc.) mientras se integran completamente con Adobe Learning Manager.
+* Las organizaciones pueden utilizar su modelo de aprovisionamiento de Zoom existente (una cuenta por instructor, por unidad de negocio, etc.) mientras se sigue integrando completamente con Adobe Learning Manager.
 
 * Esto evita el cuello de botella de un solo punto que supone el uso de un usuario de Zoom superadministrador compartido en todas las sesiones.
 
@@ -221,7 +221,7 @@ Cuando se comparte un curso a través del catálogo en una cuenta de igual a igu
 
 La mejora garantiza que la información del autor se conserve y aparezca en los cursos compartidos en cuentas de igual a igual, en lugar de sustituirse por un marcador de posición genérico.
 
-### Novedades
+### Novedades...
 
 Mostrar el nombre del autor real de los cursos compartidos en cuentas de igual a igual
 
@@ -283,7 +283,7 @@ Cuando una unidad empresarial gestiona el aprendizaje para otros:
 
 Esta mejora hace que la fecha de retirada automática de un objeto de aprendizaje (LO) esté disponible directamente a través de las API de Adobe Learning Manager orientadas al alumno. Cuando un curso, una ruta de aprendizaje o una certificación se configuran con una fecha de caducidad o de retirada automática, esa información ahora forma parte de los datos del objeto de aprendizaje devueltos por los puntos finales clave del alumno.
 
-### Novedades
+### Novedades...
 
 #### Nuevo campo de caducidad/retirada automática en las API de objetos de aprendizaje
 
@@ -367,7 +367,7 @@ Tener fechas de caducidad en la API de objetos de aprendizaje permite a los crea
 
 La mejora extiende el modelo de localización de Adobe Learning Manager a las ayudas de trabajo, lo que permite a los autores adjuntar diferentes archivos de contenido por idioma a una sola ayuda de trabajo. En lugar de crear ayudas de trabajo independientes para cada idioma, los autores ahora pueden administrar todas las versiones localizadas como una ayuda de trabajo lógica.
 
-### Novedades
+### Novedades...
 
 #### Carga de contenido específico del idioma para las ayudas de trabajo
 
@@ -441,7 +441,7 @@ La mejora permite a los autores y administradores de Adobe Learning Manager defi
 
 Esta capacidad es fundamental para los usuarios que necesitan un control más estricto sobre cuándo está disponible determinado contenido o que deben dejar de iniciarse, por ejemplo, en programas cronometrados, formación basada en cohortes o ejercicios sensibles al tiempo.
 
-### Novedades
+### Novedades...
 
 Los autores ahora pueden configurar, en el nivel de módulo de un curso, una fecha/hora de inicio y una fecha/hora de finalización que determine cuándo se permite a los alumnos iniciar ese módulo. En esta ventana, el módulo se comporta de la forma habitual; antes de la hora de inicio o después de la hora de finalización, el alumno ve el módulo en el esquema del curso, pero no puede iniciarlo.
 
@@ -469,7 +469,7 @@ Esto mejora la experiencia del alumno: en lugar de módulos opuestos a los que s
 
 La mejora permite que las plataformas externas que utilizan LTI (interoperabilidad de herramientas de aprendizaje) especifiquen el idioma del contenido de Adobe Learning Manager en el momento del inicio. En lugar de depender del alumno para cambiar el idioma en el reproductor Fluidic, el consumidor de LTI puede enviar un código de idioma a través de un parámetro personalizado de LTI. Adobe Learning Manager utilizará este código para seleccionar la variante de idioma adecuada.
 
-### Novedades
+### Novedades...
 
 Las plataformas externas que actúan como consumidores de LTI ahora pueden pasar un parámetro de idioma personalizado (y la configuración de reproductor relacionada) al iniciar contenido de ALM. ALM lee este parámetro y:
 
@@ -501,7 +501,7 @@ La mejora también se adapta a escenarios en los que la plataforma externa trata
 
 La mejora introduce listas de comprobación ponderadas, lo que permite a los instructores y responsables evaluar a los alumnos mediante escalas graduadas y puntuaciones totales, en lugar de tratar cada pregunta de la lista de comprobación como igual. El objetivo es facilitar la creación de listas de comprobación mediante la aplicación de evaluaciones ponderadas de las preguntas, lo que permite reflejar la importancia relativa de las distintas acciones o aptitudes en una sola lista de comprobación.
 
-### Novedades
+### Novedades...
 
 Las listas de comprobación admiten los siguientes tipos:
 
@@ -564,11 +564,11 @@ La mejora introduce la compatibilidad con varios idiomas para las preguntas de l
 
 En Adobe Learning Manager hoy:
 
-* Todos los módulos orientados al alumno (SCORM, PDF, HTML, etc.) se pueden proporcionar en varios idiomas de contenido, lo que permite a los alumnos elegir el idioma que prefieran.
+* Todos los módulos orientados al alumno (SCORM, PDF, HTML, etc.) se puede proporcionar en varios idiomas de contenido, lo que permite a los alumnos elegir el idioma que prefieran.
 
 * En un módulo de lista de comprobación, los revisores (instructores/responsables) evalúan a los alumnos en función de las preguntas definidas en dicha lista de comprobación.
 
-### Novedades
+### Novedades...
 
 **Creación**
 
@@ -626,7 +626,7 @@ Hoy en día, los revisores pueden:
 
 En escenarios reales, como la aviación, los instructores de campo evalúan a los agentes de planta y al personal del aeropuerto. Del mismo modo, los instructores y mentores de las pequeñas y medianas empresas (PYMES) suelen utilizar listas de comprobación para evaluar el desempeño laboral. Sin embargo, estas listas de comprobación no suelen incluir una sección estructurada para capturar comentarios narrativos relacionados con la evaluación.
 
-### Novedades
+### Novedades...
 
 #### Opciones de creación
 
@@ -703,7 +703,7 @@ Sin embargo, si el propio archivo de contenido (por ejemplo, una prueba de Artic
 
 Esta mejora introduce el seguimiento de varios intentos en el nivel de contenido de los cuestionarios, lo que permite a Adobe Learning Manager capturar con precisión cada intento dentro del propio contenido en el informe de cuestionarios de L2. Se ha diseñado para situaciones en las que la herramienta de creación de contenido (como Articulate SCORM) gestiona los intentos de las pruebas de forma independiente. Con esta función, los intentos se reflejarán correctamente en los informes de ALM sin depender de la configuración de Intento múltiple de prueba (MQA) en el nivel de LMS.
 
-### Novedades
+### Novedades...
 
 #### Indicador de autor para los intentos de contenido
 
@@ -765,7 +765,7 @@ Esta mejora añade la capacidad de los instructores de generar códigos QR por s
 
 a nivel de sesión. Se ha diseñado para situaciones en las que los alumnos entran en una clase física o híbrida y requieren una opción rápida de autoservicio para inscribirse y registrar su asistencia mediante un código QR.
 
-### Novedades
+### Novedades...
 
 #### Códigos QR generados por instructor
 
@@ -813,7 +813,7 @@ Esto facilita a los instructores y coordinadores identificar e imprimir el códi
 
 Esta mejora mejora mejora la experiencia de reproducción de contenido de Adobe Captivate en el reproductor Adobe Learning Manager (ALM), especialmente tras los cambios recientes en la arquitectura de Captivate. El objetivo es permitir que los alumnos interactúen con los módulos de Captivate de forma nativa en ALM, al tiempo que se garantiza que la navegación, el seguimiento de la finalización y la toma de notas sean claros, coherentes y fiables.
 
-### Novedades
+### Novedades...
 
 #### Experiencia unificada del índice
 
@@ -936,7 +936,7 @@ El tiempo de inactividad se resta, lo que garantiza que solo se notifique el tie
 | **Captivate** | Temporización basada en diapositivas | No se puede detectar el estado inactivo |
 | **xAPI** | Pestaña activa | Pestaña inactiva |
 | **HTML** | Tiempo de apertura del reproductor con la pestaña activa | Pestaña inactiva |
-| **Productor/Consumidor de LTI** | Si el contenido de LTI se reproduce dentro del reproductor de ALM (es decir, ALM consume contenido de LTI alojado en otro LMS que actúa como productor), se aplica esta lógica del tiempo empleado.<br><br>Sin embargo, si el contenido se reproduce fuera del LMS (es decir, el contenido se aloja en ALM, ALM es el productor, pero la reproducción se produce en un reproductor externo), esta parte de la lógica de cálculo de tiempo no se aplica.  <br>**Nota**: El consumidor de LTI no es compatible con Adobe Learning Manager. | Pestaña inactiva |
+| **Productor/Consumidor de LTI** | Si el contenido de LTI se reproduce dentro del reproductor de ALM (es decir, ALM consume contenido de LTI alojado en otro LMS que actúa como productor), se aplica esta lógica del tiempo empleado.<br><br>Sin embargo, si el contenido se reproduce fuera del LMS (es decir, el contenido se aloja en ALM, ALM es el productor, pero la reproducción se produce en un reproductor externo), esta parte de la lógica del cálculo de tiempo no se aplica.  <br>**Nota**: El consumidor de LTI no es compatible con Adobe Learning Manager. | Pestaña inactiva |
 
 **Nota**:
 
@@ -1012,9 +1012,66 @@ Esto se espera cuando el tiempo de inactividad haya inflado los resultados anter
 
 Ninguno; el cambio es automático.
 
+## Actualización de los informes de transcripciones de aprendizaje para administradores
 
+Estamos actualizando los informes de transcripciones de aprendizaje (LT) para que los administradores puedan realizar mejor las evaluaciones basadas en listas de comprobación y recibir comentarios de los revisores.
 
+## ¿Qué está cambiando?
 
+### &#x200B;1. Cambio de nombre de columna en la transcripción de Admin Learning
+
+Columna **Comentario de envío** existente en el aprendizaje de administración
+La transcripción será:
+
+1. **Se cambió el nombre a:** `Reviewer's remarks`
+
+### Datos mostrados en esta columna:
+
+* **Para módulos de envío:**
+La columna seguirá mostrando el comentario del envío (sin cambios de comportamiento).
+
+* **Para módulos de lista de comprobación:**
+La columna mostrará ahora el comentario de evaluación (los comentarios del revisor de la lista de comprobación).
+
+Este cambio se aplica a todos los orígenes de LT de administrador:
+
+* LT descargado de la IU del administrador
+* LT obtenido mediante la API de trabajos
+* LT generado mediante conectores
+
+Después de este cambio, la misma columna incluirá: - Comentarios de envío para los módulos de envío
+
+* Comentarios de evaluación para los módulos de lista de comprobación
+
+Bajo el nuevo nombre de encabezado **Comentarios del revisor**.
+
+### &#x200B;2. Nueva columna en exportaciones de transcripciones de aprendizaje basadas en conectores
+
+Para transcripciones de aprendizaje exportadas mediante conectores:
+
+* Al final del informe se agregará una nueva columna denominada **Comentarios del revisor**.
+* Esta columna contendrá los comentarios del revisor, alineados con el comportamiento descrito anteriormente:
+   * Comentarios de envío para los módulos de envío
+   * Comentarios de evaluación para los módulos de lista de comprobación
+
+## Incidencia en las integraciones y automatizaciones existentes
+
+Si utiliza informes de transcripciones de aprendizaje en integraciones personalizadas, automatizaciones o herramientas de creación de informes externas, revise los siguientes escenarios:
+
+| Escenario | Consecuencias | Acción necesaria |
+|----------|--------|----------------|
+| Puede identificar los campos de Admin LT por nombre de columna (p. ej., &quot;Enviar comentario&quot;) | El encabezado de columna cambiará a las observaciones del revisor. | Sí. Actualice cualquier asignación o lógica que haga referencia al envío de comentarios para utilizar los comentarios del revisor. |
+| Solo puede identificar los campos de Admin LT por posición de columna (según el índice) | La posición de esta columna sigue siendo la misma en Admin LT. | Normalmente no hay acción. Si su lógica no depende del texto del encabezado, no es necesario realizar ningún cambio en el administrador LT, solo cambie el nombre de la columna si actualmente se utiliza la columna &quot;Enviar comentarios&quot;. |
+| Se utiliza LT exportado por conector y se basa en un recuento de columnas fijo o en una posición específica de la última columna | Se añade una nueva columna al final del informe. | Sí. Ajuste la lógica de análisis o validación para tener en cuenta una columna adicional al final del archivo. |
+| Se utiliza LT exportado por conector y se asigna por nombre de columna | Una nueva columna Comentarios del revisor estará disponible. | Opcional. No es necesario realizar ningún cambio a menos que desee utilizar los nuevos datos de comentarios del revisor/lista de comprobación. |
+
+**Qué debes hacer**
+
+* Revise cualquier script, trabajo de ETL, tablero o integración que consuma informes de transcripciones de aprendizaje de administración.
+* Si hace referencia al nombre de columna anterior _Enviar comentario_, actualice la configuración o el código para utilizar el nuevo nombre de columna Comentarios del revisor.
+* Si utiliza exportaciones LT basadas en conectores y supone un número fijo de columnas o una última columna fija, actualice la lógica para controlar una columna adicional al final de la exportación.
+
+Si su implementación actual se basa únicamente en posiciones de columna en Admin LT y no valida ni depende del texto del encabezado de columna, no se requiere ningún cambio para el propio Admin LT. Sólo es necesario prestar atención a las exportaciones de conectores cuando se depende de un diseño fijo.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
