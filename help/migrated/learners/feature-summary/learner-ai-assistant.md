@@ -3,9 +3,9 @@ description: El Asistente de inteligencia artificial (Beta) para alumnos es un c
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -21,58 +21,60 @@ El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontra
 
 ## ¿Qué es el Asistente de IA para alumnos?
 
-El asistente de inteligencia artificial es un compañero de chat con tecnología GenAI en Adobe Learning Manager que ofrece respuestas rápidas y precisas a las preguntas de los alumnos mediante el contenido de aprendizaje de confianza disponible para ellos en Adobe Learning Manager. También incluye citas, por lo que los alumnos siempre conocen la fuente de la información.
+El Asistente de IA es un compañero de chat generativo basado en IA en Adobe Learning Manager que ofrece respuestas rápidas y precisas utilizando su contenido de aprendizaje de confianza. Incluye citas para que siempre conozca la fuente de la información.
 
-### Capacidades clave del Asistente de inteligencia artificial
+### Capacidades
 
-1. Respuesta inteligente a preguntas
-   * Conversaciones de una vuelta y varias vueltas
-   * Comprensión del lenguaje natural en inglés
-   * Respuestas derivadas de cursos, certificaciones, rutas de aprendizaje y ayudas de trabajo
-   * Aclaración inteligente de preguntas cuando las consultas son ambiguas
-   * Con funciones de LLM de IA abierta de Azure para generar respuestas
-2. Fuentes de contenido y citas
-   * Recupera respuestas de los recursos disponibles presentes en los catálogos admitidos.
-   * Proporciona citas con vínculos directos a materiales de origen
-   * Compatible con todos los formatos de contenido ALM estáticos e interactivos: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Vídeo (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
-3. Experiencia de usuario
-   * Interfaz del panel lateral accesible desde todas las páginas del alumno
-   * Diseño interactivo que se adapta al área de contenido
-   * Historial de chat mantenido en la sesión del navegador
-   * Limpiar pizarra en nuevo inicio de sesión o actualización de página
-   * Tono del profesor o tutor: amable, claro y pedagógicamente sólido
-4. Controles del administrador
-   * Habilitar o deshabilitar la función en el nivel de cuenta
-   * Controlar el acceso de los grupos de usuarios
-   * Seleccionar los catálogos que se incluyen para las respuestas de AI
-   * Requisito de aceptación de las Condiciones de uso para seguir las directrices de IA de Adobe
+- **Respuesta inteligente a preguntas**
+   - Conversaciones de una vuelta y varias vueltas
+   - Comprensión del lenguaje natural en inglés
+   - Respuestas derivadas de cursos, certificaciones, rutas de aprendizaje y ayudas de trabajo
+   - Aclaración inteligente de preguntas cuando las consultas son ambiguas
 
-## Qué tipos de contenido admite el Asistente de inteligencia artificial
+- **Orígenes de contenido y citas**
+   - Recupera respuestas de recursos disponibles en catálogos compatibles
+   - Proporciona citas con vínculos directos a materiales de origen
+   - Compatible con todos los formatos de contenido de Learning Manager (estáticos e interactivos): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
+
+- **Experiencia de usuario**
+   - Interfaz del panel lateral accesible desde todas las páginas del alumno
+   - Diseño interactivo que se adapta al área de contenido
+   - Historial de chat mantenido en la sesión del navegador
+   - Limpiar pizarra en nuevo inicio de sesión o actualización de página
+   - Sonido agradable, claro y pedagógico
+
+- **Controles de administrador**
+   - Habilitar o deshabilitar la función en el nivel de cuenta
+   - Controlar el acceso de los grupos de usuarios
+   - Seleccionar los catálogos que se incluyen para las respuestas de AI
+   - Requisito de aceptación de las Condiciones de uso conforme a las directrices de IA de Adobe
+
+## Tipos de contenido admitidos
 
 El Asistente de inteligencia artificial recupera información del contenido de aprendizaje asignado a usted, que incluye:
 
-* **Documentos:** PDF, Word, PowerPoint, Excel, HTML
-* **Medios:** audio (mp3, wav, m4a), vídeo (mp4, mov, wmv)
-* **Contenido interactivo:** SCORM 1.2, SCORM 2004
-* **Tipos de objetos de aprendizaje:** cursos, rutas de aprendizaje, certificaciones, ayudas de trabajo
+- **Documentos:** PDF, Word, PowerPoint, Excel, HTML
+- **Medios:** Audio (MP3, WAV, M4A), Vídeo (MP4, MOV, WMV)
+- **Contenido interactivo:** SCORM 1.2, SCORM 2004
+- **Tipos de objetos de aprendizaje:** cursos, rutas de aprendizaje, certificaciones, ayudas de trabajo
 
-Adobe transcribe de forma segura el contenido de aprendizaje mediante servicios de procesamiento de terceros de confianza alojados en el entorno VPC privado de Adobe.
+Adobe procesa de forma segura el contenido de aprendizaje mediante servicios de confianza.
 
 ### Limitaciones de catálogos y fuentes de contenido
 
-El Asistente de inteligencia artificial del alumno solo utiliza contenido de **catálogos internos** configurados explícitamente por los administradores.
+El Asistente de IA solo usa contenido de los catálogos **internos** configurados explícitamente por los administradores.
 
-Los siguientes orígenes de contenido **no son compatibles** en la versión actual:
+Las siguientes fuentes de contenido no son compatibles con la versión actual:
 
-* Catálogos compartidos
-* Catálogos adquiridos
-* Catálogos externos
-* Catálogos predeterminados
-* Bibliotecas de contenido de terceros (por ejemplo, LinkedIn Learning o Go1)
+- **Catálogos compartidos**
+- **Catálogos adquiridos**
+- **Catálogos externos**
+- **Predeterminado** catálogos
+- Bibliotecas de contenido de terceros (por ejemplo, LinkedIn Learning o Go1)
 
-Si un alumno no tiene acceso a un curso o una ayuda de trabajo, el Asistente de inteligencia artificial no mostrará la información de ese contenido y no se podrá acceder a los vínculos de citas.
+Si no tiene acceso a un curso o una ayuda de trabajo, el Asistente de inteligencia artificial no mostrará la información de ese contenido y no se podrá acceder a los vínculos de citas.
 
-## Casos prácticos de AI Assistant
+## Casos de uso
 
 ### Alumno técnico
 
@@ -80,9 +82,9 @@ Sarah es ingeniera de ventas que está aprendiendo sobre tarjetas gráficas. Nec
 
 El asistente de inteligencia artificial ayuda a Sarah con lo siguiente:
 
-* Explicación técnica clara de la compleja arquitectura de GPU
-* Profundizar en el conocimiento de varias tarjetas gráficas y sus diferencias
-* Explicación de los ejemplos para que Sarah pueda relacionar las funciones con casos prácticos del mundo real
+- Explicación técnica clara de la compleja arquitectura de GPU
+- Profundizar en el conocimiento de varias tarjetas gráficas y sus diferencias
+- Explicación de los ejemplos para que Sarah pueda relacionar las funciones con casos prácticos del mundo real
 
 ### Asistencia al cliente
 
@@ -90,9 +92,9 @@ Marcus es un especialista de soporte en una empresa asociada. Necesita respuesta
 
 El asistente de inteligencia artificial ayuda a Marcus con lo siguiente:
 
-* Encontrar contenido de asistencia relevante para las consultas frecuentes de los clientes
-* Hacer preguntas aclaratorias cuando la respuesta inicial no es lo suficientemente específica
-* Encontrar recomendaciones para cursos de solución de problemas relacionados para mejorar sus habilidades
+- Encontrar contenido de asistencia relevante para las consultas frecuentes de los clientes
+- Hacer preguntas aclaratorias cuando la respuesta inicial no es lo suficientemente específica
+- Encontrar recomendaciones para cursos de solución de problemas relacionados para mejorar sus habilidades
 
 ### Incorporación de nuevos empleados
 
@@ -100,58 +102,55 @@ Jennifer acaba de unirse a la compañía y se siente abrumada por la cantidad de
 
 El asistente de inteligencia artificial ayuda a Jennifer con lo siguiente:
 
-* Obtención de una guía paso a paso sobre el envío de informes de gastos
-* Descubrimiento de cursos sobre las políticas de la empresa sin examinar todo el catálogo
-* Guiándola a la sección apropiada de un curso sin hacerla ver horas de video
+- Obtención de una guía paso a paso sobre el envío de informes de gastos
+- Descubrimiento de cursos sobre las políticas de la empresa sin examinar todo el catálogo
+- Guiándola a la sección apropiada de un curso sin hacerla ver horas de video
 
-## ¿Cómo utiliza el Asistente de inteligencia artificial el contenido?
+## Cómo utiliza el contenido el Asistente para inteligencia artificial
 
-El Asistente de inteligencia artificial le ayuda a encontrar respuestas precisas rápidamente mientras aprende. Para utilizarlo de manera eficaz, debe comprender qué contenido utiliza el asistente, qué no utiliza y cómo genera respuestas.
+El asistente de inteligencia artificial encuentra respuestas precisas a partir del contenido de aprendizaje. Así es como funciona.
 
-### ¿Qué contenido utiliza el Asistente de inteligencia artificial?
+### Qué contenido utiliza el Asistente de inteligencia artificial
 
-El Asistente de inteligencia artificial responde a las preguntas utilizando únicamente el contenido de aprendizaje activado por el administrador de la cuenta. El contenido del catálogo se indiza.
+El Asistente de inteligencia artificial responde a las preguntas utilizando únicamente el contenido de aprendizaje activado por el administrador de la cuenta. El contenido de los catálogos seleccionados se indexa.
 
-El asistente de inteligencia artificial analiza el contenido de aprendizaje asignado para generar respuestas específicas y contextuales.
+El asistente de inteligencia artificial analiza el contenido de aprendizaje asignado para generar respuestas contextuales y enfocadas:
 
-* Cada respuesta incluye citas que hacen referencia al contenido original.
-* Puede seleccionar una cita para ir directamente al curso, módulo o documento correspondiente.
-* Las citas le ayudan a verificar la información y explorar el contexto adicional cuando sea necesario.
+- Cada respuesta incluye citas que hacen referencia al contenido original.
+- Puede seleccionar una cita para ir directamente al curso, módulo o documento correspondiente.
+- Las citas le ayudan a verificar la información y explorar el contexto adicional cuando sea necesario.
 
 ### Respuestas de transmisión
 
-Una respuesta de transmisión por secuencias significa que el Asistente de inteligencia artificial proporciona la respuesta progresivamente a medida que se genera, de modo que los usuarios pueden empezar a leer la respuesta inmediatamente sin esperar a que finalice la carga.
+El Asistente de inteligencia artificial proporciona respuestas progresivamente a medida que se generan, para que pueda empezar a leer inmediatamente sin esperar a que se cargue toda la respuesta.
 
 ### Citas y transparencia de la fuente
 
 Cada respuesta del asistente de inteligencia artificial incluye citas que se vinculan directamente al curso, módulo u objeto de aprendizaje original. Las citas le permiten:
 
-* Seleccione un número de cita en línea para saltar a la sección de referencia exacta
-* Abra la lista de fuentes completa seleccionando Mostrar fuentes en la parte inferior de la respuesta
-* Verificar la información y explorar el contexto adicional de la fuente autorizada
+- Seleccione un número de cita en línea para saltar a la sección de referencia exacta.
+- Abra la lista de orígenes completa seleccionando **Mostrar orígenes** en la parte inferior de la respuesta.
+- Compruebe la información y explore el contexto adicional de la fuente autorizada.
 
->[!IMPORTANT]
->
->El Asistente de inteligencia artificial proporciona respuestas basadas en el contenido habilitado por el administrador, pero si un usuario carece de acceso a un elemento al que se hace referencia, verá un mensaje de error de no admitido al abrirlo.
+> **IMPORTANTE**
+> El Asistente de inteligencia artificial proporciona respuestas basadas en el contenido activado por el administrador. Si no tiene acceso a un elemento al que se hace referencia, verá el mensaje &quot;no admitido&quot; cuando intente abrirlo.
 
 
 ## Mensajes incorporados
 
-El asistente de inteligencia artificial incluye indicaciones integradas para ayudar a los alumnos a empezar rápidamente con preguntas y situaciones habituales. Estos mensajes guían a los alumnos sobre cómo interactuar con el asistente y muestran los tipos de preguntas que pueden hacer.
+El Asistente para inteligencia artificial incluye mensajes integrados que le ayudan a empezar rápidamente con preguntas y situaciones comunes. Estos mensajes le guiarán en la interacción con el asistente y le mostrarán los tipos de preguntas que puede hacer.
 
 ![Mensajes incorporados proporcionados por el Asistente del alumno](assets/built-in-prompt-new.png)
 
-Los mensajes incorporados se pueden personalizar por cuenta. Las organizaciones pueden adaptarlos para reflejar sus objetivos de aprendizaje, las funciones de los alumnos, la terminología o casos prácticos específicos. Los administradores pueden trabajar con su administrador de éxito de clientes (CSM) para configurar o actualizar las solicitudes integradas.
+Las organizaciones pueden personalizar los mensajes incorporados para reflejar sus objetivos de aprendizaje, funciones, terminología o casos prácticos específicos. Los administradores pueden trabajar con su administrador de éxito de clientes para configurar o actualizar las solicitudes integradas. En la versión actual, no es posible personalizar las indicaciones directamente en la interfaz de Adobe Learning Manager.
 
-La personalización de solicitudes se gestiona en el nivel de cuenta y no se puede configurar directamente en la interfaz de usuario de Adobe Learning Manager en la versión actual.
-
-## Configuración de administrador: Activar el Asistente de IA para alumnos
+## Configurar el Asistente de inteligencia artificial (administradores)
 
 ![Asistente para alumnos con IA](assets/learner-ai-assistant-new.png)
 
-Los administradores seleccionan qué grupos de usuarios y catálogos internos pueden acceder a la función Asistente de IA. Deben asegurarse de que los catálogos asignados incluyan solo el contenido de aprendizaje que sea adecuado para aparecer en las respuestas y citas de IA, y de que dichos catálogos sean predeterminados, internos, no compartidos, adquiridos o externos.
+Los administradores seleccionan qué grupos de usuarios y catálogos **internos** pueden acceder a la función Asistente de IA. Asegúrate de que los catálogos que asignes solo incluyan el contenido de aprendizaje apropiado para las respuestas y citas de IA, y que esos catálogos sean **internos** (no **compartidos**, **adquiridos** o **externos**).
 
-Antes de configurar el Asistente de IA, confirme que tiene credenciales de administrador y que ha identificado los grupos de usuarios y catálogos que deben tener acceso a la función.
+Antes de configurar el Asistente de IA, confirme que tiene credenciales de administrador y que ha identificado a qué grupos de usuarios y catálogos debe tener acceso.
 
 ### Configurar el acceso del Asistente de IA
 
@@ -178,11 +177,9 @@ Para activar el Asistente de inteligencia artificial del alumno:
 
 >[!IMPORTANT]
 >
->El Asistente de IA solo admite catálogos internos. Si se selecciona un catálogo compartido, adquirido, externo u otro que no sea interno, el Asistente de AI no mostrará su contenido, aunque el catálogo aparezca en la lista Catálogos aptos.
+>Solo se admiten **catálogos internos**. Si se selecciona **Compartido**, **Adquirido**, **Externo** u otro catálogo que no sea interno, el Asistente de IA no mostrará su contenido, aunque aparezca en la lista **Catálogos aptos**.
 
-## Guía del alumno: Iniciar el asistente de IA
-
-### Iniciar el Asistente de IA
+## Iniciar el Asistente de IA (alumnos)
 
 Para iniciar el Asistente de IA:
 
@@ -205,94 +202,89 @@ Para iniciar el Asistente de IA:
 
 Puede realizar lo siguiente:
 
-* Seleccione el número de cita en línea para ir directamente a la sección de referencia exacta
-* Abra la lista completa de orígenes seleccionando **Mostrar orígenes** en la parte inferior de la respuesta
+- Seleccione el número de cita en línea para ir directamente a la sección de referencia exacta
+- Abra la lista completa de orígenes seleccionando **Mostrar orígenes** en la parte inferior de la respuesta
 
 ![Mostrar orígenes en la respuesta](assets/show-sources-latest.png)
 
 El asistente de inteligencia artificial incluye citas con cada respuesta para mostrar de dónde procede la información. Cada cita se vincula directamente al curso, módulo u objeto de aprendizaje original utilizado para generar la respuesta.
 
-Puede seleccionar cualquier cita para abrir la página del curso real en Adobe Learning Manager y revisar todo el contenido en contexto. Las citas le ayudan a verificar la información, explorar detalles adicionales y seguir aprendiendo de la fuente autorizada.
+Puede seleccionar cualquier cita para abrir la página del curso en Adobe Learning Manager y revisar todo el contenido en su contexto. Las citas le ayudan a verificar la información, explorar detalles adicionales y seguir aprendiendo de la fuente autorizada.
 
 ## Acceder al Asistente de inteligencia artificial mediante la búsqueda
 
-También puede iniciar el Asistente de inteligencia artificial directamente desde la barra de búsqueda. Escriba su pregunta en el campo de búsqueda y, a continuación, seleccione **Preguntar al asistente de inteligencia artificial** en las opciones que aparecen para obtener respuestas del contenido de aprendizaje asignado. El contenido de aprendizaje asignado.
+También puede iniciar el Asistente de inteligencia artificial directamente desde la barra de búsqueda. Escriba su pregunta en el campo de búsqueda y luego seleccione **Ask AI Assistant** entre las opciones que aparecen.
 
 ![Acceder al Asistente del alumno desde la barra de búsqueda](assets/learner-assistant-search-new.png)
 
+## Proporcionar comentarios sobre las respuestas de AI Assistant
 
-## Proporcionar comentarios sobre las respuestas del Asistente de inteligencia artificial del alumno
-
-Sus comentarios sobre las respuestas generadas por el Asistente de inteligencia artificial del alumno (Beta) ayudan a mejorar su precisión, relevancia y rendimiento general.
+Sus comentarios sobre las respuestas generadas por el Asistente de inteligencia artificial (Beta) ayudan a mejorar su precisión, relevancia y rendimiento general.
 
 ### Indicar si una respuesta le gusta o no
 
-* Selecciona **Pulgares arriba**, elige lo que te haya parecido útil en la respuesta, agrega comentarios de manera opcional y luego selecciona **Enviar**.
+- Selecciona **Pulgares arriba**, elige lo que te haya parecido útil en la respuesta, agrega comentarios de manera opcional y luego selecciona **Enviar**.
+- Selecciona **Pulgares abajo**, elige la razón por la que la respuesta no fue útil, añade comentarios y luego selecciona **Enviar**.
 
-<!-- ![Select Thumbs Up to upvote a response](assets/la-feedback.png) -->
+## Iniciar una nueva conversación
 
-* Selecciona **Pulgares abajo**, elige la razón por la que la respuesta no fue útil, añade comentarios y luego selecciona **Enviar**.
+Iniciar un nuevo chat le permite iniciar una nueva conversación, borrando el contexto anterior para que el asistente pueda centrarse en el nuevo tema sin hacer referencia a interacciones anteriores.
 
-## Iniciar una nueva conversación en el Asistente para inteligencia artificial
-
-Iniciar un nuevo chat permite al usuario iniciar una nueva conversación, borrando el contexto anterior para que el asistente pueda centrarse en el nuevo tema sin hacer referencia a interacciones anteriores. Esto es importante al cambiar de tema o buscar respuestas que no estén relacionadas con preguntas anteriores.
-
-Borrar la conversación actual e iniciar una nueva conversación en cualquier momento.
-
-Seleccione **Nuevo chat** en la pantalla del Asistente de inteligencia artificial y, a continuación, seleccione **Sí**.
+Para borrar la conversación actual e iniciar una nueva conversación, seleccione **Nuevo chat** en la pantalla del Asistente de inteligencia artificial y luego seleccione **Sí**.
 
 ![Iniciar una nueva conversación en el Asistente del alumno](assets/start-new-chat.png)
 
 El asistente de inteligencia artificial proporciona a los alumnos respuestas rápidas y contextuales, admite varios tipos de contenido y ofrece citas en línea para la transparencia. Los administradores pueden controlar el acceso, lo que garantiza que el asistente de inteligencia artificial se adapte a las necesidades de la organización y mejore la experiencia de aprendizaje.
 
 
-## Resolución de problemas
+## Solución de problemas del Asistente de AI
 
->[!NOTE]
->
->Después de configurar un nuevo catálogo, espere entre 4 y 5 horas para que el contenido se indexe y esté disponible para las respuestas del Asistente de inteligencia artificial.
+> **NOTA**
+> Después de configurar un nuevo catálogo, espere entre 4 y 5 horas para que el contenido se indexe y esté disponible para las respuestas del Asistente de inteligencia artificial.
 
-### Escenario 1: sin acceso al contenido
+### Sin acceso al contenido
 
-Problema: el alumno tiene acceso al Asistente del alumno, pero recibe las respuestas &quot;No tengo respuesta a esta pregunta&quot;.
+**Problema:** Un alumno tiene acceso al Asistente para inteligencia artificial, pero recibe respuestas del tipo &quot;No tengo respuesta a esta pregunta&quot;.
 
-**Posibles causas**
+**Posibles causas:**
 
-* Los catálogos del alumno no se incluyen al configurar el Asistente para inteligencia artificial
-* El contenido relacionado con la pregunta no está en los catálogos seleccionados o los catálogos están en blanco
-* El alumno no tiene visibilidad del contenido relevante
+- Los catálogos del alumno no se incluyen en la configuración del Asistente para inteligencia artificial.
+- El contenido relacionado con la pregunta no está en los catálogos seleccionados o los catálogos están vacíos.
+- El alumno no tiene visibilidad del contenido relevante.
 
-**Solución**
+**Solución:**
 
-* Comprobar el acceso al catálogo del alumno
-* Comprobar qué catálogos están activados en la configuración del Asistente del alumno
-* Asegurarse de que haya contenido relevante en esos catálogos
-* Espere unas horas después de agregar contenido nuevo para que se indexe
+- Verifique el acceso al catálogo del alumno.
+- Compruebe qué catálogos están activados en la configuración del Asistente de IA.
+- Asegúrese de que esos catálogos contengan el contenido correspondiente.
+- Espere unas horas después de agregar contenido nuevo para que se indexe.
 
-### Caso 2: Respuestas irrelevantes o de mala calidad
+### Respuestas irrelevantes o de mala calidad
 
-**Problema**: el Asistente para inteligencia artificial proporciona respuestas que no coinciden con la pregunta o son de baja calidad.
+**Problema:** El Asistente para inteligencia artificial proporciona respuestas que no coinciden con la pregunta o son de baja calidad.
 
-**Posibles causas**
+**Posibles causas:**
 
-* La pregunta es demasiado amplia o ambigua
-* El contenido relevante tiene metadatos deficientes (descripciones, etiquetas)
-* La estructura del contenido dificulta la extracción de información
+- La pregunta es demasiado amplia o ambigua.
+- El contenido relevante tiene metadatos deficientes (descripciones, etiquetas).
+- La estructura del contenido dificulta la extracción de información.
 
-**Solución**
+**Solución:**
 
-* Anima a los alumnos a hacer preguntas más específicas
-* Revisar y mejorar descripciones y metadatos de cursos
-* Asegúrate de que el contenido tiene encabezados y estructura claros
-* Revise el informe de uso detallado para identificar patrones
-* Considerar la creación de ayudas de trabajo para las preguntas frecuentes
+- Anima a los alumnos a hacer preguntas más específicas.
+- Revisar y mejorar descripciones y metadatos de cursos.
+- Asegúrate de que el contenido tiene encabezados y estructura claros.
+- Revise el informe de uso detallado para identificar patrones.
+- Consider creating job aids for frequently asked questions.
 
-### Escenario 3: preguntas fuera del ámbito
+### Out-of-scope questions
 
-**Problema**: el alumno hace preguntas no relacionadas con el contenido de formación.
+**Problem:** A learner asks questions unrelated to training content.
 
-**Ejemplos**:
+**Examples:**
 
-* Preguntas de conocimiento general (&#39;¿Quién es el presidente?&#39;)
-* Opiniones personales (&#39;¿Qué piensas de X?&#39;)
-* Contenido inapropiado
+- General knowledge questions (&quot;Who is the president?&quot;)
+- Personal opinions (&quot;What do you think about X?&quot;)
+- Inappropriate content
+
+The AI Assistant is designed to answer questions based only on assigned learning content and won&#39;t respond to out-of-scope queries.
