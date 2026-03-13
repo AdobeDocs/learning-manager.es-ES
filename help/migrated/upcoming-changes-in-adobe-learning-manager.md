@@ -2,7 +2,7 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
 source-wordcount: '20211'
 ht-degree: 0%
@@ -1419,42 +1419,42 @@ Trabaje con Adobe para registrar su dominio, por ejemplo, academy.yourcompany.co
 
 En este momento, tanto el tráfico que ha iniciado sesión como el que no lo ha hecho puede llegar a ALM a través de ese dominio, pero las llamadas de búsqueda y catálogo que no han iniciado sesión pueden seguir bloqueadas si el dominio no está incluido en la lista de permitidos.
 
-**Habilitar TDA y el generador de experiencias no conectado**
+**Habilitar TDA y Experience Builder sin sesión iniciada**
 
-Asegurar que:
+Asegúrese de que:
 
-* El **conector de Acceso a datos de entrenamiento** está habilitado.
-* La característica **Experience Builder** no iniciado en sesión está activada para la cuenta.
+* El **conector de acceso a datos de formación** está habilitado.
+* La característica **Experience Builder no conectado** está activada para la cuenta.
 
-Al habilitar TDA se crea o actualiza la cuenta JSON que no ha iniciado sesión. Para las cuentas nuevas, el proceso también permite-enumera el nuevo dominio CDN no conectado (cpcontent.adobe.com) de forma predeterminada, por lo que el extremo ES público espera llamadas desde ese dominio.
+Al habilitar TDA, se crea o actualiza el JSON de la cuenta que no ha iniciado sesión. En el caso de las nuevas cuentas, el proceso también muestra de forma predeterminada el nuevo dominio de CDN sin inicio de sesión (cpcontent.adobe.com), por lo que el extremo público de ES espera llamadas de ese dominio.
 
-Para las cuentas que ya estaban utilizando la pila anterior sin sesión, los conectores existentes deben eliminarse y volver a crearse para captar el nuevo dominio.
+En el caso de las cuentas que ya estaban utilizando la pila anterior sin inicio de sesión, los conectores existentes deben eliminarse y volver a crearse para seleccionar el nuevo dominio.
 
-**Agregue el dominio personalizado a la lista de permitidos**
+**Agregar el dominio personalizado a la lista de permitidos**
 
-La parte crítica es decirle a la pila ES no registrada que academy.yourcompany.com es un origen aprobado. Hay dos caminos comunes.
+La parte crítica es indicarle a la pila de ES no iniciada que academy.yourcompany.com es un origen aprobado. Hay dos caminos comunes.
 
-1. **Vuelva a habilitar el conector TDA (sencillo, fácil de usar)**
+1. **Vuelva a habilitar el conector de TDA (sencillo, fácil de usar)**
 
-Los usuarios nativos que no hayan iniciado sesión tendrán que eliminar y volver a habilitar la conexión TDA para que el nuevo dominio pueda aparecer automáticamente en la lista. Hacer esto logra dos cosas:
+Los usuarios nativos existentes que no hayan iniciado sesión deberán eliminar y volver a habilitar la conexión TDA para que el nuevo dominio aparezca automáticamente en la lista de permitidos. Haciendo esto se logran dos cosas:
 
-1. La cuenta no iniciada JSON se regenera.
-2. Los dominios incluidos en la lista de permitidos se actualizan para incluir el nuevo dominio CDN no registrado y el dominio personalizado.
+1. Se regenerará el JSON de la cuenta que no ha iniciado sesión.
+2. Los dominios de la lista de permitidos se actualizan para incluir el nuevo dominio de CDN no registrado y su dominio personalizado.
 
-Esto se recomienda cuando tenga un pequeño número de cuentas y pueda tolerar la desactivación temporal y la reactivación del conector.
+Se recomienda cuando tiene un número reducido de cuentas y puede tolerar que se deshabilite y se vuelva a habilitar temporalmente el conector.
 
-1. **Compruebe que el dominio está permitido en la lista**
+1. **Compruebe que el dominio esté incluido en la lista de permitidos**
 
-Después de la lista de permitidos, abra su sitio sin sesión en el dominio personalizado e inspeccione las llamadas a la red del explorador.
+Después de la inclusión en la lista de permitidos, abra el sitio que no haya iniciado sesión en el dominio personalizado e inspeccione las llamadas de red del navegador.
 
-Quieres ver:
+Desea ver lo siguiente:
 
-* Solicitudes a almCdnBaseUrl (por ejemplo, <https://cpcontent.adobe.com/>...) con éxito con 200/304.
-* Solicitudes a esBaseUrl (API de búsqueda pública, por ejemplo <https://primeapps.adobe.com/almsearch/api/v1/>...) sucediendo, devolviendo JSON con datos de búsqueda / catálogo.
+* Solicitudes a almCdnBaseUrl (por ejemplo, <https://cpcontent.adobe.com/>...) con 200/304.
+* Solicitudes a esBaseUrl (API de búsqueda pública, por ejemplo <https://primeapps.adobe.com/almsearch/api/v1/>...) se completó correctamente, devolviendo JSON con datos de búsqueda / catálogo.
 
-Si estas llamadas devuelven 4xx o errores explícitos que sugieran &quot;dominio no confiable&quot; o &quot;origen no permitido&quot;, la lista de permitidos está incompleta o mal configurada y Support necesita ajustarla.
+Si estas llamadas devuelven errores 4xx o explícitos que sugieren &quot;dominio no confiable&quot; o &quot;origen no permitido&quot;, la lista de permitidos está incompleta o mal configurada y el Soporte debe ajustarla.
 
-El LLD no conectado también observa que la configuración de la cuenta puede contener un valor de dominio esperado. En tiempo de ejecución, el sitio comprueba que el dominio de la dirección URL coincide con lo establecido en la configuración; si no lo hace, se puede redirigir al usuario a una página de error. Esto protege contra el acceso a la configuración de un cliente a través del dominio de otro cliente.
+El LLD sin inicio de sesión también indica que la configuración de la cuenta puede contener un valor de dominio esperado. En tiempo de ejecución, el sitio comprueba que el dominio de la dirección URL coincide con lo establecido en la configuración; si no lo hace, se puede redirigir al usuario a una página de error. Esto protege contra el acceso a la configuración de un cliente a través del dominio de otro cliente.
 
 ### Uso de recomendaciones en Experience Builder sin iniciar sesión
 
@@ -2046,28 +2046,28 @@ Si posteriormente se revoca una finalización alternativa debido a cambios como 
 
 #### Detalles de transparencia y auditoría
 
-Los alumnos pueden abrir la tarjeta LO para ver información adicional, como:
+Los alumnos pueden abrir la tarjeta de objeto de aprendizaje para ver detalles adicionales, como los siguientes:
 
 * El curso de origen o la ruta de aprendizaje que concedió la finalización alternativa
-* La fecha de finalización asociada con la formación de origen
+* La fecha de finalización asociada al curso de formación de origen.
 
-Esto garantiza la transparencia y admite auditorías y revisiones de cumplimiento.
+Esto garantiza la transparencia y respalda las auditorías y las revisiones del cumplimiento normativo.
 
 #### Filtrado y vistas
 
 #### Filtro de método de finalización
 
-La aplicación para alumnos proporciona un filtro que permite a los alumnos distinguir entre:
+La aplicación del alumno proporciona un filtro que permite a los alumnos distinguir entre:
 
 * **Finalizaciones directas**
-* **finalizaciones alternativas**
-* **Todas** las finalizaciones
+* **Finalizaciones alternativas**
+* **Todas** finalizaciones
 
-Esto permite a los alumnos comprender rápidamente cómo se han cumplido sus requisitos de aprendizaje.
+Esto permite a los alumnos comprender rápidamente cómo se cumplieron sus requisitos de aprendizaje.
 
 #### Vistas de transcripción y progreso
 
-El filtro de método de finalización está disponible en las vistas del alumno*de cara al alumno como:
+El filtro del método de finalización está disponible en vistas de learner*facing, como:
 
 * Transcripciones de aprendizaje
 * Secciones de seguimiento de progreso y finalización
@@ -2076,8 +2076,8 @@ Estas opiniones indican claramente qué cursos de formación se completaron dire
 
 #### Alineación de informes
 
-La lógica de filtrado de la aplicación del alumno se ajusta a la columna **Método de finalización** utilizada en los informes.\
-Esto garantiza la coherencia entre lo que los alumnos ven en la interfaz de usuario y lo que los administradores ven en las exportaciones y los informes de conformidad.
+La lógica de filtrado de la aplicación del alumno se alinea con la columna **Método de finalización** utilizada en los informes.\
+Esto garantiza la coherencia entre lo que ven los alumnos en la interfaz de usuario y lo que ven los administradores en las exportaciones y los informes de cumplimiento.
 
 #### Fin *a* flujo final
 
@@ -2085,7 +2085,7 @@ Esto garantiza la coherencia entre lo que los alumnos ven en la interfaz de usua
 
 1. Vaya a **Mi aprendizaje** o **Cursos completados** en la aplicación del alumno.
 2. Revise las tarjetas de aprendizaje para identificar los cursos de formación marcados como **Completados mediante Alternativa**.
-3. Abra una tarjeta LO para ver los detalles sobre la formación de origen y la fecha de finalización.
+3. Abra una tarjeta de objeto de aprendizaje para ver los detalles sobre la formación de origen y la fecha de finalización.
 4. Use el menú de filtros en las vistas de transcripción o de lista de cursos para seleccionar **Directo**, **Alternativo** o **Todo**.
 5. Revise la lista actualizada en función del método de finalización seleccionado.
 
@@ -2458,3 +2458,4 @@ El sistema distingue entre finalización real y finalización alternativa de mod
 * Si se elimina o se cambia la relación entre el origen y el destino, ALM puede eliminar o ajustar las finalizaciones alternativas sin tocar las finalizaciones originales, siempre que se habiliten las finalizaciones retroactivas para la cuenta.
 
 Las finalizaciones alternativas están diseñadas para no interferir con la actividad real del alumno en el curso de formación de destino. Actúan como una superposición que se puede revisar si cambian las relaciones.
+
