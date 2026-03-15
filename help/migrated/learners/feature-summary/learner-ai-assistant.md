@@ -1,11 +1,11 @@
 ---
-description: El Asistente de inteligencia artificial (Beta) para alumnos es un complemento de chat potenciado por GenAI en Adobe Learning Manager que ayuda a los alumnos a obtener respuestas rápidas y precisas a partir del contenido de aprendizaje asignado. Mediante el uso de consultas de lenguaje natural, los alumnos pueden recuperar instantáneamente respuestas centradas con citas claras, lo que facilita encontrar la información correcta, verificar las fuentes y aprender de manera eficaz sin buscar en cursos enteros.
+description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaje con el asistente de inteligencia artificial de Adobe Learning Manager.
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
+source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -275,16 +275,16 @@ El asistente de inteligencia artificial proporciona a los alumnos respuestas rá
 - Revisar y mejorar descripciones y metadatos de cursos.
 - Asegúrate de que el contenido tiene encabezados y estructura claros.
 - Revise el informe de uso detallado para identificar patrones.
-- Consider creating job aids for frequently asked questions.
+- Plantéate crear ayudas de trabajo para las preguntas frecuentes.
 
-### Out-of-scope questions
+### Preguntas fuera del ámbito
 
-**Problem:** A learner asks questions unrelated to training content.
+**Problema:** Un alumno hace preguntas no relacionadas con el contenido de formación.
 
-**Examples:**
+**Ejemplos:**
 
-- General knowledge questions (&quot;Who is the president?&quot;)
-- Personal opinions (&quot;What do you think about X?&quot;)
-- Inappropriate content
+- Preguntas generales de conocimiento (&quot;¿Quién es el presidente?&quot;)
+- Opiniones personales (&quot;¿Qué piensas de X?&quot;)
+- Contenido inapropiado
 
-The AI Assistant is designed to answer questions based only on assigned learning content and won&#39;t respond to out-of-scope queries.
+El Asistente de inteligencia artificial está diseñado para responder preguntas basadas únicamente en el contenido de aprendizaje asignado y no responde a consultas fuera del ámbito.
