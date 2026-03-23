@@ -1025,10 +1025,10 @@ Estamos actualizando los informes de transcripciones de aprendizaje (LT) para qu
 
 ### &#x200B;1. Cambio de nombre de columna en la transcripción de Admin Learning
 
-Columna **Comentario de envío** existente en el aprendizaje de administración
+La columna **Comentario de envío** existente en el aprendizaje de administración
 La transcripción es:
 
-1. **Se cambió el nombre a:** `Reviewer's remarks`
+1. **Se ha cambiado el nombre a:** `Reviewer's remarks`
 
 ### Datos mostrados en esta columna:
 
