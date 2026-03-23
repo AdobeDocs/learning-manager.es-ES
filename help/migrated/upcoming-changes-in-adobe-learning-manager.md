@@ -2,9 +2,9 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
-source-wordcount: '20211'
+source-wordcount: '20175'
 ht-degree: 0%
 
 ---
@@ -1730,6 +1730,7 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 
 ### Funciones principales
 
+* **Generación automática de VTT:** Carga un archivo de vídeo o audio y genera automáticamente subtítulos VTT en el idioma original.
 * **Traducción en varios idiomas:** Traduzca los subtítulos a cualquiera de los 39 idiomas no ingleses admitidos.
 * **Revisión y edición en la aplicación:** Revise, edite y descargue archivos VTT antes de publicarlos.
 * **Notificaciones:** Recibe notificaciones en la aplicación cuando se complete la generación y traducción de VTT.
@@ -1737,9 +1738,9 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 
 ### Cargar contenido y generar VTT
 
-1. Vaya a la biblioteca de contenido y seleccione **Agregar > Contenido**.
+1. Ve a la biblioteca de contenido y selecciona **Agregar contenido**.
 2. Carga tu archivo MP3 o MP4.
-3. En el cuadro de diálogo de carga, seleccione la opción para **Generar traducciones**.
+3. En el cuadro de diálogo de carga, seleccione la opción para **Generar traducción**.
 4. Seleccione el idioma del contenido original (el predeterminado es el idioma del archivo).
 5. Seleccione otros idiomas de destino para la traducción (se admiten hasta 39).
 6. Seleccione **Guardar**. El sistema comienza a generar y traducir archivos VTT.
@@ -1954,10 +1955,7 @@ Esta función permite a los revisores añadir comentarios u opiniones durante la
 
 ## Mejoras de búsqueda avanzadas
 
-Los resultados de búsqueda en la búsqueda avanzada son ahora más precisos y relevantes. Las coincidencias exactas de palabras clave ocupan un puesto más alto en la búsqueda de contenido y los metadatos, lo que facilita a los alumnos encontrar exactamente lo que están buscando.
-
-Los alumnos ahora también pueden ver los objetos de aprendizaje inscritos en los resultados de búsqueda, incluso si no forman parte de un catálogo accesible, lo que garantiza que no se pierda ningún contenido relevante. Además, la clasificación de las ayudas de trabajo se ha mejorado tanto en la búsqueda avanzada como en la búsqueda dentro del contenido, lo que permite descubrir los recursos más relevantes más rápido.
-
+Esta versión incluye una mejora en la búsqueda de contenido al mostrar los cursos con coincidencias de contenido con una consulta de mayor rango. Además, las ayudas de trabajo ahora se incluyen en la clasificación de búsqueda avanzada.
 
 ## Equivalentes y suplentes
 
@@ -2458,4 +2456,3 @@ El sistema distingue entre finalización real y finalización alternativa de mod
 * Si se elimina o se cambia la relación entre el origen y el destino, ALM puede eliminar o ajustar las finalizaciones alternativas sin tocar las finalizaciones originales, siempre que se habiliten las finalizaciones retroactivas para la cuenta.
 
 Las finalizaciones alternativas están diseñadas para no interferir con la actividad real del alumno en el curso de formación de destino. Actúan como una superposición que se puede revisar si cambian las relaciones.
-
