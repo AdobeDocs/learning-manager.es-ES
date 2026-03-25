@@ -2,9 +2,9 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 0%
 
 ---
@@ -1025,10 +1025,10 @@ Estamos actualizando los informes de transcripciones de aprendizaje (LT) para qu
 
 ### &#x200B;1. Cambio de nombre de columna en la transcripción de Admin Learning
 
-La columna **Comentario de envío** existente en el aprendizaje de administración
+Columna **Comentario de envío** existente en el aprendizaje de administración
 La transcripción es:
 
-1. **Se ha cambiado el nombre a:** `Reviewer's remarks`
+1. **Se cambió el nombre a:** `Reviewer's remarks`
 
 ### Datos mostrados en esta columna:
 
@@ -2456,3 +2456,91 @@ El sistema distingue entre finalización real y finalización alternativa de mod
 * Si se elimina o se cambia la relación entre el origen y el destino, ALM puede eliminar o ajustar las finalizaciones alternativas sin tocar las finalizaciones originales, siempre que se habiliten las finalizaciones retroactivas para la cuenta.
 
 Las finalizaciones alternativas están diseñadas para no interferir con la actividad real del alumno en el curso de formación de destino. Actúan como una superposición que se puede revisar si cambian las relaciones.
+
+## Cambios en el informe Transcripciones de aprendizaje de esta versión
+
+### Columna Método de finalización
+
+La columna Método de finalización indica cómo se ha completado cada registro de la transcripción del alumno del administrador.
+
+Valores:
+
+* Directa (para finalizaciones directas)
+* Alternativa (para las finalizaciones logradas mediante relaciones alternativas)
+* Alternativa revocada (cuando se revocan todas las finalizaciones alternativas debido a infinalización retroactiva y eliminación de relaciones)
+
+>[!NOTE]
+>
+>Esta columna no está visible en el LT del alumno; solo está disponible en el LT de administrador para realizar informes y realizar un seguimiento.
+
+#### Consecuencias
+
+Permite a los administradores ver pistas de auditoría claras, realizar un seguimiento del cumplimiento y mostrar transparencia sobre cómo se ha completado un curso.
+
+### Seguimiento alternativo de finalización en transcripciones de alumnos
+
+Las finalizaciones alternativas permiten que los alumnos reciban el crédito de finalización de un curso de destino o una ruta de aprendizaje cuando hayan completado un curso de origen o una ruta de acceso equivalente, en función de las relaciones establecidas.
+
+En la transcripción del alumno (LT), las finalizaciones alternativas afectan a tres columnas existentes: estado, fecha de finalización y origen de finalización:
+
+* **Estado**: el estado puede ser Completado incluso si el alumno no ha completado directamente el curso o ruta de acceso de destino, debido a una finalización alternativa. Otros estados (No iniciado, En curso o Dado de baja) no se ven afectados por los alternativos. Solo Completado se ve afectado por alternativas.
+* **Fecha de finalización**: la fecha de finalización de una finalización alternativa se hereda del curso o ruta de acceso de origen que activó la finalización alternativa. Si más tarde el alumno completa el objetivo directamente, la fecha se actualiza para reflejar la finalización directa.
+* **Origen de finalización**: esta columna captura los identificadores de formación de los cursos de origen o rutas que proporcionaron la finalización alternativa. Si hay varios orígenes activos, se muestran todos los identificadores relevantes; si se revocan orígenes (con la opción retroactiva incompleta habilitada), solo permanecen los orígenes activos. La columna Origen de finalización muestra todos los ID de formación de origen activos (separados por comas) y, si existen varios orígenes, se utiliza la primera fecha de finalización.
+
+#### Consecuencias
+
+Las finalizaciones alternativas reducen la reconciliación manual, automatizan el seguimiento del progreso en las rutas de aprendizaje y las certificaciones, y cumplen los requisitos de cumplimiento.
+
+>[!NOTE]
+>
+>Las transcripciones de alumnos no muestran la columna Método de finalización; esto solo está disponible en el LT de administrador.
+
+### Lógica de fecha de finalización para alternativas
+
+La columna Fecha de finalización de la transcripción del alumno (LT) es un campo existente que se utiliza para registrar cuándo un alumno consigue la finalización de un curso o una ruta de aprendizaje, ya sea por medios directos o alternativos. Para finalizaciones alternativas, la fecha de finalización se hereda del curso o ruta de origen que activó la finalización alternativa. Esto significa que la fecha refleja cuándo el alumno ha completado el origen, no el destino.
+
+Si más tarde un alumno completa directamente el curso o la ruta de destino, la fecha de finalización se actualiza a la fecha de finalización directa, anulando la fecha de finalización alternativa anterior.
+
+No se ha agregado ninguna columna nueva para fechas de finalización alternativas; la columna Fecha de finalización existente se utiliza para finalizaciones directas y alternativas. En los casos en los que varios orígenes pueden proporcionar finalización alternativa para un destino, se utiliza la fecha de finalización alternativa activa más temprana entre los orígenes. Si se revoca un origen (con la opción retroactiva incompleta activada), la fecha de finalización se actualiza al siguiente origen activo más antiguo o se borra si no quedan orígenes activos.
+
+#### Consecuencias
+
+La lógica de la fecha de finalización garantiza un seguimiento histórico preciso y la coherencia en la creación de informes, especialmente cuando se revocan o actualizan finalizaciones alternativas.
+
+### Finalizaciones alternativas revocadas
+
+Las finalizaciones alternativas revocadas se producen cuando se elimina la finalización alternativa de un alumno para un curso de destino o una ruta de aprendizaje debido a la revocación de todas las relaciones de origen, siempre que se active la finalización retroactiva en la cuenta.
+
+#### Condiciones del activador
+
+* Debe habilitarse la infinalización retroactiva para la cuenta; de lo contrario, la eliminación de relaciones de origen no revoca las finalizaciones alternativas.
+* La revocación se produce únicamente cuando se eliminan todas las relaciones de origen activas de un destino. Si queda al menos un origen, la finalización alternativa persiste y la columna origen de finalización se actualiza para reflejar solo los orígenes activos restantes.
+
+#### Consecuencias
+
+* Estado: si se revocan todas las finalizaciones alternativas y no hay finalización directa, el estado se actualiza (por ejemplo, de Completado a No Iniciado o En Curso, según corresponda).
+* Fecha de Finalización: La fecha de finalización se borra si no queda ningún origen activo y el alumno no ha completado el destino directamente.
+* Origen de Finalización: La columna Origen de Finalización se actualiza para eliminar los orígenes revocados; si todos están revocados, se borra.
+
+Si el alumno tiene una finalización directa, la revocación de alternativas no afecta a su estado completado o fecha de finalización.
+
+**Nota**:
+
+1. Si varios orígenes proporcionan una finalización alternativa y solo algunos están revocados, el LT refleja los orígenes activos restantes y su fecha de finalización más temprana.
+2. Si se revocan todos los orígenes y no hay finalización directa, el alumno pierde el estado de finalización del destino.
+
+### Información mejorada para comentarios del revisor de la lista de comprobación
+
+Los comentarios del revisor de los módulos de lista de comprobación ahora se incluyen en el informe LT en una columna con el nombre cambiado Comentarios del revisor.
+
+#### Consecuencias
+
+Los alumnos y los administradores pueden ver los comentarios consolidados, lo que mejora la transparencia y respalda la evaluación del rendimiento.
+
+### Cálculo del tiempo de aprendizaje mejorado
+
+El informe de aprendizaje a largo plazo ahora utiliza una lógica perfeccionada para distinguir entre el tiempo activo y el tiempo inactivo dedicado a los módulos de aprendizaje, en función de la actividad del usuario y el enfoque de la ficha.
+
+#### Consecuencias
+
+Proporciona una medición más precisa de la participación en el aprendizaje, lo que respalda el cumplimiento normativo y los análisis.
