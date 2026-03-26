@@ -2,9 +2,9 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 0%
 
 ---
@@ -366,78 +366,6 @@ Tener fechas de caducidad en la API de objetos de aprendizaje permite a los crea
 
 * Crea campañas de &quot;Última oportunidad para completar&quot;.
 
-## Compatibilidad multilingüe para ayudas de trabajo
-
-### Información general
-
-La mejora extiende el modelo de localización de Adobe Learning Manager a las ayudas de trabajo, lo que permite a los autores adjuntar diferentes archivos de contenido por idioma a una sola ayuda de trabajo. En lugar de crear ayudas de trabajo independientes para cada idioma, los autores ahora pueden administrar todas las versiones localizadas como una ayuda de trabajo lógica.
-
-### Novedades...
-
-#### Carga de contenido específico del idioma para las ayudas de trabajo
-
-Los autores pueden adjuntar diferentes archivos por idioma admitido a una sola ayuda de trabajo, como cursos y otros objetos de aprendizaje.
-
-La experiencia de creación/edición de ayudas de trabajo ahora admite:
-
-* Seleccionar un idioma.
-
-* Cargar el archivo específico de idioma para ese idioma en la misma entidad de ayuda de trabajo.
-
-#### Gestión coherente del idioma en la IU del reproductor y del alumno
-
-El reproductor Fluidic se ha actualizado para que, cuando un alumno abra una ayuda de trabajo, se muestre la variante de contenido correspondiente al idioma del alumno (cuando esté disponible).
-
-Los administradores y los autores pueden ver las ayudas de trabajo como objetos individuales con variantes de idioma, en lugar de elementos independientes por idioma.
-
-### Principales ventajas
-
-#### Ayuda de trabajo única para todos los idiomas
-
-Los autores pueden evitar crear ayudas de trabajo independientes por idioma.
-
-Todas las variantes de idioma de la misma ayuda de trabajo (por ejemplo, un procedimiento, SOP, PDF de lista de comprobación o guía de referencia) se pueden administrar en un solo lugar.
-
-#### Mejor experiencia para alumnos de todo el mundo
-
-Los alumnos ven automáticamente la ayuda de trabajo en su idioma preferido, lo que significa que hay:
-
-* Menos confusión sobre qué versión abrir.
-
-* Menos riesgo de acceder a copias fuera de la configuración regional o obsoletas.
-
-Esto resulta especialmente útil en organizaciones multilingües en las que el mismo proceso o documentación del producto debe estar disponible en varios idiomas.
-
-### Casos de uso
-
-#### Despliegue global del contenido de referencia
-
-Una empresa debe proporcionar ayudas de trabajo en varios idiomas a los alumnos de todo el mundo, por ejemplo:
-
-* Hojas de referencia de productos.
-
-* Procesar listas de comprobación.
-
-* Libros de estrategias de soporte
-
-En lugar de crear ayudas de trabajo independientes como &quot;Inicio rápido del producto - ES&quot;, &quot;Inicio rápido del producto - DE&quot;, &quot;Inicio rápido del producto - JP&quot;, etc., pueden crear una ayuda de trabajo, adjuntar archivos localizados para cada idioma y permitir que ALM proporcione la versión correcta a cada alumno en función de la configuración de idioma.
-
-#### Documentación dirigida al cliente o al socio para varios mercados
-
-Para las academias de clientes y socios, las ayudas de trabajo pueden incluir:
-
-* Hojas de trucos de productos
-
-* Guías de integración
-
-* Flujos de trabajo de asistencia
-
-Con ayudas de trabajo en varios idiomas:
-
-* Cada socio ve la versión localizada sin tener que elegir entre las entradas específicas del idioma.
-
-* Los equipos de marketing y capacitación pueden administrar una ayuda de trabajo por tema en todas las configuraciones regionales.
-
 ## Definir restricción en la hora de inicio del módulo
 
 ### Información general
@@ -560,60 +488,6 @@ Esto permite analizar el rendimiento global y el rendimiento específico de la p
 * **Observaciones de seguridad y cumplimiento**: en el sector sanitario, de fabricación o de servicios in situ, se pueden asignar puntuaciones máximas más altas a los pasos de seguridad críticos, lo que garantiza que la falta de una acción crítica de seguridad tenga un impacto mayor en la puntuación total que la falta de un paso de procedimiento menor.
 
 * **Orientación y calibración**: con el valor máximo y las puntuaciones obtenidas por pregunta en el informe, los responsables pueden ver exactamente dónde los alumnos obtienen un rendimiento inferior y calibran a los instructores sobre cómo puntuar de forma coherente.
-
-## Compatibilidad con varios idiomas para preguntas de lista de comprobación
-
-### Información general
-
-La mejora introduce la compatibilidad con varios idiomas para las preguntas de la lista de comprobación, lo que permite a los revisores evaluar y puntuar las listas de comprobación en el idioma que prefieran. Esta función es especialmente útil en las regiones multilingües y en las implementaciones globales, ya que permite a los autores crear preguntas de lista de comprobación localizadas para cada idioma de contenido admitido, al tiempo que mantiene un único módulo de lista de comprobación y un proceso de evaluación coherente.
-
-En Adobe Learning Manager hoy:
-
-* Todos los módulos orientados al alumno (SCORM, PDF, HTML, etc.) se puede proporcionar en varios idiomas de contenido, lo que permite a los alumnos elegir el idioma que prefieran.
-
-* En un módulo de lista de comprobación, los revisores (instructores/responsables) evalúan a los alumnos en función de las preguntas definidas en dicha lista de comprobación.
-
-### Novedades...
-
-**Creación**
-
-* Los autores ahora pueden añadir preguntas de lista de comprobación en todos los idiomas seleccionados en el nivel del curso.
-
-* Para cada lista de comprobación:
-
-   * Se espera que el autor proporcione un texto de pregunta equivalente en todos los idiomas de contenido en los que exista el curso.
-
-   * Los autores son responsables de garantizar que el significado de cada pregunta sea coherente en todos los idiomas.
-
-**Experiencia de revisión**
-
-* Los revisores verán las preguntas de la lista de comprobación y la interfaz de usuario de evaluación en el idioma de contenido seleccionado.
-
-* Cuando una pregunta se evalúa en un idioma:
-
-   * La evaluación (puntuación, Sí/No, estado) es lógicamente la misma en todos los idiomas. Es una única lista de comprobación con varias vistas de idioma, no listas de comprobación independientes por idioma.
-
-**Informes**
-
-El informe Lista de comprobación mostrará el texto de la pregunta en el idioma de contenido del usuario:
-
-* Un administrador o revisor que ejecute el informe en cada idioma verá los nombres de las preguntas traducidas de ese idioma.
-
-* Las respuestas y puntuaciones subyacentes siguen siendo las mismas; solo se traducen las etiquetas de las preguntas.
-
-### Principales ventajas
-
-* **Mejor experiencia de revisión**: Los revisores pueden trabajar completamente en su propio idioma, leyendo preguntas y registrando evaluaciones sin barreras lingüísticas.
-
-* **Alineación normativa y de políticas**: En las regiones con requisitos de igualdad lingüística (por ejemplo, holandés/francés en Bélgica), las listas de verificación ahora pueden cumplir los mismos estándares que otros materiales de aprendizaje, lo que reduce el riesgo de cumplimiento.
-
-* **Lógica de evaluación coherente**: Aunque el texto está localizado, la evaluación y la puntuación se comparten en todos los idiomas, lo que garantiza que los resultados sean comparables y se administren de forma centralizada.
-
-### Casos de uso
-
-* Las franquicias multinacionales que operan en varios idiomas pueden implementar un solo curso y una lista de comprobación, a la vez que ofrecen experiencias de revisor localizadas en cada territorio.
-
-* Cualquier empresa global con instructores locales (por ejemplo, EMEA, LATAM, APAC) puede hacer que los revisores trabajen en su idioma local mientras comparten el mismo diseño de lista de comprobación global y la misma generación de informes.
 
 ## Lista de comprobación con capacidad de comentario para el revisor
 
