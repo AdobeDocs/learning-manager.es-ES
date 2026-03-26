@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ El Asistente de IA es un compañero de chat generativo basado en IA en Adobe Lea
 
 - **Controles de administrador**
    - Habilitar o deshabilitar la función en el nivel de cuenta
-   - Controlar el acceso de los grupos de usuarios
    - Seleccionar los catálogos que se incluyen para las respuestas de AI
    - Requisito de aceptación de las Condiciones de uso conforme a las directrices de IA de Adobe
 
@@ -148,32 +147,30 @@ Las organizaciones pueden personalizar los mensajes incorporados para reflejar s
 
 ![Asistente para alumnos con IA](assets/learner-ai-assistant-new.png)
 
-Los administradores seleccionan qué grupos de usuarios y catálogos **internos** pueden acceder a la función Asistente de IA. Asegúrate de que los catálogos que asignes solo incluyan el contenido de aprendizaje apropiado para las respuestas y citas de IA, y que esos catálogos sean **internos** (no **compartidos**, **adquiridos** o **externos**).
+Los administradores seleccionan qué catálogos **internos** pueden acceder a la función Asistente de inteligencia artificial. Asegúrate de que los catálogos que asignes solo incluyan el contenido de aprendizaje apropiado para las respuestas y citas de IA, y que esos catálogos sean **internos** (no **compartidos**, **adquiridos** o **externos**).
 
-Antes de configurar el Asistente de IA, confirme que tiene credenciales de administrador y que ha identificado a qué grupos de usuarios y catálogos debe tener acceso.
+Antes de configurar el Asistente de IA, confirme que tiene credenciales de administrador y que tiene catálogos identificados que deben tener acceso.
 
 ### Configurar el acceso del Asistente de IA
 
 Para activar el Asistente de inteligencia artificial del alumno:
 
-1. Inicie sesión en Adobe Learning Manager como administrador.
+&#x200B;1. Inicie sesión en Adobe Learning Manager como administrador.
 
-2. Seleccione **Configuración** en la página principal.
-   ![Consola de administrador con la opción Configuración en el panel izquierdo](assets/settings-menu.png)
+&#x200B;2. Seleccione **Configuración** en la página principal.
+![Consola de administrador con la opción Configuración en el panel izquierdo](assets/settings-menu.png)
 
-3. Seleccione **Asistente de inteligencia artificial del alumno (beta)** en el menú **Configuración**.
-   ![La consola del administrador muestra la opción Asistente de inteligencia artificial del alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
+&#x200B;3. Seleccione **Asistente de inteligencia artificial del alumno (beta)** en el menú **Configuración**.
+![La consola del administrador muestra la opción Asistente de inteligencia artificial del alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
 
-4. Seleccione el conmutador para habilitar el **Asistente de inteligencia artificial del alumno (beta)**.
-   ![La consola de administradores muestra el conmutador habilitado para el Asistente de inteligencia artificial del alumno](assets/learner-assistant-toggle.png)
+&#x200B;4. Seleccione el conmutador para habilitar el **Asistente de inteligencia artificial del alumno (beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Seleccione uno o varios grupos de usuarios en la opción **Grupos de usuarios que cumplen los requisitos**.
+&#x200B;5. Seleccione uno o varios catálogos en la opción **Catálogos aptos**.
 
-6. Seleccione **Guardar** para aplicar la configuración del grupo de usuarios.
-
-7. Seleccione uno o varios catálogos en la opción **Catálogos aptos**.
-
-8. Seleccione **Guardar** para aplicar la configuración del catálogo.
+&#x200B;6. Seleccione **Guardar** para aplicar la configuración del catálogo.
 
 >[!IMPORTANT]
 >
