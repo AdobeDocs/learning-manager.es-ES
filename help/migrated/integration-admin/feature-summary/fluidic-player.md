@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Reproductor Fluidic incrustable
 contentowner: dvenkate
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 25%
+source-wordcount: '1675'
+ht-degree: 33%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 25%
 
 Lea este artículo para aprender a incrustar el reproductor Fluidic en una aplicación personalizada.
 
-Como empresa, ahora puede proporcionar una experiencia personalizada a sus alumnos, incluso fuera de Learning Manager. Con la API pública, puede obtener toda la información relacionada con los objetos de aprendizaje, las inscripciones de los alumnos y el progreso del aprendizaje, y mostrarlos en su sitio web. Y, lo que es más importante, incluso puede insertar el reproductor Fluidic de Learning Manager en su sitio web para que los alumnos puedan utilizar el contenido directamente en su sitio web. El reproductor Fluidic le ofrece la posibilidad de reproducir cualquier contenido compatible con Learning Manager. Cuando se incrusta en su propio sitio web, tiene exactamente las mismas capacidades que cuando se utiliza en Learning Manager.
+Como empresa, ahora puede proporcionar una experiencia personalizada a sus alumnos, incluso fuera de Learning Manager. Con la API pública, puede obtener toda la información relacionada con los objetos de aprendizaje, las inscripciones de los alumnos y el progreso del aprendizaje, y mostrarlos en su sitio web. Y, lo que es más importante, incluso puede insertar el reproductor Fluidic de Learning Manager en su sitio web para que los alumnos puedan utilizar el contenido directamente en su sitio web. El reproductor Fluidic le ofrece la posibilidad de reproducir cualquier contenido compatible con Learning Manager. Cuando está integrado en su sitio web, tiene exactamente las mismas capacidades que cuando se usa dentro de Learning Manager.
 
-**Reproducir cualquier contenido de aprendizaje electrónico[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproducir cualquier contenido de aprendizaje electrónico[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 El reproductor Fluidic reproduce prácticamente cualquier tipo de contenido de aprendizaje electrónico de la misma forma coherente e intuitiva, sin necesidad de complementos ni descargas. El alumno puede abrir el contenido y, al margen del tipo de archivo de contenido, comienza a reproducirse.
 
 **Notas y marcadores**
 
-Puede tomar notas y marcar cualquier contenido, independientemente de su tipo de archivo. Si desea realizar una selección determinada de un archivo o vídeo largo, puede marcar los puntos donde ha encontrado la información que es relevante para sus necesidades. Las notas y los marcadores se pueden buscar o enviar como correo electrónico. Al hacer clic en ellos, se le dirige al reproductor Fluidic, exactamente al punto del video o la página del documento.
+Puede tomar notas y marcar cualquier contenido, independientemente de su tipo de archivo. Si desea hacer una selección determinada de un archivo o video de gran tamaño, puede marcar los puntos en los que ha encontrado la información que es relevante para usted. Las notas y los marcadores se pueden buscar o enviar como correo electrónico. Al hacer clic en ellos, se le dirige al reproductor Fluidic, exactamente al punto del video o la página del documento.
 
 Para obtener más información sobre el reproductor Fluidic, consulte [Reproductor Fluidic](../../learners/feature-summary/fluidic-player.md).
 
-A continuación se muestran algunos ejemplos de dónde puede utilizar el reproductor Fluidic incrustable.
+Aquí hay algunos ejemplos de dónde puede usar el reproductor Fluidic incrustable.
 
-* Puede utilizar el reproductor Fluidic incrustable en su sitio web&#x200B;**&#x200B;** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
+* Puede utilizar el reproductor Fluidic incrustable en su sitio web**** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
 
-* Si está en el sector de la formación, tal vez tenga un sitio web donde los clientes adquieren cursos. Puedes integrar el reproductor incrustable en el mismo sitio web para que tus clientes puedan consumir el contenido que compren dentro de tu sitio web.
+* Si está en el sector de la formación, tal vez tenga un sitio web donde los clientes adquieren cursos. Puede integrar el reproductor incrustable en su sitio web para que sus clientes consuman el contenido que compran dentro del sitio web.
 
 ## Pasos para incrustar el reproductor Fluidic en su sitio web {#stepstoembedfluidicplayerinyourwebsite}
 
@@ -43,7 +43,7 @@ Crear una aplicación personalizada para incrustar el reproductor Fluidic en su 
 1. Recupere el token de acceso.
 1. Utilice el token de acceso para recuperar recursos de Learning Manager mediante una API pública.
 
-### 1. Cree una aplicación en el administrador de integración {#1createanapplicationinintegrationadmin}
+### &#x200B;1. Crear una aplicación en el administrador de integración {#createanapplicationinintegrationadmin}
 
 Este paso es necesario para crear una identificación de cliente/aplicación y un secreto de cliente/aplicación que se utilicen para recuperar el token de actualización y el token de acceso. Para obtener más información sobre cómo crear una aplicación, vea [Proceso de desarrollo de aplicaciones.](developer-manual.md#main-pars_header_994876235)
 
@@ -54,7 +54,7 @@ Este paso es necesario para crear una identificación de cliente/aplicación y u
 1. Si la aplicación personalizada debe compartirse entre varias cuentas, seleccione **[!UICONTROL No]** en el campo de opción **[!UICONTROL ¿Solo para esta cuenta?]**
 1. Para guardar la aplicación y generar su ID y secreto de aplicación, haga clic en **[!UICONTROL Guardar]**.
 
-### 2. Recupere el token de acceso {#2retrievingaccesstoken}
+### &#x200B;2. Recuperando token de acceso {#retrievingaccesstoken}
 
 Como Learning Manager utiliza OAUTH2.0., se necesita el token de acceso para recuperar recursos mediante la API pública. El token de acceso se puede recuperar usando un token de actualización, una identificación de cliente o un secreto de cliente.
 
@@ -76,22 +76,22 @@ client_id= <application_id>
 ```
 
 Aquí, **[!UICONTROL ID de cliente]** es el ID de aplicación obtenido en el paso 1.
-**[!UICONTROL redirect_url]** es el valor de redirect_url establecido en el paso 1.
-**[!UICONTROL estado]** es cualquier dato ficticio en función del cual necesitamos filtrar la URL de redirección para obtener el código OAuth. El ámbito es el ámbito del alumno establecido en el paso 1.
-**[!UICONTROL response_type]**&#x200B;e siempre es &quot;CODE&quot;.\
+**[!UICONTROL redirect_url]** es la redirect_url establecida en el paso 1.
+**[!UICONTROL state]** es cualquier dato ficticio en función del cual necesitamos filtrar la URL de redirección para obtener el código OAuth. El alcance es el alcance del alumno establecido en el paso 1.
+**[!UICONTROL response_type]**e siempre es &quot;CODE&quot;.\
 **[!UICONTROL la cuenta]** es un campo opcional\
 **[!UICONTROL correo electrónico]** es un campo opcional\
 &#42; Si se proporcionan el ID de cuenta y el correo electrónico, la URL anterior permitirá al usuario iniciar sesión en la misma cuenta. Este ejemplo de punto final se muestra en el archivo &quot;index.html&quot; de la aplicación de ejemplo.
 
 * Recupere el token de actualización
 
-Una vez recibido el código OAuth, el token de actualización se puede recuperar utilizando el código OAuth recibido, el id. de cliente y el secreto de cliente desde el punto final siguiente:
+Una vez que se recibe el código OAuth, se puede recuperar el token de actualización utilizando el código OAuth, la identificación de cliente y el secreto de cliente recibidos desde el punto final siguiente:
 
 **https://learningmanager.adobe.com/oauth/token**
 
 Como respuesta a su solicitud de publicación, recibirá lo siguiente:
 
-i. token_actualización\
+i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expires_in\
@@ -105,14 +105,14 @@ Para recuperar su token de acceso, envíe otra solicitud con su token_actualizac
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
 Como respuesta a su solicitud de publicación, recibirá lo siguiente:\
-i. token_actualización\
+i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expires_in\
 v. user_role\
 vi. ID_cuenta
 
-### 3. Recupere recursos usando una API pública {#3retrieveresourcesusingpublicapi}
+### &#x200B;3. Recuperar recursos usando una API pública {#retrieveresourcesusingpublicapi}
 
 Como tercer paso, debe utilizar el token de acceso para recuperar recursos de Learning Manager mediante API públicas .  Se requiere un token de acceso para realizar cualquier llamada de API pública y se debe agregar en el encabezado, como se muestra en la aplicación de ejemplo.
 
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## Tutorial de aplicación de muestra {#sampleapplicationtutorial}
 
 El documento PDF adjunto contiene un tutorial de aplicación de ejemplo.
-[Ejemplo de origen de tutorial y tutorial para incrustar el reproductor Fluidic.](assets/sample-applicationtutorial.zip) Contenido alternativo
+[Tutorial de ejemplo y origen del tutorial para incrustar el reproductor Fluidic.](assets/sample-applicationtutorial.zip) Contenidos alternativos
 
 Si es administrador, puede configurar el material del curso para ofrecer contenido alternativo a los alumnos en el reproductor Fluidic. Por ejemplo, si tiene alumnos de distintas zonas geográficas que podrían utilizar varios idiomas, puede crear el mismo contenido en varios idiomas. El reproductor Fluidic ofrecerá al alumno el idioma para el que podría estar configurado, pero este también tiene la opción de cambiar a un idioma alternativo directamente desde el reproductor.
 
@@ -183,11 +183,11 @@ Se trata de un esfuerzo que debe realizar alguien de su equipo de TI o un consul
 
    Puede obtener su token configurando su reproductor Fluidic incrustable en su administrador de integración. Puede obtener su token de autenticación, que se puede utilizar como su token de acceso.
 
-   Ejemplo de URL creada; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
+   Ejemplo de URL creada; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Aquí, lo_id será el ID del curso, el programa de aprendizaje, la certificación y jobAid .
 
-   Ejemplos de lo_id - course:21324, learningProgram:2143, certification:23432, jobAid:237
+   Ejemplos de lo_id: course:21324, learningProgram:2143, certification:23432, jobAid:237
 
 1. Realice llamadas a la API de Learning Manager para recuperar los parámetros mencionados anteriormente.
 
