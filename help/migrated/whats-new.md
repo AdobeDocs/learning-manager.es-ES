@@ -2,13 +2,13 @@
 description: Descubra las nuevas funciones y mejoras de la versión de octubre de 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Novedades de la versión de octubre de 2025 de Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
+source-git-commit: 95b65499b5becfb34abbceb5dc3d98dfa51b0e31
 workflow-type: tm+mt
-source-wordcount: '5573'
+source-wordcount: '5648'
 ht-degree: 0%
 
 ---
-
 
 # Novedades de la versión de octubre de 2025 de Adobe Learning Manager
 
@@ -273,7 +273,8 @@ La respuesta de la API `startRun` se ha actualizado para incluir el id. del proy
 
 Recupera el estado de una ejecución de migración existente.
 
-**Punto final**
+**Extremo**
+Hay un nuevo punto final disponible:
 
 ```
 GET /bulkimport/runStatus
@@ -822,5 +823,3 @@ Consulta las [notas de la versión](/help/migrated/release-note/release-notes.md
 
 * [Versión de mayo de 2025 de Adobe Learning Manager](/help/migrated/whats-new-may-2025.md)
 * [Versión de noviembre de 2025 de Adobe Learning Manager](/help/migrated/whats-new-nov-24.md)
-
-
