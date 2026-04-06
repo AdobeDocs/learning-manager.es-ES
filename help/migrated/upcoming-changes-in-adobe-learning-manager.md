@@ -2,9 +2,9 @@
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 description: Obtenga más información sobre las nuevas funciones, mejoras y actualizaciones importantes de la versión de abril de 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 0%
 
 ---
@@ -1430,7 +1430,7 @@ En otras palabras, las recomendaciones de inicio de sesión les ayudan a decidir
 
 En la **interfaz de usuario**, las ayudas de trabajo participan en experiencias sin sesión iniciada principalmente a través de widgets que pueden mostrar objetos de aprendizaje:
 
-1. **Widget de rutas y cursos**
+1. Widget de **rutas y cursos**
 Este widget puede mostrar varios tipos de objetos de aprendizaje, incluidas las ayudas de trabajo. En las páginas que no han iniciado sesión, puede configurarlo para:
    1. Incluir o excluir ayudas de trabajo de forma explícita.
    2. Filtre las ayudas de trabajo por catálogo, producto, función, etiquetas, etiquetas y otros metadatos.
@@ -1438,18 +1438,18 @@ Este widget puede mostrar varios tipos de objetos de aprendizaje, incluidas las 
 
 Por ejemplo, en una página de aterrizaje pública, puede configurar una tira titulada &quot;Recursos útiles&quot; que muestre solo las ayudas de trabajo, y otra tira titulada &quot;Cursos recomendados&quot; que muestre los cursos y las rutas.
 
-1. **Página de catálogo y búsqueda**
-Las superficies **catalog** y **search** que no estén registradas utilizan el índice de búsqueda pública (alimentado por el conector Training Data Access). Ese índice ahora admite ayudas de trabajo correctamente, por lo que:
+1. **Página y búsqueda del catálogo**
+Las superficies **catalog** y **search** que no estén registradas utilizan el índice de búsqueda pública (alimentado por el conector de acceso a datos de formación). Ese índice ahora admite ayudas de trabajo correctamente, por lo que:
    1. Los resultados de búsqueda que no estén registrados pueden incluir ayudas de trabajo.
    2. Filtros de catálogos no registrados (por tipo, producto, etiquetas, etc.) Puede incluir ayudas de trabajo siempre que la configuración de su cuenta y los widgets estén configurados para mostrarlas.
 2. **Páginas de información general de objetos de aprendizaje**
-Cuando un visitante hace clic en una ayuda de trabajo desde cualquier widget o desde el catálogo, va a una **página de descripción general de objeto de aprendizaje** para esa ayuda de trabajo en modo sin inicio de sesión. A partir de ahí, pueden leer su descripción y metadatos. Normalmente, la descarga o el consumo reales aún requieren inicio de sesión, pero la presencia y la capacidad de detección de la propia ayuda de trabajo dependen de la experiencia de no inicio de sesión.
+Cuando un visitante hace clic en una ayuda de trabajo desde cualquier widget o desde el catálogo, va a una **página de descripción general del objeto de aprendizaje** para esa ayuda de trabajo en modo sin inicio de sesión. A partir de ahí, pueden leer su descripción y metadatos. Normalmente, la descarga o el consumo reales aún requieren inicio de sesión, pero la presencia y la capacidad de detección de la propia ayuda de trabajo dependen de la experiencia de no inicio de sesión.
 
 ### Cómo se exponen las ayudas de trabajo mediante API que no han iniciado sesión
 
 En el **lado de la API**, las ayudas de trabajo son compatibles con:
 
-1. **Conector de acceso a datos de formación y búsqueda pública**
+1. El conector **Training Data Access y la búsqueda pública**
 TDA exporta metadatos de ayuda de trabajo junto con otros tipos de objetos de aprendizaje al índice de búsqueda pública que atiende consultas de catálogo y búsqueda no registradas. En esto confían Experience Builder y las interfaces de usuario descentralizadas.
 2. La lista de **objetos de aprendizaje con effectiveModifiedDate**
 En esta versión, se ha corregido el extremo del listado de objetos de aprendizaje para que las ayudas de trabajo funcionen correctamente con el filtro effectiveModifiedDate. Ahora puede llamar a:
@@ -2405,11 +2405,27 @@ Si el alumno tiene una finalización directa, la revocación de alternativas no 
 
 ### Información mejorada para comentarios del revisor de la lista de comprobación
 
-Los comentarios del revisor de los módulos de lista de comprobación ahora se incluyen en el informe LT en una columna con el nombre cambiado Comentarios del revisor.
+Los comentarios del revisor de los módulos de lista de comprobación ahora se incluyen en Transcripciones de alumnos (LT) en una columna con el nombre cambiado: **Comentarios del revisor** (anteriormente Enviar comentario).
 
 #### Consecuencias
 
-Los alumnos y los administradores pueden ver los comentarios consolidados, lo que mejora la transparencia y respalda la evaluación del rendimiento.
+Los alumnos y los administradores pueden ver comentarios de revisores consolidados y claramente etiquetados en las exportaciones de LT (IU, API de trabajos y conectores), lo que mejora la transparencia y la auditabilidad, y respalda una evaluación de rendimiento y una orientación más precisas.
+
+#### Cambios habidos
+
+**Columnas con nombre cambiado**
+
+| Área | Nombre de columna anterior | Nuevo nombre de columna | Notas |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Transcripciones de alumnos (administrador) | Enviar comentario | Comentarios del revisor | Se aplica a todos los orígenes de administración LT: IU, API de trabajos, conectores, donde corresponda. |
+
+Este cambio se aplica de manera uniforme a todos los orígenes de LT de administrador (exportaciones de interfaz de usuario, informes de API de trabajos y exportaciones basadas en conectores, donde corresponda). Los comentarios del revisor aparecerán como una columna dedicada al final (para los conectores que no expusieron previamente el comentario de envío), lo que garantiza que las integraciones posteriores puedan distinguir los comentarios del revisor de otros comentarios.
+
+>[!NOTE]
+>
+>En las transcripciones de alumnos de alumnos, la columna etiquetada anteriormente como &quot;Enviar comentario&quot; ahora se llama &quot;Comentarios del revisor&quot; y se rellena con el comentario del revisor de la lista de comprobación cuando está activada.
+
+
 
 ### Cálculo del tiempo de aprendizaje mejorado
 
