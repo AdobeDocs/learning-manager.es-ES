@@ -3,10 +3,10 @@ title: Novedades de esta versión (abril de 2023)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 61%
+source-wordcount: '3234'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 La nueva aplicación Adobe Learning Manager en Microsofts Teams está diseñada para fomentar el aprendizaje en el flujo de trabajo y favorecer el aprendizaje social. Los estudiantes podrán acceder al contenido de aprendizaje en la plataforma Microsofts Teams sin necesidad de cambiar a un navegador. Póngase en contacto con su CSAM para obtener la versión beta de la aplicación Adobe Learning Manager en MS Teams.
 
-Para obtener más información, consulte [Aplicación Adobe Learning Manager para Microsofts Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Para obtener más información, consulte la [aplicación Adobe Learning Manager en Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Mejoras en la experiencia de formación dirigida por un instructor (ILT)
 
@@ -33,7 +33,7 @@ Para obtener más información, consulte [Asignar aptitudes a instructores](/hel
 
 ### Asistente de programación
 
-Gestione conflictos en instructores de reservas y aulas o aulas virtuales. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, utilice el Ayudante de programación.
+Gestione conflictos en instructores de reservas y aulas o aulas virtuales. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, utilice el Asistente de programación.
 
 Los autores, administradores y administradores/autores personalizados pueden utilizar el Asistente de programación.
 
@@ -45,7 +45,7 @@ Una nueva aplicación móvil Adobe Learning Manager para Android y iOS que propo
 
 ![Nueva imagen de interfaz de mapa móvil](assets/mobile-app.png)
 
-Descargue el dispositivo móvil desde Google Play Store y Apple App Store. Se solicitará a los usuarios de la versión anterior de la aplicación que descarguen e instalen la nueva aplicación.
+Descargue la aplicación móvil de Google Play Store y Apple App Store. Se solicitará a los usuarios de la versión anterior de la aplicación que descarguen e instalen la nueva aplicación.
 
 En esta versión, la aplicación es compatible con estas funciones:
 
@@ -112,7 +112,7 @@ Lo que ve un alumno es una tira con cursos recomendados en la página de inicio 
 
 ![alumno de tira de recomendaciones](assets/recommendation-strip-learner.png)
 
-Cuando el alumno hace clic en el vínculo o en el botón Ir al catálogo, se le redirige a la página del catálogo del curso. A continuación, el alumno ve la lista de grupos de usuarios que se van a filtrar en función de los grupos de usuarios del catálogo y de la página Mi aprendizaje.
+Cuando el alumno hace clic en el vínculo o en el botón Ir al catálogo, se le redirige a la página del catálogo del curso. A continuación, el alumno visualiza la lista de grupos de usuarios que se van a filtrar en función de los grupos de usuarios del catálogo y de la página Mi aprendizaje.
 
 ![resultados de búsqueda](assets/search-results.png)
 
@@ -225,10 +225,10 @@ _Cambiar instancia de la página del alumno_
 
 Un administrador puede cambiar instancias de alumnos. Seleccione un curso en la Admin Console, vaya a la sección **[!UICONTROL Alumnos]**, elija un usuario y seleccione el botón **[!UICONTROL Acción]**. A continuación, seleccione **[!UICONTROL Cambiar instancia]** y elija la instancia deseada.
 
-![texto alt](assets/switch-instance-admin.png)
+![texto alternativo](assets/switch-instance-admin.png)
 _Cambiar instancia desde Admin Console_
 
-![seleccionar instancias de modificador](assets/switch-instances-select.png)
+![seleccionar instancias de conmutador](assets/switch-instances-select.png)
 _Aviso de instancia de conmutador_
 
 No puede cambiar de instancia hasta que se complete cualquier instancia del curso desde la aplicación del alumno o del administrador.
@@ -261,7 +261,7 @@ Para obtener más información, consulte [Informe de registro de auditoría de u
 
 Este informe captura el tiempo (en minutos) que un instructor dedica diariamente a impartir las sesiones asignadas. El informe se puede descargar durante un período de tres meses a partir de la fecha de inicio seleccionada.
 
-Para obtener más información, consulte [Informe de uso del instructor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Para obtener más información, consulte [Informe de utilización del instructor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![informe de utilización del instructor](assets/instructor-utilization.png)
 
@@ -289,7 +289,7 @@ Para los administradores, se ha añadido un nuevo tipo de anuncio: «Como correo
 
 Los administradores y autores personalizados también pueden ver esta opción en el nivel de instancia si tienen el acceso necesario.
 
-Para obtener más información, vea [Anuncios](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Para obtener más información, consulte [Anuncios](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Nuevas plantillas de correo electrónico
 
@@ -432,8 +432,7 @@ Se añaden los siguientes atributos:
 | Descripción | Nuevo parámetro/respuesta | Punto final |
 |--- |--- |--- |
 | Enumerar todas las ciudades | filter.cityName=true/false | GET /primeapi/v2/data |
-| Buscar y filtrar ciudades | filter.cityName=city_name<br>También admite una lista de ciudades separadas por comas |
-| GET /primeapi/v2/search |
+| Buscar y filtrar ciudades | filter.cityName=city_name<br>También admite una lista de ciudades separadas por comas | GET /primeapi/v2/search |
 | Detalles de la sala de retorno | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Objeto de aprendizaje para filtrar ciudades | filter.cityName=city_name <br> También admite una lista de ciudades separadas por comas. | GET /primeapi/v2/learningObjects |
 | Agregar panel de ciudad | La respuesta contiene un nuevo atributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
@@ -477,7 +476,7 @@ Un nuevo parámetro de consulta, persistSearchHistory. El valor predeterminado e
 
 **Sugerencias**
 
-Un nuevo parámetro de consulta, suggestionType. Los valores aceptados son:
+Un nuevo parámetro de consulta, suggestionType. Los valores compatibles son:
 
 * learnerHistory (predeterminado)
 * accountHistory
@@ -639,7 +638,7 @@ Ejemplo de respuesta a continuación:
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos móviles de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
 
 ## Correcciones de errores
 

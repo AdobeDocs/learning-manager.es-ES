@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7576'
-ht-degree: 54%
+source-wordcount: '7660'
+ht-degree: 63%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe Learning Manager le permite crear diversos informes para supervisar y cont
 
 El proceso de generación de informes es similar para el administrador y el responsable. Los responsables pueden ver los informes correspondientes a sus subordinados, mientras que el administrador puede ver todos los informes en toda la empresa.
 
-Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. Existe un **[!UICONTROL Panel predeterminado]** de forma predeterminada en la página Informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para agregar informes a paneles individuales, usa la flecha desplegable y elige **[!UICONTROL Agregar informe]**. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
+Los informes se añaden en un tablero. Un informe debe estar dentro de un tablero. De manera predeterminada, verá un **[!UICONTROL Tablero predeterminado]** en la página Informes. Cualquier informe añadido por usted se añade a este tablero predeterminado. Para añadir informes a tableros individuales, utilice la flecha desplegable y elija **[!UICONTROL Añadir informe]**. Para obtener más información sobre cómo crear tableros, consulte la sección Tableros en esta página.
 
 ## Tipos de informes {#typesofreports}
 
-Adobe Learning Manager admite cuatro tipos principales de informes: de finalización, tiempo dedicado, aptitudes y eficacia. Puede utilizar los siguientes tipos de informe para generar informes de más de 300 variaciones:
+Adobe Learning Manager admite cuatro tipos principales de informes: de finalización, tiempo dedicado, aptitudes y eficacia. Puede utilizar los siguientes tipos de informes para generar más de 300 variaciones de informes:
 
 * Estadísticas de entrega del curso para alumnos
 * Informe sobre la eficacia de los cursos
@@ -39,7 +39,7 @@ Adobe Learning Manager admite cuatro tipos principales de informes: de finalizac
 
 Vea un resumen de toda la actividad de los usuarios en la plataforma a lo largo del tiempo. Configure grupos de usuarios y aplique filtros.
 
-En el tablero de actividad de usuario, se muestra la actividad de los usuarios de la cuenta. Los tres informes que se enumeran son:
+En el tablero de actividad de usuario, se muestra la actividad de los usuarios de la cuenta. Los tres informes que se muestran son:
 
 * **Usuarios registrados:** Este informe proporciona información sobre el número de usuarios registrados en su cuenta semanalmente. En el caso de las cuentas con licencias de unidades activas mensuales, el informe presenta en su lugar las unidades MAU.
 
@@ -88,7 +88,7 @@ El tiempo dedicado a diferentes objetos de aprendizaje, como programas de aprend
 * Sesiones de fin de semana con el indicador de fin de semana activado.
 * Sesión de conexión de clase virtual donde la asistencia se marca automáticamente.
 * Tiempo empleado en diferentes objetos de aprendizaje, como programas de aprendizaje y certificaciones.
-* Instrucciones xAPI para un curso de actividad xAPI.
+* Instrucciones de xAPI para un curso de actividad de xAPI.
 
 Puede exportar el gráfico como una hoja de cálculo de Excel.
 
@@ -191,7 +191,7 @@ El informe de formación tiene dos columnas adicionales:
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a generar informes de tableros a partir de la base de datos.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
+>En este curso de formación, aprenderá a generar informes de tableros desde la base de datos.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
@@ -205,15 +205,15 @@ Consulte un informe resumido de todas las actividades de aprendizaje en la plata
 ![](assets/summary-charts.png)
 *Gráficos de resumen*
 
-Si hay administradores internos de nivel raíz, se mostrarán uno tras otro.
+Si hay responsables internos de nivel raíz, se mostrarán uno tras otro.
 
-Todos los perfiles externos se enumerarán después de los perfiles internos (usuarios internos de nivel raíz).
+Todos los perfiles externos se enumerarán tras los perfiles internos (usuarios internos de nivel raíz).
 
-Si un perfil externo tiene un administrador, la jerarquía de administradores se mostrará en la lista desplegable **[!UICONTROL Mostrar datos para]**. El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes)
+Si un perfil externo tiene un responsable, la jerarquía de responsables se mostrará en la lista desplegable **[!UICONTROL Mostrar datos para]**. El usuario aparecerá en la jerarquía de responsables en la página de todos los detalles (resumen del aprendizaje, cumplimiento y estado de aptitudes)
 
-Si no es así, todos los detalles de los usuarios individuales se mostrarán en la lista.
+De lo contrario, todos los detalles de los usuarios individuales se mostrarán en la lista.
 
-Para ver detalles más detallados de las inscripciones de varios equipos internos, haga clic en **[!UICONTROL Detalles del resumen de aprendizaje]**.
+Para ver información más detallada de las inscripciones de varios equipos internos, haga clic en **[!UICONTROL Detalles del resumen de aprendizaje]**.
 
 ![](assets/learning-sunnarydetails.png)
 *Detalles del resumen de aprendizaje*
@@ -401,7 +401,7 @@ La ficha **[!UICONTROL Informes de muestra]** presenta algunos informes indicati
 
 ### Informes de tableros {#dashboardreports}
 
-Un tablero es una colección de informes. Los informes se pueden agrupar en un tablero según su elección. Para ver todos los tableros creados, haga clic en esta ficha del tablero. En la lista desplegable **[!UICONTROL Ver panel]**, puede seleccionar la placa predeterminada o un panel que haya creado.
+Un tablero es una colección de informes. Los informes pueden agruparse en un tablero según su elección. Haga clic en la ficha de este tablero para ver todos los tableros creados por usted. En la lista desplegable **[!UICONTROL Ver tablero]**, puede seleccionar el tablero predeterminado o cualquiera de los tableros creados por usted.
 
 ### Informes de Excel {#excelreports}
 
@@ -443,7 +443,7 @@ Como administrador, puede descargar informes de cursos. Siga estos pasos:
 
 >[!INFO]
 >
->En esta formación, aprenderá a exportar informes de cursos y a configurar suscripciones por correo electrónico para estos informes.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>En este curso de formación, aprenderás a exportar informes de cursos y a configurar suscripciones de correo electrónico para estos informes.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
@@ -517,7 +517,7 @@ Después de seleccionar **[!UICONTROL Informe de ayudas de trabajo]** en la list
 
 **Ayudas de trabajo seleccionadas**: Si selecciona esta opción, puede especificar las ayudas de trabajo para las que desea generar el informe. Puede seleccionar un máximo de 10 ayudas de trabajo. Adobe Learning Manager comprueba si el número de ayudas de trabajo supera los 10 millones.
 
-![registro de informe de ayudas de trabajo](assets/job-aids-2-new.png)
+inscripción en el informe de ayudas de trabajo de ![](assets/job-aids-2-new.png)
 *Seleccionar una ayuda de trabajo*
 
 **Informe de ayudas de trabajo**
@@ -572,7 +572,7 @@ El informe descargado consta de los siguientes campos:
 
 ### Informes de registro de auditoría de contenido {#contentaudittrailreports}
 
-Utilice el generador de informes **[!UICONTROL Registro de auditoría de contenido]** para generar un informe de todos los cambios y modificaciones realizados en un curso durante su duración en el sistema. El informe generado muestra la información siguiente recopilada:
+Utilice el generador del informe de **[!UICONTROL Registro de auditoría de contenido]** para generar un informe sobre todos los cambios y modificaciones habidos en un curso durante su duración en el sistema. El informe generado muestra la información siguiente recopilada:
 
 * ID de objeto
 * Nombre del objeto
@@ -631,11 +631,11 @@ Para generar un informe de registro de auditoría de un curso, siga estos pasos.
 
 ### Informes de registro de auditoría de usuarios {#useraudittrailreports}
 
-El seguimiento de auditoría de usuarios captura el ciclo de vida de los usuarios, los grupos de usuarios y los perfiles de registro automático. Se captura la adición y eliminación de usuarios, y los cambios del responsable. Se registra la creación y eliminación de perfiles de registro automático. El registro automático también se puede pausar y reanudar.
+El registro de auditoría de usuarios captura el ciclo de vida de usuarios, grupos de usuarios y perfiles de registro automático. Se captura la adición y eliminación de usuarios, y los cambios del responsable. Se registra la creación y eliminación de perfiles de registro automático. El registro automático también se puede pausar y reanudar.
 
 Durante el registro automático puede añadir, habilitar, deshabilitar, pausar o reanudar en perfiles externos. También se capturan las cargas de CSV.
 
-1. Seleccione **[!UICONTROL Informe > Informe de Excel > Registro de seguimiento de usuario]**. Aparece el cuadro de diálogo Registro de auditoría de usuarios.
+1. Seleccione **[!UICONTROL Informe > Informe de Excel > Registro de seguimiento de usuario]**. Se muestra el cuadro de diálogo Registro de auditoría de usuarios.
 1. Se muestra el cuadro de diálogo Registro de auditoría de usuarios. Seleccione el intervalo de fechas en el menú emergente. Puede elegir entre generar el informe de la última semana, el último mes o seleccionar una fecha personalizada.
 
    ![](assets/user-audit-trail.png)
@@ -681,7 +681,7 @@ Para descargar este informe, siga estos pasos:
 
 Los administradores pueden descargar la transcripción de interacción en formato .csv. Puede descargar el informe para usuarios individuales o grupos de usuarios. El nombre de usuario, el correo electrónico del usuario, el UUID del usuario, el total de puntos de usuario obtenidos, la agrupación de puntos recopilados, el nombre de los grupos en los que el usuario interviene, el nombre del responsable y los valores de los campos activos se obtienen en el informe. Los administradores pueden usar este informe para evaluar y comprender las clasificaciones de usuarios en el nivel de la empresa o para un grupo específico.
 
-1. Seleccione Informe > Informe de Excel > Informe de interacción.
+1. Seleccione Informe > Informes de Excel > Informe de interacciones.
 
    ![](assets/gamification.png)
    *Informe de interacción*
@@ -693,7 +693,7 @@ Los administradores pueden descargar la transcripción de interacción en format
 
 1. Haga clic en **[!UICONTROL Generar]** para generar el informe.
 
-   Después de generar el informe de un alumno, debe poder exportar la información actual y del nivel alcanzado para todos los usuarios (internos, externos o eliminados) de la cuenta. También puede consultar las fechas de los niveles alcanzados por un alumno:
+   Después de generar el informe de un alumno, debe poder exportar la información actual y del nivel alcanzado para todos los usuarios (internos, externos o eliminados) en la cuenta. También puede consultar las fechas de los niveles alcanzados por un alumno:
 
    * Fecha de obtención de Bronce
    * Fecha de obtención de Plata
@@ -733,7 +733,7 @@ El informe se descarga como archivo CSV. El archivo contiene las siguientes colu
 
 ### Informe de inscripción y baja {#enrollmentandunenrollmentreport}
 
-Los administradores y responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Mientras que, como responsable, solo puede obtener un informe de los miembros del equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
+Los administradores y los responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Ahora bien, como responsable, solo puede obtener un informe de los miembros de su equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
 
 Para descargar un informe, sigue estos pasos: abre el **[!UICONTROL curso/programa de aprendizaje/certificación]** > **[!UICONTROL alumnos]** > **[!UICONTROL Acción]** > **[!UICONTROL Informe de exportación]**.
 
@@ -748,7 +748,7 @@ Consulte [Informe de comentarios](/help/migrated/administrators/feature-summary/
 
 ### Informe de cursos de formación {#training-report}
 
-Learning Manager admite el informe de formación, que permite a los administradores descargar detalles de formación y sus metadatos asociados, como el autor, la fecha de publicación, las aptitudes, las etiquetas de catálogo, etc.
+Learning Manager admite el informe de cursos de formación, que permite a los administradores descargar los detalles de cursos de formación y sus metadatos asociados, como el autor, la fecha de publicación, las aptitudes, las etiquetas de catálogo, etc.
 
 En la aplicación de administración, haz clic en **[!UICONTROL Informes]** > **[!UICONTROL Informes personalizados]** > **[!UICONTROL Informes de Excel]** > **[!UICONTROL Informe de cursos de formación]**.
 
@@ -779,7 +779,7 @@ El informe tendrá los siguientes campos:
 
 El informe de resumen de sesión contiene todas las sesiones planificadas para un alumno en una fecha especificada.
 
-Esto permite al administrador exportar todos los detalles de la sesión virtual y de clase que estén dentro del intervalo de fechas especificado. El administrador también puede exportar el informe de la sesión con respecto a determinados instructores o formadores.
+Esto permite que el administrador exporte todos los detalles de la sesión virtual y de clase que estén dentro del intervalo de fechas especificado. El administrador también puede exportar el informe de la sesión con respecto a determinados instructores o formadores.
 
 Esto también ayudará al administrador a comprender las sesiones programadas mensualmente e identificar el horario de los instructores y las sesiones ya realizadas.
 
@@ -799,7 +799,7 @@ El informe csv contiene los siguientes campos:
 * Duración de la sesión (en minutos)
 * Recuento de puestos
 * Ubicación
-* Nombre de la instancia
+* Nombre de instancia
 * Nombre del curso
 * Id. del curso
 * Nombre del instructor
@@ -807,7 +807,7 @@ El informe csv contiene los siguientes campos:
 * Recuento de inscripciones
 * Tipo de sesión
 * Límite de lista de espera
-* N.º en lista de espera
+* Recuento de listas de espera
 * Mensajes de correo electrónico de usuario de la lista de espera
 * Información de ubicación
 * Región de la ubicación
@@ -911,14 +911,14 @@ Puede recibir sus informes favoritos por correo electrónico mediante una suscri
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a configurar suscripciones de correo electrónico para informes de tableros.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>En este curso de formación, aprenderás a configurar suscripciones de correo electrónico para informes de tableros.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 En la página **[!UICONTROL Informes]**, haga clic en la pestaña **[!UICONTROL Suscripción]**. Aparece la página de suscripción a informes.
 
-Para seleccionar el nombre del informe en la lista desplegable, empiece a escribir el nombre del informe en el campo Informes. Seleccione la frecuencia del correo electrónico en la lista desplegable. Puede añadir el asunto del correo electrónico y proporcionar un ID de correo electrónico alternativo.
+Comience a escribir el nombre del informe en el campo Informes para seleccionar el nombre del informe de la lista desplegable. Seleccione la frecuencia del correo electrónico en la lista desplegable. Puede añadir el asunto del correo electrónico y proporcionar un ID de correo electrónico alternativo.
 
 Puede editar y eliminar las suscripciones.
 
@@ -950,7 +950,7 @@ Para descargar este informe, siga estos pasos:
 
 ## Crear un tablero {#createadashboard}
 
-1. Para comenzar a crear sus propios tableros, haga clic en Agregar tablero en el lado derecho de la página.
+1. Haga clic en Añadir tablero en la parte derecha de la página para comenzar a crear sus propios tableros.
 
    ![](assets/add-dashboards.png)
    *Agregar paneles*
@@ -961,19 +961,19 @@ Para descargar este informe, siga estos pasos:
 
 Puede ver el tablero creado recientemente en la ficha **[!UICONTROL Informes de tableros]**.
 
-Para añadir informes a tu tablero, haz clic en el menú desplegable situado en la esquina superior derecha de la ventana de tu tablero y haz clic en **[!UICONTROL Añadir informe]**. El informe que crea de este modo se asocia con su tablero.
+Para añadir informes a su tablero, haga clic en la lista desplegable en la esquina superior derecha de la ventana de su tablero y luego haga clic en **[!UICONTROL Añadir informe]**. El informe que crea de este modo se asocia con su tablero.
 
 >[!NOTE]
 >
->Los informes que cree haciendo clic en Agregar en la esquina superior derecha de la página Informes se agregan al panel predeterminado.
+>Los informes que crea cuando hace clic en Añadir en la esquina superior derecha de la página Informes se añaden a su tablero predeterminado.
 
 ## Tableros compartidos {#shareddashboards}
 
 Los tableros compartidos son una colección de informes que otros usuarios de la empresa han compartido con usted. Cualquier informe que añada a un tablero compartido se comparte automáticamente con otros usuarios que tengan acceso a dicho tablero.
 
-Puede compartir el tablero de dos formas:
+El tablero se puede compartir de dos formas:
 
-* Introduciendo usuarios en el campo **[!UICONTROL Compartir con]** con los que se comparte el panel.
+* Especificando los usuarios en el campo **[!UICONTROL Compartir con]** en la esquina superior derecha de la con los que se debe compartir el tablero.
 * Elija Editar tablero en la lista desplegable e indique los detalles del usuario para compartir el tablero.
 
 >[!NOTE]
@@ -1014,7 +1014,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
@@ -1040,7 +1040,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    ![](assets/choose-filters.png)
    *Elegir filtros*
 
-1. Haga clic en **[!UICONTROL Guardar]** para completar la creación de un informe.
+1. Haga clic en **[!UICONTROL Guardar]** para terminar de crear un informe.
 
    ![](assets/sample-report.png)
    *Informe de muestra*
@@ -1100,7 +1100,7 @@ Los filtros aparecen en el cuadro de diálogo **[!UICONTROL Añadir]** informe e
 
 **Grupo de usuarios** Seleccione el grupo de usuarios teniendo en cuenta para cuál desea filtrar informes. Learning Manager busca los grupos de usuarios definidos para su cuenta según la función Usuarios.
 
-**Curso** Puedes filtrar tu informe según cualquier curso seleccionándolos en el menú desplegable.
+**Curso** Puede filtrar su informe según cualquier curso si lo selecciona de la lista desplegable.
 
 ![](assets/sample-report-admin.png)
 *Filtrar un informe*
@@ -1132,7 +1132,7 @@ Este informe del grupo de usuarios le permite comparar el rendimiento de un depa
 
 También puede crear grupos de usuarios personalizados con la función Añadir usuarios/grupos de usuarios en Learning Manager. Después de crear los grupos de usuarios, puede generar informes para los grupos de usuarios personalizados con la ayuda de una lista de atributos, por ejemplo ubicación o sucursal.
 
-En el eje X, elija la opción Atributos de usuario y seleccione el atributo en la lista desplegable **select** que está a su lado. Para crear un informe de grupo de usuarios personalizado basado en estos atributos, también debe elegir el grupo de usuarios adecuado en el filtro.
+En el eje X, elija la opción Atributos de usuario y seleccione el atributo en la lista desplegable **select** que está a su lado. Para crear un informe personalizado del grupo de usuarios basado en estos atributos, también debe seleccionar el grupo de usuarios correspondiente en el filtro.
 
 ## Visualización de informes {#viewingreports}
 
@@ -1161,7 +1161,7 @@ Si varios responsables le informan a usted, podrá ver los informes rápidamente
 
 Puede ver los informes específicos de cada curso siguiendo estos pasos:
 
-1. Haga clic en el vínculo **[!UICONTROL Ver informes de cursos]** en la ficha Mis paneles de la página Informes.\
+1. Haga clic en el vínculo **[!UICONTROL Ver informes de cursos]** de la ficha Mis tableros en la página Informes.\
    Aparecerá un cuadro de diálogo emergente. Aparece un campo de entrada de texto donde puede introducir el curso requerido y los nombres de los cursos sugeridos aparecen en la lista desplegable. Elija el curso de la lista que se muestra.
 
    ![](assets/view-course-report-300x117.png)
@@ -1181,13 +1181,13 @@ Haga clic en la flecha desplegable en la esquina superior derecha de cada inform
 
 **[!UICONTROL Editar]** Para volver a los valores iniciales al modificar los datos, haga clic en Restablecer. Haga clic en Guardar después de modificar los valores.
 
-**[!UICONTROL Mover al panel]** Puede mover el informe actual a otro panel, que se elige de la lista de paneles.
+**[!UICONTROL Mover al tablero]** Puede mover el informe actual a otro tablero, que se elige entre la lista de tableros.
 
-**[!UICONTROL Crear una copia]** Puede copiar el informe en el mismo panel o en otro distinto, que se elija en la lista de paneles.
+**[!UICONTROL Crear una copia]** Puede copiar el informe al mismo tablero o a otro, que se selecciona de la lista de tableros.
 
-**[!UICONTROL Eliminar]** Haga clic en Eliminar para quitar el informe. Aparece un mensaje de advertencia/confirmación antes de que se elimine el informe.
+**[!UICONTROL Eliminar]** Haga clic en Eliminar para eliminar el informe. Aparece un mensaje de advertencia/confirmación antes de que se elimine el informe.
 
-**[!UICONTROL Cambiar tamaño]** Puedes cambiar el tamaño de tus informes en tamaños 1×1 (mediano) y 2×2 (grande).
+**[!UICONTROL Cambiar el tamaño]** Puede cambiar el tamaño de sus informes a los tamaños 1×1 (grande) y 2×2 (medio).
 
 ## Generar y ver informes para cuentas de igual a igual {#generateandviewreportsforpeeraccount}
 

@@ -2,13 +2,13 @@
 description: Las transcripciones de alumnos en Adobe Learning Manager (ALM) permiten a los administradores supervisar el progreso de los alumnos en cursos, módulos, rutas de aprendizaje y certificaciones. Apoya las evaluaciones de rendimiento, la supervisión del cumplimiento, las auditorías y la presentación de informes externos. El informe ofrece un resumen completo de la participación y el rendimiento de un alumno.
 jcr-language: en_us
 title: Transcripciones de alumnos en Adobe Learning Manager
-source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4883'
 ht-degree: 7%
 
 ---
-
 
 # Transcripciones de alumnos en Adobe Learning Manager
 
@@ -139,7 +139,7 @@ Las siguientes columnas capturan la actividad, el progreso o los intentos.
 | Puntuación_más_alta_de_prueba_máx | Las puntuaciones máximas de prueba más altas posibles para el módulo. Puede estar vacía si el alumno no ha intentado realizar la prueba o si el contenido no contiene ninguna prueba. La puntuación máxima posible asociada al intento de puntuación más alta de la prueba realizado por un alumno en varios intentos. No es la puntuación más alta que ha obtenido el alumno. En su lugar, captura la puntuación máxima posible en el intento en el que el alumno obtuvo la puntuación más alta. |
 | Intentos realizados | El número total de intentos realizados por el alumno para este módulo hasta la fecha actual. |
 | Máximo de intentos permitidos | El número máximo de intentos permitido para que el alumno consuma el módulo. |
-| Comentarios del envío | Comentarios del responsable de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
+| Comentarios del envío | Comentarios del administrador de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
 | Origen de finalización | Hace referencia al origen o método mediante el cual se registra la finalización de un curso, una ruta de aprendizaje o una certificación por parte de un alumno. Ayuda a los administradores a comprender cómo se ha conseguido la finalización o cómo se ha iniciado sesión en el sistema. La columna identifica si la finalización se notificó automáticamente o se facilitó mediante una función o configuración específica. Nota: Para los flujos de trabajo de asistencia del conector de clase virtual, cuando un alumno se marca como asistido automáticamente, el origen mostrará &quot;SELF, &lt;learner_email>&quot;. |
 | Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. |
 
@@ -151,7 +151,7 @@ Se refieren a cursos, módulos, rutas de aprendizaje, certificaciones, etc.
 |---|---|
 | Nombre del plan de aprendizaje | Título del plan de aprendizaje. |
 | Programa de aprendizaje/Certificación/Curso | Título del objeto de aprendizaje. |
-| Tipo | El tipo de objeto de aprendizaje en el que se inscribió el usuario. Por ejemplo,<ul><li>Ruta de aprendizaje</li><li>Certificación</li><li>Curso</li></ul> |
+| Tipo | El tipo de objeto de aprendizaje en el que se inscribió el usuario. Por ejemplo:<ul><li>Ruta de aprendizaje</li><li>Certificación</li><li>Curso</li></ul> |
 | Ruta incrustada | Una ruta incrustada es un tipo de ruta de aprendizaje que se incluye como parte de otro curso o ruta de aprendizaje. El campo indica que un alumno está completando esa ruta de aprendizaje como parte de otra ruta de aprendizaje, en lugar de como una asignación independiente. |
 | Curso | Nombre del curso en el que está inscrito el usuario. Si está vacía, la fila representa una certificación o una ruta de aprendizaje. <br><b>Nota:</b> Aunque las rutas de aprendizaje y los cursos están compuestos por cursos individuales o rutas de aprendizaje anidadas, cada componente conserva su propio registro independiente. Esto garantiza que el seguimiento de los datos de progreso, finalización y generación de informes se realice por separado para los elementos primarios y secundarios.</br> |
 | ID exclusivo de objetos | Se trata de un identificador opcional asignado por el administrador para un objeto de aprendizaje (curso, certificación o ruta de aprendizaje) en Adobe Learning Manager. Lo utilizan principalmente las organizaciones que mantienen sus propios ID del sistema externo para el contenido de aprendizaje y que desean asignar dichos ID a objetos de aprendizaje ALM con fines de integración o generación de informes. El ID exclusivo de objeto de aprendizaje solo está presente si la cuenta ha activado esta función y el autor ha asignado un ID durante la creación del objeto de aprendizaje. Nota: El ID de formación siempre está presente e identifica de forma exclusiva cada objeto de aprendizaje en ALM. El ID exclusivo de objeto de aprendizaje es para la asignación entre sistemas y no es necesario para las operaciones estándar de ALM. |
@@ -264,7 +264,7 @@ Realiza un seguimiento de los alumnos con fechas de vencimiento próximas para c
 
 | Columna | Descripción |
 |---|---|
-| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/skills-levels"> niveles de aptitud</a> para obtener más información. |
+| Después | Representa el número de alumnos que obtuvieron una aptitud antes de un período definido (en días), más allá del cual la aptitud se considera obsoleta o debe actualizarse. Resulta útil para identificar a los alumnos con logros de aptitudes próximos o caducados.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> niveles de aptitud</a> para obtener más información. |
 | Nombre | El nombre completo del alumno al que se asigna la aptitud. |
 | Nombre del responsable | El nombre del responsable de informes del alumno. |
 | Etiquetas de fila | El nombre de aptitud específico asignado a los alumnos que aparecen en esta fila. Se utiliza como encabezado de agrupación para resumir los datos de aptitudes de los alumnos en cada categoría de aptitud. |
@@ -332,9 +332,3 @@ Esto garantiza que los administradores personalizados del ámbito vean solo los 
 Se puede acceder al informe de transcripciones de alumnos a través de la interfaz de usuario del administrador, [FTP, Box, API de trabajos o Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). No se incluye en los informes unificados de Salesforce, Power BI y Marketo Engage.
 
 Los informes unificados descargados de Salesforce, Marketo Engage y Power BI contienen menos columnas que las transcripciones de alumnos.
-
-
-
-
-
-

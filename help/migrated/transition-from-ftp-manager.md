@@ -1,11 +1,11 @@
 ---
 title: Transición desde el Administrador de FTP Adobe
-description: Adobe Learning Manager admite un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
+description: Adobe Learning Manager es compatible con un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 67%
+source-wordcount: '1053'
+ht-degree: 69%
 
 ---
 
@@ -26,7 +26,7 @@ Algunos clientes FTP recomendados por AWS se [enumeran aquí](https://docs.aws.a
 
 Debe configurar el nuevo conector FTP basado en AWS en el administrador de integración.
 
-![imagen de conectores](assets/alm-ftp.png)
+imagen de ![conectores](assets/alm-ftp.png)
 *Seleccionar la opción FTP*
 
 Una vez que se conecte, podrá ver la página Detalles de la conexión.
@@ -53,7 +53,7 @@ Si ya tienes una clave SSH, pega la clave pública en el campo **[!UICONTROL Cla
 
 ### Crear autenticación básica mediante una contraseña
 
-Este es el mecanismo de autenticación básico. Seleccione la primera opción, **[!UICONTROL Crear autenticación básica usando una contraseña]**. Introduzca la contraseña y haga clic en **[!UICONTROL Conectar]**.
+Este es el mecanismo de autenticación básico. Seleccione la primera opción, **[!UICONTROL Crear autenticación básica usando una contraseña]**. Introduzca la contraseña y haga clic en **[!UICONTROL Connect]**.
 
 Esto crea una conexión.
 

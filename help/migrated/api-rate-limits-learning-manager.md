@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Límites de velocidad de API en Learning Manager
+description: Adobe Learning Manager expone una suite completa de API REST que ayuda a los clientes a crear aplicaciones que se integran con Learning Manager, o incluso experiencias de usuario y extensiones personalizadas, para los flujos de trabajo que ayudan a su empresa.
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ Puede probar fácilmente esto golpeando este punto final con velocidades por deb
 
 Para que te resulte más fácil, echa un vistazo a este ejemplo de código JavaScript que ilustra esto. Haga clic en [violín](https://jsfiddle.net/ACAPJS/9yv8zcmL/) y ver el código en acción.
 
-Esta aplicación requiere que proporcione un token de aplicación de la función de alumno para su cuenta. Consulte el [Manual del desarrollador de aplicaciones](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) para obtener información sobre los tokens de API y puede utilizar Token Helper en la sección de recursos para desarrolladores de la aplicación de administración de integración de Learning Manager para generar los tokens.
+Esta aplicación requiere que proporcione un token de aplicación de la función de alumno para su cuenta. Consulte el [Manual del desarrollador de aplicaciones]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) para obtener información sobre los tokens de API y puede utilizar Token Helper en la sección de recursos para desarrolladores de la aplicación de administración de integración de Learning Manager para generar los tokens.
 
 Esta aplicación está realizando 10 llamadas a la API ficticia en un bucle, de una sola vez. Dado que el límite de velocidad es (5, 2) para la API ficticia, el límite de velocidad se infringirá después de que las primeras llamadas 5+2 recibidas por Learning Manager se realicen correctamente y se obtenga una respuesta de éxito para ellas.
 

@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Problemas conocidos en Learning Manager
+description: A continuación se muestra una compilación de problemas conocidos de cada actualización de Learning Manager. La lista es acumulativa y contiene problemas conocidos de actualizaciones anteriores.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +20,7 @@ A continuación se muestra una compilación de problemas conocidos de cada actua
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Actualización</b></p></td> 
+   <td><p><b>Actualizar</b></p></td> 
    <td><p><b>Problemas conocidos</b></p></td> 
   </tr> 
   <tr> 
