@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
 workflow-type: tm+mt
 source-wordcount: '7660'
 ht-degree: 63%
 
 ---
 
-# Informes
+# Informes {#reports}
 
 Obtenga información sobre los informes asociados a la función de administrador en la aplicación Learning Manager.
 
@@ -1014,7 +1014,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
