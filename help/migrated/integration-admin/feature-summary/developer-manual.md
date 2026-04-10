@@ -4,10 +4,10 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
+source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 5%
+source-wordcount: '4583'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Integra Adobe Learning Manager con aplicaciones externas para una versatilidad m
    * **[!UICONTROL ¿Solo para esta cuenta?]**
 
       * **[!UICONTROL Sí]**: si elige Sí, la aplicación no estará visible para otros administradores de cuentas.
-      * **[!UICONTROL No]**: si elige No, otros administradores de cuentas también pueden tener acceso a esta aplicación, pero deben usar el id. de aplicación para tener acceso a ella. El ID de aplicación se genera y se muestra en el modo de edición de la aplicación de Learning Manager.
+      * **[!UICONTROL No]**: si elige No, otros administradores de cuentas también pueden tener acceso a esta aplicación, pero deben usar el id. de aplicación para tener acceso a ella. El ID de aplicación se genera y se muestra en el modo de edición de aplicaciones de Learning Manager.
 
      ![texto alt](assets/register-an-app.png)
 
@@ -256,7 +256,7 @@ Las API proporcionan a los desarrolladores acceso a recursos clave de Learning M
 | incluir | Obtén recursos relacionados en una sola llamada. |
 | campos | Seleccione atributos específicos para reducir la carga útil. |
 | filtrar | Resultados estrechos (por ejemplo, por ID, nombre) |
-| clasificar | Resultados del pedido. |
+| sort | Resultados del pedido. |
 | page[limit], page[offset] | Compatibilidad con paginación. |
 
 A continuación se ofrece una breve explicación de cada uno de ellos:
@@ -282,14 +282,14 @@ Añada el parámetro include a la URL de la API y especifique las entidades rela
 |---|---|
 | instancias | Devuelve todas las instancias del objeto de aprendizaje |
 | enrollment | Devuelve los detalles de inscripción del usuario |
-| instances.loResources.resources | Recupera módulos y recursos dentro de una instancia |
+| instance.loResources.resources | Recupera módulos y recursos dentro de una instancia |
 | suplementarioResources | Devuelve los recursos complementarios asociados |
 | skills.skillLevel.badge | Obtiene los niveles de aptitud y sus insignias asociadas |
 | prerrequisitoOA | Incluye objetos de aprendizaje previos |
 | subLO | Recupera objetos de aprendizaje secundarios (utilizados en programas de aprendizaje o certificaciones) |
 | subLOs.enrollment | Inscripción de objetos de subaprendizaje |
-| instances.badge | Insignia asignada para la finalización de una instancia de curso |
-| subLOs.subLOs.instances.loResources.resources | Recursos profundamente anidados dentro de una instancia de subobjeto de aprendizaje |
+| instance.badge | Insignia asignada para la finalización de una instancia de curso |
+| subLOs.subLOs.instance.loResources.resources | Recursos profundamente anidados dentro de una instancia de subobjeto de aprendizaje |
 
 **Ejemplo 1**
 
@@ -410,7 +410,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
     <p style="text-align: left;"><b>Curso</b></p></td>
   </tr>
   <tr>
-  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
+  <td><br>subLOs.prerrequisitoLOs.enrollment</br><br>subLOs.subLOs.prerrequisitoLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instance.loResources.resources.room</br><br>subLOs.instance.loResources.resources.room</br><br>subLOs.suplementarioResources</br><br>subLO s.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.AdditionalLOs.instance.resources.loResources.resources</br>
   </td>
   <td>
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerrequisitoLOs</br><br>authors</br><br>instance.loResources.resources</br><br>suplementarioLOs.instance.loResources.resources</br><br>suplementarioResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerrequisitoLOs.enrollment</br><br>enrollment.loResource Grados</br>
@@ -501,7 +501,7 @@ En este ejemplo se muestra cómo filtrar las ayudas de trabajo en las que se ha 
 GET https://learningmanager.adobe.com/primeapi/v2/users/3400480/enrollments?filter.loTypes=jobAid
 ```
 
-#### clasificar
+#### sort
 
 El parámetro de ordenación se utiliza para ordenar los resultados de la API en orden ascendente o descendente en función de uno o varios campos.
 
@@ -527,7 +527,7 @@ Las API de Adobe Learning Manager permiten a los desarrolladores acceder a los o
 | interfaz | El usuario es el modelo clave en Learning Manager. Los usuarios suelen ser los alumnos internos o externos de una organización que consumen objetos de aprendizaje. Sin embargo, pueden desempeñar otras funciones, como la de autor o responsable, junto con la función de alumno. El ID de usuario, el tipo y la dirección de correo electrónico son algunos de los atributos integrados. |
 | resource | Representa cada recurso de contenido dentro de un módulo. Todos los recursos encapsulados dentro de un &quot;loResource&quot; son equivalentes en términos del objetivo de aprendizaje, pero difieren entre sí en términos de tipo de entrega o configuración regional del contenido. |
 | userNotification | Este modelo contiene información de notificación relativa a un alumno. |
-| userSkill | Indica el porcentaje de una única aptitud que ha alcanzado un solo usuario. |
+| userSkill | Indica el porcentaje de una única aptitud que ha alcanzado un solo alumno. |
 | userBadge | UserBadge relaciona una única insignia con un único usuario. Contiene detalles como cuándo se logró, assertionUrl, etc. |
 | skill | El modelo de aptitudes consta de niveles y créditos. Los alumnos pueden adquirir aptitudes una vez completado el curso correspondiente. |
 | skillLevel | Un nivel de aptitud consta de uno o varios cursos que se van a consumir para adquirir un nivel, junto con sus créditos asociados. |
@@ -991,7 +991,7 @@ internalUserID, userEmail, customerDefinedUniqueUserId, name, managerEmail, user
 
 El extremo POST/usuarios le ayuda a crear un usuario mediante el modo sin encabezado. Cree usuarios con información detallada, como el proceso de registro en la interfaz de usuario nativa del administrador de aprendizaje de Adobe.
 
-Por ejemplo,
+Por ejemplo:
 
 ```
 POST https://learningmanager.adobe.com/primeapi/v2/users
@@ -1218,7 +1218,7 @@ Ejemplo de carga útil necesaria:
 
 2. Utilice el parámetro include para recuperar lo siguiente:
 
-   a. Enumere todos los módulos del objeto de aprendizaje.
+   a. Mostrar todos los módulos del objeto de aprendizaje.
 
    ```
    GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/course:1171899?include=instances.loResources
@@ -1324,7 +1324,7 @@ Al trabajar con las API de Adobe Learning Manager (Adobe Learning Manager), los 
 |---|---|---|
 | 400 | Solicitud incorrecta | Compruebe si faltan parámetros o no están bien formados en la solicitud. Compruebe los campos obligatorios y el formato correcto. Por ejemplo, sintaxis no válida para filtros, campos o parámetros include. |
 | 401 | No autorizado Falta token o no es válido | Asegúrese de que el token de acceso sea correcto e esté incluido en el encabezado de autorización. Compruebe que el token esté activo. Utilice también el ID de cliente y el secreto de cliente correctos al solicitar el token. |
-| 403 | Prohibido. Sin acceso | No tiene permiso para tener acceso al recurso. Compruebe que el token tenga los ámbitos correctos (admin:read, learner:write, etc.). |
+| 403 | Prohibido. Sin acceso | No tiene permiso para tener acceso al recurso. Compruebe que el token tenga los ámbitos correctos (administrador:read, alumno:write, etc.). |
 | 404 | Recurso no encontrado | El extremo o el identificador de recurso son incorrectos o no existen. Asegúrese de que el recurso existe en la lista de parámetros. |
 | 406 | No aceptable: encabezado Aceptar incorrecto | Agregue este encabezado a su solicitud: Acepte: application/vnd.api+json <br>Las API de Adobe Learning Manager requieren estrictamente este tipo de contenido.</br> |
 | 500 | Error interno del servidor | Se trata de un problema del lado del servidor. Inténtelo de nuevo más tarde o informe al equipo de asistencia de Adobe Learning Manager si el problema persiste. |
@@ -1332,7 +1332,8 @@ Al trabajar con las API de Adobe Learning Manager (Adobe Learning Manager), los 
 
 
 
-<!--# Application developer manual
+<!--
+# Application developer manual
 
 >[!NOTE]
 >

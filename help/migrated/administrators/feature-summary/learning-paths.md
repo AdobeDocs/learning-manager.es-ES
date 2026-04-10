@@ -4,10 +4,10 @@ title: Rutas de aprendizaje
 description: Creación de planes de aprendizaje para administradores de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 32%
+source-wordcount: '1461'
+ht-degree: 61%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 32%
 
 A menudo, los administradores están interesados en crear un plan de estudios detallado que ofrezca un conocimiento profundo de un tema en particular o un área de experiencia. También puede ser una secuencia de cursos de formación que se espera que completen los empleados o clientes. Esto requiere agrupar un conjunto de cursos y programas para crear un paquete completo de formación.
 
-Aquí es donde la ruta de aprendizaje entra en escena. Una ruta de aprendizaje es un recorrido que un alumno debe recorrer para dominar algún tema a lo largo del tiempo. Los alumnos controlan su experiencia de formación y pueden adquirir y conservar conocimientos a su ritmo personalizado con mayor eficacia.
+Aquí es donde la ruta de aprendizaje entra en escena. Una ruta de aprendizaje es un viaje que un alumno debe realizar para dominar una materia a lo largo del tiempo. Los alumnos controlan su experiencia de formación y pueden adquirir y conservar conocimientos a su ritmo personalizado con mayor eficacia.
 
-Por ejemplo, cuando se incorporan nuevos empleados, una organización imparte formación en políticas y procedimientos, cultura, historia, etc. Una ruta de aprendizaje configura los cursos según las necesidades de los empleados, de modo que éstos puedan inscribirse en los cursos según la ruta de aprendizaje establecida para ellos. puede elegir e inscribir usuarios en esta ruta para que puedan avanzar de un curso a otro.
+Por ejemplo, cuando se incorporan nuevos empleados, una organización imparte formación en políticas y procedimientos, cultura, historia, etc. Una ruta de aprendizaje configura los cursos según las necesidades de los empleados, de modo que éstos puedan inscribirse en los cursos según la ruta de aprendizaje establecida para ellos. Si lo desea, puede inscribir usuarios en esta ruta para que puedan avanzar de un curso a otro.
 
 ## Crear y configurar rutas de aprendizaje
 
@@ -33,17 +33,17 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 Las rutas de aprendizaje hacen que la entrega de un programa de formación sea práctica y sencilla. Estas son algunas de las ventajas clave de una ruta de aprendizaje:
 
-1. Asigne una aptitud y un nivel de aptitud a una ruta de aprendizaje directamente. No es necesario que coincidan los créditos de habilidades. Una vez que el alumno completa una ruta de aprendizaje, alcanza el nivel de aptitud mencionado.
-1. Posibilidad de incrustar una ruta de aprendizaje existente en una nueva ruta de aprendizaje. La capacidad de incrustación solo está disponible para 1 nivel de incrustación. Por lo tanto, una ruta de aprendizaje que ya contenga una ruta incrustada no se puede incrustar en una nueva ruta.
+1. Asigne una aptitud y un nivel de aptitud a una ruta de aprendizaje directamente. No es necesario hacer coincidir los créditos de aptitudes. Una vez que el alumno completa una ruta de aprendizaje, obtiene el nivel de aptitud mencionado.
+1. Posibilidad de incrustar una ruta de aprendizaje existente en una nueva ruta de aprendizaje. La capacidad de incrustación solo está disponible para un nivel de incrustación. Por lo tanto, una ruta de aprendizaje que ya contenga una ruta incrustada no se puede incrustar en una nueva ruta.
 1. Posibilidad de añadir requisitos previos, ayudas de trabajo y recursos en el nivel de ruta de aprendizaje.
 1. Posibilidad de crear secciones. Cada sección puede tener un título.
 1. Posibilidad de hacer que las secciones sean obligatorias y configurar los criterios de finalización.
 
-## Adición de una ruta de aprendizaje en Learning Manager
+## Añadir una ruta de aprendizaje en Learning Manager
 
 En Learning Manager, en la aplicación de administración, haga clic en **[!UICONTROL Ruta de aprendizaje]** en el panel izquierdo.
 
-En la página **[!UICONTROL Ruta de aprendizaje]**, haga clic en **[!UICONTROL Agregar]**. Introduzca los detalles.
+En la página **[!UICONTROL Ruta de aprendizaje]**, haga clic en **[!UICONTROL Añadir]**. Introduzca los detalles.
 
 ![](assets/add-learning-path.png)
 
@@ -57,7 +57,7 @@ En la opción **Tipo de inscripción**, seleccione **Inscripción automática** 
 
 Después de crear la ruta de aprendizaje, seleccione la ruta de aprendizaje recién creada y añada los cursos en la ruta.
 
-Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para añadir una aptitud, selecciona la aptitud o aptitudes requeridas en la lista desplegable **[!UICONTROL Elegir una aptitud]**. Seleccione también el nivel de la aptitud o las aptitudes.
+Puede añadir aptitudes y asignar una insignia a la ruta de aprendizaje. Para añadir una aptitud, seleccione la aptitud o las aptitudes requeridas en la lista desplegable **[!UICONTROL Elegir una aptitud]**. Seleccione también el nivel de la aptitud o las aptitudes.
 
 ![](assets/add-skills.png)
 
@@ -71,7 +71,7 @@ Seleccione los productos, roles y nivel de roles de la sección **[!UICONTROL Re
 
 *Recomendación*
 
-Elija el tipo de secuencia para las secciones y el curso de formación como Ordenado o Sin ordenar según sus preferencias.
+Elija el tipo de secuencia de las secciones y la formación como Ordenado o Sin ordenar según su preferencia.
 
 Si elige Ordenado, los cursos aparecen en la misma secuencia en que se crearon. Si elige Sin ordenar, los cursos no aparecen en orden. Los alumnos pueden completar los cursos en cualquier orden.
 
@@ -89,21 +89,21 @@ Después de seleccionar los cursos o la ruta de aprendizaje, haga clic en **[!UI
 
 En la ruta de aprendizaje, puede realizar lo siguiente:
 
-**Crear y configurar una sección:** Se crea una sección para agrupar varios cursos de formación que completen un área o componente sustancial de la formación. Cada sección puede tener un título. Cada sección también puede marcarse como Obligatoria con requisitos de finalización específicos.
+**Crear y configurar una sección: se crea** una sección para agrupar varios cursos de formación que completan un área o un componente sustancial de la formación. Cada sección puede tener un título. Cada sección también se puede marcar como Obligatoria con requisitos específicos de finalización.
 
-**Convertir los cursos en obligatorios en cada sección:** Active o desactive la casilla de verificación Obligatorio si desea o no que los cursos de formación sean obligatorios en la ruta de aprendizaje. Si activa la casilla de verificación, puede hacer que todos los cursos de formación sean obligatorios o que algunos de ellos lo sean.
+**Convertir los cursos en obligatorios en cada sección:** active o desactive la casilla de verificación Obligatorio si desea o no hacer obligatorios los cursos de formación dentro de la ruta de aprendizaje. Si activa la casilla de verificación, puede hacer que todos los cursos de formación sean obligatorios o algunos de ellos.
 
 ![](assets/choose-mandatory.png)
 
 *Convertir los cursos en obligatorios en cada sección*
 
-**Reorganizar el pedido:** Puede mover los cursos hacia arriba o hacia abajo y cambiar su orden.
+**Reorganizar el orden:** puede mover los cursos hacia arriba o hacia abajo y cambiar su orden.
 
 ![](assets/rearrange.png)
 
 *Reorganizar el orden del entrenamiento*
 
-**Quitar un curso:** En la tarjeta del curso, haga clic en X y quite el curso de la ruta de aprendizaje.
+**Quitar un curso:** en la tarjeta del curso, haga clic en X y elimine el curso de la ruta de aprendizaje.
 
 ![](assets/remove-course.png)
 
@@ -133,7 +133,7 @@ Las instancias de Ruta de aprendizaje muestran un mosaico adicional, **[!UICONTR
 
 En el icono **Cursos**, puede ver las instancias de curso que están visibles para los alumnos que se inscriben en esta instancia.
 
-La casilla de verificación **[!UICONTROL Permitir a los alumnos elegir instancias (ruta de aprendizaje flexible)]** solo se aplica a cursos. Esta opción permite a los alumnos cambiar sus instancias en la ruta de aprendizaje. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a una ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
+La casilla de verificación **[!UICONTROL Permitir que los alumnos elijan instancias (Ruta de aprendizaje flexible)]** solo se aplica a los cursos. Esta opción permite a los alumnos cambiar sus instancias en la ruta de aprendizaje. Todas las rutas de aprendizaje secundarias tendrán la opción de asignar una instancia de programa de aprendizaje a la ruta de aprendizaje. De forma predeterminada, la asignación se establece en Instancia predeterminada.
 
 ![](assets/default-instance.png)
 
@@ -169,15 +169,16 @@ Siga estos pasos:
 
 ## Nota importante
 
-Tenga en cuenta que la función existente de los programas de aprendizaje cambiará de nombre a Ruta de aprendizaje justo después de la publicación. Si desea continuar llamándolo Programas de aprendizaje, le recomendamos que utilice la función &quot;Terminologías&quot; para aplicar la terminología necesaria. De este modo, puede permitirse utilizar la palabra Programa de aprendizaje.
+Tenga en cuenta que la función existente de los programas de aprendizaje cambiará a Ruta de aprendizaje inmediatamente después de la versión. Si desea continuar llamándolo Programas de aprendizaje, le recomendamos que utilice la función &quot;Terminologías&quot; para aplicar la terminología necesaria. De este modo, puede permitirse utilizar la palabra Programa de aprendizaje.
 
-Las rutas de aprendizaje le ofrecen una amplia gama de funciones. Algunas de ellas están disponibles inmediatamente después de la versión. Los administradores o autores pueden empezar a utilizarlas. Capacidades ampliadas como &quot;Secciones&quot;, &quot;Añadir ruta de aprendizaje en otra ruta&quot;, etc. están desactivadas y se pueden activar marcando la casilla de verificación que se indica a continuación.
+Las rutas de aprendizaje le ofrecen una amplia gama de funciones. Algunas de ellas están disponibles inmediatamente después de la versión. Los administradores o autores pueden empezar a utilizarlas. Las funciones ampliadas, como &quot;Secciones&quot;, &quot;Añadir ruta de aprendizaje en otra ruta&quot;, etc. están desactivadas y se pueden activar marcando la casilla de verificación que se indica a continuación.
 
-Los alumnos pueden seguir consumiendo programas de aprendizaje (ahora denominados rutas de aprendizaje) y los autores/administradores también pueden seguir creándolos. Para aprovechar las funcionalidades ampliadas de la ruta de aprendizaje mencionadas anteriormente, el administrador debe habilitar la configuración como se indica a continuación. Una vez habilitadas, estarán disponibles todas las nuevas funciones ampliadas de la ruta de aprendizaje.
+Los alumnos pueden seguir consumiendo programas de aprendizaje (ahora denominados rutas de aprendizaje) y los autores o administradores también pueden seguir creándolos. Para aprovechar las funciones ampliadas de la ruta de aprendizaje mencionada anteriormente, el administrador debe habilitar la configuración como se indica a continuación. Una vez habilitadas, todas las nuevas capacidades ampliadas de la ruta de aprendizaje estarán disponibles.
 
 La página **[!UICONTROL Configuración]** > **[!UICONTROL General]** tiene una nueva opción para habilitar las rutas de aprendizaje. Si esta opción está activada, puede añadir cursos y programas de aprendizaje en una ruta de aprendizaje. Una vez activada, no se puede cambiar la opción.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ La página **[!UICONTROL Configuración]** > **[!UICONTROL General]** tiene una 
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

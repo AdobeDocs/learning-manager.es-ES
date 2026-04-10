@@ -4,10 +4,10 @@ title: Personalizar la página de inicio del alumno
 description: Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
@@ -37,7 +37,7 @@ Los administradores pueden configurar la interfaz de usuario (aspecto y funciona
 
 Los administradores pueden cambiar a la vista de widget de interfaz de usuario envolvente, personalizar los widgets y las funciones como corresponda y, a continuación, activar la interfaz de usuario envolvente.
 
-La pantalla **Página de inicio del alumno** contiene estas secciones:
+La pantalla de inicio del **alumno** contiene las siguientes secciones:
 
 ## Opción de diseño envolvente {#immersivelayoutoption}
 
@@ -80,13 +80,13 @@ Si hay menos de 1000 alumnos, toda la cuenta se considera un único ámbito. Es
 >
 >La casilla de verificación **Explorar aptitudes** se ha movido a Configuración > General.
 
-Esta opción se activará y aparecerá atenuada si se elige la experiencia envolvente. Esta casilla de verificación solo se activará para la experiencia clásica.
+Esta se desactivará y aparecerá atenuada si se ha seleccionado la experiencia envolvente. Esta casilla de verificación solo se activará para la experiencia clásica.
 
 ![](assets/option-immersive.png)
 
 *Configuración de la página de inicio del alumno*
 
-El diseño envolvente es el predeterminado para todas las cuentas nuevas. El diseño está controlado por widgets que un administrador puede activar o desactivar. En función de cómo se coloquen los widgets, se mostrará lo mismo en la página de inicio del alumno.
+El diseño envolvente es el predeterminado para todas las cuentas nuevas. El diseño está controlado por widgets que un administrador puede activar o desactivar. Según la colocación de los widgets, se mostrará lo mismo en la página de inicio del alumno.
 
 Estos son los widgets que puede activar o desactivar.
 
@@ -111,7 +111,7 @@ Para las cuentas existentes, la opción **Envolvente** estará **DESACTIVADA**. 
     <p>Cabecera</p></td>
    <td>
     <p><b>¿Qué es una cabecera y cómo se personaliza la cabecera del alumno? </b><br></p>
-    <p>Es un banner de bienvenida para los alumnos. El banner puede ser una imagen o un vídeo. Puede dirigir la cabecera a grupos de usuarios específicos; un alumno verá la cabecera en cuanto acceda a la página de inicio. Un grupo de usuarios puede ver varios heros images o vídeos según el plan de destino establecido por el administrador. </p>
+    <p>Es un banner de bienvenida para los alumnos. Este puede ser una imagen o un vídeo. Puede dirigir la cabecera a grupos de usuarios específicos; el alumno verá la cabecera en cuanto acceda a la página de inicio. Un grupo de usuarios puede ver varias imágenes o vídeos principales de acuerdo con el plan de destino establecido por el administrador. </p>
     <p>Así es como un administrador carga un banner:</p>
     <ol>
      <li>En el panel izquierdo, haga clic en <b>Anuncios</b>.<br></li>
@@ -127,7 +127,7 @@ Para las cuentas existentes, la opción **Envolvente** estará **DESACTIVADA**. 
    <td>
     <p>Mi aprendizaje</p></td>
    <td>
-    <p>Muestra los objetos de aprendizaje visitados recientemente por el alumno. </p></td>
+    <p>Muestra los objetos de aprendizaje que el alumno ha visitado recientemente. </p></td>
   </tr>
   <tr>
    <td>
@@ -151,38 +151,42 @@ Para las cuentas existentes, la opción **Envolvente** estará **DESACTIVADA**. 
    <td>
     <p>Aprendizaje social</p></td>
    <td>
-    <p>Muestra las actividades y publicaciones de los usuarios que están en el mismo ámbito de usuario que el alumno. </p></td>
+    <p>Muestra las actividades y las publicaciones de los usuarios que están en el mismo ámbito de usuario que el alumno. </p></td>
   </tr>
   <tr>
    <td>
     <p>Recomendado por la organización</p></td>
    <td>
-    <p>Si se ha activado, este widget recomienda cursos de formación para grupos de usuarios específicos.  Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un intervalo de tiempo. <br></p>
+    <p>Si se ha activado, este widget recomienda cursos de formación para grupos de usuarios específicos. Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un intervalo de tiempo. <br></p>
     <ul>
      <li>
-      <p>En primer lugar, el administrador <a href="announcements.md#recommendation">crea un anuncio</a> de tipo <b>Como recomendación</b> y, a continuación, selecciona el curso de formación necesario y utiliza grupos. Un alumno que pertenezca a un grupo de usuarios verá el curso de formación recomendado.</p></li>
+      <p>En primer lugar, el administrador <a href="announcements.md#recommendation">crea un anuncio</a> de tipo <b>Como recomendación</b> y, a continuación, selecciona la formación necesaria y utiliza grupos. Un alumno que pertenezca a un grupo de usuarios verá el curso de formación recomendado.</p></li>
      <li>
       <p>En segundo lugar, el administrador también puede decidir si las recomendaciones se inician inmediatamente o en una fecha especificada.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>Examinar por catálogo<br></p></td>
    <td>
     <p>Muestra los catálogos como mosaicos en la página de inicio. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
@@ -207,7 +211,7 @@ Cuando el alumno inicia sesión en la aplicación a través de un navegador, pue
 
 ## Opción de diseño clásico {#classiclayoutoption}
 
-El diseño de interfaz de usuario que siempre ha existido hasta ahora se denomina Diseño clásico.  Al seleccionar esta opción, la vista de la página de inicio del alumno vuelve al diseño clásico.
+El diseño de interfaz de usuario que siempre ha existido hasta ahora se denomina Diseño clásico. Al seleccionar esta opción, la vista de la página de inicio del alumno vuelve al diseño clásico.
 
 ![](assets/classic-layout.png)
 
@@ -267,19 +271,19 @@ En la página **General**, tiene las siguientes opciones:
    <td>
     <p>Configuración del ámbito de recomendación<br></p></td>
    <td>
-    <p>Elija uno o varios campos activos. Para <b>Personalizado</b>, puede elegir como máximo un campo activo. Para <b>Adaptado al sector</b>, puede elegir un máximo de cinco campos activos.<br></p></td>
+    <p>Elija uno o varios campos activos. Para <b>Personalizado</b>, puede elegir como máximo un campo activo. En <b>Adaptado al sector</b>, puede elegir un máximo de cinco campos activos.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Permitir al alumno explorar áreas de interés</p></td>
    <td>
-    <p>Solo para la experiencia clásica. Elija <b>Sí </b> o <b>No</b>.<br></p></td>
+    <p>Solo para la experiencia clásica. Seleccione <b>Sí </b>o <b>No</b>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Solicitar a los usuarios que seleccionen áreas de interés (aptitudes) <br></p></td>
+    <p>Solicitar a los usuarios que seleccionen Áreas de interés (Aptitudes) <br></p></td>
    <td>
-    <p>Solo para la experiencia envolvente. Elija <b>Sí</b> o <b>No</b>. <br></p></td>
+    <p>Solo para la experiencia envolvente. Seleccione <b>Sí</b> o <b>No</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Iniciar sesión
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 24%
+source-wordcount: '226'
+ht-degree: 30%
 
 ---
 
@@ -40,6 +40,7 @@ Siga estos pasos para crear su cuenta con la URL del correo electrónico de bien
 
    <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+   
    -->
 
 1. Escriba su información en los campos Activo para completar su perfil.
@@ -47,7 +48,7 @@ Siga estos pasos para crear su cuenta con la URL del correo electrónico de bien
    ![](assets/complete-the-profile.png)
    _Escriba su información en Campos activos para completar la configuración del perfil_
 
-1. Como alternativa, puede utilizar Enterprise ID haciendo clic en Iniciar sesión con un vínculo de Enterprise ID.
+1. Otra opción es utilizar la identificación empresarial. Para esto, haga clic en el vínculo Iniciar sesión con el Id. empresarial.
 
 >[!NOTE]
 >

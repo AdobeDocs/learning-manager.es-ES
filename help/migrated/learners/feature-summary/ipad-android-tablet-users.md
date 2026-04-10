@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aplicación de alumno para móviles y tabletas
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 65%
+source-wordcount: '2714'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ Lea este artículo para aprender a descargar la aplicación de alumno de Learnin
 
 La aplicación de alumno de Learning Manager está disponible para usuarios de teléfonos Android y iPhone. Vaya a Google Play Store (sistema operativo Android) o iTunes (macOS) y descargue la aplicación Learning Manager.
 
-Después de descargar e instalar esta aplicación, inicie sesión en ella con sus credenciales de alumno. Al abrir la aplicación móvil de Learning Manager, se muestra la siguiente pantalla de forma predeterminada.
+Después de descargar e instalar esta aplicación, inicie sesión en ella con sus credenciales de alumno. Al abrir la aplicación Learning Manager para dispositivos móviles, se muestra de forma predeterminada la pantalla siguiente.
 
 ![](assets/1.png)
 
@@ -27,7 +27,7 @@ Después de descargar e instalar esta aplicación, inicie sesión en ella con su
 
 ## Página de inicio {#homepage}
 
-Para todas las cuentas que tienen activada la opción Diseño envolvente, hay una nueva página de inicio que admite la configuración de Diseño envolvente. La página principal se organiza como una lista de tarjetas para lo siguiente:
+Para todas las cuentas que tengan activada la opción Diseño envolvente, hay una nueva página de inicio que admite esta configuración. La página principal se organiza como una lista de tarjetas para lo siguiente:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -46,15 +46,16 @@ Learning Manager solicita al alumno que proporcione comentarios sobre su experie
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
-Para los usuarios existentes, debería aparecer la ventana emergente de comentarios una vez que cierren el Reproductor por primera vez después de actualizar la aplicación a la versión más reciente.
+Para los usuarios existentes, se mostrará la ventana emergente de comentarios una vez que cierren el reproductor por primera vez después de actualizar la aplicación a la versión más reciente.
 
 Tenga en cuenta que la recopilación de comentarios es anónima y solo aparece para los usuarios que hayan habilitado la opción **Compartir datos de uso** mediante una configuración en los ajustes de la aplicación.
 
 ## Descargar insignia {#downloadbadge}
 
-Los alumnos pueden descargar sus insignias en formato de PDF e imagen. En la sección Perfil de usuario, desplácese hacia abajo y haga clic en cualquier vínculo para descargar una insignia. El distintivo descargado se guarda en la carpeta predeterminada del dispositivo. La aplicación le permite abrir la carpeta o el archivo justo después de que finalice la descarga.
+Los alumnos pueden descargar sus insignias en formato PDF e imagen. En la sección Perfil de usuario, desplácese hacia abajo y haga clic en cualquier vínculo para descargar una insignia. El distintivo descargado se guarda en la carpeta predeterminada del dispositivo. La aplicación le permite abrir la carpeta o el archivo justo después de que finalice la descarga.
 
 | ![](assets/image016.png) |
 |---|
@@ -88,6 +89,7 @@ La compatibilidad con la interfaz de usuario interactiva para la Web móvil solo
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Mensaje de descarga en la web de ALM
@@ -121,9 +123,9 @@ Hay algunas funciones que no se admiten en la aplicación envolvente para dispos
 
 | **Área** | **No admitido** |
 |---|---|
-| Tablero | Creación de tableros, Edición de tableros, Copiar URL , Eliminar , Informe, Ordenar , Filtrar |
-| Publicar | Tipo de encuesta Creación posterior, Editar , Varios archivos adjuntos a la publicación, Copiar URL, Fijar al principio |
-| Comentario/ respuesta | Editar, Marcar como respuesta correcta, Cargar imagen/vídeo/audio en comentario o respuesta |
+| Tablero | Creación de tableros, Edición de tableros, Copiar URL, Eliminar, Informe, Ordenar y Filtro |
+| Publicar | Creación de publicación de tipo de encuesta, Editar, Añadir varios archivos adjuntos a la publicación, Copiar URL y Fijar para ir al principio |
+| Comentar/responder | Editar, Marcar como respuesta correcta y Carga de imagen/vídeo/audio en un comentario o una respuesta |
 | Medios | Capturar audio (solo carga del archivo de audio) |
 | Otros | Notificaciones, Vista de publicación, Tabla de posiciones de Social, Personas a las que sigo y Perfil de usuario |
 
@@ -181,11 +183,11 @@ En la parte superior de la pantalla del teléfono, aparece un icono de búsqueda
 
 **Administrar perfiles, configuraciones y notificaciones**
 
-Toca el menú ![](assets/hamburger.jpg) en la esquina superior izquierda de la pantalla para ver tu perfil, notificaciones y configuración de la cuenta.
+Toque el menú ![](assets/hamburger.jpg) en la esquina superior izquierda de la pantalla para ver su perfil, las notificaciones y la configuración de la cuenta.
 
 Este menú también permite escanear el código QR para marcar la asistencia a los cursos.
 
-Solo tiene que tocar la opción **Escanear código QR** y escanear el código.
+Lo único que tiene que hacer es tocar la opción **Escanear código QR** y escanear el código.
 
 **Consumo sin conexión de cursos**
 
@@ -420,7 +422,7 @@ Learning Manager ya admite cursos de LinkedIn Learning en la plataforma de apren
 
 Si ya tiene instalada la aplicación LinkedIn, el curso se abrirá en la aplicación o, de lo contrario, se abrirá en el navegador predeterminado, donde deberá iniciar sesión con sus credenciales de LinkedIn.
 
-Si realiza el curso a través de la aplicación LinkedIn, no se realizará un seguimiento de su progreso en Learning Manager. Por lo tanto, se recomienda iniciar el curso en el navegador en lugar de en la aplicación LinkedIn Learning.
+Si realiza el curso a través de la aplicación LinkedIn, no se llevará a cabo un seguimiento de su progreso en Learning Manager. Por lo tanto, se recomienda iniciar el curso en el navegador en lugar de en la aplicación LinkedIn Learning.
 
 >[!NOTE]
 >
@@ -441,7 +443,7 @@ Como alumno, puede enviar archivos a su instructor como prueba de finalización 
 
 Un autor solo puede crear módulos de clase y actividad para que los consuma un alumno en la aplicación móvil.
 
-Después de que el alumno inicie un curso, el alumno puede ver en la pantalla el estado **Envío de archivos** como pendiente, junto con el vínculo para cargar el archivo, como se muestra en la captura de pantalla siguiente.
+Una vez que el alumno comienza un curso, en **Envío de archivos**, el estado es Pendiente y se incluye un vínculo para cargar el archivo, como se muestra en la captura de pantalla siguiente.
 
 ![](assets/pending-approval.png)
 
@@ -500,7 +502,7 @@ Cuando el instructor aprueba el envío, el estado en la aplicación móvil del a
 
 <!--![](assets/approved.jpg)-->
 
-Cuando el instructor rechaza el envío, el estado de la aplicación móvil del alumno cambia a **Rechazado**.
+Cuando el instructor rechaza el envío, el estado de la aplicación móvil cambia a **Rechazado**.
 
 <!--![](assets/rejected.jpg)-->
 
@@ -512,7 +514,7 @@ En la aplicación de Learning Manager en tabletas iPad o Android, después de in
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desplegable **Menú** y elija la opción adecuada.
+Para desplazarse a las funciones de aprendizaje y catálogo, pulse la lista desplegable **Menú** y elija la opción adecuada.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -534,13 +536,14 @@ Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y
    * La barra roja indica que la red no está disponible para el dispositivo.
    * La barra verde indica que la red está de nuevo en línea.
 
-El usuario puede volver al modo en línea haciendo clic en el botón **ver contenido en línea** en la barra verde. El contenido del dispositivo se sincroniza cuando el usuario cambia al modo en línea.
+El usuario puede volver al modo en línea haciendo clic en el botón **ver contenido en línea** en la barra verde. El contenido del dispositivo se sincroniza cuando el usuario vuelve al modo en línea.
 
 ## Compatibilidad con el carrito de varios elementos en dispositivos móviles envolventes
 
 Los alumnos ahora pueden añadir varios cursos, rutas de aprendizaje o certificaciones al carro y comprarlos juntos. Ver [carro de varios elementos en ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -552,4 +555,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

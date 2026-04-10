@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '7540'
-ht-degree: 69%
+source-wordcount: '7631'
+ht-degree: 75%
 
 ---
 
@@ -45,7 +45,7 @@ Para crear un curso, siga los pasos a continuación:
    * **Aprobados por responsable**: los responsables aprueban estos cursos. Los alumnos pueden inscribirse en estos cursos, pero no se inscriben directamente en ellos sin la aprobación del responsable. Se envía una solicitud de notificación a los responsables cuando los alumnos se inscriben en estos tipos de cursos. Tras la aprobación del responsable, estos cursos figuran como inscritos para los alumnos.
    * **Inscripción automática**: los alumnos pueden inscribirse directamente en este tipo de cursos.
 
-1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haz clic en **[!UICONTROL Publish]**.
+1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
 
 ## Crear un curso: flujo de trabajo avanzado {#createacourseadvancedworkflow}
 
@@ -95,16 +95,16 @@ Para crear un curso, siga los pasos a continuación:
 
 1. **Inscripciones múltiples**
 
-   De este modo, puede inscribir alumnos en más de una instancia del curso en uno o varios períodos.
+   De este modo, puede inscribir alumnos en más de una instancia del curso en uno o varios periodos.
 
    Habilite el conmutador **Inscripción múltiple** para cambiar entre varias inscripciones de curso de un alumno. Si ha habilitado el Cambio de instancia, no es posible utilizar la opción de varias inscripciones.
 
 1. Elija los requisitos previos de cursos que se deben completar antes de comenzar su curso. Haga clic en el campo Cursos y elija en la lista de cursos.
-1. Habilite la casilla de verificación **Habilitar** **Requisitos previos** si los requisitos previos del curso deben ser obligatorios.
+1. Active la casilla de verificación **Aplicar** **requisitos previos** si los requisitos previos del curso deben ser obligatorios.
 1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
 1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
 1. En el campo Retirar automáticamente , seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
-1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haz clic en **[!UICONTROL Publish]**.
+1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
 
 ### Añadir etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación {#add-custom-compliance-label}
 
@@ -179,7 +179,7 @@ En la sección **[!UICONTROL Resources]**, la casilla de verificación Mostrar r
 
 ## Asistente de programación
 
-Gestiona conflictos en la reserva de los instructores y las clases. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, utilice el Ayudante de programación.
+Gestiona conflictos en la reserva de los instructores y las clases. Si desea saber a qué hora y fecha está disponible un instructor antes de asignarlo al curso, utilice el Asistente de programación.
 
 Al crear un curso, para un curso de clase virtual o real, haga clic en Asistente de programación.
 
@@ -216,7 +216,7 @@ Se pueden seleccionar varios instructores, pero solo se pueden asignar de uno en
 
 Busque un instructor con una o varias aptitudes. La búsqueda utiliza el operador AND.
 
-Las aptitudes se pueden buscar solo por nombre de aptitud parcial o completo, no por nivel de aptitud.
+Las aptitudes se pueden buscar solo por el nombre de la aptitud parcial o completa, no por el nivel de aptitud.
 
 En el Asistente, introduzca el nombre del instructor, la ubicación y el límite de plazas.
 
@@ -256,7 +256,7 @@ Puede buscar una ubicación especificando el nombre de la clase y el nombre de l
 
 Al crear un curso, un programa de aprendizaje, una certificación o una ayuda de trabajo, los autores pueden introducir diferentes tipos de contenido, como texto o imágenes, o aplicar diversas opciones de formato de texto.
 
-Al crear un curso, puede ver el Editor de texto enriquecido en el campo Resumen del curso . Puede dar formato al contenido, agregar imágenes, agregar hipervínculos, etc.
+Al crear un curso, puede ver el Editor de texto enriquecido en el campo Resumen del curso. Puede aplicar formato al contenido, añadir imágenes, agregar hipervínculos, etc.
 
 ![](assets/rich-text-editor-author.png)
 
@@ -292,7 +292,7 @@ El texto enriquecido se compone de formato HTML. Si se procesa el marcado tal y 
 
 ### Estilo predeterminado
 
-La hoja de estilos CSS adjunta contiene el estilo aplicado por Learning Manager. El estilo se ha modificado teniendo en cuenta la mayoría de los casos de uso. Descargue el archivo CSS adjunto e impórtelo a la aplicación web según sus convenciones y sistema de compilación. Las clases CSS definidas tienen un espacio entre nombres en la clase de editor de SQL y no interfieren con los estilos existentes.
+La hoja de estilos CSS adjunta contiene el estilo aplicado por Learning Manager. El estilo se ha modificado teniendo en cuenta la mayoría de los casos de uso. Descargue el archivo CSS adjunto e impórtelo a la aplicación web según sus convenciones y sistema de compilación. Las clases CSS definidas tienen un espacio entre los nombres en la clase de editor de SQL y no interfieren con los estilos existentes.
 
 ### Personalización de estilos
 
@@ -377,7 +377,7 @@ Si el administrador ha activado varios intentos, un autor puede configurar vario
    <td>
     <p>Bloquear módulo entre intentos Formato 0:0:1: Días/Horas/Minutos</p></td>
    <td>
-    <p>Puede bloquear módulos durante un intervalo de tiempo específico activando la casilla de verificación "<b>Bloquear módulo entre intentos: 0:0:1 Formato: Days/Hours/Minutes</b>". Cuando un módulo está bloqueado, el alumno no puede visitarlo hasta que haya transcurrido el tiempo de bloqueo proporcionado. </p>
+    <p>Puede bloquear módulos durante un intervalo de tiempo específico activando la casilla de verificación "<b>Bloquear módulo entre intentos: 0:0:1 Formato: Days/Hours/Minutes</b>". Si un módulo está bloqueado, el alumno no puede visitar dicho módulo hasta que haya transcurrido el intervalo de tiempo de bloqueo indicado. </p>
     <p>Puede definir los criterios de finalización de un intento seleccionando las casillas de verificación '<b>Cierre del reproductor</b>' o '<b>Finalización</b>'.</p></td>
   </tr>
   <tr>
@@ -454,7 +454,7 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    *Agregar un módulo de clase*
 
-   Al crear un curso, en el cuadro de diálogo Configuración de clase virtual, establezca el sistema de conferencia en la conexión de Microsofts Teams que haya creado. Seleccione si desea un organizador de reuniones para el evento.
+   Al crear un curso, en el cuadro de diálogo de configuración de Clase virtual, defina el sistema de conferencia a la conexión de Microsoft Teams que haya creado. Seleccione si desea un organizador de reuniones para el evento.
 
    Si selecciona Sí para un organizador de reuniones, debe escribir el nombre del organizador. Escriba el nombre del organizador y seleccione el organizador.
 
@@ -463,7 +463,7 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
    * Si selecciona Sí, cualquier alumno puede unirse a la reunión.
    * Si selecciona No, se envía una solicitud al organizador para permitir o evitar que el alumno se una a la reunión.
 
-   **Nota:** Si un alumno desea unirse a Microsofts Teams como invitado, debe escribir el correo electrónico. El correo electrónico debe estar incluido en Learning Manager.
+   **Nota:** Si un alumno desea unirse a Microsoft Teams como invitado, debe introducir el correo electrónico. El correo electrónico debe estar incluido en Learning Manager.
 
    **Módulo de actividad:** en este modo, los alumnos deben completar un conjunto de actividades, como talleres, ejercicios, cuestionarios y otras actividades de aprendizaje. Indique el título, redacte una descripción y escriba la URL externa de referencia. Para guardar los cambios, haga clic en **[!UICONTROL Listo]**.
 
@@ -533,7 +533,7 @@ Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de
 
 ### Crear una lista de comprobación {#createachecklist}
 
-Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, como autor, puede seleccionar una actividad como **Lista de comprobación**, como se muestra a continuación:
+Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, como autor, puede seleccionar una actividad como **lista de comprobación**, como se muestra a continuación:
 
 ![](assets/checklist-option.png)
 
@@ -632,7 +632,7 @@ Para permitir que los instructores marquen el éxito del alumno:
 6. Escriba los detalles necesarios y seleccione las fechas.
 7. Seleccione la opción **[!UICONTROL Permitir al instructor marcar como correcto]**.
 
-   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo &#x200B;](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![¿Desea permitir que el instructor marque el éxito? Esta casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito de los alumnos de un módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Pantalla Detalles de la sesión con la opción Permitir al instructor marcar como correcta resaltada para los módulos Clase o Clase virtual_
 
 8. Seleccione **[!UICONTROL Listo]**.
@@ -707,7 +707,7 @@ Un ciclo de vida del curso típico tiene el siguiente aspecto:
 * **Borrador**: cuando un autor termina de crear un curso y lo guarda. En este estado, el curso aún no está disponible para los alumnos.
 * **Publicado**: cuando un autor termina de publicar un curso. En este estado, el curso está disponible para que los alumnos se inscriban. También puede editar un curso en este estado.
 * **Retirado** : después de publicar un curso, un autor puede moverlo al estado Retirado si no desea que el curso aparezca en el catálogo de cursos para los alumnos.
-* **Eliminado**: un curso en estado eliminado se elimina cuando se quita por completo de la aplicación de Adobe Learning Manager. Solo los autores pueden eliminar cursos cuando están en estado Borrador o Retirado .
+* **Eliminado**: un curso en estado eliminado se elimina cuando se quita por completo de la aplicación de Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos se encuentran en estado Borrador o Retirado.
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -795,13 +795,13 @@ Para cambiar al modo de administrador:
 
    *Inscribir alumnos en un curso*
 
-1. En la esquina superior derecha del cuadro de diálogo Inscribir alumnos, verá que la opción **Instancia predeterminada** está seleccionada. Tan pronto como un autor crea un curso, se crea una instancia predeterminada del curso.
+1. En la esquina superior derecha del cuadro de diálogo Inscribir alumnos, verá que la opción **Instancia predeterminada** está seleccionada. Cuando un autor crea un curso, de inmediato se crea una instancia del curso.
 
    ![](assets/default-instance.png)
 
    *Ver instancia predeterminada de un curso*
 
-1. En el campo Incluir alumnos, empiece a escribir el nombre de un alumno y elija un alumno. También es posible añadir grupos de usuarios. Si desea inscribir a todos los alumnos en su cuenta de Learning Manager, empiece a escribir todos. También puede inscribir alumnos en un equipo.
+1. En el campo Incluir alumnos, empiece a escribir el nombre de un alumno y elija un alumno. También es posible añadir grupos de usuarios. Si desea inscribir todos los alumnos de su cuenta de Learning Manager, empiece a escribirlos todos. También puede inscribir alumnos en un equipo.
 
    ![](assets/include-learners.png)
 
@@ -831,8 +831,10 @@ Una URL permanente siempre es fija. En el caso de los usuarios que no tienen Ado
 
 Ya es posible cambiar la URL de la sala permanente en la página **Instancia del curso**.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Dar de baja a alumnos de un curso {#unenrolllearnersfromacourse}
 
@@ -855,7 +857,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
@@ -934,7 +936,7 @@ En un programa de aprendizaje, solo puede añadir cursos de inscripción automá
 
 +++¿Cómo asegurarse de que no todos los alumnos puedan ver todos los cursos?
 
-Es factible mediante los catálogos. Un catálogo predeterminado contiene todos los cursos añadidos a Learning Manager de forma predeterminada.
+Para ello, puede utilizar catálogos. Un catálogo predeterminado contiene todos los cursos añadidos a Learning Manager de forma predeterminada.
 
 Debe desactivar el catálogo predeterminado y crear catálogos personalizados.
 
@@ -942,7 +944,7 @@ Debe desactivar el catálogo predeterminado y crear catálogos personalizados.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Catálogos]**.
 1. Cree un catálogo haciendo clic en **[!UICONTROL Crear]**. Indique los detalles y haga clic en **[!UICONTROL Guardar]**.
 
-1. En las opciones de Catálogo recién creadas, puede seleccionar diferentes tipos de aprendizaje que puede añadir, por ejemplo, programa de aprendizaje, certificación o curso.
+1. En las opciones de Catálogo que se acaban de crear, puede seleccionar diferentes tipos de aprendizaje para añadir, por ejemplo, un programa de aprendizaje, una certificación o un curso.
 1. En la sección Programa de aprendizaje, haga clic en **[!UICONTROL Añadir contenido]**.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Compartir internamente]** o **[!UICONTROL Compartir externamente]**, en función de los destinatarios.
 
@@ -981,7 +983,7 @@ Al crear un curso, puede añadir a él archivos de vídeo, audio, PDF o texto qu
 
 +++¿Cómo se configuran varios intentos en el módulo?
 
-**Requisito previo:** El administrador debe habilitar la opción **Varios intentos** en **Configuración > General** en la aplicación de administrador.
+**Requisito previo:** el administrador debe activar la opción **Varios intentos** en **Configuración > General** en la aplicación de administrador.
 
 Como autor, en la página Resumen del curso, active la opción **Permitir varios intentos**.
 

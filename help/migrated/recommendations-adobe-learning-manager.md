@@ -2,10 +2,10 @@
 title: Recomendaciones en Adobe Learning Manager
 description: El núcleo del motor de recomendaciones se basa en el nuevo algoritmo de clasificación de cursos de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 57%
+source-wordcount: '1490'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,10 @@ Los administradores disponen de un flujo de trabajo guiado en Learning Manager p
 
 1. Haga clic en **[!UICONTROL Continuar]** para actualizar al nuevo sistema de recomendaciones.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Cree los parámetros de recomendación de productos y funciones.
 
@@ -110,7 +112,7 @@ El administrador debe cargar los datos del usuario en un formato predeterminado.
 
 Para cargar los datos de forma que funcionen las recomendaciones, rellene los Productos, Funciones y Niveles en los archivos CSV User y RecommendationsLO.
 
-Como parte del ejercicio de preparación de datos, proporcionamos dos plantillas CSV:
+Como parte del ejercicio de preparación de datos, se facilitan dos plantillas CSV:
 
 **RecUser.csv**
 
@@ -128,7 +130,7 @@ El siguiente es un ejemplo de registros en el archivo .csv:
 
 **RecLO.csv**
 
-* Curso/ruta de aprendizaje
+* Formación
 * Tipo de formación
 * Nombre de la formación
 * Productos
@@ -202,7 +204,7 @@ Después de seleccionar Recommendations en el panel izquierdo, el alumno ve un m
 
 Al hacer clic en Configurar Recomendaciones, el alumno accede a la ventana emergente de selección de productos.
 
-![elemento emergente de selección de producto](assets/product-selection-popup.png)
+Ventana emergente de selección de producto ![](assets/product-selection-popup.png)
 *Seleccionar productos*
 
 A continuación, en la siguiente ventana emergente, el alumno puede seleccionar la función.
@@ -224,7 +226,7 @@ Un alumno puede ver las siguientes tiras en la aplicación:
 * Tira guardado por mí
 * Tira superimportante
 * Tira de productos: 1
-* Tira de productos: 2
+* Tira de productos - 2
 * Tira de descubrimiento
 * Tira recomendado por el administrador
 * Tira Examinar por catálogo

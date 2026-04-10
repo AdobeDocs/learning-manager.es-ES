@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '5832'
-ht-degree: 51%
+source-wordcount: '5898'
+ht-degree: 60%
 
 ---
 
@@ -80,7 +80,7 @@ Para crear una instancia:
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
@@ -205,7 +205,7 @@ El archivo de Excel contiene las hojas de cálculo de cada instancia. Una hoja d
 >
 >Al activar la opción de varias inscripciones, se añaden diferentes filas al informe de transcripciones de alumnos por cada curso (una fila por instancia).
 >
->Si ha configurado la automatización de informes que solo prevé una fila por curso, debe realizar los ajustes necesarios en la automatización de informes antes de activar la función Inscripción múltiple.
+>Si ha configurado la automatización de informes que solo prevé una fila por curso, debe llevar a cabo los ajustes necesarios en la automatización de informes antes de activar la función de Varias inscripciones.
 
 ### Administrar la lista de alumnos de un curso {#managelearnerslistforacourse}
 
@@ -227,15 +227,15 @@ También puede exportar la lista de alumnos en una hoja de Excel. Para exportar 
 
 >[!NOTE]
 >
->Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, **En curso** o **Completado**.
+>Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, **En curso**, o **Finalizado**.
 
 ### Exportar alumnos con estado de aprobación pendiente
 
 Un administrador, un responsable o un administrador personalizado pueden exportar datos de alumnos con un estado de inscripción de aprobación pendiente. Puede exportar los datos a través de la ficha **Curso > Alumno** y hacer clic en la lista desplegable Acción.
 
-La opción estará presente cuando no haya ningún alumno inscrito/pendiente de aprobación en el curso aprobado por el responsable y se generará un informe vacío. También puede exportar cuando los alumnos estén en estado de aprobación pendiente, inscrito, pendiente y no inscrito.
+La opción estará presente cuando no haya ningún alumno inscrito/pendiente de aprobación en el curso aprobado por el responsable y se generará un informe vacío. También podrá realizar la exportación cuando los alumnos presenten el estado pendiente de aprobación, inscrito, pendiente y no inscrito.
 
-El informe contiene datos de usuarios activos, eliminados y suspendidos si están pendientes de aprobación. Además, el informe contiene datos de usuarios internos y externos que están en estado de aprobación pendiente.
+El informe contiene datos de usuarios activos, eliminados y suspendidos si están pendientes de aprobación. Además, el informe contiene datos de usuarios internos y externos con estado de aprobación pendiente.
 
 Si un alumno con un estado de aprobación pendiente se da de baja, su registro no estará presente en el informe. Además, si un alumno con un estado de aprobación pendiente se inscribe en el curso mediante inscripción de administrador/responsable/administrador personalizado, su registro estará presente en el informe.
 
@@ -316,7 +316,7 @@ Adobe Learning Manager permite a los administradores descargar la lista de alumn
 Siguiendo las columnas disponibles en el informe de lista de espera:
 
 * Nombre del curso
-* Nombre de la instancia
+* Nombre de instancia
 * ID de instancia
 * Estado de la instancia
 * Nombre de usuario
@@ -387,9 +387,9 @@ Si las dos preguntas obligatorias, por algún motivo, no tienen texto, las pregu
 
 >[!NOTE]
 >
->No basta con activar esta configuración en la instancia del programa de aprendizaje. También debe activar esta configuración en el nivel de instancia del curso para cada curso del programa de aprendizaje.
+>No basta con activar esta configuración en la instancia del programa de aprendizaje. También debe activarla en el nivel de instancia del curso para cada curso del programa de aprendizaje.
 
-En la página Valores predeterminados de instancia, si habilita **[!UICONTROL Establecer todas las preguntas como obligatorias]**, todas las instancias nuevas creadas posteriormente heredarán esta configuración.
+En la página Valores predeterminados de instancia, si activa **[!UICONTROL Establecer todas las preguntas como obligatorias]**, todas las instancias nuevas creadas posteriormente heredarán esta configuración.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -405,13 +405,13 @@ En esta versión de Learning Manager, el administrador puede enviar los comenta
 
 1. Haga clic en **[!UICONTROL Instancias]** > **[!UICONTROL Comentarios de L1 habilitados]**.
 
-1. Habilite la opción **[!UICONTROL Habilitar para cada curso]**.
+1. Active la opción **[!UICONTROL Activar para cada curso]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
    *Habilitar comentarios del curso*
 
-   Si solo se activa este botón deslizante en el nivel de programa de aprendizaje, no se activarán los comentarios de L1 para los cursos de este programa. Para activar los comentarios de L1, vaya a cada curso del programa de aprendizaje y active el conmutador Comentarios de L1.
+   Si solo se activa este conmutador en el nivel de programa de aprendizaje, no se activará los comentarios de L1 para los cursos incluidos en este programa. Para activar los comentarios de L1, vaya a cada curso del programa de aprendizaje y active el conmutador Comentarios de L1.
 
    ![](assets/l1-reaction-feedback.png)
 
@@ -425,7 +425,7 @@ Los informes de prueba ayudan a evaluar el rendimiento de un alumno después de 
 
 Learning Manager proporciona actualmente aprendizaje en 13 idiomas para la interfaz y en 32 idiomas para el contenido. Aunque esta opción es fácil de usar para los alumnos y proporciona comodidad a nuestros alumnos de todo el mundo, es difícil para los administradores obtener los informes que se intentan obtener en varias configuraciones regionales.
 
-En los informes de prueba, se muestran datos en diferentes idiomas siempre que el curso se ofrezca en varios idiomas. Hasta ahora, los informes generados por el administrador mostraban las respuestas una debajo de la otra, independientemente del idioma en el que se intentara realizar la prueba. **Por ejemplo**, si un usuario ha realizado una prueba en neerlandés, el administrador solo podrá ver los informes de prueba que los usuarios realicen en este idioma cada vez. El administrador que había seleccionado el inglés como idioma de la interfaz no podía ver los informes de todos los usuarios a la vez, independientemente de la configuración regional empleada.
+En los informes de prueba, se muestran datos en diferentes idiomas siempre que el curso se ofrezca en varios idiomas. Hasta ahora, los informes generados por el administrador mostraban las respuestas una debajo de la otra, independientemente del idioma utilizado para realizar la prueba. **Por ejemplo**, si un usuario ha realizado una prueba en neerlandés, el administrador solo podrá ver los informes de prueba que los usuarios realicen en este idioma cada vez. El administrador que había seleccionado el inglés como idioma de la interfaz no podía ver los informes de todos los usuarios a la vez, independientemente de la configuración regional empleada.
 
 Esto se ha solucionado, ya que el administrador ahora puede ver a la vez todos los informes en el idioma respectivo empleado por el usuario, independientemente de la configuración regional de contenido elegida. La prueba realizada en diferentes idiomas se añadirá como columnas adicionales en el informe de prueba.
 
@@ -433,9 +433,9 @@ Esto se ha solucionado, ya que el administrador ahora puede ver a la vez todos l
 
 *Habilitar comentarios de L1 en el nivel de cuenta*
 
-Un administrador podrá habilitar los comentarios de L1 para los cursos y el programa de aprendizaje recién creados activando esta configuración en el nivel de cuenta. Sin embargo, si se activa esta opción, no se verán afectados los cursos ni los programas de aprendizaje existentes
+Un administrador podrá habilitar los comentarios de L1 para los cursos y el programa de aprendizaje recién creados mediante la activación de esta opción en el nivel de cuenta. Sin embargo, la activación de esta opción no afectará a los cursos ni programas de aprendizaje existentes.
 
-Si está activada, se habilitarán de forma predeterminada los comentarios para todos los nuevos cursos de formación e instancias. Si un autor/administrador visita la instancia, esta se establece de forma predeterminada y se desactiva manualmente; a continuación, se mantendrá esta configuración.
+Si se ha activado esta opción, se habilitarán de forma predeterminada los comentarios para todos los nuevos cursos de formación e instancias. Si un autor/administrador visita la instancia, esta se establece de forma predeterminada y se desactiva manualmente; a continuación, se mantendrá esta configuración.
 
 Para habilitar los comentarios de L1, en la aplicación de administración, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Comentarios]**.
 
@@ -475,7 +475,7 @@ A continuación, se proporciona un cuestionario de L1 de muestra como referencia
 
 *Preguntas de comentarios de un curso de ejemplo*
 
-Una vez que active los comentarios de L3, puede ver las opciones como se muestra en la captura de pantalla siguiente:
+Una vez que habilitan los comentarios de L3, puede ver las opciones como se muestra en la captura de pantalla siguiente:
 
 ![](assets/l3-feedback-desc-questions.png)
 
@@ -493,7 +493,7 @@ A continuación, se proporciona un cuestionario de L3 de muestra como referencia
 
 Puede configurar el cuestionario de comentarios L1 y L3 y establecer recordatorios en el nivel de cuenta.
 
-1. Haga clic en **[!UICONTROL Configuración]** y, a continuación, en **[!UICONTROL Comentarios]** en el panel izquierdo después de iniciar sesión como administrador.\
+1. Haga clic en **[!UICONTROL Configuración]** y después, en **[!UICONTROL Comentarios]** en el panel izquierdo después de iniciar sesión como administrador.\
    Aparece la página de configuración de comentarios con dos fichas: **[!UICONTROL Comentarios de L1]** y **[!UICONTROL Comentarios de L3]**.\
    La ficha **[!UICONTROL Comentarios de L1]** consta de una lista de cuestionarios predeterminados de **[!UICONTROL comentarios de L1]** para cursos de clase y cursos con ritmo personalizado, junto con la configuración de recordatorio. En la ficha **[!UICONTROL Comentarios de L3]**, puede ver la declaración predeterminada de los comentarios de L3 y la configuración de recordatorio.
 
@@ -570,11 +570,11 @@ Al descargar un informe después de seleccionar un filtro de estado, el informe 
 
 ## Cómo ver los cursos {#viewingcourses}
 
-Como administrador, puede ver una lista de todos los cursos disponibles.   Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo para ver la lista de cursos con opciones de búsqueda y filtro. También puede ver el porcentaje de eficacia de cada curso en las miniaturas del curso.
+Puede ver una lista de todos los cursos disponibles como administrador.   Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo para ver la lista de cursos con opciones de búsqueda y filtro. También puede ver el porcentaje de eficacia de cada curso en las miniaturas del curso.
 
 >[!NOTE]
 >
->Puede retirar un curso una vez que los alumnos hayan consumido el curso o cuando desee retener un curso en particular después de publicarlo. Puede retirar un curso solo cuando se encuentre en estado publicado. Para ver la lista de todos los cursos retirados, haz clic en la pestaña **[!UICONTROL Retirado]**.
+>Puede retirar un curso una vez que los alumnos hayan consumido el curso o cuando desee retener un curso en particular después de publicarlo. Puede retirar un curso solo cuando se encuentre en estado publicado. La lista de todos los cursos retirados se puede ver haciendo clic en la ficha **[!UICONTROL Retirado]**.
 
 ## Ver puntuaciones de pruebas {#viewquizscores}
 
@@ -633,7 +633,7 @@ Los comentarios estarán visibles en el informe [Transcripciones de alumnos](/he
 
 ## Previsualizar cursos {#previewcourses}
 
-El administrador puede obtener una vista previa de los cursos haciendo clic en la opción **[!UICONTROL Vista previa como alumno]** mientras visualiza los módulos del curso.
+El administrador puede previsualizar los cursos haciendo clic en la opción **[!UICONTROL Vista previa como alumno]** mientras visualiza los módulos del curso.
 
 1. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo después de iniciar sesión como administrador.
 1. Haga clic en cualquier mosaico de curso de la lista de cursos en la página.
@@ -665,10 +665,10 @@ Según el gráfico circular que se muestra arriba, se le da más peso a los come
 
 Adobe Learning Manager hace que sea más fácil encontrar los cursos o los programas de aprendizaje de su elección. Puede buscar los cursos de dos maneras:
 
-1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o programas de aprendizaje. También puede realizar búsquedas con etiquetas predefinidas, como Captivate, C, Java y HTML. Las etiquetas permiten la búsqueda en el campo de búsqueda, lo cual significa que las etiquetas se muestran en el campo de búsqueda mientras escribe.
+1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para encontrar los cursos o los programas de aprendizaje. También puede buscar con etiquetas predefinidas, como Captivate, C, Java, HTML, etcétera. Las etiquetas permiten la búsqueda en el campo de búsqueda, lo cual significa que las etiquetas se muestran en el campo de búsqueda mientras escribe.
 1. Utilizar los filtros en la lista de cursos o programas de aprendizaje. Puede filtrar los cursos por estado, por ejemplo todos los cursos, los cursos publicados, los que están en borrador y los retirados. En modo de administrador, el filtro de borrador no está disponible.
 
-Puede realizar búsquedas según las competencias si hace clic en Competencias y las selecciona. Como administrador, puede ordenar los cursos de cuatro formas para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso o eficacia de los cursos.
+Puede realizar búsquedas según las competencias si hace clic en Competencias y las selecciona. Como administrador, puede ordenar los cursos de cuatro maneras para ubicar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso o eficacia de los cursos.
 
 <!--![](assets/admin-sortby.png)-->
 
@@ -680,7 +680,7 @@ Puede seguir los mismos pasos para inscribir a los alumnos en el curso, el progr
 
 El administrador inscribe a algunos alumnos en cursos obligatorios en función de los requisitos de la empresa:
 
-1. Coloque el ratón sobre cualquier mosaico de curso publicado y haga clic en Inscribir alumnos.\
+1. Desplace el ratón sobre los mosaicos de cualquier curso publicado y haga clic en Inscribir alumnos.\
    Como alternativa, haga clic en cualquier mosaico de curso publicado y haga clic en Alumnos en el panel izquierdo. Aparece una página con una lista de alumnos. Haga clic en Inscribir.\
    Aparece el cuadro de diálogo Inscribir alumnos.
 
@@ -726,11 +726,11 @@ El cuadro de diálogo Resumen aparece con la cantidad de usuarios del conjunto d
 
 ### Añadir comentarios al inscribir alumnos {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 Los administradores o los responsables pueden añadir comentarios al inscribir alumnos en un curso. Se puede mencionar información adicional sobre la serie de usuarios que se inscriben. Esta información se exporta en los informes del curso.
 
-El comentario es **not** y se muestra al alumno.
+El comentario **no** se muestra al alumno.
 
 Cuando un administrador genera el informe del curso del alumno, cualquier comentario, si se agrega, aparece en el informe. El cuadro de diálogo Resumen aparece con la cantidad de usuarios del conjunto de inclusión, el conjunto de exclusión y los usuarios ya inscritos en la instancia del curso.
 
@@ -767,7 +767,7 @@ Mediante la función de escritura anticipada, puede:
 
 Después de ejecutar una búsqueda, no puede filtrar alumnos por instancias. Está deshabilitada la opción para seleccionar una instancia en la lista desplegable **[!UICONTROL Seleccionar instancia]**.
 
-Además, con los resultados de la búsqueda, puede elegir un alumno o un grupo de usuarios y realizar las siguientes acciones:
+Además, a partir de los resultados de la búsqueda, puede elegir un alumno o un grupo de usuarios, y realizar las acciones siguientes:
 
 * Darse de baja
 * Marcar finalización
@@ -834,7 +834,7 @@ Un ciclo de vida del curso típico tiene el siguiente aspecto:
 
 **Retirado**: después de publicar un curso, un autor puede moverlo al estado Retirado si no desea que el curso aparezca en el catálogo de cursos para los alumnos. Puede volver a publicar o eliminar un curso en este estado.
 
-**Eliminado**: un curso en estado eliminado se elimina cuando se quita por completo de la aplicación de Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos están en estado Borrador. También puede eliminar cursos del estado retirado.
+**Eliminado**: un curso en estado eliminado se elimina cuando se quita por completo de la aplicación de Adobe Learning Manager. Solo los autores pueden eliminar los cursos cuando estos están en estado Borrador. También puede eliminar cursos con el estado retirado.
 
 ![](assets/lifecycle-03.png)
 

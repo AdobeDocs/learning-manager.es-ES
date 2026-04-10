@@ -2,10 +2,10 @@
 title: Novedades de esta versión
 description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 70%
+source-wordcount: '2375'
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Interfaz de usuario renovada
 
-La interfaz de usuario de Adobe Learning Manager se ha actualizado para ofrecer una experiencia más limpia y moderna. Se han renovado las páginas de inicio para las funciones de administrador y autor, y se han actualizado los temas de la interfaz de usuario para todas las funciones. Sin embargo, no se ha realizado ningún cambio en la ubicación de los menús, botones o vínculos y podrá encontrarlos exactamente donde se encontraban antes.
+La interfaz de usuario de Adobe Learning Manager se ha actualizado para ofrecer una experiencia más limpia y moderna. Se han renovado las páginas de inicio para las funciones de administrador y autor, y se han actualizado los temas de la interfaz de usuario para todas las funciones. Sin embargo, no se han realizado cambios en la ubicación de los menús, botones o enlaces y podrá encontrarlos exactamente en su ubicación habitual.
 
 Las actualizaciones del tema se aplicarán automáticamente a las cuentas que utilicen el tema predeterminado. Las actualizaciones del tema de la interfaz de usuario no afectarán a las cuentas que hayan realizado modificaciones para utilizar un tema personalizado. Estas cuentas deben volver al tema predeterminado para obtener las actualizaciones del nuevo tema.
 
@@ -68,7 +68,7 @@ En esta versión, hemos añadido un menú desplegable en el cuadro de diálogo I
 
 En versiones anteriores de Adobe Learning Manager, el informe Anuncio de notificación no tenía filtros. Adobe Learning Manager ha descargado todas las notificaciones de la cuenta.
 
-En esta versión, hemos añadido un filtro de fecha, mediante el cual puede descargar las notificaciones dentro de un período especificado.  Sin embargo, puede descargar el informe sólo durante los últimos seis meses.
+En esta versión, hemos añadido un filtro de fecha, mediante el cual puede descargar las notificaciones dentro de un período especificado.  Sin embargo, solo puede descargar el informe de los últimos seis meses.
 
 ### Cambios en los datos de revisión de cursos en el informe de inscripción
 
@@ -149,7 +149,7 @@ En la página Funciones personalizadas, hemos añadido las siguientes opciones d
 
 Si selecciona Solo lectura, el administrador personalizado podrá ver todos los usuarios, pero no podrá editar sus datos ni crear un portal de registro automático para ellos.
 
-**Planes de aprendizaje**:
+**Planes de aprendizaje**
 
 Si selecciona Solo lectura, un administrador personalizado no podrá añadir ni editar un plan de aprendizaje. Puede descargar un informe del plan de aprendizaje y ver sus detalles. Sin embargo, no puede cambiar los detalles del curso.
 
@@ -206,11 +206,13 @@ Un administrador personalizado puede acceder a los siguientes informes según el
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Integración de Connect mejorada
 
@@ -288,7 +290,7 @@ Adobe Learning Manager dejará de ofrecer BlueJeans en febrero de 2024. Todas la
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos móviles de Learning Manager, consulte las [Notas de la versión](release-note/release-notes.md).
 
 ## Errores solucionados en esta versión
 

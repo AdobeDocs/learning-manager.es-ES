@@ -4,10 +4,10 @@ title: Integración de Okta Active Directory con Adobe Learning Manager
 description: Integración de Okta Active Directory con Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 55%
+source-wordcount: '587'
+ht-degree: 60%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Learning Manager admite SSO iniciado por el proveedor de identidades (IdP)
 
    1. En el campo URL de inicio de sesión único, escriba la dirección URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. En el campo URL de audiencia, escriba la dirección URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. En el cuadro desplegable **Formato de ID de nombre**, selecciona **Dirección de correo electrónico**.
+   1. En el cuadro desplegable **Formato de ID de nombre**, seleccione **Dirección de correo electrónico**.
    1. En el menú desplegable **Nombre de usuario de la aplicación**, seleccione Nombre de usuario de Okta.
    1. Si desea pasar atributos adicionales, puede agregar los atributos en la **instrucción Attributes** (opcional)
 
@@ -97,7 +97,7 @@ Adobe Learning Manager admite SSO iniciado por el proveedor de identidades (IdP)
 
 ## Extraer archivo de metadatos y URL iniciado por IDP
 
-Para ver la URL y el archivo de metadatos iniciados por IdP/SP, realice los siguientes pasos:
+Para ver la URL y el archivo de metadatos iniciados por IdP/SP, siga los pasos que se indican a continuación:
 
 1. Abra la aplicación que haya creado.
 1. En la ficha **Inicio de sesión único**, haga clic en **[!UICONTROL Ver instrucciones]**.
@@ -136,4 +136,5 @@ Para configurar el inicio de sesión único de Adobe Learning Manager, siga los 
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

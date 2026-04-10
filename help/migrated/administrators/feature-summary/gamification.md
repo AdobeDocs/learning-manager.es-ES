@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Interacción
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 54%
+source-wordcount: '1655'
+ht-degree: 68%
 
 ---
 
@@ -21,9 +21,11 @@ La Adobe Learning Manager incluye una función denominada Interacción, que est�
 
 De forma predeterminada, hay algunos datos y puntos de interacción de muestra para que los usuarios entiendan el patrón. Puede modificar los puntos como corresponda.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Configuración de interacción {#gamificationsettings}
 
@@ -48,15 +50,15 @@ Los administradores pueden configurar los puntos de interacción para los alumno
 
 ## Tareas {#tasks}
 
-Hay cinco tareas de interacción de alumnos para las que el administrador puede establecer los puntos. Una ilustración que describe todas las tareas y puntos de los alumnos se muestra a continuación:
+Hay cinco tareas de interacción de los alumnos para las cuales el administrador puede establecer los puntos. A continuación se muestra una captura de pantalla que describe todas las tareas y puntos de los alumnos:
 
 >[!NOTE]
 >
->Los puntos de interacción para los alumnos de una tarea concreta no son acumulativos. Sin embargo, los puntos se añaden a la cuenta de alumno de forma acumulativa si los alumnos obtienen estos puntos en diferentes tareas.
+>Los puntos de interacción para los alumnos de una tarea concreta no son acumulativos. Sin embargo, los puntos se añaden al recuento de los alumnos de manera acumulativa si los alumnos los obtienen en diferentes tareas.
 
 Mientras asigna cursos a los puntos, el administrador debe asegurarse de que los alumnos obtengan los puntos de manera progresiva.
 
-**Para el alumno que aprende rápido** 
+**Para el alumno que aprende rápido**
 
 Esta tarea se aplica cuando un alumno finaliza un número específico de cursos en el transcurso de un mes/trimestre/año. Esta tarea es para motivar a los alumnos que aprenden rápido.
 
@@ -75,7 +77,7 @@ Dentro de una tarea, los puntos no se otorgan a los alumnos de manera acumulativ
 
 **Para el alumno con motivación propia (a)**
 
-Esta tarea se aplica cuando los alumnos se inscriben en el número prescrito de cursos y se completan en el transcurso de un mes/trimestre/año. En este caso, el administrador puede activar esta tarea para asignar puntos y animarlos.
+Esta tarea se aplica cuando los alumnos se inscriben en el número prescrito de cursos y los completan en el transcurso de un mes/trimestre/año. En este caso, el administrador puede activar esta tarea para asignar puntos y motivarlos.
 
 Situaciones posibles:
 
@@ -107,7 +109,7 @@ Esta tarea se aplica cuando los alumnos completan un número determinado de comp
 
 Posibles escenarios para mejorar las aptitudes en competencias:
 
-1. Cuando el alumno adquiere una competencia, obtiene 100 puntos.
+1. Cuando un alumno adquiere una competencia, obtiene 100 puntos.
 1. Cuando un alumno adquiere dos competencias, obtiene 300 puntos.
 1. Cuando un alumno adquiere tres competencias, obtiene 600 puntos.
 1. Cuando un alumno adquiere cuatro competencias, obtiene 900 puntos.
@@ -144,9 +146,9 @@ Esta tarea se aplica a los alumnos que hacen referencia al curso marcado en un p
 Escenario posible:\
 Cuando un alumno se convierte en uno de los 10 primeros alumnos en completar el curso, obtiene 100 puntos.
 
-**Puntos de finalización a tiempo** 
+**Puntos de finalización a tiempo**
 
-Esta tarea se aplica a los alumnos que completan un curso en el plazo de un número estipulado de días después de inscribirse en el curso.
+Esta tarea se aplica a los alumnos que finalizan un curso en el transcurso de una cantidad de días estipulada después de inscribirse en el curso.
 
 Escenario posible:\
 Cuando los alumnos completan un curso en los 10 días siguientes al comienzo del curso, obtienen 100 puntos.
@@ -214,7 +216,7 @@ La configuración de confidencialidad se puede aplicar a usuarios internos y ext
 
 Puede restablecer los puntos de interacción obtenidos por el alumno y las opciones de configuración. Si elige restablecer la puntuación de los usuarios, todos los puntos que hayan obtenido se borran y se restablecen a cero. Si elige restablecer la puntuación de los usuarios y las opciones de configuración, se restablecen a cero todos los puntos predeterminados asignados a los niveles y las tareas.
 
-El restablecimiento de la configuración de interacción se puede aplicar tanto a usuarios internos como externos.
+Los ajustes de Restablecer interacción se pueden aplicar a usuarios internos y externos.
 
 Para restablecer la configuración y la puntuación del alumno, haga clic en Restablecer interacción y elija una opción según lo que se necesite. Puede elegir entre Restablecer solo las puntuaciones del alumno y Restablecer las puntuaciones del alumno y los parámetros de configuración. Una vez que se haya seleccionado, haga clic en Aceptar.
 
@@ -234,7 +236,7 @@ Puede deshabilitar la interacción para usuarios internos y externos.
 
 ## Interacción de niveles de grupo {#grouplevelgamification}
 
-Los administradores pueden definir el ámbito de la interacción cambiando la configuración del ámbito. Puede habilitar la interacción de forma selectiva entre usuarios, grupos o ubicaciones de perfil similares.
+Los administradores pueden definir el ámbito de la interacción cambiando la configuración del ámbito. De forma selectiva, permita la interacción entre usuarios, grupos o ubicaciones de perfil similar.
 
 1. En el inicio de sesión del administrador, haga clic en **[!UICONTROL Interacción]** en el panel izquierdo.
 1. Abra **[!UICONTROL Interacciones]** > **[!UICONTROL Configuración]** > **[!UICONTROL Configuración del ámbito]**. Aparece el cuadro de diálogo [!UICONTROL Configuración del ámbito de interacción].

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Purgar usuarios
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 52%
+source-wordcount: '1143'
+ht-degree: 57%
 
 ---
 
@@ -27,13 +27,15 @@ La acción Purgar usuario puede tener los siguientes resultados:
 * Purgar a un usuario en Learning Manager no elimina al usuario en ninguna aplicación externa (sistemas de terceros u otras aplicaciones escritas por usted). Póngase en contacto con los propietarios de aplicaciones externas para que eliminen a los usuarios de dichas aplicaciones.
 * Si se hace referencia a un usuario purgado en la configuración de un conector, el conector se deshabilita. El administrador debe volver a configurar el conector para reanudarlo.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Cómo purgar usuarios
 
@@ -63,7 +65,7 @@ Para purgar usuarios, siga estos pasos:
 
 >[!NOTE]
 >
->Una vez que el usuario eliminado se vuelva a añadir al sistema, no se conservarán las funciones anteriores (por ejemplo, administrador, responsable, autor, instructor, etc.). Se añadirán con la función de alumno.
+>Una vez que el usuario eliminado se añade de nuevo al sistema, las funciones anteriores (por ejemplo, administrador, responsable, autor, instructor, etc.) no se conservará.Se añadirán con la función de alumno.
 
 ## Purga masiva de usuarios
 
@@ -116,7 +118,7 @@ Puede ordenar los usuarios filtrados por su **[!UICONTROL ID de usuario único]*
 >
 >Al purgar usuarios, se eliminan sus datos de forma permanente. Compruebe su selección antes de continuar.
 
-+++Leer acerca de los resultados de la acción Purgar usuario
++++Obtenga más información sobre los resultados de la acción Purgar usuario
 
 <table>
  <tbody>
@@ -145,7 +147,7 @@ Puede ordenar los usuarios filtrados por su **[!UICONTROL ID de usuario único]*
    <td>Sí</td>
   </tr>
   <tr>
-   <td><strong>Purgar con una interfaz de usuario no empresarial de Learning Manager</strong></td>
+   <td><strong>Purgar con la interfaz de usuario no empresarial de Learning Manager</strong></td>
    <td> </td>
   </tr>
   <tr>

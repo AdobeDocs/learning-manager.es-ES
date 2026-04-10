@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aplicación Adobe Learning Manager para escritorio
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ Efectúe el procedimiento siguiente para realizar una grabación de vídeo y pub
 
    **Screen** graba las acciones realizadas en la pantalla del monitor. Al seleccionar el icono de la pantalla, esta se resalta con un cuadro de diálogo de grabación en el centro de la pantalla.
 
-   **Ambos** Registra las acciones del narrador y de la pantalla. Al seleccionar el último icono, la pantalla se resalta y el usuario obtiene una ventana interactiva junto con ella.
+   **Ambos** Registra las acciones del narrador y de la pantalla. Al seleccionar el último icono, la pantalla se resalta y aparece una indicación de grabación.
 
 1. Defina las preferencias de grabación.
 
@@ -91,8 +91,10 @@ Para obtener una captura de pantalla, efectúe estos pasos:
 1. En la ventana de inicio de la aplicación Learning Manager para escritorio, haga clic en el icono de captura de pantalla.
 1. Para capturar solo una parte de la pantalla, haga clic en el icono de recorte parcial de pantalla. Para capturar toda la pantalla, haga clic en el icono de captura de pantalla completa.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. Para ayudar a otros alumnos a comprender y conservar mejor la presentación o el contenido estático, agregue anotaciones al contenido.
 1. Para editar la captura de pantalla, [haz clic aquí](adobe-learning-manager-app-for-desktop.md#Editing) y para publicar una captura de pantalla [haz clic aquí](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -134,7 +136,7 @@ Las grabaciones se pueden recortar especificando la hora en los campos de entrad
 
 ## Panorámica y zoom en cualquier grabación de vídeo {#panampzoomanyvideorecording}
 
-La acción de panorámica y zoom solo se puede realizar en grabaciones de vídeo de **Ambos** (cámara web y pantalla). De forma predeterminada, se selecciona toda la cámara web o la pantalla. Seleccione el punto de control de la esquina y seleccione la parte de la pantalla que se va a mostrar o a destacar. Haga doble clic en la ventana para ver la pantalla completa.
+La acción de panorámica y zoom solo se puede realizar en grabaciones de vídeo de **Ambos** (cámara web y pantalla). De forma predeterminada, se selecciona toda la cámara web o la pantalla. Seleccione el punto de control de la esquina y seleccione la parte de la pantalla que se va a mostrar o a destacar. Haga doble clic en la ventana para obtener la pantalla completa.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panorámica y zoom*
@@ -181,7 +183,7 @@ Una vez que se hayan realizado todos los cambios y modificaciones, haz clic en *
 
 ## Explorar la galería de la aplicación Learning Manager para escritorio {#browsingcaptivateprimedesktopgallery}
 
-Todas las grabaciones y capturas de pantalla se guardan en la aplicación Adobe Learning Manager para escritorio. Para examinar estos archivos, haga clic en **[!UICONTROL Galería]** en el panel de navegación izquierdo de la página principal.
+Todas las grabaciones y capturas de pantalla se guardan en la aplicación Adobe Learning Manager para escritorio. Para acceder a la ubicación de estos archivos, haga clic en **[!UICONTROL Galería]** en el panel de navegación de la izquierda de la página de inicio.
 
 >[!NOTE]
 >
@@ -197,7 +199,7 @@ Para editar o eliminar un archivo de la galería, haga clic en los puntos suspen
 
 Las notificaciones de Learning Manager aparecen en la ventana de notificaciones aunque el alumno no esté registrado en la aplicación Learning Manager para web. Las notificaciones incluyen publicaciones o tableros que los usuarios han creado, siguen o participan. Al hacer clic en la notificación, el usuario accederá a la web de Aprendizaje social de Learning Manager.
 
-Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > &#x200B;** [!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
+Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > **[!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
 
 ## Configuración de la aplicación Adobe Learning Manager para escritorio {#settingsinadobecaptivateprimedesktopapplication}
 

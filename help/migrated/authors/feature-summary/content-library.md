@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4620'
-ht-degree: 36%
+source-wordcount: '4664'
+ht-degree: 44%
 
 ---
 
@@ -190,7 +190,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
 1. Para agregar el contenido, selecciona **[!UICONTROL Agregar archivo de contenido]** y carga tu archivo de recursos. Al añadir contenido para varios idiomas, no puede combinar contenido estático e interactivo en un solo grupo. O bien todo el contenido en todas las configuraciones regionales debe ser estático, o bien todo el contenido debe ser interactivo.
 
-* [Tipos de archivos compatibles](content-library.md#supported)
+* [Tipos de archivo admitidos](content-library.md#supported)
 
   El contenido interactivo puede ser un proyecto publicado de Captivate, SCORM o AICC. El archivo debe ser un archivo zip.
 
@@ -206,7 +206,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
    Como autor, al cargar un contenido de vídeo o audio, también puede cargar el archivo VTT que contiene los subtítulos.
 
-   A continuación, los subtítulos aparecen en el reproductor Fluidic. Los subtítulos también cumplen con [los estándares WCAG2.0](https://www.w3.org/TR/WCAG20/).
+   A continuación, los subtítulos aparecen en el reproductor Fluidic. Los subtítulos también son compatibles con las [normas WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
    Al agregar contenido de vídeo a la biblioteca, también puede agregar el archivo VTT, que **debe** ser un archivo válido.
 
@@ -224,7 +224,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
 
    Como autor, cada vez que cambie el contenido, el vídeo o el audio, Adobe Learning Manager le solicitará un nuevo archivo vtt.
 
-   Después de añadir este contenido a un curso y previsualizarlo como alumno, puede ver los subtítulos en el vídeo.
+   Después de añadir este contenido a un curso y previsualizarlo como alumno, podrá ver los subtítulos en el vídeo.
 
    Active el botón CC del reproductor Fluidic para que se muestren o se oculten los subtítulos.
 
@@ -245,7 +245,7 @@ La compatibilidad con WebVTT no está disponible para:
 
 ### Compatibilidad con catálogos compartidos
 
-Si una cuenta de vendedor comparte un catálogo que contiene los cursos y estos contienen los módulos, el audio o el vídeo con los subtítulos, los cursos deben tener el mismo comportamiento en la cuenta del comprador.
+Si una cuenta de vendedor comparte un catálogo que contiene los cursos y estos incluyen los módulos, el audio o el vídeo con los subtítulos, los cursos deben presentar el mismo comportamiento en la cuenta del comprador.
 
 La propagación de los módulos debe funcionar correctamente de la cuenta de vendedor a la del comprador. Esto puede incluir: editar/eliminar/añadir el archivo vtt en el módulo.
 
@@ -300,9 +300,9 @@ Después de que un administrador cree las carpetas de contenido, usted, como aut
 
 **Uso de ejemplo**
 
-Por ejemplo, las agencias desean mantener un control total del contenido y alguien que pasa por alto el contenido debe tener acceso a todo el contenido. Al mismo tiempo, los creadores de contenido de las agencias deben tener acceso solo a su propio contenido y, en algunos casos, al contenido de otra persona.
+Por ejemplo, las agencias desean tener un control total del contenido y cualquiera que examine el contenido debe tener acceso a todo el mismo. Al mismo tiempo, los creadores de contenido de las agencias deben tener acceso solo a su propio contenido y, en algunos casos, al contenido de otra persona.
 
-La biblioteca de contenido con contenido existente (es decir, contenido cargado antes de configurar las carpetas de contenido) se define como **carpeta pública**. Esta carpeta no se puede retirar ni eliminar. El contenido que forma parte de la carpeta pública está accesible para todos los tipos de autores. Una vez configuradas las carpetas de contenido, los autores estándar y personalizados deben seleccionar la carpeta en la que se debe colocar el contenido al cargar contenido nuevo.
+La biblioteca de contenido con contenido existente (por ejemplo, contenido cargado antes de configurar las carpetas de contenido) se establece como **Carpeta pública**. Esta carpeta no se puede retirar ni eliminar. El contenido que forma parte de la carpeta Pública está accesible para todos los tipos de autores. Una vez configuradas las carpetas de contenido, los autores estándar y personalizados deben seleccionar la carpeta en la que se debe incluir contenido cuando se cargue.
 
 >[!NOTE]
 >
@@ -314,9 +314,9 @@ Al añadir contenido, puede elegir la carpeta en la que se incluirá este.
 
 *Añadir contenido a una carpeta*
 
-Si eliges **Public**, el contenido estará visible para todos los autores. Todo el contenido que existiera en la cuenta y que no forme parte de ninguna carpeta se incluirá en la carpeta pública de forma predeterminada.
+Si elige **Pública**, el contenido estará visible para todos los autores. Todo el contenido presente en la cuenta que no forme parte de ninguna carpeta se incluirá de forma predeterminada en la carpeta pública.
 
-Tenga en cuenta que las carpetas de contenido son simplemente compartimentos virtuales para vincular el contenido. En el caso de que un contenido se coloque en dos carpetas, significa que el archivo de contenido siempre es un único archivo pero está vinculado a varias carpetas. Por lo tanto, en caso de que el contenido lo actualice el autor-personalizado-1 que tiene acceso a la carpeta-personalizada-1, el mismo contenido actualizado también se reflejará en la carpeta-personalizada-2 a la que tiene acceso el autor-personalizado-2.
+Tenga en cuenta que las carpetas de contenido son simplemente compartimentos virtuales para vincular el contenido. Si se incluye un contenido en dos carpetas, esto significa que el archivo de contenido es siempre un único archivo, aunque esté vinculado a varias carpetas. Por lo tanto, si el contenido lo actualiza el autor-personalizado-1 que tiene acceso a la carpeta-personalizada-1, el mismo contenido actualizado se reflejará en la carpeta-personalizada-2 a la que tiene acceso el autor-personalizado-2.
 
 En la biblioteca de contenido, hay dos opciones para administrar las carpetas de contenido:
 
@@ -358,7 +358,7 @@ Para mover el contenido de una carpeta pública a cualquier carpeta privada:
 
 ## Copiar contenido en la carpeta {#copycontenttofolder}
 
-Copiar una carpeta significa que estaría agregando una etiqueta a la carpeta. La operación de copia no creará copias de contenido, sino que solo agregará una asociación con las carpetas especificadas.
+Copiar una carpeta significa que estaría agregando una etiqueta a la carpeta. La operación de copia no creará copias del contenido; simplemente añadirá una asociación con las carpetas especificadas.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -368,7 +368,7 @@ Copiar una carpeta significa que estaría agregando una etiqueta a la carpeta. L
 
 Desvincular significa quitar el contenido de la carpeta seleccionada.
 
-El contenido se puede desvincular de una carpeta especificada **SOLO** si también está asociado a otras carpetas. Si el contenido que se va a desvincular solo está asociado a una carpeta, es recomendable utilizar la operación MOVER.
+El contenido se puede desvincular de una carpeta especificada **SOLO** si también está asociado a otras carpetas. Si el contenido que se desvincula solo está asociado a una carpeta, es recomendable MOVER el contenido.
 
 >[!NOTE]
 >
@@ -415,7 +415,7 @@ El contenido se puede desvincular de una carpeta especificada **SOLO** si tambi�
      <li>Basado en porcentaje mínimo requerido</li>
      <li>Opciones de prueba superada o intentada</li>
     </ul>
-    <p><b>NOTA:</b> Solo se puede editar el contenido de HTML de Captivate, Presenter Video Express o Presenter.</p></td>
+    <p><b>NOTA:</b> Solo es posible editar contenido HTML de Captivate, Presenter Video Express o Presenter.</p></td>
   </tr>
  </tbody>
 </table>
@@ -656,8 +656,8 @@ Cree un curso de aprendizaje electrónico compatible con SCORM en cualquier herr
 En Adobe Learning Manager, la biblioteca de contenido también mantiene las versiones del contenido cargado. Si realiza algún cambio en el contenido, por ejemplo, una presentación de PowerPoint, y vuelve a cargar la presentación en la biblioteca, el número de versión se incrementa en uno. Esto le ayuda a realizar un seguimiento de los cambios en el contenido. Se puede aplicar una nueva versión del contenido a todos los objetos de aprendizaje simultáneamente, o aplicar actualizaciones individuales para cada curso.
 +++
 
-+++Cómo editar los detalles de un curso en otro idioma?
++++¿Cómo se editan los detalles de un curso en un idioma diferente?
 Después de añadir uno o varios idiomas, como se describe en una sección anterior, haga clic en cada ficha de idioma y, a continuación, añada o edite la información del curso.
 
-&lt;!—![](assets/edit-course-language.png)—>
+<!--![](assets/edit-course-language.png)-->
 +++

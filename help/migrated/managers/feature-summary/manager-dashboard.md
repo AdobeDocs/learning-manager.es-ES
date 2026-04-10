@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Tablero de responsable
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ En la vista de equipo, se muestran los equipos, los integrantes y sus inscripcio
 
 *La vista de equipo muestra los equipos, sus miembros y sus respectivas inscripciones*
 
-Al hacer clic en los nombres de los equipos, por ejemplo, el equipo de Venkatesh, puede ver los miembros del equipo de Venkatesh junto con el número total de inscripciones, progresos y finalizaciones de un objeto de aprendizaje.
+Al hacer clic en los nombres de equipo, por ejemplo Venkatesh, puede ver los miembros de dicho equipo, así como el número total de inscripciones, progresos y finalizaciones de un objeto de aprendizaje.
 
 ![](assets/ls-click-team-names.png)
 
@@ -139,7 +139,8 @@ Esto te permite realizar un seguimiento del progreso general de aprendizaje de t
 ![](assets/download-report.png)
 _Descargar informes_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Aptitudes de equipo {#teamskills}
 
@@ -213,7 +215,7 @@ Esta previsión se basa en cálculos de sistema que ofrecen una perspectiva futu
 
 Para ver el estado de aptitudes de un equipo, siga los pasos que se indican a continuación:
 
-1. Haga clic en **[!UICONTROL Aptitudes del equipo]** en el panel izquierdo, en la sección Vista de mi equipo.
+1. En el panel izquierdo, debajo de la sección Vista de mi equipo, Haga clic en **[!UICONTROL Aptitudes de equipo]**.
 1. Para ver las aptitudes que se muestran, haga clic en el filtro de aptitudes y seleccione una de la lista desplegable.
 1. Para seleccionar un nivel (1, 2 o 3), haga clic en el menú desplegable de niveles.
 1. En función de la aptitud y el nivel seleccionados, se muestra un gráfico con su estado de aptitud. Al pasar el cursor sobre el gráfico, se pueden ver los porcentajes siguientes relativos al estado de la aptitud: **En curso** y **Conseguido**.
@@ -232,13 +234,13 @@ Para prever el porcentaje de finalización del equipo respecto a una aptitud, si
 
    *Seleccione Configurar hipervínculo*
 
-1. En el cuadro de diálogo emergente configurar, para la aptitud que desee configurar, introduzca un valor de porcentaje en el campo **Porcentaje de finalización de destino** y la fecha en la que desee alcanzar el porcentaje de finalización de destino en el campo **Fecha de destino**.**&#x200B;**
+1. En el cuadro de diálogo emergente configurar, para la aptitud que desee configurar, introduzca un valor de porcentaje en el campo **Porcentaje de finalización de destino** y la fecha en la que desee alcanzar el porcentaje de finalización de destino en el campo **Fecha de destino**.****
 
    ![](assets/configure-tracker.png)
 
    *Especifique el porcentaje de finalización de destino*
 
-1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado se parece a la captura de pantalla siguiente.
+1. Para ver el resultado de la previsión, haga clic en el botón **Estimación**. El resultado tiene un aspecto similar al de la captura de pantalla siguiente.
 
    ![](assets/skill-tracker-output.png)
 
