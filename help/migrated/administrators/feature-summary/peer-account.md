@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cuentas de igual a igual
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 52%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ _La sección Usuarios muestra el número de puestos compartidos por la cuenta de
 
 Después de establecer una cuenta de igual a igual, también puede generar informes para las cuentas de igual a igual. Como administrador, si inicia la solicitud de cuenta de igual a igual, puede ver los informes de la cuenta de igual a igual.
 
-Si el igual también desea ver los informes del administrador, el igual debe enviar una solicitud de cuenta de igual a igual al administrador.
+Si el igual también desea ver los informes del administrador, dicho igual debe enviar una solicitud de cuenta de igual a igual al administrador.
 
 Para obtener información sobre cómo generar y ver los catálogos compartidos, consulte [Ver informes de igual a igual](reports.md#main-pars_header_894271250).
 
@@ -89,7 +89,7 @@ Si ya no desea compartir puestos o adquisiciones con una cuenta, puede eliminar 
 
 ## Informe de usuarios para cuentas de igual a igual {#download-peer-account}
 
-El administrador puede ver el informe de usuario de la cuenta de igual a igual. El administrador de la cuenta principal puede solicitar acceso al informe y, una vez que el administrador de la cuenta de igual a igual lo acepte, el administrador principal podrá ver el número de usuarios registrados en la cuenta de igual a igual y descargar el informe de usuarios para la cuenta de igual a igual.
+El administrador puede ver el informe de usuarios de la cuenta de igual a igual. El administrador de la cuenta principal puede solicitar acceso al informe y, una vez que el administrador de la cuenta de igual a igual lo acepte, el administrador principal podrá ver el número de usuarios registrados en la cuenta de igual a igual y descargar el informe de usuarios de esta cuenta.
 
 1. En la página Cuentas de igual a igual, haga clic en **[!UICONTROL Añadir]**.
 1. Habilite la opción **[!UICONTROL Solicitar permiso para descargar informes de usuarios para toda la cuenta]**.
@@ -99,6 +99,38 @@ El administrador puede ver el informe de usuario de la cuenta de igual a igual. 
 *Ver informe de usuario de una cuenta de igual a igual*
 
 Para descargar los informes de cuentas de igual a igual, haga clic en **[!UICONTROL Descargar]**.
+
+## Visualización del nombre del autor de cursos compartidos (incluidos los cursos adquiridos anteriormente)
+
+Adobe Learning Manager muestra el **nombre del autor original** de los cursos que se comparten o adquieren a través de cuentas de igual a igual.
+
+Anteriormente, los cursos adquiridos de cuentas de igual a igual se mostraban a menudo con el nombre del autor como **Autor externo**. Esto se ha mejorado para mejorar la atribución y claridad del contenido.
+
+### Cómo funciona esto
+
+* Cuando se comparte un curso desde una cuenta de igual a igual, Learning Manager ahora resuelve y muestra el **nombre de autor real** de la cuenta de origen.
+* Este comportamiento se aplica a:
+   * Cursos compartidos recientemente
+   * Cursos adquiridos antes de la introducción de esta mejora
+
+### Comportamiento retroactivo
+
+Esta mejora se aplica **retroactivamente**.\
+Los cursos que ya se adquirieron de cuentas de igual a igual antes de este cambio muestran automáticamente el nombre de autor correcto.
+
+No se requiere ninguna acción por parte de los administradores o autores:
+
+* No es necesario volver a compartir el curso
+* No es necesario volver a publicar ni editar el curso
+* Las inscripciones de alumnos existentes y el progreso no cambian
+
+### Lo que no cambia
+
+* La propiedad y los permisos del curso siguen siendo los mismos
+* Solo se actualiza el **nombre de autor mostrado**
+* Los informes, las inscripciones y la estructura de los cursos no se ven afectados
+
+Esto garantiza una atribución de autor coherente y precisa en todo el contenido compartido, incluidos los cursos históricos adquiridos a través de cuentas de igual a igual.
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 

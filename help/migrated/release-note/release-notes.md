@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '28077'
-ht-degree: 79%
+source-wordcount: '29372'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,122 @@ ht-degree: 79%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
+
++++Actualización 105: versión de abril de 2026 de Adobe Learning Manager
+
+Fecha de publicación: 11 de abril de 2026
+
+## Novedades y cambios
+
+La versión de abril de 2026 de Adobe Learning Manager introduce mejoras en la experiencia del alumno, la administración, la creación de contenido y la creación de informes, con varias funciones actualmente en versión beta y sujetas a cambios.
+
+**Mejoras en la experiencia del alumno**
+
+* Navegación mejorada del reproductor Fluidic con un etiquetado claro para el &quot;siguiente módulo&quot; y una acción de salida dedicada para mejorar el flujo del curso.
+* La compatibilidad con varios idiomas se ha ampliado a las ayudas de trabajo, listas de comprobación y leyendas de vídeo.
+* AI Assistant se integra en la experiencia de aprendizaje para ofrecer ayuda contextual.
+* Experiencia de contenido de Captivate mejorada con tabla de contenido unificada, indicadores de finalización y exportación de notas mejorada.
+* Compatibilidad con la configuración del idioma del reproductor a través de LTI para una experiencia multiplataforma coherente.
+
+**Actualizaciones de administrador y autor**
+
+* El conector de zoom ahora admite varias sesiones virtuales simultáneas, lo que mejora la eficiencia de la programación.
+* Capacidad para restringir la temporización de inicio del módulo y visibilidad mejorada de la caducidad de objetos de aprendizaje mediante API.
+* Módulos de lista de comprobación mejorados con puntuación ponderada, asistencia multilingüe y opciones de comentarios de los revisores.
+* Certificados personalizados actualizados con un editor de arrastrar y soltar, campos dinámicos y fondos generados por IA.
+* Introducción de un Experience Builder sin sesión iniciada para crear páginas de aprendizaje públicas.
+* Los cursos compartidos ahora muestran correctamente el autor original.
+
+**Funciones de instructor**
+
+* Generación de código QR para la inscripción de sesiones y el seguimiento de la asistencia.
+* Posibilidad de proporcionar comentarios y sugerencias durante las evaluaciones de la lista de comprobación.
+
+**Mejoras en la creación de informes y análisis**
+
+* Se ha mejorado la creación de informes SCORM para capturar varios intentos de prueba.
+* Cálculo más preciso del tiempo de aprendizaje en las transcripciones de alumnos.
+* Actualizaciones de los informes de transcripciones para administradores.
+* Funcionalidad de búsqueda avanzada mejorada.
+
+**Equivalentes y alternativas**
+
+* Las mejoras en los equivalentes y alternativas mejoran la flexibilidad en las rutas de aprendizaje al permitir una sustitución y asignación de cursos más precisas.
+
+**Impacto clave**
+Estas actualizaciones mejoran la facilidad de uso, la escalabilidad y la automatización, con un enfoque en el aprendizaje asistido por IA, la asistencia multilingüe, la gestión optimizada de la formación virtual y unos informes más precisos.
+
+Consulte [Novedades y cambios en la versión de abril de 2026 de Adobe Learning Manager](/help/migrated/whats-new.md) para obtener más información.
+
+## Errores solucionados en esta versión
+
+**Búsqueda avanzada:** La búsqueda avanzada no respetó el acceso a objetos de aprendizaje basado en la inscripción de usuarios cuando faltaba el acceso al catálogo. La búsqueda avanzada ahora aplica las mismas comprobaciones de acceso basadas en la inscripción que la búsqueda léxica, lo que permite a los usuarios inscritos acceder al objeto de aprendizaje sin acceso al catálogo.
+
+**Adobe Experience Manager:** El encabezado del widget de catálogo no conservó el catálogo seleccionado y abrió la página del catálogo con todos los objetos de aprendizaje en lugar del catálogo filtrado. Al hacer clic en el encabezado de un widget de catálogo, se abre la página del catálogo con el catálogo correspondiente preseleccionado y los objetos de aprendizaje filtrados correctamente a ese catálogo.
+
+**Aplicación móvil del dispositivo:** En un dispositivo móvil, los alumnos pudieron completar todos los elementos de la primera sección de una ruta de aprendizaje ordenada, pero la segunda sección no se desbloqueó incluso después de completarse correctamente. Una vez que todos los elementos de una sección se completan en dispositivos móviles, la siguiente sección de una ruta de aprendizaje ordenada ahora se desbloquea correctamente para el alumno.
+
+**Migración de LMS:** Cuando una instancia de curso creada mediante la migración tenía un ID de instancia alfanumérico, al volver a ejecutar la migración para actualizar una sesión de clase virtual se creó una nueva sesión en lugar de actualizar la existente. La migración ahora actualiza correctamente las sesiones de clase virtual existentes para las instancias de curso con ID alfanuméricos en lugar de crear sesiones duplicadas.
+
+**Duración del curso:** En los cursos VILT, la duración del nivel del curso siempre se tomaba de un LO_DURATION estático en la instancia predeterminada, que se convertía en 0 cuando se retiraban las sesiones y no se volvía a calcular desde los módulos de instancia reales. La duración del curso VILT ahora refleja los módulos de instancia reales en lugar de basarse únicamente en un valor LO_DURATION obsoleto o cero de la instancia predeterminada.
+
+**Conectores:** Dado que el controlador de detalles de módulo de Ember se reutilizó en todos los módulos, vcHostingSystem no se actualizó de forma coherente, lo que provocó un comportamiento mixto de VC/F2F y borró incorrectamente los identificadores de instructor basados únicamente en vcHostingSystem. El manejo de módulos ahora mantiene la coherencia de vcHostingSystem y solo borra los ID de instructor para sesiones de clase virtual reales, por lo que los instructores se actualizan correctamente para sesiones F2F convertidas.
+
+**Migración de LMS:** El back-end no respetó la columna CSV del curso del programa de aprendizaje, por lo que el orden del curso en las secciones de aprendizaje se omitió incluso cuando orderEnforced era true. Se ha eliminado la columna CSV no utilizada para el orden de los cursos para que coincida con el comportamiento de los servicios de fondo y evitar que esto implique un orden no admitido mediante CSV.
+
+**Rendimiento:** Un flujo de trabajo de automatización de AWS envió repetidamente solicitudes de descarga mal codificadas (con un espacio sin codificar) a la API HTTP de CMS de Akamai, lo que causó ráfagas de 500 errores y un tráfico excesivo no válido. El flujo de trabajo automatizado codifica correctamente los espacios en la URL de descarga, lo que evita solicitudes no válidas y elimina los 500 picos de error asociados.
+
+**Inscripción y desinscripción:** En algunos flujos de inscripción de administradores para programas de aprendizaje, certificaciones y cursos, el origen de inscripción se registró incorrectamente como SELF_ENROLL en lugar de ADMIN_ENROLL. Las inscripciones basadas en la administración ahora se almacenan de forma coherente con el origen ADMIN_ENROLL en los flujos afectados.
+
+**Inscripción y cancelación de inscripción:** Para las inscripciones basadas en umbrales en una cadena de certificaciones de periodicidad, los alumnos se inscribieron en una periodicidad posterior, incluso cuando no habían completado la periodicidad anterior. La inscripción basada en el umbral ahora respeta la cadena de periodicidad y los alumnos no se inscriben en una certificación posterior a menos que hayan completado la periodicidad previa requerida.
+
+**Configuración de administración:** Los administradores no pudieron agregar una cuenta de igual a igual cuyo subdominio comenzó con un número debido a una regla de validación que requiere que el subdominio comience con una letra. Ahora se aceptan cuentas de igual a igual con subdominios que empiezan por un número, siempre que cumplan las reglas de caracteres permitidos.
+
+**Curso - Puntuación de prueba:** En el inicio descentralizado, después de que un administrador restableciera un módulo de prueba, el reproductor mostró un total incorrecto de 12 preguntas en lugar de las 3 preguntas reales. En el inicio descentralizado, el reproductor de cuestionarios ahora muestra el número total correcto de preguntas después de restablecer el módulo.
+
+**Autor:** Cuando se actualizó un grupo de contenido de SCORM a CAPI, la información de informes y los criterios de finalización no se actualizaron, lo que dejó al grupo de contenido sin criterios de finalización. Ahora, al actualizar un grupo de contenido de SCORM a CAPI, se actualiza correctamente la información de informes y se establecen los criterios de finalización adecuados para el grupo de contenido.
+
+**Device App Mobile:** En la aplicación móvil de Captivate Prime, los recursos descargables que se abrieron en una nueva pestaña a través de target=&quot;_blank&quot; no se descargaron al tocar. En la aplicación móvil, al tocar un recurso descargable ahora se inicia correctamente la descarga incluso cuando el contenido utiliza los vínculos target=&quot;_blank&quot;.
+
+**Editor de texto enriquecido:** Los saltos de línea en las descripciones de objetos de texto enriquecido se quitaron en la vista de autor después de la publicación, aunque los alumnos seguían viendo los saltos de línea. Las descripciones de objetos de aprendizaje de texto enriquecido ahora conservan y muestran correctamente los saltos de línea en las vistas de autor y de alumno.
+
+## Problema conocido/Por diseño
+
+### Comportamiento de versiones para recursos de Second Nature
+
+Adobe Learning Manager (ALM) no incrementa la versión de los recursos de Second Nature (SN) durante los escenarios de edición. Este comportamiento refleja cómo ALM gestiona las actualizaciones de contenido de SN en lugar de una opción de creación.
+
+Second Nature no admite la administración de versiones en su sistema de origen. Cuando un autor actualiza los datos del escenario en el portal de SAN, los recursos de ALM y sus objetos de aprendizaje (LO) asociados hacen referencia automáticamente al contenido actualizado sin crear una nueva versión.
+
+En comparación, ALM admite el control de versiones para recursos basados en archivos y LTI, donde los autores pueden reemplazar archivos o actualizar vínculos de inicio. Debido a que estos controles no están disponibles para las integraciones de SAN, ALM no admite el salto de versión para el contenido de Second Nature.
+
+
++++
+
+
++++Actualización 104: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
+
+Fecha de publicación: 2 de marzo de 2026
+
+## Asistente de IA para los alumnos
+
+Una herramienta de conversación basada en GenAI diseñada para ayudar a los alumnos a encontrar respuestas, recursos y cursos relevantes al instante mediante consultas de lenguaje natural.
+
+**Aspectos destacados**
+
+* Utiliza la generación aumentada de recuperación (RAG) para buscar de forma inteligente el contenido del curso, las ayudas de trabajo y los materiales de aprendizaje para ofrecer respuestas precisas y contextuales.
+* Comprende el contexto, conserva las interacciones anteriores y proporciona respuestas basadas en citas como fuente de verdad básica, que se pueden consumir más adelante según sea necesario.
+* Permite a los alumnos solicitar scripts, temas de conversación y resúmenes personalizados adaptados a sus necesidades de aprendizaje individuales.
+* Busca en todos los formatos de contenido admitidos, incluidos PDF, DOCX, PPTX, Audio, Vídeos y SCORM 1.2 y 2004.
+
+Vea [Asistente de inteligencia artificial para alumnos](/help/migrated/learners/feature-summary/learner-ai-assistant.md) para obtener más información.
+
++++
 
 +++Actualización 103: versión de noviembre de 2025 de Adobe Learning Manager
 
@@ -187,7 +298,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1667,7 +1778,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2045,7 +2156,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -2671,7 +2782,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3181,7 +3292,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.
@@ -3520,7 +3631,7 @@ Fecha de publicación: 11 de diciembre de 2015
 
 **Inicio de sesión de usuarios**
 
-* Cuando un usuario intentaba iniciar sesión en la aplicación Learning Manager sin utilizar el vínculo de activación, aparecía el mensaje de error con un formato erróneo. Se ha solucionado el problema.
+* Cuando un usuario intentaba iniciar sesión en la aplicación Learning Manager sin utilizar el vínculo de activación, aparecía el mensaje de error con un formato erróneo. Este problema se ha solucionado.
 
 **Aplicación para tabletas**
 

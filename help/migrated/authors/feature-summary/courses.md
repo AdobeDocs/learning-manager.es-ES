@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 75%
+source-wordcount: '8840'
+ht-degree: 64%
 
 ---
 
@@ -531,7 +531,9 @@ La evaluación es un aspecto importante de cualquier sistema de gestión de apre
 
 Por ejemplo, la evaluación de los empleados de una tienda o los trabajadores de un almacén en relación con las tareas que se supone que deben realizar diariamente. Podría tratarse de los pasos llevados a cabo para reparar una máquina de café o de las etapas de envasado de un material. Los instructores pueden evaluar a los empleados en relación con estas tareas según una lista de comprobación y calificar su labor como Aprobado o Suspenso en la actividad de evaluación.
 
-### Crear una lista de comprobación {#createachecklist}
+Puede crear una lista de comprobación en varios idiomas.
+
+### Crear una lista de comprobación en varios idiomas {#createachecklist}
 
 Solo un autor puede crear una lista de comprobación. Una lista de comprobación es un tipo de módulo de actividad. Al configurar un módulo de actividad, usted, como autor, puede seleccionar una actividad como **lista de comprobación**, como se muestra a continuación:
 
@@ -539,9 +541,26 @@ Solo un autor puede crear una lista de comprobación. Una lista de comprobación
 
 *Crear una lista de comprobación*
 
-Una vez que haya seleccionado la opción **Lista de comprobación**, aparecerán algunas opciones adicionales.
+1. Una vez que haya seleccionado la opción **Lista de comprobación**, aparecerán algunas opciones adicionales.
 
-**Tipo de lista de comprobación:** elija una opción, **Sí/No** o **1-5**. Si elige Sí/No, la lista de comprobación contendrá preguntas que solo se pueden responder con Sí o No. Si elige 1-5, puede ver una lista de comprobación de tipo Likert, donde puede calificar una respuesta en una escala de uno a cinco puntos.
+2. **Tipo de lista de comprobación:** elija una opción, **Sí/No** o **1-5**. Si elige Sí/No, la lista de comprobación contendrá preguntas que solo se pueden responder con Sí o No. Si elige 1-5, puede ver una lista de comprobación de tipo Likert, donde puede calificar una respuesta en una escala de uno a cinco puntos.
+
+3. Seleccione **Configurar**. Aparecerá la ventana Lista de comprobación.
+4. Escriba todas las preguntas que desee. También puede introducir las mismas preguntas en los idiomas adicionales.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Hay disponibles otros idiomas*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Por ejemplo, las preguntas también se escriben en francés*
+
+   >[!NOTE]
+   >
+   >ALM no traduce automáticamente las preguntas en esos idiomas adicionales. Tienes que traducir las preguntas en los respectivos idiomas.
+
+5. Seleccione **Guardar**. Las preguntas se guardan en todos los idiomas.
+6. Seleccione todas las demás opciones relevantes y seleccione **Agregar**. La lista de comprobación se crea en todos los idiomas en los que está disponible el curso.
+
 
 **Criterios para aprobar:**
 
@@ -573,6 +592,8 @@ Ahora, añada las preguntas de la lista de comprobación. Haga clic en **[!UICON
 *Agregar preguntas de lista de comprobación*
 
 Para añadir más preguntas, haga clic en **[!UICONTROL Añadir más]**.
+
+
 
 Guarde los cambios, añada el módulo y publique el curso.
 
@@ -617,6 +638,218 @@ En esta página, indique los datos siguientes:
    *Asignar una función de instructor a un usuario*
 
 1. Para volver a publicar el curso con las actualizaciones, haga clic en **[!UICONTROL Volver a publicar]**.
+
+### Lista de comprobación con comentarios
+
+
+Los comentarios de la lista de comprobación permiten a los autores habilitar **comentarios contextuales** durante las evaluaciones basadas en la lista de comprobación.\
+Cuando está activada, los revisores (instructores o responsables) pueden añadir comentarios para explicar los resultados de la evaluación más allá de las puntuaciones o el estado de aprobado/suspenso.
+
+Esta capacidad transforma las listas de comprobación de una herramienta puramente de evaluación en un **mecanismo de aprendizaje basado en los comentarios**, lo que mejora la comprensión del alumno, la transparencia y las acciones de seguimiento.
+
+Con esto, los autores pueden:
+
+* Habilitar comentarios del revisor en listas de comprobación
+* Controlar si los comentarios son visibles para los alumnos
+* Controlar si el nombre del revisor se muestra a los alumnos
+* Asegurarse de que los comentarios del revisor se reflejen en las transcripciones de los alumnos y los informes
+
+#### Casos de uso
+
+#### Evaluaciones del rendimiento
+
+Proporcionar información clara sobre los puntos fuertes, las lagunas y las áreas de mejora observadas durante las evaluaciones reales o basadas en funciones.
+
+#### Formación con instructor y VILT
+
+Permite que los instructores expliquen por qué un alumno ha aprobado o ha suspendido una evaluación basada en una lista de comprobación.
+
+#### Escenarios de cumplimiento y auditoría
+
+Mantener una pista auditable que explique las decisiones de evaluación de la lista de comprobación.
+
+#### Entornos de varios revisores
+
+Ayude a los alumnos a identificar quién los evaluó y realice un seguimiento para obtener aclaraciones.
+
+#### Habilitar comentarios de lista de comprobación
+
+1. Abra un curso existente o cree un nuevo curso.
+2. Agregue un módulo de lista de comprobación o abra un módulo de lista de comprobación existente para editarlo.
+3. En el panel de configuración de lista de comprobación:
+   1. Seleccione **Comentarios del revisor**. Al revisar la lista de comprobación, los revisores pueden añadir sus comentarios o sugerencias. Una vez que se haya publicado, este parámetro no se puede modificar.
+   2. (Opcional) Seleccione **Mostrar nombre del revisor al alumno**. Esto permite a los alumnos ver el nombre del revisor que ha revisado el módulo de lista de comprobación.
+4. Guarde la configuración de la lista de comprobación.
+5. Publish el curso para que la lista de comprobación esté disponible para las evaluaciones.
+
+La lista de comprobación ahora admite comentarios del revisor durante la evaluación del alumno.
+
+#### Qué sucede durante la evaluación
+
+Aunque los autores no realizan evaluaciones, es útil comprender cómo se utiliza la configuración:
+
+* Los revisores ven un **campo de comentario** al evaluar a los alumnos
+* Los revisores pueden añadir comentarios contextuales durante el envío
+* Si se activa:
+   * Los alumnos ven comentarios del revisor
+   * Los alumnos ven el nombre del revisor
+
+#### Experiencia del alumno (cuando se activa)
+
+* Cuando los alumnos abren una lista de comprobación completada:
+* Verán el resultado de la lista de comprobación (aprobado/suspenso o puntuación)
+* Verán los comentarios del revisor (si se activa)
+* Verán el nombre del revisor (si se activa)
+
+Esto ayuda a los alumnos a comprender claramente los resultados de la evaluación y los pasos siguientes.
+
+#### Notas clave para autores
+
+* Los comentarios de la lista de comprobación son **opcionales** y deben habilitarse explícitamente
+* La visibilidad de los comentarios y la identidad del revisor está **totalmente controlada por el autor**
+* Funciona con:
+   * Uno o varios revisores
+   * Listas de comprobación basadas en puntuaciones, Sí/No y escaladas
+* No afecta a las listas de comprobación existentes a menos que el autor las actualice
+
+### Crear una lista de comprobación en varios idiomas
+
+La compatibilidad con varios idiomas para las listas de comprobación permite a los autores crear **un único módulo de lista de comprobación con preguntas disponibles en varios idiomas**.\
+Cuando se habilita, los revisores ven automáticamente las preguntas de la lista de comprobación en el **idioma de contenido seleccionado**, lo que garantiza evaluaciones coherentes y localizadas en los equipos globales.
+
+Esto elimina la necesidad de crear y administrar **listas de comprobación independientes por idioma**, lo que reduce la duplicación y simplifica el mantenimiento del curso.
+
+Gracias a la compatibilidad con listas de comprobación en varios idiomas, los autores pueden:
+
+* Añadir preguntas de lista de comprobación en varios idiomas dentro de la misma lista de comprobación
+* Mantener la paridad de idioma entre las preguntas de la lista de comprobación
+* Asegurarse de que los revisores vean las preguntas de la lista de comprobación traducidas automáticamente al idioma del contenido
+* Descargar informes de lista de comprobación en el idioma seleccionado
+
+#### Casos de uso
+
+#### Evaluaciones de la fuerza de trabajo global
+
+Permite que los responsables y los instructores de todas las regiones evalúen a los alumnos mediante preguntas de lista de comprobación traducidas.
+
+#### Evaluaciones estandarizadas en las distintas regiones
+
+Mantenga una única estructura de evaluación y admita varios idiomas para diferentes regiones geográficas.
+
+#### Cumplimiento normativo y formación operativa
+
+Asegurarse de que los evaluadores entiendan claramente los criterios de la lista de comprobación en su idioma nativo, reduciendo los errores de interpretación.
+
+#### Duplicación de contenido reducida
+
+Evite crear y mantener varios módulos de lista de comprobación para diferentes idiomas.
+
+#### Cómo crear una lista de comprobación en varios idiomas
+
+1. Abra un curso existente o cree un nuevo curso.
+2. Añada un módulo de lista de comprobación.
+3. En la configuración del curso, agregue los **idiomas de contenido** necesarios (por ejemplo, inglés, francés, alemán).
+4. Guarde la configuración del curso.
+
+#### Cómo configurar preguntas de lista de comprobación en varios idiomas
+
+1. Abra la configuración del módulo de lista de comprobación.
+2. Vaya a la sección **Configurar preguntas**.
+3. Use las **fichas de idioma** para cambiar entre los idiomas disponibles.
+4. Para cada idioma:
+   * Añadir la versión traducida de cada pregunta de la lista de comprobación
+   * Mantener un significado y una intención de evaluación equivalentes en todos los idiomas
+5. Defina los criterios de lista de comprobación (Sí/No, basados en escala o en puntuación) según sea necesario.
+
+Cada versión de idioma representa la misma lista de comprobación, no un módulo independiente.
+
+Guarde la configuración de la lista de comprobación y publique el curso. La lista de comprobación ya está disponible en todos los idiomas configurados.
+
+#### Experiencia del revisor
+
+* Los revisores ven preguntas de lista de comprobación en **el idioma de contenido seleccionado**
+* No se requiere cambio manual de idioma durante la evaluación
+* Si un revisor cambia el idioma de su contenido, las preguntas de la lista de comprobación se adaptan automáticamente
+
+### Asignar ponderaciones a preguntas de lista de comprobación
+
+El grosor de preguntas de lista de comprobación permite a los autores crear **listas de comprobación basadas en la puntuación** en las que las preguntas de lista de comprobación individuales pueden llevar **puntuaciones máximas diferentes**.
+
+En lugar de tratar todos los elementos de la lista de comprobación por igual, los autores pueden definir preguntas ponderadas y establecer una **puntuación total mínima** necesaria para que un alumno las apruebe.
+
+Esta capacidad permite realizar evaluaciones más precisas y flexibles, especialmente para la **formación basada en el rendimiento, basada en las evaluaciones y orientada al cumplimiento**.
+
+Con el peso de preguntas de la lista de comprobación, los autores pueden:
+
+* Crear un tipo de lista de comprobación basada en **puntuación**
+* Asignar diferentes **puntuaciones máximas** a preguntas individuales de la lista de comprobación
+* Defina una **puntuación total mínima** necesaria para aprobar la lista de comprobación
+* Utilizar una escala de puntuación ampliada (rango configurable hasta 10)
+* Ver la puntuación conseguida frente a la puntuación máxima en los informes
+
+#### Casos de uso
+
+#### Evaluaciones con instructor
+
+Evalúa a los alumnos utilizando criterios de puntuación detallados en lugar de resultados simples de Sí/No.
+
+#### SOP y formación operativa
+
+Asigne mayor peso a los pasos críticos y menor peso a las tareas menores.
+
+#### Cumplimiento normativo y preparación de la certificación
+
+Asegúrate de que los alumnos alcanzan un umbral mínimo de competencia definido antes de aprobar.
+
+#### Análisis de rendimiento y habilidades
+
+Apoyar las evaluaciones estructuradas en las que la finalización parcial siga contribuyendo a la puntuación general.
+
+#### Cómo crear una lista de comprobación ponderada
+
+1. Abra un curso existente o cree un nuevo curso.
+2. Agregue un módulo de lista de comprobación o abra un módulo de lista de comprobación existente para editarlo.
+3. En el panel de configuración de lista de comprobación, elija el tipo de lista de comprobación **Puntuación personalizada**.
+4. Esto permite la puntuación por pregunta y el cálculo de la puntuación total.
+5. Añada preguntas de la lista de comprobación según sea necesario.
+6. Para cada pregunta:
+   * Defina la **puntuación máxima** (por ejemplo, 5, 10, 20)
+7. Asegúrese de que las puntuaciones de las preguntas reflejen su importancia relativa.
+
+Las distintas preguntas pueden tener puntuaciones máximas diferentes dentro de la misma lista de comprobación.
+
+#### Definir criterios de aprobado
+
+1. Especifique la **puntuación total mínima** necesaria para aprobar la lista de comprobación. El sistema calcula automáticamente la puntuación total posible en función del peso de la pregunta.
+2. Guarde la configuración de la lista de comprobación y publique el curso.
+
+La lista de comprobación ahora está habilitada con la puntuación ponderada para las evaluaciones del instructor.
+
+#### Experiencia del revisor
+
+* Los revisores ven cada pregunta de lista de comprobación con su **puntuación máxima**
+* Los revisores asignan puntuaciones por pregunta durante la evaluación
+* El sistema calcula:
+   * Puntuación total lograda
+   * Estado Aprobado o Suspendido según criterios definidos
+
+#### Experiencia del alumno
+
+* Los alumnos ven el estado de finalización de la lista de comprobación (aprobado/suspenso)
+* Si se ha activado, los alumnos también pueden ver:
+   * Comentarios del revisor
+   * Nombre del revisor
+* La lógica de puntuación se aplica de forma coherente en las evaluaciones
+
+#### Notas para autores
+
+* Las listas de comprobación ponderadas son las más adecuadas para **evaluaciones formales**
+* Las puntuaciones de las preguntas deben calibrarse cuidadosamente para evitar resultados sesgados
+* Funciona con:
+   * Uno o varios revisores
+   * Comentarios del revisor (si se activa)
+* Las listas de comprobación existentes no se ven afectadas a menos que se actualicen explícitamente
+
 
 ### Permitir a los instructores marcar como correcto
 
@@ -857,7 +1090,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 

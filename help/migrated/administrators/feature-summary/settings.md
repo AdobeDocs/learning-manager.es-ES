@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 64%
+source-wordcount: '3974'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Obtenga información sobre la configuración de la cuenta de Learning Manager que puede efectuar como administrador.
 
-Puede cambiar la configuración de su perfil de administrador y actualizar la configuración de su cuenta. Visualiza tu información de perfil, añade o cambia fotos de perfil y modifica el contenido de **[!UICONTROL Acerca de mí]**. Actualice la información de su empresa, establezca los métodos de inicio de sesión para los usuarios y configure la integración de la conexión a través de la configuración de la cuenta.
+Puede cambiar la configuración de su perfil de administrador y actualizar la configuración de su cuenta. Consulte su información de perfil, añada o cambie la fotografía del perfil y modifique el contenido de **[!UICONTROL Acerca de mí]**. Actualice la información de su empresa, establezca los métodos de inicio de sesión para los usuarios y configure la integración de la conexión a través de la configuración de la cuenta.
 
 ![](assets/settings-admin.png)
 
@@ -38,9 +38,9 @@ Haga clic en **[!UICONTROL Cambiar]** en la página y edite la configuración de
 
 **Configurar los administradores de contactos**
 
-Si desea añadir o cambiar las direcciones de correo electrónico de los administradores que ofrecen asistencia en la empresa, haga clic en **[!UICONTROL General]** en el panel izquierdo. Haga clic en **[!UICONTROL Cambiar]** junto a **[!UICONTROL ID de correo electrónico de asistencia]** y agregue los ID de correo electrónico. Se envía un correo electrónico a estos administradores cuando el alumno hace clic en **[!UICONTROL Contactar con el administrador]** en el pie de la página.
+Si desea añadir o cambiar las direcciones de correo electrónico de los administradores que ofrecen asistencia en la empresa, haga clic en **[!UICONTROL General]** en el panel izquierdo. Haga clic en **[!UICONTROL Cambiar]** junto a **[!UICONTROL ID de correo electrónico de soporte]** y añada los ID de correo electrónico. Se envía un correo electrónico a estos administradores cuando el alumno hace clic en **[!UICONTROL Contactar con el administrador]** en el pie de la página.
 
-Añada ID de correo electrónico adicionales con punto y coma como separador.
+Añada ID de correo electrónico adicionales separándolos con un punto y coma.
 
 **Métodos de inicio de sesión**: los administradores pueden elegir el modo mediante el cual los usuarios internos o externos pueden acceder a la cuenta.
 
@@ -101,7 +101,7 @@ Active o desactive las opciones siguientes:
   </tr>
   <tr>
    <td>Mostrar eficacia del curso</td>
-   <td>Si se ha activado, los alumnos pueden ver la eficacia actual del curso en el icono del curso. Esta función solo está disponible para los cursos. La valoración basada en estrellas no es compatible con programas de aprendizaje ni certificados. Está disponible para cursos y programas de aprendizaje, pero no para certificaciones.</td>
+   <td>Si la opción está activada, los alumnos pueden ver la eficacia actual del curso en el mosaico del curso. Esta función solo está disponible para los cursos. La valoración basada en estrellas no es compatible con los programas de aprendizaje ni los certificados. Está disponible para cursos y programas de aprendizaje, pero no para certificaciones.</td>
   </tr>
   <tr>
    <td>Moderación de los cursos</td>
@@ -121,8 +121,13 @@ Active o desactive las opciones siguientes:
   </tr>
   <tr>
    <td>Visibilidad de aptitudes/etiquetas</td>
-   <td>Se muestran todas las aptitudes y etiquetas a los alumnos. Se pueden mostrar todas las aptitudes y etiquetas, solo las aptitudes y etiquetas que se asignan, o las que son parte de los catálogos visibles para el alumno.</td>
-  </tr>
+   <td>Se muestran todas las aptitudes y etiquetas a los alumnos. Se pueden mostrar todas las aptitudes y etiquetas, solo las aptitudes y etiquetas que se asignan, o las que son parte de los catálogos visibles para el alumno.
+   <p><b>Importante: Asistente del alumno y visibilidad del catálogo</b></p>
+   <p>Si su cuenta utiliza el Ayudante del alumno, recuerde que los catálogos seleccionados como orígenes de contenido para el Ayudante no tienen el ámbito de la visibilidad del catálogo por alumno. El Ayudante puede utilizar contenido de los catálogos configurados aunque algunos cursos de formación no estén visibles para un alumno determinado en la vista Catálogo.</p>
+   <p>Adobe recomienda seleccionar solo catálogos que contengan contenido que se pueda exponer con comodidad (de forma resumida o explicada) a todos los alumnos que puedan acceder al Asistente del alumno. </p>
+   </td>
+
+</tr>
   <tr>
    <td>ID exclusivos de objetos de aprendizaje</td>
    <td>Si la opción está activada, un administrador o un autor pueden agregar un identificador único para cada objeto de aprendizaje.</td>
@@ -164,8 +169,13 @@ Active o desactive las opciones siguientes:
    <td>Si la opción está activada, los usuarios internos se eliminan automáticamente si no acceden al sistema durante un determinado número de días. Esta opción solo es aplicable a usuarios que tienen la función <b>Alumno</b>. Para restaurar el acceso, los usuarios deben ponerse en contacto con el administrador.<br></td>
   </tr>
   <tr>
+   <td height="20">Eliminar automáticamente usuarios purgados</td>
+   <td>Si la opción está activada, los usuarios internos se eliminan automáticamente si no acceden al sistema durante un determinado número de días. Esta opción solo es aplicable a usuarios que tienen la función Alumno. Para restaurar el acceso, los usuarios deben ponerse en contacto con el administrador. Después de activar la opción, puede especificar el tiempo en años tras el cual los usuarios purgados se eliminarán permanentemente de ALM.</td>
+  </tr>
+  <tr>
+  <tr>
    <td>Mostrar etiquetas de catálogo</td>
-   <td>Si está activada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje. Al seleccionar esta opción, los autores también pueden añadir cursos, rutas de aprendizaje, certificaciones o ayudas de trabajo a los catálogos.</td>
+   <td>Si la opción está activada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje. Al seleccionar esta opción, los autores también pueden añadir cursos, rutas de aprendizaje, certificaciones o ayudas de trabajo a los catálogos.</td>
   </tr>
   <tr>
    <td>Los alumnos pueden ver sus puntuaciones</td>
@@ -206,7 +216,7 @@ Active o desactive las opciones siguientes:
     </ol>
     <p>Además, puede llevar a cabo las acciones siguientes:</p>
     <ul>
-     <li>Haga clic en el icono <b>Restablecer</b> para restablecer los valores predeterminados en los campos <b>Ayuda</b> y <b>Contactar con el administrador</b>.</li>
+     <li>Hacer clic en el icono <b>Restablecer</b> para restablecer los valores predeterminados de los campos <b>Ayuda</b> y <b>Contactar con el administrador</b>.</li>
      <li>Personalizar el vínculo del pie de página para todos los idiomas. Haga clic en la lista desplegable <b>Idioma</b>; a continuación, seleccione el idioma y agregue los valores de <b>Nombre</b> y <b>URL</b> en los campos correspondientes. Después de guardar los cambios, los vínculos actualizados aparecen en el pie de página.<br></li>
     </ul></td>
   </tr>
@@ -219,7 +229,7 @@ Active o desactive las opciones siguientes:
      <li>Preferencia de zona horaria en el nivel de cuenta</li>
     </ul>
     <p>La transcripción del alumno descargada mediante la API de trabajos también descarga los datos en la zona horaria seleccionada.</p>
-    <p><b>Nota: </b>No se espera ningún cambio en la transcripción del alumno de forma predeterminada justo después de la publicación. Los administradores pueden configurar este ajuste desde Administración &gt; Configuración &gt; General &gt; Zona horaria del informe.</p></td>
+    <p><b>Nota: </b>no se espera ningún cambio en la transcripción del alumno de forma predeterminada justo después de la publicación. Los administradores pueden configurar este ajuste desde Administración &gt; Configuración &gt; General &gt; Zona horaria del informe.</p></td>
   </tr>
  </tbody>
 </table>
@@ -291,8 +301,13 @@ Active o desactive las opciones siguientes:
   </tr>
   <tr>
    <td height="20">Mostrar lista del catálogo</td>
-   <td>Si la opción está activada, los alumnos pueden ver la lista de todos los catálogos disponibles para ellos. Los alumnos pueden usarla para ajustar la visualización de objetos de aprendizaje.</td>
-  </tr>
+   <td>Si la opción está activada, los alumnos pueden ver la lista de todos los catálogos disponibles para ellos. Los alumnos pueden usarla para ajustar la visualización de objetos de aprendizaje.
+   <p><b>Importante: Asistente del alumno y visibilidad del catálogo</b></p>
+   <p>Si su cuenta utiliza el Ayudante del alumno, recuerde que los catálogos seleccionados como orígenes de contenido para el Ayudante no tienen el ámbito de la visibilidad del catálogo por alumno. El Ayudante puede utilizar contenido de los catálogos configurados aunque algunos cursos de formación no estén visibles para un alumno determinado en la vista Catálogo.</p>
+   <p>Adobe recomienda seleccionar solo catálogos que contengan contenido que se pueda exponer con comodidad (de forma resumida o explicada) a todos los alumnos que puedan acceder al Asistente del alumno. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Terminología del producto</td>
    <td>Learning Manager tiene una terminología estándar que se utiliza en todo el producto. Modifique esta terminología para adecuarla a los requisitos de su empresa.</td>
@@ -305,11 +320,6 @@ Active o desactive las opciones siguientes:
    <td height="20">Registro automático de usuarios</td>
    <td>Si la opción está activada, los usuarios recién importados se registran automáticamente. De forma predeterminada, los usuarios deben registrarse manualmente antes de poder empezar a utilizar Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Eliminar automáticamente usuarios internos</td>
-   <td>Si la opción está activada, los usuarios internos se eliminan automáticamente si no acceden al sistema durante un determinado número de días. Esta función se aplica a los usuarios que solo tienen la función Alumno. Para restaurar el acceso, los usuarios deben ponerse en contacto con el administrador.</td>
-  </tr>
-  <tr>
    <td height="20">Mostrar etiquetas de catálogo</td>
    <td>Si la opción está activada, los administradores y los autores pueden definir etiquetas de catálogo y valores, y vincularlos a objetos de aprendizaje.</td>
   </tr>
@@ -331,7 +341,7 @@ Active o desactive las opciones siguientes:
    <td height="19">Si la función está desactivada:</td>
   </tr>
   <tr>
-   <td height="19">Se desactivará la opción Correo electrónico de resumen .</td>
+   <td height="19">Se desactivará la opción Correo electrónico de resumen.</td>
   </tr>
   <tr>
    <td height="19">Un alumno no puede ver la configuración de usuario para la suscripción al correo electrónico de resumen.</td>
@@ -357,7 +367,7 @@ Active o desactive las opciones siguientes:
    <td height="19">Para personalizar los vínculos del pie de página, efectúe los pasos siguientes:</td>
   </tr>
   <tr>
-   <td height="19">1. Haga clic en Añadir más, introduzca el nombre y la URL o el ID de correo electrónico en los campos especificados. Agregue el prefijo http:// o https:// a la URL.</td>
+   <td height="19">1. Haga clic en Añadir más, introduzca el nombre y la dirección URL o el ID de correo electrónico en los campos especificados. Agregue el prefijo http:// o https:// a la URL.</td>
   </tr>
   <tr>
    <td height="19">2. Para aplicar el cambio en cascada en todas las configuraciones regionales, haga clic en Replicar. De este modo, se garantiza que todos los idiomas obtengan el nombre y la URL.</td>
@@ -369,10 +379,10 @@ Active o desactive las opciones siguientes:
    <td height="19">Además, puede llevar a cabo las acciones siguientes:</td>
   </tr>
   <tr>
-   <td height="19">Haga clic en el icono Restablecer para restablecer los valores predeterminados de los campos Ayuda y Contactar con el administrador .</td>
+   <td height="19">Hacer clic en el icono Restablecer para restablecer los valores predeterminados de los campos Ayuda y Contactar con el administrador.</td>
   </tr>
   <tr>
-   <td height="20">Personalizar el vínculo del pie de página para todos los idiomas. Haga clic en la lista desplegable Idioma, seleccione el idioma y agregue el Nombre y la URL en los campos especificados. Después de guardar los cambios, los vínculos actualizados aparecen en el pie de página.</td>
+   <td height="20">Personalizar el vínculo del pie de página para todos los idiomas. Haga clic en la lista desplegable Idioma; a continuación, seleccione el idioma y agregue los valores de Nombre y URL en los campos correspondientes. Después de guardar los cambios, los vínculos actualizados aparecen en el pie de página.</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">Zona horaria del informe</td>
@@ -402,10 +412,10 @@ Active o desactive las opciones siguientes:
      <li>Si la opción <b>Eficacia del curso</b> está activada, los alumnos solo podrán ver el valor de la eficacia del curso.</li>
      <li>Si la opción <b>Valoración basada en estrellas</b> está activada, los alumnos solo podrán ver la valoración media con estrellas y el número de alumnos que han valorado el curso.<br></li>
     </ul>
-    <p>Esta función solo está disponible para los cursos. La valoración basada en estrellas no es compatible con los programas de aprendizaje ni los certificados.<br><br><b>Nota: </b>Este cambio solo afecta a la aplicación del alumno. </p>
+    <p>Esta función solo está disponible para los cursos. La valoración basada en estrellas no se admite en programas de aprendizaje ni certificados.<br><br><b>Nota: </b>Este cambio solo afecta a la aplicación del alumno. </p>
     <p>En el resto de aplicaciones (administrador, autor, responsable, administrador personalizado y autor personalizado), los cambios realizados en la configuración (clasificación basada en estrellas/eficacia del curso/desactivación de la visualización de valoraciones) no tendrán ningún efecto. </p>
-    <p>Para las nuevas cuentas, la sección <b>Mostrar valoraciones</b> tendrá habilitada la opción <b>Valoración basada en estrellas</b> de forma predeterminada.</p>
-    <p>Para las cuentas existentes, si la cuenta tenía habilitada la opción <b>Eficacia del curso</b>, la sección <b>Mostrar valoraciones</b> se habilitará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b>s está deshabilitada, la sección <b>Mostrar valoraciones</b> también se deshabilitará. Cuando la sección <b>Mostrar valoraciones</b> está habilitada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
+    <p>En las nuevas cuentas, la sección <b>Mostrar valoraciones</b> incluirá la opción <b>Valoración basada en estrellas</b> activada de forma predeterminada.</p>
+    <p>Para las cuentas existentes, si la cuenta tenía activada la opción <b>Eficacia del curso</b>, la sección <b>Mostrar valoraciones</b> se activará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b> está desactivada, la sección <b>Mostrar valoraciones</b> también se deshabilitará. Si la sección <b>Mostrar valoraciones</b> está activada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
   </tr>
   <tr>
    <td height="19">Retirar</td>
@@ -439,6 +449,15 @@ Active o desactive las opciones siguientes:
     <td>
       <p>Si está activado, puede elegir un origen externo para importar aptitudes. Las aptitudes de los recursos de aprendizaje existentes se importarán al repositorio de aptitudes una vez durante la ejecución inicial. Para todas las importaciones posteriores de recursos de aprendizaje, las aptitudes se importarán en el repositorio de aptitudes solo para los elementos recién importados.
       Una vez activada la opción, la acción es irreversible. No puede deshabilitar ni cambiar a otro origen más adelante.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Alternar cursos/rutas</p>
+    </td>
+    <td>
+      <p>Cuando los alumnos completan un curso o una ruta, otro conjunto especificado de cursos o rutas se puede marcar como completado mediante una alternativa. Los alumnos no se inscribirán automáticamente en los cursos o rutas marcados como completados mediante una alternativa y solo recibirán créditos, insignias y puntos por el curso o ruta que realmente hayan completado. Las opciones disponibles son: Finalizaciones retroactivas activadas e Infinalizaciones retroactivas activadas.
       </p>
     </td>
   </tr>
@@ -481,14 +500,14 @@ Actividad
 
 ## Configuración de perfil {#profilesettings}
 
-1. Haz clic en la flecha desplegable en la esquina superior derecha, junto a tu foto/cuenta y elige **[!UICONTROL Configuración de perfil]**.
-1. En el cuadro de diálogo emergente, puedes añadir o cambiar una foto moviendo el ratón y haciendo clic en **[!UICONTROL Editar]** en el área de la foto de perfil.
-1. Agregue o modifique el contenido de **[!UICONTROL About]** haciendo clic en **[!UICONTROL Editar]** junto a él.
+1. Haga clic en la flecha desplegable en la esquina superior derecha, junto a su fotografía o cuenta y elija **[!UICONTROL Configuración de perfil]**.
+1. En el cuadro de diálogo emergente, puede añadir o cambiar la fotografía si desliza el ratón y hace clic en **[!UICONTROL Editar]** en el área de la fotografía de perfil.
+1. Añada o modifique contenido de **[!UICONTROL Acerca de]** haciendo clic en **[!UICONTROL Editar]** junto a él.
 1. Haga clic en **[!UICONTROL Guardar].**
 
 ## Carpeta de contenido {#content-folder}
 
-Learning Manager admite carpetas de contenido privado. Un administrador puede configurar carpetas de contenido privado y proporcionar su acceso a determinados autores personalizados mediante funciones personalizadas. Tenga en cuenta que los autores estándar (denominados también autores completos) siguen teniendo acceso a todo el contenido de la cuenta. Por lo tanto, los autores completos tienen acceso a todas las carpetas y a todo el contenido.
+Learning Manager admite carpetas de contenido privado. Un administrador puede configurar carpetas de contenido privado y proporcionar su acceso a determinados autores personalizados mediante las funciones personalizadas. Tenga en cuenta que los autores estándar (denominados también autores completos) siguen teniendo acceso a todo el contenido de la cuenta. Por lo tanto, los autores completos tienen acceso a todas las carpetas y a todo el contenido.
 
 Los administradores pueden configurar las carpetas de contenido. Solo una vez que se hayan configurado, las carpetas de contenido pasan a estar visibles para los autores y estos podrán incluir el contenido en una o varias carpetas.
 
@@ -531,11 +550,11 @@ Para agregar una carpeta, haga clic en **[!UICONTROL Agregar]** en la esquina su
 
 **Eliminar una carpeta**
 
-También puede eliminar una carpeta. Seleccione la carpeta que desea eliminar, haga clic en el menú Acciones y, a continuación, en **[!UICONTROL Eliminar carpeta]**.
+También puede eliminar una carpeta. Seleccione la carpeta que desea eliminar, haga clic en el menú Acciones y, a continuación, haga clic en **[!UICONTROL Eliminar carpeta]**.
 
 >[!NOTE]
 >
->Las carpetas se pueden eliminar cuando todo su contenido asociado también está asociado a otras carpetas. Si hay contenido vinculado solo a la carpeta que se va a eliminar, mueva primero el contenido a otra carpeta y, a continuación, elimine la carpeta.
+>Las carpetas se pueden eliminar cuando todo su contenido asociado también está asociado a otras carpetas. Si hay contenido vinculado solo a la carpeta que se va a eliminar, mueva primero el contenido a otra carpeta y, a continuación, elimínelo.
 
 ## Ubicaciones de clases
 

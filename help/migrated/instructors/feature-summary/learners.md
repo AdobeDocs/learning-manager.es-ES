@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 69%
+source-wordcount: '1898'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Lea este artículo para obtener información sobre cómo administrar a los asist
 
 Como instructor, puede ver las sesiones o los módulos que tienen revisiones pendientes.
 
-En la página Sesiones/Módulos, puede ver una columna **Revisiones pendientes** que muestra el número de revisiones pendientes de la sesión/actividad correspondiente.
+En la página Sesiones/Módulos, se muestra la columna **Revisiones pendientes**; en ella, se indica la cantidad de revisiones pendientes de la sesión/actividad correspondiente.
 
 ## Administrar la lista de espera de la sesión {#managewaitlistforyoursession}
 
@@ -49,7 +49,7 @@ El nuevo **[!UICONTROL informe de lista de espera]** de Adobe Learning Manager p
 Siguiendo las columnas disponibles en el informe de lista de espera:
 
 * Nombre del curso
-* Nombre de la instancia
+* Nombre de instancia
 * ID de instancia
 * Estado de la instancia
 * Nombre de usuario
@@ -83,6 +83,99 @@ En la página Alumnos, puede ver la cantidad de alumnos confirmados que asisten 
 
    ![](assets/markattendance.png)
    *Marcar la asistencia del alumno*
+
+### Descargar códigos QR de inscripción y asistencia de alumnos
+
+Los instructores pueden descargar códigos QR para sus sesiones asignadas, de modo que los alumnos puedan inscribirse en una instancia del curso y marcar la asistencia o la finalización mediante el análisis del código QR.
+
+Esto permite a los instructores administrar la participación en la sesión de forma independiente, sin necesidad de asistencia del administrador.
+
+Los siguientes pasos son adecuados para ambos:
+
+* Sesiones de clase física
+* Sesiones de clase en línea
+
+Para una sesión de clase física, como instructor, debe generar el código QR correcto y pegarlo en la clase (o pasarlo) donde asisten los alumnos a la sesión para que puedan escanear el código QR y marcar su inscripción o asistencia, o ambas cosas, en función del código QR.
+
+Para una sesión de clase en línea, como instructor, puede enviar el código QR generado por correo, un sistema de mensajería o cualquier otro medio para que los alumnos puedan escanear el código QR y marcar su inscripción o asistencia, o ambas cosas, en función del código QR.
+
+
+#### Descargar códigos QR para una sesión
+
+1. Inicie sesión en Adobe Learning Manager con la función **Instructor**.
+2. Vaya al **tablero del instructor**.
+3. Abra la **instancia del curso** correspondiente.
+4. Seleccione la ficha **Sesiones**.
+5. Elija una sesión que tenga asignada.
+6. Seleccione **Código QR de sesión**.
+   ![](assets/instructor-QR-code.png)
+
+Puede descargar los siguientes códigos QR:
+
+* **Código QR de inscripción**: permite a los alumnos inscribirse en la instancia del curso
+* **Código QR de asistencia**: marca la asistencia a la sesión
+* **Inscripción + código QR de asistencia**: inscribe a los alumnos y marca la asistencia en una sola digitalización
+
+El código QR se descarga como PDF y puede compartirse digitalmente o mostrarse durante la sesión.
+
+#### Qué sucede cuando los alumnos analizan el código QR
+
+* Los alumnos escanean el código QR con un dispositivo móvil.
+* Adobe Learning Manager valida la sesión y el alumno.
+* Según el tipo de código QR:
+   * Los alumnos se inscriben en la instancia del curso, o
+   * Se registra la asistencia y la finalización del período de sesiones
+
+Todas las actualizaciones se reflejan automáticamente en los registros, transcripciones e informes de los alumnos.
+
+#### Notas
+
+* Los códigos QR solo están disponibles para los instructores asignados a la sesión.
+* Se seguirán aplicando las reglas de inscripción, asistencia y finalización configuradas para el curso y la sesión.
+* El progreso del alumno y los flujos de trabajo de informes existentes no cambian.
+
+#### Casos de uso
+
+* Las organizaciones que ejecutan grandes volúmenes de sesiones in situ (por ejemplo, formación sobre productos para profesionales) pueden permitir a los instructores imprimir códigos QR específicos de la sesión que inscriben y marcan la asistencia con una digitalización.
+
+* En la formación en venta, fabricación y atención sanitaria, en la que los alumnos suelen unirse a las sesiones directamente desde la planta o sin preinscripción, se puede colocar un código QR de &quot;Inscripción + Asistencia&quot; en la puerta. Esto permite a los alumnos realizar autoservicio de inscripción y asistencia a través de sus teléfonos.
+
+* Los eventos de formación para socios o clientes permiten que el formador in situ se adapte fácilmente a los cambios en la sala, sesiones adicionales o asistentes adicionales sin necesidad de consultar al administrador para obtener nuevos códigos QR.
+
+### Invitaciones de calendario
+
+* Cuando un alumno o instructor se inscribe en una sesión de clase o de clase virtual, Learning Manager envía una invitación de calendario (archivo ICS).
+* La invitación de calendario incluye:
+   * Fecha y hora de la sesión
+   * Detalles de sesión
+   * **Vínculo para unirse a la sesión directa** en la descripción del calendario
+
+Los participantes pueden abrir el evento del calendario y unirse a la sesión directamente desde su calendario.
+
+#### Unirse a una sesión desde Gmail
+
+1. Abra **Google Calendar**.
+2. Seleccione el evento de sesión.
+3. En los detalles del evento, haga clic en **vínculo de unión a sesión**.
+4. La sesión se abre directamente en Adobe Learning Manager o en la herramienta de clase virtual configurada.
+
+No es necesario abrir el correo electrónico original para acceder al vínculo de la sesión.
+
+#### Unirse a una sesión de otros clientes del calendario
+
+El vínculo de la sesión se incluye en el cuerpo del evento del calendario y se puede acceder a él desde:
+
+* Microsoft Outlook
+* Calendario de Apple
+* Otras aplicaciones de calendario que admiten archivos ICS
+
+#### Notas
+
+* Learning Manager genera automáticamente las invitaciones de calendario.
+* La información de zona horaria de la invitación del calendario se ajusta en función de la zona horaria seleccionada por el alumno.
+* Esta mejora se aplica a las invitaciones de calendario recién generadas.
+* Los administradores o instructores no necesitan ninguna configuración adicional.
+
 
 ## Marcar como correcto para los alumnos
 
