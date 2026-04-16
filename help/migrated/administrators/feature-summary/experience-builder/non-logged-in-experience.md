@@ -3,15 +3,17 @@ description: Explica cómo Experience Builder puede publicar páginas de aprendi
 jcr-language: en_us
 title: Configurar y administrar páginas sin sesión iniciada en Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6051'
+source-wordcount: '6058'
 ht-degree: 1%
 
 ---
 
 
-# Introducción
+# Experiencia no registrada en Experience Builder
+
+## Introducción
 
 La experiencia sin iniciar sesión en Experience Builder permite a las organizaciones mostrar su contenido de aprendizaje y páginas del portal a todos los visitantes, incluidos los que no han iniciado sesión. Esta función está diseñada para atraer, informar e interactuar con posibles alumnos, ya que ofrece una vista previa fluida y de marca de sus ofertas de formación antes de solicitarles que inicien sesión o se inscriban.
 
@@ -29,7 +31,7 @@ La promoción de la marca y la localización son totalmente compatibles, lo que 
 
 La experiencia sin iniciar sesión en Experience Builder permite a las organizaciones mostrar públicamente el contenido de aprendizaje y las páginas del portal a cualquiera, sin necesidad de que los usuarios inicien sesión. Esto ayuda a atraer, informar e interactuar con posibles alumnos al proporcionar una vista previa de la formación y los recursos disponibles antes de la inscripción o la autenticación.
 
-## Casos prácticos del mundo real en la experiencia de inicio de sesión no registrado
+## Casos prácticos del mundo real de experiencias sin inicio de sesión
 
 - **Marketing y divulgación**: las organizaciones pueden promocionar sus programas de formación a audiencias externas, como clientes potenciales, socios o solicitantes de empleo, haciendo que los catálogos de los cursos y los detalles del programa sean de acceso público.
 - **Exploración previa a la inscripción**: Los alumnos pueden examinar los cursos disponibles, consultar información general y explorar las categorías antes de decidir si se inscriben o inician sesión, lo que les ayuda a tomar decisiones fundamentadas sobre la inscripción.

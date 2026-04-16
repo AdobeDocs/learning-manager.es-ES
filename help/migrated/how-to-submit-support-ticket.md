@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Cómo enviar un ticket de asistencia en experience league
 description: Obtenga información sobre cómo enviar una solicitud de asistencia al Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ El proceso de envío de las solicitudes de asistencia técnica de Adobe Learning
 
 Tenga en cuenta que el envío de un ticket de asistencia solo está disponible para los contactos de asistencia autorizados. Si tienes alguna duda, sigue enviando tus solicitudes de asistencia a Adobe Learning Manager por correo electrónico hasta el 11 de mayo de 2025. Después de esta fecha, puede enviar sus tickets de asistencia a través del portal de Asistencia al Experience League como se describe a continuación, además del canal de correo electrónico existente.
 
-1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home?lang=es#support).
+1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Página principal de soporte técnico_
@@ -43,7 +43,7 @@ Tenga en cuenta que el envío de un ticket de asistencia solo está disponible p
    ![](assets/ticket-form.png)
    _Formulario de vale_
 
-4. Una vez que hagas clic en **[!UICONTROL Enviar caso]**, se te redirigirá a la página **[!UICONTROL Mis casos]**, donde puedes ver todos los casos que tu organización ha enviado. También puede ir a esta página haciendo clic en el botón **[!UICONTROL Mis casos]** en el menú de la barra lateral. En esta página, podrá ver todos los casos de asistencia técnica abiertos y cerrados. Con las opciones de la parte superior de la página, puede filtrar por estado de caso (abierto o cerrado) o por solución de Experience Cloud. También puede usar la barra de búsqueda para buscar cualquier palabra clave relacionada con sus problemas de soporte.
+4. Una vez que hagas clic en **[!UICONTROL Enviar caso]**, se te redirigirá a la página **[!UICONTROL Mis casos]**, donde puedes ver todos los casos que tu organización ha enviado. También puede ir a esta página haciendo clic en el botón **[!UICONTROL Mis casos]** en el menú de la barra lateral. En esta página, podrá ver todos los casos de asistencia técnica abiertos y cerrados. Con las opciones de la parte superior de la página, puede filtrar por estado de la incidencia (abierta o cerrada) o por la solución Adobe CX Enterprise. También puede usar la barra de búsqueda para buscar cualquier palabra clave relacionada con sus problemas de soporte.
 
    ![](assets/open-cases.png)
    _Abrir casos_
