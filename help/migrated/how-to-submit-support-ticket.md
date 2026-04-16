@@ -16,7 +16,7 @@ El proceso de envío de las solicitudes de asistencia técnica de Adobe Learning
 
 Tenga en cuenta que el envío de un ticket de asistencia solo está disponible para los contactos de asistencia autorizados. Si tienes alguna duda, sigue enviando tus solicitudes de asistencia a Adobe Learning Manager por correo electrónico hasta el 11 de mayo de 2025. Después de esta fecha, puede enviar sus tickets de asistencia a través del portal de Asistencia al Experience League como se describe a continuación, además del canal de correo electrónico existente.
 
-1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home#support).
+1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home?lang=es#support).
 
    ![](assets/support.png)
    _Página principal de soporte técnico_
