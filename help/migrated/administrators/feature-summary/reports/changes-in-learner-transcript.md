@@ -2,13 +2,13 @@
 description: Información sobre transcripciones de alumnos
 jcr-language: en_us
 title: Cambios en las transcripciones de alumnos
-source-git-commit: cd0737061029e75953fa23cf3d12409b1407772a
+exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
+source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
-
 
 # Cambios en las transcripciones de alumnos en la versión de abril
 
@@ -80,9 +80,11 @@ Si el alumno tiene una finalización directa, revocar orígenes alternativos no 
 
 ## Información mejorada para comentarios del revisor de la lista de comprobación
 
-Los comentarios del revisor de los módulos de lista de comprobación ahora se incluyen en el informe de transcripciones de alumnos en una columna cuyo nombre ha cambiado, **Comentarios del revisor**.
+Este cambio se aplica de manera uniforme a todos los orígenes de LT de administrador (exportaciones de interfaz de usuario, informes de API de trabajos y conectores, cuando corresponda). Los comentarios del revisor aparecerán como una columna dedicada al final (para los conectores que no expusieron previamente el comentario de envío), lo que garantiza que las integraciones posteriores puedan distinguir los comentarios del revisor de otros comentarios.
 
-**Impacto**: Permite a los alumnos y administradores ver comentarios consolidados, lo que mejora la transparencia y respalda la evaluación del rendimiento.
+>[!NOTE]
+>
+>Para las transcripciones de alumnos de los alumnos, la columna etiquetada anteriormente como **Comentario de envío** ahora se llama **Comentarios del revisor** y se rellena con el comentario del revisor de la lista de comprobación cuando está habilitada.
 
 ## Cálculo del tiempo de aprendizaje mejorado
 

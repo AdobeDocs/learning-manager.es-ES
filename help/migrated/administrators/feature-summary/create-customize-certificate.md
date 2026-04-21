@@ -3,9 +3,9 @@ title: Crear y personalizar un certificado
 description: Los certificados personalizados en Adobe Learning Manager (ALM) permiten a los administradores y autores diseñar, administrar y emitir certificados personalizados para los alumnos.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
+source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Los certificados personalizados en Adobe Learning Manager cambian la forma en qu
 Los administradores pueden:
 
 - Diseñe certificados en un editor visual al estilo de Canvas en lugar de escribir código.
-- Adjunte certificados a cursos, rutas de aprendizaje y certificaciones con valores predeterminados flexibles.
+- Adjuntar certificados a cursos con valores predeterminados flexibles.
 - Usa fondos generativos impulsados por Adobes Firefly sin perder de vista las necesidades de marca y cumplimiento normativo.
 
   >[!NOTE]
@@ -285,8 +285,8 @@ Las organizaciones que dependen de certificados para varios objetos de aprendiza
 8. En el menú desplegable, seleccione un idioma predeterminado.
 9. Seleccione **Crear**. Si eligió la plantilla en blanco, aparecerá un lienzo en blanco debajo del nombre del certificado.
 10. Agregue elementos: **Texto**, **Imagen**, **Valor dinámico** y **Fondo de certificado**.
-    ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Agregar elementos al certificado*
+   ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Agregar elementos al certificado*
 
 11. Para **Texto**, agregue contenido bajo **Texto con formato previo** o **Plantillas de texto**, o agregue texto personalizado. El texto aparece en el lienzo. Cuando se selecciona texto, las opciones de formato aparecen sobre el lienzo. Para eliminar contenido que no quieras, selecciona el icono **Delete** en la esquina superior derecha del lienzo.
 12. Para agregar imágenes, seleccione **Imagen** junto a **Agregar elementos**. Cargue imágenes de su equipo o seleccione imágenes de las listas de categorías.
@@ -294,12 +294,12 @@ Las organizaciones que dependen de certificados para varios objetos de aprendiza
 14. Seleccione **Fondo de certificado** para aplicar colores o imágenes. Para crear imágenes con Adobe Firefly, seleccione **Generar imagen**.
 15. En el campo de solicitud, describe lo que quieres (hasta 100 caracteres) y selecciona **Generar**. Aparecen cuatro opciones de imagen en función del mensaje.
 16. Seleccione la imagen que desee. Se aplica como fondo del certificado.
-    ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Agregar imagen al certificado*
+   ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Agregar imagen al certificado*
 
 17. Seleccione **Vista previa** para revisar el certificado antes de publicarlo. Esto le ayuda a comprender cómo se ve el certificado.
-    ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Obtener una vista previa del certificado*
+   ![Crear un certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Obtener una vista previa del certificado*
 
 18. En la vista previa, puede guardar en Google Drive, descargar, imprimir o utilizar otras opciones como las propiedades de anotación o documento.
 19. Seleccione **Guardar como borrador** para continuar más tarde, o seleccione **Publish** para publicar el certificado. Después de la publicación, los alumnos pueden descargar el certificado cuando cumplan el hito configurado.
