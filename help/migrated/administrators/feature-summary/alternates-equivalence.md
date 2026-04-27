@@ -2,13 +2,13 @@
 title: Equivalentes y alternativas en Adobe Learning Manager
 description: Ofrece una experiencia de aprendizaje impecable y elimina la formación redundante con equivalentes y alternativos en ALM. Esta nueva capacidad permite a los administradores configurar reglas unidireccionales (alternativas) o bidireccionales (equivalentes), en las que, al completar un curso de formación, se concede automáticamente una finalización alternativa a otro
 jcr-language: en-us
-source-git-commit: e70a3b5a5d1080dc4b3a56aa726c717120c6bfa3
+exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
 
 ---
-
 
 # Alternativas y equivalentes
 
@@ -123,7 +123,8 @@ El filtro de método de finalización está disponible en las vistas de alumno. 
 
 Estas opiniones indican claramente qué cursos de formación se completaron directamente y cuáles se cumplieron a través de suplentes.
 
-<!--## Configure equivalent courses (complete each other)
+<!--
+## Configure equivalent courses (complete each other)
 
 Use this workflow to define courses that are **equal in value**, where completing either course should automatically complete the other.
 
@@ -213,7 +214,8 @@ ALM:
 
 1. Identifies impacted alternate completions.
 2. Revokes previously applied alternate or equivalent completions.
-3. Updates transcript entries to **Alternate (Revoked)**.-->
+3. Updates transcript entries to **Alternate (Revoked)**.
+-->
 
 ### Flujo de principio a fin
 
