@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVADO
 
-Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/learning-manager.en>.
+Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/learning-manager.es-ES>.
