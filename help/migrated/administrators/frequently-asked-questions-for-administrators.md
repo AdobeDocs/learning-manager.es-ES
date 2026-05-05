@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 52%
+source-wordcount: '2548'
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ Puede añadir usuarios en bloque con la función de carga del archivo .csv. Cons
 
 +++
 
-+++Escribí incorrectamente el ID de correo electrónico al crear el inicio de sesión para mis alumnos, ¿cómo lo corrijo?
++++Escribí de manera incorrecta el ID de correo electrónico al crear el inicio de sesión para mis alumnos. ¿Cómo lo corrijo?
 
 Para corregir el inicio de sesión de usuario, debe importar el archivo CSV en Learning Manager. Un archivo .csv de muestra se adjunta al final de esta página para su referencia. Como el correo electrónico se considera un identificador exclusivo de una persona, no se puede editar. Siga estos pasos:
 
@@ -39,9 +39,9 @@ Para corregir el inicio de sesión de usuario, debe importar el archivo CSV en L
 1. Asigne todos los campos, como se solicita en el cuadro de diálogo, a las columnas CSV correspondientes.
 1. Haga clic en Guardar.
 
-Los usuarios deben añadirse en la página Alumnos.
+Los usuarios deben haberse añadido en la página Alumnos.
 
-[Ejemplo de Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[CSV de ejemplo de Learning Manager.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
@@ -57,7 +57,7 @@ Adobe Learning Manager no proporciona certificados para los cursos. Sin embargo,
 
 +++
 
-+++¿Cómo se importan las firmas de los certificados?
++++¿Cómo importo firmas para los certificados?
 
 En Adobe Learning Manager, no hay ninguna función para importar firmas para la certificación o la insignia.
 
@@ -65,11 +65,11 @@ En Adobe Learning Manager, no hay ninguna función para importar firmas para la 
 
 +++¿Puedo configurar un calendario para los cursos? ¿Cómo lo hago?
 
-En la versión Adobe Learning Manager 1.0, no hay ninguna disposición para configurar el calendario de los cursos.
+En la versión 1.0 de Adobe Learning Manager, no está previsto configurar calendarios para los cursos.
 
 +++
 
-+++¿Cómo inscribo directamente a los alumnos en lista de espera?
++++¿Cómo inscribo a los alumnos en lista de espera directamente?
 
 Los alumnos se colocan en una lista de espera para los cursos de clase cuando la capacidad es limitada, según el orden de inscripción. Los administradores pueden seleccionar los alumnos en lista de espera y asignar puestos reemplazando el límite de puestos de cualquier curso de clase. Los alumnos se inscriben en el curso tan pronto como el administrador asigna un lugar.
 
@@ -82,7 +82,7 @@ Para obtener más información, consulte la función [lista de espera y asistenc
 
 +++
 
-+++¿Cómo registro la asistencia de los alumnos al módulo de clase?
++++¿Cómo registro la asistencia de los alumnos en el módulo de clase?
 
 Puede registrar la asistencia siguiendo estos pasos:
 
@@ -96,12 +96,12 @@ Para obtener más información, consulte la función [lista de espera y asistenc
 
 +++
 
-+++¿Cómo incluyo la opción de comentarios de L3?
++++¿Cómo incluyo la opción Comentarios de L3?
 
 Puede añadir comentarios de L3 mientras inscribe a los alumnos en los cursos. Añada la pregunta de los comentarios de L3 siguiendo los pasos a continuación:
 
 1. Haga clic en Cursos en el panel izquierdo después de iniciar sesión como administrador. Las listas de todos los cursos aparecen en la página derecha.
-1. Haga clic en el mosaico del curso para el que desee agregar comentarios de L3.
+1. Haga clic en el mosaico del curso para el que desea agregar comentarios de L3.
 1. Haga clic en la instancia predeterminada en el panel izquierdo.
 1. Haga clic en el círculo del botón de alternancia junto a Comentarios sobre el cambio de comportamiento en L3 para seleccionarlo.
 1. Añada la pregunta de comentarios de L3 en el área de texto debajo de Pregunta de L3.
@@ -115,7 +115,7 @@ Como administrador, puede buscar la nominación de responsable para los cursos s
 1. Haga clic en Cursos en el panel izquierdo.
 1. Coloque el ratón sobre cualquier curso con nominación de responsable y haga clic en **[!UICONTROL Buscar nominación de responsable]**.
 
-1. En la lista de instancias, haga clic en el vínculo **[!UICONTROL Administradores nominados]** seguido del vínculo **[!UICONTROL Agregar responsables]**.
+1. En la lista de instancias, haga clic en el vínculo **[!UICONTROL Responsables nominados]** seguido del vínculo **[!UICONTROL Añadir responsables]**.
 
 1. Añada el nombre del responsable, el número de puestos asignados y haga clic en la marca de verificación para guardar los cambios.
 
@@ -123,24 +123,24 @@ Al crear los cursos, el autor elige el tipo de curso con responsable nominado.
 
 +++
 
-+++¿Cómo puedo inscribir a un alumno en un curso concreto?
++++¿Cómo inscribo al alumno en un determinado curso?
 
 Inscriba a los alumnos en los cursos siguiendo los pasos a continuación:
 
 1. Haga clic en Cursos en el panel izquierdo después de iniciar sesión como administrador. La lista de todos los cursos aparece en la página derecha.
 1. Elija el curso para el cual desea añadir alumnos y coloque el ratón sobre él.
-1. Haga clic en Inscribir alumnos y añada el nombre de los alumnos. **Nota:** Puede agregar uno o varios alumnos a la vez.
+1. Haga clic en Inscribir alumnos y añada el nombre de los alumnos. **Nota:** Puede añadir uno o varios alumnos a la vez.
 
 +++
 
-+++Cómo asignar alumnos a una aptitud concreta
++++¿Cómo asignar los alumnos a una aptitud concreta?
 
 Asigne los alumnos a competencias siguiendo los pasos que se detallan a continuación:
 
 1. Haga clic en **[!UICONTROL Aptitudes]** en el panel izquierdo después de iniciar sesión como administrador.
 1. Seleccione una o varias aptitudes haciendo clic en las casillas de verificación de cada competencia y haga clic en el menú desplegable **[!UICONTROL Acciones]** en la esquina superior derecha de la página.
 1. Haga clic en Asignar a usuarios.
-1. Empieza a escribir el nombre del usuario, elige en la lista desplegable y haz clic en **[!UICONTROL Guardar]**.
+1. Empiece a escribir el nombre del usuario, elija en la lista desplegable y haga clic en **[!UICONTROL Guardar]**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Asigne los alumnos a competencias siguiendo los pasos que se detallan a continua
 
 +++
 
-+++¿Cómo se crea una sesión de programa de aprendizaje?
++++¿Cómo crear una sesión de programa de aprendizaje?
 
 Para crear un programa de aprendizaje, siga los pasos a continuación:
 
@@ -156,13 +156,13 @@ Para crear un programa de aprendizaje, siga los pasos a continuación:
 1. Haga clic en Añadir en la esquina superior derecha de la página.\
    Introduzca el nombre del programa, información general, descripción y haga clic en Guardar.
 1. Haga clic en Cursos en el panel izquierdo.
-1. Agregue uno o varios cursos haciendo clic en + en cada icono de curso.
+1. Añada uno o varios cursos haciendo clic en + en cada mosaico de curso.
 
    >[!NOTE]
    >
    >Debe publicar el programa de aprendizaje antes de inscribir alumnos o una instancia.
 
-1. Haga clic en Instancias en el panel izquierdo y haga clic en **[!UICONTROL Agregar nuevas instancias]** en la esquina derecha de la página para incluir detalles de la instancia.
+1. Haga clic en Instancias en el panel izquierdo; a continuación, haga clic en **[!UICONTROL Añadir instancias nuevas]** en la esquina derecha de la página para incluir detalles de la instancia.
 
 Para obtener más información sobre los programas de aprendizaje, consulte [Programas de aprendizaje.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
@@ -174,24 +174,24 @@ Haga clic en la flecha desplegable en la esquina superior derecha de cada inform
 
 +++
 
-+++¿Cómo modifico cursos, programas de aprendizaje y perfil de empresa?
++++¿Cómo modifico los cursos, los programas de aprendizaje y el perfil de la empresa?
 
 Puede editar cursos o programas de aprendizaje incluso después de publicarlos. Para obtener más información, consulte el contenido de ayuda de [Cursos](/help/migrated/administrators/feature-summary/courses.md) y [programas de aprendizaje](/help/migrated/administrators/feature-summary/learning-programs.md).
 
-Para modificar el perfil de la empresa, haz clic en **[!UICONTROL Configuración]** en el panel izquierdo y haz clic en **[!UICONTROL Cambiar]** en la esquina superior derecha de la página.
+Para modificar el perfil de la empresa, haga clic en **[!UICONTROL Configuración]** en el panel izquierdo; a continuación, haga clic en **[!UICONTROL Cambiar]** en la esquina superior derecha de la página.
 
 +++
 
-+++¿Cómo busco los cursos?
++++¿Cómo busco cursos?
 
 Haga clic en Cursos en el panel izquierdo después de iniciar sesión como administrador. Aparece una lista de todos los cursos disponibles.
 
 Puede buscar cursos de dos formas:
 
 1. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o de cualquier palabra clave asociada con los cursos para encontrar los cursos.
-1. Filtrando la lista de cursos mediante los filtros.
+1. Filtrando la lista de cursos con los filtros.
 
-Puede filtrar los cursos por estado, como Todos, Publicados o Retirado, haciendo clic en cada una de estas opciones. También puede buscar por competencias haciendo clic en Competencias y eligiendo cada una de ellas.
+Puede filtrar los cursos por estado, por ejemplo todos los cursos, los cursos publicados o los que están retirados haciendo clic en cada una de estas opciones. También puede buscar según las competencias haciendo clic en Competencias y eligiendo cada una de ellas.
 
 Según su elección, puede ver la lista filtrada de cursos y seleccionar los cursos requeridos.
 
@@ -199,7 +199,7 @@ Según su elección, puede ver la lista filtrada de cursos y seleccionar los cur
 
 +++¿Puedo cambiar los temas de la aplicación? ¿Cómo lo hago?
 
-Sí, puede cambiar los temas y la marca de la aplicación Learning Manager en función de los requisitos de su organización. Se proporciona un conjunto de cinco imágenes representativas para previsualizar los cambios en el tema de color antes de aplicarlos a su aplicación. Navegue a través de estas imágenes haciendo clic en los símbolos &lt; y > en el lado izquierdo y derecho de las imágenes, respectivamente, para obtener una vista previa.
+Sí, puede cambiar los temas y la marca de la aplicación Learning Manager según los requisitos de su empresa. Se proporciona un conjunto de cinco imágenes representativas para previsualizar los cambios en el tema de color antes de aplicarlos a su aplicación. Navegue a través de estas imágenes haciendo clic en los símbolos &lt; y > en el lado izquierdo y derecho de las imágenes, respectivamente, para obtener una vista previa.
 
 Haz clic en **[!UICONTROL Marca]** en el panel izquierdo para actualizar el nombre de tu organización, cambiar el subdominio, registrar estilos y temas. Haga clic en **[!UICONTROL Editar]** junto a cada uno de estos temas para modificar el contenido.
 
@@ -209,7 +209,7 @@ Consulte [Ayuda sobre temas de color y marcas](/help/migrated/administrators/fea
 
 +++¿Cómo configuro insignias para los cursos?
 
-1. Haga clic en Insignias en el panel izquierdo después de iniciar sesión como administrador.
+1. Haga clic en Insignias en el panel izquierdo después de iniciar sesión como administrador.
 1. Haga clic en Añadir en la esquina superior derecha de la página que se muestra en pantalla.
 1. Añada el nombre a la insignia.
 1. Cargue la insignia haciendo clic en Cargar insignia y haga clic en Guardar.
@@ -232,11 +232,11 @@ Consulte [Función de interacción](/help/migrated/administrators/feature-summar
 Puede crear informes siguiendo los pasos a continuación:
 
 1. Haga clic en Informes en el panel de la izquierda. Aparece la página Resumen de informes.
-1. En la página Informes, haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha.
+1. En la página Informes, haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha.
 
    Aparece el cuadro de diálogo **[!UICONTROL Agregar informe]**.
 
-1. Rellene todos los campos obligatorios y haga clic en Guardar.
+1. Complete todos los campos obligatorios y haga clic en Guardar.
 
 Solo los administradores y los responsables pueden crear o ver informes. Consulte [característica Informes](/help/migrated/administrators/feature-summary/reports.md) para obtener más información.
 
@@ -256,29 +256,29 @@ Puede cambiar el inicio de sesión de su cuenta a otras funciones como alumno, r
 
 Los responsables, autores y alumnos pueden ver las notificaciones basadas en las actividades del curso. El administrador puede habilitar y deshabilitar las notificaciones para todos los usuarios siguiendo los pasos a continuación:
 
-1. Haga clic en Plantillas de correo electrónico en el panel izquierdo y seleccione las pestañas General, Inscripciones de usuario, Finalizaciones y Comentarios.
+1. Haga clic en Plantillas de correo electrónico en el panel izquierdo; a continuación, seleccione las fichas General, Inscripciones de usuario, Finalizaciones y Comentarios.
 1. De los eventos que se enumeran a continuación, haga clic en los botones de alternar No/Sí junto a cada evento y elija Sí para habilitar la notificación. Haga clic en No para deshabilitar el envío de notificaciones para un determinado evento.
 
 +++
 
-+++¿Cómo permito la inscripción externa en los cursos?
++++¿Cómo permito la inscripción externa para los cursos?
 
 Adobe Learning Manager le brinda la posibilidad de inscribir miembros de departamentos externos o empleados externos de su empresa en la aplicación.
 
 1. Haga clic en **[!UICONTROL Usuarios]** en el panel izquierdo.
-1. Haga clic en **[!UICONTROL Externo]** en el panel izquierdo.
-1. Haga clic en **[!UICONTROL Agregar]** en la esquina superior derecha de la página.
+1. Haga clic en **[!UICONTROL Externos]** en el panel izquierdo.
+1. Haga clic en **[!UICONTROL Añadir]** en la esquina superior derecha de la página.
 
    Aparece el cuadro de diálogo Añadir usuario.
 
 1. Añada el nombre del perfil, el correo electrónico del responsable, los puestos asignados y la información de vencimiento. También puede añadir una imagen al perfil externo.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
- El administrador puede copiar la URL de registro y enviarla al grupo de inscripción externo. Los usuarios externos se pueden registrar en la aplicación Learning Manager y acceder a sus cursos.
+El administrador puede copiar la URL de registro y enviarla al grupo de inscripción externo. Los usuarios externos se pueden registrar en la aplicación Learning Manager y acceder a sus cursos.
 
 +++
 
-+++¿Cómo añado el cuestionario para los comentarios de L1?
++++¿Cómo añado un cuestionario para los comentarios de L1?
 
 Cree un cuestionario de comentarios que lo puedan utilizar los alumnos después de completar los cursos. De forma predeterminada, hay disponibles tres preguntas. Siga los pasos a continuación para crear un cuestionario.
 
@@ -289,9 +289,9 @@ Puede añadir un conjunto de cuestionarios y elegir no mostrarlos si no los nece
 
 +++
 
-+++¿Cómo configuro las habilidades y los niveles?
++++¿Cómo configuro las aptitudes y los niveles?
 
-1. Haga clic en Competencias en el panel izquierdo de la ventana del administrador.
+1. En el panel izquierdo de la ventana Administrador, haga clic en Competencias.
 1. Haga clic en Añadir para añadir competencias nuevas.
 1. Indique el nombre de la competencia, la descripción y los créditos correspondientes a cada nivel.
 
@@ -316,17 +316,17 @@ Una vez que se guarda la competencia, no puede eliminar los niveles de la compet
 
 1. Proporcione su información de contacto, elija el tipo de tarjeta de crédito, especifique los datos de la tarjeta de crédito y haga clic en Completar orden.
 
-Consulte la función [Administración de facturación](/help/migrated/administrators/feature-summary/billing-management.md) para obtener más información.
+Consulte [Gestión de la facturación](/help/migrated/administrators/feature-summary/billing-management.md) para obtener más información.
 
 +++
 
 +++¿Puedo personalizar el diseño del certificado? ¿Cómo lo hago?
 
-En Adobe Learning Manager, puede reconocer alumnos emitiendo insignias. Consulte Insignias para obtener más información.  Consulte también la función Certificación.
+In Adobe Learning Manager, puede reconocer a los alumnos mediante la emisión de insignias. Consulte Insignias para obtener más información.  Consulte también la función Certificación.
 
 +++
 
-+++¿Cómo configuro mi perfil de empresa?
++++¿Cómo configuro el perfil de la empresa?
 
 1. Después de iniciar sesión como administrador, haga clic en **[!UICONTROL Información de la empresa]** en el panel izquierdo.
 1. Añada el perfil de la empresa, el subdominio y el logotipo haciendo clic en las opciones pertinentes en la página.
@@ -341,7 +341,7 @@ Para ver los cursos, haga clic en **[!UICONTROL Cursos]** en el panel izquierdo.
 
 +++
 
-+++¿Cómo añado diferentes funciones a la aplicación?
++++¿Cómo añado funciones diferentes a la aplicación?
 
 Para añadir nuevos usuarios, siga los pasos a continuación:
 
@@ -354,13 +354,13 @@ Consulte la función [Añadir nuevos usuarios](/help/migrated/administrators/fea
 
 +++
 
-+++Cómo cambiar una imagen de fondo de un alumno?
++++¿Cómo cambiar una imagen de fondo para un alumno?
 
 Póngase en contacto con el equipo de asistencia de Learning Manager.
 
 +++
 
-++¿Dónde puedo encontrar el ID de mi cuenta de Learning Manager?
++++¿Dónde puedo encontrar mi ID de cuenta de Learning Manager?
 
 Puede obtener el ID de cuenta desde el navegador en el que está abierto Learning Manager.
 
@@ -379,7 +379,7 @@ Sí, puedes obtener un **[!UICONTROL informe de formación]** que contenga todos
 
 +++
 
-+++ ¿Dónde puedo descargar la versión de escritorio de la aplicación?
++++¿Dónde puedo descargar la versión de escritorio de la aplicación? 
 
 Siga los pasos que se indican a continuación para descargar la versión de escritorio:
 
