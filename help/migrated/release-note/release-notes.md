@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
 source-wordcount: '29433'
 ht-degree: 75%
@@ -31,7 +31,7 @@ Fecha de publicación: 30 de abril de 2026
 
 ## Error solucionado
 
-**Sobrescritura de VTT bloqueada por límite de caracteres:** Se ha corregido un problema por el que el cliente no podía sobrescribir el archivo VTT generado automáticamente por ALM debido al límite de caracteres en el modo de revisión/edición. El límite de caracteres se ha aumentado a un millón en el modo de edición de VTT.
+**Sobrescritura de VTT bloqueada por límite de caracteres:** Se ha corregido un problema por el que el usuario no podía sobrescribir el archivo VTT generado automáticamente por ALM debido al límite de caracteres en el modo de revisión/edición. El límite de caracteres se ha aumentado a un millón en el modo de edición de VTT.
 
 
 +++

@@ -2,10 +2,10 @@
 title: Recomendaciones en Adobe Learning Manager
 description: El núcleo del motor de recomendaciones se basa en el nuevo algoritmo de clasificación de cursos de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 57%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
@@ -22,15 +22,6 @@ Para empezar a utilizar esta función, debe activarla en la aplicación de admin
 >[!NOTE]
 >
 >Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
-
-## Habilitar y configurar las recomendaciones
-
-1. Cargue el curso y los datos de usuario (opcional).
-1. Lleve a cabo los cambios en tiempo real.
-1. Después de activar y configurar las recomendaciones, cargue los datos en Adobe Learning Manager para que las recomendaciones empiecen a funcionar. Estos datos se componen de:
-
-   * Datos del curso
-   * Datos de usuario (opcional)
 
 ## Algoritmo de clasificación del curso
 
@@ -158,8 +149,13 @@ Rellena estos CSV y ponte en contacto con tu equipo de éxito de clientes para d
 
 Una vez cargados ambos archivos CSV, haga clic en Activar. De este modo, los alumnos podrán ver el nuevo sistema de recomendaciones.
 
+Una vez activada la recomendación de PRL, no se puede volver a su estado anterior. Durante la activación, Adobe Learning Manager muestra un mensaje de confirmación para informarle de que el cambio es permanente. Hasta que la recomendación se active, podrá deshacer o modificar los cambios.
+
 ![activar](assets/computerdescription-automatically.png)
 *Hacer recomendaciones en vivo*
+
+![activar](assets/recommendations-irreversible.png)
+*Advertencia de recomendación*
 
 El sistema de recomendaciones ya está disponible para los alumnos.
 
