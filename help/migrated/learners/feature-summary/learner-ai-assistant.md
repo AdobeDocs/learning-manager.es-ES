@@ -3,20 +3,26 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
 
 # Asistente de IA para los alumnos
 
+## Introducción
+
 El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
 
 >[!IMPORTANT]
 >
 >El Asistente de inteligencia artificial para alumnos está disponible actualmente como función beta. Las capacidades, los escenarios compatibles y las limitaciones pueden cambiar a medida que evoluciona la función.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 
 ## ¿Qué es el Asistente de IA para alumnos?
@@ -34,7 +40,7 @@ El Asistente de IA es un compañero de chat generativo basado en IA en Adobe Lea
 - **Orígenes de contenido y citas**
    - Recupera respuestas de recursos disponibles en catálogos compatibles
    - Proporciona citas con vínculos directos a materiales de origen
-   - Compatible con todos los formatos de contenido de Learning Manager (estáticos e interactivos): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
+   - Admite todos los formatos de contenido de Learning Manager (estático e interactivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
 
 - **Experiencia de usuario**
    - Interfaz del panel lateral accesible desde todas las páginas del alumno

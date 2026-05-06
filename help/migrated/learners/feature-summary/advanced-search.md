@@ -3,22 +3,28 @@ jcr-language: en_us
 title: Búsqueda basada en IA en Adobe Learning Manager
 description: Más información sobre la búsqueda basada en IA en Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Búsqueda avanzada de IA en Adobe Learning Manager
 
+## Introducción
+
 La funcionalidad de búsqueda de Adobe Learning Manager mejora la experiencia del usuario al permitirle encontrar contenido relevante de manera eficaz y ayudarles a consumir el contenido adecuado.
 
 Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que combina la búsqueda léxica y semántica. Esta funcionalidad mejorada permite a los alumnos encontrar contenido relevante de forma eficaz. La búsqueda avanzada basada en IA entiende el significado de tu consulta y ofrece resultados relevantes.
 
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
+
 ## Principales ventajas
 
-* **Búsqueda más inteligente**: entiende el contexto y la intención detrás de los términos de búsqueda
+* **Búsqueda más inteligente**: Comprende el contexto y la intención detrás de los términos de búsqueda
 * **Relevancia mejorada**: Proporciona resultados basados en el significado de la consulta
 * **Experiencia de usuario mejorada**: Ayuda a los alumnos a consumir el contenido adecuado
 
@@ -30,27 +36,27 @@ Adobe Learning Manager presenta una capacidad de búsqueda basada en IA que comb
 
 La funcionalidad de búsqueda es importante por varias razones:
 
-* **Experiencia de usuario**: Mejora la satisfacción de los usuarios al permitir una recuperación rápida de la información
+* **Experiencia de usuario**: Mejora la satisfacción del usuario al permitir una recuperación rápida de la información
 * **Eficacia**: Ahorra tiempo al reducir el esfuerzo por localizar contenido específico.
-* **Accesibilidad**: Las funciones de búsqueda efectivas hacen que la información sea más accesible, lo que garantiza que los usuarios puedan interactuar con contenido relevante para sus necesidades.
-* **Personalización**: Los sistemas de búsqueda avanzada pueden adaptar los resultados en función de las preferencias del usuario, lo que mejora la relevancia de la información presentada.
+* **Accesibilidad**: Las capacidades de búsqueda eficaces hacen que la información sea más accesible, lo que garantiza que los usuarios puedan interactuar con contenido pertinente para sus necesidades.
+* **Personalización**: Los sistemas de búsqueda avanzada pueden adaptar los resultados en función de las preferencias de los usuarios, lo que mejora la pertinencia de la información presentada.
 
 ## Evolución de los comportamientos de búsqueda en la web
 
 A medida que la gente busca en línea, su forma de hacerlo está cambiando y los motores de búsqueda se están adaptando para mantenerse al día. Las siguientes son algunas de las formas clave en las que las personas buscan información en los últimos tiempos:
 
-* **Impulsado por intención**: En lugar de escribir palabras clave exactas, los usuarios ahora expresan sus necesidades con frases como Deseo o Necesito hacerlo. Los motores de búsqueda modernos entienden el propósito detrás de estas frases y dan resultados más relevantes.
-* **Resultados clasificados**: los resultados de la búsqueda se organizan en función de lo que otros usuarios consideren útil. Esto significa que el contenido más útil aparece en la parte superior, lo que facilita la búsqueda de información de calidad.
-* **Varios orígenes**: Cuantos más orígenes cubra un motor de búsqueda, mejores serán los resultados. Al extraer información de una variedad de fuentes de confianza, los motores de búsqueda proporcionan respuestas más completas y precisas.
-* **Personalizado**: los motores de búsqueda ajustan los resultados en función de factores como la hora, la ubicación y las preferencias del usuario. Esto facilita a los usuarios encontrar información que se ajuste a sus necesidades específicas en este momento.
+* **Impulsado por intención**: En lugar de escribir palabras clave exactas, los usuarios ahora expresan sus necesidades con frases como Deseo o Necesito. Los motores de búsqueda modernos entienden el propósito detrás de estas frases y dan resultados más relevantes.
+* **Resultados clasificados**: Los resultados de la búsqueda se organizan en función de lo que otros usuarios consideren útil. Esto significa que el contenido más útil aparece en la parte superior, lo que facilita la búsqueda de información de calidad.
+* **Varios orígenes**: Cuantas más fuentes cubra un motor de búsqueda, mejores serán los resultados. Al extraer información de una variedad de fuentes de confianza, los motores de búsqueda proporcionan respuestas más completas y precisas.
+* **Personalizado**: Los motores de búsqueda ajustan los resultados en función de factores como el tiempo, la ubicación y las preferencias del usuario. Esto facilita a los usuarios encontrar información que se ajuste a sus necesidades específicas en este momento.
 
 ## Por qué es mejor la búsqueda de Adobe Learning Manager
 
 Adobe Learning Manager ofrece una experiencia de búsqueda más inteligente y avanzada. No solo coincide con palabras clave, sino que también comprende contextualmente el significado de las consultas de usuario para encontrar los resultados más relevantes.
 
-* **Con tecnología de IA**: Adobe Learning Manager usa técnicas avanzadas de IA para entender el significado detrás de la intención de búsqueda y no solo las palabras. Esto ayuda a mostrar resultados que coinciden realmente con lo que el usuario quiere, haciendo las búsquedas más precisas.
-* **Impulsado por pares**: Adobe Learning Manager utiliza un rango de parámetros de calidad del curso para clasificar los resultados más útiles. Este algoritmo de clasificación está entrenado en 50 millones de puntos de datos que puntúan periódicamente cada contenido en el repositorio
-* **Completo**: Adobe Learning Manager busca en toda la biblioteca, incluido contenido propio, títulos de cursos de terceros, descripciones, etiquetas, notas personalizadas y otros metadatos. Para contenido como Vídeo y PDF, se transcribe automáticamente y se busca dentro de su transcripción.
+* **Con IA**: Adobe Learning Manager utiliza técnicas avanzadas de IA para comprender el significado que subyace a la intención de búsqueda y no solo las palabras. Esto ayuda a mostrar resultados que coinciden realmente con lo que el usuario quiere, haciendo las búsquedas más precisas.
+* **Impulsado por pares**: Adobe Learning Manager utiliza una serie de parámetros de calidad del curso para clasificar los resultados más útiles. Este algoritmo de clasificación está entrenado en 50 millones de puntos de datos que puntúan periódicamente cada contenido en el repositorio
+* **Completa**: Adobe Learning Manager busca en toda la biblioteca, incluidos contenido propio, títulos de cursos de terceros, descripciones, etiquetas, notas personalizadas y otros metadatos. Para contenido como Vídeo y PDF, se transcribe automáticamente y se busca dentro de su transcripción.
 
 ## Búsqueda basada en IA de Adobe Learning Manager
 

@@ -4,16 +4,22 @@ title: Webhooks
 description: Obtenga más información sobre Webhooks para enviar información en tiempo real, como inscripciones en cursos, creación de cursos y otra información, a una dirección URL específica
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhooks
 
+## Introducción
+
 Un webhook permite a una entidad enviar automáticamente datos o notificaciones en tiempo real a otra entidad cuando se produce un evento específico. Permitirá a una aplicación proporcionar información a otras aplicaciones sin solicitarla constantemente. Por ejemplo, si un usuario completa un curso de Sistema de gestión de aprendizaje (LMS), un webhook puede enviar automáticamente esa información a otra plataforma, como CRM o herramienta de creación de informes. Los webhooks se suelen utilizar en integraciones para automatizar procesos y reducir la necesidad de actualizaciones manuales entre sistemas. Configure los webhooks proporcionando una URL de devolución de llamada a la que enviar los datos.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Webhooks frente a API
 
@@ -29,8 +35,8 @@ Los eventos Webhook son acciones específicas que se producen en un sistema que 
 
 Los eventos Webhook se clasifican en dos categorías:
 
-* **Eventos en tiempo real**: los eventos se procesan y se envían en tiempo real a una dirección URL de destino
-* **Eventos en tiempo no real**: los eventos se procesan en lotes y se envían a horas especificadas en lugar de en tiempo real
+* **Eventos en tiempo real**: Los eventos se procesan y se envían en tiempo real a una dirección URL de destino
+* **Eventos en tiempo no real**: Los eventos se procesan en lotes y se envían a horas especificadas en lugar de en tiempo real
 
 ## URL del Listener
 
@@ -73,9 +79,9 @@ Siga los pasos que se indican a continuación para crear la integración de Webh
 4. Escriba la dirección URL del agente de escucha como **[!UICONTROL dirección URL de destino]** a la que desea pasar los datos del evento.
 5. Seleccione cualquiera de los métodos de autenticación:
 La autenticación en Webhooks es un método de seguridad para asegurarse de que los datos enviados a la dirección URL de un agente de escucha proceden de una fuente de confianza.
-   * **[!UICONTROL Ninguno]**: no se requiere autenticación.
-   * **[!UICONTROL Básico]**: esta es una autenticación basada en credenciales. Introduzca el nombre de usuario y la contraseña.
-   * **[!UICONTROL Firma]**: el sistema crea una firma especial y la agrega a los datos de webhook. El servidor receptor comprueba este código para asegurarse de que los datos son reales y no se han modificado. Genera una firma y utilízala para la autenticación. Descargue la firma como JSON.
+   * **[!UICONTROL Ninguno]**: No se requiere autenticación.
+   * **[!UICONTROL Básico]**: Se trata de una autenticación basada en credenciales. Introduzca el nombre de usuario y la contraseña.
+   * **[!UICONTROL Firma]**: El sistema crea una firma especial y la añade a los datos de webhook. El servidor receptor comprueba este código para asegurarse de que los datos son reales y no se han modificado. Genera una firma y utilízala para la autenticación. Descargue la firma como JSON.
 6. Seleccione los eventos Webhook en el menú desplegable **[!UICONTROL Eventos desencadenantes]**.
 
    >[!NOTE]
@@ -215,9 +221,9 @@ Cada solicitud webhook contiene la siguiente estructura de nivel superior:
 }
 ```
 
-Se usa la **misma estructura** para ambos tipos de eventos; solo difieren el eventName y los valores dentro de los datos (por ejemplo, userId, loId, enrollmentSource).
+Se utiliza la **misma estructura** para ambos tipos de eventos; solo difieren el eventName y los valores dentro de los datos (por ejemplo, userId, loId, enrollmentSource).
 
-#### Ejemplo: actualización iniciada por el alumno
+#### Ejemplo: Actualización iniciada por el alumno
 
 Cuando un alumno actualiza el estado de finalización de su propia ruta de aprendizaje, el webhook envía un evento LEARNING_PATH_COMPLETION_ROLLBACK:
 
@@ -245,7 +251,7 @@ Cuando un alumno actualiza el estado de finalización de su propia ruta de apren
 
 Utilice este evento para **volver a calcular o restablecer los datos de finalización del alumno** en los sistemas externos cuando el alumno solicite explícitamente una actualización.
 
-#### Ejemplo: actualización por lotes iniciada por el administrador
+#### Ejemplo: Actualización por lotes iniciada por el administrador
 
 Cuando un administrador realiza una actualización de finalización para uno o más alumnos (por ejemplo, corrigiendo finalizaciones históricas para un grupo), el webhook emite un evento LEARNING_PATH_COMPLETION_ROLLBACK_BATCH:
 

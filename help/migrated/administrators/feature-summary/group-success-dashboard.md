@@ -3,30 +3,34 @@ jcr-language: en_us
 title: Panel de éxito de grupo
 description: Obtenga más información sobre el Panel de éxito de grupo en Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # Panel de éxito de grupo
 
-## Visión General del Panel de Éxito de Grupo
+## Introducción
 
 El panel de éxito de grupo (GSD) de Adobe Learning Manager permite a los administradores y responsables supervisar el progreso del alumno en tiempo real (60 minutos de retraso desde la inscripción, el progreso o la finalización hasta la reflexión en el panel) entre departamentos o grupos de usuarios. Permite realizar un seguimiento proactivo de la finalización del curso, la inscripción y las acciones pendientes, lo que facilita la gestión del aprendizaje para equipos. Consulte este [artículo](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para obtener más información sobre los grupos de usuarios.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Principales casos prácticos
 
 El Panel de éxito de grupo ofrece lo siguiente:
 
-* **Simplifica el seguimiento del progreso del alumno**: el panel de éxito de grupo proporciona una vista fácil de usar y en tiempo real de los datos del alumno, lo que reduce la necesidad de transcripciones basadas en Excel. Los responsables y administradores pueden ver rápidamente las inscripciones de alumnos y el progreso de los cursos para admitir situaciones clave como:
+* **Simplifica el seguimiento del progreso del alumno**: El panel de éxito de grupo proporciona una vista fácil de usar y en tiempo real de los datos de los alumnos, lo que reduce la necesidad de transcripciones basadas en Excel. Los responsables y administradores pueden ver rápidamente las inscripciones de alumnos y el progreso de los cursos para admitir situaciones clave como:
 
-   * **Preparación para la revisión del rendimiento**: los gerentes pueden evaluar el progreso del curso para los miembros del equipo antes de los ciclos de evaluación.
-   * **Supervisión del cumplimiento**: identifica a los alumnos que no han completado los cursos de formación obligatorios.
-   * **Seguimiento a nivel de equipo**: los gerentes de franquicia, tienda o región pueden asegurarse de que sus equipos completen el aprendizaje requerido a tiempo.
+   * **Preparación para la revisión del rendimiento**: Los gestores pueden evaluar el progreso del curso para los miembros del equipo antes de los ciclos de evaluación.
+   * **Supervisión del cumplimiento**: Identificar a los alumnos que no han completado los cursos de formación obligatorios.
+   * **Seguimiento a nivel de equipo**: Los gerentes de franquicia, tienda o región pueden garantizar que sus equipos completen el aprendizaje necesario a tiempo.
 
-* **Facilita la administración de equipos**: El Panel de éxito de grupo es útil para gerentes con equipos pequeños (menos de 50 personas), como gerentes de tiendas, gerentes de franquicias, gerentes de concesionarios o equipos internos. Proporciona una vista de equipo y permite a los responsables comprobar rápidamente si su equipo ha completado el conjunto de cursos necesario para lograr los objetivos empresariales.
+* **Facilita la administración de equipos**: El panel de éxito de grupo es útil para gestores con equipos pequeños (menos de 50 personas), como gerentes de tienda, gerentes de franquicia, gerentes de concesionario o equipos internos. Proporciona una vista de equipo y permite a los responsables comprobar rápidamente si su equipo ha completado el conjunto de cursos necesario para lograr los objetivos empresariales.
 
 ## Cómo utilizar el panel de éxito de grupo
 
@@ -37,7 +41,7 @@ Un administrador puede activar y crear los paneles asignándoles un nombre, sele
 El administrador debe habilitar el Panel de control de éxito de grupo para la cuenta. Para activar el panel de éxito de grupo, siga estos pasos:
 
 1. Inicie sesión como administrador.
-2. Seleccione **[!UICONTROL Configuración]**&#x200B;y, a continuación, seleccione **[!UICONTROL Informes]**.
+2. Seleccione **[!UICONTROL Configuración]**y, a continuación, seleccione **[!UICONTROL Informes]**.
 3. Seleccione el conmutador **[!UICONTROL Visibilidad del panel]**.
 4. Escriba el nombre del panel (por ejemplo, **[!UICONTROL Panel del Administrador de tiendas]**).
    ![](assets/enable-gsd.png)
@@ -51,8 +55,8 @@ El administrador debe habilitar el Panel de control de éxito de grupo para la c
 6. Para la sección **[!UICONTROL Transcripciones de alumnos]**, seleccione las columnas obligatorias que desea ver.
 
 
-   * Alumno
-   * Trazados y cursos
+   * Administración
+   * Rutas y cursos
    * Estado
    * Fecha de inscripción
    * Último acceso
@@ -103,12 +107,12 @@ Después de crear un tablero, el administrador puede verlo siguiendo estos pasos
 El nombre del tablero es Tablero del Administrador de tienda.
 3. En la sección **[!UICONTROL Sus paneles]**, seleccione el panel creado en el menú desplegable **[!UICONTROL Seleccionar panel]**.
 4. El tablero se divide en:
-   * **[!UICONTROL Información general]**: Puedes ver rápidamente el progreso de los alumnos en cursos o rutas de aprendizaje individuales. Puede ver el progreso de hasta 50 cursos o rutas de aprendizaje y 50 alumnos a la vez. Si desea comprobar el progreso de un alumno específico, seleccione la sección **[!UICONTROL Transcripciones de alumnos]**.
+   * **[!UICONTROL Información general]**: Puede ver rápidamente el progreso de los alumnos en cursos o rutas de aprendizaje individuales. Puede ver el progreso de hasta 50 cursos o rutas de aprendizaje y 50 alumnos a la vez. Si desea comprobar el progreso de un alumno específico, seleccione la sección **[!UICONTROL Transcripciones de alumnos]**.
 
    ![](assets/overview.png)
    _Estado de aprendizaje de los alumnos del equipo del administrador de la tienda_
 
-   * **[!UICONTROL Transcripción del alumno]**: Para ver el progreso del alumno, seleccione un alumno o curso específico. Busque un alumno en el tablero para comprobar su progreso de aprendizaje. Si ha creado el tablero utilizando el catálogo predeterminado y ha incluido a todos los alumnos, puede buscar cualquier alumno para revisar fácilmente su progreso.
+   * **[!UICONTROL Transcripciones de alumnos]**: Para ver el progreso de un alumno, seleccione un alumno o curso específico. Busque un alumno en el tablero para comprobar su progreso de aprendizaje. Si ha creado el tablero utilizando el catálogo predeterminado y ha incluido a todos los alumnos, puede buscar cualquier alumno para revisar fácilmente su progreso.
 
    ![](assets/learner-transcript.png)
    _Vista detallada de la transcripción del alumno con columnas para inscripción y finalización_
@@ -154,12 +158,12 @@ A continuación se muestra la limitación del Panel de control de éxito de grup
 
 Cuando selecciona más de un grupo de usuarios, Adobe Learning Manager utiliza reglas específicas para determinar qué alumnos incluir:
 
-* **Grupos de usuarios con el mismo campo Activo**: si los grupos de usuarios usan el mismo campo (por ejemplo, Ubicación), el sistema incluye a todos los alumnos de ambos grupos. Combina los valores. Por ejemplo: **Location = Bangalore** y **Location = Chennai**. Incluye alumnos de ambas ubicaciones.
-* **Grupos de usuarios con diferentes campos activos**: si los grupos de usuarios usan campos diferentes (por ejemplo, Ubicación y Función), el sistema incluye solo alumnos que cumplen todas las condiciones. Por ejemplo: **Location = Bangalore o Chennai** y **Role = Manager**. Solo se incluyen los alumnos con la función de responsable y que se encuentran en Bangalore o Chennai.
+* **Grupos de usuarios con el mismo campo Activo**: Si los grupos de usuarios utilizan el mismo campo (por ejemplo, Ubicación), el sistema incluye a todos los alumnos de ambos grupos. Combina los valores. Por ejemplo: **Ubicación = Bangalore** y **Ubicación = Chennai**. Incluye alumnos de ambas ubicaciones.
+* **Grupos de usuarios con diferentes campos activos**: Si los grupos de usuarios utilizan campos diferentes (por ejemplo, Ubicación y Función), el sistema incluye solo alumnos que cumplen todas las condiciones. Por ejemplo: **Ubicación = Bangalore o Chennai** y **Rol = Administrador**. Solo se incluyen los alumnos con la función de responsable y que se encuentran en Bangalore o Chennai.
 
 **Resumen:**
 
-* Mismo campo activo: los alumnos se combinan (lógica OR)
-* Diferentes campos activos: los alumnos deben cumplir todos los criterios (lógica AND)
+* Mismo campo activo: Los alumnos se combinan (lógica OR)
+* Diferentes campos activos: Los alumnos deben cumplir todos los criterios (lógica AND)
 
 Este enfoque le ayuda a orientar a los alumnos adecuados en función de las condiciones seleccionadas.

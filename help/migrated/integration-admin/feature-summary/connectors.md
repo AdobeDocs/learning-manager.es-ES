@@ -4,20 +4,26 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '15959'
+source-wordcount: '15927'
 ht-degree: 72%
 
 ---
 
 # Conectores de Learning Manager
 
+## Introducción
+
 Las empresas tienen otras aplicaciones y sistemas que se deben integrar con Learning Manager. Los conectores son utilidades que ayudan a realizar integraciones basadas en datos, como la importación de datos en Learning Manager desde sistemas externos.  También efectúa la exportación de datos a sistemas externos desde Learning Manager.
 
 Learning Manager ofrece conectores de Salesforce y FTP. Con el conector de Salesforce, los administradores de integración de una empresa integran su aplicación Salesforce con Learning Manager. En calidad de integrador, el conector de FTP también puede utilizarse para importar automáticamente un conjunto de usuarios en la aplicación empresarial.
 
 Asimismo, Learning Manager proporciona los conectores de Lynda, getAbstract y Harvard Management System. Dichos conectores permiten que los alumnos accedan a cursos de Lynda.com, getAbstract y Harvard ManageMentor, respectivamente, y los consuman.
+
+>[!NOTE]
+>
+>Esta función está parcialmente disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 Siga leyendo para saber cómo configurar y usar cada uno de estos conectores en Learning Manager.
 
@@ -211,7 +217,7 @@ Si desea instalar el paquete, primero debe eliminar el paquete existente en Sale
 1. Haga clic en **[!UICONTROL Nuevo]** y agregue los siguientes detalles:
 
    * **Configuración:** introduzca el nombre que desee.
-   * **ClientID**: escriba el valor obtenido en la primera sección.
+   * **ClientID**: Introduzca el valor obtenido en la primera sección.
    * **Secreto de cliente:** Escriba el valor obtenido en la primera sección.
    * **Token de actualización:** Escriba el valor obtenido en la primera sección.
    * **LearningManagerBaseURL:** Dirección URL del sitio en el que se aloja Learning Manager.
@@ -356,24 +362,24 @@ Para integrar el conector FTP con Learning Manager, infórmese sobre el proceso.
 
 Para conectarse a cualquier servidor FTP mediante el cliente FTP, necesitará la siguiente información:
 
-* **Dominio FTP**: esta es la dirección del servidor FTP al que desea conectarse. Por ejemplo, ftp.example.com
-* **Puerto**: el puerto FTP predeterminado es 21, pero algunos servidores pueden usar puertos diferentes por motivos de seguridad. Para Adobe Learning Manager - Puerto 22
-* **Nombre de usuario de FTP**: el nombre de usuario que necesitas para acceder al servidor FTP.
-* **Contraseña de FTP**: la contraseña asociada al nombre de usuario.
+* **Dominio FTP**: Esta es la dirección del servidor FTP al que desea conectarse. Por ejemplo, ftp.example.com
+* **Puerto**: El puerto FTP predeterminado es 21, pero algunos servidores pueden utilizar puertos diferentes por motivos de seguridad. Para Adobe Learning Manager - Puerto 22
+* **Nombre de usuario de FTP**: El nombre de usuario que necesita para acceder al servidor FTP.
+* **Contraseña de FTP**: La contraseña asociada al nombre de usuario.
 
 **FileZilla (Windows, macOS y Linux)**
 
 **Paso 1: Descargar e instalar FileZilla**
 
-Si aún no has instalado FileZilla, descárgalo del sitio web oficial: [Descargar](https://filezilla-project.org/) e instálalo en tu computadora.
+Si aún no has instalado FileZilla, descárgalo desde el sitio web oficial: [Descarga](https://filezilla-project.org/) e instálalo en tu equipo.
 
-**Paso 2: Abre FileZilla**
+**Paso 2: Abra FileZilla**
 
 Después de la instalación, inicie FileZilla en su ordenador.
 
 **Paso 3: Recopilar información del servidor FTP**
 
-**Paso 4: Escriba la información del servidor FTP en FileZilla**
+**Paso 4: Especifique la información del servidor FTP en FileZilla**
 
 En el menú superior, selecciona **[!UICONTROL Archivo]** y, a continuación, selecciona **[!UICONTROL Administrador del sitio]** (o usa el método abreviado Ctrl+S).
 
@@ -385,12 +391,12 @@ En el Administrador del sitio, seleccione **Nuevo sitio** y escriba un nombre (p
 
 Escriba la siguiente información:
 
-* **Host**: escriba la dirección del servidor FTP.
-* **Puerto**: si el servidor usa un puerto mayor que 21, escriba el número de puerto correcto.
-* **Protocolo**: elija **[!UICONTROL SFTP - Protocolo de transferencia de archivos SSH]**.
+* **Host**: Escriba la dirección del servidor FTP.
+* **Puerto**: Si el servidor utiliza un puerto superior a 21, introduzca el número de puerto correcto.
+* **Protocolo**: Elija **[!UICONTROL SFTP - Protocolo de transferencia de archivos SSH]**.
 * **Tipo de inicio de sesión**: Seleccione **[!UICONTROL Normal]**.
 * **Usuario**: Escriba su nombre de usuario de FTP.
-* **Contraseña**: escribe tu contraseña de FTP.
+* **Contraseña**: Escriba la contraseña de FTP.
 
 **Paso 7: Conectar con el servidor FTP**
 
@@ -668,11 +674,11 @@ El conector de getAbstract es válido para clientes empresariales de getAbstract
 
 1. Si configura el conector de getAbstract por primera vez, haga clic en Conectar.
 
-   <!--
-Configure la cuenta FTP de Exavault antes de configurar este conector.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Asegúrese de compartir estas credenciales de FTP con su proveedor de contenido para acceder a las fuentes.
--->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. En el campo Nombre de conexión, asigne un nombre a la conexión.
 
@@ -732,11 +738,11 @@ El conector de Harvard ManageMentor es válido para clientes empresariales de Ha
 
 1. Si configura el conector de Harvard ManageMentor por primera vez, haga clic en Conectar.
 
-   <!--
-Configure la cuenta FTP de Exavault antes de configurar este conector.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Asegúrese de compartir estas credenciales de FTP con su proveedor de contenido para acceder a las fuentes.
--->
+Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. En el campo Nombre de conexión, asigne un nombre a la conexión. Haga clic en Conectar para guardar esta conexión.
 1. Si ya tiene una conexión establecida, en la página de inicio, haga clic en Harvard ManageMentor > Administrar conexiones. Haga clic en la conexión cuya configuración desea editar.
@@ -773,7 +779,7 @@ Asegúrese de compartir estas credenciales de FTP con su proveedor de contenido 
 
    hmm12_metadata.csv: Este archivo proporciona los metadatos del curso para el conector de Harvard ManageMentor. Asegúrese de seguir la convención de nomenclatura cuando cargue el archivo.
 
-   client_hmm12_20150125.csv: es la fuente de usuario para el conector de Harvard ManageMentor. La siguiente convención de nomenclatura de archivos es **client_hmm12_yyyyMMdd.csv.**
+   client_hmm12_20150125.csv: Es la fuente de usuario del conector de Harvard ManageMentor. La siguiente convención de nomenclatura de archivos es **client_hmm12_yyyyMMdd.csv.**
 
    Vea los dos ejemplos siguientes de fuente de usuario y de siguientes de curso para este conector:
 
@@ -1006,7 +1012,7 @@ El proceso de importación de usuarios permite al administrador de Learning Mana
 
 El administrador de Learning Manager puede aplicar filtros en los usuarios antes de importarlos. Por ejemplo, el administrador de Learning Manager puede optar por importar todos los usuarios en la jerarquía bajo uno o más responsables específicos.
 
-Para configurar   miniOrange   , póngase en contacto con el equipo de CSM de Learning Manager.
+Para configurar el conector de miniOrange, póngase en contacto con el equipo CSM de Learning Manager.
 
 ### Configurar el conector de miniOrange {#configure-mini-orange-connector}
 
@@ -1028,7 +1034,7 @@ Para configurar   miniOrange   , póngase en contacto con el equipo de CSM de Le
 
    *Importar usuarios internos*
 
-1. En la página de asignación, a la izquierda   en el lado derecho se ven las columnas de Learning Manager   lateral se pueden ver las miniColumnas naranja. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
+1. En la página de asignación, en el lado izquierdo se muestran las columnas de Learning Manager y en el derecho se muestran las columnas de miniOrnage. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
 
    ![](assets/map-attributes.png)
 
@@ -1165,7 +1171,7 @@ La opción de importación de usuarios internos le permite programar la generaci
 
 Una vez que se establece correctamente una conexión, puede asignar columnas de archivos .csv que se colocan en la carpeta de Box para los atributos correspondientes de Learning Manager. Este paso es obligatorio.
 
-1. En la página Asignar atributos, a la izquierda   En el lado derecho, se muestran las columnas de Learning Manager.   En el lateral puede ver los nombres de columna de CSV. Al principio, en el lado derecho, hay un cuadro de selección vacío. Importe cualquier archivo .csv de plantilla haciendo clic en Elegir archivo.
+1. En la página Asignar atributos, en el lado izquierdo, se muestran las columnas esperadas de Learning Manager, mientras que en el derecho, se muestran los nombres de las columnas de CSV. Al principio, en el lado derecho, hay un cuadro de selección vacío. Importe cualquier archivo .csv de plantilla haciendo clic en Elegir archivo.
 1. El paso anterior rellena la lista desplegable seleccionada de la derecha con todos los nombres de columnas de CSV. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
 
    *El campo de responsable debe asignarse a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.*
@@ -1699,7 +1705,7 @@ Una vez que se haya configurado la conexión, se crean automáticamente las carp
 
 Requisitos previos para establecer una conexión de ADFS:
 
-* Inicie sesión en el portal de Azure usando esta URL: [https://portal.azure.com/](https://portal.azure.com/) antes de registrar la aplicación.
+* Inicie sesión en el Portal de Azure usando esta URL:  [https://portal.azure.com/](https://portal.azure.com/) antes de registrar la aplicación.
 * Abra Azure Active Directory.
 
 ## Pasos para registrar la aplicación {#steps-to-register-your-application}
@@ -1832,7 +1838,7 @@ Para configurar el conector de ADFS, póngase en contacto con el equipo de CSM d
 
    *Importar usuario a Learning Manager*
 
-1. En la página de asignación, a la izquierda   en el lado derecho se ven las columnas de Learning Manager   lateral puede ver las columnas de ADFS. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
+1. En la página de asignación, en el lado izquierdo se muestran las columnas de Learning Manager y en el derecho se muestran las columnas de ADFS. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
 
    ![](assets/adfs4.jpg)
 
@@ -2128,7 +2134,7 @@ Escriba el nombre de conexión y el nombre de dominio
 
 1. Seleccione **[!UICONTROL Tipo de interfaz]** entre las siguientes opciones:
 
-   * **[!UICONTROL Native Learning Manager]**: esta es la oferta estándar, que solo está disponible para la interfaz nativa.
+   * **[!UICONTROL Administrador de aprendizaje nativo]**: Esta es la oferta estándar, que solo está disponible para la interfaz nativa.
    * **[!UICONTROL Interfaces sin encabezado]**: Esta es la oferta premium que expone las API para crear una experiencia sin inicio de sesión.
 
    ![](assets/types-of-interface.png)
@@ -2258,7 +2264,7 @@ Una vez que un autor haya establecido los precios de varios cursos, rutas de apr
 
 >[!NOTE]
 >
->En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=es).
+>En la versión de marzo de 2024 de Adobe Learning Manager, presentamos compatibilidad con [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Haga clic en **[!UICONTROL Exportar metadatos de formación]** > **[!UICONTROL Bajo demanda]**.

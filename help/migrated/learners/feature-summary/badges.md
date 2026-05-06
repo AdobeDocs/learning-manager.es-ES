@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Insignias
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 51%
+source-wordcount: '825'
+ht-degree: 84%
 
 ---
 
@@ -17,17 +17,17 @@ Obtenga información sobre cómo ver y descargar insignias mediante la aplicaci�
 
 ## Insignias {#Badges-1}
 
-Las insignias son logros que el empleado puede ganar por la realización de un curso. Adobe Learning Manager presenta uno de los conceptos de aprendizaje electrónico más recientes denominado Insignias. Los profesionales de todo el mundo utilizan estas insignias como representación de aptitudes o logros de aprendizaje.
+Las insignias son logros que el empleado puede ganar por la realización de un curso. Adobe Learning Manager introduce uno de los conceptos de aprendizaje electrónico más recientes denominado Insignias. Los profesionales de todo el mundo utilizan estas insignias como representación de aptitudes o logros de aprendizaje.
 
 Las insignias ayudan a los alumnos a definirse mejor y a mostrar su conjunto específico de aptitudes, además de aportar credibilidad y buena visibilidad para los alumnos.
 
 ## Cómo ver y descargar insignias {#viewinganddownloadingbadges}
 
-En calidad de alumno, puede ver insignias en el widget Mis logros en la página de inicio del alumno. Aparece una lista de insignias en la parte superior de la página, junto a su perfil. A la vez, solo puede ver hasta siete insignias en la página principal. Sin embargo, puede ver la lista completa de insignias en el cuadro de diálogo, al hacer clic en cualquier insignia.
+En calidad de alumno, puede ver insignias en el widget Mis logros en la página de inicio del alumno. Aparece una lista de insignias en la parte superior de la página, junto a su perfil. Solo puede ver hasta siete insignias a la vez en la página principal. Sin embargo, puede ver la lista completa de insignias en el cuadro de diálogo, cuando hace clic en cualquier insignia.
 
 Las insignias obtenidas recientemente se muestran en la parte situada más a la izquierda de la lista de insignias que aún se deben obtener. Puede que note una opacidad del 40 % para las insignias que aún se deben obtener respecto de las insignias obtenidas, lo cual facilita la identificación.
 
-Haga clic en cualquier insignia para obtener una lista de todas las insignias adquiridas por usted. También puede ver todas las insignias disponibles alineadas con los cursos respectivos. En las insignias que aún no se han alcanzado, haga clic en el nombre del curso para ver el curso alineado con la insignia. A continuación, se proporciona una captura de pantalla de muestra como referencia.
+Haga clic en cualquier insignia para obtener una lista de todas las insignias adquiridas por usted. También puede ver todas las insignias disponibles alineadas con los cursos respectivos. En las insignias que aún se deben obtener, haga clic en el nombre del curso para ver el curso que se relaciona con la insignia. A continuación, se proporciona una captura de pantalla de muestra como referencia.
 
 Haga clic en el vínculo **[!UICONTROL Descargar todas las insignias]** para descargar todas las insignias obtenidas en formato ZIP. También puede descargar una insignia individual si hace clic en el icono del cubo junto al nombre de cada insignia.
 
@@ -44,27 +44,31 @@ También puede descargar un conjunto de insignias o una insignia individual en f
 
 ## Insignias abiertas {#openbadges}
 
-La plataforma de insignias abiertas, compatible con Learning Manager, se está **retirando**. Actualmente, Learning Manager no admite insignias abiertas.
+La plataforma de insignias abiertas, compatible con Learning Manager, se está **retirando**. Actualmente, Learning Manager no es compatible con las insignias abiertas.
 
 Las insignias abiertas son un estándar para reconocer y verificar el aprendizaje de los alumnos. Puede utilizar estas insignias para mostrar sus logros en línea.
 
 Learning Manager admite el concepto de insignias abiertas para sus alumnos. Puede utilizar las insignias descargadas como insignias abiertas. Cada insignia que descarga tiene la información de metadatos que admite el nuevo estándar de insignias abiertas.
 
-## Compatibilidad con insignias de Badgr
+## Compatibilidad con las insignias de Badgr
 
-Los alumnos pueden integrar su cuenta de la plataforma de aprendizaje con su cuenta de Badgr. Esto permite a los alumnos compartir insignias en sitios web de redes sociales a través de su cuenta de Badgr. Badgr también ofrece insignias autenticables basadas en el estándar Backpack, lo que significa que las insignias se verifican.
-
-Las insignias abiertas son aquellas que tienen algunos metadatos incrustados en su imagen. Estos metadatos proporcionan información sobre el emisor, el destinatario, la tarea realizada, la validez de la insignia, etc. Se podrá acceder a la mochila de Badgr directamente desde Learning Manager para proporcionar un lugar central en el que almacenar todas las insignias y compartirlas. Los alumnos pueden iniciar sesión en su cuenta de Badgr y establecer la integración. A partir de entonces, las insignias obtenidas en Learning Manager se cargan automáticamente en la cuenta de Badgr.
-
-Una vez que el administrador active la opción **Integración de Badgr**, un alumno puede realizar la integración con Badgr y configurar su insignia. Para realizar la integración, el alumno debe iniciar sesión en la cuenta de Badgr desde Learning Manager.
+Los alumnos pueden integrar su cuenta de la plataforma de aprendizaje con su cuenta de Badgr. Esto permite a los alumnos compartir insignias en sitios web de redes sociales a través de su cuenta de Badgr. Badgr también ofrece insignias que se pueden autenticar en función de la norma Backpack, que implica que se han verificado las insignias.
 
 >[!NOTE]
 >
->Learning Manager no ofrece una cuenta de Badgr como parte de esta integración. El alumno debe crear su propia cuenta e integrarse con el administrador de aprendizaje.
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
-El alumno debe tener una cuenta de Badgr creada antes de establecer una conexión desde el administrador de aprendizaje.
+Las insignias abiertas son aquellas que tienen algunos metadatos incrustados en su imagen. Estos metadatos proporcionan información sobre el emisor, el destinatario, la tarea realizada, la validez de la insignia, etc. Se podrá acceder a la mochila de Badgr directamente desde Learning Manager para proporcionar un lugar central en el que almacenar todas las insignias y compartirlas. Los alumnos pueden iniciar sesión en su cuenta de Badgr y establecer la integración. A partir de entonces, las insignias obtenidas en Learning Manager se cargarán automáticamente en la cuenta de Badgr.
 
-En la aplicación del alumno, en la página Insignias, hay una opción denominada Configurar Badgr. Si se hace clic en la opción, se iniciará un cuadro de diálogo en el que el estado de la conexión debe mostrarse como Conectado/No conectado.
+Una vez que el administrador active la opción **Integración de Badgr**, un alumno puede realizar la integración con Badgr y configurar su insignia. Para llevar a cabo la integración, el alumno debe iniciar sesión en la cuenta de Badgr desde Learning Manager.
+
+>[!NOTE]
+>
+>Learning Manager no ofrece una cuenta de Badgr como parte de esta integración. El alumno debe crear su propia cuenta y realizar la integración con Learning Manager.
+
+El alumno debe disponer de una cuenta de Badgr creada antes de establecer una conexión desde Learning Manager.
+
+En la aplicación del alumno, en la página Insignias, hay una opción denominada Configurar Badgr. Si se hace clic en la opción, se inicia un cuadro de diálogo en el que el estado de la conexión debe mostrarse como Conectado/No conectado.
 
 ![](assets/badges.png)
 
@@ -80,4 +84,4 @@ Este proceso de actualización de la página se denomina reprocesamiento manual.
 
 **1. ¿Cómo descargar la insignia como alumno?**
 
-En la página de insignias, puede descargar una insignia como imagen o en formato de PDF. Elija una aptitud o un curso y haga clic en **PDF** o **Insignia**.
+En la página de insignias, puede descargar una insignia como imagen o en formato PDF. Elija una aptitud o un curso y haga clic en **PDF** o **Insignia**.

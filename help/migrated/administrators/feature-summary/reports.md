@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -513,9 +513,9 @@ Después de seleccionar **[!UICONTROL Informe de ayudas de trabajo]** en la list
 ![informe de ayudas de trabajo](assets/job-aids-new.png)
 *Descargar informe de inscripción de usuarios de ayudas de trabajo*
 
-**Todas las ayudas de trabajo**: si el número de ayudas de trabajo de la cuenta es inferior a 10 millones, el informe generado contendrá la información de inscripción de todas las ayudas de trabajo. Esta será la selección predeterminada. Si el número de filas supera los 10 millones, se mostrará un error y deberá seleccionar manualmente las ayudas de trabajo necesarias.
+**Todas las ayudas de trabajo**: Si el número de ayudas de trabajo de la cuenta es inferior a 10 millones, el informe generado contendrá la información de inscripción de todas las ayudas de trabajo. Esta será la selección predeterminada. Si el número de filas supera los 10 millones, se mostrará un error y deberá seleccionar manualmente las ayudas de trabajo necesarias.
 
-**Ayudas de trabajo seleccionadas**: Si selecciona esta opción, puede especificar las ayudas de trabajo para las que desea generar el informe. Puede seleccionar un máximo de 10 ayudas de trabajo. Adobe Learning Manager comprueba si el número de ayudas de trabajo supera los 10 millones.
+**Ayudas de trabajo seleccionadas**: Si selecciona esta opción, puede introducir las ayudas de trabajo para las que desea generar el informe. Puede seleccionar un máximo de 10 ayudas de trabajo. Adobe Learning Manager comprueba si el número de ayudas de trabajo supera los 10 millones.
 
 inscripción en el informe de ayudas de trabajo de ![](assets/job-aids-2-new.png)
 *Seleccionar una ayuda de trabajo*
@@ -651,7 +651,7 @@ Hay dos filtros en el cuadro de diálogo **[!UICONTROL Informe de seguimiento de
 * Último mes
 * Fecha personalizada
 
-Seleccionar filtro de alumnos: Buscar un usuario o un grupo de usuarios.
+Seleccione el filtro Alumnos:  Busque un usuario o un grupo de usuarios.
 
 El informe exportado contendrá datos de los usuarios que cumplan los dos criterios de búsqueda especificados.
 
@@ -708,6 +708,10 @@ Los administradores pueden descargar la transcripción de interacción en format
 
 Este informe contiene el historial y los motivos de los puntos de interacción de los alumnos obtenidos para cada regla.
 
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
+
 ### Descargar el informe
 
 1. Seleccione la URL de seguimiento de auditoría de interacción.
@@ -735,7 +739,7 @@ El informe se descarga como archivo CSV. El archivo contiene las siguientes colu
 
 Los administradores y los responsables pueden extraer un informe de los alumnos que se han inscrito y se han dado de baja. Como administrador, puede ver a cualquier alumno, administrador o responsable que se ha inscrito o dado de baja de una instancia de curso, programa de aprendizaje o certificación, y exportar el informe. Ahora bien, como responsable, solo puede obtener un informe de los miembros de su equipo. Como responsable, no puede ver a los alumnos eliminados ni su propio nombre en la aplicación del responsable como alumno inscrito o que se ha dado de baja.
 
-Para descargar un informe, sigue estos pasos: abre el **[!UICONTROL curso/programa de aprendizaje/certificación]** > **[!UICONTROL alumnos]** > **[!UICONTROL Acción]** > **[!UICONTROL Informe de exportación]**.
+Para descargar un informe, siga estos pasos: Abra el **[!UICONTROL curso/programa de aprendizaje/certificación]** > **[!UICONTROL alumnos]** > **[!UICONTROL Acción]** > **[!UICONTROL Informe de exportación]**.
 
 ![](assets/unenrollment.png)
 *Informe de cancelación de inscripción*
@@ -1014,7 +1018,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
