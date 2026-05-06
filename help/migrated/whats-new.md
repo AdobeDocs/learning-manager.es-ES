@@ -3,16 +3,24 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de abril de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 # Novedades de la versión de abril de 2026 de Adobe Learning Manager
 
-**Para alumnos:** El reproductor Fluidic muestra ahora el nombre del siguiente módulo y un botón para salir. El idioma del reproductor se puede establecer mediante LTI para una experiencia coherente en todas las plataformas. El nombre del parámetro personalizado es &#39;locale&#39; y acepta el código de configuración regional. Por ejemplo, locale=fr-FR. El contenido de Captivate incluye una tabla de contenido unificada, marcas de finalización a nivel de diapositiva y exportaciones de notas fiables. Hay disponible compatibilidad con varios idiomas para las ayudas de trabajo, las preguntas de la lista de comprobación y las pistas de texto de vídeo (VTT). El Asistente de IA ayuda a los alumnos a obtener respuestas en la experiencia de aprendizaje.
+**Para alumnos:** El reproductor Fluidic muestra ahora el nombre del siguiente módulo y un botón para salir.
+
+El idioma del reproductor se puede establecer mediante LTI para una experiencia coherente en todas las plataformas. El nombre del parámetro personalizado es &#39;locale&#39; y acepta el código de configuración regional. Por ejemplo, locale=fr-FR. El contenido de Captivate incluye una tabla de contenido unificada, marcas de finalización a nivel de diapositiva y exportaciones de notas fiables.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
+
+Hay disponible compatibilidad con varios idiomas para las ayudas de trabajo, las preguntas de la lista de comprobación y las pistas de texto de vídeo (VTT). El Asistente de IA ayuda a los alumnos a obtener respuestas en la experiencia de aprendizaje.
 
 **Para administradores y autores:** El conector de Zoom admite varias sesiones VILT simultáneas. Los cursos compartidos en cuentas de igual a igual muestran el autor real en lugar de &quot;Autor externo&quot;. Los administradores pueden restringir cuándo se pueden iniciar los módulos. Las fechas de caducidad de los objetos de aprendizaje se muestran en las API del alumno. Los módulos de lista de comprobación admiten la puntuación ponderada, el texto de pregunta multilingüe y los comentarios opcionales del revisor. Los certificados personalizados ofrecen un editor de arrastrar y soltar con campos dinámicos y fondos generados por IA. Experience Builder sin conexión te permite crear páginas de aprendizaje públicas sin necesidad de iniciar sesión.
 
@@ -97,6 +105,10 @@ Ver la experiencia de [inicio de sesión no registrado en Experience Builder](/h
 Los resultados de búsqueda en la búsqueda avanzada son ahora más precisos y relevantes. Las coincidencias exactas de palabras clave ocupan un puesto más alto en la búsqueda de contenido y los metadatos, lo que facilita a los alumnos encontrar exactamente lo que están buscando.
 
 Los alumnos ahora también pueden ver los objetos de aprendizaje inscritos en los resultados de búsqueda, incluso si no forman parte de un catálogo accesible, lo que garantiza que no se pierda ningún contenido relevante. Además, la clasificación de las ayudas de trabajo se ha mejorado tanto en la búsqueda avanzada como en la búsqueda dentro del contenido, lo que permite descubrir los recursos más relevantes más rápido.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Ayudas de trabajo multilingües
 

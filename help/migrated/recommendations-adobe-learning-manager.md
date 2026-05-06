@@ -2,20 +2,26 @@
 title: Recomendaciones en Adobe Learning Manager
 description: El núcleo del motor de recomendaciones se basa en el nuevo algoritmo de clasificación de cursos de Learning Manager. El algoritmo utiliza 50 millones de puntos de datos y cinco años de datos de aprendizaje agregados de millones de usuarios para clasificar los cursos en función de su probabilidad de inscripción. Esta clasificación garantiza que la mayoría de los cursos en los que se puede inscribir se muestren por adelantado a los alumnos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 58%
+source-wordcount: '1508'
+ht-degree: 57%
 
 ---
 
 # Recomendaciones en Adobe Learning Manager
+
+## Introducción
 
 Adobe Learning Manager ha introducido un sistema de recomendaciones para los cursos nuevo y mejorado. Esta función de recomendaciones utiliza algoritmos de IA y los intereses de los usuarios, como productos, funciones y niveles, para ofrecer recomendaciones de contenido personalizadas. Los administradores pueden configurar su cuenta en función de los productos, las funciones y los niveles.
 
 El nuevo sistema de recomendaciones le permite crear parámetros personalizados que los alumnos pueden seleccionar para recibir recomendaciones personalizadas. Estas recomendaciones se mostrarán como cursos, rutas de aprendizaje y certificaciones a los alumnos en su fuente de la página de inicio.
 
 Para empezar a utilizar esta función, debe activarla en la aplicación de administración.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Habilitar y configurar las recomendaciones
 
@@ -100,7 +106,7 @@ Para que las recomendaciones funcionen correctamente, se deben cargar los datos 
 
 **Cargar opciones de datos**
 
-La función de recomendaciones se puede configurar. Así que en lugar de productos/roles/niveles, puede utilizar temas/roles/nivel o elegir cualquiera de estas opciones: producto/temas solamente, roles solamente, producto/temas y roles solamente, roles-niveles solamente o productos-niveles solamente.
+La función de recomendaciones se puede configurar. Por lo tanto, en lugar de productos/roles/niveles, puede utilizar temas/roles/nivel o elegir cualquiera de estas opciones: sólo producto/temas, sólo funciones, sólo producto/temas y funciones, sólo roles-niveles o sólo productos-niveles.
 
 Según la configuración de recomendación que elija, modifique las hojas de datos en consecuencia.
 
@@ -144,7 +150,7 @@ El siguiente es un ejemplo de registros en el archivo .csv:
 | ID del curso de formación | Tipo de formación | Nombre de la formación | Productos | Funciones | Niveles | Etiquetas | Aptitudes |
 |---|---|---|---|---|---|---|---|
 | 111 | CURSO | Python 101 | Ciencia de datos | Analista | Analista: intermedio | datos | General |
-| 222 | CURSO | Julia 101 | Ciencia de datos | Analista | Analista: avanzado | datos | General |
+| 222 | CURSO | Julia 101 | Ciencia de datos | Analista | Analista: Avanzado | datos | General |
 
 Rellena estos CSV y ponte en contacto con tu equipo de éxito de clientes para descargar los formatos y cargar estos CSV.
 

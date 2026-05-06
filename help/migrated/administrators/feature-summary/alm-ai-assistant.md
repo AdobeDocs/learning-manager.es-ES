@@ -3,14 +3,16 @@ jcr-language: en_us
 title: Asistente para IA de administración (beta) en Adobe Learning Manager
 description: Obtenga más información sobre el Asistente para IA de administración de Adobe Learning Manager (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
 
 # Asistente para IA de administración (beta) en Adobe Learning Manager
+
+## Introducción
 
 En configuraciones de aprendizaje complejas, los administradores pueden tener dificultades para encontrar contenido o completar tareas debido a menús complicados y flujos de trabajo desconectados. Por ejemplo, tareas como ejecutar informes o acceder a información específica pueden requerir la exploración de varias pantallas. El Asistente para IA de administración (Beta) le ayuda a encontrar la información adecuada para comprender y completar las tareas de manera eficaz.
 
@@ -20,7 +22,12 @@ Utiliza las capacidades de IA de Adobe para permitir consultas de lenguaje natur
 
 Este asistente reduce la dependencia de la navegación manual, reduce el tiempo de descubrimiento y ayuda a impulsar rápidamente información procesable.
 
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
+
 <!--
+help\migrated\feature-availability-in-fedramp-authorized-environment.md
 ## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
@@ -85,7 +92,7 @@ A continuación, se muestran algunos mensajes de ejemplo que los administradores
   _Respuesta al mensaje ¿Cómo asigno un curso a un usuario?_
 
 * **Informe de inscripción más reciente**
-   * **Mensaje**: Muéstreme el informe de inscripción más reciente.
+   * **Mensaje**: Muéstreme el último informe de inscripción.
 
   ![](assets/prompt-2.png)
   _Respuesta al mensaje Mostrar el informe de inscripción más reciente_
@@ -98,9 +105,9 @@ A continuación, se muestran algunos mensajes de ejemplo que los administradores
 
 ### Sugerencias para usar el Asistente para IA de administración (Beta) de forma eficaz
 
-* **Sé específico con tus preguntas**: Cuando hagas una pregunta, incluye contexto y detalles claros. Por ejemplo, en lugar de preguntar &quot;¿Cómo añado un usuario en Adobe Learning Manager?&quot;, pregunte &quot;¿Cómo asigno un curso a un usuario en Adobe Learning Manager?&quot;
-* **Usa un lenguaje claro y conciso**: Mantén tus preguntas claras y enfocadas. Esto ayuda al Asistente para inteligencia artificial aplicada a los administradores (Beta) a comprender sus intenciones y proporcionar una respuesta más precisa.
-* **Explora diferentes capacidades**: Consulta una variedad de funciones como informes de inscripción, progreso del alumno, asignación de contenido o seguimiento de la certificación para descubrir toda la gama de asistencia disponible.
+* **Especifica tus indicaciones**: Cuando haga una pregunta, incluya un contexto y detalles claros. Por ejemplo, en lugar de preguntar &quot;¿Cómo añado un usuario en Adobe Learning Manager?&quot;, pregunte &quot;¿Cómo asigno un curso a un usuario en Adobe Learning Manager?&quot;
+* **Usar un lenguaje claro y conciso**: Haz que tus preguntas sean sencillas y centradas. Esto ayuda al Asistente para inteligencia artificial aplicada a los administradores (Beta) a comprender sus intenciones y proporcionar una respuesta más precisa.
+* **Explora diferentes capacidades**: Consulta una serie de funciones, como los informes de inscripción, el progreso de los alumnos, la asignación de contenido o el seguimiento de la certificación, para descubrir toda la asistencia disponible.
 * **Proporcionar comentarios**: Después de recibir una respuesta, háganos saber si fue útil. Utilice las funciones de pulgar hacia arriba, pulgar hacia abajo, informe o comentario para compartir sus comentarios. Sus comentarios desempeñan un papel fundamental en la mejora del Ayudante.
 
 

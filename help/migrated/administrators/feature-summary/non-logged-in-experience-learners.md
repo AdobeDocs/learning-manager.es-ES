@@ -2,10 +2,10 @@
 title: Experiencia sin inicio de sesión para alumnos
 description: El portal nativo de Adobe Learning Manager admitirá una forma no registrada de acceder al sitio de formación. Con este modo activado, los alumnos pueden descubrir y acceder al sitio de formación y consultar los distintos cursos y contenidos disponibles. Esta experiencia permite a los alumnos examinar cursos sin haber iniciado sesión en un portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 39%
+source-wordcount: '650'
+ht-degree: 38%
 
 ---
 
@@ -24,6 +24,10 @@ A continuación, el curso de formación se puede exportar desde el conector.
 >Asegúrese de que la opción Native Learning Manager esté seleccionada.
 
 El administrador puede modificar y configurar la página de inicio, que está destinada a los usuarios que no han iniciado sesión.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## API de alumno
 

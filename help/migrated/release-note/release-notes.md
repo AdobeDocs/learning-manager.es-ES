@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '29372'
-ht-degree: 76%
+source-wordcount: '29433'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,19 @@ ht-degree: 76%
 </table>
 -->
 
-+++Actualización 105: versión de abril de 2026 de Adobe Learning Manager
++++Actualización 106: Versión de abril de 2026 de Adobe Learning Manager
+
+Fecha de publicación: 30 de abril de 2026
+
+## Error solucionado
+
+**Sobrescritura de VTT bloqueada por límite de caracteres:** Se ha corregido un problema por el que el cliente no podía sobrescribir el archivo VTT generado automáticamente por ALM debido al límite de caracteres en el modo de revisión/edición. El límite de caracteres se ha aumentado a un millón en el modo de edición de VTT.
+
+
++++
+
+
++++Actualización 105: Versión de abril de 2026 de Adobe Learning Manager
 
 Fecha de publicación: 11 de abril de 2026
 
@@ -136,7 +148,7 @@ Vea [Asistente de inteligencia artificial para alumnos](/help/migrated/learners/
 
 +++
 
-+++Actualización 103: versión de noviembre de 2025 de Adobe Learning Manager
++++Actualización 103: Versión de noviembre de 2025 de Adobe Learning Manager
 
 Fecha de publicación: 25 de noviembre de 2025
 
@@ -188,7 +200,7 @@ Vea [formulario de comentarios de L1](/help/migrated/administrators/feature-summ
 
 +++
 
-+++Actualización 102: versión de octubre de 2025 de Adobe Learning Manager
++++Actualización 102: Versión de octubre de 2025 de Adobe Learning Manager
 
 **Fecha de publicación**: 12 de octubre de 2025
 
@@ -197,7 +209,7 @@ Vea [formulario de comentarios de L1](/help/migrated/administrators/feature-summ
 Consulte [Novedades de la versión de octubre de 2025 de Adobe Learning Manager](/help/migrated/whats-new.md) para obtener más información.
 +++
 
-+++Actualización 101: versión de julio de 2025 de Adobe Learning Manager
++++Actualización 101: La versión de julio de 2025 de Adobe Learning Manager
 
 ## Plantillas de correo electrónico basadas en funciones
 
@@ -259,17 +271,17 @@ Con la actualización no iniciada, los alumnos que ya han completado el curso si
 
 Cuando un administrador hace clic en **[!UICONTROL Actualizar]**, puede elegir entre las siguientes opciones:
 
-* **[!UICONTROL Actualizar todos los alumnos ahora]**: aplique la actualización de contenido inmediatamente para todos los alumnos. Los alumnos Sin iniciar, En curso y Completado se pasan inmediatamente a la nueva versión.
-* **[!UICONTROL Actualizar todos los alumnos]**: aplique la actualización para todos los alumnos en fases. Los alumnos No iniciado y Completado reciben ahora la nueva versión. Los alumnos en curso obtienen la actualización después de completar la versión actual.
-* **[!UICONTROL Actualizar solo alumnos no iniciados]**: aplique la actualización solo a los alumnos que aún no han iniciado el curso. Los alumnos en curso y completados permanecen en la versión original.
+* **[!UICONTROL Actualizar todos los alumnos ahora]**: Aplique la actualización de contenido inmediatamente para todos los alumnos. Los alumnos Sin iniciar, En curso y Completado se pasan inmediatamente a la nueva versión.
+* **[!UICONTROL Actualizar todos los alumnos]**: Aplicar la actualización para todos los alumnos en fases. Los alumnos No iniciado y Completado reciben ahora la nueva versión. Los alumnos en curso obtienen la actualización después de completar la versión actual.
+* **[!UICONTROL Actualizar solo alumnos no iniciados]**: Aplique la actualización solo a los alumnos que aún no han iniciado el curso. Los alumnos en curso y completados permanecen en la versión original.
 
 ### Cambios en la interfaz de usuario
 
 | Etiqueta antigua | Nueva opción |
 |---|---|
 | Aplicar actualización de contenido a todos los alumnos | Actualizar todos los alumnos ahora:Apply actualización de contenido para todos los alumnos |
-| Aplicar la actualización a los alumnos aún por iniciar | Actualizar sólo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
-| Los alumnos en curso reciben una actualización después de completarse | Actualizar todos los alumnos eventualmente: Aplicar la actualización de contenido para todos los alumnos eventualmente |
+| Aplicar la actualización a los alumnos aún por iniciar | Actualizar solo alumnos no iniciados: Aplicar actualización de contenido solo para alumnos no iniciados |
+| Los alumnos en curso reciben una actualización después de completarse | Actualice finalmente a todos los alumnos: Aplicar actualización de contenido para todos los alumnos en algún momento |
 
 <!--
 ![](assets/version-control-options.png)
@@ -282,9 +294,9 @@ Consulte este [artículo](/help/migrated/authors/feature-summary/content-library
 
 Esta versión incluye un reproductor Fluidic actualizado en Adobe Learning Manager con un aspecto moderno y una experiencia de aprendizaje más intuitiva. El reproductor actualizado incluye una interfaz más limpia, controles de navegación mejorados y un diseño coherente en todos los dispositivos móviles y de escritorio. Los alumnos pueden acceder al contenido e interactuar con él fácilmente en cualquier modo de pantalla, incluidas las vistas vertical, horizontal, de pantalla completa o estándar.
 
-* **Piel de reproductor Fluidic actualizada**: Un aspecto modernizado con elementos de interfaz de usuario actualizados.
-* **Controles de navegación mejorados**: Navegación más fluida e intuitiva para una mejor experiencia del alumno.
-* **Diseño optimizado**: La apariencia y la facilidad de uso mejoradas en equipos de escritorio y dispositivos móviles admiten los modos vertical, horizontal, de pantalla completa y de pantalla estándar.
+* **Piel del reproductor Fluidic actualizada**: Un aspecto modernizado con elementos de interfaz de usuario actualizados.
+* **Controles de navegación mejorados**: Navegación más fluida e intuitiva para una mejor experiencia de aprendizaje.
+* **Diseño optimizado**: La apariencia y la facilidad de uso mejoradas en dispositivos móviles y de escritorio admiten los modos vertical, horizontal, de pantalla completa y de pantalla estándar.
 
 Todos los alumnos que accedan al contenido a través de Adobe Learning Manager, ya sea mediante la experiencia nativa o descentralizada, verán automáticamente estas nuevas mejoras de la interfaz de usuario y la navegación. Los alumnos pueden notar un ligero cambio en la forma en que interactúan con el reproductor debido al diseño y los controles actualizados.
 
@@ -302,7 +314,7 @@ Además, para obtener detalles sobre los próximos cambios en Adobe Learning Man
 
 +++
 
-+++Actualización 10: versión de mayo de 2025 de Adobe Learning Manager
++++Actualización 10: La versión de mayo de 2025 de Adobe Learning Manager
 
 **Fecha de publicación**: 10 de mayo de 2025
 
@@ -311,7 +323,7 @@ Además, para obtener detalles sobre los próximos cambios en Adobe Learning Man
 Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-may-2025.md).
 +++
 
-+++Actualización 99: versión de febrero de 2025 de Adobe Learning Manager
++++Actualización 9: La versión de febrero de 2025 de Adobe Learning Manager
 
 ## Configurar el idioma de la interfaz mediante SAML
 
@@ -331,7 +343,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/catalogs.md#so
 
 +++
 
-+++Actualización 98: versión de noviembre de 2024 de Adobe Learning Manager
++++Actualización 98: La versión de noviembre de 2024 de Adobe Learning Manager
 
 **Fecha de publicación**: 16 de noviembre de 2024
 
@@ -340,7 +352,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/catalogs.md#so
 Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-nov-24.md).
 +++
 
-+++Actualización 97: versión de julio de 2024 de Adobe Learning Manager
++++Actualización 97: La versión de julio de 2024 de Adobe Learning Manager
 
 **Fecha de publicación:** 13 de julio de 2024
 
@@ -349,7 +361,7 @@ Para obtener más información, consulte [Novedades de Adobe Learning Manager](/
 Para obtener más información, consulte [Novedades de Adobe Learning Manager](/help/migrated/whats-new-july-2024.md).
 +++
 
-+++Actualización 96: versión de marzo de 2024 de Adobe Learning Manager
++++Actualización 96: La versión de marzo de 2024 de Adobe Learning Manager
 
 **Fecha de publicación:** 16 de marzo de 2024
 
@@ -377,7 +389,7 @@ Para obtener más información, consulte [Novedades de Adobe Learning Manager](/
 * Cambie la calidad y velocidad de un vídeo en las redes sociales.
 +++
 
-+++Actualización 93: versión de julio de 2023 de Adobe Learning Manager
++++Actualización 93: La versión de julio de 2023 de Adobe Learning Manager
 
 **Fecha de publicación:** 10 de julio de 2023
 
@@ -447,7 +459,7 @@ Para obtener más información, consulte [Novedades de la versión de julio de 2
 El inicio de sesión de SAML falla si la dirección URL de inicio de sesión de SSO contiene entity_id.
 +++
 
-+++Actualización 89: versión de marzo de 2023 de Adobe Learning Manager
++++Actualización 89: La versión de marzo de 2023 de Adobe Learning Manager
 
 **Fecha de publicación:** 1 de abril de 2023
 
@@ -792,7 +804,7 @@ La versión de noviembre de 2022 de Adobe Learning Manager consta de lo siguient
 * El código de HTML aparece cuando los alumnos comprueban sus notificaciones, lo que afecta negativamente a la experiencia.
 * En el tablero, el tiempo dedicado al aprendizaje se muestra incorrectamente como cero horas.
 
-## ACTUALIZACIÓN: Adobe Learning Manager pasará a denominarse Adobe Learning Manager
+## ACTUALIZACIÓN: Adobe Learning Manager pasará a llamarse Adobe Learning Manager
 
 Esta es una actualización sobre un cambio inminente y le ayuda a prepararse para él.
 
@@ -2282,7 +2294,7 @@ Fecha de publicación: 11 de enero de 2019.
 
 +++Actualización 41
 
-Actualización 41: Fecha de publicación: 1 de diciembre de 2018.
+Actualización 41Fecha de publicación: 1 de diciembre de 2018.
 
 * Los administradores pueden controlar el permiso otorgado a los alumnos para ver puntuaciones de las pruebas en las transcripciones de los alumnos. Esta opción se puede activar o desactivar en la página Configuración.
 * La inserción de notificaciones de usuario puede fallar de forma aleatoria y ocasionar que no se entreguen los correos electrónicos asociados. Este problema se ha solucionado.
@@ -3707,7 +3719,7 @@ Fecha de publicación: 26 de octubre de 2015.
 **Creación de cursos utilizando módulos**
 
 * Al crear cursos con módulos de actividad, los autores pueden elegir direcciones URL externas válidas aunque contengan rutas de carpetas. Antes, no se admitían las direcciones URL con rutas de carpetas. Este problema se ha solucionado.
-* Si el contenido del curso era un proyecto que se cargaba con un archivo zip en Learning Manager y ese archivo zip contenía rutas de carpetas, como Zip>carpeta>contenido, no se admitía el contenido. Se ha solucionado el problema.
+* Si el contenido del curso era un proyecto que se cargaba con un archivo zip en Learning Manager y ese archivo zip contenía rutas de carpetas, como Zip>carpeta>contenido, no se admitía el contenido. Este problema se ha solucionado.
 
 **Aplicación para tabletas**
 

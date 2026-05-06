@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5385'
 ht-degree: 38%
 
 ---
@@ -56,7 +56,7 @@ En la tabla siguiente se muestra el tipo de archivos estáticos e interactivos q
       <li>Mantener contenido SCORM con gran cantidad de evaluaciones en catálogos que no están configurados como orígenes del Asistente del alumno, o</li>
       <li>El diseño de evaluaciones para que la simple reformulación del material de aprendizaje no exponga de forma trivial las respuestas correctas.</li>
    </ul>
-   <p>Se espera este comportamiento: Adobe Learning Manager no impide que el Asistente del alumno explique contenido que reside en catálogos que ha seleccionado explícitamente como orígenes de AI.</p>
+   <p>Se espera este comportamiento: Adobe Learning Manager no impide que el Asistente del alumno explique el contenido que reside en los catálogos seleccionados explícitamente como orígenes de AI.</p>
     </td>
    <td>
     <p>zip</p></td>
@@ -168,8 +168,8 @@ Para añadir el tipo de archivo de HTML (.zip) a la biblioteca de contenido, sig
 1. Tras agregar contenido, puede ver el contenido en la sección **[!UICONTROL Biblioteca de contenido]**.
 1. Seleccione el contenido del HTML y, a continuación, seleccione **[!UICONTROL Editar]**.
 1. Seleccione cualquiera de las siguientes opciones de la opción **[!UICONTROL Criterios de finalización]**.
-   * **[!UICONTROL Al iniciar contenido]**: El curso se marcará como completado automáticamente cuando el alumno lo inicie.
-   * **[!UICONTROL Marcas de alumno completadas]**: el alumno tiene la opción de marcar el curso como completado en el reproductor Fluidic.
+   * **[!UICONTROL Al iniciar el contenido]**: El curso se marcará como completado automáticamente cuando el alumno lo inicie.
+   * **[!UICONTROL Marcas de alumno completadas]**: El alumno tiene la opción de marcar el curso como completado en el reproductor Fluidic.
 
    ![](assets/completion-criteria.png)
    _Criterios de finalización_
@@ -267,18 +267,22 @@ Una vez que haya subido el contenido, puede ver una notificación. Para ello, ha
 
 La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe Learning Manager permite a los autores proporcionar subtítulos y pies de ilustración para contenido de vídeo y audio en varios idiomas. Esta función agiliza la localización, al hacer que la formación sea accesible para una audiencia global y al garantizar el cumplimiento de los estándares de accesibilidad. Los autores pueden generar, traducir, revisar y editar automáticamente archivos VTT directamente en la plataforma.
 
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
+
 #### Casos de uso
 
-* Formación global: distribuya contenido de vídeo con subtítulos en varios idiomas para llegar a los alumnos internacionales.
-* Cumplimiento de accesibilidad: proporcione subtítulos para usuarios con discapacidad auditiva en el idioma que prefieran.
-* Localización más rápida: reduzca el esfuerzo manual y acelere la implementación de contenido mediante la generación y traducción automáticas de archivos VTT.
-* Experiencia coherente: asegúrese de que todos los alumnos reciban la misma información, independientemente del idioma.
+* Formación global: Distribuye contenido de vídeo con subtítulos en varios idiomas para llegar a los alumnos internacionales.
+* Cumplimiento de accesibilidad: Proporcione subtítulos para los usuarios con discapacidad auditiva en el idioma que prefieran.
+* Localización más rápida: Reduce el esfuerzo manual y acelera la implementación de contenido generando y traduciendo archivos VTT automáticamente.
+* Experiencia coherente: Asegúrese de que todos los alumnos reciban la misma información, independientemente del idioma.
 
 #### Funciones principales
 
-* Generación automática de VTT: cargue un archivo de vídeo o audio y genere automáticamente subtítulos VTT en el idioma original.
-* Traducción en varios idiomas: Traduzca los subtítulos a cualquiera de los 39 idiomas no ingleses admitidos.
-* Revisión y edición en la aplicación: revise, edite y descargue archivos VTT antes de la publicación.
+* Generación automática de VTT: Cargue un archivo de vídeo o audio y genere automáticamente subtítulos VTT en el idioma original.
+* Traducción en varios idiomas: Traduzca los subtítulos a cualquiera de los 39 idiomas distintos del inglés admitidos.
+* Revisión y edición en la aplicación: Revisar, editar y descargar archivos VTT antes de publicar.
 * Notificaciones: Reciba notificaciones en la aplicación cuando se complete la generación y traducción de VTT.
 * Publicación fluida: Publish finalizó los subtítulos para que los alumnos accedieran en el idioma elegido.
 
@@ -313,11 +317,11 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 
 #### Información adicional
 
-* Idiomas admitidos: los 39 idiomas distintos del inglés que admite Adobe Learning Manager.
-* Notificaciones: se notifica a los autores cuando se completa la generación y traducción de VTT.
-* Flexibilidad de edición: los subtítulos se pueden editar en la aplicación o sin conexión y volver a cargarse.
-* Escalabilidad: Diseñado para las necesidades de localización y accesibilidad a escala empresarial.
-* No es necesario cargar manualmente archivos VTT: el sistema puede generar archivos VTT desde cero utilizando el vídeo/audio cargado.
+* Idiomas admitidos: Los 39 idiomas distintos del inglés admitidos por Adobe Learning Manager.
+* Notificaciones: Se notifica a los autores cuando se completa la generación y traducción de VTT.
+* Flexibilidad de edición: Los subtítulos se pueden editar en la aplicación o sin conexión y volver a cargarse.
+* Escalabilidad: Diseñado para satisfacer las necesidades de localización y accesibilidad de las empresas.
+* No es necesario cargar el VTT manualmente: El sistema puede generar archivos VTT desde cero utilizando el vídeo/audio cargado.
 
 #### Prácticas recomendadas
 
@@ -710,9 +714,9 @@ Con la actualización no iniciada, los alumnos que ya han completado el curso si
 
 Cuando un administrador hace clic en **[!UICONTROL Actualizar]**, puede elegir entre las siguientes opciones:
 
-* **[!UICONTROL Actualizar todos los alumnos ahora]**: aplique la actualización de contenido inmediatamente para todos los alumnos. Los alumnos Sin iniciar, En curso y Completado se pasan inmediatamente a la nueva versión.
-* **[!UICONTROL Actualizar todos los alumnos]**: aplique la actualización para todos los alumnos en fases. Los alumnos No iniciado y Completado reciben ahora la nueva versión. Los alumnos en curso obtienen la actualización después de completar la versión actual.
-* **[!UICONTROL Actualizar solo alumnos no iniciados]**: aplique la actualización solo a los alumnos que aún no han iniciado el curso. Los alumnos en curso y completados permanecen en la versión original.
+* **[!UICONTROL Actualizar todos los alumnos ahora]**: Aplique la actualización de contenido inmediatamente para todos los alumnos. Los alumnos Sin iniciar, En curso y Completado se pasan inmediatamente a la nueva versión.
+* **[!UICONTROL Actualizar todos los alumnos]**: Aplicar la actualización para todos los alumnos en fases. Los alumnos No iniciado y Completado reciben ahora la nueva versión. Los alumnos en curso obtienen la actualización después de completar la versión actual.
+* **[!UICONTROL Actualizar solo alumnos no iniciados]**: Aplique la actualización solo a los alumnos que aún no han iniciado el curso. Los alumnos en curso y completados permanecen en la versión original.
 
 ![](assets/version-control-options.png)
 _Opciones de actualización de contenido disponibles en Configuración de actualización_

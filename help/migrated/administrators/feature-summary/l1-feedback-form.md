@@ -2,13 +2,13 @@
 description: Más información sobre la creación de formularios de comentarios de L1 para los alumnos
 jcr-language: en_us
 title: Formulario de comentarios de L1
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # Formulario de comentarios de L1
 
@@ -28,7 +28,11 @@ Esta función proporciona una mayor flexibilidad al permitir a los administrador
 * Personalizar comentarios para diferentes cursos o rutas de aprendizaje
 * Asignar formularios personalizados según sea necesario
 
-El **[!UICONTROL Informe de comentarios de L1]** y el **[!UICONTROL Informe de comentarios]** (Informe personalizado) ahora incluyen dos nuevas columnas: Nombre del formulario de comentarios y Versión de comentarios. Estas columnas proporcionan detalles sobre los formularios de comentarios utilizados.
+El **[!UICONTROL Informe de comentarios de L1]** y el **[!UICONTROL Informe de comentarios]** (Informe personalizado) ahora incluyen dos nuevas columnas: Nombre y versión del formulario de comentarios. Estas columnas proporcionan detalles sobre los formularios de comentarios utilizados.
+
+>[!NOTE]
+>
+>Esta función, **informe de comentarios de L1**, no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Crear formulario de comentarios de L1
 
@@ -62,7 +66,7 @@ Para crear un formulario de comentarios de L1:
      ![](assets/free-text.png)
      _Agregar una pregunta de texto gratuito al formulario de comentarios_
 
-   b. **[!UICONTROL Escala numérica/NPS]**: los alumnos pueden valorar la satisfacción o probabilidad de recomendar el curso mediante una escala numérica (normalmente de 1 a 10).
+   b. **[!UICONTROL Escala numérica/NPS]**: Los alumnos pueden valorar la satisfacción o probabilidad de que un curso recomiende mediante una escala numérica (normalmente de 1 a 10).
 
    * Escriba su pregunta en el campo de texto **[!UICONTROL Pregunta]**.
    * Seleccione el rango de clasificación (1 a 10).
@@ -70,14 +74,14 @@ Para crear un formulario de comentarios de L1:
      ![](assets/numerical.png)\
      _Agregar una pregunta de escala numérica/NPS al formulario de comentarios_
 
-   c. **[!UICONTROL Escala Likert]**: los alumnos pueden especificar en qué medida están de acuerdo con una afirmación, desde Muy en desacuerdo hasta Muy en acuerdo.
+   c. **[!UICONTROL Escala Likert]**: Los alumnos pueden especificar en qué medida están de acuerdo con una declaración, desde Totalmente en desacuerdo hasta Totalmente de acuerdo.
 
    * Escriba su pregunta en el campo de texto **[!UICONTROL Pregunta]**.
    * Para que la pregunta sea obligatoria, seleccione el conmutador **[!UICONTROL Obligatorio]**.
      ![](assets/likert.png)
      _Agregar una pregunta de escala Likert al formulario de comentarios_
 
-   d. **[!UICONTROL Puntuación de eficacia del curso]**: escala para medir la eficacia con la que un curso influye en los alumnos mediante un sistema de valoración relativo.
+   d. **[!UICONTROL Puntuación de eficacia del curso]**: Una escala para medir la eficacia con la que un curso influye en los alumnos mediante un sistema de clasificación relativa.
 
    * Una pregunta predefinida con una escala Likert del 1 al 10 se añadirá al formulario de comentarios.
    * Solo puede agregar una pregunta de **[!UICONTROL Puntuación de eficacia del curso]** y no se puede modificar
@@ -124,8 +128,8 @@ _La pantalla de formularios de comentarios muestra la opción para establecer el
 
 Los administradores pueden configurar las siguientes opciones en la sección Comentarios del alumno:
 
-* **[!UICONTROL Habilitar formulario para capturar los comentarios de los alumnos de este curso]**: Habilite esta opción para recopilar comentarios de los alumnos del curso. Cuando se activa, se solicita a los alumnos que proporcionen comentarios después de completar el curso.
-* **[!UICONTROL Configuración de formulario]**: cuando se habilita, el formulario de comentarios se abre automáticamente para los alumnos inmediatamente después de completar el curso, lo que facilita la recopilación de comentarios puntuales.
+* **[!UICONTROL Habilitar formulario para capturar los comentarios de los alumnos de este curso]**: Active esta opción para recopilar comentarios de los alumnos del curso. Cuando se activa, se solicita a los alumnos que proporcionen comentarios después de completar el curso.
+* **[!UICONTROL Configuración de formulario]**: Cuando está activado, el formulario de comentarios se abre automáticamente para los alumnos inmediatamente después de completar el curso, lo que facilita la recopilación de comentarios puntuales.
 
 ![](assets/course-settigs.png)
 _La pantalla Comentarios del alumno muestra la configuración de los comentarios del alumno_
@@ -166,6 +170,3 @@ Siga los mismos pasos para cambiar los formularios de comentarios predeterminado
 >[!NOTE]
 >
 >Si no cambia el formulario, el curso utilizará el formulario de comentarios predeterminado.
-
-
-

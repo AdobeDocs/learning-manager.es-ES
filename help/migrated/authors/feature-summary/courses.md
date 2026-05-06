@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8840'
+source-wordcount: '8841'
 ht-degree: 64%
 
 ---
@@ -67,7 +67,7 @@ Para crear un curso, siga los pasos a continuación:
 
 1. Elija si desea fijar un precio para el curso o hacerlo gratuito. Si desea que el curso sea de pago, elija la opción **[!UICONTROL De pago]** y especifique un precio. El precio aparecerá entonces en la tarjeta del curso y en la página Resumen del curso de un alumno.
 
-   NOTA: Esto solo se activa cuando se configura el conector de Adobe Commerce.
+   NOTA: Esto solo se habilita cuando se configura el conector de Adobe Commerce.
 
 1. Seleccione la casilla de verificación **Los alumnos pueden darse de baja** para que puedan darse de baja de su curso.
 
@@ -80,9 +80,9 @@ Para crear un curso, siga los pasos a continuación:
    Puede activar la opción para los siguientes tipos de curso:
 
    * Personalizado
+   * Clase virtual
    * Clase
    * Actividad
-   * Mezclado
 
    Nota: Al duplicar un curso, si ha activado la opción Configuración de instancia en el curso de origen, la opción permanece desactivada en el curso de destino.
 
@@ -375,9 +375,9 @@ Si el administrador ha activado varios intentos, un autor puede configurar vario
   </tr>
   <tr>
    <td>
-    <p>Bloquear módulo entre intentos Formato 0:0:1: Días/Horas/Minutos</p></td>
+    <p>Bloquear módulo entre intentos 0:0:1 Formato: Días/horas/minutos</p></td>
    <td>
-    <p>Puede bloquear módulos durante un intervalo de tiempo específico activando la casilla de verificación "<b>Bloquear módulo entre intentos: 0:0:1 Formato: Days/Hours/Minutes</b>". Si un módulo está bloqueado, el alumno no puede visitar dicho módulo hasta que haya transcurrido el intervalo de tiempo de bloqueo indicado. </p>
+    <p>Puede bloquear módulos durante un intervalo de tiempo específico activando la casilla de verificación "<b>Bloquear módulo entre intentos 0:0:1 Formato: Días/Horas/Minutos</b>". Si un módulo está bloqueado, el alumno no puede visitar dicho módulo hasta que haya transcurrido el intervalo de tiempo de bloqueo indicado. </p>
     <p>Puede definir los criterios de finalización de un intento seleccionando las casillas de verificación '<b>Cierre del reproductor</b>' o '<b>Finalización</b>'.</p></td>
   </tr>
   <tr>
@@ -499,8 +499,8 @@ Los autores pueden añadir vínculos de HTML en el módulo de actividad y establ
 1. En el símbolo del sistema **[!UICONTROL Módulo de actividad]**, escriba el nombre y la descripción.
 1. Seleccione **[!UICONTROL Type]** como **[!UICONTROL URL externa]**.
 1. Seleccione cualquiera de las siguientes opciones de la opción **[!UICONTROL Criterios de finalización]**.
-   * **[!UICONTROL Marcas de alumno completadas]**: el alumno tiene la opción de marcar el curso como completado en el reproductor Fluidic.
-   * **[!UICONTROL Al iniciar contenido]**: El curso se marcará automáticamente como completado cuando el alumno lo inicie.
+   * **[!UICONTROL Marcas de alumno completadas]**: El alumno tiene la opción de marcar el curso como completado en el reproductor Fluidic.
+   * **[!UICONTROL Al iniciar el contenido]**: El curso se marcará automáticamente como completado cuando el alumno lo inicie.
 
    ![](assets/completion-criteria-activity-module.png)
    _Criterios de finalización_

@@ -3,9 +3,9 @@ title: Equivalentes y alternativas en Adobe Learning Manager
 description: Ofrece una experiencia de aprendizaje impecable y elimina la formación redundante con equivalentes y alternativos en ALM. Esta nueva capacidad permite a los administradores configurar reglas unidireccionales (alternativas) o bidireccionales (equivalentes), en las que, al completar un curso de formación, se concede automáticamente una finalización alternativa a otro
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3474'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,18 @@ La función Cursos alternativos o Ruta de aprendizaje ofrece a ALM una forma for
 
 La función funciona en todos los cursos y rutas de aprendizaje, garantiza que se cumplen los requisitos descendentes, como los requisitos previos y las reglas de cumplimiento, y lo hace sin obligar a los alumnos a pasar por contenido redundante. También mantiene la precisión de los informes al registrar lo que se completó directamente frente a lo que se satisfizo a través de una alternativa.
 
-Básicamente, la función introduce el concepto de finalización alternativa: un estado de finalización especial creado automáticamente cuando un alumno finaliza un curso de origen configurado que cuenta para otro curso de destino.
+Básicamente, la función introduce el concepto de una finalización alternativa: un estado de finalización especial se crea automáticamente cuando un alumno finaliza un curso de origen configurado que cuenta en otro curso de destino.
+
+>[!NOTE]
+>
+>Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 ## Relaciones alternativas
 
 Algunas relaciones de formación son bidireccionales, lo que significa que cada curso puede satisfacer los requisitos del otro. En la práctica, se trata de un escenario en el que dos cursos de formación se consideran mutuamente sustituibles. Por el contrario, las relaciones unidireccionales permiten que una formación satisfaga los requisitos de otra, pero no viceversa. ALM modela ambos escenarios utilizando el mismo mecanismo de finalización alternativo subyacente.
 
 * **Relación bidireccional (equivalentes):** Completar cualquiera de los cursos de formación satisface los requisitos del otro.
-* **Relación unidireccional:** Completar el entrenamiento A satisface el entrenamiento B, pero completar B no satisface A. Esto es común cuando una versión más reciente o más completa debe contar para un requisito más antiguo, pero no al revés.
+* **Relación unidireccional:** Completar el entrenamiento A satisface el entrenamiento B, pero completar B no satisface A. Esto es común cuando una versión más reciente o más completa debe contar para un requisito anterior, pero no al revés.
 
 Por ejemplo, cuando un curso de superconjunto más completo abarca todo en un curso de subconjunto más sencillo. Completar el superconjunto debe satisfacer el requisito del subconjunto, pero no necesariamente al revés.
 
@@ -69,7 +73,7 @@ Los administradores definen las relaciones entre los cursos y las rutas de apren
 
 En el caso de los equivalentes, los administradores pueden hacer que la relación sea bidireccional si desean que ambos cursos de formación se satisfagan mutuamente. En el caso de los alternativos, los administradores normalmente mantienen la dirección unidireccional para reflejar que solo se permiten algunas sustituciones.
 
-Estas relaciones se almacenan en el nivel de formación, no en el nivel de alumno. Una vez configurados y activados, pueden aplicarse   a todas las finalizaciones actuales y futuras de la formación de origen, con sujeción a la configuración de nivel de cuenta*como, por ejemplo, si se activa la finalización retroactiva.
+Estas relaciones se almacenan en el nivel de formación, no en el nivel de alumno. Una vez configurados y activados, pueden aplicarse a todas las finalizaciones actuales y futuras de la formación de origen, sujetos a los ajustes de nivel de cuenta*como, por ejemplo, si la finalización retroactiva está activada.
 
 ### Finalización alternativa
 
@@ -320,7 +324,7 @@ El informe de inscripción deja el campo Origen de finalización en blanco en el
 
 Cuando se elimina un destino del origen (o se elimina el origen en sí), es posible que el informe de inscripción no muestre el mismo estado **Alternativo o Alternativo (Revocado)** que el mostrado en la transcripción del alumno.
 
-Incluso cuando   Las **alternativas** están deshabilitadas, las entradas históricas en las filas **Auditoría de contenido** o **Inscripción** pueden seguir mostrando actividad relacionada con las alternativas.
+Incluso cuando **Alternativas** están deshabilitadas, las entradas históricas en las filas **Auditoría de contenido** o **Inscripción** pueden seguir mostrando actividad relacionada con alternativas.
 
 La fecha de finalización puede preceder a la fecha de inscripción cuando se complete un objeto de aprendizaje mediante una ruta alternativa **antes** de que el alumno se inscriba realmente. Dado que se pueden producir finalizaciones alternativas independientemente del estado del alumno (**Inscrito**, **No inscrito** o **En curso**), los alumnos pueden completar el objeto de aprendizaje primero e inscribirse solo en el curso de destino más adelante.
 
@@ -368,7 +372,7 @@ Al eliminar un curso, se elimina por completo del sistema, incluidos sus registr
 
 ALM no admite el encadenamiento de relaciones alternativas. Las finalizaciones alternativas se conceden solo para relaciones configuradas directamente y no se aplican en cascada en varios niveles de cursos.
 
-### Concepto: no encadenar relaciones
+### Concepto: sin encadenamiento de relaciones
 
 #### Definición
 
