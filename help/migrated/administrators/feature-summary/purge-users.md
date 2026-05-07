@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Purgar usuarios
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1441'
 ht-degree: 45%
 
 ---
@@ -239,7 +239,7 @@ Puede ordenar los usuarios filtrados por su **[!UICONTROL ID de usuario único]*
 
 La purga automática de usuarios eliminados es una función que purga los datos de los usuarios que ya se han eliminado en ALM. La purga se produce después de un período de retención configurable, centrado en las operaciones en bloque para que las cuentas de clientes de gran tamaño puedan gestionarse de forma eficaz sin perjudicar el rendimiento.
 
-El flujo de eliminación en bloque puede procesar hasta 10 000 usuarios por lote. La función se posiciona como un servicio en segundo plano centrado en la fiabilidad para la eliminación de grandes volúmenes.
+La función se posiciona como un servicio en segundo plano centrado en la fiabilidad para la eliminación de grandes volúmenes.
 
 Como administrador, puede especificar la duración dentro de la cual se pueden eliminar los usuarios purgados. Vea [Configuración de administración](/help/migrated/administrators/feature-summary/settings.md) para obtener más información.
 
@@ -247,7 +247,7 @@ Como administrador, puede especificar la duración dentro de la cual se pueden e
 
 * Proporcionar depuración automática configurable para los usuarios eliminados en el nivel de cuenta
 * Asegúrese de que los usuarios se purguen en un plazo de 24 horas una vez que cumplan los criterios de purga.
-* Admite la eliminación en bloque de hasta 10.000 usuarios al día** sin perjudicar el rendimiento del sistema
+* Compatibilidad con la eliminación en bloque de hasta 5000 usuarios al día
 * Mantener la respuesta general del sistema y el estado de la base de datos mientras se ejecutan estas operaciones
 * Aplicación de la gestión automatizada de retención de datos para cumplir las obligaciones del RGPD
 
