@@ -363,7 +363,7 @@ Puede utilizar perfiles existentes o crear perfiles personalizados para los usua
 
 **Crear perfiles personalizados**
 
-1. Vaya a **Configurar** y seleccione ** usuarios. **
+1. Vaya a **Configurar** y seleccione **&#x200B; usuarios. &#x200B;**
 2. Seleccione **Perfiles**.
 3. Haga clic en **Nuevo perfil**.
 4. Cree un perfil personalizado basado en uno existente y adaptado a los usuarios de Adobe Learning Manager.
