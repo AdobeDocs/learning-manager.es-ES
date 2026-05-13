@@ -1,19 +1,19 @@
 ---
 description: Instalar el conector de Microsoft Teams en Adobe Learning Manager
 jcr-language: en_us
-title: Instalar el conector de Microsoft Teams en Adobe Learning Manager
+title: Conector de Microsoft Teams
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 51%
 
 ---
 
-# Instalar el conector de Microsoft Teams en Adobe Learning Manager
+# Conector de Microsofts Teams en Adobe Learning Manager
 
-## Información general
+## Introducción
 
 Microsoft Teams® es una plataforma de colaboración persistente basada en chat que es totalmente compatible con el uso compartido de documentos, reuniones en línea y otras funciones para las comunicaciones empresariales.
 
@@ -37,7 +37,7 @@ El proceso automatizado de sincronización de finalización de usuarios permite 
 
 Si organiza una reunión con varios participantes, puede asignar funciones a cada uno de ellos para determinar las acciones que puede llevar a cabo en la sesión.
 
-Hay dos funciones para elegir: **presentador** y **asistente**.
+Hay dos funciones entre las que elegir: **presentador** y **asistente**.
 
 Para obtener más información, consulte [Funciones en una reunión de equipos: Microsoft](https://support.microsoft.com/es-es/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
