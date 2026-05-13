@@ -4,10 +4,10 @@ title: El usuario se elimina automáticamente en Learning Manager
 description: Se elimina un usuario de Learning Manager. Sin embargo, el administrador no ha realizado nunca esta acción.
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 61%
+source-wordcount: '235'
+ht-degree: 69%
 
 ---
 
@@ -55,5 +55,5 @@ En Adobe Learning Manager, hay una opción que permite eliminar un usuario si es
 
    *Seleccione la opción Configuración avanzada*
 
-1. En el campo **Requisito de inicio de sesión**, indica el número de días que un alumno debe eliminar automáticamente si no ha accedido al sistema.
+1. En el campo **Requisito de inicio de sesión**, introduzca el número de días; este valor determina el periodo tras el que se eliminará un alumno si no ha accedido al sistema.
 1. Haga clic en **[!UICONTROL Guardar]** para conservar la configuración realizada.
