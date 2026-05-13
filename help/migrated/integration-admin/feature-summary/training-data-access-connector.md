@@ -83,7 +83,7 @@ Para mostrar los datos de formación en un sitio web descentralizado o basado en
 2. Use la **URL base**, la **URL de CDN**, el **ID de cliente**, el **Secreto de cliente** y el **Token de actualización de administrador** para crear una configuración en AEM.
 3. Cree el sitio utilizando componentes AEM.
 4. Publish abre el sitio para los alumnos.
-5. Para obtener información completa sobre la configuración, consulte [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) y [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Para obtener información completa sobre la configuración, consulte [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) y [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Experiencia del alumno
 

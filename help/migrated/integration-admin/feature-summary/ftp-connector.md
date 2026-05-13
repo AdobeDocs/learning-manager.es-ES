@@ -178,7 +178,7 @@ Para asignar atributos:
 3. En la página **Asignar atributos**:
    - El **lado izquierdo** muestra los campos obligatorios en Adobe Learning Manager.
    - El **lado derecho** muestra los nombres de las columnas del CSV. Inicialmente, este lado contiene listas desplegables vacías.
-   - Seleccione **Elegir CSV** para cargar un archivo CSV de muestra. Esto rellena el menú desplegable del lado derecho con los nombres de columna del archivo CSV. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
+   - Seleccione **Elegir CSV** para cargar un archivo CSV de muestra. Esto rellena el menú desplegable del lado derecho con los nombres de columna del archivo CSV. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual#csv).
    - Asigne cada campo de Adobe Learning Manager a la columna CSV correspondiente.
 
    ![](assets/ftp-connector6.png)
