@@ -3,9 +3,9 @@ description: Información general sobre cada conector compatible con ALM
 jcr-language: en_us
 title: Descripción general de los conectores compatibles con ALM
 contentowner: mmanuel
-source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
+source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1424'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ El conector de Box aprovecha la plataforma de almacenamiento en la nube de Box p
 - Integración con los flujos de trabajo de Box existentes
 - Actualizaciones de datos en tiempo real desde las carpetas designadas.
 
+Para obtener más información, consulte [Conector de Box](/help/migrated/integration-admin/feature-summary/box-connector.md).
+
 ## Conectores de clase virtual y reunión
 
 Estos conectores integran Adobe Learning Manager con las plataformas de videoconferencia y reuniones virtuales más populares, lo que permite una distribución perfecta de sesiones de formación en directo.
-
-Para obtener más información, consulte [Conector de Box](/help/migrated/integration-admin/feature-summary/box-connector.md).
 
 ### Conector de Microsoft Teams
 
@@ -169,6 +169,9 @@ El conector de ADFS permite a las organizaciones implementar autenticación y au
 - Implementación del inicio de sesión único (SSO)
 - Cumplimiento normativo de seguridad empresarial
 - Autenticación de usuario perfecta
+- Importación automatizada de usuarios
+- Capacidad de programar
+- Capacidad de filtrar
 
 Para obtener más información, consulte [Conector de ADFS](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
 
