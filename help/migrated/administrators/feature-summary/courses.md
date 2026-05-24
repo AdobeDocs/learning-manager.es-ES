@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b170bc6e9f6b53c58b42b83635bb2de497c5f5fa
+source-git-commit: bb212865016726f84a240702533a099ac11e481a
 workflow-type: tm+mt
 source-wordcount: '5898'
 ht-degree: 60%
@@ -243,7 +243,7 @@ Si un alumno con un estado de aprobación pendiente se da de baja, su registro n
 
 Con la función de inscripción masiva de Adobe Learning Manager, los administradores pueden inscribir de manera eficiente grandes grupos de alumnos en cursos, certificaciones o programas de aprendizaje cargando un archivo CSV. Este proceso ahorra tiempo, garantiza la coherencia y respalda la escalabilidad de la organización. Además, los administradores y los instructores pueden actualizar la información del alumno, su asistencia y sus finalizaciones en bloque mediante la carga de archivos CSV, lo que minimiza el trabajo manual y garantiza la precisión de los datos.
 
-Puede utilizar el mismo formato de archivo CSV para la inscripción, la asistencia y la finalización. Solo tiene que introducir los ID de correo electrónico del alumno en la columna &quot;Correo electrónico&quot; y guardar el archivo con un nombre basado en la acción, por ejemplo, bulk_enrollment.csv, bulk_attend.csv o bulk_completed.csv. Solo se admite el formato CSV. No se admite el formato UTF-8. Descargue el [archivo .csv de muestra](/help/migrated/administrators/feature-summary/assets/Sample-Bulk-Action-CSV.csv).
+Puede utilizar el mismo formato de archivo CSV para la inscripción, la asistencia y la finalización. Solo tiene que introducir los ID de correo electrónico del alumno en la columna &quot;Correo electrónico&quot; y guardar el archivo con un nombre basado en la acción, por ejemplo, bulk_enrollment.csv, bulk_attend.csv o bulk_completed.csv. Solo se admite el formato CSV. No se admite el formato UTF-8. Descargue el [archivo .csv de muestra](/help/migrated/administrators/feature-summary/assets/Sample-Bulk-Action-CSV.xlsx).
 
 ### Inscribir alumnos en bloque mediante un archivo CSV
 
