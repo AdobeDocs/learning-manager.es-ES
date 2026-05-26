@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creación de instancias de cursos y rutas de aprendizaje
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24fe199514c70bc081eda47b3e8d8dca9d8faba3
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '6105'
 ht-degree: 58%
@@ -38,18 +38,19 @@ Una vez que un autor ha creado un curso, puede crear instancias del mismo. Al cr
 Para crear una instancia:
 
 1. En la aplicación web de administrador, haga clic en **[!UICONTROL Cursos]** en el panel izquierdo.
-1. En la lista de cursos, seleccione uno y haga clic en **[!UICONTROL Ver curso]**.
+2. En la lista de cursos, seleccione uno y haga clic en **[!UICONTROL Ver curso]**.
 
    ![](assets/view-course.png)
 
    *Ver un curso*
 
-1. Para crear instancias, haga clic en **[!UICONTROL Instancias]** en el panel izquierdo. Cada curso tiene una instancia de forma predeterminada. Es posible modificar la instancia predeterminada o bien añadir instancias. Esta instancia del curso no se puede eliminar.
-1. Para crear una instancia, en la esquina superior derecha de la información del curso, haga clic en **[!UICONTROL Añadir nueva instancia]**. Se muestra una nueva instancia del curso.
-1. Indique las propiedades de la instancia:
+3. Para crear instancias, haga clic en **[!UICONTROL Instancias]** en el panel izquierdo. Cada curso tiene una instancia de forma predeterminada. Es posible modificar la instancia predeterminada o bien añadir instancias. Esta instancia del curso no se puede eliminar.
+4. Para crear una instancia, en la esquina superior derecha de la información del curso, haga clic en **[!UICONTROL Añadir nueva instancia]**. Se muestra una nueva instancia del curso.
+5. Indique las propiedades de la instancia:
 
    * En el campo **[!UICONTROL Nombre de instancia]**, escriba el nombre de la instancia que desea asociar al curso. Asigne un nombre exclusivo a la instancia.
-   * **Fecha de inicio:** Esta es la fecha de inicio del curso. Se pueden enviar dos correos electrónicos de recordatorio al alumno antes de esta fecha de inicio en dos fechas seleccionadas diferentes. La fecha de inicio debe ser una fecha anterior a la fecha de finalización. Una vez que seleccione la fecha de inicio, esta fecha se resaltará en azul en el calendario de la sección **Alertas de notificación** de la instancia.
+   * **Fecha de inicio:** Esta es la fecha de inicio de la instancia. Se pueden enviar dos correos electrónicos de recordatorio al alumno antes de esta fecha de inicio en dos fechas seleccionadas diferentes. La fecha de inicio debe ser una fecha anterior a la fecha de finalización. Una vez que seleccione la fecha de inicio, esta fecha se resaltará en azul en el calendario de la sección **Alertas de notificación** de la instancia.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Especifique la fecha límite de finalización de la instancia. Los alumnos deben lograr el estado de finalización del curso en esta fecha.
    * Seleccione **[!UICONTROL Mostrar más opciones]** para mostrar otras opciones de fecha límite.
@@ -57,19 +58,17 @@ Para crear una instancia:
    * **[!UICONTROL Fecha límite de cancelación de inscripción]:** Puede optar por restringir que el propio alumno cancele la inscripción estableciendo una fecha límite de cancelación de inscripción.
    * **[!UICONTROL Zona horaria]:** Busque y, a continuación, seleccione la **[!UICONTROL zona horaria]** en el menú desplegable.
 
-   Seleccione **Guardar**.
-   ![](assets/start-date-instance.png)
+6. Seleccione **Guardar**.
 
 #### Establecer recordatorios por correo electrónico antes de la fecha de inicio
 
 Solo puede establecer recordatorios por correo electrónico después de guardar toda la información de la instancia. Una vez que seleccione **Guardar**, la instancia se minimiza y pasa al modo de edición.
 
 1. Seleccione el cuadro **Alertas de notificación**.
-2. En el calendario, seleccione una fecha anterior a la fecha de inicio del curso para el primer recordatorio.
+2. En el calendario, seleccione una fecha anterior a la fecha de inicio de la instancia para el primer recordatorio.
 3. Seleccione **Agregar recordatorio** a la derecha.
-4. **Plantilla de correo electrónico:** Seleccione una plantilla de la lista desplegable **1
-5. **Periodicidad:** Seleccione un tipo de periodicidad en la lista desplegable.
-Seleccione la marca de verificación azul de la derecha para guardar la fecha del recordatorio. Recuerde que cada fecha de recordatorio debe guardarse por separado.
+4. **Plantilla de correo electrónico:** Seleccione una plantilla de la lista desplegable.
+5. **Periodicidad:** Seleccione un tipo de periodicidad en la lista desplegable. Seleccione la marca de verificación azul de la derecha para guardar la fecha del recordatorio. Recuerde que cada fecha de recordatorio debe guardarse por separado.
    ![](assets/start-date-reminder1.png)
 6. Seleccione otra fecha que también sea anterior a la fecha de inicio del curso para el segundo recordatorio, repita el proceso y seleccione la marca de verificación azul de la derecha para guardar también esta fecha de recordatorio.
    ![](assets/start-date-reminder2.png)
