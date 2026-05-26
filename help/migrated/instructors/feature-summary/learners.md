@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -146,9 +146,12 @@ Todas las actualizaciones se reflejan automáticamente en los registros, transcr
 
 * Cuando un alumno o instructor se inscribe en una sesión de clase o de clase virtual, Learning Manager envía una invitación de calendario (archivo ICS).
 * La invitación de calendario incluye:
+
    * Fecha y hora de la sesión
    * Detalles de sesión
    * **Vínculo para unirse a la sesión directa** en la descripción del calendario
+
+  ![](assets/calendar-invite-session.png)
 
 Los participantes pueden abrir el evento del calendario y unirse a la sesión directamente desde su calendario.
 
@@ -189,8 +192,8 @@ Para marcar el éxito para los alumnos:
 4. Seleccione a los alumnos y, a continuación, seleccione **[!UICONTROL Acciones]**.
 5. Seleccione cualquiera de las siguientes opciones para marcar el éxito de los alumnos seleccionados:
 
-   * **[!UICONTROL Marcar como aprobado y aprobado]**: los alumnos marcados como aprobado han completado correctamente el módulo.
-   * **[!UICONTROL Marcar como asistido y suspenso]**: los alumnos marcados como suspensos han completado el módulo, pero no lo han superado.
+   * **[!UICONTROL Marcar como asistido y aprobar]**: Los alumnos marcados como Aprobados han completado correctamente el módulo.
+   * **[!UICONTROL Marcar como asistido o suspenso]**: Los alumnos marcados como Suspenso han completado el módulo, pero no lo han aprobado.
 
    ![El menú desplegable Acciones resalta las opciones &quot;Marcar como asistido y aprobado&quot; y &quot;Marcar como asistido y suspenso&quot; para que los instructores establezcan el estado de éxito de cada alumno](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
    _Página de alumnos que muestra el menú Acciones con las opciones Marcar como asistido y Aprobado y Marcar como asistido y Suspenso resaltadas para registrar los resultados de los alumnos_
