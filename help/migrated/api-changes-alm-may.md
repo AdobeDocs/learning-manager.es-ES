@@ -1,16 +1,16 @@
 ---
 description: Cambios en la API de ALM
 jcr-language: en_us
-title: Cambios en la API en la versión de abril
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+title: Cambios en la API en la versión de parche de mayo de 2026
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 
-# Cambios en la API de la versión de mayo de 2026
+# Cambios en la API en la versión de parche de mayo de 2026
 
 ## Mejora de la API GET/learningObjects
 
