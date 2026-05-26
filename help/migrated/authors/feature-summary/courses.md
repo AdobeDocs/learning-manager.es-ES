@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '8841'
-ht-degree: 64%
+source-wordcount: '9424'
+ht-degree: 61%
 
 ---
 
@@ -49,15 +49,16 @@ Para crear un curso, siga los pasos a continuación:
 
 ## Crear un curso: flujo de trabajo avanzado {#createacourseadvancedworkflow}
 
-1. Inicie sesión en Adobe Learning Manager como autor, ya que los autores son los únicos usuarios con derechos para crear cursos. A continuación, en la página Introducción, haga clic en **[!UICONTROL Crear cursos]**.
-1. En la página **Vista previa del curso**, asigne un nombre al curso. A continuación, redacte una descripción breve de este curso, que se mostrará en la tarjeta del curso. La descripción tendrá 140 caracteres como máximo. Después, proporcione una descripción más detallada del curso, que se mostrará en la página Detalles del curso. La descripción tendrá 1500 caracteres como máximo.
-1. Para que un curso esté disponible en otros idiomas, haga clic en Añadir nuevo idioma en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. Haga clic en **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
-1. **Modificar la configuración del curso**:
+1. Inicie sesión en Adobe Learning Manager como autor, ya que los autores son los únicos usuarios con derechos para crear cursos. Ahora, en la página de inicio, selecciona **[!UICONTROL Crear cursos]**. Se abre la página Catálogo de cursos y aparece una lista de cursos.
+2. Seleccione **Agregar** en la parte superior derecha. Se abre una página para crear un curso nuevo.
+3. Introduzca un nombre para el curso y una breve descripción. Esta descripción se muestra en la tarjeta del curso. La descripción tendrá 140 caracteres como máximo. Después, proporcione una descripción más detallada del curso, que se mostrará en la página Detalles del curso. La descripción tendrá 1500 caracteres como máximo.
+4. Para que un curso esté disponible en otros idiomas, haga clic en Añadir nuevo idioma en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. Haga clic en **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
+5. **Modificar la configuración del curso**:
 
-   1. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
-   1. Elija las aptitudes del curso, el nivel y defina los créditos de la aptitud. Si es necesario, añada más aptitudes.
-   1. Añada las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   1. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
+   a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
+b. Elija las aptitudes del curso, el nivel y defina los créditos de la aptitud. Si es necesario, añada más aptitudes.
+c. Añada las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+d. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
 
    Estos son los tipos de inscripciones:
 
@@ -65,13 +66,15 @@ Para crear un curso, siga los pasos a continuación:
    * **Aprobados por responsable**: los responsables aprueban estos cursos. Los alumnos pueden inscribirse en estos cursos, pero no se inscriben directamente en ellos sin la aprobación del responsable. Se envía una solicitud de notificación a los responsables cuando los alumnos se inscriben en estos tipos de cursos. Tras la aprobación del responsable, estos cursos figuran como inscritos para los alumnos.
    * **Inscripción automática**: los alumnos pueden inscribirse directamente en este tipo de cursos.
 
-1. Elija si desea fijar un precio para el curso o hacerlo gratuito. Si desea que el curso sea de pago, elija la opción **[!UICONTROL De pago]** y especifique un precio. El precio aparecerá entonces en la tarjeta del curso y en la página Resumen del curso de un alumno.
+6. Elija si desea fijar un precio para el curso o hacerlo gratuito. Si desea que el curso sea de pago, elija la opción **[!UICONTROL De pago]** y especifique un precio. El precio aparecerá entonces en la tarjeta del curso y en la página Resumen del curso de un alumno.
 
-   NOTA: Esto solo se habilita cuando se configura el conector de Adobe Commerce.
+   >[!NOTE]
+   >
+   >Esto solo se habilita cuando se configura el conector de Adobe Commerce.
 
-1. Seleccione la casilla de verificación **Los alumnos pueden darse de baja** para que puedan darse de baja de su curso.
+7. Seleccione la casilla de verificación **Los alumnos pueden darse de baja** para que puedan darse de baja de su curso.
 
-1. **Configuración de instancia**
+8. **Configuración de instancia**
 
    Si activa esta opción, los alumnos con el estado En curso pueden visitar otras instancias e inscribirse en ellas. Un alumno puede conservar el progreso de la instancia anterior.
 
@@ -84,7 +87,9 @@ Para crear un curso, siga los pasos a continuación:
    * Clase
    * Actividad
 
-   Nota: Al duplicar un curso, si ha activado la opción Configuración de instancia en el curso de origen, la opción permanece desactivada en el curso de destino.
+   >[!NOTE]
+   >
+   >Al duplicar un curso, si ha activado la opción Configuración de instancia en el curso de origen, la opción permanece desactivada en el curso de destino.
 
    **El conmutador de instancia no es compatible para**:
 
@@ -93,18 +98,18 @@ Para crear un curso, siga los pasos a continuación:
 
    La configuración del conmutador de instancias no se propagará a las cuentas de igual a igual si se comparte a través del catálogo. La opción permanece desactivada en el curso de destino.
 
-1. **Inscripciones múltiples**
+9. **Inscripciones múltiples**
 
    De este modo, puede inscribir alumnos en más de una instancia del curso en uno o varios periodos.
 
    Habilite el conmutador **Inscripción múltiple** para cambiar entre varias inscripciones de curso de un alumno. Si ha habilitado el Cambio de instancia, no es posible utilizar la opción de varias inscripciones.
 
-1. Elija los requisitos previos de cursos que se deben completar antes de comenzar su curso. Haga clic en el campo Cursos y elija en la lista de cursos.
-1. Active la casilla de verificación **Aplicar** **requisitos previos** si los requisitos previos del curso deben ser obligatorios.
-1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
-1. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
-1. En el campo Retirar automáticamente , seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
-1. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
+10. Elija los requisitos previos de cursos que se deben completar antes de comenzar su curso. Haga clic en el campo Cursos y elija en la lista de cursos.
+11. Active la casilla de verificación **Aplicar** **requisitos previos** si los requisitos previos del curso deben ser obligatorios.
+12. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
+13. Añada palabras clave como etiquetas relacionadas con su curso. Estas etiquetas ayudan a los alumnos a encontrar su curso fácilmente durante la búsqueda. Todas estas etiquetas se añaden automáticamente según los módulos que hemos agregado. Si desea incorporar otras etiquetas a este curso, hágalo.
+14. En el campo Retirar automáticamente , seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
+15. Para guardar los cambios, seleccione **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
 
 ### Añadir etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación {#add-custom-compliance-label}
 
@@ -131,6 +136,64 @@ Ahora, el curso, la ruta de aprendizaje o la certificación se consideran un tip
 >[!NOTE]
 >
 >Los autores también pueden añadir las etiquetas de cumplimiento a un curso/ruta de aprendizaje/certificación existente editándolas.
+
+## Crear una instancia
+
+Para crear una instancia, haga lo siguiente:
+
+1. Inicie sesión como **autor**.
+2. Vaya al curso para el que desea crear una instancia y abra el curso.
+3. Seleccione **Instancias** en el panel de navegación izquierdo. Se abre la página **Instancias**. Cada curso tiene una instancia de forma predeterminada. Es posible modificar la instancia predeterminada o bien añadir instancias. Esta instancia del curso no se puede eliminar.
+4. Para crear una instancia, en la esquina superior derecha de la información del curso, haga clic en **[!UICONTROL Añadir nueva instancia]**. Se muestra una nueva instancia del curso.
+5. Indique las propiedades de la instancia:
+
+   * En el campo **[!UICONTROL Nombre de instancia]**, escriba el nombre de la instancia que desea asociar al curso. Asigne un nombre exclusivo a la instancia.
+   * **Fecha de inicio:** Esta es la fecha de inicio del curso. Se pueden enviar dos correos electrónicos de recordatorio al alumno antes de esta fecha de inicio en dos fechas seleccionadas diferentes. La fecha de inicio debe ser una fecha anterior a la fecha de finalización. Una vez que seleccione la fecha de inicio, esta fecha se resaltará en azul en el calendario de la sección **Alertas de notificación** de la instancia.
+     ![](assets/start-date-highlighted-instance.png)
+   * Especifique la fecha límite de finalización de la instancia. Los alumnos deben lograr el estado de finalización del curso en esta fecha.
+   * Seleccione **[!UICONTROL Mostrar más opciones]** para mostrar otras opciones de fecha límite.
+   * **[!UICONTROL Plazo de inscripción]:** Esta es la fecha en la que se espera que un alumno se inscriba en un objeto de aprendizaje en caso de inscripción automática.
+   * **[!UICONTROL Fecha límite de cancelación de inscripción]:** Puede optar por restringir que el propio alumno cancele la inscripción estableciendo una fecha límite de cancelación de inscripción.
+   * **[!UICONTROL Zona horaria]:** Busque y, a continuación, seleccione la **[!UICONTROL zona horaria]** en el menú desplegable.
+
+6. Seleccione **Guardar**.
+   ![](assets/start-date-instance.png)
+
+### Establecer recordatorios por correo electrónico antes de la fecha de inicio
+
+Solo puede establecer recordatorios por correo electrónico después de guardar toda la información de la instancia. Una vez que seleccione **Guardar**, la instancia se minimiza y pasa al modo de edición.
+
+1. Seleccione el cuadro **Alertas de notificación**.
+2. En el calendario, seleccione una fecha anterior a la fecha de inicio del curso para el primer recordatorio.
+3. Seleccione **Agregar recordatorio** a la derecha.
+4. **Plantilla de correo electrónico:** Seleccione una plantilla de la lista desplegable **1
+5. **Periodicidad:** Seleccione un tipo de periodicidad en la lista desplegable.
+Seleccione la marca de verificación azul de la derecha para guardar la fecha del recordatorio. Recuerde que cada fecha de recordatorio debe guardarse por separado.
+   ![](assets/start-date-reminder1.png)
+6. Seleccione otra fecha que también sea anterior a la fecha de inicio del curso para el segundo recordatorio, repita el proceso y seleccione la marca de verificación azul de la derecha para guardar también esta fecha de recordatorio.
+   ![](assets/start-date-reminder2.png)
+
+## Ver las propiedades de la instancia {#viewpropertiesoftheinstance}
+
+1. **Módulos:** Cantidad de módulos creados por el autor del curso.
+2. **Sesiones:** Número de módulos de clase y clase virtual del curso
+3. **Logros:** Los logros de los alumnos
+4. **Alertas de notificación:** La opción de enviar dos correos electrónicos de recordatorio antes de la fecha de inicio del curso
+
+### Acciones {#actions}
+
+* **Guardar en configuración del curso:** Guarda la configuración de esta instancia en el curso desde el que creó la instancia.
+* **Aplicar configuración predeterminada:** Aplica la configuración predeterminada que se encuentra en la página **Configurar** > **Valores predeterminados de instancia**.
+* **Retirar instancia:** Retiró una instancia. La instancia ya no estará disponible.
+* **Eliminar instancia:** Elimina la instancia en particular.
+
+
+>[!NOTE]
+>
+>No se puede eliminar la instancia predeterminada ni una copia de la instancia predeterminada. En estos casos, la opción Eliminar instancia no aparecerá en la lista desplegable Acción.
+
+* **Notificar a alumnos en lista de espera:** Notifica a los alumnos en lista de espera que hay otra instancia en la que pueden inscribirse
+* **Enviar correo electrónico a los alumnos inscritos:** Envía correos electrónicos a los alumnos sobre anuncios importantes
 
 ## Puntos de interacción
 
@@ -1090,7 +1153,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
