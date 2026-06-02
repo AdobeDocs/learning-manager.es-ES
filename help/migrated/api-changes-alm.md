@@ -2,13 +2,13 @@
 description: Cambios en la API de ALM
 jcr-language: en_us
 title: Cambios en la API en la versión de abril
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # Cambios en la API de la versión de abril de 2026
 
@@ -51,7 +51,7 @@ Una versión en bloque de esta capacidad está planificada mediante una API de t
 }  
 ```
 
-Las integraciones deben utilizar esta API cuando necesiten reiniciar a los alumnos en cada programa o curso. Los clientes deben gestionar correctamente las respuestas a los errores: la API puede rechazar las solicitudes de actualización, donde no es aplicable un restablecimiento (por ejemplo, cuando no existe finalización o no se admiten los tipos de objetos de aprendizaje).
+Las integraciones deben utilizar esta API cuando necesiten reiniciar a los alumnos en cada programa o curso. Los clientes deben gestionar correctamente las respuestas de error: la API puede rechazar las solicitudes de actualización cuando no sea aplicable un restablecimiento (por ejemplo, cuando no existe finalización o no se admiten tipos de objetos de aprendizaje).
 
 ## Equivalentes y finalizaciones alternativas
 
@@ -102,7 +102,7 @@ La estructura de ayudas de trabajo en varios idiomas es idéntica en las API de 
 
 Para admitir flujos de trabajo en los que los revisores pueden compartir comentarios estructurados sobre actividades basadas en listas de comprobación, esta versión muestra *comentarios de listas de comprobación* y controles de visibilidad de revisores a través de la API de recursos de objetos de aprendizaje.
 
-Los metadatos relacionados con la lista de comprobación se muestran en entidades learningObjectResource (JApiLOResource, &quot;type&quot;: &quot;learningObjectResource&quot;) que representan recursos de la lista de comprobación dentro de un curso u otro objeto de aprendizaje.
+Los metadatos relacionados con la lista de comprobación se muestran en las entidades learningObjectResource (JApiLOResource, &quot;type&quot;: &quot;learningObjectResource&quot;) que representan recursos de lista de comprobación de un curso u otro objeto de aprendizaje.
 
 La información está disponible a través de:
 
@@ -124,15 +124,15 @@ Para los recursos de la lista de comprobación, pueden estar presentes los sigui
    - la configuración checklist tiene activado enable_reviewer_comments.
 - attributes.showChecklistComment\
   Un indicador booleano que indica si los comentarios del revisor se deben mostrar al alumno:\
-  &quot;showChecklistComment&quot;: true\
+  &quot;showChecklistComment&quot;: verdadero\
   Este atributo está presente _solo cuando_ enable_reviewer_comments está habilitado en la configuración de lista de comprobación.\
   Los clientes deben utilizar este indicador para decidir si desean mostrar checklistComment en las experiencias de los alumnos.
 - attributes.showReviewerNameToLearner\
   Un indicador booleano que controla si el alumno debe ver la identidad del revisor:\
-  &quot;showReviewerNameToLearner&quot;: true\
+  &quot;showReviewerNameToLearner&quot;: verdadero\
   Cuando es verdadero, los clientes pueden utilizar la relación checklistReviokedBy (véase a continuación) para resolver y mostrar el nombre del revisor (por ejemplo, mediante una API de búsqueda de usuarios).
 
-Otros contextos específicos de la lista de comprobación, como checklistEvaluationStatus, isChecklistObligatorio, resourceSubType: &quot;CHECKLIST&quot; y submitDate también están disponibles en el mismo learningObjectResource para admitir más interfaces de usuario e informes de listas de comprobación.
+Otro contexto específico de la lista de comprobación, como checklistEvaluationStatus, isChecklistObligatorio, resourceSubType: &quot;CHECKLIST&quot; y submitDate también están disponibles en el mismo learningObjectResource para admitir más interfaces de usuario y generación de informes de listas de comprobación.
 
 ### Relación de identidad del revisor
 
@@ -157,7 +157,7 @@ Esta relación se rellena _solo si_:
 Las aplicaciones cliente deben:
 
 1. Compruebe attributes.showReviewerNameToLearner.
-2. Si está presente true y relations.checklistReviokedBy.data, llame a la API de usuario correspondiente para resolver &quot;id&quot;: &quot;user_id&quot; en un nombre para mostrar.
+2. Si true y relations.checklistReviokedBy.data están presentes, llame a la API de usuario correspondiente para resolver &quot;id&quot;: &quot;user_id&quot; en un nombre para mostrar.
 3. Representa el nombre del revisor junto al comentario o estado de la lista de comprobación, según corresponda.
 
 ### Acceso a recursos y comentarios de lista de comprobación
@@ -214,7 +214,7 @@ Los datos de la ayuda de trabajo se exponen mediante:
 GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
 ```
 
-Cuando una ayuda de trabajo tiene varias variantes de idioma, la matriz incluida contiene varias entradas &quot;tipo&quot;: &quot;recurso&quot;, una para cada configuración regional (por ejemplo, en-US, fr-FR, es-ES), todas vinculadas desde un único recurso learningObjectResource.
+Cuando una ayuda de trabajo tiene varias variantes de idioma, la matriz incluida contiene varios &quot;tipos&quot;: Entradas de &quot;recurso&quot;: una para cada configuración regional (por ejemplo, en-US, fr-FR, es-ES), todas vinculadas desde un único objeto learningObjectResource.
 
 ### Estructura de ayudas de trabajo en varios idiomas
 
@@ -288,7 +288,7 @@ Esta estructura permite a los clientes:
 
 ### Retrocompatibilidad: 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 El extremo de recurso heredado sigue estando disponible:
 
@@ -314,7 +314,7 @@ Las integraciones que actualmente almacenan o hacen referencia a los identificad
    - Utilice resource.attributes.locale para seleccionar la dirección URL correcta (location/downloadUrl) para la configuración regional del alumno.
    - Implemente el comportamiento de reserva (por ejemplo, utilice en-US) si la configuración regional exacta de un alumno no está disponible.
 - _API y almacenamiento_
-   - Para nuevas integraciones, almacene los _identificadores de recursos de nuevo formato_ (```jobAid:<jobAidId>_<version>_<localeCode>```) para habilitar la recuperación específica de la configuración regional sin ambigüedades.
+   - Para nuevas integraciones, almacene los _identificadores de recursos de nuevo formato_ (`jobAid:<jobAidId>_<version>_<localeCode>`) para habilitar la recuperación específica de la configuración regional sin ambigüedades.
    - Los identificadores heredados aún se pueden usar con /resources/{resourceId}, pero no distinguirán entre configuraciones regionales.
 
 ## Restricciones de espacio de tiempo para módulos de inicio
@@ -323,13 +323,13 @@ Algunas experiencias de aprendizaje deben estar disponibles solo dentro de un in
 
 Los metadatos de franja horaria están disponibles a través del punto final:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 En el nivel de recurso del objeto de aprendizaje, ahora puede haber un objeto timeSlot presente en los atributos, con valores startTime y endTime en UTC. Esto especifica la ventana durante la cual se puede iniciar el recurso.
 
 Antes de iniciar un módulo, las integraciones pueden llamar a un nuevo punto final de validación:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 Este punto final, diseñado para escenarios de lectura del alumno, devuelve si el alumno puede iniciar el recurso en ese momento, teniendo en cuenta el intervalo de tiempo configurado, el tipo de entrega y otras reglas de back-end.
 
@@ -341,7 +341,7 @@ Algunos paquetes de contenido implementan su propio seguimiento de intentos en l
 
 Mediante:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 Los recursos de objetos de aprendizaje ahora pueden exponer un atributo booleano hasContentDrivenAttemptTracking. Cuando esto es cierto, el cuestionario o módulo gestiona los intentos internamente (por ejemplo, a través de la lógica SCORM o xAPI), y es posible que los contadores de intentos estándar de la plataforma no reflejen completamente la experiencia del alumno.
 
@@ -353,11 +353,11 @@ Esta versión introduce un __cambio de comportamiento__ importante en el formato
 
 Anteriormente, los identificadores de recursos de ayuda de trabajo utilizaban un formato como:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 En la versión de abril de 2026, se ha sustituido por un formato simplificado y más explícito:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Por ejemplo:
 
@@ -365,9 +365,9 @@ jobAid:131032_2_fr_FR
 
 Los componentes son:
 
-- ```<jobAidId>```: el identificador numérico de la ayuda de trabajo (por ejemplo, 131032),
-- ```<version>```: el número de versión de la ayuda de trabajo (por ejemplo, 2),
-- ```<localeCode>```: el código local (por ejemplo, en_US, fr_FR, es_ES).
+- `<jobAidId>`: el identificador numérico de la ayuda de trabajo (por ejemplo, 131032),
+- `<version>`: el número de versión de la ayuda de trabajo (por ejemplo, 2),
+- `<localeCode>`: el código de configuración regional (por ejemplo, en_US, fr_FR, es_ES).
 
 Cualquier integración que indexe recursos o persista en ID de recursos de ayuda de trabajo debe actualizar su lógica de análisis y almacenamiento para reconocer el nuevo formato. Dado que los identificadores en sí cambian, se recomienda encarecidamente que vuelva a generar los índices locales definidos por los identificadores de recursos de ayuda de trabajo después de actualizar a la versión de abril de 2026.
 
@@ -395,11 +395,11 @@ La columna del titular:
 
 ### Preparación de imágenes de banner para la migración
 
-1. Cargar imágenes de banner: coloque los archivos de imagen de banner en la misma ubicación de Box o FTP que use para otros activos de migración, siguiendo la estructura de directorios existente.
+1. Cargar imágenes de banner: Coloque los archivos de imagen del banner en la misma ubicación de Box o FTP que use para otros activos de migración, siguiendo la estructura de directorios existente.
 2. Comprobar formato de archivo:
 Utilice uno de los formatos de imagen admitidos (por ejemplo, png, jpg, jpeg, gif), tal y como se describe en los requisitos del sistema:
    1. [*Requisitos del sistema*](/help/migrated/system-requirements.md)
-3. Actualizar course.csv: En la nueva columna del banner, haga referencia a la ruta de acceso relativa o al identificador de la imagen del banner. Un ejemplo conceptual:
+3. Actualizar course.csv: En la nueva columna del titular, haga referencia a la ruta relativa o al identificador de la imagen del titular. Un ejemplo conceptual:
 
 ```
 id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl  
@@ -458,7 +458,7 @@ Debe tratar la columna de orden heredada como eliminada u omitida:
 - La asignación básica requerida sigue siendo la siguiente:
    - ↔ ID del programa de aprendizaje : ID del curso (y otras columnas aún documentadas como id, learningProgramId, courseId y fechas).
 
-Consulta siempre las [_especificaciones de CSV_](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual) más recientes de tu cuenta de Learning Manager (mediante csv_specifications.zip) para confirmar el conjunto de encabezados y los requisitos actuales.
+Consulta siempre las [_especificaciones de CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) más recientes de tu cuenta de Learning Manager (mediante csv_specifications.zip) para confirmar el conjunto de encabezados y los requisitos actuales.
 
 ## timeZoneCode en instancias del curso
 
@@ -559,9 +559,9 @@ Para las acciones de administración pequeñas e interactivas, puede seguir util
 Estas API forman parte de la superficie estándar __v2 Admin API__.
 
 - [URL base (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
-- Autenticación: token de acceso de OAuth 2.0 con ámbito `admin:write`
+- Autenticación: Token de acceso de OAuth 2.0 con ámbito `admin:write`
 - Encabezados necesarios:
-   - Autorización: portador &lt;token_acceso>
+   - Autorización: Portador &lt;token_acceso>
    - Tipo de contenido: aplicación/json
    - Aceptar: aplicación/json
 
@@ -657,7 +657,7 @@ _¿Cómo puedo restablecer mediante programación la finalización de un alumno 
 
 Utilice el nuevo punto final:
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 Esto restablece la finalización de la instancia de destino cuando los permisos y el estado lo permiten.
 
 _¿Cómo puedo saber si un alumno ha completado algo a través de un objeto de aprendizaje alternativo o equivalente?_
@@ -668,7 +668,7 @@ _¿Cómo puedo encontrar todas las alternativas que puedan satisfacer un objeto 
 
 Utilice el siguiente punto final:
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 y utilice la matriz de datos (para las alternativas) y meta.count (para el número total de alternativas).
 
@@ -676,10 +676,10 @@ _¿Cómo sé si un alumno puede iniciar un módulo en este momento?_
 
 En primer lugar, busque el timeSlot del recurso de:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 y luego use:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _¿Qué significa ContentDrivenAttemptTracking en un recurso?_
 
@@ -689,7 +689,7 @@ _¿Cómo puedo obtener menús apropiados para usuarios que no han iniciado sesi�
 
 Uso:
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 Esto devuelve estructuras de menú y página filtradas para usuarios anónimos, adecuadas para Experience Builder u otros sitios sin encabezado.
 
@@ -701,10 +701,10 @@ _¿Qué ha cambiado en el formato de ID de recurso de ayuda de trabajo y cómo d
 
 El formato de ID ha cambiado de valores como:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 para:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 por ejemplo jobAid:131032_2_fr_FR. Cualquier sistema que almacene o analice identificadores de recursos de ayuda de trabajo debe actualizarse y debe planear la reconstrucción de los índices locales marcados por estos identificadores después de actualizar a la versión de abril de 2026.
