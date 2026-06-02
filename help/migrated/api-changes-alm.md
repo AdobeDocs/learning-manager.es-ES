@@ -458,7 +458,7 @@ Debe tratar la columna de orden heredada como eliminada u omitida:
 - La asignación básica requerida sigue siendo la siguiente:
    - ↔ ID del programa de aprendizaje : ID del curso (y otras columnas aún documentadas como id, learningProgramId, courseId y fechas).
 
-Consulta siempre las [_especificaciones de CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) más recientes de tu cuenta de Learning Manager (mediante csv_specifications.zip) para confirmar el conjunto de encabezados y los requisitos actuales.
+Consulta siempre las [_especificaciones de CSV_](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual) más recientes de tu cuenta de Learning Manager (mediante csv_specifications.zip) para confirmar el conjunto de encabezados y los requisitos actuales.
 
 ## timeZoneCode en instancias del curso
 
