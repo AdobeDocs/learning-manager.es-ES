@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
 workflow-type: tm+mt
-source-wordcount: '29658'
+source-wordcount: '29617'
 ht-degree: 75%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 75%
 
 Fecha de publicación: 26 de mayo de 2026
 
-## Mejoras (correo electrónico de invitación de sesión e instancia)
+## Mejoras de esta versión
 
-**Fecha de inicio de una instancia:** Como administrador o autor, ahora puede incluir una fecha de inicio para una instancia al crear o editar una instancia.
+**Fecha de inicio de una instancia:** Como administrador o autor, ahora puede incluir una fecha de inicio para una instancia al crear o editar una instancia. La fecha de inicio solo se puede mostrar en la interfaz del alumno a través de la API.
 
 **Recordatorios por correo electrónico antes de la fecha de inicio:** Esto está relacionado con el campo **Fecha de inicio** recién introducido en una instancia. Como administrador o autor, ahora puede definir dos recordatorios por correo electrónico en diferentes momentos antes de la fecha de inicio de una instancia con diversos tipos de repeticiones.
 
@@ -615,7 +615,7 @@ No ocurre nada al hacer clic en las notificaciones de la pestaña Actividad de l
 
 ### Mejoras De Rendimiento En Esta Versión
 
-Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro de ningún alumno.
+Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro para cada alumno.
 Hemos optimizado el procesamiento de planes de aprendizaje para cuentas grandes. De este modo, se evitan problemas de búsqueda o retrasos.
 +++
 

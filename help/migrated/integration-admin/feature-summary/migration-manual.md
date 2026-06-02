@@ -3,9 +3,9 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '5322'
+source-wordcount: '5320'
 ht-degree: 61%
 
 ---
@@ -419,7 +419,7 @@ En versiones anteriores de las especificaciones de migración, el archivo learni
 
 Adobe Learning Manager ya no utiliza esta columna. El orden de los cursos en un programa de aprendizaje no se puede controlar mediante archivos CSV de migración y el sistema omite los valores proporcionados en la columna del orden, aunque se haya establecido **orderEnforced** en true.
 
-Para evitar confusiones, la columna de orden se ha eliminado de las especificaciones oficiales del archivo CSV. Si ya dispone de scripts o herramientas que aún generan esta columna, puede eliminarla de forma segura; esto no afecta a la forma en que se crean o muestran los programas de aprendizaje.
+Para evitar confusiones, la columna de orden se ha eliminado de las especificaciones oficiales del archivo CSV. Si tiene secuencias de comandos o herramientas existentes que aún generan esta columna, puede quitarla sin problemas; no afecta a la forma en que se crean o muestran los programas de aprendizaje.
 
 ## Proceso de migración {#migrationprocedure}
 
@@ -550,7 +550,7 @@ Captura la información de finalización a nivel de usuario para objetos de apre
 
 Esto significa:
 
-* El modelo admitido es: las definiciones de objeto de aprendizaje y sus relaciones de equivalencia se gestionan como parte de un flujo de migración coherente.
+* El patrón admitido es: Las definiciones de OA y sus relaciones de equivalencia se gestionan como parte de un flujo de migración coherente.
 * Los flujos híbridos en los que los objetos de aprendizaje creados por la interfaz de usuario se adaptan con equivalencia de solo CSV no son compatibles.
 
 #### &#x200B;2. Sin finalizaciones o infinalizaciones retroactivas de relaciones migradas
@@ -591,7 +591,7 @@ Los objetos de aprendizaje de orden superior pueden incluir:
 
 **Implicación técnica:**
 
-* La ingesta de equivalence_user_completed.csv no es una operación &quot;silenciosa&quot;: inicia la misma lógica de cálculo/acumulación que se activaría al finalizar el tiempo de ejecución normal.
+* La ingesta de equivalence_user_completed.csv no es una operación &quot;silenciosa&quot;: inicia la misma lógica de cálculo o acumulación que se activaría al finalizar el tiempo de ejecución normal.
 * Los sistemas que integren o programen esta migración deben planificar la carga y la temporización de los cálculos.
 
 ## Webhooks para alternativos
@@ -674,8 +674,8 @@ Como ejemplo, verás cómo un cliente ficticio (NovaFX) se integra con un provee
 
 SquareCorp debe proporcionar:
 
-* Información de metadatos del curso: una API para compartir los metadatos del curso a los que NovaFX tiene acceso.
-* Información de datos de progreso: una API para compartir información de progreso y finalización del alumno periódicamente.
+* Información de metadatos del curso: Una API para compartir los metadatos del curso a los que tiene acceso NovaFX.
+* Información de los datos de progreso: Una API para compartir información de progreso y finalización de alumnos periódicamente.
 
 ### Definiciones clave
 
@@ -783,11 +783,11 @@ GET /bulkimport/runStatus
 
 **Parámetros**
 
-* **migrationProjectId**: (obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
+* **migrationProjectId**: (Obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
 
-* **sprintId**: (obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
+* **sprintId**: (Obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
 
-* **sprintRunId**: (obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
+* **sprintRunId**: (Obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
 
 **Respuesta**
 
@@ -862,7 +862,7 @@ A continuación, encontrará las especificaciones de CSV estándar que puede usa
 
 3-learning_program_enrollment.xlsx-contiene descripciones de los metadatos requeridos para el archivo retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx-contiene descripciones de los metadatos requeridos para el archivo retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx-contiene descripciones de los metadatos necesarios para el archivo retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -889,7 +889,7 @@ Learning Manager admite UUID para ofrecer flexibilidad a las empresas en el cont
 
 **Escenario de uso de UUID en una empresa**
 
-Supongamos que un empleado A se une a una empresa denominada Learning Manager como contratista. Durante el período de contrato, es posible que la empresa de Learning Manager no proporcione el ID de correo electrónico de la empresa como ```A@example.com```. En su lugar, la empresa puede considerar solo la cuenta de correo electrónico personal del empleado, por ejemplo, ```A@gmail.com```. Después de completar 6 meses del período de contrato, si el mismo empleado A se une a Learning Manager como empleado a tiempo completo, es posible que Learning Manager desee cambiar su ID de correo electrónico a su ID de correo electrónico de empresa: ```A@example.com```.
+Supongamos que un empleado A se une a una empresa denominada Learning Manager como contratista. Durante el período de contrato, es posible que la empresa de Learning Manager no proporcione el ID de correo electrónico de la empresa como `A@example.com`. En su lugar, la empresa puede considerar solo la cuenta de correo electrónico personal del empleado, por ejemplo, `A@gmail.com`. Después de completar 6 meses del período de contrato, si el mismo empleado A se une a Learning Manager como empleado a tiempo completo, es posible que Learning Manager desee cambiar su ID de correo electrónico a su ID de correo electrónico de empresa: `A@example.com`.
 
 Tener acceso UUID a la cuenta de usuario beneficiará a la empresa Learning Manager en la hipótesis mencionada anteriormente. La empresa Learning Manager puede reemplazar fácilmente la identificación de correo electrónico personal del empleado A con una identificación de correo electrónico oficial. Este cambio no afectará a los registros del empleado correspondientes a esta cuenta.
 

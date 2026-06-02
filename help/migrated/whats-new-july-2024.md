@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras de la versión de julio de 
 jcr-language: en_us
 title: Resumen de nuevas funciones
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Los nuevos elementos visuales renovados se alinean con las tendencias de diseño
 
 **Experiencia de usuario mejorada**
 
-Los alumnos verán ahora una vista de tarjeta similar en las páginas siguientes: Página de inicio , Catálogo, Mi aprendizaje y Descripción general del curso , que ofrecen una experiencia unificada.
+Los alumnos ahora verán una vista de tarjeta similar en las páginas siguientes: Las páginas Página de inicio , Catálogo, Mi aprendizaje y Resumen del curso ofrecen una experiencia unificada.
 
 Consulte la [página de inicio del alumno](/help/migrated/learners/feature-summary/learner-home-page.md) para obtener más información.
 
@@ -123,7 +123,7 @@ Los alumnos recibirán notificaciones push cada vez que incumplan la fecha lími
 
 La API de búsqueda incluye los siguientes cambios:
 
-Los alumnos pueden buscar etiquetas en los filtros de catálogo mediante la API ```GET /search```. Los alumnos pueden buscar las etiquetas seleccionando ```tag``` como valor para el parámetro ```filter.loTypes```.
+Los alumnos pueden buscar etiquetas en los filtros de catálogo mediante la API `GET /search`. Los alumnos pueden buscar las etiquetas seleccionando `tag` como valor para el parámetro `filter.loTypes`.
 
 **Curl de muestra**
 
@@ -131,13 +131,13 @@ Los alumnos pueden buscar etiquetas en los filtros de catálogo mediante la API 
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-Los nuevos filtros, puesto disponible, lista de espera disponible y filtro de intervalo de tiempo se han agregado a las siguientes API: ```GET /search``` y `GET /learningObjects`.
+Los nuevos filtros, puesto disponible, lista de espera disponible y filtro de intervalo de tiempo se han añadido a las siguientes API: `GET /search` y `GET /learningObjects`.
 
-Los nuevos filtros `filter.session.includeEnrollmentDeadline` se han agregado a la siguiente API ```GET /search```.
+Los nuevos filtros `filter.session.includeEnrollmentDeadline` se han agregado a la siguiente API `GET /search`.
 
 ### API de cuentas
 
-Las nuevas columnas `custom_injections`, `showComplianceLabel` y `complianceLabelDefaultID` se han agregado a la API ```GET /account``` para obtener los datos de cuenta del extremo de usuario.
+Las nuevas columnas `custom_injections`, `showComplianceLabel` y `complianceLabelDefaultID` se han agregado a la API `GET /account` para obtener los datos de cuenta del extremo de usuario.
 
 ### API de objeto de aprendizaje
 
