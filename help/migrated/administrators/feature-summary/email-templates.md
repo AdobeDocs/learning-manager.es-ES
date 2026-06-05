@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 58%
+source-wordcount: '1753'
+ht-degree: 60%
 
 ---
 
@@ -35,18 +35,28 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 Como administrador, puede activar, desactivar o modificar fácilmente estas plantillas de correo electrónico.
 
-1. Para tener acceso a las plantillas, haga clic en **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo. En esta página hay tres categorías diferentes de plantillas: **[!UICONTROL General]**, **[!UICONTROL Actividad de aprendizaje]** y **[!UICONTROL Recordatorios y actualizaciones]**. Hay una cuarta ficha, **[!UICONTROL Configuración]**, donde puede configurar las plantillas.
+Las plantillas de correo electrónico que se indican a continuación forman parte de este grupo de plantillas.
+
+**Actualización del progreso:** Esta plantilla notifica a un alumno que su estado de finalización y el progreso en una ruta de aprendizaje se han vuelto a calcular automáticamente debido a un cambio en su perfil activo o en la configuración de la ruta de aprendizaje. Se solicita al alumno que revise los nuevos requisitos pendientes y que realice una acción para completar la ruta de aprendizaje.
+
+**Los cursos/rutas se han marcado como completados mediante una ruta alternativa:** Esta plantilla notifica a un alumno cuando completa un curso mediante una ruta alternativa. Esto significa que han completado directamente un aprendizaje de origen que un administrador ha configurado como alternativa para esos destinos.
+
+**Los cursos/rutas se han marcado como incompletos:** Esta plantilla notifica al alumno que un curso o ruta de aprendizaje que antes estaba destinado a completarse mediante una alternativa ahora se ha marcado como incompleto. Esto sucede cuando un administrador elimina o modifica una relación alternativa y se activa la infinalización retroactiva en el nivel de cuenta.
+
+**Error de lista de comprobación/lista de comprobación:** El objetivo de estas plantillas es informar a los alumnos de que los revisores las han evaluado. El alumno recibe este correo electrónico para cada evaluación, de modo que pueda ir a la plataforma y comprobar si debe realizar alguna acción.
+
+1. Para tener acceso a las plantillas, haga clic en **[!UICONTROL Plantillas de correo electrónico]** en el panel izquierdo. En esta página hay tres categorías de plantillas: **[!UICONTROL General]**, **[!UICONTROL Actividad de aprendizaje]** y **[!UICONTROL Recordatorios y actualizaciones]**. Hay una cuarta ficha, **[!UICONTROL Configuración]**, donde puede configurar las plantillas.
 
    ![](assets/categories-of-emailtemplates.png)
 
    *Seleccione la ficha General*
 
-2. Para habilitar o deshabilitar en bloque las plantillas de correo electrónico para una función en particular, seleccione los puntos suspensivos (...) en el encabezado de columna y habilite todas las funciones aplicables en **[!UICONTROL Destinatarios de correo electrónico]**.
+2. Para activar o desactivar en bloque las plantillas de correo electrónico para una función concreta, seleccione los puntos suspensivos (...) en el encabezado de columna y habilite todas las funciones aplicables en **[!UICONTROL Destinatarios de correo electrónico]**.
 
    ![](assets/email-template-role.png)
    _Enviar todas las plantillas de correo electrónico en el nivel de rol_
 
-3. Para habilitar o deshabilitar una plantilla de correo electrónico específica para un rol, seleccione los puntos suspensivos (...) para esa plantilla y seleccione o anule la selección de un rol.
+3. Para activar o desactivar una plantilla de correo electrónico específica para un rol, seleccione los puntos suspensivos (...) para esa plantilla y seleccione o anule la selección de un rol.
 
    ![](assets/email-template-role-1.png)
    _Enviar una plantilla de correo electrónico en un nivel de rol_
@@ -74,11 +84,11 @@ Como administrador, puede activar, desactivar o modificar fácilmente estas plan
 1. Para abrir la página de configuración, haga clic en **[!UICONTROL Configuración]**. Ahora puede personalizar las plantillas de correo electrónico.
 1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite **[!UICONTROL Nombre y dirección del remitente].**
 
-   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
+   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
 
-1. Personalice su banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
+1. Personalice el banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
 
-   Puede utilizar una imagen personalizada como banner seleccionando la opción **[!UICONTROL Imagen personalizada]**. Haga clic en **[!UICONTROL Guardar]** después de realizar los cambios.
+   Puede utilizar la imagen personalizada como banner seleccionando la opción **[!UICONTROL Imagen personalizada]**. Haga clic en **[!UICONTROL Guardar]** después de realizar los cambios.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -163,7 +173,7 @@ Puedes descargar el informe de acceso al correo electrónico haciendo clic en el
 
 ## Personalizar el dominio del correo electrónico {#customizeemaildomain}
 
-Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
+Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
 
 Su solicitud se procesará y se le enviará un correo electrónico con un vínculo de confirmación a la nueva dirección de correo electrónico que especifique. Haga clic en el vínculo de verificación proporcionado en el correo electrónico para confirmar y completar el proceso de verificación.
 
@@ -171,7 +181,7 @@ Su solicitud se procesará y se le enviará un correo electrónico con un víncu
 
 Como administrador, puede seleccionar los usuarios que pueden recibir correo electrónico de Learning Manager y los que no pueden.
 
-Para ello, usa la opción **[!UICONTROL No molestar]** de la pestaña **[!UICONTROL Configuración]**. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario.
+Esta configuración se establece mediante la opción **[!UICONTROL No molestar]** de la ficha **[!UICONTROL Configuración]**. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario.
 
 Busque un usuario que añadir a la lista.
 
@@ -179,7 +189,7 @@ Busque un usuario que añadir a la lista.
 
 ## Correos electrónicos bloqueados {#blockedemails}
 
-En la lista desplegable **Correos electrónicos bloqueados** de cada usuario, selecciona los tipos de correo electrónico que se les bloqueará.
+Acceda a la lista desplegable **Utilizar correos electrónicos bloqueados** de cada usuario para seleccionar los tipos de correo electrónico que se les bloqueará.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -199,7 +209,7 @@ Puede añadir usuarios a la lista No molestar mediante archivos CSV. Incluya val
 * Bloquear escalaciones dirigidas entrantes
 * Bloquear escalaciones omitidas entrantes
 
-Introduzca true en el campo valor para impedir que los usuarios reciban mensajes de correo electrónico para la opción seleccionada. Si se indica el valor false, se desbloquea a los usuarios. Si se deja en blanco, no se efectúan cambios en las selecciones anteriores.
+Indique true en el campo del valor para impedir que los usuarios reciban mensajes de correo electrónico correspondientes a la opción seleccionada. Si se indica el valor false, se desbloquea a los usuarios. Si se deja en blanco, no se efectúan cambios en las selecciones anteriores.
 
 ## Flexibilidad en la personalización de las plantillas
 
@@ -218,7 +228,7 @@ Seleccione **[!UICONTROL Plantillas de correo electrónico]** > **[!UICONTROL Co
 También puede personalizar lo siguiente:
 
 * El banner y la firma de correo electrónico tanto en el nivel del curso como en el nivel de instancia.
-* Edite el pie de página del correo electrónico. El área del pie de página contiene variables predefinidas para la dirección URL de la cuenta, la firma y cualquier texto de formato libre que el usuario agregue.
+* Editar el pie de página del correo electrónico. El área del pie de página contiene variables predefinidas para la dirección URL de la cuenta, la firma y cualquier texto de formato libre que el usuario agregue.
 
 Las plantillas también son compatibles con funciones de edición avanzadas, como que el formato se conserve al copiar y pegar contenido desde y en Microsoft Word.
 
@@ -230,13 +240,13 @@ Los usuarios de Learning Manager ahora recibirán invitaciones por correo electr
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo deshabilitar la Ayuda en las plantillas de correo electrónico
++++¿Cómo se deshabilita la Ayuda en las plantillas de correo electrónico?
 
 De momento, en Learning Manager, no es posible desactivar la **Ayuda** en las plantillas de correo electrónico.
 
 +++
 
-+++¿Cómo se modifican las plantillas de correo electrónico?
++++¿Cómo se pueden modificar las plantillas de correo electrónico?
 
 1. Inicie sesión como administrador en su cuenta de Learning Manager.
 1. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de correo electrónico]** y seleccione la plantilla de correo electrónico que desea modificar.
@@ -246,20 +256,20 @@ De momento, en Learning Manager, no es posible desactivar la **Ayuda** en las pl
 
 +++
 
-+++Cómo crear sus propias plantillas de correo electrónico
++++¿Cómo se pueden crear plantillas de correo electrónico propias?
 
 De momento no es posible crear plantillas de correo electrónico personalizadas. No obstante, puede editar y modificar las que ya existen.
 
 +++
 
-+++Cómo desactivar las plantillas de correo electrónico
++++¿Cómo se pueden desactivar plantillas de correo electrónico?
 
 Para desactivar la plantilla de correo electrónico, seleccione la plantilla correspondiente; a continuación, haga clic en Sí/No del botón circular.
 
 +++
 
-+++Cómo cambiar el nombre y la dirección del remitente en la plantilla?
++++¿Cómo se puede cambiar el nombre y la dirección del remitente en la plantilla?
 
-Para cambiar el nombre y la dirección de correo electrónico del remitente, ponte en contacto con el [servicio de asistencia de Adobe Learning Manager](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager).
+Para cambiar el nombre y la dirección del remitente en la plantilla, póngase en contacto con el [servicio de atención al cliente de Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
