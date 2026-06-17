@@ -32,7 +32,7 @@ b. Usuario\Nombre del responsable
 c. Objeto de aprendizaje\Nombre del objeto de aprendizaje
 d. Estado de cumplimiento del usuario\% de finalización
 e. Estado de cumplimiento del usuario\Cumplimiento %
-!   [](assets/image012.png)
+!   [&#128279;](assets/image012.png)
 7. Reorganice las columnas arrastrándolas en el lienzo.
 8. Para cambiar el nombre de una columna, introduzca un nombre en el campo de alias de la columna. El alias aparece como encabezado de columna en el archivo descargado.
 9. Seleccione **Guardar informe**.

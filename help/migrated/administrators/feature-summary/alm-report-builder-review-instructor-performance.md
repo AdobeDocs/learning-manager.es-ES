@@ -28,9 +28,9 @@ Este informe ayuda a los responsables de formación a identificar los instructor
 9. Para mostrar también el total de inscripciones, agregue **Status** por segunda vez. Aplique **Count if** a **Not Started**. Escriba el alias _Total de inscripciones_.
    ![](assets/image035.png)
 10. Filtrar **nombres de instructor** para que no estén vacíos.
-   ![](assets/image036.jpg)
+    ![](assets/image036.jpg)
 11. Ordene por **Total de finalizaciones**, empezando por los instructores de mayor rendimiento.
-   ![](assets/image037.png)
+    ![](assets/image037.png)
 12. Seleccione Guardar informe y seleccione **Acciones** > **Descargar** para descargar el informe.
 
 El informe descargado resume la eficacia del instructor comparando el total de sesiones de formación, las finalizaciones de los alumnos y las inscripciones no iniciadas de cada instructor, lo que permite evaluar el compromiso, el rendimiento de finalización y las posibles necesidades de seguimiento de la formación.

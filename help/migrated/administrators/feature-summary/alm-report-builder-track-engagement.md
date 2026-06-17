@@ -27,7 +27,7 @@ Este informe ayuda a los gestores de formación y a los administradores de apren
 8. Elija **Inscripción - Fecha de inscripción** y establezca la granularidad en **Mes**. Elija **Grupo de usuarios de campos activos - Nombre de grupo de usuarios**. Ambos aparecen como etiquetas: **Inscripción - Fecha de inscripción (mes)** y **Grupo de usuarios de campo activo - Nombre de grupo de usuarios**.
 9. En la fila **Inscripción - Tiempo empleado**, seleccione **Agregar por** y elija **Suma**.
 10. En la fila **Objeto de aprendizaje - Recuento de usuarios de inscripción**, seleccione **Agregar por** y elija **Recuento**.
-   ![](assets/image038.jpg)
+    ![](assets/image038.jpg)
 11. Seleccione **Agregar filtro**. Elija **Inscripción - Fecha de inscripción** y seleccione un intervalo relativo como **Últimos 3 meses** o introduzca un intervalo de fechas específico.
 12. Seleccione **+ Agregar ordenación**. Ordenar por **Inscripción - Fecha de inscripción** ascendente; a continuación, agregar una ordenación secundaria por **tiempo total empleado** descendente.
 13. Seleccione **Guardar informe** y seleccione **Acciones** > **Descargar** para descargar el informe.

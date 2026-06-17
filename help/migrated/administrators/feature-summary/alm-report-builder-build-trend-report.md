@@ -58,7 +58,7 @@ Este informe muestra los totales de finalización mensuales por catálogo durant
 9. Agregar un filtro: **La fecha de finalización** está dentro del último año.
    ![](assets/image044.png)
 10. Ordenar por **Fecha de finalización** ascendente.
-   ![](assets/image_045.png)
+    ![](assets/image_045.png)
 11. Seleccione **Guardar informe** y seleccione **Acciones** > **Descargar** para descargar el informe.
 
 ## Prácticas recomendadas
