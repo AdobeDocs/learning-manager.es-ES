@@ -3,10 +3,10 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
 workflow-type: tm+mt
-source-wordcount: '5320'
-ht-degree: 61%
+source-wordcount: '6280'
+ht-degree: 52%
 
 ---
 
@@ -916,3 +916,141 @@ Para obtener más información sobre este tema, consulte el siguiente contenido 
 La versión de abril de 2026 de Adobe Learning Manager ofrece mejoras específicas en la API pública en las áreas de alternativas y equivalentes, acceso a contenido con ventana de tiempo, intentos de cuestionario basados en contenido, experiencias de alumno sin sesión iniciada y administración de ayudas de trabajo. Estas actualizaciones están diseñadas para seguir siendo en gran medida compatibles con versiones anteriores, al tiempo que permiten patrones de integración más precisos y ampliables.
 
 Para ver los cambios de la API, vea [Cambios de la API](/help/migrated/api-changes-alm.md).
+
+## Migración de la sesión VILT a Adobe Learning Manager {#migrationofviltsessiontoalm}
+
+Adobe Learning Manager admite la migración en bloque y la actualización de los datos de sesión de formación virtual con instructor (VILT) a través de archivos CSV. Utilice este flujo de trabajo para configurar las fechas de inicio de las instancias, asociar instancias de rutas de aprendizaje a instancias de cursos y configurar sesiones de clase virtual para Microsofts Teams, Adobe Connect y Zoom.
+
+>[!NOTE]
+>
+>Los Id. de columna de todos los archivos CSV de migración ahora utilizan el prefijo alm, por ejemplo, `almCourseID` y `almModuleID`. Esto reemplaza el prefijo principal heredado utilizado en las versiones anteriores.
+
+### Migración de sesión VILT basada en CSV
+
+La migración a Adobe Learning Manager permite a los administradores crear o actualizar contenido de aprendizaje en bloque mediante archivos CSV estructurados. Puede aplicar estos flujos de trabajo de CSV tanto a los cursos de migración (contenido importado de un sistema externo) como a los cursos de adaptación (contenido creado directamente en la aplicación del autor de ALM).
+
+En la migración de la sesión VILT participan cuatro archivos CSV:
+
+* **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
+* El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
+* El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
+* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+
+Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
+
+Los cuatro archivos CSV aceptan `almCourseID` para hacer referencia a cursos y `almModuleID` para hacer referencia a módulos. Estos ID son los identificadores únicos asignados por ALM cuando se crea un curso o módulo.
+
+### Establezca la fecha de inicio para las instancias de cursos y rutas de aprendizaje
+
+Utilice **Course Instance CSV** y **LP Instance CSV** para agregar o actualizar la fecha de inicio en una instancia. Esto se aplica tanto a las instancias creadas por la migración como a las creadas por la interfaz de usuario (adaptación).
+
+**CSV de instancias de cursos: Agregar una fecha de inicio**
+
+1. Abra el archivo CSV de instancias de cursos.
+2. Agregue la columna `startDate` si aún no está presente.
+3. Introduzca la fecha de inicio de cada fila de instancia en formato AAAA-MM-DD.
+4. Rellene la columna `almCourseID` con el ID del curso de ALM para el curso que desea actualizar.
+5. Cargue el archivo CSV a través de la ejecución de la migración.
+
+CSV de instancias de **LP: Agregar una fecha de inicio**
+
+1. Abra el archivo CSV de instancias de LP.
+2. Agregue la columna `startDate` si aún no está presente.
+3. Introduzca la fecha de inicio de cada fila de instancia en formato AAAA-MM-DD.
+4. Rellene la columna `almLearningProgramID` con el ID de ruta de aprendizaje de ALM.
+5. Cargue el CSV a través de la ejecución de migración en.
+
+>[!NOTE]
+>
+>La columna `startDate` es opcional. Si lo incluye, el valor debe ser anterior a `completionDate`. Las filas donde `startDate` es posterior a `completionDate` generarán un error y aparecerán en la migración.
+
+### Asociación de instancias de rutas de aprendizaje con instancias de cursos
+
+Utilice el CSV de asociación de LP a instancia de curso para vincular una instancia de ruta de aprendizaje a una instancia de curso específica. Este paso es necesario para los cursos VILT que forman parte de una ruta de aprendizaje.
+
+1. Abra el archivo CSV del programa de aprendizaje a la asociación de instancias de cursos.
+2. Para cada fila, rellene las siguientes columnas:
+a. `almLearningProgramID`: el ID de la ruta de aprendizaje de ALM
+b. `almLearningProgramInstanceID`: el ID de instancia de ruta de aprendizaje ALM
+c. `almCourseID`: el ID del curso de ALM
+d. `almCourseInstanceID`: el ID de instancia del curso de ALM
+3. Cargue el archivo CSV a través de la ejecución de la migración.
+
+### Escenarios de asociación admitidos
+
+No se admiten todas las combinaciones de orígenes de migración y adaptación. Consulte la siguiente tabla antes de crear el archivo CSV.
+
+| Origen de ruta de aprendizaje | Origen de instancia del curso | Admitido |
+|-----------------------------|-------------------------------|-----------|
+| Migración | Migración | Sí |
+| Readaptación (creada en la interfaz de usuario) | Readaptación (creada en la interfaz de usuario) | Sí |
+| Migración | Readaptación (creada en la interfaz de usuario) | No |
+| Readaptación (creada en la interfaz de usuario) | Migración | No |
+
+>[!NOTE]
+>
+>Si necesita asociar una instancia de ruta de aprendizaje de adaptación a una instancia de curso de migración (o viceversa), añada el curso a la ruta de aprendizaje directamente a través de la aplicación de autor de ALM en lugar de utilizar este CSV.
+
+### Configurar detalles de sesiones de clase virtual
+
+Use el archivo **CSV de sesiones** para crear o actualizar sesiones VILT con detalles de conferencia de clase virtual. Se han añadido cuatro columnas al CSV de sesiones para admitir esto:
+
+| Columna | Descripción |
+|--------------|-------------------------------------------------------|
+| `almCourseID ` | ID de ALM del curso |
+| `almModuleID` | ID de ALM del módulo |
+| `metadata` | Objeto JSON que contiene la configuración específica del sistema VC |
+| `meetingID` | Id. de reunión del sistema de clase virtual externo |
+
+### Formato de metadatos por sistema de conferencia
+
+El campo `metadata` acepta un objeto JSON. La estructura varía según el sistema de conferencia. Todos los nombres de clave **distinguen mayúsculas de minúsculas y deben usar camelCase** exactamente como se muestra.
+
+**Microsofts Teams**
+
+```
+{
+  "organizerEmail": "user@example.com",
+  "coOrganizerEmail": "user2@example.com",
+  "lobbyBypass": true,
+  "isCompletionCriteria": false
+}
+```
+
+Todos los campos de metadatos de Teams son opcionales. Si no proporciona `organizerEmail`, ALM utiliza el correo electrónico del administrador de equipos configurado en su cuenta de ALM como organizador predeterminado.
+
+**Adobe Connect**
+
+```
+{
+  "primaryInstructor": "instructor@example.com",
+  "persistentRoom": true,
+  "templateID": "template-id-value"
+}
+```
+
+El campo `primaryInstructor` es **obligatorio** para las sesiones de Adobe Connect. Todos los demás campos son opcionales. Puede proporcionar `persistentRoom` o `templateID`, si proporciona `templateID`, ALM crea la sala utilizando esa plantilla.
+
+**Zoom**
+
+El zoom no requiere un objeto JSON de metadatos. Pase el instructor de sesión mediante la columna instructor estándar del CSV de sesiones.
+
+### Cargar el archivo CSV de sesión
+
+1. Abra el archivo CSV de sesión.
+2. Añada las cuatro nuevas columnas: almCourseID, almModuleID, metadatos e MeetingID.
+3. Para cada fila de sesión, rellene almCourseID y almModuleID con los ID de ALM del curso y el módulo.
+4. Añada el ID de la reunión desde el sistema de clase virtual (Teams, Adobe Connect o Zoom).
+5. Cree el objeto JSON de metadatos utilizando el formato del sistema de conferencias.
+6. Asegúrese de que todos los nombres de claves JSON utilicen la ortografía exacta de camelCase. Una carcasa incorrecta provoca un error en la fila.
+7. Cargue el archivo CSV a través de la ejecución de la migración.
+
+Solucionar errores comunes de migración
+
+| Problema | Solución |
+|-------|----------|
+| Errores de fila con &quot;La fecha límite de finalización debe ser mayor que la fecha de inicio&quot; | Asegúrese de que `startDate` es anterior a `completionDate` en el archivo CSV de instancias. |
+| Error de asociación de LP a instancia de curso | Confirme que tanto la ruta de aprendizaje como la instancia del curso se crearon a través del mismo origen (migración o adaptación de ambos). No se admiten orígenes mixtos. |
+| La fila de la sesión falla con un error de metadatos | Compruebe que todos los nombres de clave JSON del campo `metadata` utilizan exactamente camelCase. Las claves distinguen entre mayúsculas y minúsculas. |
+| Los equipos `isCompletionCriteria` no tienen ningún efecto | El indicador de la función de criterios de finalización para equipos debe habilitarlo el administrador de la cuenta de ALM para que los valores de migración surtan efecto. |
+| Se ha creado la fila de sesión pero el campo del instructor está vacío | Si el correo electrónico del instructor proporcionado no coincide con un usuario de ALM, la sesión se crea con un campo de instructor vacío. Verifique que el correo electrónico del instructor exista en ALM antes de cargar. |
