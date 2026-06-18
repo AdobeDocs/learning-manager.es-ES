@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30634'
-ht-degree: 72%
+source-wordcount: '30524'
+ht-degree: 73%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 72%
 Fecha de publicación: 17 de junio de 2026
 
 ## Novedades de esta versión
-
-**Report Builder:** El Report Builder de Adobe Learning Manager es una herramienta de creación de informes de autoservicio que permite a los administradores crear y descargar informes personalizados seleccionando solo las columnas necesarias, aplicando filtros flexibles y teniendo acceso a datos coherentes, todo ello desde una única interfaz. Elimina la necesidad de confiar en informes fijos prediseñados y en el posprocesamiento manual en herramientas externas, ya que permite a los usuarios configurar, guardar y reutilizar informes con facilidad. Al abordar limitaciones como estructuras de columnas rígidas, opciones de filtrado restringidas y orígenes de datos incoherentes, Report Builder agiliza los flujos de trabajo de informes, garantiza información precisa y ahorra tiempo, al tiempo que complementa los informes estándar existentes para casos de uso predefinidos. Para obtener más información, vea [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
 
 **Inscripción con un clic:** La inscripción con un clic permite a los alumnos abrir un vínculo profundo a un módulo compartido por administradores y comenzar a acceder al contenido al instante, sin necesidad de inscribirse primero y, a continuación, iniciar el curso por separado. Esto simplifica el acceso, ahorra tiempo y mejora la experiencia de aprendizaje general. Para obtener más información, consulte [Inscripción con un clic](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
 
