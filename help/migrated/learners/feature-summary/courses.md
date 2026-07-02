@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 59%
+source-wordcount: '3331'
+ht-degree: 74%
 
 ---
 
@@ -58,7 +58,7 @@ Para ver los detalles de la clasificación de la eficacia del curso, haga clic e
 ![](assets/learner-course-effectivenss1.png)
 *Ver la eficacia del curso*
 
-Haga clic en la flecha hacia abajo en la esquina inferior derecha de la ventana emergente para ver cómo se realizan los cálculos de la eficacia del curso.
+Haga clic en la flecha abajo en la esquina inferior derecha de la ventana emergente para ver cómo se realizan los cálculos de la eficacia del curso.
 
 ![](assets/course-effectiveness-calculations.png)
 *Cálculo de la eficacia del curso*
@@ -67,10 +67,10 @@ Haga clic en la flecha hacia abajo en la esquina inferior derecha de la ventana 
 
 Adobe Learning Manager hace que sea más fácil encontrar los cursos de su elección. Puede buscar los cursos de las siguientes maneras:
 
-1. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso/programa de aprendizaje o cualquier palabra clave asociada a los cursos. Puede buscar cursos por metadatos, notas, aptitudes, insignias o etiquetas. Las etiquetas permiten la búsqueda en el campo de búsqueda, lo cual significa que las etiquetas se muestran en el campo de búsqueda mientras escribe.
+1. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso/programa de aprendizaje o cualquier palabra clave asociada con los cursos. Puede buscar cursos mediante metadatos, notas, aptitudes, insignias o etiquetas. Las etiquetas permiten la búsqueda en el campo de búsqueda, lo cual significa que las etiquetas se muestran en el campo de búsqueda mientras escribe.
 1. El alumno puede ajustar los resultados de búsqueda en la página del catálogo mediante el tipo, las aptitudes, las etiquetas y el estado.
 
-Puede ordenar los cursos por relevancia, nombre o fecha de publicación haciendo clic en Ordenar por y eligiendo en el menú desplegable.
+Puede ordenar los cursos por relevancia o por fecha de publicación haciendo clic en Ordenar y seleccionando en el menú desplegable.
 
 En la página de resultados de búsqueda, puede filtrar los cursos según su **duración** y el **formato** de los cursos. Esto le proporciona una mayor flexibilidad al buscar cursos y le garantiza que encuentre los cursos adecuados para usted.
 
@@ -83,16 +83,16 @@ Los alumnos se inscriben en los cursos de las tres maneras siguientes:
 1. Los alumnos pueden inscribirse directamente en un curso/programa de aprendizaje:
 
    1. Si el curso/programa de aprendizaje es con inscripción propia, el alumno queda inscrito inmediatamente.
-   1. Si el curso/programa de aprendizaje es de tipo aprobado por el responsable, el alumno recibe el estado **aprobación pendiente**. Después de la aprobación del responsable, el alumno se inscribe en el curso.
+   1. Si el curso/programa de aprendizaje es de tipo aprobado por el responsable, el alumno recibe el estado de **aprobación pendiente**. Después de la aprobación del responsable, el alumno se inscribe en el curso.
    1. Si los alumnos se inscriben en un curso que ya cuenta con una lista de espera (en el caso de cursos de clase), deben esperar hasta que alguien deje el curso o hasta que el administrador los apruebe para el curso.
 
 Los alumnos pueden inscribirse en una amplia lista de cursos según su elección. En la ficha Cursos se muestran todos los cursos que tiene asignados o en los que se ha inscrito.
 
-Sin embargo, tiene la opción de realizar cualquiera de los cursos que aparecen en el catálogo si mueve el ratón sobre él y hace clic en Explorar. Aparece la página Inscribir. Haga clic en Inscribirme, en la esquina superior derecha de la página, para incluir el curso en la lista Cursos.
+Sin embargo, tiene la opción de explorar cualquiera de los cursos de los catálogos si mueve el ratón sobre el curso y hace clic en Explorar. Aparece la página de inscripción. Haga clic en Inscribirme, en la esquina superior derecha de la página, para incluir el curso en la lista Cursos.
 
 Un curso/programa de aprendizaje puede tener varias instancias/sesiones. En el catálogo, haga clic en el nombre del icono del curso/programa de aprendizaje para ver los detalles. Puede ver la opción para inscribirse en la instancia curso/programa de aprendizaje según la fecha límite de cada instancia del curso/programa de aprendizaje.
 
-**Registrar interés en cursos** 
+**Registrar interés en cursos**
 
 Puede registrarse para expresar interés en cualquier curso de clase que no tenga sesiones planificadas. Recibirá notificaciones cuando la sesión del curso comience a unirse al curso.
 
@@ -121,10 +121,10 @@ _Cambiar instancia de la página del alumno_
 
 Un administrador puede cambiar instancias de alumnos. Seleccione un curso en la Admin Console, vaya a la sección **[!UICONTROL Alumnos]**, elija un usuario y seleccione el botón **[!UICONTROL Acción]**. A continuación, seleccione **[!UICONTROL Cambiar instancia]** y elija la instancia deseada.
 
-![texto alt](assets/switch-instance-admin.png)
+![texto alternativo](assets/switch-instance-admin.png)
 _Cambiar instancia desde Admin Console_
 
-![seleccionar instancias de modificador](assets/switch-instances-select.png)
+![seleccionar instancias de conmutador](assets/switch-instances-select.png)
 _Aviso de instancia de conmutador_
 
 No puede cambiar de instancia hasta que se complete cualquier instancia del curso desde la aplicación del alumno o del administrador.
@@ -135,7 +135,7 @@ Los autores, al crear un curso, pueden alternar entre activar o desactivar &quot
 
 Como alumno, solo podrá valorar un curso tras su inscripción en él. Puedes ver el promedio de la valoración basada en estrellas de cualquier curso en la página **Inicio**, la página **Mi aprendizaje** y el **Catálogo**.
 
-1. Inicie sesión como **alumno**. Se carga la **página principal**.
+1. Inicie sesión como **alumno**. Se carga la **página de inicio**.
 
 1. Busque un curso. Para ello, introduzca el nombre del curso en la barra de búsqueda. También puedes elegir entre la lista de cursos mostrada haciendo clic en **Mi aprendizaje** o **Catálogo** en el panel izquierdo.
 
@@ -144,7 +144,7 @@ Como alumno, solo podrá valorar un curso tras su inscripción en él. Puedes ve
    ![](assets/cp-sr-enroll.png)
    *Inscribirse en un curso*
 
-1. Seleccione el número de estrellas para valorar un curso según corresponda, siendo 1 la puntuación inferior y 5, la superior. A continuación, haz clic en **[!UICONTROL Enviar]**.
+1. Seleccione el número de estrellas para valorar un curso según corresponda, siendo 1 la puntuación inferior y 5, la superior. A continuación, haga clic en **[!UICONTROL Enviar]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Enviar clasificación de cursos*
@@ -158,7 +158,7 @@ Como alumno, solo podrá valorar un curso tras su inscripción en él. Puedes ve
 
    Si desea volver a enviar los comentarios, haga clic en el mensaje. Una vez que se haya enviado la valoración, el mensaje se muestra durante tres segundos y, a continuación, aparece la valoración. Si desea cambiar la valoración, puede seleccionar una estrella diferente y enviarla.
 
-Los cursos se pueden ordenar en función de la valoración media proporcionada. Puede ordenar los casos en el menú desplegable Ordenar por situado en la esquina superior derecha, disponible en **Catálogo**.
+Los cursos se pueden ordenar en función de la valoración media proporcionada. Puede ordenar los casos mediante el menú desplegable Ordenar por situado en la esquina superior derecha, disponible en **Catálogo**.
 
 ## Realizar un curso {#consumingnbspacourse}
 
@@ -168,7 +168,7 @@ Si todavía no ha comenzado un curso, puede hacer clic en el botón Iniciar situ
 
 Puede ver todos los módulos del curso en una ventana del navegador.
 
-**Funciones del reproductor** 
+**Funciones del reproductor**
 
 **índice**: al realizar un curso, el reproductor muestra una tabla de contenido para ese curso en particular en el panel izquierdo de la ventana. Puede hacer clic en cada tema y desplazarse hasta dicho contenido directamente.
 
@@ -187,9 +187,9 @@ Puede ver todos los módulos del curso en una ventana del navegador.
 * Haga clic en Regresar cuando el curso esté en estado Completo.
 * Haga clic en Continuar cuando el curso esté en estado Incompleto.
 
-**Pantalla completa** Haga clic en el icono Pantalla completa en la esquina inferior derecha del reproductor para ver el curso en la ventana de pantalla completa.
+**Pantalla completa**: Haga clic en el icono de pantalla completa en la ventana inferior derecha del reproductor para ver el curso en una ventana de página completa.
 
-**Botones de navegación** Puede hacer clic en las flechas arriba/abajo para desplazarse por las diapositivas en el contenido de PDF, DOCX y PPTX. Las flechas de la diapositiva pueden utilizarse para desplazarse a los siguientes temas para todos los tipos de contenido.
+**Botones de navegación**: Puede hacer clic en las flechas hacia arriba/hacia abajo para moverse a través de las diapositivas del contenido en PDF, DOCX y PPTX. Las flechas de la diapositiva pueden utilizarse para desplazarse a los siguientes temas para todos los tipos de contenido.
 
 **Cerrar el curso** Haga clic en el icono de cerrar (x) en la esquina superior derecha del reproductor para salir del curso.
 
@@ -201,12 +201,12 @@ Si un curso tiene varias instancias, los alumnos tendrán la opción de elegir e
 
 ## Valoración basada en estrellas
 
-Solo después de inscribirse en un curso, un alumno puede proporcionar comentarios destacados sobre el curso. En la página Resumen del curso de un curso, el alumno puede valorar el curso con estrellas (1-inferior, 5-superior).
+Solo después de inscribirse en un curso, un alumno puede proporcionar valorarlo con estrellas. En la página Resumen del curso de un curso, el alumno puede valorar el curso con estrellas (1-inferior, 5-superior).
 
 ![](assets/star-rating.png)
 *Proporcionar una valoración basada en estrellas como comentario*
 
-Un alumno podrá seleccionar una estrella en particular (de un total de 5) y enviar la valoración. El alumno también puede editar la selección haciendo clic en una estrella diferente. Una vez enviado, se mostrará un mensaje de agradecimiento por sus comentarios.
+Un alumno podrá seleccionar una estrella (de un total de cinco) y enviar la valoración. El alumno también puede hacer clic en una estrella diferente para editar la selección. Una vez enviada la valoración, aparece un mensaje de agradecimiento por sus comentarios.
 
 Si el alumno desea volver a enviar los comentarios, puede realizar esta acción haciendo clic en el mensaje. El botón **Enviar** se vuelve a habilitar. Un alumno puede proporcionar una valoración basada en estrellas varias veces después de inscribirse en un curso. Siempre se tiene en cuenta la valoración más reciente.
 
@@ -219,7 +219,7 @@ Para todas las cuentas existentes, esta función está desactivada. Los administ
 
 ## Tienda de contenido
 
-La opción Tienda de contenido se encuentra en el panel izquierdo de la aplicación del alumno. Al hacer clic en la opción, puede ver todos los cursos/Todo el catálogo y las listas de reproducción revisadas.
+La opción Tienda de contenido se encuentra en el panel izquierdo de la aplicación del alumno. Al hacer clic en la opción, puede ver todos los cursos/el catálogo completo y las listas de reproducción seleccionadas.
 
 En la página siguiente, puede ver los cursos que están presentes en todo el catálogo. Cada curso presenta su duración y el tema más amplio al que pertenece. Puede elegir el tema en el filtro de la izquierda de la página.
 
@@ -256,7 +256,7 @@ Puede explorar y previsualizar el curso para ver si este se adapta a sus necesid
 
 ## Centro de contenido
 
-El centro de contenido permite a los administradores y a los expertos en la materia preseleccionar listas de reproducción necesarias desde la aplicación del alumno. Una vez preseleccionado, los administradores pueden descargar el formulario de solicitud de compra y compartirlo con el agente de ventas de Adobe.
+El centro de contenido permite a los administradores y a los expertos en la materia preseleccionar listas de reproducción necesarias desde la aplicación del alumno. Una vez preseleccionadas, los administradores pueden descargar el formulario de solicitud de compra y compartirlo con el agente de ventas de Adobe.
 
 Un administrador puede invitar a los expertos en la materia a preseleccionar las listas de reproducción en las que están interesados.
 
@@ -277,7 +277,7 @@ Para cambiar la instancia de curso, siga estos pasos:
    ![](assets/learning-program200s.jpg)
    *Seleccionar un programa de aprendizaje*
 
-1. Utilice los botones de opción para elegir si desea ver todos los cursos o cursos con instancias no seleccionadas. Tenga en cuenta que si el alumno ha completado la instancia, no puede cambiar a otra instancia.
+1. Use los botones de selección para ver todos los cursos o los que tienen instancias no seleccionadas. Si el alumno ha finalizado la instancia, no puede cambiar a otra.
 
    ![](assets/radio-buttons.jpg)
    *Ver todos los cursos o cursos con instancias no seleccionadas*
@@ -289,7 +289,7 @@ Para cambiar la instancia de curso, siga estos pasos:
 
 1. Para aplicar la instancia seleccionada, haga clic en **[!UICONTROL Actualizar inscripción]**. La opción Actualizar inscripción se encuentra en la parte superior derecha de la página.
 
-   Se inscribe la instancia recién seleccionada. Si un alumno se inscribe en una instancia de curso que forma parte de otro objeto de aprendizaje y actualiza la instancia de curso que forma parte del programa de aprendizaje flexible, se le dará de baja automáticamente de los demás objetos de aprendizaje tras recibir una advertencia.
+   Se inscribe la instancia que se acaba de seleccionar. Si un alumno se inscribe en una instancia de curso que forma parte de otro objeto de aprendizaje, y actualiza la instancia de curso que forma parte del programa de aprendizaje flexible, automáticamente se le dará de baja de los otros objetos de aprendizaje después de avisarle.
 
 ## Gestión del progreso basada en el idioma
 

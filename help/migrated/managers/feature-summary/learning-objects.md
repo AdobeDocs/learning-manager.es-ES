@@ -5,8 +5,8 @@ title: Objetos de aprendizaje
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 60%
+source-wordcount: '1741'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Puede ver una lista de todos los cursos disponibles como responsable. Haga clic 
 
 >[!NOTE]
 >
->Para ver la lista de todos los cursos retirados, haz clic en la pestaña **Retirado**.
+>La lista de todos los cursos retirados se puede ver haciendo clic en la ficha **Retirado**.
 
 ## Ver puntuaciones de pruebas {#viewquizscores}
 
@@ -66,7 +66,7 @@ También puede exportar la lista de alumnos en una hoja de Excel. Para exportar 
 
 >[!NOTE]
 >
->Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, **En curso** o **Completado**.
+>Si hay varias instancias de un curso, la lista de alumnos en Excel se proporciona en cada ficha por separado. La lista de alumnos se compone del nombre del alumno, el estado y los criterios de selección. El estado de los alumnos puede ser **No iniciado**, **En curso**, o **Finalizado**.
 
 ## Ver comentarios de L1 y L3 {#viewl1andl3feedback}
 
@@ -78,7 +78,7 @@ Puede ver los comentarios de L1 proporcionados por los alumnos de un curso y los
 
 ## Previsualizar cursos {#previewcourses}
 
-El responsable puede obtener una vista previa de los cursos haciendo clic en la opción **Vista previa como alumno** mientras visualiza los módulos del curso.
+El responsable puede previsualizar los cursos haciendo clic en la opción **Vista previa como alumno** mientras visualiza los módulos del curso.
 
 1. Haga clic en **[!UICONTROL Cursos]** en el panel izquierdo después de iniciar sesión.
 1. Haga clic en cualquier mosaico de curso de la lista de cursos en la página.
@@ -110,10 +110,10 @@ Según el gráfico circular que se muestra arriba, se le da más peso a los come
 
 Adobe Learning Manager le facilita la búsqueda rápida de los cursos y rutas de aprendizaje que elija. Puede buscar los cursos de dos maneras:
 
-1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o rutas de aprendizaje. También puede realizar búsquedas con etiquetas predefinidas, como Captivate, C, Java y HTML. Las etiquetas se pueden buscar dentro del campo Buscar, lo que significa que las etiquetas se muestran en el campo de búsqueda mientras escribe. La búsqueda también se puede ejecutar mediante un ID único.
+1. Con el campo de búsqueda. Haga clic en el icono de búsqueda que aparece en la esquina superior derecha. Aparece un campo de búsqueda. Escriba el nombre del curso o cualquier palabra clave asociada a los cursos para localizar los cursos o rutas de aprendizaje. También puede buscar con etiquetas predefinidas, como Captivate, C, Java, HTML, etcétera. Las etiquetas permiten la búsqueda en el campo de búsqueda, lo cual significa que las etiquetas se muestran en el campo de búsqueda mientras escribe. La búsqueda también se puede ejecutar mediante un ID único.
 1. Filtrando la lista de cursos/rutas de aprendizaje/certificaciones mediante los filtros. Puede filtrar los cursos por estado, por ejemplo todos los cursos publicados y los retirados.
 
-Puede buscar por competencias seleccionando **Competencias** y eligiéndolas. Como responsable, puede ordenar los cursos de cuatro maneras para encontrar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso, fecha de creación del curso o eficacia de los cursos:
+Puede buscar por competencias seleccionando **Competencias** y eligiéndolas. Como responsable, puede ordenar los cursos de cuatro maneras para ubicar mejor el curso requerido. Haga clic en Ordenar por y elija orden alfabético ascendente, orden alfabético descendente, fecha de actualización del curso, fecha de creación del curso o eficacia de los cursos:
 
 * Nombre (a-z)
 * Nombre (z-a)
@@ -135,7 +135,7 @@ Puede ordenar las rutas de aprendizaje de tres maneras: orden alfabético ascend
 
 El responsable inscribe algunos alumnos en cursos obligatorios en función de los requisitos de la empresa:
 
-1. Coloque el ratón sobre cualquier mosaico de curso publicado y haga clic en Inscribir alumnos.
+1. Desplace el ratón sobre los mosaicos de cualquier curso publicado y haga clic en Inscribir alumnos.
 
    Como alternativa, haga clic en cualquier mosaico de curso publicado y haga clic en Alumnos en el panel izquierdo. Aparece una página con una lista de alumnos. Haga clic en Inscribir.\
    Aparece el cuadro de diálogo Inscribir alumnos.
@@ -179,8 +179,8 @@ Un responsable puede marcar un programa de aprendizaje completado para los alumn
 
 Puede inscribir alumnos en la certificación de dos formas. Siga los pasos a continuación para inscribir alumnos.
 
-1. Haga clic en Certificaciones en el panel izquierdo después de iniciar sesión como responsable. En la lista Publicados de la ficha, desplace el ratón sobre cada certificación y haga clic en Inscribir alumnos. También puede hacer clic en cualquier mosaico de certificación publicado y, a continuación, hacer clic en Alumnos en el panel izquierdo. Haga clic en + Inscribir en el lado derecho de la página de alumnos para empezar a añadir alumnos.
-1. Puede ver el cuadro de diálogo Inscribir alumnos tras hacer clic en la opción Inscribir alumnos en cada uno de los dos pasos anteriores. Empiece a escribir el nombre y el perfil del alumno, elija el nombre del alumno en la lista desplegable y haga clic en Guardar.
+1. Haga clic en Certificaciones en el panel izquierdo después de iniciar sesión como responsable. En la lista Publicado, coloque el ratón sobre cada certificación y haga clic en Inscribir alumnos. O bien, haga clic en cualquier mosaico de certificación publicada y haga clic en Alumnos en el panel izquierdo. Haga clic en + Inscribir en el lado derecho de la página de los alumnos para comenzar a añadir alumnos.
+1. Puede ver el cuadro de diálogo Inscribir alumnos tras hacer clic en la opción Inscribir alumnos en cada uno de los dos pasos anteriores. Empiece a escribir el nombre y el perfil del alumno, seleccione el nombre del alumno en la lista desplegable y haga clic en Guardar.
 
 ## Dar de baja alumnos {#Unenrollmentforlearners-1}
 
@@ -209,7 +209,7 @@ Este es el flujo de trabajo:
 
 1. El responsable ve una notificación después de que un alumno solicite la aprobación de un curso.
 
-1. El administrador hace clic en **Detalles de la sesión**.
+1. El responsable hace clic en **Detalles de la sesión**.
 
    ![](assets/pending-tasks.png)
 
