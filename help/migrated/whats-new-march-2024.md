@@ -6,7 +6,7 @@ contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3960'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ Si el número de usuarios de un grupo de usuarios es grande, el menú desplegabl
             </ul>
             <td>
                 <ul>
-                    <li>Si el número de inscripciones supera el umbral predefinido, ALM no mostrará el recuento; sustituirá el recuento por un icono que, al hacer clic en él, muestra el número real de alumnos y un vínculo para llevarle a la página Alumnos.</li>
+                    <li>Si el número de inscripciones excede el umbral predefinido, ALM no mostrará el recuento; sustituirá el recuento por un icono que, al hacer clic en él, muestra el número real de alumnos y un vínculo para llevarle a la página Alumnos.</li>
                     <li>El número de inscripciones se mostrará en un formato aproximado. Por ejemplo, si el número es superior a 50 000, el recuento se mostrará como 50 000 en el nivel del curso.</li>
                 </ul>
             </td>
@@ -258,7 +258,7 @@ Al asignar los cursos a un nivel de aptitud, la lista de aptitudes es la búsque
 
 ### Grupos de usuarios
 
-#### Página Administrador: Alumnos
+#### Administrador: Página Alumnos
 
 Al buscar cualquier usuario, las opciones **Descargar alumno** y **Exportar** descargan el mismo informe. Mientras tanto, al buscar un grupo de usuarios, ahora puede descargar usuarios filtrados de ese grupo de usuarios. Al buscar en un grupo de usuarios, la **lista de alumnos de descarga** cambia a **lista de alumnos de descarga para el grupo de usuarios**. La opción **Exportar** vuelve a descargar toda la lista.
 
@@ -266,9 +266,7 @@ Al buscar cualquier usuario, las opciones **Descargar alumno** y **Exportar** de
 
 * Las columnas Etiquetas y Aptitudes del informe de cursos de formación se han cambiado a Etiquetas y aptitudes.
 * Se ha agregado el informe [Registro de auditoría de interacción](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Si una cuenta contiene más de 280 000 alumnos asignados a una aptitud, el informe de aptitud-alumno se descarga como un archivo .csv comprimido.
-Si la cuenta tiene menos de 250 000 alumnos, se descarga el mismo informe como CSV.
-En la página Administrador, seleccione **Administrador** > **Aptitudes** > **Aptitud** > **Alumnos**. El informe se descarga como CSV.
+* Si una cuenta contiene más de 280 000 alumnos asignados a una aptitud, el informe de aptitud-alumno se descarga como un archivo .csv comprimido.Si la cuenta tiene menos de 250 000 alumnos, se descarga el mismo informe como CSV.En la página Administrador, seleccione **Administrador** > **Aptitudes** > **Aptitud** > **Alumnos**. El informe se descarga como CSV.
 * El [informe de resumen de sesión](administrators/feature-summary/reports.md#session-summary-report) tiene dos nuevas columnas: información de ubicación y región de ubicación.
 
 ## Cambios en la creación de clases
@@ -283,8 +281,7 @@ Como administrador, puede imponer restricciones a un autor para modificar o elim
 
 ## Cambios en la ruta de aprendizaje flexible
 
-Todas las cuentas (antiguas y nuevas) de empezarán a incluir la fecha límite de inscripción, la fecha límite de cancelación de inscripción y el límite de puestos en la aplicación del alumno para una ruta de aprendizaje flexible.
-Los alumnos ahora podrán inscribirse en la ruta de aprendizaje flexible sin seleccionar ninguna instancia del curso.
+Todas las cuentas (antiguas y nuevas) de empezarán a incluir la fecha límite de inscripción, la fecha límite de cancelación de inscripción y el límite de puestos en la aplicación del alumno para una ruta de aprendizaje flexible.Los alumnos ahora podrán inscribirse en la ruta de aprendizaje flexible sin seleccionar ninguna instancia del curso.
 
 ## Nuevo desencadenador para planes de aprendizaje
 
@@ -372,8 +369,7 @@ En esta versión de la aplicación móvil, los alumnos pueden programar y admini
 * Recuérdame de nuevo en 3 días
 * Recuérdame de nuevo en una semana
 
-En Android: al hacer clic en la notificación push, accederás a la página **Resumen del curso**.
-En iOS: Hacer clic en la notificación push le dirigirá a la página de inicio de la aplicación. Esta es una limitación conocida en iOS.
+En Android: Al hacer clic en la notificación push, accederás a la página **Resumen del curso**.En iOS: Al hacer clic en la notificación push, se le dirigirá a la página de inicio de la aplicación. Esta es una limitación conocida en iOS.
 
 ### Cambios en la lista de comprobación de la aplicación del alumno en Salesforce
 
@@ -454,7 +450,7 @@ Las API /account y /user?include=account devuelven cuatro campos, que se reempla
 
 Un nuevo atributo, isExpiredSubmission, en learningObjectResource, que muestra si el envío del recurso ha caducado o no.
 
-* API de GET/cuenta: devuelve el nuevo atributo **expireSubmissionDuration** X, donde X es el número de días establecido. Si no se establece, se devolverá 0
+* API de GET/cuenta: Devuelve el nuevo atributo **expireSubmissionDuration** X, donde X es el número de días establecido. Si no se establece, se devolverá 0
 * La API de GET/LO con el recurso incluye el nuevo atributo **isExpiredSubmission**&quot; True o False.
    * True, si el envío ha caducado y no se muestra &quot;submitUrl&quot;.
    * Si es False, el envío no caduca y se obtiene &quot;submitUrl&quot;.
@@ -492,15 +488,15 @@ Las siguientes rutas están en desuso:
 * /learningObjects
    * Rutas obsoletas:
       * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
+      * instance.loResources.resources
    * Rutas existentes:
       * enrollment.loInstance
-      * instances.loResources
+      * instance.loResources
 * /learningObjects/{id}
    * Ruta obsoleta:
-      * enrollment.instances.subLoInstances.learningObject
+      * enrollment.instance.subLoInstances.learningObject
    * Ruta existente:
-      * enrollment.instances.subLoInstances
+      * enrollment.instance.subLoInstances
 * /enrollments
    * Ruta obsoleta:
       * loInstance.learningObject.enrollment

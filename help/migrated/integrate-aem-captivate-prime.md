@@ -5,8 +5,8 @@ description: Aprenda a integrar Adobe Learning Manager con Adobe Experience Mana
 contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 44%
+source-wordcount: '1058'
+ht-degree: 74%
 
 ---
 
@@ -69,7 +69,7 @@ El administrador de AEM necesita un token de actualización de la cuenta de Lear
    * ID de cliente, que es el ID de aplicación.
    * Secreto de cliente, que está presente en la descripción.
 
-1. Obtenga el código de OAuth. Debe utilizar la API v2 en el URI de redirección.
+1. Obtenga el código OAuth. Debe utilizar la API v2 en el URI de redirección.
 1. Haga clic en **[!UICONTROL Enviar]** y obtenga el token de actualización.
 
 ## Configurar el widget en AEM {#configurethewidgetinaem}
@@ -78,7 +78,7 @@ Para la configuración de widgets, el autor AEM solo necesita el token de actual
 
 También puede establecer varias configuraciones de cuenta en varias páginas.
 
-1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuración del widget de Captivate Learning Manager]**.
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuración del widget de Captivate Learning Manager]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 1. Introduzca el token de actualización aquí. Configure los demás ajustes.
 1. El nombre de host debe cambiarse a &quot;learningmanagereu&quot; para las regiones de la UE.
@@ -118,7 +118,7 @@ Si no hay recomendaciones, el widget aparecerá en blanco.
 
 ## Compatibilidad con Skyline
 
-Skyline es la versión en la nube de AEM. Primero debe instalar Skyline desde el administrador de paquetes. Para utilizar el componente Skyline en AEM, debe haber un usuario en la cuenta de Learning Manager. En otras palabras, la dirección de correo electrónico del usuario debe existir en la cuenta.
+Skyline es la versión en la nube de AEM. Debe instalar primero Skyline desde el administrador de paquetes. Para utilizar el componente Skyline en AEM, debe haber un usuario en la cuenta de Learning Manager. En otras palabras, la dirección de correo electrónico del usuario debe existir en la cuenta.
 
 ## Implementar Skyline
 
@@ -126,27 +126,27 @@ Los pasos para configurar Skyline se indican en el [repositorio de GitHub](https
 
 ## Widget Catálogo
 
-El widget Catálogo muestra formación de un catálogo específico o un conjunto de catálogos a un usuario. En la sección Propiedades de las propiedades de la página, seleccione Catálogo entre las opciones de la lista.
+El widget Catálogo muestra formación de un catálogo específico o de un conjunto de catálogos a un usuario. En la sección Propiedades de las propiedades de la página, seleccione Catálogo entre las opciones de la lista.
 
 ![](assets/catalog-widget.png)
 
 El widget Catálogo contiene las siguientes opciones:
 
 * **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que se debe mostrar el curso de formación.
-* **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Las opciones son: nombre, fecha, fechaCreado, fechaInscrito, etc.
+* **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Las opciones son: name, date, dateCreated, dateEnrolled, etc.
 * **[!UICONTROL Estado del alumno]:** Devuelve todos los cursos de formación que utilizan los siguientes filtros: enrolled, started, completed y notenrolled. Los resultados de la búsqueda no se mostrarán si la opción de ordenación es dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nombre de la aptitud]:** Aptitud utilizada para filtrar los cursos de formación exactos.
 * **[!UICONTROL Nombre de etiqueta]:** Etiqueta utilizada para filtrar resultados exactos.
 
-Estos son algunos componentes adicionales que puede personalizar:
+A continuación, se enumeran algunos componentes adicionales que puede personalizar:
 
-**[!UICONTROL Tipos de objetos de aprendizaje]:** Filtra según el tipo del objeto de aprendizaje. Los tipos admitidos son: curso, certificación, ayuda de trabajo y programa de aprendizaje.
+**[!UICONTROL Tipos de objetos de aprendizaje]:** Filtra según el tipo del objeto de aprendizaje. Los tipos admitidos son: course, certification, jobAid y learningProgram.
 
 En AEM, el título de una tarjeta de una tira estará vacío inicialmente. En propiedades, escriba el nombre del título en widgets.html.
 
 **Personalización**
 
-Puede personalizar la apariencia del diseño mediante widgets.html. Puede cambiar el aspecto de las tarjetas que aparecen y personalizar el tema.
+Puede personalizar el aspecto y la funcionalidad del diseño mediante widgets.html. Puedes cambiar el aspecto de las tarjetas que aparecen y personalizar el tema.
 
 En la sección **[!UICONTROL Configuración general]**, puede elegir los colores principales y secundarios de las tarjetas y especificar las propiedades para personalizar el tema.
 
@@ -171,11 +171,11 @@ En la sección **[!UICONTROL Configuración general]**, puede elegir los colores
 }
 ```
 
-### Ignorar inscripción de objetos de aprendizaje de orden superior
+### Omitir la inscripción en el objeto de aprendizaje de orden superior
 
-Si la casilla de verificación **[!UICONTROL Ignorar inscripción de objeto de aprendizaje de orden superior]** está activada y un usuario está inscrito directamente en un programa de aprendizaje o certificación, los cursos de esa certificación o programa de aprendizaje se mostrarán para el usuario en los widgets.
+Si la casilla de verificación **[!UICONTROL Omitir la inscripción en el objeto de aprendizaje de orden superior]** está activada y un usuario está inscrito directamente en un programa de aprendizaje o certificación, los cursos de ese programa de aprendizaje o certificación aparecerán para el usuario en los widgets.
 
-Si la casilla de verificación está desactivada, los cursos presentes en el programa de aprendizaje o la certificación en los que el usuario no se ha inscrito directamente no aparecerán.
+Si la casilla de verificación está desactivada, no aparecerán los cursos del programa de aprendizaje o la certificación en los que el usuario no se haya inscrito directamente.
 
 ![](assets/higher-order-lo.png)
 
@@ -183,4 +183,4 @@ A continuación, la configuración se aplica al widget.
 
 ### Seguridad
 
-Se añaden el ID y el secreto de cliente. Además, se oculta el token de actualización. Después de que un usuario cree toda la configuración, si el usuario vuelve a abrir la configuración para editarla o si otro usuario abre esta configuración, se enmascarará el token de actualización.
+Se añaden el ID y el secreto de cliente. Además, se oculta el token de actualización. Después de que un usuario cree toda la configuración, si este abre de nuevo la configuración para modificarla u otro usuario la abre, se ocultará el token de actualización.

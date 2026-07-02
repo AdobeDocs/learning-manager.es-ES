@@ -6,7 +6,7 @@ contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: '2511'
 ht-degree: 2%
 
 ---
@@ -32,9 +32,9 @@ Los usuarios de Adobe Learning Manager pueden asumir diferentes responsabilidade
 
 Los administradores pueden añadir usuarios internos mediante los siguientes métodos:
 
-* **Agregar un solo usuario**: agregue manualmente un usuario cada vez.
-* **Perfil de registro automático**: permite que los alumnos se registren automáticamente como alumnos en Adobe Learning Manager mediante un vínculo de registro creado por el administrador.
-* **Carga en bloque mediante CSV**: carga un archivo CSV para agregar varios usuarios a la vez.
+* **Agregar un solo usuario**: Añada manualmente un usuario cada vez.
+* **Perfil de registro automático**: Permite que los alumnos se registren como alumnos en Adobe Learning Manager mediante un vínculo de registro creado por el administrador.
+* **Carga en bloque mediante CSV**: Cargue un archivo CSV para agregar varios usuarios a la vez.
 
 ### Añadir manualmente un usuario interno
 
@@ -42,7 +42,7 @@ Los administradores pueden agregar manualmente un usuario proporcionando su nomb
 
 >[!INFO]
 >
->Vea este curso de formación de ALM Academy para obtener más información sobre cómo añadir usuarios individuales en Adobe Learning Manager.<br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+>Vea este curso de ALM Academy para obtener más información sobre cómo agregar usuarios individuales en Adobe Learning Manager.<br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
 
 Para añadir un solo usuario a Adobe Learning Manager:
 
@@ -57,8 +57,7 @@ Para añadir un solo usuario a Adobe Learning Manager:
    ![](assets/add-a-user-prompt.png)
    _Campos para escribir el nombre, el correo electrónico, el identificador único y el perfil de un nuevo usuario_
 5. Busque el responsable del usuario y seleccione el nombre en la lista de responsables.
-6. Seleccione **Agregar**.
-El usuario recibe un correo electrónico de bienvenida que contiene una URL de inicio de sesión para el acceso.
+6. Seleccione **Agregar**.El usuario recibe un correo electrónico de bienvenida que contiene una URL de inicio de sesión para el acceso.
 
 
 ### Permitir el registro automático para usuarios internos
@@ -270,7 +269,7 @@ Existen algunas diferencias entre los registros internos y externos:
 | Usuarios internos | Usuarios externos |
 |---|---|
 | Puede iniciar sesión con las credenciales de Adobe ID o SSO. | Puede iniciar sesión con cualquier ID de correo electrónico. |
-| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/gamification). |
+| La interacción está disponible. | La interacción está disponible. El administrador debe habilitar la interacción para alumnos externos en [Configuración de interacción](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -340,7 +339,7 @@ Los administradores pueden editar los detalles de los usuarios, eliminar usuario
 
 >[!INFO]
 >
->Vea este curso de formación de ALM Academy para aprender a asignar y eliminar funciones, enviar un correo electrónico de bienvenida y eliminar y purgar usuarios.<br>[[button]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Vea esta formación de ALM Academy para aprender a asignar y quitar funciones, enviar un correo electrónico de bienvenida y eliminar y purgar usuarios.<br>[![botón]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Editar un usuario
 
@@ -365,11 +364,11 @@ Las funciones de usuario en Adobe Learning Manager definen qué acciones puede r
 
 Adobe Learning Manager admite las siguientes funciones de usuario:
 
-* **Administrador**: Administra usuarios y grupos de usuarios, asigna funciones y configura preferencias en todo el sistema como orígenes de datos, dominios permitidos y opciones de visualización. Los administradores también son responsables de crear y organizar el contenido de aprendizaje, realizar el seguimiento del progreso de los alumnos, generar informes y configurar integraciones con sistemas externos.
+* **Administrador**: Administra usuarios y grupos de usuarios, asigna funciones y configura preferencias de todo el sistema como orígenes de datos, dominios permitidos y opciones de visualización. Los administradores también son responsables de crear y organizar el contenido de aprendizaje, realizar el seguimiento del progreso de los alumnos, generar informes y configurar integraciones con sistemas externos.
 * **Autor**: Crea y administra contenido, incluidos módulos y cursos.
-* **Responsable**: supervisa las actividades de aprendizaje del equipo, designa a miembros del equipo para los cursos, aprueba solicitudes y proporciona comentarios.
-* **Administrador de integración**: Administra las integraciones del sistema y las conexiones de datos entre ALM y las plataformas externas.
-* **Funciones personalizadas**: los administradores pueden crear funciones personalizadas para dar a los usuarios acceso personalizado en función de sus responsabilidades. Consulte este [artículo](/help/migrated/administrators/feature-summary/custom-role.md) para obtener más información sobre las funciones personalizadas.
+* **Administrador**: Supervisa las actividades de aprendizaje del equipo, designa a miembros del equipo para los cursos, aprueba solicitudes y proporciona comentarios.
+* **Administrador de integración**: Administra las integraciones del sistema y las conexiones de datos entre ALM y plataformas externas.
+* **Funciones personalizadas**: Los administradores pueden crear funciones personalizadas para dar a los usuarios acceso personalizado en función de sus responsabilidades. Consulte este [artículo](/help/migrated/administrators/feature-summary/custom-role.md) para obtener más información sobre las funciones personalizadas.
 
 Para asignar funciones a usuarios:
 
