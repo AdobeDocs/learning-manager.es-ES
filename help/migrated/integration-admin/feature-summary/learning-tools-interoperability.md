@@ -5,7 +5,7 @@ description: Más información sobre la integración de LTI ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1993'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ La interoperabilidad de las herramientas de aprendizaje (LTI) es un estándar de
 
 Adobe Learning Manager ahora es compatible con la versión 1.3 de LTI, que le permite actuar tanto como proveedor de herramientas como consumidor de herramientas. Esta función mejora la interoperabilidad entre Adobe Learning Manager y otros sistemas de gestión de aprendizaje (LMS).
 
-**LTI como proveedor de herramientas**: LTI como proveedor de herramientas permite que los sistemas externos se integren con un LMS. Adobe Learning Manager actúa como proveedor de herramientas de LTI, lo que permite a otras plataformas de LMS acceder a objetos de aprendizaje desde Adobe Learning Manager directamente desde su LMS.
+**LTI como proveedor de herramientas**: LTI como proveedor de herramientas permite integrar sistemas externos con un LMS. Adobe Learning Manager actúa como proveedor de herramientas de LTI, lo que permite a otras plataformas de LMS acceder a objetos de aprendizaje desde Adobe Learning Manager directamente desde su LMS.
 
-**LTI como consumidor de herramientas**: LTI como consumidor de herramientas permite a LMS integrar herramientas externas a través de la interoperabilidad de herramientas de aprendizaje (LTI). En este escenario, LMS es un consumidor de servicios proporcionados por herramientas externas. Adobe Learning Manager actúa como consumidor de herramientas de LTI, lo que le permite integrar herramientas de aprendizaje de terceros, lo que permite a los alumnos de Adobe Learning Manager consumir los objetos de aprendizaje de las herramientas de terceros dentro de Adobe Learning Manager.
+**LTI como consumidor de herramientas**: LTI como consumidor de herramientas permite a LMS integrar herramientas externas a través de la interoperabilidad de las herramientas de aprendizaje (LTI). En este escenario, LMS es un consumidor de servicios proporcionados por herramientas externas. Adobe Learning Manager actúa como consumidor de herramientas de LTI, lo que le permite integrar herramientas de aprendizaje de terceros, lo que permite a los alumnos de Adobe Learning Manager consumir los objetos de aprendizaje de las herramientas de terceros dentro de Adobe Learning Manager.
 
 ## Configurar el conector LTI en ALM
 
@@ -65,21 +65,21 @@ Siga estos pasos para compartir las credenciales de LTI con LMS externo:
    ![](assets/lti-tool-configuration.png)
    _Credenciales de configuración de herramientas LTI_
 
-   * **[!UICONTROL URL de token]**: la dirección URL en la que el LMS solicita un token de acceso para autenticar y autorizar la comunicación con la herramienta LTI.
-   * **[!UICONTROL URL del vínculo de destino]**: la dirección URL de destino a la que se redirige a los usuarios al iniciar la herramienta LTI desde el LMS.
-   * **[!UICONTROL URL del conjunto de claves público]**: la dirección URL que proporciona las claves públicas utilizadas para comprobar los tokens de seguridad para la comunicación segura.
-   * **[!UICONTROL URL de redirección]**: la dirección URL a la que se envían los usuarios después de completar una acción en la herramienta LTI, y que normalmente los redirige al LMS.
+   * **[!UICONTROL URL de token]**: La dirección URL en la que el LMS solicita un token de acceso para autenticar y autorizar la comunicación con la herramienta LTI.
+   * **[!UICONTROL URL del vínculo de destino]**: URL de destino a la que se redirige a los usuarios al iniciar la herramienta LTI desde el LMS.
+   * **[!UICONTROL Dirección URL del conjunto de claves público]**: La dirección URL que proporciona las claves públicas utilizadas para comprobar los tokens de seguridad para la comunicación segura.
+   * **[!UICONTROL URL de redirección]**: La dirección URL a la que se envían los usuarios después de completar una acción en la herramienta LTI y que, por lo general, los redirige al LMS.
 
 ### Configuración de LMS externo
 
 Con las credenciales compartidas por el administrador de Adobe Learning Manager, el administrador de LMS externo registra Adobe Learning Manager y genera las credenciales. Estas credenciales se añadirán a la Adobe Learning Manager como paso final para configurar Adobe Learning Manager como proveedor de herramientas. A continuación se indican las credenciales generadas por el LMS externo:
 
-* **[!UICONTROL Id. de emisor o plataforma]**: identificador único del LMS o la plataforma que envía la solicitud de inicio de LTI al proveedor de herramientas.
-* **[!UICONTROL ID de cliente]**: identificador único asignado a la herramienta LTI por el LMS para fines de autorización.
-* **[!UICONTROL Id. de implementación]**: identificador que vincula una implementación específica de la herramienta LTI al LMS para administrar varias instancias.
-* **[!UICONTROL URL de token]**: extremo en el que el LMS solicita un token de acceso para autenticar y autorizar interacciones con la herramienta LTI.
-* **[!UICONTROL URL de autenticación]**: la dirección URL a la que el LMS envía usuarios para autenticar e iniciar la conexión LTI.
-* **[!UICONTROL URL de clave pública]**: la dirección URL que proporciona la clave pública utilizada por la herramienta LTI para verificar los tokens de seguridad y garantizar una comunicación segura.
+* **[!UICONTROL Id. de emisor o plataforma]**: Un identificador único para el LMS o la plataforma que envía la solicitud de inicio de LTI al proveedor de herramientas.
+* **[!UICONTROL Id. de cliente]**: Un identificador único asignado a la herramienta LTI por el LMS a efectos de autorización.
+* **[!UICONTROL Id. de implementación]**: Un identificador que vincula una implementación de herramienta LTI específica al LMS para administrar varias instancias.
+* **[!UICONTROL URL de token]**: El punto final donde el LMS solicita un token de acceso para autenticar y autorizar interacciones con la herramienta LTI.
+* **[!UICONTROL URL de autenticación]**: La dirección URL a la que el LMS envía usuarios para autenticar e iniciar la conexión LTI.
+* **[!UICONTROL URL de clave pública]**: La dirección URL que proporciona la clave pública utilizada por la herramienta LTI para verificar los tokens de seguridad y garantizar una comunicación segura.
 
 ### Añadir Adobe Learning Manager como proveedor de herramientas: flujo de trabajo de administrador
 
@@ -120,8 +120,7 @@ Con este vínculo de inicio o este archivo IMSCC, puede exportar los cursos de A
 
 ## Adobe Learning Manager como consumidor de LTI: flujo de trabajo de administrador
 
-Como consumidor de LTI, Adobe Learning Manager le permite utilizar actividad, herramientas, contenido y widgets de proveedores de LTI externos.
-Para añadir Adobe Learning Manager como consumidor de LTI, necesita las siguientes credenciales del proveedor de LTI externo:
+Como consumidor de LTI, Adobe Learning Manager le permite utilizar actividad, herramientas, contenido y widgets de proveedores de LTI externos.Para añadir Adobe Learning Manager como consumidor de LTI, necesita las siguientes credenciales del proveedor de LTI externo:
 
 * Iniciar URL de inicio de sesión
 * URL de vínculo de destino
@@ -165,8 +164,7 @@ Los proveedores de LTI le proporcionan un vínculo de inicio o un archivo IMSCC 
 4. Escriba **[!UICONTROL Launch Link]** y **[!UICONTROL Custom Parameters]** del proveedor LTI.
 5. Seleccione su [!UICONTROL proveedor de LTI] en el menú desplegable **[!UICONTROL Proveedor de herramientas]**.
 6. Busque y seleccione **[!UICONTROL Public]** en la opción **[!UICONTROL Agregar a carpeta]**. De este modo, los cursos estarán disponibles para todos los autores.
-7. Seleccione **[!UICONTROL Guardar]**.
-Una vez creado el contenido, puede añadirlo al crear el curso.
+7. Seleccione **[!UICONTROL Guardar]**.Una vez creado el contenido, puede añadirlo al crear el curso.
 
 ### Crear curso con contenido LTI: flujo de trabajo de autor
 
@@ -184,11 +182,11 @@ Siga estos pasos para crear un curso con contenido LTI:
 
 Los siguientes tipos de cursos no se pueden exportar como cursos LTI:
 
-* **Curso con módulo de actividad**: Cursos que contienen módulos específicos basados en actividad.
+* **Curso con módulo de actividad**: Cursos que contienen módulos específicos basados en actividades.
 * **Curso con varios tipos de entrega**: Los cursos con varios tipos de entrega incluyen módulo con ritmo personalizado, módulo virtual o de clase, módulo de actividad y aprendizaje mixto.
 * **Curso con requisitos previos**: Cursos que requieren finalización previa.
-* **Curso con inscripción múltiple**: Cursos que contienen inscripción múltiple
-* **Cursos con varias instancias**: cursos que ofrecen varias instancias de entrega.
+* **Curso con inscripción múltiple**: Cursos que contienen varias inscripciones
+* **Cursos con varias instancias**: Cursos que ofrecen varias instancias de entrega.
 
 | Instancia predeterminada | Una o varias instancias no predeterminadas | Expectativa | Mensajes de error |
 |---|---|---|---|
@@ -201,12 +199,12 @@ Los siguientes tipos de cursos no se pueden exportar como cursos LTI:
 | Retirado | Retirado | No exportar | Retirar instancia de definición, varias instancias |
 | Retirado | Eliminar | No exportar | Retirar instancia de definición |
 
-* **Cursos con varias respuestas a preguntas**: Cursos con MQA habilitado.
+* **Cursos con varias respuestas a preguntas**: Cursos con MQA activado.
 * **Curso con cambio de instancia habilitado**: Cursos que permiten a los alumnos cambiar de instancia.
-* **Curso de pago**: Cursos que requieren pago para inscribirse.
-* **Cursos que forman parte de la ruta de aprendizaje, la certificación o el plan de aprendizaje**: los cursos que forman parte de las rutas de aprendizaje o los planes.
-* **Cursos que no son de tipo de inscripción automática**: los cursos están restringidos a la inscripción automática del alumno.
-* **Cursos de clase o clase virtual**: Cursos con sesiones de clase o clase virtual.
+* **Curso de pago**: Cursos que requieren el pago de la inscripción.
+* **Cursos que forman parte de la ruta de aprendizaje, certificación o plan de aprendizaje**: Los cursos forman parte de planes o rutas de aprendizaje.
+* **Cursos de tipo no inscrito automáticamente**: Los cursos están restringidos a la inscripción automática del alumno.
+* **Cursos de clase o clase virtual**: Cursos con sesiones de clase o virtuales.
 * **Cursos con módulos no obligatorios**: Cursos que contienen módulos opcionales o no obligatorios.
 
 ![](assets/export-status.png)

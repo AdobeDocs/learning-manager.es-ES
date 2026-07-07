@@ -5,7 +5,7 @@ title: Resumen de nuevas funciones
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
 source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,7 @@ Adobe Learning Manager es una plataforma multilingüe en la que se tienen en cue
 
 Para los usuarios de la plataforma nativa de Adobe Learning Manager, esta mejora satisface la necesidad de aprovisionamiento de usuarios Just-in-time. Cuando los usuarios crean cuentas e inician sesión por primera vez, esta función garantiza que sus preferencias de idioma se capturan y aplican con precisión.
 
-Esta función garantiza que las preferencias de idioma de los usuarios se actualicen automáticamente cuando inicien sesión a través de SAML. Esto ayuda a proporcionar una experiencia personalizada al mostrar la interfaz en el idioma preferido del usuario.
-Cuando los usuarios inician sesión a través de SAML, su preferencia de idioma (idioma de interfaz y contenido) se comprueba y actualiza en función de la información proporcionada durante el proceso de inicio de sesión.
+Esta función garantiza que las preferencias de idioma de los usuarios se actualicen automáticamente cuando inicien sesión a través de SAML. Esto ayuda a proporcionar una experiencia personalizada al mostrar la interfaz en el idioma preferido del usuario.Cuando los usuarios inician sesión a través de SAML, su preferencia de idioma (idioma de interfaz y contenido) se comprueba y actualiza en función de la información proporcionada durante el proceso de inicio de sesión.
 
 La función se integra con el proceso de inicio de sesión de SAML para capturar y actualizar las preferencias de idioma del usuario sin problemas.
 
@@ -127,22 +126,20 @@ Consulte este [artículo](https://helpx.adobe.com/in/adobe-connect/using/session
 
 ### Criterios de éxito para el contenido que utiliza la migración
 
-El proceso de migración en Adobe Learning Manager para la importación de módulos ahora admite la capacidad de agregar parámetros para definir criterios de éxito.
-Esto se admite ahora al añadir tres nuevas columnas opcionales en module_version.csv. Tres nuevas columnas opcionales son: `successCriteria`, `successQuizData` y `successViewPercent`.
+El proceso de migración en Adobe Learning Manager para la importación de módulos ahora admite la capacidad de agregar parámetros para definir criterios de éxito.Esto se admite ahora al añadir tres nuevas columnas opcionales en module_version.csv. Tres nuevas columnas opcionales son: `successCriteria`, `successQuizData` y `successViewPercent`.
 
-Estos campos sólo aceptan valores específicos y el conector no procesará el archivo si se introducen valores no válidos.
-Un módulo de prueba puede utilizar tres tipos de criterios de éxito. Puede marcar aprobado si el alumno inicia el contenido, en función de un valor porcentual puntuado (definido por `successViewPercent`: a continuación), o puede basarse en el resultado del módulo de prueba (definido por `successQuizData`: a continuación). Este valor se rellenará de acuerdo con las instrucciones que se indican a continuación. Para ello se utiliza el parámetro successCriteria.
+Estos campos sólo aceptan valores específicos y el conector no procesará el archivo si se introducen valores no válidos.Un módulo de prueba puede utilizar tres tipos de criterios de éxito. Puede marcar el aprobado si el alumno inicia el contenido, en función de un valor porcentual puntuado (definido por `successViewPercent`: a continuación), o puede basarse en el resultado del módulo de prueba (definido por `successQuizData`: a continuación). Este valor se rellenará de acuerdo con las instrucciones que se indican a continuación. Para ello se utiliza el parámetro successCriteria.
 
-`successCriteria`: acepta `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` o `VIEWPERCENT_OR_QUIZ`.
+`successCriteria`: Acepta `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` o `VIEWPERCENT_OR_QUIZ`.
 
-* Si `LAUNCH_CONTENT`: deja `successQuizData` y `successViewPercent` en blanco. Esto marcará al alumno como aprobado si el alumno inicia el contenido.
-* Si `VIEW_PERCENT`: escribe un valor para `successViewPercent`, deje `successQuizData` en blanco. Esto marcará el aprobado del alumno en función del valor porcentual puntuado en la prueba.
-* Si `QUIZ`: escribe un valor para `successQuizData`, deje `successViewPercent` en blanco. Esto marcará al alumno como aprobado en función del resultado del módulo de prueba.
+* Si `LAUNCH_CONTENT`: Deje `successQuizData` y `successViewPercent` en blanco. Esto marcará al alumno como aprobado si el alumno inicia el contenido.
+* Si `VIEW_PERCENT`: Escriba un valor para `successViewPercent` y deje `successQuizData` en blanco. Esto marcará el aprobado del alumno en función del valor porcentual puntuado en la prueba.
+* Si `QUIZ`: Escriba un valor para `successQuizData` y deje `successViewPercent` en blanco. Esto marcará al alumno como aprobado en función del resultado del módulo de prueba.
 * Si `VIEWPERCENT_OR_QUIZ`: Escriba valores para `successQuizData` y `successViewPercent`. Esto marcará al alumno como aprobado en función del resultado del módulo de prueba o del porcentaje puntuado.
 
 Este campo solo es válido si `hasQuiz` es verdadero. Además, si solo se pasa `completionCriteria`, `successCriteria` se considerará igual que `completionCriteria` para el contenido interactivo.
 
-`successQuizData`: acepta `QUIZ_ATTEMPTED`, `QUIZ_PASSED` o `QUIZPASSED_OR_LIMITREACHED`.
+`successQuizData`: Acepta `QUIZ_ATTEMPTED`, `QUIZ_PASSED` o `QUIZPASSED_OR_LIMITREACHED`.
 
 * `QUIZ_ATTEMPTED` significará que el alumno se marcará como aprobado para la prueba si el alumno ha intentado realizar la prueba.
 * `QUIZ_PASSED` significará que el alumno se marcará como aprobado para la prueba si aprueba la prueba según los criterios definidos en el contenido de la prueba. Por ejemplo, el módulo Scorm define los criterios y los informa a Adobe Learning Manager.
@@ -155,14 +152,13 @@ Webhook cambia.
 
 ### Añadir ID exclusivo de contenido y fecha de caducidad para el contenido mediante la migración
 
-El ID exclusivo de contenido y la fecha de caducidad ahora son compatibles durante la migración. Se han añadido dos columnas adicionales: expiryDate y uniqueContentId al archivo module_version.csv para habilitar esta funcionalidad. Consulte este [archivo CSV de muestra](assets/module_version_content.csv) y el [archivo de especificación CSV](assets/4-module_version_content.xlsx) para obtener más información.
+El ID exclusivo de contenido y la fecha de caducidad ahora son compatibles durante la migración. Dos columnas adicionales: expiryDate y uniqueContentId se han agregado al archivo module_version.csv para habilitar esta funcionalidad. Consulte este [archivo CSV de muestra](assets/module_version_content.csv) y el [archivo de especificación CSV](assets/4-module_version_content.xlsx) para obtener más información.
 
 Consulte este [artículo](/help/migrated/integration-admin/feature-summary/migration-manual.md) para obtener más información sobre el proceso de migración.
 
 ## Mejoras en webhooks
 
-Los webhooks ahora admiten eventos para cursos en rutas de aprendizaje (LP) y certificaciones cuando se produce la inscripción, la anulación de la inscripción o la finalización.
-Esto incluye eventos de apoyo para cada curso dentro del programa de aprendizaje o la certificación, además del evento del objeto de aprendizaje principal.
+Los webhooks ahora admiten eventos para cursos en rutas de aprendizaje (LP) y certificaciones cuando se produce la inscripción, la anulación de la inscripción o la finalización.Esto incluye eventos de apoyo para cada curso dentro del programa de aprendizaje o la certificación, además del evento del objeto de aprendizaje principal.
 
 Consulte este [artículo](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) para obtener más información sobre Webhooks.
 

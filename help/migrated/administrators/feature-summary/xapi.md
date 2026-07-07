@@ -6,8 +6,8 @@ contentowner: dvenkate
 preview: true
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 48%
+source-wordcount: '817'
+ht-degree: 68%
 
 ---
 
@@ -23,11 +23,11 @@ Para obtener más información sobre xAPI, consulte [Especificaciones de xAPIc](
 
 ## ¿Cómo admite xAPI Learning Manager? {#howdoeslearningmanagersupportxapi}
 
-Learning Manager dispone de un LRS interno. Ese LRS tiene capacidad plena para aceptar declaraciones de xAPI de contenido que se ha alojado en Learning Manager. Incluso acepta declaraciones de xAPI generadas por terceros. Estas declaraciones de xAPI se almacenan en Learning Manager y, a continuación, se pueden exportar fuera de Learning Manager para visualizarlas en cualquier sistema de almacenamiento de datos de terceros.
+Learning Manager dispone de un LRS interno. Ese LRS tiene capacidad plena para aceptar declaraciones de xAPI de contenido que se ha alojado en Learning Manager. Incluso acepta declaraciones de xAPI generadas por terceros. Estas declaraciones de xAPI se almacenan en Learning Manager; a continuación, pueden exportarse y visualizarse en cualquier sistema de almacenamiento de datos de otro proveedor.
 
 ## ¿Cuándo se utiliza xAPI? {#whendoyouusexapi}
 
-Cada vez es más necesario capturar las experiencias de aprendizaje del usuario final, que se extienden a varios sistemas.  También es necesario realizar un seguimiento de la participación exacta del alumno en el contenido de la formación. Va más allá de los estados Iniciado, En curso y Finalizado, que son los únicos atributos capturados por SCORM.
+Cada vez es más necesario captar experiencias de aprendizaje del usuario final que abarquen varios sistemas.  También es necesario hacer un seguimiento de la participación exacta del alumno respecto al contenido de la formación. Va más allá de los estados Iniciado, En curso y Finalizado, que son los únicos atributos capturados por SCORM.
 
 ## Uso de xAPI en Learning Manager {#usingxapiinprime}
 
@@ -56,7 +56,7 @@ Cada vez es más necesario capturar las experiencias de aprendizaje del usuario 
 
 Haga clic en el vínculo siguiente para ver el documento xAPI Swagger:
 
-[documento de intercambio de xAPI](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
+[Documento xAPI Swagger](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
 >[!NOTE]
 >
@@ -65,13 +65,13 @@ Haga clic en el vínculo siguiente para ver el documento xAPI Swagger:
 
 ## Autenticación de API {#apiauthentication}
 
-xAPI de Learning Manager utiliza el marco de OAuth 2.0 para autenticar y autorizar las aplicaciones cliente. Una vez registrada la aplicación, puede obtener el ID y el secreto de cliente. La URL de obtención se utiliza en el navegador, ya que autentica a los usuarios de Learning Manager mediante sus cuentas preconfiguradas, como SSO o Adobe ID.
+Learning Manager xAPI utiliza el marco de OAuth 2.0 para autenticar y autorizar sus aplicaciones cliente. Una vez que haya registrado la aplicación, puede obtener el ID y el secreto de cliente. La URL de obtención se utiliza en el navegador, ya que autentica a los usuarios de Learning Manager mediante sus cuentas preconfiguradas, como SSO o Adobe ID.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
 ```
 
-## Seguimiento de declaraciones de xAPI como objeto de aprendizaje del administrador {#trackingxapistatementsasprimelo}
+## Seguimiento de declaraciones de xAPI como objeto de aprendizaje de Learning Manager {#trackingxapistatementsasprimelo}
 
 Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisar la experiencia del usuario fuera de Learning Manager. Por ejemplo, puede usar esta función para evaluar las actividades de los usuarios en una plataforma de terceros utilizada para el consumo de cursos.
 
@@ -90,16 +90,16 @@ Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisa
 
 
 
-   Cualquier instrucción xAPI con el IRI mencionado se rastrea en el módulo anterior y se refleja en los informes de Learning Manager.
+   Cualquier declaración de xAPI con el IRI mencionado se controla en el módulo anterior y se refleja en los informes de Learning Manager.
 
 1. Para copiar el IRI generado automáticamente, vuelva a visitar la página Módulo de actividad.
 1. Publique el módulo.
 
 **Aspectos que tener en cuenta:**
 
-* Actualmente, Learning Manager solo admite   mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid , account.
+* Actualmente, Learning Manager solo admite mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid , account.
 
-* El stateId y el profileId son un UUID cuando se utilizan con Learning Manager.
+* stateId y profileId es un UUID cuando se utilizan con Learning Manager.
 * La solicitud de PUT no sobrescribe el documento para los agentes/perfil, actividad/perfil y actividad/estado de xAPI
 * El grupo no identificado no es compatible con Actor.
 * El parámetro &quot;related_activities&quot; no se admite en la instrucción GET.
@@ -108,9 +108,9 @@ Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisa
 
 ## Generar informes {#generatereports}
 
-Los informes de xAPI se pueden generar como informes de Excel. Como administrador, abra **[!UICONTROL Informes > Informes de Excel > Informe de actividad de xAPI]**. 
+Los informes de xAPI se pueden generar como informes de Excel. Como administrador, abra **[!UICONTROL Informes > Informes de Excel > Informe de actividad de xAPI]**.
 
-El informe descargado obtiene toda la información publicada por el alumno y el administrador para cualquier instrucción.
+El informe descargado obtiene toda la información publicada por el alumno y el administrador para cualquier declaración.
 
 Los mismos informes se pueden generar y programar mediante conectores de FTP y Box para cualquier integración de terceros. Siga estos pasos:
 
