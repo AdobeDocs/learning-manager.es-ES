@@ -5,7 +5,7 @@ title: Resumen de las nuevas funciones de noviembre de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -15,20 +15,20 @@ ht-degree: 1%
 Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager.
 
 * **Búsqueda basada en IA:** Combina la búsqueda léxica y semántica para obtener resultados más inteligentes según el contexto.
-* **Webhooks**: se integra con Webhooks para enviar información en tiempo real a direcciones URL específicas.
-* **Interoperabilidad de herramientas de aprendizaje (LTI)**: admite LTI para interoperabilidad con otras plataformas de LMS.
-* **Integración correcta**: administra y comparte insignias externas mediante Credly.
-* **Mejoras en el tablero de cumplimiento**: comparta tableros con otros administradores y establezca widgets de cumplimiento predeterminados en las páginas principales de los alumnos.
-* **Compatibilidad con varios idiomas**: cree instancias específicas del idioma para los módulos de clase y clase virtual.
-* **Funciones personalizadas**: control mejorado sobre las funciones y los permisos de los usuarios.
-* **Comentarios de finalización**: agregue comentarios al marcar alumnos como completados.
-* **Informe de grupo de usuarios**: administra grupos de usuarios con informes detallados.
-* **Informe de lista de espera**: descarga la lista de alumnos en lista de espera para instancias de curso.
+* **Webhooks**: Intégrate con los webhooks para enviar información en tiempo real a direcciones URL específicas.
+* **Interoperabilidad de herramientas de aprendizaje (LTI)**: Compatible con LTI para interoperabilidad con otras plataformas de LMS.
+* **Integración correcta**: Administre y comparta insignias externas a través de Credly.
+* **Mejoras en el panel de cumplimiento**: Comparta paneles con otros administradores y establezca widgets de cumplimiento predeterminados en las páginas de inicio de los alumnos.
+* **Compatibilidad con varios idiomas**: Cree instancias específicas del idioma para los módulos Clase y Clase virtual.
+* **Funciones personalizadas**: Control mejorado sobre las funciones y los permisos de los usuarios.
+* **Comentarios de finalización**: Añada comentarios al marcar a los alumnos como completados.
+* **Informe de grupo de usuarios**: Administrar grupos de usuarios con informes detallados.
+* **Informe de lista de espera**: Descargue la lista de alumnos en lista de espera para instancias de curso.
 * **Mejoras de accesibilidad**: Compatibilidad con texto alternativo en encabezados y logotipos de empresas.
-* **Compatibilidad con hindi**: Compatibilidad con el idioma de la interfaz para hindi.
-* **Comprobación de blasfemias**: Bloquear publicaciones sociales que contengan palabras prohibidas.
+* **Compatibilidad con hindi**: Compatibilidad de idioma de interfaz para hindi.
+* **Comprobación de blasfemia**: Bloquear publicaciones sociales que contengan palabras prohibidas.
 * **Optimización de plantilla de correo electrónico**: Plantillas de correo electrónico combinadas y optimizadas para asignaciones de instructores y cancelaciones de sesiones.
-* **Criterio de finalización de MS Teams**: Establece un tiempo mínimo de asistencia para las sesiones VILT.
+* **Criterios de finalización de MS Teams**: Establezca el tiempo mínimo de asistencia para las sesiones VILT.
 * **Nuevos flujos de trabajo de migración**: Los cambios de migración incluyen criterios de finalización para cursos y módulos, y la migración de módulos a carpetas.
 
 >[!NOTE]
@@ -61,9 +61,9 @@ Adobe Learning Manager ahora admite LTI para mejorar la interoperabilidad entre 
 
 LTI (Learning Tools Interoperability) es un estándar que permite a herramientas de terceros y proveedores de contenido conectarse con un sistema de administración de aprendizaje (LMS). Los usuarios pueden acceder al contenido de aprendizaje externo de proveedores de contenido externos directamente en su LMS sin iniciar sesión ni navegar a otro LMS.
 
-**LTI como proveedor de herramientas**: LTI como proveedor de herramientas permite que los sistemas externos se integren con un LMS. Adobe Learning Manager actúa como proveedor de herramientas de LTI, lo que permite a otras plataformas de LMS acceder a cursos, certificados o rutas de aprendizaje desde Adobe Learning Manager directamente en su LMS.
+**LTI como proveedor de herramientas**: LTI como proveedor de herramientas permite integrar sistemas externos con un LMS. Adobe Learning Manager actúa como proveedor de herramientas de LTI, lo que permite a otras plataformas de LMS acceder a cursos, certificados o rutas de aprendizaje desde Adobe Learning Manager directamente en su LMS.
 
-**LTI como consumidor de herramientas**: LTI como consumidor de herramientas permite a LMS integrar herramientas externas a través de la interoperabilidad de herramientas de aprendizaje (LTI). En este escenario, LMS es un consumidor de servicios proporcionados por herramientas externas. Adobe Learning Manager actúa como consumidor de herramientas de LTI, lo que le permite integrar herramientas de aprendizaje de terceros. Esto permite a los alumnos de Adobe Learning Manager consumir los cursos, certificados o rutas de aprendizaje de las herramientas de terceros en Adobe Learning Manager.
+**LTI como consumidor de herramientas**: LTI como consumidor de herramientas permite a LMS integrar herramientas externas a través de la interoperabilidad de las herramientas de aprendizaje (LTI). En este escenario, LMS es un consumidor de servicios proporcionados por herramientas externas. Adobe Learning Manager actúa como consumidor de herramientas de LTI, lo que le permite integrar herramientas de aprendizaje de terceros. Esto permite a los alumnos de Adobe Learning Manager consumir los cursos, certificados o rutas de aprendizaje de las herramientas de terceros en Adobe Learning Manager.
 
 Consulte este artículo [Interoperabilidad de la herramienta de aprendizaje](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) para obtener más información.
 
@@ -87,7 +87,7 @@ En esta versión, los administradores ahora pueden compartir el panel con otros 
 
 ## Compatibilidad con varios idiomas
 
-Adobe Learning Manager (ALM) ahora permite a los autores crear instancias específicas del idioma mediante el etiquetado de idioma para los módulos Clase y Clase virtual. Los alumnos pueden acceder a los módulos de clase real y virtual en el idioma que prefieran. Por ejemplo, un autor puede crear un módulo de clase real y virtual con dos instancias: una en inglés y otra en francés. Los alumnos pueden seleccionar las instancias en su idioma preferido.
+Adobe Learning Manager (ALM) ahora permite a los autores crear instancias específicas del idioma mediante el etiquetado de idioma para los módulos Clase y Clase virtual. Los alumnos pueden acceder a los módulos de clase real y virtual en el idioma que prefieran. Por ejemplo, un autor puede crear un módulo de clase real o virtual con dos instancias: uno en inglés y otro en francés. Los alumnos pueden seleccionar las instancias en su idioma preferido.
 
 Consulte este artículo [Añadir objetos de aprendizaje en diferentes configuraciones regionales](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) para obtener más información.
 
@@ -135,7 +135,7 @@ El nuevo **[!UICONTROL informe de lista de espera]** de Adobe Learning Manager p
 Siguiendo las columnas disponibles en el informe de lista de espera:
 
 * Nombre del curso
-* Nombre de la instancia
+* Nombre de instancia
 * ID de instancia
 * Estado de la instancia
 * Nombre de usuario
@@ -151,8 +151,7 @@ Consulte estos artículos [Informe de lista de espera (administrador)](/help/mig
 
 ## Accesibilidad en la página de inicio del alumno
 
-Adobe Learning Manager ahora admite texto alternativo en todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos. Asegúrese de que el logotipo de la empresa de su cuenta también incluya texto alternativo con el nombre de la empresa.
-Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obtener más información.
+Adobe Learning Manager ahora admite texto alternativo en todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos. Asegúrese de que el logotipo de la empresa de su cuenta también incluya texto alternativo con el nombre de la empresa.Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obtener más información.
 
 ## Compatibilidad con hindi
 
@@ -228,7 +227,7 @@ La columna carpeta utiliza el tipo de datos cadena y es una columna opcional. A 
 * Si agrega un nuevo nombre de carpeta para un módulo que ya está presente en una carpeta diferente, el nuevo valor no sobrescribirá ni reemplazará la carpeta asignada. El módulo se agregará a la nueva carpeta y también permanecerá disponible en la carpeta existente.
 * Si el valor está en blanco, la carpeta se establecerá de forma predeterminada en **[!UICONTROL Public]**.
 
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
+Consulte el archivo csv spec](assets/4-module_version.xlsx) de [module_version para obtener más información.
 
 ### Cambios en la migración de módulos: criterios de finalización
 
@@ -258,7 +257,7 @@ A continuación se indican las condiciones de las nuevas columnas:
    * El tipo de datos debe ser una cadena de valores y los valores admitidos son `QUIZ_ATTEMPTED`, `QUIZ_PASSED` y `QUIZPASSED_OR_LIMITREACHED`.
    * Cuando `completionCriteria` esté establecido en `QUIZ`, escriba el valor de prueba adecuado en la columna `quizData`.
 
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
+Consulte el archivo csv spec](assets/4-module_version.xlsx) de [module_version para obtener más información.
 
 ### Cambios en la migración de cursos: criterios de finalización
 
@@ -527,9 +526,9 @@ Los administradores pueden encontrar estos cambios de informes en la sección **
 
 El informe **[!UICONTROL Transcripciones de aprendizaje]** contendrá dos nuevas columnas:
 
-* **[!UICONTROL Id. de módulo]**: muestra el identificador único de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
-* **[!UICONTROL Id. de instancia del curso]**: muestra el identificador único de cada instancia del curso. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Instancia]** existente.
-* **[!UICONTROL Comentario de finalización]**: esta columna captura los comentarios introducidos por el administrador al marcar la finalización del usuario. Esta nueva columna se ha agregado al final del informe.
+* **[!UICONTROL Id. de módulo]**: Muestra el identificador único de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
+* **[!UICONTROL Id. de instancia del curso]**: Muestra el identificador único de cada instancia de curso.Esta nueva columna se ha agregado después de la columna **[!UICONTROL Instancia]** existente.
+* **[!UICONTROL Comentario de finalización]**: Esta columna captura los comentarios introducidos por el administrador al marcar la finalización del usuario. Esta nueva columna se ha agregado al final del informe.
 
 
 ### Informe de resumen de sesión
