@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 66%
+source-wordcount: '1928'
+ht-degree: 81%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Learning Manager permite a los administradores de una empresa generar tran
 
    *Agregar más alumnos*
 
-1. Puede elegir catálogos específicos activando la casilla de verificación. La transcripción solo se descarga para los catálogos especificados. Puede elegir catálogos específicos seleccionando el catálogo en la lista desplegable **[!UICONTROL Seleccionar catálogos]**.
+1. Puede elegir catálogos específicos habilitando la casilla de verificación. La transcripción solo se descarga para los catálogos especificados. Puede elegir catálogos específicos seleccionando el catálogo en la lista desplegable **[!UICONTROL Seleccionar catálogos]**.
 
    ![](assets/select-catalogs-lt.png)
 
@@ -67,7 +67,7 @@ Adobe Learning Manager permite a los administradores de una empresa generar tran
    *Descargar transcripciones de alumnos de alumnos eliminados*
 
 1. Puede optar por descargar información del nivel Módulo en la transcripción del alumno marcando la casilla de verificación &quot;**[!UICONTROL Habilitar información del nivel de módulo]**&quot;. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se extraen como parte de la transcripción si esta opción está habilitada.
-1. Puede optar por descargar datos de aptitudes y hojas de resumen marcando la casilla de verificación &quot;**[!UICONTROL Incluir datos de aptitudes y hojas de resumen]**&quot;.
+1. Puede optar por descargar datos de aptitudes y fichas de resumen marcando la casilla de verificación &quot;**[!UICONTROL Incluir datos de aptitudes y fichas de resumen]**&quot;.
 
    Las transcripciones se generan y se descargan en el equipo como archivos .zip cuando no se incluyen los datos de aptitudes. Si la casilla de verificación Aptitudes está seleccionada, las transcripciones se generan y se descargan en el equipo como archivos XLS.
 
@@ -79,13 +79,13 @@ La obtención de transcripciones de alumnos se convierte en un proceso tedioso, 
 1. Ve a **[!UICONTROL Informes]** en **[!UICONTROL Administrar]**; se carga la página **[!UICONTROL Actividad de usuario]**.
 1. Haga clic en **[!UICONTROL Informes personalizados]** en el panel izquierdo y seleccione **[!UICONTROL Transcripciones de alumnos]** en la lista.
 1. En la página **[!UICONTROL Transcripciones de alumnos]**, haga clic en el botón **[!UICONTROL Generar nuevo]** en la esquina superior izquierda.
-1. Seleccione las fechas que prefiera. Para ello, haga clic en el menú desplegable **[!UICONTROL Seleccionar intervalo de fechas]**. Haga clic en la pestaña **[!UICONTROL ID de correo electrónico]** para introducir la lista copiada de ID de correo electrónico únicos.
+1. Seleccione las fechas que prefiera. Para ello, haga clic en la lista desplegable **[!UICONTROL Seleccionar intervalo de fechas]**. Haga clic en la ficha **[!UICONTROL ID de correo electrónico]** para introducir la lista copiada de ID de correo electrónico exclusivos.
 
    ![](assets/cp-copy-paste-feature.png)
 
    *Copiar y pegar ID de correo electrónico*
 
-1. Utilice **[!UICONTROL Validar ID de correo electrónico]** para verificar si el ID introducido es correcto.
+1. Utilice la opción **[!UICONTROL Validar ID de correo electrónico]** para verificar si el ID introducido es correcto.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -138,7 +138,7 @@ La lista de descargas muestra los atributos siguientes:
 * **Estado:** Descargado, En Cola o En curso.
 * **Desde** y **Hasta**: Duración de las transcripciones que se van a descargar.
 * **Filtros aplicados:** Determina si ha aplicado los filtros del estado de inscripción.
-* **Generado por:** Identificador de usuario del usuario de Learning Manager que ha solicitado la descarga.
+* **Generado por:** ID del usuario de Learning Manager que ha solicitado la descarga.
 * **Estado:** Descargado, En Cola o En curso.
 
 Puede cancelar la descarga en cualquier momento. Si el administrador cancela un trabajo, Learning Manager envía una notificación integrada en la aplicación al usuario que activó la transcripción del alumno.
@@ -147,11 +147,11 @@ Puede cancelar la descarga en cualquier momento. Si el administrador cancela un 
 
 *Cola de descargas de transcripciones de alumnos*
 
-Puedes **cancelar** la descarga en cualquier momento. Si se cancela un trabajo, Learning Manager envía una notificación integrada en la aplicación al usuario que ha cancelado el trabajo.
+Puede **cancelar** la descarga en cualquier momento. Si se cancela un trabajo, Learning Manager envía una notificación integrada en la aplicación al usuario que ha cancelado el trabajo.
 
 ## Datos de alumnos eliminados {#dataofdeletedlearners}
 
-Puede incluir los datos de los alumnos eliminados en la lista Transcripciones de alumnos. En el cuadro de diálogo Transcripciones de alumnos, habilite la opción **[!UICONTROL Incluir datos de alumnos eliminados]**.
+Puede incluir los datos de los alumnos eliminados en la lista Transcripciones de alumnos. En el cuadro de diálogo Transcripciones de alumnos, active la opción **[!UICONTROL Incluir datos de alumnos eliminados]**.
 
 Tras activar la opción y hacer clic en **[!UICONTROL Generar]**, los datos de los alumnos eliminados figuran en la página de descargas Transcripciones de alumnos, como se muestra a continuación:
 
@@ -173,11 +173,11 @@ La personalización solo se permite cuando un usuario descarga la transcripción
 
 ## Contenido del archivo de transcripciones de alumnos {#learnertranscriptfilecontent}
 
-Un archivo de transcripciones de alumnos típico se compone de seis hojas de cálculo en un solo archivo. Las hojas de transcripciones de alumnos proporcionan una visión general de los datos, incluido el número de alumnos que participan en cada curso, sus aptitudes, el porcentaje de finalización según el curso o alumno y un tablero de cumplimiento. Estos son los tableros disponibles en las transcripciones de alumnos:
+Un archivo de transcripciones de alumnos típico se compone de seis hojas de cálculo en un solo archivo. Las hojas de transcripciones de alumnos aportan una visión general de los datos, por ejemplo la cantidad de alumnos por curso, sus aptitudes, el porcentaje de finalización por curso o alumno, así como un tablero de cumplimiento. Estos son los tableros disponibles en las transcripciones de alumnos:
 
 **Transcripciones de alumnos**
 
-En la hoja de cálculo de transcripción de alumno, además de los datos sobre el alumno, se proporciona información sobre el consumo del objeto de aprendizaje como la fecha de inscripción, la fecha de inicio, la nota conseguida o la puntuación de las pruebas. Si los cursos forman parte de un programa de aprendizaje, se enumeran por separado, además de los detalles de consumo de cada curso.
+En la hoja de cálculo de transcripción de alumno, además de los datos sobre el alumno, se proporciona información sobre el consumo del objeto de aprendizaje como la fecha de inscripción, la fecha de inicio, la nota conseguida o la puntuación de las pruebas. Si los cursos forman parte de un programa de aprendizaje, se enumeran aparte de los detalles de consumo de cada curso.
 
 **1- Tablero de actividades de aprendizaje**
 
@@ -245,6 +245,6 @@ La transcripción del alumno también muestra las columnas **[!UICONTROL Duraci�
 | El número de aptitudes que tiene cada usuario. | El número de aptitudes obtenidas por el alumno. |
 | El número de aptitudes que se deben actualizar. | El número de alumnos cuya aptitud se debe actualizar. |
 | Porcentaje de cumplimiento | El porcentaje de progreso de la aptitud asignada. |
-| Ruta incrustada | Estas filas mostrarán el nombre del programa de aprendizaje incrustado. |
-| ID de ruta incrustada | Estas filas mostrarán los ID del programa de aprendizaje incrustado |
+| Ruta incrustada | En estas filas, se mostrará el nombre del programa de aprendizaje incrustado. |
+| ID de ruta incrustada | En estas filas, se mostrarán los ID del programa de aprendizaje incrustado. |
 | Idioma de ruta incrustada | En estas filas, se mostrará el idioma en el que se ha creado el programa de aprendizaje. |

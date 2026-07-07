@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 70%
+source-wordcount: '1468'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Algunas de las funciones de la tabla de posiciones para alumnos son las siguient
 
 * Los alumnos inscritos en una instancia del programa de aprendizaje pueden ver los puntos de los demás si la interacción está activada para esa instancia.
 * Haga clic en **[!UICONTROL Añadir compañeros]** para incluir un miembro de su equipo con el que desee compararse. La imagen de perfil del integrante del equipo se agrega a la escala de la línea de tiempo en la parte superior de la página Tabla de posiciones. Esta escala de la línea de tiempo muestra los puntos al inicio y mueve su posición hacia la derecha a medida que obtiene más puntos que los miembros de su equipo. Solo puede comparar respecto a otros miembros del mismo grupo.
-* **Grupos de usuarios:** En cualquier momento, puedes elegir los perfiles de los miembros de tu equipo con los que deseas comparar tu clasificación mediante la opción **[!UICONTROL Clasificarme con]**. En el campo Seleccionar grupos de usuarios, escriba y elija el grupo. La lista de todos los miembros del equipo, junto con sus últimos puntos se enumeran a continuación. Los usuarios internos y externos pueden ver la lista, pero solo los usuarios internos pueden buscar otros alumnos internos.
+* **Grupos de usuarios:** en cualquier momento, puede seleccionar los perfiles de los miembros de su equipo con los cuales desee comparar su clasificación mediante la opción **[!UICONTROL Clasificarme con]**. En el campo Seleccionar grupos de usuarios, escriba y elija el grupo. La lista de todos los miembros del equipo junto con sus puntos más recientes se muestra a continuación. Los usuarios internos y externos pueden ver la lista, pero solo los usuarios internos pueden buscar otros alumnos internos.
 
 * Además, el cuadro de diálogo Personas alrededor de su nivel muestra los nombres de los miembros del equipo que están justo por debajo, por encima o en el mismo nivel que usted.
 * Cuando un usuario externo se convierte en interno, la cronología se actualiza automáticamente.
@@ -68,7 +68,7 @@ Esta función anima a los usuarios a proporcionar comentarios de forma activa, l
 
 ## Tareas {#tasks}
 
-Existen cinco tareas de interacción de alumnos. Puede ver los puntos de interacción dentro del círculo en la esquina superior derecha de la ventana en la página de inicio del alumno. Para ver la asignación de cada tarea, haga clic en Interacción.
+Existen cinco tareas de interacción de alumnos. Puede ver los puntos de interacción dentro del círculo en la esquina superior derecha de la ventana en la página de inicio del alumno. Para ver la asignación para cada tarea, haga clic Interacción.
 
 El sistema muestra la página Interacción, que describe todas las tareas y los puntos de los alumnos como se muestra a continuación:
 
@@ -78,7 +78,7 @@ El sistema muestra la página Interacción, que describe todas las tareas y los 
 >
 >Mientras asigna cursos a los puntos, el administrador debe asegurarse de que los alumnos obtengan los puntos de manera progresiva.
 
-**Para el alumno que aprende rápido** 
+**Para el alumno que aprende rápido**
 
 Esta tarea se aplica cuando un alumno finaliza algunos cursos en el transcurso de un mes/trimestre/año. Esta tarea es para motivar a los alumnos que aprenden rápido.
 
@@ -97,7 +97,7 @@ Puede ver las posibles situaciones siguientes:
 
 **Para el alumno con motivación propia (a)**
 
-Esta tarea se aplica cuando los alumnos se inscriben en el número prescrito de cursos y se completan en el transcurso de un mes/trimestre/año. En este caso, el administrador puede activar esta tarea para asignar puntos y animarlos.
+Esta tarea se aplica cuando los alumnos se inscriben en el número prescrito de cursos y los completan en el transcurso de un mes/trimestre/año. En este caso, el administrador puede activar esta tarea para asignar puntos y motivarlos.
 
 Situaciones posibles:
 
@@ -150,7 +150,7 @@ Situaciones posibles para mejorar las aptitudes en niveles en una competencia pa
 
 >[!NOTE]
 >
->El período de tiempo no es aplicable a esta tarea. El administrador puede modificar el número de niveles de cada situación. Si los alumnos logran un nivel superior y luego logran el nivel inferior de una competencia, ganan puntos solo por el nivel superior.
+>El período de tiempo no es aplicable a esta tarea. El administrador puede modificar el número de niveles para cada situación. Si los alumnos logran un nivel superior y luego logran el nivel inferior de una competencia, ganan puntos solo por el nivel superior.
 
 **Puntos de finalización anticipada**
 
@@ -159,14 +159,14 @@ Esta tarea se aplica a los alumnos que se convierten en los primeros alumnos del
 Escenario posible:\
 Cuando un alumno se convierte en uno de los 10 primeros alumnos en completar el curso, obtiene 100 puntos.
 
-**Puntos de finalización a tiempo** 
+**Puntos de finalización a tiempo**
 
 Esta tarea se aplica a los alumnos que finalizan un curso en el transcurso de una cantidad de días estipulada antes de la fecha límite de finalización del curso.
 
 Escenario posible:\
 Cuando los alumnos completan un curso en los 10 días siguientes al comienzo del curso, obtienen 100 puntos.
 
-**Lograr niveles** 
+**Lograr niveles**
 
 El estado del nivel de los alumnos se muestra en la esquina superior derecha de la página en un círculo, en la página Mis cursos. Los alumnos pueden lograr los siguientes niveles diferentes según el número de puntos obtenidos durante el período de aprendizaje:
 

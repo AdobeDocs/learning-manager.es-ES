@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Página de inicio del alumno
-description: Una vez que el administrador active el diseño envolvente, el alumno, después de iniciar sesión en la aplicación, recibe una interfaz de usuario completamente renovada.
+description: Una vez que el administrador active el diseño envolvente, el alumno, tras iniciar sesión en la aplicación, accederá a una interfaz de usuario completamente renovada.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 39%
+source-wordcount: '1205'
+ht-degree: 53%
 
 ---
 
@@ -81,7 +81,7 @@ _Barra lateral y barra de búsqueda_
 
 ### Cabecera {#masthead}
 
-Incluye un carrusel de vídeos o imágenes con una dirección URL incrustada. El [administrador puede cargar cualquier recurso de imagen o vídeo](../../administrators/feature-summary/announcements.md#masthead) como cabecera y establecer su visibilidad para un grupo de alumnos.
+Incluye un carrusel de vídeos e imágenes con una dirección URL incrustada. El [administrador puede cargar cualquier recurso de imagen o vídeo](../../administrators/feature-summary/announcements.md#masthead) como cabecera y establecer su visibilidad para un grupo de alumnos.
 
 ![](assets/learner-masthead.png)
 
@@ -89,7 +89,7 @@ Incluye un carrusel de vídeos o imágenes con una dirección URL incrustada. El
 
 ### Mi lista de aprendizaje {#mylearninglist}
 
-Muestra la formación que ha realizado el alumno. Estos cursos de formación se muestran como tarjetas alineadas horizontalmente. Puede hacer clic en el botón derecho o izquierdo para examinar los cursos.
+Muestra la formación que ha realizado el alumno. Estos cursos de formación se muestran en forma de tarjetas alineadas horizontalmente. Puede hacer clic en el botón derecho o izquierdo para examinar los cursos.
 
 ![](assets/learner-my-learning-list.png)
 
@@ -169,7 +169,7 @@ Las aptitudes del perfil se utilizan para las recomendaciones de cursos. Si el a
 ![](assets/profile-skills.png)
 *Ver aptitudes de perfil*
 
-Si un alumno se inscribe en un curso, solo las aptitudes externas basadas en una puntuación se añaden a las aptitudes del perfil. Además, un alumno puede buscar, seleccionar y añadir aptitudes externas a su perfil. Si un alumno ha iniciado sesión por primera vez en la aplicación del alumno y sus aptitudes ya están presentes, estas aparecerán en Mi perfil.
+Si un alumno se inscribe en un curso, solo las aptitudes externas basadas en una puntuación se añaden a las aptitudes del perfil. Además, un alumno puede buscar, seleccionar y añadir aptitudes externas a su perfil.Si un alumno ha iniciado sesión por primera vez en su aplicación y sus aptitudes ya están presentes, estas aparecerán en Mi perfil.
 
 ## Recomendación en función de su área de interés {#recommendationbasedonyourareaofinterest}
 
@@ -179,13 +179,13 @@ Muestra la formación según el área de interés elegida. La recomendación se 
 
 *Ver cursos recomendados*
 
-Para obtener recomendaciones más específicas, puedes actualizar tus habilidades haciendo clic en **Ver/Actualizar**.
+Para obtener recomendaciones más específicas, puede actualizar sus aptitudes. Para ello, haga clic en **Ver/Actualizar**.
 
 Después de añadir una aptitud, las recomendaciones futuras serán más específicas y se centrarán más en sus preferencias.
 
 Si el administrador ha desactivado la opción **Explorar aptitudes**, podrá añadir intereses a sus aptitudes.
 
-Los cursos recomendados se muestran en forma de tarjetas. Al pasar el ratón sobre una tarjeta, puede ver más detalles del curso.
+Los cursos recomendados se muestran en forma de tarjetas. Al colocar el cursor sobre una tarjeta, aparece más información del curso.
 
 También se admite la terminología del producto.
 
@@ -201,7 +201,7 @@ En la visualización Mapa de aptitudes, puede buscar y añadir una o varias apti
 
 *Visualización del mapa de aptitudes*
 
-Habilite la opción **Mostrar aptitudes para las que hay cursos de formación presentes en mi cuenta** si desea mostrar todas las aptitudes que hay en su cuenta.
+Active la opción **Mostrar aptitudes para las que hay cursos de formación presentes en mi cuenta** si desea visualizar todas las aptitudes que hay en su cuenta.
 
 Después de añadir una aptitud, puede ver el gráfico basado en fuerzas con la aptitud seleccionada como vértice principal y las aptitudes asociadas como vértices más pequeños.
 
@@ -215,4 +215,4 @@ Para añadir las aptitudes, haga clic en **[!UICONTROL Añadir]**.
 
 ## Recomendación en función de la actividad de los compañeros {#recommendationbasedonpeeractivity}
 
-Muestra la formación en función de lo que estén realizando sus compañeros. Esto se controla también mediante un algoritmo de aprendizaje automático. Las recomendaciones se basan en la formación personalizada y adaptada al sector de los alumnos.
+Muestra la formación según las actividades de sus compañeros. Esto se controla también mediante un algoritmo de aprendizaje automático. Las recomendaciones se basan en la formación personalizada y adaptada al sector de los alumnos.

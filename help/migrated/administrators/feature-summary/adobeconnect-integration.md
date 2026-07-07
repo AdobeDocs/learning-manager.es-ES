@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '618'
+ht-degree: 57%
 
 ---
 
@@ -40,7 +40,7 @@ Los administradores de una empresa pueden configurar las opciones de la cuenta d
 
 1. Haga clic en **[!UICONTROL Integrar].**
 
-   Después de autenticar el ID de correo electrónico, Learning Manager muestra el mensaje cuando Connect se ha integrado correctamente. De este modo, ya puede empezar a ver sus cursos de clase virtual mediante Adobe Connect.
+   Después de autenticar el ID de correo electrónico, Learning Manager muestra un mensaje que indica que Connect se ha integrado correctamente. De este modo, ya puede empezar a ver sus cursos de clase virtual mediante Adobe Connect.
 
    El administrador de la cuenta de Adobe Connect debe aceptar los términos y condiciones del uso de Adobe Connect. Si no se acepta, su autenticación de inicio de sesión puede fallar. Después de crear la cuenta de Adobe Connect, inicie sesión en la cuenta una vez. La primera vez que se inicia sesión, aparece una página de términos y condiciones.
 
@@ -50,7 +50,7 @@ Los administradores de una empresa pueden configurar las opciones de la cuenta d
 
 Si el autor de un curso de clase virtual no ha proporcionado información sobre la sesión, el administrador puede incluir los datos de la sesión.
 
-Tras iniciar sesión como administrador, haga clic en el nombre del curso de clase virtual. Haga clic en **[!UICONTROL Instancias]** en el panel izquierdo y haga clic en **[!UICONTROL Detalles de la sesión]**.  Haga clic en el icono Editar situado en la esquina derecha de la página Detalles de la sesión para añadir la información de la sesión.
+Tras iniciar sesión como administrador, haga clic en el nombre del curso de clase virtual. Haga clic en **[!UICONTROL Instancias]** en el panel izquierdo y haga clic en **[!UICONTROL Detalles de la sesión]**.  Haga clic en el icono de editar en la esquina derecha de la página Datos de la sesión para añadir información sobre la sesión.
 
 ![](assets/session-creation-admin.png)
 
@@ -62,15 +62,15 @@ Adobe Connect se debe adquirir por separado de Adobe Learning Manager.
 
 ## Asistencia de los alumnos {#learnersattendance}
 
-Si el anfitrión del curso de clase virtual no asiste a la sesión, la asistencia no se registra automáticamente en relación con los alumnos que asistieron a la sesión. En estos casos, el administrador puede registrar la asistencia manualmente.
+Si el anfitrión del curso de clase virtual no asiste a la sesión, la asistencia no se registra automáticamente en relación con los alumnos que asistieron a la sesión. En estas circunstancias, el administrador puede registrar la asistencia de forma manual.
 
-Haga clic en el curso de clase virtual, haga clic en Asistencia en el panel izquierdo de la página siguiente y registre la asistencia.
+Haga clic en el curso de clase virtual; a continuación, haga clic en Asistencia en el panel izquierdo de la página siguiente y registre la asistencia.
 
 ## Compatibilidad con seminarios de Adobe Connect para grandes audiencias
 
 Adobe Learning Manager admite la selección de salas de seminarios de Adobe Connect al configurar una sesión de clase virtual en Connect. Anteriormente, el administrador solo podía seleccionar el tipo de sala de reuniones. Esta función permite al administrador con una licencia de seminario válida programar y administrar eventos únicos o a gran escala (hasta 1500 asistentes) en ALM.
 
-Consulte este [artículo](https://helpx.adobe.com/es/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
+Consulte este [artículo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obtener más información sobre la sala de seminarios.
 
 ### Compatibilidad con el acceso a los análisis de sesión
 
@@ -79,12 +79,11 @@ Los instructores pueden acceder a Análisis de sesiones para sus sesiones de Ado
 ![](assets/adobe-connect-session-url.png)
 _Seleccionar URL de sesión_
 
-Este vínculo abre el panel de análisis de la sesión en Connect, que proporciona información detallada sobre la participación en la sesión.
-Esta función solo está disponible para las sesiones realizadas a través de Adobe Connect. Los análisis de la sesión incluyen:
+Este vínculo abre el panel de análisis de la sesión en Connect, que proporciona información detallada sobre la participación en la sesión.Esta función solo está disponible para las sesiones realizadas a través de Adobe Connect. Los análisis de la sesión incluyen:
 
-* **[!UICONTROL Participación]**: Información general sobre el rendimiento general de la sesión en directo
-* **[!UICONTROL Interacciones]**: desglose detallado de la actividad de los participantes en los diferentes pods
-* **[!UICONTROL Actividad de los asistentes]**: resumen de la participación de los participantes
+* **[!UICONTROL Participación]**: Resumen del rendimiento general de la sesión en directo
+* **[!UICONTROL Interacciones]**: Desglose detallado de la actividad de los participantes en los distintos pods
+* **[!UICONTROL Actividad del asistente]**: Resumen de la participación del participante
 * **[!UICONTROL Descargar informes]**: Opción para descargar informes de datos de participación específicos del pod
 
 ![](assets/session-dashboard.png)
