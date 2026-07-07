@@ -1,17 +1,16 @@
 ---
 jcr-language: en_us
 title: Guía de implementación de Learning Manager
-description: Learning Manager es un sistema de gestión de aprendizaje (LMS) que permite a los profesionales de la formación ofrecer materiales de aprendizaje atractivos y rastreables que pueden contribuir a las necesidades o objetivos de una organización. Learning Manager permite principalmente a los formadores o responsables asignar cursos y otros objetos de aprendizaje, en un orden específico, a los alumnos.
+description: Learning Manager es un sistema de gestión de aprendizaje (LMS) que permite a los profesionales de la formación ofrecer materiales de aprendizaje atractivos y rastreables que pueden contribuir a las necesidades o objetivos de una organización. Learning Manager permite principalmente a los formadores o los responsables asignar cursos y otros objetos de aprendizaje (en un orden específico) a los alumnos.
 contentowner: shhivkum
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 72%
+source-wordcount: '3264'
+ht-degree: 76%
 
 ---
-
-
 
 # Guía de implementación de Learning Manager
 
@@ -58,9 +57,9 @@ Utilice la configuración del logotipo y el banner para mostrar el logotipo de s
 * En el panel izquierdo, haga clic en **Marca**.
 * En la página Marca, puede configurar las siguientes opciones haciendo clic en **Editar** en la opción que desea modificar:
 
-   * **Nombre de la organización**: el valor que especifique aquí determinará el nombre que aparece en el banner de cada página del sitio.
-   * **Subdominio**: este valor determina la dirección URL del sitio.
-   * **Estilo del logotipo**: La imagen de este campo aparece como el logotipo en la esquina superior derecha de cada página. Aquí, puede elegir mostrar solo el logotipo o el nombre de su organización, o el logotipo y el nombre de la organización.
+   * **Nombre de la organización** : El valor que especifique aquí determinará el nombre que aparece en el banner de cada página del sitio.
+   * **Subdominio**: Este valor determina la dirección URL del sitio.
+   * **Estilo de logotipo**: La imagen de este campo aparece como el logotipo en la esquina superior derecha de cada página. Aquí, puede elegir mostrar solo el logotipo o el nombre de su organización, o el logotipo y el nombre de la organización.
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -87,7 +86,7 @@ Puede elegir uno de los esquemas de color que desee alinear con la marca de su e
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Además, puede editar el **color de barra superior**, el **color de énfasis** y el **brillo de barra lateral**.  Puede utilizar los colores de su propia marca para estos elementos clave de la interfaz.
+1. Además, puede editar el **Color de barra superior**, **Color de énfasis** y el **Brillo de barra lateral**.  Puede utilizar sus propios colores de marca para estos elementos clave de la interfaz.
 1. Para restablecer los valores a la combinación de colores predeterminada para el tema, haga clic en **[!UICONTROL Restablecer tema]**. Los colores de los elementos clave de la interfaz de usuario se establecen en las opciones predeterminadas para el tema seleccionado.
 1. Después de elegir el tema, haga clic en **[!UICONTROL Mostrar sugerencias]** para ver las etiquetas o sugerencias en la vista previa.
 
@@ -113,7 +112,7 @@ Como administrador, el siguiente paso sería configurar las plantillas de correo
 Puede habilitar y configurar cualquiera de estas notificaciones por correo electrónico desde el panel Administrador. Para obtener más información sobre cómo configurar las plantillas de correo electrónico, siga estos pasos:
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL **&#x200B; Plantillas de correo electrónico &#x200B;**.]**
-1. Haga clic en una de las siguientes pestañas:**[!UICONTROL ** General **/** Actividad de aprendizaje **/** Recordatorios y actualizaciones **.]** Como ejemplo, supongamos que hace clic en **[!UICONTROL **&#x200B; Actividad de aprendizaje &#x200B;**.]**
+1. Haga clic en una de las siguientes pestañas:**[!UICONTROL ** General **/** Actividad de aprendizaje **/** Recordatorios y actualizaciones **.]** Por ejemplo, supongamos que hace clic en **[!UICONTROL **&#x200B; Actividad de aprendizaje &#x200B;**.]**
 1. Haga clic en el botón de alternancia para cualquier actividad que desee activar un correo electrónico. En este ejemplo, supongamos que hace clic en **[!UICONTROL **&#x200B; Programa de aprendizaje - Inscrito por el administrador/responsable &#x200B;**.]**
 
    ![](assets/configure-email-templates-step3.png)
@@ -121,7 +120,7 @@ Puede habilitar y configurar cualquiera de estas notificaciones por correo elect
    El sistema muestra el mensaje emergente &quot;Habilitado correctamente&quot;. Ahora, cada vez que un responsable o un administrador inscriben a un alumno en un curso, este recibe un correo electrónico de esta cuenta de Learning Manager.
 
 1. Puede modificar la plantilla de correo electrónico predeterminada. Para ello, haga clic en el evento. En este ejemplo, haga clic en **[!UICONTROL programa de aprendizaje - Inscrito por administrador/responsable.]**
-1. En el cuadro de diálogo emergente **[!UICONTROL Vista previa de plantilla]**, observe que hay dos pestañas: [!UICONTROL Alumno] y [!UICONTROL Responsable].
+1. En el cuadro de diálogo emergente **[!UICONTROL Vista previa de plantilla]**, observe que hay dos fichas: [!UICONTROL Alumno] y [!UICONTROL Responsable].
 
    ![](assets/configure-email-templates-step5.png)
 
@@ -129,7 +128,7 @@ Puede habilitar y configurar cualquiera de estas notificaciones por correo elect
 
    Ahora, cada vez que el responsable o el administrador inscriben a un alumno en un curso, éste y su responsable reciben una notificación por correo electrónico.
 
-   ***Nota: las modificaciones solo se aplican a la plantilla de correo electrónico asociada al evento seleccionado.***
+   ***Nota: Las modificaciones solo se aplican a la plantilla de correo electrónico asociada al evento seleccionado.***
 
 1. Tenga en cuenta que no se pudo modificar la URL de la cuenta ni la firma en la plantilla de correo electrónico. Para modificar la **[!UICONTROL URL de cuenta]** o **[!UICONTROL Firma]**, haga clic en la ficha **[!UICONTROL Configuración]**. En esta ficha, puede modificar el banner de correo electrónico, Firma de correo electrónico y la URL de la cuenta.
 
@@ -137,7 +136,7 @@ Puede habilitar y configurar cualquiera de estas notificaciones por correo elect
 
    Para el banner de correo electrónico, puede cambiar el color del banner seleccionando **[!UICONTROL **&#x200B; Fondo del banner &#x200B;**.] **&#x200B; También puedes usar una imagen personalizada como banner seleccionando la opción &#x200B;** [!UICONTROL Imagen personalizada]&#x200B;**. Haga clic en &#x200B;** [!UICONTROL Guardar]** después de realizar los cambios.
 
-   ***Nota: el tamaño de imagen personalizado del banner de correo electrónico debe ser de 1240 x 200 px. Se recortarán las imágenes que superen el tamaño recomendado.***
+   ***Nota: El tamaño de imagen personalizado del banner de correo electrónico debe ser de 1240 x 200 px. Se recortarán las imágenes que superen el tamaño recomendado.***
 
    ***Learning Manager solo admite tipos de archivo .jpg, .jpeg y .png para banners de correo electrónico.***
 
@@ -145,7 +144,7 @@ Puede habilitar y configurar cualquiera de estas notificaciones por correo elect
 
 1. También puede activar Correos electrónicos opcionales del responsable. Si selecciona la casilla de verificación **[!UICONTROL Habilitar]**, cada vez que un informe directo reciba un correo electrónico de esta cuenta de Captivate Prime, el administrador también se incluirá en la lista de correo.
 
-   ***Nota: la configuración de esta ficha es aplicable a todas las plantillas, globalmente.***
+   ***Nota: La configuración de esta pestaña se aplica a todas las plantillas, globalmente.***
 
 ### Configurar plantillas de correo electrónico para un objeto de aprendizaje {#configureemailtemplatesforalearningobject}
 
@@ -156,13 +155,13 @@ Esta opción también está disponible para los autores cuando los autores confi
 Para configurar las plantillas de correo electrónico de un objeto de aprendizaje:
 
 1. Haga clic en el curso, programa de aprendizaje o certificación para el que desea configurar la plantilla de correo electrónico.
-1. En el panel izquierdo, haga clic en **[!UICONTROL **&#x200B; Plantillas de correo electrónico &#x200B;**.] **&#x200B; El sistema muestra un cuadro de diálogo &#x200B;**&#x200B;**[!UICONTROL Previsualización de plantilla]**&#x200B;**.
+1. En el panel izquierdo, haga clic en **[!UICONTROL **&#x200B; Plantillas de correo electrónico &#x200B;**.] **&#x200B; El sistema muestra un cuadro de diálogo emergente &#x200B;**&#x200B;**[!UICONTROL Vista previa de plantilla]**&#x200B;**.
 1. Modifique el asunto o el cuerpo de la plantilla de correo electrónico y haga clic en **[!UICONTROL **Guardar**]**&#x200B;para aplicar los cambios.
 1. Para cancelar los cambios, haga clic en **[!UICONTROL **&#x200B; Volver a original &#x200B;**.]**
 
 ### Restringir a los usuarios a recibir correos electrónicos {#restrictusersfromreceivingemails}
 
-Como administrador, puede seleccionar quién recibirá y quién no los mensajes de correo electrónico de Learning Manager. Puedes hacerlo mediante la opción **&#x200B;**&#x200B;[!UICONTROL Usuario restringido]&#x200B;**&#x200B;** en la pestaña **&#x200B;**&#x200B;[!UICONTROL Configuración] **&#x200B; &#x200B;**&#x200B;1. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario. Los usuarios que aparecen bajo esta opción no podrán recibir ninguna comunicación por correo electrónico de Learning Manager.
+Como administrador, puede seleccionar quién recibirá y quién no los mensajes de correo electrónico de Learning Manager. Puedes hacerlo mediante la opción **&#x200B;**&#x200B;[!UICONTROL Usuario restringido]&#x200B;**&#x200B;** en la pestaña **&#x200B;**&#x200B;[!UICONTROL Configuración] **&#x200B; **&#x200B;1. Los usuarios pueden incorporarse a esta lista mediante su nombre, identificador de correo electrónico o identificador exclusivo de usuario. Los usuarios que aparecen bajo esta opción no podrán recibir ninguna comunicación por correo electrónico de Learning Manager.
 
 ## Configurar los ajustes de su cuenta {#configureyouraccountsettings}
 
@@ -176,7 +175,7 @@ Learning Manager le permite configurar algunas opciones de cuenta, como la confi
 
    * **País**: Seleccione el país en este campo desplegable.
    * **Zona horaria**: Defina la zona horaria adecuada para su ubicación.
-   * **Configuración regional**: Seleccione el idioma que desee. Si cambia el idioma en este campo, el cambio se aplicará a todos los usuarios que utilicen esta aplicación. Sin embargo, individualmente, cada usuario puede modificar el idioma de preferencia.
+   * **Configuración regional**: Seleccione el idioma que desee. Si cambia el idioma en este campo, el cambio se aplicará a todos los usuarios que utilicen esta aplicación. Sin embargo, de forma individual, cada usuario puede modificar el idioma de preferencia.
    * **El ejercicio económico comienza a partir de**: Seleccione el mes en el que se inicia el ejercicio para su organización.
 
 
@@ -195,9 +194,9 @@ Como administrador, puede configurar los ajustes de comentarios de forma global.
 1. En el panel izquierdo, haga clic en **[!UICONTROL General]**.
 1. Para configurar los comentarios de L1, haga clic en la pestaña **[!UICONTROL Comentarios de L1]**. Verá las opciones para configurar una pregunta obligatoria y varias preguntas opcionales. Estas son las preguntas que un alumno ve mientras proporciona comentarios después de completar un curso. Las preguntas se redactan como instrucciones para que los alumnos puedan seleccionar su respuesta en una escala del 1 al 5.
 
-   La primera parte de los comentarios de L1 es una pregunta obligatoria sobre cómo puede un alumno recomendar este curso a un amigo o compañero.
+   La primera parte de los comentarios de L1 es una pregunta obligatoria sobre cómo debe un alumno recomendar este curso a un amigo o colega.
 
-   ***Nota: no puede editar ni modificar la pregunta obligatoria.***
+   ***Nota: No puede editar ni modificar la pregunta obligatoria.***
 
    ![](assets/configure-feedbacksettings-step3.png)
 
@@ -224,7 +223,7 @@ Como administrador, puede configurar los ajustes de comentarios de forma global.
 
 ## Configurar comentarios de L3: {#configurel3feedback}
 
-Los comentarios de L3 contienen las preguntas que se envían al responsable de un alumno después de que este complete un curso. Los comentarios de L3 permiten a un administrador realizar un seguimiento de los cambios en el comportamiento o la aptitud de un alumno a lo largo del tiempo. Para configurar este comentario, en la página Comentarios, haga clic en la ficha **&#x200B;**&#x200B;[!UICONTROL Comentarios de L3]&#x200B;**&#x200B;**. Verá una pregunta predeterminada. El gerente debe responder a esta pregunta usando una escala de calificación de cinco puntos.
+Los comentarios de L3 contienen las preguntas que se envían al responsable de un alumno después de que este complete un curso. Los comentarios de L3 permiten al administrador realizar un seguimiento de los cambios en el comportamiento o la aptitud de un alumno a lo largo del tiempo. Para configurar este comentario, en la página Comentarios, haga clic en la ficha **&#x200B;**&#x200B;[!UICONTROL Comentarios de L3]&#x200B;**&#x200B;**. Verá una pregunta predeterminada. El responsable debe responder a esta pregunta utilizando una escala de clasificación de cinco puntos.
 
 ![](assets/configure-l3-feedback.png)
 
@@ -261,7 +260,7 @@ Para configurar la configuración de comentarios en un nivel de instancia:
 1. Opcionalmente, configure la configuración del recordatorio en el nivel de instancia. Si no establece aquí la configuración de recordatorio, se asignará automáticamente la configuración de recordatorio global.
 1. Una vez que hayas terminado de responder a las preguntas sobre los comentarios y la configuración del recordatorio, haz clic en **[!UICONTROL **Guardar**]**&#x200B;para aplicar la configuración.
 
-   ***Nota: la configuración de comentarios no se aplica a las certificaciones.***
+   ***Nota: La configuración de comentarios no es aplicable a las certificaciones.***
 
 ## Configurar opciones generales {#configuregeneralsettings}
 
@@ -297,7 +296,6 @@ El tablero del alumno en Learning Manager permite a los alumnos ver sus cursos o
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 
-1. Para aplicar la configuración predeterminada, haga clic en **[!UICONTROL Restaurar valores predeterminados.]** En este caso, todos los widgets excepto **[!UICONTROL Anuncios fijos y]** de bienvenida están visibles.
+1. Para aplicar la configuración predeterminada, haga clic en **[!UICONTROL Restaurar valores predeterminados.]** En este caso, todos los widgets excepto **[!UICONTROL Anuncios de bienvenida y pegajosos]** son visibles.
 
    ***Incluso después de habilitar la configuración del tablero del alumno, los alumnos pueden modificar y desplazarse por los widgets en sus respectivos tableros.***
-

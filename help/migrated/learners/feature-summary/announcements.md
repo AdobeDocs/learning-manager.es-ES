@@ -6,7 +6,7 @@ exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 61%
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 61%
 
 Un anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador difunde entre un determinado conjunto de usuarios.
 
-El administrador puede difundir anuncios a los alumnos para informarles de la ocurrencia de un evento o una actividad. Cuando se difunde un anuncio a un grupo concreto o a usuarios de objetos de aprendizaje, todos los alumnos asociados al grupo de destino reciben notificaciones.
+El administrador puede difundir mensajes entre los alumnos para informarles de la existencia de un evento o una actividad. Cuando un anuncio se difunde entre un determinado grupo o entre usuarios de objetos de aprendizaje, todos los alumnos asociados al grupo de destino reciben notificaciones.
 
 ## Notificación de anuncios {#announcementsnotification}
 

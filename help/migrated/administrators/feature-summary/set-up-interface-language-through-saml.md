@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,14 @@ Para crear una aplicación en Okta, siga estos pasos:
 4. Escriba un nombre para la aplicación y seleccione Siguiente.
 5. Configure los siguientes campos:
 
-   * **[!UICONTROL URL de inicio de sesión único]**: escriba la dirección URL del dominio específico al que desea vincular la aplicación (por ejemplo, [https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO)). Cambie la URL del entorno si es necesario.
-   * **[!UICONTROL URI de audiencia (ID de entidad de SP)]**: usa la misma URL de entorno que la anterior.
-   * **[!UICONTROL Formato de Id. de nombre]**: seleccione la dirección de correo electrónico.
-   * **[!UICONTROL Nombre de usuario de la aplicación]**: seleccione el nombre de usuario de Okta.
+   * **[!UICONTROL URL de inicio de sesión único]**: Escriba la dirección URL del dominio específico al que desea vincular la aplicación (por ejemplo, [https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO)). Cambie la URL del entorno si es necesario.
+   * **[!UICONTROL URI de audiencia (ID de entidad de SP)]**: Utilice la misma dirección URL de entorno que la anterior.
+   * **[!UICONTROL Formato de Id. de nombre]**: Seleccione la dirección de correo electrónico.
+   * **[!UICONTROL Nombre de usuario de la aplicación]**: Seleccione el nombre de usuario Okta.
 
 6. En Sentencias de atributo, agregue lo siguiente (o campos adicionales según sea necesario):
    * **Nombre**: configuración regional
-   * **Formato De Nombre**: No Definido
+   * **Formato de nombre**: Indefinido
    * **Valor**: user.locale
 
 7. Seleccione Siguiente y, a continuación, Finalizar.
@@ -79,7 +79,7 @@ Para configurar el SSO en ALM, siga estos pasos:
       * Busque el valor de ubicación y cópielo.
       * Pegue este valor en el campo URL de autenticación iniciada por IDP.
 
-   * Para el **[!UICONTROL archivo XML de metadatos]**: cargue el archivo .xml que descargó anteriormente.
+   * Para **[!UICONTROL archivo XML de metadatos]**: Cargue el archivo .xml que descargó anteriormente.
 
 6. Vuelva a la ficha **[!UICONTROL Configuración]**.
 7. En el menú desplegable, seleccione **[!UICONTROL Configuración de inicio de sesión único]**.

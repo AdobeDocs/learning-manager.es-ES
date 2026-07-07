@@ -6,8 +6,8 @@ contentowner: saghosh
 preview: true
 source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 88%
+source-wordcount: '2996'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ La transcripción del alumno generada a través de la interfaz de usuario será 
 
 ## Exportar transcripciones de alumnos {#exportlearnertranscript}
 
-Si un sistema externo debe consumir la transcripción del alumno, Learning Manager proporciona una función denominada Exportar datos, donde la transcripción del alumno es uno de los tipos de datos que se pueden exportar. Como se explica en el preámbulo, esto es necesario para la integración de Learning Manager con un sistema externo que necesita procesar datos de comportamiento de aprendizaje o para rellenar un almacén de datos de empresa con datos de comportamiento de aprendizaje.
+Si un sistema externo debe consumir la transcripción del alumno, Learning Manager proporciona una función denominada Exportar datos, donde la transcripción del alumno es uno de los tipos de datos que se pueden exportar. Como se explica en el Preámbulo, esto es necesario para la integración de Learning Manager en un sistema externo que necesita procesar datos de comportamiento de aprendizaje o para guardar datos de comportamiento de aprendizaje en un almacén de datos de empresa.
 
 Para obtener más información sobre los conectores que admiten la exportación de transcripciones de alumnos, consulte la sección [Exportar datos](/help/migrated/integration-admin/feature-summary/connectors.md) de los conectores para FTP, Box y PowerBI.
 
@@ -53,7 +53,7 @@ En la siguiente sección, se proporciona información sobre cómo un sistema des
 
 ## Interpretar la transcripción del alumno {#interpretthelearnertranscript}
 
-Cada fila de una transcripción de alumno se puede considerar como un comportamiento de aprendizaje capturado en Learning Manager en un período de tiempo específico. Normalmente, los conectores exportan &quot;datos incrementales&quot;, por lo que las filas representan actividades de aprendizaje que se produjeron entre la última ejecución del conector y la ejecución actual.
+Cada fila de una transcripción del alumno se puede considerar como un comportamiento de aprendizaje capturado en Learning Manager durante un periodo específico. Normalmente, los conectores exportan &quot;datos incrementales&quot;, por lo que las filas representan actividades de aprendizaje que se produjeron entre la última ejecución del conector y la ejecución actual.
 
 Por supuesto, los conectores también permiten obtener la transcripción del alumno a petición y, en este caso, el usuario puede especificar la fecha de inicio y la de finalización, que se presupone que es la fecha actual. Normalmente, esto se debe realizar una vez inicialmente y, a continuación, se configuraría el conector para que exporte la transcripción incremental del alumno a una hora específica del día, una vez cada N días (el valor predeterminado de N es 1).
 
@@ -422,5 +422,5 @@ Las columnas de la transcripción del alumno proporcionan información relativa 
 | El número de aptitudes que se deben actualizar. | No puede estar nunca vacía. | El número de alumnos cuya aptitud se debe actualizar. |
 | Porcentaje de cumplimiento | No puede estar nunca vacía. | El porcentaje de progreso de la aptitud asignada. |
 
-* A veces, los administradores pueden marcar la finalización de un objeto de aprendizaje manualmente (especialmente para los cursos en clase) mucho después de que haya finalizado la clase. En ese caso, si la opción Exportar datos se ha configurado para que exporte diariamente transcripciones de alumnos, es posible que la fecha real de finalización ya haya pasado y, por lo tanto, la exportación nunca obtendrá esos registros de finalización marcados como completados mucho después de que haya terminado la clase. Cuando esto se detecte, considere la posibilidad de exportar la transcripción desde una fecha de inicio determinada hasta la fecha (a petición) en la interfaz de usuario; a continuación, llévela a la aplicación descendente para un &quot;procesamiento posterior&quot;. Al hacer esto, es posible que deba omitir los registros que ya se han procesado.
+* A veces, los administradores pueden marcar la finalización de un objeto de aprendizaje manualmente (especialmente para los cursos en clase) mucho después de que haya finalizado la clase. En ese caso, si la opción Exportar datos se ha configurado para que exporte diariamente transcripciones de alumnos, es posible que la fecha real de finalización ya haya pasado y, por lo tanto, la exportación nunca obtendrá esos registros de finalización marcados como completados mucho después de que haya terminado la clase. Cuando esto se detecte, considere la posibilidad de exportar la transcripción desde una fecha de inicio determinada hasta la fecha (a petición) en la interfaz de usuario; y luego llevarlo a la aplicación descendente para el &quot;procesamiento tardío&quot;. Al hacer esto, es posible que deba omitir los registros que ya se han procesado.
 * Varios intentos para un módulo dependen de si está activado para ese objeto de aprendizaje. Si está activado, lo que aparece ahora en una fila del archivo CSV relacionada con un módulo es un intento. No se pueden notificar todos los intentos de un día, por lo que puede que aparezca un incremento superior a uno en el número total de intentos. Además, un intento no tiene por qué mejorar necesariamente una puntuación; en un momento dado, solo recibirá la mejor puntuación.

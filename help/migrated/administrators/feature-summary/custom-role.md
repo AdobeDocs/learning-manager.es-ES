@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
 source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
-source-wordcount: '3466'
-ht-degree: 32%
+source-wordcount: '3475'
+ht-degree: 40%
 
 ---
 
@@ -67,7 +67,7 @@ _Filtrar funciones personalizadas_
    *Crear una función personalizada*
 
 3. Escriba el nombre en el campo **[!UICONTROL Nombre del rol]**.
-4. **[!UICONTROL Privilegios de cuenta]**: estos privilegios dan a los propietarios de roles acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
+4. **[!UICONTROL Privilegios de cuenta]**: Estos privilegios otorgan a los propietarios del rol acceso a aspectos específicos de la configuración del sistema y que actúan en toda la cuenta. Elija los permisos de acceso. El usuario tiene control total sobre los permisos asignados.
 
    Los administradores pueden conceder permisos detallados para la sección Usuario, que tiene usuarios internos/externos, grupos de usuarios y usuarios avanzados.
 
@@ -80,7 +80,7 @@ _Filtrar funciones personalizadas_
 
    *Establecer el ámbito*
 
-5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas para administrar actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
+5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas de administración de actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
 
    Los administradores pueden proporcionar permisos detallados, como permisos de solo lectura, de creación, de edición y de eliminación para los catálogos.
 
@@ -270,7 +270,7 @@ Un usuario con una función personalizada puede:
     </tbody>
    </table>
 
-1. **Usuarios:** utilice esta opción para determinar los usuarios a los que se asigna esta función. Puede elegir uno o varios usuarios mediante el cuadro de búsqueda.
+1. **Usuarios:** utilice esta opción para determinar los usuarios a los que se asigna esta función. Puede elegir uno o más usuarios con el cuadro de búsqueda.
 
    **Agregar usuarios a la carga de CSV de funciones personalizadas:** Para agregar usuarios mediante la carga de CSV, agregue una columna CustomRole al archivo .csv que el administrador usó para importar usuarios. Introduzca la función del usuario en la columna Función personalizada para los usuarios a los que desea asignar una función personalizada. Para cargar el archivo CSV, haga clic en **[!UICONTROL Agregar > Cargar un CSV]**.
 
@@ -287,8 +287,8 @@ Un usuario con una función personalizada puede:
 
 Puede asignar varias funciones personalizadas a los usuarios de las siguientes maneras:
 
-* Uso de la interfaz de usuario: puede asignar más de una función personalizada a un usuario directamente desde la interfaz de Adobe Learning Manager.
-* Mediante la carga de CSV: puede cargar un archivo CSV para asignar varias funciones personalizadas a varios usuarios a la vez.
+* Uso de la IU: Puede asignar más de una función personalizada a un usuario directamente desde la interfaz de Adobe Learning Manager.
+* Uso de la carga de CSV: Puede cargar un archivo CSV para asignar varias funciones personalizadas a varios usuarios a la vez.
 
 Esto facilita la administración del acceso de los usuarios y los permisos de control en todo el sistema.
 
@@ -420,9 +420,9 @@ Consulte este artículo [Seguimiento de auditoría de funciones personalizadas](
 
 ## Restringir el acceso a las carpetas a los autores personalizados {#folder-custom-author}
 
-Learning Manager ya admite la posibilidad de conceder acceso a la biblioteca de contenido mediante funciones personalizadas. Todos los autores personalizados que ya tengan acceso a la biblioteca de contenido seguirán teniendo acceso a todos los archivos de contenido incluso después de configurar las carpetas de contenido. Esto es para mantener el comportamiento heredado. Los administradores no necesitan realizar ningún cambio en caso de que deseen continuar con el comportamiento actual.
+Learning Manager ya admite la posibilidad de conceder acceso a la biblioteca de contenido mediante funciones personalizadas. Todos los autores personalizados que ya tengan acceso a la biblioteca de contenido seguirán teniendo acceso a todos los archivos de contenido incluso después de configurar las carpetas de contenido. Esto es para mantener el comportamiento heredado. No es necesario que los administradores realicen cambios si desean continuar con el comportamiento actual.
 
-En caso de que deseen restringir el acceso a estos autores personalizados, los administradores deben editar la función personalizada existente y configurarla proporcionando acceso solo a carpetas de contenido específicas.
+En el caso de que deseen restringir el acceso a estos autores personalizados, los administradores deben editar la función personalizada existente y configurarla proporcionando acceso solo a carpetas de contenido específicas.
 
 ![](assets/folder-access-forcustomauthors.png)
 
@@ -440,13 +440,13 @@ Elija las carpetas y haga clic en **[!UICONTROL Aceptar]**.
 
 ## Tablero de resumen de aprendizaje para administrador personalizado {#custom-admin-dashboard}
 
-Los administradores personalizados pueden ver la misma vista que un administrador. Un administrador personalizado puede tener datos fuera de su ámbito. Esto solo es aplicable si el administrador personalizado tiene ámbito completo. Para conceder el ámbito completo, al crear un administrador personalizado, habilite la opción **[!UICONTROL Control total]** en el informe de resumen de cuenta.
+Los administradores personalizados pueden ver la misma vista que un administrador. Es posible que un administrador personalizado vea datos fuera de su ámbito. Esto solo es aplicable si el administrador personalizado tiene un ámbito completo. Para conceder el ámbito completo, al crear un administrador personalizado, habilite la opción **[!UICONTROL Control total]** en el informe de resumen de cuenta.
 
 ![](assets/create-custom-role.png)
 
 *Crear una función personalizada*
 
-Como resultado, se seleccionarán las opciones **[!UICONTROL Todos los catálogos]** y **[!UICONTROL Todos los grupos de usuarios]** y se deshabilitará el resto.
+Por lo tanto, se seleccionarán las opciones **[!UICONTROL Todos los catálogos]** y **[!UICONTROL Todos los grupos de usuarios]** y se desactivará el resto.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -454,7 +454,7 @@ Como resultado, se seleccionarán las opciones **[!UICONTROL Todos los catálogo
 
 ## Permisos implícitos {#implicitpermissions}
 
-Cuando a un usuario se le asigna una función con una entidad específica, puede haber casos en los que también necesite acceso a otras entidades para poder realizar tareas en la entidad concedida. Por ejemplo, si se concede a un usuario el acceso Crear en la entidad Curso, este necesita acceder a las entidades Aptitud y Etiqueta para poder asociarlas al curso que se está creando. Esta tabla proporciona información sobre estos permisos implícitos.
+Cuando se asigna a un usuario una función con una entidad determinada, puede haber casos en los que deba acceder también a otras entidades con el fin de realizar tareas en la entidad para la que tiene permiso. Por ejemplo, si se concede acceso a Crear en una entidad de curso a un usuario, necesita acceder a las entidades Aptitud y Etiqueta para poder asociarlas con el curso que se crea. Esta tabla proporciona información sobre estos permisos implícitos.
 
 <table>
  <tbody>
@@ -508,7 +508,7 @@ Cuando a un usuario se le asigna una función con una entidad específica, puede
   <tr>
    <td>Crear</td>
    <td>Plan de aprendizaje</td>
-   <td>Catálogo<br>
+   <td>Widget<br>
      Grupo<br>
      Aptitud<br>
      Todos los objetos de aprendizaje (curso, ayuda de trabajo, programa de aprendizaje, certificación)</td>
@@ -576,7 +576,7 @@ Para alternar entre funciones, haga clic en el icono de su perfil en la esquina 
 
 En versiones anteriores de Learning Manager, cualquier función personalizada con permiso para crear planes de objetos de aprendizaje podía definir el ámbito del plan de aprendizaje para todos los tipos de grupos de usuarios y objetos de aprendizaje
 
-La configuración del ámbito solía estar desactivada cuando se concedía acceso al plan de aprendizaje, lo que de forma predeterminada proporcionaba al usuario acceso a todos los catálogos y grupos de usuarios.
+La opción del ámbito solía estar desactivada cuando se concedía acceso al plan de aprendizaje, lo que de forma predeterminada proporcionaba al usuario acceso a todos los catálogos y grupos de usuarios.
 
 Todos los planes de aprendizaje creados por un administrador se aplican de forma predeterminada a todos los usuarios. También se puede asignar cualquier objeto de aprendizaje a los usuarios. Por otro lado, los usuarios con funciones personalizadas tienen acceso a todos los ámbitos, por ejemplo todos los catálogos, objetos de aprendizaje o grupos de usuarios. Esto significaba que los administradores no podían crear funciones personalizadas de la forma prevista que permitieran el acceso a planes de aprendizaje a usuarios con un ámbito limitado.
 
@@ -639,7 +639,7 @@ Si se hace clic en **[!UICONTROL Sí]**, el ámbito se actualiza.
 Un administrador puede activar los informes de interacción para un usuario personalizado.
 
 1. En la página **[!UICONTROL Funciones personalizadas]**, escriba el nombre de la función personalizada.
-1. En la sección **[!UICONTROL Privilegios de características principales: características principales]**, habilite la opción **[!UICONTROL Control total]** para la categoría **[!UICONTROL Informes]**.
+1. En los **[!UICONTROL Privilegios de funciones: Sección Características principales]**, habilite la opción **[!UICONTROL Control total]** para la categoría **[!UICONTROL Informes]**.
 
 1. En la sección **[!UICONTROL Usuarios]**, seleccione el usuario al que se asignará la función personalizada que se acaba de crear.
 1. Haga clic en **[!UICONTROL Guardar]**.
@@ -658,7 +658,7 @@ El restablecimiento de la interacción no restablece la fecha de nivel alcanzado
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++¿Cómo se crea una función personalizada?
++++¿Cómo crear una función personalizada?
 
 Una función personalizada es como un subconjunto de la función de autor o administrador. Permitir uno o varios privilegios, definir el ámbito y asignar la función a un usuario.
 

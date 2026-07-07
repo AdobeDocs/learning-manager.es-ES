@@ -3,14 +3,13 @@ description: Obtenga información sobre cómo integrar Salesforce con Learning M
 jcr-language: en_us
 title: Conectores de Learning Manager
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '6293'
-ht-degree: 72%
+source-wordcount: '6186'
+ht-degree: 83%
 
 ---
-
-
 
 # Conectores de Learning Manager
 
@@ -28,7 +27,7 @@ Siga leyendo para saber cómo configurar y usar cada uno de estos conectores en 
 
 ## Conector de Salesforce {#sfconnector}
 
-El conector de Salesforce conecta las cuentas de Learning Manager y Salesforce para automatizar la sincronización de datos. Las funciones del conector de Salesforce son las siguientes:
+El conector de Salesforce conecta las cuentas de Learning Manager y Salesforce para automatizar la sincronización de datos. Estas son las prestaciones del conector de Salesforce:
 
 ### Asignación de atributos
 
@@ -40,7 +39,7 @@ El proceso de importación de usuarios permite que el administrador de Learning 
 
 ### Programación automática
 
-El uso de la programación automática junto con la importación automática de usuarios puede ser eficaz. El administrador de Learning Manager puede configurar la programación conforme a los requisitos de la empresa. Los usuarios de la aplicación Learning Manager pueden estar actualizados según la programación. La sincronización se puede realizar a diario en la aplicación Learning Manager.
+El uso de la programación automática junto con la importación automática de usuarios puede ser eficaz. El administrador de Learning Manager puede configurar la programación conforme a los requisitos de la empresa. Los usuarios de Learning Manager pueden estar al día según la programación. La sincronización se puede realizar a diario en la aplicación Learning Manager.
 
 ### Filtrar usuarios
 
@@ -62,7 +61,7 @@ Asimismo, compruebe que tenga las credenciales adecuadas para iniciar sesión en
 
    ![](assets/mouserover-salesforce.png)
 
-1. Un cuadro de diálogo le solicita la URL de la empresa. Haga clic en **[!UICONTROL Conectar]** después de proporcionar la dirección URL.
+1. Un cuadro de diálogo le solicita la URL de la empresa. Haga clic en **[!UICONTROL Conectar]** tras haber indicado la URL.
 1. Tras conectarse correctamente, aparece la página de información general.
 
 ## Asignación de atributos {#mapattributes}
@@ -73,9 +72,9 @@ Una vez que la conexión se establece correctamente, puede asignar columnas de S
 
    ![](assets/sfdc-map-columns.png)
 
-   Los datos de columna de Learning Manager que se muestran a la izquierda se obtienen de los campos activos. El campo **manager** debe asignarse necesariamente a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.
+   Los datos de la columna de Learning Manager mostrados en el lado izquierdo se obtienen de los campos activos. El campo de **responsable** debe asignarse necesariamente a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.
 
-1. Haga clic en **[!UICONTROL Guardar]** después de completar la asignación.
+1. Tras completar la asignación, haga clic en **[!UICONTROL Guardar]**.
 1. El conector ya está listo para utilizarse. La cuenta que se ha configurado ahora aparece como una fuente de datos dentro de la aplicación del administrador, para que el administrador programe la importación o la sincronización a petición.
 
 ## Uso del conector de Salesforce {#usingsalesforceconnector}
@@ -84,7 +83,7 @@ El conector de Salesforce se conecta a Salesforce.com para buscar a los usuarios
 
 ## Conector FTP de Learning Manager {#ftpconnector}
 
-Con el conector de FTP, es posible integrar Learning Manager con sistemas externos arbitrarios para automatizar la sincronización de datos. En principio, los sistemas externos pueden exportar datos en formato CSV y colocarlos en la carpeta apropiada de la cuenta de FTP de Learning Manager. Las funciones del conector de FTP son las siguientes:
+Con el conector de FTP, es posible integrar Learning Manager con sistemas externos arbitrarios para automatizar la sincronización de datos. En principio, los sistemas externos pueden exportar datos en formato CSV y colocarlos en la carpeta apropiada de la cuenta de FTP de Learning Manager. Estas son las prestaciones del conector de FTP:
 
 También puede utilizar el conector de Box para la migración de datos, la importación de usuarios y la exportación de datos. Para obtener más información, consulte [Conector de Box.](third-party-connectors.md#main-pars_header_302653946)
 
@@ -94,7 +93,7 @@ El proceso de importación de usuarios permite que el administrador de Learning 
 
 **Asignación de atributos**
 
-El administrador de integración puede seleccionar las columnas del archivo .csv y asignarlas a los atributos agrupables de Learning Manager. Esta asignación es una acción que se efectúa una sola vez. Tras finalizar la asignación, la misma asignación se aplica en las posteriores importaciones de usuarios. La asignación se puede volver a configurar si el administrador desea tener una asignación diferente para importar usuarios.
+El administrador de integración puede seleccionar las columnas del archivo .csv y asignarlas a los atributos agrupables de Learning Manager. Esta asignación es una acción que se efectúa una sola vez. Tras finalizar la asignación, la misma asignación se aplica en las posteriores importaciones de usuarios.La asignación se puede volver a configurar si el administrador quiere otra asignación para importar usuarios.
 
 ## Exportación de datos {#exportdata}
 
@@ -114,12 +113,12 @@ Obtenga información sobre el proceso de integrar Learning Manager con el conect
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. Un cuadro de diálogo le solicita el ID de correo electrónico. Indique el ID de correo electrónico de la persona responsable de administrar la cuenta de FTP de Learning Manager para la organización. Haga clic en **[!UICONTROL Conectar]** después de proporcionar el ID de correo electrónico.
+1. Un cuadro de diálogo le solicita el ID de correo electrónico. Proporcione el ID de correo electrónico de la persona responsable de administrar la cuenta de FTP de Learning Manager para la empresa. Haga clic en **[!UICONTROL Conectar]** después de haber indicado el ID de correo electrónico.
 1. Learning Manager le envía un mensaje de correo electrónico solicitando al usuario que restablezca la contraseña antes de acceder al FTP por primera vez. El usuario debe restablecer la contraseña y usarla para acceder a la cuenta de FTP de Learning Manager.
 
    Solo se puede crear una cuenta de FTP de Learning Manager para una determinada cuenta de Learning Manager.
 
-   En la página de información general, puede especificar el nombre de conexión de su integración. Elija la acción que desea efectuar de las siguientes opciones:
+   En la página de información general, puede especificar el nombre de conexión de la integración. Elija la acción que desea efectuar de las siguientes opciones:
 
    * Importar usuarios internos
    * Exportar usuarios externos: Configurar una programación
@@ -135,7 +134,7 @@ La opción de importación de usuarios internos le permite programar la generaci
 
 +++
 
-+++Asignar atributos
++++Asignación de atributos
 
 Una vez que la conexión se establece correctamente, puede asignar columnas de archivos .csv que se colocarán en la carpeta FTP para los atributos correspondientes de Learning Manager. Este paso es obligatorio.
 
@@ -144,7 +143,7 @@ Una vez que la conexión se establece correctamente, puede asignar columnas de a
 
    *El campo de responsable debe asignarse necesariamente a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.*
 
-1. Haga clic en **[!UICONTROL Guardar]** después de completar la asignación.
+1. Tras completar la asignación, haga clic en **[!UICONTROL Guardar]**.
 
    El conector ya está listo para utilizarse. La cuenta que se ha configurado ahora aparece como una fuente de datos dentro de la aplicación del administrador, para que el administrador programe la importación o la sincronización a petición.
 
@@ -174,9 +173,9 @@ Al importar usuarios a Learning Manager, el administrador también necesita sabe
 
 +++Aptitudes
 
-Existen dos opciones para exportar informes de aptitudes de usuarios.
+Hay dos opciones para exportar informes de aptitudes del usuario.
 
-**[!UICONTROL Aptitudes del usuario: a petición]**: puede especificar la fecha de inicio y exportar el informe usando la opción. El informe se extraerá desde la fecha especificada hasta el presente.
+**[!UICONTROL Aptitudes del usuario: a petición]**: Puede especificar la fecha de inicio y exportar el informe mediante la opción. El informe se extraerá desde la fecha especificada hasta el presente.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -186,7 +185,7 @@ Existen dos opciones para exportar informes de aptitudes de usuarios.
 
 +++
 
-Para abrir la carpeta Export donde se colocarán los archivos exportados en la ubicación del FTP, abra el vínculo a la carpeta de FTP que se proporciona en la página Aptitudes del usuario, como se muestra a continuación.
+Para abrir la carpeta Export donde se colocarán los archivos exportados en la ubicación del FTP, abra el vínculo a la carpeta de FTP que se proporciona en la página Aptitudes del usuario como se muestra a continuación.
 
 ![](assets/ftp-folder.png)
 
@@ -301,8 +300,7 @@ El conector de getAbstract es válido para clientes empresariales de getAbstract
 
    Para que funcione cualquier tipo de sincronización, debe asegurarse de que la fuente del usuario esté presente en la carpeta FTP de getAbstract para las fechas especificadas en la sincronización.
 
-   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
-   [hoja de Excel de ejemplo de fuente de usuario de getAbstract](assets/report-export-20170401175342.xlsx)
+   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:**report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.   [hoja de Excel de ejemplo de fuente de usuario de getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Conector de Harvard ManageMentor {#hmmconnector}
 
@@ -384,10 +382,9 @@ El usuario puede configurar tareas de programación conforme a los requisitos de
 
 ## Configurar el conector de Workday {#configureworkdayconnector}
 
-**Requisito previo**: solicite el administrador de Workday de su empresa para crear un usuario de sistema de integración con los permisos definidos en el documento ISU_Permissions. Descargue una copia del vínculo siguiente.
-[Descargar una copia de la seguridad del usuario del sistema de integración (ISU).](assets/isu-permissions-v1.pdf) Obtenga información sobre el proceso de integrar Learning Manager con el conector de Workday.
+**Requisito previo**: solicite el administrador de Workday de su empresa para crear un usuario de sistema de integración con los permisos definidos en el documento ISU_Permissions. Descargue una copia del vínculo a continuación.[Descargar una copia de la seguridad del usuario del sistema de integración (ISU).](assets/isu-permissions-v1.pdf) Conozca el proceso para integrar Learning Manager con el conector Workday.
 
-1. En la página de inicio de Learning Manager, pase el ratón sobre el icono de Workday. Aparece un menú. Haga clic en la opción **[!UICONTROL Conectar]** del menú.
+1. En la página principal de Learning Manager, coloque el cursor sobre el mosaico de Workday. Aparece un menú. Haga clic en la opción **[!UICONTROL Conectar]** del menú.
 
    ![](assets/workday-tile.png)
 
@@ -396,7 +393,7 @@ El usuario puede configurar tareas de programación conforme a los requisitos de
    * Nombre de conexión: proporcione un nombre de conexión según su preferencia.
    * URL de host: el administrador de integración puede obtener los detalles de URL de host del administrador de Workday correspondiente.
    * Inquilino: el inquilino es interno de su empresa. Su administrador de Workday le proporcionará los detalles del inquilino.
-   * Nombre de usuario y contraseña: el administrador de Workday crea un usuario del sistema integrado (ISU) con los privilegios de seguridad necesarios y lo comparte con el administrador de integración.
+   * Nombre de usuario y contraseña: el administrador de Workday crea un usuario de sistema de integración con los privilegios de seguridad necesarios y lo comparte con el administrador de integración.
 
    Nota: Learning Manager usa la versión 28.1 de la API de Workday.
 
@@ -406,7 +403,7 @@ El usuario puede configurar tareas de programación conforme a los requisitos de
 
    También puede tener varias conexiones de Workday sincronizadas con su cuenta de Learning Manager.
 
-En la página de información general, puede especificar el nombre de conexión de su integración. Elija la acción que desea efectuar de las siguientes opciones:
+En la página de información general, puede especificar el nombre de conexión de la integración. Elija la acción que desea efectuar de las siguientes opciones:
 
 * Importar usuarios internos
 * Exportar usuarios externos: Configurar una programación
@@ -430,7 +427,7 @@ Actualmente, Learning Manager admite la importación de 44 atributos de usuario
 
 Workday tiene cuatro niveles de jerarquía, mientras que Learning Manager tiene dos. Los cuatro niveles de Workday son categoría de perfil de aptitud, perfil de aptitud, categoría de elemento de aptitud y elemento de aptitud. El nombre de la aptitud y el nivel de Learning Manager se asignarán en Workday en el elemento de aptitud.
 
-+++Lista de atributos de Workday compatibles
++++Lista de atributos de Workday admitidos
 
 wd:User_ID\
 wd:Worker_ID\
@@ -466,7 +463,7 @@ wd:Employment_Data.wd:Worker_Status_Data.wd:Active\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date\
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado\
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date\
@@ -486,7 +483,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 Puede exportar todas las aptitudes logradas por un usuario de Learning Manager a Workday. Tenga en cuenta que solo se exportan todas las aptitudes de usuario activas; Learning Manager no exporta aptitudes retiradas. También puede conectar varias cuentas de Learning Manager al mismo conector de Workday. Si los nombres de las aptitudes son los mismos en dos cuentas de Learning Manager, se asignan a la misma aptitud en Workday. Se recomienda actualizar los nombres de aptitudes en todas las cuentas de Learning Manager antes de actualizar la aptitud en Workday en caso de que dos cuentas de Learning Manager utilicen la misma cuenta de Workday.
 
-+++Aptitudes del usuario: Configurar
++++Aptitudes de usuario: Configurar
 
 Esta opción le permite programar la extracción del informe. Asegúrese de que la casilla de verificación Habilitar exportación de aptitudes de usuario con esta conexión esté habilitada. Seleccione la casilla de verificación Activar programación y especifique la fecha y la hora de inicio. También puede especificar el intervalo en el que desea que se genere y se envíe el informe. Seleccione la casilla de verificación Habilitar programación; a continuación, indique valores para Fecha de inicio, Hora y Repetir después de &#39;n&#39; cantidad de días. Una vez hecho esto, haga clic en Guardar.
 
@@ -494,7 +491,7 @@ Esta opción le permite programar la extracción del informe. Asegúrese de que 
 
 +++
 
-+++Aptitudes del usuario: a petición
++++Aptitudes del usuario: A petición
 
 Puede especificar la fecha de inicio y exportar el informe usando la opción. El informe se extraerá desde la fecha indicada hasta el presente. Especifique la fecha a partir de la cual desea comenzar a generar el informe y haga clic en Ejecutar.
 
@@ -502,7 +499,7 @@ Puede especificar la fecha de inicio y exportar el informe usando la opción. El
 
 +++
 
-+++Aptitudes del usuario: estado de ejecución
++++Aptitudes del usuario: Estado de la ejecución
 
 Aquí puede ver el resumen de todas las tareas y obtener su informe de estado. Puede descargar informes de errores haciendo clic en el vínculo del informe de errores.
 
@@ -528,7 +525,7 @@ El proceso de importación de usuarios permite al administrador de Learning Mana
 
 El administrador de Learning Manager puede aplicar filtros en los usuarios antes de importarlos. Por ejemplo, el administrador de Learning Manager puede optar por importar todos los usuarios en la jerarquía bajo uno o más responsables específicos.
 
-Para configurar   miniOrange   , póngase en contacto con el equipo de CSM de Learning Manager.
+Para configurar el conector de miniOrange, póngase en contacto con el equipo CSM de Learning Manager.
 
 ## Configurar el conector de miniOrange {#configureminiorangeconnector}
 
@@ -540,11 +537,11 @@ Para configurar   miniOrange   , póngase en contacto con el equipo de CSM de Le
 
    ![](assets/establish-connection.png)
 
-1. Si desea importar el usuario de miniOrange directamente como usuario interno de Learning Manager, utilice la opción **[!UICONTROL Importar usuarios internos]**.
+1. Si desea importar el usuario de miniOrnage directamente como usuario interno de Learning Manager, utilice la opción **[!UICONTROL Importar usuarios internos]**.
 
    ![](assets/import-users.png)
 
-1. En la página de asignación, a la izquierda   en el lado derecho se ven las columnas de Learning Manager   lateral se pueden ver las miniColumnas naranja. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
+1. En la página de asignación, en el lado izquierdo se muestran las columnas de Learning Manager y en el derecho se muestran las columnas de miniOrnage. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
 
    ![](assets/map-attributes.png)
 
@@ -570,7 +567,7 @@ Siga estos pasos para configurar y usar el conector.
 
    ![](assets/miniorange.png)
 
-1. Se abre la página del conector de BlueJeans. Introduzca los detalles de la cuenta en los campos respectivos para integrar Learning Manager y BlueJeans para la sincronización de la fuente de usuario. Puede obtener los detalles del administrador de su cuenta de BlueJeans.
+1. Se abre la página del conector de BlueJeans. Ingrese los detalles de su cuenta en los respectivos campos para integrar Learning Manager y BlueJeans para la sincronización de la fuente de usuario. Puede obtener los detalles del administrador de su cuenta de BlueJeans.
 
    ![](assets/bluejeans-connecotrpage.png)
 
@@ -587,7 +584,7 @@ Siga estos pasos para configurar y usar el conector.
 
 ## Conector de Box {#boxconnector}
 
-Con el conector de BOX, se puede integrar Learning Manager con sistemas externos arbitrarios para automatizar la sincronización de datos. Se espera que los sistemas externos puedan exportar datos en formato CSV y colocarlos en la carpeta adecuada de la cuenta de Box de Learning Manager. Las capacidades del conector de Box son las siguientes:
+Con el conector de BOX, se puede integrar Learning Manager con sistemas externos arbitrarios para automatizar la sincronización de datos. En principio, los sistemas externos pueden exportar datos en formato CSV y colocarlos en la carpeta apropiada de la cuenta de Box de Learning Manager. Estas son las prestaciones del Conector de Box:
 
 También puede utilizar el conector de FTP para la migración de datos, la importación de usuarios y la exportación de datos. Para obtener más información, consulte [Conector FTP de Learning Manager.](third-party-connectors.md#main-pars_header_1427405935)
 
@@ -597,7 +594,7 @@ El proceso de importación de usuarios permite que el administrador de Learning 
 
 **Asignación de atributos**
 
-El administrador de integración puede seleccionar las columnas del archivo .csv y asignarlas a los atributos agrupables de Learning Manager. Esta asignación es una tarea que se realiza una sola vez. Después de finalizar la asignación, la misma asignación se aplica en las importaciones de usuarios posteriores. La asignación se puede volver a configurar si el administrador desea tener una asignación diferente para importar usuarios.
+El administrador de integración puede seleccionar las columnas del archivo .csv y asignarlas a los atributos agrupables de Learning Manager. Esta asignación es una tarea que se realiza una sola vez. Tras finalizar la asignación, la misma asignación se aplica en las posteriores importaciones de usuarios.La asignación se puede volver a configurar si el administrador quiere otra asignación para importar usuarios.
 
 ## Exportación de datos {#dataexport}
 
@@ -615,13 +612,13 @@ Obtenga información sobre el proceso de integrar Learning Manager con el conect
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. Un cuadro de diálogo le solicita el ID de correo electrónico. Indique el ID de correo electrónico de la persona responsable de administrar la cuenta de Learning Manager Box para la organización. Haga clic en Conectar después de indicar el ID de correo electrónico.
+1. Un cuadro de diálogo le solicita el ID de correo electrónico. Proporcione el ID de correo electrónico de la persona responsable de gestionar la cuenta de Box de Learning Manager para la empresa. Haga clic en Conectar después de haber indicado el ID de correo electrónico.
 
 1. Learning Manager le envía un mensaje de correo electrónico solicitando al usuario que restablezca la contraseña antes de acceder a Box por primera vez. El usuario debe restablecer la contraseña y utilizarla para acceder a la cuenta de Box de Learning Manager.
 
-   Solo se puede crear una cuenta de Learning Manager Box para una cuenta de Learning Manager determinada.
+   Solo se puede crear una cuenta de Box de Learning Manager para una determinada cuenta de Learning Manager.
 
-   En la página de información general, puede especificar el nombre de conexión de su integración. Elija la acción que desea efectuar de las siguientes opciones:
+   En la página de información general, puede especificar el nombre de conexión de la integración. Elija la acción que desea efectuar de las siguientes opciones:
 
    * Importar usuarios internos
    * Exportar usuarios externos: Configurar una programación
@@ -635,17 +632,17 @@ La opción de importación de usuarios internos le permite programar la generaci
 
 +++
 
-+++Asignar atributos
++++Asignación de atributos
 
 Una vez establecida correctamente una conexión, puede asignar las columnas de archivos CSV que se colocarán en la carpeta de Box a los atributos correspondientes de Learning Manager. Este paso es obligatorio.
 
-1. En la página Asignar atributos, a la izquierda   En el lado derecho, se muestran las columnas de Learning Manager.   En el lateral puede ver los nombres de columna de CSV. Al principio, en el lado derecho, hay un cuadro de selección vacío. Importe cualquier archivo .csv de plantilla haciendo clic en Elegir archivo.
+1. En la página Asignar atributos, en el lado izquierdo, se muestran las columnas esperadas de Learning Manager, mientras que en el derecho, se muestran los nombres de las columnas de CSV. Al principio, en el lado derecho, hay un cuadro de selección vacío. Importe cualquier archivo .csv de plantilla haciendo clic en Elegir archivo.
 
 1. El paso anterior rellena la lista desplegable seleccionada de la derecha con todos los nombres de columnas de CSV. Seleccione el nombre de columna adecuado que corresponda al nombre de columna del administrador de aprendizaje.
 
    *El campo de responsable debe asignarse necesariamente a un campo de tipo de dirección de correo electrónico. Asignar todas las columnas es obligatorio antes de poder usar el conector.*
 
-1. Tras completar la asignación, haga clic en Guardar .
+1. Tras completar la asignación, haga clic en Guardar.
 
    El conector ya está listo para utilizarse. La cuenta que se ha configurado ahora aparece como una fuente de datos dentro de la aplicación del administrador, para que el administrador programe la importación o la sincronización a petición.
 
@@ -672,21 +669,21 @@ Al importar usuarios a Learning Manager, el administrador también necesita sabe
 
 +++Aptitudes
 
-Existen dos opciones para exportar informes de aptitudes de usuarios.
+Hay dos opciones para exportar informes de aptitudes del usuario.
 
-Aptitudes del usuario: A petición: puede especificar la fecha de inicio y exportar el informe mediante esta opción. El informe se extraerá desde la fecha de entrada hasta el presente
+Aptitudes del usuario: A petición: puede especificar la fecha de inicio y exportar el informe usando esta opción.El informe se extraerá desde la fecha indicada hasta el presente
 
 **[!UICONTROL Aptitudes del usuario: Configurar]**: esta opción le permite programar la extracción del informe. Seleccione la casilla de verificación Activar programación y especifique la fecha y la hora de inicio. También puede especificar el intervalo en el que desea que se genere y se envíe el informe.
 
 +++
 
-Para abrir la carpeta Export donde se colocarán los archivos exportados en la ubicación de Box, abra el vínculo a la carpeta de Box que se proporciona en la página Aptitudes del usuario, como se muestra a continuación.
+Para abrir la carpeta Export donde se colocarán los archivos exportados en la ubicación de Box, abra el vínculo a la carpeta de Box que se proporciona en la página Aptitudes del usuario como se muestra a continuación.
 
 Los archivos exportados automáticamente estarán presentes en la ubicación **Home/export/&#42;Box_location&#42;**
 
 Los archivos exportados automáticamente estarán disponibles con el título **skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
 
-El cliente debe administrar los permisos de acceso y el contenido de la carpeta de Box compartida por el equipo de Learning Manager.  Tenga en cuenta también que el contenido de la carpeta se almacenará físicamente en la región de Frankfurt.
+Los permisos de acceso y el contenido en la carpeta de Box compartida por el equipo de Learning Manager deben ser gestionados por el cliente.  Tenga en cuenta también que el contenido de la carpeta se almacenará físicamente en la región de Frankfurt.
 
 ## Conector de LinkedInLearning {#linkedinlearningconnector}
 
@@ -733,4 +730,3 @@ El conector LinkedInLearning es válido para clientes empresariales de LinkedIn.
    Cuando elimina y vuelve a crear una conexión, vuelven a aparecer las ejecuciones anteriores del conector. Puede ver todas las ejecuciones antes de eliminar la conexión.
 
    Puede repetir una ejecución solo de la última sincronización.
-

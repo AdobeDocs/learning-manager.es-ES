@@ -5,7 +5,7 @@ title: Configurar campos activos en Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
 source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Al añadir atributos personalizados a los perfiles de usuario, los campos activo
 
 >[!INFO]
 >
->Vea este curso de formación de ALM Academy para aprender a agregar, personalizar y configurar campos activos.<br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>Vea esta formación de ALM Academy para aprender a agregar, personalizar y configurar campos activos.<br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## Agregar campos activos
 
@@ -64,11 +64,11 @@ Para agregar valores personalizados para usuarios internos:
 
 Personalice los campos activos para facilitar las tareas de administración de usuarios y creación de informes, y configure las propiedades de los campos activos:
 
-* **Agrupable**: esta opción le permite agrupar a los alumnos en función de los valores de campo activos.
-* **Comunicado**: esta opción le permite crear un grupo de usuarios de informes basado en el valor del campo activo y habilita el filtro de informes para el campo en los informes del tablero.
-* **Configurable por el alumno**: esta opción permite a los alumnos configurar el campo ellos mismos.
-* **Exportable**: esta opción incluye el campo activo en los informes de grupos de usuarios exportados.
-* **Multivalor**: esta opción admite varios valores para el campo activo.
+* **Agrupable**: Esta opción permite agrupar a los alumnos en función de los valores de campo activos.
+* **Comunicado**: Esta opción permite crear un grupo de usuarios de informes basado en el valor del campo activo y activa el filtro de informes para el campo en los informes del tablero.
+* **Configurable por el alumno**: Esta opción permite a los alumnos configurar el campo ellos mismos.
+* **Exportable**: Esta opción incluye el campo activo en los informes de grupos de usuarios exportados.
+* **Varios Valores**: Esta opción admite varios valores para el campo activo.
 
 Para configurar los campos activos:
 
@@ -126,6 +126,6 @@ En algunos casos, los administradores prefieren que los alumnos rellenen manualm
 
 Si un archivo CSV no incluye todos los campos activos, el administrador debe introducir manualmente los valores que faltan después de la importación.
 
-De forma predeterminada, todos los campos activos deben asignarse a un campo correspondiente en el archivo CSV de origen. Sin embargo, si no desea asignar un campo activo específico a ninguna columna del archivo CSV, puede seleccionar el valor **DontImportFromSource** en la lista desplegable durante los procesos de importación de Box y FTP. Esta opción está disponible al importar usuarios mediante conectores de FTP o Box. Consulte este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/connectors) para obtener más información sobre los conectores.
+De forma predeterminada, todos los campos activos deben asignarse a un campo correspondiente en el archivo CSV de origen. Sin embargo, si no desea asignar un campo activo específico a ninguna columna del archivo CSV, puede seleccionar el valor **DontImportFromSource** en la lista desplegable durante los procesos de importación de Box y FTP. Esta opción está disponible al importar usuarios mediante conectores de FTP o Box. Consulte este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) para obtener más información sobre los conectores.
 
 

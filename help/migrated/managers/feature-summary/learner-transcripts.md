@@ -5,8 +5,8 @@ title: Transcripciones de alumnos
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 85%
+source-wordcount: '920'
+ht-degree: 91%
 
 ---
 
@@ -36,13 +36,13 @@ Adobe Learning Manager permite a los responsables de una empresa generar transcr
 
 Puede elegir un solo alumno o grupos de alumnos. Para añadir a más de un alumno, haga clic en Añadir más alumnos.
 
-Las transcripciones se generan y se descargan en el equipo como archivos .XLS. Cada archivo .xls de Excel tiene siete hojas, cuyos detalles se mencionan a continuación:
+Las transcripciones se generan y se descargan en el equipo como archivos .XLS. Cada archivo .xls de Excel tiene siete hojas, cuyos detalles se indican a continuación:
 
 ## Descargar la transcripción del alumno en función de la zona horaria {#lt-timezone}
 
 Al igual que un administrador, un responsable también puede elegir las columnas que se van a exportar. Además, un responsable puede descargar la transcripción del alumno en función de la zona horaria que haya seleccionado en la configuración del perfil.
 
-Si el responsable activa esta opción, la zona horaria se selecciona de la que se ha definido en la página de configuración del perfil, como se muestra a continuación.
+Si el responsable activa esta opción, la zona horaria se selecciona desde la que se ha establecido en la página de configuración del perfil, como se muestra a continuación.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Un archivo de transcripciones de alumnos típico se compone de seis hojas de cá
 
 En la hoja de cálculo de transcripción de alumno, además de los datos sobre el alumno, se proporciona información sobre el consumo del objeto de aprendizaje como la fecha de inscripción, la fecha de inicio, la nota conseguida, la puntuación de las pruebas, etcétera. Si los cursos forman parte de un programa de aprendizaje, se enumeran aparte de los detalles de consumo de cada curso.
 
-**1- Tablero de actividades de aprendizaje**
+**1 - Tablero de actividades de aprendizaje**
 
 En este tablero específico de objetos de aprendizaje, puede ver la cantidad de alumnos de cada curso, programa de aprendizaje o certificación. Puede examinar la hoja de progreso de los alumnos respecto a un determinado objeto de aprendizaje. En esta hoja, se facilitan datos como la cantidad de alumnos que han completado el curso o el programa de aprendizaje, los alumnos que lo están realizando y las fechas de vencimiento de los alumnos.
 

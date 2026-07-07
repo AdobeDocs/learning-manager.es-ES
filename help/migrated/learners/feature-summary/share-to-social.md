@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -57,7 +57,7 @@ Redacte una descripción para la publicación, seleccione el tablero donde quier
 ## Internet Explorer {#internetexplorer}
 
 * En la esquina superior derecha del navegador, haga clic con el botón derecho en el icono de configuración. O usa **Alt + C** en el teclado para abrir la ventana de la barra de favoritos.
-* Para que la barra de favoritos esté visible en el explorador, haga clic en **[!UICONTROL Barra de favoritos]**.
+* Para que la barra de favoritos sea visible en el navegador, haga clic en **[!UICONTROL Barra de favoritos]**.
 
 ## Microsoft Edge {#microsoftedge}
 
@@ -82,7 +82,7 @@ Para añadir manualmente marcadores a la barra de marcadores, haga clic con el b
 ## Microsoft Edge en Windows {#microsoftedgeinwindows}
 
 1. Asegúrese de que la barra de favoritos esté visible. Haga clic con el botón derecho en la barra de favoritos y seleccione > **Crear nueva carpeta**.
-1. Para agregar la URL a la carpeta de la barra de favoritos que te guste, haz clic en el icono **Centro de marcadores** > icono **Marcadores**.
+1. Para añadir la URL a un carpeta de la barra de favoritos, haga clic en el icono del **centro de marcadores** > **icono de marcadores**.
 1. Guarde cualquier página en línea en la carpeta y cambie su nombre a Compartir en Social.
 1. Seleccione el icono del centro de marcadores > Compartir en redes sociales > Editar URL.
 1. Pegue la dirección del vínculo y pulse Intro.

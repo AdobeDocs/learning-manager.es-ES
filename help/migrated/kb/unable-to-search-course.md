@@ -6,8 +6,8 @@ contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 55%
+source-wordcount: '308'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 Un alumno no puede buscar un curso en Learning Manager.
 
-## Escenario 1: la inscripción se realiza a través de un objeto de aprendizaje superior
+## Escenario 1: La inscripción se realiza mediante un objeto de aprendizaje superior
 
 ### Resumen
 
@@ -29,9 +29,9 @@ En Learning Manager, cuando un alumno se inscribe a través de un programa de ap
 
 Por lo tanto, el alumno no puede buscar cursos independientes en **Mi aprendizaje**.
 
-Sin embargo, el alumno no puede ver los cursos dentro del programa de aprendizaje/certificación.
+Sin embargo, el alumno no puede ver los cursos en el programa de aprendizaje/certificación.
 
-## Escenario 2: el alumno no tiene acceso al catálogo que contiene el curso.
+## Escenario 2: El alumno no tiene acceso al catálogo que contiene el curso.
 
 ### Resumen
 
@@ -44,7 +44,7 @@ Este problema se produce si:
 * El alumno no forma parte del catálogo que contiene el curso, **O BIEN**
 * El curso no forma parte del catálogo al que tiene acceso el alumno.
 
-### Resolución
+### Solución
 
 1. Inicie sesión como administrador.
 
@@ -59,7 +59,7 @@ Este problema se produce si:
 
    * El alumno no forma parte del catálogo
 
-     Para compartir el catálogo, haga clic en **[!UICONTROL Agregar]** y agregue el grupo de usuarios del que el usuario forma parte. Haga clic en **[!UICONTROL Guardar]**.
+     Para compartir el catálogo, haga clic en **[!UICONTROL Agregar]** y añada el grupo de usuarios del que el usuario forma parte. Haga clic en **[!UICONTROL Guardar]**.
 
      ![](assets/cp-add-user-group.png)
 
