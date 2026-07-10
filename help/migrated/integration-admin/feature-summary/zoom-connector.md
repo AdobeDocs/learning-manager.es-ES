@@ -3,9 +3,9 @@ description: Aprenda a integrar el conector de Zoom con Adobe Learning Manager
 jcr-language: en_us
 title: Conector de Zoom
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -68,16 +68,18 @@ Para utilizar el conector de Zoom con Adobe Learning Manager, debe crear una apl
 
 ### Ámbitos de OAuth requeridos
 
-Al crear la aplicación en Zoom, asegúrese de que estén seleccionados los siguientes ámbitos:
+Al crear la aplicación en Zoom, asegúrese de que están seleccionados los siguientes ámbitos:
 
-| Descripción del ámbito | Ámbito de zoom |
+```
+| Scope Description | Zoom Scope |
 |---|---|
-| Ver todas las reuniones de usuarios | reunión:read:administrador |
-| Ver y administrar todas las reuniones de usuarios | reunión:write:administrador |
-| Ver datos del informe | report:read:admin |
-| Ver toda la información del usuario | usuario:read:administrador |
-| Administrar usuarios | usuario:write:administrador |
-| Agregar un registrante de la reunión | reunión:write:registrante:administrador |
-| Enumerar todos los inscritos de la reunión | reunión:read:list_registrants:admin |
-| Administrar reuniones de subcuentas | reunión:write:reunión:maestra |
-| Ver informe de participantes de la reunión | report:read:list_meeting_participants:admin |
+| View all user meetings | meeting:read:admin |
+| View and manage all user meetings | meeting:write:admin |
+| View report data | report:read:admin |
+| View all user information | user:read:admin |
+| Manage users | user:write:admin |
+| Add a meeting registrant | meeting:write:registrant:admin |
+| List all meeting registrants | meeting:read:list_registrants:admin |
+| Manage sub-account meetings | meeting:write:meeting:master |
+| View meeting participants report | report:read:list_meeting_participants:admin |
+```
