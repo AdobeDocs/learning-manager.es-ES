@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3756'
-ht-degree: 62%
+source-wordcount: '3793'
+ht-degree: 75%
 
 ---
 
@@ -21,8 +21,8 @@ El aprendizaje social permite a los alumnos estudiar desde cualquier lugar y com
 
 Si desea activar y configurar las opciones de Aprendizaje social, efectúe el procedimiento siguiente:
 
-1. En el panel de navegación de la izquierda, haga clic en **[!UICONTROL Aprendizaje social]**. Se le redirigirá a la página de actividad.
-1. Habilite la característica **[!UICONTROL Aprendizaje social]** con el botón **[!UICONTROL Habilitar]** en la página Actividad si la está activando por primera vez. De lo contrario, se puede habilitar desde la página **[!UICONTROL Settings]**.
+1. En el panel de navegación de la izquierda, haga clic en **[!UICONTROL Aprendizaje social]**. Se le redirige a la página de la actividad.
+1. Habilite la característica **[!UICONTROL Aprendizaje social]** con el botón **[!UICONTROL Habilitar]** en la página Actividad si la está activando por primera vez. Esta opción también se puede activar en la página **[!UICONTROL Configuración]**.
 
    Aparece un cuadro de diálogo similar a la captura de pantalla siguiente.
 
@@ -55,7 +55,7 @@ En las secciones de la tabla de posiciones de Social, un usuario puede ver a tod
 
 Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
 
-Si los usuarios especiales se convierten en expertos en la materia al obtener puntos suficientes, aparecerán en la lista de **[!UICONTROL expertos en la materia principal]** en la tabla de posiciones de las redes sociales.
+Si los usuarios especiales se convierten en expertos en la materia porque han obtenido puntos suficientes, aparecen en la lista **[!UICONTROL Principales expertos en la materia]** de la tabla de posiciones de Social.
 
 Para que el cambio surta efecto, espere 60 minutos.
 
@@ -71,15 +71,15 @@ Hay secciones independientes para activar usuarios internos y externos.
 
 **Activar para alumnos internos**
 
-En esta sección, puede elegir la característica de usuario para definir el ámbito de aprendizaje social para usuarios internos. Los usuarios con las mismas características **value** comparten el mismo espacio de aprendizaje social.
+En esta sección, puede elegir las características del usuario a fin de definir el ámbito del aprendizaje social para usuarios internos. Los usuarios con las mismas características **comparten** el mismo espacio de Aprendizaje social.
 
-En la lista desplegable **Característica de usuario**, elija la opción requerida.
+En la lista desplegable **Característica de usuario**, seleccione la opción pertinente.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Seleccione las características del usuario para definir el ámbito*
 
-De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** de la opción de la lista desplegable de características de usuario siempre está seleccionada.
+De forma predeterminada, la opción **[!UICONTROL Todos los usuarios internos]** de la lista desplegable Característica de usuario siempre está seleccionada.
 
 Puede elegir el ámbito de los usuarios internos en función de sus campos activos.
 
@@ -133,7 +133,7 @@ De forma predeterminada, la opción **[!UICONTROL Todos los alumnos]** está act
 
 **[!UICONTROL Todos los alumnos]:** Si elige esta opción, todos los usuarios internos y externos pueden crear tableros.
 
-**Un grupo de alumnos:** si elige esta opción, los usuarios con permiso para crear un tablero son los únicos que ven el vínculo **[!UICONTROL Crear un nuevo tablero]** en Aprendizaje social. Elija el grupo de usuarios al que se debe conceder permiso para crear un tablero. También puede añadir grupos de usuarios generados automáticamente y personalizados.
+**Un grupo de alumnos:** si elige esta opción, los usuarios con permiso para crear un tablero son los únicos que ven el vínculo **[!UICONTROL Crear un nuevo tablero]** en Aprendizaje social. Elija el grupo de usuarios al que se debe otorgar permiso para crear un tablero. También es posible añadir grupos de usuarios generados automáticamente o personalizados.
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
@@ -165,7 +165,7 @@ En las secciones de la tabla de posiciones de Social, un usuario puede ver a tod
 
 Si se le han otorgado privilegios de usuario especial, puede ver a todos los usuarios de la cuenta en su tabla de posiciones, sean cuales sean los ámbitos de los usuarios.
 
-Si los usuarios especiales se convierten en expertos en la materia al obtener puntos suficientes, aparecerán en la lista de **[!UICONTROL expertos en la materia principal]** en la tabla de posiciones de las redes sociales.
+Si los usuarios especiales se convierten en expertos en la materia porque han obtenido puntos suficientes, aparecen en la lista **[!UICONTROL Principales expertos en la materia]** de la tabla de posiciones de Social.
 
 Para que el cambio surta efecto, espere 60 minutos.
 
@@ -225,7 +225,7 @@ Un administrador puede habilitar la opción para revisar contenido automáticame
 
 Cuando un usuario carga contenido en un tablero, un algoritmo basado en inteligencia artificial extrae el texto del contenido y luego el texto se pasa al motor de revisión. El motor de revisión trata de encontrar las aptitudes presentes en el contenido.
 
-Las aptitudes previstas del contenido cargado se emparejan con las del tablero en el que se cargó el contenido.  Si alguna aptitud coincide con una puntuación de confianza de más del 50 % de la aptitud del tablero, el contenido se publica en el tablero. Si la puntuación de confianza es inferior al 50 %, el contenido se envía para revisión manual.
+Las aptitudes predichas del contenido cargado se combinan con las del tablero en el que se cargó el contenido.  Si alguna aptitud coincide con una puntuación de confianza de más del 50 % de la aptitud del tablero, el contenido se publica en el tablero. Si la puntuación de confianza es inferior al 50 %, el contenido se envía para revisión manual.
 
 Cada vez que se revisa automáticamente contenido, el usuario recibe una notificación de que el contenido está disponible en el tablero donde se cargó anteriormente.
 
@@ -241,13 +241,13 @@ Se recomienda que el administrador añada expertos en la materia para aptitudes 
 
 ## Preguntas frecuentes sobre la revisión automática de contenido {#faq-auto-curation}
 
-+++ ¿Cuánto tiempo tiene un experto en la materia para seleccionar una publicación?
++++¿Cuánto tiempo tiene un experto en la materia para revisar una publicación?
 
-Un experto en la materia dispone de un mínimo de 24 horas para revisar una publicación. Debido a las diferencias de zona horaria, puede aumentar a 47 horas.
+Un experto en la materia dispone de un mínimo de 24 horas para revisar una publicación. Debido a las diferencias en la zona horaria, este periodo puede aumentar a 47 horas.
 
 +++
 
-+++¿Pasa al siguiente conjunto de tres expertos en la materia si los tres están disponibles? ¿Siempre participan tres expertos en la materia?
++++¿Pasa al siguiente conjunto de tres expertos en la materia si los tres no están disponibles? ¿Siempre participan tres expertos en la materia?
 
 La solicitud de revisión pasa a máxima prioridad para los expertos en la materia el primer día. Si no responden, la solicitud pasa a los tres siguientes expertos en la materia al día siguiente.
 
@@ -257,17 +257,17 @@ Si los moderadores del tablero no responden, la solicitud se aprueba automática
 
 +++
 
-+++Si dos expertos en la materia realizan la revisión y uno no la realiza, ¿la solicitud pasa al cuarto experto o la solicitud obtiene el promedio de la valoración de la publicación correspondiente a la primera ronda de expertos en la materia?
++++Si dos expertos en la materia realizan la revisión y uno no, ¿la solicitud pasa a un cuarto experto o esta obtiene la valoración media que los expertos han concedido a la publicación en la primera ronda?
 
 Para aprobar la publicación, se requiere un porcentaje de aprobación del 50 %. Del mismo modo, se utiliza una tasa de rechazo del 50 % para denegar la publicación. En cada aprobación realizada por un experto en la materia, la evaluación se realiza si se ha alcanzado el 50 %.
 
 Si no se alcanza el 50 % después de un día, se envía al siguiente conjunto de expertos en la materia y caducan las solicitudes de revisión anteriores que no hayan recibido respuesta.
 
-Por ejemplo, el primer día, se envía la solicitud de revisión a tres expertos en la materia; uno de ellos la aprueba y dos de ellos no responden. Al día siguiente, la solicitud de revisión se envía al siguiente conjunto de tres expertos en la materia; en este nivel, hay cuatro expertos en la materia activos en total. Al menos dos expertos en la materia deben aprobarla para que la revisión obtenga el visto bueno.(En el caso de que dos la aprueben y dos la rechacen, se utilizará la valoración que primero alcance el 50 %).
+Por ejemplo, el primer día, se envía la solicitud de revisión a tres expertos en la materia; uno de ellos la aprueba y dos de ellos no responden. Al día siguiente, la solicitud de revisión se envía al siguiente conjunto de tres expertos en la materia; en este nivel, hay cuatro expertos en la materia activos en total. Al menos dos expertos en la materia deben aprobarla para que se apruebe la revisión. (En el caso de que dos la aprueben y dos la rechacen, se utilizará lo que primero alcance el 50 %).
 
 +++
 
-+++Según lo que veo, solo se asigna un &quot;moderador&quot; (y no es obligatorio) cuando alguien crea un nuevo tablero. ¿En qué casos un alumno puede asignar un &quot;moderador&quot; a un tablero si se van a asignar expertos en la materia a la aptitud a la que está asociado un tablero?
++++Según lo que veo, solo se asigna un &quot;moderador&quot; (y no es obligatorio) cuando alguien crea un nuevo tablero. ¿En qué circunstancias un alumno puede asignar un &quot;moderador&quot; a un tablero si se asignarán expertos en la materia a la aptitud a la que está asociada un tablero?
 
 A continuación se indican las responsabilidades de un moderador del tablero social:
 
@@ -278,7 +278,7 @@ A continuación se indican las responsabilidades de un moderador del tablero soc
 
 +++
 
-+++Nuestro equipo de formación añadirá/supervisará las aptitudes asociadas al nivel de aptitud, así como los expertos en la materia asignados a las aptitudes.
++++Nuestro equipo de formación agregará las aptitudes asociadas al nivel de aptitudes y las supervisará, así como los expertos en la materia asignado a las aptitudes.
 
 Los expertos en la materia se añaden o se asignan en función de la aptitud, no del nivel de aptitudes. Esto es como se ha diseñado.
 
@@ -292,7 +292,7 @@ Los expertos en la materia se añaden o se asignan en función de la aptitud, no
 
 +++
 
-+++Si hay dos o tres expertos en la materia asignados a una aptitud, ¿la aprobación o el rechazo de una publicación de Aprendizaje social dependen de la revisión de todos los expertos en la materia o de quién la realice primero?
++++Si hay dos o tres expertos en la materia asignados a una aptitud, ¿la aprobación o el rechazo de la publicación de aprendizaje social dependen de la revisión de todos los expertos o solo del que la realice primero?
 
 Para aprobar la publicación, se requiere un porcentaje de aprobación del 50 %. Del mismo modo, se utiliza una tasa de rechazo del 50 % para denegar la publicación. En cada aprobación realizada por un experto en la materia, la evaluación se realiza si se ha alcanzado el 50 %.
 
@@ -314,7 +314,7 @@ La primera pantalla proporciona al administrador la información siguiente relat
 
 1. **[!UICONTROL Nuevas publicaciones]**: muestra el número de publicaciones que se han creado en ese intervalo temporal. También se muestra el número total de publicaciones de todo el período.
 1. **[!UICONTROL Porcentaje de usuarios activos]**: muestra el porcentaje total de usuarios activos de Aprendizaje social en comparación con el número total de usuarios disponibles en la cuenta.
-1. **[!UICONTROL Nuevos tableros]**: muestra el número de nuevos tableros que se han creado. También se muestra el número total de tableros para todo el período.
+1. **[!UICONTROL Nuevos tableros]**: muestra la cantidad de tableros que se han creado. También se muestra el número total de tableros de todo el período.
 
 La segunda pantalla es un gráfico de líneas que muestra la tendencia del número de tableros o publicaciones que se han publicado durante el período de tiempo seleccionado en el filtro de fecha. Haga clic en el filtro para ver diferentes opciones de períodos de tiempo, por ejemplo los últimos siete días, el mes pasado, los últimos tres meses y todo el tiempo.
 
@@ -433,7 +433,7 @@ En función de las aptitudes utilizadas principalmente por los usuarios finales 
 
 ## Requisitos para ser experto en la materia {#requirementstobeansme}
 
-Solo se puede llegar a ser experto en la materia obteniendo puntos de experto en la materia mediante la realización de actividades en Aprendizaje social. El administrador puede otorgar puntos a una PYME en función de su experiencia en el nivel de aptitud.
+Solo se puede llegar a ser experto en la materia obteniendo puntos de experto en la materia mediante la realización de actividades en Aprendizaje social. El administrador puede otorgar puntos a un experto en la materia según su experiencia en el nivel de aptitud.
 
 ## Añadir expertos en la materia a una aptitud {#addingsmestoaskill}
 
@@ -463,7 +463,7 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 
 1. Al seleccionar la casilla de verificación **[!UICONTROL Habilitar puntos de EM mínimos]**, se puede establecer el mínimo de puntos que requiere un usuario para que aparezca como experto en la materia en la lista EM principales. Tras definir el mínimo, los expertos en la materia con puntuación igual o inferior a él no aparecen en las listas de expertos en la materia.
 
-   Si la casilla de verificación **[!UICONTROL Habilitar puntos mínimos de SME]** no está seleccionada, los tres usuarios principales con puntos más altos se consideran expertos en la materia para esa aptitud en particular.
+   Si la casilla de verificación **[!UICONTROL Habilitar puntos de EM mínimos]** no está seleccionada, los tres usuarios con más cantidad de puntos se consideran los expertos en la materia de esa aptitud concreta.
 
 1. Haga clic en el botón **[!UICONTROL Guardar]** para mostrar los cambios realizados.
 
@@ -484,11 +484,11 @@ Siga los pasos que se indican a continuación para añadir expertos en la materi
 
 ## Actividades sociales para el plan de facturación de usuarios activos mensuales {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Cada vez que un usuario crea un nuevo tablero social, publicación social o comentario social, se contaría como actividad válida para ser contada en el plan **Usuario de activación mensual**(MAU) si la cuenta sigue el modelo de facturación MAU. Para obtener más información, consulte [Gestión de la facturación](billing-management.md).
+Cada vez que un usuario crea un tablero, una publicación o un comentario social, se considera actividad válida que contabilizar respecto al plan de **usuarios activos mensuales** si la cuenta sigue el modelo de facturación de dicho plan. Para obtener más información, consulte [Gestión de la facturación](billing-management.md).
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo habilitar el aprendizaje social para alumnos externos
++++¿Cómo se puede habilitar el aprendizaje social para alumnos externos?
 
 En **[!UICONTROL Aprendizaje social]** > **[!UICONTROL Configuración]**, en la sección Configuración del ámbito, habilite la opción **[!UICONTROL Habilitar para alumnos externos]**. En el menú desplegable, seleccione un perfil externo y defina el ámbito de aprendizaje de ese perfil.
 

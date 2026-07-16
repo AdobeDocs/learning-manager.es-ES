@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 80%
+source-wordcount: '471'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 Configuración de notificaciones de usuario para responsables.
 
-La función Notificaciones es aplicable a todos los usuarios de Adobe Learning Manager 1.0. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones. Todas las alertas y notificaciones a los usuarios se muestran en cuadros de diálogo emergentes de notificaciones.
+La función Notificaciones se aplica a todos los usuarios de Adobe Learning Manager 1.0. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones. Todas las alertas y notificaciones a los usuarios se muestran en cuadros de diálogo emergentes de notificaciones.
 
 ## Notificaciones de acceso {#accessnotifications}
 
@@ -45,7 +45,7 @@ En la ventana Notificaciones, tal y como se muestra en la captura de pantalla an
 
 *Nominar alumnos a cursos*
 
-**Tipos de notificaciones para responsables** 
+**Tipos de notificaciones para responsables**
 
 Los responsables pueden obtener notificaciones cuando se activan los siguientes eventos:
 
