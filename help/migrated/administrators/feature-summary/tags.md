@@ -40,7 +40,7 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 1. Solo puede editar una etiqueta a la vez. Para editar una etiqueta, siga este paso:
 
-   * Seleccione la etiqueta que desea editar > abra el menú desplegable **[!UICONTROL Acciones]**y haga clic en **[!UICONTROL Editar]**.
+   * Seleccione la etiqueta que desea editar > abra el menú desplegable **[!UICONTROL Acciones]**&#x200B;y haga clic en **[!UICONTROL Editar]**.
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar etiqueta]**. Ingrese el nuevo nombre de la etiqueta y haga clic en **[!UICONTROL Guardar]**.
 
