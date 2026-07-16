@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
 source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 63%
+source-wordcount: '775'
+ht-degree: 71%
 
 ---
 
@@ -40,7 +40,7 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 1. Solo puede editar una etiqueta a la vez. Para editar una etiqueta, siga este paso:
 
-   * Seleccione la etiqueta que desea editar > abra el menú desplegable **[!UICONTROL Acciones]**&#x200B;y haga clic en **[!UICONTROL Editar]**.
+   * Seleccione la etiqueta que desea editar > abra el menú desplegable **[!UICONTROL Acciones]**y haga clic en **[!UICONTROL Editar]**.
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar etiqueta]**. Ingrese el nuevo nombre de la etiqueta y haga clic en **[!UICONTROL Guardar]**.
 
@@ -53,7 +53,7 @@ Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 1. En la opción **[!UICONTROL Nombre para etiquetas reemplazadas]**, ingrese el nombre de la nueva etiqueta con la que desea reemplazar las etiquetas seleccionadas. Puede reemplazarlas con una etiqueta existente en el menú desplegable o añadir una nueva etiqueta.
 
-   El punto y coma o la coma no pueden formar parte del nombre de la etiqueta.  Tenga en cuenta que las etiquetas sin punto y coma y la visualización de los mensajes de error mientras se utilizan dichas etiquetas como parte de algunos objetos de aprendizaje no formarán parte de escenarios de migración.
+   El nombre de una etiqueta no puede contener punto y coma ni coma.  Tenga en cuenta que las etiquetas sin punto y coma y la visualización de los mensajes de error mientras se utilizan dichas etiquetas como parte de algunos objetos de aprendizaje no formarán parte de escenarios de migración.
 
 1. Haga clic en **[!UICONTROL Reemplazar]**.
 
@@ -81,6 +81,6 @@ Como administrador, puede otorgar permiso al autor para crear etiquetas haciendo
 
   Aparece un mensaje de error que sugiere que la etiqueta seleccionada ya no es válida. Las nuevas etiquetas se crearán eliminando los caracteres no admitidos. En este caso, el autor debe poder ver que sus etiquetas antiguas cambien a etiquetas nuevas antes de guardarlas.
 
-* Si el usuario no tiene los permisos necesarios para crear etiquetas nuevas, aparecerá un mensaje de error que indica que la etiqueta seleccionada ya no es válida. Los autores pueden ponerse en contacto con los administradores para modificar las etiquetas inválidas.
+* Si el usuario no tiene permiso para crear etiquetas nuevas, aparece un mensaje de error que indica que la etiqueta seleccionada ya no es válida. Los autores pueden ponerse en contacto con los administradores para modificar las etiquetas inválidas.
 
-  Los autores no pueden crear ni guardar etiquetas no válidas. Pueden quitar las etiquetas no válidas y añadir cualquier otra etiqueta válida existente y continuar.
+  Los autores no pueden crear ni guardar etiquetas no válidas. Pueden eliminar etiquetas no válidas y añadir cualquier otra etiqueta válida existente y continuar.

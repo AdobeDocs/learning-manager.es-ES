@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
 source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 60%
+source-wordcount: '1640'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Para crear un plan de aprendizaje, debe iniciar sesión como administrador.
    ![](assets/add-learning-plandialog.png)
 
 1. En la lista desplegable **[!UICONTROL Se produce cuando]**, elija el evento requerido. Los administradores pueden añadir un evento cada vez.
-Las opciones determinan cuándo realiza el curso un alumno. Después de seleccionar el tipo de evento, seleccione la formación, los cursos, el programa de aprendizaje o la certificación correspondientes.
+Las opciones determinan cuándo realizará el curso un alumno. Después de seleccionar el tipo de evento, seleccione la formación, los cursos, el programa de aprendizaje o la certificación correspondientes.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Los eventos son:
 
 ![](assets/new-learner-is-added.png)
 
-**2 - El alumno se agrega a un grupo:** Cuando un usuario o empleado nuevo se une a un grupo.  Introduzca y seleccione el grupo de usuarios de la lista desplegable a la que se aplica este evento. Puede elegir varios grupos. Además, puede asignar este evento a todos los miembros de estos grupos seleccionando la opción.
+**2 - El alumno se agrega a un grupo:** Cuando un usuario o empleado nuevo se une a un grupo.  Indique y seleccione el grupo de usuarios en la lista desplegable a la que corresponde este evento. Puede elegir varios grupos. Además, puede asignar este evento a todos los miembros de estos grupos seleccionando la opción.
 
 ![](assets/learner-gets-addedtoagroup.png)
 
@@ -59,7 +59,7 @@ Este plan de aprendizaje se ha diseñado específicamente para usuarios de un **
 ![](assets/learner-removed-from-group.png)
 
 
-**4 - El alumno finaliza un curso/ruta de aprendizaje/certificación:** El evento se activa cuando un alumno completa cualquier objeto de aprendizaje, como un curso, un programa de aprendizaje, etc. Seleccione el objeto de aprendizaje al que corresponde este evento. Seleccione el estado de finalización para el evento. Si lo desea, también puede elegir el grupo de usuarios al que pertenece este alumno. Indique el número de días, después de completar el objeto de aprendizaje, en el que este evento se activa. Seleccione la opción si desea asignar este evento a los usuarios existentes que ya hayan completado este objeto de aprendizaje.
+**4 - El alumno finaliza un curso/ruta de aprendizaje/certificación:** El evento se activa cuando un alumno completa cualquier objeto de aprendizaje, como un curso, un programa de aprendizaje, etc. Seleccione el objeto de aprendizaje al que corresponde este evento. Seleccione el estado de finalización para el evento. Si lo desea, también puede elegir el grupo de usuarios al que pertenece este alumno. Indique el número de días, después de completar el objeto de aprendizaje, en el que este evento se activa. Seleccione la opción si desea asignar este evento a usuarios que ya completaron este objeto de aprendizaje.
 
 ![](assets/learner-completealearningobject.png)
 
@@ -95,14 +95,14 @@ Al añadir un plan de aprendizaje, un administrador puede dar de baja a los usua
 
 En la aplicación de administración, haz clic en **[!UICONTROL Planes de aprendizaje]** > **[!UICONTROL Agregar]**.
 
-Las siguientes secciones representan los desencadenadores en los que se ha agregado la opción **[!UICONTROL Dar de baja del curso de formación]**.
+Las siguientes secciones representan los activadores en los que se ha añadido la opción **[!UICONTROL Dar de baja del curso de formación]**.
 
 ![](assets/unenroll-courses.png)
 
 ## El alumno se elimina de un grupo {#learnergetsremovedfromagroup}
 
 1. Añada uno o más grupos de usuarios. En el caso de que se seleccionen varios grupos, el plan se activará cuando un alumno se elimine de cualquiera de los grupos mencionados.
-1. Elija la acción como **[!UICONTROL Dar de baja de formación]**.
+1. Elija la acción como **[!UICONTROL Dar de baja del curso de formación]**.
 
    1. El administrador puede elegir los cursos de formación de los que se dará de baja al usuario cuando se elimine de un grupo de usuarios.
    1. La fecha de instancia y finalización no será aplicable en este escenario.
@@ -112,7 +112,7 @@ Las siguientes secciones representan los desencadenadores en los que se ha agreg
 ## El alumno completa un curso de formación {#learnercompletesatraining}
 
 1. Añada uno o más grupos de usuarios. En el caso de que se seleccionen varios grupos, el plan se activará cuando un alumno complete el curso de formación especificado.
-1. Elija la acción como **[!UICONTROL Dar de baja de formación]**.
+1. Elija la acción como **[!UICONTROL Dar de baja del curso de formación]**.
 
    1. El administrador puede elegir los cursos de formación de los que se dará de baja al usuario cuando se añada a un grupo de usuarios.
    1. La fecha de instancia y finalización no será aplicable en este caso.
@@ -122,7 +122,7 @@ Las siguientes secciones representan los desencadenadores en los que se ha agreg
 ## El alumno ha suspendido un módulo de un curso.
 
 1. Añada uno o más grupos de usuarios. En el caso de que se seleccionen varios grupos, el plan se activará cuando un alumno suspenda el curso de formación especificado.
-1. Elija la acción como **[!UICONTROL Dar de baja de formación]**.
+1. Elija la acción como **[!UICONTROL Dar de baja del curso de formación]**.
 
    1. El administrador puede elegir los cursos de formación de los que se dará de baja al usuario cuando se añada a un grupo de usuarios.
    1. La fecha de instancia y finalización no será aplicable en este caso.
@@ -147,10 +147,10 @@ Las siguientes secciones representan los desencadenadores en los que se ha agreg
 ## En una fecha específica {#onaspecificdate}
 
 1. Elija la fecha en la que deben darse de baja los alumnos.
-1. Añada uno o más grupos de usuarios. En el caso de que se seleccionen varios grupos, el plan se activará en la fecha y se dará de baja a los usuarios que formen parte de los grupos seleccionados.
+1. Añada uno o más grupos de usuarios. En el caso de que se seleccionen varios grupos, el plan se activará en la fecha seleccionada y se dará de baja a los usuarios, que forman parte de los grupos seleccionados.
 1. Elija la acción como Dar de baja del curso de formación.
 
-   1. El administrador puede elegir los cursos de formación de los que se dará de baja al usuario cuando se dé de baja en la fecha especificada.
+   1. El administrador puede elegir los cursos de formación de los que se dará de baja al usuario al anularse la inscripción en la fecha especificada.
    1. La fecha de instancia y finalización no será aplicable en este caso.
 
 ![](assets/image047.png)
@@ -166,7 +166,7 @@ Después de crear un plan de aprendizaje, el administrador puede editar o actual
 
 ## Activar un plan de aprendizaje {#enablealearningplan}
 
-De forma predeterminada, todos los planes de aprendizaje recién creados estarán en estado desactivado. Debe habilitar un plan para que se asigne un alumno. Al habilitar la casilla de verificación **[!UICONTROL Alumnos actuales]**, el evento se habilita solo.
+De forma predeterminada, todos los planes de aprendizaje recién creados estarán en estado desactivado. Para poder asignar alumnos a un plan, debe activarlo. Al seleccionar la casilla de verificación **[!UICONTROL Alumnos actuales]**, se activa el evento.
 
 Para activar un plan de aprendizaje:
 
@@ -201,9 +201,9 @@ Puede filtrar planes de aprendizaje según el tipo de evento utilizado al crearl
 
 1. ¿Cómo configuro Learning Manager para configurar las inscripciones automáticas para la incorporación de nuevos empleados?
 
-   En la lista desplegable **[!UICONTROL Se produce cuando]**, elija la opción **[!UICONTROL Se agrega un nuevo alumno]**. A continuación, asigne los objetos de aprendizaje, la instancia y la fecha de finalización para el alumno. Tanto los administradores como los autores pueden crear eventos de inscripción automática. Active el evento después de crearlo.
+   En la lista desplegable **[!UICONTROL Se produce cuando]**, elija la opción **[!UICONTROL Se añade un nuevo alumno]**. A continuación, asigne los objetos de aprendizaje, la instancia y la fecha de finalización para el alumno. Tanto los administradores como los autores pueden crear eventos de inscripción automática. Active el evento después de crearlo.
 
-1. ¿Cómo configuro un plan de aprendizaje/inscripción automática para cursos de clase y clase virtual?
+1. ¿Cómo se configura un plan de aprendizaje/una inscripción automática para cursos de clase y aula virtual?
 
    Se recomienda configurar la instancia del curso con los datos de sesión necesarios. A continuación, configure un plan de aprendizaje y asígnelo a la instancia del curso, que ya se ha creado.
 

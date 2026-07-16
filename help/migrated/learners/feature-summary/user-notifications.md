@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '467'
+ht-degree: 80%
 
 ---
 
@@ -39,13 +39,13 @@ Los alumnos recibirán notificaciones push cada vez que incumplan la fecha lími
 
 ## Mostrar todas las notificaciones {#showallnotifications}
 
-Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente.
+Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de las notificaciones para ver todas las notificaciones en una página independiente.
 
 ![](assets/notifications-page.png)
 
 *Ver todas las notificaciones en una página independiente*
 
-**Tipos de notificaciones para alumnos** 
+**Tipos de notificaciones para alumnos**
 
 Los alumnos obtienen notificaciones cada vez que se activan los siguientes eventos:
 
@@ -61,7 +61,7 @@ Los alumnos obtienen notificaciones cada vez que se activan los siguientes event
 1. El alumno ha rechazado la nominación
 1. Para los cursos aprobados por el responsable, el responsable aprueba/rechaza una solicitud de inscripción en el curso
 1. La lista de espera del alumno se borra.
-1. El alumno se ha inscrito automáticamente en un curso, programa de aprendizaje o certificación
+1. El alumno se ha inscrito a un curso, programa de aprendizaje o certificación
 1. El alumno finaliza una certificación
 1. El responsable aprueba/rechaza el documento de prueba de finalización de la certificación cargado por el alumno
 1. Cuando la fecha límite para una instancia particular del curso se está acercando. (El administrador puede establecer la fecha en la que las notificaciones de recordatorio aparecen para el alumno).

@@ -4,20 +4,19 @@ title: Preguntas más frecuentes para alumnos
 description: Preguntas más frecuentes para alumnos de Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
+source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 55%
+source-wordcount: '2402'
+ht-degree: 78%
 
 ---
 
-
-
 # Preguntas más frecuentes para alumnos
 
-+++¿Cómo me inscribo para una oferta de curso?
++++¿Cómo me puedo inscribir para la oferta de un curso?
 
-El catálogo de cursos muestra todos los cursos para los que puede optar. Si el responsable le asigna cursos, recibirá una notificación con una opción para aceptar o rechazar el curso.
+El catálogo de cursos muestra todos los cursos entre los que puede optar. Si el responsable le asigna cursos, recibirá una notificación con una opción para aceptar o rechazar el curso.
 
 Sin embargo, tiene la opción de seguir cualquiera de los cursos que aparecen en CATÁLOGO siguiendo los pasos que se indican a continuación:
 
@@ -28,7 +27,7 @@ Sin embargo, tiene la opción de seguir cualquiera de los cursos que aparecen en
 
 +++
 
-+++¿Puedo consumir un curso cuando estoy sin conexión?
++++¿Puedo utilizar un curso sin conexión?
 
 Sí, puede acceder al contenido sin conexión a través de las fichas de iPad, Android y Smartphones.
 
@@ -38,7 +37,7 @@ Para obtener más información sobre el acceso sin conexión, consulte la funci�
 
 +++¿Cómo busco cursos?
 
-Puede buscar cualquiera de los objetos de aprendizaje utilizando el campo de búsqueda de texto libre en las pestañas Catálogo y Contenido de aprendizaje.
+Puede buscar cualquier objeto de aprendizaje mediante los campos de búsqueda de texto gratuitos en las fichas de contenido Catálogo y Aprendizaje.
 
 Haga clic en el campo de búsqueda. Puede buscar a medida que escribe en este campo. Consulte los resultados de búsqueda en la lista y escoja la opción adecuada para ver los resultados.
 
@@ -52,13 +51,13 @@ Para obtener más información, consulte la función [Tabla de posiciones](featu
 
 +++
 
-+++¿Qué es la eficacia de los cursos?
++++¿Cuál es la eficacia del curso?
 
 La eficacia del curso se evalúa con el fin de comprender la utilidad de un curso para el alumno. Se calcula a partir de comentarios recibidos por el número de usuarios para un curso concreto. Si el porcentaje de alumnos que ofrecen comentarios es alto, la clasificación de la eficacia del curso es alta.
 
 Se trata de una combinación de los resultados de los comentarios de los alumnos sobre el contenido del curso, los resultados de las pruebas del curso de un alumno y los comentarios del responsable que evalúa a un alumno en función de lo aprendido en el curso.
 
-En la ficha Cursos, un alumno puede ver la clasificación de la eficacia del curso en las miniaturas del curso
+En la ficha Cursos, un alumno puede ver la clasificación de la eficacia del curso en las vistas en miniatura del curso.
 
 Para ver los detalles de la clasificación de la eficacia del curso, haga clic en el valor de eficacia del curso. Aparece una ventana emergente.
 
@@ -66,11 +65,11 @@ Haga clic en la flecha hacia abajo en la esquina inferior derecha de la ventana 
 
 +++
 
-+++¿Cuál es la diferencia entre aprendizaje y catálogo?
++++¿Cuál es la diferencia entre el Aprendizaje y el Catálogo?
 
-En la ficha Aprendizaje, puede ver todos los [cursos](feature-summary/courses.md), [programas de aprendizaje](feature-summary/learning-programs.md) y [certificaciones](feature-summary/certifications.md) que se le han asignado o en los que se ha inscrito. También puede ir a la ficha Aprendizaje haciendo clic en el vínculo Ir a Aprendizaje.
+En la ficha Aprendizaje, puede ver todos los [cursos](feature-summary/courses.md), [programas de aprendizaje](feature-summary/learning-programs.md) y [certificaciones](feature-summary/certifications.md) que se le han asignado o en los que se ha inscrito. También puede dirigirse hacia la ficha Aprendizaje si hace clic en el vínculo Ir a Aprendizaje.
 
-En la ficha Catálogo, puede ver todos los cursos, los programas de aprendizaje y las certificaciones disponibles para su función en la cuenta de la empresa. También puede ir a la ficha Catálogo si hace clic en el vínculo Ir al catálogo.
+En la ficha Catálogo, puede ver todos los cursos, los programas de aprendizaje y las certificaciones disponibles para su función en la cuenta de la empresa. También puede dirigirse hacia la ficha Catálogo si hace clic en el vínculo Ir al catálogo.
 
 +++
 
@@ -78,17 +77,17 @@ En la ficha Catálogo, puede ver todos los cursos, los programas de aprendizaje 
 
 En esta sección, podrá ver las alertas de todos los cursos, las certificaciones y los programas de aprendizaje en orden ascendente de las fechas límite. Las fechas límite en cada una de sus actividades de aprendizaje se muestran en el panel izquierdo.
 
-Haga clic en cada objeto de aprendizaje para ver la información correspondiente en el panel derecho. Puede hacer clic en el icono del curso/programa de aprendizaje/certificación para ver la información completa de cada objeto de aprendizaje.
+Haga clic en cada objeto de aprendizaje para ver la información correspondiente en el panel derecho. Puede hacer clic en el icono del curso, del programa de aprendizaje o de la certificación para ver la información completa de cada objeto de aprendizaje.
 
 Deslice el ratón sobre el área de la línea de tiempo para ver la barra de desplazamiento del lado derecho. Utilice la barra de desplazamiento para ir hacia arriba o hacia abajo y ver más alertas.
 
 +++
 
-+++¿Qué es un mapa de habilidades?
++++¿Qué es un mapa de aptitudes?
 
 El mapa de aptitudes es un grupo de conjuntos de conocimiento y características de aptitudes de un empleado en una empresa. Estos mapas de aptitudes ayudan a las empresas/organizaciones a establecer o mejorar las expectativas de rendimiento para sus empleados. Las aptitudes permiten a los empleados alinear los comportamientos con las expectativas de la empresa.
 
-Cuando los alumnos completan algunos cursos, pueden saber su posición respecto a cada aptitud mediante la visualización de los mapas de aptitudes.
+Cuando los alumnos completan algunos de los cursos, pueden saber su posición respecto de cada aptitud mirando el mapa de aptitudes.
 
 ## Ver mapas de aptitudes
 
@@ -98,7 +97,7 @@ Para obtener más información, consulte la función [Aptitudes y niveles](featu
 
 +++
 
-+++¿Puedo acceder a Learning Manager a través de un smartphone?
++++¿Puedo acceder a Learning Manager con un smartphone?
 
 Sí, puedes acceder a Learning Manager desde smartphones, iPad o cualquier otra tableta Android.
 
@@ -106,7 +105,7 @@ Para obtener más información sobre esta función, consulte [Usuarios de aplica
 
 +++
 
-+++¿Puedo acceder a Learning Manager en iPad?
++++¿Puedo acceder a Learning Manager en un iPad?
 
 Sí, puede acceder a Learning Manager mediante un iPad. Puede descargar la aplicación desde App Store o Google Play.
 
@@ -114,35 +113,35 @@ Solo es posible acceder a las funciones de los alumnos mediante una tableta iPad
 
 +++
 
-+++No se puede iniciar sesión en el Administrador de aprendizaje. ¿Qué debo hacer?
++++No se puede iniciar sesión en Learning Manager. ¿Qué debo hacer?
 
 Si ya tiene un Adobe ID, puede iniciar sesión en Learning Manager. Siga las instrucciones de la función [inicio de sesión del usuario](feature-summary/user-login.md) para obtener más información sobre cómo iniciar sesión en la aplicación. Si el problema persiste, contacte con el equipo de asistencia.
 
 +++
 
-+++Cómo alcanzar un nivel de aptitud?
++++¿Cómo adquiero un nivel de aptitud?
 
 Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre aptitudes y niveles, consulte la función [aptitudes y niveles](feature-summary/skills-levels.md).
 
 +++
 
-+++ ¿Dónde puedo ver el historial o los informes de todos mis aprendizajes?
++++¿Dónde puedo ver el historial o los informes de todos mis aprendizajes?
 
-Puede ver el historial de todos sus aprendizajes en la página principal. Haga clic en la ficha Aprendizaje y, en cada una de las fichas Cursos, Programas y Certificaciones, puede elegir Completado para ver la lista de todos los aprendizajes completados.
+Puede ver el historial de todos sus aprendizajes en la página principal. Haga clic en la ficha Aprendizaje, y, en cada una de las fichas de Cursos, Programas y Certificaciones, puede seleccionar Completados para ver la lista de todos los aprendizajes que ha completado.
 
 +++
 
-+++¿Puedo expresar mi interés en un curso?
++++¿Puedo expresar interés en un curso?
 
 Puede expresar interés en unirse a cualquier curso de la clase para el que no tenga sesiones planificadas. Recibirá notificaciones cuando la sesión del curso comience a unirse al curso.
 
 +++
 
-+++¿Cuál es la diferencia entre créditos y puntos de interacción?
++++¿Cuál es la diferencia entre los créditos y los puntos de interacción?
 
 Se adquieren créditos siempre que se adquiere un nuevo nivel de aptitud. Los créditos se asocian a los niveles de aptitudes. Para obtener más información sobre créditos, aptitudes y niveles, consulte la función [aptitudes y niveles](feature-summary/skills-levels.md).
 
-Se obtienen puntos de interacción cada vez que se completa una tarea. Actualmente, hay seis tareas de interacción disponibles en Learning Manager. Al finalizar cada tarea, adquiere un número específico de puntos asociados a ella. Para obtener más información, consulte la característica [interacción](feature-summary/gamification.md).
+Se obtienen puntos de interacción cuando se completa una tarea. En la actualidad, Learning Manager dispone de seis tareas de interacción. Al finalizar cada tarea, obtiene un número concreto de puntos asociados a esta tarea. Para obtener más información, consulte la característica [interacción](feature-summary/gamification.md).
 
 +++
 
@@ -160,7 +159,7 @@ Para obtener más información, consulte la característica [insignias](feature-
 
 +++¿Qué es un programa de aprendizaje?
 
-Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente que cumplen objetivos específicos del alumno. Solo los administradores pueden crear programas de aprendizaje para los alumnos. Cuando un administrador asigna una instancia de programa de aprendizaje a alumnos, estos ven ese **programa &#x200B;** en la ficha Programas. Además, los alumnos pueden ver todo tipo de programas de aprendizaje de inscripción propia e inscribirse en ellos.
+Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente que cumplen objetivos específicos del alumno. Solo los administradores pueden crear programas de aprendizaje para los alumnos. Cuando un administrador asigna una instancia de programa de aprendizaje a alumnos, estos ven ese **programa **en la ficha Programas. Además, los alumnos pueden ver todo tipo de programas de aprendizaje de inscripción propia e inscribirse en ellos.
 
 Para comenzar a realizar el programa de aprendizaje, haga clic en el programa que se le asignó. Puede ver información detallada de ese programa concreto.
 
@@ -168,7 +167,7 @@ Aparece el botón **Iniciar programa** en la esquina superior derecha de la pág
 
 +++
 
-+++¿Cómo consigo puntos (interacción)?
++++¿Cómo gano puntos (interacción)?
 
 Al completar cada curso, recibirá puntos en línea.
 
@@ -179,13 +178,13 @@ Según los puntos que haya obtenido al completar los cursos, se le recompensará
 1. 3500 puntos: nivel Gold
 1. 5000 puntos: nivel Platinum
 
-Puede ver sus puntos de nivel actuales en su perfil y fijarlos como objetivo para conseguir puntos más altos, si es necesario.
+Puede ver los puntos de nivel actuales en su perfil y tratar de conseguir más puntos, si es necesario.
 
 Consulte [Función de interacción](feature-summary/gamification.md) para obtener más información.
 
 +++
 
-+++¿Puedo reproducir mi contenido de formación a pantalla completa?
++++¿Puedo reproducir mi contenido de aprendizaje a pantalla completa?
 
 Todos los cursos de Learning Manager se reproducen en navegadores. Puede ver los cursos a pantalla completa con el reproductor Fluidic de Learning Manager.
 
@@ -204,7 +203,7 @@ Sí, puede exportar el contenido de notas como PDF, siguiendo estos pasos:
 
 +++
 
-+++¿Ofrece Learning Manager una experiencia personalizada a los alumnos?
++++¿Learning Manager ofrece una experiencia personalizada a los alumnos?
 
 En Learning Manager, tiene la opción de marcar el contenido para poder verlo más tarde.
 
@@ -213,7 +212,7 @@ Haga clic en el icono de cinta junto a los nombres de temas enumerados para marc
 Para tomar notas cuando lee el contenido de un curso, siga estos pasos:
 
 1. Haga clic en el icono del curso que desea realizar.
-1. En la parte inferior de la pantalla del reproductor del curso, haga clic en el icono Notas para abrir la sección Notas.
+1. En la parte inferior de la pantalla del reproductor del curso, haga clic en el icono Notes para abrir la sección Notas.
 1. Añada las notas y haga clic en Añadir. Se guardan las notas.
 
 >[!NOTE]
@@ -227,24 +226,24 @@ Tiene la opción de descargar o enviar por correo electrónico sus notas del cur
 1. Haga clic en el icono del curso para el cual desea ver las notas.
 1. Haga clic en la ficha **Notas** junto a la ficha **Módulos**.
 
-1. Haz clic en **[!UICONTROL Descargar notas]** para descargarlas como PDF.
-1. Haga clic en **[!UICONTROL Enviar notas por correo electrónico]** para recibir las notas en un correo electrónico a su cuenta de correo electrónico.
+1. Haga clic en **[!UICONTROL Descargar notas]** para descargar las notas como PDF.
+1. Haga clic en **[!UICONTROL Enviar notas por correo electrónico]** para recibir las notas en un mensaje enviado a su cuenta de correo electrónico.
 
 +++
 
-+++¿Puedo añadir mis cursos de formación autonotificados a Learning Manager? ¿Cómo lo hago?
++++¿Puedo añadir mi formación propia a Learning Manager? ¿Cómo lo hago?
 
-Actualmente, no se admite esta función en Learning Manager 1.0. Sin embargo, existe la opción de realizar certificaciones externas. El administrador de su organización le asigna estas certificaciones externas. Contacte con su responsable para inscribirse en certificaciones externas.
+Actualmente, no se admite esta función en Learning Manager 1.0. Sin embargo, existe una disposición para aceptar certificaciones externas. El administrador de su organización le asigna estas certificaciones externas. Contacte con su responsable para inscribirse en certificaciones externas.
 
 +++
 
-+++¿Puedo ver la lista de cursos en función de mi ruta de aprendizaje?
++++¿Puedo ver la lista de cursos basados en mi programa de formación?
 
 Actualmente, esta función no está disponible.
 
 +++
 
-+++¿Cómo puedo proporcionar evaluación o comentarios sobre los cursos?
++++¿Cómo puedo enviar una evaluación o comentarios sobre los cursos?
 
 Recibirá notificaciones sobre la finalización del curso junto con un vínculo para proporcionar comentarios.
 
@@ -255,7 +254,7 @@ Recibirá notificaciones sobre la finalización del curso junto con un vínculo 
 
 +++
 
-+++¿Cómo obtengo mis certificados?
++++¿Cómo puedo obtener mis certificados?
 
 Como parte de la recompensa y el reconocimiento de los logros de los alumnos, Learning Manager introduce insignias en línea para los alumnos. Las insignias se otorgan en función de un criterio establecido y, a continuación, se muestran en el perfil de un alumno en la parte superior de la página de inicio del alumno.
 
@@ -263,13 +262,13 @@ Consulte [Certificaciones feature](feature-summary/certifications.md) para obten
 
 +++
 
-+++¿Cómo puedo ver e imprimir transcripciones de los cursos de formación?
++++¿Cómo veo e imprimo las transcripciones de los cursos de formación?
 
 Actualmente, no se proporcionan transcripciones de los cursos de formación en Learning Manager 1.0.
 
 +++
 
-+++¿Cómo cancelo un curso en el que me he inscrito?
++++¿Cómo puedo cancelar un curso en el que me he inscrito?
 
 Puede rechazar un curso asignado por su responsable; para ello, haga clic en Rechazar en la ventana Notificaciones.
 
@@ -285,7 +284,7 @@ Su responsable también se comunica con usted a través del correo electrónico.
 
 +++
 
-+++¿Recibo notificaciones y recordatorios de MIS CURSOS?
++++¿Puedo obtener notificaciones y recordatorios para MIS CURSOS?
 
 Sí, puede verlos si hace clic en el icono de notificaciones en la esquina superior derecha de la ventana.
 
@@ -293,7 +292,7 @@ La ventana emergente de notificación aparece.
 
 +++
 
-+++¿Cómo busco cursos y programas de aprendizaje?
++++¿Cómo busco cursos y el programa de aprendizaje?
 
 Puede buscar cursos de dos formas:
 
@@ -317,7 +316,7 @@ En función de lo que escoja, puede ver la lista filtrada de cursos y escoger se
 
 Además de los cursos de clase, los otros tres tipos de cursos (mixto, con ritmo personalizado y de clase virtual) disponibles en Learning Manager se pueden considerar cursos en línea.
 
-En ocasiones, se le inscribirá automáticamente para la formación. Estos cursos aparecerán en la ficha CURSOS. Puede buscar el curso que desea realizar y, a continuación, hacer clic en el botón Explorar e inscribirse en la página.
+En ocasiones, se le inscribirá automáticamente para la formación. Estos cursos aparecerán en la ficha CURSOS. Puede buscar el curso que desee realizar y, a continuación, hacer clic en Explorar y en el botón Inscribirme en la página.
 
 >[!NOTE]
 >
@@ -337,7 +336,7 @@ El aprendizaje mixto es un enfoque hacia el aprendizaje y la enseñanza que comb
 
 +++
 
-+++¿Qué es el módulo de ritmo personalizado?
++++¿Qué es el módulo con ritmo personalizado?
 
 En este módulo, los alumnos pueden comenzar y completar un módulo de curso según su propia programación a su propio ritmo. Esto incluye, por ejemplo, vídeos, archivos de audio y conferencias previas a la clase.
 
@@ -354,7 +353,7 @@ Sí, puede exportar el contenido de notas como PDF, siguiendo estos pasos:
 
 +++
 
-+++ ¿Dónde puedo descargar la versión de escritorio de la aplicación?
++++¿Dónde puedo descargar la versión de escritorio de la aplicación? 
 
 Siga los pasos que se indican a continuación para descargar la versión de escritorio:
 
@@ -365,4 +364,3 @@ Siga los pasos que se indican a continuación para descargar la versión de escr
 Esto iniciará la descarga de la aplicación.
 
 +++
-

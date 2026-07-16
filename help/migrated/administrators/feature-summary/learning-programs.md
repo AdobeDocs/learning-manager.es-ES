@@ -7,8 +7,8 @@ preview: true
 exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 75%
+source-wordcount: '1491'
+ht-degree: 87%
 
 ---
 
@@ -38,7 +38,7 @@ Los administradores pueden crear programas de aprendizaje. Para crear un program
 
    **Nota**
 
-   Se pueden añadir todos los tipos de cursos a un programa de aprendizaje. Entre ellos se incluyen cursos de clase y de clase virtual, cursos de actividad, cursos con ritmo personalizado y cursos mixtos. Los cursos con nominación de responsable y aprobados por responsable no aparecen durante la selección de cursos en los programas de aprendizaje.
+   Se pueden añadir todos los tipos de cursos a un programa de aprendizaje. Pueden ser cursos de clases reales y virtuales, actividades, con ritmo personalizado y mixtos. Los cursos con nominación de responsable y aprobados por responsable no aparecen durante la selección de cursos en los programas de aprendizaje.
 
 1. Debe añadir cursos al programa de aprendizaje antes de publicarlo. Haga clic en la ficha **[!UICONTROL Catálogo]** para asociar cursos al programa de aprendizaje. Se muestra una lista con todos los cursos disponibles.
 
@@ -73,7 +73,7 @@ A continuación, en la lista desplegable **[!UICONTROL Acciones]**, haga clic en
 
 Los alumnos pueden iniciar ahora los módulos de los cursos seleccionados desde el principio.
 
-**Nota: solo se restablecerán los módulos erróneos e incompletos del curso.**
+**Nota: Solo se restablecerán los módulos incorrectos e incompletos del curso.**
 
 ## Crear varias instancias de programas de aprendizaje {#createmultipleinstancesoflearningprograms}
 
@@ -96,7 +96,7 @@ Para cambiar la asignación de instancias, haga clic en el recuento de cursos en
 
 ## Crear programas de aprendizaje flexibles {#flexible}
 
-Con los programas de aprendizaje flexibles, los alumnos pueden realizar cursos de formación que no se limiten a lo que ofrece la instancia predeterminada. Un administrador crea diferentes instancias para adaptarse a las necesidades de los alumnos. Este tipo de programa de aprendizaje suele ser una sesión de clase o clase virtual. Para garantizar que todos los alumnos tengan la oportunidad de asistir, un administrador puede crear más de una instancia de una sesión de un curso para adaptarse a diferentes zonas horarias.
+Con los programas de aprendizaje flexibles, los alumnos pueden realizar cursos de formación que estén limitados a la oferta de la instancia predeterminada. Un administrador crea diferentes instancias para adaptarse a las necesidades de los alumnos. Este tipo de programa de aprendizaje suele ser una sesión de clase o de clase virtual. Para asegurarse de que todos los alumnos tengan la oportunidad de asistir, un administrador puede crear más de una instancia de una sesión de un curso para incluir diferentes zonas horarias.
 
 El administrador también puede asignar una instancia de un programa de aprendizaje a una instancia de un curso que el alumno seleccione.
 
@@ -126,7 +126,7 @@ Elija el tipo de instancia de la lista desplegable para ver las puntuaciones seg
 
 ## Ver comentarios de L1 y L3 {#viewl1andl3feedback}
 
-Como administrador, puede habilitar los comentarios de L1 y L3 para un programa de aprendizaje. Los comentarios de L1 proporcionados por el alumno estarán visibles en la ficha Comentarios de L1, mientras que los comentarios de L3 proporcionados por el responsable se mostrarán en la ficha Comentarios de L3.
+Como administrador, puede habilitar los comentarios de L1 y L3 para un programa de aprendizaje. Los comentarios de L1 proporcionados por el alumno estarán visibles en la ficha Comentarios de L1. Los comentarios de L3 proporcionados por el responsable aparecerán en la ficha Comentarios de L3.
 
 ## Dar de baja alumnos {#unenrollmentforlearners}
 
@@ -164,6 +164,6 @@ Para actualizar el orden de los cursos en un programa de aprendizaje:
 
 Un administrador puede editar un programa de aprendizaje en un estado publicado. En este estado, el administrador puede editar todas las secciones de un programa de aprendizaje y volver a publicar.
 
-Para editar un programa de aprendizaje publicado, haga clic en la tarjeta del programa de aprendizaje y haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
+Para editar un programa de aprendizaje publicado, haga clic en la tarjeta del curso y haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
 
 Al editar las secciones de un programa de aprendizaje, si tiene que salir de la página, debe volver a publicar el programa de aprendizaje. Aparece un cuadro de diálogo de confirmación que le solicita volver a publicar el programa de aprendizaje.

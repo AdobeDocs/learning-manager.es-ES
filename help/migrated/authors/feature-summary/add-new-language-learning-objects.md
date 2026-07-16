@@ -6,7 +6,7 @@ contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
 source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '644'
 ht-degree: 28%
 
 ---
@@ -35,7 +35,7 @@ Vuelva a publicar su curso para que los cambios surtan efecto.
 
 ## Compatibilidad con varios idiomas para instancias de clase real y virtual con etiquetado de idioma
 
-Adobe Learning Manager (ALM) permite a los autores crear instancias específicas del idioma mediante el etiquetado de idioma para los módulos Clase y Clase virtual. Esta función permite a los alumnos acceder a los módulos de clase real y virtual en el idioma que prefieran. Por ejemplo, un autor puede crear un módulo de clase real y virtual con dos instancias: una en inglés y otra en francés. Los alumnos pueden seleccionar las instancias en su idioma preferido.
+Adobe Learning Manager (ALM) permite a los autores crear instancias específicas del idioma mediante el etiquetado de idioma para los módulos Clase y Clase virtual. Esta función permite a los alumnos acceder a los módulos de clase real y virtual en el idioma que prefieran. Por ejemplo, un autor puede crear un módulo de clase real o virtual con dos instancias: uno en inglés y otro en francés. Los alumnos pueden seleccionar las instancias en su idioma preferido.
 
 ### Flujo de trabajo
 

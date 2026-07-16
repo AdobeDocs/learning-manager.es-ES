@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Notificaciones
-description: La función Notificaciones es aplicable a todos los usuarios de Adobe Learning Manager. Sin embargo, cada usuario, según su función, recibe distintos tipos de notificaciones en distintos escenarios.
+description: La función Notificaciones es aplicable a todos los usuarios de Adobe Learning Manager. Sin embargo, según la función de cada usuario, se obtienen distintos tipos de notificaciones en diferentes situaciones.
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 66%
+source-wordcount: '740'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ La función Notificaciones es aplicable a todos los usuarios de Adobe Learning M
 
 ## Notificaciones de acceso {#accessnotifications}
 
-Los usuarios pueden ver las notificaciones si hacen clic en el icono de notificaciones en la esquina superior derecha de la ventana. Este cuadro de diálogo emergente muestra resaltadas todas las notificaciones junto con la hora en que se produjeron con una barra de desplazamiento. Para ver más información sobre todas las notificaciones, haga clic en Mostrar todas las notificaciones en la parte inferior del cuadro de diálogo emergente. Aparece la página de notificaciones.
+Los usuarios pueden ver las notificaciones si hacen clic en el icono de notificaciones en la esquina superior derecha de la ventana. Este cuadro de diálogo emergente muestra resaltadas todas las notificaciones junto con la hora de envío y una barra de desplazamiento. Para ver más información sobre todas las notificaciones, haga clic en Mostrar todas las notificaciones en la parte inferior del cuadro de diálogo emergente. Aparece la página de notificaciones.
 
 Puede saber la cantidad de notificaciones más recientes según el número resaltado en el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número 5 aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
 
@@ -39,13 +39,13 @@ En la siguiente captura de pantalla se muestra un ejemplo de ventana de notifica
 
 *Ver notificaciones del administrador*
 
-Esta ventana emergente muestra resaltadas todas las notificaciones junto con la hora de aparición y una barra de desplazamiento. Puede obtener la cantidad de notificaciones más recientes según el número resaltado en el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número 5 aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
+Esta ventana emergente muestra resaltadas todas las notificaciones junto con la hora de envío y una barra de desplazamiento. Puede obtener la cantidad de notificaciones más recientes según el número resaltado en el icono de notificaciones. Por ejemplo, si tiene cinco notificaciones recientes después del inicio de sesión anterior, puede ver que el número 5 aparece en el icono de notificaciones. Estos números desaparecen cuando lee todas las notificaciones recientes.
 
-Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de notificaciones para ver todas las notificaciones en una página independiente. En la página notificaciones, puede ver lo siguiente:
+Haga clic en el vínculo **[!UICONTROL Mostrar todas las notificaciones]** en la parte inferior de la ventana emergente de las notificaciones para ver todas las notificaciones en una página independiente. En la página notificaciones, puede ver lo siguiente:
 
-* **Todas las notificaciones**: Vea todas las notificaciones aquí
+* **Todas las notificaciones**: Ver todas las notificaciones aquí
 * **Pendiente**: Ver notificaciones pendientes aquí
-* **Discusión**: Busque cursos para ver las discusiones que tienen lugar.
+* **Discusión**: Busque cursos para ver los debates que tienen lugar.
 
 ## Configuración de notificaciones de escalación multinivel {#setupmultilevelescalationnotifications}
 
@@ -90,7 +90,7 @@ Los correos electrónicos de escalación cuando los alumnos no cumplen los plazo
 
 ## Preguntas más frecuentes {#frequentlyaskedquestions}
 
-+++Cómo configurar notificaciones de recordatorio en la instancia?
++++¿Cómo se configuran las notificaciones de recordatorio en la instancia?
 
 En una instancia, haga clic en Alertas de notificación. Se abre un calendario que indica el plazo establecido para el curso resaltado en rojo. Haga clic en la fecha resaltada para ver los recordatorios configurados para el alumno. Establezca los recordatorios, como se describe en este [sección](user-notifications.md#Setupmultilevelescalationnotifications).
 +++

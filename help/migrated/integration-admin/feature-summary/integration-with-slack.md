@@ -5,8 +5,8 @@ description: Integración de Learning Manager con Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,7 @@ La aplicación de Learning Manager para Slack no es compatible con una instancia
 
 ## Instalación de la aplicación Adobe Learning Manager {#installingadobecaptivateprimeapp}
 
-Como alumno, puede instalar la aplicación CP Prime en su cuenta de Slack. Para instalar la aplicación, en su cuenta Slack abra el Directorio de aplicaciones y busque Learning Manager. Descargue e instale la aplicación. Si la aplicación no está aprobada en su cuenta, póngase en contacto con el administrador de integración para obtener la aprobación. Si ya está aprobada, podrá iniciar sesión.
+Como alumno, puede instalar la aplicación CP Prime en su cuenta de Slack. Para instalar la aplicación, en su cuenta Slack abra el Directorio de aplicaciones y busque Learning Manager. Descargue e instale la aplicación. Si la aplicación no está aprobada en su cuenta, comuníquese con su administrador de integración para obtener la aprobación. Si ya está aprobada, podrá iniciar sesión.
 
 ## Aprobar el inicio de sesión de alumnos como administrador de integración {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ Como administrador de integración, para aprobar el permiso de un alumno para ut
 
    ![](assets/approval.png)
 
-1. Vuelva a la página **[!UICONTROL Aplicaciones]**. Una vez aprobado, el Slack debe aparecer en la pestaña **[!UICONTROL Aplicaciones externas]**.
+1. Vuelva a la página **[!UICONTROL Aplicaciones]**. Después de la aprobación, Slack debe aparecer en la ficha **[!UICONTROL Aplicaciones externas]**.
 1. Los alumnos podrán iniciar sesión en su cuenta de Prime con Slack.
 
 ## Funcionalidades de Primebot {#primebotfunctionalities}
