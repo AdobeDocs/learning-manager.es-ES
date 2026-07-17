@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
+source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
 workflow-type: tm+mt
-source-wordcount: '30524'
-ht-degree: 73%
+source-wordcount: '30900'
+ht-degree: 72%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 73%
  </tbody>
 </table>
 -->
+
++++Actualización 109: Versión de julio de 2026 de Adobe Learning Manager
+
+Fecha de publicación: 16 de julio de 2026
+
+## Errores corregidos
+
+**Plantillas de correo electrónico:** correos electrónicos de recordatorio para próximas sesiones se enviaron sin información de fecha y hora de sesión para los alumnos inscritos en instancias de curso. Este problema se ha solucionado para rellenar correctamente los detalles de programación de sesiones en la plantilla de correo electrónico. Los alumnos ahora reciben correos electrónicos de recordatorio de la próxima sesión, que incluyen la fecha y hora de la sesión relevante, y que proporcionan información completa sobre la programación.
+
+**Conectores:** Los autores encontraron errores HTTP 400 de forma intermitente al duplicar o editar cursos de clase virtual o clase basada en conectores. Una vez activado, el problema persistió y bloqueó las acciones de creación o edición de cursos posteriores hasta que se actualizó la sesión. Este problema se ha solucionado para garantizar la duplicación y edición fiables de los cursos basados en conectores. Los autores ahora pueden duplicar, crear y modificar cursos de clase o clase virtual sin encontrarse con errores recurrentes de 400.
+
+**Codificación de solicitud de API de CMS:** Un flujo de trabajo de plataforma automatizado generaba solicitudes de descarga repetidas a la API HTTP de CMS con direcciones URL codificadas incorrectamente, lo que provocaba errores intermitentes de HTTP 500 y, a veces, miles de solicitudes no válidas por segundo. Se ha corregido la lógica de codificación de URL para garantizar que las rutas de recursos que contienen caracteres especiales, como espacios, se codifican correctamente antes de enviar solicitudes. Las solicitudes de descarga a NetStorage ahora se ejecutan correctamente, lo que elimina los errores recurrentes de la API y los picos de solicitudes.
+
+**Resistencia del flujo de trabajo de traducción:** Error en las solicitudes de traducción de inglés a noruego Bokmal porque el servicio de traducción subyacente no admite el par de idiomas, por lo que se interrumpe todo el flujo de trabajo de traducción. La lógica de gestión de traducciones se ha mejorado para gestionar con facilidad los pares de idiomas no admitidos y aislar los errores de traducción individuales. Las solicitudes de traducción para los idiomas no admitidos ahora se omiten y se notifican correctamente, mientras que las traducciones para todos los idiomas de destino admitidos restantes siguen procesándose correctamente.
+
++++
 
 +++Actualización 108: Versión de junio de 2026 de Adobe Learning Manager
 
@@ -335,7 +351,7 @@ Administradores y autores que gestionan plantillas de correo electrónico
 
 Usted (administrador o autor) puede habilitar o deshabilitar las plantillas de correo electrónico en función de la función del destinatario, alumno, responsable o instructor. Le proporciona más control sobre el tipo y la frecuencia de la comunicación con los alumnos.
 
-### Caso práctico
+### Caso de uso
 
 * Los administradores y los autores deben enviar correos electrónicos a los alumnos sin notificárselo a los responsables (por ejemplo, inscripciones de alumnos).
 * La opción para activar o desactivar en bloque los mensajes de correo electrónico para un rol específico (por ejemplo, desactivar todos los mensajes de correo electrónico a los responsables).
@@ -688,7 +704,7 @@ No ocurre nada al hacer clic en las notificaciones de la pestaña Actividad de l
 
 ### Mejoras De Rendimiento En Esta Versión
 
-Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro para cada alumno.
+Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro de ningún alumno.
 Hemos optimizado el procesamiento de planes de aprendizaje para cuentas grandes. De este modo, se evitan problemas de búsqueda o retrasos.
 +++
 

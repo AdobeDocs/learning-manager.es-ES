@@ -5,8 +5,8 @@ hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 67%
+source-wordcount: '2091'
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ Los alumnos no pueden inscribirse en varias instancias desde una aplicación mó
 >
 >Al activar la opción de varias inscripciones, se añaden diferentes filas al informe de transcripciones de alumnos por cada curso (una fila por instancia).
 >
->Si ha configurado la automatización de informes que solo prevé una fila por curso, debe realizar los ajustes necesarios en la automatización de informes antes de activar la función Inscripción múltiple.
+>Si ha configurado la automatización de informes que solo prevé una fila por curso, debe llevar a cabo los ajustes necesarios en la automatización de informes antes de activar la función de Varias inscripciones.
 
 ### Formato de las insignias en una instancia de inscripción múltiple
 
@@ -56,7 +56,7 @@ argument_object=
 
 Esta versión de Adobe Learning Manager incluirá un nuevo conector que empleará el protocolo SFTP de la familia AWS Transfer.
 
-Este cambio también sustituirá al conector ExaVault, que ya no estará disponible para los nuevos usuarios. Puede utilizar cualquier cliente FTP de código abierto como sustituto de ExaVault. Para obtener más información, consulte [Transición desde el Administrador de FTP de Adobe](transition-from-ftp-manager.md).
+Este cambio también sustituirá al conector ExaVault, que ya no estará disponible para los nuevos usuarios. Puede utilizar cualquier cliente FTP de código abierto como sustituto de ExaVault. Para obtener más información, consulte [Transición desde el Administrador de FTP Adobe](transition-from-ftp-manager.md).
 
 ## Recordatorios en Outlook para sesiones de clase y virtuales
 
@@ -511,10 +511,10 @@ Actualiza notas específicas de un módulo determinado respecto a una instancia 
 
 **Cambios en la API de administración**
 
-* GET/users/{id}/enrollments
+* GET /users/{id}/enrollments
 * POST /users/{id}/enrollments
 * DELETE /users/{id}/enrollments/{enrollmentId}
-* PATCH/users/{id}/enrollments/{enrollmentId}
+* PATCH /users/{id}/enrollments/{enrollmentId}
 
 ### Campos obligatorios para puntos finales
 
@@ -527,9 +527,9 @@ Ejemplo de solicitud
 
 ### Buscar cambios en la API relacionados con la implementación (idioma inglés)
 
-La derivación es el proceso de reducir una palabra a su forma raíz. De este modo se garantiza que las variantes de una palabra coincidan durante una búsqueda. Por ejemplo, caminar y caminar se puede derivar a la misma palabra raíz: caminar. Una vez obtenida, una aparición de cualquiera de las palabras coincidiría con la otra en una búsqueda.
+La derivación es el proceso de reducir una palabra a su forma raíz. De este modo se garantiza que las variantes de una palabra coincidan durante una búsqueda. Por ejemplo, caminando y caminado se puede derivar a la misma palabra raíz: caminar. Una vez obtenida, una aparición de cualquiera de las palabras coincidiría con la otra en una búsqueda.
 
-En esta versión, hemos añadido la segmentación para las configuraciones regionales en inglés, que incluye las siguientes variantes: en_US, en_AU, en_GB.
+En esta versión, hemos añadido la segmentación en las configuraciones regionales en inglés, que incluye las siguientes variantes: en_US, en_AU, en_GB.
 
 El atributo derivado menciona si es necesaria una derivación en los resultados de búsqueda. De forma predeterminada, esta opción está establecida en False.
 
@@ -556,7 +556,7 @@ Permite al alumno facilitar comentarios en cada nivel de instancia de la funció
 
 En esta versión, debe enviar secciones, prequisiteConstraints, prerrequisitoLOs, subLOs, suplementarioResources, suplementarioLOs, instance, catalogLabels al learningObject de forma explícita.
 
-Por ejemplo,
+Por ejemplo:
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
@@ -573,7 +573,7 @@ Para admitir insignias de instancia de inscripción múltiple, estamos cambiando
 
 ## Notas de la versión
 
-Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
+Para obtener información sobre las versiones actuales y anteriores de la aplicación web y para dispositivos móviles de Learning Manager, consulte las [Notas de la versión](/help/migrated/release-note/release-notes.md).
 
 ## Limitaciones o problemas conocidos de esta versión
 
