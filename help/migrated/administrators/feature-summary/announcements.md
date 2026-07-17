@@ -5,8 +5,8 @@ description: Un anuncio es un mensaje multimedia (texto, imagen o vídeo) que un
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 
 Un anuncio es un mensaje multimedia (texto, imagen o vídeo) que un administrador difunde entre un determinado conjunto de usuarios.
 
-El administrador puede difundir anuncios a los alumnos para informarles de la ocurrencia de un evento o una actividad. Los anuncios pueden ser una combinación de texto, imágenes o vídeos. Puede vincular objetos de aprendizaje como cursos, programas de aprendizaje y certificaciones con un anuncio.
+El administrador puede difundir mensajes entre los alumnos para informarles de la existencia de un evento o una actividad. Un anuncio puede ser una combinación de texto, imágenes o vídeos. Puede vincular objetos de aprendizaje como cursos, programas de aprendizaje y certificaciones con un anuncio.
 
 Hay cuatro tipos de anuncios:
 
@@ -53,7 +53,7 @@ Hay cuatro tipos de anuncios:
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. En la ficha Borrador, haga clic en el icono de configuración junto a un anuncio y haga clic en Enviar.
 
-Si el elemento adjunto multimedia es de gran tamaño, puede tardar en cargarse. Después de hacer clic en Guardar, aparecerá un mensaje emergente cuando se procese la carga. Cuando el elemento adjunto se haya cargado correctamente, recibirá una notificación.
+Si el elemento adjunto multimedia es de gran tamaño, puede tardar en cargarse. Tras hacer clic en Guardar, en principio debe aparecer un mensaje durante el procesamiento de la carga. Cuando el elemento adjunto se haya cargado correctamente, recibirá una notificación.
 
 ## Cabecera {#masthead}
 
@@ -121,13 +121,13 @@ Al hacer clic en **[!UICONTROL Guardar]**, puede publicar el anuncio en ese mome
 
 ## Lista de Borrador, Programado y Enviado {#draftscheduledandsentlist}
 
-En el inicio de sesión del administrador, puede ver todos los anuncios en tres pestañas, como Borrador, Programado y Enviado.
+Tras iniciar sesión como administrador, puede ver todos los anuncios en tres fichas: Borrador, Programado y Enviado.
 
 <!--![](assets/three-tabs-announcement1.png)-->
 
 ### Borrador {#draft}
 
-En la ficha Borrador, puede ver todos los anuncios creados por un administrador pero que aún no se han difundido o que aún no se han programado para difundirse.
+En la ficha Borrador, puede ver todos los anuncios creados por un administrador que todavía no se han difundido o no se han programado para difundir.
 
 De forma predeterminada, todos los anuncios se definen para difundirse inmediatamente. Si elige la opción Configuración > Enviar para un anuncio que no está programado, se difunde de inmediato. Para programar la difusión de un anuncio, en Configuración avanzada se debe seleccionar una fecha de inicio y una fecha de finalización.
 
