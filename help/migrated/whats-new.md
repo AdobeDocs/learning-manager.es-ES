@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Live Hub es una experiencia de formación virtual basada en IA en Adobe Learning
 
 Puntos más destacados:
 
-&#x200B;- Mejora el aprendizaje en directo con una experiencia nativa de Adobe Learning Manager que mejora la calidad educativa y los resultados de los alumnos.
-&#x200B;- Ofrece a tus instructores un cofacilitador con tecnología de IA que impulse la participación mediante encuestas inteligentes, asistencia en preguntas y respuestas e información de las salas de grupo de trabajo.
-&#x200B;- Ayuda a tus alumnos a sacar más partido a cada sesión con resúmenes generados por IA y grabaciones de sesiones en las que se pueden realizar búsquedas por temas.
-&#x200B;- Mide lo que importa con análisis de participación que van más allá de la asistencia para revelar una participación real en el aprendizaje.
-&#x200B;- Ayude a los autores a utilizar el buscador de instructores basado en IA para adaptar el instructor a sus aptitudes, disponibilidad, horas preferidas, zona horaria y utilización actual.
+* Mejora el aprendizaje en directo con una experiencia nativa de Adobe Learning Manager que mejora la calidad educativa y los resultados de los alumnos.
+* Ofrece a tus instructores un cofacilitador con tecnología de IA que impulse la participación mediante encuestas inteligentes, asistencia en preguntas y respuestas e información de las salas de grupo de trabajo.
+* Ayuda a tus alumnos a sacar más partido a cada sesión con resúmenes generados por IA y grabaciones de sesiones en las que se pueden realizar búsquedas por temas.
+* Mide lo que importa con análisis de participación que van más allá de la asistencia para revelar una participación real en el aprendizaje.
+* Ayude a los autores a utilizar el buscador de instructores basado en IA para adaptar el instructor a sus aptitudes, disponibilidad, horas preferidas, zona horaria y utilización actual.
 
 ## Generador de plantillas de correo electrónico basado en componentes
 
@@ -128,6 +128,8 @@ Capacidades clave:
 * El administrador puede configurar campos obligatorios, incluidos los personalizados
 * Nuevas columnas en transcripciones de administradores y alumnos: Columnas Nombre de aprendizaje externo, Comentario de finalización y campo personalizado
 * Compatibilidad con API: cinco nuevos puntos finales con ámbito de alumno para crear, recuperar y actualizar envíos
+
+Para obtener más información a nivel de administrador, consulte [Soporte de aprendizaje externo](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Para obtener más información a nivel de administrador, consulte [Soporte de aprendizaje externo](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Para obtener más información a nivel de alumno, consulte [Soporte de aprendizaje externo](/help/migrated/learners/feature-summary/submit-external-learning.md).
 
 ## Funciones de IA
 
@@ -209,7 +211,7 @@ Las ubicaciones de clase ahora admiten un **formato de ubicación de cuatro camp
 
 Para obtener más información, vea [Ubicaciones de clase](/help/migrated/administrators/feature-summary/classroom.md)
 
-## Adobe Learning Manager Content Composer
+## Próximamente: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer es una próxima herramienta de creación de cursos de inteligencia artificial en Adobe Learning Manager que le ayuda a crear un curso listo para publicar en apenas tiempo.
 

@@ -3,9 +3,9 @@ description: Como autor, aprenda a crear cursos adaptables para los alumnos.
 jcr-language: en_us
 title: Cursos adaptativos para autores
 contentowner: mmanuel
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Después de añadir un módulo de contenido, configure sus reglas adaptables:
 
 **Reglas clave:**
 
-* Un alumno que pertenezca a varios grupos de usuarios obtiene el resultado más restrictivo: si algún grupo hace que un módulo sea obligatorio, es obligatorio para ese alumno.
+* Si algún grupo hace que un módulo sea obligatorio, es obligatorio para ese alumno.
 * Debe configurar al menos un módulo como **Obligatorio** para al menos un grupo de usuarios para poder publicar. El sistema bloquea la publicación hasta que se cumpla esta condición.
 
 ### Curso en estado de borrador
@@ -120,6 +120,10 @@ Tenga en cuenta que ya no puede cambiar la configuración de visibilidad en el c
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>No se puede poner en lista de espera a un alumno al cambiar de instancia. La inscripción se bloqueará.
+
 ### Añadir o modificar módulos
 
 1. Abra el curso publicado.
@@ -141,8 +145,8 @@ Tenga en cuenta que ya no puede cambiar la configuración de visibilidad en el c
 Un alumno que cambie instancias de un curso adaptable seguirá adelante con su progreso:
 
 * Los módulos que ya han completado permanecen completados en la nueva instancia.
-* Los puestos se consumen sólo para los módulos visibles no completados en la nueva instancia.
-* Si los módulos visibles en la nueva instancia no tienen puestos disponibles, el alumno se muestra en lista de espera para esas sesiones.
+* Los asientos se consumen solo para los módulos visibles no completados en la nueva instancia.
+* No se pueden poner en lista de espera cuando no hay puestos disponibles para una instancia. La inscripción se bloqueará.
 
 ## Administrar límites de puestos y listas de espera en cursos adaptables
 
