@@ -1,192 +1,267 @@
 ---
-jcr-language: en_us
 title: Añadir ubicaciones de clases
-description: Los administradores pueden crear ahora una biblioteca de ubicaciones de clases. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos e información adicional como, por ejemplo, la dirección URL de la ubicación. Los autores y los administradores pueden utilizar estas ubicaciones de clases preconfiguradas para establecer eventos de formación dirigidos por un instructor (módulos de clase).
-contentowner: saghosh
-exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
+description: Obtenga información sobre cómo los administradores pueden configurar las opciones, y añadir, migrar, editar y eliminar ubicaciones de clase en Adobe Learning Manager, y sobre cómo añadir traducciones para una ubicación de clase.
+source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 54%
+source-wordcount: '1641'
+ht-degree: 3%
 
 ---
 
-# Clase
 
-## Información general
+# Añadir ubicaciones de clases
 
-Los administradores pueden crear ahora una biblioteca de ubicaciones de clases. Para cada ubicación de clase, los administradores pueden establecer los metadatos que incluyen el nombre de la ubicación, el límite de puestos e información adicional como, por ejemplo, la dirección URL de la ubicación. Los autores y los administradores pueden utilizar estas ubicaciones de clases preconfiguradas para establecer eventos de formación dirigidos por un instructor (módulos de clase).
+Los administradores pueden crear y administrar una biblioteca de ubicaciones de clase para reutilizarla al configurar eventos de formación dirigidos por un instructor en el módulo de clase y clases virtuales. Para cada ubicación, puede definir detalles como el nombre de la ubicación, el límite de asientos e información adicional, incluida una dirección URL de ubicación. A continuación, los autores pueden seleccionar estas ubicaciones predefinidas al crear un curso.
 
-Puede utilizar los siguientes dos métodos para añadir una ubicación de clase.
-
-## Añadir una clase mediante la interfaz de usuario
-
-Puede agregar una ubicación de clase mediante la interfaz de usuario:
-
-1. En la aplicación de administración (la interfaz de usuario para las funciones de administrador), haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
-
-1. Haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Nueva ubicación]**.
-
-1. En el cuadro de diálogo **[!UICONTROL Ubicación de clase]**, introduzca la siguiente información:
-
-   * Escriba el **[!UICONTROL Nombre de ubicación]**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
-   * Introduzca la descripción de la ubicación en el campo **[!UICONTROL Información de ubicación]**. Este campo es opcional.
-   * Introduzca la **[!UICONTROL URL de ubicación]**. El alumno puede ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
-   * Escriba y seleccione la **[!UICONTROL región de ubicación]**. Este campo es opcional.
-   * Introduzca el número de puestos disponibles en el campo **[!UICONTROL Límite de puestos]**. Esto indica el número de puestos disponibles para la clase. Este valor se puede modificar al crear el evento real de formación dirigido por un instructor.
-
-   ![](assets/add-classroom-location.png)
-
-   *Agregar una ubicación de clase*
-
-Después de agregar la ubicación, la página **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** muestra las salas de reuniones:
-
-![](assets/list-meeting-rooms.png)
-
-*Ver todas las salas de reuniones*
-
-La lista presenta los siguientes campos:
-
-**[!UICONTROL Nombre de ubicación]**: nombre de la ubicación de la clase.
-
-**[!UICONTROL Sesiones futuras]**: número de eventos que se producirán en la ubicación correspondiente. Haga clic en el número para ver los detalles en un cuadro de diálogo.
-
-![](assets/sessions-list.png)
-
-*Ver sesiones futuras*
-
-En el cuadro de diálogo, se muestran los detalles de cada sesión, incluidos el nombre y el horario de la sesión, además del nombre del curso de formación que incluye la sesión. La hora mostrada se ajusta a la zona horaria del sistema del alumno.
-
-El campo **[!UICONTROL Sesiones futuras]** muestra **cero** cuando la clase no se usa en ninguna sesión o cuando la clase está asociada a sesiones anteriores.
-
-**[!UICONTROL Límite de asientos]**: muestra la capacidad de asientos de la clase.
-
-**URL de ubicación**: URL que proporcionó al crear la ubicación de la clase.
-
-**Información de ubicación**: la información de clase que proporcionó al crear la clase.
-
-### Editar las ubicaciones de la clase
-
-Para editar las ubicaciones de la clase, siga estos pasos:
-
-1. En la aplicación de administración (la interfaz de usuario para las funciones de administrador), seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]**.
-
-1. Pase el ratón sobre la ubicación de la clase que desee editar.
-
-1. Seleccione el icono **[!UICONTROL Editar ubicación de clase]**.
-
-1. Modifique la ubicación de la clase y seleccione **[!UICONTROL Guardar]**.
-
-## Añadir clase mediante CSV
-
-También puede añadir una o varias ubicaciones de clases mediante la importación de un archivo CSV que contenga la información de clase.
-
-En **[!UICONTROL Aplicación de administración]** > **[!UICONTROL Configuración]** > **[!UICONTROL Ubicaciones de clase]** > **[!UICONTROL Agregar]**, haga clic en el botón **[!UICONTROL Ubicaciones de importación en bloque]**. Desplácese a la ubicación que contiene el archivo CSV y selecciónelo.
-
-El archivo CSV utiliza estos campos para almacenar información sobre una o varias ubicaciones de clases:
-
-* name
-* info
-* url
-* (región)
-* seatLimit
-
-Puede personalizar los encabezados.
-
-El archivo CSV debe contener obligatoriamente todas las columnas en el mismo orden especificado aquí.
-
-Una vez que el sistema importe el archivo CSV, las ubicaciones se añadirán a la biblioteca.
-
-## Buscar clases
-
-Para buscar clases, seleccione el curso de clase virtual y, a continuación, vaya a **[!UICONTROL Instancias]** > **[!UICONTROL Sesiones]**. Un autor o un administrador pueden iniciar la escritura del nombre de la ubicación para que empiecen a aparecer los resultados correspondientes. A continuación, pueden seleccionar una ubicación entre los resultados mostrados. Si no se muestra ninguna ubicación en los resultados de escritura anticipada, el usuario puede agregar el nuevo nombre de ubicación de clase. Tenga en cuenta que este nombre de ubicación establecido durante el flujo de trabajo de creación de sesiones no se ha añadido a la biblioteca de ubicaciones creada por el administrador.
-
-Al añadir una clase, la plataforma de aprendizaje indica también si esta ya se ha reservado para el periodo indicado. Incluso ofrece sugerencias de horarios alternativos. Por lo tanto, esto permite al autor ajustar la hora de la reunión si decide utilizar la misma ubicación de clase.
-
-![](assets/classroom-search.png)
-
-*Buscar clases*
-
-## Administrador
-
-Como administrador, puede administrar los instructores y las instancias del curso.
-
-### Configurar instructores:
-
-En la aplicación de administración, en **[!UICONTROL Configuración]** > **[!UICONTROL General]**, los administradores pueden encontrar la opción **[!UICONTROL Administración de instructores]**. Esta función garantiza que solo los usuarios previamente aprobados asignados como instructores puedan añadirse para llevar a cabo las sesiones.
-
-Para asignar un instructor, siga estos pasos:
-
-1. Vaya a la página **[!UICONTROL Introducción]** y seleccione **[!UICONTROL Usuarios]** en el panel izquierdo.
-
-1. Seleccione el usuario que desee.
-
-1. Asigne al usuario la función de instructor seleccionando **[!UICONTROL Acciones]** > **[!UICONTROL Asignar función]**.
-
-### Cancelando Sesiones:
-
-En la página **[!UICONTROL Instancia del curso]**, los administradores pueden cancelar una o más sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
-
-Además, los administradores pueden:
-
-* **[!UICONTROL Ver inscripción]**: obtenga información sobre los alumnos inscritos y en lista de espera de cada sesión.
-* **[!UICONTROL Dar de baja a alumnos]**: elimina alumnos de un curso con sesiones canceladas sin cambiar su estado de inscripción.
-* **[!UICONTROL Administración de asistencia]**: marca la asistencia a las sesiones, incluso si las sesiones se cancelan.
-* **[!UICONTROL Finalización del curso]**: los administradores pueden marcar un curso como completado aunque se hayan cancelado las sesiones.
-* **[!UICONTROL Reprogramación]**: programa sesiones canceladas para fechas posteriores y añade un instructor durante la reprogramación.
-
-Tenga en cuenta que, después de la cancelación, los alumnos permanecen inscritos en la instancia de formación. Su estado de inscripción (como inscripción confirmada, en lista de espera y a la espera de aprobación del responsable) no cambia. Esto resulta útil porque el administrador puede configurar y volver a programar la sesión cancelada en el futuro.
-
-## Autor
-
-Si el administrador selecciona la opción **[!UICONTROL Administración de instructores]**, un autor solo puede buscar y agregar los usuarios con la función de instructor a las sesiones de clase, las sesiones de clase virtual, las listas de comprobación y los módulos de envío de archivos.
-
-Además, el autor puede realizar lo siguiente:
-
-* Añadir y eliminar instructores de las sesiones existentes.
-* Añadir instructores a las sesiones existentes que ya tienen uno o varios instructores.
-
-Por lo tanto, después de que un administrador habilite la opción **[!UICONTROL Administración de instructores]**, solo se pueden agregar como instructores los usuarios con la función de instructor.
+De forma predeterminada, Adobe Learning Manager utiliza un formato de ubicación de campo único. Para las organizaciones que administran ubicaciones de clase en varios países e idiomas, Learning Manager también admite un formato estructurado de cuatro campos que incluye **País**, **Provincia/Región**, **Ciudad** y **Nombre de ubicación**. Este formato proporciona capacidades adicionales como filtrado basado en la ubicación y compatibilidad de idiomas para ubicaciones individuales. Los administradores pueden cambiar al formato de cuatro campos mediante una migración única.
 
 >[!NOTE]
 >
->Esto no es aplicable al migrar sesiones mediante el archivo CSV de sesiones. En ese caso, se puede añadir como instructor un usuario que no tenga esta función.
+>Si el formato de ubicación de los cuatro campos no está activado, los autores y los alumnos pueden seguir utilizando Ubicaciones de clase de la forma habitual. El formato de ubicación de un solo campo existente sigue estando disponible y no es necesario realizar cambios. Vea [Migrar al método de cuatro campos](#migrate-classroom-locations-to-the-four-field-format) para obtener más información.
 
-En la página **[!UICONTROL Instancia del curso]**, un autor puede cancelar una o más sesiones. Cuando se cancelan las sesiones, el sistema elimina todos los detalles de la sesión, pero mantiene el límite de puestos.
+## Configurar la ubicación de clase
 
-Por lo tanto, un autor puede utilizar los vínculos **[!UICONTROL Cancelar sesión]** para cancelar una o más sesiones de clase o sesiones de clase virtual disponibles en la misma instancia de curso o en diferentes instancias.
+Los administradores pueden controlar si los autores pueden crear y administrar ubicaciones de clase. Use la configuración de **Ubicaciones de clase** para definir el nivel de acceso disponible para los autores.
 
-## Limitar a una lista predeterminada de instructores
+Para configurar las **Ubicaciones de clase**:
 
-Actualmente, los usuarios pueden añadir a cualquier usuario registrado como instructor al crear una sesión de clase o de clase virtual. Esta función permanece invariable en esta versión.
+1. Inicie sesión en Adobe Learning Manager como **administrador**.
+1. Seleccione **Configuración** > **Ubicaciones de clase**.
 
-Sin embargo, los administradores cuentan ahora con una opción adicional para controlar de forma más eficaz quién se asigna como instructor en la plataforma de aprendizaje. Esto impide la adición accidental de un nuevo instructor al crear una sesión.
+   Se muestra la página **Ubicaciones de clase**.
 
-## Cancelar sesión existente
+1. Seleccione la ficha **Configuración**.
 
-Un autor o un administrador pueden cancelar una sesión y reprogramarla, si es necesario.
+   ![Ficha Configuración para ubicaciones de clase](assets/classroom-locations-settings-tab.png)
 
-Cuando un usuario cancela una sesión, el sistema envía un mensaje de correo electrónico de cancelación de la reunión a todos los instructores y los alumnos inscritos. Este mensaje incluye información actualizada de la sesión.
+   *Habilite privilegios de autor para ubicaciones de clase y clase virtual desde la pestaña **Configuración**.*
 
-Hay una plantilla denominada **[!UICONTROL Cancelación de la sesión]** que ayuda a cancelar una sesión.
+1. Seleccione **Editar**.
 
-En la página **[!UICONTROL Instancia de curso]**, cada una de las sesiones mostradas en una instancia del curso incluye una opción para su cancelación.
+   El botón deslizante se puede editar, lo que le permite actualizar los siguientes ajustes:
 
-![](assets/cancel-session.png)
+   | **Configuración** | **Descripción** |
+   |---|---|
+   | **Permitir a los autores crear ubicaciones** | Active esta opción para permitir que los autores creen ubicaciones de los módulos Clase y Clase virtual al crear sesiones de formación dirigidas por el instructor. |
+   | **Permitir a los autores modificar y eliminar ubicaciones** | Active esta opción para permitir que los autores editen o eliminen las ubicaciones de clase y clase virtual. |
 
-*Cancelar una sesión existente*
+1. Seleccione **Guardar**.
 
-Al hacer clic en el vínculo **[!UICONTROL Cancelar sesión]**, aparece un mensaje de advertencia.
+## Crear y administrar ubicaciones de clase
 
-En el cuadro de diálogo de este mensaje, si hace clic en **[!UICONTROL Continuar]**, el sistema cancela la sesión.
+Los administradores pueden crear y administrar ubicaciones de clase que los autores pueden reutilizar al crear sesiones de formación de clase y clase virtual. Adobe Learning Manager admite dos formatos de ubicación:
 
-Después de cancelar la sesión, el sistema también borra los siguientes detalles:
+* **Formato de campo único**: Cada ubicación de clase se identifica mediante un único campo **Nombre de ubicación**. Vea [Agregar una ubicación de clase usando un formato de campo único](#add-a-classroom-location-using-a-single-field-format) para obtener más información.
+* **Formato de cuatro campos**: Cada ubicación de clase está organizada en **País**, **Estado/Provincia/Región**, **Ciudad** y **Nombre de ubicación**, lo que facilita la administración de ubicaciones en varias regiones. Si su cuenta utiliza actualmente el formato de campo único, complete la migración única antes de cambiar al formato de cuatro campos. Vea [Migrar al método de cuatro campos](#migrate-classroom-locations-to-the-four-field-format) para obtener más información.
 
-* Fecha de inicio de la sesión
-* Fecha de finalización de la sesión
-* Hora de inicio de la sesión
-* Hora de finalización de la sesión
-* Instructores añadidos a la sesión
-* URL de clase virtual
-* Ubicación/lugar añadido a la sesión
-* Límite de lista de espera añadido por el instructor
+### Añadir una ubicación de clase mediante un formato de campo único
+
+Puede añadir una ubicación de clase mediante el formato de campo único:
+
+1. Inicie sesión en Adobe Learning Manager como **administrador**.
+1. Seleccione **Configuración** > **Ubicaciones de clase**.
+1. Seleccione **Agregar** > **Nueva ubicación**.
+1. Escriba los siguientes detalles en el cuadro de diálogo **Ubicaciones de clase**:
+
+   1. Escriba el **Nombre de ubicación**. Utilice un nombre exclusivo. De lo contrario, Learning Manager mostrará un mensaje de error.
+   1. Introduzca la descripción de la ubicación en el campo **Información de ubicación**. Este campo es opcional.
+   1. Introduzca la **URL de ubicación**. Los alumnos pueden ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
+   1. Escriba y seleccione la **región de ubicación**. Este campo es opcional.
+   1. Escriba el número de puestos disponibles en el campo **Límite de puestos**. Esto indica la capacidad de asientos de la clase. Este valor se puede cambiar al crear el evento de formación real dirigido por el instructor.
+      ![Agregar una ubicación de clase con el formato de campo único](assets/add-classroom-location-single-field-format.jpeg)
+      *Agregar una ubicación de clase usando el formato de campo único.*
+
+### Migrar ubicaciones de clase al formato de cuatro campos
+
+Si su cuenta utiliza el formato heredado de ubicación de clase de un solo campo, migre las ubicaciones de clase existentes antes de habilitar el formato de cuatro campos. El formato de cuatro campos organiza los datos de ubicación en **País**, **Estado/Provincia/Región**, **Ciudad** y **Nombre de ubicación**, lo que facilita la administración de ubicaciones en varias regiones.
+
+Esta migración se realiza una sola vez. Después de cambiar al formato de cuatro campos, no puede revertir la cuenta al formato de un solo campo.
+
+Para migrar ubicaciones existentes:
+
+1. Vaya a **Administrador** > **Ubicaciones de clase** y seleccione la pestaña **Configuración**.
+1. Seleccione **Exportar** en la sección **Migración de formato de ubicación**.
+
+   Se descargará un archivo CSV con las ubicaciones de clase existentes. Están disponibles las siguientes columnas:
+
+   1. **room_id**: Identificador único de la ubicación.
+   1. **configuración regional**: Configuración regional para el nombre de ubicación y la información de ubicación traducidos.
+   1. **nombre**: Nombre de la clase.
+   1. **país**: País donde se encuentra el aula.
+   1. **estado**: Estado, provincia o región donde se encuentra el aula.
+   1. **ciudad**: Ciudad donde se encuentra el aula.
+   1. **información**: Detalles adicionales, como el nombre del edificio, el piso o el número de la habitación.
+   1. **url**: URL asociada a la ubicación, como un vínculo de mapa.
+   1. **seatlimit**: Máxima capacidad de asientos del aula.
+
+   >[!NOTE]
+   >
+   >El archivo CSV exportado siempre incluye las columnas de formato de ubicación de cuatro campos, incluso cuando el formato de cuatro campos no está habilitado.
+
+   ![Comprobar progreso de migración](assets/location-format-migration-progress.png)
+
+   *Compruebe el progreso de la migración antes de cambiar al formato de ubicación de cuatro campos.*
+
+1. Para cada nombre de columna, actualice el archivo CSV con la información necesaria, como el país, el estado o la ciudad, junto con cualquier otra información necesaria.
+1. Seleccione **Importar** y, a continuación, cargue el archivo CSV actualizado.
+
+   Adobe Learning Manager valida los datos y actualiza el progreso de la migración.
+
+1. Cuando la barra de progreso de la migración alcance el 100 %, seleccione **Cambiar al nuevo formato de 4 campos**. El estado de **migración de formato de ubicación** se actualiza a **Migración completada**.
+
+   ![Estado completado de migración de formato de ubicación](assets/location-format-migration-complete.png)
+
+   La migración del formato de ubicación *se actualiza al estado de migración completada.*
+
+## Añadir ubicaciones de clase mediante un formato de cuatro campos
+
+Después de completar la migración única, los administradores pueden crear ubicaciones de clase en el formato de cuatro campos. A continuación, los autores pueden reutilizar estas ubicaciones al crear sesiones de formación con instructor. Los administradores pueden añadir ubicaciones de clase de forma individual o importar varias ubicaciones de clase desde un archivo CSV.
+
+### Añadir una ubicación de clase
+
+Utilizar las ubicaciones de clase para estandarizar los centros de formación y simplificar la programación de sesiones para los autores.
+
+Para añadir una ubicación de clase:
+
+1. En la aplicación de administración, seleccione **Configuración** > **Ubicaciones de clase**.
+
+   ![Pestaña Todas las ubicaciones](assets/all-locations-tab.png)
+
+   *Seleccione la ficha **Todas las ubicaciones**&#x200B;para agregar una ubicación de clase.*
+
+1. Seleccione **Agregar** > **Nueva ubicación** en la esquina superior derecha.
+
+   Aparece la ventana emergente **Ubicación de clase**.
+
+   Ventana emergente ![Ubicación de clase](assets/classroom-location-popup-window.png)
+
+   *Especifique los detalles en la ventana emergente Ubicación de clase.*
+
+1. En la ventana emergente **Ubicación de clase**, introduzca los siguientes detalles:
+
+   | **Campo** | **Descripción** |
+   |---|---|
+   | **País** | Seleccione el país donde se encuentra la clase. |
+   | **Estado/provincia/región** | Seleccione el estado, provincia o región. |
+   | **Ciudad** | Seleccione la ciudad donde se encuentra la clase. |
+   | **Nombre de ubicación** | Escriba el nombre de la clase o sala. |
+   | **Información de ubicación** | Introduzca detalles adicionales, como el nombre del edificio, el piso o el número de la habitación. |
+   | **URL de ubicación** | Introduzca una dirección URL para la ubicación, como un vínculo de mapa. |
+   | **Límite de asientos** | Entrar en la capacidad máxima de asientos de la clase. |
+
+1. Seleccione **Guardar**.
+
+   La ubicación de clase se guarda y se muestra en la ficha **Todas las ubicaciones**.
+
+### Importar ubicaciones de clase de forma masiva
+
+Utilice la importación en bloque para añadir varias ubicaciones de clase o actualizar ubicaciones existentes mediante un archivo CSV.
+
+Para importar ubicaciones de clase de forma masiva:
+
+1. En la aplicación de administración, seleccione **Configuración** > **Ubicaciones de clase**.
+1. Seleccione **Descargar CSV** en la pestaña **Todas las ubicaciones**.
+
+   Se descarga un archivo CSV que contiene las ubicaciones de clase existentes. Están disponibles las siguientes columnas:
+
+   1. **room_id**: Identificador único de la ubicación.
+   1. **configuración regional**: Configuración regional para el nombre de ubicación y la información de ubicación traducidos.
+   1. **nombre**: Nombre de la clase.
+   1. **país**: País donde se encuentra el aula.
+   1. **estado**: Estado, provincia o región donde se encuentra el aula.
+   1. **ciudad**: Ciudad donde se encuentra el aula.
+   1. **información**: Detalles adicionales, como el nombre del edificio, el piso o el número de la habitación.
+   1. **url**: URL asociada a la ubicación, como un vínculo de mapa.
+   1. **seatlimit**: Máxima capacidad de asientos del aula.
+
+1. Para cada nombre de columna, actualice el archivo CSV con la información necesaria, como el país, el estado o la ciudad, junto con cualquier otra información necesaria.
+1. Seleccione **Agregar** > **Ubicaciones de importación en bloque** en la esquina superior derecha.
+
+   Aparece la ventana emergente **Importar ubicaciones CSV**.
+
+   ![Ventana emergente de CSV de ubicaciones de importación](assets/import-locations-csv-popup.png)
+
+   *Arrastre y suelte el archivo CSV con la información actualizada.*
+
+1. Arrastre y suelte el archivo CSV actualizado en el área de carga.
+1. Seleccione **Importar**.
+
+   Las ubicaciones de clase se actualizan.
+
+## Añadir traducciones para una ubicación de clase
+
+Agregue traducciones para los campos **Nombre de ubicación** e **Información de ubicación** para mostrar los detalles de la ubicación de clase en los idiomas preferidos del alumno.
+
+Para añadir traducciones para una ubicación de clase:
+
+1. Seleccione **Todas las ubicaciones** > **Agregar** en las **Ubicaciones de clase**.
+1. Seleccione **Nueva ubicación**.
+
+   Aparece la ventana emergente **Ubicación de clase**.
+
+1. Seleccione **Agregar nuevo idioma**.
+
+   Aparece la ventana emergente **Agregar nuevo idioma**.
+
+   ![Ventana emergente Agregar nuevo idioma](assets/add-new-language-popup.png)
+
+   *Seleccione los idiomas en la ventana emergente Agregar nuevo idioma.*
+
+1. Seleccione **Guardar**.
+
+   Las traducciones se guardan y se muestran a los usuarios.
+
+>[!NOTE]
+>
+>Solo los campos **Nombre de ubicación** e **Información de ubicación** admiten traducciones. Los detalles de la ubicación, como **País**, **Estado/Provincia/Región** y **Ciudad**, no están traducidos.
+
+## Editar una ubicación de clase
+
+Para editar una ubicación de clase, siga estos pasos:
+
+1. En la aplicación de administración, seleccione **Configuración** > **Ubicaciones de clase**.
+1. Pase el ratón sobre la ubicación de clase que desee editar.
+
+   ![Icono de edición para una ubicación de clase](assets/edit-classroom-location-icon.png)
+
+   *Pase el ratón sobre la ubicación de clase requerida y seleccione el icono de edición.*
+
+1. Seleccione el icono **Editar ubicación de clase**.
+
+   Aparece la ventana emergente Ubicación de clase.
+
+1. Modifique la ubicación de la clase y seleccione **Guardar**.
+
+## Eliminar una ubicación de clase
+
+Para eliminar una ubicación de clase, siga estos pasos:
+
+1. En la aplicación de administración, seleccione **Configuración** > **Ubicaciones de clase**.
+1. Pase el ratón sobre la ubicación de clase que desee eliminar.
+1. Seleccione el icono **Eliminar ubicación de clase**.
+
+   Aparecerá la ventana emergente Confirmación Necesaria.
+
+   ![Ventana emergente de confirmación obligatoria](assets/delete-classroom-location-confirmation.png)
+
+   *Seleccione Eliminar para confirmar la eliminación de una ubicación de clase.*
+
+1. Seleccione **Eliminar**.
+
+## Preguntas frecuentes
+
+1. **¿Qué sucede con las ubicaciones de clase existentes una vez completada la migración?**<br>
+Puede habilitar el formato de ubicación de cuatro campos solo después de migrar todas las ubicaciones existentes, ya sea manualmente o mediante una carga de CSV. Una vez habilitado el formato de cuatro campos, todos los cursos existentes que utilizan Ubicaciones de clase muestran las ubicaciones en el nuevo formato.
+
+1. **¿Necesito reestructurar manualmente el archivo CSV exportado para que coincida con el formato de ubicación de cuatro campos?**<br>
+No. El archivo CSV exportado siempre utiliza el formato de ubicación de cuatro campos, independientemente de si está activado actualmente. Solo tiene que actualizar los valores que faltan antes de importar el archivo.
+
+1. **¿Afecta la migración a los informes de Adobe Learning Manager?**<br>
+Sí. Después de la migración, los informes que incluyen información de Ubicación de clase muestran las ubicaciones con el siguiente formato:
+
+   **País > Estado/Provincia/Región > Ciudad > Nombre de ubicación**
+
+   Este formato reemplaza el valor de ubicación de campo único anterior.
+
+1. **¿Qué sucede si no habilito el formato de ubicación de cuatro campos?**<br>
+Nada cambia para los autores o los alumnos. Las ubicaciones de clase siguen apareciendo y funcionando como en la actualidad, utilizando el formato de campo único existente hasta que un administrador complete la migración y active el formato de cuatro campos.

@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Introducción
 
-El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
+Utilice el asistente de inteligencia artificial para obtener respuestas rápidas y precisas del contenido de aprendizaje asignado, generar resúmenes de cursos, comparar objetos de aprendizaje, encontrar respuestas de procedimientos y crear rutas de aprendizaje personalizadas, todo ello sin tener que desplazarse por cursos enteros.
 
 >[!IMPORTANT]
 >
@@ -32,27 +32,41 @@ El Asistente de IA es un compañero de chat generativo basado en IA en Adobe Lea
 ### Capacidades
 
 - **Respuesta inteligente a preguntas**
-   - Conversaciones de una vuelta y varias vueltas
-   - Comprensión del lenguaje natural en inglés
-   - Respuestas derivadas de cursos, certificaciones, rutas de aprendizaje y ayudas de trabajo
-   - Aclaración inteligente de preguntas cuando las consultas son ambiguas
+  - Conversaciones de una vuelta y varias vueltas
+  - Comprensión del lenguaje natural en inglés
+  - Respuestas derivadas de cursos, certificaciones, rutas de aprendizaje y ayudas de trabajo
+  - Aclaración inteligente de preguntas cuando las consultas son ambiguas
 
 - **Orígenes de contenido y citas**
-   - Recupera respuestas de recursos disponibles en catálogos compatibles
-   - Proporciona citas con vínculos directos a materiales de origen
-   - Admite todos los formatos de contenido de Learning Manager (estático e interactivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
+  - Recupera respuestas de recursos disponibles en catálogos compatibles
+  - Proporciona citas con vínculos directos a materiales de origen
+  - Admite todos los formatos de contenido de Learning Manager (estático e interactivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
 
 - **Experiencia de usuario**
-   - Interfaz del panel lateral accesible desde todas las páginas del alumno
-   - Diseño interactivo que se adapta al área de contenido
-   - Historial de chat mantenido en la sesión del navegador
-   - Limpiar pizarra en nuevo inicio de sesión o actualización de página
-   - Sonido agradable, claro y pedagógico
+  - Interfaz del panel lateral accesible desde todas las páginas del alumno
+  - Diseño interactivo que se adapta al área de contenido
+  - Historial de chat mantenido en la sesión del navegador
+  - Limpiar pizarra en nuevo inicio de sesión o actualización de página
+  - Sonido agradable, claro y pedagógico
 
 - **Controles de administrador**
-   - Habilitar o deshabilitar la función en el nivel de cuenta
-   - Seleccionar los catálogos que se incluyen para las respuestas de AI
-   - Requisito de aceptación de las Condiciones de uso conforme a las directrices de IA de Adobe
+  - Habilitar o deshabilitar la función en el nivel de cuenta
+  - Seleccionar los catálogos que se incluyen para las respuestas de AI
+  - Requisito de aceptación de las Condiciones de uso conforme a las directrices de IA de Adobe
+
+## Qué puede hacer el Asistente de inteligencia artificial
+
+El asistente de inteligencia artificial es un compañero de chat generativo que responde a las preguntas con el contenido de aprendizaje asignado. Cada respuesta incluye citas con enlaces directos al material de origen para que puedas verificar la información y seguir aprendiendo en contexto.
+
+Además de responder a preguntas, el Asistente de inteligencia artificial puede:
+
+- **Resumir objetos de aprendizaje**: genera una descripción general rápida de cualquier curso, ayuda de trabajo, ruta de aprendizaje o certificación en tu catálogo sin abrirlo
+- **Compara objetos de aprendizaje**: identifica las diferencias entre dos cursos en paralelo para decidir cuál se ajusta a tus objetivos de aprendizaje
+- **Responder preguntas de procedimiento**: respuestas de origen de la documentación de ayuda oficial de Adobe Experience League para preguntas sobre el uso de Adobe Learning Manager como alumno
+- **Consulta contenido de terceros**: haz preguntas sobre los cursos de Go1 o LinkedIn Learning si el administrador ha añadido esos catálogos
+- **Crea una ruta de aprendizaje personalizada**: mantén una conversación guiada con el asistente de inteligencia artificial para crear un plan de aprendizaje personalizado y secuenciado basado en tus objetivos, tus antecedentes y el tiempo disponible.
+
+El administrador controla los catálogos que utiliza el Asistente de inteligencia artificial. Si no tiene acceso a un curso, el Asistente para inteligencia artificial no mostrará información a partir de él.
 
 ## Tipos de contenido admitidos
 
@@ -138,7 +152,7 @@ Cada respuesta del asistente de inteligencia artificial incluye citas que se vin
 - Compruebe la información y explore el contexto adicional de la fuente autorizada.
 
 > **IMPORTANTE**
-> El Asistente de inteligencia artificial proporciona respuestas basadas en el contenido activado por el administrador. Si no tiene acceso a un elemento al que se hace referencia, verá el mensaje &quot;no admitido&quot; cuando intente abrirlo.
+> El Asistente para inteligencia artificial proporciona respuestas basadas en el contenido habilitado por el administrador. Si no tiene acceso a un elemento al que se hace referencia, verá el mensaje &quot;no admitido&quot; cuando intente abrirlo.
 
 
 ## Mensajes incorporados
@@ -239,6 +253,123 @@ Para borrar la conversación actual e iniciar una nueva conversación, seleccion
 
 El asistente de inteligencia artificial proporciona a los alumnos respuestas rápidas y contextuales, admite varios tipos de contenido y ofrece citas en línea para la transparencia. Los administradores pueden controlar el acceso, lo que garantiza que el asistente de inteligencia artificial se adapte a las necesidades de la organización y mejore la experiencia de aprendizaje.
 
+## Obtener resúmenes y respuestas de objetos de aprendizaje específicos en el Asistente de aprendizaje
+
+El Asistente de aprendizaje de Adobe Learning Manager puede generar un resumen de cualquier curso, ayuda de trabajo, ruta de aprendizaje o certificación del catálogo\. El resumen se obtiene a partir del contenido del curso y las transcripciones de los módulos almacenados en el catálogo.
+
+### Buscar un curso
+
+1. Abra _Asistente de aprendizaje_ en la página principal del alumno.
+2. En el panel de chat, escriba / para iniciar una búsqueda de contenido.
+
+>[!NOTE]
+>
+>Los objetos de aprendizaje no añadidos al catálogo no se pueden buscar. Puede acceder a cualquier contenido al que tenga acceso, pero el Asistente del alumno solo obtiene el resumen del contenido del módulo.
+
+1. Escriba el nombre del curso, la ayuda de trabajo, la ruta de aprendizaje o la certificación que desea resumir\. Aparece una lista de tipos de elementos de catálogo coincidentes.
+2. Seleccione el objeto de aprendizaje de la lista.
+
+### Generar un resumen rápido de un curso
+
+Utilice esta función cuando necesite una instantánea rápida y fiable de un curso sin abrirlo por completo\. Los escenarios comunes incluyen:
+
+- Repaso o preparación del aprendizaje
+  *Escenario:* Un representante de ventas completó un curso de &quot;Fundamentos de negociación&quot; hace seis meses y ahora tiene una gran llamada de renovación de clientes para mañana. En lugar de volver a ver los cuatro módulos, solicitan al Asistente de aprendizaje que resuma el curso y obtenga un repaso rápido de las tácticas de negociación clave tratadas\.
+- Decidir si se inscribe_
+  *Escenario:* Un nuevo administrador ve recomendado &quot;Liderar a través del cambio&quot; en su catálogo, pero no está seguro de si es el adecuado para la situación actual de su equipo. Primero piden un resumen, ven que se centra en la administración de cambios en el equipo remoto y deciden inscribirse porque coincide con lo que necesitan.
+- Preparar o hacer referencia a topic_
+  *Escenario:* Un ingeniero de soporte técnico está a punto de unirse a una llamada de cliente sobre una característica del producto que no ha tocado en mucho tiempo. En lugar de profundizar en un curso de formación de 45 minutos, solicitan al Asistente de aprendizaje que resuma el curso correspondiente para poder actualizar rápidamente los pasos clave y la terminología antes de la llamada.
+
+1. En la entrada de chat, escriba una consulta, como Resumir este curso, o escriba un resumen de este curso.
+2. Seleccione **Enviar** para enviar la consulta.
+3. El Asistente de aprendizaje genera y muestra un resumen basado en los módulos del curso y el contenido almacenado en el catálogo.
+
+### Prácticas recomendadas
+
+- Utilice nombres de cursos específicos al buscar para obtener resultados precisos de escritura anticipada.
+- Puede solicitar resúmenes de cursos, ayudas de trabajo, programas de aprendizaje y certificaciones.
+- Revise el resumen para determinar rápidamente si un curso aborda sus objetivos de aprendizaje antes de inscribirse.
+
+## Comparar objetos de aprendizaje en el Asistente de aprendizaje
+
+El Asistente de aprendizaje de Adobe Learning Manager le permite comparar hasta dos objetos de aprendizaje de su catálogo en paralelo. Utilice esta función para comprender las diferencias de contenido, ámbito o enfoque entre dos cursos antes de inscribirse.
+
+### Seleccionar objetos de aprendizaje para comparar
+
+1. Abra _Asistente de aprendizaje_ en la página principal del alumno.
+2. En el panel de chat, escriba / para iniciar una búsqueda de contenido.
+3. Escriba el nombre del primer objeto de aprendizaje. Aparece una lista de escritura anticipada de elementos de catálogo coincidentes.
+4. Seleccione el primer objeto de aprendizaje de la lista.
+5. Escriba / de nuevo y busque el segundo objeto de aprendizaje.
+6. Seleccione el segundo objeto de aprendizaje de la lista.
+
+>[!NOTE]
+>
+>Puede comparar un máximo de dos objetos de aprendizaje en una única consulta.
+
+### Solicitar la comparación
+
+1. En la entrada de chat, escriba una consulta, como cuál es la diferencia entre estos dos cursos, o compare estos objetos de aprendizaje.
+2. Seleccione _Enviar_ para enviar la consulta.
+3. El Asistente de aprendizaje genera y muestra una comparación que resalta las diferencias de contenido entre los dos objetos de aprendizaje.
+
+### Prácticas recomendadas
+
+- Revisa los resúmenes de los cursos individuales antes de compararlos para comprender brevemente cada curso.
+- Utilice el resultado de la comparación para identificar qué curso abarca los temas más relevantes para su función o carencia de habilidades.
+- Si los elementos de catálogo no aparecen en el tipo\-delante, confirme con el administrador que ambos objetos de aprendizaje forman parte del catálogo asignado.
+
+## Respuestas de Experience League en el Asistente de aprendizaje
+
+Aprenda cómo el Asistente de aprendizaje de Adobe Learning Manager puede responder a las preguntas de los alumnos mediante contenido de Adobe Experience League, incluidos los vínculos a artículos de ayuda relevantes.
+
+### Cómo utiliza el Experience League el Asistente de aprendizaje
+
+El Asistente de aprendizaje de Adobe Learning Manager puede obtener respuestas de [Adobe Experience League](/help/migrated/user-guide.md), el sitio oficial de ayuda y documentación de Adobe. Cuando un alumno formula una pregunta de procedimiento o de procedimiento, el Asistente de aprendizaje puede recuperar una respuesta pertinente e incluir un vínculo al artículo completo del Experience League.
+
+### Qué tipos de preguntas puede responder el Asistente de aprendizaje
+
+El Asistente de aprendizaje puede responder preguntas sobre cómo utilizar Adobe Learning Manager como alumno. Algunos ejemplos son:
+
+- Cómo inscribirse en un curso con nominación de responsable
+- Cómo acceder a un programa de aprendizaje o una certificación
+- Cómo buscar y ver los cursos completados
+
+Cuando el Asistente de aprendizaje encuentra una respuesta relevante en Experience League, la respuesta incluye un vínculo al artículo de origen para que pueda explorar la documentación completa.
+
+### En qué se diferencia de Admin Assistant
+
+El [Asistente de administración](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) de Adobe Learning Manager ha proporcionado respuestas de origen Experience League para administradores desde versiones anteriores. La mejora de agosto de 2026 amplía esta capacidad al Asistente de aprendizaje orientado al alumno para que los alumnos también puedan obtener ayuda sin salir de la plataforma.
+
+Tanto el Asistente de administración como el Asistente de aprendizaje orientado al alumno utilizan el mismo contenido de Experience League subyacente para generar las respuestas.
+
+## Compatibilidad con contenido de terceros en el Asistente de aprendizaje
+
+El Asistente de aprendizaje de Adobe Learning Manager puede responder preguntas del alumno sobre objetos de aprendizaje a partir de cualquier contenido de terceros disponible en la plataforma, así como contenido nativo de Adobe Learning Manager. Para que los alumnos puedan consultar estos cursos, un administrador debe añadir el catálogo de aprendizaje Go1 o LinkedIn a Adobe Learning Manager.
+
+### Cómo funciona la compatibilidad con catálogos de terceros
+
+>[!IMPORTANT]
+>
+>Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
+
+
+Cuando un administrador añade un catálogo de Go1 o LinkedIn Learning a Adobe Learning Manager, el contenido del catálogo pasa por un proceso de ingesta programado. Una vez completada la ingesta, los objetos de aprendizaje de ese catálogo estarán disponibles para que el Asistente de aprendizaje los consulte.
+
+La ingestión suele completarse en una o dos horas después de que el administrador haya añadido el catálogo.
+
+Una vez completada la ingesta, los alumnos pueden formular preguntas sobre los cursos de Go1 o LinkedIn Learning del mismo modo que consultan el contenido nativo de Adobe Learning Manager\. Por ejemplo, un alumno puede solicitar un resumen de un curso de Go1 o comparar un curso de LinkedIn Learning con un curso de Adobe Learning Manager mediante el comando /.
+
+- Adobe Learning Manager no tiene transcripciones de contenido para contenido de terceros, por lo que no se utilizan para recuperar respuestas. Las respuestas solo se recuperan de los metadatos disponibles, como el título, la descripción y la descripción general.
+- Actualmente solo se admite _inglés_.
+
+### Requisitos
+
+Para que el Asistente de aprendizaje consulte el contenido de Go1 o LinkedIn Learning:
+
+- Un administrador debe añadir el catálogo de aprendizaje Go1 o LinkedIn correspondiente a Adobe Learning Manager.
+- La ingesta programada del catálogo debe completarse antes de que los cursos estén disponibles para consulta.
+- Los objetos de aprendizaje deben formar parte del catálogo asignado al alumno.
 
 ## Solución de problemas del Asistente de AI
 
@@ -291,3 +422,11 @@ El asistente de inteligencia artificial proporciona a los alumnos respuestas rá
 - Contenido inapropiado
 
 El Asistente de inteligencia artificial está diseñado para responder preguntas basadas únicamente en el contenido de aprendizaje asignado y no responde a consultas fuera del ámbito.
+
+### Los cursos de Go1 o LinkedIn Learning no aparecen en la búsqueda del Asistente de aprendizaje
+
+Confirme con el administrador que el catálogo Go1 o LinkedIn Learning se ha añadido a Adobe Learning Manager y que la ingesta del catálogo se ha completado. La ingestión puede tardar entre una y dos horas después de añadir el catálogo.
+
+### Un curso añadido recientemente aún no está disponible
+
+Espere a que se complete la sincronización del catálogo programado. Si el curso sigue sin aparecer después de dos horas, póngase en contacto con el administrador para confirmar que la conexión del catálogo está activa.

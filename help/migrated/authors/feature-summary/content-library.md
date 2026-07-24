@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '5385'
-ht-degree: 38%
+source-wordcount: '5992'
+ht-degree: 33%
 
 ---
 
@@ -128,9 +128,15 @@ En la tabla siguiente se muestra el tipo de archivos estáticos e interactivos q
  </tbody>
 </table>
 
+## Vista previa del contenido del curso {#previewcontentlibrary}
+
+Puede obtener una vista previa del contenido del curso una vez que se haya añadido a la biblioteca de contenido. Para obtener una vista previa, seleccione el icono de ojo al final de la fila del curso correspondiente.
+
+![](assets/preview-content-library.png)
+
 ## Añadir nuevo contenido en la biblioteca {#addnewcontentinthelibrary}
 
-**Los autores** pueden agregar contenido en ALM. Hay dos tipos de contenido en ALM: **[!UICONTROL Contenido]** y **[!UICONTROL Prueba]**. Para obtener información sobre cómo agregar contenido, consulte [Agregar contenido estático](content-library.md#addstaticcontent) y [Crear una prueba](content-library.md##createaquiz).
+**Los autores** pueden agregar contenido en ALM. Hay dos tipos de contenido en ALM: **[!UICONTROL Contenido]** y **[!UICONTROL Prueba]**. Para obtener información sobre cómo agregar contenido, consulte [Agregar contenido estático](content-library.md#addstaticcontent) y [Crear una prueba](content-library.md#createaquiz).
 
 ## Añadir contenido estático {#addstaticcontent}
 
@@ -243,7 +249,7 @@ La biblioteca de contenido también mantiene las versiones del contenido cargado
    La misma vista está presente en la **aplicación del alumno** y en la **Vista previa como alumno**.
 
    Cuando **agregue, actualice o elimine** el archivo vtt, recibirá una notificación.
-La compatibilidad con WebVTT no está disponible para:
+   La compatibilidad con WebVTT no está disponible para:
 
    1. Anuncios de vídeo.
    1. Vídeo reproducido dentro del contenido de aprendizaje electrónico. Esta acción la controla el contenido.
@@ -425,31 +431,114 @@ Es una lista que muestra los autores que han creado contenido y lo han cargado e
 
 Esta opción está disponible **solo** cuando un administrador crea una carpeta nueva.
 
+### Añadir contenido a una carpeta
+
+Cuando carga contenido nuevo, elige en qué carpeta lo almacena durante el proceso de carga.
+
+1. Inicie sesión como autor y vaya a **Administrar** > **Biblioteca de contenido**, o seleccione **Crear contenido** en la página principal.
+
+2. Seleccione **Agregar** > **Contenido** en la esquina superior derecha de la página.
+
+3. Introduzca un nombre y una descripción para el contenido.
+
+4. En **Agregar archivo de contenido**, arrastre y suelte el archivo de contenido o seleccione el campo para examinar y cargar.
+   ![](assets/cl2.png)
+
+5. En **Agregar a la carpeta**, seleccione **Examinar carpetas** y vaya a la carpeta donde desee almacenar el contenido. Seleccione la carpeta que desea confirmar.
+   ![](assets/cl3.png)
+
+6. Seleccione **Agregar**.
+
+7. Rellene los campos restantes, **Duración**, **Etiquetas**, **Id. único de contenido** y **Fecha de caducidad**, según sea necesario.
+
+8. Seleccione **Guardar**. El archivo de contenido se agrega a la biblioteca de contenido y aparece en la parte superior de la lista.
+   ![](assets/cl4.png)
+
+>[!NOTE]
+>
+>No puede copiar ni mover contenido entre las carpetas públicas y privadas. Si lo intenta, Adobe Learning Manager muestra un error.
+
+
+## Ver rutas de carpeta en la biblioteca de contenido
+
+En la **Biblioteca de contenido**, cada archivo de contenido muestra su ruta de acceso completa a la carpeta, por ejemplo, **Formación de ventas** > **Módulos con ritmo personalizado** > **Activos de PDF**. Esta ruta indica exactamente dónde se encuentra el archivo en la jerarquía.
+
+* Si existe un archivo en más de una carpeta, todas las rutas aparecen separadas por comas.
+
+* Si una ruta es larga, se trunca desde el principio con puntos suspensivos (...) y siempre se muestra el nombre de carpeta más profundo.
+
+* El contenido publicado, retirado y borrador aparece en la biblioteca de contenido y muestra sus rutas de carpeta.
+
+![](assets/cl1.png)
+
+## Filtrar contenido por carpeta
+
+El filtro **Carpetas** de la biblioteca de contenido le permite restringir la lista para mostrar solo el contenido almacenado en carpetas específicas.
+
+1. En la **Biblioteca de contenido**, seleccione el menú desplegable **Carpetas** en el encabezado de columna.
+   ![](assets/cl5.png)
+   El menú desplegable muestra la carpeta pública y una lista de carpetas privadas. Las carpetas públicas y privadas no se pueden seleccionar simultáneamente. Al seleccionar uno, se anula la selección del otro.
+
+2. Para filtrar por una carpeta privada específica:
+   * Al seleccionar una **carpeta de nivel 1**, se seleccionan automáticamente todas las subcarpetas de nivel 2 y nivel 3 que contiene. Estas subcarpetas aparecen como seleccionadas, pero no se pueden deseleccionar individualmente. El filtro devuelve todo el contenido de la carpeta Nivel 1 y sus subcarpetas.
+   * Al seleccionar una **carpeta de nivel 2**, se seleccionan automáticamente todas las subcarpetas de nivel 3 que contiene.
+     ![](assets/cl6.png)
+
+3. Utilice el cuadro de búsqueda desplegable para buscar una carpeta por nombre.
+
+4. Puede seleccionar hasta **25 carpetas** a la vez. Si se seleccionan más de 25, se muestra un error.
+
 ## Mover contenido a la carpeta {#movecontenttofolder}
 
-Para mover el contenido de una carpeta pública a cualquier carpeta privada:
+Al mover contenido, se elimina de su carpeta actual y se coloca en la carpeta de destino.
 
-1. Seleccione la carpeta **Public** en la lista desplegable **Todas las carpetas**.
+1. En **Biblioteca de contenido**, marque la casilla de verificación junto a cada archivo de contenido que desee mover.
+2. Seleccione **Acciones** > **Organizar contenido** > **Mover contenido a la carpeta**. Se abre el panel **Mover contenido a la carpeta**.
+3. Seleccione la carpeta de destino donde desea mover el contenido.
+4. Seleccione **Mover contenido**. La biblioteca de contenido se actualiza para mostrar la nueva ruta de la carpeta.
+
+>[!NOTE]
+>
+>No puede mover contenido de una carpeta privada a la carpeta pública ni de la carpeta pública a una carpeta privada.
+
+
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-   *Ver todo el contenido cargado*
+   *View all uploaded content*
 
-1. Elija el contenido que desea mover a una carpeta. Luego haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Organizar contenido]** > **[!UICONTROL Mover contenido a la carpeta]**.
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
-   *Mover el contenido seleccionado a la carpeta*
+   *Move a selected content to folder*
 
-1. Elija la carpeta a la que desee mover el contenido. Haga clic en **[!UICONTROL Mover]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copiar contenido en la carpeta {#copycontenttofolder}
 
-Copiar una carpeta significa que estaría agregando una etiqueta a la carpeta. La operación de copia no creará copias del contenido; simplemente añadirá una asociación con las carpetas especificadas.
+Copiar crea un vínculo al contenido en una carpeta adicional sin quitarlo de su ubicación actual. El archivo de contenido en sí no está duplicado.
+
+1. En **Biblioteca de contenido**, marque la casilla de verificación junto a cada archivo de contenido que desee copiar.
+2. Seleccione **Acciones** > **Organizar contenido** > **Copiar contenido en la carpeta**. Se abre el panel **Copiar contenido en la carpeta**, que muestra la jerarquía de carpetas.
+3. Seleccione la carpeta o carpetas de destino donde desea que aparezca el contenido.
+4. Seleccione **Copiar contenido**. La biblioteca de contenido se actualiza para mostrar las nuevas rutas de carpeta del contenido copiado.
+
+>[!NOTE]
+>
+>No se puede copiar contenido de una carpeta privada a la carpeta pública o de la carpeta pública a una carpeta privada.
+
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copiar una carpeta*
+*Copy a folder*
+-->
 
 ## Desvincular carpeta {#unlinkfolder}
 
@@ -464,6 +553,26 @@ El contenido se puede desvincular de una carpeta especificada **SOLO** si tambi�
 ![](assets/unlink-a-folder.png)
 
 *Desvincular una carpeta*
+
+## Añadir un módulo a un curso explorando carpetas
+
+Al añadir un módulo con ritmo personalizado a un curso, puede examinar la jerarquía de carpetas para localizar el archivo de contenido adecuado en lugar de buscar por nombre.
+
+1. Inicie sesión como autor y vaya a **Cursos** en la barra de navegación de la izquierda.
+
+2. Seleccione **Agregar** para crear un nuevo curso o abrir uno existente en modo de edición.
+
+3. Vaya a la sección **Módulos** y seleccione **Contenido** > **Agregar módulos**.
+
+4. En el cuadro de diálogo **Seleccionar tipo de módulo**, seleccione **Ritmo personalizado** como tipo de módulo. Se abre el cuadro de diálogo **Módulo con ritmo personalizado**.
+
+5. Seleccione **Examinar carpetas** para abrir la jerarquía de carpetas.
+
+6. Desplácese por los niveles de carpeta para localizar el módulo que desea agregar. Seleccione el archivo de contenido.
+
+7. Seleccione **Agregar**. El módulo se añade al curso.
+
+8. Complete los campos restantes del curso y seleccione **Guardar**.
 
 ## Añadir contenido para diferentes idiomas {#addcontentfordifferentlanguages}
 
@@ -525,10 +634,10 @@ En la sección Criterios de finalización, puede configurar las opciones que se 
 * **Prueba intentada:** El estado se reporta como completado si los alumnos intentan realizar la prueba, al margen de si la superan o no.
 * **Prueba superada o límite alcanzado:** El estado se reporta como completado si los alumnos superan la prueba o han realizado todos los intentos posibles. Por ejemplo, si el número de intentos establecidos en el curso es de dos, y:
 
-   * Si los alumnos realizan el primer intento y aprueban, el estado se notifica como Completado y Aprobado.
-   * Si los alumnos realizan el primer intento y fallan, el estado se notifica como Incompleto y Fallido , ya que el límite de intentos sigue sin alcanzarse.
-   * Si los alumnos vuelven a realizar la prueba y suspenden, el estado se indica como Completado y Suspendido.
-   * Si los alumnos vuelven a intentar la prueba y la aprueban, el estado se indica como Completado y Aprobado.
+  * Si los alumnos realizan el primer intento y aprueban, el estado se notifica como Completado y Aprobado.
+  * Si los alumnos realizan el primer intento y fallan, el estado se notifica como Incompleto y Fallido , ya que el límite de intentos sigue sin alcanzarse.
+  * Si los alumnos vuelven a realizar la prueba y suspenden, el estado se indica como Completado y Suspendido.
+  * Si los alumnos vuelven a intentar la prueba y la aprueban, el estado se indica como Completado y Aprobado.
 
 ## Establecer criterios de éxito {#setsuccesscriteria}
 

@@ -3,23 +3,24 @@ description: Descubra las nuevas funciones y mejoras de la versión de octubre d
 jcr-language: en_us
 title: Novedades de la versión de octubre de 2025 de Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Novedades de la versión de octubre de 2025 de Adobe Learning Manager
 
 La versión de octubre de 2025 de Adobe Learning Manager presenta importantes mejoras diseñadas para mejorar la precisión de los informes, expandir las capacidades de integración y mejorar la experiencia de aprendizaje para administradores, autores y alumnos.
 
-* Experience Builder: diseña portales de aprendizaje totalmente de marca y basados en funciones que se adapten a las necesidades de tu organización. Crea portales de aprendizaje basados en funciones y de marca con widgets, menús y páginas.
-* Etiquetado social en tableros de aprendizaje: los alumnos ahora pueden etiquetar a sus compañeros con @username en publicaciones y comentarios, lo que permite la colaboración dirigida y las notificaciones dentro de las comunidades de aprendizaje social.
-* Permisos de anuncios con ámbito: los administradores personalizados pueden crear anuncios limitados a sus grupos de usuarios o catálogos asignados, lo que garantiza una comunicación dirigida y reduce la sobrecarga de información.
-* Seguimiento del progreso basado en el idioma: El progreso del alumno ahora se guarda de forma independiente para cada configuración regional, lo que permite un cambio fluido entre los idiomas sin perder el progreso.
-* Administración incremental de funciones personalizadas: los administradores ahora pueden administrar funciones personalizadas de forma más eficaz con compatibilidad para importaciones incrementales y multiincrementales en Adobe Learning Manager.
-* API mejoradas para el análisis y la migración: las API nuevas y mejoradas proporcionan un mejor seguimiento del rendimiento de las pruebas, supervisión del estado de la migración y compatibilidad con el etiquetado de usuarios en el aprendizaje social.
+* Experience Builder: Diseña portales de aprendizaje totalmente de marca y basados en funciones que se adapten a las necesidades de tu organización. Crea portales de aprendizaje basados en funciones y de marca con widgets, menús y páginas.
+* Etiquetado social en tableros de aprendizaje: Los alumnos ahora pueden etiquetar a sus compañeros con @username en publicaciones y comentarios, lo que permite la colaboración dirigida y las notificaciones dentro de las comunidades de aprendizaje social.
+* Permisos de anuncios con ámbito: Los administradores personalizados pueden crear anuncios limitados a sus grupos de usuarios o catálogos asignados, lo que garantiza una comunicación dirigida y reduce la sobrecarga de información.
+* Seguimiento del progreso basado en el idioma: El progreso del alumno ahora se guarda de forma independiente para cada configuración regional, lo que permite cambiar de idioma sin perder el progreso.
+* Administración incremental de funciones personalizadas: Ahora, los administradores pueden gestionar las funciones personalizadas de forma más eficaz con compatibilidad para importaciones incrementales y multiincrementales en Adobe Learning Manager.
+* API mejoradas para el análisis y la migración: Las API nuevas y mejoradas proporcionan un mejor seguimiento del rendimiento de las pruebas, supervisión del estado de la migración y compatibilidad con el etiquetado de usuarios en el aprendizaje social.
 
 ## Experience Builder
 
@@ -28,10 +29,10 @@ Con Experience Builder, los administradores pueden crear páginas, menús y widg
 
 Antes de utilizar Experience Builder, las organizaciones se enfrentaban a varios desafíos:
 
-1. **Personalización limitada**: los portales tenían diseños fijos con pocas opciones para reflejar tu marca. Los administradores solo podían realizar cambios básicos, como modificar encabezados, pies de página o colores, lo que limitaba la capacidad de crear experiencias únicas.
-2. **Costo**: para crear portales personalizados, se requieren desarrolladores caros y cronologías largas, que a menudo tardan de 6 a 9 meses en completarse. Este enfoque aumentó el costo total de propiedad y el retraso en el despliegue.
-3. **Experiencias genéricas**: Todos vieron el mismo contenido, incluso si no era relevante para su función o necesidades. Esta falta de personalización redujo la participación y la satisfacción del alumno.
-4. **Barreras técnicas**: Los administradores no técnicos tuvieron problemas para crear o actualizar portales porque necesitaban conocimientos de codificación o asistencia externa.
+1. **Personalización limitada**: Los portales tenían diseños fijos con pocas opciones para reflejar tu marca. Los administradores solo podían realizar cambios básicos, como modificar encabezados, pies de página o colores, lo que limitaba la capacidad de crear experiencias únicas.
+2. **Costo**: La creación de portales personalizados requería desarrolladores caros y plazos largos, que a menudo tardaban entre 6 y 9 meses en completarse. Este enfoque aumentó el costo total de propiedad y el retraso en el despliegue.
+3. **Experiencias genéricas**: Todos veían el mismo contenido, incluso si no era relevante para su función o necesidades. Esta falta de personalización redujo la participación y la satisfacción del alumno.
+4. **Barreras técnicas**: Los administradores no técnicos tuvieron dificultades para crear o actualizar portales porque necesitaban conocimientos de codificación o asistencia externa.
 
 Experience Builder resuelve estos problemas proporcionando una solución sencilla, sin código y código bajo para crear portales personalizados y de marca.
 
@@ -41,7 +42,7 @@ Permite a los administradores diseñar portales que satisfagan las necesidades d
 
 * **Portales de marca**: Crea un portal que combine el sitio web de tu empresa con logotipos, colores y diseños. Por ejemplo, una empresa del sector sanitario puede diseñar un portal que refleje su marca corporativa mientras distribuye contenido de aprendizaje.
 * **Aprendizaje basado en funciones**: Crea páginas adaptadas a funciones específicas. Los equipos de ventas pueden ver la formación sobre los productos, mientras que los ingenieros acceden a los cursos técnicos.
-* **Formación sobre productos**: configura páginas dedicadas para diferentes productos, como Photoshop o Illustrator, con widgets que muestren cursos, certificaciones y recursos relacionados.
+* **Formación sobre productos**: Configure páginas dedicadas para diferentes productos, como Photoshop o Illustrator, con widgets que muestren Cursos, Certificaciones y recursos relacionados.
 
 Consulta [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md) para obtener más información sobre la creación de páginas personalizadas mediante widgets.
 
@@ -53,9 +54,9 @@ Por ejemplo, si un alumno consigue un progreso del 75 % en la configuración reg
 
 Para resolver estas limitaciones, la función se ha mejorado para admitir el seguimiento del progreso específico de la configuración regional:
 
-* **Almacenamiento específico de la configuración regional**: cuando un alumno cambia la configuración regional (por ejemplo, de la configuración regional A a la B) dentro del reproductor, ahora Adobe Learning Manager guarda el estado de progreso por separado para cada configuración regional del contenido.
-* **Reanudación del progreso**: cuando el usuario vuelve a una configuración regional utilizada anteriormente (de la configuración regional B a la A), el contenido se reanuda desde el punto en el que se detuvo en esa configuración regional específica.
-* **Seguimiento independiente del progreso**: cada configuración regional mantiene su propio estado de progreso, lo que permite a los alumnos explorar el contenido en varios idiomas sin perder el progreso individual en cada idioma.
+* **Almacenamiento específico de la configuración regional**: Cuando un alumno cambia la configuración regional (por ejemplo, de la Ubicación A a la Ubicación B) dentro del reproductor, Adobe Learning Manager ahora guarda el estado de progreso por separado para cada configuración regional del contenido.
+* **Reanudación del progreso**: Cuando el usuario vuelve a una configuración regional utilizada anteriormente (de Configuración regional B a Configuración regional A), el contenido se reanuda desde el punto en el que lo dejó en esa configuración regional específica.
+* **Seguimiento independiente del progreso**: Cada configuración regional mantiene su propio estado de progreso, lo que permite a los alumnos explorar el contenido en varios idiomas sin perder su progreso individual en cada idioma.
 
 Los siguientes tipos de contenido no se admiten para el progreso del alumno según el idioma:
 
@@ -76,9 +77,9 @@ Los administradores ahora pueden cargar archivos de roles y roles de usuario (ro
 
 Se han añadido las siguientes tres columnas adicionales a los siguientes archivos CSV:
 
-* Estado de registro del usuario (user.csv): indica el estado de registro actual del usuario en el sistema (por ejemplo, activo, inactivo o eliminado).
-* Estado de la función (role.csv): indica si una función personalizada está activa o inactiva en la cuenta.
-* Estado de la función de usuario (user_role.csv): define el estado de la asignación entre un usuario y una función, y muestra si la asignación está activa o se ha eliminado.
+* Estado de registro del usuario (user.csv): Indica el estado de registro actual del usuario en el sistema (por ejemplo, activo, inactivo o eliminado).
+* Estado del rol (role.csv): Indica si una función personalizada está activa o inactiva en la cuenta.
+* Estado de la función de usuario (user_role.csv): Define el estado de la asignación entre un usuario y un rol, mostrando si la asignación está activa o se ha eliminado.
 
 Ahora, Adobe Learning Manager captura las acciones de adición, actualización y eliminación en los informes de auditoría de usuarios y de funciones personalizadas, lo que proporciona a los administradores una mayor visibilidad de los cambios.
 
@@ -182,15 +183,15 @@ Los tableros sociales ahora admiten la funcionalidad de etiquetado de usuarios, 
 
 Los usuarios fuera del ámbito del tablero no se pueden etiquetar, lo que evita notificaciones no deseadas. Si se elimina un usuario etiquetado del sistema, su mención aparece como &quot;anónimo&quot;. No se permite etiquetar grupos de usuarios o &quot;@all&quot; para evitar el spam de notificaciones.
 
-* Etiquetado de **@nombre_usuario**: los usuarios pueden etiquetar a otros miembros del tablero usando el formato &quot;@nombre_usuario&quot;.
-* **Etiquetado con ámbito restringido**: solo se pueden etiquetar los usuarios con acceso al tablero específico, lo que garantiza la privacidad y la relevancia.
+* Etiquetado de **@nombre_usuario**: Los usuarios pueden etiquetar a otros miembros del tablero usando el formato &quot;@username&quot;.
+* **Etiquetado con ámbito restringido**: Solo se pueden etiquetar los usuarios con acceso al tablero específico, lo que garantiza la privacidad y la relevancia.
 * **Notificaciones multicanal**: Los usuarios etiquetados reciben notificaciones en la aplicación y por correo electrónico con vínculos directos a publicaciones o comentarios relevantes.
 
 **Casos prácticos**
 
-* Profesionales de la salud que buscan comentarios de colegas específicos sobre casos médicos: el etiquetado permite a los médicos y enfermeros notificar rápidamente a los especialistas adecuados, lo que garantiza un asesoramiento oportuno y preciso sobre casos complejos de pacientes.
-* Expertos en la materia que se consultan sobre temas especializados: Al etiquetar a los expertos, los equipos pueden involucrar directamente a las personas adecuadas, reduciendo el tiempo de respuesta y mejorando la toma de decisiones para consultas técnicas o de nicho.
-* Debates en equipo que requieren aportaciones de interesados específicos: El etiquetado de interesados garantiza que los responsables de la toma de decisiones pertinentes estén al tanto de las actualizaciones y puedan aportar sus opiniones, manteniendo los proyectos en curso y alineados con los objetivos empresariales.
+* Profesionales de la salud que buscan comentarios de colegas específicos sobre casos médicos: El etiquetado permite a los médicos y enfermeros notificar rápidamente a los especialistas adecuados, lo que garantiza un asesoramiento oportuno y preciso sobre casos complejos de pacientes.
+* Expertos en la materia consultados sobre temas especializados: Al etiquetar a los expertos, los equipos pueden involucrar directamente a las personas adecuadas, lo que reduce el tiempo de respuesta y mejora la toma de decisiones para consultas técnicas o de nicho.
+* Debates en equipo que requieran aportaciones de interesados concretos: El etiquetado de las partes interesadas garantiza que los responsables de la toma de decisiones relevantes estén al tanto de las actualizaciones y puedan proporcionar información, manteniendo los proyectos en curso y alineados con los objetivos empresariales.
 
 Vea [Etiquetado de usuarios en tableros sociales](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) para obtener más información sobre el etiquetado de usuarios en tableros sociales.
 
@@ -281,11 +282,11 @@ GET /bulkimport/runStatus
 
 **Parámetros**
 
-* **migrationProjectId**: (obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
+* **migrationProjectId**: (Obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
 
-* **sprintId**: (obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
+* **sprintId**: (Obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
 
-* **sprintRunId**: (obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
+* **sprintRunId**: (Obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
 
 **Respuesta**
 
@@ -365,7 +366,7 @@ Esta versión presenta nuevas funciones de API para admitir menciones de usuario
 
 **Formato de menciones de usuario**
 
-Se menciona a un usuario con el formato: @(usuario:userId)
+Se menciona a un usuario mediante el formato: @(usuario:userId)
 
 #### Crear publicación con menciones
 
@@ -578,7 +579,7 @@ Busque usuarios disponibles para etiquetar según la configuración del ámbito 
 
 
 * q (obligatorio): Término de búsqueda (mínimo 3 caracteres).
-* context: establézcalo en &quot;etiquetado&quot; para que los usuarios puedan recibir menciones.
+* contexto: Establezca &quot;etiquetado&quot; para que los usuarios puedan optar a menciones.
 * boardId (opcional): ID de tablero para filtrar usuarios en función de los permisos de acceso.
 
 **Respuesta**
@@ -607,8 +608,8 @@ La API `GET /loResourceGrades` se ha mejorado para proporcionar datos detallados
 
 La respuesta de la API ahora incluye dos campos adicionales:
 
-* **[!UICONTROL puntuación más alta]**: la mejor puntuación obtenida por un alumno en todos los intentos de prueba
-* **[!UICONTROL maxScore]**: La puntuación total posible de la prueba
+* **[!UICONTROL puntuación más alta]**: La mejor puntuación obtenida por un alumno en todos los intentos de prueba
+* **[!UICONTROL maxScore]**: Puntuación total posible para la prueba
 
 **Ejemplo de respuesta de API**
 
@@ -681,9 +682,9 @@ Se ha introducido el nuevo atributo `reportingUserIdPreference` para que `get /a
 
 En la API de objetos de aprendizaje, se ha actualizado la forma en que se devuelve la información del autor para distinguir entre los cursos con cuentas principales y los cursos compartidos con cuentas de igual a igual:
 
-* Cursos compartidos (cuenta de igual a igual): los detalles del autor ahora se devuelven con un nuevo atributo, `authorDetails`. Este atributo proporciona el nombre de autor aunque el curso se origine en otra cuenta.
+* Cursos compartidos (cuenta de igual a igual): Los detalles del autor ahora se devuelven bajo un nuevo atributo, `authorDetails`. Este atributo proporciona el nombre de autor aunque el curso se origine en otra cuenta.
 
-* Cursos de cuenta principal: la información del autor sigue devolviéndose bajo el atributo `authors` existente, sin cambios en el comportamiento actual.
+* Cursos de cuenta principal: La información del autor sigue devolviéndose bajo el atributo `authors` existente, sin cambios en el comportamiento actual.
 
 Este cambio garantiza la coherencia en la forma en que los datos del autor se exponen a través de la API para los cursos principales y compartidos, al tiempo que conserva la compatibilidad para las integraciones existentes.
 
@@ -710,8 +711,8 @@ Esta mejora corrige una laguna crítica en las transcripciones incrementales de 
 
 Las transcripciones incrementales de alumnos son informes programados que capturan solo los cambios (como finalizaciones o actualizaciones de progreso) que se producen dentro de un período especificado, en lugar de proporcionar un volcado de datos históricos completo. Se suelen utilizar para automatización, paneles e integraciones, lo que permite a los usuarios realizar un seguimiento eficaz de las actividades de aprendizaje recientes sin procesar todo el historial de transcripciones en cada ocasión.
 
-* **Marcar fecha de finalización (zona horaria UTC), columna**: una nueva columna de marca de tiempo que captura la fecha y hora exactas cuando un instructor marca una sesión o módulo como completada.
-* **Seguimiento mejorado del origen de finalización**: realiza un seguimiento del instructor y el módulo específicos (por ejemplo, &quot;Clase&quot;) en los que se registraron las finalizaciones.
+* Columna **Marcar fecha de finalización (zona horaria UTC)**: Una nueva columna de marca de tiempo que captura la fecha y hora exactas en las que un instructor marca una sesión o módulo como completa.
+* **Seguimiento mejorado del origen de finalización**: Realiza un seguimiento del instructor y el módulo específicos (por ejemplo, &quot;Clase&quot;) en los que se grabaron las finalizaciones.
 
 Estos cambios garantizan que las finalizaciones marcadas después de la fecha de la sesión se reflejen con precisión en las transcripciones incrementales de alumnos.
 
@@ -729,8 +730,8 @@ Consulte [Transcripciones de alumnos](/help/migrated/administrators/feature-summ
 
 El informe de usuarios ahora incluye campos adicionales para mejorar el seguimiento de los usuarios y la asignación de la organización. Estas actualizaciones simplifican la identificación de usuarios, admiten la integración con los flujos de trabajo de administración de usuarios descendentes, mejoran la comprensión de las relaciones de creación de informes y mantienen los límites de la organización para evitar la comunicación cruzada accidental.
 
-* Columna ID de usuario interno: proporciona identificadores internos únicos para facilitar el seguimiento de usuarios en diferentes sistemas y puntos finales de API.
-* Columna Correo electrónico del responsable: incluye información de contacto del responsable directo para el seguimiento de la jerarquía organizativa.
+* Columna de ID de usuario interno: Proporciona identificadores internos únicos para realizar un seguimiento del usuario sin problemas en diferentes sistemas y puntos finales de API.
+* Columna Correo electrónico del responsable: Incluye información de contacto del director directo para el seguimiento de la jerarquía organizativa.
 
 ![Informe de usuario que muestra las columnas de correo electrónico del administrador e ID de usuario interno resaltadas en amarillo](/help/migrated/assets/user-report-columns.png)
 _Informes de usuarios que destacan los ID de usuario internos y las direcciones de correo electrónico del administrador para agilizar la administración de usuarios_
@@ -774,8 +775,8 @@ Vea el artículo [Transcripciones de alumnos](/help/migrated/administrators/feat
 
 El informe Ayudas de trabajo se ha mejorado para incluir vínculos de descarga directa a las ayudas de trabajo, lo que simplifica la administración de contenido y los procesos de auditoría para administradores y autores. Esta mejora proporciona descargas directas de archivos y acceso a direcciones URL desde el informe. Elimina el esfuerzo manual de localizar y descargar ayudas de trabajo para auditorías de conformidad o accesibilidad.
 
-* Columna Vínculo de ayuda de trabajo: acceso directo a archivos de ayuda de trabajo y direcciones URL externas desde el informe.
-* Control de acceso basado en funciones: la accesibilidad de los vínculos depende de las funciones del usuario y de los permisos del catálogo.
+* Columna Vínculo de ayuda de trabajo: Acceso directo a archivos de ayudas de trabajo y direcciones URL externas desde el informe.
+* Control de acceso basado en funciones: La accesibilidad de vínculos depende de las funciones de usuario y los permisos del catálogo.
 * Las ayudas de trabajo eliminadas siguen siendo accesibles si siguen vinculadas a cursos activos.
 
 **Casos prácticos**
