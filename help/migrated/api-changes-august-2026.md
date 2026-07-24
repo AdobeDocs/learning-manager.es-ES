@@ -18,7 +18,7 @@ Esta versión agrega tres nuevos puntos finales de API públicas con ámbito de 
 
 Estos puntos finales solo funcionan con grupos de usuarios personalizados. Los grupos administrados por el sistema, como el grupo Todos los usuarios y los grupos de usuarios generados automáticamente, tienen el valor readOnly: true en la respuesta de la API y no se puede modificar ni eliminar a través de estos puntos finales.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de grupos de usuarios
 
@@ -205,7 +205,7 @@ El flujo de trabajo de aprendizaje externo a través de la API refleja el flujo 
 
 Los cinco puntos finales tienen el ámbito del alumno. Un alumno solo puede acceder a sus propios envíos. La API devuelve un error si un alumno intenta acceder a los datos de otro alumno.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de aprendizaje externo
 
