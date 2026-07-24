@@ -359,7 +359,7 @@ Escriba el nombre de la variable directamente entre llaves dobles: {\{variable_n
 | Fecha de inicio de sesión | \{\{sessionDate\}\} |
 | Fecha de finalización de sesión | \{\{endSessionDate\}\} |
 | Hora de inicio de sesión | \{\{sessionTime\}\} |
-| Hora de finalización de sesión | \{endSessionTime\}\} |
+| Hora de finalización de sesión | \{endSessionTime\}\&rbrace; |
 | Nombre del lugar | \{\{venueName\}\} |
 | Información del lugar | \{\{venueInfo\}\} |
 | URL del lugar | \{\{venueURL\}\} |
@@ -368,7 +368,7 @@ Escriba el nombre de la variable directamente entre llaves dobles: {\{variable_n
 | Se requiere una cuenta de proveedor de clase virtual | \{\{VCProviderAccountReq\}\} |
 | Nombre del instructor | \{\{instructorName\}\} |
 | Nombre del módulo | \{\{moduleName\}\} |
-| Nombre del objeto de aprendizaje | \{learningObjectName\}\} |
+| Nombre del objeto de aprendizaje | \{learningObjectName\}\&rbrace; |
 | Fecha de finalización del objeto de aprendizaje | \{\{loCompletionDate\}\} |
 | Nombres de objetos de aprendizaje alternativos | \{\{alternativeLoNameList\}\} |
 | Vínculos de objetos de aprendizaje alternativos | \{\{alternativeLoNameListLinks\}\} |
@@ -376,13 +376,13 @@ Escriba el nombre de la variable directamente entre llaves dobles: {\{variable_n
 | Texto necesario | \{\{preRequisiteText\}\} |
 | Recuento de requisitos previos | \{\{preRequisiteCountText\}\} |
 | Nombre de CI | \{\{ciName\}\} |
-| Nombre del tablero de informes | \{reportDashboardName\}\} |
-| Nombre de ayuda de trabajo | \{jobAidName\}\} |
+| Nombre del tablero de informes | \{reportDashboardName\}\&rbrace; |
+| Nombre de ayuda de trabajo | \{jobAidName\}\&rbrace; |
 | Contenido del anuncio | \{\{advertisingContentText\}\} |
-| Nombre de perfil | \{profileName\}\} |
+| Nombre de perfil | \{profileName\}\&rbrace; |
 | Límite de plazas para el curso | \{\{seatLimit\}\} |
 | Vínculo a la página principal del documento de ayuda | \{\{captivatePrimeHelp\}\} |
-| Vínculo a la página de Ayuda | \{helpPageLink\}\} |
+| Vínculo a la página de Ayuda | \{helpPageLink\}\&rbrace; |
 | Recuento | \{\{count\}\} |
 
 >[!NOTE]

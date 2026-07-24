@@ -127,7 +127,7 @@ Para añadir una ubicación de clase:
 
    ![Pestaña Todas las ubicaciones](assets/all-locations-tab.png)
 
-   *Seleccione la ficha **Todas las ubicaciones**para agregar una ubicación de clase.*
+   *Seleccione la ficha **Todas las ubicaciones**&#x200B;para agregar una ubicación de clase.*
 
 1. Seleccione **Agregar** > **Nueva ubicación** en la esquina superior derecha.
 

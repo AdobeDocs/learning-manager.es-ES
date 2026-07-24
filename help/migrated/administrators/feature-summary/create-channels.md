@@ -43,7 +43,7 @@ Para habilitar la característica **Canales**:
 
    ![Habilitar característica de canales](assets/enable-channels-feature.png)
 
-   *Habilite la característica Canal en la ficha **Configuración**para permitir que los administradores creen canales para la cuenta.*
+   *Habilite la característica Canal en la ficha **Configuración**&#x200B;para permitir que los administradores creen canales para la cuenta.*
 
 1. Habilitar **característica de canal**.
 

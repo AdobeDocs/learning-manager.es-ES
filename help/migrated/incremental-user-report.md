@@ -41,18 +41,18 @@ La exportación de usuarios completa actual (tipo de trabajo generateUsers) devu
 | D de cliente | 7,7 millones de usuarios (migración) |
 
 
-* A estas escalas, la canalización de exportación se ejecuta con un uso de CPU aproximado del 90% mientras se recopilan, procesan y almacenan datos.
-* Los paneles descendentes (PowerBI, Salesforce, integraciones personalizadas) vuelven a ingestar registros de usuarios sin cambios en cada ejecución, lo que hace perder ancho de banda y tiempo de procesamiento.
-* No hay forma de preguntar &quot;¿qué usuarios han cambiado desde mi última exportación?&quot; utilizando la API actual.
+&#x200B;* A estas escalas, la canalización de exportación se ejecuta con un uso de CPU aproximado del 90% mientras se recopilan, procesan y almacenan datos.
+&#x200B;* Los paneles descendentes (PowerBI, Salesforce, integraciones personalizadas) vuelven a ingestar registros de usuarios sin cambios en cada ejecución, lo que hace perder ancho de banda y tiempo de procesamiento.
+&#x200B;* No hay forma de preguntar &quot;¿qué usuarios han cambiado desde mi última exportación?&quot; utilizando la API actual.
 
 ## Cuándo usar informes incrementales
 
 Utilice la exportación incremental cuando necesite mantener sincronizado un sistema externo con los datos de usuario de Adobe Learning Manager. Casos de uso típicos:
 
-* Mantener actualizado un panel de la empresa (PowerBI, Tableau, SFDC) con los cambios del perfil de usuario.
-* Alimentando los sistemas de gestión de identidades descendentes con cambios de roles, estados o metadatos.
-* Ejecución de canalizaciones de sincronización delta nocturnas u horarias en lugar de recargas completas.
-* Reducción de los costes de transferencia de datos y carga de API para cuentas con millones de usuarios.
+&#x200B;* Mantener actualizado un panel de la empresa (PowerBI, Tableau, SFDC) con los cambios del perfil de usuario.
+&#x200B;* Alimentando los sistemas de gestión de identidades descendentes con cambios de roles, estados o metadatos.
+&#x200B;* Ejecución de canalizaciones de sincronización delta nocturnas u horarias en lugar de recargas completas.
+&#x200B;* Reducción de los costes de transferencia de datos y carga de API para cuentas con millones de usuarios.
 
 Utilice la exportación completa (generateUsers) cuando necesite una línea de base autorizada, por ejemplo, en la primera configuración o después de un intervalo prolongado entre sincronizaciones.
 
@@ -73,9 +73,9 @@ El informe CSV de usuarios actuales se envía como un trabajo a través de la AP
 
 La carga útil admite tres filtros opcionales:
 
-* `expandMetadata`: pase true para exportar metadatos como una columna independiente.
-* `fetchActiveUsers` - Pass true para exportar solo usuarios activos.
-* `peerAccountId` : para generar el informe de usuario para una cuenta de igual a igual.
+&#x200B;* `expandMetadata`: pase true para exportar metadatos como una columna independiente.
+&#x200B;* `fetchActiveUsers` - Pass true para exportar solo usuarios activos.
+&#x200B;* `peerAccountId` : para generar el informe de usuario para una cuenta de igual a igual.
 
 ## Columnas CSV
 
@@ -129,9 +129,9 @@ Tipo de trabajo: generarUsuarios. Solo función de administrador.
 
 ## limitaciones
 
-* Sin filtrado basado en fechas: cada ejecución exporta a todos los usuarios.
-* No factible para grandes cuentas: agotamiento de recursos de canalización por encima de ~1 millón de usuarios.
-* Sin capacidad incremental o delta.
+&#x200B;* Sin filtrado basado en fechas: cada ejecución exporta a todos los usuarios.
+&#x200B;* No factible para grandes cuentas: agotamiento de recursos de canalización por encima de ~1 millón de usuarios.
+&#x200B;* Sin capacidad incremental o delta.
 
 ## Informe de usuarios incrementales (generateUserIncrementalReport)
 
@@ -174,13 +174,13 @@ Un usuario se incluye en un informe incremental si cambia alguno de los siguient
 
 Los siguientes campos aparecen en la salida de CSV, pero no activan la inclusión en una exportación incremental cuando cambian:
 
-* excludeFromGamification
-* pointsEarned
-* lastLoginDate
-* dateDeleted
-* dateCreated
-* userSource
-* lastSocialActivityDate
+&#x200B;* excludeFromGamification
+&#x200B;* pointsEarned
+&#x200B;* lastLoginDate
+&#x200B;* dateDeleted
+&#x200B;* dateCreated
+&#x200B;* userSource
+&#x200B;* lastSocialActivityDate
 
 ## Formato de salida
 
@@ -313,16 +313,16 @@ Paso 4: Repita el proceso hasta que una respuesta devuelva menos de 500.000 regi
 
 El ámbito del informe de usuario incremental es intencionado. Las siguientes funciones están fuera del ámbito:
 
-* No es un informe de auditoría de usuarios: no enumera los campos específicos que han cambiado.
-* Sin comparación de valores antiguos/nuevos: el informe muestra solo los valores de campo actuales.
-* Sin marcas de tiempo por cambio: no aparece la hora de las modificaciones de campo individuales.
-* Sin indicación del número de cambios: un usuario modificado una vez y un usuario modificado diez veces aparecen de forma idéntica en la exportación.
-* El formato del informe existente no cambia: la estructura de columnas del archivo CSV es la misma que la del informe completo del usuario.
+&#x200B;* No es un informe de auditoría de usuarios: no enumera los campos específicos que han cambiado.
+&#x200B;* Sin comparación de valores antiguos/nuevos: el informe muestra solo los valores de campo actuales.
+&#x200B;* Sin marcas de tiempo por cambio: no aparece la hora de las modificaciones de campo individuales.
+&#x200B;* Sin indicación del número de cambios: un usuario modificado una vez y un usuario modificado diez veces aparecen de forma idéntica en la exportación.
+&#x200B;* El formato del informe existente no cambia: la estructura de columnas del archivo CSV es la misma que la del informe completo del usuario.
 
 ## Integración de conectores
 
 El informe de usuarios incremental está diseñado para usarse en conectores de Adobe Learning Manager (PowerBI, Salesforce y otros) como reemplazo desplegable para el informe de usuarios completo en canalizaciones de sincronización regulares. Esto permite que los conectores que utilizan actualmente generateUsers migren al modelo incremental sin cambios en el esquema de datos descendente.
 
-* El archivo CSV de salida es compatible con columnas con el informe completo del usuario.
-* Los conectores pueden utilizar el informe incremental para la sincronización delta y volver al informe completo para el inicio o la recuperación.
-* Compatibilidad con la integración de conectores (PowerBI, SFDC)
+&#x200B;* El archivo CSV de salida es compatible con columnas con el informe completo del usuario.
+&#x200B;* Los conectores pueden utilizar el informe incremental para la sincronización delta y volver al informe completo para el inicio o la recuperación.
+&#x200B;* Compatibilidad con la integración de conectores (PowerBI, SFDC)
