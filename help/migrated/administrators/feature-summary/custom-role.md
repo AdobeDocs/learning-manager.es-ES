@@ -4,16 +4,20 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '3475'
-ht-degree: 40%
+source-wordcount: '5437'
+ht-degree: 25%
 
 ---
 
 # Funciones personalizadas
 
 Esta función le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
+
+Adobe Learning Manager permite a los administradores completos delegar responsabilidades de administración de funciones personalizadas en administradores personalizados de confianza, incluida la creación, edición y asignación de funciones personalizadas, sin otorgarles credenciales de administrador completas. Esta capacidad permite a los administradores personalizados administrar otras funciones sin sobrecargar a los administradores con tareas. Esto se controla mediante el nivel de permisos **Avanzado** en la sección **Usuarios** de una definición de función personalizada. Consulte [Qué desbloquea el permiso de usuario avanzado](#advanced-user) para obtener más información.
+
+Las organizaciones utilizan esta capacidad para delegar la administración de funciones rutinarias a los administradores personalizados designados. Por ejemplo, para permitir que un equipo dedicado cree y asigne funciones de editor o autor de forma continua, o para permitir que un equipo de operaciones limpie las cuentas de los usuarios que han abandonado la organización. Esto evita la necesidad de dar a esos equipos acceso completo de administrador, lo que conlleva privilegios más amplios de los que requieren sus responsabilidades.
 
 Puede crear una función personalizada para proporcionar capacidades de autoría limitadas a un catálogo en particular. También puede crear una función destinada a gestionar informes. Dichas funciones después pueden asignarse a las personas que, se supone, asumirán estas responsabilidades.
 
@@ -29,11 +33,11 @@ Los autores personalizados pueden realizar las siguientes tareas:
 
 * Accede a la biblioteca de contenido para añadir, editar o eliminar contenido principal.
 * Crear, editar y eliminar:
-   * Cursos
-   * Ayudas de trabajo
-   * Certificaciones
-   * Rutas de aprendizaje
-   * Planes de aprendizaje
+  * Cursos
+  * Ayudas de trabajo
+  * Certificaciones
+  * Rutas de aprendizaje
+  * Planes de aprendizaje
 
 Los administradores y autores, incluidos los administradores personalizados y los autores personalizados, podrán compartir objetos de aprendizaje (LO) en catálogos compartidos externamente. Los administradores y los autores deben poder buscar catálogos compartidos externamente al crear objetos de aprendizaje (LO).
 
@@ -282,6 +286,207 @@ Un usuario con una función personalizada puede:
 
    * Un administrador personalizado con permiso en Configuración podrá configurar la programación para sincronizar o sincronizar usuarios desde la fuente de datos aunque no tenga permiso para la entidad Usuarios.
    * Si un administrador personalizado tiene permiso en la entidad Usuarios, los usuarios se pueden asignar a sí mismos la función de administrador y convertirse en administradores estándar.
+
+## <a id="advanced-user"></a>Qué desbloquea el permiso de usuario avanzado {#whatadvanceduserpermissionunlocks}
+
+Cuando un administrador completo habilita el acceso **Avanzado** en **Usuarios** en una función personalizada, el administrador personalizado obtiene acceso a cuatro secciones adicionales: **Funciones personalizadas**, **Registros de importación**, **Campos activos** y **Limpieza de usuarios**.
+
+Hay dos niveles de acceso disponibles:
+
+* **Solo lectura**: el administrador personalizado puede ver información y descargar informes, pero no puede realizar cambios.
+* **Control total**: el administrador personalizado puede crear, editar y eliminar funciones personalizadas, importar usuarios y purgar usuarios eliminados.
+
+### Herencia de permisos y ámbito
+
+Cuando un administrador personalizado crea una nueva función personalizada o modifica una existente, los permisos y el ámbito que puede asignar se limitan a lo que ellos mismos poseen. Un administrador personalizado no puede conceder a un rol permisos que excedan los suyos propios y no puede extender el ámbito de un rol más allá de su propio ámbito asignado.
+
+Esto significa que un administrador personalizado con acceso a un catálogo específico solo puede crear funciones con ámbito para ese catálogo o un subconjunto del mismo. Del mismo modo, solo pueden asignar los permisos que poseen personalmente a las funciones que crean.
+
+Al asignar usuarios a una función que haya creado, puede buscar y agregar cualquier usuario de la cuenta. Los permisos relacionados con el usuario en funciones personalizadas siempre se aplican al ámbito completo del grupo de usuarios y al ámbito completo del catálogo. El ámbito de catálogo o grupo de usuarios no se aplica cuando una función personalizada incluye permisos de administración de usuarios.
+
+Si un administrador completo reduce el ámbito o quita un permiso de la función, las funciones que haya creado anteriormente no se verán afectadas de inmediato. Esas funciones seguirán funcionando con sus permisos existentes hasta que se abra un administrador completo que las guarde individualmente.
+
+## Otorgar permisos de usuario avanzado a una función personalizada
+
+Los administradores completos realizan este procedimiento para habilitar la administración de usuarios ampliada para una función personalizada.
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+2. Seleccione **Usuarios** en la barra de navegación izquierda y, a continuación, seleccione **Funciones personalizadas**.
+3. Seleccione **Crear función personalizada** para crear una nueva función o seleccione una función existente para editarla.
+4. En **Privilegios de cuenta**, busque la sección **Usuarios**.
+5. En la sección **Usuarios avanzados**, seleccione **Solo lectura** o **Control total** en función del nivel de acceso requerido.
+6. Agregue usuarios a la función en la sección **Usuarios**.
+7. Seleccione **Guardar**.
+
+Los usuarios asignados ahora pueden acceder a las secciones **Funciones personalizadas**, **Campos activos**, **Registros de importación** y **Limpieza de usuario** al iniciar sesión.
+
+## Qué pueden hacer los administradores personalizados con el acceso de solo lectura
+
+### Importar registros
+
+Los administradores personalizados con acceso de solo lectura pueden ver todos los registros de importación de la cuenta. El botón **Agregar** no está disponible. No se pueden iniciar nuevas importaciones.
+
+### Limpieza de usuarios
+
+La sección **Limpieza de usuarios** está disponible en modo de solo vista. Los administradores personalizados pueden:
+
+* Ver la lista de usuarios eliminados
+* Buscar usuarios específicos
+* Filtrar usuarios eliminados por mes de eliminación
+* Ver otros usuarios de la cuenta
+
+No hay acciones, como purgar, disponibles en **acceso de solo lectura**.
+
+### Funciones personalizadas
+
+Los administradores personalizados pueden ver todas las definiciones de funciones personalizadas de la cuenta, incluidos sus permisos asignados y las listas de usuarios. Pueden descargar el informe de funciones personalizadas. No pueden editar, crear ni eliminar ningún rol.
+
+## Qué pueden hacer los administradores personalizados con el acceso de Control total
+
+**Importar registros**
+
+Los administradores personalizados con Control total pueden ver todos los registros y agregar o importar nuevos usuarios a través de CSV.
+
+**Limpieza de usuarios**
+
+Control total proporciona acceso a todas las acciones de limpieza del usuario:
+
+* Ver, buscar y filtrar usuarios eliminados por mes de eliminación
+* Seleccionar usuarios individuales o seleccionar todos
+* Purgar usuarios eliminados del sistema
+* Buscar y purgar otros usuarios
+
+**Funciones personalizadas**
+
+Los administradores personalizados con Control total pueden:
+
+* Crear nuevas funciones personalizadas, con permisos iguales o inferiores a los suyos propios
+* Editar funciones personalizadas existentes
+* Eliminar funciones personalizadas
+* Asignar usuarios a funciones personalizadas
+* Quitar usuarios de funciones personalizadas
+* Descargar el informe de funciones personalizadas
+* Filtrar la lista de funciones por **Todas**, **Creadas a partir de la interfaz de usuario** o **Creadas a partir del archivo CSV**
+
+>[!NOTE]
+>
+>Los administradores personalizados no pueden agregarse a otra función y tampoco pueden editar su propia función con permisos más altos.
+
+>[!IMPORTANT]
+>
+>Las funciones creadas por un administrador personalizado pueden incluir acceso a funciones personalizadas, incluido el permiso de usuario avanzado que habilita la administración de funciones personalizadas. Esto significa que un administrador personalizado con Control total puede crear funciones que otorguen a otros usuarios las mismas funciones de funciones personalizadas que tienen. Los permisos disponibles durante la creación de la función siguen sujetos al modelo de delegación estándar. El administrador personalizado solo puede asignar los permisos que posean personalmente, a menos que la cuenta tenga habilitada la administración de funciones ampliada.
+
+### Ejemplo: creación de funciones con ámbito como administrador personalizado
+
+Un administrador completo concede a un administrador personalizado Control total con acceso a dos catálogos de productos. A continuación, el administrador personalizado:
+
+1. Crea una función de editor con ámbito en el primer catálogo y le asigna autores
+1. Crea una segunda función de editor con ámbito en el segundo catálogo y asigna un conjunto diferente de autores
+1. Asigna a los nuevos autores, que se unen al equipo, la función adecuada sin involucrar al administrador completo
+
+Cada función que crea el administrador personalizado hereda un subconjunto de los permisos del administrador personalizado. Los autores asignados a estas funciones pueden acceder al contenido de sus respectivos catálogos y publicarlo. No pueden administrar funciones personalizadas por sí mismos, porque la sección Funciones personalizadas no está disponible en las funciones creadas por los administradores personalizados.
+
+## Comparación de capacidades
+
+| Sección | Solo lectura | Control total |
+|---|---|---|
+| Registros de importación: ver registros | ✓ | ✓ |
+| Registros de importación: añadir o importar usuarios mediante CSV | — | ✓ |
+| Limpieza de usuarios: ver usuarios eliminados, buscar, filtrar | ✓ | ✓ |
+| Limpieza de usuarios: purgar usuarios eliminados | — | ✓ |
+| Funciones personalizadas: ver todas las funciones y definiciones | ✓ | ✓ |
+| Funciones personalizadas: descargar informe de funciones personalizadas | ✓ | ✓ |
+| Funciones personalizadas: crear, editar y eliminar roles | — | ✓ |
+| Funciones personalizadas: asignar y quitar usuarios | — | ✓ |
+
+## Retrocompatibilidad
+
+Si una cuenta tiene funciones personalizadas existentes con acceso **avanzado** habilitado, dichas funciones incluyen automáticamente acceso a los registros de importación cuando se actualiza la cuenta. Si el acceso avanzado está deshabilitado actualmente en una función, no hay ningún cambio. El papel sigue comportándose como antes.
+
+>[!NOTE]
+>
+>Si las opciones de acceso avanzado están habilitadas para los usuarios, revise qué funciones tienen este privilegio y confirme que dichas funciones están pensadas para conservarlo.
+
+## Seguimiento de auditoría de cambios de funciones personalizadas
+
+Todos los cambios en las funciones personalizadas, incluidas la creación, la edición, la eliminación y la asignación de usuarios, se registran en el informe de auditoría de funciones personalizadas. El informe de auditoría ahora muestra el nombre de la función personalizada responsable de cada cambio, en lugar de una etiqueta de administrador genérico. No se requiere ninguna configuración para habilitar este comportamiento.
+
+Los administradores completos pueden acceder al informe de auditoría desde la sección **Informes**.
+
+## Casos prácticos del mundo real
+
+### Equipo de administración de roles
+
+Una gran organización tiene un equipo dedicado que se encarga de crear y asignar funciones de autor de contenido en docenas de catálogos de productos. Anteriormente, cada nueva función requería un administrador completo para crearla. Con el acceso de Control total, el equipo de administración de funciones puede crear funciones de editor y autor con ámbito en catálogos específicos, asignar nuevos autores y administrar dichas funciones de forma independiente, sin que intervenga ningún administrador completo en las operaciones rutinarias.
+
+### Operaciones de RR. HH. y gestión del ciclo de vida del usuario
+
+Un equipo de operaciones de RR. HH. se encarga de limpiar las cuentas cuando los empleados abandonan la organización. Deben purgar usuarios eliminados con regularidad, pero no deben tener acceso al contenido del curso, los datos del alumno ni la configuración del sistema. La concesión del acceso de Control total avanzado, cuyo ámbito se limita únicamente a la administración de usuarios, proporciona al equipo de HR el acceso específico que necesita para la limpieza e importación de usuarios sin exponer ninguna otra función administrativa.
+
+### Equipo de cumplimiento y auditoría
+
+Un equipo de auditoría interna debe revisar periódicamente qué funciones personalizadas existen, qué permisos incluyen y quién desempeña cada función. Con el acceso de solo lectura, el equipo de auditoría puede ver todas las definiciones de función y descargar el informe de funciones personalizadas para su revisión, pero no puede modificar nada.
+
+## Qué pueden hacer los administradores personalizados
+
+Los siguientes procedimientos se aplican a los administradores personalizados con acceso de **Control total**. Inicie sesión como administrador personalizado y vaya a **Usuarios** > **Funciones personalizadas** para empezar.
+
+### Revisar las funciones personalizadas existentes
+
+1. Seleccione **Usuarios** > **Funciones personalizadas**.
+1. Utilice el menú desplegable de filtros para reducir la lista:
+
+   * **Todos**: cada función de la cuenta
+   * **Creado desde la interfaz de usuario**: funciones creadas manualmente
+   * **Creado desde CSV**: funciones importadas mediante CSV
+
+1. Seleccione un nombre de función para abrir su definición completa, incluidos los permisos, el ámbito y los usuarios asignados.
+
+### Crear una nueva función personalizada
+
+1. Seleccione **Usuarios** > **Funciones personalizadas** y, a continuación, seleccione **Crear función**.
+1. Introduzca un nombre para el rol.
+1. En **Privilegios de cuenta**, configure los permisos. Sólo los permisos dentro de su propio ámbito están disponibles para su selección. Los permisos fuera de su ámbito aparecen deshabilitados.
+1. Establezca el ámbito de catálogo y de grupo de usuarios para la función.
+1. En la sección **Usuarios**, busque y agregue los usuarios que desempeñarán esta función.
+1. Seleccione **Guardar**.
+
+>[!NOTE]
+>
+>No puede agregarse a un rol que cree y no puede crear un rol con permisos que excedan los suyos propios. Si un permiso está deshabilitado durante la creación de la función, queda fuera del ámbito actual.
+
+### Editar una función personalizada
+
+1. Seleccione **Usuarios** > **Funciones personalizadas** y abra la función que desea actualizar.
+1. Seleccione **Editar**.
+1. Actualice el nombre, los permisos, el ámbito o las asignaciones de usuario según sea necesario.
+1. Seleccione **Guardar**.
+
+>[!NOTE]
+>
+>No puede editar los permisos de su propia función personalizada. Póngase en contacto con un administrador completo si necesita realizar cambios en su propia función.
+
+### Asignar usuarios a una función personalizada
+
+1. Abra la función personalizada de **Usuarios** > **Funciones personalizadas**.
+1. En la sección **Usuarios**, busque el usuario que desea agregar.
+1. Seleccione el usuario para agregarlo a la función.
+1. Seleccione **Guardar**.
+
+### Quitar usuarios de una función personalizada
+
+1. Abra la función personalizada de **Usuarios** > **Funciones personalizadas**.
+1. En la sección **Usuarios**, busque el usuario que desea quitar.
+1. Seleccione la acción de eliminación junto a su nombre.
+1. Seleccione **Guardar**.
+
+### Purgar usuarios eliminados
+
+1. Seleccione **Usuarios** en la barra de navegación izquierda.
+1. Seleccione **Limpieza de usuarios**.
+1. Utilice el campo de búsqueda o el filtro de mes de eliminación para localizar a los usuarios que desea eliminar.
+1. Marque la casilla de verificación junto a los usuarios individuales o seleccione **Seleccionar todo** para seleccionar todos los resultados.
+1. Seleccione **Acciones** > **Purgar usuario**.
 
 ## Asignar varias funciones personalizadas a un usuario
 
@@ -656,12 +861,29 @@ Si un administrador cambia los puntos de nivel, los informes muestran niveles de
 
 El restablecimiento de la interacción no restablece la fecha de nivel alcanzado.
 
-## Preguntas más frecuentes {#frequentlyaskedquestions}
+## Preguntas frecuentes
 
-+++¿Cómo crear una función personalizada?
+**¿Qué sucede si un administrador completo quita un permiso de mi función personalizada?**
 
-Una función personalizada es como un subconjunto de la función de autor o administrador. Permitir uno o varios privilegios, definir el ámbito y asignar la función a un usuario.
+Su función conserva sus permisos existentes hasta la próxima vez que se abra un administrador completo y guarde su definición de función. El cambio no surte efecto inmediatamente. Sus permisos actuales seguirán en vigor hasta que se modifique y guarde explícitamente su función.
 
-Haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Funciones personalizadas]**. En la página Roles personalizados, haga clic en **[!UICONTROL Crear función]**. Introduzca el nombre de la función personalizada y establezca los privilegios de la función. Para obtener más información, consulte [Creación de una cuenta personalizada](custom-role.md#create-role).
-+++
+**¿Puedo conceder acceso al catálogo de funciones a los catálogos a los que no puedo acceder?**
+
+No. El ámbito de cualquier función que cree se limita a los catálogos y grupos de usuarios dentro de su propio ámbito. No puede crear una función con un acceso más amplio del que tiene, a menos que el administrador haya configurado su cuenta para permitir la administración de funciones ampliada.
+
+**¿Cuál es la diferencia entre Solo lectura y Control total?**
+
+**Solo lectura** te permite ver **Funciones personalizadas**, Campos activos, **Registros de importación** y **Limpieza de usuarios**. Puede examinar, buscar y descargar informes, pero no puede realizar ninguna acción. **Control total** te ofrece todas esas funciones, además de la posibilidad de crear, editar y eliminar funciones, importar usuarios mediante CSV, asignar y eliminar usuarios de funciones y purgar usuarios eliminados.
+
+**¿Puedo dar a un rol los mismos permisos que tengo para crear?**
+
+Sí. Puede asignar los permisos que tenga personalmente a las funciones que cree. No puede exceder su propio conjunto de permisos, pero puede crear funciones con el mismo nivel de acceso que tiene, o cualquier subconjunto del mismo.
+
+**¿El seguimiento de auditoría muestra quién soy cuando realizo cambios?**
+
+Sí. En el informe de auditoría se enumera la función personalizada como origen de cada cambio. Esto significa que los administradores completos pueden ver qué función personalizada ha realizado cada cambio en el sistema.
+
+**¿Qué sucede con las funciones existentes cuando esta característica está habilitada para la cuenta?**
+
+Las funciones personalizadas existentes con acceso **Avanzado** ya habilitado obtienen acceso automáticamente a **Registros de importación**. El resto del comportamiento existente no cambia. Los roles que no tienen el acceso avanzado habilitado no se ven afectados.
 

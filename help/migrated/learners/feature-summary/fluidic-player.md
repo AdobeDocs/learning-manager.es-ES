@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Reproductor Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 48%
+source-wordcount: '650'
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 Lea este artículo para saber cómo usar el reproductor Fluidic para los cursos.
 
-El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido con una experiencia de aprendizaje mixta y sin interrupciones. Todos los formatos compatibles se reproducen de forma coherente en este reproductor. Los autores y los administradores pueden obtener una vista previa del contenido con el reproductor.
+El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido con una experiencia de aprendizaje mixta y sin interrupciones. Todos los formatos admitidos se reproducen de manera consistente en este reproductor. Los autores y los administradores pueden obtener una vista previa del contenido con el reproductor.
 
 ## Funciones del reproductor {#playerfeatures}
 
@@ -38,7 +38,7 @@ El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido
 * Haga clic en Regresar cuando el curso esté en estado Completo.
 * Haga clic en Continuar cuando el curso esté en estado Incompleto.
 
-**Pantalla completa** Haga clic en el icono Pantalla completa en la esquina inferior derecha del reproductor para ver el curso en la ventana de pantalla completa.
+**Pantalla completa** Haga clic en el icono de pantalla completa en la esquina inferior derecha del reproductor para ver el curso en una ventana de pantalla completa.
 
 **Botones de navegación** Utilice las flechas hacia arriba/abajo para moverse por las diapositivas del contenido en PDF, DOCX y PPTX. Las flechas de la diapositiva pueden utilizarse para desplazarse a los siguientes temas para todos los tipos de contenido.
 
@@ -62,7 +62,7 @@ Después de salir del curso, puedes volver a visitarlo haciendo clic en el botó
 
 **Reproducción automática**: El reproductor Fluidic de Adobe Learning Manager no tiene una opción integrada para impedir que los vídeos se reproduzcan automáticamente. La reproducción automática de un vídeo depende de la configuración del navegador, no del reproductor en sí.
 
-El reproductor Fluidic también se puede incrustar en un sitio web o una aplicación externos mediante la API de Learning Manager.
+El reproductor Fluidic también se puede incrustar en una aplicación o un sitio web externo con la API de Learning Manager.
 
 El reproductor Fluidic para dispositivos móviles dispone de las siguientes funciones:
 
@@ -70,3 +70,18 @@ El reproductor Fluidic para dispositivos móviles dispone de las siguientes func
 * Si la barra de navegación no interactúa con, desaparecerá después de 3 segundos.
 * La barra de navegación permanecerá activa hasta que se cierren los elementos del menú de navegación (TDC, Notas, Configuración).
 
+**Compatibilidad con 11 idiomas**: El reproductor Fluidic admite 11 idiomas. Estos son:
+
+| Idioma | Territorio | Identificador de IBM |
+|---|---|---|
+| Árabe | Arabia Saudí | ar-SA |
+| Chino-tradicional | Hong Kong S.A.R. de China | zh-Hant-HK |
+| Chino-tradicional | Taiwán | zh-Hant-TW |
+| Checo | República Checa | cs-CZ |
+| Danés | Dinamarca | da-DK |
+| Hebreo | Israel | he-IL |
+| Húngaro | Hungría | hu-HU |
+| Indonesio | Indonesia | id-ID |
+| Rumano | Rumanía | ro-RO |
+| Tailandés | Tailandia | th-TH |
+| Ucraniano | Ucrania | uk-UA |

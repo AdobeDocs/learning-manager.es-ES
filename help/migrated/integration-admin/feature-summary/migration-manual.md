@@ -3,10 +3,10 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 52%
+source-wordcount: '7489'
+ht-degree: 44%
 
 ---
 
@@ -545,8 +545,8 @@ Captura la información de finalización a nivel de usuario para objetos de apre
 
 * Todos los datos relacionados con la equivalencia deben introducirse mediante la migración.
 * El sistema no admitirá escenarios en los que:
-   * Los datos de objetos de aprendizaje (cursos/programas de aprendizaje) se crearon a través de la interfaz de usuario y
-   * Las relaciones de equivalencia se importan posteriormente solo mediante CSV.
+  * Los datos de objetos de aprendizaje (cursos/programas de aprendizaje) se crearon a través de la interfaz de usuario y
+  * Las relaciones de equivalencia se importan posteriormente solo mediante CSV.
 
 Esto significa:
 
@@ -934,7 +934,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 * **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
 * El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
 * El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
-* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+* El archivo CSV de sesión **1} crea sesiones de clase virtual con detalles del sistema de conferencia**
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
@@ -1054,3 +1054,213 @@ Solucionar errores comunes de migración
 | La fila de la sesión falla con un error de metadatos | Compruebe que todos los nombres de clave JSON del campo `metadata` utilizan exactamente camelCase. Las claves distinguen entre mayúsculas y minúsculas. |
 | Los equipos `isCompletionCriteria` no tienen ningún efecto | El indicador de la función de criterios de finalización para equipos debe habilitarlo el administrador de la cuenta de ALM para que los valores de migración surtan efecto. |
 | Se ha creado la fila de sesión pero el campo del instructor está vacío | Si el correo electrónico del instructor proporcionado no coincide con un usuario de ALM, la sesión se crea con un campo de instructor vacío. Verifique que el correo electrónico del instructor exista en ALM antes de cargar. |
+
+## Migrar módulos LTI {#migrationofltimodules}
+
+### Información general
+
+La migración LTI amplía el flujo de trabajo de migración existente y no requiere archivos de migración adicionales. Los registros de asociación de cursos, módulos y módulos existentes siguen utilizando el formato de migración estándar. La información específica de LTI se suministra a través de los datos de la versión del módulo.
+
+### Usar archivos para la migración a LTI
+
+Los módulos LTI se migran utilizando los archivos de migración estándar.
+
+Los siguientes archivos siguen utilizando el formato de migración existente:
+
+* course.csv
+* module.csv
+* course_module.csv
+
+No se requieren campos específicos de LTI en estos archivos. Las opciones específicas de LTI se configuran en el archivo `module_version.csv`.
+
+### Configurar una versión del módulo LTI
+
+Utilice el archivo `module_version.csv` para definir las propiedades de una versión de módulo LTI.
+
+Además de los campos existentes admitidos en `module_version.csv`, Adobe Learning Manager admite valores y atributos específicos de LTI.
+
+#### contentType
+
+Utilice el valor `LTI` en el campo `contentType` para identificar la versión del módulo como módulo LTI.
+
+*Campo y valor utilizados para identificar una versión del módulo LTI*
+
+| **Campo** | **Valor** |
+|-------------|-----------|
+| contentType | LTI |
+
+#### MultiLaunchUrl
+
+Especifica la dirección URL de inicio del proveedor LTI externo.
+
+Cuando un alumno inicia el módulo en Adobe Learning Manager, se le redirige al punto final de LTI configurado.
+
+*Campo utilizado para especificar la dirección URL de inicio del proveedor LTI externo*
+
+| **Campo** | **Descripción** |
+|--------------|--------------------------------------------------|
+| MultiLaunchUrl | URL de inicio proporcionada por la plataforma LTI externa |
+
+#### MultiCustomParams
+
+Especifica parámetros de inicio personalizados que se pasan al proveedor LTI durante el inicio.
+
+Utilice este campo cuando la plataforma externa requiera parámetros de configuración o contexto de inicio adicionales.
+
+*Campo utilizado para pasar parámetros de inicio personalizados al proveedor de LTI*
+
+| **Campo** | **Descripción** |
+|-----------------|------------------------------------------------------------|
+| MultiCustomParams | Parámetros personalizados pasados a la plataforma LTI durante el inicio |
+
+#### tpName
+
+Especifica el nombre del proveedor de LTI de terceros asociado al módulo.
+
+*Campo utilizado para identificar el proveedor de LTI de terceros*
+
+| **Campo** | **Descripción** |
+|-----------|-----------------------------------------------------------------|
+| tpName | Nombre del proveedor de LTI de terceros asociado al módulo |
+
+### Ejemplo de versión del módulo LTI
+
+En el ejemplo siguiente se muestra un registro de versión de módulo configurado para un módulo LTI:
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+En este ejemplo:
+
+* La versión del módulo se identifica como un módulo LTI mediante el valor `contentType=LTI`.
+* La dirección URL de inicio señala al proveedor LTI externo.
+* Los parámetros de inicio personalizados se proporcionan mediante `ltiCustomParams`.
+* El proveedor se identifica mediante el campo `tpName`.
+
+### Migración de un módulo LTI
+
+Para migrar un módulo LTI:
+
+1. Cree el registro del curso en `course.csv`.
+2. Cree el registro de módulo en `module.csv`.
+3. Asocie el curso y el módulo en `course_module.csv`.
+4. Agregue los detalles de la versión del módulo en `module_version.csv`.
+5. Establezca el valor `contentType` en `LTI`.
+6. Proporcione la URL de inicio de LTI y cualquier parámetro de inicio opcional.
+7. Ejecute el sprint de migración.
+
+El marco de migración procesa el módulo LTI como parte del flujo de trabajo de migración estándar.
+
+### Validar versiones del módulo LTI
+
+Al crear versiones del módulo LTI:
+
+* Use el valor `LTI` para el campo `contentType`.
+* Proporcione una dirección URL de inicio válida en el campo `ltiLaunchUrl`.
+* Especifique el nombre del proveedor externo en el campo `tpName`.
+* Asegúrese de que el módulo esté asociado a un curso a través de los archivos de migración estándar.
+* Siga todos los requisitos de migración de versiones de módulos existentes y las reglas de validación documentadas para `module_version.csv`.
+
+El sistema de migración aplica el flujo de trabajo de procesamiento de migración estándar además de los campos específicos de LTI.
+
+## Migrar cursos adaptables
+
+Si está migrando cursos desde un sistema externo a Adobe Learning Manager y desea configurarlos como cursos adaptables con visibilidad a nivel de módulo y reglas de finalización por grupo de usuarios, puede utilizar dos archivos CSV para definir tanto los cursos como sus reglas adaptables.
+
+### Lo que necesita migrar
+
+La migración de un curso adaptable requiere dos cambios en su paquete CSV de migración estándar:
+
+* **Actualización de** _course.csv_: una nueva columna que marca un curso como adaptable
+* **Un nuevo archivo,** _course_ module_user_group.csv_: una fila por regla de módulo a grupo de usuarios
+
+Ambos archivos deben incluirse en el mismo proyecto de migración.
+
+### Actualizar course.csv
+
+Añada la columna isAdaptive al archivo course.csv.
+
+| **Columna** | **Valores** | **Descripción** |
+| --- | --- | --- |
+| isAdaptive | verdadero o en blanco | Se establece en true para cursos adaptables. Déjelo en blanco o establézcalo en false para los cursos normales. |
+
+El resto de columnas de course.csv no se modifican.
+
+**Ejemplo de orden de columnas:**
+
+* id
+* courseName
+* descripción
+* courseCreationDate
+* state
+* secuencial
+* autor
+* thumbnailUrl
+* etiquetas
+* isAdaptive
+
+>[!NOTE]
+>
+>La columna isAdaptive es opcional para los cursos normales. Si se omite o se deja en blanco, el curso se trata como un curso normal.
+
+### Añadir course_module_user_group.csv
+
+Se trata de un nuevo archivo CSV que define las reglas de visibilidad adaptable y finalización para cada módulo de cada curso adaptable. Cada fila asigna un módulo a un grupo de usuarios con un tipo de regla.
+
+| **Columna** | **Descripción** |
+| --- | --- |
+| courseId | El identificador de origen del curso (debe coincidir con el id de course.csv). |
+| moduleId | El identificador de origen del módulo (debe coincidir con el identificador del módulo en los archivos del módulo) |
+| userGroupId | El ID de Adobe Learning Manager del grupo de usuarios al que se aplica esta regla. |
+| tipo | OBLIGATORIO: el grupo de usuarios debe completar este módulo para completar el curso. OPCIONAL: el grupo de usuarios puede ver y acceder a este módulo, pero no es necesario para completarlo. |
+| operación | AGREGAR: cree o actualice esta regla. DELETE: elimine esta regla. |
+
+**Ejemplo de orden de columnas:**
+
+* courseId
+* moduleId
+* userGroupId
+* tipo
+* operación
+
+### Reglas para el archivo
+
+* Cada módulo de contenido de un curso adaptable debe tener al menos una fila en este archivo. Un módulo sin reglas no está visible para ningún alumno.
+* Los módulos previos al trabajo y los módulos de prueba no requieren reglas. Se aplican automáticamente a todos los alumnos inscritos y no deben aparecer en este archivo.
+* Puede tener varias filas para el mismo módulo. Uno por grupo de usuarios.
+* Si envía una fila ADD para una regla que ya existe en el sistema, la regla existente se actualiza en lugar de crear un duplicado.
+
+### Cargar pedido
+
+Los archivos de su proyecto de migración deben cargarse y procesarse en el orden siguiente. Los archivos posteriores dependen de los datos creados por archivos anteriores y fallarán si no se sigue el orden.
+
+* **module.csv**: Definir los módulos
+* **module_version.csv**: Definir las versiones del módulo
+* **course.csv**: (con isAdaptive=true para cursos adaptables): cree los cursos
+* **course_module.csv**: Vincular módulos a cursos
+* **course_module_user_group.csv**: Aplicar reglas de visibilidad y finalización adaptables
+
+Descargue los archivos de migración aquí: [Archivos de migración de cursos adaptables](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** debe cargarse en último lugar. Las reglas de este archivo hacen referencia a un curso y a un módulo que deben estar vinculados al paso 4 para poder aplicar las reglas.
+
+### Validación y referencia de error
+
+Adobe Learning Manager valida todas las filas de course_module_user_group.csv antes de aplicar las reglas. Cualquier fila que no supere la validación se rechaza con un mensaje de error. Las filas válidas restantes se siguen procesando.
+
+| **Escenario** | **Qué sucede** | **Mensaje de error** |
+| --- | --- | --- |
+| Reglas proporcionadas para un curso que no está marcado como adaptable | Fila rechazada | El curso debe ser adaptable para tener reglas de visibilidad del contenido. ID del curso: {courseId} |
+| Curso marcado como adaptable, pero sin reglas para ninguno de sus módulos de contenido | Curso rechazado | El curso adaptable debe tener al menos una regla de visibilidad para cada módulo de contenido. ID del curso: {courseId} no tiene reglas para los módulos: {moduleIds} |
+| El módulo no está vinculado al curso | Fila rechazada | El módulo {moduleId} no está vinculado al curso {courseId}. Añada el módulo al curso a través de course_module.csv en primer lugar. |
+| El módulo es un módulo de trabajo previo o de prueba (no un módulo de contenido) | Fila rechazada | Las reglas de visibilidad solo se aplican a los módulos de tipo de contenido. El módulo {moduleId} tiene el tipo {actualType}. |
+| El grupo de usuarios no existe o está inactivo | Fila rechazada | No se encontró el grupo de usuarios {userGroupId} o está inactivo. |
+| El valor de tipo no es OBLIGATORIO ni OPCIONAL | Fila rechazada | Tipo &#39;{type}&#39; no válido. Debe ser OBLIGATORIO u OPCIONAL. |
+| El valor de la operación no es ADD ni DELETE | Fila rechazada | Operación &#39;{operation}&#39; no válida. Debe ser ADD o DELETE. |
+| ADD se ha enviado para una regla que ya existe | Regla actualizada silenciosamente | Sin error: la regla existente se actualiza con el nuevo valor de tipo. |
+

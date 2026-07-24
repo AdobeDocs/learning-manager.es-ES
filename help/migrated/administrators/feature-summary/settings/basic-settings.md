@@ -2,13 +2,13 @@
 description: Obtenga más información sobre cómo la configuración básica le ayuda a adaptar Adobe Learning Manager a la estructura de su organización y a la experiencia del alumno
 jcr-language: en_us
 title: Configuración básica
-source-git-commit: c5fa60b3c08d4ec007d632febb353e3c8da234ba
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
 workflow-type: tm+mt
-source-wordcount: '4494'
-ht-degree: 5%
+source-wordcount: '5914'
+ht-degree: 4%
 
 ---
-
 
 # Configuración básica en Adobe Learning Manager
 
@@ -85,31 +85,31 @@ Adobe Learning Manager le permite personalizar las preguntas en función de si e
 **Para Cursos Con Ritmo Personalizado**:
 
 * **Pregunta obligatoria**: El cuestionario incluye una pregunta obligatoria, &quot;¿Qué probabilidad hay de que recomiende este curso a un compañero?&quot;. Esta es una pregunta estándar de la puntuación de promotor neto (NPS) que proporciona una métrica clave para la satisfacción general del curso.
-* **Personalizar preguntas**: revise la lista de preguntas proporcionadas. Para incluir una pregunta en el formulario de comentarios, asegúrese de que el conmutador situado junto a ella esté establecido en Sí. Para eliminar una pregunta, cambie a No.
-* **Agregar preguntas personalizadas**: si tiene preguntas adicionales específicas para su contenido con ritmo personalizado, seleccione el vínculo Agregar más para crear y agregar nuevas instrucciones personalizadas al cuestionario.
+* **Personalizar preguntas**: Revise la lista de preguntas proporcionadas. Para incluir una pregunta en el formulario de comentarios, asegúrese de que el conmutador situado junto a ella esté establecido en Sí. Para eliminar una pregunta, cambie a No.
+* **Agregar preguntas personalizadas**: Si tiene preguntas adicionales específicas para su contenido con ritmo personalizado, seleccione el vínculo Agregar más para crear y agregar nuevas declaraciones personalizadas al cuestionario.
 
 ![texto alt](../settings/assets/Picture5.png)
 
 **Para Cursos De Clase**:
 
-* **Personalizar preguntas**: revise la lista de preguntas adaptadas para la formación en el aula. Cambie el conmutador junto a cada pregunta a Sí para incluirla o a No para excluirla del formulario de comentarios.
-* **Agregar preguntas personalizadas**: Para agregar nuevas preguntas que sean específicas de su entorno de clase o estilo de facilitación, seleccione el vínculo Agregar más para crearlas y agregarlas a la lista.
+* **Personalizar preguntas**: Revise la lista de preguntas adaptadas a la formación en el aula. Cambie el conmutador junto a cada pregunta a Sí para incluirla o a No para excluirla del formulario de comentarios.
+* **Agregar preguntas personalizadas**: Para añadir nuevas preguntas específicas de su entorno de clase o estilo de facilitación, seleccione el vínculo Añadir más para crearlas y añadirlas a la lista.
 
 **Configurar recordatorios de comentarios**
 
 Para maximizar las tasas de respuesta, es recomendable configurar los recordatorios automatizados. Este paso muestra cómo configurar y programar estos recordatorios, definiendo cuándo se envían, con qué frecuencia se repiten y durante cuánto tiempo. Al recordar de forma proactiva a los alumnos, puedes aumentar considerablemente la cantidad de comentarios que recopilas.
 
-1. **Agregar un nuevo recordatorio**: En la sección **[!UICONTROL Recordatorios de comentarios de L1]**, seleccione **[!UICONTROL Agregar nuevo recordatorio]**.
+1. **Agregar un nuevo recordatorio**: En la sección **[!UICONTROL Recordatorios de comentarios de L1]**, selecciona **[!UICONTROL Agregar nuevo recordatorio]**.
 
    ![texto alt](../settings/assets/Picture6.png)
 
 2. **Definir programación de recordatorio**: En el panel **Configuración de recordatorio** que aparece, usa los menús desplegables y los campos de entrada para configurar el recordatorio:
 
-   a. **[!UICONTROL Cuándo enviar]**: Selecciona si el recordatorio se envía **[!UICONTROL Al finalizar el curso]** o **[!UICONTROL Después de finalizar el curso]**.
-b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del aviso (por ejemplo, Cada semana).
-c. **[!UICONTROL Durante]**: especifique la duración total (en semanas) para la que se enviarán los recordatorios (por ejemplo, 4 semanas).
+   a. **[!UICONTROL Cuándo enviar]**: Seleccione si el recordatorio se envía **[!UICONTROL Al finalizar el curso]** o **[!UICONTROL Después de finalizar el curso]**.
+   b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del recordatorio (por ejemplo, Cada semana).
+   c. **[!UICONTROL Para]**: Especifique la duración total (en semanas) para la que se enviarán los recordatorios (por ejemplo, 4 semanas).
 
-3. **[!UICONTROL Guarda el recordatorio]**: Selecciona el icono de marca de verificación azul para guardar la nueva configuración del recordatorio. Puede repetir este proceso para añadir más recordatorios, si es necesario.
+3. **[!UICONTROL Guarde el recordatorio]**: Seleccione el icono de marca de verificación azul para guardar la nueva configuración de recordatorio. Puede repetir este proceso para añadir más recordatorios, si es necesario.
 
    ![texto alt](../settings/assets/Picture7.png)
 
@@ -125,7 +125,7 @@ Seleccione la ficha Comentarios de L3 en la página Configuración de comentario
 
 **Revisar la instrucción de comentarios**
 
-Los comentarios de L3 se solicitan al responsable del alumno como una única declaración con la que puede estar de acuerdo o en desacuerdo. La declaración predeterminada que se proporciona es: &quot;El rendimiento del empleado ha mostrado una clara mejora después de recibir la formación&quot;. Puede editar esta declaración para adaptarla mejor a las necesidades de su organización.
+Los comentarios de L3 se solicitan al responsable del alumno como una única declaración con la que puede estar de acuerdo o en desacuerdo. La instrucción predeterminada proporcionada es: &quot;El rendimiento del empleado ha mostrado una clara mejora después de recibir la formación&quot;. Puede editar esta declaración para adaptarla mejor a las necesidades de su organización.
 
 ![texto alt](../settings/assets/Picture8.png)
 
@@ -139,8 +139,8 @@ Para garantizar que los gestores proporcionen comentarios puntualmente, debes co
 
 1. **[!UICONTROL Agregar un nuevo recordatorio]**: Para crear un nuevo recordatorio, selecciona el vínculo **[!UICONTROL Agregar nuevo recordatorio]**.
 2. **[!UICONTROL Definir programación de recordatorio]**: En el panel **[!UICONTROL Configuración de recordatorio]**, seleccione los menús desplegables y los campos de entrada para configurar el recordatorio:
-a. **[!UICONTROL Cuándo enviar]**: selecciona cuándo se envía el recordatorio. Las opciones son: **[!UICONTROL Al finalizar el curso]** y **[!UICONTROL Después de finalizar el curso]**.
-b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del recordatorio. Si la periodicidad es **[!UICONTROL Once]**, significa que el administrador recibirá una notificación para proporcionar comentarios. Las opciones disponibles son: Una, Cada día, Cada semana y Cada mes.
+a. **[!UICONTROL Cuándo enviar]**: Seleccione cuándo se enviará el recordatorio. Las opciones son: **[!UICONTROL Al finalizar el curso]** y **[!UICONTROL Después de finalizar el curso]**.
+b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del recordatorio. Si la periodicidad es **[!UICONTROL Una vez]**, significa que el administrador recibirá una notificación para proporcionar comentarios. Las opciones disponibles son: Una, Cada día, Cada semana y Cada mes.
 3. Después de configurar la programación, seleccione el icono de marca de verificación azul para guardar la configuración del recordatorio. El recordatorio aparece en la lista de recordatorios existentes.
 
    ![texto alt](../settings/assets/Picture9.png)
@@ -160,7 +160,7 @@ Las principales opciones generales configurables incluyen:
 * **Funciones de participación de alumnos:** Puede habilitar o deshabilitar funciones como el **foro de debate** para comentarios del curso, las aptitudes de orígenes externos para alumnos y **mensajes de correo electrónico de resumen** para mantener a los alumnos informados sobre el contenido nuevo y el progreso.
 * **Administración de contenido y cursos:** La configuración permite configurar **varios intentos** para el aprendizaje electrónico interactivo, agregar **identificadores únicos de objetos de aprendizaje** al contenido y establecer el comportamiento predeterminado para las **actualizaciones de la versión del módulo**.
 * **Administración de usuarios:** Habilita **Registración automática de usuarios** para agregar automáticamente nuevos usuarios al sistema y **Eliminar automáticamente usuarios internos** que hayan estado inactivos durante un período especificado.
-* **Personalización y visualización**: tienes control sobre lo que ven los alumnos, como habilitar o deshabilitar los **paneles de filtro** para realizar búsquedas, mostrar **etiquetas de catálogo** y personalizar hasta tres **vínculos de pie de página**.
+* **Personalización y presentación**: Tienes control sobre lo que ven los alumnos, como habilitar o deshabilitar **paneles de filtro** para realizar búsquedas, mostrar **etiquetas de catálogo** y personalizar hasta tres **vínculos de pie de página**.
 
 ### Moderación de los cursos
 
@@ -238,6 +238,10 @@ Adobe Learning Manager dispone de cierta terminología de producto para definir 
 
 Consulte Terminología del producto en Adobe Learning Manager para obtener más información.
 
+### Créditos
+
+Cuando esta opción está activada, los autores y los instructores pueden registrar el número de créditos de instrucciones para cada sesión o módulo. Los créditos representan el tiempo dedicado a las instrucciones en el que se acreditará a un alumno para completar la actividad. Los valores de crédito aparecen en transcripciones de alumnos, informes de aprendizaje y contribuyen a los cálculos de la duración total de las rutas de aprendizaje. Si deshabilita esta configuración, los valores de crédito introducidos anteriormente se conservan y se restauran si se vuelve a activar la configuración.
+
 ### Actualización de la versión del módulo
 
 Esta opción permite a los administradores actualizar el contenido de un módulo sin interrumpir el progreso de los alumnos que ya se han inscrito en cursos que contienen ese módulo. Esto garantiza que los alumnos puedan continuar su recorrido de aprendizaje sin problemas, mientras que los autores pueden mantener el contenido actualizado. Con la opción activada, los autores pueden cargar una nueva versión de un módulo (por ejemplo, paquetes SCORM, AICC o xAPI) para sustituir la existente.
@@ -260,6 +264,10 @@ Esta opción elimina usuarios si no acceden a Adobe Learning Manager durante un 
 * Los usuarios internos que han estado inactivos durante un período de tiempo definido se eliminan automáticamente.
 * Se notifica a los usuarios antes de la eliminación, lo que les da la oportunidad de iniciar sesión y evitar la eliminación.
 * Para que se les restablezca el acceso, el usuario eliminado deberá ponerse en contacto con el administrador de la cuenta.
+
+### Purgar automáticamente usuarios eliminados
+
+Elimine automática y permanentemente del sistema a los usuarios que hayan estado en estado eliminado durante un período de tiempo especificado. Una vez purgados, todos los datos de usuario asociados se eliminan de forma permanente y no se pueden recuperar.
 
 ### Mostrar etiquetas de catálogo
 
@@ -300,16 +308,16 @@ Esta opción le permite personalizar la sección de pie de página de la aplicac
 
 A continuación se explica cómo personalizar los vínculos de pie de página:
 
-1. **[!UICONTROL Agregar vínculos]**: selecciona **[!UICONTROL Agregar más]** e introduce el nombre y la URL o el ID de correo electrónico en los campos especificados. Asegúrese de que la URL vaya precedida de http:// o https://.
-2. **[!UICONTROL Replicar en todas las configuraciones regionales]**: selecciona **[!UICONTROL Replicar]** para aplicar los cambios en cascada en todas las configuraciones regionales, asegurando que todos los idiomas obtengan el mismo nombre y URL.
+1. **[!UICONTROL Agregar vínculos]**: Selecciona **[!UICONTROL Añadir más]** e introduce el nombre y la URL o el ID de correo electrónico en los campos especificados. Asegúrese de que la URL vaya precedida de http:// o https://.
+2. **[!UICONTROL Replicar en diferentes configuraciones regionales]**: Seleccione **[!UICONTROL Replicar]** para aplicar los cambios en cascada en todas las configuraciones regionales, asegurándose de que todos los idiomas tengan el mismo nombre y URL.
 3. Seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
 
 ![texto alt](../settings/assets/Picture13.png)
 
 **Opciones adicionales:**
 
-* Restablecer valores predeterminados: seleccione el icono Restablecer para volver a los valores predeterminados en los campos Ayuda y Contactar con el administrador.
-* Personalizar para todos los idiomas: seleccione un idioma de la lista desplegable y, a continuación, agregue el nombre y la dirección URL de ese idioma. Guarde los cambios para actualizar los vínculos del pie de página para el idioma seleccionado.
+* Restablecer valores predeterminados: Seleccione el icono Restablecer para volver a los valores predeterminados en los campos Ayuda y Contactar con el administrador.
+* Personalizar para todos los idiomas: Seleccione un idioma de la lista desplegable y, a continuación, agregue el nombre y la dirección URL de ese idioma. Guarde los cambios para actualizar los vínculos del pie de página para el idioma seleccionado.
 
 ### Zona horaria del informe
 
@@ -365,8 +373,8 @@ Esta opción garantiza que los autores puedan seleccionar instructores para una 
 
 **Características principales:**
 
-* Restringir la selección del instructor: solo se pueden asignar sesiones a los usuarios con la función de instructor.
-* Impacto en los flujos de trabajo de migración: esta restricción no se aplica a los flujos de trabajo de migración.
+* Restringir la selección del instructor: Solo se pueden asignar a las sesiones los usuarios con la función de instructor.
+* Impacto en los flujos de trabajo de migración: Esta restricción no se aplica a los flujos de trabajo de migración.
 
 ### Vista previa del módulo
 
@@ -391,9 +399,218 @@ Esta función es especialmente útil para las organizaciones que venden varios a
 
 **Características principales:**
 
-* Compras múltiples: los alumnos pueden añadir varios artículos a su carrito y comprarlos en una transacción. Consulte Carrito de varios elementos para obtener más información.
-*Pago optimizado: reduce la necesidad de que los alumnos realicen compras por separado para cada elemento de formación.
-* Administración de SKU: los administradores pueden gestionar las SKU de los cursos, las rutas de aprendizaje y las certificaciones para garantizar un seguimiento y unos informes adecuados.
+* Compras múltiples: Los alumnos pueden añadir varios elementos a su carro y comprarlos en una transacción. Consulte Carrito de varios elementos para obtener más información.
+*Pago optimizado: Reduce la necesidad de que los alumnos realicen compras por separado para cada elemento de formación.
+* Administración de SKU: Los administradores pueden gestionar SKU de cursos, rutas de aprendizaje y certificaciones para garantizar un seguimiento y unos informes adecuados.
+
+### Alternar cursos/rutas
+
+Cuando los alumnos completan un curso o una ruta, otro conjunto especificado de cursos o rutas se puede marcar como completado mediante una alternativa. Esto resulta útil cuando los cursos cubren contenido equivalente o superpuesto. Por ejemplo, cuando un curso nuevo reemplaza a una versión anterior o cuando existen variantes regionales del mismo curso. Los alumnos no se inscriben automáticamente en los cursos o rutas marcados como completados mediante una alternativa y solo recibirán créditos, insignias y puntos por el curso o ruta que realmente han completado. Las finalizaciones alternativas aparecen en la transcripción del alumno y cuentan en cualquier ruta de aprendizaje o certificación que incluya el curso alternativo.
+
+**Activar finalizaciones retroactivas (Irreversible)**
+Si los alumnos han completado un curso o una ruta con anterioridad y, posteriormente, se añade otro curso o ruta en Cursos o rutas alternativos, estos también se marcarán como completados mediante rutas alternativas para los alumnos. Esto se aplica retroactivamente a todas las finalizaciones pasadas, no solo a las inscripciones futuras. Utilice esta opción cuando desee que las finalizaciones históricas se cuenten en los cursos alternativos recién añadidos. Una vez que se ha activado, no se puede desactivar.
+
+**Activar retroactivo incompleto (Irreversible)**
+Si se elimina un curso o una ruta de cursos o rutas alternativos, los alumnos marcados anteriormente como completados mediante rutas alternativas se marcarán como incompletos. Esto afecta a todos los alumnos cuya finalización se basó únicamente en la alternativa, no a los alumnos que completaron el curso directamente. Su transcripción reflejará el estado incompleto actualizado. Una vez que se ha activado, no se puede desactivar.
+
+### Visibilidad del libro de calificaciones
+
+Cuando está activada, los autores pueden controlar la visibilidad del libro de calificaciones en el nivel del curso, lo que permite a los alumnos ver sus puntuaciones ponderadas del módulo, la puntuación agregada del curso y el estado de aprobado/suspenso directamente en el reproductor del curso. Si esta configuración está deshabilitada en el nivel de cuenta, los alumnos no podrán ver el libro de calificaciones en ningún curso, independientemente de cómo se configuren los cursos individuales. Las puntuaciones y los cálculos del libro de calificaciones se siguen ejecutando en segundo plano para fines de informes del administrador incluso cuando la visibilidad del alumno está desactivada.
+
+**Habilitar la vista Libro de calificaciones para alumnos**
+
+Activa el permiso de nivel de cuenta que permite a los autores mostrar u ocultar el libro de calificaciones por curso. Una vez activada, los autores ven la opción Mostrar libro de calificaciones a los alumnos en el editor del curso. Los alumnos verán una ficha Libro de calificaciones en el reproductor del curso para cualquier curso en el que el autor la haya activado. Al deshabilitar esta configuración en el nivel de cuenta, se reemplazan todas las configuraciones de nivel de curso. Los alumnos no verán el libro de calificaciones en ningún curso hasta que se vuelva a habilitar la configuración.
+
+### Aprendizaje externo
+
+Cuando esta opción está habilitada, los alumnos pueden enviar y realizar el seguimiento de las actividades de aprendizaje completadas fuera de Adobe Learning Manager, como certificaciones, talleres, conferencias y cursos externos, directamente desde su tablero de aprendizaje. El responsable directo del alumno revisa y aprueba los envíos antes de que se registren. Una vez aprobada, la actividad de aprendizaje externa se añade a la transcripción del alumno y cuenta para el registro de aprendizaje general del alumno. Los administradores pueden configurar los campos que los alumnos deben rellenar al enviar una actividad de aprendizaje externa, incluidos los campos personalizados específicos de su organización.
+
+**Habilitar**
+
+Activa la función Aprendizaje externo para todos los alumnos de la cuenta. Una vez activado, el formulario de envío estará disponible en el tablero del alumno. Los alumnos pueden introducir detalles como el nombre del curso de formación, la duración, la fecha, la puntuación y la prueba de finalización. El envío se envía a su responsable para su revisión y aprobación. Los envíos aprobados aparecen en la transcripción del alumno y en los informes del administrador. Los envíos rechazados no se registran en la transcripción.
+
+>[!NOTE]
+>
+>Al activar esta configuración, se añaden nuevas columnas a la transcripción del alumno para los envíos de aprendizaje externos. Si su organización utiliza flujos de trabajo automatizados o integraciones que procesan datos de transcripciones de alumnos, revíselos antes de habilitarlos para garantizar la compatibilidad con la estructura de transcripciones actualizada.
+
+El aprendizaje externo es un tipo de actividad de aprendizaje para la formación fuera de la plataforma. Los alumnos lo utilizan para registrar la formación que no existe en Adobe Learning Manager, como un examen de certificación del sector, una conferencia profesional, una sesión de tutoría o un curso académico.
+
+1. Un **alumno** rellena un formulario de envío con detalles sobre su formación externa y, opcionalmente, carga una prueba de finalización.
+
+2. El **responsable** del alumno recibe una notificación para revisar el envío y lo aprueba o rechaza con un comentario opcional.
+
+3. Tras la aprobación, el envío se agrega a **Transcripción del alumno**, donde los administradores pueden verlo e informar sobre él.
+
+Este flujo de trabajo permite a las organizaciones combinar la formación obligatoria sobre el cumplimiento en la plataforma con el aprendizaje ad hoc y autodirigido que sus empleados completan en el mundo real, así como realizar el seguimiento de ambos en un único sistema.
+
+El aprendizaje externo es una función configurable. Los administradores controlan si está disponible para los alumnos, qué campos aparecen en el formulario de envío y si cada campo es obligatorio u opcional. Se pueden añadir campos personalizados para capturar información específica de la organización, como un tipo de formación o un número de referencia de certificado.
+
+### Ciclo de vida del estado de envío
+
+Cada envío de aprendizaje externo se mueve a través de un conjunto definido de estados:
+
+| **Estado** | **Significado** |
+|-------------------|--------------------------------------------------------------------------------|
+| Esperando aprobación | El alumno ha enviado la solicitud; está pendiente de revisión por parte del responsable. |
+| Aprobado | El gerente ha aprobado la presentación; aparece en la transcripción del alumno. |
+| Rechazado | El gerente ha rechazado el envío; el alumno puede enviar una nueva solicitud. |
+
+Un alumno puede editar un envío mientras está en estado **Pendiente de aprobación**. Una vez que un responsable toma medidas, el envío ya no se puede editar. Si se rechaza un envío, el alumno envía una nueva solicitud de aprendizaje externa en lugar de editar la rechazada.
+
+### Disponibilidad y visibilidad de las funciones
+
+Los administradores controlan la disponibilidad de aprendizaje externo a través de una única configuración de nivel de cuenta:
+
+**Cuando el aprendizaje externo está habilitado:**
+
+* Los alumnos ven la pestaña **Aprendizaje externo** en la navegación y pueden enviar nuevas solicitudes
+* Los responsables ven la pestaña **Aprendizaje externo** en el panel de su equipo y pueden revisar los envíos
+* Las transcripciones de administradores y alumnos incluyen datos de aprendizaje externos para los envíos aprobados
+
+**Cuando el aprendizaje externo está deshabilitado:**
+
+* Los alumnos que no tienen envíos anteriores no ven ninguna interfaz de aprendizaje externa
+
+* Los alumnos que tienen envíos anteriores pueden ver su historial y su estado de envío, pero no pueden crear nuevos envíos
+
+* Los responsables conservan el acceso a la pestaña Aprendizaje externo si su equipo ha enviado contenido anteriormente; de lo contrario, se elimina la pestaña
+
+* Los datos de transcripción existentes para los envíos aprobados no se ven afectados
+
+#### Campos principales
+
+Estos campos están disponibles para todas las cuentas de forma predeterminada. Los administradores pueden elegir qué campos mostrar en el formulario de envío del alumno y marcarlos como obligatorios u opcionales.
+
+| **Campo** | **Tipo** | **Notas** |
+| --- | --- | --- |
+| Título | Texto | El nombre del aprendizaje externo, curso o certificación. |
+| Descripción/notas | Texto | El alumno puede añadir detalles sobre el contexto o proveedor de formación. |
+| Fecha/Intervalo de fechas | Fecha/hora | Fecha de inicio, fecha de finalización o ambas. Admite horas, minutos, semanas, meses, días o años. |
+| Duración | Duración (horas) | Tiempo dedicado a la formación externa. |
+| Puntuación | Número | La puntuación recibida por el alumno, si procede. |
+| Archivos adjuntos | Carga de archivos | Prueba de finalización. El alumno puede enviar un certificado, una transcripción u otra documentación. |
+
+#### Campos personalizados
+
+Los administradores pueden añadir hasta 10 campos personalizados para capturar información adicional específica de la organización. Los campos personalizados admiten los siguientes tipos:
+
+| **Tipo** | **Descripción** |
+|------------|------------------------------------------------------------------|
+| Texto | Entrada de texto con formato libre. |
+| Número | Entrada numérica. |
+| Casilla | Conmutador sencillo sí/no. |
+| Lista desplegable | Selección única de una lista de opciones definida por el administrador. |
+
+### Requisitos del archivo de prueba de finalización
+
+* **Tipos de archivo compatibles:** PDF, DOC, DOCX, PNG, JPEG, JPG
+
+* **Tamaño máximo de archivo:** 50 MB por archivo adjunto
+
+#### Qué controlan los administradores para el aprendizaje externo
+
+El aprendizaje externo está **deshabilitado de forma predeterminada** para todas las cuentas. Debe habilitarla explícitamente para que los alumnos puedan enviar solicitudes o los responsables puedan ver la ficha de revisión.
+
+Cuando se activa el aprendizaje externo:
+
+* Los alumnos obtienen acceso a la pestaña **Aprendizaje externo** y pueden enviar nuevas solicitudes
+
+* Los responsables obtienen acceso a la pestaña de revisión de **Aprendizaje externo**
+
+* Las transcripciones de administradores y alumnos obtienen las columnas de informes para las actividades de aprendizaje externas aprobadas. Una vez que se activa el aprendizaje externo, esto puede afectar a los informes de transcripciones de alumnos. Si su organización utiliza datos de transcripciones de alumnos para la automatización, revise y actualice cualquier flujo de trabajo dependiente para tener en cuenta los nuevos campos y registros de aprendizaje externos.
+
+Cuando se desactiva el aprendizaje externo una vez que se ha estado utilizando:
+
+* Los nuevos envíos de alumnos están bloqueados
+
+* Se pueden editar los alumnos con una aprobación pendiente enviada.
+
+* Los responsables con envíos anteriores aún pueden actuar sobre las solicitudes pendientes
+
+* No se modifican los datos de transcripción de los envíos aprobados anteriormente
+
+* Puede volver a activar la función en cualquier momento. No se pierde ningún dato cuando la función está desactivada.
+
+#### Activar o desactivar el aprendizaje externo
+
+**Precaución:** Al habilitar el aprendizaje externo, se agregan nuevas columnas a la transcripción del alumno administrador: **Nombre de aprendizaje externo**, **Comentario de finalización** y todos los campos personalizados configurados para tu cuenta. Las columnas de campos personalizados aparecen al final de la transcripción.
+
+Si su organización utiliza la transcripción del alumno en canalizaciones de informes descendentes o flujos de trabajo automatizados, actualice esos sistemas para gestionar las nuevas columnas antes de activar esta función.
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+
+2. En el panel de navegación izquierdo, seleccione **Configuración**.
+
+3. Seleccione **General**.
+
+4. Desplácese hasta la sección **Aprendizaje externo**.
+
+5. Seleccione la casilla de verificación **Habilitar aprendizaje externo** para habilitar la función.
+
+6. Seleccione **Guardar**.
+
+Los alumnos ahora pueden enviar solicitudes de aprendizaje externas. Sus responsables recibirán notificaciones en la plataforma cuando se creen envíos.
+
+Para desactivar la función, siga los mismos pasos y desactive la opción.
+
+#### Configurar el formulario de aprendizaje externo
+
+Después de activar la función, configure los campos que aparecen en el formulario de envío del alumno.
+
+1. En **Configuración > General**, abra la sección **Aprendizaje externo**.
+
+2. En **Configuración de formulario**, revise la lista de campos predeterminados.
+
+3. Seleccione la casilla de verificación junto a cada campo para mostrarlo u ocultarlo en el formulario del alumno.
+
+4. Para cada campo visible, selecciona **Obligatorio** para controlar si los alumnos deben completarlo antes de enviarlo.
+
+5. Seleccione **Guardar**.
+
+**Nota:** El campo **Título** siempre es obligatorio y no se puede ocultar ni convertir en opcional.
+
+El formulario de envío de alumnos refleja inmediatamente los cambios. Los envíos existentes no se ven afectados por los cambios de configuración del formulario.
+
+#### Agregar y administrar campos personalizados
+
+Puede añadir hasta 10 campos personalizados para capturar información específica de su organización.
+
+**Agregar un campo personalizado**
+
+1. En **Configuración > General**, abra la sección **Aprendizaje externo**.
+
+2. Expanda **Campos personalizados**.
+
+3. Seleccione **Nuevo campo**.
+
+4. Seleccione un **tipo de campo**: **Texto**, **Número**, **Casilla de verificación** o **Lista desplegable**.
+
+   1. Si selecciona **Lista desplegable**, introduzca la lista de valores entre los que los alumnos pueden elegir. Puede añadir hasta 100 valores desplegables.
+
+   2. Escriba el nombre del campo y, opcionalmente, su descripción.
+
+5. Seleccione o anule la selección de la opción **Obligatorio** para los nuevos campos personalizados.
+
+6. Seleccione **Guardar**.
+
+El nuevo campo aparece inmediatamente en el formulario de envío del alumno.
+
+**Editar un campo personalizado**
+
+1. En **Configuración > General**, abra la sección **Aprendizaje externo**.
+
+2. Junto al campo personalizado que desee editar, seleccione **Editar**.
+
+3. Actualice el nombre del campo o, en el caso de los campos desplegables, agregue, edite o quite valores.
+
+4. Seleccione **Guardar**.
+
+La edición de un nombre de campo o valores desplegables no cambia los datos ya capturados en los envíos existentes. Solo los envíos nuevos utilizan las etiquetas y opciones actualizadas.
+
+**IMPORTANTE**
+
+Una vez agregado un campo personalizado, no se puede eliminar. Solo puede editarlo. Si desea que un campo no aparezca en el formulario de un alumno, desmarque el campo.
+
 
 ### Configuración del reproductor
 
@@ -404,11 +621,11 @@ Esta opción permite a los autores personalizar el reproductor Fluidic para dife
 Esta opción permite a los responsables marcar la finalización del curso, la certificación o la ruta de aprendizaje para su personal. Esta función es útil en situaciones en las que los alumnos han completado la formación fuera de la plataforma o necesitan la intervención manual para actualizar su progreso.
 Los responsables pueden marcar la finalización del curso mediante:
 
-* Módulo Lista de comprobación: el módulo Lista de comprobación permite a los responsables evaluar el rendimiento de los alumnos en función de tareas o criterios específicos. Los autores deben habilitar este módulo durante la creación del curso y asignar responsables como revisores.
-* Página del curso: en la página del curso:
+* Módulo Lista de comprobación: El módulo Lista de comprobación permite a los responsables evaluar el rendimiento de los alumnos en función de tareas o criterios específicos. Los autores deben habilitar este módulo durante la creación del curso y asignar responsables como revisores.
+* Página del curso: En la página del curso:
 a.    Seleccione la pestaña **[!UICONTROL Alumnos]** en el panel izquierdo.
 b.    Seleccione el alumno cuya asistencia desea marcar.
-c.    Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Marcar finalización]**.
+c. Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Marcar finalización]**.
 
 **Notas adicionales:**
 
@@ -459,11 +676,3 @@ Las aptitudes de los proveedores de contenido externos se añaden al repositorio
 2. Seleccione un proveedor de contenido en el menú desplegable **[!UICONTROL Seleccionar origen de aptitudes]**.
 3. Seleccione **[!UICONTROL Guardar]**.
 Tenga en cuenta que, una vez activada la opción, la acción es irreversible. No puede deshabilitar ni cambiar a otro origen más adelante.
-
-
-
-
-
-
-
-

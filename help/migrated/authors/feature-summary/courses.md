@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '9424'
-ht-degree: 61%
+source-wordcount: '10009'
+ht-degree: 57%
 
 ---
 
@@ -55,10 +55,10 @@ Para crear un curso, siga los pasos a continuación:
 4. Para que un curso esté disponible en otros idiomas, haga clic en Añadir nuevo idioma en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. Haga clic en **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modificar la configuración del curso**:
 
-   a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
-b. Elija las aptitudes del curso, el nivel y defina los créditos de la aptitud. Si es necesario, añada más aptitudes.
-c. Añada las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-d. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
+   a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud , elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
+   b. Elija las aptitudes del curso, el nivel y establezca los créditos de la aptitud. Añada más aptitudes, si es necesario.
+   c. Agregue las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   d. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
 
    Estos son los tipos de inscripciones:
 
@@ -111,7 +111,89 @@ d. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripci�
 14. En el campo Retirar automáticamente , seleccione una fecha en la que se retira el curso. El administrador debe activar primero la opción Retirar automáticamente.
 15. Para guardar los cambios, seleccione **[!UICONTROL Guardar]**. Para publicar el curso, haga clic en **[!UICONTROL Publicar]**.
 
-### Añadir etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación {#add-custom-compliance-label}
+## Configurar el libro de calificaciones de un curso {#configuregradebookforacourse}
+
+Configure la puntuación ponderada para un curso en Adobe Learning Manager de forma que cada alumno reciba una puntuación agregada calculada a partir del rendimiento de su módulo y que la finalización del curso se pueda vincular a la consecución de un umbral de puntuación mínimo.
+
+El libro de calificaciones se configura en el nivel del curso al crear un curso nuevo. No se puede añadir a un curso publicado existente.
+
+>[!NOTE]
+>
+>Para que los alumnos vean el Libro de calificaciones en un curso, un administrador debe habilitar primero la **visibilidad del Libro de calificaciones** en el nivel de cuenta.
+
+### Habilitar libro de calificaciones para un curso
+
+* Inicie sesión en Adobe Learning Manager como autor.
+* En la barra de navegación izquierda, selecciona **Cursos** y, a continuación, selecciona **Agregar** para crear un curso nuevo.
+* Introduzca el nombre del curso, la descripción y otros detalles necesarios.
+* En la sección **Módulos**, busque el conmutador **Gradebook**.
+
+  ![](assets/image_0003.png)
+
+* Seleccione el conmutador **Gradebook** para habilitarlo. Debajo aparecen dos opciones. Ambos están activados de forma predeterminada:
+  * **Mostrar libro de calificaciones a los alumnos:** Los alumnos ven una pestaña **Libro de calificaciones** en el reproductor del curso en la que se muestran sus puntuaciones del módulo, el desglose del peso y el resultado agregado. Desactive esta opción para calcular las notas internamente sin exponerlas a los alumnos.
+  * **Incluir módulos que no contribuyan a la calificación final:** Los módulos no puntuables (PDF, vídeo, audio y similares) aparecen en el Libro de calificaciones. Los módulos no puntuables no contribuyen a la puntuación final del alumno.
+
+### Añadir módulos y asignar grosor
+
+Después de activar el libro de calificaciones, agregue sus módulos de contenido y asigne un porcentaje de ponderación a cada módulo puntuable. Los porcentajes de grosor deben sumar exactamente 100 para poder guardar la configuración.
+
+1. Seleccione **Agregar módulos**.
+2. En el selector de módulos, seleccione los módulos que desee agregar y seleccione **Agregar**. Los módulos aparecen en la sección **Contenido**. Los módulos puntuables, SCORM, contenido de Captivate, AICC, xAPI, cuestionarios nativos, módulos de actividad, sesiones de clase y sesiones de clase virtual muestran un campo de entrada **Weightage**. Los módulos no puntuables muestran un guión en la columna de grosor.
+3. Escriba un valor de porcentaje en el campo **Grosor** para cada módulo puntuable. Un indicador de **grosor total** se actualiza a medida que escribe y debe alcanzar exactamente el **100%** para poder guardar.
+
+   ![](assets/image_0004.png)
+
+4. Para módulos con varios tipos de entrega: el grosor solo se puede asignar si **todos los** tipos de entrega del módulo admiten puntuación. Si un tipo de entrega no admite la puntuación, no se puede ponderar todo el módulo.
+
+>[!NOTE]
+>
+>La escala de puntuación no tiene por qué coincidir en todos los tipos de entrega. Una sesión de clase con una puntuación de 100 y un módulo SCORM con una puntuación de 10 pueden coexistir en el mismo libro de calificaciones. La fórmula normaliza cada contribución automáticamente.
+
+### Definir la puntuación de aprobado mínima
+
+* En el editor del curso, busque la sección **Criterios para aprobar**.
+* En el campo **Puntuación mínima agregada en los módulos**, escriba un porcentaje entre 0 y 100.
+* Un valor de **0** significa que el curso se completa únicamente en función de la finalización del módulo requerido, sin umbral de puntuación total.
+* Cualquier valor por encima de 0 significa que el alumno debe completar los módulos necesarios Y alcanzar o superar esta puntuación total.
+* En el campo **Módulos obligatorios**, escriba el número requerido o selecciónelo en el menú desplegable.
+
+  ![](assets/image_0005.png)
+
+* Seleccione **Guardar**.
+
+Los alumnos pueden ver la puntuación mínima de aprobado en la pestaña **Libro de calificaciones** para que sepan cuál es el umbral antes de empezar.
+
+### Configurar los ajustes de puntuación para módulos con varios intentos
+
+Cuando un módulo permite varios intentos, elija la puntuación de intentos que se utilizará en el cálculo del Libro de calificaciones.
+
+* En el editor del curso, busque un módulo que tenga varios intentos habilitados.
+
+  ![](assets/image_0006.png)
+
+* Localice la configuración de **Puntuación que se va a usar** junto a ese módulo.
+* Seleccione **Más reciente** o **Más alto**:
+  * **Último:** siempre se usa la puntuación de intento más reciente. Una puntuación más baja en un intento posterior reemplaza a una puntuación más alta anterior.
+  * **Máxima:** Se conserva la mejor puntuación de cualquier intento. Una puntuación más baja en un intento posterior no reduce la puntuación almacenada.
+
+  ![](assets/image_0007.png)
+
+* Seleccione **Guardar**.
+
+### Curso de Publish
+
+Después de configurar todos los ajustes del Libro de calificaciones, publique el curso mediante el flujo de trabajo estándar. Seleccione **Guardar** y, a continuación, seleccione **Publish** para que el curso esté disponible para los alumnos.
+
+### Prácticas recomendadas
+
+* Asigne un grosor que refleje la importancia relativa de cada módulo. Otorgue porcentajes más altos a los módulos más críticos para el objetivo de aprendizaje.
+* Habilita **Mostrar libro de calificaciones a los alumnos** a menos que haya una razón específica para ocultar las calificaciones. Los alumnos que pueden ver su peso y su nota de rendimiento están mejor posicionados para priorizar su esfuerzo.
+* Establezca la puntuación de aprobado mínima antes de que los alumnos se inscriban. Cambiarlo después de las inscripciones activas puede afectar a las finalizaciones en curso.
+* Utilice **Máximo** para la configuración de varios intentos cuando los módulos sean evaluaciones que los alumnos deben reintentar. Utilice **Último** cuando desee capturar el nivel de conocimiento actual en lugar de obtener el mejor rendimiento.
+* Compruebe que el indicador **Peso total** muestra exactamente el 100 % antes de guardar.
+
+## Añadir etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación {#add-custom-compliance-label}
 
 Para añadir etiquetas de cumplimiento a los cursos, siga estos pasos:
 
@@ -210,16 +292,16 @@ Puede asignar puntos de interacción en los niveles de curso e instancia del cur
    * **[!UICONTROL Al finalizar]**: seleccione este conmutador si desea que el alumno obtenga 100 puntos al completar un curso.
    * **Más reglas**
 
-      * **[!UICONTROL Finalización anticipada]**: si selecciona esta opción, los 30 primeros alumnos recibirán 100 puntos al completar un curso.
-      * **[!UICONTROL Finalización puntual]**: si selecciona esta opción, se conceden 100 puntos a los alumnos que completen un curso en un plazo de 999 días.
+     * **[!UICONTROL Finalización anticipada]**: si selecciona esta opción, los 30 primeros alumnos recibirán 100 puntos al completar un curso.
+     * **[!UICONTROL Finalización puntual]**: si selecciona esta opción, se conceden 100 puntos a los alumnos que completen un curso en un plazo de 999 días.
 
 1. Si selecciona **[!UICONTROL Usar configuración personalizada]**, se muestran las siguientes opciones:
 
    * **[!UICONTROL Al finalizar]**: seleccione este conmutador si desea que el alumno obtenga 100 puntos al completar un curso.
    * **Más reglas**
 
-      * **[!UICONTROL Finalización anticipada]**: si selecciona esta opción, puede determinar a cuántos alumnos se les concederán puntos específicos.
-      * **[!UICONTROL Finalización puntual]**: si selecciona esta opción, puede determinar el número de puntos que se concederán a los alumnos que completen un curso en un periodo especificado.
+     * **[!UICONTROL Finalización anticipada]**: si selecciona esta opción, puede determinar a cuántos alumnos se les concederán puntos específicos.
+     * **[!UICONTROL Finalización puntual]**: si selecciona esta opción, puede determinar el número de puntos que se concederán a los alumnos que completen un curso en un periodo especificado.
 
    ![puntos de interacción](assets/gamification-custom-settings.png)
 
@@ -512,6 +594,10 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    **Módulo de clase:** en este modo, los alumnos asisten en persona a conferencias que realiza un instructor experto. Indique el título, redacte una descripción y defina la duración de la sesión. También puede especificar la ubicación de la clase y los instructores que dirigen la sesión. Para guardar los cambios, haga clic en **[!UICONTROL Listo]**.
 
+   >[!NOTE]
+   >
+   >El hecho de que pueda crear una nueva ubicación aquí depende de la opción Permitir a los autores crear ubicaciones, configurada por el administrador. Si está desactivada, solo puede buscar y seleccionar ubicaciones que el administrador ya ha añadido. Vea [Agregar ubicaciones de clase](../../../migrated/administrators/feature-summary/classroom.md) para obtener más información.
+
    ![](assets/classroom-module.png)
 
    *Agregar un módulo de clase*
@@ -753,8 +839,8 @@ Aunque los autores no realizan evaluaciones, es útil comprender cómo se utiliz
 * Los revisores ven un **campo de comentario** al evaluar a los alumnos
 * Los revisores pueden añadir comentarios contextuales durante el envío
 * Si se activa:
-   * Los alumnos ven comentarios del revisor
-   * Los alumnos ven el nombre del revisor
+  * Los alumnos ven comentarios del revisor
+  * Los alumnos ven el nombre del revisor
 
 #### Experiencia del alumno (cuando se activa)
 
@@ -770,8 +856,8 @@ Esto ayuda a los alumnos a comprender claramente los resultados de la evaluació
 * Los comentarios de la lista de comprobación son **opcionales** y deben habilitarse explícitamente
 * La visibilidad de los comentarios y la identidad del revisor está **totalmente controlada por el autor**
 * Funciona con:
-   * Uno o varios revisores
-   * Listas de comprobación basadas en puntuaciones, Sí/No y escaladas
+  * Uno o varios revisores
+  * Listas de comprobación basadas en puntuaciones, Sí/No y escaladas
 * No afecta a las listas de comprobación existentes a menos que el autor las actualice
 
 ### Crear una lista de comprobación en varios idiomas
@@ -892,15 +978,15 @@ La lista de comprobación ahora está habilitada con la puntuación ponderada pa
 * Los revisores ven cada pregunta de lista de comprobación con su **puntuación máxima**
 * Los revisores asignan puntuaciones por pregunta durante la evaluación
 * El sistema calcula:
-   * Puntuación total lograda
-   * Estado Aprobado o Suspendido según criterios definidos
+  * Puntuación total lograda
+  * Estado Aprobado o Suspendido según criterios definidos
 
 #### Experiencia del alumno
 
 * Los alumnos ven el estado de finalización de la lista de comprobación (aprobado/suspenso)
 * Si se ha activado, los alumnos también pueden ver:
-   * Comentarios del revisor
-   * Nombre del revisor
+  * Comentarios del revisor
+  * Nombre del revisor
 * La lógica de puntuación se aplica de forma coherente en las evaluaciones
 
 #### Notas para autores
@@ -908,8 +994,8 @@ La lista de comprobación ahora está habilitada con la puntuación ponderada pa
 * Las listas de comprobación ponderadas son las más adecuadas para **evaluaciones formales**
 * Las puntuaciones de las preguntas deben calibrarse cuidadosamente para evitar resultados sesgados
 * Funciona con:
-   * Uno o varios revisores
-   * Comentarios del revisor (si se activa)
+  * Uno o varios revisores
+  * Comentarios del revisor (si se activa)
 * Las listas de comprobación existentes no se ven afectadas a menos que se actualicen explícitamente
 
 
@@ -927,7 +1013,7 @@ Para permitir que los instructores marquen el éxito del alumno:
 6. Escriba los detalles necesarios y seleccione las fechas.
 7. Seleccione la opción **[!UICONTROL Permitir al instructor marcar como correcto]**.
 
-   ![¿Desea permitir que el instructor marque el éxito? Esta casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito de los alumnos de un módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo ](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Pantalla Detalles de la sesión con la opción Permitir al instructor marcar como correcta resaltada para los módulos Clase o Clase virtual_
 
 8. Seleccione **[!UICONTROL Listo]**.
@@ -1152,7 +1238,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
