@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Puntos más destacados:
 * Ayuda a tus alumnos a sacar más partido a cada sesión con resúmenes generados por IA y grabaciones de sesiones en las que se pueden realizar búsquedas por temas.
 * Mide lo que importa con análisis de participación que van más allá de la asistencia para revelar una participación real en el aprendizaje.
 * Ayude a los autores a utilizar el buscador de instructores basado en IA para adaptar el instructor a sus aptitudes, disponibilidad, horas preferidas, zona horaria y utilización actual.
+
+>[!NOTE]
+>
+>Live Hub está actualmente en versión beta y estará disponible con la próxima versión de agosto de Adobe Learning Manager. La documentación de Live Hub estará disponible una vez que se publique la función.
+
 
 ## Generador de plantillas de correo electrónico basado en componentes
 
@@ -214,6 +219,8 @@ Para obtener más información, vea [Ubicaciones de clase](/help/migrated/admini
 ## Próximamente: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer es una próxima herramienta de creación de cursos de inteligencia artificial en Adobe Learning Manager que le ayuda a crear un curso listo para publicar en apenas tiempo.
+
+Un asistente de inteligencia artificial le guiará a través de todo el proceso: Mensaje, Resumen, Esquema y Curso, para que pueda mantener el control en cada paso, revisando y perfeccionando antes de continuar. Podrá incluir contenido en sus propios documentos de origen, aplicar temas de cursos instantáneos y compartir o exportar cursos finalizados mediante SCORM o la publicación directa en Adobe Learning Manager.
 
 ## Notificación de cambios en la versión
 
