@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1153'
 ht-degree: 50%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 50%
   * [Personalizar la página de inicio del alumno](administrators/feature-summary/customize-learner-homepage.md)
   * [Insignias](administrators/feature-summary/badges.md)
   * [Temas de color](administrators/feature-summary/themes.md)
+  * [Libro de calificaciones para administradores](administrators/feature-summary/alm-admin-gradebook.md)
   * [Transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
   * [Cambios en las transcripciones de alumnos](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
   * [Informe de comentarios](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
