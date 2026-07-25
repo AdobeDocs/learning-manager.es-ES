@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Capacidades clave:
 * Un máximo de 10 rutas de aprendizaje personalizadas visibles en la página de inicio del alumno
 * Las rutas completadas se pueden compartir con los compañeros
 
-Para obtener más información, consulte [Asistente de inteligencia artificial para alumnos](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Para obtener más información, consulte [Agente de ruta de aprendizaje](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Agente de información
 
