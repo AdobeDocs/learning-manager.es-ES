@@ -3,9 +3,9 @@ description: Más información sobre la configuración de la configuración avan
 jcr-language: en_us
 title: Configuración avanzada en Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,10 @@ Las carpetas de contenido privado admiten hasta tres niveles de anidamiento:
 
 Esta estructura proporciona a las organizaciones la flexibilidad de reflejar la organización de contenido real, por área de tema, tipo de entrega, audiencia o equipo, en lugar de administrar miles de archivos en una lista plana.
 
-Solo los administradores pueden crear, editar o eliminar carpetas en cualquier nivel. Los autores y los usuarios personalizados interactúan con la jerarquía, pero no pueden modificarla.
+>[!NOTE]
+>
+>Solo los administradores pueden crear, editar o eliminar carpetas en cualquier nivel. Los autores y los usuarios personalizados interactúan con la jerarquía, pero no pueden modificarla. Además, los administradores personalizados con acceso a cualquier carpeta raíz pueden crear, editar o eliminar carpetas de dicha carpeta raíz.
+
 
 ### Reglas de nomenclatura de carpetas
 
@@ -71,7 +74,7 @@ Los nombres de carpeta deben ser únicos dentro del mismo nivel en la misma carp
 
 ### Cómo aparecen las rutas de carpeta
 
-La biblioteca de contenido muestra la ruta completa de cada archivo de contenido. Por ejemplo, **Programas de entrenamiento** > **Incorporación** > **Activos SCORM**. Esta ruta muestra la ubicación completa del contenido.
+La biblioteca de contenido muestra la ruta completa de cada archivo de contenido. Por ejemplo, **Programas de formación** / **Incorporación** / **Activos SCORM**. Esta ruta muestra la ubicación completa del contenido.
 
 Si existe un archivo en más de una carpeta, todas las rutas aparecen separadas por comas. Si una ruta es larga, se trunca desde el principio con puntos suspensivos (...) y siempre se muestra el nombre de carpeta más profundo.
 
@@ -140,7 +143,7 @@ Con una estructura de tres niveles:
 
 * Nivel 3: Módulos o recursos específicos por región (PDF de normativas de privacidad, plataformas de políticas locales, archivos de evaluación)
 
-A los equipos de autores regionales solo se les concede acceso a su rama de nivel 1 o nivel 2. Solo pueden buscar, actualizar y reutilizar los activos correspondientes a su jurisdicción sin ver ni modificar accidentalmente el contenido de otra región.
+En el caso de los autores regionales, al ser una función personalizada, solo se puede seleccionar la carpeta de nivel 1 durante la creación de la función personalizada. La selección de carpetas de nivel 2 no es una opción. Solo pueden buscar, actualizar y reutilizar los activos correspondientes a su jurisdicción sin ver ni modificar accidentalmente el contenido de otra región.
 
 **Caso de uso 2: programa de incorporación a gran escala con muchas funciones**
 
@@ -212,7 +215,7 @@ Como administrador de Adobe Learning Manager, puede crear y mantener la jerarqu�
 Antes de eliminar, tenga en cuenta las siguientes reglas:
 
 * Puede eliminar una carpeta vacía en cualquier nivel.
-* No se puede eliminar una carpeta si contiene contenido que no está vinculado a ninguna otra carpeta. Mueva primero el contenido a otra carpeta.
+* Solo se pueden eliminar las carpetas vacías. Las carpetas que contienen contenido no se pueden eliminar, independientemente de si el contenido está vinculado a otras carpetas o no.
 * Al eliminar una carpeta principal, se eliminan todas sus subcarpetas. Al seleccionar una carpeta principal, se seleccionan automáticamente todos sus elementos secundarios.
 
 #### Eliminar la carpeta principal

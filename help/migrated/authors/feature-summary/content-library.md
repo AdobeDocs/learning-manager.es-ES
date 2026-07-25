@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5992'
+source-wordcount: '6048'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Cuando carga contenido nuevo, elige en qué carpeta lo almacena durante el proce
 4. En **Agregar archivo de contenido**, arrastre y suelte el archivo de contenido o seleccione el campo para examinar y cargar.
    ![](assets/cl2.png)
 
-5. En **Agregar a la carpeta**, seleccione **Examinar carpetas** y vaya a la carpeta donde desee almacenar el contenido. Seleccione la carpeta que desea confirmar.
+5. En **Agregar a la carpeta**, examine la carpeta o busque la carpeta en el campo de búsqueda.
    ![](assets/cl3.png)
 
 6. Seleccione **Agregar**.
@@ -461,7 +461,7 @@ Cuando carga contenido nuevo, elige en qué carpeta lo almacena durante el proce
 
 ## Ver rutas de carpeta en la biblioteca de contenido
 
-En la **Biblioteca de contenido**, cada archivo de contenido muestra su ruta de acceso completa a la carpeta, por ejemplo, **Formación de ventas** > **Módulos con ritmo personalizado** > **Activos de PDF**. Esta ruta indica exactamente dónde se encuentra el archivo en la jerarquía.
+En la **Biblioteca de contenido**, cada archivo de contenido muestra su ruta de acceso completa a la carpeta, por ejemplo, **Formación de ventas** / **Módulos con ritmo personalizado** / **Activos de PDF**. Esta ruta indica exactamente dónde se encuentra el archivo en la jerarquía.
 
 * Si existe un archivo en más de una carpeta, todas las rutas aparecen separadas por comas.
 
@@ -490,16 +490,17 @@ El filtro **Carpetas** de la biblioteca de contenido le permite restringir la li
 
 ## Mover contenido a la carpeta {#movecontenttofolder}
 
-Al mover contenido, se elimina de su carpeta actual y se coloca en la carpeta de destino.
+Al mover contenido, se elimina de su carpeta actual y se coloca en la carpeta de destino. Puede seleccionar varias carpetas privadas en el cuadro de diálogo para mover contenido. Sin embargo, no puede seleccionar carpetas privadas y públicas al mismo tiempo. Puede seleccionar varias carpetas privadas o una sola carpeta pública.
 
 1. En **Biblioteca de contenido**, marque la casilla de verificación junto a cada archivo de contenido que desee mover.
 2. Seleccione **Acciones** > **Organizar contenido** > **Mover contenido a la carpeta**. Se abre el panel **Mover contenido a la carpeta**.
 3. Seleccione la carpeta de destino donde desea mover el contenido.
 4. Seleccione **Mover contenido**. La biblioteca de contenido se actualiza para mostrar la nueva ruta de la carpeta.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->No puede mover contenido de una carpeta privada a la carpeta pública ni de la carpeta pública a una carpeta privada.
+>Puede mover contenido de una carpeta pública a una carpeta privada y viceversa. Sin embargo, no puede mover contenido a carpetas públicas y privadas en la misma acción. Si selecciona una carpeta pública, no podrá seleccionar ninguna carpeta privada y viceversa.
+
 
 
 <!--
