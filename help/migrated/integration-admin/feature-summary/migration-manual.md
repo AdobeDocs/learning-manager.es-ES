@@ -3,10 +3,10 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '7489'
-ht-degree: 44%
+source-wordcount: '9158'
+ht-degree: 36%
 
 ---
 
@@ -934,7 +934,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 * **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
 * El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
 * El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
-* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+* El archivo CSV de sesión **1} crea sesiones de clase virtual con detalles del sistema de conferencia**
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
@@ -1264,3 +1264,196 @@ Adobe Learning Manager valida todas las filas de course_module_user_group.csv an
 | El valor de la operación no es ADD ni DELETE | Fila rechazada | Operación &#39;{operation}&#39; no válida. Debe ser ADD o DELETE. |
 | ADD se ha enviado para una regla que ya existe | Regla actualizada silenciosamente | Sin error: la regla existente se actualiza con el nuevo valor de tipo. |
 
+## Migrar jerarquía de carpetas de contenido {#migratecontentfolderhierarchy}
+
+Si está migrando el contenido de aprendizaje de otra plataforma a Adobe Learning Manager y desea conservar la organización de carpetas existente, puede utilizar archivos CSV para crear una estructura de carpetas jerárquica y asociar los archivos de contenido a las carpetas adecuadas.
+
+Esta migración se suele realizar como parte de una migración de plataforma más grande, después de que los usuarios, cursos, módulos y archivos de contenido ya se hayan importado a Adobe Learning Manager. Este paso de la migración reorganiza el contenido en la estructura de carpetas que tenía en el sistema de origen.
+
+### Requisitos previos
+
+Antes de iniciar la migración de carpetas de contenido, confirme lo siguiente:
+
+| Requisito previo | Por qué es importante |
+| --- | --- |
+| La función Carpetas de contenido jerárquico está habilitada para su cuenta | La migración falla si esta función no está activa. Póngase en contacto con el Adobe si no está seguro. |
+| Se ha creado un proyecto de migración en la herramienta de migración | Todos los archivos CSV deben ejecutarse en un proyecto de migración para poder realizar el seguimiento y volver a ejecutar la compatibilidad. |
+| Los usuarios, cursos, módulos y archivos de contenido ya se han migrado (etapas 1-4 de la migración) | La migración de carpetas es una fase 5: organiza el contenido que ya debe existir en Adobe Learning Manager. |
+| Su cuenta de administrador tiene permiso de ejecución de migración | Necesario para desencadenar sprints de migración. |
+
+### Qué hace esta migración
+
+La migración de carpetas de contenido crea hasta tres niveles de carpetas anidadas en la biblioteca de contenido de Adobe Learning Manager y asocia los archivos de contenido existentes a las subcarpetas correctas. Los vínculos de cursos y módulos a archivos de contenido no se ven afectados. Solo cambia la organización de la carpeta.
+
+La migración se ejecuta como un trabajo en segundo plano asincrónico. Cargue un archivo CSV, los procesos de migración en segundo plano, y podrá supervisar el progreso mientras el sistema funciona. La migración se puede volver a ejecutar si se necesitan correcciones; las filas que ya se procesaron correctamente se omiten automáticamente en una ejecución posterior.
+
+### Dos fases de migración
+
+La migración de carpetas de contenido tiene dos fases independientes. Cada uno puede ejecutarse y validarse por separado.
+
+| Fase | Lo que usted proporciona | Qué hace |
+| --- | --- | --- |
+| **Fase 1: Estructura de carpetas** | `content_folder.csv` | Crea la jerarquía de carpetas Nivel 1, Nivel 2 y Nivel 3 en Adobe Learning Manager |
+| **Fase 2: asociación de contenido** | `module_version.csv` (actualizado con la ruta de la carpeta) | Asocia los archivos de contenido a las carpetas correctas al importar versiones de módulos |
+
+La fase 2 no requiere un archivo CSV independiente: se agrega una columna de ruta de carpeta al archivo `module_version.csv` existente.
+
+### Fase 1: Crear la jerarquía de carpetas
+
+#### Planifique primero la jerarquía de carpetas
+
+Antes de preparar el archivo CSV, asigne la estructura de carpetas o categorías del sistema de origen a la jerarquía de tres niveles de Adobe Learning Manager. Adobe Learning Manager admite una profundidad máxima de tres niveles (Nivel 1 → Nivel 2 → Nivel 3). Si el sistema de origen tiene un anidamiento más profundo, aplíquelo a tres niveles antes de la migración.
+
+>[!NOTE]
+>
+>Si el sistema de origen utiliza barras diagonales (`/`) en los nombres de categoría o carpeta, sustitúyalas por un guion (`-`) o un guion bajo (`_`) antes de preparar el archivo CSV. Adobe Learning Manager no permite `/` en los nombres de carpeta porque está reservado para la resolución de rutas de carpeta.
+
+
+#### content_folder.csv
+
+Use `content_folder.csv` para definir la jerarquía de carpetas de destino. Cada fila del archivo representa una carpeta.
+
+**Referencia de columna:**
+
+| Columna | Obligatorio | Descripción |
+| --- | --- | --- |
+| `id` | Sí | Un identificador único que asigne a esta carpeta. Este es su propio identificador de referencia; por ejemplo, un identificador de categoría del sistema de origen. Se utiliza para vincular carpetas principales y secundarias dentro del archivo y para que la migración se vuelva a ejecutar de forma segura. |
+| `name` | Sí | Nombre para mostrar de la carpeta. Máximo 63 caracteres. No puede contener una barra diagonal (`/`). Debe ser único entre las carpetas que tengan el mismo elemento principal. |
+| `description` | No | Una descripción opcional de la carpeta. Máximo 2.046 caracteres. |
+| `parentExternalId` | No | `id` de la carpeta principal. Deje en blanco las carpetas de Nivel 1 (raíz). Para las carpetas de nivel 2, escriba el `id` del nivel primario de nivel 1. Para las carpetas de nivel 3, escriba el `id` del nivel primario de nivel 2. |
+| `action` | Sí | Operación que se va a realizar: `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER`. |
+
+**Ejemplo:**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+En este ejemplo:
+
+* `Training` y `HR` son carpetas de nivel 1 (no primarias)
+* `Sales` es una carpeta de nivel 2 en `Training`
+* `Onboarding` es una carpeta de nivel 3 en `Sales`
+* `Compliance` es una carpeta de nivel 2 en `HR`
+
+**Reglas de validación:**
+
+* Una carpeta no puede ser su propio antecesor: no se permiten referencias circulares
+* La profundidad máxima de la carpeta es de 3 niveles (Nivel 1 → Nivel 2 → Nivel 3)
+* Dos carpetas con el mismo padre no pueden tener el mismo nombre
+* El `parentExternalId` debe hacer referencia a otra fila del mismo archivo CSV o a una carpeta existente que ya se encuentre en su cuenta
+* Las carpetas principales deben mostrarse antes que sus carpetas secundarias en el archivo
+
+>[!NOTE]
+>
+>Puede hacer referencia a una carpeta existente de su cuenta (creada antes de esta migración) como la carpeta principal de una nueva carpeta utilizando el prefijo `existing:` seguido del identificador de la carpeta en la columna `parentExternalId`; por ejemplo, `existing:12345`.
+
+
+### Fase 2: Asociar contenido a carpetas
+
+Los archivos de contenido se asocian con carpetas a través de la columna `folder` del archivo `module_version.csv`. No se requiere un archivo CSV independiente para esta fase.
+
+#### Se ha actualizado module_version.csv: columna de carpeta
+
+La columna `folder` de `module_version.csv` ahora admite rutas de carpeta además de nombres de carpeta simples.
+
+| valor de carpeta | Cómo se resuelve |
+| --- | --- |
+| `Sales` (sin barra) | Resuelve por nombre de carpeta: el comportamiento existente para las carpetas de nivel 1. |
+| `Training/Sales/Onboarding` (barras diagonales) | Resuelve por ruta: navega desde el nivel 1 hacia abajo por cada nivel hasta llegar a la subcarpeta de destino. |
+| `"Training/Sales,HR/Compliance"` (separado por comas, entre comillas) | Asocia el archivo de contenido a varias carpetas; cada ruta resuelta independientemente |
+| (en blanco) | Sin asociación de carpetas: el contenido permanece en la ubicación predeterminada |
+
+**Ejemplo:**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>Al asociar un archivo de contenido a varias carpetas, la lista separada por comas debe ir entre comillas dobles en el archivo CSV, ya que las comas también se utilizan como separadores de columnas.
+
+>[!NOTE]
+>
+>Esta fase permite añadir un archivo de contenido a una carpeta. No se admite eliminar un archivo de contenido de una carpeta mediante el enfoque de ruta de carpeta : use la interfaz de administración de Adobe Learning Manager para eliminar las asociaciones de carpetas después de la migración.
+
+### Orden de migración
+
+Cuando ejecute una migración de contenido completo, cargue y procese los archivos en el siguiente orden:
+
+1. `module.csv`: definir los módulos
+2. `module_version.csv` (sin rutas de carpeta): cargar contenido del módulo
+3. `course.csv`: crear cursos
+4. `course_module.csv`: vincular módulos a cursos
+5. `content_folder.csv`: crear la jerarquía de carpetas (fase 1)
+6. `module_version.csv` (con rutas de carpeta): asociar contenido a carpetas (fase 2)
+
+>[!NOTE]
+>
+>`content_folder.csv` debe procesarse antes del archivo de versión del módulo que contiene las rutas de acceso a carpetas, porque la estructura de carpetas debe existir antes de que se pueda asociar contenido a ella.
+
+
+### Validación y referencia de error
+
+Adobe Learning Manager valida todas las filas de `content_folder.csv` antes de procesar. Las filas que no superan la validación se omiten y se notifican como errores. Se seguirán procesando las filas válidas del mismo archivo.
+
+| Escenario | ¿Qué sucede? | Resolución |
+| --- | --- | --- |
+| El nombre de la carpeta tiene más de 63 caracteres | Fila rechazada | Acorte el nombre en el CSV antes de volver a cargarlo |
+| La descripción supera los 2.046 caracteres | Fila rechazada | Acorte la descripción del archivo CSV |
+| Un nombre de carpeta contiene una barra diagonal (`/`) | Fila rechazada | Reemplazar `/` por `-` o `_` en el nombre de la carpeta |
+| Dos carpetas con el mismo padre tienen el mismo nombre | Fila rechazada | Cambiar el nombre de una de las carpetas duplicadas |
+| `parentExternalId` hace referencia a un Id. que no se encuentra en el archivo o en la cuenta | Fila rechazada | Confirme que el ID de carpeta principal es correcto y que la fila principal se ha procesado correctamente |
+| La profundidad de la carpeta supera los 3 niveles | Fila rechazada | Aplanar la jerarquía hasta un máximo de 3 niveles antes de migrar |
+| Referencia circular detectada (la carpeta A es antecesora de la carpeta B y B aparece como principal de A) | CSV completo rechazado | Revise la cadena `parentExternalId` y quite la referencia circular |
+| `action` no es `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER` | Fila rechazada | Corrija el valor `action`; solo se aceptan estos tres valores |
+| `DELETE_FOLDER` para una carpeta que todavía contiene archivos de contenido | Fila rechazada | Mueva los archivos de contenido a otra carpeta antes de eliminar o elimine la fila y el identificador de eliminación manualmente en la interfaz de administración |
+| `UPDATE_FOLDER` para un `id` que no existe en la cuenta | Fila rechazada | Confirme que la carpeta se creó correctamente en una ejecución anterior; usar `CREATE_FOLDER` para nuevas carpetas |
+| `CREATE_FOLDER` para un `id` que ya se ha migrado correctamente | Fila omitida | No es necesario realizar ninguna acción: se trata del comportamiento previsto al volver a ejecutar una migración |
+| La ruta de la carpeta en `module_version.csv` hace referencia a una carpeta que no existe | Fila de módulo rechazada | Ejecute primero el sprint de la estructura de carpetas o compruebe que el nombre y la ruta de la carpeta estén escritos correctamente |
+| Barra doble en la ruta de la carpeta (por ejemplo, `Training//Sales`) | Fila de módulo rechazada | Quitar la barra diagonal adicional del trazado |
+
+
+### Retrocompatibilidad
+
+Si ya usas `content_folder.csv` o `module_version.csv` en tus flujos de trabajo de migración, tus archivos existentes seguirán funcionando sin cambios.
+
+| Escenario | Comportamiento |
+| --- | --- |
+| `content_folder.csv` existente sin la columna `parentExternalId` | Funciona de forma idéntica: las carpetas se crean como carpetas de nivel 1, igual que antes |
+| `module_version.csv` existente con nombres de carpeta simples (no `/`) | Funciona igual: los nombres de carpeta se resuelven mediante la búsqueda de nombres, igual que antes |
+| Nuevo `module_version.csv` con rutas de acceso de carpeta que contienen `/` | La resolución basada en la ruta de acceso se activa automáticamente por la presencia de `/` |
+| Mezcla de nombres y rutas de acceso simples en el mismo `module_version.csv` | Cada fila se resuelve independientemente: ambos formatos funcionan en el mismo archivo |
+| Volver a ejecutar el mismo `content_folder.csv` | Seguro: las filas que ya se han procesado correctamente se omiten automáticamente |
+
+### Prácticas recomendadas
+
+**Preparando content_folder.csv**
+
+* Utilice los identificadores de categoría o carpeta propios del sistema de origen como valor `id`. Se almacenan permanentemente para volver a ejecutar el seguimiento y deben permanecer estables.
+* Mantenga los nombres de carpeta por debajo de 63 caracteres. Trunque en el CSV antes de cargar. La migración rechazará los nombres que excedan el límite.
+* Asegúrese de que no haya dos carpetas con el mismo nombre. Las carpetas situadas bajo diferentes elementos principales pueden compartir un nombre.
+* Aunque el orden de las filas del archivo no afecta al resultado (la migración ordena las filas automáticamente), al enumerar las carpetas principales antes que las secundarias, el archivo se revisa más fácilmente.
+
+**Preparando module_version.csv con rutas de acceso de carpeta**
+
+* La coincidencia de ruta de carpeta no distingue entre mayúsculas y minúsculas, pero los nombres de carpeta deben coincidir exactamente con lo que se creó en Phase 1.
+* Ejecute la fase 1 (estructura de carpetas) antes de ejecutar la fase 2 (asociación de contenido). La resolución de rutas comprueba las carpetas que ya existen: si no se ha creado todavía una carpeta, la fila del módulo fallará.
+* Evite las barras dobles en las rutas de acceso: `Training//Sales` fallará debido a un segmento de ruta de acceso vacío.
+* Las barras diagonales iniciales y finales se recortan automáticamente: `Training/Sales/` y `/Training/Sales` se resuelven correctamente, pero evite que aparezcan con claridad.
+
+**Ejecutando la migración**
+
+* Pruebe primero con un lote pequeño: cargue entre 10 y 20 filas para verificar el formato CSV antes de escalar a su conjunto de datos completo.
+* Complete el sprint de estructura de carpetas antes de iniciar el sprint de versión de módulo. Si se ejecutan en paralelo, pueden producirse errores de resolución de rutas.
+* Una vez completados ambos sprints, verifique en la interfaz de administración de Adobe Learning Manager que el árbol de carpetas muestre la jerarquía correcta y que los archivos de contenido aparezcan en las carpetas esperadas.

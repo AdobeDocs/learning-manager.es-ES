@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Capacidades clave:
 * Experiencia Examinar carpetas al seleccionar módulos en la creación de cursos
 
 Para obtener más información sobre las funcionalidades de nivel de administrador, consulte [Carpetas de contenido jerárquico](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Para obtener más información sobre las funcionalidades de nivel de autor, consulte [Carpetas de contenido jerárquico](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+
+Si está migrando el contenido de aprendizaje de otra plataforma a Adobe Learning Manager y desea conservar la organización de carpetas existente, puede utilizar archivos CSV para crear una estructura de carpetas jerárquica y asociar los archivos de contenido a las carpetas adecuadas. Más información sobre la migración en [Migrar la jerarquía de carpetas de contenido](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## Centro en vivo
 
