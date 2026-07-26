@@ -3,9 +3,9 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -934,7 +934,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 * **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
 * El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
 * El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
-* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+* El archivo CSV de sesión **1} crea sesiones de clase virtual con detalles del sistema de conferencia**
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
@@ -1269,17 +1269,6 @@ Adobe Learning Manager valida todas las filas de course_module_user_group.csv an
 Si está migrando el contenido de aprendizaje de otra plataforma a Adobe Learning Manager y desea conservar la organización de carpetas existente, puede utilizar archivos CSV para crear una estructura de carpetas jerárquica y asociar los archivos de contenido a las carpetas adecuadas.
 
 Esta migración se suele realizar como parte de una migración de plataforma más grande, después de que los usuarios, cursos, módulos y archivos de contenido ya se hayan importado a Adobe Learning Manager. Este paso de la migración reorganiza el contenido en la estructura de carpetas que tenía en el sistema de origen.
-
-### Requisitos previos
-
-Antes de iniciar la migración de carpetas de contenido, confirme lo siguiente:
-
-| Requisito previo | Por qué es importante |
-| --- | --- |
-| La función Carpetas de contenido jerárquico está habilitada para su cuenta | La migración falla si esta función no está activa. Póngase en contacto con el Adobe si no está seguro. |
-| Se ha creado un proyecto de migración en la herramienta de migración | Todos los archivos CSV deben ejecutarse en un proyecto de migración para poder realizar el seguimiento y volver a ejecutar la compatibilidad. |
-| Los usuarios, cursos, módulos y archivos de contenido ya se han migrado (etapas 1-4 de la migración) | La migración de carpetas es una fase 5: organiza el contenido que ya debe existir en Adobe Learning Manager. |
-| Su cuenta de administrador tiene permiso de ejecución de migración | Necesario para desencadenar sprints de migración. |
 
 ### Qué hace esta migración
 
