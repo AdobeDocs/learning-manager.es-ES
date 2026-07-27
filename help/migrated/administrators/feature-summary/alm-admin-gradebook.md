@@ -2,9 +2,9 @@
 description: Todo sobre cómo activar el Libro de calificaciones y hacerlo visible para autores y alumnos
 jcr-language: en_us
 title: Libro de calificaciones para administradores
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Para que los autores puedan mostrar el libro de calificaciones a los alumnos de 
 
 La configuración de **visibilidad del libro de calificaciones** en **Configuración** > **General** determina si los autores pueden exponer el libro de calificaciones a los alumnos en el nivel del curso.
 
+Para obtener más información, vea [Visibilidad del libro de calificaciones](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | Configuración del estado | Efecto |
 | --- | --- |
 | Activado | Los autores pueden controlar la visibilidad del libro de calificaciones por curso mediante la opción **Mostrar libro de calificaciones a los alumnos** en el editor del curso. Los alumnos ven la ficha **Libro de calificaciones** en los cursos en los que el autor lo ha habilitado. |
 | Desactivado | Los alumnos no pueden ver el libro de calificaciones en ningún curso. Si está desactivada, la configuración del curso no tendrá la opción de mostrar el libro de calificaciones a los alumnos. |
-
 
 Esto significa que la configuración de nivel de cuenta y la configuración de nivel de curso funcionan juntas. Ambos deben estar activados para que un alumno pueda ver el libro de calificaciones.
 
