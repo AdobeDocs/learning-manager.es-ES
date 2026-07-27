@@ -3,9 +3,9 @@ description: Imparte un curso a varias audiencias controlando qué módulos ve c
 jcr-language: en_us
 title: Cursos adaptables en Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Los cursos adaptables se pueden añadir a los catálogos de su cuenta. Cuando un
 >
 >Cuando se comparte externamente una ruta de aprendizaje o una certificación que contiene un curso adaptable, la cuenta receptora ve la ruta de aprendizaje o la certificación en su catálogo, pero el curso adaptable que contiene no aparece. El objeto de aprendizaje no se excluye por completo; solo se elimina el componente curso adaptable de la versión compartida. Los autores de la cuenta de destino deben tener en cuenta que el objeto de aprendizaje compartido puede tener menos módulos que la versión de origen.
 
+>[!NOTE]
+>
+>Cuando un curso adaptable se configura como un requisito previo de otro curso, y ese curso principal se comparte en una cuenta de recepción a través del uso compartido de catálogos, el curso del requisito previo adaptable no se comparte en la cuenta de recepción. Esto se aplica tanto si el requisito previo se establece directamente en el curso como a través de un objeto de aprendizaje de orden superior, como una ruta de aprendizaje o una certificación.
+>
+>En la cuenta de destino, el curso principal está disponible, pero no se cuenta con el requisito previo de adaptación. A los alumnos de la cuenta de recepción no les afecta el requisito previo que falta, ya que la dependencia del requisito previo no se aplica al contenido que llega a través del uso compartido de catálogos sin sus requisitos previos presentes.
+>
+>No configure los cursos adaptables como requisitos previos para el contenido que desee compartir externamente.
+
 ## Configuraciones admitidas
 
 | Configuración | ¿Admitido? |
-|---|---|
+| --- | --- |
 | Curso adaptable en una ruta de aprendizaje habitual | Sí (véase la nota siguiente) |
 | Curso adaptable en una ruta de aprendizaje flexible | Sí |
 | Curso adaptable en una ruta de aprendizaje adaptable | No |
