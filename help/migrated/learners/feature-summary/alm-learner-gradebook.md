@@ -2,9 +2,9 @@
 description: Todo sobre el Libro de calificaciones desde la perspectiva del alumno
 jcr-language: en_us
 title: Libro de calificaciones para alumnos
-source-git-commit: 45338a2325a1d6b4c31869399acf3331c65afed7
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puedes abrir la pestaña **Libro de calificaciones** en cualquier momento durant
 
 * **Antes de comenzar:** Después de inscribirse, verá la lista completa de módulos puntuables con sus porcentajes de grosor, las marcas máximas para cada uno y los criterios de aprobado establecidos por el autor. Esto le muestra exactamente cómo se califica el curso antes de comenzar.
 * **Mientras estás en progreso:** A medida que terminas los módulos y las calificaciones se registran, el libro de calificaciones se actualiza para mostrar tus calificaciones hasta el momento junto con los módulos que aún no se han intentado o que están a la espera de ser calificados.
-* **Después de completar:** El libro de calificaciones muestra todas las puntuaciones del módulo final, la puntuación total calculada del curso y un resultado de **calificación final** en el encabezado.
+* **Después de completar:** El libro de calificaciones muestra todas las puntuaciones finales del módulo, la puntuación total del curso calculada y un resultado **Superado** en el encabezado.
 
 ## Ver el libro de calificaciones
 
@@ -77,7 +77,7 @@ Cada módulo del libro de calificaciones muestra uno de los siguientes estados:
 
 ![](assets/image_0012.png)
 
-| **Estado** | **Qué significa** |
+| **Estado** | **Interpretación** |
 | ------------ | ------------------- |
 | **Aprobado** | Módulo terminado y puntuación grabada |
 | **En curso** | Módulo iniciado pero aún no finalizado |

@@ -3,9 +3,9 @@ description: Obtenga más información sobre cómo la configuración básica le 
 jcr-language: en_us
 title: Configuración básica
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5921'
 ht-degree: 4%
 
 ---
@@ -413,13 +413,13 @@ Si los alumnos han completado un curso o una ruta con anterioridad y, posteriorm
 **Activar retroactivo incompleto (Irreversible)**
 Si se elimina un curso o una ruta de cursos o rutas alternativos, los alumnos marcados anteriormente como completados mediante rutas alternativas se marcarán como incompletos. Esto afecta a todos los alumnos cuya finalización se basó únicamente en la alternativa, no a los alumnos que completaron el curso directamente. Su transcripción reflejará el estado incompleto actualizado. Una vez que se ha activado, no se puede desactivar.
 
-### Visibilidad del libro de calificaciones
+### Visibilidad del libro de calificaciones {#gradebookvisibility}
 
 Cuando está activada, los autores pueden controlar la visibilidad del libro de calificaciones en el nivel del curso, lo que permite a los alumnos ver sus puntuaciones ponderadas del módulo, la puntuación agregada del curso y el estado de aprobado/suspenso directamente en el reproductor del curso. Si esta configuración está deshabilitada en el nivel de cuenta, los alumnos no podrán ver el libro de calificaciones en ningún curso, independientemente de cómo se configuren los cursos individuales. Las puntuaciones y los cálculos del libro de calificaciones se siguen ejecutando en segundo plano para fines de informes del administrador incluso cuando la visibilidad del alumno está desactivada.
 
 **Habilitar la vista Libro de calificaciones para alumnos**
 
-Activa el permiso de nivel de cuenta que permite a los autores mostrar u ocultar el libro de calificaciones por curso. Una vez activada, los autores ven la opción Mostrar libro de calificaciones a los alumnos en el editor del curso. Los alumnos verán una ficha Libro de calificaciones en el reproductor del curso para cualquier curso en el que el autor la haya activado. Al deshabilitar esta configuración en el nivel de cuenta, se reemplazan todas las configuraciones de nivel de curso. Los alumnos no verán el libro de calificaciones en ningún curso hasta que se vuelva a habilitar la configuración.
+Activa el permiso de nivel de cuenta que permite a los autores mostrar u ocultar el libro de calificaciones por curso. Una vez activada, los autores ven la opción Mostrar libro de calificaciones a los alumnos en el editor del curso. Los alumnos verán una ficha Libro de calificaciones en el reproductor del curso para cualquier curso en el que el autor la haya activado. Al deshabilitar esta configuración en el nivel de cuenta, se reemplazan todas las configuraciones de nivel de curso. Los alumnos no verán el libro de calificaciones en ningún curso hasta que se vuelva a habilitar la configuración. Para obtener más información, consulte [Libro de calificaciones para el administrador](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### Aprendizaje externo
 
