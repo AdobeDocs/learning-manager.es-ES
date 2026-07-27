@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ Antes de configurar el Asistente de IA, confirme que tiene credenciales de admin
 
 Para activar el Asistente de inteligencia artificial del alumno:
 
-&#x200B;1. Inicie sesión en Adobe Learning Manager como administrador.
+1. Inicie sesión en Adobe Learning Manager como administrador.
 
-&#x200B;2. Seleccione **Configuración** en la página principal.
-![Consola de administrador con la opción Configuración en el panel izquierdo](assets/settings-menu.png)
+1. Seleccione **Configuración** en la página principal.
 
-&#x200B;3. Seleccione **Asistente de inteligencia artificial del alumno (beta)** en el menú **Configuración**.
-![La consola del administrador muestra la opción Asistente de inteligencia artificial del alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
+   ![Consola de administrador con la opción Configuración en el panel izquierdo](assets/settings-menu.png)
 
-&#x200B;4. Seleccione el conmutador para habilitar el **Asistente de inteligencia artificial del alumno (beta)**.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. Seleccione **Asistente de inteligencia artificial del alumno (beta)** en el menú **Configuración**.
 
-&#x200B;5. Seleccione uno o varios catálogos en la opción **Catálogos aptos**.
+   ![La consola del administrador muestra la opción Asistente de inteligencia artificial del alumno en el panel izquierdo](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. Seleccione **Guardar** para aplicar la configuración del catálogo.
+1. Seleccione el conmutador para habilitar el **Asistente de inteligencia artificial del alumno (beta)**.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Seleccione uno o varios catálogos en la opción **Catálogos aptos**.
+
+1. Seleccione **Guardar** para aplicar la configuración del catálogo.
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ Para iniciar el Asistente de IA:
 
 1. Inicie sesión en Adobe Learning Manager como alumno.
 
-2. Seleccione **Preguntar al Asistente de IA** en la página principal.
+1. Seleccione **Preguntar al Asistente de IA** en la página principal.
+
    ![La página de inicio del alumno muestra Solicitar al Asistente de inteligencia artificial que seleccione y abra el panel Asistente de inteligencia artificial del alumno](assets/ask-ai-assistant.png)
 
-3. Cuando aparezca la pantalla **Asistente de inteligencia artificial del alumno**, seleccione **Introducción**.
+1. Cuando aparezca la pantalla **Asistente de inteligencia artificial del alumno**, seleccione **Introducción**.
+
    ![Seleccione Introducción para iniciar el Asistente del alumno](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->Al iniciar AI Assistant por primera vez, debe dar su consentimiento antes de utilizarlo. El cuadro de diálogo de consentimiento solo aparecerá durante este inicio inicial. Para todos los inicios posteriores, se le dirigirá directamente al Asistente de inteligencia artificial para introducir sus indicaciones.
+   >[!NOTE]
+   >
+   >Al iniciar AI Assistant por primera vez, debe dar su consentimiento antes de utilizarlo. El cuadro de diálogo de consentimiento solo aparecerá durante este inicio inicial. Para todos los inicios posteriores, se le dirigirá directamente al Asistente de inteligencia artificial para introducir sus indicaciones.
 
-&#x200B;4. Escriba el mensaje en el campo de texto.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. Escriba el mensaje en el campo de texto.
 
-&#x200B;5. Pulse **Intro** para recibir una respuesta. Revisar la respuesta, las fuentes y las recomendaciones.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Presione **Intro** para recibir una respuesta. Revisar la respuesta, las fuentes y las recomendaciones.
 
 Puede realizar lo siguiente:
 
@@ -351,7 +357,7 @@ El Asistente de aprendizaje de Adobe Learning Manager puede responder preguntas 
 
 >[!IMPORTANT]
 >
->Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
+>Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
 
 
 Cuando un administrador añade un catálogo de Go1 o LinkedIn Learning a Adobe Learning Manager, el contenido del catálogo pasa por un proceso de ingesta programado. Una vez completada la ingesta, los objetos de aprendizaje de ese catálogo estarán disponibles para que el Asistente de aprendizaje los consulte.
