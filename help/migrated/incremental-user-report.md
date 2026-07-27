@@ -2,9 +2,9 @@
 description: La API de trabajos de informes de usuarios incrementales permite a los administradores exportar solo usuarios cuyos datos hayan cambiado en un intervalo de fechas especificado. Esto elimina la necesidad de exportaciones de usuarios completas y permite una sincronización más eficiente de los registros de usuarios nuevos o actualizados.
 jcr-language: en_us
 title: Informe de usuarios incrementales (API de trabajos)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Tipo de trabajo: generarUsuarios. Solo función de administrador.
 
 ## Informe de usuarios incrementales (generateUserIncrementalReport)
 
-En esta sección se documenta la nueva función de informe de usuarios incremental introducida en M46. Este es el tema principal de este documento.
+En esta sección se documenta la nueva función, Informe incremental de usuarios.
 
 ## ¿Qué es una exportación incremental?
 
@@ -323,6 +323,4 @@ El ámbito del informe de usuario incremental es intencionado. Las siguientes fu
 
 El informe de usuarios incremental está diseñado para usarse en conectores de Adobe Learning Manager (PowerBI, Salesforce y otros) como reemplazo desplegable para el informe de usuarios completo en canalizaciones de sincronización regulares. Esto permite que los conectores que utilizan actualmente generateUsers migren al modelo incremental sin cambios en el esquema de datos descendente.
 
-&#x200B;* El archivo CSV de salida es compatible con columnas con el informe completo del usuario.
-&#x200B;* Los conectores pueden utilizar el informe incremental para la sincronización delta y volver al informe completo para el inicio o la recuperación.
-&#x200B;* Compatibilidad con la integración de conectores (PowerBI, SFDC)
+Los conectores pueden utilizar el informe incremental para la sincronización delta y volver al informe completo para el inicio o la recuperación.

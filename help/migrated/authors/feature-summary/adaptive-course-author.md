@@ -3,9 +3,9 @@ description: Como autor, aprenda a crear cursos adaptables para los alumnos.
 jcr-language: en_us
 title: Cursos adaptativos para autores
 contentowner: mmanuel
-source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '3038'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,18 @@ Una vez publicado, el curso está disponible para su inscripción. Los alumnos s
 >
 >Una vez publicado, no puede cambiar el curso de adaptable a normal ni viceversa. Compruebe la configuración antes de publicar.
 
+### Comportamiento de uso compartido de catálogos
+
+Cuando un catálogo que contiene cursos adaptables se comparte externamente en una cuenta de igual a igual, se aplican los siguientes comportamientos:
+
+* **Cursos adaptables compartidos directamente:** Los cursos adaptables se excluyen del catálogo compartido. No aparecen en la cuenta receptora.
+* **Cursos adaptables dentro de una ruta de aprendizaje o certificación:** Si se comparte un programa de aprendizaje o una certificación que contiene un curso adaptable, el programa de aprendizaje o la propia certificación se copia en la cuenta de recepción. El curso adaptable que contiene se copia como **curso normal**; la configuración adaptable, incluidas todas las reglas de visibilidad y finalización, no se copia. Los autores de la cuenta de destino ven el curso como un curso normal con todos los módulos visibles para todos los alumnos.
+* **Cursos adaptables establecidos como requisitos previos:** Si un curso adaptable se configura como un requisito previo de un curso normal, una ruta de aprendizaje o una certificación que se comparte, la relación de requisitos previos no se propaga a la cuenta receptora. El curso principal o el objeto de aprendizaje llega a la cuenta de destino sin el requisito previo.
+
+>[!NOTE]
+>
+>Dado que las configuraciones adaptables no se copian durante el uso compartido del catálogo, revise todas las relaciones de requisitos previos y las estructuras de certificación y programas de aprendizaje antes de compartir un catálogo de forma externa. Los alumnos de la cuenta de destino no experimentarán el mismo comportamiento adaptable que los alumnos de la cuenta de origen.
+
 
 ### Actualizar un curso adaptable publicado
 
@@ -140,6 +152,14 @@ Tenga en cuenta que ya no puede cambiar la configuración de visibilidad en el c
 | El módulo ha cambiado de obligatorio a opcional para el grupo de usuarios de un alumno | El módulo permanece visible; el alumno ya no necesita completarlo para completar el curso. |
 | Nuevo módulo obligatorio añadido (el alumno ya ha completado el curso) | El módulo pasa a estar visible para el alumno, pero este no obtiene automáticamente una licencia ni accede a ella. El nuevo módulo estará accesible solo cuando se active la finalización de la actualización. |
 
+>[!NOTE]
+>
+>**Ruta de aprendizaje ordenada:** Cuando se incluye un curso adaptable en una ruta de aprendizaje ordenada, los alumnos que no tienen módulos visibles en el curso adaptable no pueden completarlo. Esto impide que se pueda acceder a todos los elementos posteriores de la ruta de aprendizaje ordenada. Asegúrese de que todos los alumnos inscritos en la ruta de aprendizaje pertenezcan al menos a un grupo de usuarios que haga visible al menos un módulo en cada curso adaptable de la ruta.
+
+>[!NOTE]
+>
+>**Ruta de aprendizaje normal: darse de baja automáticamente:** Cuando se da de baja automáticamente a un alumno de un curso adaptable dentro de una ruta de aprendizaje normal porque un cambio de grupo de usuarios quitó todos sus módulos visibles, la ruta de aprendizaje principal permanece en estado de inscripción. La ruta de aprendizaje no se da de baja automáticamente. El alumno ve la ruta de aprendizaje como inscrita en su transcripción, aunque ya no se puede acceder al curso adaptable. Si tu caso de uso requiere que la ruta de aprendizaje también se dé de baja cuando lo haga el curso adaptable, usa una **ruta de aprendizaje adaptable** en lugar de una ruta de aprendizaje normal.
+
 ### Comportamiento de cambio de instancia
 
 Un alumno que cambie instancias de un curso adaptable seguirá adelante con su progreso:
@@ -159,10 +179,16 @@ Cuando un alumno se inscribe en un curso adaptable que incluye módulos de clase
 * Si todas las sesiones de clase visibles o virtuales tienen puestos disponibles, el alumno se inscribe y tiene acceso completo inmediatamente.
 * Si una o más sesiones visibles no tienen puestos disponibles, el alumno se inscribe y se lista de espera inmediatamente solo en esas sesiones específicas. Pueden comenzar y avanzar a través de todos los demás módulos de inmediato.
 
+### Límite de lista de espera
+
+En los cursos normales, los instructores pueden configurar un **límite de lista de espera**, un límite en el número de alumnos que se pueden incluir en la lista de espera de una sesión.
+
+En los cursos adaptables, la configuración de **límite de lista de espera** está deshabilitada en la aplicación del instructor y no se puede configurar. No hay límite en el número de alumnos que se pueden incluir en la lista de espera de una sesión de un curso adaptable. Todos los alumnos que intentan inscribirse cuando una sesión está llena se muestran en lista de espera sin restricciones.
+
 En la siguiente tabla se describen todos los escenarios de puestos y listas de espera para cursos adaptables.
 
 | Condición en la inscripción | Resultado |
-|---|---|
+| --- | --- |
 | Todas las sesiones de clase real y virtual visibles tienen puestos disponibles | Inscrito con acceso completo a todos los módulos |
 | Una o varias sesiones de clase real y clase virtual visibles están completas | Inscrito; en lista de espera solo en sesiones completas; todos los demás módulos accesibles inmediatamente |
 | El alumno ya se ha inscrito; El autor agrega una nueva sesión de clase real o virtual obligatoria sin puestos | El alumno está en lista de espera en la nueva sesión; progreso existente y acceso no afectado |
@@ -170,6 +196,12 @@ En la siguiente tabla se describen todos los escenarios de puestos y listas de e
 | El cambio del grupo de usuarios elimina una sesión del conjunto visible del alumno | Asiento liberado inmediatamente |
 | El alumno finaliza el curso; nueva sesión obligatoria de clase real y clase virtual se hace visible | Módulo visible pero sin asiento asignado automáticamente. El alumno debe activar la finalización de la actualización para acceder a la sesión. |
 | El administrador o el instructor asignan puestos | Todas las sesiones de clase real y clase virtual en lista de espera de ese alumno se borran simultáneamente |
+
+>[!NOTE]
+>
+>**Comportamiento de la ruta de aprendizaje de Flex:** Cuando un curso adaptable forma parte de una ruta de aprendizaje de Flex, el comportamiento de las listas de espera difiere de la inscripción directa. Si un alumno selecciona una instancia del curso adaptable dentro del programa de aprendizaje de Flex y no hay ninguna licencia disponible para esa instancia, el alumno se incluirá en la lista de espera de esa instancia específica. La información de alumno en lista de espera para este escenario solo está visible desde **Administrador > [Curso adaptable] > Lista de espera**; no aparece en **Administrador > Ruta de aprendizaje**. Consulte la pestaña Lista de espera del propio curso adaptable para gestionar a los alumnos que estaban en lista de espera mediante un programa de aprendizaje de Flex.
+
+Al descargar el **PDF del informe de asistencia** para una sesión de un curso adaptable que forma parte de una ruta de aprendizaje de Flex, los alumnos en lista de espera aparecen en la sección **Activo** del PDF. Esto se debe a que la interfaz Ruta de aprendizaje no tiene una sección de lista de espera independiente. Utiliza **Administrador > [Curso adaptable] > Lista de espera** para identificar a los alumnos que están en lista de espera y distinguirlos de los asistentes confirmados antes de marcar la asistencia.
 
 ### Ver la lista de espera
 

@@ -3,9 +3,9 @@ description: Imparte un curso a varias audiencias controlando qué módulos ve c
 jcr-language: en_us
 title: Cursos adaptables en Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Los cursos adaptables se pueden añadir a los catálogos de su cuenta. Cuando un
 >
 >Cuando se comparte externamente una ruta de aprendizaje o una certificación que contiene un curso adaptable, la cuenta receptora ve la ruta de aprendizaje o la certificación en su catálogo, pero el curso adaptable que contiene no aparece. El objeto de aprendizaje no se excluye por completo; solo se elimina el componente curso adaptable de la versión compartida. Los autores de la cuenta de destino deben tener en cuenta que el objeto de aprendizaje compartido puede tener menos módulos que la versión de origen.
 
+>[!NOTE]
+>
+>Cuando un curso adaptable se configura como un requisito previo de otro curso, y ese curso principal se comparte en una cuenta de recepción a través del uso compartido de catálogos, el curso del requisito previo adaptable no se comparte en la cuenta de recepción. Esto se aplica tanto si el requisito previo se establece directamente en el curso como a través de un objeto de aprendizaje de orden superior, como una ruta de aprendizaje o una certificación.
+>
+>En la cuenta de destino, el curso principal está disponible, pero no se cuenta con el requisito previo de adaptación. A los alumnos de la cuenta de recepción no les afecta el requisito previo que falta, ya que la dependencia del requisito previo no se aplica al contenido que llega a través del uso compartido de catálogos sin sus requisitos previos presentes.
+>
+>No configure los cursos adaptables como requisitos previos para el contenido que desee compartir externamente.
+
 ## Configuraciones admitidas
 
 | Configuración | ¿Admitido? |
-|---|---|
+| --- | --- |
 | Curso adaptable en una ruta de aprendizaje habitual | Sí (véase la nota siguiente) |
 | Curso adaptable en una ruta de aprendizaje flexible | Sí |
 | Curso adaptable en una ruta de aprendizaje adaptable | No |
@@ -126,6 +134,15 @@ Los cursos adaptables se pueden añadir a los catálogos de su cuenta. Cuando un
 | Uso compartido de catálogos (cuenta cruzada) | No |
 | Reglas de visibilidad en los módulos previos al trabajo o de prueba | No |
 | Reglas de visibilidad en los módulos de contenido principales | Sí |
+| Curso adaptable en una ruta de aprendizaje flexible | Sí |
+
+>[!NOTE]
+>
+>Al descargar el **PDF del informe de asistencia** para una sesión de un curso adaptable que forma parte de una ruta de aprendizaje de Flex, los alumnos en lista de espera aparecen en la sección Activo del PDF. La interfaz Ruta de aprendizaje no tiene una sección de lista de espera dedicada, por lo que no existe ningún bloque de lista de espera independiente en la exportación del PDF. Para identificar con precisión a los alumnos en lista de espera, comprueba **Administrador > [Curso adaptable] > Lista de espera** antes de marcar la asistencia.
+
+La columna **Incrustado** en el informe de lista de espera identifica las instancias de Flex Learning Path que contienen este curso adaptable como componente. Muestra el nombre de la ruta de aprendizaje y el ID del objeto de aprendizaje. No se pretende mostrar rutas de inscripción de alumnos individuales. Para los cursos adaptables anidados dentro de una ruta de aprendizaje secundaria que se encuentra dentro de una ruta de aprendizaje principal, solo aparece en esta columna la ruta de aprendizaje principal directa.
+
+Cuando el curso adaptable forma parte de una **certificación periódica**, la finalización de la actualización solo se aplica a la inscripción del alumno en el ciclo de certificación raíz. Los ciclos recurrentes posteriores contienen una instancia independiente del curso adaptable que no se ve afectada por la actualización. Los alumnos inscritos en un ciclo periódico no ven las actualizaciones de los módulos o no recuperan sus finalizaciones. Si su organización utiliza cursos adaptables en certificaciones recurrentes, comunique esta limitación a los administradores antes de activar las finalizaciones de actualizaciones.
 
 >[!NOTE]
 >
