@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 62%
 
 ### Sistema operativo
 
-Windows 10 y 11, macOS X 10.12, 10.13, 10.14, 10.15
+Windows 10 y 11, macOS X 10.12, 10.13, 10.14 y 10.15
 
 ### Procesador
 
-Intel® CoreTM i5 o superior.
+Intel® CoreTM i5 o superior
 
 ### RAM
 
@@ -65,7 +65,7 @@ Se requiere un micrófono para la grabación de audio y una cámara web para la 
 
 >[!NOTE]
 >
->El explorador para dispositivos móviles solo admite la función de alumno en **diseño envolvente**.
+>El navegador para dispositivos móviles solo admite la función de alumno en el **diseño envolvente**.
 
 >[!NOTE]
 >
@@ -86,9 +86,9 @@ La página principal de diseño envolvente no es compatible con los navegadores 
 ## Tamaño recomendado de las imágenes {#recommendedsizeofimages}
 
 * Cabecera:
-   * Para configuraciones tan grandes: 1280 x 360 PX
-   * Para configuraciones como medio: 1280 x 273 PX
-   * Para configuraciones tan pequeñas: 1280 x 187 PX
+  * Para configuraciones tan grandes: 1280 x 360 PX
+  * Para configuraciones como medio: 1280 x 273 PX
+  * Para configuraciones tan pequeñas: 1280 x 187 PX
 * Imagen en la tarjeta del catálogo: 280 x 100 px
 * Tamaño de la tarjeta de formación: 300 x 240 px
 * Banner de redes sociales: 1600 x 240 px
@@ -101,7 +101,7 @@ El tamaño de archivo máximo que se puede cargar es de 600 MB.
 >
 >Si el tamaño del archivo *user.csv* es superior a 100 MB, importarlo puede provocar comportamientos inesperados en el navegador. Este problema se produce porque el navegador se queda sin memoria.
 
-Se recomienda importar archivos *user.csv* de tamaño grande mediante el flujo de trabajo automatizado de Box/Exavault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Se recomienda importar archivos *user.csv* de tamaño grande mediante el flujo de trabajo automatizado de Box/ExaVault. Para obtener más información, consulte [Migración de archivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de contenido admitidos
@@ -240,26 +240,26 @@ Se recomienda importar archivos *user.csv* de tamaño grande mediante el flujo d
    <td>
     <p>Logotipo de empresa en el encabezado</p></td>
    <td>
-    <p>45 píxeles de alto; la anchura se calcula en consecuencia.</p></td>
+    <p>45 píxeles de alto; la anchura se calcula proporcionalmente.</p></td>
   </tr>
   <tr>
    <td>
     <p>Logotipo de empresa en la página de inicio de Learning Manager</p></td>
    <td>
-    <p>100 píxeles de altura; la anchura se calcula en consecuencia.</p></td>
+    <p>100 píxeles de alto; la anchura se calcula proporcionalmente.</p></td>
   </tr>
  </tbody>
 </table>
 
 ## Accesibilidad
 
-### Navegadores y lectores de pantalla compatibles
+### Navegadores y lectores de pantalla admitidos
 
 Se admiten las siguientes combinaciones:
 
 * Chrome + NVDA
 * Edge + Narrator
-* Mac Safari + VoiceOver
+* Safari + VoiceOver
 
 ### Compatibilidad con la experiencia móvil envolvente
 
