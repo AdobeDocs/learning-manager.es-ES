@@ -2,7 +2,7 @@
 description: Configura la puntuación ponderada para los alumnos en el libro de calificaciones, de forma que la finalización del curso se pueda vincular a la consecución de un umbral mínimo de puntuación.
 jcr-language: en_us
 title: Libro de calificaciones para autores
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -32,7 +32,7 @@ El libro de calificaciones se configura en el nivel del curso al crear un curso 
   ![](assets/image_0003.png)
 
 * Seleccione el conmutador **Gradebook** para habilitarlo. Debajo aparecen dos opciones. Ambos están activados de forma predeterminada:
-  * **Mostrar libro de calificaciones a los alumnos:** alumnos ven una pestaña **Libro de calificaciones** en el reproductor del curso que muestra sus puntuaciones del módulo, el desglose del peso y el resultado agregado. Desactive esta opción para calcular las notas internamente sin exponerlas a los alumnos.
+  * **Mostrar libro de calificaciones a los alumnos:** Los alumnos ven una pestaña **Libro de calificaciones** en el reproductor del curso en la que se muestran sus puntuaciones del módulo, el desglose del peso y el resultado agregado. Desactive esta opción para calcular las notas internamente sin exponerlas a los alumnos.
   * **Incluir módulos que no contribuyen al grado final:** Los módulos que no son parte del requisito de criterios de aprobación también se mostrarán en el libro de calificaciones. Si esta configuración no está activada, solo se mostrarán los módulos que formen parte de los criterios de aprobación.
 
 ### Añadir módulos y asignar grosor
