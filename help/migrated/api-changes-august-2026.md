@@ -2,9 +2,9 @@
 description: Cambios en la API de ALM
 jcr-language: en_us
 title: Cambios en la API de la versión de agosto de 2026 de Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Esta versión agrega tres nuevos puntos finales de API públicas con ámbito de 
 
 Estos puntos finales solo funcionan con grupos de usuarios personalizados. Los grupos administrados por el sistema, como el grupo Todos los usuarios y los grupos de usuarios generados automáticamente, tienen el valor readOnly: true en la respuesta de la API y no se puede modificar ni eliminar a través de estos puntos finales.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de grupos de usuarios
 
@@ -131,9 +131,8 @@ Puede omitirse cualquiera de los campos; Si se omite un campo, su valor actual n
 
 | **Parámetro** | **Obligatorio** | **Tipo** | **Descripción** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | No | cadena | Nuevo nombre para mostrar. No debe estar en blanco si se proporciona. Omitir para dejar sin cambios. |
+| name | Sí | cadena | Nuevo nombre para mostrar. No debe estar en blanco si se proporciona. Omitir para dejar sin cambios. |
 | descripción | No | cadena | Nueva descripción. Pase null para borrar. Omitir para dejar sin cambios. |
-| datos | — | null | Debe ser nulo o estar ausente. Cualquier valor no nulo devuelve un error 400. |
 
 #### **Respuesta 200 correcta**
 
@@ -205,7 +204,7 @@ El flujo de trabajo de aprendizaje externo a través de la API refleja el flujo 
 
 Los cinco puntos finales tienen el ámbito del alumno. Un alumno solo puede acceder a sus propios envíos. La API devuelve un error si un alumno intenta acceder a los datos de otro alumno.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de aprendizaje externo
 
