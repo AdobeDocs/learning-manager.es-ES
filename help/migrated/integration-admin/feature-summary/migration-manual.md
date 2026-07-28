@@ -3,7 +3,7 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -934,7 +934,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 * **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
 * El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
 * El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
-* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+* El archivo CSV de sesión **1} crea sesiones de clase virtual con detalles del sistema de conferencia**
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
@@ -1166,7 +1166,7 @@ Al crear versiones del módulo LTI:
 
 El sistema de migración aplica el flujo de trabajo de procesamiento de migración estándar además de los campos específicos de LTI.
 
-## Migrar cursos adaptables
+## Migrar cursos adaptables {#migrateadaptivecourses}
 
 Si está migrando cursos desde un sistema externo a Adobe Learning Manager y desea configurarlos como cursos adaptables con visibilidad a nivel de módulo y reglas de finalización por grupo de usuarios, puede utilizar dos archivos CSV para definir tanto los cursos como sus reglas adaptables.
 
