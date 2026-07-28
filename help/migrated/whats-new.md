@@ -3,9 +3,9 @@ description: Descubra las nuevas funciones y mejoras, incluidos los cambios en l
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Hay dos niveles de acceso disponibles:
 | **Solo lectura** | Ver todas las funciones personalizadas, registros de importación y usuarios eliminados; descargar el informe de funciones personalizadas |
 | **Control total** | Todas las funciones de solo lectura, además de lo siguiente: crear, editar, eliminar y asignar funciones personalizadas; importar usuarios mediante CSV; purgar usuarios eliminados |
 
+### limitaciones
+
+**Sólo roles creados manualmente**: Las funciones de administración de funciones personalizadas ampliadas se aplican únicamente a las funciones creadas a través de la interfaz de administrador de Adobe Learning Manager. No se admiten las funciones importadas mediante carga de CSV.
+
 Obtenga más información sobre los cambios de función personalizados. Para obtener más información, consulta [Qué desbloquea el permiso de usuario avanzado](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## Vínculo profundo LTI
@@ -246,7 +250,7 @@ Obtén más información sobre los [cambios en la API en la versión de agosto d
 | Estandarización de la marca de tiempo **Webhook** | Todos los campos de fecha y hora del objeto `data` de las cargas webhook ahora tienen segundos establecidos en `00`, lo que proporciona una precisión de nivel de minutos coherente con los informes de transcripciones de alumnos. |
 | **Mejoras de Connect** | actualizaciones del conector de Azure Data Lake Storage (ADLS); compatibilidad con nombres de sala persistentes para sesiones de clase virtual periódicas; seguimiento de la asistencia basado en la vista de grabación. |
 | **Mejoras en el rendimiento del reproductor** | El reproductor de cursos fluídicos se ha optimizado para tiempos de carga más rápidos y transiciones más fluidas entre módulos. |
-| **Advertencia de impacto antes de retirar cursos o programas de aprendizaje** | Los administradores ahora ven una advertencia que enumera todas las inscripciones activas y las rutas de aprendizaje dependientes antes de que se pueda retirar un curso o una ruta de aprendizaje. |
+| **Advertencia de impacto antes de retirar cursos o programas de aprendizaje** | El autor/administrador verá una lista de advertencias de objetos de aprendizaje dependientes antes de que se pueda retirar un curso o una ruta de aprendizaje. Notifica al autor que se ha retirado un objeto de aprendizaje constitutivo. Los administradores reciben este mensaje si han creado el objeto de aprendizaje pero no tienen la función de autor. |
 | **Módulo CR/VC: Duración esperada** | Los autores ahora pueden establecer una duración esperada para los módulos de clase y clase virtual, independiente de la hora de sesión programada. Este valor aparece en informes e información del curso dirigida al alumno. |
 | **Confirmación antes de editar los cursos adquiridos** | Los administradores de cuentas de igual a igual ahora ven un cuadro de diálogo de confirmación antes de editar un curso adquirido a través del uso compartido de catálogos, lo que evita cambios no deseados en el contenido compartido. |
 | **URL de sesión con ID de instancia** | Las direcciones URL de inicio de sesión para sesiones de Microsofts Teams, Adobe Connect y Zoom ahora incluyen el ID de instancia, lo que garantiza que los alumnos se dirijan a la sesión correcta cuando existen varias instancias. |

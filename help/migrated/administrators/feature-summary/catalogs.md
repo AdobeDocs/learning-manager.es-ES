@@ -4,10 +4,10 @@ title: Catálogos
 description: Los catálogos son una colección de cursos de aprendizaje, programas de aprendizaje y certificaciones. Utilice los catálogos para proporcionar a los alumnos un conjunto personalizado de materiales de aprendizaje. Puede asociar aprendizaje con un catálogo durante la creación de un catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 79%
+source-wordcount: '3238'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,92 @@ Para eliminar un catálogo compartido, haga clic en el menú desplegable **[!UIC
 * No puede compartir un catálogo predeterminado con cuentas externas.
 * No puede eliminar un catálogo que haya compartido externamente.
 * No puede eliminar un catálogo compartido de otras cuentas.
+
+## Restringir cambios en cursos o rutas de aprendizaje adquiridos {#restrictchangesonacquiredcourseslp}
+
+En las organizaciones que utilizan el uso compartido de cuentas, el contenido de aprendizaje se suele crear y mantener en una cuenta principal y, a continuación, se comparte con cuentas de igual a igual a través de catálogos compartidos. Aunque este modelo ayuda a mantener un contenido coherente en varias cuentas, también puede provocar modificaciones no deseadas en las cuentas de recepción.
+
+Esto ayuda a proteger los objetos de aprendizaje compartidos, ya que evita que los autores de las cuentas receptoras realicen cambios que podrían romper la relación entre la cuenta de origen y el contenido compartido. Esto permite a los propietarios del contenido mantener un control centralizado, al tiempo que garantiza que las actualizaciones de la cuenta de origen sigan fluyendo a las cuentas de recepción.
+
+Esta función ayuda a las organizaciones a:
+
+* Preservar la integridad del contenido compartido desde una cuenta de origen.
+* Evite modificaciones accidentales que puedan romper la sincronización con la cuenta de origen.
+* Reduce la sobrecarga de gestión de contenido en varias cuentas.
+* Asegúrese de que las actualizaciones realizadas en la cuenta de origen continúen propagándose a las cuentas de recepción.
+* Advertencia clara a los autores cuando intenten modificar contenido compartido.
+
+Cuando se comparte un catálogo desde una cuenta de origen a una cuenta de recepción, los objetos de aprendizaje como cursos, rutas de aprendizaje y certificaciones quedan disponibles en la cuenta de recepción.
+
+Si la cuenta receptora habilita Restringir cambios en cursos o rutas de aprendizaje adquiridos, Adobe Learning Manager restringe la edición del contenido heredado originado en el catálogo compartido. Los autores pueden seguir consumiendo y utilizando el contenido compartido, pero no pueden realizar cambios que puedan romper la relación con la cuenta de origen.
+
+### Activar restricciones de edición para contenido de catálogo compartido
+
+**Requisitos previos**
+
+La cuenta ya debe estar recibiendo contenido de un catálogo compartido.
+
+1. Inicie sesión en ALM como administrador.
+2. Seleccione **Catálogos**.
+3. Seleccione un catálogo compartido.
+4. En la sección **Información general** del catálogo compartido, seleccione el botón de alternancia **Restringir cambios en cursos o rutas de aprendizaje adquiridos**. Cuando se activa, los cambios en los cursos/rutas de aprendizaje que forman parte del catálogo adquirido están restringidos para permitir que las actualizaciones fluyan desde la cuenta principal a esta cuenta.
+
+   ![](assets/shared-catalog-enabled.png)
+
+5. Seleccione **Actualizar** para guardar la configuración.
+
+### Experiencia de autor
+
+Cuando un autor abre un curso adquirido a través de un catálogo compartido, el sistema muestra un mensaje informativo que indica que:
+
+* El curso tiene su origen en un catálogo compartido.
+* Las restricciones de edición están activadas.
+* Algunas modificaciones de contenido están restringidas.
+
+### Intentar editar contenido restringido
+
+Si un autor intenta modificar contenido protegido:
+
+* El autor puede ver una advertencia que indica que el curso se adquirió de una cuenta de origen.
+* La advertencia explica que la modificación del contenido puede romper la relación con la cuenta de origen.
+* En función de la configuración, el sistema restringe o impide los cambios en el contenido afectado.
+
+Esto ayuda a los autores a comprender el impacto de sus acciones antes de realizar cambios.
+
+**¿Qué cambios están restringidos?**
+
+Cuando las restricciones de edición están activadas, las modificaciones del contenido del curso heredado están restringidas porque la cuenta de origen mantiene esos componentes. Estas restricciones están diseñadas para mantener la sincronización entre cuentas.
+
+Entre los ejemplos de contenido que se suelen controlar con la cuenta de origen se incluyen:
+
+* Metadatos del curso
+* Estructura del curso compartido
+* Contenido de aprendizaje compartido
+* Configuraciones de rutas de aprendizaje compartidas
+
+El objetivo es evitar cambios que puedan hacer que la copia de la cuenta receptora difiera de la versión de origen.
+
+**¿Qué cambios se permiten?**
+
+Algunas configuraciones se siguen administrando independientemente dentro de la cuenta receptora y se pueden seguir editando. Estos son:
+
+* Personalización de plantillas de correo electrónico
+* Gestión de instancias
+* Otras configuraciones de nivel de cuenta que no se originan en la cuenta de origen.
+
+### Ejemplo de escenario
+
+#### Antes de la restricción
+
+Un equipo de aprendizaje corporativo mantiene un curso de cumplimiento en la cuenta de origen y lo comparte con varias cuentas regionales.
+
+Un autor de una cuenta regional edita directamente el curso adquirido. Como resultado, la conexión con el curso original puede verse interrumpida, lo que impide que las futuras actualizaciones de la cuenta de origen se realicen correctamente.
+
+#### Después de la restricción
+
+La cuenta de destino habilita **Restringir cambios en cursos o rutas de aprendizaje adquiridos**.
+
+Cuando los autores regionales acceden al curso compartido, pueden ver y asignar el contenido, pero los campos protegidos no se pueden modificar. Las actualizaciones realizadas por la cuenta de origen se siguen entregando a las cuentas de recepción sin interrupción.
 
 ## Permitir control total del catálogo compartido {#enablefullcontrolofsharedcatalog}
 

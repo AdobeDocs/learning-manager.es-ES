@@ -4,10 +4,10 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5437'
-ht-degree: 25%
+source-wordcount: '5467'
+ht-degree: 24%
 
 ---
 
@@ -305,6 +305,11 @@ Esto significa que un administrador personalizado con acceso a un catálogo espe
 Al asignar usuarios a una función que haya creado, puede buscar y agregar cualquier usuario de la cuenta. Los permisos relacionados con el usuario en funciones personalizadas siempre se aplican al ámbito completo del grupo de usuarios y al ámbito completo del catálogo. El ámbito de catálogo o grupo de usuarios no se aplica cuando una función personalizada incluye permisos de administración de usuarios.
 
 Si un administrador completo reduce el ámbito o quita un permiso de la función, las funciones que haya creado anteriormente no se verán afectadas de inmediato. Esas funciones seguirán funcionando con sus permisos existentes hasta que se abra un administrador completo que las guarde individualmente.
+
+>[!IMPORTANT]
+>
+>**Sólo roles creados manualmente**: Las funciones de administración de funciones personalizadas ampliadas se aplican únicamente a las funciones creadas a través de la interfaz de administrador de Adobe Learning Manager. No se admiten las funciones importadas mediante carga de CSV.
+
 
 ## Otorgar permisos de usuario avanzado a una función personalizada
 
