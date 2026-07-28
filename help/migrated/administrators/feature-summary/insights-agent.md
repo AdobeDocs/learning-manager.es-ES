@@ -2,9 +2,9 @@
 description: Insights Agent es una función impulsada por IA de Adobe Learning Manager que permite a los administradores consultar datos de los alumnos mediante lenguaje natural.
 jcr-language: en_us
 title: Insights Agent (beta) en Adobe Learning Manager
-source-git-commit: f14f2211eabc025d921392711a3382dd62273dc3
+source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2864'
 ht-degree: 1%
 
 ---
@@ -133,10 +133,11 @@ Después de cada respuesta, seleccione el icono de miniaturas hacia arriba o hac
 
 ## Prácticas recomendadas
 
-- Empiece con una pregunta específica en lugar de una pregunta amplia. \&quot;Cuál es la tasa de finalización del curso de formación sobre seguridad en el grupo de usuarios de Norteamérica?\&quot; devuelve resultados más útiles que \&quot;Mostrar datos de finalización.\&quot;
+- Empiece con una pregunta específica en lugar de una pregunta amplia. \&quot;Cuál es la tasa de finalización del curso de formación sobre seguridad en el grupo de usuarios de Norteamérica?\&quot; devuelve resultados más útiles que \&quot;Mostrar datos de finalización.&quot;
 - Utilice términos exactos de Adobe Learning Manager al asignar nombres a contenido y grupos de alumnos. La guía de escritura de consultas enumera los términos correctos que se deben utilizar.
 - Si el agente hace una pregunta aclaratoria, trátela como una señal para perfeccionar su consulta original. Cuanto más específica sea tu pregunta, menos aclaraciones serán necesarias.
 - Revise la sección **Método** antes de actuar sobre los resultados, especialmente para consultas relacionadas con el cumplimiento en las que la precisión es crítica.
+- **Especifique si desea incluir o excluir alumnos en lista de espera**. De forma predeterminada, las consultas de recuento de inscripciones incluyen a los alumnos que están en una lista de espera junto con las inscripciones activas y confirmadas. Si solo necesita participantes activos, excluya explícitamente a los alumnos en lista de espera en la consulta. Por ejemplo: &quot;¿Cuántos alumnos se inscriben directamente en el curso de formación sobre seguridad, excepto los que están en lista de espera?&quot; El agente revelará en la sección Método que se aplicó la exclusión. Sin esta instrucción, los totales de inscripción pueden incluir una proporción significativa de alumnos en lista de espera que aún no han iniciado el contenido.
 
 
 ## Escribir consultas eficaces para Insights Agent
@@ -267,9 +268,11 @@ Al consultar datos de un curso asociado a una certificación periódica, Insight
 
 Después de crear contenido, inscribir a los alumnos o actualizar los registros de finalización, puede que los datos estén disponibles en los resultados de la consulta durante un máximo de 30 minutos. Si los resultados parecen incompletos o no reflejan la actividad reciente, espere 30 minutos y vuelva a intentar la consulta.
 
-**Los datos de inscripción y finalización incluyen inscripciones directas e indirectas**
+**Recuentos de inscripción directa e indirecta**
 
-Al consultar los datos de inscripción o finalización de un curso o una ruta de aprendizaje, Insights Agent devuelve un recuento combinado que incluye tanto las inscripciones directas (los alumnos inscritos específicamente en ese curso o ruta de aprendizaje) como las indirectas (los alumnos que accedieron al mismo contenido como parte de otra ruta de aprendizaje o certificación). Los resultados no separan estos dos tipos de inscripción.
+Al consultar los datos de inscripción o finalización de un curso o una ruta de aprendizaje, Insights Agent distingue entre inscripciones directas (alumnos inscritos específicamente en ese curso o ruta de aprendizaje) e inscripciones indirectas (alumnos que accedieron al mismo contenido como parte de una ruta de aprendizaje o certificación). Si solicita específicamente inscripciones directas o indirectas, el agente devuelve el recuento correcto para cada tipo.
+
+Si la consulta no especifica directa o indirectamente, el agente puede devolver un recuento combinado. Para obtener recuentos separados, incluya la distinción explícitamente en la consulta. Por ejemplo: &quot;¿Cuántos alumnos están inscritos directamente o indirectamente en el curso de formación sobre seguridad?&quot;
 
 **No se admiten las consultas enviadas en scripts no latinos**
 
