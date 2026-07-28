@@ -3,9 +3,9 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -934,7 +934,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 * **CSV de instancias de cursos:** crea o actualiza instancias de cursos, incluidas las fechas de inicio
 * El archivo CSV de instancias de aprendizaje **LP:** crea o actualiza instancias de rutas de aprendizaje, incluidas fechas de inicio
 * El archivo CSV **LP a la asociación de instancia de curso:** asigna una instancia de ruta de aprendizaje a una instancia de curso específica
-* El archivo CSV de sesión **1&rbrace; crea sesiones de clase virtual con detalles del sistema de conferencia**
+* El archivo CSV de sesión **1} crea sesiones de clase virtual con detalles del sistema de conferencia**
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
@@ -1178,6 +1178,17 @@ La migración de un curso adaptable requiere dos cambios en su paquete CSV de mi
 * **Un nuevo archivo,** _course_ module_user_group.csv_: una fila por regla de módulo a grupo de usuarios
 
 Ambos archivos deben incluirse en el mismo proyecto de migración.
+
+### Nombres de archivos CSV actualizados para la migración de cursos adaptables
+
+Los nombres de archivo CSV para la migración del curso adaptable y la ruta de aprendizaje adaptable ahora siguen la convención de nombre completo que utilizan todos los demás archivos de migración en Adobe Learning Manager. Por ejemplo, learning_object_section.csv en lugar de lo_section.csv. Si ya tiene secuencias de comandos o plantillas de migración que hacen referencia a los nombres abreviados anteriores, actualícelos con los nuevos nombres antes de la próxima ejecución de migración.
+
+| Nombre antiguo | Nuevo nombre |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Actualizar course.csv
 
