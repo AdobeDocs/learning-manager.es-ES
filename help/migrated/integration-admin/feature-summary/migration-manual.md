@@ -3,10 +3,10 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9122'
-ht-degree: 36%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1166,115 +1166,6 @@ Al crear versiones del módulo LTI:
 
 El sistema de migración aplica el flujo de trabajo de procesamiento de migración estándar además de los campos específicos de LTI.
 
-## Migrar cursos adaptables {#migrateadaptivecourses}
-
-Si está migrando cursos desde un sistema externo a Adobe Learning Manager y desea configurarlos como cursos adaptables con visibilidad a nivel de módulo y reglas de finalización por grupo de usuarios, puede utilizar dos archivos CSV para definir tanto los cursos como sus reglas adaptables.
-
-### Lo que necesita migrar
-
-La migración de un curso adaptable requiere dos cambios en su paquete CSV de migración estándar:
-
-* **Actualización de** _course.csv_: una nueva columna que marca un curso como adaptable
-* **Un nuevo archivo,** _course_ module_user_group.csv_: una fila por regla de módulo a grupo de usuarios
-
-Ambos archivos deben incluirse en el mismo proyecto de migración.
-
-### Nombres de archivos CSV actualizados para la migración de cursos adaptables
-
-Los nombres de archivo CSV para la migración del curso adaptable y la ruta de aprendizaje adaptable ahora siguen la convención de nombre completo que utilizan todos los demás archivos de migración en Adobe Learning Manager. Por ejemplo, learning_object_section.csv en lugar de lo_section.csv. Si ya tiene secuencias de comandos o plantillas de migración que hacen referencia a los nombres abreviados anteriores, actualícelos con los nuevos nombres antes de la próxima ejecución de migración.
-
-| Nombre antiguo | Nuevo nombre |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### Actualizar course.csv
-
-Añada la columna isAdaptive al archivo course.csv.
-
-| **Columna** | **Valores** | **Descripción** |
-| --- | --- | --- |
-| isAdaptive | verdadero o en blanco | Se establece en true para cursos adaptables. Déjelo en blanco o establézcalo en false para los cursos normales. |
-
-El resto de columnas de course.csv no se modifican.
-
-**Ejemplo de orden de columnas:**
-
-* id
-* courseName
-* descripción
-* courseCreationDate
-* state
-* secuencial
-* autor
-* thumbnailUrl
-* etiquetas
-* isAdaptive
-
->[!NOTE]
->
->La columna isAdaptive es opcional para los cursos normales. Si se omite o se deja en blanco, el curso se trata como un curso normal.
-
-### Añadir course_module_user_group.csv
-
-Se trata de un nuevo archivo CSV que define las reglas de visibilidad adaptable y finalización para cada módulo de cada curso adaptable. Cada fila asigna un módulo a un grupo de usuarios con un tipo de regla.
-
-| **Columna** | **Descripción** |
-| --- | --- |
-| courseId | El identificador de origen del curso (debe coincidir con el id de course.csv). |
-| moduleId | El identificador de origen del módulo (debe coincidir con el identificador del módulo en los archivos del módulo) |
-| userGroupId | El ID de Adobe Learning Manager del grupo de usuarios al que se aplica esta regla. |
-| tipo | OBLIGATORIO: el grupo de usuarios debe completar este módulo para completar el curso. OPCIONAL: el grupo de usuarios puede ver y acceder a este módulo, pero no es necesario para completarlo. |
-| operación | AGREGAR: cree o actualice esta regla. DELETE: elimine esta regla. |
-
-**Ejemplo de orden de columnas:**
-
-* courseId
-* moduleId
-* userGroupId
-* tipo
-* operación
-
-### Reglas para el archivo
-
-* Cada módulo de contenido de un curso adaptable debe tener al menos una fila en este archivo. Un módulo sin reglas no está visible para ningún alumno.
-* Los módulos previos al trabajo y los módulos de prueba no requieren reglas. Se aplican automáticamente a todos los alumnos inscritos y no deben aparecer en este archivo.
-* Puede tener varias filas para el mismo módulo. Uno por grupo de usuarios.
-* Si envía una fila ADD para una regla que ya existe en el sistema, la regla existente se actualiza en lugar de crear un duplicado.
-
-### Cargar pedido
-
-Los archivos de su proyecto de migración deben cargarse y procesarse en el orden siguiente. Los archivos posteriores dependen de los datos creados por archivos anteriores y fallarán si no se sigue el orden.
-
-* **module.csv**: Definir los módulos
-* **module_version.csv**: Definir las versiones del módulo
-* **course.csv**: (con isAdaptive=true para cursos adaptables): cree los cursos
-* **course_module.csv**: Vincular módulos a cursos
-* **course_module_user_group.csv**: Aplicar reglas de visibilidad y finalización adaptables
-
-Descargue los archivos de migración aquí: [Archivos de migración de cursos adaptables](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->**course_module_user_group.csv** debe cargarse en último lugar. Las reglas de este archivo hacen referencia a un curso y a un módulo que deben estar vinculados al paso 4 para poder aplicar las reglas.
-
-### Validación y referencia de error
-
-Adobe Learning Manager valida todas las filas de course_module_user_group.csv antes de aplicar las reglas. Cualquier fila que no supere la validación se rechaza con un mensaje de error. Las filas válidas restantes se siguen procesando.
-
-| **Escenario** | **Qué sucede** | **Mensaje de error** |
-| --- | --- | --- |
-| Reglas proporcionadas para un curso que no está marcado como adaptable | Fila rechazada | El curso debe ser adaptable para tener reglas de visibilidad del contenido. ID del curso: {courseId} |
-| Curso marcado como adaptable, pero sin reglas para ninguno de sus módulos de contenido | Curso rechazado | El curso adaptable debe tener al menos una regla de visibilidad para cada módulo de contenido. ID del curso: {courseId} no tiene reglas para los módulos: {moduleIds} |
-| El módulo no está vinculado al curso | Fila rechazada | El módulo {moduleId} no está vinculado al curso {courseId}. Añada el módulo al curso a través de course_module.csv en primer lugar. |
-| El módulo es un módulo de trabajo previo o de prueba (no un módulo de contenido) | Fila rechazada | Las reglas de visibilidad solo se aplican a los módulos de tipo de contenido. El módulo {moduleId} tiene el tipo {actualType}. |
-| El grupo de usuarios no existe o está inactivo | Fila rechazada | No se encontró el grupo de usuarios {userGroupId} o está inactivo. |
-| El valor de tipo no es OBLIGATORIO ni OPCIONAL | Fila rechazada | Tipo &#39;{type}&#39; no válido. Debe ser OBLIGATORIO u OPCIONAL. |
-| El valor de la operación no es ADD ni DELETE | Fila rechazada | Operación &#39;{operation}&#39; no válida. Debe ser ADD o DELETE. |
-| ADD se ha enviado para una regla que ya existe | Regla actualizada silenciosamente | Sin error: la regla existente se actualiza con el nuevo valor de tipo. |
-
 ## Migrar jerarquía de carpetas de contenido {#migratecontentfolderhierarchy}
 
 Si está migrando el contenido de aprendizaje de otra plataforma a Adobe Learning Manager y desea conservar la organización de carpetas existente, puede utilizar archivos CSV para crear una estructura de carpetas jerárquica y asociar los archivos de contenido a las carpetas adecuadas.
@@ -1307,7 +1198,6 @@ Antes de preparar el archivo CSV, asigne la estructura de carpetas o categorías
 >[!NOTE]
 >
 >Si el sistema de origen utiliza barras diagonales (`/`) en los nombres de categoría o carpeta, sustitúyalas por un guion (`-`) o un guion bajo (`_`) antes de preparar el archivo CSV. Adobe Learning Manager no permite `/` en los nombres de carpeta porque está reservado para la resolución de rutas de carpeta.
-
 
 #### content_folder.csv
 
@@ -1352,7 +1242,6 @@ En este ejemplo:
 >[!NOTE]
 >
 >Puede hacer referencia a una carpeta existente de su cuenta (creada antes de esta migración) como la carpeta principal de una nueva carpeta utilizando el prefijo `existing:` seguido del identificador de la carpeta en la columna `parentExternalId`; por ejemplo, `existing:12345`.
-
 
 ### Fase 2: Asociar contenido a carpetas
 
@@ -1402,7 +1291,6 @@ Cuando ejecute una migración de contenido completo, cargue y procese los archiv
 >
 >`content_folder.csv` debe procesarse antes del archivo de versión del módulo que contiene las rutas de acceso a carpetas, porque la estructura de carpetas debe existir antes de que se pueda asociar contenido a ella.
 
-
 ### Validación y referencia de error
 
 Adobe Learning Manager valida todas las filas de `content_folder.csv` antes de procesar. Las filas que no superan la validación se omiten y se notifican como errores. Se seguirán procesando las filas válidas del mismo archivo.
@@ -1422,7 +1310,6 @@ Adobe Learning Manager valida todas las filas de `content_folder.csv` antes de p
 | `CREATE_FOLDER` para un `id` que ya se ha migrado correctamente | Fila omitida | No es necesario realizar ninguna acción: se trata del comportamiento previsto al volver a ejecutar una migración |
 | La ruta de la carpeta en `module_version.csv` hace referencia a una carpeta que no existe | Fila de módulo rechazada | Ejecute primero el sprint de la estructura de carpetas o compruebe que el nombre y la ruta de la carpeta estén escritos correctamente |
 | Barra doble en la ruta de la carpeta (por ejemplo, `Training//Sales`) | Fila de módulo rechazada | Quitar la barra diagonal adicional del trazado |
-
 
 ### Retrocompatibilidad
 

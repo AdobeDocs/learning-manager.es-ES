@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33111'
+source-wordcount: '33074'
 ht-degree: 67%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 67%
 
 ## Elementos destacados de la versión
 
-La versión de agosto de 2026 de Adobe Learning Manager ofrece avances significativos en el aprendizaje personalizado, la IA, la creación de informes y las integraciones. Los cursos adaptables introducen reglas de visibilidad y finalización de módulos basadas en grupos de usuarios, lo que permite que un solo curso presente contenido diferente a diferentes alumnos en función de su función, región o perfil, lo que elimina la necesidad de mantener versiones de cursos independientes.
+La versión de agosto de 2026 de Adobe Learning Manager ofrece avances significativos en el aprendizaje personalizado, la IA, la creación de informes y las integraciones.
 
 El libro de calificaciones con todas las funciones añade una puntuación ponderada y un cálculo agregado de aprobado/suspenso a los cursos, lo que proporciona a las organizaciones una medida precisa y configurable del rendimiento del alumno que va más allá del simple seguimiento de la finalización.
 

@@ -2,9 +2,9 @@
 description: Cambios en la API de ALM
 jcr-language: en_us
 title: Cambios en la API de la versión de agosto de 2026 de Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -300,8 +300,8 @@ Compruebe el atributo habilitado de nivel superior antes de continuar; si es fal
 | título | TEXTO | Sí | Nombre del curso. Siempre presente. El administrador no puede deshabilitarlo. |
 | description_notes | TEXTO | No | Descripción o notas de texto libre. |
 | anuncio | MARCA DE TIEMPO | No | Intervalo de fecha Forma del valor: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. Cualquiera de los valores puede ser nulo. |
-| puntuación | NÚMERO | Sí | Forma del valor: { &quot;managed_score&quot;: <number>, &quot;max_score&quot;: <number> }. Ambos valores deben ser numéricos. |
-| duración | TEXTO | No | Cadena de forma libre, por ejemplo &quot;40 horas&quot;. |
+| puntuación | NÚMERO | Sí | Forma del valor: { &quot;managed_score&quot;: <number>, &quot;max_score&quot;: <number> }. Ambos valores deben ser numéricos.  max_score no puede ser negativo. |
+| duración | OBJETO | No | Por ejemplo, { &quot;timeSpan&quot;: 8, &quot;punto&quot;: &quot;HOURS&quot; }. |
 | archivos adjuntos | FILE_UPLOAD | Sí | Prueba de finalización. **No** se pasó dentro de los campos[]; en su lugar, use el atributo submitUrl de nivel superior. |
 
 El administrador define los campos personalizados y los devuelve en customFields[]. Sus ID, tipos, indicadores obligatorios, etiquetas y opciones desplegables varían según la configuración de la cuenta.

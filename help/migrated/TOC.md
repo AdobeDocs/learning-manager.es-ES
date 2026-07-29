@@ -2,7 +2,7 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -23,7 +23,7 @@ ht-degree: 50%
   * [Nuevas funciones de marzo de 2024](whats-new-march-2024.md)
   * {hide-from-toc}[Nuevas funciones, noviembre de 2023](whats-new-november-2023.md)
   * {hide-from-toc}[Nuevas funciones, julio de 2023](whats-new-2023-july.md)
-  * [Próximos cambios en Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+  * {hide-from-toc}[Próximos cambios en Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [Notas de la versión](release-note/release-notes.md)
   * [Requisitos del sistema](system-requirements.md)
   * [Aplicación Adobe Learning Manager para Microsofts Teams](adobe-learning-manager-app-microsoft-teams.md)
@@ -113,7 +113,7 @@ ht-degree: 50%
   * [Certificaciones](administrators/feature-summary/certifications.md)
   * [Crear y personalizar un certificado](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [Catálogos](administrators/feature-summary/catalogs.md)
-  * [Cursos adaptables](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[Cursos adaptables](administrators/feature-summary/adaptive-course-admin.md)
   * [Suplantar a un alumno y un responsable](administrators/feature-summary/impersonation-learner-manager.md)
   * [Varios métodos de inicio de sesión único (SSO)](administrators/feature-summary/multiple-sso-logins.md)
   * [Configurar el idioma de la interfaz mediante SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 50%
   * [Biblioteca de contenido](authors/feature-summary/content-library.md)
   * [Crear, modificar y publicar cursos](authors/feature-summary/courses.md)
   * [Catálogos](authors/feature-summary/catalogs.md)
-  * [Curso adaptable](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[Curso adaptable](authors/feature-summary/adaptive-course-author.md)
   * [Ayudas de trabajo](authors/feature-summary/job-aids.md)
   * [Gradebook](authors/feature-summary/alm-author-gradebook.md)
   * [Usuarios de tabletas iPad y Android](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 50%
   * [Catálogos](learners/feature-summary/catalogs.md)
   * [Inscripción con un clic](learners/feature-summary/learner-one-click-enrollment.md)
   * [Mi aprendizaje](learners/feature-summary/courses.md)
-  * [Curso adaptable](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[Curso adaptable](learners/feature-summary/adaptive-course-learner.md)
   * [Reproductor Fluidic](learners/feature-summary/fluidic-player.md)
   * [Programas de aprendizaje](learners/feature-summary/learning-programs.md)
   * [Certificaciones](learners/feature-summary/certifications.md)
