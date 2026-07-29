@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33111'
+source-wordcount: '33074'
 ht-degree: 67%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 67%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -33,7 +33,7 @@ ht-degree: 67%
 
 ## Elementos destacados de la versión
 
-La versión de agosto de 2026 de Adobe Learning Manager ofrece avances significativos en el aprendizaje personalizado, la IA, la creación de informes y las integraciones. Los cursos adaptables introducen reglas de visibilidad y finalización de módulos basadas en grupos de usuarios, lo que permite que un solo curso presente contenido diferente a diferentes alumnos en función de su función, región o perfil, lo que elimina la necesidad de mantener versiones de cursos independientes.
+La versión de agosto de 2026 de Adobe Learning Manager ofrece avances significativos en el aprendizaje personalizado, la IA, la creación de informes y las integraciones.
 
 El libro de calificaciones con todas las funciones añade una puntuación ponderada y un cálculo agregado de aprobado/suspenso a los cursos, lo que proporciona a las organizaciones una medida precisa y configurable del rendimiento del alumno que va más allá del simple seguimiento de la finalización.
 
@@ -557,7 +557,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2037,7 +2037,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2415,7 +2415,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -3041,7 +3041,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3551,7 +3551,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.
