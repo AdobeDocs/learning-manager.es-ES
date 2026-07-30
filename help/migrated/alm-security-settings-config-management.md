@@ -3,9 +3,9 @@ title: 'Adobe Learning Manager: configuración de seguridad y administración de
 description: Este documento describe los tipos de cuentas administrativas de Adobe Learning Manager, la configuración relacionada con la seguridad, los valores predeterminados seguros recomendados, las funciones de la API, la funcionalidad de exportación, los métodos de comparación de la configuración, las prácticas de publicación y el historial de versiones. Proporciona instrucciones detalladas sobre cómo funcionan las cuentas privilegiadas, sus implicaciones de seguridad y cómo se admite la administración de configuración en toda la plataforma.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Los dos tipos de cuentas privilegiadas de Adobe Learning Manager: Administrador 
 
 **Administrador personalizado: qué pueden hacer**:
 
-* Las funciones personalizadas las configura el administrador completo en Administración de ALM > Usuarios > Funciones personalizadas. Se puede conceder acceso a un administrador personalizado a una o varias de estas categorías de permisos: Privilegios de cuenta (anuncios, interacción, aptitudes, administración de usuarios), Privilegios de funciones (catálogos, informes, etiquetas) y Privilegios de objetos de aprendizaje (cursos, certificaciones, rutas de aprendizaje).
-* El ámbito es la configuración más sensible a la seguridad: una función personalizada se puede restringir a grupos de usuarios específicos y/o catálogos específicos. Sin restricciones de ámbito, una función personalizada tiene acceso efectivo en toda la plataforma a las funciones que se le han otorgado, lo que le permite ocupar el espacio de un administrador completo.
+* Las funciones personalizadas las configura el administrador completo en Administración de ALM > Usuarios > Funciones personalizadas. Se puede conceder acceso a un administrador personalizado a una o varias de estas categorías de permisos: Privilegios de cuenta (anuncios, interacción, aptitudes, administración de usuarios), privilegios de funciones (catálogos, informes, etiquetas) y privilegios de objetos de aprendizaje (cursos, certificaciones y rutas de aprendizaje).
+* Ámbito es la configuración más sensible a la seguridad: una función personalizada se puede restringir a grupos de usuarios específicos y/o catálogos específicos. Sin restricciones de ámbito, una función personalizada tiene acceso efectivo en toda la plataforma a las funciones que se le han otorgado, lo que le permite ocupar el espacio de un administrador completo.
 * Si se concede acceso a Configuración a una función personalizada en Privilegios de cuenta, ese administrador personalizado puede modificar los métodos de inicio de sesión, la configuración de notificaciones y las configuraciones de nivel de cuenta, un privilegio de gran impacto que solo se debe conceder con una justificación empresarial explícita.
 
 **Administrador de integración: qué pueden hacer**:
@@ -35,10 +35,10 @@ Los dos tipos de cuentas privilegiadas de Adobe Learning Manager: Administrador 
 
 **Referencias**:
 
-* [Funciones personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
-* [Administrar funciones personalizadas mediante CSV | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/configure-role-csv-files)
+* [Funciones personalizadas | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
+* [Administrar funciones personalizadas mediante CSV | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/configure-role-csv-files)
 * [Manual para desarrolladores de aplicaciones \| Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual)
-* [Conectores de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/connectors)
+* [Conectores de Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -48,30 +48,30 @@ Adobe Learning Manager documenta los valores predeterminados seguros recomendado
 
 * **Valores predeterminados de la cuenta de administrador de nivel superior (configurados en el primer aprovisionamiento)**:
 
-* Método de inicio de sesión para usuarios internos: inicio de sesión único (SSO) mediante SAML 2.0: configurado en Administración de ALM > Configuración > Métodos de inicio de sesión. No uses Adobe ID para empleados o administradores.
-* Verificación en dos pasos (2FA): obligatoria para todos los usuarios: configurada en Adobe Admin Console > Configuración > Privacidad y seguridad > Configuración de autenticación.
-* Duración máxima de la sesión: 8 horas (o según la política de la organización): configurada en Adobe Admin Console > Configuración > Privacidad y seguridad > Configuración avanzada.
-* Tiempo máximo de inactividad: 30 minutos (o según la política de la organización): la misma ubicación que antes.
-* Eliminación automática de usuarios inactivos: se activa con un período de retención definido por la organización (p. ej., 90 días de inactividad): Administración de ALM > Configuración > General.
-* Vencimiento del perfil de usuario externo: se establece en cada perfil externo en la creación: Administrador de ALM > Usuarios > Externo. Sin perfiles externos indefinidos.
-* Restricciones de acceso a IP: restrinja los intervalos de IP aprobados cuando sea posible: Admin Console > Configuración > Configuración avanzada.
+* Método de inicio de sesión para usuarios internos: Inicio de sesión único (SSO) mediante SAML 2.0: configurado en Administración de ALM > Configuración > Métodos de inicio de sesión. No uses Adobe ID para empleados o administradores.
+* Verificación en dos pasos (2FA): Obligatorio para todos los usuarios: se configura en Adobe Admin Console > Configuración > Privacidad y seguridad > Configuración de autenticación.
+* Duración máxima de la sesión: 8 horas (o según la política de la organización): se configura en Adobe Admin Console > Configuración > Privacidad y seguridad > Configuración avanzada.
+* Tiempo máximo de inactividad: 30 minutos (o según la política de la organización): en la misma ubicación que arriba.
+* Eliminación automática de usuario inactivo: Activado con un período de retención definido por la organización (p. ej., 90 días de inactividad): Administración de ALM > Configuración > General.
+* Vencimiento del perfil de usuario externo: Establecer en todos los perfiles externos durante la creación: Administrador de ALM > Usuarios > Externo. Sin perfiles externos indefinidos.
+* Restricciones de acceso IP: Restringir a intervalos de IP aprobados cuando sea posible: Admin Console > Configuración > Configuración avanzada.
 
 **Valores predeterminados de la función de administrador personalizado (configurados al crear cada función)**:
 
 * Ámbito de OAuth para aplicaciones registradas: ámbito mínimo requerido. No conceda nunca acceso de lectura/escritura a la función de administrador a menos que sea estrictamente necesario.
-* Ámbito de la función personalizada: restrinja a grupos de usuarios específicos y catálogos específicos. No cree funciones personalizadas con el ámbito Todos los usuarios y Todos los catálogos a menos que la función lo requiera de forma genuina.
-* Acceso a la configuración en funciones personalizadas: no se concede a menos que la función específica lo requiera, dado el riesgo de escalación de privilegios.
+* Ámbito de la función personalizada: restringirlo a grupos de usuarios y catálogos específicos. No cree funciones personalizadas con el ámbito Todos los usuarios y Todos los catálogos a menos que la función lo requiera de forma genuina.
+* Acceso a la configuración en funciones personalizadas: no conceder a menos que la función específica lo requiera, dado el riesgo de escalación de privilegios.
 
 **Valores predeterminados del administrador de integración**:
 
-* Ámbito de API OAuth: seleccione el ámbito más restrictivo que cumpla los requisitos de la integración. No conceda lectura/escritura de administrador a aplicaciones que solo necesiten acceso de lectura del alumno.
-* Credenciales de conector, credenciales de LTI y direcciones URL de webhook: tratar como secretos confidenciales; nunca compartir por correo electrónico ni confirmar en el control de código fuente.
+* Ámbito de API OAuth: seleccione el ámbito más restrictivo que satisfaga los requisitos de la integración. No conceda lectura/escritura de administrador a aplicaciones que solo necesiten acceso de lectura del alumno.
+* Credenciales de conector, credenciales de LTI y direcciones URL de webhook: tratar como secretos confidenciales: nunca los compartas por correo electrónico ni te comprometas con el control de código fuente.
 
 **Referencias**:
 
-* [Configuración | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
-* [Autenticación de usuarios y contraseñas seguras | Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/authentication-settings.html)
-* [Funciones personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
+* [Configuración | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
+* [Autenticación de usuario y contraseñas seguras | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/es/enterprise/using/authentication-settings.html)
+* [Funciones personalizadas | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -79,7 +79,7 @@ Adobe Learning Manager documenta los valores predeterminados seguros recomendado
 
 Adobe Learning Manager no dispone de un panel de comparación dedicado que muestre automáticamente la configuración actual junto con los valores predeterminados seguros recomendados.
 
-**Informe de funciones personalizadas: asignaciones de funciones con privilegios actuales**:
+**Informe de funciones personalizadas: asignaciones de roles con privilegios actuales**:
 
 * En ALM, vaya a Administración > Usuarios > Funciones personalizadas y haga clic en Descargar (arriba a la derecha) para exportar un archivo CSV de todas las funciones personalizadas, sus conjuntos de permisos y sus asignaciones de ámbito.
 * Compare esta exportación con los valores predeterminados recomendados en FRR-RSC-02 Sección 8, comprobando específicamente si cualquier función personalizada tiene acceso a Configuración, ámbito Todos los usuarios o ámbito Todos los catálogos sin justificación documentada.
@@ -95,7 +95,7 @@ Adobe Learning Manager no dispone de un panel de comparación dedicado que muest
 
 **Referencia**
 
-* [Manual del desarrollador de aplicaciones | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual)
+* [Manual para desarrolladores de aplicaciones | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -103,26 +103,26 @@ Adobe Learning Manager no dispone de un panel de comparación dedicado que muest
 
 Adobe Learning Manager admite la exportación de datos de configuración relevantes para la seguridad a través de varios mecanismos. Ninguna exportación produce una instantánea completa de todas las configuraciones de seguridad a la vez, pero las siguientes exportaciones cubren de forma conjunta todo el ámbito de los datos relevantes para la seguridad.
 
-**API ALM REST: exportación JSON de asignaciones de roles actuales y configuración de cuenta**:
+**API ALM REST: Exportación JSON de asignaciones de funciones actuales y configuración de cuenta**:
 
 * GET/cuenta: devuelve la configuración de nivel de cuenta en JSON, incluidos los datos de configuración de inicio de sesión activo y los metadatos de cuenta.
-* GET /users?include=role: devuelve todos los usuarios con sus funciones actualmente asignadas en JSON.
+* GET /users?include=role: devuelve todos los usuarios con sus funciones asignadas actualmente en JSON.
 * GET /userGroups: devuelve todos los grupos de usuarios y su pertenencia, relevantes para auditar el ámbito de función personalizada.
 * Todas las respuestas de la API son JSON (vnd.api+json). La autenticación utiliza OAuth 2.0 con el ámbito de lectura y escritura de la función de administrador.
 
-**Exportación de CSV de funciones personalizadas: definiciones de funciones con privilegios actuales**:
+**Exportación de CSV de funciones personalizadas: definiciones de función con privilegios actuales**:
 
 * Administración de ALM > Usuarios > Funciones personalizadas > Descargar exporta un archivo CSV de todas las definiciones de funciones personalizadas, sus categorías de permisos y las asignaciones de ámbito.
 * Esta exportación se puede utilizar como una instantánea legible por el equipo de la configuración actual de la cuenta con privilegios.
 **
 
-**API de trabajos: datos de usuario y rol en bloque**:
+API de trabajos de **: datos masivos de usuario y rol**:
 
 * La API de trabajos de ALM admite la generación a petición de informes de usuarios (incluidas las asignaciones de funciones) en formato CSV. Estas pueden programarse y consumirse mediante cumplimiento externo o herramientas SIEM.
 
 **Referencia**
 
-* [Manual del desarrollador de aplicaciones | Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual)
+* [Manual para desarrolladores de aplicaciones | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -140,9 +140,9 @@ Adobe Learning Manager proporciona una versión 2 de API REST completa que permi
 
 * GET/usuarios: recuperar todos los usuarios y sus funciones actuales
 * POST/usuarios: aprovisionar nuevos usuarios mediante programación
-* PATCH /users/{id}: actualizar atributos de usuario incluidas asignaciones de funciones
+* PATCH /users/{id}: actualizar atributos de usuario, incluidas asignaciones de roles
 * DELETE /users/{id}: deshabilitar una cuenta de usuario
-* POST /users/{id}/purge: purgue permanentemente un usuario y todos los registros asociados
+* POST /users/{id}/purge: purgar permanentemente un usuario y todos los registros asociados
 
 Recuperación de configuración de cuenta:
 
@@ -174,16 +174,16 @@ Los clientes que necesiten una comparación automatizada de la configuración ac
 
 Adobe Learning Manager mantiene un historial de versiones detallado y disponible públicamente para cada actualización del producto. En cada versión se documentan los cambios relevantes para la seguridad en la configuración administrativa, las capacidades de autenticación, los puntos finales de la API y las funciones de administración de funciones.
 
-**Notas de la versión de ALM: historial de cambios acumulativo y numerado**:
+**Notas de la versión de ALM: historial de cambios acumulativo, numerado**:
 
 * Adobe publica notas de la versión numeradas de cada actualización de Adobe Learning Manager (p. ej., actualización 100, actualización 99). Estos se publican en Experience League y documentan todas las nuevas funciones, los cambios en la configuración existente, las adiciones y eliminaciones de la API, los cambios en los conectores y las funciones obsoletas.
 * Cada nota de la versión incluye una sección dedicada a los cambios de la API, donde se enumeran los nuevos puntos finales, los campos de respuesta modificados y las depreciaciones, directamente relacionados con las funciones de configuración relevantes para la seguridad.
 
-**Páginas nuevas: resúmenes de funciones anteriores a la versión**:
+**Páginas nuevas: resúmenes de funciones por versión**:
 
 * Cada versión principal tiene una página dedicada a las novedades en la que se documentan las nuevas funciones relevantes para la seguridad con contexto. Por ejemplo, las notas de la versión incluyen cambios en el control de permisos de funciones personalizadas, la adición de visibilidad de permisos creados mediante CSV para funciones personalizadas y cambios de limitación de velocidad de API.
 
-**Lista de API en desuso: registro autorizado de funciones de API eliminadas** s:
+**Lista de API en desuso: registro autorizado de las capacidades de API eliminadas** s:
 
 * Adobe mantiene una página dedicada a las depreciaciones de la API en la que se enumeran todos los puntos finales de la API ALM obsoletos y eliminados con la versión de lanzamiento en la que se produce cada obsolescencia.
 
