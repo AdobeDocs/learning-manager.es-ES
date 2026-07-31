@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
 title: Integración de Adobe Connect
-description: Como alumno, puede realizar cursos de clase virtual con Adobe Connect si su empresa integra Adobe Connect con su cuenta de Learning Manager. Póngase en contacto con el administrador de su empresa si no puede usar Adobe Connect.
+description: Como alumno, puede realizar cursos de clase virtual mediante Adobe Connect si su empresa integra Adobe Connect con su cuenta de Learning Manager. Póngase en contacto con el administrador de la empresa si no puede utilizar Adobe Connect.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '285'
+ht-degree: 93%
 
 ---
 
 # Integración de Adobe Connect
 
-Como alumno, puede realizar cursos de clase virtual con Adobe Connect si su empresa integra Adobe Connect con su cuenta de Learning Manager. Póngase en contacto con el administrador de su empresa si no puede usar Adobe Connect.
+Como alumno, puede realizar cursos de clase virtual mediante Adobe Connect si su empresa integra Adobe Connect con su cuenta de Learning Manager. Póngase en contacto con el administrador de la empresa si no puede utilizar Adobe Connect.
 
 ## Realizar cursos de clase virtual de Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
 
-Inicie sesión en Learning Manager como alumno y haga clic en la tarjeta del curso de clase virtual en el widget Mi aprendizaje. Como alternativa, puede elegir Catálogo en el panel izquierdo, filtrar cursos y hacer clic en el curso de clase virtual requerido.
+Inicie sesión en Learning Manager como alumno; a continuación, haga clic en la tarjeta del curso de clase virtual en el widget Mi aprendizaje. Como alternativa, puede elegir Catálogo en el panel izquierdo, filtrar cursos y hacer clic en el curso de clase virtual requerido.
 
 Si se ha inscrito en un curso de clase virtual de Adobe Connect, antes de iniciar la sesión con la URL de su cuenta, recibirá una notificación.
 
@@ -35,4 +35,4 @@ Para escuchar las sesiones de clase virtual grabadas, haga clic en el curso de c
 
 >[!NOTE]
 >
->Por lo general, las direcciones URL de sesión grabadas se reflejan en la aplicación Learning Manager después de dos horas de finalización de la sesión.
+>En general, las URL de las sesiones grabadas aparecen en la aplicación Learning Manager dos horas después de haber finalizado la sesión.
