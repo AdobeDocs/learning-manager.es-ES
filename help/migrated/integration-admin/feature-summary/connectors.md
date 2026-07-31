@@ -1,11 +1,11 @@
 ---
 description: Información general sobre cada conector compatible con ALM
 jcr-language: en_us
-title: Descripción general de los conectores compatibles con ALM
+title: Información general sobre conectores en Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
+source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1426'
 ht-degree: 6%
 
 ---

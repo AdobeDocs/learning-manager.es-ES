@@ -6,8 +6,8 @@ contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
+source-wordcount: '205'
+ht-degree: 77%
 
 ---
 
@@ -31,7 +31,7 @@ Esto puede deberse a varios motivos:
 1. Los recordatorios están desactivados.
 1. Se ha programado la aparición de un recordatorio después de un determinado periodo.
 
-## Resolución
+## Solución
 
 1. Asegúrese de que la opción &quot;Mostrar cuestionario inmediatamente después de la finalización del curso&quot; esté habilitada en **Curso** > **Instancias** > **Comentarios de L1**.
    <!--![](assets/l1-feedback.png)-->

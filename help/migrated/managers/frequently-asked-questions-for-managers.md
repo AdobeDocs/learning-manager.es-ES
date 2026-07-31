@@ -6,8 +6,8 @@ contentowner: admin
 exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 57%
+source-wordcount: '802'
+ht-degree: 85%
 
 ---
 
@@ -25,17 +25,17 @@ Los administradores pueden activar/desactivar la opción de comentarios sobre el
 
 1. Haga clic en Notificaciones en el panel izquierdo.
 1. Haga clic en la ficha Tareas pendientes.
-1. Haga clic en las notificaciones de la página en la categoría Proporcionar comentarios y proporcione los comentarios de L3.
+1. Haga clic en Notificaciones en la página, en la categoría Proporcionar comentarios, y proporcione comentarios sobre el N3.
 
 +++
 
-+++¿Recibo una notificación cuando mi equipo finaliza cursos?
++++¿Puedo obtener una notificación cuando mi equipo finalice cursos?
 
-Puede ver el icono de notificaciones resaltado con el número de mensajes pendientes. Cuando un miembro del equipo se inscribe en un curso o lo completa, usted recibe una notificación. Al hacer clic en Mostrar todas las notificaciones en el menú emergente, puede ver todas las notificaciones y tareas pendientes en una página.
+Puede ver el icono de notificaciones resaltado con el número de mensajes pendientes. Cuando miembro del equipo se inscribe en un curso o lo completa, usted recibe una notificación. Al hacer clic en Mostrar todas las notificaciones en el menú emergente, puede ver todas las notificaciones y las tareas pendientes en una página.
 
 +++
 
-+++¿Puedo asignar varios alumnos a cursos e importar alumnos?
++++¿Puedo asignar cursos a varios alumnos e importar alumnos?
 
 Solo puede nominar a los miembros de su equipo a cursos. Solo los administradores pueden asignar cursos de manera masiva a los alumnos e importar grupos de alumnos.
 
@@ -58,7 +58,7 @@ El administrador de su empresa configura las notificaciones.
 
 +++
 
-+++¿Puedo ver las actividades de los alumnos durante un período específico? ¿Cómo lo hago?
++++¿Puedo ver las actividades de los alumnos de un período específico? ¿Cómo lo hago?
 
 Sí. Puede ver el estado de los alumnos con sus cursos dentro de un período específico creando informes basados en el estado de finalización del curso de los alumnos dentro de un intervalo de fechas determinado.
 
@@ -68,13 +68,13 @@ Puede hacer clic en el icono desplegable para modificar el intervalo de fechas y
 
 +++¿Puedo ver los niveles actuales de habilidades de los miembros de mi equipo?
 
-Puede crear informes para que los integrantes del equipo vean la lista de aptitudes asignadas y obtenidas por cada uno de ellos. Haga clic en Informes en el panel izquierdo y, a continuación, en la ficha Informes de muestra para ver un informe de muestra de Aptitudes frente a Responsables.
+Puede crear informes para que los miembros de su equipo vean la lista de aptitudes asignadas y obtenidas por cada uno de ellos. Haga clic en Informes en el panel izquierdo y luego en la ficha Informes de muestra para ver un informe de muestra de Aptitudes vs. Responsables.
 
-Para obtener más información, consulte la función [Informes](feature-summary/reports.md) en la Ayuda de Learning Manager.
+Para obtener más información, consulte [Informes](feature-summary/reports.md) en la Ayuda de Learning Manager.
 
 +++
 
-+++¿Cómo puedo ver las solicitudes pendientes de los miembros de mi equipo?
++++¿De qué manera veo las solicitudes pendientes de los miembros de mi equipo?
 
 Cuando un miembro de su equipo solicite un curso, podrá ver el icono de notificaciones resaltado con el número de mensajes pendientes.
 
@@ -120,13 +120,13 @@ Puede cambiar a la función de alumno para ver todos los cursos disponibles. Con
 
 +++
 
-+++¿Cómo obtengo acceso a la función de responsable?
++++¿Cómo obtengo acceso con la función de responsable?
 
 El administrador de su empresa le asignará la función de responsable si cumple con determinados requisitos y su empresa lo designa. Al iniciar sesión, verá la página principal de la función Responsable en Adobe Learning Manager.
 
 +++
 
-+++ ¿Cómo inicio sesión por primera vez en el Administrador de aprendizaje?
++++¿Cómo inicio sesión en Learning Manager por primera vez?
 
 Cuando utiliza Learning Manager por primera vez, tiene tres opciones:
 
