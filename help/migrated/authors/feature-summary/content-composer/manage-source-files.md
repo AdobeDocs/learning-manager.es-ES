@@ -2,9 +2,9 @@
 description: Carga los documentos, políticas o plataformas existentes para incorporar la IA al contenido de tu organización. Elija si desea restringir la generación solo a esos archivos o permitir que la IA complemente su conocimiento general.
 jcr-language: en_us
 title: Administrar archivos de origen
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Formatos admitidos:
 | PowerPoint (.ppt/.pptx) | 100 MB |
 | MS Word (.doc/.docx) | 100 MB |
 | Archivo de texto (.txt) | 100 MB |
-| Imágenes (.png, .jpg) | 100 MB |
 
 Seleccione **Continuar** para generar el esquema del curso.
 

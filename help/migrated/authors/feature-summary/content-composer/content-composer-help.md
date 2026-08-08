@@ -2,9 +2,9 @@
 title: Ayuda de Adobe Learning Manager Content Composer (Beta)
 description: Desde un mensaje en un idioma hasta un curso publicado, Adobe Learning Manager Content Composer gestiona el diseño didáctico para que puedas centrarte en lo que necesitan los alumnos creando contenido didáctico de gran impacto.
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ El compositor de contenido guía a los autores por los objetivos de formación, 
     <p>Implanta tu curso terminado en Adobe Learning Manager y conoce la forma en la que Compositor de contenido y ALM dividen las responsabilidades de creación, entrega e informes.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="Escribir avisos efectivos" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Escribir mensajes efectivos</strong></a>
-    </div>
-    <p>Aprende a escribir mensajes que produzcan mejores resúmenes, contornos más sólidos y contenido generado por IA más preciso.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## Busca las cosas {#lookthingsup}
