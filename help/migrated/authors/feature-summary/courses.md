@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,9 +55,9 @@ Para crear un curso, siga los pasos a continuación:
 4. Para que un curso esté disponible en otros idiomas, haga clic en Añadir nuevo idioma en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. Haga clic en **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modificar la configuración del curso**:
 
-   a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud , elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
-   b. Elija las aptitudes del curso, el nivel y establezca los créditos de la aptitud. Añada más aptitudes, si es necesario.
-   c. Agregue las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
+   b. Elija las aptitudes del curso, el nivel y defina los créditos de la aptitud. Si es necesario, añada más aptitudes.
+   c. Añada las etiquetas de cumplimiento personalizadas al curso, si es necesario. Consulte [Agregar etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
    d. En la lista desplegable **Tipo de inscripción**, elija el tipo de inscripción.
 
    Estos son los tipos de inscripciones:
@@ -592,6 +592,8 @@ Para añadir un módulo de contenido, siga los pasos que se indican a continuaci
 
    **Nota:** Un alumno debe estar disponible en Microsoft Teams. Sin embargo, el alumno puede unirse a Learning Manager como invitado.
 
+   También puede crear un curso de Live Hub si los administradores han habilitado Live Hub para una cuenta de ALM. Para crear la sesión de clase virtual con Live Hub, vea [Crear una sesión de Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+
    **Módulo de clase:** en este modo, los alumnos asisten en persona a conferencias que realiza un instructor experto. Indique el título, redacte una descripción y defina la duración de la sesión. También puede especificar la ubicación de la clase y los instructores que dirigen la sesión. Para guardar los cambios, haga clic en **[!UICONTROL Listo]**.
 
    >[!NOTE]
@@ -1013,7 +1015,7 @@ Para permitir que los instructores marquen el éxito del alumno:
 6. Escriba los detalles necesarios y seleccione las fechas.
 7. Seleccione la opción **[!UICONTROL Permitir al instructor marcar como correcto]**.
 
-   ![¿Desea permitir que el instructor marque el éxito? La casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito del alumno para un módulo &#x200B;](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![¿Desea permitir que el instructor marque el éxito? Esta casilla de verificación está resaltada, lo que permite a los autores registrar el estado de éxito de los alumnos de un módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Pantalla Detalles de la sesión con la opción Permitir al instructor marcar como correcta resaltada para los módulos Clase o Clase virtual_
 
 8. Seleccione **[!UICONTROL Listo]**.

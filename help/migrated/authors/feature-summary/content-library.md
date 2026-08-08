@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Cuando carga contenido nuevo, elige en qué carpeta lo almacena durante el proce
 4. En **Agregar archivo de contenido**, arrastre y suelte el archivo de contenido o seleccione el campo para examinar y cargar.
    ![](assets/cl2.png)
 
-5. En **Agregar a la carpeta**, examine la carpeta o busque la carpeta en el campo de búsqueda.
+5. En **Agregar a la carpeta**, examine la carpeta o busque la carpeta en el campo de búsqueda. También puede seleccionar varias carpetas.
    ![](assets/cl3.png)
 
 6. Seleccione **Agregar**.
@@ -453,11 +453,6 @@ Cuando carga contenido nuevo, elige en qué carpeta lo almacena durante el proce
 
 8. Seleccione **Guardar**. El archivo de contenido se agrega a la biblioteca de contenido y aparece en la parte superior de la lista.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->No puede copiar ni mover contenido entre las carpetas públicas y privadas. Si lo intenta, Adobe Learning Manager muestra un error.
-
 
 ## Ver rutas de carpeta en la biblioteca de contenido
 
@@ -486,7 +481,7 @@ El filtro **Carpetas** de la biblioteca de contenido le permite restringir la li
 
 3. Utilice el cuadro de búsqueda desplegable para buscar una carpeta por nombre.
 
-4. Puede seleccionar hasta **25 carpetas** a la vez. Si se seleccionan más de 25, se muestra un error.
+4. Puede seleccionar varias carpetas a la vez.
 
 ## Mover contenido a la carpeta {#movecontenttofolder}
 

@@ -1,15 +1,15 @@
 ---
-title: Crear canales
+title: Crear canales (beta)
 description: Aprenda a habilitar, crear y editar canales en Adobe Learning Manager para llevar contenido de aprendizaje basado en vídeo desde páginas web y páginas de Confluence Cloud a una única ubicación en la que los alumnos puedan realizar búsquedas.
-source-git-commit: 362d56b5758d55e7aa564893beade853f4c72deb
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
-# Crear canales
+# Crear canales (beta)
 
 Las organizaciones suelen almacenar sesiones de intercambio de conocimientos, grabaciones de formación y otros contenidos de vídeo en contenido de aprendizaje informal seleccionado en páginas web y de Confluence Cloud. Los canales conectan Adobe Learning Manager con estas fuentes de contenido, lo que facilita la detección y el consumo de vídeos sin necesidad de que los alumnos naveguen por varios sistemas. Los canales le ayudan a organizar y compartir contenido de aprendizaje basado en vídeo desde páginas web empresariales y páginas de Confluence Cloud en una única ubicación en la que se pueden realizar búsquedas. En lugar de buscar en varios sitios internos, los alumnos pueden descubrir grabaciones relevantes y acceder a ellas directamente desde Adobe Learning Manager. Visualiza [Descubre canales e interactúa con ellos](../../learners/feature-summary/discover-and-engage-with-channels.md) para obtener más información.
 
@@ -86,7 +86,7 @@ Cree un canal para definir el origen de contenido en el que Adobe Learning Manag
 
    1. **Color del tema del canal**: Seleccione un color para personalizar la apariencia visual del canal.
 
-   1. **Profundidad de rastreo**: Especifique la profundidad de rastreo de las páginas vinculadas para buscar contenido de vídeo. Admite una profundidad de rastreo máxima de **2**.
+   1. **profundidad de rastreo**: Introduzca la profundidad de rastreo de las páginas vinculadas para buscar contenido de vídeo. Admite una profundidad de rastreo máxima de **2**.
 
    1. **Frecuencia de rastreo (en horas)**: Especifique la frecuencia con la que Adobe Learning Manager debe comprobar el contenido nuevo o actualizado en la fuente.
 

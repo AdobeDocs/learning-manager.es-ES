@@ -4,10 +4,10 @@ title: Administrar funciones personalizadas mediante archivos CSV
 description: El administrador de integración puede añadir funciones personalizadas en bloque a su cuenta a través de CSV, así como asignar esas mismas funciones a varios usuarios. Este enfoque automatiza el proceso de creación de funciones personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 72%
+source-wordcount: '1002'
+ht-degree: 78%
 
 ---
 
@@ -25,8 +25,8 @@ Después de iniciar sesión en su cuenta de almacenamiento de Box, el administra
 
 En primer lugar, descargue el archivo CSV y cambie los valores en función de sus requisitos.
 
-* Archivo de muestra: [role.csv](assets/role.csv)
-* Archivo de muestra: [user_role.csv](assets/user_role.csv)
+* Archivo de muestra: [role.csv](assets/role.zip)
+* Archivo de muestra: [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 
@@ -52,7 +52,7 @@ En primer lugar, descargue el archivo CSV y cambie los valores en función de su
    <td>
     <p>&lt;Entity&gt;</p></td>
    <td>
-    <p>Identifique el tipo de acceso (FULL, WRITE, ENROLL, REPORT, NONE) para cada tipo de entidad, como COURSE, CATALOG, etc.</p></td>
+    <p>Identifique el tipo de acceso (COMPLETO, ESCRITURA, INSCRIPCIÓN, INFORME, NINGUNO) para cada tipo de identidad, por ejemplo CURSO, CATÁLOGO, etcétera.</p></td>
    <td>
     <p>COMPLETO</p>
     <p>NINGUNO</p>
@@ -160,7 +160,7 @@ Ambos archivos CSV deben cargarse solo a través de Box y no pueden cargarse a t
 
 Las funciones personalizadas que se creen con el archivo CSV no están visibles para los administradores de la IU. Estas funciones no están relacionadas con las funciones creadas (o que se vayan a crear) con la IU, ni se ven afectadas por ellas.
 
-Las funciones personalizadas creadas por un archivo .csv se pueden administrar completamente a través del propio archivo .csv. Esto incluye agregar, modificar y eliminar roles.
+Las funciones personalizadas que se creen con un archivo CSV se pueden administrar desde el propio archivo CSV. En este caso, se incluye la posibilidad de añadir, modificar y eliminar funciones.
 
 Las funciones asignadas se pueden revocar eliminando las entradas de asignación de user_role csv. Ahora bien, esto no afecta a las asignaciones realizadas desde la interfaz de usuario del administrador.
 
@@ -178,7 +178,7 @@ En la sección Configuración de sincronización, habilite la opción **[!UICONT
 
 *Seleccione la opción Habilitar sincronización automática*
 
-Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si especifica la hora de sincronización como 12:00 a.m., las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
+Si selecciona esta opción, puede programar el momento de la sincronización, a la hora exacta que indique en el campo Hora de sincronización. Si configura las 12:00 h como hora de sincronización, las funciones personalizadas se actualizan todos los días exactamente a la hora especificada.
 
 Si desea sincronizar los datos bajo demanda, haga clic en **[!UICONTROL Sincronizar ahora]**.
 
@@ -214,7 +214,7 @@ UserRole/
 **Detalles del archivo**
 
 * Archivo de importación de usuario: user1.csv
-* Archivo de rol: usuario1_rol.csv
+* Archivo de rol:  user1_role.csv
 * Archivo de asignación de funciones de usuario: user1_user_role.csv
 
 Descargue los [archivos CSV de muestra](/help/migrated/assets/sample-csv-Incremnetal.zip) aquí.

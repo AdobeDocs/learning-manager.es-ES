@@ -3,9 +3,9 @@ description: Aprenda a crear y administrar grupos de usuarios en Adobe Learning 
 jcr-language: en_us
 title: Administrar grupos de usuarios en Adobe Learning Manager | Organizar y asignar alumnos
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -115,12 +115,12 @@ _Icono de descarga para exportar datos de miembros de grupo como archivo CSV_
 
 A continuación se indican las columnas del informe de miembros del grupo:
 
-* **Nombre**: nombre del usuario
-* **Correo electrónico**: Id. de correo electrónico del usuario
-* **Estado**: estado del usuario (registrado o no registrado).
-* **Fecha de adición (zona horaria UTC)**: fecha en que el usuario se agregó a la zona horaria UTC.
-* **Fecha de eliminación (zona horaria UTC)**: fecha en la que se eliminó el usuario en la zona horaria UTC.
-* **Fecha del último inicio de sesión (zona horaria UTC)**: fecha en la que el usuario inició sesión por última vez en la zona horaria UTC.
+* **Nombre**: Nombre del usuario
+* **Correo electrónico**: ID de correo electrónico del usuario
+* **Estado**: Estado del usuario (registrado o no registrado).
+* **Fecha de adición (zona horaria UTC)**: Fecha en la que el usuario se agregó a la zona horaria UTC.
+* **Fecha de eliminación (zona horaria UTC)**: Fecha en la que se eliminó el usuario en la zona horaria UTC.
+* **Fecha del último inicio de sesión (zona horaria UTC)**: Fecha en la que el usuario inició sesión por última vez en la zona horaria UTC.
 
 ![](assets/csv-sample-download-ug.png)
 _El archivo CSV de muestra contiene los detalles del usuario_
@@ -192,10 +192,10 @@ Puede añadir uno o más grupos de usuarios generados automáticamente al conjun
 
 Si selecciona varios grupos de usuarios dentro del mismo conjunto de inclusión, los usuarios deben cumplir todas las condiciones para ser incluidos.
 
-Por ejemplo,
+Por ejemplo:
 
 * Grupo del equipo de ventas: 120 usuarios
-* Ubicación (Bangalore) grupo: 80 usuarios
+* Grupo de ubicación (Bangalore): 80 usuarios
 * Usuarios comunes en **ambos** grupos: 40 usuarios
 
 Adobe Learning Manager utiliza la lógica AND para crear un grupo con solo 40 usuarios. Estos usuarios forman parte del equipo de ventas y también se encuentran en Bangalore, cumpliendo ambas condiciones.
@@ -208,11 +208,17 @@ _Ejemplo que muestra varios grupos combinados mediante lógica AND_
 Si añade grupos de usuarios en conjuntos de inclusión independientes, se incluyen los usuarios que cumplan cualquier condición. Por ejemplo:
 
 * Grupo del equipo de ventas: 120 usuarios
-* Ubicación (Bangalore) grupo: 80 usuarios
-* Total de usuarios en cualquier grupo: 160 usuarios (algunos usuarios pueden estar en ambos grupos)
+* Grupo de ubicación (Bangalore): 80 usuarios
+* Número total de usuarios en cualquier grupo: 160 usuarios (algunos usuarios pueden estar en ambos grupos)
 
 Cuando usas la lógica OR, Adobe Learning Manager añade usuarios que están en el equipo de ventas o en Bangalore. Esto significa que incluye a los usuarios que cumplan cualquiera de las dos condiciones. Como resultado, el grupo incluye 160 usuarios después de eliminar los duplicados.
 
 ![](assets/or-logic.png)
 _Ejemplo que muestra varios grupos combinados mediante lógica OR_
+
+## Agregar y administrar instructores para sesiones de Live Hub
+
+En Adobe Learning Manager, los administradores también pueden gestionar instructores para sesiones de Live Hub, lo que incluye definir sus aptitudes, disponibilidad y preferencias de enseñanza. Esto ayuda a garantizar que se asignan los instructores adecuados a los cursos adecuados en función de la programación y la experiencia.
+
+Para obtener pasos detallados sobre la creación y administración de perfiles de instructor, consulte [Agregar y administrar instructores](../../getting-started-with-live-hub/instructor-management.md).
 

@@ -4,9 +4,9 @@ title: Vista previa como alumno
 description: El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido con una experiencia de aprendizaje mixta y sin interrupciones. Todos los formatos admitidos se reproducen de manera consistente en este reproductor. Los autores y los administradores pueden obtener una vista previa del contenido con el reproductor.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Al crear los cursos, los autores tienen la opción de obtener una vista previa d
 
 El reproductor Fluidic admite 11 idiomas. Estos son:
 
-| Idioma | Territorio | Identificador de IBM |
+| Idioma | Territorio | Identificador |
 |---|---|---|
 | Árabe | Arabia Saudí | ar-SA |
 | Chino-tradicional | Hong Kong S.A.R. de China | zh-Hant-HK |

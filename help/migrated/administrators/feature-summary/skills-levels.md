@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Crear y modificar aptitudes y niveles
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1828'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Cree, asigne y modifique aptitudes y niveles.
 
 El mapa de aptitudes es un grupo de conjuntos de conocimiento y características de aptitudes de un empleado en una empresa. Estos mapas de aptitudes ayudan a las empresas/organizaciones a establecer o mejorar las expectativas de rendimiento para sus empleados. Las aptitudes permiten a los empleados alinear los comportamientos con las expectativas de la empresa.
 
-Adobe Learning Manager le permite asignar el rendimiento de los alumnos según sus conjuntos de aptitudes al mapa de aptitudes. Cuando los alumnos completan algunos cursos, pueden saber su posición respecto a cada aptitud mediante la visualización de los mapas de aptitudes.
+Adobe Learning Manager le permite asignar el rendimiento de los alumnos según sus conjuntos de aptitudes al mapa de aptitudes. Cuando los alumnos completan algunos de los cursos, pueden saber su posición respecto de cada aptitud mirando el mapa de aptitudes.
 
 La finalidad básica de las aptitudes en el sistema de gestión de aprendizaje Learning Manager (LMS) es proporcionar al administrador una herramienta que adecue la formación a los objetivos de negocio.
 
@@ -37,7 +37,7 @@ Para añadir una aptitud, siga los pasos que se indican a continuación:
 
    *Agregar nombre y descripción de una aptitud*
 
-1. Asigne un dominio a la aptitud. Al crear una aptitud, puede asignarla a los dominios de aptitudes más relevantes que admita Learning Manager. Para obtener más información, consulte [***Asignar aptitud con dominios***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Asigne un dominio a la aptitud. Al crear una aptitud, puede asignarla con los dominios de aptitudes más relevantes que admita Learning Manager. Para obtener más información, consulte [***Asignar aptitud con dominios***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
    Empiece a escribir el dominio en el campo y podrá ver recomendaciones. Seleccione la opción o las opciones relevantes para la aptitud.
 
@@ -69,6 +69,25 @@ Para añadir una aptitud, siga los pasos que se indican a continuación:
    ![](assets/list-of-skills.png)
 
    *Ver lista de aptitudes*
+
+## Adición masiva de aptitudes
+
+Los administradores pueden añadir varias aptitudes directamente en Adobe Learning Manager mediante la opción de carga en bloque en el cuadro de diálogo **Añadir aptitudes**.
+
+Para añadir aptitudes de forma masiva:
+
+1. Seleccione **Aptitudes** en el panel izquierdo.
+
+1. Seleccione **Agregar** > **Agregar aptitudes**. <br> Aparece una ventana emergente de **Agregar aptitudes**.
+
+1. Seleccione **Añadir aptitudes en bloque (Cargar CSV)**.
+
+   Cuadro de diálogo ![Añadir aptitudes en bloque con la opción Cargar CSV](assets/add-skills-bulk-upload-csv.png)
+   Ventana emergente *Agregar aptitudes que muestra las opciones para agregar las aptitudes en bloque.*
+
+1. Cargue el archivo CSV con los detalles de la aptitud.
+
+1. Seleccione **Guardar**.
 
 ## Asignar la aptitud a alumnos {#assigntheskilltolearners}
 
@@ -152,7 +171,7 @@ Puede buscar aptitudes en las secciones **[!UICONTROL Activo]** y **[!UICONTROL 
 
 ## Editar una aptitud {#editaskill}
 
-En la página **[!UICONTROL Aptitud]**, haga clic en la aptitud que desea modificar. En el cuadro de diálogo **[!UICONTROL Editar aptitud]**, realice los cambios necesarios, por ejemplo:
+En la página **[!UICONTROL Aptitud]**, haga clic en la aptitud que desea modificar. En el cuadro de diálogo **[!UICONTROL Editar aptitud]**, efectúe los cambios pertinentes; por ejemplo:
 
 * Añadir o eliminar un dominio de aptitud.
 * Editar el nombre y la descripción de la aptitud.
@@ -192,13 +211,13 @@ Puede eliminar una aptitud solo cuando no está asociada a ningún alumno, curso
 Agregue un archivo CSV que contenga las aptitudes de los instructores. Estas aptitudes se añaden a continuación a la lista de aptitudes.
 
 1. En la esquina superior derecha de la pantalla, seleccione **[!UICONTROL Agregar]** > **[!UICONTROL Asignar aptitudes al instructor]**.
-1. Cargue un archivo csv. Las columnas del archivo CSV son:
+1. Cargue un csv. Las columnas del CSV son:
 
    * Nombre de la aptitud
    * Nivel de aptitud
    * Correo electrónico del instructor o UUID del instructor
 
-   Para las cuentas habilitadas para UUID, sustituya la columna Correo electrónico del instructor por UUID del instructor.
+   Para las cuentasque tienen habilitada la opción UUID, sustituya la columna Correo electrónico del instructor por UUID del instructor.
 
    Haga clic en Guardar.
 
@@ -239,14 +258,14 @@ En la página Aptitudes, hay una columna denominada Instructores, que indica el 
 No es posible eliminar a un alumno de una aptitud. Ahora bien, se pueden añadir alumnos o grupos de usuarios a la aptitud.
 +++
 
-+++Cómo inscribir automáticamente alumnos en una aptitud
++++¿Cómo se inscriben automáticamente los alumnos en una aptitud?
 
 La función de inscripción automática solo es para grupos de usuarios. Al inscribir un grupo de usuarios, por ejemplo Todos los autores, en una aptitud y guardarla, la inscripción automática está activada de forma predeterminada. Por lo tanto, cualquier incorporación nueva al grupo de usuarios Todos los autores se asigna también a la aptitud.
 
 Si detiene la inscripción automática relativa a ese nivel de aptitud para Todos los autores, no se asigna la aptitud a los nuevos usuarios que se agreguen al grupo de usuarios Todos los autores.
 +++
 
-+++Cómo reiniciar la inscripción automática?
++++¿Cómo reiniciar la inscripción automática?
 
 Inscriba de nuevo el mismo grupo de usuarios en el nivel de aptitud en el que se detuvo la inscripción automática.
 
@@ -255,17 +274,17 @@ De esta manera, se reinicia la inscripción automática y se asigna la aptitud a
 Es decir, cada vez que vuelve a inscribir un grupo de usuarios para iniciar la inscripción automática, actualiza los miembros del grupo de usuarios y asigna la aptitud a todos los miembros actuales.
 +++
 
-+++¿Cómo puedo asignar una aptitud a un curso?
++++¿Cómo se puede asignar una aptitud a un curso?
 
 Para obtener más información sobre el procedimiento, consulte la sección [Asignar aptitudes a un curso](skills-levels.md#assignskilltocourse).
 +++
 
-+++¿Cómo cambio un nivel de aptitud?
++++¿Cómo se cambia un nivel de aptitud?
 
 Para cambiar uno o más niveles de una aptitud, edite la aptitud y modifique las propiedades de los niveles.
 +++
 
-+++ ¿Cómo habilito las insignias y las aptitudes para que estén vinculadas a la finalización del curso?
++++¿Cómo se activan las insignias y las aptitudes para que estén vinculadas a la finalización del curso?
 
 Las aptitudes se pueden vincular a la finalización del curso al crear un curso como autor. En la sección Configuración, puede configurar los criterios de aptitud para la finalización del curso.
 
@@ -274,7 +293,7 @@ Las aptitudes se pueden vincular a la finalización del curso al crear un curso 
 A fin de activar instancias para la finalización del curso, en la sección **[!UICONTROL Instancias]** de la aplicación de autor, active la insignia correspondiente.
 +++
 
-+++¿Puede un administrador marcar una insignia como completa aunque esta muestre el estado &quot;En curso&quot;?
++++¿Un administrador puede marcar una insignia como completa aunque esta muestre el estado “En curso”?
 
 Un administrador puede marcar un objeto de aprendizaje como completado. La aptitud y las insignias se asocian con el objeto de aprendizaje y no se pueden marcar como **[!UICONTROL completadas]** por separado.
 

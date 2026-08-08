@@ -1,20 +1,16 @@
 ---
-description: Descubra las nuevas funciones y mejoras, incluidos los cambios en la API y los webhooks, de la versión de agosto de 2026 de Adobe Learning Manager
+description: Descubra las nuevas funciones y mejoras de la versión de agosto de 2026 de Adobe Learning Manager
 jcr-language: en_us
 title: Novedades de la versión de agosto de 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
 
 # Novedades de la versión de agosto de 2026 de Adobe Learning Manager
-
->[!IMPORTANT]
->
->Las funciones descritas en este artículo están disponibles como parte de la versión beta. Las funciones beta de Adobe Learning Manager se proporcionan con fines de evaluación y se pueden modificar, limitar o eliminar antes de la versión de disponibilidad general. Los nombres de funciones, el comportamiento y las opciones de configuración están sujetos a cambios sin previo aviso.
 
 ## Gradebook
 
@@ -54,7 +50,7 @@ Solo los módulos que producen una puntuación son elegibles para la ponderació
 
 Los tipos de módulos no puntuables, los archivos de PDF, los archivos de vídeo, los archivos de audio, las presentaciones de PowerPoint, los documentos de Word, los archivos de Excel y el contenido de HTML no se pueden asignar a un porcentaje de ponderación ni contribuyen a la puntuación agregada. Estos módulos pueden seguir siendo necesarios para la finalización del curso. Cuando la opción Incluir módulos que no contribuyen al grado final está activada, aparecen en el libro de calificaciones sin un valor de grosor.
 
-Para obtener más información, consulte [Libro de calificaciones para autores](/help/migrated/authors/feature-summary/alm-author-gradebook.md)
+Vea [Libro de calificaciones para autores](/help/migrated/authors/feature-summary/alm-author-gradebook.md) para obtener más información.
 
 ## Carpetas de contenido jerárquico
 
@@ -70,11 +66,11 @@ Capacidades clave:
 * Las carpetas públicas y la estructura de carpetas privadas se excluyen mutuamente
 * Experiencia Examinar carpetas al seleccionar módulos en la creación de cursos
 
-Para obtener más información sobre las funcionalidades de nivel de administrador, consulte [Carpetas de contenido jerárquico](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Para obtener más información sobre las funcionalidades de nivel de autor, consulte [Carpetas de contenido jerárquico](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+Vea [carpetas de contenido jerárquico](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder) para obtener más información sobre las funcionalidades de nivel de administrador. Vea [carpetas de contenido jerárquico](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder) para obtener más información sobre las funcionalidades de nivel de autor.
 
 Si está migrando el contenido de aprendizaje de otra plataforma a Adobe Learning Manager y desea conservar la organización de carpetas existente, puede utilizar archivos CSV para crear una estructura de carpetas jerárquica y asociar los archivos de contenido a las carpetas adecuadas. Más información sobre la migración en [Migrar la jerarquía de carpetas de contenido](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
-## Centro en vivo
+## Live Hub (beta)
 
 Live Hub es una experiencia de formación virtual basada en IA en Adobe Learning Manager que ayuda a las organizaciones a ofrecer un aprendizaje en directo atractivo e impactante. Con funciones inteligentes como las encuestas basadas en IA, la organización de salas de grupo de trabajo, los espacios de aprendizaje persistentes y la asistencia basada en IA, Live Hub aumenta la productividad del instructor al tiempo que reduce la complejidad de la entrega de sesiones.
 
@@ -86,9 +82,23 @@ Puntos más destacados:
 * Mide lo que importa con análisis de participación que van más allá de la asistencia para revelar una participación real en el aprendizaje.
 * Ayude a los autores a utilizar el buscador de instructores basado en IA para adaptar el instructor a sus aptitudes, disponibilidad, horas preferidas, zona horaria y utilización actual.
 
->[!NOTE]
->
->Live Hub está actualmente en versión beta y estará disponible con la próxima versión de agosto de Adobe Learning Manager. La documentación de Live Hub estará disponible una vez que se publique la función.
+Vea [Introducción a Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md) para obtener más información.
+
+## Adobe Learning Manager Content Composer (Beta)
+
+Adobe Learning Manager ahora incluye Content Composer, una herramienta de creación de cursos nativa de IA que le lleva de un mensaje en lenguaje sencillo a un curso estructurado y listo para publicar en cuestión de minutos.
+
+Características principales:
+
+* La inteligencia artificial conversacional guía a los autores por los objetivos de formación, el material de origen y los objetivos de aprendizaje para generar un resumen y un esquema completos del curso.
+* La generación basada en documentos restringe la salida de IA a los archivos cargados, lo que resulta esencial para la formación en cumplimiento normativo, normativa y basada en procedimientos.
+* Generación completa de cursos en un solo pase, como lecciones, temas, texto, imágenes, comprobaciones de conocimientos y cuestionarios graduados.
+* Sistema de tema visual con modo claro y oscuro, controles de fuente, compatibilidad con encabezados y pies de página, y exportación JSON para personalización avanzada.
+* Criterios de finalización, criterios de éxito, configuración de la prueba y versión de SCORM configurables antes de la publicación.
+* y mucho más.
+
+Vea [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md) para obtener más información.
+
 
 ## Generador de plantillas de correo electrónico basado en componentes
 
@@ -103,7 +113,7 @@ Capacidades clave:
 * Previsualizar y probar-enviar antes de publicar
 * Retrocompatibilidad: las plantillas de correo electrónico existentes siguen funcionando
 
-Para obtener más información, consulte [Generador de correo electrónico basado en componentes](/help/migrated/administrators/feature-summary/email-builder.md)
+Vea [Generador de correo electrónico basado en componentes](/help/migrated/administrators/feature-summary/email-builder.md) para obtener más información.
 
 ## Apoyo al aprendizaje externo
 
@@ -118,7 +128,7 @@ Capacidades clave:
 * Nuevas columnas en transcripciones de administradores y alumnos: Columnas Nombre de aprendizaje externo, Comentario de finalización y campo personalizado
 * Compatibilidad con API: cinco nuevos puntos finales con ámbito de alumno para crear, recuperar y actualizar envíos
 
-Para obtener más información a nivel de administrador, consulte [Soporte de aprendizaje externo](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Para obtener más información a nivel de administrador, consulte [Soporte de aprendizaje externo](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Para obtener más información a nivel de alumno, consulte [Soporte de aprendizaje externo](/help/migrated/learners/feature-summary/submit-external-learning.md).
+Para obtener más información a nivel de administrador, consulte [Soporte de aprendizaje externo](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Para obtener más información a nivel de administrador, vea [Soporte de aprendizaje externo](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Para obtener más información a nivel de alumno, vea [Soporte de aprendizaje externo](/help/migrated/learners/feature-summary/submit-external-learning.md).
 
 ## Funciones de IA
 
@@ -131,7 +141,7 @@ El asistente de inteligencia artificial para alumnos ahora admite cuatro nuevas 
 * **Adobe Experience League responde**: el asistente ahora obtiene respuestas a preguntas de procedimiento de la documentación de ayuda de Adobe Learning Manager
 * **Consultas de contenido de terceros**: Se puede consultar el contenido del catálogo de Go1 y LinkedIn Learning (solo metadatos; Sólo en inglés; la ingesta dura de 1 a 2 horas después de añadir el catálogo)
 
-Para obtener más información, consulte [Asistente de inteligencia artificial para alumnos](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+Vea [Asistente de inteligencia artificial para alumnos](/help/migrated/learners/feature-summary/learner-ai-assistant.md) para obtener más información.
 
 ### agente de ruta de aprendizaje
 
@@ -145,25 +155,25 @@ Capacidades clave:
 * Un máximo de 10 rutas de aprendizaje personalizadas visibles en la página de inicio del alumno
 * Las rutas completadas se pueden compartir con los compañeros
 
-Para obtener más información, consulte [Agente de ruta de aprendizaje](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Vea [Agente de ruta de aprendizaje](/help/migrated/learners/feature-summary/learning-path-agent.md) para obtener más información.
 
 ### Agente de información
 
 Insights Agent ayuda a los administradores a analizar los datos de aprendizaje mediante consultas de lenguaje natural. Haz preguntas sobre las tendencias de inscripción, las tasas de finalización, la participación de los alumnos y las carencias de habilidades. El agente genera reportes y visualizaciones en respuesta.
 
-Para obtener más información, consulte [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md)
+Vea [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) para obtener más información.
 
 ### Créditos de IA de generación
 
 Adobe Learning Manager integra funciones impulsadas por IA gestionadas mediante un sistema basado en créditos vinculado a las licencias de Agent Orchestrator. Este sistema requiere que los administradores activen funciones, establezcan límites de crédito y supervisen el uso a través de la página Facturación. La vinculación de la cuenta de Adobe Learning Manager a una organización de Adobe Admin Console con una licencia de Agent Orchestrator activa es esencial para activar las funciones de IA general.
 
-Para obtener más información, consulte [Créditos de generación de inteligencia artificial](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)
+Vea [Créditos de generación de inteligencia artificial](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) para obtener más información.
 
-## Canales
+## Canales (Beta)
 
 Los canales proporcionan una forma centralizada de organizar, publicar y descubrir contenido de vídeo desde páginas web y de confluencia. Los administradores pueden crear y administrar canales conectando páginas web compatibles o páginas de confluencia, configurando la configuración de los canales, controlando la visibilidad y sincronizando contenido desde el origen. Los alumnos pueden examinar los canales disponibles, suscribirse a canales de interés y ver contenido de vídeo seleccionado desde una única ubicación.
 
-Para obtener más información, consulte [Crear canales](/help/migrated/administrators/feature-summary/create-channels.md)
+Vea [Crear canales](/help/migrated/administrators/feature-summary/create-channels.md) para obtener más información.
 
 ## Generador de informes
 
@@ -171,7 +181,7 @@ Report Builder ofrece a los administradores una herramienta de creación de info
 
 Los informes se crean una vez y se guardan para un uso repetido. No es necesario reconstruir filtros, volver a aplicar agrupaciones ni volver a unir conjuntos de datos en cada descarga. Los informes guardados se pueden descargar a petición, compartir con otros administradores o configurarse con una suscripción para que los destinatarios reciban informes actualizados automáticamente a intervalos regulares.
 
-Para obtener más información, vea [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+Vea [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md) para obtener más información.
 
 ## Cambios de funciones personalizadas
 
@@ -196,39 +206,33 @@ Los administradores de integración ahora pueden habilitar la vinculación profu
 
 Una vez habilitado, los autores ven un botón **Seleccionar contenido** en la configuración de actividad de LMS externo. Pueden examinar los catálogos aprobados, seleccionar cursos y confirmar la selección, con todos los campos rellenados automáticamente.
 
-Para obtener más información, consulte [vínculos profundos LTI](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
+Vea [vínculos profundos de LTI](/help/migrated/integration-admin/feature-summary/lti-deep-links.md) para obtener más información.
 
 ## Ubicaciones de clases
 
-Las ubicaciones de clase ahora admiten un **formato de ubicación de cuatro campos** estructurado, que incluye País, Estado, provincia o región, Ciudad y Nombre de ubicación, lo que facilita la administración y organización de ubicaciones de formación en todas las regiones. La actualización incluye una migración única desde el formato antiguo de campo único y agrega compatibilidad multilingüe para los campos **Nombre de ubicación** e **Información de la sala**, lo que habilita los detalles de la clase traducidos para los alumnos.
+Las ubicaciones de clase ahora admiten un **formato de ubicación de cuatro campos** estructurado, que incluye País, Estado, provincia o región, Ciudad y Nombre de ubicación, lo que facilita la administración y organización de ubicaciones de formación en todas las regiones. La actualización incluye una migración única desde el formato de campo único heredado y agrega compatibilidad multilingüe para los campos **Nombre de ubicación** e **Información de ubicación**, lo que habilita los detalles de clase traducidos para los alumnos.
 
-Para obtener más información, vea [Ubicaciones de clase](/help/migrated/administrators/feature-summary/classroom.md)
-
-## Próximamente: Adobe Learning Manager Content Composer
-
-Adobe Learning Manager Content Composer es una próxima herramienta de creación de cursos de inteligencia artificial en Adobe Learning Manager que le ayuda a crear un curso listo para publicar en apenas tiempo.
-
-Un asistente de inteligencia artificial le guiará a través de todo el proceso: Mensaje, Resumen, Esquema y Curso, para que pueda mantener el control en cada paso, revisando y perfeccionando antes de continuar. Podrá incluir contenido en sus propios documentos de origen, aplicar temas de cursos instantáneos y compartir o exportar cursos finalizados mediante SCORM o la publicación directa en Adobe Learning Manager.
+Vea [Ubicaciones de clase](/help/migrated/administrators/feature-summary/classroom.md) para obtener más información.
 
 ## Notificación de cambios en la versión
 
-Obtén más información sobre los [cambios en los informes de la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+Vea [informes de cambios en la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) para obtener más información.
 
 ## Cambios en la API en la versión
 
-Obtén más información sobre los [cambios en la API en la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/api-changes-august-2026.md).
+Vea [Cambios en la API en la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) para obtener más información.
 
 ## Otras mejoras de la versión
 
 | Mejora | Descripción |
 |---|---|
-| **MQA: Puntuación más reciente frente a la más alta** | En los módulos con varios intentos, los autores ahora pueden elegir si la puntuación de intento más reciente o más alta se registra en la transcripción del alumno y se utiliza en los cálculos del libro de calificaciones. La opción Más reciente era el valor predeterminado existente y sigue siéndolo cuando la configuración no está configurada. Para obtener más información, consulte [Libro de calificaciones para autores](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
-| **Vista previa de contenido en biblioteca de contenido** | Ahora, los autores pueden obtener una vista previa de los archivos de contenido cargados directamente en la biblioteca de contenido antes de añadirlos a los cursos. Para obtener más información, consulte [Biblioteca de contenido de vista previa](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary). |
-| **Informe incremental de usuarios** | Un nuevo informe de usuario basado en API devuelve solo los usuarios creados o modificados desde la última solicitud, lo que reduce la transferencia de datos para cuentas grandes mediante flujos de trabajo automatizados de sincronización de usuarios. Para obtener más información, consulte [Informe de usuarios incrementales](/help/migrated/incremental-user-report.md). |
+| **MQA: Puntuación más reciente frente a la más alta** | En los módulos con varios intentos, los autores ahora pueden elegir si la puntuación de intento más reciente o más alta se registra en la transcripción del alumno y se utiliza en los cálculos del libro de calificaciones. La opción Más reciente era el valor predeterminado existente y sigue siéndolo cuando la configuración no está configurada. Para obtener más información, vea [Libro de calificaciones para autores](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
+| **Vista previa de contenido en biblioteca de contenido** | Ahora, los autores pueden obtener una vista previa de los archivos de contenido cargados directamente en la biblioteca de contenido antes de añadirlos a los cursos. Para obtener más información, vea [Biblioteca de contenido de vista previa](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary). |
+| **Informe incremental de usuarios** | Un nuevo informe de usuario basado en API devuelve solo los usuarios creados o modificados desde la última solicitud, lo que reduce la transferencia de datos para cuentas grandes mediante flujos de trabajo automatizados de sincronización de usuarios. Para obtener más información, vea [Informe incremental de usuarios](/help/migrated/incremental-user-report.md). |
 | **11 nuevos idiomas en el reproductor Fluidic** | El reproductor Fluidic ahora admite 11 idiomas adicionales, incluida la compatibilidad con scripts de derecha a izquierda (RTL). Para obtener más información, consulte [Reproductor Fluidic](/help/migrated/learners/feature-summary/fluidic-player.md). |
-| **Migración del módulo LTI** | Los módulos existentes de LTI 1.1 ahora se pueden migrar a LTI 1.3 usando la herramienta de migración. Para obtener más información, consulte [Migración de módulos LTI](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
-| **Generador de correo electrónico: Compatibilidad con el editor de texto enriquecido** | Las plantillas de correo electrónico de Adobe Learning Manager ahora admiten formato de texto enriquecido, archivos adjuntos y automatizaciones personalizadas. Para obtener más información, consulte [Generador de correo electrónico](/help/migrated/administrators/feature-summary/email-builder.md). |
-| **Generador de correo electrónico: Función de vista previa** | Puede comprobar el correo electrónico redactado para ver qué aspecto tendría en el final del destinatario mediante la opción Vista previa . Para obtener más información, consulte [Generador de correo electrónico](/help/migrated/administrators/feature-summary/email-builder.md). |
+| **Migración del módulo LTI** | Los módulos existentes de LTI 1.1 ahora se pueden migrar a LTI 1.3 usando la herramienta de migración. Para obtener más información, vea [Migración LTI de módulos](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
+| **Generador de correo electrónico: Compatibilidad con el editor de texto enriquecido** | Las plantillas de correo electrónico de Adobe Learning Manager ahora admiten formato de texto enriquecido, archivos adjuntos y automatizaciones personalizadas. Para obtener más información, vea [Generador de correo electrónico](/help/migrated/administrators/feature-summary/email-builder.md). |
+| **Generador de correo electrónico: Función de vista previa** | Puede comprobar el correo electrónico redactado para ver qué aspecto tendría en el final del destinatario mediante la opción Vista previa . Para obtener más información, vea [Generador de correo electrónico](/help/migrated/administrators/feature-summary/email-builder.md). |
 | Estandarización de la marca de tiempo **Webhook** | Todos los campos de fecha y hora del objeto `data` de las cargas webhook ahora tienen segundos establecidos en `00`, lo que proporciona una precisión de nivel de minutos coherente con los informes de transcripciones de alumnos. |
 | **Mejoras de Connect** | actualizaciones del conector de Azure Data Lake Storage (ADLS); compatibilidad con nombres de sala persistentes para sesiones de clase virtual periódicas; seguimiento de la asistencia basado en la vista de grabación. |
 | **Mejoras en el rendimiento del reproductor** | El reproductor de cursos fluídicos se ha optimizado para tiempos de carga más rápidos y transiciones más fluidas entre módulos. |
@@ -244,7 +248,7 @@ Obtén más información sobre los [cambios en la API en la versión de agosto d
 
 ## Requisitos del sistema
 
-Ver [requisitos del sistema de Adobe Learning Manager](/help/migrated/system-requirements.md).
+Consulte [Requisitos del sistema de Adobe Learning Manager](/help/migrated/system-requirements.md) para obtener más información.
 
 ## Notas de la versión
 
