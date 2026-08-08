@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Reproductor Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 52%
+source-wordcount: '649'
+ht-degree: 53%
 
 ---
 
@@ -72,7 +72,7 @@ El reproductor Fluidic para dispositivos móviles dispone de las siguientes func
 
 **Compatibilidad con 11 idiomas**: El reproductor Fluidic admite 11 idiomas. Estos son:
 
-| Idioma | Territorio | Identificador de IBM |
+| Idioma | Territorio | Identificador |
 |---|---|---|
 | Árabe | Arabia Saudí | ar-SA |
 | Chino-tradicional | Hong Kong S.A.R. de China | zh-Hant-HK |
