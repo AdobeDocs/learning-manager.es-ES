@@ -173,11 +173,11 @@ Si desea añadir puntuaciones y comentarios a módulos de actividad que se han e
 
 Para las sesiones creadas con Live Hub, la sección **Live Hub** de la página **Introducción a la sesión** proporciona acceso rápido a las actividades clave de la sesión.
 
-- **Introducir clase virtual**: Seleccione **Introducir clase** para unirse a la clase virtual o configúrela antes de que comience la sesión. También puede seleccionar **Copiar URL** para copiar el vínculo de la sesión y compartirlo con los participantes.
+&#x200B;- **Introducir clase virtual**: Seleccione **Introducir clase** para unirse a la clase virtual o configúrela antes de que comience la sesión. También puede seleccionar **Copiar URL** para copiar el vínculo de la sesión y compartirlo con los participantes.
 
-- **Ver análisis de sesión**: Seleccione **Ver página de análisis** para abrir el panel de análisis de sesión una vez finalizada la sesión. El panel proporciona información sobre la asistencia de los alumnos, la participación, la participación y otras métricas de las sesiones.
+&#x200B;- **Ver análisis de sesión**: Seleccione **Ver página de análisis** para abrir el panel de análisis de sesión una vez finalizada la sesión. El panel proporciona información sobre la asistencia de los alumnos, la participación, la participación y otras métricas de las sesiones.
 
-- **Ver grabación**: Si la sesión se grabó, selecciona **Ver grabación** para acceder a la grabación directamente desde la página **Introducción a la sesión**. Si no hay ninguna grabación disponible, la tarjeta indica su estado.
+&#x200B;- **Ver grabación**: Si la sesión se grabó, selecciona **Ver grabación** para acceder a la grabación directamente desde la página **Introducción a la sesión**. Si no hay ninguna grabación disponible, la tarjeta indica su estado.
 
 Página ![Resumen de sesión](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Página de resumen de sesión que muestra la sección Live Hub con acceso a las actividades de Live Hub.*
