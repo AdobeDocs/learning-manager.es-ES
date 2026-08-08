@@ -138,9 +138,9 @@ Para añadir instructores mediante el buscador de instructores:
 
 Los alumnos pueden inscribirse en un curso de Live Hub de las dos formas siguientes:
 
-1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) para obtener más información.
+1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/courses) para obtener más información.
 
-1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) para obtener más información.
+1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/courses) para obtener más información.
 
 Después de inscribirse, los alumnos se añaden al curso y reciben una notificación en su cuenta de Adobe Learning Manager. Según la configuración de notificaciones por correo electrónico de la cuenta, los alumnos también pueden recibir una invitación para unirse al curso por correo electrónico.
 
