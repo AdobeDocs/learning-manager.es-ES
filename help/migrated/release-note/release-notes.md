@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '33074'
-ht-degree: 67%
+source-wordcount: '34007'
+ht-degree: 65%
 
 ---
 
@@ -19,17 +19,13 @@ ht-degree: 67%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
 
 +++Actualización 10: Versión de agosto de 2026 de Adobe Learning Manager
-
->[!IMPORTANT]
->
->Las funciones descritas en estas notas de la versión están disponibles como parte de la versión beta. Las funciones beta de Adobe Learning Manager se proporcionan con fines de evaluación y se pueden modificar, limitar o eliminar antes de la versión de disponibilidad general. Los nombres de funciones, el comportamiento y las opciones de configuración están sujetos a cambios sin previo aviso.
 
 ## Elementos destacados de la versión
 
@@ -118,6 +114,66 @@ El agente de AI Orchestrator traslada la detección por intención de las solici
 **Plantillas y configuración de correo electrónico:** Cuando los administradores actualizaron el banner de correo electrónico en Configuración de plantilla de correo electrónico, el nuevo banner aparecía correctamente en el escritorio de Outlook pero no se mostraba en la web de Outlook, lo que resultaba en una experiencia de correo electrónico incoherente entre los clientes. El procesamiento de la plantilla de correo electrónico se ha actualizado para garantizar la compatibilidad de los banners en todas las plataformas de Outlook. Los banners de correo electrónico actualizados ahora se muestran correctamente en las versiones de Outlook Desktop y Outlook Web.
 
 ## Problemas conocidos de la versión
+
+### El instructor no puede unirse a la clase virtual entre módulos
+
+Los instructores no pueden unirse a la clase virtual al intentar entrar en una sala fuera de la hora programada de su módulo de curso asignado.
+
+Adobe Learning Manager utiliza una única clase virtual para todos los módulos de un curso. Cuando un instructor inicia la sala, la sesión se asocia al módulo vinculado a la combinación de ese instructor
+URL. Cualquier solicitud de unión posterior debe coincidir con el módulo activo asociado a la sala. Si otro instructor intenta unirse mediante el vínculo de combinación de un módulo diferente mientras otro módulo está activo, acceda al
+habitación es denegada. Solo puede haber un módulo activo en la sala compartida a la vez.
+
+Este comportamiento se espera en la versión actual. Las mejoras para permitir que los instructores del curso se unan a la sala, independientemente del módulo activo, están previstas para una futura versión.
+
+### El audio se interrumpe cuando el micrófono y el altavoz difieren en macOS
+
+El audio puede interrumpirse intermitentemente o el sonido puede aparecer distorsionado durante una sesión de clase virtual en macOS cuando el micrófono y el altavoz seleccionados son dispositivos diferentes.
+
+Este comportamiento puede producirse cuando se utilizan diferentes dispositivos para la entrada y salida de audio, como AirPods para el micrófono y el altavoz integrado para la reproducción. Dado que cada dispositivo introduce su propio retardo de audio, echo
+la cancelación es menos eficaz y la supresión de ruido de fondo puede identificar erróneamente partes de la voz como ruido. Esto puede producir breves interrupciones de audio. El problema es más evidente cuando el
+la voz del altavoz se captura a un volumen bajo, como cuando el micrófono se coloca más lejos.
+
+Esta es una limitación de plataforma conocida y no es específica de Adobe Learning Manager. Se ha observado un comportamiento similar en otras aplicaciones de conferencia. No se incluye ninguna corrección en esta versión y el problema se está evaluando para una futura versión.
+
+Utilice el mismo dispositivo para el micrófono y los altavoces para evitar este comportamiento.
+
+### El vídeo compartido se bloquea en Chrome después de perder el enfoque
+
+Cuando un instructor comparte una ventana de Chrome que reproduce un vídeo y, a continuación, aleja el foco de la pantalla, los asistentes pueden ver que el contenido compartido se bloquea o mostrar una pantalla en negro.
+
+El vídeo sigue reproduciéndose localmente para el instructor, pero es posible que los asistentes remotos no vean la actualización de contenido mientras la ventana compartida esté desenfocada. El comportamiento varía según el sistema operativo:
+
+- En Windows, los asistentes ven una pantalla en negro.
+- En macOS, los asistentes ven el último fotograma de vídeo mostrado.
+
+La reproducción de vídeo para los asistentes suele reanudarse cuando el foco vuelve a la ventana del navegador compartido.
+
+Esta es una limitación del navegador y del sistema operativo y no es específica de Adobe Learning Manager. No hay ninguna corrección específica del producto disponible para esta versión.
+
+Mantenga en primer plano la ventana del navegador compartido mientras presenta contenido de vídeo. Evite volver a la ventana Clase virtual durante la reproducción.
+
+### El instructor no puede unirse a un módulo ya en uso
+
+Cuando los instructores intentan iniciar dos módulos de curso que utilizan la misma clase virtual al mismo tiempo, solo el primer instructor puede entrar correctamente en la sala.
+
+Adobe Learning Manager utiliza una única clase virtual compartida para una instancia de curso. Cuando el primer instructor se une a la sala, esta se asocia al módulo del instructor. Las solicitudes de unión adicionales son
+validado con el módulo activo. Si otro instructor intenta unirse mediante un vínculo de módulo diferente, se deniega el acceso. Como resultado, las sesiones simultáneas con instructor no se pueden llevar a cabo en el mismo
+instancia de curso que utiliza módulos independientes que comparten una sala.
+
+Este comportamiento se espera en la versión actual y es coherente con la arquitectura de salas existente. La funcionalidad se está revisando para su mejora futura en función de los comentarios de los clientes.
+
+### El contenido compartido muestra un efecto de túnel después de volver a la ventana de Live Hub
+
+Cuando un instructor comparte la pantalla completa y, a continuación, vuelve a la ventana Live Hub, los participantes pueden experimentar un efecto de túnel en el contenido compartido. Cuando comparte la pantalla completa, la fuente compartida incluye todo lo que se muestra en el escritorio. Volver a la ventana Live Hub puede hacer que el contenido compartido capture y muestre repetidamente la interfaz de Live Hub, lo que provoca un comportamiento visual inesperado. Esta es una limitación conocida del uso compartido de pantalla completa y se está evaluando para una futura versión.
+
+Comparta una aplicación o ventana específica en lugar de toda la pantalla. Por ejemplo, comparta la presentación o la ventana de documento que desee que vean los participantes. Compartir una sola aplicación mantiene aislado el contenido compartido e impide el efecto de túnel.
+
+### El informe del tablero de sesiones no estará disponible inmediatamente después de volver a unirse a una sesión finalizada
+
+El informe del tablero de sesiones no estará disponible inmediatamente después de volver a unirse a una sesión finalizada
+Si un instructor ve el panel de la sesión después de que haya finalizado una sesión y, a continuación, se vuelve a unir a la misma sesión mediante su URL, es posible que el informe del panel de sesión existente ya no esté disponible. El informe puede tardar entre cinco y siete minutos en actualizarse y estar disponible de nuevo mientras se procesa la instancia de sesión anterior. Se trata de una limitación conocida y se está evaluando para una versión futura.
+
+Espere de cinco a siete minutos después de cerrar la sesión antes de volver a abrir la URL del panel. Esto permite que la instancia de sesión anterior complete el procesamiento, tras lo cual el informe del panel de sesión vuelve a estar disponible.
 
 ### Los nombres de columna no se localizan en el archivo CSV de ubicaciones de clase exportado
 
@@ -557,7 +613,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -821,7 +877,7 @@ No ocurre nada al hacer clic en las notificaciones de la pestaña Actividad de l
 
 ### Mejoras De Rendimiento En Esta Versión
 
-Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro para cada alumno.
+Cuando se realiza una inscripción masiva de alumnos, no se genera ningún archivo de registro de ningún alumno.
 Hemos optimizado el procesamiento de planes de aprendizaje para cuentas grandes. De este modo, se evitan problemas de búsqueda o retrasos.
 +++
 
@@ -2037,7 +2093,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2415,7 +2471,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -3041,7 +3097,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3551,7 +3607,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.

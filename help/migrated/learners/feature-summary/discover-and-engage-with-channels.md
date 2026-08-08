@@ -1,15 +1,15 @@
 ---
 title: Descubre los canales e interactúa con ellos
 description: Aprenda a buscar, suscribirse, ver, marcar favoritos y unirse a los debates sobre el contenido de vídeo disponible a través de los canales en Adobe Learning Manager.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# Descubre los canales e interactúa con ellos
+# Descubre los canales e interactúa con ellos (versión beta)
 
 Los canales ayudan a los alumnos a descubrir y acceder a contenido de aprendizaje informal basado en vídeo seleccionado en páginas web y de Cloud Confluence en Adobe Learning Manager. Los administradores crean canales conectándolos a páginas web empresariales o a páginas de Cloud Confluence que alojan sesiones grabadas de intercambio de conocimientos y transferencia de conocimientos.
 

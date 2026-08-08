@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -126,12 +126,12 @@ Este es el flujo de trabajo:
    ![](assets/proof-of-completion.png)
    *Enviar prueba de finalización*
 
-1. El instructor selecciona el módulo de actividad que se le ha asignado. En la página Envíos del módulo, el instructor hace clic en **Editar**. A continuación, puede introducir comentarios para indicar el rechazo y activar la opción Mostrar comentario para que el alumno pueda ver el comentario en la notificación.
+1. A continuación, el instructor selecciona el módulo de actividad que se le ha asignado. En la página Envíos del módulo, el instructor hace clic en **Editar**. A continuación, puede introducir comentarios para indicar el rechazo y activar la opción Mostrar comentario para que el alumno pueda ver el comentario en la notificación.
 
    ![](assets/enter-comments.png)
    *Escribir comentarios de finalización*
 
-1. El instructor puede hacer clic en **Rechazar**. El estado del envío cambia a **Marcado para rechazo**.
+1. El instructor hace clic en **Rechazar**. El estado del envío cambia a **Marcado para rechazo**.
 
    ![](assets/marked-for-rejection.png)
    *Rechazar un envío*
@@ -141,7 +141,7 @@ Este es el flujo de trabajo:
    ![](assets/rejected-status.png)
    *Ver estado de rechazo*
 
-1. El alumno ve ahora una notificación que indica que se ha rechazado su envío. Los comentarios del instructor también aparecen en la notificación.
+1. El alumno ve ahora una notificación que le indica que se ha rechazado su envío. Los comentarios del instructor también aparecen en la notificación.
 
    ![](assets/notification-of-rejection.png)
    *Recibir notificación de rechazo*
@@ -168,3 +168,16 @@ Si desea añadir puntuaciones y comentarios a módulos de actividad que se han e
    *Editar puntuaciones y comentarios*
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Sesión de Live Hub
+
+Para las sesiones creadas con Live Hub, la sección **Live Hub** de la página **Introducción a la sesión** proporciona acceso rápido a las actividades clave de la sesión.
+
+- **Introducir clase virtual**: Seleccione **Introducir clase** para unirse a la clase virtual o configúrela antes de que comience la sesión. También puede seleccionar **Copiar URL** para copiar el vínculo de la sesión y compartirlo con los participantes.
+
+- **Ver análisis de sesión**: Seleccione **Ver página de análisis** para abrir el panel de análisis de sesión una vez finalizada la sesión. El panel proporciona información sobre la asistencia de los alumnos, la participación, la participación y otras métricas de las sesiones.
+
+- **Ver grabación**: Si la sesión se grabó, selecciona **Ver grabación** para acceder a la grabación directamente desde la página **Introducción a la sesión**. Si no hay ninguna grabación disponible, la tarjeta indica su estado.
+
+Página ![Resumen de sesión](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Página de resumen de sesión que muestra la sección Live Hub con acceso a las actividades de Live Hub.*

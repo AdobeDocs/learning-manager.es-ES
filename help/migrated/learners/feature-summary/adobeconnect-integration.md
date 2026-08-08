@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Integración de Adobe Connect
 description: Como alumno, puede realizar cursos de clase virtual mediante Adobe Connect si su empresa integra Adobe Connect con su cuenta de Learning Manager. Póngase en contacto con el administrador de la empresa si no puede utilizar Adobe Connect.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 93%
+source-wordcount: '342'
+ht-degree: 78%
 
 ---
 
@@ -36,3 +36,7 @@ Para escuchar las sesiones de clase virtual grabadas, haga clic en el curso de c
 >[!NOTE]
 >
 >En general, las URL de las sesiones grabadas aparecen en la aplicación Learning Manager dos horas después de haber finalizado la sesión.
+
+## Consumir sesiones de Live Hub
+
+Como alumno, puede realizar cursos de clase virtual con Live Hub si su empresa tiene Live Hub habilitado para su cuenta de Learning Manager. Póngase en contacto con el administrador de su empresa si no puede usar Live Hub. Para conocer los pasos para unirse y asistir a la sesión, consulte [Unirse a una sesión como alumno](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md).

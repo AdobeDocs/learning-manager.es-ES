@@ -3,9 +3,9 @@ description: Más información sobre la configuración de la configuración avan
 jcr-language: en_us
 title: Configuración avanzada en Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Esta estructura proporciona a las organizaciones la flexibilidad de reflejar la 
 
 >[!NOTE]
 >
->Solo los administradores pueden crear, editar o eliminar carpetas en cualquier nivel. Los autores y los usuarios personalizados interactúan con la jerarquía, pero no pueden modificarla. Además, los administradores personalizados con acceso a cualquier carpeta raíz pueden crear, editar o eliminar carpetas de dicha carpeta raíz.
+>Solo los administradores pueden crear, editar o eliminar carpetas en cualquier nivel. Los administradores personalizados con acceso a cualquier carpeta raíz pueden crear, editar o eliminar carpetas en dicha carpeta raíz.
 
 
 ### Reglas de nomenclatura de carpetas
@@ -98,22 +98,7 @@ En la siguiente tabla se describe lo que puede hacer cada función con la jerarq
 | Carpetas de nivel 1 por cuenta | Sin límite |
 | Subcarpetas de nivel 2 por carpeta de nivel 1 | 25 |
 | Subcarpetas de nivel 3 por carpeta de nivel 2 | 25 |
-| Profundidad máxima de la carpeta | 3 niveles |
-
-
-### Comportamiento de selección de carpetas
-
-Al seleccionar una carpeta, por ejemplo, al filtrar o eliminar, la selección se desplaza en cascada por la jerarquía de la siguiente manera:
-
-* Al seleccionar una **carpeta de nivel 1**, se seleccionan automáticamente todas las carpetas de nivel 2 y nivel 3 que contiene.
-
-* Al seleccionar una **carpeta de nivel 2**, se seleccionan automáticamente todas las carpetas de nivel 3 que hay debajo. No se seleccionan otras carpetas de nivel 2 en la misma carpeta de nivel 1.
-
-* Al seleccionar una **carpeta de nivel 3**, solo se selecciona esa carpeta. No se ha seleccionado ninguna otra carpeta.
-
->[!NOTE]
->
->Cuando se selecciona una subcarpeta sin seleccionar su carpeta principal, esta no muestra un indicador de selección parcial o mixta. Esto es intencional. Porque una carpeta principal puede contener contenido, no sólo subcarpetas. Seleccionar una carpeta principal significa &quot;incluir todo el contenido de esta carpeta y todo lo que haya debajo&quot;. Un indicador parcial sugeriría que se incluye parcialmente el contenido de la carpeta principal, lo que sería engañoso. Si sólo desea filtrar por una subcarpeta específica, seleccione esa subcarpeta directamente. Si desea todo el contenido de una carpeta principal y sus subcarpetas, seleccione la carpeta principal.
+| Profundidad máxima de carpetas | 3 niveles |
 
 ### Cuándo utilizar una estructura jerárquica de carpetas
 
@@ -216,7 +201,7 @@ Antes de eliminar, tenga en cuenta las siguientes reglas:
 
 * Puede eliminar una carpeta vacía en cualquier nivel.
 * Solo se pueden eliminar las carpetas vacías. Las carpetas que contienen contenido no se pueden eliminar, independientemente de si el contenido está vinculado a otras carpetas o no.
-* Al eliminar una carpeta principal, se eliminan todas sus subcarpetas. Al seleccionar una carpeta principal, se seleccionan automáticamente todos sus elementos secundarios.
+* Al eliminar una carpeta principal, se eliminan todas sus subcarpetas, siempre que tanto la carpeta como todas sus subcarpetas estén vacías. Al seleccionar una carpeta principal, se seleccionan automáticamente todos sus elementos secundarios.
 
 #### Eliminar la carpeta principal
 
@@ -229,11 +214,6 @@ Antes de eliminar, tenga en cuenta las siguientes reglas:
 1. En la página **Carpeta de contenido**, seleccione la casilla de verificación junto a la subcarpeta que desea eliminar.
 2. Seleccione **Acciones** > **Eliminar carpeta** en la esquina superior derecha de la página.
 3. Confirme la eliminación cuando se le solicite. Se elimina la subcarpeta.
-
->[!CAUTION]
->
->La eliminación de una carpeta es permanente. Asegúrese de que todo el contenido de la carpeta se haya trasladado a otra ubicación antes de confirmar.
-
 
 #### Configurar el acceso a carpetas para funciones personalizadas
 
@@ -267,9 +247,6 @@ Las siguientes prácticas le ayudan a crear una estructura de carpetas que se ad
 3. **Mantén nombres cortos, descriptivos y únicos en su elemento principal.** Evite nombres genéricos como &quot;Módulo 1&quot; o &quot;Contenido&quot;. Utilice identificadores que tengan sentido para los autores que navegan por la biblioteca.
 
 4. **Asignar acceso a funciones personalizadas solo en el nivel 1.** Dado que el acceso se produce en cascada automáticamente, la asignación en el nivel 1 es suficiente y simplifica la administración del acceso. No es necesario actualizar el acceso cuando se agregan subcarpetas de Nivel 2 o Nivel 3.
-
-5. **Mover contenido antes de eliminar carpetas.** Si una carpeta contiene contenido que no está vinculado en ningún otro lugar, la eliminación se bloquea. Genera el hábito de revisar el contenido de las carpetas antes de eliminarlas.
-
 
 <!--
 
@@ -315,6 +292,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
+
+## Festivos
+
+La configuración de **Vacaciones** en Adobe Learning Manager te permite definir vacaciones en toda la organización. Los días no laborables aparecen en el calendario del instructor y afectan a la disponibilidad del instructor al programar en directo
+Centrar sesiones.
+
+### Puntos clave
+
+Los días no laborables son un conjunto de días no laborables que se mantienen en el nivel de cuenta, con las siguientes propiedades:
+
+- Solo el administrador puede añadir, editar o eliminar días no laborables o festividades.
+
+- Los días no laborables o festividades se aplican a toda la organización y aparecen en el calendario de cada instructor como días no laborables.
+
+- Dado que las festividades marcan a los instructores como no disponibles, las sesiones de Live Hub no se pueden programar en esas fechas.
+
+- Cada festividad requiere una fecha y un nombre; una descripción es opcional.
+
+- Puede añadir días no laborables o festividades de una en una o importar varios días no laborables o festividades a la vez mediante un archivo CSV.
+
+- Una vez agregados, los días no laborables o festividades aparecen en la página **Vacaciones**, donde puede verlos, buscarlos y administrarlos.
+
+Vea [Administrar días festivos](../../../getting-started-with-live-hub/manage-holidays.md) para obtener más información.
 
 ## Ubicaciones de clases
 
