@@ -1,7 +1,7 @@
 ---
 title: Crear una sesión de Live Hub
 description: Aprenda a crear un curso de Live Hub, añadir instancias de cursos, asignar instructores con el buscador de instructores, inscribir alumnos y personalizar la marca de la sala.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Para crear un curso de Live Hub:
 
    1. Escriba los nombres de los instructores en el campo **Instructores**.
 
-   1. Seleccione **Buscar instructores usando IA** para ver los instructores recomendados por IA. Consulte [Añadir instructores mediante el buscador de instructores](#add-instructors-using-instructor-finder) para obtener más información.
+   1. Seleccione **Buscar instructores usando IA** para ver los instructores recomendados por IA. Vea [Agregar instructores mediante el buscador de instructores](#add-instructors-using-instructor-finder) para obtener más información.
 
 1. Seleccione **Agregar** > **Guardar**.
 
@@ -109,7 +109,7 @@ Para crear una instancia de curso:
    ![Panel de configuración de sesión](assets/session-configuration-panel.png)
    *Configurar la programación, el instructor y la ubicación para una instancia de sesión específica.*
 
-1. En el campo **Instructores**, escribe los nombres manualmente o selecciona **Buscar instructores usando IA** para instructores recomendados por IA. Consulte [Añadir instructores mediante el buscador de instructores](#add-instructors-using-instructor-finder) para obtener más información.
+1. En el campo **Instructores**, escribe los nombres manualmente o selecciona **Buscar instructores usando IA** para instructores recomendados por IA. Vea [Agregar instructores mediante el buscador de instructores](#add-instructors-using-instructor-finder) para obtener más información.
 
 1. Indique los detalles de **Ubicación** y, a continuación, seleccione **Guardar**. La sesión se actualiza con los detalles de intervalos, instructor y ubicación configurados.
 
@@ -138,9 +138,9 @@ Para añadir instructores mediante el buscador de instructores:
 
 Los alumnos pueden inscribirse en un curso de Live Hub de las dos formas siguientes:
 
-1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/courses) para obtener más información.
+1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) para obtener más información.
 
-1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/courses) para obtener más información.
+1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) para obtener más información.
 
 Después de inscribirse, los alumnos se añaden al curso y reciben una notificación en su cuenta de Adobe Learning Manager. Según la configuración de notificaciones por correo electrónico de la cuenta, los alumnos también pueden recibir una invitación para unirse al curso por correo electrónico.
 
