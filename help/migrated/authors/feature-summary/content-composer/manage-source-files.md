@@ -2,9 +2,9 @@
 description: Carga los documentos, políticas o plataformas existentes para incorporar la IA al contenido de tu organización. Elija si desea restringir la generación solo a esos archivos o permitir que la IA complemente su conocimiento general.
 jcr-language: en_us
 title: Administrar archivos de origen
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ Los documentos de origen pueden quedar obsoletos después de que se haya generad
 
 ### Confirmar la carga del archivo
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Una vez que se adjunta un archivo, el icono de archivo en la barra de herramientas muestra un recuento de insignias. El asistente confirma la carga y ofrece un acceso directo **Generar esquema**. Selecciónelo o seleccione **Generar esquema** en la barra de herramientas superior.
