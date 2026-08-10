@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Administrar pedidos y facturación de Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
+source-git-commit: b3212ae430cb5804a66c19a2e213dc9538e8cf5f
 workflow-type: tm+mt
-source-wordcount: '2660'
-ht-degree: 49%
+source-wordcount: '2473'
+ht-degree: 53%
 
 ---
 
@@ -423,15 +423,17 @@ Póngase en contacto con [FastSpring](https://fastspring.com/) para obtener una 
 - Envíe un correo electrónico a FastSpring el `orders@fastspring.com` solicitando la factura.
 
 
-## Solución de problemas de créditos de IA general
+<!--
+## Troubleshoot Gen AI credit issues
 
-| Problema | Solución |
+| Issue | Solution |
 |---|---|
-| **La ficha Créditos no está visible** | No se han adquirido ni aplicado créditos de AI generales a esta cuenta. Verifique su licencia de Agent Orchestrator en su Adobe Admin Console y luego confirme que una organización está vinculada en **[!UICONTROL Facturación]** > **[!UICONTROL Suscripción]** > **Detalles de la cuenta**. |
-| El campo **ID de organización de IMS está en blanco** | Tu cuenta aún no está vinculada. Seleccione **[!UICONTROL Vincular organización IMS]** en la tarjeta **Detalles de cuenta** y siga los pasos de vinculación anteriores. |
-| **Error al vincular** | Confirme que tiene la función de administrador tanto en Adobe Learning Manager como en la organización de Adobe Admin Console que intenta vincular. Ambos controles deben pasar para que se establezca el vínculo. |
-| El campo **ID de organización de IMS está en blanco después de aplicar una clave de activación** | La vinculación automática solo se produce para las cuentas activadas a través del flujo de pedidos estándar de Adobe. Para las cuentas de configuración independiente, complete los pasos de vinculación manual anteriores después de activar la clave. |
-| **Después de la desvinculación, las características de IA general no están disponibles** | La desvinculación elimina el acceso a todas las funciones de IA general y oculta la pestaña Créditos . Vuelva a vincular la cuenta a una organización de Adobe Admin Console con una licencia de Agent Orchestrator activa para restaurar el acceso. |
+| **Credits tab is not visible** | Gen AI credits have not been purchased or applied to this account. Verify your Agent Orchestrator license in your Adobe Admin Console, then confirm an organization is linked under **[!UICONTROL Billing]** > **[!UICONTROL Subscription]** > **Account details**. |
+| **IMS Org ID field is blank** | Your account is not yet linked. Select **[!UICONTROL Link IMS Org]** in the **Account details** card and follow the linking steps above. |
+| **Linking fails with an error** | Confirm that you have the Administrator role in both Adobe Learning Manager and the Adobe Admin Console organization you are trying to link. Both checks must pass for the link to be established. |
+| **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
+| **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
+-->
 
 <!-- 
 # Manage Learning Manager orders and billing
