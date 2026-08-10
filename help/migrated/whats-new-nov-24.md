@@ -3,7 +3,7 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de las nuevas funciones de noviembre de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Consulte estos artículos [Informe de lista de espera (administrador)](/help/mig
 
 ## Accesibilidad en la página de inicio del alumno
 
-Adobe Learning Manager ahora admite texto alternativo en todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos. Asegúrese de que el logotipo de la empresa de su cuenta también incluya texto alternativo con el nombre de la empresa.Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obtener más información.
+Adobe Learning Manager ahora admite texto alternativo en todas las cabeceras para mejorar la accesibilidad de los alumnos. Esto permite a los alumnos con necesidades especiales utilizar lectores de pantalla para leer el texto alternativo y comprender la imagen. Puede seleccionar varios idiomas y proporcionar texto alternativo para cada idioma. Asegúrese de añadir el texto alternativo en los idiomas respectivos. Asegúrese de que el logotipo de la empresa de su cuenta también incluya texto alternativo con el nombre de la empresa.
+Consulte este artículo [Anuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obtener más información.
 
 ## Compatibilidad con hindi
 
@@ -227,7 +228,7 @@ La columna carpeta utiliza el tipo de datos cadena y es una columna opcional. A 
 * Si agrega un nuevo nombre de carpeta para un módulo que ya está presente en una carpeta diferente, el nuevo valor no sobrescribirá ni reemplazará la carpeta asignada. El módulo se agregará a la nueva carpeta y también permanecerá disponible en la carpeta existente.
 * Si el valor está en blanco, la carpeta se establecerá de forma predeterminada en **[!UICONTROL Public]**.
 
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
+Consulte el archivo csv spec[&#128279;](assets/module_version.csv) de module_version para obtener más información.
 
 ### Cambios en la migración de módulos: criterios de finalización
 
@@ -238,10 +239,10 @@ A continuación se indican las condiciones de las nuevas columnas:
 1. `completionCriteria`:
 
    * El tipo de datos debe ser una cadena de valores y los valores admitidos son:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * Añada criterios de finalización en el nivel de módulo solo para los tipos de módulos con ritmo personalizado.
    * Los valores admitidos para el contenido estático son `LAUNCH_CONTENT` y `VIEW_PERCENT`.
    * Los valores admitidos para el contenido interactivo son `LAUNCH_CONTENT`, `VIEW_PERCENT` y `QUIZ`.
@@ -257,7 +258,7 @@ A continuación se indican las condiciones de las nuevas columnas:
    * El tipo de datos debe ser una cadena de valores y los valores admitidos son `QUIZ_ATTEMPTED`, `QUIZ_PASSED` y `QUIZPASSED_OR_LIMITREACHED`.
    * Cuando `completionCriteria` esté establecido en `QUIZ`, escriba el valor de prueba adecuado en la columna `quizData`.
 
-Consulte el archivo csv spec[&#128279;](assets/4-module_version.xlsx) de module_version para obtener más información.
+Consulte el archivo csv spec[&#128279;](assets/module_version.csv) de module_version para obtener más información.
 
 ### Cambios en la migración de cursos: criterios de finalización
 
@@ -271,27 +272,27 @@ A continuación se indican las condiciones de la columna `completionCriteria`:
 * Si establece `completionCriteria` en `SELECTEDMODULES`, debe marcar los módulos obligatorios en el archivo [course_module.csv](assets/course_module.csv).
 * En la columna `optionalCriteria`, escriba `TRUE` o `FALSE`. Si establece el valor como `TRUE`, el módulo será obligatorio.
 
-Consulte el archivo [course csv spec](assets/3-course.xlsx) y el archivo [course_module csv spec](assets/6-course_module.xlsx) para obtener más información.
+Consulte el archivo [course csv spec](assets/course.csv) y el archivo [course_module csv spec](assets/course_module.csv) para obtener más información.
 
 ## Cambios en la API
 
 Estos son los cambios en la API:
 
 * **API de búsqueda**:
-   * Nuevo filtro de modo con opciones: classicSearch y advancedSearch.
-   * Nueva opción loMetadata para snippetTypes.
+  * Nuevo filtro de modo con opciones: classicSearch y advancedSearch.
+  * Nueva opción loMetadata para snippetTypes.
 * **API de anuncio**:
-   * Incluye el atributo altText para las descripciones de cabecera.
+  * Incluye el atributo altText para las descripciones de cabecera.
 * **API de instancia**:
-   * Nuevo atributo de configuración regional para recuperar los detalles de configuración regional.
+  * Nuevo atributo de configuración regional para recuperar los detalles de configuración regional.
 * **Comprobación de profanidad**:
-   * API actualizadas para comprobar si hay palabras prohibidas en los comentarios y las respuestas en las publicaciones de redes sociales:
+  * API actualizadas para comprobar si hay palabras prohibidas en los comentarios y las respuestas en las publicaciones de redes sociales:
 * **RPM y límite de ráfaga**:
-   * Se han añadido RPM (solicitudes por minuto) y límites de fragmentación para todas las API.
+  * Se han añadido RPM (solicitudes por minuto) y límites de fragmentación para todas las API.
 * **API de insignia**:
-   * Nuevo atributo externalProvider para recuperar información sobre insignias externas.
+  * Nuevo atributo externalProvider para recuperar información sobre insignias externas.
 * **API de trabajos**:
-   * Descargue el informe de grupos de usuarios y el informe de auditoría de funciones personalizadas mediante la API de trabajos.
+  * Descargue el informe de grupos de usuarios y el informe de auditoría de funciones personalizadas mediante la API de trabajos.
 
 ### Cambios en la API de búsqueda
 

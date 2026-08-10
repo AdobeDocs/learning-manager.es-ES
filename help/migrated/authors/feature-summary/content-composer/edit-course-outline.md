@@ -2,9 +2,9 @@
 description: Revisar la lección y la estructura de temas generados por la IA antes de comprometerse a generar cursos completos. Solicite cambios a través del panel de chat. Cambia el nombre, añade, elimina, divide o fusiona lecciones y temas de forma conversacional.
 jcr-language: en_us
 title: Editar el esquema del curso
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar el esquema del curso
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer genera una estructura de lección y tema a partir del resumen y el archivo de origen. El esquema aparece en el lienzo y muestra todas las lecciones y sus temas.
 
