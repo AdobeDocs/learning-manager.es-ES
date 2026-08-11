@@ -1,9 +1,9 @@
 ---
 title: Comprensión del diseño de Live Hub
 description: Obtenga más información sobre los paneles y controles que componen la sala de sesiones de Live Hub, incluida la barra de control, el panel de asistentes, el panel de chat y el panel de grupos de trabajo.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Abre **más aplicaciones** para acceder a herramientas integradas que amplían l
 
 * Colabora visualmente con todos los participantes sin salir de la sesión.
 
-Vea[Acerca de la pizarra](./about-the-whiteboard.md) para obtener más información.
+Vea [Acerca de la pizarra](./about-the-whiteboard.md) para obtener más información.
 
 ### Participación de participantes
 
@@ -120,4 +120,4 @@ La participación de los participantes ayuda a realizar un seguimiento de la act
 
 * Identificar si los alumnos están implicados de forma activa o necesitan atención.
 
-Vea[Realizar un seguimiento de la participación de los participantes](./track-the-participant-engagement.md) para obtener más información.
+Vea [Realizar un seguimiento de la participación de los participantes](./track-the-participant-engagement.md) para obtener más información.
