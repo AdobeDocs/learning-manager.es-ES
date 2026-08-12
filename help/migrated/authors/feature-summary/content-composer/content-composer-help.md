@@ -34,7 +34,7 @@ El compositor de contenido guía a los autores por los objetivos de formación, 
 
 >[!IMPORTANT]
 >
->Debe iniciar sesión con una cuenta de Adobe Creative Cloud válida. Si aún no dispone de una, puede crear una cuenta gratuita a través de Adobe Express. Para obtener más información, vea [Crear una cuenta de Adobe Express gratuita](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Después de crear las credenciales de Adobe, inicie Content Composer e inicie sesión para empezar a crear cursos. Si su organización ya tiene una suscripción de Creative Cloud, póngase en contacto con él para que le proporcione una cuenta de Creative Cloud antes de iniciar sesión en Content Composer.
+>Debe iniciar sesión con una cuenta de Adobe Creative Cloud válida. Si aún no dispone de una, puede crear una cuenta gratuita a través de Adobe Express. Para obtener más información, vea [Crear una cuenta de Adobe Express gratuita](https://helpx.adobe.com/es/express/web/adobe-express-subscription/free.html). Después de crear las credenciales de Adobe, inicie Content Composer e inicie sesión para empezar a crear cursos. Si su organización ya tiene una suscripción de Creative Cloud, póngase en contacto con él para que le proporcione una cuenta de Creative Cloud antes de iniciar sesión en Content Composer.
 
 ## Probar el compositor de contenido
 
