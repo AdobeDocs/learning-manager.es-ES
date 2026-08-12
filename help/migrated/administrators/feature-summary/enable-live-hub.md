@@ -1,15 +1,15 @@
 ---
-title: Habilitar Live Hub en Adobe Learning Manager
+title: Habilitar Live Hub (beta) en Adobe Learning Manager
 description: Obtenga información sobre cómo los administradores habilitan Live Hub para una cuenta, la establecen como proveedor de clase virtual predeterminado y activan los asistentes de Live Hub con tecnología de inteligencia artificial.
-source-git-commit: 4f68cdabcfdd5980239652f1e8f7c63a12cb4509
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 4%
 
 ---
 
 
-# Habilitar Live Hub en Adobe Learning Manager
+# Habilitar Live Hub (beta) en Adobe Learning Manager
 
 Los administradores pueden habilitar Live Hub para una cuenta de Adobe Learning Manager y configurar asistentes con tecnología de IA para admitir instructores durante las sesiones en directo. Una vez habilitado Live Hub, los autores pueden utilizar las herramientas de formación virtual de Live Hub para crear y administrar módulos de clase virtual para los cursos.
 

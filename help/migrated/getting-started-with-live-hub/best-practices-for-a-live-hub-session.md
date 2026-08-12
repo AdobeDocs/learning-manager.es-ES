@@ -1,15 +1,15 @@
 ---
-title: Prácticas recomendadas para una sesión de Live Hub
+title: Prácticas recomendadas para una sesión de Live Hub (Beta)
 description: Siga estas prácticas recomendadas para preparar, ejecutar y realizar el seguimiento de una sesión de Live Hub en Adobe Learning Manager para autores, administradores, instructores y alumnos.
-source-git-commit: d6d978da23266529e5f9631f33583b6da7b73a3d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
 
 
-# Prácticas recomendadas para una sesión de Live Hub
+# Prácticas recomendadas para una sesión de Live Hub (Beta)
 
 Un curso de Live Hub en Adobe Learning Manager reúne a instructores y alumnos para una formación en tiempo real, que incluye chat, encuestas, cuestionarios, pizarras, salas de grupo de trabajo, grabación y análisis. En este artículo se explica cómo realizar cada tarea. Este documento es su complemento: explica cómo hacerlo bien.
 

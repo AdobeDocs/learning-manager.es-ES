@@ -1,9 +1,9 @@
 ---
-title: Configurar la pantalla de preunión en Live Hub
+title: Configurar la pantalla de preunión en Live Hub (Beta)
 description: Descubra cómo funciona la pantalla de preunión de Live Hub, cómo permitir permisos de navegador y cómo configurar los controles de audio y cámara antes de unirse a una sesión.
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---

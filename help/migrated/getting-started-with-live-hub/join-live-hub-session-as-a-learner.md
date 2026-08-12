@@ -1,15 +1,15 @@
 ---
 title: Unirse a una sesión de Live Hub como alumno
 description: Aprenda cómo los alumnos se unen a una sesión de Live Hub desde el curso en el que se inscribieron, incluida la comprobación de la configuración de audio y cámara antes de entrar en la sala.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
 
 
-# Unirse a una sesión de Live Hub como alumno
+# Unirse a una sesión de Live Hub (beta) como alumno
 
 Los alumnos se unen a una sesión de Live Hub directamente desde el curso en el que se inscriben. Una vez que se una, participa en la formación en directo a través de chat, encuestas, cuestionarios, pizarras y salas de grupo de trabajo.
 

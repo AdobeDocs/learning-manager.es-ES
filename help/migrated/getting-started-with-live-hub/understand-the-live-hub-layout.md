@@ -1,15 +1,15 @@
 ---
-title: Comprensión del diseño de Live Hub
+title: Descripción del diseño de Live Hub (beta)
 description: Obtenga más información sobre los paneles y controles que componen la sala de sesiones de Live Hub, incluida la barra de control, el panel de asistentes, el panel de chat y el panel de grupos de trabajo.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# Comprensión del diseño de Live Hub
+# Descripción del diseño de Live Hub (beta)
 
 En Adobe Learning Manager Live Hub, la sala de sesiones está diseñada para ayudar a los instructores y alumnos a colaborar eficazmente durante las sesiones en directo. El diseño incluye varios paneles y controles que le permiten administrar audio, vídeo, participantes e interacciones en tiempo real.
 
@@ -108,7 +108,7 @@ Abre **más aplicaciones** para acceder a herramientas integradas que amplían l
 
 * Colabora visualmente con todos los participantes sin salir de la sesión.
 
-Vea[Acerca de la pizarra](./about-the-whiteboard.md) para obtener más información.
+Vea [Acerca de la pizarra](./about-the-whiteboard.md) para obtener más información.
 
 ### Participación de participantes
 
@@ -120,4 +120,4 @@ La participación de los participantes ayuda a realizar un seguimiento de la act
 
 * Identificar si los alumnos están implicados de forma activa o necesitan atención.
 
-Vea[Realizar un seguimiento de la participación de los participantes](./track-the-participant-engagement.md) para obtener más información.
+Vea [Realizar un seguimiento de la participación de los participantes](./track-the-participant-engagement.md) para obtener más información.
