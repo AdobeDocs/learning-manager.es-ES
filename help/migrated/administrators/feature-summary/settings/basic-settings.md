@@ -3,9 +3,9 @@ description: Obtenga más información sobre cómo la configuración básica le 
 jcr-language: en_us
 title: Configuración básica
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '5921'
+source-wordcount: '6363'
 ht-degree: 4%
 
 ---
@@ -140,7 +140,7 @@ Para garantizar que los gestores proporcionen comentarios puntualmente, debes co
 1. **[!UICONTROL Agregar un nuevo recordatorio]**: Para crear un nuevo recordatorio, selecciona el vínculo **[!UICONTROL Agregar nuevo recordatorio]**.
 2. **[!UICONTROL Definir programación de recordatorio]**: En el panel **[!UICONTROL Configuración de recordatorio]**, seleccione los menús desplegables y los campos de entrada para configurar el recordatorio:
 a. **[!UICONTROL Cuándo enviar]**: Seleccione cuándo se enviará el recordatorio. Las opciones son: **[!UICONTROL Al finalizar el curso]** y **[!UICONTROL Después de finalizar el curso]**.
-b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del recordatorio. Si la periodicidad es **[!UICONTROL Una vez]**, significa que el administrador recibirá una notificación para proporcionar comentarios. Las opciones disponibles son: Una, Cada día, Cada semana y Cada mes.
+b. **[!UICONTROL Periodicidad]**: Seleccione la frecuencia del recordatorio. Si la periodicidad es **[!UICONTROL Once]**, significa que el administrador recibirá una notificación para proporcionar comentarios. Las opciones disponibles son: Una, Cada día, Cada semana y Cada mes.
 3. Después de configurar la programación, seleccione el icono de marca de verificación azul para guardar la configuración del recordatorio. El recordatorio aparece en la lista de recordatorios existentes.
 
    ![texto alt](../settings/assets/Picture9.png)
@@ -268,6 +268,8 @@ Esta opción elimina usuarios si no acceden a Adobe Learning Manager durante un 
 ### Purgar automáticamente usuarios eliminados
 
 Elimine automática y permanentemente del sistema a los usuarios que hayan estado en estado eliminado durante un período de tiempo especificado. Una vez purgados, todos los datos de usuario asociados se eliminan de forma permanente y no se pueden recuperar.
+
+Si está habilitado, purga los datos de los usuarios que ya se han eliminado en ALM después del número de días especificado.
 
 ### Mostrar etiquetas de catálogo
 
@@ -625,7 +627,7 @@ Los responsables pueden marcar la finalización del curso mediante:
 * Página del curso: En la página del curso:
 a.    Seleccione la pestaña **[!UICONTROL Alumnos]** en el panel izquierdo.
 b.    Seleccione el alumno cuya asistencia desea marcar.
-c. Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Marcar finalización]**.
+c.    Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Marcar finalización]**.
 
 **Notas adicionales:**
 

@@ -2,9 +2,9 @@
 description: Todo sobre cómo activar el Libro de calificaciones y hacerlo visible para autores y alumnos
 jcr-language: en_us
 title: Libro de calificaciones para administradores
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Puede descargar una transcripción de alumno filtrada a este curso directamente 
 * En el **Libro de calificaciones de comentarios activos**, seleccione **Descargar transcripciones de alumnos** en la esquina superior derecha de la página.
 * En la página principal del administrador, seleccione **Informes** y, a continuación, seleccione **Informes personalizados**. Seleccione **Transcripciones de alumnos** en la lista de informes disponibles.
 
-Consulte Informes de cambios en la versión para obtener más información.
+>[!NOTE]
+>
+>La transcripción del alumno (API de informes CSV y trabajos) tendrá el grosor añadido como columna cuando el libro de calificaciones se habilite en el nivel del curso.
+
 
 ## Eventos de seguimiento de auditoría de contenido
 

@@ -4,10 +4,10 @@ title: No se puede buscar un curso en Learning Manager
 description: Un alumno no puede buscar un curso en Learning Manager.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 64%
+ht-degree: 61%
 
 ---
 
@@ -29,7 +29,7 @@ En Learning Manager, cuando un alumno se inscribe a través de un programa de ap
 
 Por lo tanto, el alumno no puede buscar cursos independientes en **Mi aprendizaje**.
 
-Sin embargo, el alumno no puede ver los cursos en el programa de aprendizaje/certificación.
+Sin embargo, el alumno puede ver los cursos dentro del programa de aprendizaje/certificación.
 
 ## Escenario 2: El alumno no tiene acceso al catálogo que contiene el curso.
 

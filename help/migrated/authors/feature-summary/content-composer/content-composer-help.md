@@ -2,7 +2,7 @@
 title: Ayuda de Adobe Learning Manager Content Composer (Beta)
 description: Desde un mensaje en un idioma hasta un curso publicado, Adobe Learning Manager Content Composer gestiona el diseño didáctico para que puedas centrarte en lo que necesitan los alumnos creando contenido didáctico de gran impacto.
 contentowner: saghosh
-source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
+source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Las funciones beta pueden contener defectos y se proporcionan &quot;TAL CUAL&quot; sin garantía de ningún tipo. Adobe tiene la única facultad de decidir si desea que las funciones beta estén disponibles de forma general. El Adobe no tiene obligación de mantener, corregir, actualizar, cambiar, modificar o de cualquier otra manera apoyar (a través de los Servicios de Soporte de Adobe o de otra manera) las características beta. Si una función beta pasa a estar disponible de forma general, puede estar sujeta a términos y condiciones adicionales, incluidos los cargos aplicables. Las funciones beta están sujetas a cambios sin previo aviso, incluida la interrupción. Se recomienda a los clientes que actúen con precaución y que no confíen en modo alguno en el funcionamiento o el rendimiento ininterrumpidos o sin errores de las funciones beta. En consecuencia, cualquier uso de las funciones beta es enteramente bajo el propio riesgo del Cliente. Las capacidades del producto y la documentación relacionada pueden cambiar a medida que evoluciona la función. Esta documentación refleja la experiencia beta actual y no debe considerarse una documentación del producto final o completa.
 
-**Desde el concepto hasta el curso en minutos**
+## Del concepto al curso en cuestión de minutos
 
 Adobe Learning Manager Content Composer es una herramienta de creación de cursos de inteligencia artificial que convierte un mensaje en un lenguaje sencillo en un curso estructurado y listo para publicar, que incluye lecciones, evaluaciones y medios, sin necesidad de experiencia previa en diseño didáctico.
 
@@ -36,12 +36,11 @@ El compositor de contenido guía a los autores por los objetivos de formación, 
 >
 >Debe iniciar sesión con una cuenta de Adobe Creative Cloud válida. Si aún no dispone de una, puede crear una cuenta gratuita a través de Adobe Express. Para obtener más información, vea [Crear una cuenta de Adobe Express gratuita](https://helpx.adobe.com/es/express/web/adobe-express-subscription/free.html). Después de crear las credenciales de Adobe, inicie Content Composer e inicie sesión para empezar a crear cursos. Si su organización ya tiene una suscripción de Creative Cloud, póngase en contacto con él para que le proporcione una cuenta de Creative Cloud antes de iniciar sesión en Content Composer.
 
-
-## Probar el compositor de contenido {#trycontent-composer}
+## Probar el compositor de contenido
 
 ¿Listo para crear tu primer curso? Abre Content Composer y pasa de un mensaje en un lenguaje sencillo a un curso listo para publicar en apenas tiempo.
 
-[**Probar Compositor De Contenido**](https://contentcomposer.adobe.io/)
+**[Probar el compositor de contenido →](https://contentcomposer.adobe.io/)**
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
