@@ -4,7 +4,7 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5467'
 ht-degree: 24%
@@ -524,7 +524,7 @@ Después de asignar usuarios a una función personalizada adicional, puede ver c
 
 >[!NOTE]
 >
->Puede asignar hasta 50 funciones a cada usuario y añadir hasta 500 usuarios a cada función.
+>Puede asignar hasta 50 funciones a cada usuario y añadir hasta 3500 usuarios a cada función.
 
 ### Asignar varias funciones personalizadas mediante CSV
 
@@ -539,7 +539,7 @@ El archivo user_role.csv incluye los campos Función personalizada e ID de usuar
 
 El archivo role.csv incluye los campos, Función personalizada, Origen de la creación e información detallada para catálogos, usuarios, cursos, rutas de aprendizaje, etc.
 
-Si el archivo CSV tiene datos incorrectos o supera los límites (50 funciones por usuario y 500 usuarios por función), aparecerá un mensaje que muestra los errores.
+Si el archivo CSV tiene datos incorrectos o supera los límites (50 funciones por usuario y 3500 usuarios por función), aparecerá un mensaje que muestra los errores.
 
 ![](assets/error-custom-role.png)
 _Notificación de error para funciones personalizadas_
