@@ -1,9 +1,9 @@
 ---
 title: Crear una sesión de Live Hub (beta)
 description: Aprenda a crear un curso de Live Hub, añadir instancias de cursos, asignar instructores con el buscador de instructores, inscribir alumnos y personalizar la marca de la sala.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Para añadir instructores mediante el buscador de instructores:
    ![Recommendations de instructor de panel del Ayudante de AI](assets/ai-assistant-panel-instructor-recommendations.png)
    *Use el panel Asistente de inteligencia artificial para obtener recomendaciones del instructor y de la franja horaria según los detalles de la sesión.*
 
-1. Revise la lista de instructores recomendados. El buscador de instructores recomienda instructores en función de los requisitos de sesión y las aptitudes del curso. Recommendations también tiene en cuenta la disponibilidad del instructor, su utilización y el calendario de vacaciones de su organización. Vea **Administración de instructores** para obtener más información.
+1. Revise la lista de instructores recomendados.
 
 1. Desplácese hasta el instructor que desee asignar y, a continuación, seleccione **Agregar**. <br> El instructor seleccionado se agrega al campo **Instructores** como una etiqueta.
 
