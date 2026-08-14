@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 37%
 
 ---
@@ -359,12 +359,12 @@ ht-degree: 37%
       * [Participar en una sesión de grupo de trabajo](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
     * Subtítulos opcionales {#closed-captions}
       * [Explicación de los subtítulos opcionales](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-      * [Administrar los subtítulos opcionales como instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-      * [Administrar los subtítulos opcionales como alumno](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+      * [Administrar subtítulos opcionales como instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [Administrar subtítulos opcionales como alumno](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * Grabaciones y transcripciones{#recordings-and-transcripts}
       * [Comprensión de las grabaciones y transcripciones](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [Grabar una sesión](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [Ver grabaciones como alumno](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [Ver grabaciones de sesiones como alumno](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * Panel de sesión {#session-dashboard}
       * [Ver el panel Sesión](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Componentes del tablero de sesiones](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

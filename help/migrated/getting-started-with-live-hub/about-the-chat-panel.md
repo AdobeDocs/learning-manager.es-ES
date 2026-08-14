@@ -1,9 +1,9 @@
 ---
 title: Acerca del panel Chat en Live Hub
 description: Descubra cómo el panel Chat permite la comunicación estructurada en tiempo real entre instructores y alumnos durante una sesión de Live Hub.
-source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ El panel Chat incluye varias pestañas para ayudar a administrar los diferentes 
 
 ## Funciones y permisos
 
-El panel Chat está disponible para instructores y alumnos. Las acciones y los controles disponibles en el panel varían en función de la función del usuario dentro de la clase virtual.
+El panel Chat está disponible para instructores y alumnos durante una sesión de Live Hub. Las acciones y los controles disponibles varían según la función del usuario.
 
 | **Instructores** | **Alumnos** |
 |----|----|

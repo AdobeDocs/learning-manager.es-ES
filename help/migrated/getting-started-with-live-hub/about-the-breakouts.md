@@ -1,9 +1,9 @@
 ---
 title: Acerca de los grupos de trabajo en Live Hub
 description: Descubre cómo las salas de grupo de trabajo permiten a los instructores dividir una sesión de Live Hub en grupos más pequeños para los debates, las actividades y la colaboración.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ Cuando finaliza la sesión de grupo de trabajo, todos los participantes vuelven 
 
 Esto marca la finalización de la actividad de grupo de trabajo y permite la revisión posterior a la sesión.
 
-![Distribución de salas de grupo de trabajo](assets/breakout-room-distribution.png "Interfaz de Live Hub que muestra la distribución de los alumnos en las salas de grupo de trabajo.")
+Distribución de la sala de grupo de trabajo ![Breakout](assets/breakout-room-distribution.png)
+*Interfaz de Live Hub que muestra el diseño de la sesión de grupo de trabajo*
 
 ## Funciones y permisos
 
-Las salas de grupo de trabajo están disponibles tanto para instructores como para alumnos. Las acciones y los controles disponibles en el panel varían en función de la función del usuario dentro de la clase virtual.
+Los grupos de trabajo están disponibles para instructores y alumnos durante una sesión de Live Hub. Las acciones y los controles disponibles varían según la función del usuario.
 
 | **Instructores** | **Alumnos** |
 |----|----|
