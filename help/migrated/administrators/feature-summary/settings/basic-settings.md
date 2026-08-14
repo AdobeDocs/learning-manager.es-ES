@@ -3,9 +3,9 @@ description: Obtenga más información sobre cómo la configuración básica le 
 jcr-language: en_us
 title: Configuración básica
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 4%
 
 ---
@@ -431,6 +431,8 @@ Cuando esta opción está habilitada, los alumnos pueden enviar y realizar el se
 
 Activa la función Aprendizaje externo para todos los alumnos de la cuenta. Una vez activado, el formulario de envío estará disponible en el tablero del alumno. Los alumnos pueden introducir detalles como el nombre del curso de formación, la duración, la fecha, la puntuación y la prueba de finalización. El envío se envía a su responsable para su revisión y aprobación. Los envíos aprobados aparecen en la transcripción del alumno y en los informes del administrador. Los envíos rechazados no se registran en la transcripción.
 
+![Seleccione Habilitar para habilitar envíos de aprendizaje externos de un alumno](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >Al activar esta configuración, se añaden nuevas columnas a la transcripción del alumno para los envíos de aprendizaje externos. Si su organización utiliza flujos de trabajo automatizados o integraciones que procesan datos de transcripciones de alumnos, revíselos antes de habilitarlos para garantizar la compatibilidad con la estructura de transcripciones actualizada.
@@ -502,6 +504,8 @@ Los administradores pueden añadir hasta 10 campos personalizados para capturar 
 | Número | Entrada numérica. |
 | Casilla | Conmutador sencillo sí/no. |
 | Lista desplegable | Selección única de una lista de opciones definida por el administrador. |
+
+![Selecciona los campos principales y personalizados que usa un alumno para enviar un aprendizaje externo](../assets/external-learning-fields.png)
 
 ### Requisitos del archivo de prueba de finalización
 
