@@ -1,9 +1,9 @@
 ---
 title: Introducción a Live Hub (beta)
 description: Descubre cómo Live Hub en Adobe Learning Manager te permite ofrecer sesiones de formación en directo dirigidas por instructores directamente en la plataforma.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ una experiencia de aprendizaje fluida.
 
 | **Fase** | **Actividades clave** |
 |---|---|
-| **Antes de la sesión** | El administrador comprueba que se cumplen los [requisitos del sistema](./system-requirements-for-live-hub.md) y [habilita Live Hub](../administrators/feature-summary/enable-live-hub.md) para la cuenta. También pueden inscribir a los alumnos en un curso. El autor [crea el curso de Live Hub](create-a-live-hub-session.md), y el instructor prepara la sala mediante [la configuración de diseños](./understand-the-live-hub-layout.md), contenido y actividades interactivas para la próxima sesión. |
+| **Antes de la sesión** | El administrador comprueba que se cumplen los [requisitos del sistema](./system-requirements-for-live-hub.md) y [habilita Live Hub](../administrators/feature-summary/enable-live-hub.md) para la cuenta. El autor [crea el curso de Live Hub](create-a-live-hub-session.md) y los alumnos pueden inscribirse automáticamente en el curso o el administrador puede inscribirlos. El instructor prepara la sala mediante [diseños de configuración](./understand-the-live-hub-layout.md), contenido y actividades interactivas para la próxima sesión. |
 | **Durante la sesión** | El instructor ofrece la sesión en directo e interactúa con los alumnos mediante funciones como [chat](about-the-chat-panel.md), [encuestas](./about-the-polls.md), [cuestionarios](./about-the-quiz.md), [pizarras](./about-the-whiteboard.md), [uso compartido de pantalla](./about-the-screen-sharing.md) y [salas de grupo de trabajo](./about-the-breakouts.md). Los alumnos participan en estas actividades a lo largo de la sesión. El instructor puede [grabar la sesión](./record-a-session.md) para que los alumnos puedan verla más tarde. |
 | **Después de la sesión** | El instructor revisa las grabaciones de las sesiones, los informes de asistencia y [análisis de participación](./view-the-session-dashboard.md) para evaluar la participación del alumno y la eficacia de la sesión. Los alumnos pueden volver a visitar la sesión a través de una vista de [grabación basada en temas](./view-recordings-as-a-learner.md) que divide la grabación en temas navegables, cada uno con un título, información general y notas, para que puedan ir directamente a cualquier tema o leerlo en lugar de verlo. |
 
