@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta) Preguntas frecuentes
 description: Preguntas frecuentes sobre Live Hub en Adobe Learning Manager, organizadas por función para administradores, autores, instructores y alumnos.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-Live Hub incluye las funciones de administrador, autor, instructor y alumno, cada una de las cuales es responsable de una parte diferente del flujo de trabajo de formación. Este documento reorganiza el contenido original de las preguntas frecuentes de Live Hub por función, para que cada público pueda encontrar rápidamente las preguntas más relevantes para ellos.
+Live Hub incluye las funciones de administrador, autor, instructor y alumno, cada una de las cuales es responsable de una parte diferente del flujo de trabajo de formación. Este documento organiza las preguntas frecuentes de Live Hub por función, de modo que cada público pueda encontrar rápidamente las preguntas más relevantes para ellos.
 
 ## Administrador
 
