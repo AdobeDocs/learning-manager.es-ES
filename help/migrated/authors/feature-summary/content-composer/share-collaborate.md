@@ -2,7 +2,7 @@
 description: Aprenda a compartir un curso de compositor de contenido para su revisión con compañeros o directamente con alumnos. Conozca la diferencia entre los dos flujos de uso compartido, los controles de acceso y las implicaciones de seguimiento.
 jcr-language: en_us
 title: Compartir un curso de compositor de contenido y colaborar en él
-source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
+source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->¡Próximamente!
+>¡PRÓXIMAMENTE!
 
 Antes de publicar, puede enviar el curso a los revisores para que le envíen sus comentarios. Los revisores pueden abrir el vínculo compartido en un navegador, añadir comentarios en cualquier componente del curso e intentar realizar la prueba para previsualizar la experiencia completa del alumno. Los autores controlan el acceso, recopilan comentarios y actualizan el curso sin cambiar la URL de revisión. Puedes enviar los comentarios, actualizar el curso e iniciar ciclos de revisión adicionales según sea necesario.
 
