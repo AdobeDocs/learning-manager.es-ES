@@ -1,10 +1,10 @@
 ---
-description: La vista previa muestra el curso exactamente como lo experimentarán los alumnos, con el tema aplicado, los componentes interactivos activos y la prueba en el modo de respuesta. Utilícelo para verificar el contenido y las interacciones antes de publicar.
+description: Aprenda a previsualizar un curso de Compositor de contenido exactamente como lo verán los alumnos, con el tema, los componentes y la prueba aplicados activos.
 jcr-language: en_us
 title: Vista previa del curso
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

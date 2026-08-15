@@ -1,10 +1,10 @@
 ---
-description: Seleccione cualquier elemento de texto para activar la barra de herramientas de formato en línea. Edite el texto independiente, los encabezados y las etiquetas directamente en el lienzo. Cambie el nombre de las lecciones y los temas a través del asistente, no seleccionando encabezados.
+description: Aprenda a editar el texto del curso en el Compositor de contenido mediante la barra de herramientas de formato en línea y a cambiar el nombre de las lecciones y los temas mediante el asistente.
 jcr-language: en_us
 title: Editar el texto del curso
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

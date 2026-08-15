@@ -1,10 +1,10 @@
 ---
-description: Necesita acceder a través de su suscripción de Creative Cloud para probar Content Composer, una idea general de lo que debe abarcar el curso y, opcionalmente, documentos de origen para fundamentar la IA en el contenido específico de su organización.
+description: 'Descubre lo que necesitas antes de iniciar el Compositor de contenido: una cuenta de Creative Cloud, Google Chrome y documentos de origen opcionales para guiar la IA.'
 jcr-language: en_us
 title: Lo que necesitas antes de empezar
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

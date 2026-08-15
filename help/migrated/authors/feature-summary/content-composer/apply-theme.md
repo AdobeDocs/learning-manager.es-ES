@@ -1,10 +1,10 @@
 ---
-description: Aprenda a aplicar un tema de curso en el compositor de contenido. Examine temas predeterminados y personalizados, utilice la barra de búsqueda para buscar un tema por nombre y aplíquelo a todo el curso con una sola selección.
+description: Aprenda a aplicar un tema de curso en el compositor de contenido. Examine temas predeterminados y personalizados, busque por nombre y aplique cursos en todo el curso al instante.
 jcr-language: en_us
 title: Aplicar un tema
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

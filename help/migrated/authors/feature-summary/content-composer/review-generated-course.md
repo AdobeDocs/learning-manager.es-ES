@@ -1,10 +1,10 @@
 ---
-description: El Editor del curso se abre automáticamente tras la generación. Revisa todo el contenido, el texto, las imágenes, las comprobaciones de conocimientos y las pruebas antes de compartirlas o publicarlas. La salida de AI puede variar y requiere la verificación del autor.
+description: Aprenda a revisar el contenido del curso generado por IA en el Editor del curso de Content Composer antes de compartirlo o publicarlo, ya que la salida de IA puede variar.
 jcr-language: en_us
 title: Revisar el curso generado
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

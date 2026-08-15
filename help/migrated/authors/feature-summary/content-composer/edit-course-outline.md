@@ -1,10 +1,10 @@
 ---
-description: Revisar la lección y la estructura de temas generados por la IA antes de comprometerse a generar cursos completos. Solicite cambios a través del panel de chat. Cambia el nombre, añade, elimina, divide o fusiona lecciones y temas de forma conversacional.
+description: 'Aprenda a editar el esquema de un curso de Content Composer: cambie el nombre, añada, elimine, divida o combine lecciones y temas a través del panel de chat.'
 jcr-language: en_us
 title: Editar el esquema del curso
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

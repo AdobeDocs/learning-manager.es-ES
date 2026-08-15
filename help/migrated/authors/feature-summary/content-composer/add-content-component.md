@@ -1,10 +1,10 @@
 ---
-description: Inserte bloques interactivos y de medios entre elementos existentes, Párrafo, Imagen, Vídeo, Tarjeta de volteo, Acordeón, Línea de tiempo, Tabulador, Carrusel, MCQ y Verdadero/Falso, utilizando el selector de componentes.
+description: 'Aprenda a agregar bloques de contenido en el compositor de contenido: párrafo, imagen, vídeo, tarjeta de volteo, acordeón, cronología, pestaña, carrusel, MCQ y verdadero/falso.'
 jcr-language: en_us
 title: Añadir un componente de contenido
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

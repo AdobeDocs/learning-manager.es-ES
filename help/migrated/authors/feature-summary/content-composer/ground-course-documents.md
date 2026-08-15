@@ -1,10 +1,10 @@
 ---
-description: Cargue sus políticas, procedimientos o plataformas y restrinja la IA solo a ese contenido. Esto garantiza que los cursos generados reflejen el idioma exacto de la organización, lo que es esencial para la formación basada en el cumplimiento normativo, la normativa y los procedimientos.
+description: Aprende a fundamentar los cursos de Content Composer en tus propios documentos restringiendo la salida de IA solo a tus políticas, procedimientos o plataformas.
 jcr-language: en_us
 title: Definir el curso en sus propios documentos
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

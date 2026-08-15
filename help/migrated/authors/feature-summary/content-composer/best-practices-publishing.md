@@ -1,10 +1,10 @@
 ---
-description: Consulta las prácticas recomendadas para conectar Content Composer a Adobe Learning Manager, incluidas la configuración de los criterios de finalización, la asignación de nombres de los módulos para facilitar su detección y la gestión de las versiones en las actualizaciones del curso.
+description: 'Prácticas recomendadas para generar cursos en Composición de contenido: escribir objetivos de aprendizaje, revisar esquemas, restringir la salida de IA y utilizar componentes.'
 jcr-language: en_us
 title: Prácticas recomendadas para publicar de Compositor de contenido a ALM
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

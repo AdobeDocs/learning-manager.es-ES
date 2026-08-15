@@ -1,10 +1,10 @@
 ---
-description: Establece reintentos de pruebas, límites de tiempo, orden de preguntas y puntuaciones de aprobado en el compositor de contenido. Descubre cómo afecta cada configuración de prueba a la experiencia del alumno y cómo se notifican las puntuaciones a tu LMS.
+description: Obtenga información sobre cómo configurar reintentos de prueba, límites de tiempo, orden de preguntas, desplazamiento y puntuación SCORM en Composición de contenido.
 jcr-language: en_us
 title: Configurar opciones de prueba
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

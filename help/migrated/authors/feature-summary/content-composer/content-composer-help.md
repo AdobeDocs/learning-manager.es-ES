@@ -1,10 +1,10 @@
 ---
 title: Ayuda de Adobe Learning Manager Content Composer (Beta)
-description: Desde un mensaje en un idioma hasta un curso publicado, Adobe Learning Manager Content Composer gestiona el diseño didáctico para que puedas centrarte en lo que necesitan los alumnos creando contenido didáctico de gran impacto.
+description: Adobe Learning Manager Content Composer convierte un mensaje en un lenguaje sencillo en un curso listo para publicar con lecciones, evaluaciones y medios que usan IA.
 contentowner: saghosh
-source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---

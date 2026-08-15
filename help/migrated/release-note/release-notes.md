@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ En el frente de IA, el Asistente de IA para alumnos obtiene resúmenes de cursos
 
 La gestión de contenido se fortalece con un generador de plantillas de correo electrónico basado en componentes WYSIWYG, una estructura jerárquica de carpetas de contenido con acceso basado en funciones, una función de aprendizaje externo para enviar y aprobar formación fuera de la plataforma y una nueva función Canales que agrega contenido de vídeo desde páginas web empresariales y páginas de confluencia.
 
-Para obtener más información, consulte [Novedades y cambios en la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/whats-new.md).
+Más información sobre [Novedades y cambios en la versión de agosto de 2026 de Adobe Learning Manager](/help/migrated/whats-new.md).
 
 ## Cambios importantes en la versión
 

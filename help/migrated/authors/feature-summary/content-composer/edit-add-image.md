@@ -1,10 +1,10 @@
 ---
-description: Seleccione cualquier imagen para ajustar el tamaño, el brillo, la saturación y la transparencia. Reemplácelo por un archivo cargado, un recurso de Adobe Stock o una imagen generada por IA con una descripción en un lenguaje sencillo.
+description: 'Aprende a editar una imagen con la herramienta Composición de contenido: ajusta el tamaño, el brillo y la saturación, o sustitúyala por una carga, un Adobe Stock o un AI.'
 jcr-language: en_us
 title: Editar o añadir una imagen
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

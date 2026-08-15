@@ -1,10 +1,10 @@
 ---
-description: Revise las limitaciones actuales de la versión beta de Content Composer, incluidas las limitaciones en la edición de esquemas, los tipos de evaluación, la personalización de temas y la colaboración, con las soluciones alternativas disponibles y el estado de la hoja de ruta para cada una.
+description: 'Revisar las limitaciones de la versión beta de Content Composer: edición solo para conversación, cuestionarios MCQ/True-False-only, esquemas corregidos, con soluciones alternativas para cada una.'
 jcr-language: en_us
 title: Limitaciones de la versión beta de Content Composer
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

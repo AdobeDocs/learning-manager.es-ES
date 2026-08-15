@@ -1,10 +1,10 @@
 ---
-description: Descubre cómo Compositor de contenido y Adobe Learning Manager dividen las responsabilidades de creación y entrega, cómo un curso terminado pasa de Compositor de contenido a la biblioteca de contenido de ALM y cómo funcionan el seguimiento y la creación de informes de los alumnos tras la publicación.
+description: Descubre cómo Content Composer maneja la creación y Adobe Learning Manager maneja la entrega, el seguimiento y la creación de informes después de la publicación.
 jcr-language: en_us
 title: Cómo trabajan juntos Compositor de contenido y Adobe Learning Manager
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

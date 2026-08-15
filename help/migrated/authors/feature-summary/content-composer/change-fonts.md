@@ -1,10 +1,10 @@
 ---
-description: Aprenda a cambiar las fuentes de encabezado y cuerpo en Composición de contenido editando un tema. Seleccione entre las opciones de fuente disponibles y guárdelas como un nuevo tema personalizado o sobrescriba el existente.
+description: Aprenda a cambiar las fuentes de encabezado y cuerpo en Composición de contenido editando un tema y, a continuación, guarde los cambios o cree un nuevo tema personalizado.
 jcr-language: en_us
 title: Cambiar fuentes
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
