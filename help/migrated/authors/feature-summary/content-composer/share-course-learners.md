@@ -2,10 +2,9 @@
 description: Aprenda a generar un vínculo de alumno en Composición de contenido, a qué pueden acceder los alumnos a través de ese vínculo y por qué la entrega supervisada requiere la publicación en Adobe Learning Manager en lugar de compartir un vínculo directo.
 jcr-language: en_us
 title: Compartir un curso con alumnos
-hide: true
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -13,13 +12,21 @@ ht-degree: 0%
 
 # Compartir un curso con alumnos
 
-1. Seleccione **Para alumnos**.
+Compartir con los alumnos les da acceso directo al curso sin necesidad de una conexión de LMS ni de iniciar sesión. Esto resulta útil cuando desea que los alumnos obtengan una vista previa o completen un curso rápidamente, por ejemplo, durante una prueba piloto, una sesión de formación informal o antes de que el curso se publique en Adobe Learning Manager para su inscripción y seguimiento formales.
 
-2. Seleccione **Generar vínculo** para generar un vínculo para que el alumno acceda al proyecto.
+1. Seleccione **Compartir** en la barra de herramientas superior.
 
-3. Comparta el vínculo con sus alumnos.
+2. Seleccione la pestaña **Para alumnos**.
+
+3. Seleccione **Generar vínculo** para crear un vínculo de acceso de alumno.
+
+   ![](../assets/59_share_for_learners_generate_link_generated_links.png)
+
+4. Comparta el vínculo con sus alumnos.
 
 >[!IMPORTANT]
 >
->Cada vez que se actualiza el curso, los alumnos pueden utilizar el mismo vínculo para ver los cambios del curso.
+>Los vínculos de los alumnos son específicos de la versión. Cada vez que actualice el curso, genere y comparta un nuevo vínculo para que los alumnos accedan a la versión más reciente. El vínculo anterior sigue mostrando la versión anterior.
+>
+>El acceso del alumno no incluye el panel de comentarios. Los alumnos no pueden agregar comentarios ni interactuar con el flujo de trabajo de revisión.
 

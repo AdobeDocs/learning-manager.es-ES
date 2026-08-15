@@ -1,10 +1,10 @@
 ---
-description: Al final del curso aparece una prueba graduada, con cada pregunta etiquetada con el tema que prueba. Edita el texto de la pregunta, cambia la respuesta correcta, asigna puntuaciones o solicita a la IA que vuelva a generar las preguntas.
+description: 'Aprende a editar las preguntas de las pruebas en el compositor de contenido: cambia las respuestas correctas, asigna puntuaciones, elimina preguntas o solicita a la inteligencia artificial que las vuelva a generar.'
 jcr-language: en_us
 title: Revisar y editar la prueba
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Carga los documentos, políticas o plataformas existentes para incorporar la IA al contenido de tu organización. Elija si desea restringir la generación solo a esos archivos o permitir que la IA complemente su conocimiento general.
+description: Aprenda a cargar archivos de origen en Content Composer, restringir la salida de AI a su contenido y actualizar archivos de origen cuando cambie el material.
 jcr-language: en_us
 title: Administrar archivos de origen
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
