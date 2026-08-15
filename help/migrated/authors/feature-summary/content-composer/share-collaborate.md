@@ -2,9 +2,9 @@
 description: Aprenda a compartir un curso de compositor de contenido para su revisión con compañeros o directamente con alumnos. Conozca la diferencia entre los dos flujos de uso compartido, los controles de acceso y las implicaciones de seguimiento.
 jcr-language: en_us
 title: Compartir un curso de compositor de contenido y colaborar en él
-source-git-commit: 778047d380c87347918a05175c55315c11861751
+source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -12,22 +12,30 @@ ht-degree: 0%
 
 # Compartir un curso de compositor de contenido y colaborar en él
 
-Content Composer te permite distribuir tu curso a revisores y alumnos, y colaborar con tu equipo a lo largo del proceso de creación, todo ello sin salir de la aplicación.
+>[!AVAILABILITY]
+>
+>¡Próximamente!
 
 Antes de publicar, puede enviar el curso a los revisores para que le envíen sus comentarios. Los revisores pueden abrir el vínculo compartido en un navegador, añadir comentarios en cualquier componente del curso e intentar realizar la prueba para previsualizar la experiencia completa del alumno. Los autores controlan el acceso, recopilan comentarios y actualizan el curso sin cambiar la URL de revisión. Puedes enviar los comentarios, actualizar el curso e iniciar ciclos de revisión adicionales según sea necesario.
 
-Una vez que el curso esté listo, puede ponerlo a disposición de los alumnos directamente o publicarlo en Adobe Learning Manager para su inscripción, seguimiento y generación de informes.
+<!--
+Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
 
-Durante todo el proceso, los comentarios y menciones ayudan a mantener a todos alineados. Los colaboradores pueden usar @menciones para etiquetar a sus compañeros de equipo, hacer preguntas y debatir partes específicas del curso, lo que garantiza que los comentarios sigan siendo contextuales, visibles y procesables.
+Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
 
-Adobe Learning Manager Content Composer tiene dos modos de uso compartido, a los que se accede desde el botón **Compartir** situado en la barra de herramientas superior.
+Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.  
 
-En Compositor de contenido, seleccione **Compartir** en la barra de herramientas. El panel **Compartir proyecto** se abre con dos pestañas:
+Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
 
-* **Para revisión**: Envíe el proyecto por correo electrónico para invitar o compartir un vínculo.
+Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
 
-* **Para alumnos**: Proporcióneles un vínculo al proyecto, sin necesidad de conexión de LMS.
+In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
 
-Ambas opciones le ofrecen control y flexibilidad a la hora de compartir los cursos.
+* **For review**: Send the project by email invite or share a link.
+
+* **For learners**: Provide them with a link to the project -- no need of LMS connection.
+
+Both these options give you control and flexibility in sharing your courses.
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
+-->
