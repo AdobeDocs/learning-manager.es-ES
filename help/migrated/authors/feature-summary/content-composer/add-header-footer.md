@@ -17,7 +17,7 @@ Agregue un encabezado y un pie de página para incluir elementos como su logotip
 1. Selecciona **Temas** en la barra de herramientas, coloca el cursor sobre el tema aplicado y selecciona **Editar**.
 
 2. Active el botón de alternancia **Agregar encabezado** para agregar un encabezado al curso.
-   ![ Los botones Agregar encabezado y Agregar pie de página cambian en el panel Editar tema](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; Los botones Agregar encabezado y Agregar pie de página cambian en el panel Editar tema](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. En **Logotipo**, seleccione **Agregar** para cargar un logotipo para el encabezado.
 
