@@ -2,7 +2,8 @@
 description: Aprenda a generar un vínculo de alumno en Composición de contenido, a qué pueden acceder los alumnos a través de ese vínculo y por qué la entrega supervisada requiere la publicación en Adobe Learning Manager en lugar de compartir un vínculo directo.
 jcr-language: en_us
 title: Compartir un curso con alumnos
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+hide: true
+source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
