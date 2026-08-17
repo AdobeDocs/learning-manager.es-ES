@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
 source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 43%
+source-wordcount: '1327'
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ Haz clic en **[!UICONTROL Marca]** en el panel izquierdo para actualizar el nomb
 
 Haga clic en **[!UICONTROL Editar]** para establecer el aspecto de su logotipo y el nombre de la empresa en la aplicación Learning Manager.
 
-Haga clic en **[!UICONTROL Cargar nuevo logotipo]** y elija el logotipo en el equipo para cargarlo. Puede previsualizar el aspecto del logotipo y el nombre de la empresa a continuación. Elige el estilo de encabezado que desees y haz clic en **[!UICONTROL Guardar]**.
+Haga clic en **[!UICONTROL Cargar nuevo logotipo]** y elija el logotipo en el equipo para cargarlo. Puede previsualizar el aspecto del logotipo y el nombre de la empresa a continuación. Elija un estilo de encabezado y haga clic en **[!UICONTROL Guardar]**.
 
 ## Temas {#themes}
 
@@ -41,13 +41,13 @@ Se proporciona un conjunto de cinco imágenes representativas para previsualizar
 
 **Elegir un tema**
 
-Haga clic en **[!UICONTROL Mostrar sugerencias]** debajo de esta sección para mostrar las sugerencias en la imagen como se muestra a continuación.
+Haga clic en **[!UICONTROL Mostrar sugerencias]** bajo esta sección para ver todas las sugerencias en la imagen como se muestra a continuación.
 
 ![](assets/themes-preview-images.png)
 
 *Ver sugerencias sobre un tema*
 
-La aplicación Learning Manager proporciona a los usuarios cinco opciones de tema de color:
+La aplicación Learning Manager brinda cinco opciones de tema de color a sus usuarios:
 
 * Predeterm. de Prime
 * Guijarros
@@ -75,13 +75,13 @@ Haga clic en **[!UICONTROL Restablecer tema]** para restaurar la configuración 
 
 **Previsualización dinámica**
 
-Haga clic en **[!UICONTROL Previsualización dinámica]** en la esquina inferior izquierda de la sección Temas. Aparece una ventana emergente como se muestra a continuación:
+Haga clic en **[!UICONTROL Previsualización dinámica]** en la esquina inferior izquierda de la sección Temas. Se abre una ventana emergente como se muestra a continuación:
 
 ![](assets/live-theme-preview.png)
 
 *Ventana emergente Vista previa dinámica*
 
-Elija un tema en la lista desplegable, ajuste la configuración y haga clic en **[!UICONTROL Vista previa]** para ver los cambios aplicados dinámicamente en la aplicación. A continuación, puede revisar todas las funciones de la aplicación y observar los cambios. También puede cambiar sus funciones mientras se realiza la previsualización dinámica. Una vez que esté satisfecho con los cambios, puede volver a la función emergente Vista previa del tema en vivo y hacer clic en **[!UICONTROL Aplicar tema]**.
+Elija un tema en la lista desplegable, ajuste la configuración y haga clic en **[!UICONTROL Vista previa]** para ver los cambios aplicados dinámicamente en la aplicación. A continuación, puede revisar todas las funciones de la aplicación y observar los cambios. También puede cambiar sus funciones mientras se realiza la previsualización dinámica. Cuando esté satisfecho con los cambios, vuelva a la función Previsualización dinámica del tema y haga clic en **[!UICONTROL Aplicar tema]**.
 
 Mientras previsualiza los cambios dinámicos, la ventana de Previsualización dinámica aparece en la parte inferior de la pantalla. Puede elegir minimizar la ventana emergente.
 
@@ -111,14 +111,14 @@ A continuación se explica cómo implementar varias marcas:
 
 >[!INFO]
 >
->Echa un vistazo a este [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) para obtener más información.
+>Echa un vistazo a este [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customized-branding-for-internal-and-external-users/) para obtener más información.
 
 
 #### Aspectos a tener en cuenta
 
 * Un administrador puede añadir la marca de varios niveles para este valor de campo activo y el usuario externo puede iniciar sesión con diferentes mecanismos (SSO único (Okta, Mini naranja), inicio de sesión social) y comprobar si la marca múltiple es aplicable.
-* Un usuario externo tiene un campo activo y un valor de campo activo como el usuario interno: aunque se comparta, el administrador debe especificarlo por separado en la marca múltiple. Una vez aplicado, el usuario externo puede iniciar sesión con diferentes mecanismos (SSO Single (Okta, Mini orange), Social Login) y comprobar si la marca múltiple es aplicable.
-* Un usuario externo movido de un perfil a otro: Mover el usuario externo de un perfil a otro perfil no afectará el valor del campo activo para el usuario a menos que el administrador o el usuario externo editen o eliminen el valor del campo activo al iniciar sesión o registrarse
+* Un usuario externo tiene un campo activo y un valor de campo activo como el usuario interno: Aunque se comparta, el administrador debe especificarlo por separado en la marca múltiple. Una vez aplicado, el usuario externo puede iniciar sesión con diferentes mecanismos (SSO Single (Okta, Mini orange), Social Login) y comprobar si la marca múltiple es aplicable.
+* Un usuario externo se ha trasladado de un perfil a otro: El traslado del usuario externo de un perfil a otro no afectará al valor del campo activo del usuario a menos que el administrador o el usuario externo editen o eliminen el valor del campo activo al iniciar sesión o registrarse
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ En la lista siguiente se muestran los componentes que se pueden personalizar. Pa
     <p>Debe tener la imagen que necesita aplicar al fondo del alumno.</p>
     <ul>
      <li><b>Formato de imagen recomendado:</b>PNG</li>
-     <li>Tamaño recomendado: <b>32x32 px</b></li>
+     <li><b>Tamaño recomendado: </b>32x32 px</li>
     </ul></td>
   </tr>
  </tbody>
@@ -228,19 +228,19 @@ En la página **General**, tiene las siguientes opciones:
    <td>
     <p>Configuración del ámbito de recomendación<br></p></td>
    <td>
-    <p>Elija uno o varios campos activos. Para <strong>Personalizado</strong>, puede elegir como máximo un campo activo. Para <strong>Adaptado al sector</strong>, puede elegir un máximo de cinco campos activos.<br></p></td>
+    <p>Elija uno o varios campos activos. Para <strong>Personalizado</strong>, puede elegir como máximo un campo activo. En <strong>Adaptado al sector</strong>, puede elegir un máximo de cinco campos activos.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Permitir al alumno explorar áreas de interés</p></td>
    <td>
-    <p>Solo para la experiencia clásica. Elija <strong>Sí </strong> o <strong>No</strong>.<br></p></td>
+    <p>Solo para la experiencia clásica. Seleccione <strong>Sí </strong>o <strong>No</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Solicitar a los usuarios que seleccionen áreas de interés (aptitudes) <br></p></td>
+    <p>Solicitar a los usuarios que seleccionen Áreas de interés (Aptitudes) <br></p></td>
    <td>
-    <p>Solo para la experiencia envolvente. Elija <strong>Sí</strong> o <strong>No</strong>. </p></td>
+    <p>Solo para la experiencia envolvente. Seleccione <strong>Sí</strong> o <strong>No</strong>. </p></td>
   </tr>
  </tbody>
 </table>
