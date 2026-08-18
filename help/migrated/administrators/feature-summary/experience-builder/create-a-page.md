@@ -2,17 +2,17 @@
 title: Crear una página en Experience Builder
 description: Aprende a crear nuevas páginas en Experience Builder con Adobe Learning Manager. En esta guía se trata la selección de plantillas, la asignación de nombres a páginas, la configuración de propiedades de página y la publicación de páginas personalizadas.
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
 
-
 # Crear una página personalizada en Experience Builder
 
-Como administrador de una empresa de servicios financieros, administra dos equipos: Ventas y Éxito del cliente. Cada equipo tiene requisitos de aprendizaje únicos, pero ambos han estado utilizando el mismo portal de aprendizaje estándar. Esto ha provocado confusión, desorden y poca participación de los alumnos.
+Como administrador de una empresa de servicios financieros, administra dos equipos: Ventas y éxito del cliente Cada equipo tiene requisitos de aprendizaje únicos, pero ambos han estado utilizando el mismo portal de aprendizaje estándar. Esto ha provocado confusión, desorden y poca participación de los alumnos.
 Para resolver este desafío sin tener que invertir en una compilación descentralizada o esperar a que haya una solución personalizada para desarrolladores, puedes usar Experience Builder en Adobe Learning Manager. Con las páginas, los widgets y los menús, puedes diseñar portales de marca y específicos para cada función en solo unos pasos, sin necesidad de código.
 
 Para crear una página personalizada para el equipo de ingeniería de ventas en Adobe Learning Manager:
@@ -33,8 +33,8 @@ Para crear una página personalizada para el equipo de ingeniería de ventas en 
 
 7. Seleccione el tipo de página de las siguientes:
 
-   * **[!UICONTROL Generar usando widgets de ALM]**: el administrador puede crear una página usando los widgets de Adobe Learning Manager existentes. Escriba la cadena personalizada en el campo URL de página. Esta cadena se anexará a la dirección URL de la página personalizada.
-   * **[!UICONTROL Página externa]**: el administrador puede agregar una dirección URL para la página externa. Si selecciona el tipo de página como externa, escriba la dirección URL de la página externa en el campo de texto URL de página.
+   * **[!UICONTROL Generar usando widgets de ALM]**: El administrador puede crear una página utilizando los widgets existentes de Adobe Learning Manager. Escriba la cadena personalizada en el campo URL de página. Esta cadena se anexará a la dirección URL de la página personalizada.
+   * **[!UICONTROL Página externa]**: El administrador puede añadir una dirección URL para la página externa. Si selecciona el tipo de página como externa, escriba la dirección URL de la página externa en el campo de texto URL de página.
 
 8. Seleccione **[!UICONTROL Cambiar icono]** para cambiar el icono de la página.
 9. Seleccione **[!UICONTROL Agregar nuevo idioma]** para agregar el idioma predeterminado para la página.
@@ -48,10 +48,10 @@ El siguiente paso es agregar un diseño a la página personalizada, donde puede 
 
 Diseñe la página seleccionando el diseño de sección adecuado en el menú desplegable. El ancho máximo de cualquier diseño es de 1212 píxeles. Elija una de las siguientes opciones de sección en función del número de widgets que desee añadir y su tamaño deseado:
 
-* Columna **[!UICONTROL 1 - Ancho completo de sección]**: el contenido abarca todo el ancho de la sección, lo que proporciona el máximo espacio.
-* **[!UICONTROL 2 columnas - 1/2 ancho de sección cada una]**: la sección se divide uniformemente en dos columnas de igual ancho.
-* **[!UICONTROL 2 columnas - 2/3 y 1/3 ancho de sección]**: El contenido principal ocupa dos tercios del ancho, mientras que el contenido lateral utiliza un tercio.
-* **[!UICONTROL 2 columnas - ancho de sección 1/3 y 2/3]**: El contenido de lados ocupa un tercio y el contenido principal dos tercios de la sección.
+* Columna **[!UICONTROL 1 - Ancho completo de sección]**: El contenido abarca toda la anchura de la sección, lo que proporciona el máximo espacio.
+* **[!UICONTROL 2 columnas - 1/2 ancho de sección cada una]**: La sección se divide uniformemente en dos columnas de igual ancho.
+* **[!UICONTROL 2 columnas - ancho de sección 2/3 y 1/3]**: El contenido principal ocupa dos tercios de la anchura, mientras que el contenido lateral utiliza un tercio.
+* **[!UICONTROL 2 columnas - ancho de sección 1/3 y 2/3]**: El contenido secundario ocupa un tercio y el contenido principal dos tercios de la sección.
 * **[!UICONTROL 3 columnas - 1/3 de ancho de sección cada una]**: La sección se divide en tres columnas de igual ancho.
 
 >[!NOTE]
@@ -78,9 +78,9 @@ Para seleccionar el diseño de la página de formación de ventas en Experience 
 
 El diseño añadido tiene las siguientes opciones:
 
-* **[!UICONTROL Eliminar fila]**: quite la fila del diseño.
-* **[!UICONTROL Ajustar ancho de pantalla]**: Ajusta el diseño para que cambie de tamaño automáticamente y se ajuste a tu pantalla para mejorar la visibilidad.
-* **[!UICONTROL Reordenar]**: cambia el orden de los diseños arrastrándolos y soltándolos en la posición deseada.
+* **[!UICONTROL Eliminar fila]**: Quite la fila del diseño.
+* **[!UICONTROL Ajustar ancho de pantalla]**: Ajusta el diseño para que cambie de tamaño automáticamente y se adapte a tu pantalla para mejorar la visibilidad.
+* **[!UICONTROL Reordenar]**: Cambie el orden de los diseños arrastrándolos y soltándolos en la posición deseada.
 
 ![](assets/layout-options.png)
 _Diseño de página que muestra las opciones de diseño para reordenar, expandir o eliminar la sección_
@@ -113,7 +113,7 @@ Para configurar un widget en la página personalizada Formación de ventas:
 6. Escriba el título, la descripción y la etiqueta del botón de acción en la pantalla de configuración del widget **[!UICONTROL Content Box]** para los ingenieros de ventas
 7. Seleccione **[!UICONTROL Agregar widget]**.
 8. Seleccione **[!UICONTROL Guardar]** y elija una de las siguientes opciones:
-a. **[!UICONTROL Guardar como borrador]**: la página se guardará como borrador. El administrador puede editar la página más adelante.
+a. **[!UICONTROL Guardar como borrador]**: La página se guardará como borrador. El administrador puede editar la página más adelante.
 b. **[!UICONTROL Guardar y Publish]**: La página se publicará y el administrador podrá agregarla al menú.
 
    ![](assets/select-save-options.png)
@@ -136,7 +136,7 @@ Para previsualizar las páginas:
    ![](assets/preview-the-page.png)
    _Vista previa de página que muestra un diseño de página personalizado con un banner, cursos destacados_
 
-6. Seleccione Modo Inspect para ver el alto y el ancho del widget.
+6. Seleccione Modo Inspect para ver el height y la anchura del widget.
 
    ![](assets/inspect-mode.png)
    _Pantalla de vista previa de página en Experience Builder con el conmutador de modo Inspect resaltado, lo que permite a los administradores revisar e inspeccionar los widgets_

@@ -4,8 +4,8 @@ description: Como administrador de cuentas, una de sus tareas principales es cre
 exl-id: c430545d-b48e-432d-a278-658c9281818f
 source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 63%
+source-wordcount: '624'
+ht-degree: 70%
 
 ---
 
@@ -21,13 +21,13 @@ La función Varias inscripciones de Adobe Learning Manager ayuda al administrado
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![botón](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>En este curso de formación, aprenderá a editar los detalles de la instancia y las propiedades de la instancia.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
 ## ¿Qué es la función Varias inscripciones?
 
-La función Varias inscripciones permite que un alumno se inscriba varias veces en un curso a través de las diversas instancias disponibles.  Un alumno puede inscribirse en varias instancias de curso, independientemente del estado en el que se haya inscrito, se haya completado o aún no se haya iniciado. Cuando el autor activa la función [!UICONTROL Varias inscripciones], un alumno puede inscribirse en varias instancias del curso.
+La función Varias inscripciones permite que un alumno se inscriba varias veces en un curso a través de las diversas instancias disponibles.  Un alumno puede inscribirse en varias instancias del curso independientemente del estado en que se encuentre: inscrito, completado o por comenzar. Cuando el autor activa la función [!UICONTROL Varias inscripciones], un alumno puede inscribirse en varias instancias del curso.
 
 ![imagen de inscripción múltiple](assets/multi-enrollment-author.png)
 *Iniciar inscripción múltiple desde configuración*
