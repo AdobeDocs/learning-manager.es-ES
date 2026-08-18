@@ -2,13 +2,13 @@
 title: Limitaciones y directrices de Experience Builder en Adobe Learning Manager
 description: Las directrices y limitaciones de Experience Builder proporcionan sugerencias de contenido y cursos personalizados a los alumnos mediante algoritmos basados en IA.
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
-
 
 # Limitaciones y directrices de Experience Builder
 
@@ -24,10 +24,10 @@ Puedes crear hasta 1000 páginas en Experience Builder. Este es el límite super
 
 ### Widgets por página
 
-* **Límite máximo**: se pueden agregar un máximo de 25 widgets a una sola página.
-* **Límite recomendado**: para mejorar el rendimiento, se recomienda no usar más de 10 widgets por página.
-* **Widgets basados en API**: los widgets que dependen de las API de ALM (por ejemplo, cursos y rutas, categoría, mi aprendizaje, aprendizaje social, calendario, cumplimiento, tabla de posiciones) deben limitarse a 10 por página.
-* **Widgets independientes**: los widgets como HTML y cuadro de contenido, que no dependen de las API de ALM, se pueden utilizar hasta el límite máximo de 25 widgets.
+* **Límite máximo**: Se puede añadir un máximo de 25 widgets a una sola página.
+* **Límite recomendado**: Para un mejor rendimiento, se recomienda utilizar no más de 10 widgets por página.
+* **Widgets basados en API**: Los widgets que dependen de las API de ALM (por ejemplo, cursos y rutas, categoría, mi aprendizaje, aprendizaje social, calendario, cumplimiento, tabla de posiciones) deben limitarse a 10 por página.
+* **Widgets independientes**: Los widgets como HTML y Content box, que no dependen de las API de ALM, se pueden utilizar hasta el límite máximo de 25 widgets.
 
 ### Widgets de un solo uso
 
@@ -43,8 +43,8 @@ El uso de widgets dentro de estas directrices de tamaño recomendadas mejora la 
 
 ### Distancias de píxeles predeterminadas
 
-**Distancia vertical**: la distancia vertical predeterminada entre los widgets es de 80 píxeles.
-**Distancia horizontal**: la distancia horizontal predeterminada entre los widgets es de 20 píxeles.
+**Distancia vertical**: La distancia vertical predeterminada entre los widgets es de 80 píxeles.
+**Distancia horizontal**: La distancia horizontal predeterminada entre los widgets es de 20 píxeles.
 
 ### CSS personalizado
 
@@ -92,8 +92,8 @@ Los menús se pueden colocar en la parte superior o izquierda de la página. Se 
 
 ### Consideraciones de seguridad
 
-* **Widgets de HTML**: Debes asegurarte de que el código maneja problemas de seguridad como los ataques de secuencias de comandos en sitios cruzados (XSS), ya que están fuera del ámbito del control de Experience Builder.
-* **Pie de página personalizado**: al personalizar el pie de página mediante HTML o CSS, asegúrese de que el código cumpla las prácticas recomendadas de seguridad.
+* **widgets de HTML**: Debe asegurarse de que el código maneja problemas de seguridad como los ataques de secuencias de comandos en sitios cruzados (XSS), ya que están fuera del ámbito de control de Experience Builder.
+* **Pie personalizado**: Al personalizar el pie de página mediante HTML o CSS, asegúrese de que el código se ajusta a las prácticas recomendadas de seguridad.
 
 ### Cambios importantes
 
@@ -112,16 +112,6 @@ Las actualizaciones de Experience Builder pueden introducir cambios importantes 
 
 Cada widget y página tiene ID exclusivos que se pueden utilizar para realizar cambios CSS específicos. Esto permite la personalización en diferentes niveles:
 
-* Nivel global: aplique cambios CSS en todas las páginas.
+* Nivel global: Aplica cambios de CSS en todas las páginas.
 * Nivel de widget: Aplique cambios de CSS a widgets específicos.
 * Nivel de página: Aplique cambios CSS a todos los widgets de una página específica.
-
-
-
-
-
-
-
-
-
-

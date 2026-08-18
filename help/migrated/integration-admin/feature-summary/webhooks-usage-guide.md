@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
 source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3421'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ A continuación se indican los eventos admitidos para las instancias de objetos 
 
 #### Actualización
 
-Una vez creada una instancia, se genera el evento **LEARNING_OBJECT_INSTANCE_MODIFICATION**. Las instancias de objetos de aprendizaje en Adobe Learning Manager no tienen un estado **Borrador**; por lo tanto, Adobe Learning Manager no admite un evento **LEARNING_OBJECT_INSTANCE_DRAFT**. Este evento se genera siempre que se crea, modifica o retira una instancia.
+Una vez creada una instancia, se genera el evento **LEARNING_OBJECT_INSTANCE_MODIFICATION**. Las instancias de objetos de aprendizaje en Adobe Learning Manager no tienen el estado **Borrador**; por lo tanto, Adobe Learning Manager no admite un **evento LEARNING_OBJECT_INSTANCE_DRAFT**. Este evento se genera siempre que se crea, modifica o retira una instancia.
 
 Además de generarse cuando se crea, actualiza o retira una instancia, este evento también se genera automáticamente cuando su objeto de aprendizaje principal se marca como **Retirado**. Esto se debe a que, cuando se retira un objeto de aprendizaje, las instancias subyacentes también deben marcarse como **Retirado**.
 
@@ -426,7 +426,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_INSCRIPCIÓN
++++LEARNING_PATH_ENROLLMENT
 
 ```
 {
@@ -452,7 +452,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_LOTE_DE_INSCRIPCIÓN
++++LEARNING_PATH_ENROLLMENT_BATCH
 
 ```
 {
@@ -478,7 +478,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_COMPLETADA
++++LEARNING_PATH_COMPLETED
 
 ```
 {
@@ -505,7 +505,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_COMPLETADA_LOTE
++++LEARNING_PATH_COMPLETED_BATCH
 
 ```
 {
@@ -636,7 +636,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++PROGRESO_DEL_ALUMNO
++++LEARNER_PROGRESS
 
 ```
 {
@@ -712,7 +712,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_DARSE DE BAJA
++++LEARNING_PATH_UNENROLLMENT
 
 ```
 {
@@ -737,7 +737,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++RUTA_DE_APRENDIZAJE_UNENROLLMENT_BATCH
++++LEARNING_PATH_UNENROLLMENT_BATCH
 
 ```
 {
@@ -834,7 +834,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++ELIMINACIÓN_OBJETO_APRENDIZAJE
++++LEARNING_OBJECT_DELETION
 
 ```
 {
@@ -856,7 +856,7 @@ Para evitar estos errores, los suscriptores deben supervisar activamente los eve
 
 +++
 
-+++MODIFICACIÓN_OBJETO_DE_APRENDIZAJE
++++LEARNING_OBJECT_MODIFICATION
 
 ```
 {

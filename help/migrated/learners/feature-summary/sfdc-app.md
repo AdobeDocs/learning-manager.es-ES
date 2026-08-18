@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 62%
+source-wordcount: '502'
+ht-degree: 65%
 
 ---
 
@@ -45,7 +45,7 @@ A continuación, se proporciona una imagen de la vista del alumno de la aplicaci
 
 ## Desconectar de la aplicación {#disconnectfromtheapp}
 
-Puede hacer clic en el vínculo Desconectar que hay en la parte inferior de la página del alumno, como se indica en la imagen anterior, para **desconectarse** de la aplicación Adobe Learning Manager. Una vez desconectado, se le redirigirá a la página de bienvenida de la aplicación de Adobe Learning Manager.
+Puede hacer clic en el vínculo Desconectar que hay en la parte inferior de la página del alumno, como se indica en la imagen anterior, para **desconectarse** de la aplicación Adobe Learning Manager. Una vez desconectado, se le redirige a la página de bienvenida de la aplicación Adobe Learning Manager.
 
 Puede conectarse a la aplicación o desconectarse las veces que quiera.
 

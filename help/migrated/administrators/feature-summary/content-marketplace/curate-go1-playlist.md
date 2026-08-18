@@ -2,13 +2,13 @@
 description: Aprenda a crear y añadir una lista de reproducción de Go1 a una ruta de aprendizaje en Adobe Learning Manager. Esta guía trata las instrucciones paso a paso y las prácticas recomendadas para la integración de listas de reproducción.
 jcr-language: en_us
 title: Conservar lista de reproducción de Go1 en ruta de aprendizaje de Adobe Learning Manager
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
 
 ---
-
 
 # Selección de cursos de Go1 en una ruta de aprendizaje
 
@@ -34,18 +34,18 @@ Para crear una ruta de aprendizaje con cursos Go1:
 4. Escriba los detalles necesarios y seleccione **[!UICONTROL Guardar]**. Vea este [artículo](/help/migrated/administrators/feature-summary/learning-paths.md) para obtener más información.
 5. Puede añadir cursos a una ruta de aprendizaje de las siguientes maneras:
 
-   * **[!UICONTROL Agregar cursos o rutas de aprendizaje]**: agregue cursos o rutas de aprendizaje existentes disponibles en Adobe Learning Manager.
-   * **[!UICONTROL Conservar contenido de Go1]**: agregue cursos desde la plataforma Go1.
+   * **[!UICONTROL Agregar cursos o rutas de aprendizaje]**: Añada cursos existentes o rutas de aprendizaje disponibles en Adobe Learning Manager.
+   * **[!UICONTROL Conservar contenido de Go1]**: Añada cursos desde la plataforma Go1.
 6. Seleccione **[!UICONTROL Conservar contenido de Go1]**.
 
-   ![texto alt](assets/select-go1-courses.png)
+   ![texto alternativo](assets/select-go1-courses.png)
    _Añade cursos de Go1 a la lista de reproducción de desarrollo de habilidades de ingenieros de ventas para ampliar las opciones de aprendizaje con contenido seleccionado de terceros_
 7. Los administradores pueden crear una lista de reproducción de las siguientes maneras:
 
    * Usando **[!UICONTROL Asistente de Inteligencia Artificial Go1]**. Consulte [Asistente de inteligencia artificial Go1](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) para obtener más información.
    * En **[!UICONTROL Biblioteca]**, selecciona **[!UICONTROL Crear lista de reproducción]** y elige una de las siguientes opciones:
-a. **[!UICONTROL con IA]**: Crea una lista de reproducción con la ayuda de IA. Vea esta [sección](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) para obtener más información.
-b. **[!UICONTROL por mí mismo]**: Cree una lista de reproducción agregándole cursos manualmente. Vea esta [sección](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) para obtener más información.
+     a. **[!UICONTROL con IA]**: Crea una lista de reproducción con la ayuda de la IA. Vea esta [sección](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) para obtener más información.
+     b. **[!UICONTROL por mí mismo]**: Cree una lista de reproducción añadiéndole cursos manualmente. Vea esta [sección](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) para obtener más información.
 
 ### Asistente de inteligencia artificial de Go1
 
@@ -119,16 +119,16 @@ Los administradores pueden escribir la descripción de la lista de reproducción
 7. Busque y agregue una imagen a la lista de reproducción seleccionando **[!UICONTROL Seleccionar imagen]**.
 8. Cambie el título usando las opciones de AI disponibles:
 
-   * **[!UICONTROL Mejora la escritura]**: Perfecciona el título existente para que sea más claro.
-   * **[!UICONTROL Generar título]**: Crea un nuevo título basado en el contenido o contexto automáticamente.
+   * **[!UICONTROL Mejorar la escritura]**: Perfeccione el título existente para que sea más claro.
+   * **[!UICONTROL Generar título]**: Cree un nuevo título basado en el contenido o el contexto automáticamente.
 
    ![](assets/ai-options-for-title.png)
    _Pantalla de creación de listas de reproducción Go1 con opciones de inteligencia artificial para mejorar el título de la lista de reproducción_
 
 9. Cambie la descripción utilizando las opciones de IA disponibles:
-   * **[!UICONTROL Mejora la escritura]**: Perfecciona la descripción existente para que sea más clara.
-   * **[!UICONTROL Generar descripción]**: Crea una nueva descripción basada en el contenido o contexto automáticamente.
-   * **[!UICONTROL Acorta el texto]**: Reduce el texto o el título mientras mantienes la idea principal.
+   * **[!UICONTROL Mejorar la escritura]**: Perfeccione la descripción existente para hacerla más clara.
+   * **[!UICONTROL Generar descripción]**: Crea automáticamente una nueva descripción basada en el contenido o el contexto.
+   * **[!UICONTROL Acorta]**: Acorte el texto o el título manteniendo la idea principal.
 
    ![](assets/ai-option-descriptions.png)
    _Pantalla de creación de listas de reproducción Go1 con opciones de inteligencia artificial para mejorar la descripción de la lista de reproducción_
