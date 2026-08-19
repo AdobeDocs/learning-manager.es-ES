@@ -1,9 +1,9 @@
 ---
 title: Crear canales (beta)
 description: Aprenda a habilitar, crear y editar canales en Adobe Learning Manager para llevar contenido de aprendizaje basado en vídeo desde páginas web y páginas de Confluence Cloud a una única ubicación en la que los alumnos puedan realizar búsquedas.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 Las organizaciones suelen almacenar sesiones de intercambio de conocimientos, grabaciones de formación y otros contenidos de vídeo en contenido de aprendizaje informal seleccionado en páginas web y de Confluence Cloud. Los canales conectan Adobe Learning Manager con estas fuentes de contenido, lo que facilita la detección y el consumo de vídeos sin necesidad de que los alumnos naveguen por varios sistemas. Los canales le ayudan a organizar y compartir contenido de aprendizaje basado en vídeo desde páginas web empresariales y páginas de Confluence Cloud en una única ubicación en la que se pueden realizar búsquedas. En lugar de buscar en varios sitios internos, los alumnos pueden descubrir grabaciones relevantes y acceder a ellas directamente desde Adobe Learning Manager. Visualiza [Descubre canales e interactúa con ellos](../../learners/feature-summary/discover-and-engage-with-channels.md) para obtener más información.
 
-Como administrador, puede crear y administrar canales, configurar opciones de visibilidad, sincronizar contenido con su origen y comprobar que los vídeos estén disponibles antes de que los alumnos puedan acceder al canal. En este artículo se explica cómo realizar estas tareas de administración de canales.
+Como administrador, puede crear y administrar canales, configurar opciones de visibilidad, sincronizar contenido con su origen y comprobar que los vídeos estén disponibles antes de que los alumnos puedan acceder al canal. Los formatos de vídeo admitidos son **MP4** y **WebM**.
+
+En este artículo se explica cómo realizar estas tareas de administración de canales.
 
 **Principales ventajas**
 
