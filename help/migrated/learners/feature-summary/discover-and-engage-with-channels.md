@@ -1,15 +1,19 @@
 ---
 title: Descubre los canales e interactúa con ellos
 description: Aprenda a buscar, suscribirse, ver, marcar favoritos y unirse a los debates sobre el contenido de vídeo disponible a través de los canales en Adobe Learning Manager.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
 
 # Descubre los canales e interactúa con ellos (versión beta)
+
+>[!IMPORTANT]
+>
+>Las funciones beta pueden contener defectos y se proporcionan &quot;TAL CUAL&quot; sin garantía de ningún tipo. Adobe tiene la única facultad de decidir si desea que las funciones beta estén disponibles de forma general. El Adobe no tiene obligación de mantener, corregir, actualizar, cambiar, modificar o de cualquier otra manera apoyar (a través de los Servicios de Soporte de Adobe o de otra manera) las características beta. Si una función beta pasa a estar disponible de forma general, puede estar sujeta a términos y condiciones adicionales, incluidos los cargos aplicables. Las funciones beta están sujetas a cambios sin previo aviso, incluida la interrupción. Se recomienda a los clientes que actúen con precaución y que no confíen en modo alguno en el funcionamiento o el rendimiento ininterrumpidos o sin errores de las funciones beta. En consecuencia, cualquier uso de las funciones beta es enteramente bajo el propio riesgo del Cliente. Las capacidades del producto y la documentación relacionada pueden cambiar a medida que evoluciona la función. Esta documentación refleja la experiencia beta actual y no debe considerarse una documentación del producto final o completa.
 
 Los canales ayudan a los alumnos a descubrir y acceder a contenido de aprendizaje informal basado en vídeo seleccionado en páginas web y de Cloud Confluence en Adobe Learning Manager. Los administradores crean canales conectándolos a páginas web empresariales o a páginas de Cloud Confluence que alojan sesiones grabadas de intercambio de conocimientos y transferencia de conocimientos.
 
