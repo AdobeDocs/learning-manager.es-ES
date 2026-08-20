@@ -2,7 +2,7 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 36%
@@ -237,10 +237,10 @@ ht-degree: 36%
       * [Escribir mensajes eficaces en el compositor de contenido](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Compartir y colaborar {#share}
       * [Compartir un proyecto de Compositor de contenido y colaborar en él](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[Compartir un proyecto para su revisión](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[Compartir un proyecto con alumnos](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[Revisar el proyecto compartido](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[Administrar y responder a comentarios de revisión](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * [Compartir un proyecto para su revisión](authors/feature-summary/content-composer/share-course-review.md)
+      * [Compartir un proyecto con alumnos](authors/feature-summary/content-composer/share-course-learners.md)
+      * [Revisar el proyecto compartido](authors/feature-summary/content-composer/review-shared-course.md)
+      * [Administrar y responder a comentarios de revisión](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * Configurar opciones del curso {#settings}
       * [Configuración general del curso](authors/feature-summary/content-composer/general-course-settings.md)
       * [Establecer criterios de finalización y éxito](authors/feature-summary/content-composer/set-completion-success-criteria.md)
