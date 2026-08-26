@@ -2,7 +2,8 @@
 description: El mensaje es la entrada más importante en Compositor de contenido. Un mensaje específico, como asignar un nombre a la audiencia, entre 2 y 3 temas y una señal de ámbito, produce un resumen más preciso, un esquema más claro y menos edición en sentido descendente.
 jcr-language: en_us
 title: Escribir mensajes eficaces en el compositor de contenido
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%
