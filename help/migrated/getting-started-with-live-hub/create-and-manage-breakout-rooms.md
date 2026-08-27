@@ -1,9 +1,9 @@
 ---
 title: Crear y administrar sesiones de grupo de trabajo en Live Hub
 description: Aprenda cómo los instructores crean, configuran, inician, supervisan y administran las salas de grupo de trabajo en una sesión de Live Hub, incluidos los informes y los resúmenes de las salas generados por IA.
-source-git-commit: f16239fb4a169f22e03a23d11c43f9accfbb72ec
+source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Los instructores pueden ver resúmenes de los debates generados por la IA en cad
 
 >[!NOTE]
 >
->Una sala necesita al menos 60 segundos de discusión antes de poder generar un resumen. Las salas con menos actividad que esta no mostrarán un resumen en la ventana Comprobar sala.
+>Una sala de grupo de trabajo necesita al menos 60 segundos de discusión antes de poder generar un resumen. Las salas con menos actividad que esta no mostrarán un resumen en la ventana Comprobar sala.
 
 Para ver resúmenes:
 
@@ -184,20 +184,24 @@ Puede finalizar la sesión de grupo de trabajo en cualquier momento.
 
 ## Ver un informe de sesión de grupo de trabajo
 
-Una vez finalizada la sesión de grupo de trabajo, puede acceder al informe de la sesión de grupo de trabajo para revisar la actividad y la participación de la sesión. El informe incluye detalles de los participantes, resúmenes específicos de las discusiones en grupo, instrucciones compartidas con los participantes y una visión general de la duración y participación de la sesión.
+Una vez finalizada la sesión de grupo de trabajo, puede acceder al informe de la sesión de grupo de trabajo para revisar la actividad y la participación de la sesión. El informe incluye detalles de los participantes, un resumen general y específico de cada sala de los debates en grupo, instrucciones compartidas con los participantes y una visión general de la duración y la participación de la sesión.
 
 >[!NOTE]
 >
->Las salas con menos de 60 segundos de discusión no tienen un resumen incluido en el informe.
+>Las salas de grupo de trabajo con menos de 60 segundos de discusión no tienen un resumen incluido en el informe.
 
 Para ver un informe de sesión de grupo de trabajo:
 
 1. Vaya a la sesión de grupo de trabajo cerrada en el panel **Grupos de trabajo**.
 
-1. Seleccione **Ver informes**. <br> Se abre la ventana emergente del informe de grupos de trabajo con el informe de salas.
+1. Seleccione **Ver informes**. <br> Se abre la ventana emergente del informe de grupos de trabajo con el resumen de la sesión.
 
    ![Informe de sesión de grupo de trabajo](assets/breakout-session-report.png)
    Ventana emergente de *informes de grupos de trabajo que muestra el informe de salas de grupo de trabajo.*
+
+1. Elija una de las opciones siguientes:
+   * Seleccione **Todas las salas** para ver el **Resumen general** de la sesión de grupo de trabajo.
+   * Seleccione una ficha de sala para ver el resumen de esa sala.
 
 Toda la información de la sesión de grupo de trabajo también está disponible en el **Panel de sesiones**, donde puede revisar resúmenes, analizar la participación y realizar un seguimiento de los resultados de la sesión después de la sesión. Vea [Componentes del panel de sesión](./components-of-the-session-dashboard.md) para obtener más información.
 
