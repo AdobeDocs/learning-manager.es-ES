@@ -2,13 +2,13 @@
 title: Añadir y configurar widgets en Experience Builder
 description: Aprenda a añadir, personalizar y configurar varios widgets en Experience Builder dentro de Adobe Learning Manager. Esta guía trata los widgets más utilizados, como calendarios, categorías, estado de cumplimiento, cursos y rutas, interacción lúdica, contenido para HTML, IFrames, aprendizaje social y mucho más.
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # Añadir y configurar widgets
 
@@ -134,7 +134,7 @@ Los administradores añaden el widget Cursos y trazados a las páginas para resa
 
 ### Añadir un widget de cursos y trazados
 
-Una empresa financiera desea crear páginas de formación específicas para cada función para sus dos equipos: Sales y Customer Success Managers (CSM). El widget Cursos y trazados se puede utilizar para mostrar los programas de aprendizaje más relevantes para cada equipo.
+Una empresa financiera desea crear páginas de formación específicas para sus dos equipos: Sales and Customer Success Managers (CSM). El widget Cursos y trazados se puede utilizar para mostrar los programas de aprendizaje más relevantes para cada equipo.
 
 Para configurar el widget Cursos y trazados:
 
@@ -154,8 +154,8 @@ Para configurar el widget Cursos y trazados:
 10. Seleccione los catálogos o elija manualmente un máximo de 25 cursos para mostrar.
 
 ![](assets/configure-course-paths.png)
-_Widget de cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
-&#x200B;11. Seleccione **[!UICONTROL Agregar widget]**.
+Widget de _cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
+11. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Cursos y trazados se añadirá a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
@@ -165,7 +165,7 @@ El widget Cuadro de contenido permite a los administradores agregar contenido pe
 
 ### Agregar un widget de cuadro de contenido
 
-Una empresa financiera desea crear páginas de formación específicas para cada función para sus dos equipos: Sales y Customer Success Managers (CSM). El widget Cuadro de contenido se puede utilizar para agregar secciones personalizadas con títulos, descripciones, imágenes y botones de llamada a la acción que comparten recursos específicos, actualizaciones y mensajes motivacionales.
+Una empresa financiera desea crear páginas de formación específicas para sus dos equipos: Sales and Customer Success Managers (CSM). El widget Cuadro de contenido se puede utilizar para agregar secciones personalizadas con títulos, descripciones, imágenes y botones de llamada a la acción que comparten recursos específicos, actualizaciones y mensajes motivacionales.
 
 Para configurar el widget de cuadro de contenido:
 
@@ -184,10 +184,10 @@ Para configurar el widget de cuadro de contenido:
 9. Escriba el texto en la **[!UICONTROL etiqueta del botón Acción]** y proporcione un vínculo.
 10. Seleccione cualquiera de las opciones de Relleno de fondo:
 
-    * **[!UICONTROL Color]**: seleccione el color en el selector de color o escriba el código de color en el campo de texto.
-    * **[!UICONTROL Imagen]**: examine y cargue una imagen.
+    * **[!UICONTROL Color]**: Seleccione el color en el selector de color o escriba el código de color en el campo de texto.
+    * **[!UICONTROL Imagen]**: Examine y cargue una imagen.
 
-11. Ajuste la altura del cuadro mediante la opción **[!UICONTROL Altura del cuadro de contenido]**.
+11. Ajuste el height del cuadro mediante la opción **[!UICONTROL height del cuadro de contenido]**.
 12. Seleccione las opciones de formato de texto.
 
     ![](assets/configure-content-box.png)
@@ -203,7 +203,7 @@ Los administradores añaden el widget Interacción a las páginas personalizadas
 
 ### Añadir un widget de interacción
 
-Una empresa financiera quiere aumentar la participación y la motivación de los alumnos en sus dos equipos principales: los gestores de ventas y de éxito del cliente (CSM). El widget Interacción se puede utilizar para recompensar a los alumnos con puntos, insignias y clasificaciones en la tabla de clasificación por completar la formación y participar activamente.
+Una empresa financiera desea aumentar la participación y la motivación de los alumnos en sus dos equipos principales: Sales and Customer Success Managers (CSM). El widget Interacción se puede utilizar para recompensar a los alumnos con puntos, insignias y clasificaciones en la tabla de clasificación por completar la formación y participar activamente.
 
 Para el equipo de ventas, la interacción lúdica podría centrarse en recompensar los logros relacionados con las habilidades de ventas, el conocimiento del producto y la formación de compromiso con el cliente. Para el equipo de CSM, podría hacer hincapié en las certificaciones de servicio al cliente, la formación de cumplimiento y las habilidades de gestión de clientes.
 
@@ -231,7 +231,7 @@ El widget de HTML permite a los administradores insertar código de HTML persona
 
 ### Añadir un widget de HTML
 
-Una empresa financiera desea proporcionar contenido personalizado e interactivo adaptado a sus dos equipos principales: los gestores de ventas y de éxito del cliente (CSM). El widget de HTML se puede utilizar para incrustar recursos personalizados basados en HTML, como paneles financieros, visualizaciones de datos, formularios interactivos o herramientas de análisis de mercado, directamente en las páginas de formación o de equipo.
+Una empresa financiera desea proporcionar contenido personalizado e interactivo adaptado a sus dos equipos principales: Sales and Customer Success Managers (CSM). El widget de HTML se puede utilizar para incrustar recursos personalizados basados en HTML, como paneles financieros, visualizaciones de datos, formularios interactivos o herramientas de análisis de mercado, directamente en las páginas de formación o de equipo.
 
 Para configurar el widget de HTML:
 
@@ -273,10 +273,10 @@ Para configurar el widget de Iframe:
    _Pantalla de selección de widgets que resalta el widget de Iframe para incrustar aplicaciones o páginas web externas en una sección seleccionada_
 
 8. Escriba la dirección URL en la opción **[!UICONTROL Página vinculada al botón Acción]**.
-9. Ajuste la altura de iframe mediante la opción **[!UICONTROL Altura de iframe]**.
+9. Ajuste el height de Iframe mediante la opción **[!UICONTROL height de Iframe]**.
 
    ![](assets/configure-iframe.png)
-   _Pantalla de personalización del widget de iframe, donde los administradores pueden introducir una URL de página y especificar la altura de iframe para incrustar contenido externo_
+   _Pantalla de personalización del widget de iframe, donde los administradores pueden introducir una URL de página y especificar el height de iframe para incrustar contenido externo_
 
 10. Seleccione **[!UICONTROL Agregar widget]**.
 
@@ -284,10 +284,10 @@ El widget Iframe se agregará a la página. Los administradores pueden añadir o
 
 Los administradores deben incluir el token de acceso como parámetro de consulta en la dirección URL de iframe para recuperar los detalles correctos. Por ejemplo, para mostrar información de Adobe Learning Manager dentro de un iframe, la dirección URL debe incluir los siguientes parámetros:
 
-* userId: el identificador único del alumno.
-* accountId: el identificador de cuenta asociado al alumno.
-* token: token de autenticación necesario para las llamadas de API
-* configuración regional: idioma o configuración regional del alumno.
+* userId: El identificador único del alumno.
+* accountId: El identificador de cuenta asociado al alumno.
+* token: El token de autenticación necesario para las llamadas de API
+* configuración regional: La preferencia de idioma o configuración regional del alumno
 
 ## Widget Mi aprendizaje
 
@@ -295,7 +295,7 @@ El widget Mi aprendizaje proporciona a los alumnos una vista personalizada de to
 
 ### Añadir un widget de Mi aprendizaje
 
-Una empresa financiera quiere ofrecer experiencias de aprendizaje personalizadas adaptadas a sus dos equipos principales: los gestores de ventas y de éxito del cliente (CSM). El widget Mi aprendizaje se puede utilizar para ofrecer a cada miembro del equipo una vista consolidada de los cursos asignados, las rutas de aprendizaje en curso y las certificaciones.
+Una empresa financiera quiere ofrecer experiencias de aprendizaje personalizadas adaptadas a sus dos equipos principales: Sales and Customer Success Managers (CSM). El widget Mi aprendizaje se puede utilizar para ofrecer a cada miembro del equipo una vista consolidada de los cursos asignados, las rutas de aprendizaje en curso y las certificaciones.
 
 Para configurar el widget Mi aprendizaje:
 
@@ -315,13 +315,65 @@ Para configurar el widget Mi aprendizaje:
 
 El widget Mi aprendizaje se agregará a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
+
 ## Widget de Aprendizaje social
 
 El widget de Aprendizaje social permite a los alumnos interactuar, compartir ideas y colaborar en la plataforma de aprendizaje. Admite la publicación de diversos tipos de contenido, como texto, vídeos, audio, capturas de pantalla, preguntas y encuestas. Los alumnos pueden comentar, responder, votar a favor o votar en contra de las publicaciones, lo que fomenta el intercambio de conocimientos y la participación entre pares. Este widget crea un espacio de aprendizaje informal que complementa la formación formal fomentando la interacción social y el aprendizaje continuo.
 
 ### Añadir un widget de aprendizaje social
 
-Una empresa financiera quiere colaboración e intercambio de conocimientos entre sus dos equipos principales: Sales y Customer Success Managers (CSM). El widget de Aprendizaje social se puede utilizar para crear espacios interactivos donde los miembros del equipo pueden publicar preguntas, compartir prácticas recomendadas, cargar contenido útil y participar en debates.
+Una empresa financiera quiere colaboración e intercambio de conocimientos entre sus dos equipos principales: Sales and Customer Success Managers (CSM). El widget de Aprendizaje social se puede utilizar para crear espacios interactivos donde los miembros del equipo pueden publicar preguntas, compartir prácticas recomendadas, cargar contenido útil y participar en debates.
 
 Para configurar el widget de Aprendizaje social:
 

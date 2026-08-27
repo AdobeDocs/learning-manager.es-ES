@@ -1,9 +1,9 @@
 ---
 title: Guía de solución de problemas para Live Hub (Beta)
 description: Mensajes de error comunes y notificaciones que pueden aparecer durante una sesión de Live Hub, sus causas y los pasos para resolverlas.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Los mensajes siguientes pueden aparecer cuando un instructor intenta iniciar una
 |---|---|---|
 | No se puede iniciar la interrupción: la conexión se interrumpe. Inténtelo de nuevo cuando se vuelva a conectar. | Un instructor intenta iniciar salas de grupo de trabajo mientras su conexión se interrumpe o se vuelve a conectar. | Espere a que se estabilice la conexión (observe un indicador de reconexión) y, a continuación, vuelva a iniciar las salas de grupo de trabajo. |
 | No se pudo iniciar la separación. Vuelva a intentarlo. | Un instructor inicia las salas de grupo de trabajo y falla la solicitud para iniciarlas. | Vuelva a intentar iniciar salas de grupo de trabajo. Si persiste, cierre el panel Grupos de trabajo e inténtelo de nuevo. |
-| No se pudo generar el resumen. | Esto puede ocurrir en las siguientes situaciones: <ul><li>Ningún usuario habló durante la sesión, por lo que no hay contenido de audio que resumir.</li><li>La discusión es de menos de 60 segundos.</li></ul> | Asegúrese de que los participantes hablen activamente durante al menos 60 segundos durante la sesión antes de generar el resumen. Si el problema persiste, espere un momento e inténtelo de nuevo. |
+| No se pudo generar el resumen. | Este error puede aparecer en tres lugares:  el resumen en vivo de **Check Room**, un resumen **específico de la sala** en el informe de grupo de trabajo y el **resumen general** en el informe de grupo de trabajo, dependiendo de la causa: <ul><li>Ningún participante habló durante el debate de la sala.</li><li>La discusión de la sala duró menos de 60 segundos.</li><li>Solo una sala de grupo de trabajo ha generado un resumen.</li></ul> | Coincida la solución con la causa anterior: <ul><li>Asegúrese de que los participantes hablen activamente durante el debate de la sala.</li><li>Asegúrese de que el debate dure al menos 60 segundos antes de comprobar o generar el resumen.</li><li>Asegúrese de que al menos 2 salas de grupo de trabajo hayan generado resúmenes individuales antes de que se pueda generar el resumen general.</li><li>Si el problema persiste después de abordar la causa relevante, espere un momento e inténtelo de nuevo.</li></ul> |
 
 ## Problemas de toast de generación de respuestas
 

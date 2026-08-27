@@ -1,9 +1,9 @@
 ---
 title: Crear canales (beta)
 description: Aprenda a habilitar, crear y editar canales en Adobe Learning Manager para llevar contenido de aprendizaje basado en vídeo desde páginas web y páginas de Confluence Cloud a una única ubicación en la que los alumnos puedan realizar búsquedas.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Para habilitar la característica **Canales**:
 
    ![Habilitar característica de canales](assets/enable-channels-feature.png)
 
-   *Habilite la característica Canal en la ficha **Configuración**&#x200B;para permitir que los administradores creen canales para la cuenta.*
+   *Habilite la característica Canal en la ficha **Configuración**para permitir que los administradores creen canales para la cuenta.*
 
 1. Habilitar **característica de canal**.
 
@@ -86,11 +86,15 @@ Cree un canal para definir el origen de contenido en el que Adobe Learning Manag
 
    1. **Visible para los alumnos**: Active esta opción para que el canal esté disponible para los alumnos. Desactívelo para ocultar el canal mientras sigue configurándolo o probándolo.
 
+      >[!NOTE]
+      >
+      >La ficha Canales solo está visible para los alumnos cuando esta configuración está activada y contiene al menos un vídeo.
+
    1. **Sincronizar automáticamente**: Active esta opción para actualizar automáticamente el canal cuando se añadan nuevos vídeos a la fuente. Desactívelo si desea sincronizar manualmente el canal.
 
 1. (Opcional) Seleccione **Mostrar configuración avanzada** y, a continuación, configure las siguientes opciones según sea necesario:
 
-   1. **Color del tema del canal**: Seleccione un color para personalizar la apariencia visual del canal.
+   1. **Color del tema del canal**: Seleccione un color de la lista desplegable para personalizar la apariencia visual del canal.
 
    1. **profundidad de rastreo**: Introduzca la profundidad de rastreo de las páginas vinculadas para buscar contenido de vídeo. Admite una profundidad de rastreo máxima de **2**.
 
