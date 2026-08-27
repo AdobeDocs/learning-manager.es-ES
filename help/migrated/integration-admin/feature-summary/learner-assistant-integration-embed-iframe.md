@@ -32,7 +32,7 @@ Cuando se incrusta mediante iFrame, el Asistente del alumno proporciona acceso a
 Antes de comenzar, asegúrese de que tiene:
 
 * Un inquilino de ALM con el Asistente del alumno activado. Configure los catálogos requeridos desde la página de configuración del administrador.
-* Un token de acceso válido para autenticar la sesión del alumno (o administrador). Para generar un token de acceso, siga las instrucciones de la página [Autenticación mediante OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) . La página incluye los pasos necesarios para autenticar y generar el token de acceso necesario para continuar.
+* Un token de acceso válido para autenticar la sesión del alumno (o administrador). Para generar un token de acceso, siga las instrucciones de la página [Autenticación mediante OAuth 2.0](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) . La página incluye los pasos necesarios para autenticar y generar el token de acceso necesario para continuar.
 * La capacidad de incrustar un `<iframe>` en la aplicación y comunicarse con él a través de la API postMessage del explorador.
 * Propiedad de código front-end de la aplicación principal, ya que la aplicación debe escuchar y responder a los mensajes del iFrame incrustado.
 
