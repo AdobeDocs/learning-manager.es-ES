@@ -84,7 +84,7 @@ _Filtrar funciones personalizadas_
 
    *Establecer el ámbito*
 
-   ### El diseño de plantilla de correo electrónico requiere el privilegio de cuenta de plantillas de correo electrónico
+   &#x200B;### El diseño de plantilla de correo electrónico requiere el privilegio de cuenta de plantillas de correo electrónico
 
    Para ver una plantilla de correo electrónico de nivel de curso con su diseño representado correctamente, una función personalizada necesita **tanto** de lo siguiente:
 
