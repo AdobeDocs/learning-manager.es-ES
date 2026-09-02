@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -323,11 +323,11 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 
 #### Información adicional
 
-* Idiomas admitidos: Los 39 idiomas distintos del inglés admitidos por Adobe Learning Manager.
-* Notificaciones: Se notifica a los autores cuando se completa la generación y traducción de VTT.
+* **Idiomas admitidos:** Adobe Learning Manager admite los 39 idiomas distintos del inglés.
+* **Notificaciones:** Se notifica a los autores cuando se completa la generación y traducción de VTT.
 * Flexibilidad de edición: Los subtítulos se pueden editar en la aplicación o sin conexión y volver a cargarse.
-* Escalabilidad: Diseñado para satisfacer las necesidades de localización y accesibilidad de las empresas.
-* No es necesario cargar el VTT manualmente: El sistema puede generar archivos VTT desde cero utilizando el vídeo/audio cargado.
+* **Escalabilidad:** Diseñado para satisfacer las necesidades de accesibilidad y localización de empresas.
+* **No es necesario cargar VTT manualmente:** El sistema puede generar archivos VTT desde cero utilizando el vídeo/audio cargado.
 
 #### Prácticas recomendadas
 
