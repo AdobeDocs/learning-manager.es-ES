@@ -4,9 +4,9 @@ title: Funciones personalizadas
 description: La función Rutas de aprendizaje le ayuda a definir funciones personalizadas y a asignar responsabilidades específicas a un conjunto de usuarios. Esta función le permite asignar responsabilidades fuera del ámbito de la función existente de la persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: c5e687ff55fa9c174fd9b1587e25f88d7e23638d
+source-git-commit: a45822a6aa320440243fd93855fff88766391372
 workflow-type: tm+mt
-source-wordcount: '5571'
+source-wordcount: '5511'
 ht-degree: 24%
 
 ---
@@ -90,10 +90,6 @@ _Filtrar funciones personalizadas_
 
    * Acceso completo a **Cursos** en Privilegios de funciones: objetos de aprendizaje
    * Acceso a **Plantillas de correo electrónico** en Privilegios de cuenta
-
-   Si una función personalizada tiene acceso completo a los cursos, pero no a las plantillas de correo electrónico en Privilegios de cuenta, la plantilla de correo electrónico se carga sin su diseño.
-
-   Esta limitación se eliminará una vez que esté disponible el diseño de correo electrónico de nivel de objeto de aprendizaje. En ese momento, el diseño se cargará correctamente, independientemente de si el acceso a las plantillas de correo electrónico se concede en el nivel de cuenta.
 
 5. **Privilegios de funciones - Funciones principales**: Se utiliza para conceder acceso a funciones específicas de administración de actividades de aprendizaje. Mediante esta opción se pueden otorgar permisos a las funciones siguientes.
 
