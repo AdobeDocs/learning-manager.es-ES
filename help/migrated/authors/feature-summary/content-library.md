@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo crear contenido para alinear con c
 jcr-language: en_us
 title: Biblioteca de contenido
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6094'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -287,7 +287,7 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 #### Funciones principales
 
 * Generación automática de VTT: Cargue un archivo de vídeo o audio y genere automáticamente subtítulos VTT en el idioma original.
-* Traducción en varios idiomas: Traduzca los subtítulos a cualquiera de los 10 idiomas distintos del inglés admitidos.
+* Traducción en varios idiomas: Traduzca los subtítulos a cualquiera de los 39 idiomas distintos del inglés admitidos.
 * Revisión y edición en la aplicación: Revisar, editar y descargar archivos VTT antes de publicar.
 * Notificaciones: Reciba notificaciones en la aplicación cuando se complete la generación y traducción de VTT.
 * Publicación fluida: Publish finalizó los subtítulos para que los alumnos accedieran en el idioma elegido.
@@ -298,7 +298,7 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 2. Carga tu archivo MP3 o MP4.
 3. En el cuadro de diálogo de carga, seleccione la opción para **Generar traducción**.
 4. Seleccione el idioma del contenido original (el predeterminado es el idioma del archivo).
-5. Seleccione otros idiomas de destino para la traducción (se admiten hasta 10).
+5. Seleccione otros idiomas de destino para la traducción (se admiten hasta 39).
 6. Seleccione [!UICONTROL Guardar]. El sistema comienza a generar y traducir archivos VTT.
 
 #### Supervisar el progreso
@@ -323,7 +323,7 @@ La compatibilidad con las pistas de vídeo y texto (VTT) multilingües en Adobe 
 
 #### Información adicional
 
-* **Idiomas admitidos:** Adobe Learning Manager admite diez idiomas distintos del inglés (francés, alemán, español, italiano, portugués, neerlandés, sueco, indonesio, noruego Bokmal y danés).
+* **Idiomas admitidos:** Adobe Learning Manager admite los 39 idiomas distintos del inglés.
 * **Notificaciones:** Se notifica a los autores cuando se completa la generación y traducción de VTT.
 * Flexibilidad de edición: Los subtítulos se pueden editar en la aplicación o sin conexión y volver a cargarse.
 * **Escalabilidad:** Diseñado para satisfacer las necesidades de accesibilidad y localización de empresas.
