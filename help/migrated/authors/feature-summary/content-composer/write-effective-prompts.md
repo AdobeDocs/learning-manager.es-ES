@@ -3,9 +3,9 @@ description: El mensaje es la entrada más importante en Compositor de contenido
 jcr-language: en_us
 title: Escribir mensajes eficaces en el compositor de contenido
 hide: true
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: fad98839f06f2e9cea2e78621bbb7e2e52444e9e
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ El compositor de contenido es muy conversador. La calidad de lo que produce en c
 
 El mensaje de apertura es su punto de partida. No tiene por qué ser perfecto. El compositor de contenido lee el mensaje y lo utiliza para abrir una conversación. Incluso un mensaje aproximado pone en marcha el proceso; el asistente hará preguntas de seguimiento en la fase de Brief para llenar lo que falta.
 
-Dicho esto, un mensaje más específico significa que la inteligencia artificial rellena previamente el resumen de forma más precisa, lo que reduce las idas y venidas antes de generar el esquema. Si tienes una idea clara de la audiencia, los temas y el objetivo, ponla en el mensaje.
-
-Un aviso impreciso produce un resumen impreciso. Un resumen vago produce un esquema genérico. Un esquema genérico genera un curso que necesita una edición importante. La especificidad en la etapa inmediata avanza en cascada a través de cada paso subsiguiente.
+Dicho esto, un mensaje más específico significa que la inteligencia artificial rellena previamente el resumen de forma más precisa, lo que reduce las idas y venidas antes de generar el esquema. Si tienes una idea clara de la audiencia, el título y el objetivo, ponlo en el mensaje.
 
 ### ¿Qué espera el Compositor de contenido?
 
-El compositor de contenido espera lo siguiente en una o dos frases:
+El compositor de contenido espera lo siguiente:
 
-- **Quiénes** son los alumnos? Asigne un nombre a su función y nivel de experiencia.
-  - **Qué** cubrirá el curso? Describir 2-3 áreas temáticas específicas en lugar de un dominio amplio. Por ejemplo, &quot;reconocimiento de phishing, higiene de contraseñas y configuración de MFA&quot; es más útil que &quot;seguridad de TI&quot;.
-- **¿Cuál es el objetivo de aprendizaje?** Describa el resultado o el cambio de comportamiento que desea que los alumnos realicen después de completar el curso.
+- **De qué se trata el curso**? Describa el tema en una o dos frases. Este se convierte en el título del curso.
+- **Quiénes** son los alumnos? Asigne un nombre a su función y nivel de experiencia. Este se convierte en el perfil del alumno.
+- **¿Cuál es el objetivo de aprendizaje?** Describa el resultado o el cambio de comportamiento que desea que los alumnos realicen después de completar el curso. Esto se convierte en el objetivo de aprendizaje en el Resumen.
 
 ### Anatomía de un mensaje efectivo
 
-**[Nivel de audiencia y experiencia]** + **[2-3 temas específicos]** + **[objetivo de aprendizaje]**
+**[Alumnos + nivel de experiencia]** + **[un título específico]** + **[objetivo de aprendizaje]**
+
+Un indicador eficaz hace tres cosas: describe de qué se trata el curso, a quién va dirigido y qué deben poder hacer los alumnos tras completarlo.
 
 **Ejemplo**:
 
@@ -43,29 +43,28 @@ Quiero crear un curso para nuevos representantes de ventas que cubra nuestros ni
 
 Desglosar esto:
 
-- **Audiencia:** nuevos representantes de ventas
-
-- **Temas:** niveles de precios empresariales, flujo de trabajo de aprobación de descuentos, tres objeciones comunes
-  - **Objetivo de aprendizaje**: manejar con confianza las tres objeciones más comunes de los clientes: un resultado de comportamiento medible, no un tema que cubrir
+- **Título:** Curso sobre precios para empresas, aprobaciones de descuentos y tratamiento de objeciones de clientes para nuevos representantes de ventas
+- **Alumno:** Nuevos representantes de ventas en sus primeros 90 días, desconocidos de las estructuras de precios empresariales
+- **Objetivo:** Gestiona con confianza las tres objeciones más comunes de los clientes utilizando el marco de mensajería aprobado
 
 Una vez que seleccione **Comenzar**, Content Composer abrirá el escenario **Brief**. Revise los campos prerrellenados, el título, el perfil del alumno y el objetivo que la IA generó en el mensaje, y perfeccione cualquier elemento que no coincida con sus intenciones antes de generar el esquema.
 
 ### Qué hacer y qué no con un mensaje eficaz
 
-| **Incluir** | **Evitar** |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Una función de audiencia específica (&quot;nuevos representantes de ventas&quot;, &quot;gestores de primera línea&quot;) | Audiencias vagas (&quot;todo el personal&quot;, &quot;todos&quot;, &quot;usuarios&quot;) |
-| 2-3 áreas temáticas concretas | Más de 6 temas en un mensaje: producen contornos sobrecargados; divida en cursos independientes |
-| Una señal de ámbito: duración, profundidad o resultado del alumno | Objetivos genéricos (&quot;enseñarles todo sobre X&quot;, &quot;cubrir todos los aspectos de&quot;) |
-| Contexto que da forma al tono o la profundidad (&quot;para el cumplimiento normativo&quot;, &quot;para una audiencia no técnica&quot;, &quot;basado en escenarios&quot;) | Hacer preguntas sobre la IA El mensaje es breve, no una conversación |
-| Lo que los alumnos podrán hacer después del curso | Contenido del curso (deje la estructura en la fase de esquema) |
+| Incluir | Evitar |
+|---|---|
+| Un título claro del curso o un área temática | Temas vagos (&quot;algo sobre seguridad&quot;, &quot;una formación general&quot;) |
+| Función o grupo demográfico del alumno (&quot;nuevos comerciales&quot;, &quot;personal de almacén de primera línea&quot;) | Audiencias amplias (&quot;todo el personal&quot;, &quot;todos&quot;, &quot;usuarios&quot;) |
+| El nivel de experiencia del alumno (&quot;comienzo de la carrera&quot;, &quot;familiarizado con X pero no con Y&quot;) | Suponiendo que la IA conozca los antecedentes de tu audiencia |
+| Con lo que los alumnos luchan actualmente o lo que no saben | Evita las lagunas de aprendizaje. La IA los utiliza para dar forma al vocabulario y a los escenarios |
+| Un objetivo de aprendizaje claro: lo que los alumnos podrán hacer después del curso. | Objetivos genéricos (&quot;enseñarles todo sobre X&quot;, &quot;cubrir todos los aspectos de&quot;) |
 
 ### Mensajes de inicio por tipo de curso
 
 | **Tipo de curso** | **Mensaje de inicio** |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Formación de cumplimiento** | &quot;Quiero crear un curso para todos los empleados sobre el manejo de datos del RGPD, que abarque lo que se considera datos personales, cómo almacenarlos y compartirlos correctamente, y qué hacer si se produce una infracción&quot;. |
-| **Incorporación** | &quot;Deseo crear un módulo de incorporación para la nueva \[función\] que abarque \[tema 1\], \[tema 2\] y \[tema 3\]. |
+| **Incorporación** | &quot;Quiero crear un módulo de incorporación para nuevos agentes de atención al cliente que cubra cómo registrar un ticket, elevar un problema y cerrar un caso en nuestro sistema de asistencia técnica&quot;. |
 | **Habilidades técnicas** | &quot;Quiero crear un curso para ingenieros de software junior sobre prácticas de codificación seguras, como la prevención de inyecciones de código SQL, la validación de entradas y cómo leer un informe SAST&quot;. |
 | **Habilidades sociales** | &quot;Quiero crear un curso para los gerentes de primera línea sobre cómo dar comentarios constructivos, como cubrir el modelo de SBI, cómo prepararse para una conversación de feedback y cómo hacer un seguimiento&quot;. |
 | **Directiva y procedimiento** | &quot;Quiero crear un curso para el personal del almacén sobre procedimientos de manipulación manual, como la técnica de elevación correcta, cuándo usar el equipo y cómo informar de una falta inminente&quot;. |
@@ -83,11 +82,9 @@ Esta es una etapa de conversación. La calidad de las respuestas a las preguntas
 
 ### Título del curso
 
-La IA sugiere dos opciones de título. Seleccione la que encaje o escriba la suya propia. Si ninguno de los dos es correcto, describa la brecha:
+La inteligencia artificial rellena previamente el título del curso en función de lo que indique. Revísalo y selecciónalo si encaja, escribe el tuyo propio o describe lo que quieres en su lugar:
 
 &quot;Ninguno. El curso trata específicamente del flujo de trabajo de aprobación, no de los precios generales&quot;.
-
-Un buen título está orientado al alumno. Describe lo que el alumno podrá hacer, no lo que cubre el curso.
 
 ### Perfil del alumno
 
@@ -115,28 +112,30 @@ Escriba el objetivo como un comportamiento que empiece con un verbo de acción:
 >
 >**Antes de generar el esquema:** El esquema se ha creado completamente a partir del resumen, no a partir del mensaje original. Antes de seleccionar **Generar esquema**, confirme que el título es orientado al alumno, el perfil del alumno asigna un nombre de función y nivel de experiencia específicos y el objetivo de aprendizaje describe un comportamiento cuantificable en el trabajo. Un resumen bien definido produce un esquema bien estructurado. Si algún campo sigue siendo genérico, afinarlo ahora.  Ahorra una edición considerable más tarde.
 
+Tú siempre tienes el control. El compositor de contenido hará preguntas de seguimiento para ayudar a perfeccionar el resumen, pero usted decide qué va en cada campo. Un resumen bien definido produce un esquema bien estructurado. Cuanto más específicas sean tus entradas, menos edición necesitarás más adelante.
+
 ### Firma que el Brief necesita más trabajo
 
 - El perfil del alumno indica &quot;empleados que desean aprender sobre X&quot; en lugar de nombrar una función y un nivel de experiencia específicos
 - El objetivo de aprendizaje describe un área temática en lugar de un comportamiento cuantificable en el trabajo
-- El título es una etiqueta de tema (&quot;Seguridad de TI&quot;) en lugar de un resultado orientado al alumno (&quot;Identificar intentos de suplantación de identidad y responder a ellos&quot;)
+- El título es impreciso (&quot;Seguridad de TI&quot;) en lugar de un resultado orientado al alumno (&quot;Identificar intentos de suplantación de identidad y responder a ellos&quot;)
 
 ## Fase 3: Contorno - editar a través de conversación
 
 Después de confirmar el resumen, el compositor de contenido genera una estructura de lección y tema. Puede revisarlo y solicitar cambios a través del panel de chat antes de generar el curso completo.
 
-En la versión actual, la edición de esquemas es completamente conversacional. No se puede seleccionar una lección o tema en el lienzo para cambiarle el nombre o reordenarlo. Todos los cambios se realizan escribiendo solicitudes en lenguaje sencillo.
+En la versión actual, la edición de esquemas es completamente conversacional. No puede seleccionar una lección o un título en el lienzo para cambiarle el nombre o reordenarlo. Todos los cambios se realizan escribiendo solicitudes en lenguaje sencillo.
 
-Esta es también la etapa más eficiente para realizar cambios estructurales. La edición del contorno tarda segundos. La reestructuración de un curso generado tarda mucho más tiempo.
+Esta es también la etapa más eficaz para realizar cambios estructurales. La edición del contorno tarda segundos. La reestructuración de un curso generado tarda mucho más tiempo.
 
 ### Cómo redactar solicitudes de edición de esquemas de frase
 
-Sé directo y específico. Asigne un nombre a la lección o al tema por su título actual, describa el cambio que desee y, opcionalmente, explique por qué.
+Sé directo y específico. Asigne un nombre a la lección por su título actual, describa el cambio que desea y, opcionalmente, explique por qué.
 
 **Cambiar nombre:**
 
 - &quot;Cambie el nombre de la Lección 1 a &#39;Cómo funcionan los ataques de phishing&#39;.&quot;
-- &quot;Cambie el nombre del tema 2.3 a &#39;Rutas de escalación y líneas de tiempo&#39;.&quot;
+- &quot;Cambie el nombre del título 2.3 a &#39;Escalation paths and timelines&#39;.&quot;
 
 **Agregar:**
 
@@ -169,16 +168,17 @@ Sé directo y específico. Asigne un nombre a la lección o al tema por su títu
 ### Qué no puede hacer la fase de esquema
 
 - La jerarquía se ha fijado como Lecciones > Temas. No se pueden crear subtemas ni estructuras de tres niveles.
-- No se pueden establecer objetivos de lección individuales en esta fase: el objetivo de aprendizaje general del resumen se aplica al curso completo.
 - No puede añadir componentes ni medios en esta fase. Estos se añaden en el editor del curso.
 
-### Cuándo regenerar frente a cuándo editar
+<!--
+### When to regenerate versus when to edit
 
-| Utilizar la edición de conversación cuando... | Regenerar cuando... |
+| Use conversational editing when... | Regenerate when... |
 |---|---|
-| La estructura general es correcta, pero los nombres o temas individuales deben ajustarse | La estructura general no coincide en absoluto con su intención |
-| Desea agregar o quitar elementos específicos | El Brief se perfeccionó significativamente después de generar el primer esquema |
-| Hay que dividir o combinar una lección | El esquema parece genérico y carece del contexto específico de su organización |
+| The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
+| You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
+| One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Fase 4: Curso: Perfeccionar contenido mediante el asistente
 

@@ -1,10 +1,10 @@
 ---
 title: Habilitar Live Hub (beta) en Adobe Learning Manager
 description: Obtenga información sobre cómo los administradores habilitan Live Hub para una cuenta, la establecen como proveedor de clase virtual predeterminado y activan los asistentes de Live Hub con tecnología de inteligencia artificial.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -45,15 +45,15 @@ Para habilitar Live Hub:
 
 1. Active los asistentes de los agentes de Live Hub:
 
-   1. Asistente de encuestas
+   1. **Asistente de encuesta**: Genera encuestas a partir del contenido del curso y la transcripción de la sesión en directo, lo que crea rompehielos o comprobaciones de conocimientos que están listos para revisarse e iniciarse con un solo clic. Vea [Crear e iniciar una encuesta](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) para obtener más información.
 
-   1. Asistente de preguntas y respuestas
+   1. **Asistente de preguntas y respuestas**: Detecta las preguntas de los participantes en el chat de la sesión y redacta las respuestas basadas en el contenido cargado y la transcripción de la sesión para que los instructores las revisen, perfeccionen y compartan. Vea [Usar el panel Chat como instructor](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) para obtener más información.
 
-   1. Asistente de supervisión de grupos de trabajo
+   1. **Asistente de supervisión de grupo de trabajo**: Lee la transcripción de cada sala de grupo de trabajo en relación con el objetivo del instructor, publica una tarjeta de estado cada pocos minutos y ofrece resúmenes de los debates por sala, además de una única síntesis de los temas, las decisiones y las lagunas de la sala de grupo de trabajo, para realizar un parte de la información al instante. Vea [Crear y administrar sesiones de grupo de trabajo](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms) para obtener más información.
 
-   1. Generador de temas para grabaciones
+   1. **Generador de temas para grabaciones**: Segmenta automáticamente las grabaciones de las sesiones en temas con nombre mediante marcas de tiempo y notas estructuradas, de forma que los participantes puedan ir directamente a lo que necesitan o aprender de las notas sin ver la grabación completa. Vea [Descripción de grabaciones y transcripciones](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) para obtener más información.
 
-   1. Asistente de búsqueda de instructores
+   1. **Asistente del buscador de instructores**: Recomienda instructores para una sesión mediante la ponderación de aptitudes, disponibilidad, utilización, horas de instrucción preferidas y otros criterios. Vea [Crear una sesión de Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder) para obtener más información.
 
 >[!NOTE]
 >
