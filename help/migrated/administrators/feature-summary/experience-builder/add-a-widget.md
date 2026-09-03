@@ -155,7 +155,7 @@ Para configurar el widget Cursos y trazados:
 
 ![](assets/configure-course-paths.png)
 Widget de _cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
-11. Seleccione **[!UICONTROL Agregar widget]**.
+&#x200B;11. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Cursos y trazados se añadirá a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
