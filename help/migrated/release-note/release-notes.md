@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 278ab3d4028881d372f5b4896a336177a51e3e05
+source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
 workflow-type: tm+mt
-source-wordcount: '34469'
+source-wordcount: '34464'
 ht-degree: 65%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 65%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -27,8 +27,6 @@ ht-degree: 65%
 -->
 
 +++Actualización 11: Versión de Adobe Learning Manager del 31 de agosto de 2026
-
-Fecha de publicación: 31 ago. 2026
 
 ## Mejoras de esta versión
 
@@ -123,7 +121,7 @@ El agente de AI Orchestrator traslada la detección por intención de las solici
 
 **Correos electrónicos y notificaciones:** los alumnos que completan cursos de certificación recurrentes recibieron correos electrónicos de finalización del curso incluso cuando la plantilla de correo electrónico de finalización se había deshabilitado en el curso original. Esto se producía porque las certificaciones recurrentes creaban nuevos cursos e instancias sin copiar la configuración de notificación de nivel de curso original, lo que hacía que los cursos duplicados usaran configuraciones de correo electrónico predeterminadas. El proceso de repetición se ha actualizado para conservar la configuración de notificación de cursos al duplicar cursos. Como resultado, ahora solo se envían correos electrónicos de finalización cuando se activa explícitamente en la configuración original del curso.
 
-**Alumno:** Los anuncios de cabecera configurados con vídeos mostraban solo el fotograma de vídeo inicial en la página de inicio del alumno y la reproducción no se iniciaba automáticamente del modo esperado. El comportamiento de la reproducción de vídeo se ha actualizado para garantizar que los vídeos de la cabecera admitidos se reproduzcan automáticamente cuando se cargue el anuncio. Los alumnos ahora pueden ver anuncios de cabecera basados en vídeo sin necesidad de reproducción manual, lo que proporciona una experiencia más atractiva.
+**Alumno:** Los anuncios de cabecera configurados con vídeos solo mostraban el marco de vídeo inicial en la página de inicio del alumno y la reproducción no se iniciaba automáticamente del modo esperado. El comportamiento de la reproducción de vídeo se ha actualizado para garantizar que los vídeos de la cabecera admitidos se reproduzcan automáticamente cuando se cargue el anuncio. Los alumnos ahora pueden ver anuncios de cabecera basados en vídeo sin necesidad de reproducción manual, lo que proporciona una experiencia más atractiva.
 
 **Alumno:** El widget **Tendencias en tu red** mostró incorrectamente una tarjeta vacía de **Iniciar aprendizaje** en ambas filas horizontales. Este problema se ha solucionado procesando la tarjeta de estado vacío adecuada para cada fila. La primera fila muestra ahora un vínculo **Ir al catálogo**, mientras que la segunda fila sigue mostrando la tarjeta **Iniciar aprendizaje** como se esperaba.
 
@@ -171,8 +169,8 @@ Cuando un instructor comparte una ventana de Chrome que reproduce un vídeo y, a
 
 El vídeo sigue reproduciéndose localmente para el instructor, pero es posible que los asistentes remotos no vean la actualización de contenido mientras la ventana compartida esté desenfocada. El comportamiento varía según el sistema operativo:
 
-&#x200B;- En Windows, los asistentes ven una pantalla en negro.
-&#x200B;- En macOS, los asistentes ven el último fotograma de vídeo mostrado.
+- En Windows, los asistentes ven una pantalla en negro.
+- En macOS, los asistentes ven el último fotograma de vídeo mostrado.
 
 La reproducción de vídeo para los asistentes suele reanudarse cuando el foco vuelve a la ventana del navegador compartido.
 
@@ -454,7 +452,7 @@ Adobe Learning Manager (ALM) no incrementa la versión de los recursos de Second
 
 Second Nature no admite la administración de versiones en su sistema de origen. Cuando un autor actualiza los datos del escenario en el portal de SAN, los recursos de ALM y sus objetos de aprendizaje (LO) asociados hacen referencia automáticamente al contenido actualizado sin crear una nueva versión.
 
-En comparación, ALM admite el control de versiones para recursos basados en archivos y LTI, donde los autores pueden reemplazar archivos o actualizar vínculos de inicio. Debido a que estos controles no están disponibles para las integraciones de SAN, ALM no admite el salto de versión para el contenido de Second Nature.
+En comparación, ALM admite el Control de versiones de recursos basados en archivos y LTI, donde los autores pueden reemplazar archivos o actualizar vínculos de inicio. Debido a que estos controles no están disponibles para las integraciones de SAN, ALM no admite el salto de versión para el contenido de Second Nature.
 
 
 +++
@@ -569,7 +567,7 @@ Si la intención es enviar correos electrónicos a los alumnos, pero no a los re
 
 Consulte este [artículo](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) para obtener más información.
 
-## Se ha mejorado el control de versiones de contenido para los alumnos que han completado un curso.
+## Se ha mejorado el Control de versiones de contenido para los alumnos que han completado un curso.
 
 ### Información general
 
@@ -641,7 +639,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1891,7 +1889,7 @@ Las notificaciones de inserción ahora también son compatibles con los anuncios
 
 ### Comentarios de L1 obligatorios {#mandatoryl1feedback}
 
-En su última versión de agosto de 2020, Learning Manager permite a los administradores configurar los comentarios de L1 para que todas las preguntas sean obligatorias. Ahora se admite lo mismo desde la perspectiva del alumno en la aplicación móvil.
+En su última versión de agosto de 2020, Learning Manager permite a los administradores configurar los comentarios de L1 para que todas las preguntas sean obligatorias. Ahora se admite lo mismo en la Perspectiva del alumno en la aplicación móvil.
 
 ### Mejoras en la interfaz de usuario {#userinterfaceenhancements}
 
@@ -2121,7 +2119,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2499,7 +2497,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -3125,7 +3123,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3635,7 +3633,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.
