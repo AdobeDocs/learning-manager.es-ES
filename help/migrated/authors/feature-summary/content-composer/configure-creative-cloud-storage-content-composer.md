@@ -94,4 +94,4 @@ Compruebe que el usuario tenga derechos de almacenamiento de Creative Cloud. Si 
 
 Si el administrador de Adobe Admin Console tiene un problema al asignar el almacenamiento del Creative Cloud o al depurar problemas relacionados con el acceso, es posible que el problema requiera compatibilidad con el nivel de cuenta Enterprise. En tales casos, póngase en contacto con el servicio de asistencia para empresas de Adobe a través de las opciones de asistencia disponibles en Admin Console.
 
-Para obtener más información, vea las [opciones de soporte técnico de Adobe Enterprise](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)
+Para obtener más información, vea las [opciones de soporte técnico de Adobe Enterprise](https://helpx.adobe.com/es/business/enterprise/get-help/support-options/support-for-enterprise.html)
