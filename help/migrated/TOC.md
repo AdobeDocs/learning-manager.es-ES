@@ -2,9 +2,9 @@
 user-guide-title: Guía del administrador de Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentación de Adobe Learning Manager
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 36%
 
 ---
@@ -222,6 +222,7 @@ ht-degree: 36%
       * [Qué es el compositor de contenido](authors/feature-summary/content-composer/what-is-content-composer.md)
       * [Cómo funciona el compositor de contenido](authors/feature-summary/content-composer/how-content-composer-works.md)
       * [Para quién está el compositor de contenido](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Configurar el almacenamiento del Creative Cloud para Content Composer](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [Lo que necesitas antes de empezar](authors/feature-summary/content-composer/before-you-start.md)
       * [Definir el curso en sus propios documentos](authors/feature-summary/content-composer/ground-course-documents.md)
       * [Qué no es Compositor de contenido](authors/feature-summary/content-composer/what-content-composer-is-not.md)

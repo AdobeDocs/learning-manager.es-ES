@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe procesa de forma segura el contenido de aprendizaje mediante servicios de 
 
 ### Limitaciones de catálogos y fuentes de contenido
 
-El Asistente de IA solo usa contenido de los catálogos **internos** configurados explícitamente por los administradores.
+El Asistente de inteligencia artificial solo utiliza contenido de catálogos internos, catálogos externos y bibliotecas de contenido de terceros. Las respuestas a las consultas de los alumnos solo se derivan de los catálogos a los que tienen acceso.
 
 Las siguientes fuentes de contenido no son compatibles con la versión actual:
 
@@ -152,7 +152,7 @@ Cada respuesta del asistente de inteligencia artificial incluye citas que se vin
 - Compruebe la información y explore el contexto adicional de la fuente autorizada.
 
 > **IMPORTANTE**
-> El Asistente para inteligencia artificial proporciona respuestas basadas en el contenido habilitado por el administrador. Si no tiene acceso a un elemento al que se hace referencia, verá el mensaje &quot;no admitido&quot; cuando intente abrirlo.
+> El Asistente de inteligencia artificial proporciona respuestas basadas en el contenido activado por el administrador. Si no tiene acceso a un elemento al que se hace referencia, verá el mensaje &quot;no admitido&quot; cuando intente abrirlo.
 
 
 ## Mensajes incorporados
@@ -331,7 +331,7 @@ Aprenda cómo el Asistente de aprendizaje de Adobe Learning Manager puede respon
 
 ### Cómo utiliza el Experience League el Asistente de aprendizaje
 
-El Asistente de aprendizaje de Adobe Learning Manager puede obtener respuestas de [Adobe Experience League](/help/migrated/user-guide.md), el sitio oficial de ayuda y documentación de Adobe. Cuando un alumno formula una pregunta de procedimiento o de procedimiento, el Asistente de aprendizaje puede recuperar una respuesta pertinente e incluir un vínculo al artículo completo del Experience League.
+El Asistente de aprendizaje de Adobe Learning Manager puede obtener respuestas de [Adobe Experience League](/help/migrated/user-guide.md), el sitio oficial de ayuda y documentación de Adobe. Cuando un alumno hace una pregunta procedimienta o una pregunta de procedimiento, el Asistente de aprendizaje puede recuperar una respuesta relevante e incluir un vínculo al artículo completo del Experience League.
 
 ### Qué tipos de preguntas puede responder el Asistente de aprendizaje
 
