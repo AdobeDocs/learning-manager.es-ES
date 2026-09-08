@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '858'
+ht-degree: 52%
 
 ---
 
@@ -29,13 +29,13 @@ Asegúrese de que las cuentas se hayan creado en los servicios FTP y Box. Cuando
 
 * Asegúrese que los nombres de los archivos CSV se especifican teniendo en cuenta los nombres de la especificación CSV:
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### Se producen errores para los trabajos con registros de errores {#failuresareshownforjobswitherrorrecords}
 
@@ -43,7 +43,7 @@ Asegúrese de que las cuentas se hayan creado en los servicios FTP y Box. Cuando
 1. Corrija los archivos CSV originales según los errores notificados, y
 1. Vuelva a ejecutar el sprint con los archivos CSV modificados.
 
-La práctica recomendada es ejecutar archivos CSV modificados en un nuevo sprint cuando el número de cambios es menor que el número total de registros.
+Se recomienda ejecutar los CSV modificados en un nuevo Sprint cuando el número de cambios es inferior en comparación con el número total de registros.
 
 ### No es posible iniciar sesión en la aplicación Learning Manager, ni siquiera después de detener la migración de Sprint {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
 
@@ -55,17 +55,17 @@ Puede tardar entre 10 y 15 minutos en dejar de ejecutar todos los trabajos una v
 
 ### No es posible crear un Sprint porque el botón está desactivado {#unabletocreateasprintasthebuttonisdisabled}
 
-Asegúrese de que el sprint actual esté marcado como completado antes de crear un sprint. Haga clic en **[!UICONTROL Marcar sprint completado]** en la parte superior de la página para completar una migración de sprint.
+Asegúrese de que el sprint actual esté marcado como completado antes de crear un sprint. Haga clic en **[!UICONTROL Marcar Sprint como completado]** en la parte superior de la página para completar una migración de Sprint.
 
 ### No es posible marcar un proyecto de migración como completado porque el botón está desactivado {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Asegúrese de que el sprint actual esté marcado como completado antes de marcar la finalización del proyecto de migración. Haga clic en **[!UICONTROL Marcar sprint completado]** en la parte superior de la página para completar una migración de sprint.
+Asegúrese de que el sprint actual esté marcado como completado antes de marcar la finalización del proyecto de migración. Haga clic en **[!UICONTROL Marcar Sprint como completado]** en la parte superior de la página para completar una migración de Sprint.
 
 ## Problemas de CSV {#csvissues}
 
 ### La migración del archivo module_version.csv falla y el contenido no se migra {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Asegúrese de que el contenido esté disponible en la carpeta Contenido (cuenta de Box en el proyecto de migración especificado, ruta de sprint). Además, asegúrese de haber seleccionado la opción **Sí** para **¿Va a migrar contenido para este sprint?Pregunta** en la página de creación de sprint.
+Asegúrese de que el contenido esté disponible en la carpeta Contenido (cuenta de Box en el proyecto de migración especificado, ruta de sprint). Además, asegúrese de haber seleccionado la opción **Sí** para **¿Va a migrar contenido para este sprint?** pregunta en la página de creación de sprint.
 
 Si olvida seleccionar **Sí** y continúa en este Sprint, debe esperar a que se complete. Cree otro sprint y asegúrese de hacer clic en **[!UICONTROL Sí]**.
 
@@ -77,7 +77,7 @@ Asegúrese de que el ID del correo electrónico proporcionado como parte de los 
 
 ### Los cursos aparecen en blanco o se reproducen módulos incorrectos para un curso migrado {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Asegúrese de que el valor de clave **moduleOrderInCourse** de un curso comience por **0** y esté en orden continuo. El orden en términos de courseModuleType debe ser PRETEST, TESTOUT, CONTENT
+Asegúrese de que el valor de clave **moduleOrderInCourse** de un curso empiece por **0** y de que esté en orden. El orden en términos de courseModuleType debe ser PRETEST, TESTOUT, CONTENT
 
 Además, asegúrese de que dos versiones de la actividad, la clase y la clase virtual no estén vinculadas al curso existente.
 
@@ -101,6 +101,6 @@ Asegúrese de que los vínculos proporcionados estén prefijados con &#39;http:/
 
 Asegúrese de que el archivo al que se hace referencia esté presente en la carpeta de contenido y de que se haya migrado correctamente.
 
-### La migración de moduleVersion falla con un mensaje de error como &quot;Se ha producido un error interno: para Module : x y moduleVersion : y&quot; {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
+### La migración de moduleVersion falla con un mensaje de error como &quot;Se ha producido un error interno: para el módulo : x y moduleVersion : y&#39; {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
 
 Vuelva a ejecutar el sprint para resolver el problema.
