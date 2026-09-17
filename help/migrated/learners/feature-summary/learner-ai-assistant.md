@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3241'
 ht-degree: 0%
 ---
 # Asistente de IA para los alumnos
@@ -81,7 +81,7 @@ Adobe procesa de forma segura el contenido de aprendizaje mediante servicios de 
 
 El Asistente de inteligencia artificial solo utiliza contenido de catálogos internos y bibliotecas de contenido de terceros. Las respuestas a las consultas de los alumnos solo se derivan de los catálogos a los que tienen acceso.
 
-Las siguientes fuentes de contenido no son compatibles con la versión actual:
+No se admiten los siguientes orígenes de contenido:
 
 - Catálogos externos compartidos
 - Catálogos predeterminados
@@ -354,7 +354,7 @@ El Asistente de aprendizaje de Adobe Learning Manager puede responder preguntas 
 
 >[!IMPORTANT]
 >
->Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
+>Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
 
 
 Cuando un administrador añade un catálogo de Go1 o LinkedIn Learning a Adobe Learning Manager, el contenido del catálogo pasa por un proceso de ingesta programado. Una vez completada la ingesta, los objetos de aprendizaje de ese catálogo estarán disponibles para que el Asistente de aprendizaje los consulte.
