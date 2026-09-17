@@ -3,13 +3,11 @@ description: Aprenda a integrar el conector de LinkedIn Learning con Adobe Learn
 jcr-language: en_us
 title: Incrustar vínculos profundos en una herramienta LTI de ALM
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # Vínculos profundos de LTI en Adobe Learning Manager
 
@@ -87,12 +85,16 @@ La vinculación profunda intercambia los siguientes parámetros entre ALM y la p
 
 ## Crear un vínculo profundo
 
+>[!IMPORTANT]
+>
+>Los pasos que se indican en la sección siguiente y en la sección para autores deben realizarse en la plataforma que consume los cursos y no en el lado de ALM.
+
 ### Requisito previo
 
 1. Debe haber iniciado sesión como administrador de integración.
-2. Al configurar la integración de LTI, seleccione la casilla de verificación Admite vinculación profunda .
+2. Al configurar la integración LTI, seleccione la casilla de verificación **Admite vinculación profunda**. Obtenga información sobre cómo configurar la [integración LTI](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 3. Indique la URL en el campo para llevar al usuario o autor a la selección.
-4. Seleccione Guardar cambios.
+4. Seleccione **Guardar cambios**.
 
    La misma dirección URL de inicio se reutiliza para simplificar la configuración y el uso.
 
@@ -100,7 +102,7 @@ La vinculación profunda intercambia los siguientes parámetros entre ALM y la p
 
    Después de guardar los cambios, selecciona la pestaña **Seleccionar contenido**. (La ficha **Seleccionar contenido** solo se activa después de seleccionar esta casilla de verificación).
 
-**La siguiente sección es para autores.**
+**Para los autores**
 
 Como autor, puedes seleccionar contenido desde la ventana **Seleccionar contenido**. La ventana **Seleccionar contenido** muestra **Catálogo**, **Recuento de cursos** y **Fecha de exportación**.
 
