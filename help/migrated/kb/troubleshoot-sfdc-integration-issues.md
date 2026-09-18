@@ -3,14 +3,12 @@ jcr-language: en_us
 title: Solución de problemas de integración de Salesforce (SFDC) con Adobe Learning Manager
 description: solucione problemas comunes de integración de Salesforce (SFDC) con Adobe Learning Manager (ALM), incluidos errores de exportación, problemas de permisos de campo en objetos personalizados de SFDC y notas importantes de compatibilidad con SFDC-ALM.
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # Solución de problemas de integración de Salesforce (SFDC) con Adobe Learning Manager
 
 ## Solución de problemas de exportación de SFDC (sin exportación durante más de 2-3 horas)
@@ -66,9 +64,9 @@ Tenga en cuenta estos detalles de SFDC-ALM al diseñar o solucionar problemas de
 
 - El conector **SFDC no crea nuevos objetos o campos en Salesforce**.
 - Si se agrega un **nuevo campo en ALM** y desea que aparezca en SFDC:
-   - **Cree manualmente el campo personalizado correspondiente** en SFDC.
-   - **Asigne** el campo personalizado de SFDC al **campo ALM apropiado** en la configuración del conector.
-   - Asegúrese de que el nuevo campo tenga **permisos adecuados a nivel de campo** (consulte la sección 2).
+  - **Cree manualmente el campo personalizado correspondiente** en SFDC.
+  - **Asigne** el campo personalizado de SFDC al **campo ALM apropiado** en la configuración del conector.
+  - Asegúrese de que el nuevo campo tenga **permisos adecuados a nivel de campo** (consulte la sección 2).
 
 ### URL de devolución de llamada para cuentas de ALM con dominios personalizados
 
@@ -79,8 +77,8 @@ Tenga en cuenta estos detalles de SFDC-ALM al diseñar o solucionar problemas de
 ### Limitación de zona horaria (solo UTC)
 
 - Si la organización de SFDC usa una **zona horaria distinta de UTC**, **pueden perderse los datos de finalización e inscripción** durante la sincronización.
-- Motivo: ALM **solo admite actualmente la zona horaria UTC** para la integración de SFDC.
-- Referencia interna: PAPI-24525 se levanta para admitir zonas horarias adicionales.
+- Motivo: Actualmente, ALM **solo admite la zona horaria UTC** para la integración con SFDC.
+- Referencia interna: PAPI-24525 se eleva para admitir zonas horarias adicionales.
 
 ### Limitación del tipo de datos de filtro (lista de selección frente a lista de comprobación)
 

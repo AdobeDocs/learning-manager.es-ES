@@ -2,14 +2,12 @@
 title: Widgets en Experience Builder
 jcr-language: en_us
 description: Descubre cómo los widgets de Experience Builder de Adobe Learning Manager sirven como bloques modulares y configurables para crear páginas de aprendizaje personalizadas. Añada, configure y organice widgets como cuadros de contenido, catálogos y banners para crear experiencias interactivas y de marca sin necesidad de código.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
-
+source-wordcount: '480'
+ht-degree: 1%
 ---
-
-
 # Información general
 
 Los widgets son bloques de contenido modulares y configurables o elementos funcionales en Experience Builder de Adobe Learning Manager.
@@ -39,7 +37,7 @@ Puede cambiar fácilmente la posición de los widgets en la página arrastrándo
 * Widgets basados en el aprendizaje, que son dinámicos y extraen datos directamente de Adobe Learning Manager (por ejemplo, Cursos y trazados, Estado de cumplimiento).
 * Widgets estáticos o de contenido, que le ayudan a crear una marca personalizada y a agregar contenido flexible a una página (por ejemplo, HTML, Cuadro de contenido)
 
-| Widget | Descripción | Caso práctico |
+| Widget | Descripción | Caso de uso |
 |---|---|---|
 | [Calendario](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | Muestra los próximos eventos, sesiones de formación, fechas de vencimiento o talleres en formato de calendario. | Mantén a los alumnos informados sobre el aprendizaje programado, los eventos en directo o las fechas límite. |
 | [Categorías](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-category-widget) | Muestra contenido de aprendizaje de catálogos, productos o funciones como categorías. | Ayuda a los usuarios a examinar la formación por tema, departamento o área de aptitudes. |
@@ -51,4 +49,3 @@ Puede cambiar fácilmente la posición de los widgets en la página arrastrándo
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | Incrusta páginas web o aplicaciones externas en la interfaz. | Mostrar contenido o herramientas externas sin salir de la plataforma. |
 | [Mi aprendizaje](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | Muestra una vista personalizada de los cursos en curso y el progreso de un alumno. | Ayuda a los alumnos a realizar un seguimiento de las finalizaciones de los cursos y los objetivos de aprendizaje. |
 | [Aprendizaje social](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | Proporciona acceso a foros, debates, grupos o herramientas de colaboración social. | Fomenta la interacción entre compañeros, la colaboración y el intercambio de conocimientos. |
-

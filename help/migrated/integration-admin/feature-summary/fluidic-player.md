@@ -4,22 +4,19 @@ jcr-language: en_us
 title: Reproductor Fluidic incrustable
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1693'
 ht-degree: 33%
-
 ---
-
-
-
 # Reproductor Fluidic incrustable
 
 Lea este artículo para aprender a incrustar el reproductor Fluidic en una aplicación personalizada.
 
 Como empresa, ahora puede proporcionar una experiencia personalizada a sus alumnos, incluso fuera de Learning Manager. Con la API pública, puede obtener toda la información relacionada con los objetos de aprendizaje, las inscripciones de los alumnos y el progreso del aprendizaje, y mostrarlos en su sitio web. Y, lo que es más importante, incluso puede insertar el reproductor Fluidic de Learning Manager en su sitio web para que los alumnos puedan utilizar el contenido directamente en su sitio web. El reproductor Fluidic le ofrece la posibilidad de reproducir cualquier contenido compatible con Learning Manager. Cuando está integrado en su sitio web, tiene exactamente las mismas capacidades que cuando se usa dentro de Learning Manager.
 
-**Reproducir cualquier contenido de aprendizaje electrónico[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproducir cualquier contenido de aprendizaje electrónico[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 El reproductor Fluidic reproduce prácticamente cualquier tipo de contenido de aprendizaje electrónico de la misma forma coherente e intuitiva, sin necesidad de complementos ni descargas. El alumno puede abrir el contenido y, al margen del tipo de archivo de contenido, comienza a reproducirse.
 
@@ -31,7 +28,7 @@ Para obtener más información sobre el reproductor Fluidic, consulte [Reproduct
 
 Aquí hay algunos ejemplos de dónde puede usar el reproductor Fluidic incrustable.
 
-* Puede utilizar el reproductor Fluidic incrustable en su sitio web&#x200B;**&#x200B;** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
+* Puede utilizar el reproductor Fluidic incrustable en su sitio web**** para enumerar los cursos en los que se ha inscrito su empleado y, además, proporcionar un vínculo para iniciar un curso de formación en la misma página. Esto significaría que los alumnos pueden consumir cursos de formación en el sitio web de la intranet.
 
 * Si está en el sector de la formación, tal vez tenga un sitio web donde los clientes adquieren cursos. Puede integrar el reproductor incrustable en su sitio web para que sus clientes consuman el contenido que compran dentro del sitio web.
 
@@ -75,10 +72,10 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Aquí, **[!UICONTROL ID de cliente]** es el ID de aplicación obtenido en el paso 1.
-**[!UICONTROL redirect_url]** es la redirect_url establecida en el paso 1.
-**[!UICONTROL state]** es cualquier dato ficticio en función del cual necesitamos filtrar la URL de redirección para obtener el código OAuth. El alcance es el alcance del alumno establecido en el paso 1.
-**[!UICONTROL response_type]**&#x200B;e siempre es &quot;CODE&quot;.\
+Aquí, el **[!UICONTROL ID de cliente]** es el ID de aplicación que se obtiene en el paso 1.
+**[!UICONTROL redirect_url]** es el valor de redirect_url establecido en el paso 1.
+**[!UICONTROL estado]** es cualquier dato ficticio en función del cual necesitamos filtrar la URL de redirección para obtener el código OAuth. El alcance es el alcance del alumno establecido en el paso 1.
+**[!UICONTROL response_type]**e siempre es &quot;CODE&quot;.\
 **[!UICONTROL la cuenta]** es un campo opcional\
 **[!UICONTROL correo electrónico]** es un campo opcional\
 &#42; Si se proporcionan el ID de cuenta y el correo electrónico, la URL anterior permitirá al usuario iniciar sesión en la misma cuenta. Este ejemplo de punto final se muestra en el archivo &quot;index.html&quot; de la aplicación de ejemplo.
@@ -154,8 +151,8 @@ code window.addEventListener("message", function closePlayer(){
 
 ## Tutorial de aplicación de muestra {#sampleapplicationtutorial}
 
-El documento PDF adjunto contiene un tutorial de aplicación de ejemplo.
-[Tutorial de ejemplo y origen del tutorial para incrustar el reproductor Fluidic.](assets/sample-applicationtutorial.zip) Contenidos alternativos
+El documento pdf adjunto contiene un tutorial de aplicación de muestra.
+[Ejemplo de origen de tutorial y tutorial para incrustar el reproductor Fluidic.](assets/sample-applicationtutorial.zip) Contenidos alternativos
 
 Si es administrador, puede configurar el material del curso para ofrecer contenido alternativo a los alumnos en el reproductor Fluidic. Por ejemplo, si tiene alumnos de distintas zonas geográficas que podrían utilizar varios idiomas, puede crear el mismo contenido en varios idiomas. El reproductor Fluidic ofrecerá al alumno el idioma para el que podría estar configurado, pero este también tiene la opción de cambiar a un idioma alternativo directamente desde el reproductor.
 
@@ -167,19 +164,19 @@ Se trata de un esfuerzo que debe realizar alguien de su equipo de TI o un consul
 
 1. Modifique la URL del reproductor incrustado de Learning Manager con parámetros que apunten al objeto de aprendizaje exacto que se debe tomar.
 
-   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Utilice cualquiera de estos parámetros para iniciar un curso:
 
-   * course_id : ID del curso que se va a iniciar
-   * learning_program_id : ID del programa de aprendizaje que se va a iniciar
-   * certification_id : ID de la certificación que se va a iniciar
-   * lo_id : ID del objeto de aprendizaje (curso/programa de aprendizaje/certificación/ayuda de trabajo) que se reproduce.
+   * course_id :  Este es el ID, por supuesto, para iniciar
+   * learning_program_id :  Este es el ID del programa de aprendizaje que se va a iniciar
+   * certification_id :  Este es el ID de la certificación que se va a iniciar
+   * lo_id : El ID del objeto de aprendizaje (curso/programa de aprendizaje/certificación/ayuda de trabajo) que se reproduce.
 
 
 1. Utilice el token de acceso como parámetro obligatorio.
 
-   * access_token : Este es el parámetro de seguridad, utilice la API pública oauth   token de acceso
+   * token_acceso :  Este es el parámetro de seguridad; use el token de acceso de oauth de la API pública
 
    Puede obtener su token configurando su reproductor Fluidic incrustable en su administrador de integración. Puede obtener su token de autenticación, que se puede utilizar como su token de acceso.
 
@@ -187,7 +184,7 @@ Se trata de un esfuerzo que debe realizar alguien de su equipo de TI o un consul
 
    Aquí, lo_id será el ID del curso, el programa de aprendizaje, la certificación y jobAid .
 
-   Ejemplos de lo_id: course:21324, learningProgram:2143, certification:23432, jobAid:237
+   Ejemplos de lo_id - course:21324, learningProgram:2143, certification:23432, jobAid:237
 
 1. Realice llamadas a la API de Learning Manager para recuperar los parámetros mencionados anteriormente.
 
@@ -213,18 +210,18 @@ Se trata de un esfuerzo que debe realizar alguien de su equipo de TI o un consul
 
 Modifique la URL del reproductor incrustado de Learning Manager con parámetros que apunten al objeto de aprendizaje exacto que se debe tomar.
 
-URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Cualquiera de estos parámetros se puede utilizar para iniciar un curso:
 
-* course_id : ID del curso que se va a iniciar
-* learning_program_id : ID del programa de aprendizaje que se va a iniciar
-* certification_id : ID de la certificación que se va a iniciar
-* lo_id : ID del objeto de aprendizaje (curso/programa de aprendizaje/certificación/ayuda de trabajo) que se reproduce.
+* course_id :  Este es el ID, por supuesto, para iniciar
+* learning_program_id :  Este es el ID del programa de aprendizaje que se va a iniciar
+* certification_id :  Este es el ID de la certificación que se va a iniciar
+* lo_id : El ID del objeto de aprendizaje (curso/programa de aprendizaje/certificación/ayuda de trabajo) que se reproduce.
 
 Parámetro obligatorio:
 
-* access_token : Este es el parámetro de seguridad, utilice la API pública oauth   token de acceso
+* token_acceso :  Este es el parámetro de seguridad; use el token de acceso de oauth de la API pública
 
 Realice llamadas a la API de Learning Manager para recuperar los parámetros mencionados anteriormente. Estas llamadas a la API las realizará la aplicación que el equipo o asesor de TI escribiría y alojaría en su sitio.
 
@@ -235,5 +232,3 @@ API de Learning Manager V1: [https://learningmanager.adobe.com/docs/primeapi/v1/
 
 
 API de Learning Manager V2: [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

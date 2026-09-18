@@ -2,14 +2,12 @@
 description: Obtenga más información sobre la configuración de administrador que puede configurar en Adobe Learning Manager para administrar usuarios, controlar el acceso, marcar el entorno de aprendizaje y adaptar la plataforma a las necesidades de su organización.
 jcr-language: en_us
 title: Introducción a Configuración
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # Configuración
 
 ## Información general
@@ -39,4 +37,3 @@ Consulte la configuración de Adobe Learning Manager para obtener más informaci
 * Configurar paneles de cumplimiento y éxito de grupo.
 
 Consulte la configuración de Adobe Learning Manager para obtener más información.
-

@@ -2,14 +2,12 @@
 description: Obtenga más información sobre cómo acceder, descargar e interpretar el informe de comentarios en Adobe Learning Manager. Comprende las columnas de informes, los tipos de preguntas, las respuestas del responsable y del alumno, y cómo la información de los comentarios respalda la evaluación de la formación y la mejora continua.
 jcr-language: en_us
 title: Informe de comentarios en Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '916'
 ht-degree: 7%
-
 ---
-
-
 # Informe de comentarios
 
 ## Información general
@@ -25,9 +23,9 @@ El informe realiza un seguimiento de los detalles del alumno, como el nombre, el
 
 ## Casos de uso
 
-* **Identifica rápidamente problemas de contenido**: los administradores pueden detectar calificaciones bajas o comentarios negativos repetidos y actualizar los objetos de aprendizaje sin esperar tickets de asistencia ni escalaciones.
-* **Mide la eficacia de la formación**: los equipos pueden comparar los comentarios de los alumnos en varios cursos o versiones para determinar qué objetos de aprendizaje funcionan bien y cuáles es posible que deban reelaborarse.
-* **Realizar un seguimiento de la participación de los alumnos en los formularios de comentarios**: los administradores pueden ver cuántos alumnos responden u omiten preguntas, lo que les ayuda a perfeccionar los formularios de comentarios para mejorar la calidad de las respuestas y las tasas de finalización.
+* **Identificar problemas de contenido rápidamente**: Los administradores pueden detectar calificaciones bajas o comentarios negativos repetidos y actualizar los objetos de aprendizaje sin esperar tickets de asistencia ni escalaciones.
+* **Medir la eficacia del entrenamiento**: Los equipos pueden comparar los comentarios de los alumnos en varios cursos o versiones para saber qué objetos de aprendizaje funcionan bien y cuáles es necesario rehacer.
+* **Realizar un seguimiento de la participación de los alumnos con formularios de comentarios**: Los administradores pueden ver cuántos alumnos responden u omiten las preguntas, lo que les ayuda a perfeccionar los formularios de comentarios para mejorar la calidad de las respuestas y las tasas de finalización.
 
 ## Cómo descargar el informe de comentarios
 
@@ -57,7 +55,7 @@ A continuación se indican las columnas predeterminadas del informe de nivel de 
 | Tipo de comentario | Indica si los comentarios proceden del alumno (L1) o del responsable (L3) |
 | Nombre de usuario | El nombre del alumno que ha completado la formación. |
 | Correo electrónico de usuario | La dirección de correo electrónico del alumno. |
-| ID de la formación | Un identificador único generado por el sistema y asignado a cada objeto de aprendizaje (curso, certificación o ruta de aprendizaje). |
+| ID de formación | Un identificador exclusivo generado por el sistema y asignado a cada objeto de aprendizaje (curso, certificación o ruta de aprendizaje). |
 | Nombre de la formación | Nombre del elemento de aprendizaje para el que se envían comentarios |
 | Instancia del curso de formación | Nombre de instancia de la formación (para cursos de instancias múltiples) |
 | Tipo de formación | Tipo de formación (curso, certificación, itinerario de aprendizaje) |
@@ -71,7 +69,7 @@ A continuación se indican las columnas predeterminadas del informe de nivel de 
 | Comentarios de L1 Idioma original | El idioma en el que el alumno envió originalmente los comentarios de L1 |
 | Escala L3 Likert Pregunta 1 | Mide el rendimiento del alumno después del curso de formación mediante una escala de clasificación |
 | Respuesta en escala Likert de L3 1 | Respuesta del responsable a esta pregunta de escala Likert |
-| Pregunta de texto libre 1 de L3 | Se ha añadido una pregunta de texto libre al formulario de comentarios de L3 para los responsables. Se puede configurar como opcional u obligatoria. |
+| Pregunta de texto libre 1 de L3 | Se ha añadido una pregunta de texto libre al formulario de comentarios de L3 para los responsables; puede configurarse como opcional u obligatoria. |
 | Respuesta de texto libre de L3 1 | La respuesta del gerente a esa pregunta de texto libre |
 
 Las siguientes columnas aparecen en el informe de nivel de cuenta en función de los cuatro tipos de preguntas añadidas al formulario de comentarios:
@@ -107,7 +105,7 @@ En el informe de nivel de objeto de aprendizaje aparecen las siguientes columnas
 
 | Columna | Descripción |
 |---|---|
-| Alumno | El nombre del alumno. |
+| Administración | El nombre del alumno. |
 | Correo electrónico | Dirección de correo electrónico del alumno |
 | Nombre del formulario de comentarios | Nombre del formulario de comentarios |
 | Versión de los comentarios | Número de versión del formulario de comentarios |

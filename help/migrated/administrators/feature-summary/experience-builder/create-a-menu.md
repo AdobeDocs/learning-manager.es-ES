@@ -2,14 +2,12 @@
 title: Creación y personalización de menús en Experience Builder
 description: Esta guía explica cómo los administradores pueden crear menús en Experience Builder dentro de Adobe Learning Manager. Aprenda a organizar páginas en menús, personalizar diseños de menú y controlar la visibilidad de los menús para diferentes grupos de usuarios.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
-
 # Crear un menú
 
 Como administrador de una empresa financiera con dos equipos principales, los gestores de ventas y de éxito de clientes (CSM), debe crear menús independientes con sus respectivas páginas. Esto permite a los alumnos encontrar fácilmente en su propio menú cursos relevantes para sus funciones.
@@ -31,8 +29,8 @@ Para crear un menú:
    _Pantalla Crear menú, donde los administradores pueden introducir un nombre de menú para uso interno y especificar grupos de usuarios para controlar la visibilidad del menú_
 
 5. A continuación se muestra el tipo de páginas disponibles en el menú:
-   * **[!UICONTROL Páginas integradas]**: estas son las páginas predeterminadas que se incluyen en Adobe Learning Manager, como Inicio, Mi aprendizaje y Catálogo. Los administradores no pueden quitar las páginas integradas del menú. Pueden ocultar las páginas del menú.
-   * **[!UICONTROL Páginas personalizadas]**: estas son páginas creadas por el administrador mediante Experience Builder. Las páginas personalizadas permiten a las organizaciones diseñar experiencias de marca, específicas de funciones o basadas en eventos, añadiendo widgets, diseños y menús personalizados para diferentes grupos de alumnos.
+   * **[!UICONTROL Páginas integradas]**: Estas son las páginas predeterminadas que se incluyen con Adobe Learning Manager, como Inicio, Mi aprendizaje y Catálogo. Los administradores no pueden quitar las páginas integradas del menú. Pueden ocultar las páginas del menú.
+   * **[!UICONTROL Páginas personalizadas]**: Estas son páginas creadas por el administrador mediante Experience Builder. Las páginas personalizadas permiten a las organizaciones diseñar experiencias de marca, específicas de funciones o basadas en eventos, añadiendo widgets, diseños y menús personalizados para diferentes grupos de alumnos.
 6. Seleccione **[!UICONTROL Cambiar]** junto a **[!UICONTROL Página de destino]** para actualizar la página de destino del alumno.
 
    ![](assets/change-landing-page.png)
@@ -87,4 +85,3 @@ _Pantalla de configuración de menú que muestra páginas ocultas como Catálogo
 ## Pasos siguientes
 
 Después de configurar las páginas, los widgets y los menús, mejore la experiencia general del alumno añadiendo personalizaciones mediante JavaScript y CSS.
-

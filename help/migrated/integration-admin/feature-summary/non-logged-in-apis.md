@@ -2,13 +2,12 @@
 description: Obtenga más información sobre las API que no han iniciado sesión para desarrollar la interfaz descentralizada.
 jcr-language: en_us
 title: API no registradas
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # API no registradas
 
 Encontrará más información sobre las API de Adobe Learning Manager, que proporcionan datos para la experiencia sin encabezado o sin inicio de sesión en este artículo.
