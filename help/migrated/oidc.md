@@ -2,14 +2,12 @@
 description: Información sobre el método de inicio de sesión de OIDC
 jcr-language: en_us
 title: Iniciar sesión en Adobe Learning Manager con OpenID Connect
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # Iniciar sesión en Adobe Learning Manager con OpenID Connect (OIDC)
 
 Descubra cómo funciona el inicio de sesión de OpenID Connect en Adobe Learning Manager para alumnos, autores y administradores. Este artículo abarca la experiencia, no la implementación.
@@ -21,7 +19,7 @@ OpenID Connect (OIDC) es un método de inicio de sesión común creado a partir 
 Cuando su organización habilite OIDC para Adobe Learning Manager:
 
 * El inicio de sesión se realiza mediante la página de inicio de sesión habitual de la organización, no mediante una contraseña que se aplique únicamente a Adobe Learning Manager, a menos que la organización decida lo contrario.
-* Después de autenticarse, Adobe Learning Manager recibe la información que su organización permite (como los atributos de correo electrónico y perfil) y abre la experiencia adecuada para usted: alumno, autor, administrador u otras funciones admitidas por su cuenta.
+* Después de autenticarse, Adobe Learning Manager recibe la información que su organización permite (como sus atributos de correo electrónico y perfil) y abre la experiencia adecuada para usted: Funciones de alumno, autor, administrador u otras que admita su cuenta.
 
 OIDC es una alternativa a otras opciones de inicio de sesión que puede ofrecer su cuenta, como el inicio de sesión único basado en Adobe ID o SAML (SSO). El administrador decide qué métodos están disponibles.
 
@@ -31,9 +29,9 @@ Las organizaciones a menudo eligen OIDC porque:
 
 * Los usuarios ven la misma experiencia de identidad corporativa o en la nube que usan para otras aplicaciones.
 * Las políticas de contraseña, la autenticación multifactor y el ciclo de vida de la cuenta se administran en el proveedor de identidad, de forma coherente con otras aplicaciones empresariales.
-* OIDC sigue patrones similares a otros flujos de inicio de sesión modernos desde la perspectiva del usuario y de TI, sin el mayor intercambio de documentos asociado con algunas configuraciones de solo SAML.
+* OIDC sigue patrones similares a otros flujos de inicio de sesión modernos de un usuario y una Perspectiva de TI, sin el intercambio de documentos más pesado asociado con algunas configuraciones de solo SAML.
 
-Tu experiencia se mantiene: ve a Learning Manager, inicia sesión donde te indique la organización y aterriza en la aplicación.
+Tu experiencia sigue siendo la siguiente: ve a Learning Manager, inicia sesión donde te indique la organización y aterriza en la aplicación.
 
 ## Lo que ve al iniciar sesión
 
@@ -50,7 +48,7 @@ Si su cuenta utiliza OIDC, el inicio de sesión suele redirigir el navegador al 
 
 ### Iniciar sesión con su organización
 
-En la página de su proveedor de identidades, introduzca sus credenciales y complete los pasos adicionales que necesite su organización, como la autenticación multifactor. Este paso se produce fuera del propio formulario de inicio de sesión de Adobe Learning Manager cuando el método en uso es OIDC. Desde tu perspectiva, se siente como iniciar sesión en tu cuenta de empresa o educativa. Es posible que no veas términos técnicos como *OIDC* o *OAuth* durante este paso.
+En la página de su proveedor de identidades, introduzca sus credenciales y complete los pasos adicionales que necesite su organización, como la autenticación multifactor. Este paso se produce fuera del propio formulario de inicio de sesión de Adobe Learning Manager cuando el método en uso es OIDC. Desde tu Perspectiva, se siente como iniciar sesión en tu cuenta de empresa o educativa. Es posible que no veas términos técnicos como *OIDC* o *OAuth* durante este paso.
 
 ### Volver a Adobe Learning Manager
 
@@ -88,7 +86,7 @@ Cuando su organización utiliza OIDC con Adobe Learning Manager, se admiten los 
 | Dominio personalizado | Si su empresa utiliza un nombre de host personalizado para Adobe Learning Manager, el inicio de sesión de OIDC también se admite en ese contexto. |
 | Dispositivo móvil | Es posible iniciar sesión en teléfonos y tabletas a través de navegadores o experiencias compatibles. |
 | De Publish a Adobe Learning Manager (Prime) | Los flujos de trabajo que implican la publicación de contenido en Learning Manager desde herramientas conectadas siguen siendo compatibles cuando su cuenta utiliza OIDC, de forma coherente con la configuración de su integración. |
-| Inicio de sesión basado en identificador | Cuando su cuenta se basa en identificadores estables (más allá del correo electrónico únicamente) para cuentas coincidentes, esos flujos son compatibles con OIDC según la configuración de su administrador. |
+| inicio de sesión basado en identificador | Cuando su cuenta se basa en identificadores estables (más allá del correo electrónico únicamente) para las cuentas coincidentes, estos flujos se admiten para OIDC según la configuración de su administrador. |
 
 Si un flujo de trabajo específico no funciona, la causa puede ser la configuración del proveedor de identidades, el aprovisionamiento de cuentas o la asignación de funciones de Adobe Learning Manager. El administrador puede verificarlo.
 
@@ -115,7 +113,7 @@ Si te alojas en una zona equivocada o no tienes el acceso que esperas, pídele a
 
 ## Lo que los administradores deben saber
 
-Si configura Adobe Learning Manager para su organización, OIDC se configura con el registro de la aplicación de su proveedor de identidades: identificadores de cliente, puntos finales para la autorización, tokens, información de usuario y la URL de redirección que utiliza Adobe Learning Manager para completar el inicio de sesión. Esos valores provienen de la documentación de su proveedor de identidades. La configuración debe coincidir entre su proveedor de identidad y el administrador de aprendizaje, para que los usuarios vean una redirección y una devolución fluidas.
+Si configura Adobe Learning Manager para su organización, OIDC se configura con el registro de la aplicación de su proveedor de identidades: identificadores de cliente, puntos finales de autorización, tokens, información del usuario y la URL de redirección que utiliza Adobe Learning Manager para completar el inicio de sesión. Esos valores provienen de la documentación de su proveedor de identidades. La configuración debe coincidir entre su proveedor de identidad y el administrador de aprendizaje, para que los usuarios vean una redirección y una devolución fluidas.
 
 Los usuarios finales no necesitan administrar esos valores. Solo necesitan la URL correcta de Learning Manager (o dominio personalizado) y, cuando corresponda, los vínculos de invitación o registro automático de su equipo.
 
@@ -123,5 +121,5 @@ Los usuarios finales no necesitan administrar esos valores. Solo necesitan la UR
 
 * OIDC permite a los usuarios iniciar sesión en Adobe Learning Manager a través del proveedor de identidades estándar de su organización, con un flujo familiar de redirección y devolución.
 * Después de iniciar sesión, Adobe Learning Manager utiliza el correo electrónico y los atributos compartidos para identificar al usuario y aplicar funciones (alumno, autor, administrador, etc.).
-* Se admite el registro automático, varias opciones de SSO, actualizaciones de atributos, aprovisionamiento de usuarios por primera vez, vínculos profundos, ruta de retorno, dominios personalizados, móvil, de Publish a Adobe Learning Manager y coincidencia basada en identificadores, según la configuración de su cuenta.
+* Se admite el registro automático, varias opciones de SSO, actualizaciones de atributos, aprovisionamiento de usuarios por primera vez, vínculos profundos, ruta de retorno, dominios personalizados, móvil, de Publish a Adobe Learning Manager y coincidencia basada en identificador, según la configuración de su cuenta.
 * Otros métodos de inicio de sesión (como Adobe ID o SAML) siguen estando disponibles cuando los administradores los mantienen activados.

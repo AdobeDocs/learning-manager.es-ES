@@ -4,28 +4,25 @@ title: Usuarios de tabletas iPad y Android
 description: Usuarios de tabletas iPad y Android
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 74%
-
+source-wordcount: '256'
+ht-degree: 100%
 ---
-
-
-
 # Usuarios de tabletas iPad y Android
 
-En la aplicación de Learning Manager en tabletas iPad o Android, después de iniciar sesión como alumno, puede ver la siguiente pantalla de inicio:
+En la aplicación Learning Manager en tabletas iPad o Android, después de iniciar sesión como alumno, puede ver la siguiente pantalla principal:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desplegable **Menú** y elija la opción adecuada.
+Para desplazarse a las funciones de aprendizaje y catálogo, pulse la lista desplegable **Menú** y elija la opción adecuada.
 
 ![](assets/menu-ipad.png)
 
 Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y Android. Descargue y realice cursos en modo sin conexión; vuelva a sincronizar el contenido con la aplicación en línea cuando se conecte a la red.
 
-1. Toque el menú desplegable en la parte superior y toque la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en iconos.
+1. Presione el menú desplegable en la parte superior y luego presione la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en iconos.
 1. Toque el icono de descarga en la parte inferior de cada icono de objeto de aprendizaje para descargar el contenido de aprendizaje.
 
 ![](assets/download-ipad.png)
@@ -36,7 +33,7 @@ Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y
 
 Puede controlar el almacenamiento de su dispositivo periódicamente.
 
-Toque el icono de perfil en la esquina superior derecha de la aplicación y toque la opción de menú **Almacenamiento del dispositivo**.
+Presione el icono de perfil en la esquina superior derecha de la aplicación y luego presione la opción de menú **Almacenamiento del dispositivo**.
 
 ![](assets/app-device-storage.png)
 

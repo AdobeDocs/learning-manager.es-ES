@@ -4,15 +4,12 @@ title: Los vínculos de correo electrónico activados desde plantillas modificad
 description: Los vínculos de correo electrónico activados a partir de plantillas modificadas generan un error en Adobe Learning Manager
 contentowner: nluke
 preview: true
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 73%
-
+source-wordcount: '220'
+ht-degree: 78%
 ---
-
-
-
 # Los vínculos de correo electrónico activados desde plantillas modificadas generan un error en Learning Manager
 
 ## El problema

@@ -2,14 +2,12 @@
 description: Aprenda a utilizar la nueva compatibilidad con el carro en ALM para comprar varios SKU.
 jcr-language: en_us
 title: Carrito de varios artículos en ALM
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
-
 # Carrito de varios artículos en ALM
 
 Los alumnos pueden añadir varios cursos, rutas de aprendizaje o certificaciones al carro y comprarlos juntos. Pueden utilizar el carro para adquirir varios cursos, rutas de aprendizaje o certificaciones a la vez. Esta función solo está disponible en las aplicaciones de alumno, incluida la interfaz de usuario existente, la nueva interfaz de usuario de alumno y la aplicación móvil envolvente.

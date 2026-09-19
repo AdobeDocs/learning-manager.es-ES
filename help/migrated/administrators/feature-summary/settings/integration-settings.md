@@ -2,14 +2,12 @@
 description: Más información sobre cómo la configuración de integración conecta Adobe Learning Manager con soluciones de terceros
 jcr-language: en_us
 title: Configuración de integración en Adobe Learning Manager
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Configuración de integración en Adobe Learning Manager
 
 ## Métodos de inicio de sesión
@@ -46,9 +44,9 @@ La sección Usuarios externos de Adobe Learning Manager le permite administrar a
 
 Los usuarios externos pueden iniciar sesión de la siguiente manera:
 
-* Adobe ID: los usuarios externos pueden iniciar sesión con sus credenciales de Adobe ID.
-* Inicio de sesión único (SSO): los usuarios externos pueden iniciar sesión a través de SSO si así lo ha configurado el administrador.
-* Adobe Learning Manager ID: los usuarios externos pueden crear un nombre de usuario y una contraseña de Learning Manager para acceder a la plataforma.
+* Adobe ID: Los usuarios externos pueden iniciar sesión con sus credenciales de Adobe ID.
+* Inicio de sesión único (SSO): Los usuarios externos pueden iniciar sesión mediante SSO si así lo ha configurado el administrador.
+* ID de Adobe Learning Manager: Los usuarios externos pueden crear un nombre de usuario y una contraseña de Learning Manager para acceder a la plataforma.
 
 **Puntos clave:**
 
@@ -73,9 +71,9 @@ Los orígenes de datos permiten que los administradores de integración o usted 
 
 **Ejemplos de tipos de origen de datos**
 
-* **Conectores de FTP**: los orígenes de datos basados en FTP permiten a las organizaciones cargar archivos de datos de usuario directamente en Adobe Learning Manager mediante protocolos de transferencia de archivos seguros. Estas conexiones son especialmente útiles para la importación por lotes de información de usuario, inscripciones de cursos y otras operaciones de datos en bloque.
-* **Integraciones de terceros**: Adobe Learning Manager admite la integración con varios sistemas empresariales mediante conectores prediseñados. Estas integraciones pueden incluir sistemas de gestión de RR. HH., plataformas de gestión de relaciones con los clientes y otros sistemas de gestión del aprendizaje.
-*** Integración con Salesforce**: el conector de Salesforce permite la sincronización directa de los datos de usuario, la información del curso y los registros de aprendizaje entre Salesforce y Adobe Learning Manager.
+* **Conectores de FTP**: Los orígenes de datos basados en FTP permiten a las organizaciones cargar archivos de datos de usuarios directamente en Adobe Learning Manager mediante protocolos de transferencia de archivos seguros. Estas conexiones son especialmente útiles para la importación por lotes de información de usuario, inscripciones de cursos y otras operaciones de datos en bloque.
+* **Integraciones de terceros**: Adobe Learning Manager admite la integración con varios sistemas empresariales a través de conectores prediseñados. Estas integraciones pueden incluir sistemas de gestión de RR. HH., plataformas de gestión de relaciones con los clientes y otros sistemas de gestión del aprendizaje.
+*** Integración con Salesforce**: El conector de Salesforce permite la sincronización directa de los datos de usuario, la información del curso y los registros de aprendizaje entre Salesforce y Adobe Learning Manager.
 
 Consulte [Conectores en Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md) para obtener más información.
 
@@ -84,8 +82,3 @@ Consulte [Conectores en Adobe Learning Manager](/help/migrated/integration-admin
 Las cuentas de igual a igual en Adobe Learning Manager le permiten compartir puestos adquiridos y ver informes entre cuentas asociadas. Esta función es útil para las organizaciones que necesitan colaborar o compartir recursos entre diferentes cuentas.
 
 Consulte [Cuentas de igual a igual](/help/migrated/administrators/feature-summary/peer-account.md) en Adobe Learning Manager para obtener más información.
-
-
-
-
-

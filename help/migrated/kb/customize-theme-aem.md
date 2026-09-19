@@ -4,15 +4,12 @@ title: Personalizar tema para componentes de AEM
 description: Personalizar tema para componentes de AEM
 contentowner: saghosh
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 907a305b-423d-4252-8597-a25819178f07
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 100%
-
 ---
-
-
-
 # Personalizar tema para componentes de AEM
 
 Utilice el contenido JSON siguiente para personalizar el widget de catálogo.

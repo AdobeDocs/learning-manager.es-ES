@@ -2,14 +2,12 @@
 title: Ciclo de vida de la cuenta administrativa de Adobe Learning Manager
 description: Este documento proporciona orientación completa sobre la administración segura de cuentas administrativas de nivel superior en Adobe Learning Manager (ALM) para cumplir con la normativa FedRAMP y las prácticas de seguridad recomendadas.
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Tipos de cuentas administrativas en Adobe Learning Manager
 
 ## Asignación de roles de ALM
@@ -35,9 +33,9 @@ Adobe Admin Console admite tres tipos de identidad para las cuentas de administr
 
 | Tipo de identidad | Descripción | Recomendación de seguridad |
 |---------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Adobe ID (ID personal) | Tipo predeterminado; administrado por Adobe. Cualquiera puede crear uno. | NO RECOMENDADO para administradores. La organización no tiene control sobre este tipo de cuenta. |
+| Adobe ID (ID personal) | Tipo predeterminado; gestionado por Adobe. Cualquiera puede crear uno. | NO RECOMENDADO para administradores. La organización no tiene control sobre este tipo de cuenta. |
 | Enterprise ID | Cuenta propiedad de la organización administrada por un administrador del sistema Admin Console. | Aceptable si Federated ID/SSO no está disponible. Aplicar 2FA. |
-| Federated ID (SSO) | Propiedad de la organización; integrada con SAML 2.0 SSO. La organización controla la autenticación por completo. | RECOMENDADO. Se autentica a través del IdP de la organización; admite el cumplimiento de MFA a nivel de proveedor de identidad. |
+| Federated ID (SSO) | Propiedad de la organización; integrado con SAML 2.0 SSO. La organización controla la autenticación por completo. | RECOMENDADO. Se autentica a través del IdP de la organización; admite la aplicación de MFA en el nivel de proveedor de identidades. |
 
 Para obtener más información, consulte lo siguiente:
 
@@ -112,7 +110,7 @@ Cuando se aprovisiona por primera vez una cuenta de ALM, Adobe recomienda compro
 | Verificación en dos pasos (2FA) | Aplicado (no es opcional para ningún usuario) | Admin Console > Configuración > Privacidad y seguridad |
 | Duración máxima de la sesión | 8 horas o por política de la organización | Admin Console > Configuración > Configuración avanzada |
 | Tiempo máximo de inactividad | 30 minutos o por política de la organización | Admin Console > Configuración > Configuración avanzada |
-| Ámbito de la función de administrador | Privilegio mínimo; use funciones de administrador personalizadas cuando sea posible | ALM > Usuarios > Funciones personalizadas |
+| Ámbito de la función de administrador | Privilegio mínimo; use funciones de administrador personalizadas siempre que sea posible | ALM > Usuarios > Funciones personalizadas |
 | Expiración de usuario externo | Establecer una fecha de caducidad en cada perfil de usuario externo | ALM > Usuarios > Externo |
 
 ### Lista de comprobación de configuración inicial para nuevos administradores
@@ -133,10 +131,10 @@ Al aprovisionar una nueva cuenta de administrador de nivel superior, complete lo
 
 Las cuentas administrativas se utilizan para realizar tareas operativas diarias, entre las que se incluyen:
 
-* **Administración del ciclo de vida del usuario**: creación de usuarios, actualización de perfiles y modificación de funciones.
-* **Administración de contenido de aprendizaje**: administración de cursos, programas de aprendizaje, certificaciones y catálogos.
-* **Informes y análisis**: Generando y revisando informes sobre el progreso del alumno y el uso de la plataforma.
-* **Integraciones y configuración del sistema**: administración de conectores, acceso basado en API y configuración de nivel de sistema.
+* **Administración del ciclo de vida del usuario**: Crear usuarios, actualizar perfiles y realizar cambios de función.
+* **Administración de contenido de aprendizaje**: Gestión de cursos, programas de aprendizaje, certificaciones y catálogos
+* **Informes y análisis**: Generar y revisar informes sobre el progreso del alumno y el uso de la plataforma.
+* **Integraciones y configuración del sistema**: Administración de conectores, acceso basado en API y configuración de nivel de sistema.
 
 Se espera que los administradores sigan el control de acceso interno de su organización y cambien las políticas de administración al realizar acciones administrativas.
 
@@ -147,19 +145,19 @@ Consulte [Preguntas más frecuentes para administradores de Adobe Learning Manag
 
 Adobe Admin Console utiliza una estructura de administración jerárquica. Los administradores del sistema pueden delegar responsabilidades en funciones con privilegios más bajos para reducir la superficie de ataque de la cuenta de administrador de nivel superior:
 
-* Administrador de productos: administra el acceso a productos de Adobe específicos (p. ej., Adobe Learning Manager).
-* Administrador de perfiles de productos: administra el abono de usuarios en perfiles de productos específicos.
-* Administrador de grupo de usuarios: administra el abono de grupo de usuarios.
-* Administrador personalizado de ALM: administrador con ámbito en ALM con permisos configurables por catálogo y grupo de usuarios.
+* Administrador de producto: Administra el acceso a productos de Adobe específicos (por ejemplo, Adobe Learning Manager).
+* Administrador de perfiles de productos: Administra el abono de usuarios en perfiles de productos específicos.
+* Administrador de grupo de usuarios: Administra la pertenencia a grupos de usuarios.
+* Administrador personalizado de ALM: Administrador de ámbito en ALM con permisos configurables por catálogo y grupo de usuarios.
 
 ### Prácticas de gobernanza en curso
 
 Las organizaciones que gestionan cuentas de administración de ALM de forma continua deben seguir las siguientes prácticas:
 
-* **Revisión periódica de acceso**: audite periódicamente la lista de administradores del sistema en Admin Console (Usuarios > Administradores) y administradores de ALM (Usuarios > Internos) para asegurarse de que solo el personal autorizado actual tenga estas funciones.
+* **Revisión periódica de acceso**: Realice una auditoría periódica de la lista de administradores del sistema en Admin Console (Usuarios > Administradores) y administradores de ALM (Usuarios > Internos) para asegurarse de que solo el personal autorizado actual tenga estas funciones.
 * **Supervisión del registro de auditoría**: El registro de auditoría del Admin Console registra todos los cambios realizados por los administradores. Los administradores del sistema tienen visibilidad completa. Revise el registro con regularidad para ver si hay cambios no autorizados.
-* **Acceso mínimo permanente**: evita usar cuentas de administrador de nivel superior para tareas rutinarias. Reserve el acceso completo de administrador para las tareas que lo requieran específicamente.
-* **Seguridad de sesión**: Configura la duración máxima de la sesión y el tiempo máximo de inactividad en Admin Console > Configuración > Configuración avanzada para limitar la exposición de las sesiones desatendidas.
+* **Acceso mínimo permanente**: Evita utilizar cuentas de administrador de nivel superior para las tareas rutinarias. Reserve el acceso completo de administrador para las tareas que lo requieran específicamente.
+* **Seguridad de sesión**: Configure la duración máxima de la sesión y el tiempo máximo de inactividad en Admin Console > Configuración > Configuración avanzada para limitar la exposición de las sesiones desatendidas.
 
 Consulte [Introducción a Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información.
 
@@ -167,10 +165,10 @@ Consulte [Introducción a Admin Console](https://helpx.adobe.com/es/enterprise/u
 
 Los administradores de ALM administran las cuentas de usuario internas y externas. Las operaciones relevantes para la seguridad incluyen:
 
-* Eliminación automática de usuarios: en Configuración, los administradores pueden configurar usuarios internos inactivos para que se eliminen automáticamente pasados un número especificado de días, lo que reduce el riesgo de cuentas inactivas.
-* Caducidad de usuario externo: los administradores establecen una fecha de caducidad al crear perfiles de usuario externos. Las cuentas caducadas se mueven automáticamente a un estado inactivo.
-* Eliminación de usuarios: los administradores pueden eliminar usuarios manualmente mediante Usuarios > Internos > Acciones > Eliminar usuario.
-* Purga de usuarios: después de la eliminación, los administradores pueden purgar de forma permanente los registros de usuarios para cumplir con las políticas de retención de datos y evitar el acceso no autorizado a datos de usuarios obsoletos.
+* Eliminación automática de usuario: En Configuración, los administradores pueden configurar los usuarios internos inactivos para que se eliminen automáticamente pasados un número especificado de días, lo que reduce el riesgo de que la cuenta esté inactiva.
+* Caducidad de usuario externo: Los administradores establecen una fecha de caducidad al crear perfiles de usuario externos. Las cuentas caducadas se mueven automáticamente a un estado inactivo.
+* Eliminación de usuario: Los administradores pueden eliminar usuarios manualmente a través de Usuarios > Internos > Acciones > Eliminar usuario.
+* Purga de usuarios: Después de la eliminación, los administradores pueden purgar permanentemente los registros de usuario para cumplir con las políticas de retención de datos y evitar el acceso no autorizado a datos de usuario obsoletos.
 
 Para obtener más información, consulte lo siguiente:
 
@@ -223,8 +221,8 @@ Consulte [Agregar usuarios y grupos de usuarios](https://experienceleague.adobe.
 
 Cuando un usuario abandona la organización por completo y su cuenta se debe eliminar de la plataforma:
 
-* Elimine al usuario: Usuarios > Interno > seleccione usuario > Acciones > Eliminar usuario. Esto deshabilita la cuenta y elimina el acceso activo.
-* Purgar al usuario: Después de la eliminación, vaya a Usuarios > Limpieza de usuarios, seleccione el mes de eliminación, seleccione el usuario y elija Acciones > Purgar usuario. La depuración elimina permanentemente todos los registros de usuario.
+* Eliminar el usuario: Usuarios > Interno > seleccione usuario > Acciones > Eliminar usuario. Esto deshabilita la cuenta y elimina el acceso activo.
+* Purgar el usuario: Después de la eliminación, vaya a Usuarios > Limpieza de usuarios, seleccione el mes de eliminación, seleccione el usuario y elija Acciones > Purgar usuario. La depuración elimina permanentemente todos los registros de usuario.
 
 Consulte [Purgar usuarios](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/purge-users) para obtener más información.
 
