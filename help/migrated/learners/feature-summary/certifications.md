@@ -7,10 +7,8 @@ exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 62%
-
+ht-degree: 74%
 ---
-
 # Certificaciones
 
 Obtenga información sobre cómo conseguir certificaciones mediante la aplicación de alumno de Learning Manager.
@@ -35,7 +33,7 @@ Aparecerá una página con una lista de todas las certificaciones relevantes par
 
 1. Vea las certificaciones en varios modos:
 
-   1. Haga clic en el widget Pendiente para ver todas las certificaciones que debe completar.
+   1. Haga clic en el widget Pendientes para ver todas las certificaciones que debe completar.
    1. Haga clic en Mi aprendizaje en el panel izquierdo y seleccione Certificaciones para ver todas las certificaciones.
    1. Ordene y vea la lista de certificaciones por relevancia y fecha de publicación.
 
@@ -60,7 +58,7 @@ Debe realizar las certificaciones externas fuera de su empresa y enviar la prueb
 
    Aparece una página de certificación con la información general de la certificación, la fecha de validez de la certificación, el emisor, la fecha de finalización, el tipo (periódico o permanente) y la insignia.
 
-1. Para enviar la prueba de finalización de la certificación, haz clic en Examinar, selecciona el archivo de la ruta de acceso local y haz clic en **[!UICONTROL Cargar]**.
+1. Para enviar la prueba de terminación de la certificación, haga clic en Examinar, seleccione el archivo de la ruta de acceso local y haga clic en **[!UICONTROL Cargar]**.
 
 ## Finalización de certificaciones {#completingcertifications}
 
