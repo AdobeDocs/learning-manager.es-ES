@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8746'
+source-wordcount: '8793'
 ht-degree: 55%
 ---
 # Informes {#reports}
@@ -1016,7 +1016,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
@@ -1251,9 +1251,10 @@ El informe es solo aditivo: los nuevos registros de cambios se añaden con el ti
 
 El informe está disponible para cualquier usuario con privilegios de informe, incluidos los administradores completos y los administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
 
->[!NOTE]
->
->Los registros están disponibles a partir de la actualización 112 de septiembre de 2026. Los cambios realizados antes de esta actualización no se incluyen en el informe. Consulte [notas de la versión](/help/migrated/release-note/release-notes.md) Actualización 12.
+## Registros y cambios {#recordschanges}
+
+* Los registros están disponibles a partir de la actualización 112 de septiembre de 2026. Los cambios realizados antes de esta actualización no se incluyen en el informe. Consulte [notas de la versión](/help/migrated/release-note/release-notes.md) Actualización 12.
+* Los cambios realizados en cualquiera de las configuraciones pueden tardar hasta una hora en reflejarse en el informe.
 
 ## Por qué este informe es importante para el cumplimiento
 
@@ -1326,7 +1327,7 @@ El archivo `.csv` descargado incluye las siguientes columnas.
 
 ## Acceder a este informe mediante programación
 
-Puede recuperar el informe de seguimiento de auditoría de administrador mediante programación mediante la API de trabajos, en lugar de generarlo manualmente desde la aplicación de administración. Esto resulta útil si desea programar exportaciones regulares o alimentar el informe en un sistema de supervisión o alerta descendente. Más información sobre [API de trabajos para el informe de seguimiento de auditoría de administración](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+Puede recuperar el informe de seguimiento de auditoría de administrador mediante programación mediante la API de trabajos, en lugar de generarlo manualmente desde la aplicación de administración. Esto resulta útil si desea programar exportaciones regulares o alimentar el informe en un sistema de supervisión o alerta descendente. Más información sobre [API de trabajos para el informe de seguimiento de auditoría de administración](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
 ## limitaciones
 
@@ -1345,6 +1346,9 @@ Puede recuperar el informe de seguimiento de auditoría de administrador mediant
 
 **No veo ningún registro antes de una fecha determinada**
 Los registros solo están disponibles a partir de la actualización 112 (septiembre de 2026). Los cambios realizados antes de esa actualización no se incluyen en el informe. Consulte [notas de la versión](/help/migrated/release-note/release-notes.md)
+
+**No veo los cambios que hice hace unos minutos y que se reflejan en el informe**
+Consulte el segundo punto de enumeración en [Registros y cambios](#recordschanges) más arriba.
 
 **La columna UUID está vacía para algunos o todos los registros**
 La columna UUID se rellena solo si UUID está activado en el nivel de cuenta. Si no está habilitada, esta columna no estará presente.
