@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 68%
-
+source-wordcount: '1029'
+ht-degree: 83%
 ---
-
 # Certificaciones
 
 Obtenga información sobre cómo crear certificaciones, inscribir alumnos y editar certificaciones publicadas.
@@ -29,7 +27,7 @@ Como administrador, puede crear un programa de certificación alojado internamen
    1. Haga clic en la ficha **[!UICONTROL Borrador]** para ver todas las certificaciones que están en estado Borrador. Debe completar su creación.
    1. Haga clic en **[!UICONTROL Publicado]** para ver todas las certificaciones publicadas por usted.
    1. Haga clic en **[!UICONTROL Todas]** para ver las certificaciones en todos los estados.
-   1. Ordene y vea la lista de certificaciones en orden ascendente o descendente, o según la fecha en que las actualizó.
+   1. Ordene y vea la lista de certificaciones en orden ascendente o descendente, o según la fecha de actualización.
 
 1. Haga clic en **[!UICONTROL Añadir]**.
 
@@ -79,7 +77,7 @@ Como administrador, puede crear un programa de certificación alojado internamen
   <tr>
    <td>Emisor del certificado<br></td>
    <td>
-    <p>Elige <b>Interna</b> si pertenece a tu organización o <b>Externa</b> para certificaciones de organizaciones externas.</p>
+    <p>Elija <b>Interno</b> si pertenece a su empresa o <b>Externo</b> para certificaciones de empresas externas.</p>
     <p>Si se elige <b>Certificación externa</b>, hay dos opciones más:</p>
     <ul>
      <li>Igual que fecha de aprobación<br></li>
@@ -110,10 +108,10 @@ Seleccione los productos, roles y nivel de roles de la sección **[!UICONTROL Re
 
 Elija los cursos que se van a agregar a la certificación en la pestaña **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]**.
 
-Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de agregarlo.
+Coloque el ratón sobre el mosaico de cada curso y haga clic en + para añadirlos a la certificación. Haga clic en **[!UICONTROL Vista previa]** para ver el curso como alumno antes de añadirlo.
 
 1. Haga clic en la ficha **[!UICONTROL Programa]** para ver o comprobar la lista de cursos que ha agregado.
-1. Haga clic en **[!UICONTROL Publish]**.
+1. Haga clic en **[!UICONTROL Volver a publicar]**.
 
 ## Asignación de instancias de curso para certificaciones {#courseinstancemappingforcertifications}
 
@@ -161,13 +159,13 @@ Los administradores pueden marcar una certificación como completa mediante la o
 
 En versiones anteriores de Learning Manager, para obtener un certificado, no era obligatorio que el alumno en certificación externa completase el curso.
 
-Ahora puede hacer que los cursos sean obligatorios habilitando la opción **[!UICONTROL Definir los cursos requeridos como obligatorios para la finalización del certificado]** en la ficha Programa al editar la certificación.
+Ahora, los cursos se pueden definir como obligatorios mediante la opción **[!UICONTROL Definir los cursos requeridos como obligatorios para la finalización del certificado]** en la ficha Programa al editar la certificación.
 
 ## Editar una certificación publicada {#editingapublishedcertification}
 
 Un administrador puede editar una certificación en un estado publicado. En este estado, el administrador puede editar todas las secciones de una certificación y volver a publicar.
 
-Para editar una certificación publicada, haga clic en la tarjeta de certificación y haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
+Para editar una certificación publicada, haga clic en la tarjeta del curso y haga clic en **[!UICONTROL Editar]** en la esquina superior derecha de la página.
 
 Mientras edita las secciones de una certificación, si necesita abandonar la página, debe volver a publicar la certificación. Aparece un cuadro de diálogo de confirmación que le solicita volver a publicar la certificación.
 
