@@ -3,9 +3,9 @@ description: Obtén respuestas rápidas y precisas de tu contenido de aprendizaj
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # Asistente de IA para los alumnos
@@ -81,7 +81,7 @@ Adobe procesa de forma segura el contenido de aprendizaje mediante servicios de 
 
 El Asistente de inteligencia artificial solo utiliza contenido de catálogos internos y bibliotecas de contenido de terceros. Las respuestas a las consultas de los alumnos solo se derivan de los catálogos a los que tienen acceso.
 
-No se admiten los siguientes orígenes de contenido:
+Las siguientes fuentes de contenido no son compatibles con la versión actual:
 
 - Catálogos externos compartidos
 - Catálogos predeterminados

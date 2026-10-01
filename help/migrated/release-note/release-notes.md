@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 65%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Notas de la versión de Adobe Learning Manager
 
 <!--
@@ -25,6 +23,123 @@ ht-degree: 65%
 </table>
 
 -->
+
++++Actualización 12: Versión de Adobe Learning Manager del 30 de septiembre de 2026
+
+## Funciones de esta versión
+
+**Virtual Coach:** Virtual Coach es una solución de orientación basada en IA en Adobe Learning Manager que ayuda a los alumnos a desarrollar habilidades a través de escenarios realistas de juego de roles, comentarios personalizados y práctica a la carta antes de aplicar esas habilidades en situaciones del mundo real. [Más información](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Uso compartido de puestos:** El uso compartido de puestos permite que una cuenta comparta una parte de sus puestos con licencia con otra cuenta, lo que permite a los alumnos de la cuenta receptora acceder a Adobe Learning Manager mediante los puestos compartidos. El uso compartido de puestos solo está disponible para las cuentas Ultimate; Las cuentas de Captivate Prime no pueden compartir ni recibir licencias, y las cuentas facturadas con tarjeta de crédito están en el plan de Captivate Prime de forma predeterminada. Las cuentas de prueba son una excepción y pueden recibir licencias compartidas desde una cuenta de Ultimate. Durante una relación de uso compartido de licencias activa, la cuenta de prueba recibe acceso a las funciones de nivel final. [Más información](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Informe de seguimiento de auditoría del administrador:** El informe de seguimiento de auditoría del administrador proporciona un registro histórico de los cambios de configuración para que pueda determinar:
+
+* Quién hizo el cambio
+* Cuando se realizó el cambio
+* Cuál era el escenario antes del cambio
+* Cuál es el ajuste después del cambio
+
+El informe abarca los cambios realizados en:
+
+* Conceptos básicos
+* Avanzadas
+* Integraciones
+
+Para ver la lista completa de configuraciones y sus detalles en cada categoría, puede seleccionar el vínculo **Descargar lista de configuraciones** en la ventana emergente de seguimiento de auditoría del administrador que aparece antes de generar el informe.
+
+A continuación se indican las opciones disponibles en cada categoría:
+
+Conceptos básicos
+
+* Información básica
+* Moderación de los cursos
+* Foro de debate
+* Varios intentos
+* Visibilidad de aptitudes, etiquetas, productos y funciones
+* ID exclusivos de objetos de aprendizaje → Activar
+* Mostrar paneles de filtro
+* Vista predeterminada (función Alumno) → Vista de lista
+* Administración de instructores
+* Vista previa del módulo
+* Habilitar precios para cursos/rutas de aprendizaje/certificaciones
+* Habilitar carro de SKU de varios elementos
+* Configuración del reproductor
+* Los responsables pueden marcar como completado
+* Registro automático de usuarios
+* Eliminar automáticamente usuarios internos (si no acceden al sistema durante (número configurable) días)
+* Mostrar etiquetas de catálogo
+* Tipo de cumplimiento personalizado
+* Los alumnos pueden ver sus puntuaciones
+* Correo electrónico de resumen
+* Activar iconos de curso/ruta de aprendizaje/certificación/tarjeta de ayuda de trabajo
+* Vínculos de pie de página
+* Zona horaria del informe
+* Integración de Badgr
+* Mostrar valoraciones
+* Mostrar el elemento emergente Valoración basada en estrellas en el reproductor
+* Terminología del producto
+* Actualización de la versión del módulo
+* Retirar (curso, ruta de aprendizaje o certificación)
+* Retirar automáticamente (curso, ruta de aprendizaje o certificación)
+* Mostrar todos los cursos inscritos en los resultados de búsqueda
+* Importación de aptitudes
+* Libro de calificaciones (visibilidad del alumno)
+* Purgar automáticamente usuarios eliminados
+* Créditos
+* Alternar cursos/rutas
+* Aprendizaje externo
+
+Integraciones
+
+* Métodos de inicio de sesión (internos y externos)
+* Configuración del inicio de sesión único (SSO)
+* Orígenes de datos: (Orígenes + Configuración de sincronización)
+* Añadir información de igual a igual
+
+Avanzadas
+
+* Etiquetas de catálogo → Todas las etiquetas de catálogo
+* Etiquetas de catálogo → Configuración (acceso a valores)
+* Carpeta de contenido
+* Ubicaciones de clase → lista y editor
+* Ubicaciones de clase → Privilegios de autor (configuración)
+* Ubicaciones de clase → Importación en bloque
+* Ubicaciones de clase → Migración de formato de ubicación
+* Calendario de vacaciones
+* Informes: Configuración (paneles de cumplimiento y éxito de grupo)
+
+Este informe también se puede generar mediante la API del trabajo. Consulte [Informe de seguimiento de auditoría del administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) y [API de trabajos para el informe de seguimiento de auditoría del administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## Mejoras de esta versión
+
+### Agente de información
+
+Se han realizado dos mejoras en Insights Agent. Estos son:
+
+* **Compatibilidad con la terminología del producto:** Si el administrador ha personalizado las condiciones estándar mediante Terminología del producto en Configuración > General, Insights Agent reconoce y utiliza esas condiciones en lugar de la terminología predeterminada. Por ejemplo, si su organización ha cambiado el nombre de Curso a Capítulo, puede preguntar: &quot;¿Cuántos capítulos se completaron el mes pasado?&quot; Insights Agent interpreta el término personalizado y utiliza &quot;capítulo&quot; en la respuesta y en los encabezados de columna.
+
+* **Inscripción de cursos, excluyendo los cursos en lista de espera de forma predeterminada:** Para consultas de inscripción directas e indirectas sin filtros, el recuento de inscritos directamente incluye a los alumnos con un estado de espera, aunque estén en lista de espera y no participen activamente. De forma predeterminada, el panel Enfoque no indica que los alumnos en lista de espera estén incluidos en el recuento. Los alumnos en lista de espera se excluyen solo cuando el administrador solicita explícitamente la exclusión, en cuyo caso se muestra la regla aplicada.
+
+[Más información](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **API para el acceso al catálogo de objetos de aprendizaje:** La API de acceso al catálogo de objetos de aprendizaje permite determinar si un alumno puede acceder directamente a uno o varios objetos de aprendizaje a través de un catálogo asignado. Utilice la respuesta para controlar los elementos de la interfaz de usuario relacionados con la inscripción. Por ejemplo, mostrar la opción Inscribir solo cuando se confirme el acceso directo al catálogo, mientras que permitir a los alumnos ver la página del curso independientemente del acceso al catálogo.
+Más información.
+
+* **API de trabajos para el informe de seguimiento de auditoría del administrador:** Esta API se usa para trabajar con trabajos de informe de seguimiento de auditoría, creando un trabajo que genera un informe de seguimiento de auditoría de cambio de configuración para un intervalo de fechas determinado y un conjunto de tipos de configuración.
+
+[Más información](/help/migrated/api-changes-sep-2026.md).
+
+## Correcciones
+
+Las fechas de inicio y finalización de la **instancia de ruta de aprendizaje:** ruta de aprendizaje (LP) se mostraban incorrectamente cuando la zona horaria de la instancia de LP difería de la zona horaria del sistema o del explorador del administrador. Al editar las fechas, la fecha de inicio muestra un día de calendario incorrecto y el mismo problema de conversión de zona horaria afecta a las alertas de notificación en el calendario.
+
+**Aplicación móvil:** El reproductor no cambió de tamaño correctamente en Safari y Edge cuando los alumnos cambiaron entre las orientaciones horizontal y vertical, lo que provocó problemas de visualización como una línea blanca en la sección Información general e impidió el acceso a la tabla de contenido y notas.
+
+**Interacción:** Los alumnos no recibieron puntos de interacción al volver a visitar un curso completado desde la sección Marcadores.
+
++++
 
 +++Actualización 11: Versión de Adobe Learning Manager del 31 de agosto de 2026
 
@@ -169,8 +284,8 @@ Cuando un instructor comparte una ventana de Chrome que reproduce un vídeo y, a
 
 El vídeo sigue reproduciéndose localmente para el instructor, pero es posible que los asistentes remotos no vean la actualización de contenido mientras la ventana compartida esté desenfocada. El comportamiento varía según el sistema operativo:
 
-&#x200B;- En Windows, los asistentes ven una pantalla en negro.
-&#x200B;- En macOS, los asistentes ven el último fotograma de vídeo mostrado.
+- En Windows, los asistentes ven una pantalla en negro.
+- En macOS, los asistentes ven el último marco de vídeo mostrado.
 
 La reproducción de vídeo para los asistentes suele reanudarse cuando el foco vuelve a la ventana del navegador compartido.
 

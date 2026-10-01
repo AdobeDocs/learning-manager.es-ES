@@ -3,13 +3,11 @@ title: Le damos la bienvenida a la Guía del usuario de Adobe Learning.
 description: Conozca la última oferta de Adobe Learning Manager (anteriormente, Adobe Captivate Prime). Comience desde el principio, visite todas las secciones de forma individual o póngase en contacto con la comunidad para trabajar en un proyecto.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
+source-git-commit: 3d72e5ad28f5d57090d40914a983b5c665a2e7df
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 29%
-
 ---
-
 # Le damos la bienvenida a la Guía del usuario de Adobe Learning.
 
 Continúe leyendo para saber cuál es la última oferta de Adobe Learning Manager (anteriormente, Adobe Captivate Prime). Comience desde el principio, explore cada sección a su propio ritmo o conéctese con la comunidad mientras trabaja en su proyecto.

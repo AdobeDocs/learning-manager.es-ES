@@ -3,13 +3,11 @@ description: Aprenda a integrar el conector de Zoom con Adobe Learning Manager
 jcr-language: en_us
 title: Conector de Zoom
 contentowner: mmanuel
-source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
+source-git-commit: 289bd299abdf6ff25d6bbb7bc4dbcaaf057e591e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
-
+source-wordcount: '412'
+ht-degree: 2%
 ---
-
 
 # Conector de Zoom en Adobe Learning Manager
 
@@ -70,16 +68,15 @@ Para utilizar el conector de Zoom con Adobe Learning Manager, debe crear una apl
 
 Al crear la aplicación en Zoom, asegúrese de que están seleccionados los siguientes ámbitos:
 
-```
-| Scope Description | Zoom Scope |
-|---|---|
-| View all user meetings | meeting:read:admin |
-| View and manage all user meetings | meeting:write:admin |
-| View report data | report:read:admin |
-| View all user information | user:read:admin |
-| Manage users | user:write:admin |
-| Add a meeting registrant | meeting:write:registrant:admin |
-| List all meeting registrants | meeting:read:list_registrants:admin |
-| Manage sub-account meetings | meeting:write:meeting:master |
-| View meeting participants report | report:read:list_meeting_participants:admin |
-```
+| Lo que quieres | Buscar esta palabra clave | A continuación, elija |
+|---|---|---|
+| Ver todas las reuniones de usuarios | reunión | `meeting:read:meeting:admin, meeting:read:list_meetings:admin` |
+| Ver o administrar todas las reuniones de usuarios | reunión | `meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin` |
+| Ver datos del informe | informe | `report:read:meeting:admin, report:read:user:admin` (elija el que coincida con su extremo). |
+| Ver toda la información del usuario | interfaz | `user:read:user:admin, user:read:list_users:admin` |
+| Administrar usuarios | interfaz | `user:update:user:admin, user:write:user:admin` |
+| Agregar un registrante de la reunión | solicitante de registro | `meeting:write:registrant:admin` |
+| Enumerar todos los inscritos de la reunión | solicitante de registro | `meeting:read:list_registrants:admin` |
+| Reuniones de subcuentas | reunión + buscar :master | `meeting:write:meeting:master` |
+| Informe de los participantes de la reunión | participante | `report:read:list_meeting_participants:admin` |
+

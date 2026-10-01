@@ -7,10 +7,8 @@ exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 50%
-
+ht-degree: 70%
 ---
-
 # Imposible registrarse como usuario externo
 
 ## Problema
@@ -39,7 +37,7 @@ Este problema se produce en uno de los casos siguientes:
 
 ## Solución:
 
-**Escenario 1:** El usuario ya está registrado en otro perfil externo.
+**Situación 1:** el usuario ya está registrado en otro perfil externo.
 
 1. Inicie sesión como Administrador.
 1. En **Administrar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Externos]**.
@@ -63,7 +61,7 @@ Este problema se produce en uno de los casos siguientes:
 
 1. Una vez seleccionado, haga clic en **[!UICONTROL Cambiar]**.
 
-**Situación 2:** El usuario está presente como alumno interno.
+**Situación 2:** el usuario está presente como alumno interno.
 
 1. Inicie sesión como Administrador.
 1. En **Administrar**, haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Internos]**.
@@ -73,7 +71,7 @@ Este problema se produce en uno de los casos siguientes:
 
    *Abrir un perfil de alumno interno*
 
-1. Cambie la dirección de correo electrónico del alumno o agregue *_old* a la dirección de correo electrónico existente. Esto liberará la dirección de correo electrónico.
+1. Cambie la dirección de correo electrónico del alumno o añada *_old* a la dirección de correo electrónico existente. Esto liberará la dirección de correo electrónico.
 
    Por ejemplo, si la dirección de correo electrónico del alumno es *<abc@adobe.com>,* cámbiela a *<abc_old@adobe.com>*
 
@@ -89,6 +87,6 @@ Este problema se produce en uno de los casos siguientes:
 
    *Modificar la dirección de correo electrónico del usuario*
 
-1. Cambie la dirección de correo electrónico del alumno o agregue *_old* a la dirección de correo electrónico existente. Esto liberará la dirección de correo electrónico.
+1. Cambie la dirección de correo electrónico del alumno o añada *_old* a la dirección de correo electrónico existente. Esto liberará la dirección de correo electrónico.
 
    Por ejemplo, si la dirección de correo electrónico del alumno es **<abc@adobe.com>**, cámbiela a **<abc_old@adobe.com>**.
