@@ -2,13 +2,11 @@
 description: El agente de la ruta de aprendizaje de Adobe Learning Manager es un asistente basado en IA que genera un plan de aprendizaje personalizado y secuenciado en función de sus objetivos, antecedentes y tiempo disponible.
 jcr-language: en_us
 title: Learning Path Agent (beta) en Adobe Learning Manager
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2201'
 ht-degree: 0%
-
 ---
-
 
 # Qué es el agente de rutas de aprendizaje
 
@@ -23,7 +21,7 @@ Las rutas de aprendizaje personalizadas están diseñadas para dos casos prácti
 
 ## Cómo funciona el enfoque basado en la conversación
 
-El agente se reúne contigo donde estés. Empiezas por describir lo que quieres aprender en un lenguaje sencillo, con tanto o tan poco detalle como lo tengas. A continuación, el agente le hace preguntas de seguimiento para comprender su función, sus desafíos específicos y cuánto tiempo puede dedicar al aprendizaje cada semana.
+A continuación, el agente genera una ruta de aprendizaje con nombre que muestra cada curso, su descripción, duración y número de módulos. Antes de guardar, puede solicitar al agente que agregue, elimine o reemplace cursos individuales en la ruta utilizando lenguaje natural&quot;.
 
 A partir de sus respuestas, el agente identifica de 3 a 5 temas de aprendizaje con niveles de competencia sugeridos. Puede revisar estos temas, solicitar cambios o confirmarlos antes de que el agente busque cursos coincidentes. A continuación, el agente genera una ruta de aprendizaje con nombre que muestra cada curso, su descripción, duración y número de módulos. Puede ajustar aún más el trazado antes de guardarlo.
 
@@ -47,6 +45,7 @@ Una vez que haya guardado una ruta de aprendizaje personalizada, podrá comparti
 - Proporcione su compromiso de tiempo por adelantado, para que la ruta generada se ajuste a su programación real. El agente entiende el lenguaje natural: &quot;dos noches a la semana&quot; o &quot;30 minutos al día&quot; son ambos válidos.
 - Revise los temas sugeridos antes de pedir al agente que genere cursos. Confirmar o ajustar los temas en esa fase ahorra tiempo en comparación con la revisión de la lista de cursos posterior.
 - Si un tema no muestra contenido coincidente, anótelo y póngase en contacto con el administrador para solicitar que se agreguen cursos relevantes al catálogo.
+- Usa el lenguaje natural para pulir tu camino antes de guardar. Por ejemplo, pida eliminar un curso que ya haya completado o reemplazar uno que parezca demasiado avanzado.
 
 ## Configurar el agente de rutas de aprendizaje personalizadas
 
@@ -120,11 +119,11 @@ Continúe la conversación hasta que el agente presente los temas sugeridos.
 
 ### Revisar los temas sugeridos
 
-Después de reunir suficiente contexto, el agente presenta una lista de 3-5 temas de aprendizaje, cada uno con un título, una breve descripción y un nivel de competencia sugerido.
+A partir de sus respuestas, el agente identifica de 3 a 5 temas de aprendizaje. Puede revisar estos temas, solicitar cambios o confirmarlos antes de que el agente busque cursos coincidentes. A continuación, el agente genera una ruta de aprendizaje con nombre que muestra cada curso, su descripción, duración y número de módulos. Puede ajustar aún más el trazado antes de guardarlo.
 
-1. Lea atentamente la lista de temas. El agente selecciona los niveles de competencia en función de lo que haya compartido, pero puede solicitar cambios.
-2. Para ajustar un tema, por ejemplo, para cambiar el nivel de competencia o intercambiar un tema, escriba sus comentarios en el chat. Por ejemplo, ya tengo algún conocimiento del primer tema. ¿Puedes poner eso en intermedio?
-3. Si está satisfecho con los temas sugeridos, confirme respondiendo en el chat o seleccionando el mensaje de confirmación sugerido si aparece uno.
+1. Revise los temas sugeridos para asegurarse de que coinciden con su objetivo de aprendizaje.
+2. Para ajustar los temas, escriba sus comentarios en el chat. Puede solicitar al agente que agregue, quite o reemplace un tema.
+3. Si está satisfecho con los temas sugeridos, confírmelos respondiendo en el chat o seleccionando el mensaje de confirmación sugerido si aparece.
 
 ### Revisar la ruta de aprendizaje
 
@@ -141,7 +140,27 @@ El agente le informa de que no ha podido encontrar cursos para esos temas espec�
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 Cuando esté satisfecho con la ruta, pida al agente que la guarde escribiendo save the learning path.
 
+<!--
 ![](assets/create-lp.png)
+-->
+
+### Ajusta la ruta de aprendizaje antes de guardar
+
+Antes de guardar la ruta, puede solicitar al agente que añada, elimine o sustituya un curso. Describa el cambio en un lenguaje sencillo. El agente sólo actualiza el curso que menciona. El resto de tu camino sigue igual.
+
+Por ejemplo:
+
+- Ya he completado el segundo curso. Quítalo.
+- Agregue un curso en [tema]. No veo a ninguno en la lista.
+- El cuarto curso parece demasiado avanzado. ¿Puedes reemplazarlo con algo más fundamental?
+
+El agente aplica el cambio y le muestra la ruta actualizada. Continúe ajustando hasta que esté satisfecho y guarde el trazado.
+
+>[!NOTE]
+>
+>Una ruta de aprendizaje puede contener un máximo de cinco cursos. Si solicita añadir un curso cuando la ruta de acceso ya está llena, el agente le preguntará qué curso existente desea reemplazar.
+
+Si su solicitud no es clara, el agente hace una pregunta aclaratoria antes de realizar un cambio. Si no existe ningún reemplazo adecuado para un curso que desea intercambiar, el agente explica por qué y sugiere el curso de coincidencia más cercano en su lugar.
 
 ### Guarda tu ruta de aprendizaje y accede a ella
 
@@ -177,7 +196,7 @@ Todas tus rutas guardadas aparecen en la tira de _Rutas de aprendizaje personali
 
 _¿Cuántas rutas de aprendizaje personalizadas puedo guardar?_
 
-La tira de _Rutas de aprendizaje personalizadas_ de tu página de inicio muestra un máximo de 10 rutas.
+La tira de _Rutas de aprendizaje personalizadas_ de tu página de inicio muestra un máximo de 20 rutas.
 
 _¿Qué información debo proporcionar para obtener una ruta de aprendizaje relevante?_
 
@@ -201,9 +220,13 @@ Sí. Durante la conversación, puede solicitar al agente que agregue, quite o ca
 
 _¿Puedo cambiar los cursos individuales en una ruta generada?_
 
-No. Una vez que el agente genera una ruta, se fija la selección del curso. No se pueden intercambiar, quitar ni reemplazar cursos individuales. Lo que recomiende el agente es lo que contiene la ruta.
+Sí. Antes de guardar la ruta, puede solicitar al agente que agregue, elimine o reemplace un curso mediante lenguaje natural. Por ejemplo, &quot;eliminar el segundo curso&quot; o &quot;reemplazar el cuarto curso por algo más fundamental&quot;. El agente actualiza únicamente el curso que menciona y deja el resto de la ruta sin cambios.
 
-Si los cursos sugeridos no se sienten bien, el mejor enfoque es volver atrás y ajustar los temas antes de generar. El agente selecciona los cursos en función de los temas que confirme, por lo que si se cambia el ámbito del tema o el nivel de competencia, se generará un conjunto de cursos diferente.
+Si desea un cambio más amplio en varios temas, es más rápido ajustar los temas antes de que el agente genere la ruta, ya que la selección del curso se basa en los temas que confirma.
+
+_¿Qué sucede si intento agregar un curso pero mi ruta de acceso ya está llena?_
+
+Una ruta de aprendizaje puede incluir un máximo de cinco cursos. Si solicita añadir un nuevo curso mientras la ruta está llena, el agente le preguntará qué curso existente desea sustituir por el nuevo.
 
 _¿Por qué el agente sigue haciendo preguntas de seguimiento?_
 

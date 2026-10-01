@@ -3,13 +3,11 @@ title: Limitaciones y directrices de Experience Builder en Adobe Learning Manage
 description: Las directrices y limitaciones de Experience Builder proporcionan sugerencias de contenido y cursos personalizados a los alumnos mediante algoritmos basados en IA.
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
-
 ---
-
 # Limitaciones y directrices de Experience Builder
 
 Experience Builder es una potente herramienta diseñada para ayudar a los usuarios a crear páginas web dinámicas e interactivas con facilidad. Para garantizar un rendimiento, un uso y una seguridad óptimos, es esencial seguir determinadas directrices y recomendaciones al configurar páginas, utilizar widgets y personalizar diseños. Este documento proporciona una descripción general detallada de las notas y puntos importantes que los usuarios deben tener en cuenta al trabajar con Experience Builder.
@@ -81,7 +79,7 @@ Los menús se pueden colocar en la parte superior o izquierda de la página. Se 
 
 ### Renuncia
 
-* Es posible que el código personalizado no funcione de la forma prevista en futuras versiones, por lo que será necesario realizar ajustes. Prepárate para actualizar el código después de cada versión.
+* Se admiten las personalizaciones de HTML personalizado, CSS y JavaScript; sin embargo, en ocasiones, las actualizaciones de plataforma pueden requerir pequeños ajustes en el código personalizado. Recomendamos probar las personalizaciones después de las versiones principales como parte del mantenimiento regular.
 
 ## Recomendaciones generales
 
