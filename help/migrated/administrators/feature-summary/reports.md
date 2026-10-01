@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
+source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1016,7 +1016,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
@@ -1232,7 +1232,7 @@ Al crear un tablero, introduzca el nombre y la descripción. Para compartirlo co
 
 Genere un informe de los cambios de configuración realizados en los ajustes Básico, Avanzado e Integración de la cuenta, incluidos el usuario que ha realizado cada cambio, el momento y el valor anterior y posterior.
 
-## Qué captura el informe
+### Qué captura el informe
 
 El informe de seguimiento de auditoría del administrador proporciona un registro histórico de los cambios de configuración para que pueda determinar:
 
@@ -1251,12 +1251,12 @@ El informe es solo aditivo: los nuevos registros de cambios se añaden con el ti
 
 El informe está disponible para cualquier usuario con privilegios de informe, incluidos los administradores completos y los administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
 
-## Registros y cambios {#recordschanges}
+### Registros y cambios {#recordschanges}
 
 * Los registros están disponibles a partir de la actualización 112 de septiembre de 2026. Los cambios realizados antes de esta actualización no se incluyen en el informe. Consulte [notas de la versión](/help/migrated/release-note/release-notes.md) Actualización 12.
 * Los cambios realizados en cualquiera de las configuraciones pueden tardar hasta una hora en reflejarse en el informe.
 
-## Por qué este informe es importante para el cumplimiento
+### Por qué este informe es importante para el cumplimiento
 
 Las organizaciones que operan en los sectores regulados a menudo necesitan demostrar que los cambios de configuración de los sistemas que gestionan registros electrónicos son objeto de seguimiento, atribuibles y conservados. El informe de seguimiento de auditoría del administrador admite estos requisitos al identificar los valores de persona, configuración, tiempo y antes y después de cada cambio.
 
@@ -1264,7 +1264,7 @@ Las organizaciones que operan en los sectores regulados a menudo necesitan demos
 >
 >Este informe respalda las actividades de cumplimiento de su organización. No certifica por sí mismo el cumplimiento de ningún reglamento o norma específicos.
 
-## Generar un informe de seguimiento de auditoría de administrador
+### Generar un informe de seguimiento de auditoría de administrador
 
 1. Inicie sesión en Adobe Learning Manager como administrador.
 2. En la barra de navegación izquierda, seleccione **Administrar** > **Informes** > **Informes personalizados**.
@@ -1292,7 +1292,7 @@ Las organizaciones que operan en los sectores regulados a menudo necesitan demos
 
 Un archivo `.csv` que contiene los cambios se descarga en la carpeta Descargas del explorador. La generación de informes puede tardar unos minutos: puede seguir utilizando Adobe Learning Manager mientras se procesa. Si cierra la ventana del navegador antes de que el informe esté listo, la descarga comenzará la próxima vez que inicie sesión.
 
-## Usos comunes de este informe
+### Usos comunes de este informe
 
 - **Investigar un cambio de configuración inesperado**: confirma qué ha cambiado, cuándo y quién lo ha hecho, en lugar de confiar en las suposiciones.
 - **Revisar los cambios realizados por varios administradores**: genera una vista consolidada de toda la actividad de configuración en los aspectos básicos, integraciones y opciones avanzadas durante un período determinado, en lugar de ponerte en contacto con cada administrador individualmente.
@@ -1302,7 +1302,7 @@ Un archivo `.csv` que contiene los cambios se descarga en la carpeta Descargas d
 - **Revisar la configuración después de un cambio de directiva**: confirme que las actualizaciones de configuración previstas se aplicaron de manera coherente e identifique los cambios que se produjeron inesperadamente.
 - **Mantener un registro administrativo histórico**: descarga y conserva informes según las prácticas de administración de registros de tu organización.
 
-## Referencia de columna de informe
+### Referencia de columna de informe
 
 El archivo `.csv` descargado incluye las siguientes columnas.
 
@@ -1325,16 +1325,16 @@ El archivo `.csv` descargado incluye las siguientes columnas.
 >
 >Para buscar todas las configuraciones eliminadas durante un periodo, filtre el archivo descargado donde **Tipo de acción** es `DELETE_SETTING`.
 
-## Acceder a este informe mediante programación
+### Acceder a este informe mediante programación
 
 Puede recuperar el informe de seguimiento de auditoría de administrador mediante programación mediante la API de trabajos, en lugar de generarlo manualmente desde la aplicación de administración. Esto resulta útil si desea programar exportaciones regulares o alimentar el informe en un sistema de supervisión o alerta descendente. Más información sobre [API de trabajos para el informe de seguimiento de auditoría de administración](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
-## limitaciones
+### limitaciones
 
 - **Localización**: El contenido del informe no está localizado. El informe se genera en el idioma predeterminado de la cuenta, independientemente de la configuración regional de la cuenta.
 - **Motivo del cambio**: En el informe no se indica por qué se ha realizado un cambio. Conserve por separado cualquier solicitud de cambio, aprobación o justificación empresarial relacionada.
 
-## Prácticas recomendadas
+### Prácticas recomendadas
 
 - Seleccione un intervalo de fechas que abarque el cambio sospechoso o planeado.
 - Seleccione **Seleccionar todo** cuando no se conozca el área de configuración afectada.
@@ -1342,7 +1342,7 @@ Puede recuperar el informe de seguimiento de auditoría de administrador mediant
 - Utilice las columnas **Nombre de administrador** y **Marca de tiempo** para correlacionar un cambio con el trabajo aprobado o los registros internos.
 - Mantenga la solicitud de cambio, aprobación o justificación empresarial relacionadas por separado cuando su organización requiera una explicación documentada de un cambio.
 
-## Resolución de problemas
+### Resolución de problemas
 
 **No veo ningún registro antes de una fecha determinada**
 Los registros solo están disponibles a partir de la actualización 112 (septiembre de 2026). Los cambios realizados antes de esa actualización no se incluyen en el informe. Consulte [notas de la versión](/help/migrated/release-note/release-notes.md)
