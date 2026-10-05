@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35479'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -53,69 +53,6 @@ El informe abarca los cambios realizados en:
 * Conceptos básicos
 * Avanzadas
 * Integraciones
-
-Para ver la lista completa de configuraciones y sus detalles en cada categoría, puede seleccionar el vínculo **Descargar lista de configuraciones** en la ventana emergente de seguimiento de auditoría del administrador que aparece antes de generar el informe.
-
-A continuación se indican las opciones disponibles en cada categoría:
-
-Conceptos básicos
-
-* Información básica
-* Moderación de los cursos
-* Foro de debate
-* Varios intentos
-* Visibilidad de aptitudes, etiquetas, productos y funciones
-* ID exclusivos de objetos de aprendizaje → Activar
-* Mostrar paneles de filtro
-* Vista predeterminada (función Alumno) → Vista de lista
-* Administración de instructores
-* Vista previa del módulo
-* Habilitar precios para cursos/rutas de aprendizaje/certificaciones
-* Habilitar carro de SKU de varios elementos
-* Configuración del reproductor
-* Los responsables pueden marcar como completado
-* Registro automático de usuarios
-* Eliminar automáticamente usuarios internos (si no acceden al sistema durante (número configurable) días)
-* Mostrar etiquetas de catálogo
-* Tipo de cumplimiento personalizado
-* Los alumnos pueden ver sus puntuaciones
-* Correo electrónico de resumen
-* Activar iconos de curso/ruta de aprendizaje/certificación/tarjeta de ayuda de trabajo
-* Vínculos de pie de página
-* Zona horaria del informe
-* Integración de Badgr
-* Mostrar valoraciones
-* Mostrar el elemento emergente Valoración basada en estrellas en el reproductor
-* Terminología del producto
-* Actualización de la versión del módulo
-* Retirar (curso, ruta de aprendizaje o certificación)
-* Retirar automáticamente (curso, ruta de aprendizaje o certificación)
-* Mostrar todos los cursos inscritos en los resultados de búsqueda
-* Importación de aptitudes
-* Libro de calificaciones (visibilidad del alumno)
-* Purgar automáticamente usuarios eliminados
-* Créditos
-* Alternar cursos/rutas
-* Aprendizaje externo
-
-Integraciones
-
-* Métodos de inicio de sesión (internos y externos)
-* Configuración del inicio de sesión único (SSO)
-* Orígenes de datos: (Orígenes + Configuración de sincronización)
-* Añadir información de igual a igual
-
-Avanzadas
-
-* Etiquetas de catálogo → Todas las etiquetas de catálogo
-* Etiquetas de catálogo → Configuración (acceso a valores)
-* Carpeta de contenido
-* Ubicaciones de clase → lista y editor
-* Ubicaciones de clase → Privilegios de autor (configuración)
-* Ubicaciones de clase → Importación en bloque
-* Ubicaciones de clase → Migración de formato de ubicación
-* Calendario de vacaciones
-* Informes: Configuración (paneles de cumplimiento y éxito de grupo)
 
 Este informe también se puede generar mediante la API del trabajo. Consulte [Informe de seguimiento de auditoría del administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) y [API de trabajos para el informe de seguimiento de auditoría del administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 
@@ -763,7 +700,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2243,7 +2180,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2621,7 +2558,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -3247,7 +3184,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3757,7 +3694,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.
