@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1016,7 +1016,7 @@ La hoja exportada de informes del tablero proporciona información detallada en 
    *Ejes para informes*
 
 1. En las opciones desplegables, seleccione el criterio o intervalo **[!UICONTROL Eje Y]** para su informe. Por ejemplo, en la opción de inscripción en programas de aprendizaje, elija uno o varios estados de la lista Estados. Los datos del intervalo secundario se representan en forma de gráfico de líneas.
-1. Seleccione los criterios del eje X&#x200B;**&#x200B;** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
+1. Seleccione los criterios del eje X**** apropiados para el informe en las opciones desplegables. Si se selecciona la fecha como eje X, está disponible la opción de agrupar los criterios del eje X por día, mes, trimestre y año.
 1. En la sección Intervalo, seleccione la opción correspondiente en la lista desplegable. Opciones disponibles:
 
    * Último mes
@@ -1249,7 +1249,7 @@ El informe abarca los cambios realizados en:
 
 El informe es solo aditivo: los nuevos registros de cambios se añaden con el tiempo y las entradas grabadas anteriormente nunca se eliminan. Esto le permite revisar el historial completo de una configuración en varios cambios, no solo su valor actual.
 
-El informe está disponible para cualquier usuario con privilegios de informe, incluidos los administradores completos y los administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
+El informe está disponible para cualquier usuario con privilegios de informe. Esto incluye administradores completos y administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
 
 ### Registros y cambios {#recordschanges}
 

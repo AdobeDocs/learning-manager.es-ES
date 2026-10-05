@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35479'
 ht-degree: 63%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/es/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -31,6 +31,15 @@ ht-degree: 63%
 **Virtual Coach:** Virtual Coach es una solución de orientación basada en IA en Adobe Learning Manager que ayuda a los alumnos a desarrollar habilidades a través de escenarios realistas de juego de roles, comentarios personalizados y práctica a la carta antes de aplicar esas habilidades en situaciones del mundo real. [Más información](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
 
 **Uso compartido de puestos:** El uso compartido de puestos permite que una cuenta comparta una parte de sus puestos con licencia con otra cuenta, lo que permite a los alumnos de la cuenta receptora acceder a Adobe Learning Manager mediante los puestos compartidos. El uso compartido de puestos solo está disponible para las cuentas Ultimate; Las cuentas de Captivate Prime no pueden compartir ni recibir licencias, y las cuentas facturadas con tarjeta de crédito están en el plan de Captivate Prime de forma predeterminada. Las cuentas de prueba son una excepción y pueden recibir licencias compartidas desde una cuenta de Ultimate. Durante una relación de uso compartido de licencias activa, la cuenta de prueba recibe acceso a las funciones de nivel final. [Más información](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Mejoras del agente de rutas de aprendizaje:** El agente de rutas de aprendizaje ahora proporciona más flexibilidad para crear y perfeccionar rutas de aprendizaje personalizadas antes de guardarlas.
+
+* **Crear más rutas de aprendizaje:** Los alumnos ahora pueden crear hasta 20 rutas de aprendizaje, lo que supone un aumento con respecto al límite anterior de 10.
+* **Perfeccionar una ruta antes de guardar:** Los alumnos pueden solicitar al agente que agregue, quite o reemplace cursos en lenguaje natural antes de guardar una ruta de aprendizaje. El agente actualiza solo el curso solicitado sin modificar el resto de la ruta, lo que permite a los alumnos seguir perfeccionando la ruta hasta que se adapte a sus necesidades.
+* **Se ha mejorado la administración de las rutas de aprendizaje completas:** Una ruta de aprendizaje puede contener hasta cinco cursos. Si un alumno solicita añadir otro curso a una ruta de acceso completa, el agente le solicita que elija un curso existente para sustituirlo.
+* **Guía más inteligente para los cambios del curso:** Si la solicitud de un alumno no está clara, el agente solicita una aclaración antes de modificar la ruta. Si no se dispone de un curso de sustitución adecuado, el agente explica la limitación y recomienda la alternativa más parecida.
+
+[Más información](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 **Informe de seguimiento de auditoría del administrador:** El informe de seguimiento de auditoría del administrador proporciona un registro histórico de los cambios de configuración para que pueda determinar:
 
@@ -754,7 +763,7 @@ Consulte este [artículo](/help/migrated/learners/feature-summary/fluidic-player
 
 * Se ha corregido un problema por el que los alumnos que habían completado un curso veían una pantalla en blanco al volver a visitarlo después de actualizar el módulo de contenido a una nueva versión.
 
-Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Además, para obtener detalles sobre los próximos cambios en Adobe Learning Manager, consulta este [artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2234,7 +2243,7 @@ En esta actualización, un alumno puede cargar activos como prueba de finalizaci
 
 Un alumno puede abrir un certificado externo y cargar activos, como archivos PDF, de texto o de imagen.
 
-Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obtener más información, consulte [***Cargar activos en un certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas solucionados en esta versión {#issuesfixedinthisrelease}
 
@@ -2612,7 +2621,7 @@ Fecha de publicación: 20 de junio de 2019
 
 **Revisión automática de contenido**
 
-Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[**&#x200B; Revisión con asistencia automática &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Aprendizaje social permite la revisión del contenido publicado por alumnos de dos formas: **Sin revisión** y **Revisión manual**. En esta versión, Adobe Learning Manager mejora Aprendizaje social al proporcionar funciones de revisión automática habilitadas para inteligencia artificial. Una vez que se publica el contenido, este se analiza a fin de identificar si pertenece a la aptitud para la cual se publica. Según la puntuación de confianza que se obtenga, el contenido se publica en vivo o se envía para revisión manual. Para obtener más información, vea *[** Revisión con asistencia automática **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Asignar aptitud con dominios de aptitudes**
 
@@ -3238,7 +3247,7 @@ Fecha de publicación: 6 de diciembre de 2016.
 
 ### Mejora {#enhancement}
 
-Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con&#x200B;**&#x200B;**&#x200B;este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
+Como parte de esta actualización, Learning Manager proporciona un punto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para actualizar los usuarios de una aplicación. Puede acceder al punto final de esta API con la función de administrador. Con****este punto final, puede actualizar la siguiente información de los usuarios de Learning Manager:
 
 * Nombre
 * Correo electrónico
@@ -3748,7 +3757,7 @@ La exportación de datos de inscripción solía fallar si se eliminaba uno de lo
 
 **Plantillas de correo electrónico**
 
-* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**&#x200B;** se **&#x200B;**&#x200B;ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
+* La palabra **socios,** que se utilizaba para hacer referencia a los grupos externos,**** se **** ha eliminado del cuerpo y del título de las plantillas de correo electrónico. Los grupos externos no tienen por qué ser socios necesariamente.\
   **Nota:** Esta plantilla actualizada no aparece si la plantilla predeterminada ya se ha modificado. Para ver la plantilla actualizada, haz clic en **Volver a original** en el cuadro de diálogo **Vista previa de plantilla**.
 
 * No se puede hacer clic en la URL en el correo electrónico que reciben los administradores si se editan las plantillas de correo electrónico **Se ha creado el perfil (registro automático)** y **Se ha creado el perfil (externo/socios)**. Se ha solucionado el problema.
