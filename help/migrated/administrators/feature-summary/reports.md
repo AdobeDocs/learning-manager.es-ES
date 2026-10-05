@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Informes {#reports}
 
@@ -1247,9 +1247,72 @@ El informe abarca los cambios realizados en:
 - Configuración **avanzada**
 - Configuración de **integraciones**
 
+Para ver la lista completa de configuraciones y sus detalles en cada categoría, puede seleccionar el vínculo **Descargar lista de configuraciones** en la ventana emergente de seguimiento de auditoría del administrador que aparece antes de generar el informe.
+
+A continuación se indican las opciones disponibles en cada categoría:
+
+**Conceptos básicos**
+
+* Información básica
+* Moderación de los cursos
+* Foro de debate
+* Varios intentos
+* Visibilidad de aptitudes, etiquetas, productos y funciones
+* ID exclusivos de objetos de aprendizaje → Activar
+* Mostrar paneles de filtro
+* Vista predeterminada (función Alumno) → Vista de lista
+* Administración de instructores
+* Vista previa del módulo
+* Habilitar precios para cursos/rutas de aprendizaje/certificaciones
+* Habilitar carro de SKU de varios elementos
+* Configuración del reproductor
+* Los responsables pueden marcar como completado
+* Registro automático de usuarios
+* Eliminar automáticamente usuarios internos (si no acceden al sistema durante (número configurable) días)
+* Mostrar etiquetas de catálogo
+* Tipo de cumplimiento personalizado
+* Los alumnos pueden ver sus puntuaciones
+* Correo electrónico de resumen
+* Activar iconos de curso/ruta de aprendizaje/certificación/tarjeta de ayuda de trabajo
+* Vínculos de pie de página
+* Zona horaria del informe
+* Integración de Badgr
+* Mostrar valoraciones
+* Mostrar el elemento emergente Valoración basada en estrellas en el reproductor
+* Terminología del producto
+* Actualización de la versión del módulo
+* Retirar (curso, ruta de aprendizaje o certificación)
+* Retirar automáticamente (curso, ruta de aprendizaje o certificación)
+* Mostrar todos los cursos inscritos en los resultados de búsqueda
+* Importación de aptitudes
+* Libro de calificaciones (visibilidad del alumno)
+* Purgar automáticamente usuarios eliminados
+* Créditos
+* Alternar cursos/rutas
+* Aprendizaje externo
+
+**Integraciones**
+
+* Métodos de inicio de sesión (internos y externos)
+* Configuración del inicio de sesión único (SSO)
+* Orígenes de datos: (Orígenes + Configuración de sincronización)
+* Añadir información de igual a igual
+
+**Avanzado**
+
+* Etiquetas de catálogo → Todas las etiquetas de catálogo
+* Etiquetas de catálogo → Configuración (acceso a valores)
+* Carpeta de contenido
+* Ubicaciones de clase → lista y editor
+* Ubicaciones de clase → Privilegios de autor (configuración)
+* Ubicaciones de clase → Importación en bloque
+* Ubicaciones de clase → Migración de formato de ubicación
+* Calendario de vacaciones
+* Informes: Configuración (paneles de cumplimiento y éxito de grupo)
+
 El informe es solo aditivo: los nuevos registros de cambios se añaden con el tiempo y las entradas grabadas anteriormente nunca se eliminan. Esto le permite revisar el historial completo de una configuración en varios cambios, no solo su valor actual.
 
-El informe está disponible para cualquier usuario con privilegios de informe, incluidos los administradores completos y los administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
+El informe está disponible para cualquier usuario con privilegios de informe. Esto incluye administradores completos y administradores personalizados a los que se haya concedido acceso al informe, no solo los propietarios de cuentas.
 
 ### Registros y cambios {#recordschanges}
 

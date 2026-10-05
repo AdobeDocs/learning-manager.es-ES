@@ -6,16 +6,14 @@ contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 70%
-
+source-wordcount: '382'
+ht-degree: 74%
 ---
-
 # Preguntas más frecuentes para instructores
 
 Siga leyendo para conocer las preguntas más frecuentes de Learning Manager asociadas a la función de instructor.
 
-+++¿Cómo puedo acceder a la aplicación del instructor?
++++¿Cómo puedo acceder a la aplicación de instructores?
 
 Si un autor le otorgó privilegios de instructor, recibirá un correo electrónico junto con un vínculo para iniciar sesión en la aplicación de instructores.
 
@@ -23,15 +21,15 @@ Si ya ha iniciado sesión en la aplicación Learning Manager con otra función, 
 
 +++
 
-+++¿Cuáles son las capacidades de un instructor en Learning Manager?
++++¿Qué funciones puede realizar un instructor en Learning Manager?
 
-Los instructores de módulos o sesiones pueden administrar la fecha, la hora y el lugar de la sesión. Los instructores también pueden administrar el límite de puestos para los módulos, así como el límite de la lista de espera. Pueden borrar la lista de espera y confirmar la lista de asistentes de una sesión. Asimismo, los instructores pueden aprobar envíos de los alumnos y establecer recordatorios para los cursos de las sesiones del instructor.
+Los instructores de módulos o sesiones pueden administrar la fecha, la hora y el lugar de la sesión. Los instructores también pueden administrar el límite de puestos para los módulos, así como el límite de la lista de espera. Pueden borrar la lista de espera y confirmar la lista de asistentes de una sesión.Los instructores también pueden aprobar los envíos de los alumnos y establecer recordatorios para los cursos que alojen las sesiones del instructor.
 
 Una vez que la sesión termina, los instructores también pueden marcar la asistencia esta y aprobar las asignaciones y otros archivos de recursos relacionados con la sesión. Para obtener información detallada sobre las funciones que puede realizar un instructor, consulte [Resumen de la función](feature-summary/modules.md).
 
 +++
 
-+++¿Cuáles son los tipos de curso a los que un autor puede asignar un instructor?
++++¿Cuáles son los tipos de cursos para los cuales un autor puede asignar un instructor?
 
 Un autor puede asignar un instructor solo para módulos de clase.
 
@@ -49,7 +47,7 @@ Como instructor, solo puede ver y editar los detalles de las sesiones a las que 
 
 +++
 
-+++Cómo asignar la función de instructor a usuarios externos
++++¿Cómo se asigna la función de instructor a usuarios externos?
 
 * De forma predeterminada, en la sección **[!UICONTROL Asignar]** para **[!UICONTROL usuario externo]** solo se muestra **[!UICONTROL Administrador de marcas]** o **[!UICONTROL Autor de marcas]**.
 * Si desea asignar la función **Instructor** a cualquier usuario en el LMS, puede agregarlo como **Instructor** a cualquier módulo de **[!UICONTROL Clase]** o **[!UICONTROL Clase virtual]**, y la función **Instructor** se proporcionaría automáticamente al usuario en el LMS.

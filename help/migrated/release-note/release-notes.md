@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de la versión de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -32,6 +32,15 @@ ht-degree: 63%
 
 **Uso compartido de puestos:** El uso compartido de puestos permite que una cuenta comparta una parte de sus puestos con licencia con otra cuenta, lo que permite a los alumnos de la cuenta receptora acceder a Adobe Learning Manager mediante los puestos compartidos. El uso compartido de puestos solo está disponible para las cuentas Ultimate; Las cuentas de Captivate Prime no pueden compartir ni recibir licencias, y las cuentas facturadas con tarjeta de crédito están en el plan de Captivate Prime de forma predeterminada. Las cuentas de prueba son una excepción y pueden recibir licencias compartidas desde una cuenta de Ultimate. Durante una relación de uso compartido de licencias activa, la cuenta de prueba recibe acceso a las funciones de nivel final. [Más información](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Mejoras del agente de rutas de aprendizaje:** El agente de rutas de aprendizaje ahora proporciona más flexibilidad para crear y perfeccionar rutas de aprendizaje personalizadas antes de guardarlas.
+
+* **Crear más rutas de aprendizaje:** Los alumnos ahora pueden crear hasta 20 rutas de aprendizaje, lo que supone un aumento con respecto al límite anterior de 10.
+* **Perfeccionar una ruta antes de guardar:** Los alumnos pueden solicitar al agente que agregue, quite o reemplace cursos en lenguaje natural antes de guardar una ruta de aprendizaje. El agente actualiza solo el curso solicitado sin modificar el resto de la ruta, lo que permite a los alumnos seguir perfeccionando la ruta hasta que se adapte a sus necesidades.
+* **Se ha mejorado la administración de las rutas de aprendizaje completas:** Una ruta de aprendizaje puede contener hasta cinco cursos. Si un alumno solicita añadir otro curso a una ruta de acceso completa, el agente le solicita que elija un curso existente para sustituirlo.
+* **Guía más inteligente para los cambios del curso:** Si la solicitud de un alumno no está clara, el agente solicita una aclaración antes de modificar la ruta. Si no se dispone de un curso de sustitución adecuado, el agente explica la limitación y recomienda la alternativa más parecida.
+
+[Más información](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Informe de seguimiento de auditoría del administrador:** El informe de seguimiento de auditoría del administrador proporciona un registro histórico de los cambios de configuración para que pueda determinar:
 
 * Quién hizo el cambio
@@ -44,69 +53,6 @@ El informe abarca los cambios realizados en:
 * Conceptos básicos
 * Avanzadas
 * Integraciones
-
-Para ver la lista completa de configuraciones y sus detalles en cada categoría, puede seleccionar el vínculo **Descargar lista de configuraciones** en la ventana emergente de seguimiento de auditoría del administrador que aparece antes de generar el informe.
-
-A continuación se indican las opciones disponibles en cada categoría:
-
-Conceptos básicos
-
-* Información básica
-* Moderación de los cursos
-* Foro de debate
-* Varios intentos
-* Visibilidad de aptitudes, etiquetas, productos y funciones
-* ID exclusivos de objetos de aprendizaje → Activar
-* Mostrar paneles de filtro
-* Vista predeterminada (función Alumno) → Vista de lista
-* Administración de instructores
-* Vista previa del módulo
-* Habilitar precios para cursos/rutas de aprendizaje/certificaciones
-* Habilitar carro de SKU de varios elementos
-* Configuración del reproductor
-* Los responsables pueden marcar como completado
-* Registro automático de usuarios
-* Eliminar automáticamente usuarios internos (si no acceden al sistema durante (número configurable) días)
-* Mostrar etiquetas de catálogo
-* Tipo de cumplimiento personalizado
-* Los alumnos pueden ver sus puntuaciones
-* Correo electrónico de resumen
-* Activar iconos de curso/ruta de aprendizaje/certificación/tarjeta de ayuda de trabajo
-* Vínculos de pie de página
-* Zona horaria del informe
-* Integración de Badgr
-* Mostrar valoraciones
-* Mostrar el elemento emergente Valoración basada en estrellas en el reproductor
-* Terminología del producto
-* Actualización de la versión del módulo
-* Retirar (curso, ruta de aprendizaje o certificación)
-* Retirar automáticamente (curso, ruta de aprendizaje o certificación)
-* Mostrar todos los cursos inscritos en los resultados de búsqueda
-* Importación de aptitudes
-* Libro de calificaciones (visibilidad del alumno)
-* Purgar automáticamente usuarios eliminados
-* Créditos
-* Alternar cursos/rutas
-* Aprendizaje externo
-
-Integraciones
-
-* Métodos de inicio de sesión (internos y externos)
-* Configuración del inicio de sesión único (SSO)
-* Orígenes de datos: (Orígenes + Configuración de sincronización)
-* Añadir información de igual a igual
-
-Avanzadas
-
-* Etiquetas de catálogo → Todas las etiquetas de catálogo
-* Etiquetas de catálogo → Configuración (acceso a valores)
-* Carpeta de contenido
-* Ubicaciones de clase → lista y editor
-* Ubicaciones de clase → Privilegios de autor (configuración)
-* Ubicaciones de clase → Importación en bloque
-* Ubicaciones de clase → Migración de formato de ubicación
-* Calendario de vacaciones
-* Informes: Configuración (paneles de cumplimiento y éxito de grupo)
 
 Este informe también se puede generar mediante la API del trabajo. Consulte [Informe de seguimiento de auditoría del administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) y [API de trabajos para el informe de seguimiento de auditoría del administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 

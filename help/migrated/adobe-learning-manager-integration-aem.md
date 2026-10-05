@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # Paquete de sitios de referencia de Adobe Learning Manager (sitios de referencia de ALM) para AEM Sites
 
 Adobe Learning Manager (ALM) se integra con los sitios de Adobe Experience Manager (AEM). Esto le permite crear su propio sitio web e interfaces móviles interactivas para Adobe Learning Manager con un esfuerzo de codificación mínimo. Con esta integración, puede crear experiencias de aprendizaje personalizadas para los usuarios.
@@ -90,7 +88,7 @@ Para aprobar la aplicación, haga clic en **[!UICONTROL Aprobar]**.
 ## Configurar la cuenta de ALM en AEM
 
 1. Inicie la instancia de AEM.
-1. Haga clic en Configuración > Cloud Service.
+1. Haga clic en Configuración > Cloud Services.
 1. Haga clic en Configuración de Adobe Learning Manager.
 
    ![](assets/alm-configuration.png)
@@ -108,11 +106,11 @@ Para aprobar la aplicación, haga clic en **[!UICONTROL Aprobar]**.
    ![](assets/account-congiguration.png)
    *Crear carpeta de configuración*
 
-   1. Modo Adobe Learning Manager: elija cómo desea que los alumnos que han iniciado sesión y los que no lo han hecho puedan disfrutar de la experiencia de aprendizaje.
-   1. URL de Adobe Learning Manager: introduzca la dirección URL de la instancia de ALM en la que se alojan los servicios de aprendizaje.
-   1. ID de cuenta: ID de la cuenta de ALM.
-   1. ID de cliente, secreto de cliente y token de actualización de autor: introduzca las credenciales que obtuvo al crear la aplicación en ALM.
-   1. Personalización del widget: para obtener más información, vea [Integrar con AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Modo Adobe Learning Manager: Elija la forma en que desea la experiencia de aprendizaje para los alumnos que han iniciado sesión o que no lo han hecho.
+   1. URL de Adobe Learning Manager: Introduzca la dirección URL de la instancia de ALM en la que se alojan los servicios de aprendizaje.
+   1. ID de cuenta: El ID de la cuenta de ALM.
+   1. ID de cliente, secreto de cliente y token de actualización de autor: Introduzca las credenciales que obtuvo al crear la aplicación en ALM.
+   1. Personalización del widget: Para obtener más información, vea [Integrar con AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Guarde y cierre la configuración.
 
@@ -227,11 +225,11 @@ Además de utilizar las plantillas integradas y crear el sitio web desde cero me
 
 El código se encuentra en el [repositorio de GitHub del sitio de referencia](https://github.com/adobe/adobe-learning-manager-reference-site) para que pueda empezar.
 
-Las partes principales de la plantilla son:
+Las partes principales de la plantilla son las siguientes:
 
-* core: Paquete de Java que contiene todas las funciones principales, como servicios OSGi, listeners o planificadores, así como código Java relacionado con componentes, como servlets o filtros de solicitud.
+* núcleo: Paquete de Java que contiene todas las funciones principales, como servicios OSGi, listeners o planificadores, así como código Java relacionado con componentes, como servlets o filtros de solicitud.
 * ui.apps: contiene las partes /apps (y /etc) del proyecto, es decir, clientes, bibliotecas, componentes y plantillas de JS&amp;CSS.
-* ui.content: contiene contenido de ejemplo que utiliza los componentes de ui.apps
+* ui.content: incluye contenido de muestra mediante los componentes de ui.apps
 * ui.frontend: contiene componentes React.
 
 Todo el código se encuentra en el repositorio para que pueda empezar a trabajar.
