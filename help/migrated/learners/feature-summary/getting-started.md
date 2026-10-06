@@ -5,11 +5,9 @@ title: Primeros pasos como alumno
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 78%
-
+source-wordcount: '735'
+ht-degree: 94%
 ---
-
 
 
 # Primeros pasos como alumno
@@ -26,7 +24,7 @@ En la aplicación web Learning Manager, después de iniciar sesión como alumno,
 
 **Mis aptitudes**: ahora puede ver el mapa de actitudes en la esquina superior derecha de la página. Consulte [mapa de aptitudes](skills-levels.md) para obtener más información.
 
-**Widget Objeto de aprendizaje**: está justo debajo de Mi aprendizaje; muestra los objetos de aprendizaje para el usuario. Debajo de Mi aprendizaje, puedes ver todos los [cursos](courses.md), [programas de aprendizaje](learning-programs.md) y [certificaciones](certifications.md) que te has inscrito o que tienes asignados. Puede empezar a consumir un objeto de aprendizaje o regresar a uno desde este widget.
+**Widget Objeto de aprendizaje**: está justo debajo de Mi aprendizaje; muestra los objetos de aprendizaje para el usuario. Debajo de Mi aprendizaje, puede ver todos los [cursos](courses.md), [programas de aprendizaje](learning-programs.md) y [certificaciones](certifications.md) que se le han asignado o en los que se ha inscrito. Puede empezar a consumir un objeto de aprendizaje o regresar a uno desde este widget.
 
 **Calendario de aprendizaje**: este widget muestra la lista de aprendizaje previsto y planificado en su empresa en la empresa por trimestres. El estado de inscripción es Inscrito, si se ha inscrito en un determinado curso.
 
@@ -40,19 +38,19 @@ Si accede a Learning Manager desde una tableta iPad o Android, consulte el tema
 
 ## Línea de tiempo de aprendizaje {#learningtimeline}
 
-La línea de tiempo de aprendizaje muestra a los alumnos la programación con los cursos que deben realizar. En esta sección, podrá ver las alertas para todos los cursos, certificaciones y programas de aprendizaje en orden ascendente de las fechas límite. Las fechas límite en cada una de sus actividades de aprendizaje se muestran en el panel izquierdo.
+La línea de tiempo de aprendizaje muestra a los alumnos la programación con los cursos que deben realizar. En esta sección, podrá ver las alertas de todos los cursos, certificaciones y programas de aprendizaje en orden ascendente de las fechas límite. Las fechas límite en cada una de sus actividades de aprendizaje se muestran en el panel izquierdo.
 
-Haga clic en cada uno de los objetos de aprendizaje en el icono a la izquierda para ver la información correspondiente como tarjetas de cursos en el panel derecho. Puede hacer clic en el icono del curso/programa de aprendizaje/certificación para ver la información completa de cada objeto de aprendizaje.
+Haga clic en cada uno de los objetos de aprendizaje en el icono a la izquierda para ver la información correspondiente como tarjetas de cursos en el panel derecho. Puede hacer clic en el icono del curso, del programa de aprendizaje o de la certificación para ver la información completa de cada objeto de aprendizaje.
 
 Deslice el ratón sobre el área de la línea de tiempo para ver la barra de desplazamiento del lado derecho. Utilice la barra de desplazamiento para ir hacia arriba o hacia abajo y ver más alertas.
 
 ## Usuarios de aplicaciones de iPad y Android {#ipadandandroidappusers}
 
-En la aplicación de Learning Manager en tabletas iPad o Android, después de iniciar sesión como alumno, puede ver la información en la ficha Inicio de la siguiente manera:
+En la aplicación Learning Manager en tabletas iPad o Android, después de iniciar sesión como alumno, puede ver la información en la ficha Pantalla principal de la siguiente manera:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desplegable **Menú** y elija la opción adecuada.
+Para desplazarse a las funciones de aprendizaje y catálogo, pulse la lista desplegable **Menú** y elija la opción adecuada.
 
 ![](assets/menu-ipad.png)
 
@@ -60,7 +58,7 @@ Para desplazarse a las funciones de aprendizaje y catálogo, toque el menú desp
 
 Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y Android. Descargue y realice cursos en modo sin conexión; vuelva a sincronizar el contenido con la aplicación en línea cuando se conecte a la red.
 
-1. Toque el menú desplegable en la parte superior y toque la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en iconos.
+1. Presione el menú desplegable en la parte superior y luego presione la opción Aprendizaje. Se muestra una lista de todos los cursos disponibles en iconos.
 1. Toque el icono de descarga en la parte inferior de cada icono de objeto de aprendizaje para descargar el contenido de aprendizaje.
 
    ![](assets/download-ipad.png)
@@ -70,7 +68,7 @@ Puede acceder a la aplicación Learning Manager sin conexión en tabletas iPad y
 **Controlar el almacenamiento del dispositivo**
 
 Puede controlar el almacenamiento de su dispositivo periódicamente.\
-Toque el icono de perfil en la esquina superior derecha de la aplicación y toque la opción de menú **Almacenamiento del dispositivo**.
+Presione el icono de perfil en la esquina superior derecha de la aplicación y luego presione la opción de menú **Almacenamiento del dispositivo**.
 
 ![](assets/device-storage-option-ipad.png)
 
