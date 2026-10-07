@@ -4,22 +4,23 @@ jcr-language: en_us
 title: Suplantación del alumno y el responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # Suplantación del alumno y el responsable {#impersonation-of-learner-and-manager}
 
-En grandes organizaciones, el personal de asistencia al cliente necesita una capacidad de suplantación para depurar los problemas a los que se enfrentan los alumnos.
+En grandes organizaciones, el personal de atención al cliente necesita la función de suplantación para depurar los problemas a los que se enfrentan los alumnos.
 
 Con esta capacidad para suplantar a otros usuarios, los administradores pueden identificar y realizar todas las actividades realizadas por los alumnos y responsables de su organización.
 
 >[!NOTE]
 >
->Los administradores personalizados no tienen la capacidad de suplantar a usuarios; solo los administradores pueden realizar la suplantación de usuarios.
+>Los administradores personalizados no pueden suplantar a usuarios; solo los administradores pueden realizar la suplantación de usuarios.
 
 ## Cómo funciona
 
@@ -50,7 +51,7 @@ Para suplantar un usuario, siga los pasos que se indican continuación:
 
    Seleccione Continuar.
 
-   Un mensaje de confirmación, &quot;Impersonation Mode: You are logged in as &quot;username (user email). Logout&quot; aparece en el encabezado de la página.
+   Un mensaje de confirmación, &quot;Modo de suplantación: Ha iniciado sesión como &quot;usuario&quot; (correo electrónico de usuario). Logout&quot; aparece en el encabezado de la página.
 
 **Una sesión suplantada dura 60 minutos.**
 
@@ -78,7 +79,7 @@ Cada inicio de sesión se cuenta por separado en el informe.
 
 ## Preguntas más frecuentes
 
-+++¿Puedo iniciar sesión en Adobe Learning Manager incluso cuando me están suplantando?
++++¿Puedo iniciar sesión en Adobe Learning Manager aunque me estén suplantando?
 
 Sí, el inicio de sesión de un usuario es independiente de la suplantación.
 +++
@@ -88,7 +89,7 @@ Sí, el inicio de sesión de un usuario es independiente de la suplantación.
 Sí, cada acceso de inicio de sesión o visita del administrador mientras se realiza la suplantación se contará por separado.
 +++
 
-+++¿Cuál es el tiempo de espera de suplantación?
++++¿Cuál es el tiempo de espera de suplantación?  
 
 60 minutos. Si un usuario que está suplantando cierra la ventana del navegador y, a continuación, se desplaza a cualquier URL principal en un plazo de 60 minutos, la actividad de suplantación continuará y se deberá mostrar el mensaje del banner.
 +++
