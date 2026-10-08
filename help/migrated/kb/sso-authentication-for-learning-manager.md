@@ -31,7 +31,7 @@ Para configurar la autenticación con SSO, siga estos pasos:
 
    ![](assets/change.png)
 
-1. Introduzca la **[!UICONTROL URL de autenticación iniciada por IDP]** proporcionada por su proveedor de servicios y cargue el archivo XML haciendo clic en el archivo XML de metadatos de IDP.]****[!UICONTROL 
+1. Introduzca la **[!UICONTROL URL de autenticación iniciada por IDP]** proporcionada por su proveedor de servicios y cargue el archivo XML haciendo clic en el archivo XML de metadatos de IDP.**&#x200B;**
 
    ![](assets/sso-configuration.png)
 
