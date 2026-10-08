@@ -4,13 +4,14 @@ title: Interpretar el archivo CSV de transcripciones de alumnos
 description: Interpretar el archivo CSV de transcripciones de alumnos
 contentowner: saghosh
 preview: true
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2996'
 ht-degree: 92%
-
 ---
-
 
 
 # Interpretar el archivo CSV de transcripciones de alumnos

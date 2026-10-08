@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Entrenador virtual en Adobe Learning Manager
 description: Virtual Coach es una función transformativa de Adobe Learning Manager diseñada para salvar la brecha crítica entre el conocimiento teórico y la aplicación en el mundo real. En lugar de confiar únicamente en métodos de aprendizaje pasivos, vídeos, cuestionarios y materiales de lectura. Virtual Coach proporciona a los alumnos un entorno interactivo e inmersivo para practicar conversaciones de alto riesgo y aprender habilidades sociales.
 contentowner: saghosh
-source-git-commit: e81a6ab40f996a2a6013cafe80fb377d51fbef13
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 
 # Introducción
 

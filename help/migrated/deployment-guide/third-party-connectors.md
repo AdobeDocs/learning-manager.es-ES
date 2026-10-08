@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Conectores de Learning Manager
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6186'
 ht-degree: 83%
-
 ---
-
 # Conectores de Learning Manager
 
 Obtenga información sobre cómo integrar Salesforce con Learning Manager mediante conectores, cómo integrar FTP con Learning Manager y cargar el archivo .csv automáticamente mediante el conector de FTP.
@@ -300,7 +301,8 @@ El conector de getAbstract es válido para clientes empresariales de getAbstract
 
    Para que funcione cualquier tipo de sincronización, debe asegurarse de que la fuente del usuario esté presente en la carpeta FTP de getAbstract para las fechas especificadas en la sincronización.
 
-   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:**report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.   [hoja de Excel de ejemplo de fuente de usuario de getAbstract](assets/report-export-20170401175342.xlsx)
+   Consulte la siguiente hoja de Excel, que es un archivo de fuente de usuario de muestra de getAbstract. El nombre del archivo debe tener el formato:**report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
+   [hoja de Excel de ejemplo de fuente de usuario de getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Conector de Harvard ManageMentor {#hmmconnector}
 
@@ -382,7 +384,8 @@ El usuario puede configurar tareas de programación conforme a los requisitos de
 
 ## Configurar el conector de Workday {#configureworkdayconnector}
 
-**Requisito previo**: solicite el administrador de Workday de su empresa para crear un usuario de sistema de integración con los permisos definidos en el documento ISU_Permissions. Descargue una copia del vínculo a continuación.[Descargar una copia de la seguridad del usuario del sistema de integración (ISU).](assets/isu-permissions-v1.pdf) Conozca el proceso para integrar Learning Manager con el conector Workday.
+**Requisito previo**: solicite el administrador de Workday de su empresa para crear un usuario de sistema de integración con los permisos definidos en el documento ISU_Permissions. Descargue una copia del vínculo a continuación.
+[Descargar una copia de la seguridad del usuario del sistema de integración (ISU).](assets/isu-permissions-v1.pdf) Conozca el proceso para integrar Learning Manager con el conector Workday.
 
 1. En la página principal de Learning Manager, coloque el cursor sobre el mosaico de Workday. Aparece un menú. Haga clic en la opción **[!UICONTROL Conectar]** del menú.
 

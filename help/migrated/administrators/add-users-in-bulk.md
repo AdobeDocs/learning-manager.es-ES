@@ -4,18 +4,19 @@ title: Agregar usuarios en bloque
 description: Descubra cómo añadir varios usuarios a la vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 23%
-
+source-wordcount: '369'
+ht-degree: 37%
 ---
-
 # Agregar usuarios en bloque
 
 >[!INFO]
 >
->En este curso de formación, aprenderá a añadir usuarios en bloque mediante un CSV.<br><br>[![botón](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>En este curso de formación, aprenderás a añadir usuarios en bloque mediante un CSV.<br><br>[![button](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
@@ -29,9 +30,9 @@ Puede añadir varios usuarios a la vez siguiendo los pasos que se indican a cont
 
 1. Después de importar el archivo, asigne el contenido del archivo .csv con las etiquetas de la aplicación cuando cargue el archivo .csv por primera vez.
 
-   En todas las cargas posteriores, se tendrán en cuenta las opciones de configuración anteriores para las etiquetas. Haga clic en **[!UICONTROL Guardar]** después de completar la asignación de datos y haga clic en **[!UICONTROL Agregar]** para cargar el archivo .csv asignado.
+   En todas las cargas posteriores, se tendrán en cuenta las opciones de configuración anteriores para las etiquetas. Haga clic en **[!UICONTROL Guardar]** tras finalizar la asignación de datos; a continuación, haga clic en **[!UICONTROL Añadir]** para cargar el archivo .csv asignado.
 
-1. Haga clic en **[!UICONTROL Guardar]** después de completar la asignación de datos y haga clic en **[!UICONTROL Agregar]** para cargar el archivo .csv asignado.
+1. Haga clic en **[!UICONTROL Guardar]** tras finalizar la asignación de datos; a continuación, haga clic en **[!UICONTROL Añadir]** para cargar el archivo .csv asignado.
 
 ## Carga del archivo .csv con campos obligatorios {#csvuploadwithmandatoryfields}
 
@@ -45,7 +46,7 @@ En este caso, de forma predeterminada, el administrador de su empresa se trata c
 
 **Archivo .csv de muestra**
 
-El archivo CSV de muestra de Learning Manager está disponible a continuación con campos obligatorios.
+El archivo .csv de muestra de Learning Manager está disponible a continuación con campos obligatorios.
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## Carga del archivo .csv con todos los campos {#csvuploadwithallthefields}
@@ -60,7 +61,7 @@ Además, los administradores de una organización pueden agregar **ellos mismos*
 
 **Archivo .csv de muestra**
 
-El archivo CSV de muestra de Learning Manager está disponible a continuación con todos los campos.
+El archivo .csv de muestra de Learning Manager está disponible a continuación con todos los campos.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
 Consulte [Uso de carga de CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para obtener más información.

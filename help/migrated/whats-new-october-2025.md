@@ -3,13 +3,14 @@ description: Descubra las nuevas funciones y mejoras de la versión de octubre d
 jcr-language: en_us
 title: Novedades de la versión de octubre de 2025 de Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Novedades de la versión de octubre de 2025 de Adobe Learning Manager
 
@@ -282,11 +283,11 @@ GET /bulkimport/runStatus
 
 **Parámetros**
 
-* **migrationProjectId**: (Obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
+* **migrationProjectId**: (Obligatorio). Un identificador único para un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
 
-* **sprintId**: (Obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
+* **sprintId**: (Obligatorio). Un identificador único para un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
 
-* **sprintRunId**: (Obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
+* **sprintRunId**: (Obligatorio). Un identificador exclusivo que se utiliza para realizar un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
 
 **Respuesta**
 
@@ -668,7 +669,7 @@ Anteriormente, la API pública no admitía el marcado de finalización basado en
 
 ### Definir la preferencia de ID de usuario para los informes SCORM
 
-Algunos clientes requieren el UUID (Universally Unique Identifier) del alumno en lugar del user_id predeterminado para la finalización del contenido de SCORM. El uso del UUID proporciona un seguimiento más preciso en los programas de aprendizaje y evita la duplicación del uso de licencias en las cuentas de MAU (usuario activo mensual).
+Algunos clientes requieren el UUID (Identificador único universal) del alumno en lugar del user_id predeterminado para la finalización del contenido de SCORM. El uso del UUID proporciona un seguimiento más preciso en los programas de aprendizaje y evita la duplicación del uso de licencias en las cuentas de MAU (usuario activo mensual).
 
 Para admitir esto, se ha agregado una nueva configuración de nivel de cuenta, `reporting_userid_preference`. Cuando está activada, esta configuración envía el UUID en lugar de user_id siempre que los alumnos completan el contenido de SCORM.
 
@@ -730,7 +731,7 @@ Consulte [Transcripciones de alumnos](/help/migrated/administrators/feature-summ
 
 El informe de usuarios ahora incluye campos adicionales para mejorar el seguimiento de los usuarios y la asignación de la organización. Estas actualizaciones simplifican la identificación de usuarios, admiten la integración con los flujos de trabajo de administración de usuarios descendentes, mejoran la comprensión de las relaciones de creación de informes y mantienen los límites de la organización para evitar la comunicación cruzada accidental.
 
-* Columna de ID de usuario interno: Proporciona identificadores internos únicos para realizar un seguimiento del usuario sin problemas en diferentes sistemas y puntos finales de API.
+* Columna de ID de usuario interno: Proporciona identificadores internos únicos para un seguimiento de usuario fluido en diferentes sistemas y puntos finales de API.
 * Columna Correo electrónico del responsable: Incluye información de contacto del director directo para el seguimiento de la jerarquía organizativa.
 
 ![Informe de usuario que muestra las columnas de correo electrónico del administrador e ID de usuario interno resaltadas en amarillo](/help/migrated/assets/user-report-columns.png)

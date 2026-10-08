@@ -4,13 +4,14 @@ title: Obsoletaciones de API en Adobe Learning Manager
 description: A medida que evolucionan las API de Adobe Learning Manager, estas se reorganizan o actualizan periódicamente. Cuando las API evolucionan, la API antigua queda obsoleta y, finalmente, se elimina. Esta página contiene información que debe conocer al migrar de versiones de API obsoletas a versiones de API más nuevas y estables.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Cambios y depreciaciones de la API en Adobe Learning Manager
 
 ## Rechazas de API en la versión de marzo de 2024 de Adobe Learning Manager
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 Las siguientes rutas están en desuso:
 
 * /learningObjects
-   * Rutas obsoletas:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Nuevos trazados:
-      * enrollment.loInstance.loResources
-      * instance.loResources
+  * Rutas obsoletas:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Nuevos trazados:
+    * enrollment.loInstance.loResources
+    * instance.loResources
 
 * /learningObjects/{id}
-   * Ruta obsoleta:
-      * enrollment.instance.subLoInstances.learningObject
-   * Nueva ruta:
-      * enrollment.instance.subLoInstances
+  * Ruta obsoleta:
+    * enrollment.instance.subLoInstances.learningObject
+  * Nueva ruta:
+    * enrollment.instance.subLoInstances
 
 * /enrollments
-   * Ruta obsoleta:
-      * loInstance.learningObject.enrollment
-   * Nueva ruta:
-      * loInstance.learningObject
+  * Ruta obsoleta:
+    * loInstance.learningObject.enrollment
+  * Nueva ruta:
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * Ruta obsoleta:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nueva ruta:
-      * instance.subLoInstances
+  * Ruta obsoleta:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nueva ruta:
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

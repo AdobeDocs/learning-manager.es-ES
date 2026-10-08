@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Iniciar sesión en Learning Manager mediante autenticación con inicio de sesión único (SSO)
 contentowner: dvenkate
 exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 68%
@@ -28,7 +31,7 @@ Para configurar la autenticación con SSO, siga estos pasos:
 
    ![](assets/change.png)
 
-1. Introduzca la **[!UICONTROL URL de autenticación iniciada por IDP]** proporcionada por su proveedor de servicios y cargue el archivo XML haciendo clic en el archivo XML de metadatos de IDP.**&#x200B;**
+1. Introduzca la **[!UICONTROL URL de autenticación iniciada por IDP]** proporcionada por su proveedor de servicios y cargue el archivo XML haciendo clic en el archivo XML de metadatos de IDP.]****[!UICONTROL 
 
    ![](assets/sso-configuration.png)
 

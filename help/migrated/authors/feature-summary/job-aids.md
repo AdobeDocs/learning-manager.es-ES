@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Ayudas de trabajo
 description: Ayudas de trabajo es una base de datos de contenido de formación a la que pueden acceder los alumnos sin ninguna inscripción y sin criterios de finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # Ayudas de trabajo
 
 **Ayudas de trabajo** es un repositorio de contenido de formación al que pueden acceder los alumnos sin ningún criterio de inscripción o finalización. Los alumnos pueden consultar estas ayudas de trabajo para obtener asistencia en la realización de cualquier actividad o tarea de una empresa.
@@ -71,17 +72,17 @@ Las ayudas de trabajo multilingües en Adobe Learning Manager (ALM) permiten a l
 
 **Casos prácticos**
 
-* Capacitación de la fuerza laboral mundial: entrega manuales de seguridad, guías de procesos o documentos de referencia en varios idiomas a una fuerza laboral diversa.
-* Cumplimiento normativo: garantiza que todos los empleados reciban la misma documentación de cumplimiento en su idioma nativo.
-* Incorporación coherente: proporcione listas de comprobación de incorporación o preguntas frecuentes en los idiomas locales para los nuevos empleados en todo el mundo.
-* Duplicación reducida: administre todas las versiones de idioma de una ayuda de trabajo en una sola entrada, lo que simplifica las actualizaciones y la creación de informes.
+* Capacitación de la fuerza laboral global: Distribuye manuales de seguridad, guías de procesos o documentos de referencia en varios idiomas a una plantilla diversa.
+* Cumplimiento normativo: Asegúrese de que todos los empleados reciban la misma documentación de cumplimiento en su idioma nativo.
+* Incorporación coherente: Proporciona listas de comprobación de incorporación o preguntas frecuentes en los idiomas locales para los nuevos empleados en todo el mundo.
+* Reducción de la duplicación: Gestiona todas las versiones lingüísticas de una ayuda de trabajo en una única entrada, lo que simplifica las actualizaciones y la creación de informes.
 
 ### Funciones principales
 
-* Compatibilidad con varios idiomas: adjunte un archivo o URL único para cada idioma admitido en una sola ayuda de trabajo.
-* Nombre y descripción localizados: introduzca el nombre y la descripción de la ayuda de trabajo en cada idioma.
-* Gestión unificada: edita, actualiza e informa sobre todas las versiones de idiomas desde un único lugar.
-* Compatibilidad con versiones anteriores: las ayudas de trabajo existentes en un solo idioma se replican automáticamente en todos los idiomas agregados hasta que se cargan nuevos archivos.
+* Compatibilidad con varios idiomas: Adjunte un único archivo o URL para cada idioma admitido en una única ayuda de trabajo.
+* Nombre y descripción localizados: Introduzca el nombre y la descripción de la ayuda de trabajo en cada idioma.
+* Gestión unificada: Edita, actualiza e informa sobre todas las versiones de idiomas desde un único lugar.
+* Retrocompatibilidad: Las ayudas de trabajo existentes en un solo idioma se replican automáticamente en todos los idiomas agregados hasta que se cargan nuevos archivos.
 
 ### Crear una ayuda de trabajo multilingüe
 

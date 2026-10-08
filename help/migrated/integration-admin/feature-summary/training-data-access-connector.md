@@ -3,13 +3,14 @@ description: Aprenda a integrar el conector de acceso a datos de formación con 
 jcr-language: en_us
 title: Conector de Training Data Access
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
-
 ---
-
 
 # Conector de Training Data Access en Adobe Learning Manager
 
@@ -83,7 +84,7 @@ Para mostrar los datos de formación en un sitio web descentralizado o basado en
 2. Use la **URL base**, la **URL de CDN**, el **ID de cliente**, el **Secreto de cliente** y el **Token de actualización de administrador** para crear una configuración en AEM.
 3. Cree el sitio utilizando componentes AEM.
 4. Publish abre el sitio para los alumnos.
-5. Para obtener información completa sobre la configuración, consulte [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) y [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Para obtener información completa sobre la configuración, consulte [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) y [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Experiencia del alumno
 

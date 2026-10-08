@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Idiomas admitidos en Adobe Learning Manager
 description: Explorar la interfaz y los idiomas de contenido admitidos en Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 48%
-
+source-wordcount: '326'
+ht-degree: 38%
 ---
-
 # Idiomas admitidos en Adobe Learning Manager
 
 Adobe Learning Manager admite los siguientes idiomas de interfaz y contenido.
@@ -21,19 +22,19 @@ Adobe Learning Manager admite los siguientes idiomas de interfaz y contenido.
 | idioma inglés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | en-US |
 | Francés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | fr-FR |
 | Alemán | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | de-DE |
-| Chino | <li>Alumno</li><li>Responsable</li> | zh-CN |
+| Chino | <li>Administración</li><li>Responsable</li> | zh-CN |
 | Español | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | es-ES |
-| Italiano | <li>Alumno</li><li>Responsable</li> | it-IT |
+| Italiano | <li>Administración</li><li>Responsable</li> | it-IT |
 | Japonés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | ja-JP |
-| Portugués | <li>Alumno</li><li>Responsable</li> | pt-BR |
+| Portugués | <li>Administración</li><li>Responsable</li> | pt-BR |
 | Neerlandés | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | nl-NL |
-| Polaco | <li>Alumno</li><li>Responsable</li> | pl-PL |
+| Polaco | <li>Administración</li><li>Responsable</li> | pl-PL |
 | Turco | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | tr-TR |
 | Coreano | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | ko-KR |
-| Sueco | <li>Alumno</li><li>Responsable</li> | sv-SE |
+| Sueco | <li>Administración</li><li>Responsable</li> | sv-SE |
 | Ruso | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | ru-RU |
-| Indonesio | <li>Alumno</li><li>Responsable</li> | id-ID |
-| Noruego | <li>Alumno</li><li>Responsable</li> | nb-NO |
+| Indonesio | <li>Administración</li><li>Responsable</li> | id-ID |
+| Noruego | <li>Administración</li><li>Responsable</li> | nb-NO |
 | Francés (Canadá) | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | fr-ca |
 | Hindi | <li>Administrador</li><li>Autor</li><li>Alumno</li><li>Responsable</li> | hi-IN |
 

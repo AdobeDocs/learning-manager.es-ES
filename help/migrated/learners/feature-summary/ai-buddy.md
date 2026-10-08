@@ -3,13 +3,14 @@ description: El Asistente de inteligencia artificial (Beta) para alumnos es un c
 jcr-language: en_us
 title: Asistente de inteligencia artificial para alumnos de Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # Asistente de IA para los alumnos
 
 El Asistente de inteligencia artificial (Beta) para alumnos les ayuda a encontrar rápidamente respuestas del contenido de aprendizaje asignado sin tener que explorar cursos completos. Puede hacer preguntas en un lenguaje sencillo y recibir respuestas precisas y centradas con vínculos de origen al contenido relevante del curso.
@@ -34,13 +35,13 @@ El asistente de inteligencia artificial es un compañero de chat con tecnología
 2. Fuentes de contenido y citas
    * Recupera respuestas de los recursos disponibles presentes en los catálogos admitidos.
    * Proporciona citas con vínculos directos a materiales de origen
-   * Compatible con todos los formatos de contenido ALM estáticos e interactivos: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Vídeo (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
+   * Admite todos los formatos de contenido ALM estáticos e interactivos: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
 3. Experiencia de usuario
    * Interfaz del panel lateral accesible desde todas las páginas del alumno
    * Diseño interactivo que se adapta al área de contenido
    * Historial de chat mantenido en la sesión del navegador
    * Limpiar pizarra en nuevo inicio de sesión o actualización de página
-   * Tono del profesor o tutor: amable, claro y pedagógicamente sólido
+   * Tono del profesor o tutor: amigable, claro y pedagógicamente sólido
 4. Controles del administrador
    * Habilitar o deshabilitar la función en el nivel de cuenta
    * Controlar el acceso de los grupos de usuarios
@@ -252,9 +253,9 @@ El asistente de inteligencia artificial proporciona a los alumnos respuestas rá
 >
 >Después de configurar un nuevo catálogo, espere entre 4 y 5 horas para que el contenido se indexe y esté disponible para las respuestas del Asistente de inteligencia artificial.
 
-### Escenario 1: sin acceso al contenido
+### Escenario 1: Sin acceso al contenido
 
-Problema: el alumno tiene acceso al Asistente del alumno, pero recibe las respuestas &quot;No tengo respuesta a esta pregunta&quot;.
+Problema: El alumno tiene acceso al Asistente del alumno, pero recibe las respuestas &quot;No tengo respuesta a esta pregunta&quot;.
 
 **Posibles causas**
 
@@ -269,9 +270,9 @@ Problema: el alumno tiene acceso al Asistente del alumno, pero recibe las respue
 * Asegurarse de que haya contenido relevante en esos catálogos
 * Espere unas horas después de agregar contenido nuevo para que se indexe
 
-### Caso 2: Respuestas irrelevantes o de mala calidad
+### Escenario 2: Respuestas irrelevantes o de mala calidad
 
-**Problema**: el Asistente para inteligencia artificial proporciona respuestas que no coinciden con la pregunta o son de baja calidad.
+**Problema**: El Asistente de inteligencia artificial proporciona respuestas que no coinciden con la pregunta o son de baja calidad.
 
 **Posibles causas**
 
@@ -287,9 +288,9 @@ Problema: el alumno tiene acceso al Asistente del alumno, pero recibe las respue
 * Revise el informe de uso detallado para identificar patrones
 * Considerar la creación de ayudas de trabajo para las preguntas frecuentes
 
-### Escenario 3: preguntas fuera del ámbito
+### Escenario 3: Preguntas fuera del ámbito
 
-**Problema**: el alumno hace preguntas no relacionadas con el contenido de formación.
+**Problema**: El alumno hace preguntas no relacionadas con el contenido de la formación.
 
 **Ejemplos**:
 

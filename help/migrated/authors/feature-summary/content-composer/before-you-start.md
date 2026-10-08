@@ -2,13 +2,14 @@
 description: 'Descubre lo que necesitas antes de iniciar el Compositor de contenido: una cuenta de Creative Cloud, Google Chrome y documentos de origen opcionales para guiar la IA.'
 jcr-language: en_us
 title: Lo que necesitas antes de empezar
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Antes de empezar
 
@@ -16,7 +17,7 @@ Antes de iniciar Adobe Learning Manager Content Composer, confirme lo siguiente:
 
 >[!IMPORTANT]
 >
->Debe iniciar sesión con una cuenta de Adobe Creative Cloud válida. Si aún no dispone de una, puede crear una cuenta gratuita a través de Adobe Express. Para obtener más información, vea [Crear una cuenta de Adobe Express gratuita](https://helpx.adobe.com/es/express/web/adobe-express-subscription/free.html). Después de crear las credenciales de Adobe, inicie Content Composer e inicie sesión para empezar a crear cursos. Si su organización ya tiene una suscripción de Creative Cloud, póngase en contacto con él para que le proporcione una cuenta de Creative Cloud antes de iniciar sesión en Content Composer.
+>Debe iniciar sesión con una cuenta de Adobe Creative Cloud válida. Si aún no dispone de una, puede crear una cuenta gratuita a través de Adobe Express. Para obtener más información, vea [Crear una cuenta de Adobe Express gratuita](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Después de crear las credenciales de Adobe, inicie Content Composer e inicie sesión para empezar a crear cursos. Si su organización ya tiene una suscripción de Creative Cloud, póngase en contacto con él para que le proporcione una cuenta de Creative Cloud antes de iniciar sesión en Content Composer.
 
 Para obtener la mejor experiencia con el compositor de contenido, **Google Chrome es el explorador recomendado**. Firefox y Safari pueden mostrar diferencias de funcionalidad o comportamiento.
 

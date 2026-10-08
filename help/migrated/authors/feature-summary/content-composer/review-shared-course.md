@@ -2,13 +2,14 @@
 description: Aprenda a abrir y revisar un curso de compositor de contenido compartido para obtener comentarios, incluido cómo navegar por el curso, añadir comentarios, responder a otros revisores y etiquetar a otros revisores.
 jcr-language: en_us
 title: Revisar el proyecto compartido
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
-
 ---
-
 
 # Revisar y comentar un proyecto compartido
 

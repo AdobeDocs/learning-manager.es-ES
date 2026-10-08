@@ -2,7 +2,10 @@
 description: Puntos finales de API públicos orientados al alumno para enumerar, recuperar, inscribirse y eliminar rutas de aprendizaje personalizadas en Adobe Learning Manager y puntos finales de API para comprobar si un alumno determinado puede acceder directamente a uno o varios objetos de aprendizaje a través de un catálogo asignado a ellos.
 jcr-language: en_us
 title: Cambios en la API en septiembre de 2026
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

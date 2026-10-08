@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aplicación Adobe Learning Manager para escritorio
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Aplicación Adobe Learning Manager para escritorio
 
 Obtenga información sobre cómo utilizar la aplicación Adobe Learning Manager para escritorio a fin de crear y mejorar contenido que se puede compartir en Aprendizaje social.
@@ -199,7 +200,7 @@ Para editar o eliminar un archivo de la galería, haga clic en los puntos suspen
 
 Las notificaciones de Learning Manager aparecen en la ventana de notificaciones aunque el alumno no esté registrado en la aplicación Learning Manager para web. Las notificaciones incluyen publicaciones o tableros que los usuarios han creado, siguen o participan. Al hacer clic en la notificación, el usuario accederá a la web de Aprendizaje social de Learning Manager.
 
-Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > &#x200B;** [!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
+Para silenciar las notificaciones, haz clic en **[!UICONTROL menú Perfil*]* > **[!UICONTROL Configuración] > **[!UICONTROL Silenciar notificaciones]**.
 
 ## Configuración de la aplicación Adobe Learning Manager para escritorio {#settingsinadobecaptivateprimedesktopapplication}
 

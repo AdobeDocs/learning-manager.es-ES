@@ -1,13 +1,14 @@
 ---
 title: Unirse a una sesión de Live Hub (beta) como instructor
 description: Obtenga información sobre cómo los instructores se unen a una sesión de Live Hub antes de la hora de inicio programada para preparar la sala y configurar los ajustes antes de que lleguen los alumnos.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 2%
-
 ---
-
 
 # Unirse a una sesión de Live Hub (beta) como instructor
 

@@ -4,13 +4,14 @@ title: No se puede asignar una insignia
 description: Una vez que un alumno completa un curso/programa de aprendizaje/certificación, no se le concede ninguna insignia.
 contentowner: nluke
 exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # No se puede asignar una insignia
 
 ## Problema
@@ -29,7 +30,7 @@ En la versión anterior, no se podía añadir una insignia posteriormente si no 
 
 En las versiones actuales, esta función está disponible.
 
-## Resolución
+## Solución
 
 Si el alumno experimente un problema, pruebe a realizar los pasos siguientes:
 
@@ -47,7 +48,7 @@ Si el alumno experimente un problema, pruebe a realizar los pasos siguientes:
 
    ![](assets/remove-a-badge.png)
 
-1. Reasigna la insignia al objeto de aprendizaje y haz clic en **[!UICONTROL Guardar]**.
+1. Vuelva a asignar la insignia al objeto de aprendizaje y haga clic en **[!UICONTROL Guardar]**.
 
    Este paso asignará la insignia a todos los alumnos inscritos en el objeto de aprendizaje.
 
@@ -60,4 +61,4 @@ Si el alumno experimente un problema, pruebe a realizar los pasos siguientes:
 
    ![](assets/remove-a-badge-cert.png)
 
-1. Reasigna la insignia a la certificación y haz clic en **[!UICONTROL Guardar]**.
+1. Vuelva a asignar la insignia a la certificación y haga clic en **[!UICONTROL Guardar]**.

@@ -3,13 +3,14 @@ description: Descubra las nuevas funciones y mejoras de la versión de noviembre
 jcr-language: en_us
 title: Resumen de las nuevas funciones de noviembre de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Resumen de las nuevas funciones de noviembre de 2024 {#new-features-summary}
 
 Descubra las nuevas funciones y mejoras de la versión de noviembre de 2024 de Adobe Learning Manager.
@@ -228,7 +229,7 @@ La columna carpeta utiliza el tipo de datos cadena y es una columna opcional. A 
 * Si agrega un nuevo nombre de carpeta para un módulo que ya está presente en una carpeta diferente, el nuevo valor no sobrescribirá ni reemplazará la carpeta asignada. El módulo se agregará a la nueva carpeta y también permanecerá disponible en la carpeta existente.
 * Si el valor está en blanco, la carpeta se establecerá de forma predeterminada en **[!UICONTROL Public]**.
 
-Consulte el archivo csv spec[&#128279;](assets/module_version.csv) de module_version para obtener más información.
+Consulte el archivo csv spec](assets/module_version.csv) de [module_version para obtener más información.
 
 ### Cambios en la migración de módulos: criterios de finalización
 
@@ -258,7 +259,7 @@ A continuación se indican las condiciones de las nuevas columnas:
    * El tipo de datos debe ser una cadena de valores y los valores admitidos son `QUIZ_ATTEMPTED`, `QUIZ_PASSED` y `QUIZPASSED_OR_LIMITREACHED`.
    * Cuando `completionCriteria` esté establecido en `QUIZ`, escriba el valor de prueba adecuado en la columna `quizData`.
 
-Consulte el archivo csv spec[&#128279;](assets/module_version.csv) de module_version para obtener más información.
+Consulte el archivo csv spec](assets/module_version.csv) de [module_version para obtener más información.
 
 ### Cambios en la migración de cursos: criterios de finalización
 
@@ -527,7 +528,7 @@ Los administradores pueden encontrar estos cambios de informes en la sección **
 
 El informe **[!UICONTROL Transcripciones de aprendizaje]** contendrá dos nuevas columnas:
 
-* **[!UICONTROL Id. de módulo]**: Muestra el identificador único de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
+* **[!UICONTROL Id. de módulo]**: Muestra el identificador exclusivo de cada módulo. Esta nueva columna se ha agregado después de la columna **[!UICONTROL Module]** existente.
 * **[!UICONTROL Id. de instancia del curso]**: Muestra el identificador único de cada instancia de curso.Esta nueva columna se ha agregado después de la columna **[!UICONTROL Instancia]** existente.
 * **[!UICONTROL Comentario de finalización]**: Esta columna captura los comentarios introducidos por el administrador al marcar la finalización del usuario. Esta nueva columna se ha agregado al final del informe.
 

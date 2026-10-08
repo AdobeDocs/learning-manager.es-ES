@@ -3,7 +3,10 @@ title: Función personalizada con permisos de anuncio con ámbito
 jcr-language: en_us
 description: Aprenda a crear una función personalizada en Adobe Learning Manager que permita anuncios solo para catálogos y grupos de usuarios seleccionados.
 exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Administrar a los alumnos de la sesión
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # Administrar a los alumnos de la sesión
 
 Lea este artículo para obtener información sobre cómo administrar a los asistentes, enviar correos electrónicos relacionados con el curso y recordatorios de las sesiones.
@@ -123,8 +124,8 @@ El código QR se descarga como PDF y puede compartirse digitalmente o mostrarse 
 * Los alumnos escanean el código QR con un dispositivo móvil.
 * Adobe Learning Manager valida la sesión y el alumno.
 * Según el tipo de código QR:
-   * Los alumnos se inscriben en la instancia del curso, o
-   * Se registra la asistencia y la finalización del período de sesiones
+  * Los alumnos se inscriben en la instancia del curso, o
+  * Se registra la asistencia y la finalización del período de sesiones
 
 Todas las actualizaciones se reflejan automáticamente en los registros, transcripciones e informes de los alumnos.
 
@@ -147,9 +148,9 @@ Todas las actualizaciones se reflejan automáticamente en los registros, transcr
 * Cuando un alumno o instructor se inscribe en una sesión de clase o de clase virtual, Learning Manager envía una invitación de calendario (archivo ICS).
 * La invitación de calendario incluye:
 
-   * Fecha y hora de la sesión
-   * Detalles de sesión
-   * **Vínculo para unirse a la sesión directa** en la descripción del calendario
+  * Fecha y hora de la sesión
+  * Detalles de sesión
+  * **Vínculo para unirse a la sesión directa** en la descripción del calendario
 
   ![](assets/calendar-invite-session.png)
 

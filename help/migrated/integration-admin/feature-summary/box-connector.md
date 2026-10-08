@@ -3,13 +3,14 @@ description: Conector de Box en Adobe Learning Manager
 jcr-language: en_us
 title: Conector de Box
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Conector de Box en Adobe Learning Manager
 
@@ -75,7 +76,7 @@ Para asignar atributos:
 3. En la página **Asignar atributos**:
    - El lado izquierdo muestra los campos obligatorios en Adobe Learning Manager.
    - El lado derecho muestra los nombres de las columnas del CSV. Inicialmente, este lado contiene listas desplegables vacías.
-   - Seleccione **Elegir CSV** para cargar un archivo CSV de muestra. Esto rellena el menú desplegable del lado derecho con los nombres de columna del archivo CSV. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual#csv) para obtener archivos CSV de muestra.
+   - Seleccione **Elegir CSV** para cargar un archivo CSV de muestra. Esto rellena el menú desplegable del lado derecho con los nombres de columna del archivo CSV. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv) para obtener archivos CSV de muestra.
    - Asigne cada campo de Adobe Learning Manager a la columna CSV correspondiente.
 
    ![](assets/box-connector2.png)
@@ -174,6 +175,6 @@ Para ver el estado de ejecución:
    - **Duración:** Tiempo total necesario para el procesamiento
    - **Tipo de importación:** Si la importación se programó o a petición
    - **Estado actual:** Información de estado en tiempo real
-      - **En curso:** Se está ejecutando la importación
-      - **Completado:** Finalización correcta con recuentos de registros
-      - **Error:** Error con información de diagnóstico
+     - **En curso:** Se está ejecutando la importación
+     - **Completado:** Finalización correcta con recuentos de registros
+     - **Error:** Error con información de diagnóstico

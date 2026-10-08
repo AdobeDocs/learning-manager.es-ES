@@ -5,20 +5,21 @@ description: En este documento, se describe la compatibilidad con la accesibilid
 contentowner: saghosh
 preview: true
 exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
-source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 76%
 ---
-
 # Accesibilidad en Adobe Learning Manager
 
 En este documento, se describe la compatibilidad con la accesibilidad proporcionada por el sistema de gestión de aprendizaje Learning Manager para los alumnos con discapacidad. También proporciona a los usuarios opciones de navegación y funciones de accesibilidad de la plataforma.
 
 Learning Manager sigue los estándares de accesibilidad WCAG 2.1 Nivel A y AA de W3C para la plataforma.
 
-La función Alumno de Adobe Learning Manager permite a los alumnos navegar por la plataforma y aprovechar las siguientes funciones de accesibilidad clave:
+La función Alumno de Adobe Learning Manager permite a los alumnos navegar por la plataforma y aprovechar las siguientes prestaciones de accesibilidad importantes:
 
 * Lector de pantalla
 * Teclado
@@ -150,8 +151,8 @@ La función de alumno de Learning Manager admite otras funciones de accesibilida
 
 Para obtener más información, consulte:
 
-* [Informe de conformidad de accesibilidad para un alumno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
-* [Informe de conformidad de accesibilidad para todas las funciones](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
+* [Informe de conformidad de la accesibilidad para un alumno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Informe de conformidad de la accesibilidad para todas las funciones](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Flujos de trabajo principales de Learning Manager (función Alumno) {#captivateprimetopworkflowslearnerrole}
 
@@ -169,10 +170,10 @@ Utilice la tecla `kbd Tab` para navegar por los elementos de la página. Use la 
 
 ## Consumir formación en Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Una vez que se identifique un curso de formación, use `kbd Tab` o `kbd Shift + Tab` para ir al botón Inscribir/Iniciar. El estado del botón depende del estado de inscripción de esa formación.
+1. Una vez que se identifique un curso de formación, use `kbd Tab` o `kbd Shift + Tab` para ir al botón Inscribir/Iniciar. El estado del botón depende del estado de inscripción para esa formación.
 
 1. Pulse `kbd ENTER` para comenzar el entrenamiento.
-1. A continuación se indican los controles que aparecen independientemente del tipo de contenido:
+1. Los controles siguientes se muestran en pantalla sea cual sea el tipo de contenido:
 
    * Índice
    * Notas

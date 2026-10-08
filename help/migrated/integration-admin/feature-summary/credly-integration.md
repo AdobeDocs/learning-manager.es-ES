@@ -4,13 +4,14 @@ title: Con Credibilidad
 description: Obtenga más información sobre la integración de Credly con ALM para administrar y compartir insignias externas de la plataforma en varios canales de medios sociales
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Con Credibilidad
 
 [Credly](https://info.credly.com/) es una plataforma de credenciales digitales que permite a los alumnos y organizaciones obtener, compartir y verificar logros profesionales, como insignias o certificaciones. Los alumnos pueden administrar y compartir insignias a través de su perfil de Credly en redes sociales y otros lugares.
@@ -45,11 +46,11 @@ El archivo badge.csv de Adobe Learning Manager le permite migrar insignias desde
 * externalBadgeId
 * externalBadgeProvider
 
-El ID de insignia externo hace referencia al ID de plantilla de insignia en la plataforma Credly y el proveedor de insignias externo es Credly. Agregue estos valores en badge.csv y siga los pasos indicados en el [Manual de migración](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar el csv.
+El ID de insignia externo hace referencia al ID de plantilla de insignia en la plataforma Credly y el proveedor de insignias externo es Credly. Agregue estos valores en badge.csv y siga los pasos indicados en el [Manual de migración](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar el csv.
 
 ## Crear una aptitud: administrador
 
-Una vez importada la insignia en Adobe Learning Manager, el administrador puede crearla como aptitud. Para saber cómo crear una aptitud, consulte [Crear y modificar aptitudes](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/skills-levels).
+Una vez importada la insignia en Adobe Learning Manager, el administrador puede crearla como aptitud. Para saber cómo crear una aptitud, consulte [Crear y modificar aptitudes](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
 
 ### Asigne la aptitud/insignia al objeto de aprendizaje: autor
 

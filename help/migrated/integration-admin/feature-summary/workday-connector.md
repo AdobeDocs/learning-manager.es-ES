@@ -3,13 +3,14 @@ description: Aprenda a integrar el conector de Workday con Adobe Learning Manage
 jcr-language: en_us
 title: Conector de Workday
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
-
 ---
-
 
 # Conector de Workday en Adobe Learning Manager
 
@@ -50,7 +51,7 @@ Para configurar el conector de Workday:
 3. Escriba los siguientes detalles de conexión:
    - **Nombre de conexión**: El nombre de su elección para la conexión.
    - **Dirección Url Del Host**: Lo proporciona el administrador de Workday.
-   - **Inquilino**: Identificador interno del administrador de Workday.
+   - **Inquilino**: Identificador interno de su administrador de Workday.
    - **Nombre de usuario y contraseña**: El administrador de Workday crea un usuario de sistema integrado (ISU) con los privilegios de seguridad necesarios y lo comparte con el administrador de integración.
 
    ![](assets/workday-connector2.png)

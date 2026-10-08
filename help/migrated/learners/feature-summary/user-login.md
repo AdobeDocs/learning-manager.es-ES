@@ -4,21 +4,22 @@ jcr-language: en_us
 title: Iniciar sesión
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 30%
-
 ---
-
 # Iniciar sesión
 
 Inicie sesión en Learning Manager como alumno.
 
 Al utilizar Adobe Learning Manager por primera vez, los alumnos deben crear una cuenta. Puede hacerlo de una de estas dos formas:
 
-* Registro automático: utilice la dirección URL proporcionada en el correo electrónico de bienvenida para crear su cuenta.
-* Cuenta creada por el administrador: un administrador puede crear una cuenta en su nombre.
+* Registro automático: Utilice la URL proporcionada en el correo electrónico de bienvenida para crear su cuenta.
+* Cuenta creada por el administrador: Un administrador puede crear una cuenta en su nombre.
 
 ## Crear una cuenta mediante la dirección URL de correo electrónico de bienvenida
 

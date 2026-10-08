@@ -4,13 +4,14 @@ title: Primeros pasos como alumno
 description: Utilice la página de introducción para recorrer las rutas de aprendizaje clave de Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 87%
-
 ---
-
 # Primeros pasos como alumno
 
 Empiece a utilizar la aplicación de alumno en Learning Manager.

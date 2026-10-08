@@ -2,17 +2,18 @@
 description: Una referencia completa para todas las propiedades del esquema JSON del tema de Compositor de contenido, incluidos los tokens de paleta, las pilas de fuentes, los tokens de radio y espaciado, los valores de función de texto, las propiedades de componentes y el estilo de evaluación.
 jcr-language: en_us
 title: Referencia de propiedades JSON del tema Adobe Learning Manager Content Composer
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Referencia de propiedades JSON del tema Adobe Learning Manager Content Composer
 
-Una referencia completa para cada propiedad de un archivo JSON de tema de Content Composer, con descripciones y valores de ejemplo.
+Una referencia completa para cada propiedad de un Archivo JSON temático de Content Composer, con descripciones y valores de ejemplo.
 
 Campos de nivel superior que identifican y describen el tema.
 
@@ -20,7 +21,7 @@ Campos de nivel superior que identifican y describen el tema.
 
 | **Propiedad** | **Tipo** | **Descripción** | **Valor de pizarra** |
 |--------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| id | cadena | Identificador único del tema. Minúsculas, solo guiones, sin espacios ni caracteres especiales. Se utiliza internamente para hacer referencia al tema. | &quot;pizarra&quot; |
+| id | cadena | Identificador temático único. Minúsculas, solo guiones, sin espacios ni caracteres especiales. Se utiliza internamente para hacer referencia al tema. | &quot;pizarra&quot; |
 | name | cadena | Nombre para mostrar que se muestra en el panel Temas del curso. | &quot;Pizarra&quot; |
 | versión | cadena | Número de versión semántica. Utilice &quot;1.0.0&quot; para nuevos temas. | &quot;1.0.0&quot; |
 | descripción | cadena | Descripción breve del carácter visual del tema. | &quot;Un tema cálido y autoritativo con fondo crema, acentos de Adobe rojo y el sistema de tipo Roboto Slab + Roboto&quot; |

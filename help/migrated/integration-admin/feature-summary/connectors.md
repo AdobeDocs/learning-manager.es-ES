@@ -3,13 +3,14 @@ description: Información general sobre cada conector compatible con ALM
 jcr-language: en_us
 title: Información general sobre conectores en Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
-
 
 # Conectores de Adobe Learning Manager
 
@@ -92,7 +93,7 @@ Estos conectores integran Adobe Learning Manager con las plataformas de videocon
 
 ### Conector de Microsoft Teams
 
-El conector de Microsofts Teams transforma Adobe Learning Manager en una solución completa de clase virtual al integrarse directamente con las funciones de reunión de equipos. Este conector es esencial para las organizaciones que utilizan el ecosistema de Microsoft 365.
+El conector de Microsofts Teams transforma Adobe Learning Manager en una solución completa de clase virtual al integrarse directamente con las funciones de reunión de Teams. Este conector es esencial para las organizaciones que utilizan el ecosistema de Microsoft 365.
 
 #### Capacidades clave:
 
@@ -251,7 +252,7 @@ Estos conectores permiten la monetización del contenido de aprendizaje y la int
 
 ### Conector de Adobe Commerce
 
-El conector de Adobe Commerce transforma Adobe Learning Manager en una plataforma completa de aprendizaje y comercio que permite a las organizaciones vender cursos, certificaciones y programas de formación a través de una experiencia de comercio electrónico totalmente integrada.
+El conector de Adobe Commerce transforma Adobe Learning Manager en una plataforma de aprendizaje y comercio integral que permite a las organizaciones vender cursos, certificaciones y programas de formación a través de una experiencia de comercio electrónico totalmente integrada.
 
 **Capacidades clave:**
 

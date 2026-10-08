@@ -2,13 +2,14 @@
 title: Varias inscripciones en Adobe Learning Manager
 description: Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
-
 ---
-
 # Varias inscripciones en Adobe Learning Manager
 
 En Adobe Learning Manager, cada curso puede presentar diferentes instancias. Como administrador de cuentas, una de sus tareas principales es crear diferentes instancias de sesiones VILT en diferentes zonas horarias y, llegado el caso, crear sesiones para grupos de usuarios específicos.

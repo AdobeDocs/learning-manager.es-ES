@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Plantillas de correo electrónico
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
-
 ---
-
 # Plantillas de correo electrónico
 
 Los eventos de su actividad de formación activan mensajes de correo electrónico que se envían a los alumnos. Como administrador, puede activar, desactivar o modificar fácilmente estas plantillas de correo electrónico.
@@ -84,7 +85,7 @@ Las plantillas de correo electrónico que se indican a continuación forman part
 1. Para abrir la página de configuración, haga clic en **[!UICONTROL Configuración]**. Ahora puede personalizar las plantillas de correo electrónico.
 1. Para personalizar el nombre y el ID de correo electrónico del que reciben los mensajes los alumnos, edite **[!UICONTROL Nombre y dirección del remitente].**
 
-   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
+   Póngase en contacto con [***Soporte técnico de Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar o cambiar estos detalles.
 
 1. Personalice el banner de correo electrónico en la opción **[!UICONTROL Banner de correo electrónico]**. Cambie el color del banner seleccionando **[!UICONTROL Fondo de banner]**.
 
@@ -173,7 +174,7 @@ Puedes descargar el informe de acceso al correo electrónico haciendo clic en el
 
 ## Personalizar el dominio del correo electrónico {#customizeemaildomain}
 
-Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
+Para personalizar el dominio y el ID del correo electrónico desde el que los alumnos reciben las notificaciones, ponte en contacto con el [***servicio de asistencia al alumno***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) y proporciona los detalles del dominio que deseas añadir, así como tu nuevo ID de correo electrónico.
 
 Su solicitud se procesará y se le enviará un correo electrónico con un vínculo de confirmación a la nueva dirección de correo electrónico que especifique. Haga clic en el vínculo de verificación proporcionado en el correo electrónico para confirmar y completar el proceso de verificación.
 
@@ -270,6 +271,6 @@ Para desactivar la plantilla de correo electrónico, seleccione la plantilla cor
 
 +++¿Cómo se puede cambiar el nombre y la dirección del remitente en la plantilla?
 
-Para cambiar el nombre y la dirección del remitente en la plantilla, póngase en contacto con el [servicio de atención al cliente de Adobe Learning Manager](https://helpx.adobe.com/es/contact/enterprise-support.other.html#learning-manager).
+Para cambiar el nombre y la dirección del remitente en la plantilla, póngase en contacto con el [servicio de atención al cliente de Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

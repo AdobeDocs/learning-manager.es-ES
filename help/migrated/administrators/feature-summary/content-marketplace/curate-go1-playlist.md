@@ -3,13 +3,14 @@ description: Aprenda a crear y añadir una lista de reproducción de Go1 a una r
 jcr-language: en_us
 title: Conservar lista de reproducción de Go1 en ruta de aprendizaje de Adobe Learning Manager
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
-
 ---
-
 # Selección de cursos de Go1 en una ruta de aprendizaje
 
 Los administradores a menudo necesitan seleccionar cursos de varios repositorios o catálogos, lo que dificulta la identificación de las mejores opciones. Esto es especialmente difícil con Go1, donde hay miles de cursos disponibles. Para simplificar esto, ofrecemos una función de gestión basada en IA directamente en el flujo de creación de la ruta de aprendizaje. Esto ayuda a los administradores a descubrir y seleccionar rápidamente los cursos más relevantes

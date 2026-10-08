@@ -4,13 +4,14 @@ title: Personalizar la página de inicio del alumno
 description: Un administrador puede personalizar la página de inicio del alumno para que sea más moderna, orientada al contenido y personalizada para un alumno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # Personalizar la página de inicio del alumno
 
 ## Información general {#overview}
@@ -157,7 +158,7 @@ Para las cuentas existentes, la opción **Envolvente** estará **DESACTIVADA**. 
    <td>
     <p>Recomendado por la organización</p></td>
    <td>
-    <p>Si se ha activado, este widget recomienda cursos de formación para grupos de usuarios específicos. Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un intervalo de tiempo. <br></p>
+    <p>Si se ha activado, este widget recomienda cursos de formación para grupos de usuarios específicos. Cada grupo de usuarios se puede dirigir a uno o más cursos de formación y el plan de destino se basará en un marco de tiempo. <br></p>
     <ul>
      <li>
       <p>En primer lugar, el administrador <a href="announcements.md#recommendation">crea un anuncio</a> de tipo <b>Como recomendación</b> y, a continuación, selecciona la formación necesaria y utiliza grupos. Un alumno que pertenezca a un grupo de usuarios verá el curso de formación recomendado.</p></li>

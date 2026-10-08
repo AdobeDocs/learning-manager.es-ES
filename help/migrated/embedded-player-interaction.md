@@ -4,13 +4,14 @@ title: Documentación de la API de interacción de Embedded Player
 description: Obtenga más información sobre las diversas API para escuchar eventos y activar acciones en el reproductor incrustado de Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 70%
-
 ---
-
 # Documentación de la API de interacción de Embedded Player
 
 Adobe Learning Manager proporciona una biblioteca que se puede integrar en una aplicación. Esta biblioteca proporciona varias API para escuchar eventos y activar acciones en el reproductor incrustado.
@@ -133,7 +134,7 @@ La biblioteca cpPlayerLib consta de las siguientes funciones:
 </tr>
 <tr>
 <td>Parámetros</td>
-<td><li>moduleId: el ID del módulo.</li></td>
+<td><li>moduleId: El ID del módulo.</li></td>
 </tr>
 </tr>
 <tr>
@@ -469,7 +470,7 @@ La biblioteca cpPlayerLib consta de las siguientes funciones:
 </tr>
 <tr>
 <td>Parámetros</td>
-<td><li>pageNumber: El número de página al que saltar.</li></td>
+<td><li>pageNumber: Número de página al que se va a saltar.</li></td>
 </tr>
 </tr>
 <tr>

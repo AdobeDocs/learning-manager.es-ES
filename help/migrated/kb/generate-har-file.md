@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Genere un archivo HAR
 contentowner: dvenkate
 exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 57%
-
+source-wordcount: '161'
+ht-degree: 65%
 ---
-
 # Genere un archivo HAR
 
 Obtenga información sobre cómo generar archivos HAR en Google Chrome.
@@ -19,7 +20,7 @@ Para generar un archivo HAR, siga estos pasos:
 
 1. Abra una ventana de Google Chrome y abra una ficha nueva.
 1. Abra las herramientas de desarrollador de la página, haga clic con el botón derecho y seleccione Inspeccionar.
-1. Abra la ficha **[!UICONTROL Red]**. Asegúrese de que el botón de registro rojo esté activo. Habilite la casilla de verificación **[!UICONTROL Conservar registro]**.
+1. Abra la ficha **[!UICONTROL Red]**. Asegúrese de que el botón rojo de grabación esté activo. Active la casilla de verificación **[!UICONTROL Guardar registro]**.
 
    ![](assets/preserve-log-checkbox.png)
 

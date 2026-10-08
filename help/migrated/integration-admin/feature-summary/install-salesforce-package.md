@@ -4,13 +4,14 @@ title: Instalar paquete de Salesforce
 description: Learning Manager ofrece un paquete de aplicación de Salesforce. Una vez instalado y configurado en SFDC, los empleados de ventas pueden realizar sus actividades de formación en el portal de SFDC. Esta aplicación permite a los usuarios de SFDC explorar nuevas formaciones, ver recomendaciones y consumirlas directamente en el portal de SFDC. Los usuarios también reciben los anuncios enviados por los administradores en forma de membretes dentro de la aplicación dentro del portal de SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
-
 ---
-
 # Instalar paquete de Salesforce
 
 ## Información general
@@ -57,7 +58,7 @@ Si desea instalar el paquete, primero debe eliminar el paquete existente en Sale
 1. Haga clic en **[!UICONTROL Nuevo]** y agregue los siguientes detalles:
 
    * **Configuración:** introduzca el nombre que desee.
-   * **ClientID**: escriba el valor obtenido en la primera sección.
+   * **ClientID**: Introduzca el valor obtenido en la primera sección.
    * **Secreto de cliente:** Escriba el valor obtenido en la primera sección.
    * **Token de actualización:** Escriba el valor obtenido en la primera sección.
    * **LearningManagerBaseURL:** Dirección URL del sitio en el que se aloja Learning Manager.

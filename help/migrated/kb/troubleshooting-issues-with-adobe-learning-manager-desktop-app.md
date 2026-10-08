@@ -4,29 +4,30 @@ jcr-language: en_us
 title: Solución de problemas con la aplicación Adobe Learning Manager para escritorio
 contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 53%
-
+source-wordcount: '1448'
+ht-degree: 59%
 ---
-
 # Solución de problemas con la aplicación Adobe Learning Manager para escritorio
 
 Este documento contiene consejos para la resolución básica de los problemas típicos que pueden producirse al instalar y utilizar la aplicación Adobe Learning Manager para escritorio.
 
 ## No es posible efectuar lo siguiente {#iamunabletodothefollowing}
 
-+++No es posible descargar la aplicación de escritorio de Adobe Learning Manager
++++No es posible descargar la aplicación Adobe Learning Manager para escritorio
 
 1. Compruebe la conexión a Internet y la configuración del servidor de seguridad.
-1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]** para crear una publicación. Si no tiene un tablero, cree primero un tablero.
+1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]** para crear una publicación. Si no tiene ningún tablero, créelo.
 1. Haga clic en cualquiera de las opciones siguientes de publicación que aparecen para crear contenido como Capturar pantalla, Grabar audio, Grabar vídeo o Galería de Learning Manager. Se le redirige a la página de la aplicación Adobe Learning Manager para escritorio; en ella, puede descargar esa aplicación en su equipo.
 1. Debe tener una cuenta válida de Adobe Learning Manager con Aprendizaje social activado por el administrador. Es posible que el administrador también haya desactivado las descargas a través del navegador web. Póngase en contacto con su administrador de Adobe Learning Manager para obtener más información sobre cómo descargar la aplicación Adobe Learning Manager para escritorio.
 
 +++
 
-+++No es posible instalar la aplicación de escritorio de Adobe Learning Manager
++++No es posible instalar la aplicación Adobe Learning Manager para escritorio
 
 1. Asegúrese de que el sistema cumpla los requisitos mínimos. Consulte [Requisitos del sistema de la aplicación Adobe Learning Manager para escritorio](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
 1. Elimine cualquier instalación anterior de la aplicación Adobe Learning Manager para escritorio. Para obtener más información, consulte [Cómo limpiar instalaciones anteriores](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp) para obtener más información.
@@ -34,7 +35,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No es posible iniciar la aplicación de escritorio de Adobe Learning Manager
++++No es posible iniciar la aplicación Adobe Learning Manager para escritorio
 
 1. Compruebe que haya descargado e instalado la aplicación Adobe Learning Manager para escritorio.
 1. En Aprendizaje social, haga clic en **[!UICONTROL Nueva publicación]**. Si no tiene un tablero, créelo. Haga clic en cualquiera de las siguientes opciones del botón de publicación que aparecen: Realizar una captura de pantalla, Grabación de audio, Grabación de vídeo, Galería de Adobe Learning Manager. Se le redirige una página en la que puede iniciar la aplicación Adobe Learning Manager para escritorio.
@@ -42,7 +43,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No puedo iniciar sesión en mi cuenta en la aplicación de escritorio de Adobe Learning Manager
++++No es posible iniciar sesión en mi cuenta en la aplicación Adobe Learning Manager para escritorio
 
 1. Compruebe que tenga conexión a Internet y que la configuración del servidor de seguridad no bloquee la aplicación Adobe Learning Manager para escritorio.
 1. Compruebe que disponga de una cuenta válida de alumno de Adobe Learning Manager y que Aprendizaje social esté activado.
@@ -51,7 +52,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No puedo ver mi cámara web/micrófono en la aplicación de escritorio de Adobe Learning Manager
++++No es posible ver la cámara web o el micrófono en la aplicación Adobe Learning Manager para escritorio
 
 1. Asegúrese de que la cámara web o el micrófono estén bien conectados al sistema y que funcionen correctamente.
 1. Asegúrese de haber instalado los controladores más recientes para su cámara web o micrófono. Algunos dispositivos no funcionan correctamente sin controladores dedicados.
@@ -60,7 +61,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No puedo publicar mis publicaciones desde la aplicación de escritorio de Adobe Learning Manager
++++No es posible publicar en la aplicación Adobe Learning Manager para escritorio
 
 1. Compruebe que disponga de una cuenta válida de alumno de Adobe Learning Manager y que el administrador de Adobe Learning Manager haya activado Aprendizaje social.
 1. Restablezca las preferencias de la aplicación, inicie de nuevo aplicación Adobe Learning Manager para escritorio e inténtelo de nuevo. Para obtener más información, consulte [Cómo restablecer las preferencias de la aplicación](#howtoresetapplicationpreferences).
@@ -68,7 +69,7 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 
 +++
 
-+++No puedo ver ni abrir proyectos más antiguos
++++No es posible ver ni abrir proyectos más antiguos
 
 1. Solo es posible ver los proyectos creados con la cuenta de Adobe Learning Manager en el mismo equipo en el que se crearon.
 1. Restablezca las preferencias de la aplicación, inicie de nuevo aplicación Adobe Learning Manager para escritorio e inténtelo de nuevo. Para obtener ayuda, consulte [Cómo restablecer las preferencias de la aplicación](#howtoresetapplicationpreferences).
@@ -105,15 +106,15 @@ Este documento contiene consejos para la resolución básica de los problemas t�
 1. Para abrir el cuadro de diálogo **Ir a la carpeta**, presione las teclas **Cmd + Mayús + G**.
 1. Escriba &quot;**/var/folders**&quot; (sin comillas) y pulse Intro.
 1. Busque &quot;**elthor**&quot; en la barra de búsqueda y abra la carpeta.
-1. Ordene las carpetas por **Fecha de modificación &#x200B;** y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
+1. Ordene las carpetas por **Fecha de modificación **y abra la carpeta más reciente. Esta carpeta contiene los registros de la aplicación más recientes.
 
 ## ¿Cómo se activa el registro avanzado? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.**&#x200B;**
-1. Escriba &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.**&#x200B;**
-1. Haga una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.**&#x200B;**
+1. Para abrir el cuadro de diálogo Ejecutar, presione **tecla Windows + R**.****
+1. Escriba &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (sin comillas) y pulse Intro.****
+1. Haga una copia de seguridad del archivo **preferences.json** y ábralo en un editor de texto.****
 1. Busque la clave **debugMode** y cambie la propiedad de valor de esta clave a &quot;**true**&quot; (sin comillas).
 
 ### MAC OS X {#MacOSX-2}

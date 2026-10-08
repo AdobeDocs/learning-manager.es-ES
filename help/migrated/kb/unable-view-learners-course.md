@@ -4,13 +4,14 @@ title: No se pueden ver los alumnos de un curso
 description: En la ficha Alumnos de un curso no aparece ningún alumno inscrito en Adobe Learning Manager. Sin embargo, si genera un informe, puede ver los alumnos inscritos en el mismo.
 contentowner: saghosh
 exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 58%
-
 ---
-
 # No se pueden ver los alumnos de un curso
 
 ## Problema

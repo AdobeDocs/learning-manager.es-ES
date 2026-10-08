@@ -3,20 +3,21 @@ jcr-language: en_us
 title: Cómo enviar un ticket de asistencia en experience league
 description: Obtenga información sobre cómo enviar una solicitud de asistencia al Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Cómo enviar un ticket de asistencia al Experience League
 
 El proceso de envío de las solicitudes de asistencia técnica de Adobe Learning Manager ahora está directamente integrado en la plataforma de asistencia técnica del Experience League. Se trata de un portal de autoservicio que se ha rediseñado recientemente para ofrecer más personalización y facilidad de uso a los clientes autorizados. Consulta esta guía a continuación para obtener más información sobre cómo acceder al portal de Asistencia al Experience League y registrar un ticket.
 
 Tenga en cuenta que el envío de un ticket de asistencia solo está disponible para los contactos de asistencia autorizados. Si tienes alguna duda, sigue enviando tus solicitudes de asistencia a Adobe Learning Manager por correo electrónico hasta el 11 de mayo de 2025. Después de esta fecha, puede enviar sus tickets de asistencia a través del portal de Asistencia al Experience League como se describe a continuación, además del canal de correo electrónico existente.
 
-1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home?lang=es#support).
+1. Para acceder al portal de asistencia técnica, visita el sitio web de **[!UICONTROL Experience League]** y selecciona la pestaña **[!UICONTROL Asistencia técnica]** situada en la parte superior de la página. También puedes visitar el [vínculo directo](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Página principal de soporte técnico_

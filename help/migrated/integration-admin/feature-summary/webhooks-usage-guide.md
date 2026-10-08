@@ -4,13 +4,14 @@ title: Guía de uso de webhooks
 description: Más información sobre el uso de Webhooks, las prácticas recomendadas y las limitaciones
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 1%
-
 ---
-
 # Guía de uso de webhooks
 
 Los webhooks son una forma de que las aplicaciones web se comuniquen entre sí automáticamente y en tiempo real.
@@ -250,7 +251,7 @@ El proceso de reintento comienza con un intervalo inicial de 5 segundos. Si el s
 
 ### Duplicar eventos
 
-Si un suscriptor tarda más de 5 segundos en responder después de procesar un evento, el sistema podría intentar procesar el mismo evento de nuevo. Se recomienda utilizar los ID de evento para realizar un seguimiento de los eventos que ya se han procesado. Además, si el webhook se bloquea después de enviar el evento pero antes de guardar que se ha procesado, puede que se vuelva a intentar el mismo grupo de eventos. Se recomienda utilizar ID de lote o ID de evento individuales para reconocer e ignorar cualquier duplicado.
+Si un suscriptor tarda más de 5 segundos en responder después de procesar un evento, el sistema podría intentar procesar el mismo evento de nuevo. Se recomienda utilizar los ID de evento para realizar un seguimiento de los eventos que ya se han procesado. Además, si el webhook bloqueo después de enviar el evento pero antes de guardar que se ha procesado, el mismo grupo de eventos puede reintentarse. Se recomienda utilizar ID de lote o ID de evento individuales para reconocer e ignorar cualquier duplicado.
 
 ### Recomendación de tolerancia a fallos
 

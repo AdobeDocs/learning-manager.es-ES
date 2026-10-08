@@ -1,15 +1,16 @@
 ---
 title: Novedades de esta versión (abril de 2023)
 description: Obtenga información sobre las funciones nuevas y las mejoras de Adobe Learning Manager.
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # Novedades de esta versión (abril de 2023)
 
 ## Aplicación Adobe Learning Manager para Microsofts Teams
@@ -311,7 +312,7 @@ Las opciones están activadas de forma predeterminada.
 Hemos añadido un nuevo atributo, jobType a la API de trabajos. El atributo acepta los siguientes valores:
 
 * **generateInstructorUtilisationReport**: Devuelve el informe de utilización de un instructor.
-* **generateJobAidMetadataReport**: devuelve los metadatos de un informe de ayuda de trabajo.
+* **generateJobAidMetadataReport**: Devuelve los metadatos de un informe de ayuda de trabajo.
 
 **Extremo**: POST /primeapi/v2/jobs
 

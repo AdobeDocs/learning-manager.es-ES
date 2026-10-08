@@ -2,13 +2,14 @@
 description: Cambios en la API de ALM
 jcr-language: en_us
 title: Cambios en la API de la versión de agosto de 2026 de Adobe Learning Manager
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 3%
-
 ---
-
 
 # Cambios en la API de la versión de agosto de 2026 de Adobe Learning Manager
 
@@ -18,7 +19,7 @@ Esta versión agrega tres nuevos puntos finales de API públicas con ámbito de 
 
 Estos puntos finales solo funcionan con grupos de usuarios personalizados. Los grupos administrados por el sistema, como el grupo Todos los usuarios y los grupos de usuarios generados automáticamente, tienen el valor readOnly: true en la respuesta de la API y no se puede modificar ni eliminar a través de estos puntos finales.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de grupos de usuarios
 
@@ -204,7 +205,7 @@ El flujo de trabajo de aprendizaje externo a través de la API refleja el flujo 
 
 Los cinco puntos finales tienen el ámbito del alumno. Un alumno solo puede acceder a sus propios envíos. La API devuelve un error si un alumno intenta acceder a los datos de otro alumno.
 
-Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/es/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para conocer los requisitos de autenticación de API, consulte [Autenticación de API de Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Terminales de API de aprendizaje externo
 

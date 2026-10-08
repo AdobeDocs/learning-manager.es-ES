@@ -3,13 +3,14 @@ description: Más información sobre la configuración de la configuración avan
 jcr-language: en_us
 title: Configuración avanzada en Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Configuración avanzada en Adobe Learning Manager
 
 ## Etiquetas de catálogo
@@ -302,17 +303,17 @@ Centrar sesiones.
 
 Los días no laborables son un conjunto de días no laborables que se mantienen en el nivel de cuenta, con las siguientes propiedades:
 
-&#x200B;- Solo el administrador puede añadir, editar o eliminar días no laborables o festividades.
+- Solo el administrador puede añadir, editar o eliminar días no laborables o festividades.
 
-&#x200B;- Los días no laborables o festividades se aplican a toda la organización y aparecen en el calendario de cada instructor como días no laborables.
+- Los días no laborables o festividades se aplican a toda la organización y aparecen en el calendario de cada instructor como días no laborables.
 
-&#x200B;- Dado que las festividades marcan a los instructores como no disponibles, las sesiones de Live Hub no se pueden programar en esas fechas.
+- Dado que las festividades marcan a los instructores como no disponibles, las sesiones de Live Hub no se pueden programar en esas fechas.
 
-&#x200B;- Cada festividad requiere una fecha y un nombre; una descripción es opcional.
+- Cada festividad requiere una fecha y un nombre; una descripción es opcional.
 
-&#x200B;- Puede añadir días no laborables o festividades de una en una o importar varios días no laborables o festividades a la vez mediante un archivo CSV.
+- Puede añadir días no laborables o festividades de una en una o importar varios días no laborables o festividades a la vez mediante un archivo CSV.
 
-&#x200B;- Una vez agregados, los días no laborables o festividades aparecen en la página **Vacaciones**, donde puede verlos, buscarlos y administrarlos.
+- Una vez agregados, los días no laborables o festividades aparecen en la página **Vacaciones**, donde puede verlos, buscarlos y administrarlos.
 
 Vea [Administrar días festivos](../../../getting-started-with-live-hub/manage-holidays.md) para obtener más información.
 

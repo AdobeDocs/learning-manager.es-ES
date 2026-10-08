@@ -4,13 +4,14 @@ title: Responsables
 description: Descripción general de responsables
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 91%
-
 ---
-
 
 
 # Responsables
@@ -34,6 +35,6 @@ ht-degree: 91%
 * [Usuarios de tabletas iPad y Android](managers/feature-summary/ipad-android-tablet-users.md)
 * [Informes](managers/feature-summary/reports.md)
 * [Configuración](managers/feature-summary/settings.md)
-* [Inicio de sesión de usuario](managers/feature-summary/user-login.md)
-* [Notificaciones de usuarios](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
+* [Inicio de sesión de usuarios](managers/feature-summary/user-login.md)
+* [Notificaciones de usuarios](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
 * [Objetos de aprendizaje](managers/feature-summary/learning-objects.md)

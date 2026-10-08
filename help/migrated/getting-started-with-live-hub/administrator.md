@@ -1,13 +1,14 @@
 ---
 title: Función del administrador en la sesión de Live Hub
 description: Obtenga más información sobre las funciones clave del administrador para configurar y administrar las sesiones de formación de Live Hub en Adobe Learning Manager.
-source-git-commit: 6cff9a5a34a8d8c53a18ba4b6281b7ad29814cb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 6%
-
 ---
-
 
 # Función del administrador en la sesión de Live Hub
 

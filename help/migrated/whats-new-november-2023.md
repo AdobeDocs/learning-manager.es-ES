@@ -2,13 +2,14 @@
 title: Novedades de esta versión
 description: Descubra las nuevas funciones y mejoras de la versión de noviembre de 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # Novedades de esta versión
 
 ## Interfaz de usuario renovada
@@ -143,7 +144,7 @@ En Adobe Learning Manager, solo están disponibles las transcripciones de aprend
 
 **Nuevos controles de solo lectura**
 
-En la página Funciones personalizadas, hemos añadido las siguientes opciones de solo lectura para permitir a los administradores proporcionar opciones más flexibles al administrador personalizado: El administrador personalizado ahora tendrá permiso adicional de solo lectura para usuarios, plantillas de correo electrónico y planes de aprendizaje.
+En la página Funciones personalizadas , hemos añadido las siguientes opciones de solo lectura para permitir a los administradores proporcionar opciones más flexibles al administrador personalizado: El administrador personalizado ahora tendrá permiso adicional de solo lectura para usuarios, plantillas de correo electrónico y planes de aprendizaje.
 
 **Usuarios**:
 

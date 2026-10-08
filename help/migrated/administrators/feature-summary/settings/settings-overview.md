@@ -3,7 +3,10 @@ description: Obtenga más información sobre la configuración de administrador 
 jcr-language: en_us
 title: Introducción a Configuración
 exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
-source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
