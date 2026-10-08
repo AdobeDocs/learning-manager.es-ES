@@ -3,7 +3,10 @@ title: Ciclo de vida de la cuenta administrativa de Adobe Learning Manager
 description: Este documento proporciona orientación completa sobre la administración segura de cuentas administrativas de nivel superior en Adobe Learning Manager (ALM) para cumplir con la normativa FedRAMP y las prácticas de seguridad recomendadas.
 jcr-language: en-us
 exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
-source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
@@ -234,7 +237,7 @@ Adobe Learning Manager funciona bajo un modelo de responsabilidad compartida:
 * El Adobe es responsable de asegurar la plataforma y la infraestructura de ALM subyacentes.
 * Los clientes son responsables de administrar el acceso administrativo, las asignaciones de funciones y las actividades del ciclo de vida de los usuarios dentro de su cuenta de ALM.
 
-Hay disponible información adicional sobre los procedimientos de seguridad de Adobe Learning Manager en [Información general sobre seguridad de Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=es)
+Hay disponible información adicional sobre los procedimientos de seguridad de Adobe Learning Manager en [Información general sobre seguridad de Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Mantenimiento de documentos
 

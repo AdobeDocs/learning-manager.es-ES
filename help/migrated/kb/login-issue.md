@@ -4,13 +4,14 @@ title: Problemas de inicio de sesión en Learning Manager
 description: Problemas de inicio de sesión en Adobe Learning Manager
 contentowner: nluke
 exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '249'
 ht-degree: 87%
-
 ---
-
 # Problemas de inicio de sesión en Learning Manager
 
 ## Problema
@@ -33,7 +34,7 @@ En algunos casos, un usuario no puede acceder al sistema debido a cookies de SSO
 
 Adobe Learning Manager rechaza estas cookies obsoletas, lo que genera un error.
 
-## Resolución
+## Solución
 
 Si Adobe Learning Manager rechaza una cookie obsoleta, pruebe las siguientes opciones:
 
@@ -45,4 +46,4 @@ Existen otras razones por las que se produce este error, pero la indicada anteri
 
 ## Vínculos de referencia:
 
-[Microsoft: sesión de acceso condicional durante toda la vida](https://docs.microsoft.com/es-es/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: Sesión de acceso condicional en toda la vida](https://docs.microsoft.com/es-es/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

@@ -3,13 +3,14 @@ description: Manual de referencia para administradores de integración que desea
 jcr-language: en_us
 title: Manual de migración
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # Manual de migración
 
 Manual de referencia para los administradores de integración que desean migrar un LMS existente al LMS de Learning Manager
@@ -783,11 +784,11 @@ GET /bulkimport/runStatus
 
 **Parámetros**
 
-* **migrationProjectId**: (Obligatorio). Identificador único de un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
+* **migrationProjectId**: (Obligatorio). Un identificador único para un proyecto de migración. Un proyecto de migración se utiliza para transferir datos y contenido de un sistema de gestión de aprendizaje (LMS) existente a Adobe Learning Manager. Cada proyecto de migración puede constar de varios sprints, que son unidades más pequeñas de tareas de migración.
 
-* **sprintId**: (Obligatorio). Identificador único de un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
+* **sprintId**: (Obligatorio). Un identificador único para un sprint dentro de un proyecto de migración. Un sprint es un subconjunto de tareas de migración que incluye elementos de aprendizaje específicos (por ejemplo, cursos, módulos o registros de alumnos) que se migran de un LMS existente a Adobe Learning Manager. Cada sprint se puede ejecutar de forma independiente, lo que permite la migración por fases.
 
-* **sprintRunId**: (Obligatorio). Identificador único utilizado para hacer un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
+* **sprintRunId**: (Obligatorio). Un identificador exclusivo que se utiliza para realizar un seguimiento de la ejecución de un sprint específico dentro de un proyecto de migración. Se asocia con el proceso de migración real de los elementos definidos en un sprint. El sprintRunId ayuda a supervisar, solucionar problemas y administrar el trabajo de migración.
 
 **Respuesta**
 
@@ -862,7 +863,7 @@ A continuación, encontrará las especificaciones de CSV estándar que puede usa
 
 3-learning_program_enrollment.xlsx-contiene descripciones de los metadatos requeridos para el archivo retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx-contiene descripciones de los metadatos necesarios para el archivo retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx-contiene descripciones de los metadatos requeridos para el archivo retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -938,7 +939,7 @@ En la migración de la sesión VILT participan cuatro archivos CSV:
 
 Descargue los archivos anteriores [aquí](assets/csv-and-xlsx-migration-files.zip).
 
-Los cuatro archivos CSV aceptan `almCourseID` para hacer referencia a cursos y `almModuleID` para hacer referencia a módulos. Estos ID son los identificadores únicos asignados por ALM cuando se crea un curso o módulo.
+Los cuatro archivos CSV aceptan `almCourseID` para hacer referencia a cursos y `almModuleID` para hacer referencia a módulos. Estos ID son los identificadores exclusivos asignados por ALM al crear un curso o módulo.
 
 ### Establezca la fecha de inicio para las instancias de cursos y rutas de aprendizaje
 
@@ -1234,7 +1235,7 @@ En este ejemplo:
 **Reglas de validación:**
 
 * Una carpeta no puede ser su propio antecesor: no se permiten referencias circulares
-* La profundidad máxima de la carpeta es de 3 niveles (Nivel 1 → Nivel 2 → Nivel 3)
+* La profundidad máxima de carpetas es de 3 niveles (Nivel 1 → Nivel 2 → Nivel 3)
 * Dos carpetas con el mismo padre no pueden tener el mismo nombre
 * El `parentExternalId` debe hacer referencia a otra fila del mismo archivo CSV o a una carpeta existente que ya se encuentre en su cuenta
 * Las carpetas principales deben mostrarse antes que sus carpetas secundarias en el archivo
@@ -1302,7 +1303,7 @@ Adobe Learning Manager valida todas las filas de `content_folder.csv` antes de p
 | Un nombre de carpeta contiene una barra diagonal (`/`) | Fila rechazada | Reemplazar `/` por `-` o `_` en el nombre de la carpeta |
 | Dos carpetas con el mismo padre tienen el mismo nombre | Fila rechazada | Cambiar el nombre de una de las carpetas duplicadas |
 | `parentExternalId` hace referencia a un Id. que no se encuentra en el archivo o en la cuenta | Fila rechazada | Confirme que el ID de carpeta principal es correcto y que la fila principal se ha procesado correctamente |
-| La profundidad de la carpeta supera los 3 niveles | Fila rechazada | Aplanar la jerarquía hasta un máximo de 3 niveles antes de migrar |
+| La profundidad de carpetas supera los 3 niveles | Fila rechazada | Aplanar la jerarquía hasta un máximo de 3 niveles antes de migrar |
 | Referencia circular detectada (la carpeta A es antecesora de la carpeta B y B aparece como principal de A) | CSV completo rechazado | Revise la cadena `parentExternalId` y quite la referencia circular |
 | `action` no es `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER` | Fila rechazada | Corrija el valor `action`; solo se aceptan estos tres valores |
 | `DELETE_FOLDER` para una carpeta que todavía contiene archivos de contenido | Fila rechazada | Mueva los archivos de contenido a otra carpeta antes de eliminar o elimine la fila y el identificador de eliminación manualmente en la interfaz de administración |

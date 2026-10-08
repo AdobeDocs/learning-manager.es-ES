@@ -1,13 +1,14 @@
 ---
 title: Administrar la configuración en Live Hub
 description: Descubre cómo acceden los instructores a la configuración en la sala de Live Hub y la configuran, incluidos los permisos de los participantes, la grabación, los asistentes de IA y la privacidad.
-source-git-commit: 8e0b7d983fc0736ae2890e6ec58e870bafc37fd0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # Administrar la configuración de la sala
 

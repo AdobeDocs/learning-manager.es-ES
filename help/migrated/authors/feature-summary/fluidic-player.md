@@ -4,13 +4,14 @@ title: Vista previa como alumno
 description: El reproductor Fluidic es una plataforma que permite a los alumnos ver contenido con una experiencia de aprendizaje mixta y sin interrupciones. Todos los formatos admitidos se reproducen de manera consistente en este reproductor. Los autores y los administradores pueden obtener una vista previa del contenido con el reproductor.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 68%
-
 ---
-
 # Vista previa como alumno
 
 ## Reproductor Fluidic {#fluidicplayer}

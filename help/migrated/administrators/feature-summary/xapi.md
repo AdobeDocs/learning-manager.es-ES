@@ -4,13 +4,14 @@ title: xAPI en Learning Manager
 description: Experience API o xAPI es una especificación de software de aprendizaje electrónico que permite que el contenido de aprendizaje y los sistemas de aprendizaje se comuniquen entre si de manera que se registra y se hace el seguimiento de toda clase de experiencias de aprendizaje. Las experiencias de aprendizaje se registran en un LRS (Learning Record Store) o almacén de registros de aprendizaje. Los LRS pueden coexistir con los tradicionales LMS o sistemas de gestión de aprendizaje o por si solos.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 68%
-
 ---
-
 
 
 # xAPI en Learning Manager
@@ -97,7 +98,7 @@ Como autor, ahora puede elegir el módulo de xAPI al crear cursos para supervisa
 
 **Aspectos que tener en cuenta:**
 
-* Actualmente, Learning Manager solo admite mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid , account.
+* Actualmente, Learning Manager solo admite mbox como identificador. No se admiten otros identificadores, como mboz_sha1, openid y account.
 
 * stateId y profileId es un UUID cuando se utilizan con Learning Manager.
 * La solicitud de PUT no sobrescribe el documento para los agentes/perfil, actividad/perfil y actividad/estado de xAPI

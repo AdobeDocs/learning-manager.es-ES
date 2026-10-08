@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Compartir en Aprendizaje social
 contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 81%
-
 ---
-
 # Compartir en Aprendizaje social
 
 Obtenga información sobre cómo utilizar el bookmarklet de Social para compartir al instante los aprendizajes en línea de un usuario en las redes sociales.

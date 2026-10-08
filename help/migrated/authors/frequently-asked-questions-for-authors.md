@@ -4,13 +4,14 @@ title: Preguntas más frecuentes para autores
 description: Preguntas más frecuentes para autores de Adobe Learning Manager
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 51%
-
+source-wordcount: '1729'
+ht-degree: 77%
 ---
-
 # Preguntas más frecuentes para autores
 
 <table>
@@ -23,7 +24,7 @@ ht-degree: 51%
  </tbody>
 </table>
 
-+++¿Qué es un ciclo de vida de curso típico en Learning Manager?
++++¿Cuál es el ciclo de vida de un curso típico en Learning Manager?
 
 Un ciclo de vida del curso típico tiene el siguiente aspecto:
 
@@ -37,11 +38,11 @@ Un ciclo de vida del curso típico tiene el siguiente aspecto:
 
 +++
 
-+++¿Cómo publico un proyecto de Captivate en el Gestor de aprendizaje?
++++¿Cómo publico un proyecto de Captivate en Learning Manager?
 
 Puede publicar un proyecto de Captivate 9 finalizado en Adobe Learning Manager como módulo. En un proyecto abierto de Captivate 9, usa **Publish** > **Publish to Adobe Learning Manager** y sigue las instrucciones para publicar un módulo.
 
-Consulte el vídeo [Adobe Learning Manager: Publish Modules from Adobe Captivate 9](http://primehelp.adobe.com/es/publish-modules-from-adobe-captivate9/)para obtener más información.
+Consulte [Adobe Learning Manager: Para obtener más información, vea el vídeo sobre los módulos de Publish de Adobe Captivate 9](http://primehelp.adobe.com/es/publish-modules-from-adobe-captivate9/).
 
 También puede consultar el [contenido de ayuda](http://helpx.adobe.com/es/captivate/using/publish-project-to-captivate-prime.html) de Adobe Captivate 9 para obtener detalles sobre el procedimiento.
 
@@ -50,25 +51,25 @@ El [contenido de ayuda](http://helpx.adobe.com/es/captivate/using/publish-projec
 
 +++
 
-+++Cómo elegir módulos de curso en Learning Manager
++++¿Cómo se eligen los módulos del curso en Learning Manager?
 
 Haga clic [aquí](https://helpx.adobe.com/content/help/es/captivate-prime/authors/how-to-choose-modules.html) para obtener información sobre cómo elegir los módulos del curso.
 
 +++
 
-+++¿Cuáles son los diferentes tipos de inscripción en los cursos?
++++¿Cuáles son los diferentes tipos de inscripción de los cursos?
 
 Al crear el curso, puede elegir el tipo de inscripción de los cursos: automática, con nominación de responsable o aprobada por responsable:
 
-**Con nominación de responsable** Estos cursos solo los pueden nominar los responsables. El alumno no puede inscribirse en este tipo de cursos.
+**Con nominación de responsable** Estos cursos solo los pueden nominar los gerentes. El alumno no puede inscribirse en este tipo de cursos.
 
-**Se requiere aprobación del responsable** Estos cursos deben ser aprobados por responsables. Los alumnos pueden inscribirse en estos cursos, pero no se inscriben directamente en ellos sin la aprobación del responsable. Se envía una solicitud de notificación a los responsables cuando los alumnos se inscriben en estos tipos de cursos. Tras la aprobación del responsable, estos cursos figuran como inscritos para los alumnos.
+**Aprobado por el responsable** Los responsables deben aprobar estos cursos. Los alumnos pueden inscribirse en estos cursos, pero no se inscriben directamente en ellos sin la aprobación del responsable. Se envía una solicitud de notificación a los responsables cuando los alumnos se inscriben en estos tipos de cursos. Tras la aprobación del responsable, estos cursos figuran como inscritos para los alumnos.
 
-**Inscripción automática** Los alumnos pueden inscribirse directamente en este tipo de cursos.
+**Inscripción automática**: los alumnos pueden inscribirse directamente en este tipo de cursos.
 
 +++
 
-+++¿Existe compatibilidad con la paginación en Learning Manager?
++++¿La paginación es posible en Learning Manager?
 
 Sí. En modo de autor, los cursos se muestran individualmente en forma de página en las vistas Catálogo y Mis cursos. Además, los módulos se muestran individualmente en forma de página en la vista Biblioteca de módulos. A medida que se desplaza abajo en la página, se mostrará un conjunto más de cursos para la página siguiente.
 
@@ -79,7 +80,7 @@ Sí. En modo de autor, los cursos se muestran individualmente en forma de págin
 Los autores pueden eliminar cursos no publicados o retirados. Después de publicar un curso, puede retirar un curso y volverle a asignar el estado de publicado. Para eliminar cursos no publicados, siga los pasos a continuación:
 
 1. Después de crear un curso, haga clic en Mis cursos en el panel izquierdo.
-1. Coloque el ratón sobre el curso que desee eliminar y haga clic en Eliminar curso.
+1. Coloque el ratón sobre el curso que desea eliminar y haga clic en Eliminar curso.
 1. Responda al cuadro de diálogo de confirmación haciendo clic en Aceptar.
 
 >[!NOTE]
@@ -106,8 +107,8 @@ Cree una biblioteca de módulos que pueda alinearse con los cursos como módulos
 
 1. Haga clic en Biblioteca de módulos en el panel izquierdo después de iniciar sesión como autor.
 1. Haga clic en Añadir en la esquina superior derecha de la página.
-1. Rellene el nombre del módulo, la descripción y las etiquetas del módulo.
-1. Elija el tipo de módulo **Compartido** si desea compartir el módulo con todos los autores. De lo contrario, elija Privado.
+1. Complete el nombre, la descripción y las etiquetas del módulo.
+1. Como tipo de módulo, elija **Compartido** si desea compartirlo con todos los autores. De lo contrario, elija Privado.
 1. Haga clic en el icono de cargar módulo y cargue el contenido del módulo.
 1. Haga clic en Guardar.
 
@@ -115,19 +116,19 @@ El módulo aparecerá en la Biblioteca de módulos una vez que se haya cargado c
 
 +++
 
-+++¿Qué son los módulos de prueba, trabajo previo y contenido?
++++¿Qué son los módulos de prueba, previos al trabajo y de contenido?
 
 El autor encontrará estos términos al crear cursos.
 
-**Los módulos de prueba** representan los módulos principales del curso. Si un alumno completa este módulo importante, se puede considerar como finalización del curso aunque no complete el contenido real del curso.
+**Los módulos de prueba** son los módulos principales del curso. Si un alumno completa este módulo importante, se puede considerar como finalización del curso aunque no complete el contenido real del curso.
 
-**Los módulos de contenido** representan el plan de estudios real del curso. El alumno puede comprender mejor el contenido completo del curso revisando este contenido.
+**Los módulos de contenido** son el programa real de los cursos. El alumno puede comprender mejor el contenido completo del curso revisando este contenido.
 
-**Los módulos previos al trabajo** ayudan a los alumnos a comprender los aspectos básicos y a prepararse para el curso.
+**Los módulos previos al trabajo** ayudan a los alumnos a comprender los conceptos básicos y a prepararse para el curso.
 
 +++
 
-+++¿Cuál es la diferencia entre un trabajo previo y un requisito previo?
++++¿Cuál es la diferencia entre previo al trabajo y requisito previo?
 
 El autor encontrará estos términos al crear cursos.
 
@@ -149,36 +150,36 @@ El autor no puede ver las aptitudes de los alumnos ni su estado de finalización
 
 +++
 
-+++¿Cómo puedo ver la lista de alumnos que realizan mis cursos?
++++¿Cómo veo la lista de alumnos que efectúan mis cursos?
 
 El autor no puede ver la lista de alumnos que realizan el curso. El administrador es el único que tiene los derechos para ver los alumnos inscritos en un curso en particular. El autor puede ponerse en contacto con el administrador con este propósito.
 
 +++
 
-+++¿Puedo secuenciar los módulos de cualquier curso? ¿Cómo lo hago?
++++¿Puedo ordenar los módulos de cualquier curso? ¿Cómo lo hago?
 
 El autor puede cambiar la secuencia de módulos arrastrándolos sobre otros módulos. También puede obligar a los alumnos a realizar módulos secuencialmente seleccionando la opción **Ordenado** en la secuencia de módulos durante la creación del curso.
 
 +++
 
-+++¿Cómo puedo filtrar para ver un conjunto específico de cursos?
++++¿Cómo se filtra para ver un conjunto específico de cursos?
 
 Puede usar la opción Filtrar cursos por Estado para filtrar cursos. Para obtener más información, consulte [¿Cómo se buscan los cursos?](https://helpx.adobe.com/content/help/es/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
-+++¿A qué tipo de informes puedo acceder?
++++¿A qué tipo de informes tengo acceso?
 
 Como autor, no puede acceder a ningún informe. El administrador es el único con derechos para ver y generar varios informes. Póngase en contacto con el administrador de su empresa para obtener informes.
 
 +++
 
-+++¿Cómo busco los cursos?
++++¿Cómo busco cursos?
 
 Puede buscar cursos de dos formas:
 
 1. Utilizando el campo de búsqueda que aparece en la esquina superior derecha. Escriba el nombre del curso o de cualquier palabra clave asociada con los cursos para encontrar los cursos.
-1. Filtrando la lista de cursos con los filtros. Puede filtrar los cursos por estado, como **Todos, Publicados, Borrador** y **Retirado**, haciendo clic en cada una de estas opciones.
+1. Filtrando la lista de cursos con los filtros. Puede filtrar los cursos por estado, por ejemplo **todos los cursos, los publicados, los borradores** y **los retirados** haciendo clic en cada una de estas opciones.
 
    También puedes buscar según los conjuntos de habilidades haciendo clic en **Aptitudes** y eligiendo cada uno de ellos.
 
@@ -186,7 +187,7 @@ Puede buscar cursos de dos formas:
 
 +++
 
-+++¿Puedo añadir módulos de curso de otros autores a mis cursos? ¿Cómo lo hago?
++++¿Puedo añadir módulos de cursos de otros autores a mis cursos? ¿Cómo lo hago?
 
 Hay dos tipos de módulos:
 
@@ -201,13 +202,13 @@ Por lo tanto, solo puede añadir a sus cursos módulos compartidos de otros auto
 
 Puede añadir módulos de curso a un nuevo curso o al borrador del curso existente. Para agregar módulos a un curso nuevo, consulte [Cómo creo un curso?](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
-Puede agregar módulos a la biblioteca de módulos haciendo clic en **Biblioteca de módulos** y, a continuación, en **Agregar**.
+Puede añadir módulos a la Biblioteca de módulos haciendo clic en **Biblioteca de módulos** y, a continuación, en **Añadir**.
 
 Para añadir módulos a un curso ya publicado, primero puede crear un duplicado de ese curso, que se guardará como borrador, y luego añadir módulos.
 
 +++
 
-+++¿Recibiré una notificación cuando los alumnos realicen cursos? ¿Cómo lo hago?
++++¿Recibiré una notificación cuando los alumnos realizan cursos? ¿Cómo lo hago?
 
 No se notificará al autor cuando los alumnos efectúen cursos. El autor puede ponerse en contacto con el administrador para solicitarle esa información.
 
@@ -238,17 +239,17 @@ Los autores no necesitan crear un programa de aprendizaje para los cursos. El ad
 Para crear un curso, siga los pasos:
 
 1. Inicie sesión en Adobe Learning Manager como autor.
-1. Haga clic en **[!UICONTROL Crear cursos]** en la página de introducción.\
+1. Haga clic en **[!UICONTROL Crear cursos]** en la página Introducción.\
    Aparece la página Información básica.
 
 1. Proporcione la información básica requerida para el curso. Siga las instrucciones de la ayuda estática.
-1. Haga clic en **[!UICONTROL Agregar módulos]** al curso y elija un módulo de la lista de cuatro módulos: Proporcione la información básica necesaria para cada módulo y haga clic en **[!UICONTROL Hecho]**.
+1. Haga clic en **[!UICONTROL Añadir módulos]** al curso y elija un módulo de la siguiente lista de cuatro módulos. Proporcione la información básica requerida para cada módulo y haga clic en **[!UICONTROL Listo]**.
 
-Cuando haya terminado de crear el curso, haga clic en Guardar. De forma predeterminada, el curso se guarda como borrador. Haga clic en **[!UICONTROL Publish]** para publicar el curso.
+Cuando haya terminado de crear el curso, haga clic en Guardar. De forma predeterminada, el curso se guarda como borrador. Haga clic en **[!UICONTROL Publicar]** para publicar el curso.
 
 A fin de que el curso esté listo para publicarse, debe añadir el nombre del curso, al menos un módulo, tipo de inscripción, competencia, nivel de competencia y créditos.
 
-También puede publicar un borrador de curso enumerado siguiendo los pasos que se indican a continuación:
+También puede publicar un borrador del curso que aparece siguiendo los pasos a continuación:
 
 1. Haga clic en la ficha Mis cursos > Borradores.
 1. Coloque el ratón sobre el curso y haga clic en Publicar curso.

@@ -2,13 +2,14 @@
 description: Aprenda a compartir un curso de compositor de contenido para su revisión con compañeros o directamente con alumnos. Conozca la diferencia entre los dos flujos de uso compartido, los controles de acceso y las implicaciones de seguimiento.
 jcr-language: en_us
 title: Compartir un curso de compositor de contenido y colaborar en él
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # Compartir un curso de compositor de contenido y colaborar en él
 

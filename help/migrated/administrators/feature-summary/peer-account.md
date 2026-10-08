@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Cuentas de igual a igual
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 51%
-
 ---
-
 # Cuentas de igual a igual
 
 Lea este artículo para saber cómo crear y administrar cuentas de igual a igual en Learning Manager.
@@ -110,8 +111,8 @@ Anteriormente, los cursos adquiridos de cuentas de igual a igual se mostraban a 
 
 * Cuando se comparte un curso desde una cuenta de igual a igual, Learning Manager ahora resuelve y muestra el **nombre de autor real** de la cuenta de origen.
 * Este comportamiento se aplica a:
-   * Cursos compartidos recientemente
-   * Cursos adquiridos antes de la introducción de esta mejora
+  * Cursos compartidos recientemente
+  * Cursos adquiridos antes de la introducción de esta mejora
 
 ### Comportamiento retroactivo
 

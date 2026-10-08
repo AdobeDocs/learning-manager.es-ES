@@ -1,13 +1,14 @@
 ---
 title: Añadir ubicaciones de clases
 description: Obtenga información sobre cómo los administradores pueden configurar las opciones, y añadir, migrar, editar y eliminar ubicaciones de clase en Adobe Learning Manager, y sobre cómo añadir traducciones para una ubicación de clase.
-source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 3%
-
+source-wordcount: '1740'
+ht-degree: 5%
 ---
-
 
 # Añadir ubicaciones de clases
 
@@ -67,7 +68,7 @@ Puede añadir una ubicación de clase mediante el formato de campo único:
    1. Introduzca la descripción de la ubicación en el campo **Información de ubicación**. Este campo es opcional.
    1. Introduzca la **URL de ubicación**. Los alumnos pueden ver esta información en los detalles de la clase. La dirección URL también puede ser una URL de ubicación de mapa, si es necesario. Se trata de un campo opcional.
    1. Escriba y seleccione la **región de ubicación**. Este campo es opcional.
-   1. Escriba el número de puestos disponibles en el campo **Límite de puestos**. Esto indica la capacidad de asientos de la clase. Este valor se puede cambiar al crear el evento de formación real dirigido por el instructor.
+   1. Introduzca el número de puestos disponibles en el campo **Límite de puestos**. Esto indica la capacidad de asientos de la clase. Este valor se puede modificar al crear el evento real de formación dirigido por un instructor.
       ![Agregar una ubicación de clase con el formato de campo único](assets/add-classroom-location-single-field-format.jpeg)
       *Agregar una ubicación de clase usando el formato de campo único.*
 
@@ -84,7 +85,7 @@ Para migrar ubicaciones existentes:
 
    Se descargará un archivo CSV con las ubicaciones de clase existentes. Están disponibles las siguientes columnas:
 
-   1. **room_id**: Identificador único de la ubicación.
+   1. **room_id**: Identificador único para la ubicación.
    1. **configuración regional**: Configuración regional para el nombre de ubicación y la información de ubicación traducidos.
    1. **nombre**: Nombre de la clase.
    1. **país**: País donde se encuentra el aula.
@@ -164,7 +165,7 @@ Para importar ubicaciones de clase de forma masiva:
 
    Se descarga un archivo CSV que contiene las ubicaciones de clase existentes. Están disponibles las siguientes columnas:
 
-   1. **room_id**: Identificador único de la ubicación.
+   1. **room_id**: Identificador único para la ubicación.
    1. **configuración regional**: Configuración regional para el nombre de ubicación y la información de ubicación traducidos.
    1. **nombre**: Nombre de la clase.
    1. **país**: País donde se encuentra el aula.
@@ -253,7 +254,7 @@ Para eliminar una ubicación de clase, siga estos pasos:
 1. **¿Qué sucede con las ubicaciones de clase existentes una vez completada la migración?**<br>
 Puede habilitar el formato de ubicación de cuatro campos solo después de migrar todas las ubicaciones existentes, ya sea manualmente o mediante una carga de CSV. Una vez habilitado el formato de cuatro campos, todos los cursos existentes que utilizan Ubicaciones de clase muestran las ubicaciones en el nuevo formato.
 
-1. **¿Necesito reestructurar manualmente el archivo CSV exportado para que coincida con el formato de ubicación de cuatro campos?**<br>
+1. **¿Tengo que reestructurar manualmente el archivo CSV exportado para que coincida con el formato de ubicación de cuatro campos?**<br>
 No. El archivo CSV exportado siempre utiliza el formato de ubicación de cuatro campos, independientemente de si está activado actualmente. Solo tiene que actualizar los valores que faltan antes de importar el archivo.
 
 1. **¿Afecta la migración a los informes de Adobe Learning Manager?**<br>

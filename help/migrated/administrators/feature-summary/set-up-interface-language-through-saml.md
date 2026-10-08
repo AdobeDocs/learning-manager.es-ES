@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Configurar el idioma de la interfaz mediante SAML
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # Configurar el idioma de la interfaz mediante SAML
 
 Adobe Learning Manager (ALM) ahora acepta un atributo SAML para el idioma. A continuación, este atributo se asigna a la interfaz del usuario y a la configuración de idioma de contenido, lo que garantiza una interacción fluida con el LMS en el idioma que prefiera. La configuración de estas opciones de idioma se administra a través de la plataforma de administración de identidades y accesos (IAM), utilizando SAML para inicio de sesión único (SSO). Esto admite inicios de sesión iniciados por el proveedor de servicios (SP) e iniciados por el proveedor de identidades (IdP), lo que permite a los usuarios ver la interfaz y el contenido en el idioma elegido. El flujo de trabajo es el siguiente:
@@ -75,9 +76,9 @@ Para configurar el SSO en ALM, siga estos pasos:
    * Seleccione **[!UICONTROL IDP iniciado]** en el menú desplegable **[!UICONTROL Configuración de inicio de sesión único (SSO)]**.
    * Para **[!UICONTROL URL de autenticación iniciada por IDP]**:
 
-      * Abra el archivo XML de metadatos que descargó anteriormente.
-      * Busque el valor de ubicación y cópielo.
-      * Pegue este valor en el campo URL de autenticación iniciada por IDP.
+     * Abra el archivo XML de metadatos que descargó anteriormente.
+     * Busque el valor de ubicación y cópielo.
+     * Pegue este valor en el campo URL de autenticación iniciada por IDP.
 
    * Para **[!UICONTROL archivo XML de metadatos]**: Cargue el archivo .xml que descargó anteriormente.
 

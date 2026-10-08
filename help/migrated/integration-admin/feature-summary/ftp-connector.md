@@ -3,13 +3,14 @@ description: Obtenga información sobre cómo integrar el conector de FTP con Ad
 jcr-language: en_us
 title: Conector de FTP
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
-
 
 # Conector de FTP en Adobe Learning Manager
 
@@ -205,7 +206,7 @@ Para configurar un origen:
    _Página de administración de configuración con el botón Agregar una nueva configuración y la lista de configuración existente_
 
 3. Escriba **Nombre** y **Nombre de archivo de origen**:
-   - **Nombre:** Identificador descriptivo para este origen de xAPI (por ejemplo, integración de LMS o sistema de formación externo).
+   - **Nombre:** identificador descriptivo para este origen de xAPI (por ejemplo, integración de LMS o sistema de formación externo).
    - **Nombre de archivo de origen:** Nombre de archivo exacto que se cargará en la carpeta FTP (debe coincidir exactamente, incluida la extensión de archivo).
 
    ![](assets/ftp-connector8.png)
@@ -248,11 +249,11 @@ Para asignar los campos:
 
 3. De forma predeterminada, asigne los siguientes campos obligatorios:
    - **actor.mbox:** Representa la dirección de correo electrónico del alumno (el actor que realiza
-la acción). Identifica de manera exclusiva quién realizó la actividad.
+     la acción). Identifica de manera exclusiva quién realizó la actividad.
    - **verb.id:** Este es el identificador de la acción realizada por el alumno, como
-completado, intentado o pasado. Especifica la acción del alumno.
+     completado, intentado o pasado. Especifica la acción del alumno.
    - **object.id:** Indica el objeto de aprendizaje o la actividad con la que interactuó el alumno,
-como un curso, módulo o ruta de aprendizaje.
+     como un curso, módulo o ruta de aprendizaje.
 4. Seleccione **Agregar una nueva asignación** para asignar campos adicionales.
 5. Para cada campo, seleccione el **tipo de datos** adecuado (cadena, número, booleano o fecha).
 6. Seleccione **Guardar** para completar la asignación.
@@ -308,9 +309,9 @@ Para ver el estado de ejecución:
    - **Duración:** Tiempo total necesario para el procesamiento.
    - **Tipo de importación:** Si la importación se programó o a petición.
    - **Estado actual:** Información de estado en tiempo real.
-      - **En curso:** Se está ejecutando la importación
-      - **Completado:** Finalización correcta con recuentos de registros
-      - **Error:** Error con información de diagnóstico
+     - **En curso:** Se está ejecutando la importación
+     - **Completado:** Finalización correcta con recuentos de registros
+     - **Error:** Error con información de diagnóstico
 
 ## Solucionar error de importación
 

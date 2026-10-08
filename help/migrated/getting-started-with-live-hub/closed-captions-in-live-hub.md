@@ -1,13 +1,14 @@
 ---
 title: Subtítulos opcionales en sesiones de Live Hub
 description: Aprenda cómo los subtítulos opcionales muestran el contenido hablado en tiempo real para que los instructores y los alumnos puedan seguirlo durante las sesiones de Live Hub.
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 Los subtítulos opcionales transcriben el contenido hablado en tiempo real durante una sesión de Live Hub. Los participantes ven el texto hablado en pantalla a medida que se desarrolla la conversación. Los subtítulos son útiles cuando el audio no está claro, por ejemplo, en entornos ruidosos o cuando los participantes prefieren seguir leyendo. Los subtítulos opcionales son especialmente útiles en situaciones en las que el audio no es claro, como en entornos ruidosos o cuando los participantes prefieren leer junto con el debate.
 

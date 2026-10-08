@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 61%
-
 ---
-
 # Módulos
 
 Lea este artículo para aprender a administrar módulos como instructor en Learning Manager.
@@ -173,11 +174,11 @@ Si desea añadir puntuaciones y comentarios a módulos de actividad que se han e
 
 Para las sesiones creadas con Live Hub, la sección **Live Hub** de la página **Introducción a la sesión** proporciona acceso rápido a las actividades clave de la sesión.
 
-&#x200B;- **Introducir clase virtual**: Seleccione **Introducir clase** para unirse a la clase virtual o configúrela antes de que comience la sesión. También puede seleccionar **Copiar URL** para copiar el vínculo de la sesión y compartirlo con los participantes.
+- **Introducir clase virtual**: Seleccione **Introducir clase** para unirse a la clase virtual o configúrela antes de que comience la sesión. También puede seleccionar **Copiar URL** para copiar el vínculo de la sesión y compartirlo con los participantes.
 
-&#x200B;- **Ver análisis de sesión**: Seleccione **Ver página de análisis** para abrir el panel de análisis de sesión una vez finalizada la sesión. El panel proporciona información sobre la asistencia de los alumnos, la participación, la participación y otras métricas de las sesiones.
+- **Ver análisis de sesión**: Seleccione **Ver página de análisis** para abrir el panel de análisis de sesión una vez finalizada la sesión. El panel proporciona información sobre la asistencia de los alumnos, la participación, la participación y otras métricas de las sesiones.
 
-&#x200B;- **Ver grabación**: Si la sesión se grabó, selecciona **Ver grabación** para acceder a la grabación directamente desde la página **Introducción a la sesión**. Si no hay ninguna grabación disponible, la tarjeta indica su estado.
+- **Ver grabación**: Si la sesión se grabó, selecciona **Ver grabación** para acceder a la grabación directamente desde la página **Introducción a la sesión**. Si no hay ninguna grabación disponible, la tarjeta indica su estado.
 
 Página ![Resumen de sesión](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Página de resumen de sesión que muestra la sección Live Hub con acceso a las actividades de Live Hub.*

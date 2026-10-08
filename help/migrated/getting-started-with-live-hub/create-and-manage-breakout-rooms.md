@@ -1,13 +1,14 @@
 ---
 title: Crear y administrar sesiones de grupo de trabajo en Live Hub
 description: Aprenda cómo los instructores crean, configuran, inician, supervisan y administran las salas de grupo de trabajo en una sesión de Live Hub, incluidos los informes y los resúmenes de las salas generados por IA.
-source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
-
 ---
-
 
 # Crear y administrar sesiones de grupo de trabajo
 

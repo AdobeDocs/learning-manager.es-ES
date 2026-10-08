@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aplicación de alumno para móviles y tabletas
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # Aplicación de alumno para móviles y tabletas
 
 Lea este artículo para aprender a descargar la aplicación de alumno de Learning Manager para smartphones y tabletas. Aprenda a realizar los cursos en su móvil o tableta.
@@ -217,7 +218,7 @@ En esta actualización, no se admiten ciertas funciones. No es posible:
 
 * crear ni seguir un tablero;
 * copiar una URL en una publicación;
-* Añadir publicación como historia o añadir como publicación como favorita o fijar al principio.
+* Añadir publicación como historia o añadir como publicación como favorita o pin en la parte superior.
 * Ver una junta de líderes sociales.
 
 Aprendizaje social es una plataforma de la aplicación Learning Manager para dispositivos móviles. En ella, los usuarios pueden compartir ideas y conocimientos valiosos en un entorno informal. Es una metodología que complementa el concepto de aprendizaje tradicional.
@@ -346,7 +347,7 @@ En la aplicación para móviles, no es posible crear un tablero. Para crear un t
 * Editar o eliminar comentarios en un tablero.
 * Editar o eliminar una publicación según los permisos.
 * Informar sobre abusos respecto a una publicación si esta infringe su privacidad o si el contenido es inadecuado. Cuando se informa sobre una publicación, se envía una notificación al administrador y a los moderadores del tablero para que emprendan las acciones oportunas.
-* Indicar ![](assets/prime-like.png) o no ![](assets/prime-dislike.png)   un puesto.
+* Marcar como ![](assets/prime-like.png) o no marcar como favorita ![](assets/prime-dislike.png) una publicación.
 * Indicar que ![](assets/prime-like.png) o no le gusta ![](assets/prime-dislike.png) un comentario.
 
 ## Crear una publicación en otros tableros {#createapostinotherboards}

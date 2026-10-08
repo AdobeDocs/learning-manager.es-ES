@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Panel de éxito de grupo
 description: Obtenga más información sobre el Panel de éxito de grupo en Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
-
 ---
-
 # Panel de éxito de grupo
 
 ## Introducción
@@ -26,9 +27,9 @@ El Panel de éxito de grupo ofrece lo siguiente:
 
 * **Simplifica el seguimiento del progreso del alumno**: El panel de éxito de grupo proporciona una vista fácil de usar y en tiempo real de los datos de los alumnos, lo que reduce la necesidad de transcripciones basadas en Excel. Los responsables y administradores pueden ver rápidamente las inscripciones de alumnos y el progreso de los cursos para admitir situaciones clave como:
 
-   * **Preparación para la revisión del rendimiento**: Los gestores pueden evaluar el progreso del curso para los miembros del equipo antes de los ciclos de evaluación.
-   * **Supervisión del cumplimiento**: Identificar a los alumnos que no han completado los cursos de formación obligatorios.
-   * **Seguimiento a nivel de equipo**: Los gerentes de franquicia, tienda o región pueden garantizar que sus equipos completen el aprendizaje necesario a tiempo.
+  * **Preparación para la revisión del rendimiento**: Los gestores pueden evaluar el progreso del curso para los miembros del equipo antes de los ciclos de evaluación.
+  * **Supervisión del cumplimiento**: Identificar a los alumnos que no han completado los cursos de formación obligatorios.
+  * **Seguimiento a nivel de equipo**: Los gerentes de franquicia, tienda o región pueden garantizar que sus equipos completen el aprendizaje necesario a tiempo.
 
 * **Facilita la administración de equipos**: El panel de éxito de grupo es útil para gestores con equipos pequeños (menos de 50 personas), como gerentes de tienda, gerentes de franquicia, gerentes de concesionario o equipos internos. Proporciona una vista de equipo y permite a los responsables comprobar rápidamente si su equipo ha completado el conjunto de cursos necesario para lograr los objetivos empresariales.
 

@@ -3,13 +3,14 @@ description: Información sobre transcripciones de alumnos
 jcr-language: en_us
 title: Cambios en las transcripciones de alumnos
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # Cambios en las transcripciones de alumnos en la versión de abril
 
 ## Columna Método de finalización
@@ -24,9 +25,9 @@ La columna **Método de finalización** indica cómo se completó cada registro 
 
 >[!NOTE]
 >
->Esta columna no está visible en el LT del alumno; solo está disponible en el LT de administrador para realizar informes y realizar un seguimiento.
+>Esta columna no está visible en el LT del alumno; solo está disponible en el LT de administración para fines de informes y seguimiento.
 
-**Impacto**: permite a los administradores tener pistas de auditoría claras, seguimiento del cumplimiento y transparencia sobre cómo se completó un curso.
+**Impacto**: Permite a los administradores disponer de pistas de auditoría claras, un seguimiento del cumplimiento normativo y transparencia sobre cómo se ha completado un curso.
 
 ## Seguimiento alternativo de finalización en transcripciones de alumnos
 
@@ -34,11 +35,11 @@ Las finalizaciones alternativas permiten que los alumnos reciban el crédito de 
 
 En la transcripción del alumno (LT), las finalizaciones alternativas afectan a tres columnas existentes: **Estado**, **Fecha de finalización** y **Origen de finalización**.
 
-- **Estado**: el estado puede ser **Completado** incluso si el alumno no ha completado directamente el curso o la ruta de acceso de destino debido a una finalización alternativa. Otros estados (**No iniciado**, **En curso**, **Dado de baja**) no se ven afectados.
-- **Fecha de finalización**: para una finalización alternativa, la fecha se hereda del curso o ruta de acceso de origen. Si más tarde el alumno completa el objetivo directamente, la fecha se actualiza para reflejar la finalización directa.
-- **Origen de finalización**: captura los identificadores de formación de los cursos o rutas de acceso de origen que proporcionaron la finalización alternativa. Varios orígenes activos se muestran como ID separados por comas. Si se revocan los orígenes, solo se conservan los activos. Cuando existen varios orígenes, se utiliza la fecha de finalización más temprana.
+- **Estado**: El estado puede ser **Completado** incluso si el alumno no ha completado directamente el curso o la ruta de acceso de destino debido a una finalización alternativa. Otros estados (**No iniciado**, **En curso**, **Dado de baja**) no se ven afectados.
+- **Fecha de finalización**: Para una finalización alternativa, la fecha se hereda del curso o ruta de origen. Si más tarde el alumno completa el objetivo directamente, la fecha se actualiza para reflejar la finalización directa.
+- **Origen de finalización**: Captura los ID de formación de los cursos de origen o las rutas que proporcionaron la finalización alternativa. Varios orígenes activos se muestran como ID separados por comas. Si se revocan los orígenes, solo se conservan los activos. Cuando existen varios orígenes, se utiliza la fecha de finalización más temprana.
 
-**Impacto**: las finalizaciones alternativas reducen la reconciliación manual, automatizan el seguimiento del progreso en las certificaciones y rutas de aprendizaje, y cumplen los requisitos de cumplimiento.
+**Impacto**: Las finalizaciones alternativas reducen la reconciliación manual, automatizan el seguimiento del progreso en las rutas de aprendizaje y las certificaciones, y cumplen los requisitos de cumplimiento.
 
 >[!NOTE]
 >
@@ -54,7 +55,7 @@ La columna **Fecha de finalización** de la transcripción del alumno se utiliza
 - Si varios orígenes proporcionan una finalización alternativa, se utiliza la primera fecha de finalización activa.
 - Si se revoca un origen (con la opción retroactiva incompleta activada), la fecha se actualiza al siguiente origen activo más antiguo o se borra si no quedan orígenes activos.
 
-**Impacto**: Garantiza un seguimiento histórico preciso y una generación de informes coherente, incluso cuando las relaciones alternativas cambian con el tiempo.
+**Impacto**: Garantiza un seguimiento histórico preciso y una creación de informes coherente, incluso cuando las relaciones alternativas cambian con el tiempo.
 
 ## Finalizaciones alternativas revocadas
 
@@ -68,9 +69,9 @@ Las finalizaciones alternativas revocadas se producen cuando se eliminan todas l
 
 ### Impacto en las transcripciones de alumnos
 
-- **Estado**: si se revocan todas las finalizaciones alternativas y no hay finalización directa, el estado se actualiza (por ejemplo, de **Completado** a **No iniciado** o **En curso**).
-- **Fecha de finalización**: Se borra si no quedan orígenes activos y no hay finalización directa.
-- **Origen de finalización**: se ha actualizado para quitar los orígenes revocados; se borra si se revocan todos los orígenes.
+- **Estado**: Si se revocan todas las finalizaciones alternativas y no hay finalización directa, el estado se actualiza (por ejemplo, de **Completado** a **No iniciado** o **En curso**).
+- **Fecha de finalización**: Se borra si no quedan fuentes activas y no se completa directamente.
+- **Origen de finalización**: Se ha actualizado para eliminar los orígenes revocados; se borra si se revocan todos los orígenes.
 
 Si el alumno tiene una finalización directa, revocar orígenes alternativos no afecta al estado de finalización ni a la fecha de finalización.
 
@@ -84,7 +85,7 @@ Los comentarios de los revisores de los módulos de lista de comprobación ahora
 
 | Área | Nombre de columna anterior | Nuevo nombre de columna | Notas |
 |------|-----------------|-----------------|-------|
-| Transcripciones de alumnos (administrador) | Enviar comentario | Comentarios del revisor | Se aplica a todos los orígenes de Admin LT: IU, API de trabajos, conectores. |
+| Transcripciones de alumnos (administrador) | Enviar comentario | Comentarios del revisor | Se aplica a todos los orígenes de LT de administrador: IU, API de trabajos, conectores. |
 
 Este cambio se aplica de manera uniforme a todos los orígenes de LT de administrador (exportaciones de interfaz de usuario, informes de API de trabajos y conectores, cuando corresponda). Los comentarios del revisor aparecerán como una columna dedicada al final (para los conectores que no expusieron previamente el comentario de envío), lo que garantiza que las integraciones posteriores puedan distinguir los comentarios del revisor de otros comentarios.
 
@@ -98,4 +99,4 @@ Este cambio se aplica de manera uniforme a todos los orígenes de LT de administ
 
 El informe Transcripciones de alumnos ahora utiliza lógica perfeccionada para distinguir entre el tiempo de aprendizaje activo y el tiempo de inactividad según la actividad del usuario y el enfoque de la pestaña del navegador.
 
-**Impacto**: Proporciona una medición más precisa de la participación del alumno, que respalda los informes de cumplimiento y los análisis.
+**Impacto**: Proporciona una medición más precisa de la participación de los alumnos, lo que respalda la creación de informes de cumplimiento y los análisis.

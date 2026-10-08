@@ -1,13 +1,14 @@
 ---
 title: Usar el panel Chat como instructor en Live Hub
 description: Obtenga información sobre cómo los instructores acceden, moderan y personalizan el panel Chat en una sesión de Live Hub, incluidas respuestas, reacciones, menciones, chat privado y respuestas asistidas por IA.
-source-git-commit: 96d6f198b012e7a449fdc17a24f0655e7fa122cb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
-
 ---
-
 
 # Uso del panel Chat como instructor
 

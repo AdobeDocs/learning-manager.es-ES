@@ -3,13 +3,14 @@ title: 'Adobe Learning Manager: configuración de seguridad y administración de
 description: Este documento describe los tipos de cuentas administrativas de Adobe Learning Manager, la configuración relacionada con la seguridad, los valores predeterminados seguros recomendados, las funciones de la API, la funcionalidad de exportación, los métodos de comparación de la configuración, las prácticas de publicación y el historial de versiones. Proporciona instrucciones detalladas sobre cómo funcionan las cuentas privilegiadas, sus implicaciones de seguridad y cómo se admite la administración de configuración en toda la plataforma.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # Configuración de seguridad y administración de la configuración
 
 Esta guía proporciona respuestas detalladas a las recomendaciones de FedRAMP (FRR-RSC-03 a FRR-RSC-08) para Adobe Learning Manager (ALM). Describe las prácticas recomendadas de seguridad, los valores predeterminados seguros recomendados y las herramientas para auditar, exportar y administrar la configuración de cuentas privilegiadas. El documento está diseñado para administradores y equipos de cumplimiento para garantizar la configuración y administración seguras de las cuentas de ALM.

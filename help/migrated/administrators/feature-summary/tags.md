@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Etiquetas
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 71%
-
 ---
-
 # Etiquetas
 
 Ahora los administradores pueden gestionar etiquetas en Learning Manager. Use una base de datos de etiquetado de mejor calidad y que sea manejable para ayudar a los alumnos a buscar mejor y obtener resultados de búsqueda apropiados rápidamente. Puede gestionar las etiquetas redundantes, mal escritas e irrelevantes con esta función. También puede añadir, editar, eliminar, adjuntar o reemplazar etiquetas.

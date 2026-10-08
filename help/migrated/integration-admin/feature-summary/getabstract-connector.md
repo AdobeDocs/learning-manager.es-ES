@@ -3,13 +3,14 @@ description: Conector de getAbstract en Adobe Learning Manager
 jcr-language: en_us
 title: Conector de getAbstract
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
-
 
 # conector de getAbstract para Adobe Learning Manager
 
@@ -162,7 +163,7 @@ Para asegurarse de que la sincronización funciona correctamente:
 
 - Un archivo de fuente de usuario válido debe estar en la carpeta FTP de getAbstract para las fechas de sincronización especificadas.
 - El archivo debe tener el siguiente formato de nombre:
-   - report_export_yyyy_MM_dd_HHmmss.xlsx o,
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx o,
+  - report_export_yyyy_MM_dd.xlsx
 
-Descargue un [archivo de fuente de usuario de getAbstract de muestra](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=es) para comprender el formato.
+Descargue un [archivo de fuente de usuario de getAbstract de muestra](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en) para comprender el formato.

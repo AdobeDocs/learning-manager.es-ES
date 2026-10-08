@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Tablero de responsable
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 50%
-
 ---
-
 # Tablero de responsable
 
 Obtenga información sobre cómo ver y realizar el seguimiento de aprendizajes desde el tablero de responsable.
@@ -61,7 +62,7 @@ También es posible ver objetos de aprendizaje y la cantidad de inscripciones, p
 
 *Ver cursos y resumen de aprendizaje*
 
-Al hacer clic en el número de inscripciones, progresos o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
+Al hacer clic en el número de inscripciones, progresos o finalizaciones de cada aprendizaje, puede ver los siguientes detalles: Personas, fecha de inscripción/finalización, fecha de vencimiento y progreso realizado.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
@@ -99,8 +100,8 @@ El tablero de cumplimiento incluye los siguientes estados de cumplimiento:
 * **[!UICONTROL Alumnos no compatibles]**: Muestra el número de alumnos que incumplieron las fechas límite.
 * **[!UICONTROL Alumnos que se acercan a las fechas límite]**: Muestra el número de alumnos con fechas límite en menos de 30 días.
 * **[!UICONTROL Alumnos con fechas límite seguras]**: Muestra el número de alumnos con fechas límite más largas (más de 30 días).
-* **[!UICONTROL Alumnos que cumplen totalmente la normativa]**: muestra el número de alumnos que la cumplen totalmente.
-* **[!UICONTROL Alumnos no inscritos en ninguna parte]**: Muestra el número de alumnos que no se inscribieron en ningún curso, ruta de aprendizaje o certificación.
+* **[!UICONTROL Alumnos que cumplen totalmente la normativa]**: Muestra el número de alumnos que cumplen totalmente la normativa.
+* **[!UICONTROL Los alumnos no se inscribieron en ninguna parte]**: Muestra el número de alumnos que no se han inscrito en ningún curso, ruta de aprendizaje o certificación.
 
 ### Administradores de correo electrónico y alumnos
 
@@ -113,8 +114,8 @@ _Administradores de correo electrónico_
 
 **[!UICONTROL Administradores de correo electrónico]** le proporciona las siguientes opciones:
 
-* **[!UICONTROL Administradores de correo electrónico de alumnos que no cumplen la normativa]**: informa a los responsables cuyos miembros del equipo incumplieron los plazos de entrega.
-* **[!UICONTROL Directores de correo electrónico de alumnos que se acercan a las fechas límite]**: informa a los responsables cuyos integrantes del equipo tengan fechas límite próximas.
+* **[!UICONTROL Administradores de correo electrónico de alumnos no compatibles]**: Notificar a los responsables cuyos miembros del equipo incumplieron los plazos.
+* **[!UICONTROL Administradores de correo electrónico de alumnos que se acercan a las fechas límite]**: Notificar a los responsables cuyos miembros del equipo tengan fechas límite próximas.
 
 **Administrar un solo equipo**
 
@@ -125,8 +126,8 @@ _Alumnos por correo electrónico_
 
 La opción **[!UICONTROL Alumnos por correo electrónico]** le ofrece las siguientes opciones:
 
-* **[!UICONTROL Enviar correo electrónico a alumnos que no cumplen los requisitos]**: informa a los alumnos que incumplen los plazos.
-* **[!UICONTROL Alumnos por correo electrónico que se acercan a las fechas límite]**: Notifica a los alumnos que tienen fechas límite próximas.
+* **[!UICONTROL Enviar correo electrónico a alumnos no conformes]**: Notificar a los alumnos que incumplan las fechas límite.
+* **[!UICONTROL Alumnos De Correo Electrónico Que Se Aproximan A Las Fechas Límite]**: Notificar a los alumnos con fechas límite próximas.
 
 ### Descargar informe
 

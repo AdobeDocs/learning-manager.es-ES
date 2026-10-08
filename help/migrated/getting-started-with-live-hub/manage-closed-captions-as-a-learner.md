@@ -1,13 +1,14 @@
 ---
 title: Administrar subtítulos opcionales como alumno en Live Hub
 description: Obtenga información sobre cómo los alumnos muestran subtítulos opcionales y personalizan su tamaño de fuente y estilo de subtítulos durante una sesión de Live Hub.
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # Administrar subtítulos opcionales como alumno
 

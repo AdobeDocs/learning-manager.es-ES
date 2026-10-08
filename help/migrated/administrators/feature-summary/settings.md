@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Configuración
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 75%
-
 ---
-
 # Configuración
 
 Obtenga información sobre la configuración de la cuenta de Learning Manager que puede efectuar como administrador.
@@ -412,7 +413,7 @@ Active o desactive las opciones siguientes:
      <li>Si la opción <b>Eficacia del curso</b> está activada, los alumnos solo podrán ver el valor de la eficacia del curso.</li>
      <li>Si la opción <b>Valoración basada en estrellas</b> está activada, los alumnos solo podrán ver la valoración media con estrellas y el número de alumnos que han valorado el curso.<br></li>
     </ul>
-    <p>Esta función solo está disponible para los cursos. La valoración basada en estrellas no se admite en programas de aprendizaje ni certificados.<br><br><b>Nota: </b>Este cambio solo afecta a la aplicación del alumno. </p>
+    <p>Esta función solo está disponible para los cursos. La valoración basada en estrellas no es compatible con los programas de aprendizaje ni los certificados.<br><br><b>Nota: </b>Este cambio solo afecta a la aplicación del alumno. </p>
     <p>En el resto de aplicaciones (administrador, autor, responsable, administrador personalizado y autor personalizado), los cambios realizados en la configuración (clasificación basada en estrellas/eficacia del curso/desactivación de la visualización de valoraciones) no tendrán ningún efecto. </p>
     <p>En las nuevas cuentas, la sección <b>Mostrar valoraciones</b> incluirá la opción <b>Valoración basada en estrellas</b> activada de forma predeterminada.</p>
     <p>Para las cuentas existentes, si la cuenta tenía activada la opción <b>Eficacia del curso</b>, la sección <b>Mostrar valoraciones</b> se activará con la opción Eficacia del curso seleccionada. Si la opción <b>Eficacia del curso</b> está desactivada, la sección <b>Mostrar valoraciones</b> también se deshabilitará. Si la sección <b>Mostrar valoraciones</b> está activada, la opción <b>Valoración basada en estrellas</b> se habilitará de forma predeterminada.</p></td>
@@ -572,8 +573,8 @@ Añada lo siguiente:
 
 1. Nombre de ubicación: Introduzca el nombre de la clase.
 2. Información de ubicación: Introduzca la información sobre la ubicación.
-3. Región Ubicación: El valor introducido aparece como filtro Ubicaciones de Formación para los alumnos.
-4. URL de ubicación: introduzca la dirección URL de la ubicación.
+3. Ubicación Región: El valor introducido aparece como filtro Ubicaciones de formación para los alumnos.
+4. URL de ubicación: Introduzca la dirección URL de la ubicación.
 5. Límite de plazas: Especifique la capacidad de la sala.
 
 ![ubicación de clase](assets/location-alm.gif)
@@ -594,7 +595,7 @@ También puede añadir la ubicación con la ayuda de un archivo CSV. El archivo 
 
 Seleccione **Editar** para cambiar lo siguiente:
 
-* **Permitir a los autores crear ubicaciones**: una vez habilitadas, todas las ubicaciones creadas por los autores se mostrarán en la ficha &#39;Todas las ubicaciones&#39;. Los alumnos también verán estas ubicaciones en los filtros Catálogo y Calendario.
+* **Permitir a los autores crear ubicaciones**: Una vez habilitadas, todas las ubicaciones creadas por los autores se mostrarán en la pestaña &quot;Todas las ubicaciones&quot;. Los alumnos también verán estas ubicaciones en los filtros Catálogo y Calendario.
 * **Permitir a los autores modificar y eliminar ubicaciones**:
 Una vez activada, los autores podrán modificar y eliminar todas las ubicaciones de clase. Las modificaciones de los autores se reflejarán en toda la plataforma, incluidos los informes.
 

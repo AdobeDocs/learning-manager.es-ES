@@ -4,13 +4,14 @@ jcr-language: en_us
 title: No se puede cargar un archivo CSV
 contentowner: saghosh
 exl-id: 10458499-1038-4c62-971f-f950d383e970
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
-
+source-wordcount: '545'
+ht-degree: 77%
 ---
-
 # No se puede cargar un archivo CSV
 
 ## Error: datos truncados: datos demasiado largos para la columna.
@@ -25,7 +26,7 @@ Al intentar cargar un archivo CSV en Adobe Learning Manager, aparece el siguient
 
 El error se produce si los datos presentes en la columna especificada superan el límite de caracteres definido para la columna.
 
-## Resolución
+## Solución
 
 * Abra el archivo CSV.
 * Compruebe los datos de la columna indicada en el error.
@@ -43,17 +44,17 @@ No se puede cargar un archivo CSV porque la primera columna muestra un carácter
 
 El problema se produce cuando el archivo CSV se guarda en formato UTF-8 en Excel. Al guardar un archivo CSV en Excel como UTF-8, el archivo se guarda en formato UTF-BOM. Puede comprobarlo mediante el Bloc de notas++ o al cargar un archivo CSV en Learning Manager; durante la asignación de columnas, la primera columna muestra un carácter especial.
 
-## Resolución
+## Solución
 
 * **A:** Guardar a través de Excel:
 
-   1. Abra el archivo CSV en Excel.
-   1. Guarde el archivo como CSV normal.
+  1. Abra el archivo CSV en Excel.
+  1. Guarde el archivo como CSV normal.
 
 * **B:** Guardando mediante Bloc de notas o Bloc de notas++:
 
-   * Abra el archivo CSV en el Bloc de notas o el Bloc de notas++.
-   * Guarde el archivo en formato UTF-8.
+  * Abra el archivo CSV en el Bloc de notas o el Bloc de notas++.
+  * Guarde el archivo en formato UTF-8.
 
 ## Error: la dirección de correo electrónico del usuario ya está presente en el sistema.
 
@@ -67,7 +68,7 @@ No se puede cargar un archivo CSV porque no se ha completado correctamente su pr
 
 Este problema se produce si hay un usuario que ya está presente en el sistema con la misma dirección de correo electrónico o UUID.
 
-## Resolución
+## Solución
 
 ### Escenario 1
 
@@ -76,7 +77,7 @@ Este problema se produce si hay un usuario que ya está presente en el sistema c
 En este escenario, hay dos razones para este error:
 
 1. El usuario que está intentando añadir es responsable de un perfil externo. Para resolver este problema, abra el perfil externo del que forma parte el usuario, seleccione el usuario, haga clic en **[!UICONTROL Acciones]** > **[!UICONTROL Asignar función]** > **[!UICONTROL Responsable]** y cambie el responsable del perfil.
-1. El usuario que está intentando agregar se ha purgado. En este caso, no podrá añadir el usuario con la misma dirección de correo electrónico hasta que se complete el proceso de purga. Como solución alternativa&#x200B;**, a**&#x200B;ñada el usuario con una dirección de correo electrónico secundaria para proporcionar acceso a la plataforma. Una vez completado el proceso de purga, edite al usuario y cambie la dirección de correo electrónico a la dirección correcta.
+1. El usuario que está intentando añadir se ha purgado. En este caso, no podrá añadir el usuario con la misma dirección de correo electrónico hasta que se complete el proceso de purga. Como solución alternativa&#x200B;**, a**&#x200B;ñada el usuario con una dirección de correo electrónico secundaria para proporcionar acceso a la plataforma. Una vez completado el proceso de purga, edite al usuario y cambie la dirección de correo electrónico a la dirección correcta.
 
 ### Escenario 2
 

@@ -4,13 +4,14 @@ title: Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 description: El etiquetado blanco es una práctica que consiste en cambiar la marca de una aplicación o servicio con tu propia marca y personalizarlo como si fueras el creador original. En Adobe Learning Manager, puede aplicar etiquetas blancas en la aplicación móvil para cambiar la marca de la aplicación y ponerla a disposición de los usuarios con su propia marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Etiquetado en blanco en la aplicación móvil de Adobe Learning Manager
 
 La aplicación móvil de Adobe Learning Manager ahora admite el etiquetado blanco, lo que significa que ahora puede publicar la aplicación con su propia marca.
@@ -119,7 +120,7 @@ Se pueden personalizar las siguientes opciones:
 
    <td>
 
-    <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es: com.nombre-empresa.nombre-producto.</p>
+    <p>Nombre con el que el sistema operativo identifica la aplicación. El formato que se suele utilizar es el siguiente: com.nombre-empresa.nombre-producto.</p>
 
    </td>
 
@@ -151,7 +152,7 @@ Se pueden personalizar las siguientes opciones:
 
    <td>
 
-    <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.<div>Tenga en cuenta que Apple no permite el canal de Alpha en los iconos de la aplicación. Por lo tanto, asegúrese de eliminar el canal del Alpha del recurso antes de enviarlo.</div></p>
+    <p>El icono de la aplicación es png. Este icono se muestra en la aplicación. El formato que se debe asignar al nombre es account-id_appIcon.png. Las dimensiones del icono de la aplicación son de 512 × 512 píxeles.<div>Tenga en cuenta que Apple no permite el canal alfa en los iconos de la aplicación. Por lo tanto, asegúrese de eliminar el canal alfa del activo antes de enviarlo.</div></p>
 
    </td>
 
@@ -355,12 +356,12 @@ Para descargar el archivo services.json, siga estos pasos:
    >   El formato de la entrada de proyecto será &lt;-accountname->@appspot.gserviceaccount.com.
 
 1. Vaya a la pestaña **Claves** y seleccione **Agregar clave**.
-1. Si no hay ninguna clave, seleccione **Crear nueva clave** y seleccione **JSON** como tipo de clave. Esto generará y descargará el archivo JSON.
-1. Si ya hay una clave, seleccione **Cargar clave existente**, pegue la clave y cárguela. Esto generará y descargará el archivo JSON.
+1. Si no hay ninguna clave, seleccione **Crear nueva clave** y seleccione **JSON** como tipo de clave. Esto generará y descargará el Archivo JSON.
+1. Si ya hay una clave, seleccione **Cargar clave existente**, pegue la clave y cárguela. Esto generará y descargará el Archivo JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-Póngase en contacto con el equipo de CSM y comparta el archivo JSON para añadir la entrada a los servicios SNS en AWS. Los usuarios tendrán que obtener la entrada registrada en el servicio SNS para la notificación de inserción, lo que les exigirá compartir los certificados generados anteriormente para su validación.
+Póngase en contacto con el equipo de CSM y comparta el Archivo JSON para añadir la entrada a los servicios de SNS en AWS. Los usuarios tendrán que obtener la entrada registrada en el servicio SNS para la notificación de inserción, lo que les exigirá compartir los certificados generados anteriormente para su validación.
 
 ## Crear proyecto en Firebase {#create-project-in-firebase}
 
@@ -461,7 +462,7 @@ sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alia
 
 >[!NOTE]
 >
->La ruta de la herramienta `apksigner` suele ser similar a la siguiente: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
+>La ruta de acceso a la herramienta `apksigner` suele tener este aspecto: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Para el archivo aab**
 

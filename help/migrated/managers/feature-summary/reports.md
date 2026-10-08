@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Informes
 contentowner: manochan
 exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 90%
-
 ---
-
 # Informes
 
 Creación y administración de informes para responsables.
@@ -69,7 +70,7 @@ En función de los datos históricos, puede ver una representación gráfica de 
 
 1. Haga clic en Informes en el panel de la izquierda. Aparece la página Resumen de informes.\
    **Nota**
-De forma predeterminada, aparecen al menos tres informes de muestra en la página Resumen de informes. Solo puede ver estos informes de muestra para hacerse una idea de cómo los crearía y los personalizaría.
+   De forma predeterminada, aparecen al menos tres informes de muestra en la página Resumen de informes. Solo puede ver estos informes de muestra para hacerse una idea de cómo los crearía y los personalizaría.
 
 1. En la página Resumen de informes, haga clic en Añadir. Aparece el cuadro de diálogo de creación de informes.
 1. Haga clic en Guardar para terminar de crear un informe. A continuación, se proporciona un informe de muestra como referencia.
@@ -212,7 +213,8 @@ Puede cambiar el intervalo/valor de fecha para cualquier informe y obtener una v
 
 **Vista rápida con responsables diferentes**
 
-Si varios responsables le informan a usted, podrá ver los informes rápidamente para cada responsable. Seleccione el nombre del responsable en la lista desplegable para ver un informe único para cada responsable.**Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño de informes** Haga clic en la flecha desplegable en la esquina superior derecha de cada informe para ver opciones desplegables como Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño.
+Si varios responsables le informan a usted, podrá ver los informes rápidamente para cada responsable. Seleccione el nombre del responsable en la lista desplegable para ver un informe único para cada responsable.
+**Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño de informes** Haga clic en la flecha desplegable en la esquina superior derecha de cada informe para ver opciones desplegables como Editar/Mover al tablero/Crear una copia/Eliminar/Cambiar el tamaño.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 

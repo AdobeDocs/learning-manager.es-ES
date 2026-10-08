@@ -4,13 +4,14 @@ title: Integración de Adobe Connect
 description: Los autores pueden crear cursos de clase virtual con Adobe Connect durante el proceso de creación del curso. A fin de habilitar Adobe Connect para su cuenta de Learning Manager, debe ponerse en contacto con el administrador de su empresa.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 57%
-
 ---
-
 # Integración de Adobe Connect
 
 Los administradores de una empresa pueden configurar las opciones de la cuenta de Learning Manager para permitir la integración de Adobe Connect.
@@ -79,7 +80,8 @@ Los instructores pueden acceder a Análisis de sesiones para sus sesiones de Ado
 ![](assets/adobe-connect-session-url.png)
 _Seleccionar URL de sesión_
 
-Este vínculo abre el panel de análisis de la sesión en Connect, que proporciona información detallada sobre la participación en la sesión.Esta función solo está disponible para las sesiones realizadas a través de Adobe Connect. Los análisis de la sesión incluyen:
+Este vínculo abre el panel de análisis de la sesión en Connect, que proporciona información detallada sobre la participación en la sesión.
+Esta función solo está disponible para las sesiones realizadas a través de Adobe Connect. Los análisis de la sesión incluyen:
 
 * **[!UICONTROL Participación]**: Resumen del rendimiento general de la sesión en directo
 * **[!UICONTROL Interacciones]**: Desglose detallado de la actividad de los participantes en los distintos pods

@@ -4,13 +4,14 @@ title: Manual de desarrolladores de aplicaciones
 description: Aprenda a integrar y personalizar aplicaciones mediante las API RESTful, cubriendo temas esenciales como la autenticación de OAuth 2.0, escenarios de uso de API y modelos de datos. Mejora tus aplicaciones empresariales con funciones como la creación de cursos, el seguimiento del progreso de los alumnos, la asignación de habilidades, la certificación, la interacción, etc. Esta guía proporciona instrucciones paso a paso y ejemplos reales para ayudar a los desarrolladores a crear flujos de trabajo fluidos y eficaces. Ideal para desarrolladores que desean aprovechar las funciones de Adobe Learning Manager para crear aplicaciones centradas en el alumno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4577'
 ht-degree: 6%
-
 ---
-
 
 # Adobe Learning Manager Developer Manual
 
@@ -54,14 +55,14 @@ Integra Adobe Learning Manager con aplicaciones externas para una versatilidad m
    * **[!UICONTROL Descripción]**: Breve descripción de lo que hace la aplicación.
    * **[!UICONTROL Ámbitos]**: Seleccione una de las seis opciones disponibles para definir el ámbito de la aplicación. En función de su elección, los puntos finales de la API de Learning Manager están accesibles para la aplicación. Por ejemplo, si elige Acceso de lectura de la función de alumno, todos los puntos finales de la API de alumno de Learning Manager solo estarán accesibles en modo de solo lectura en la aplicación.
 
-      * Acceso de lectura y escritura de la función de administrador: Permite a la aplicación tener acceso a los datos o modificarlos como administrador.
-      * Acceso de lectura y escritura de la función de alumno: Permite que la aplicación acceda a los datos de los alumnos o los modifique.
-      * Acceso de lectura y escritura de xAPI: Permite a la aplicación acceder a instrucciones de la API de experiencia (xAPI) y enviarlas.
+     * Acceso de lectura y escritura de la función de administrador: Permite a la aplicación tener acceso a los datos o modificarlos como administrador.
+     * Acceso de lectura y escritura de la función de alumno: Permite que la aplicación acceda a los datos de los alumnos o los modifique.
+     * Acceso de lectura y escritura de xAPI: Permite a la aplicación acceder a instrucciones de la API de experiencia (xAPI) y enviarlas.
 
    * **[!UICONTROL ¿Solo para esta cuenta?]**
 
-      * **[!UICONTROL Sí]**: si elige Sí, la aplicación no estará visible para otros administradores de cuentas.
-      * **[!UICONTROL No]**: si elige No, otros administradores de cuentas también pueden tener acceso a esta aplicación, pero deben usar el id. de aplicación para tener acceso a ella. El ID de aplicación se genera y se muestra en el modo de edición de aplicaciones de Learning Manager.
+     * **[!UICONTROL Sí]**: si elige Sí, la aplicación no estará visible para otros administradores de cuentas.
+     * **[!UICONTROL No]**: si elige No, otros administradores de cuentas también pueden tener acceso a esta aplicación, pero deben usar el id. de aplicación para tener acceso a ella. El ID de aplicación se genera y se muestra en el modo de edición de aplicaciones de Learning Manager.
 
      ![texto alt](assets/register-an-app.png)
 

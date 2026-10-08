@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Añadir usuarios en Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Añadir usuarios en Adobe Learning Manager
 
@@ -38,7 +39,7 @@ Los administradores pueden añadir usuarios internos mediante los siguientes mé
 
 ### Añadir manualmente un usuario interno
 
-Los administradores pueden agregar manualmente un usuario proporcionando su nombre, correo electrónico, identificador único y nombre del responsable. El identificador único de Adobe Learning Manager es un identificador necesario que los administradores asignan al crear un usuario. Debe ser único para cada usuario y servir de referencia coherente en todo el sistema.
+Los administradores pueden añadir manualmente un usuario proporcionando su nombre, correo electrónico, identificador único y nombre del responsable. El Identificador único de Adobe Learning Manager es un identificador obligatorio que los administradores asignan al crear un usuario. Debe ser único para cada usuario y servir de referencia coherente en todo el sistema.
 
 >[!INFO]
 >
@@ -57,7 +58,8 @@ Para añadir un solo usuario a Adobe Learning Manager:
    ![](assets/add-a-user-prompt.png)
    _Campos para escribir el nombre, el correo electrónico, el identificador único y el perfil de un nuevo usuario_
 5. Busque el responsable del usuario y seleccione el nombre en la lista de responsables.
-6. Seleccione **Agregar**.El usuario recibe un correo electrónico de bienvenida que contiene una URL de inicio de sesión para el acceso.
+6. Seleccione **Agregar**.
+El usuario recibe un correo electrónico de bienvenida que contiene una URL de inicio de sesión para el acceso.
 
 
 ### Permitir el registro automático para usuarios internos

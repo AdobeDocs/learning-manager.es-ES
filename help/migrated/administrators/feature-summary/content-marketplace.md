@@ -4,13 +4,14 @@ title: Tienda de contenido
 description: Learning Manager ahora ofrece la Tienda de contenido para que pueda explorar y adquirir cursos de formación. Explore más de 70 000 cursos que abarcan una amplia gama de temas y que están disponibles en diversos formatos. Elija entre las listas de reproducción revisadas destinadas a una amplia variedad de funciones y que satisfacen sus necesidades de aprendizaje y mejora de aptitudes.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # Tienda de contenido
 
 Los administradores de aprendizaje a menudo se enfrentan a problemas al buscar y cargar contenido de calidad. La Tienda de contenido de Adobe Learning Manager simplifica este proceso al permitir la concesión de licencias de cursos premium a proveedores de confianza, lo que permite una distribución de aprendizaje más rápida y ampliable. Con la Tienda de contenido, el administrador puede examinar, previsualizar y comprar licencias de cursos de terceros de proveedores.

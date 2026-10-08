@@ -3,13 +3,14 @@ description: Las transcripciones de alumnos en Adobe Learning Manager (ALM) perm
 jcr-language: en_us
 title: Transcripciones de alumnos en Adobe Learning Manager
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4883'
+source-wordcount: '4899'
 ht-degree: 7%
-
 ---
-
 # Transcripciones de alumnos en Adobe Learning Manager
 
 ## Información general
@@ -20,7 +21,7 @@ La transcripción del alumno en Adobe Learning Manager (ALM) permite a los admin
 >
 >Las transcripciones de alumnos están disponibles para que las descarguen los administradores, administradores personalizados, responsables o alumnos.
 
-La experiencia de descarga de transcripciones de alumnos y el archivo resultante difieren según la función del usuario. Los administradores y los administradores personalizados pueden generar transcripciones para varios alumnos y tener acceso a conjuntos de datos más amplios, mientras que los alumnos solo pueden descargar su propia transcripción a través de la configuración de su perfil. La interfaz de usuario para la descarga también varía: los administradores utilizan la sección Informes, mientras que los alumnos acceden a las transcripciones desde su perfil. Los archivos descargados pueden contener diferentes columnas y niveles de detalle en función de la función y los permisos.
+La experiencia de descarga de transcripciones de alumnos y el archivo resultante difieren según la función del usuario. Los administradores y los administradores personalizados pueden generar transcripciones para varios alumnos y tener acceso a conjuntos de datos más amplios, mientras que los alumnos solo pueden descargar su propia transcripción a través de la configuración de su perfil. La interfaz de usuario para la descarga también varía: Los administradores utilizan la sección Informes, mientras que los alumnos acceden a las transcripciones desde su perfil. Los archivos descargados pueden contener diferentes columnas y niveles de detalle en función de la función y los permisos.
 
 En el caso de los alumnos, deben iniciar la configuración de su perfil y, a continuación, descargar sus transcripciones de aprendizaje como un archivo de Excel. Esta transcripción, generada para un alumno individual, detalla su recorrido de aprendizaje personal. Incluye los nombres de las rutas de aprendizaje, los cursos, las instancias y los módulos, junto con las fechas clave, como la inscripción, la finalización y las fechas límite. También realiza un seguimiento de su progreso a través del estado, las notas, las puntuaciones de las pruebas (incluidas las puntuaciones y los máximos más altos) y los intentos realizados. Además, muestra los ID de formación, las duraciones, las fechas de darse de baja, los precios y cualquier comentario de envío. Este informe proporciona una descripción general completa de la participación y el rendimiento de un único alumno.
 
@@ -73,7 +74,7 @@ Las transcripciones de alumnos en Adobe Learning Manager hacen un seguimiento de
       * No iniciado
       * No inscrito
 
-8. Opciones avanzadas: seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
+8. Opciones avanzadas: Seleccione **[!UICONTROL Opciones avanzadas]** para descargar las transcripciones e incluir lo siguiente:
 
    1. Descargue transcripciones de alumnos que se han eliminado de una cuenta seleccionando la casilla de verificación **[!UICONTROL Incluir alumnos eliminados]**.
    1. Descargue información del nivel de módulo en la transcripción del alumno activando la casilla de verificación **[!UICONTROL Habilitar información del nivel de módulo]**. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está activada.
@@ -140,7 +141,7 @@ Las siguientes columnas capturan la actividad, el progreso o los intentos.
 | Intentos realizados | El número total de intentos realizados por el alumno para este módulo hasta la fecha actual. |
 | Máximo de intentos permitidos | El número máximo de intentos permitido para que el alumno consuma el módulo. |
 | Comentarios del envío | Comentarios del administrador de un alumno después de completar un objeto de aprendizaje.<br>Los datos de comentarios de envío proporcionados por el instructor se incluyen en el módulo de envío de archivos . Vea <a href="https://experienceleague.adobe.com/es/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obtener más información.</a></br> |
-| Origen de finalización | Hace referencia al origen o método mediante el cual se registra la finalización de un curso, una ruta de aprendizaje o una certificación por parte de un alumno. Ayuda a los administradores a comprender cómo se ha conseguido la finalización o cómo se ha iniciado sesión en el sistema. La columna identifica si la finalización se notificó automáticamente o se facilitó mediante una función o configuración específica. Nota: Para los flujos de trabajo de asistencia del conector de clase virtual, cuando un alumno se marca como asistido automáticamente, el origen mostrará &quot;SELF, &lt;learner_email>&quot;. |
+| Origen de finalización | Hace referencia al origen o método mediante el cual se registra la finalización de un curso, una ruta de aprendizaje o una certificación por parte de un alumno. Ayuda a los administradores a comprender cómo se ha conseguido la finalización o cómo se ha iniciado sesión en el sistema. La columna identifica si la finalización se notificó automáticamente o se facilitó mediante una función o configuración específica. Nota: Para los flujos de trabajo de asistencia del conector de clase virtual, cuando se marca a un alumno como asistido automáticamente, el origen mostrará &quot;SELF, &lt;learner_email>&quot;. |
 | Comentario de finalización | Los comentarios realizados por el administrador cuando marcan a un alumno como completado después de completar un curso, una certificación o una ruta de aprendizaje. El administrador puede añadir comentarios de finalización para uno o varios alumnos. |
 
 **Información relacionada con objetos de aprendizaje**
@@ -156,12 +157,12 @@ Se refieren a cursos, módulos, rutas de aprendizaje, certificaciones, etc.
 | Curso | Nombre del curso en el que está inscrito el usuario. Si está vacía, la fila representa una certificación o una ruta de aprendizaje. <br><b>Nota:</b> Aunque las rutas de aprendizaje y los cursos están compuestos por cursos individuales o rutas de aprendizaje anidadas, cada componente conserva su propio registro independiente. Esto garantiza que el seguimiento de los datos de progreso, finalización y generación de informes se realice por separado para los elementos primarios y secundarios.</br> |
 | ID exclusivo de objetos | Se trata de un identificador opcional asignado por el administrador para un objeto de aprendizaje (curso, certificación o ruta de aprendizaje) en Adobe Learning Manager. Lo utilizan principalmente las organizaciones que mantienen sus propios ID del sistema externo para el contenido de aprendizaje y que desean asignar dichos ID a objetos de aprendizaje ALM con fines de integración o generación de informes. El ID exclusivo de objeto de aprendizaje solo está presente si la cuenta ha activado esta función y el autor ha asignado un ID durante la creación del objeto de aprendizaje. Nota: El ID de formación siempre está presente e identifica de forma exclusiva cada objeto de aprendizaje en ALM. El ID exclusivo de objeto de aprendizaje es para la asignación entre sistemas y no es necesario para las operaciones estándar de ALM. |
 | Instancia | El nombre de la instancia del usuario del objeto de aprendizaje en el que se inscribe. |
-| Criterios de selección | Esta columna indica cómo se inscribió el alumno en el objeto de aprendizaje (curso, certificación o ruta de aprendizaje). El valor se determina de la siguiente manera:<ul><li>Inscripción de administrador/responsable: Muestra directamente cuando un alumno se inscribe directamente en una cuenta de administrador o responsable. </li><li>Inscripción en plan de aprendizaje: Muestra la inscripción automática cuando un alumno se inscribe a través de un plan de aprendizaje o un activador de inscripción automatizado.</li><li>El administrador inscribe un grupo de usuarios: muestra los nombres de los grupos de usuarios si el alumno se ha inscrito como parte de un grupo de usuarios. </li><li>Rutas de aprendizaje anidadas: si la Ruta de aprendizaje 1 contiene la Ruta de aprendizaje 2, que contiene el Curso A: para el Programa de aprendizaje 2 y el Curso A, el valor es principal. Para LP1, el valor es directo. </li><li>Inscripción automática: muestra la inscripción automática cuando el alumno se inscribe por sí mismo. </li></ul>El valor de esta columna refleja el método de inscripción real y la jerarquía de objetos de aprendizaje, como se ha detallado anteriormente.<ul><li>Plan de aprendizaje inscribir alumno: Valor: Inscripción automática El alumno se inscribe automáticamente mediante un plan de aprendizaje o un activador de inscripción automatizado. </li><li>Inscripción automática del alumno: Valor: Persona El alumno se inscribe directamente en el curso, la certificación o la ruta de aprendizaje. </li>El administrador inscribe al alumno directamente (con el correo electrónico/nombre del alumno): Valor: Directo. El administrador o el responsable inscribe manualmente al alumno especificando su correo electrónico o nombre. <li>Inscripción a través de un grupo de usuarios: Valor: Nombre del grupo de usuarios El alumno se inscribe como parte de un grupo de usuarios. Si un alumno pertenece a varios grupos de usuarios, el informe mostrará los grupos de usuarios relevantes a través de los cuales se ha producido la inscripción.  </li><li>Objeto de aprendizaje inscrito debido a la inscripción en una ruta de aprendizaje: Valor: Ruta. El alumno se inscribe en un curso o módulo porque forma parte de una ruta de aprendizaje más amplia a la que está asignado.</li></ul> |
+| Criterios de selección | Esta columna indica cómo se inscribió el alumno en el objeto de aprendizaje (curso, certificación o ruta de aprendizaje). El valor se determina de la siguiente manera:<ul><li>Inscripción de administrador/responsable: Muestra una inscripción directa cuando un alumno está inscrito directamente por un administrador o responsable. </li><li>Inscripción en el plan de aprendizaje: Muestra la inscripción automática cuando un alumno se inscribe a través de un plan de aprendizaje o un activador de inscripción automatizado.</li><li>El administrador inscribe un grupo de usuarios: Muestra los nombres de los grupos de usuarios si el alumno se ha inscrito como parte de un grupo de usuarios. </li><li>Rutas de aprendizaje anidadas: Si la ruta de aprendizaje 1 contiene la ruta de aprendizaje 2, que contiene el curso A:  Para el programa LP2 y el curso A, el valor es principal. Para LP1, el valor es directo. </li><li>Inscripción automática: Se muestra a sí mismo cuando el alumno se inscribe. </li></ul>El valor de esta columna refleja el método de inscripción real y la jerarquía de objetos de aprendizaje, como se ha detallado anteriormente.<ul><li>Plan de aprendizaje inscribir alumno: Valor: Inscripción automática El alumno se inscribe automáticamente mediante un plan de aprendizaje o un activador de inscripción automatizado. </li><li>Inscripción automática del alumno: Valor: Sí El alumno se inscribe directamente en el curso, la certificación o la ruta de aprendizaje. </li>El administrador que inscribe al alumno directamente (mediante el correo electrónico/nombre del alumno): Valor: Directo. El administrador o el responsable inscribe manualmente al alumno especificando su correo electrónico o nombre. <li>Inscripción mediante un grupo de usuarios: Valor: Nombre del grupo de usuarios El alumno se inscribe como parte de un grupo de usuarios. Si un alumno pertenece a varios grupos de usuarios, el informe mostrará los grupos de usuarios relevantes a través de los cuales se ha producido la inscripción.  </li><li>Objeto de aprendizaje inscrito debido a la inscripción en una ruta de aprendizaje: Valor: Ruta. El alumno se inscribe en un curso o módulo porque forma parte de una ruta de aprendizaje más amplia a la que está asignado.</li></ul> |
 | Módulo | Nombre del módulo de los cursos. En el informe sólo aparecen los módulos con el estado Completado o En curso. Si el estado es No iniciado o Dado de baja, la columna Módulo permanece vacía.<br>Descargue información de nivel de módulo en la transcripción del alumno marcando la casilla de verificación <b>Habilitar información de nivel de módulo</b>. En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está habilitada.</br> |
 | ID de módulo | Nombre del módulo de los cursos.  En el informe sólo aparecen los módulos con el estado Completado o En curso. Si el alumno no inicia un módulo, la fila de dicho módulo no aparece en la transcripción del alumno. Solo se incluyen los módulos con el estado Completado o En curso . Descargue información en el nivel de módulo en la transcripción del alumno seleccionando la casilla Activar información en el nivel de módulo . En este caso, los nombres de los módulos y el tiempo empleado en cada módulo se obtienen como parte de la transcripción si esta opción está activada. |
-| ID de módulo | El ID exclusivo del módulo. Nota: La columna ID de módulo aparece en el informe sólo si ha seleccionado la casilla de verificación Incluir información de módulo al generar la transcripción. |
+| ID de módulo | El ID exclusivo del módulo. Nota: La columna ID de módulo aparece en el informe solo si ha seleccionado la casilla de verificación Incluir información del módulo al generar la transcripción. |
 | Versión | La versión del módulo hace referencia a la versión específica de un módulo con la que ha interactuado un alumno. Esto resulta especialmente útil cuando un módulo se ha actualizado o modificado, ya que permite a los administradores realizar un seguimiento de la versión del módulo a la que ha accedido el alumno.<br>Cuando un autor carga una nueva versión de un módulo, Adobe Learning Manager la trata como una nueva versión del módulo existente. Esto permite actualizar el contenido sin interrumpir la actividad de todos los alumnos.</br><br>La versión aparece si se seleccionó la casilla de verificación <b>Habilitar información de nivel de módulo</b> al generar el informe.</br><br>Consulte <a href="https://elearning.adobe.com/2023/03/updating-the-module-in-adobe-learning-manager-how-to-replace-a-content-module-in-a-course-without-disturbing-the-users-progress" />Actualización de un módulo en Adobe Learning Manager</a> para obtener más información.</br> |
-| Tipo de entrega | Indica cómo se proporciona el módulo: Combinado, Clase o Clase virtual. |
+| Tipo de entrega | Indica cómo se entrega el módulo: Clase mixta, Clase o Clase virtual. |
 | Idioma | Idioma en el que el alumno consume el módulo. Esta columna muestra el valor solo para los módulos de aprendizaje electrónico. |
 | Nota | Indica el éxito del alumno. &quot;Aprobado&quot;, si el usuario ha cumplido los criterios de éxito de este objeto de aprendizaje; de lo contrario, &quot;Suspendido&quot;. |
 
@@ -181,8 +182,8 @@ Se refieren a cursos, módulos, rutas de aprendizaje, certificaciones, etc.
 
 | Campos | Descripción |
 |---|---|
-| ID del curso de formación | Un identificador único generado por el sistema y asignado a cada objeto de aprendizaje (curso, certificación o ruta de aprendizaje). El ID de formación sigue siendo el mismo para todos los alumnos y todas las inscripciones de ese objeto de aprendizaje. Se utiliza para identificar el contenido en sí, no las inscripciones de alumnos individuales. |
-| Duración del módulo o el curso de formación (min) | Esta columna muestra la duración esperada (en minutos) de un curso, módulo o actividad de formación tal y como se define al crear el curso. No es el tiempo real que pasa un alumno, sino la duración configurada o asignada lo que representa el tiempo que se supone que debe tomar la formación.  Esta columna muestra la duración total (en minutos) del elemento de aprendizaje asignado, que puede ser una ruta de aprendizaje o un curso individual. <br><b>Duración de la ruta de aprendizaje:</b> Si el elemento de aprendizaje es una ruta de aprendizaje, su duración se calcula como la suma de las duraciones de todos los cursos incluidos en la ruta de aprendizaje.</br><br>Ejemplo: si el curso 1 = 50 minutos y el curso 2 = 60 minutos, la duración de la ruta de aprendizaje = 110 minutos.</br><br><b>Duración del curso individual:</b>Si el elemento de formación es un curso individual (no parte de una ruta de aprendizaje), la duración refleja el tiempo necesario solo para ese curso.</br> |
+| ID del curso de formación | Un identificador exclusivo generado por el sistema y asignado a cada objeto de aprendizaje (curso, certificación o ruta de aprendizaje). El ID de formación sigue siendo el mismo para todos los alumnos y todas las inscripciones de ese objeto de aprendizaje. Se utiliza para identificar el contenido en sí, no las inscripciones de alumnos individuales. |
+| Duración del módulo o el curso de formación (min) | Esta columna muestra la duración esperada (en minutos) de un curso, módulo o actividad de formación tal y como se define al crear el curso. No es el tiempo real que pasa un alumno, sino la duración configurada o asignada lo que representa el tiempo que se supone que debe tomar la formación.  Esta columna muestra la duración total (en minutos) del elemento de aprendizaje asignado, que puede ser una ruta de aprendizaje o un curso individual. <br><b>Duración de la ruta de aprendizaje:</b> Si el elemento de aprendizaje es una ruta de aprendizaje, su duración se calcula como la suma de las duraciones de todos los cursos incluidos en la ruta de aprendizaje.</br><br>Ejemplo: Si el curso 1 = 50 minutos y el curso 2 = 60 minutos, la duración de la ruta de aprendizaje = 110 minutos.</br><br><b>Duración del curso individual:</b>Si el elemento de formación es un curso individual (no parte de una ruta de aprendizaje), la duración refleja el tiempo necesario solo para ese curso.</br> |
 | Embedded_Course_ID | La columna se rellena cuando la fila representa una ruta de aprendizaje o la propia certificación. Muestra los ID de los cursos individuales incrustados en la ruta de aprendizaje o la certificación. No se rellena cuando la fila en sí es sólo un curso, ya que no hay elementos incrustados. |
 | ID de ruta incrustada | La columna identifica el ID exclusivo de las rutas de aprendizaje incrustadas. Ayuda a realizar el seguimiento de los cursos en las rutas de aprendizaje y proporciona visibilidad de la estructura jerárquica de las rutas de aprendizaje. |
 | Fecha de baja (zona horaria UTC) | Fecha de cancelación de la inscripción del alumno en el tipo de objeto de aprendizaje. |
@@ -203,11 +204,11 @@ El cuadro de diálogo Transcripciones de alumnos también permite descargar dato
 
 Realiza un seguimiento de las rutas de aprendizaje, los cursos o las certificaciones que se utilizan de forma activa. Realiza un seguimiento de la actividad en curso, así como de las fechas de vencimiento próximas para la formación.
 
-* Número de alumnos inscritos: indica cuántos alumnos se han inscrito en un objeto de aprendizaje concreto (curso, ruta de aprendizaje o certificación), independientemente de si lo han iniciado o no.
-* Número de alumnos que han comenzado: muestra el número de alumnos que han iniciado o iniciado el curso, la certificación o la ruta de aprendizaje.
-* Número de alumnos que han completado: muestra cuántos alumnos han completado correctamente el curso de formación y han cumplido todos sus criterios de finalización.
-* Número de alumnos que han progresado ≥ N%: Refleja el recuento de alumnos que han alcanzado al menos el umbral de progreso especificado (p. ej., 70%) en el curso de formación, incluso aunque no lo hayan completado.
-* Número de alumnos con fecha de vencimiento en n días: indica cuántos alumnos tienen formación prevista en los próximos &quot;N&quot; días (p. ej., 7 días), lo que resulta útil para identificar las próximas fechas límite.
+* Número de alumnos inscritos: Indica cuántos alumnos se han inscrito en un objeto de aprendizaje concreto (curso, ruta de aprendizaje o certificación), independientemente de si lo han iniciado o no.
+* Número de alumnos que han iniciado: Muestra el número de alumnos que han iniciado o iniciado el curso, la certificación o la ruta de aprendizaje.
+* Número de alumnos que han completado: Muestra cuántos alumnos han completado correctamente el curso de formación y han cumplido todos sus criterios de finalización.
+* Número de alumnos que han progresado ≥ N%: Refleja el recuento de alumnos que han alcanzado al menos el umbral de progreso especificado (p. ej., el 70 %) en el curso de formación, aunque no lo hayan completado.
+* Número de alumnos con fecha de vencimiento en N días: Indica el número de alumnos que deben recibir formación en los próximos &quot;N&quot; días (p. ej., 7 días), lo que resulta útil para identificar las próximas fechas límite.
 
 ### Cómo interpretar los datos
 
@@ -222,11 +223,11 @@ Este informe de resumen de aprendizaje realiza un seguimiento de dos rutas de ap
 
 Haz un seguimiento de la actividad de aprendizaje por alumno. Realiza un seguimiento de las inscripciones, la actividad en curso y las fechas de vencimiento de los alumnos.
 
-* Número de objetos de aprendizaje inscritos: número total de objetos de aprendizaje (LO) en los que se inscribe el alumno en cada curso, certificación o ruta de aprendizaje.
-* Número de objetos de aprendizaje iniciados: indica cuántos de los objetos de aprendizaje inscritos ha iniciado o comenzado el alumno.
-* Número de objetos de aprendizaje completados: Muestra el número de objetos de aprendizaje iniciados que el alumno ha completado.
-* Número de objetos de aprendizaje que han progresado ≥ N%: Refleja el número de objetos de aprendizaje en los que el alumno ha alcanzado al menos el umbral de progreso especificado (en este caso, el 70%).
-* Número de objetos de aprendizaje con fecha de vencimiento en N días: identifica los objetos de aprendizaje que vencen en el siguiente número de días establecido (en este caso, 7 días), lo que ayuda a realizar un seguimiento de los plazos que se acercan.
+* Número de objetos de aprendizaje inscritos: Recuento total de objetos de aprendizaje (LO) en los que se inscribe el alumno en cada curso, certificación o ruta de aprendizaje.
+* Número de objetos de aprendizaje iniciados: Indica cuántos de los objetos de aprendizaje inscritos ha iniciado o comenzado el alumno.
+* Número de objetos de aprendizaje completados: Muestra cuántos objetos de aprendizaje iniciados ha completado el alumno.
+* Número de objetos de aprendizaje que han progresado ≥ N%: Refleja el número de objetos de aprendizaje en los que el alumno ha alcanzado al menos el umbral de progreso especificado (en este caso, el 70 %).
+* Número de objetos de aprendizaje con fecha de vencimiento en N días: Identifica los objetos de aprendizaje que vencen en el siguiente número de días establecido (en este caso, 7 días), lo que ayuda a realizar un seguimiento de los plazos de entrega que se aproximan.
 
 ### Cómo interpretar los datos
 
@@ -295,13 +296,13 @@ Después de descargar una transcripción del alumno, la página Transcripciones 
 
 La lista muestra los siguientes atributos:
 
-* Desde y Hasta: Duración de las transcripciones que se van a descargar.
+* Desde y Hasta: Duración de las transcripciones a descargar.
 * Generado por: El correo electrónico del usuario que ha descargado el informe o ha solicitado la descarga.
 * Alumnos: Los alumnos o grupos de alumnos cuyas transcripciones se van a descargar.
-* Filtros aplicados: Los filtros que se aplicaron para el estado de inscripción.
-* Datos adicionales incluidos: Los datos adicionales (alumnos eliminados, información del módulo, datos de aptitudes y hojas de resumen) que el administrador había solicitado en la opción Avanzadas en el modo Agregar transcripción de alumno.
+* Filtros aplicados: Filtros que se aplicaron para el estado de inscripción.
+* Datos Adicionales Incluidos: Los datos adicionales (alumnos eliminados, información del módulo, datos de aptitudes y hojas de resumen) que el administrador había solicitado en la opción Avanzadas en el modo Agregar transcripción de alumno
 * Estado: Descargado, En Cola o En curso.
-* Cancelar: se cancela la generación del informe en cualquier momento.
+* Cancelar: Cancele la generación del informe en cualquier momento.
 
 ## Consideraciones adicionales para transcripciones de alumnos
 
@@ -321,8 +322,8 @@ Sin embargo, puede seguir descargando los datos de los alumnos eliminados. Si ha
 
 Los administradores personalizados con un ámbito definido (por ejemplo, limitado a catálogos o grupos de usuarios específicos) verán los datos de transcripción filtrados en función de su ámbito:
 
-* Ámbito de grupo de usuarios: en el informe solo se incluirán los alumnos del grupo de usuarios del ámbito del administrador personalizado.
-* Ámbito del catálogo: en el informe solo se incluirán los objetos de aprendizaje (cursos, certificaciones y rutas de aprendizaje) asignados a los catálogos del ámbito.
+* Ámbito del grupo de usuarios: Solo se incluirán en el informe los alumnos del grupo de usuarios del ámbito del administrador personalizado.
+* Ámbito del catálogo: Solo se incluirán en el informe los objetos de aprendizaje (cursos, certificaciones y rutas de aprendizaje) asignados a los catálogos del ámbito.
 * Columnas filtradas: Las columnas permanecen igual. Solo se asignará un ámbito a las filas en función de los ámbitos de los catálogos y los grupos de usuarios.
 
 Esto garantiza que los administradores personalizados del ámbito vean solo los datos y el contenido de aprendizaje del alumno para el que están autorizados a administrar.

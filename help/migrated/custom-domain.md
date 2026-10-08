@@ -4,13 +4,14 @@ title: Compatibilidad con dominios personalizados
 description: Los dominios personalizados no se admiten en una instancia de Azure de Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # Compatibilidad con dominios personalizados
 
 Los dominios personalizados no se admiten en una instancia de Azure de Learning Manager.
@@ -28,7 +29,7 @@ Por ejemplo, le gustaría personalizar su dominio para que sus usuarios obtengan
 >Como requisito previo, debe registrar el dominio y, a continuación, Adobe le guiará a través de la personalización de la URL.
 
 
-La función de dominio personalizado está disponible por un coste adicional. Póngase en contacto con su responsable de éxito de clientes para obtener más información.
+La función de dominio personalizado está disponible por un coste adicional. Póngase en contacto con el responsable de éxito de clientes para obtener más información.
 
 * Para la función de alumno, el dominio comenzará por `https://cdn.<customer_custom_domain>/`. Por ejemplo, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Para todas las demás funciones, el dominio comenzará por `https://<customer_custom_domain>/`. Por ejemplo, `https://elearningstage1.cpdomaintest.in/`

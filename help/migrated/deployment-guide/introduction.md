@@ -5,13 +5,14 @@ description: Learning Manager es un sistema de gestión de aprendizaje (LMS) que
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Guía de implementación de Learning Manager
 
 ## Introducción {#introduction}
@@ -57,9 +58,9 @@ Utilice la configuración del logotipo y el banner para mostrar el logotipo de s
 * En el panel izquierdo, haga clic en **Marca**.
 * En la página Marca, puede configurar las siguientes opciones haciendo clic en **Editar** en la opción que desea modificar:
 
-   * **Nombre de la organización** : El valor que especifique aquí determinará el nombre que aparece en el banner de cada página del sitio.
-   * **Subdominio**: Este valor determina la dirección URL del sitio.
-   * **Estilo de logotipo**: La imagen de este campo aparece como el logotipo en la esquina superior derecha de cada página. Aquí, puede elegir mostrar solo el logotipo o el nombre de su organización, o el logotipo y el nombre de la organización.
+  * **Nombre de la organización** : El valor que especifique aquí determinará el nombre que aparece en el banner de cada página del sitio.
+  * **Subdominio**: Este valor determina la dirección URL del sitio.
+  * **Estilo de logotipo**: La imagen de este campo aparece como el logotipo en la esquina superior derecha de cada página. Aquí, puede elegir mostrar solo el logotipo o el nombre de su organización, o el logotipo y el nombre de la organización.
 
 ![](assets/setting-the-themesforyoursite.png)
 

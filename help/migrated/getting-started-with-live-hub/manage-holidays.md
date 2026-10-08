@@ -1,13 +1,14 @@
 ---
 title: Administrar vacaciones en Adobe Learning Manager
 description: Conozca cómo los administradores definen las vacaciones en toda la organización que afectan a la disponibilidad del instructor para las sesiones de Live Hub, individualmente o mediante importación de CSV.
-source-git-commit: 4c16d16205302542d2b2c5cfc10940cb4e7e7e98
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
-
 ---
-
 
 # Administrar días festivos
 

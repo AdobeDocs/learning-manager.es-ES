@@ -3,13 +3,14 @@ description: Aprenda a integrar el conector de Power BI con Adobe Learning Manag
 jcr-language: en_us
 title: Conector de Power BI
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
-
 
 # Conector de Power BI en Adobe Learning Manager
 
@@ -212,18 +213,18 @@ El aspecto de **rutas de aprendizaje** en los informes depende de la configuraci
 
 - **Conexiones existentes:**
 
-   - Si **Ruta de aprendizaje** está deshabilitada, no se incluyen filas ni columnas relacionadas.
-   - Si se habilita, el informe incluye la ruta de aprendizaje (nivel superior) de los alumnos inscritos.
+  - Si **Ruta de aprendizaje** está deshabilitada, no se incluyen filas ni columnas relacionadas.
+  - Si se habilita, el informe incluye la ruta de aprendizaje (nivel superior) de los alumnos inscritos.
 
 - **Nuevas conexiones:**
 
-   - Si Ruta de aprendizaje está desactivada, las columnas muestran:
+  - Si Ruta de aprendizaje está desactivada, las columnas muestran:
 
-      - **Ruta incrustada:** nombre del programa de aprendizaje.
-      - **Id. de ruta incrustada:** Id. del programa de aprendizaje.
-      - **ID de curso incrustado:** ID de cursos en la ruta de aprendizaje.
-   - Si está habilitada, la columna **Tipo** usa la ruta de aprendizaje (nivel superior) donde corresponda.
-   - Para las nuevas conexiones, los cambios se aplican después de 30 días.
+    - **Ruta incrustada:** nombre del programa de aprendizaje.
+    - **Id. de ruta incrustada:** Id. del programa de aprendizaje.
+    - **ID de curso incrustado:** ID de cursos en la ruta de aprendizaje.
+  - Si está habilitada, la columna **Tipo** usa la ruta de aprendizaje (nivel superior) donde corresponda.
+  - Para las nuevas conexiones, los cambios se aplican después de 30 días.
 
 ### Dónde ver los datos**
 

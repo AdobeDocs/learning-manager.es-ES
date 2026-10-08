@@ -4,7 +4,10 @@ title: Asignar aptitud con dominios de aptitudes
 description: Para que el motor de revisión habilitado para inteligencia artificial revise automáticamente una publicación de un usuario en relación con un determinado dominio, la empresa del usuario debe tener asignadas aptitudes personalizadas con los dominios de aptitudes admitidos que existen en el sistema de gestión de aprendizaje Learning Manager.
 contentowner: kuppan
 exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 90%

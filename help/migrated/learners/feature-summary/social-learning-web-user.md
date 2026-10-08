@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aprendizaje social en Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Aprendizaje social en Learning Manager
 
 Uso de Aprendizaje social como alumno
@@ -245,7 +246,8 @@ Los alumnos con acceso al tablero social pueden etiquetar a otros usuarios en pu
 
 ### Etiquetar usuarios en publicaciones del tablero social
 
-Puede etiquetar a miembros específicos del tablero en publicaciones o comentarios mediante @username. El etiquetado se limita a los miembros con acceso a dicho tablero.Para etiquetar usuarios en un tablero social:
+Puede etiquetar a miembros específicos del tablero en publicaciones o comentarios mediante @username. El etiquetado se limita a los miembros con acceso a dicho tablero.
+Para etiquetar usuarios en un tablero social:
 
 1. Inicie sesión en Adobe Learning Manager como alumno.
 2. Seleccione **[!UICONTROL Aprendizaje social]** en el panel de navegación izquierdo.

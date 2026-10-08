@@ -2,13 +2,14 @@
 description: En este documento se resumen los cambios de informes de agosto de 2026 en Adobe Learning Manager. Abarca columnas nuevas y actualizadas en los informes de transcripciones de alumnos, formación, inscripción, lista de espera, asistencia, auditoría de contenido y usuarios. También explica el comportamiento adaptable del curso, la puntuación del libro de calificaciones, los registros de aprendizaje externos, los informes de crédito de IA general, el seguimiento de la certificación raíz, la estandarización de la marca de tiempo y las actualizaciones de los autores de API.
 jcr-language: en_us
 title: Notificación de cambios en la versión de agosto de 2026 de Adobe Learning Manager
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # Notificación de cambios en la versión de agosto de 2026 de Adobe Learning Manager
 
@@ -109,7 +110,7 @@ Dos nuevos eventos capturan los cambios de configuración del libro de calificac
 | **Evento** | **Se activa cuando** | **Datos capturados** |
 |-----------------------|-----------------------------------------------------------------|----------------------------------------------------------|
 | Libro de calificaciones actualizado | El libro de calificaciones está habilitado, deshabilitado o modificado en el nivel del curso | Cambio en el estado del libro de calificaciones; gradación de actualizaciones de configuración |
-| Peso del módulo actualizado | El peso asignado a un módulo se modifica | identificador del módulo; valor de ponderación actualizado |
+| Peso del módulo actualizado | El peso asignado a un módulo se modifica | Identificador del módulo; valor de ponderación actualizado |
 
 La transcripción del alumno refleja la ponderación más reciente. El informe de auditoría de contenido realiza un seguimiento de los cambios históricos. Juntos, te ofrecen una visión completa de la lógica de puntuación actual y de cómo ha evolucionado.
 
@@ -172,7 +173,7 @@ El tablero muestra las siguientes métricas en el nivel de cuenta.
 | **Informe** | **Descripción** |
 |----------------------|---------------------------------------------------------------------------------------------|
 | Informe de uso mensual | Resume el consumo de crédito por mes, función y créditos consumidos |
-| Informe de seguimiento de auditoría | Proporciona detalles a nivel de usuario: identificador de usuario, nombre de función, créditos consumidos y marca de tiempo |
+| Informe de seguimiento de auditoría | Proporciona detalles a nivel de usuario: identificador del usuario, nombre de la función, créditos consumidos y marca de tiempo |
 
 ## Otros cambios de comportamiento
 

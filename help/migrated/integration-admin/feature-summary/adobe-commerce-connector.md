@@ -3,13 +3,14 @@ description: Obtenga información sobre cómo integrar el conector de Adobe Comm
 jcr-language: en_us
 title: Conector de Adobe Commerce
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
-
 
 # Conector de Adobe Commerce en Adobe Learning Manager
 
@@ -41,7 +42,7 @@ Otros requisitos de configuración:
 - Use un módulo personalizado para anular el límite de opciones. Este paso es opcional, pero se recomienda para conjuntos de datos grandes.
 - Habilite todas las **API asincrónicas**. Los conjuntos de datos de formación grandes se exportan de forma asincrónica. Cuando Learning Manager llama a las API de Adobe Commerce, las solicitudes las pone en cola y las procesa un consumidor que crea productos en el lado del comercio. El procesamiento asíncrono debe estar habilitado porque no está disponible de forma predeterminada en Adobe Commerce.
 - Agrega un **vínculo de devolución** a Learning Manager en la página de pago correcto de Adobe Commerce.
-   - Use esta [URL de retorno](https://learningmanager.adobe.com/app/learner#/postPayment):
+  - Use esta [URL de retorno](https://learningmanager.adobe.com/app/learner#/postPayment):
 - Cambiar **indización** de **Al guardar** a **Programado**. Consulte la [Base de conocimiento](https://experienceleague.adobe.com/es/support?support-tab=home#home) para obtener más información.
 - Aplique las **revisiones** necesarias. Consulte la [documentación de aplicación de revisiones](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/start/overview) para obtener instrucciones.
 - Configure **Fastly** para Adobe Commerce en la infraestructura de nube (almacenamiento provisional y producción). Consulte [Configurar Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) para obtener más información.

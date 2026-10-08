@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Administrar pedidos y facturación de Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 53%
-
 ---
-
 
 # Administrar pedidos y facturación de Learning Manager
 
@@ -97,7 +98,7 @@ Si su cuenta se configuró de forma independiente y el campo **ID de organizaci�
 1. Seleccione **[!UICONTROL Facturación]** y, a continuación, seleccione la pestaña **[!UICONTROL Suscripción]**.
 2. En la tarjeta **Detalles de la cuenta**, seleccione **[!UICONTROL Vincular organización IMS]**.
 3. Se abre una ventana de inicio de sesión. Introduzca las credenciales de su cuenta de Adobe y seleccione su organización en la lista. Adobe Learning Manager confirma que el inicio de sesión de la cuenta tiene la función de administrador del sistema en la organización Adobe Admin Console y que la misma cuenta tiene la función de administrador en Adobe Learning Manager.
-4. Si ambas comprobaciones se superan, se establece el vínculo. El campo **ID de organización de IMS** se actualiza con el identificador de su organización, y el saldo acreedor aparece en la sección **Licencias**.
+4. Si ambas comprobaciones se superan, se establece el vínculo. El campo **ID de organización de IMS** se actualiza con el identificador de la organización, y el saldo de crédito aparece en la sección **Licencias**.
 5. Si falla alguna de las comprobaciones, se muestra un mensaje de error. Confirme los requisitos previos anteriores e inténtelo de nuevo.
 
 ### Desvincular la cuenta

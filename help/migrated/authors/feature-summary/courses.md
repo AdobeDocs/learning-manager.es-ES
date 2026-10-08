@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Creación, modificación y publicación de cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '10239'
 ht-degree: 56%
-
 ---
-
 # Crear, modificar y publicar cursos
 
 Lea este artículo para obtener información sobre cómo crear cursos, certificaciones y programas de aprendizaje en Learning Manager.
@@ -795,7 +796,7 @@ En esta página, indique los datos siguientes:
 Los comentarios de la lista de comprobación permiten a los autores habilitar **comentarios contextuales** durante las evaluaciones basadas en la lista de comprobación.\
 Cuando está activada, los revisores (instructores o responsables) pueden añadir comentarios para explicar los resultados de la evaluación más allá de las puntuaciones o el estado de aprobado/suspenso.
 
-Esta capacidad transforma las listas de comprobación de una herramienta puramente de evaluación en un **mecanismo de aprendizaje basado en los comentarios**, lo que mejora la comprensión del alumno, la transparencia y las acciones de seguimiento.
+Esta función transforma listas de comprobación de una herramienta puramente de evaluación en un **mecanismo de aprendizaje basado en los comentarios**, lo que mejora la comprensión del alumno, la transparencia y las acciones de seguimiento.
 
 Con esto, los autores pueden:
 

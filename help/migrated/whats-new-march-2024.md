@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Resumen de nuevas funciones
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # Resumen de nuevas funciones {#new-features-summary}
 
 Descubra las nuevas funciones y mejoras de la versión de marzo de 2024 de Adobe Learning Manager.
@@ -266,7 +267,9 @@ Al buscar cualquier usuario, las opciones **Descargar alumno** y **Exportar** de
 
 * Las columnas Etiquetas y Aptitudes del informe de cursos de formación se han cambiado a Etiquetas y aptitudes.
 * Se ha agregado el informe [Registro de auditoría de interacción](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Si una cuenta contiene más de 280 000 alumnos asignados a una aptitud, el informe de aptitud-alumno se descarga como un archivo .csv comprimido.Si la cuenta tiene menos de 250 000 alumnos, se descarga el mismo informe como CSV.En la página Administrador, seleccione **Administrador** > **Aptitudes** > **Aptitud** > **Alumnos**. El informe se descarga como CSV.
+* Si una cuenta contiene más de 280 000 alumnos asignados a una aptitud, el informe de aptitud-alumno se descarga como un archivo .csv comprimido.
+Si la cuenta tiene menos de 250 000 alumnos, se descarga el mismo informe como CSV.
+En la página Administrador, seleccione **Administrador** > **Aptitudes** > **Aptitud** > **Alumnos**. El informe se descarga como CSV.
 * El [informe de resumen de sesión](administrators/feature-summary/reports.md#session-summary-report) tiene dos nuevas columnas: información de ubicación y región de ubicación.
 
 ## Cambios en la creación de clases
@@ -281,7 +284,8 @@ Como administrador, puede imponer restricciones a un autor para modificar o elim
 
 ## Cambios en la ruta de aprendizaje flexible
 
-Todas las cuentas (antiguas y nuevas) de empezarán a incluir la fecha límite de inscripción, la fecha límite de cancelación de inscripción y el límite de puestos en la aplicación del alumno para una ruta de aprendizaje flexible.Los alumnos ahora podrán inscribirse en la ruta de aprendizaje flexible sin seleccionar ninguna instancia del curso.
+Todas las cuentas (antiguas y nuevas) de empezarán a incluir la fecha límite de inscripción, la fecha límite de cancelación de inscripción y el límite de puestos en la aplicación del alumno para una ruta de aprendizaje flexible.
+Los alumnos ahora podrán inscribirse en la ruta de aprendizaje flexible sin seleccionar ninguna instancia del curso.
 
 ## Nuevo desencadenador para planes de aprendizaje
 
@@ -339,9 +343,9 @@ En versiones anteriores de Adobe Learning Manager, un alumno no enviaba correos 
 En la versión de marzo de 2024 de Adobe Learning Manager, los nuevos cambios son los siguientes:
 
 * Detalles de la sesión actualizada e invitación de sesión (para alumno e instructor)
-   * En futuras sesiones, los mensajes de correo electrónico para **Detalles de la sesión actualizados**, **Invitación de sesión** para alumnos inscritos e instructores actuales quedarán obsoletos. En sesiones anteriores, los mensajes de correo electrónico para **Detalles de la sesión actualizados** y **Invitación de sesión** para alumnos inscritos e instructores actuales permanecerán tal cual.
+  * En futuras sesiones, los mensajes de correo electrónico para **Detalles de la sesión actualizados**, **Invitación de sesión** para alumnos inscritos e instructores actuales quedarán obsoletos. En sesiones anteriores, los mensajes de correo electrónico para **Detalles de la sesión actualizados** y **Invitación de sesión** para alumnos inscritos e instructores actuales permanecerán tal cual.
 * Correos electrónicos de recordatorio (para administradores y alumnos)
-   * Para futuras sesiones, solo se enviarán correos electrónicos de **Recordatorio de sesión**.
+  * Para futuras sesiones, solo se enviarán correos electrónicos de **Recordatorio de sesión**.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ En esta versión de la aplicación móvil, los alumnos pueden programar y admini
 * Recuérdame de nuevo en 3 días
 * Recuérdame de nuevo en una semana
 
-En Android: Al hacer clic en la notificación push, accederás a la página **Resumen del curso**.En iOS: Al hacer clic en la notificación push, se le dirigirá a la página de inicio de la aplicación. Esta es una limitación conocida en iOS.
+En Android: Al hacer clic en la notificación push, accederás a la página **Resumen del curso**.
+En iOS: Al hacer clic en la notificación push, se le dirigirá a la página de inicio de la aplicación. Esta es una limitación conocida en iOS.
 
 ### Cambios en la lista de comprobación de la aplicación del alumno en Salesforce
 
@@ -452,8 +457,8 @@ Un nuevo atributo, isExpiredSubmission, en learningObjectResource, que muestra s
 
 * API de GET/cuenta: Devuelve el nuevo atributo **expireSubmissionDuration** X, donde X es el número de días establecido. Si no se establece, se devolverá 0
 * La API de GET/LO con el recurso incluye el nuevo atributo **isExpiredSubmission**&quot; True o False.
-   * True, si el envío ha caducado y no se muestra &quot;submitUrl&quot;.
-   * Si es False, el envío no caduca y se obtiene &quot;submitUrl&quot;.
+  * True, si el envío ha caducado y no se muestra &quot;submitUrl&quot;.
+  * Si es False, el envío no caduca y se obtiene &quot;submitUrl&quot;.
 
 ### Cambios en la API en Lista de comprobación
 
@@ -486,27 +491,27 @@ Recomendamos que todos los clientes nuevos y existentes realicen llamadas peque�
 Las siguientes rutas están en desuso:
 
 * /learningObjects
-   * Rutas obsoletas:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Rutas existentes:
-      * enrollment.loInstance
-      * instance.loResources
+  * Rutas obsoletas:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Rutas existentes:
+    * enrollment.loInstance
+    * instance.loResources
 * /learningObjects/{id}
-   * Ruta obsoleta:
-      * enrollment.instance.subLoInstances.learningObject
-   * Ruta existente:
-      * enrollment.instance.subLoInstances
+  * Ruta obsoleta:
+    * enrollment.instance.subLoInstances.learningObject
+  * Ruta existente:
+    * enrollment.instance.subLoInstances
 * /enrollments
-   * Ruta obsoleta:
-      * loInstance.learningObject.enrollment
-   * Nueva ruta:
-      * loInstance.learningObject
+  * Ruta obsoleta:
+    * loInstance.learningObject.enrollment
+  * Nueva ruta:
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * Ruta obsoleta:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nueva ruta:
-      * instance.subLoInstances
+  * Ruta obsoleta:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nueva ruta:
+    * instance.subLoInstances
 
 ### Cambios de archivado de acceso de inicio de sesión e informe de auditoría de usuarios para la API de trabajos
 

@@ -1,31 +1,32 @@
 ---
-description: Aprenda a importar un archivo JSON de tema personalizado en el compositor de contenido y a guardarlo como un nuevo tema personalizado disponible en el panel Temas del curso.
+description: Aprenda a importar un Archivo JSON de tema personalizado en el compositor de contenido y a guardarlo como un nuevo tema personalizado disponible en el panel Temas del curso.
 jcr-language: en_us
 title: Importar un tema
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 
 # Importar un tema
 
-Importe un archivo JSON personalizado para aplicar los cambios como un nuevo tema en Composición de contenido.
+Importe un Archivo JSON personalizado para aplicar los cambios como un tema nuevo en Composición de contenido.
 
 1. Seleccione **Temas** en la barra de herramientas.
 
 2. Seleccione **Importar** en las opciones de **tema del curso**.
    ![](../assets/48_course_themes_import_button_updated.png)
 
-3. Elija el archivo JSON personalizado de su equipo.
+3. Elija el Archivo JSON personalizado de su equipo.
 
 4. Seleccione **Guardar como nuevo** para crear un nuevo tema personalizado.
 
 ## Descripción general de la estructura JSON del tema
 
-Un archivo JSON de tema tiene cinco áreas principales:
+Un Archivo JSON temático se divide en cinco grandes áreas:
 
 | Sección | Controles |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

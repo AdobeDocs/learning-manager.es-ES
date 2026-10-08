@@ -4,20 +4,21 @@ jcr-language: en_us
 title: Aptitudes y niveles
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # Aptitudes y niveles
 
 Lea este artículo para obtener información sobre cómo conseguir aptitudes en Learning Manager como alumno.
 
 El mapa de aptitudes es un grupo de conjuntos de conocimiento y características de aptitudes de un empleado en una empresa. Estos mapas de aptitudes ayudan a las empresas u organizaciones a establecer o mejorar las expectativas de rendimiento de sus empleados. Las aptitudes permiten a los empleados alinear los comportamientos con las expectativas de la empresa.
 
-Adobe Learning Manager le permite asignar el rendimiento de los alumnos según sus conjuntos de aptitudes mediante el widget Aptitudes. Cuando los alumnos completan algunos cursos, pueden saber su posición respecto a cada aptitud haciendo clic en Aptitudes en la página de inicio del alumno.
+Adobe Learning Manager le permite asignar el rendimiento de los alumnos según sus conjuntos de aptitudes mediante el widget Aptitudes. Cuando los alumnos completan algunos de los cursos, pueden saber su posición respecto de cada aptitud haciendo clic en Aptitudes en la página principal de los alumnos.
 
 ## Ver aptitudes {#viewskills}
 

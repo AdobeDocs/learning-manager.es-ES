@@ -3,13 +3,14 @@ description: Obtenga más información sobre cómo la configuración básica le 
 jcr-language: en_us
 title: Configuración básica
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 4%
-
 ---
-
 # Configuración básica en Adobe Learning Manager
 
 ## Información general
@@ -204,7 +205,7 @@ A continuación, los alumnos exploran las aptitudes y las etiquetas visibles par
 
 ### ID exclusivos de objetos de aprendizaje
 
-La opción permite asignar un identificador único a cada objeto de aprendizaje (como cursos, rutas de aprendizaje, certificaciones o ayudas de trabajo). Esto garantiza que todos los objetos de aprendizaje tengan un ID distinto, que puede ser útil para el seguimiento, la creación de informes y la integración con sistemas externos.
+Esta opción le permite asignar un identificador único a cada objeto de aprendizaje (como cursos, rutas de aprendizaje, certificaciones o ayudas de trabajo). Esto garantiza que todos los objetos de aprendizaje tengan un ID distinto, que puede ser útil para el seguimiento, la creación de informes y la integración con sistemas externos.
 
 Cuando está activada, los autores ven un campo para añadir el ID de objeto de aprendizaje al crear un objeto de aprendizaje. Pueden añadir los ID según corresponda. Los ID exclusivos son adecuados para la integración con sistemas de terceros, incluidos los almacenes de registros de aprendizaje (LRS) y los sistemas de administración de aprendizaje (LMS). Los ID exclusivos también facilitan la búsqueda de objetos de aprendizaje específicos y su seguimiento mediante transcripciones de alumnos.
 

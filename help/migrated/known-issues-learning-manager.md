@@ -4,13 +4,14 @@ title: Problemas conocidos en Learning Manager
 description: A continuación se muestra una compilación de problemas conocidos de cada actualización de Learning Manager. La lista es acumulativa y contiene problemas conocidos de actualizaciones anteriores.
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 62%
-
 ---
-
 
 
 # Problemas conocidos en Learning Manager
@@ -20,7 +21,7 @@ A continuación se muestra una compilación de problemas conocidos de cada actua
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Actualizar</b></p></td> 
+   <td><p><b>Actualización</b></p></td> 
    <td><p><b>Problemas conocidos</b></p></td> 
   </tr> 
   <tr> 
@@ -51,7 +52,7 @@ A continuación se muestra una compilación de problemas conocidos de cada actua
   </tr> 
   <tr> 
    <td><p>37</p></td> 
-   <td><p>El acceso a algunos objetos de aprendizaje específicos mediante Internet Explorer v11.1478.10586.0 puede hacer que Learning Manager se bloquee.</p></td> 
+   <td><p>El acceso a algunos objetos de aprendizaje específicos mediante Internet Explorer v11.1478.10586.0 puede llevar a Learning Manager al bloqueo.</p></td> 
   </tr> 
  </tbody>
 </table>

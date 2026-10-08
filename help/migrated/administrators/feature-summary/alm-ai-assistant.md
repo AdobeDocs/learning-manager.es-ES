@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Asistente para IA de administración (beta) en Adobe Learning Manager
 description: Obtenga más información sobre el Asistente para IA de administración de Adobe Learning Manager (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Asistente para IA de administración (beta) en Adobe Learning Manager
 
 ## Introducción
@@ -86,19 +87,19 @@ Para utilizar el Asistente para IA de administración (Beta):
 A continuación, se muestran algunos mensajes de ejemplo que los administradores pueden utilizar para utilizar de forma eficaz el Asistente para IA de administración (Beta):
 
 * **Asignar un curso a un usuario**
-   * **Mensaje**: &quot;¿Cómo asigno un curso a un usuario?&quot;
+  * **Mensaje**: &quot;¿Cómo asigno un curso a un usuario?&quot;
 
   ![](assets/prompt-1.png)
   _Respuesta al mensaje ¿Cómo asigno un curso a un usuario?_
 
 * **Informe de inscripción más reciente**
-   * **Mensaje**: Muéstreme el último informe de inscripción.
+  * **Mensaje**: Muéstreme el último informe de inscripción.
 
   ![](assets/prompt-2.png)
   _Respuesta al mensaje Mostrar el informe de inscripción más reciente_
 
 * **Eliminar un usuario**
-   * **Mensaje**: &quot;¿Cómo puedo eliminar un usuario?&quot;
+  * **Mensaje**: &quot;¿Cómo puedo eliminar un usuario?&quot;
 
   ![](assets/prompt-3.png)
   _Respuesta a la pregunta ¿Cómo puedo eliminar un usuario?_

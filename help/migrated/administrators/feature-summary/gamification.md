@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Interacción
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 68%
-
 ---
-
 # Interacción
 
 La interacción es el uso del pensamiento lúdico y la mecánica del juego en contextos no lúdicos para atraer a usuarios a ganar puntos mientras aprenden.

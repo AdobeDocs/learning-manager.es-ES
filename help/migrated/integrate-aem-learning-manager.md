@@ -4,13 +4,14 @@ title: Integrar Adobe Learning Manager con AEM
 description: Learning Manager es un sistema de gestión de aprendizaje con un sistema de gestión de contenido de aprendizaje integrado. Los usuarios gestionan su contenido de aprendizaje cargándolo en Learning Manager para que esta solución realice el control de versiones, la asignación a cursos, la configuración de la visibilidad para los alumnos, el seguimiento del consumo y la notificación a los administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # Integrar Adobe Learning Manager con AEM
 
@@ -115,7 +116,7 @@ Para aprobar la aplicación, haga clic en **[!UICONTROL Aprobar]**.
 ## Configurar la cuenta de ALM en AEM
 
 1. Inicie la instancia de AEM.
-1. Haga clic en **Configuración** > **Cloud Service**.
+1. Haga clic en **Configuración** > **Cloud Services**.
 1. Haga clic en **Configuración de Adobe Learning Manager**.
 
    ![](assets/alm-configuration.png)
@@ -361,7 +362,7 @@ Para la configuración de widgets, el autor AEM solo necesita el token de actual
 
 También puede establecer varias configuraciones de cuenta en varias páginas.
 
-1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuración del widget de Learning Manager]**.
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuración del widget de Learning Manager]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 1. Introduzca el token de actualización aquí. Configure los demás ajustes.
 1. El nombre de host debe cambiarse a **learningmanagereu** para las regiones de la UE.
@@ -419,19 +420,19 @@ Las opciones de catálogo contienen las siguientes opciones:
 
 * **[!UICONTROL ID de catálogo]:** ID de catálogo separados por comas para los que se debe mostrar el curso de formación.
 * **[!UICONTROL Orden]:** Tipo de orden del curso de formación. Estas son las opciones de ordenación:
-   * nombre: Ordena los objetos de aprendizaje alfabéticamente de A a Z.
-   * -name: Ordena los objetos de aprendizaje alfabéticamente de Z a A.
-   * fecha: Ordena por fecha en orden ascendente.
-   * -fecha: Ordena por fecha en orden descendente (la última primero).
-   * dateCreated: Ordena por la fecha de creación del objeto de aprendizaje (primero el más antiguo).
-   * -dateCreated: Ordena por fecha de creación (la más reciente primero).
-   * dateEnrolled: Se ordena por la fecha de inscripción del alumno (la primera más temprana).
-   * -dateEnrolled: Ordena por fecha de inscripción (la más reciente primero).
-   * clasificación: Ordena por clasificaciones de alumnos (de menor a mayor).
-   * -clasificación: Ordena por clasificaciones (de mayor a menor).
-   * fecha de vencimiento: Ordena por la fecha de vencimiento del curso (primero la fecha límite).
-   * eficacia: Ordena por puntuación de eficacia en función de los comentarios de los alumnos.
-   * progreso: Ordena por progreso del alumno (del menor al mayor).
+  * nombre: Ordena los objetos de aprendizaje alfabéticamente de A a Z.
+  * -name: Ordena los objetos de aprendizaje alfabéticamente de Z a A.
+  * fecha: Ordena por fecha en orden ascendente.
+  * -fecha: Ordena por fecha en orden descendente (la última primero).
+  * dateCreated: Ordena por la fecha de creación del objeto de aprendizaje (primero el más antiguo).
+  * -dateCreated: Ordena por fecha de creación (la más reciente primero).
+  * dateEnrolled: Se ordena por la fecha de inscripción del alumno (la primera más temprana).
+  * -dateEnrolled: Ordena por fecha de inscripción (la más reciente primero).
+  * clasificación: Ordena por clasificaciones de alumnos (de menor a mayor).
+  * -clasificación: Ordena por clasificaciones (de mayor a menor).
+  * fecha de vencimiento: Ordena por la fecha de vencimiento del curso (primero la fecha límite).
+  * eficacia: Ordena por puntuación de eficacia en función de los comentarios de los alumnos.
+  * progreso: Ordena por progreso del alumno (del menor al mayor).
 * **[!UICONTROL Estado del alumno]:** Devuelve todos los cursos de formación que utilizan los siguientes filtros: enrolled, started, completed y not enrolled. Los resultados de la búsqueda no se mostrarán si la opción de ordenación es dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nombre de la aptitud]:** Aptitud utilizada para filtrar los cursos de formación exactos.
 * **[!UICONTROL Nombre de etiqueta]:** Etiqueta utilizada para filtrar resultados exactos.

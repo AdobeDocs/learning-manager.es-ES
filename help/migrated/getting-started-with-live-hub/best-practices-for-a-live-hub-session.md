@@ -1,13 +1,14 @@
 ---
 title: Prácticas recomendadas para una sesión de Live Hub (Beta)
 description: Siga estas prácticas recomendadas para preparar, ejecutar y realizar el seguimiento de una sesión de Live Hub en Adobe Learning Manager para autores, administradores, instructores y alumnos.
-source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 0%
-
 ---
-
 
 # Prácticas recomendadas para una sesión de Live Hub (Beta)
 

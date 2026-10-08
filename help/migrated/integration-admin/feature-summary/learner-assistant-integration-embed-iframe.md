@@ -2,13 +2,14 @@
 description: Aprenda a incrustar el Asistente del alumno en la aplicación mediante un iframe, incluidos la configuración y el control de eventos
 jcr-language: en_us
 title: Integrar el asistente del alumno incrustando iFrame
-source-git-commit: 1549a4592b7a930631dcff6b2e75ec3a3d4f5592
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 
 # Incrustación del Asistente del alumno mediante un iframe
 
@@ -19,7 +20,7 @@ Los usuarios de Adobe Learning Manager (ALM) pueden incrustar **Learner Assistan
 Cuando se incrusta mediante iFrame, el Asistente del alumno proporciona acceso a todas las funciones del Asistente del alumno, entre las que se incluyen:
 
 * Orchestrator
-* Agente de respuesta
+* Agente de respuestas
 * Agente de conocimientos
 * Agente de rutas de aprendizaje
 

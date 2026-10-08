@@ -5,13 +5,14 @@ title: 'Guía de implementación de Learning Manager: sección 2'
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Guía de implementación de Learning Manager: sección 2
 
 ## Configuración técnica {#technicalsetup}
@@ -74,7 +75,7 @@ Para realizar el flujo de trabajo de migración, necesita los privilegios de adm
 
 Antes de iniciar el proceso de migración, debe realizar el siguiente requisito previo:
 
-* Extracción de datos y contenido del LMS original y transformación de los datos a los formatos de archivo definidos por Learning Manager.
+* Extracción de datos y contenido del LMS original e transforma los datos a los formatos de archivo definidos por Learning Manager.
 * Importación de usuarios mediante conectores FTP y BOX. El administrador de integración debe asegurarse de que los conectores estén configurados antes del proceso de migración.
 
 
@@ -119,7 +120,7 @@ Asegúrese de que cada archivo .csv contiene los datos de cada campo en el forma
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>No.</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>Ap. soc.</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Nombre de hoja de Excel</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Descripción del contenido</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Notas</strong></p></th> 

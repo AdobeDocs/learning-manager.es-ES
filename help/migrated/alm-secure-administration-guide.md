@@ -3,13 +3,14 @@ title: 'Adobe Learning Manager: guía de administración segura'
 description: Esta guía describe la configuración de seguridad, las funciones y las prácticas recomendadas para administrar la seguridad administrativa y el control de acceso en Adobe Learning Manager para garantizar el cumplimiento normativo y la seguridad.
 jcr-language: en-us
 exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
-
 ---
-
 # Configuración de seguridad administrativa e implicaciones de seguridad
 
 ## Funciones administrativas con impacto en la seguridad
@@ -168,7 +169,7 @@ Los clientes pueden configurar las opciones administrativas de Adobe Learning Ma
 
 Encontrará información adicional sobre los procedimientos de seguridad de Adobe Learning Manager en:
 
-**Referencia:** [Información general sobre seguridad de Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=es)
+**Referencia:** [Información general sobre seguridad de Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Mantenimiento de documentos
 

@@ -2,13 +2,14 @@
 description: Aprenda a crear un tema de curso personalizado en Composición de contenido, ya sea desde cero utilizando la opción Crear o exportando un tema existente como JSON, editando sus propiedades e importándolo de nuevo.
 jcr-language: en_us
 title: Crear un tema
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Crear un tema
 
@@ -16,7 +17,7 @@ Hay dos formas de crear un tema personalizado, las cuales añaden el resultado a
 
 - **Generar desde cero** usando la opción **Crear** de la barra de herramientas: configura la paleta de colores, las fuentes y otras propiedades y, a continuación, **guarda como nuevo**.
 
-- **Importar un archivo JSON personalizado**: exporta un tema existente como JSON, edítalo en un editor de texto o código y luego impórtalo de nuevo.
+- **Importar un Archivo JSON personalizado**: exporta un tema existente como JSON, edítalo en un editor de texto o código y luego impórtalo de nuevo.
 
 **¿Necesitas más control?**
 
@@ -37,14 +38,14 @@ Para obtener tipografía por elemento (nombres de lecciones, nombres de temas, e
 
 1. Seleccione **Temas** en la barra de herramientas para abrir el panel **Temas del curso**.
 
-2. Pase el ratón sobre el tema que desee usar como base y seleccione **Exportar** para descargarlo como archivo JSON.
+2. Pase el ratón sobre el tema que desee usar como base y seleccione **Exportar** para descargarlo como Archivo JSON.
 
-3. Abra el archivo JSON en un editor de texto o de código y actualice sus propiedades, como el radio, el espaciado, la paleta de colores o las fuentes.
+3. Abra el Archivo JSON en un editor de texto o de código y actualice sus propiedades, como el radio, el espaciado, la paleta de colores o las fuentes.
 
-4. Guarde el archivo JSON.
+4. Guarde el Archivo JSON.
 
 5. En Content Composer, seleccione **Importar** en el panel **Temas del curso**.
 
-6. Elija el archivo JSON actualizado en el equipo.
+6. Elija el Archivo JSON actualizado de su equipo.
 
 7. Selecciona **Guardar como nuevo** para agregar el tema a tu lista de temas **Personalizados**.

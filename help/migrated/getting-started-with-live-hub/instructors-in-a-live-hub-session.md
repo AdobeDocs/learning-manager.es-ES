@@ -1,13 +1,14 @@
 ---
 title: Función de los instructores en una sesión de Live Hub
 description: Obtenga más información sobre los flujos de trabajo de instructores en Live Hub, desde la preparación de una sesión y la gestión de interacciones de alumnos hasta la revisión de los resultados posteriores.
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # Función de los instructores en una sesión de Live Hub
 

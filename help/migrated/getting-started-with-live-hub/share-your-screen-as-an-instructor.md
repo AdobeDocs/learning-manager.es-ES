@@ -1,13 +1,14 @@
 ---
 title: Compartir la pantalla como instructor en Live Hub
 description: Obtenga información sobre cómo los instructores comparten su pantalla, usan la vista dividida, anotan el contenido compartido y permiten a los alumnos compartir su pantalla durante una sesión de Live Hub.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 
 # Compartir la pantalla como instructor
 

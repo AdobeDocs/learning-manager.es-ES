@@ -1,13 +1,14 @@
 ---
 title: Utilizar el panel de asistentes como alumno en Live Hub
 description: Obtenga información sobre cómo los alumnos abren el panel de asistentes e interactúan con otros participantes durante una sesión de Live Hub.
-source-git-commit: 6ac69b3622489f87a3022618ac6ff95f8c230866
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
-
 ---
-
 
 # Utilizar el panel de asistentes como alumno
 

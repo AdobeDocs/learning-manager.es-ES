@@ -2,13 +2,14 @@
 title: Transición desde el Administrador de FTP Adobe
 description: Adobe Learning Manager es compatible con un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer. Puede reemplazar cualquier cliente FTP de código abierto con el Administrador de FTP Adobe.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 69%
-
 ---
-
 # Transición desde el Administrador de FTP Adobe
 
 Adobe Learning Manager es compatible con un nuevo conector mediante el protocolo SFTP de la familia AWS Transfer.
@@ -76,7 +77,7 @@ Configure la conexión en un cliente FTP (recomendado en la sección anterior) c
 | Estado | Recomendación |
 |---|---|
 | Nueva migración | No puede iniciar nuevas migraciones desde el antiguo FTP. Debe utilizar el nuevo FTP para las nuevas migraciones. Para obtener más ayuda al respecto, póngase en contacto con el equipo de éxito del cliente. |
-| Migración en curso | Crear un sprint: puede seguir utilizando el antiguo FTP, pero le recomendamos que utilice el nuevo FTP. Póngase en contacto con el equipo de éxito del cliente para cualquier sprint existente que no se pueda desplazar. |
+| Migración en curso | Creación de un sprint: Puede seguir utilizando el antiguo FTP, pero le recomendamos que utilice el nuevo FTP. Póngase en contacto con el equipo de éxito del cliente para cualquier sprint existente que no se pueda desplazar. |
 | Migración cerrada | No hay acción. |
 
 ## Conectarse a Adobe Learning Manager mediante el cliente FTP de Filezilla
