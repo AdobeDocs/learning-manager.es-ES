@@ -160,7 +160,7 @@ Para obtener más información, consulte la característica [insignias](feature-
 
 +++¿Qué es un programa de aprendizaje?
 
-Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente que cumplen objetivos específicos del alumno. Solo los administradores pueden crear programas de aprendizaje para los alumnos. Cuando un administrador asigna una instancia de programa de aprendizaje a alumnos, estos ven ese **programa **en la ficha Programas. Además, los alumnos pueden ver todo tipo de programas de aprendizaje de inscripción propia e inscribirse en ellos.
+Los programas de aprendizaje son un conjunto de cursos diseñados exclusivamente que cumplen objetivos específicos del alumno. Solo los administradores pueden crear programas de aprendizaje para los alumnos. Cuando un administrador asigna una instancia de programa de aprendizaje a alumnos, estos ven ese **programa &#x200B;** en la ficha Programas. Además, los alumnos pueden ver todo tipo de programas de aprendizaje de inscripción propia e inscribirse en ellos.
 
 Para comenzar a realizar el programa de aprendizaje, haga clic en el programa que se le asignó. Puede ver información detallada de ese programa concreto.
 
