@@ -357,7 +357,7 @@ El Asistente de aprendizaje de Adobe Learning Manager puede responder preguntas 
 
 >[!IMPORTANT]
 >
->Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
+>Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
 
 
 Cuando un administrador añade un catálogo de Go1 o LinkedIn Learning a Adobe Learning Manager, el contenido del catálogo pasa por un proceso de ingesta programado. Una vez completada la ingesta, los objetos de aprendizaje de ese catálogo estarán disponibles para que el Asistente de aprendizaje los consulte.
