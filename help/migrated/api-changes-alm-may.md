@@ -27,7 +27,7 @@ included[].attributes.startDate
 **Descripción**
 startDate representa la fecha y hora de inicio programadas de una instancia de objeto de aprendizaje.
 
-Ejemplo de **&#x200B;**
+Ejemplo de ****
 https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course:13209797?include=instances
 Respuesta de muestra (truncada)
 
