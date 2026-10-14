@@ -7,9 +7,7 @@ source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
-
 ---
-
 # Añadir y configurar widgets
 
 ## Widget Calendario
@@ -155,7 +153,7 @@ Para configurar el widget Cursos y trazados:
 
 ![](assets/configure-course-paths.png)
 Widget de _cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
-&#x200B;11. Seleccione **[!UICONTROL Agregar widget]**.
+11. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Cursos y trazados se añadirá a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
@@ -284,8 +282,8 @@ El widget Iframe se agregará a la página. Los administradores pueden añadir o
 
 Los administradores deben incluir el token de acceso como parámetro de consulta en la dirección URL de iframe para recuperar los detalles correctos. Por ejemplo, para mostrar información de Adobe Learning Manager dentro de un iframe, la dirección URL debe incluir los siguientes parámetros:
 
-* userId: El identificador único del alumno.
-* accountId: El identificador de cuenta asociado al alumno.
+* userId: El identificador único del alumno
+* accountId: El identificador de la cuenta asociado al alumno.
 * token: El token de autenticación necesario para las llamadas de API
 * configuración regional: La preferencia de idioma o configuración regional del alumno
 
