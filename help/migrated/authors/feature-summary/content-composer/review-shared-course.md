@@ -38,7 +38,7 @@ Cuando se comparte un proyecto para su revisión, puede acceder al curso como re
 
 ## Informar de contenido ofensivo
 
-Si encuentra contenido que infringe las [Condiciones de uso](https://www.adobe.com/legal/terms.html) de Adobe mientras revisa un curso de Compositor de contenido compartido, puede informar de ello.
+Si encuentra contenido que infringe las [Condiciones de uso](https://www.adobe.com/es/legal/terms.html) de Adobe mientras revisa un curso de Compositor de contenido compartido, puede informar de ello.
 
 Seleccione **Informe** en la parte superior derecha y rellene el formulario. También puede informar de un abuso por correo electrónico a [abuse@adobe.com](mailto:abuse@adobe.com). 
 

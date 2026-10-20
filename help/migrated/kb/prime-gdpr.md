@@ -38,7 +38,7 @@ Aunque el RGPD es un reglamento de la UE, es aplicable a las entidades empresari
 
 De acuerdo con el RGPD, si tu empresa ofrece un producto o servicio a los residentes de la UE y determina cómo y por qué recopilar, rastrear y supervisar sus datos, se te considera un [controlador de datos](https://gdpr-info.eu/art-24-gdpr/). Como cliente de Adobe Learning Manager, si realiza una de estas actividades, se considerará controlador de datos.
 
-Las empresas que procesan datos en nombre de controladores se consideran [procesadores de datos](https://gdpr-info.eu/art-28-gdpr/). Como proveedor de LMS de Adobe Learning Manager alojado en la nube, Adobe desempeña el papel de procesador de datos. Aquí tienes más información sobre el [RGPD y tu empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Las empresas que procesan datos en nombre de controladores se consideran [procesadores de datos](https://gdpr-info.eu/art-28-gdpr/). Como proveedor de LMS de Adobe Learning Manager alojado en la nube, Adobe desempeña el papel de procesador de datos. Aquí tienes más información sobre el [RGPD y tu empresa](https://www.adobe.com/es/privacy/general-data-protection-regulation.html).
 
 +++
 
