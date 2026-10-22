@@ -3,13 +3,11 @@ description: Explica cómo Experience Builder puede publicar páginas de aprendi
 jcr-language: en_us
 title: Configurar y administrar páginas sin sesión iniciada en Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Experiencia no registrada en Experience Builder
 
@@ -33,25 +31,25 @@ La experiencia sin iniciar sesión en Experience Builder permite a las organizac
 
 ## Casos prácticos del mundo real de experiencias sin inicio de sesión
 
-- **Marketing y divulgación**: las organizaciones pueden promocionar sus programas de formación a audiencias externas, como clientes potenciales, socios o solicitantes de empleo, haciendo que los catálogos de los cursos y los detalles del programa sean de acceso público.
-- **Exploración previa a la inscripción**: Los alumnos pueden examinar los cursos disponibles, consultar información general y explorar las categorías antes de decidir si se inscriben o inician sesión, lo que les ayuda a tomar decisiones fundamentadas sobre la inscripción.
-- **Portales de formación corporativa**: Las empresas pueden proporcionar un portal público con información de cumplimiento o incorporación, lo que permite a los nuevos empleados o contratistas ver qué formación está disponible antes de recibir las credenciales.
-- **Páginas de aterrizaje de eventos o campañas**: Las organizaciones que ejecutan campañas o eventos de aprendizaje pueden crear páginas públicas dedicadas para resaltar cursos, horarios o recursos destacados, lo que aumenta la visibilidad y la participación.
-- **SEO y capacidad de detección**: al hacer públicas determinadas páginas y catálogos, las organizaciones mejoran la visibilidad de sus motores de búsqueda, lo que facilita que las personas descubran sus ofertas de aprendizaje en línea.
+- **Marketing y divulgación**: Las organizaciones pueden promocionar sus programas de formación a audiencias externas, como clientes potenciales, socios o solicitantes de empleo, haciendo que los catálogos de cursos y los detalles del programa sean públicamente accesibles.
+- **Exploración de inscripción previa**: Los alumnos pueden consultar los cursos disponibles, consultar información general y explorar las categorías antes de registrarse o iniciar sesión, lo que les ayuda a tomar decisiones fundamentadas sobre la inscripción.
+- **Portales de capacitación corporativa**: Las empresas pueden proporcionar un portal público con información sobre el cumplimiento o la incorporación, lo que permite a los nuevos empleados o contratistas ver qué formación está disponible antes de recibir las credenciales.
+- **Páginas de destino de eventos o campañas**: Las organizaciones que ejecutan campañas o eventos de aprendizaje pueden crear páginas públicas dedicadas para resaltar los cursos, programas o recursos destacados, lo que aumenta la visibilidad y la participación.
+- **SEO y capacidad de detección**: Al hacer públicas determinadas páginas y catálogos, las organizaciones mejoran la visibilidad de sus motores de búsqueda, lo que facilita que las personas descubran sus ofertas de aprendizaje en línea.
 
 ## Conceptos clave de la experiencia de inicio de sesión no registrado
 
 La experiencia sin iniciar sesión de Experience Builder le permite mostrar públicamente el contenido de aprendizaje y las páginas del portal, lo que permite a los visitantes explorar sin iniciar sesión.
 
 - **Crear páginas y menús públicos**: Configuras páginas y un solo menú al que todos pueden acceder, independientemente del estado de inicio de sesión.
-- **Agregar solo widgets compatibles**: se incluyen los widgets que no necesitan contexto de usuario (categorías, cursos y rutas de aprendizaje, cuadro de contenido, HTML, iframe), mientras que el sistema oculta los widgets específicos del usuario.
-- **Configurar el comportamiento de la página adaptable**: decides si aparece una página para los usuarios que han iniciado sesión o no, y el sistema adapta los widgets visibles y el contenido en función del estado de inicio de sesión.
-- **Vista previa de ambas experiencias**: Utiliza las opciones de vista previa para ver el aspecto de las páginas para los usuarios que han iniciado sesión o no, con diferencias en la visibilidad y el contenido de los widgets.
-- **Habilitar búsqueda global**: Los visitantes buscan cursos y contenido, pero solo obtienen las funciones de búsqueda básicas sin integración avanzada de IA.
+- **Agregar solo widgets compatibles**: Se incluyen widgets que no necesitan contexto de usuario (categorías, cursos y rutas de aprendizaje, cuadro de contenido, HTML, iframe), mientras que el sistema oculta los widgets específicos del usuario.
+- **Configurar comportamiento de página adaptable**: Usted decide si aparece una página para los usuarios que han iniciado sesión y los que no, y el sistema adapta los widgets visibles y el contenido en función del estado de inicio de sesión.
+- **Vista previa de ambas experiencias**: Puede utilizar las opciones de vista previa para ver el aspecto de las páginas para los usuarios que han iniciado sesión o no, con diferencias en la visibilidad y el contenido del widget.
+- **Habilitar búsqueda global**: Los visitantes buscan cursos y contenido, pero solo obtienen funciones de búsqueda básicas sin integración avanzada de IA.
 - **Permite a los visitantes examinar el catálogo y las descripciones generales de los cursos**: Los visitantes exploran páginas de catálogos, detalles de cursos e instancias, pero deben iniciar sesión para inscribirse o acceder a funciones personalizadas.
-- **Personaliza la construcción de marca y la localización**: Establece favoritos y configuraciones de idioma para que coincidan con las necesidades de construcción de marca y accesibilidad de tu organización.
-- **Habilitar el conector de acceso a datos de formación**: active este conector para exportar los metadatos del curso para su visualización pública, con lo que las páginas que no estén conectadas se mantendrán actualizadas.
-- **Controlar el alto tráfico con la infraestructura compartida**: el sistema administra grandes volúmenes de visitantes anónimos utilizando recursos compartidos y límites de velocidad.
+- **Personalizar la marca y la localización**: Puede establecer favoritos y configuraciones de idioma para que coincidan con las necesidades de marca y accesibilidad de su organización.
+- **Habilitar el conector de acceso a datos de formación**: Este conector se activa para exportar metadatos del curso para su visualización pública, lo que mantiene actualizadas las páginas que no han iniciado sesión.
+- **Controlar tráfico alto con infraestructura compartida**: El sistema gestiona grandes volúmenes de visitantes anónimos utilizando recursos compartidos y límites de velocidad.
 - **Optimizar para SEO**: La plataforma prepara páginas públicas para la indexación de motores de búsqueda, lo que facilita la búsqueda del contenido de aprendizaje.
 
 ## Requisitos previos para la experiencia sin sesión iniciada
@@ -63,11 +61,11 @@ La experiencia sin iniciar sesión de Experience Builder le permite mostrar púb
 
 El conector de Acceso a datos de formación (TDA) es un requisito previo esencial para habilitar la nueva función de generador de experiencias sin conexión en ALM. Este conector facilita la exportación de metadatos de formación, lo que permite que el portal muestre información del curso a los usuarios que no hayan iniciado sesión.
 
-- **Activación del conector**: debe habilitar el conector TDA desde el panel de administración de integración. Este paso desbloquea la funcionalidad del generador de experiencias que no ha iniciado sesión y hace que las opciones de interfaz de usuario relevantes estén visibles en la interfaz de administración.
-- **Exportación de metadatos**: una vez activada, el conector exporta los metadatos de formación esenciales (como el nombre del curso, la descripción, la información general, la clasificación, la duración y las aptitudes) de ALM a un repositorio público. Estos datos se utilizan para rellenar páginas y widgets que no han iniciado sesión.
-- **Programación y sincronización**: El proceso de exportación se puede programar (por ejemplo, diariamente) para garantizar que en el portal se reflejen las últimas actualizaciones del curso. Los cambios realizados en ALM aparecerán en las páginas que no hayan iniciado sesión después del siguiente ciclo de exportación, sujetos al almacenamiento en caché y a la frecuencia de exportación.
-- **Disponibilidad de la función**: Solo se puede acceder a las funciones del generador de experiencias que no haya iniciado sesión, como la creación de menús, la compatibilidad con widgets y la visibilidad del catálogo, una vez que se haya inicializado el conector de TDA. Si el conector no está habilitado, el generador de experiencias seguirá estando limitado a los escenarios de usuarios que hayan iniciado sesión.
-- **Migración y soporte**: Para las cuentas que realizan la transición desde funciones heredadas de la página de inicio sin inicio de sesión, inicializar el conector de TDA es el primer paso hacia la migración. Garantiza que puedes aprovechar la flexibilidad del nuevo creador de experiencias y las capacidades mejoradas.
+- **Activación del conector**: Debe habilitar el conector TDA desde el panel de administración de integración. Este paso desbloquea la funcionalidad del generador de experiencias que no ha iniciado sesión y hace que las opciones de interfaz de usuario relevantes estén visibles en la interfaz de administración.
+- **Exportación de metadatos**: Una vez activado, el conector exporta los metadatos de formación esenciales (como el nombre del curso, la descripción, la información general, la clasificación, la duración y las aptitudes) de ALM a un repositorio público. Estos datos se utilizan para rellenar páginas y widgets que no han iniciado sesión.
+- **Programación y sincronización**: El proceso de exportación se puede programar (p. ej., a diario) para garantizar que en el portal se reflejen las últimas actualizaciones del curso. Los cambios realizados en ALM aparecerán en las páginas que no hayan iniciado sesión después del siguiente ciclo de exportación, sujetos al almacenamiento en caché y a la frecuencia de exportación.
+- **Disponibilidad de la característica**: Solo se puede acceder a las funciones del generador de experiencias que no estén registradas, incluida la creación de menús, la compatibilidad con widgets y la visibilidad del catálogo, una vez inicializado el conector TDA. Si el conector no está habilitado, el generador de experiencias seguirá estando limitado a los escenarios de usuarios que hayan iniciado sesión.
+- **Migración y soporte**: Para las cuentas que realizan la transición desde las funciones heredadas de la página de inicio sin inicio de sesión, la inicialización del conector TDA es el primer paso hacia la migración. Garantiza que puedes aprovechar la flexibilidad del nuevo creador de experiencias y las capacidades mejoradas.
 
 ## Qué pueden hacer los visitantes sin iniciar sesión
 
@@ -101,9 +99,9 @@ Los widgets que requieren contexto de usuario, como Mi aprendizaje, Calendario, 
 ## Páginas y menús en una experiencia sin conexión
 
 - Solo se admite un menú sin inicio de sesión, visible para todos los visitantes sin autenticación.
-- Las páginas se pueden añadir a los menús de inicio de sesión y de no inicio de sesión; si una página está en ambos, adapta sus widgets y su contenido en función del estado de inicio de sesión del usuario.
+- Las páginas se pueden agregar tanto a los menús conectados como a los no conectados; si una página está en ambos, adapta sus widgets y contenido en función del estado de inicio de sesión del usuario.
 - Los menús no conectados no tienen segmentación de audiencia ni personalización. Todos ven el mismo conjunto de páginas.
-- Los widgets que no se admiten en el modo de inicio de sesión no se ocultan automáticamente; el diseño de página se ajusta para rellenar los huecos.
+- Los widgets que no se admiten en el modo sin inicio de sesión se ocultan automáticamente; el diseño de página se ajusta para rellenar huecos.
 - La administración de menús y páginas (agregar, previsualizar, eliminar) es como el modo de inicio de sesión, pero con adaptaciones para las restricciones que no han iniciado sesión.
 
 ## Comportamiento de búsqueda y catálogo
@@ -119,7 +117,7 @@ Si un usuario intenta inscribirse, el sistema requiere que inicie sesión primer
 Debe habilitar el conector de acceso a datos de formación en el panel de administración de la integración para poder utilizar la función experience builder sin conexión. Este conector exporta metadatos de formación de ALM a un repositorio público, lo que permite acceder a ellos a través de las API para las páginas no conectadas. La configuración del conector es un requisito previo para activar la función y garantiza que el portal muestre información de formación actualizada.
 
 Exportación y sincronización de metadatos\
-El conector exporta campos de metadatos clave como el nombre del curso, la descripción, la clasificación, la duración y las aptitudes. Puede programar exportaciones (por ejemplo, diarias) para mantener el portal sincronizado con ALM. No se pueden incluir todos los campos de metadatos; consulte ingeniería para obtener una lista completa. Los datos exportados se utilizan para rellenar las páginas que no han iniciado sesión y los cambios en ALM aparecerán después del siguiente ciclo de exportación.
+El conector exporta campos de metadatos clave como el nombre del curso, la descripción, la clasificación, la duración y las aptitudes. Puede programar exportaciones (por ejemplo, diarias) para mantener el portal sincronizado con ALM. Es posible que no se incluyan todos los campos de metadatos; consulte ingeniería para obtener una lista completa. Los datos exportados se utilizan para rellenar las páginas que no han iniciado sesión y los cambios en ALM aparecerán después del siguiente ciclo de exportación.
 
 Almacenamiento en caché y frecuencia de exportación\
 El sistema utiliza la frecuencia de exportación de backend y el almacenamiento en caché de frontend para administrar las actualizaciones de datos. Los cambios realizados en ALM se reflejan en su portal después de la actualización programada de la exportación y la caché. Es posible que algunas actualizaciones no aparezcan inmediatamente debido a estos mecanismos. Si necesita actualizaciones más rápidas, ajuste la programación de exportación o borre la caché según sea necesario.
@@ -128,7 +126,7 @@ Compatibilidad con la personalización de CSS/JS\
 Puede aplicar CSS y JavaScript personalizados a las páginas que hayan iniciado sesión y a las que no lo hayan hecho mediante la ficha de personalización. Esto le permite mantener una marca coherente, agregar elementos de interfaz de usuario personalizados y mejorar la experiencia del usuario en todo el portal. Todas las personalizaciones se aplican de forma global, lo que garantiza una apariencia unificada.
 
 Diferencias de URL y marca (favicon, título de página)\
-Las páginas que no han iniciado sesión y las que sí lo han hecho pueden tener direcciones URL distintas para distinguir los estados de los usuarios. Puedes personalizar el favicon y el título de la página de tu portal, lo que te ayuda a reforzar tu identidad de marca. Estas funciones están disponibles en el generador de experiencias; consulte con el departamento de ingeniería para conocer el estado más reciente de la compatibilidad con usuarios no conectados.
+Las páginas que no han iniciado sesión y las que sí lo han hecho pueden tener direcciones URL distintas para distinguir los estados de los usuarios. Puedes personalizar el favicon y el título de la página de tu portal, lo que te ayuda a reforzar tu identidad de marca. Estas características están disponibles en el generador de experiencias; consulte al equipo técnico para obtener el estado más reciente de la compatibilidad con usuarios sin sesión iniciada.
 
 ## Rendimiento y escalabilidad
 
@@ -184,7 +182,7 @@ Una llamada típica de un administrador o de una integración tiene el siguiente
 
 curl -X GET \
   &quot;https://{your-domain}/primeapi/v2/learningObjects/course:12345?forcedFields[learningObject]=products,roles&quot; \
-  -H &quot;Autorización: portador {admin_token}&quot; \
+  -H &quot;Autorización: Portador {admin_token}&quot; \
   -H &quot;Aceptar: application/vnd.api+json&quot;
 
 El JSON de objeto de aprendizaje devuelto tiene la misma estructura básica que antes, pero ahora puede confiar en que los campos de producto/función están presentes cuando los solicite con forcedFields. Las integraciones que no utilizan forcedFields siguen comportándose como antes.
@@ -261,7 +259,7 @@ Esto significa que ahora puede implementar de forma segura las sincronizaciones 
 
 Si se omite filter.loTypes=jobAid, el comportamiento de otros tipos de objetos de aprendizaje no cambia; el cambio solo afecta a la combinación de JobAid con ese filtro.
 
-### **API de menú: Filtro de menú sin inicio de sesión**
+### **API de menú: Filtro De Menú No Registrado**
 
 **Propósito**
 
@@ -285,7 +283,7 @@ En la práctica, un cliente ahora puede emitir:
 
 curl -X GET \
   &quot;https://{your-domain}/primeapi/v2/templates/menus?include=pages,subMenus.pages&amp;isNonLoggedIn=true&quot; \
-  -H &quot;Autorización: portador {admin_token}&quot; \
+  -H &quot;Autorización: Portador {admin_token}&quot; \
   -H &quot;Aceptar: application/vnd.api+json&quot;
 
 
@@ -356,15 +354,16 @@ La parte crítica es indicarle a la pila de ES no iniciada que academy.yourcompa
 
 1. **Vuelva a habilitar el conector de TDA (sencillo, fácil de usar)**
 
-El wiki de Experience Builder M45 explica que los usuarios nativos no conectados existentes deberán eliminar y volver a habilitar la conexión TDA para que el nuevo dominio aparezca automáticamente en la lista de permitidos. Haciendo esto se logran dos cosas:
-1. Se regenerará el JSON de la cuenta que no ha iniciado sesión.
-2. Los dominios de la lista de permitidos se actualizan para incluir el nuevo dominio de CDN no registrado y su dominio personalizado.
+   Los usuarios nativos existentes que no hayan iniciado sesión deberán eliminar y volver a habilitar la conexión TDA para que el nuevo dominio aparezca automáticamente en la lista de permitidos. Haciendo esto se logran dos cosas:
 
-Se recomienda cuando tiene un número reducido de cuentas y puede tolerar que se deshabilite y se vuelva a habilitar temporalmente el conector.
+   * Se regenerará el JSON de la cuenta que no ha iniciado sesión.
+   * Los dominios de la lista de permitidos se actualizan para incluir el nuevo dominio de CDN no registrado y su dominio personalizado.
 
-1. **Compruebe que el dominio esté incluido en la lista de permitidos**
+   Se recomienda cuando tiene un número reducido de cuentas y puede tolerar que se deshabilite y se vuelva a habilitar temporalmente el conector.
 
-Después de la inclusión en la lista de permitidos, abra el sitio que no haya iniciado sesión en el dominio personalizado e inspeccione las llamadas de red del navegador.
+2. **Compruebe que el dominio esté incluido en la lista de permitidos**
+
+   Después de la inclusión en la lista de permitidos, abra el sitio que no haya iniciado sesión en el dominio personalizado e inspeccione las llamadas de red del navegador.
 
 Desea ver lo siguiente:
 
@@ -373,18 +372,18 @@ Desea ver lo siguiente:
 
 Si estas llamadas devuelven errores 4xx o explícitos que sugieren &quot;dominio no confiable&quot; o &quot;origen no permitido&quot;, la lista de permitidos está incompleta o mal configurada y el Soporte debe ajustarla.
 
-El LLD sin inicio de sesión también indica que la configuración de la cuenta puede contener un valor de dominio esperado. En tiempo de ejecución, el sitio comprueba que el dominio de la dirección URL coincide con lo establecido en la configuración; si no lo hace, se puede redirigir al usuario a una página de error. Esto protege contra el acceso a la configuración de un cliente a través del dominio de otro cliente.
+El LLD sin inicio de sesión también indica que la configuración de la cuenta puede contener un valor de dominio esperado. En tiempo de ejecución, el sitio comprueba que el dominio de la dirección URL coincide con lo establecido en la configuración; de lo contrario, el usuario puede ser redirigido a una página de error. Esto protege contra el acceso a la configuración de un cliente a través del dominio de otro cliente.
 
 ## Uso de recomendaciones en Experience Builder sin iniciar sesión
 
 Experience Builder, que no está conectado, te permite crear páginas de aprendizaje públicas en las que los visitantes pueden examinar tu catálogo y ver el contenido resaltado antes de iniciar sesión. Aunque estos visitantes sean anónimos, puede seguir presentando cursos de formación recomendados mediante metadatos y widgets.
 
-En la aplicación del alumno que ha iniciado sesión, las recomendaciones se pueden personalizar: pueden depender del perfil del alumno, su historial, sus aptitudes y su progreso. En la experiencia de **sin sesión iniciada**, todavía no hay identidad de alumno, por lo que la plataforma no puede personalizar por usuario.
+En la aplicación del alumno que ha iniciado sesión, se pueden personalizar las recomendaciones: pueden depender del perfil, historial, aptitudes y progreso del alumno. En la experiencia de **sin sesión iniciada**, todavía no hay identidad de alumno, por lo que la plataforma no puede personalizar por usuario.
 
 Por lo tanto, Recommendations en modo sin sesión iniciada:
 
-- **Seleccionado o basado en reglas**: basado en catálogo, producto, función, etiquetas, etiquetas y otros metadatos.
-- **Orientado a segmentos**: &quot;recomendado para desarrolladores&quot;, &quot;recomendado para socios&quot;, &quot;ofrecido para principiantes&quot;.
+- **Administrado o basado en reglas**: según el catálogo, el producto, la función, las etiquetas, las etiquetas y otros metadatos.
+- **Orientado a segmentos**: &quot;recomendado para desarrolladores&quot;, &quot;recomendado para socios&quot;, &quot;presentado para principiantes&quot;.
 - **Centrado en el marketing**: se utiliza para atraer y guiar a los visitantes a inscribirse una vez que inician sesión.
 
 ### Metadatos y API compatibles con las recomendaciones
@@ -416,11 +415,11 @@ Utilice el widget **Cursos y trazados** cuando desee mostrar una fila o cuadríc
 
 Por ejemplo, puede crear:
 
-- &quot;Recomendado para desarrolladores&quot;: filtre por un producto o función que utilice para el contenido del desarrollador.
-- &quot;Empezar aquí&quot;: filtre por una etiqueta como &quot;Inicio&quot; o &quot;Incorporación&quot;.
-- &quot;Destacados este trimestre&quot;: filtre por una etiqueta con límite de tiempo como featured-q3-2026.
+- &quot;Recomendado para desarrolladores&quot;: filtre por un producto o función que utilice para el contenido de desarrollador.
+- &quot;Empezar aquí&quot;: filtrarse por una etiqueta como &quot;Inicio&quot; o &quot;Incorporación&quot;.
+- &quot;Destacado este trimestre&quot;: filtre por una etiqueta con límite de tiempo como featured-q3-2026.
 
-El widget no está aprendiendo del comportamiento; muestra lo que coincide con las reglas de metadatos que defina. Desde el punto de vista del visitante, sin embargo, parece una tira de recomendaciones.
+El widget no está aprendiendo del comportamiento; muestra lo que coincide con las reglas de metadatos definidas. Desde el punto de vista del visitante, sin embargo, parece una tira de recomendaciones.
 
 #### Widget **Categorías**
 
@@ -508,7 +507,7 @@ Antes de este cambio, la combinación de effectiveModifiedDate con loTypes=jobAi
 1. Tus trabajos de ETL o TDA pueden **sincronizar las ayudas de trabajo de forma incremental** para experiencias que no hayan iniciado sesión, del mismo modo que para cursos y rutas.
 2. Cualquier implementación descentralizada que cree un directorio de ayuda de trabajo público puede consultar los cambios en función de effectiveModifiedDate y loType=jobAid.
 
-La respuesta de ejemplo en el documento M45 muestra un learningObject con loType: &quot;jobAid&quot; y loFormat: &quot;Content&quot; que se devuelve al utilizar este patrón.
+La respuesta de ejemplo del documento M45 muestra un objeto learningObject con loType: &quot;jobAid&quot; y loFormat: &quot;Contenido&quot; que se devuelve al utilizar este patrón.
 
 1. **API de objeto de aprendizaje de administrador**\
    Si bien no es específico de los objetos de aprendizaje que no han iniciado sesión, M45 también actualiza la API del objeto de aprendizaje de administración para exponer de forma coherente los metadatos de producto y función para todos los tipos de objetos de aprendizaje mediante:
@@ -522,7 +521,7 @@ En el caso de las ayudas de trabajo, esto significa que puedes gestionar su prod
 
 En el estado sin sesión iniciada:
 
-- Las ayudas de trabajo son principalmente **detectables**: los visitantes pueden ver que existen, leer descripciones y entender cómo admiten temas o cursos.
+- Las ayudas de trabajo son principalmente **detectables**: los visitantes pueden ver que existen, leer descripciones y comprender cómo admiten temas o cursos.
 - El **consumo** real (descargar o abrir el contenido de la ayuda de trabajo) normalmente requiere inicio de sesión, especialmente si las ayudas de trabajo se consideran parte del contenido interno o con licencia.
 
 ## Cambios en la &quot;breve descripción&quot; en la búsqueda de objetos de aprendizaje (sin iniciar sesión)
@@ -532,7 +531,7 @@ En la pila no conectada, la búsqueda y la lista de objetos de aprendizaje (LO) 
 El cambio introduce la compatibilidad con el objeto de aprendizaje **breve descripción** en las API de búsqueda y listado no registradas:
 
 - Para **cursos**, la semántica de la interfaz de usuario existente es:
-   - Las tarjetas de inicio de sesión muestran &quot;Breve descripción&quot; (campo de 140 caracteres) si están presentes; de lo contrario, se remontan a la larga &quot;Descripción detallada&quot;.
+  - Las tarjetas de inicio de sesión muestran la &quot;descripción breve&quot; (campo de 140 caracteres) si existe; de lo contrario, se remontan a la larga &quot;visión detallada&quot;.
 - Para **rutas de aprendizaje**, la interfaz de usuario que ha iniciado sesión utiliza el campo &quot;Beneficios&quot; como breve descripción, si se ha definido, y se remite a la descripción general en caso contrario.
 - Para **certificaciones**, se utiliza una breve &quot;Descripción&quot;, con una &quot;Descripción general de la certificación&quot; más larga como reserva.
 - Para **ayudas de trabajo**, se usa el campo de descripción principal.
@@ -541,7 +540,7 @@ El cambio introduce la compatibilidad con el objeto de aprendizaje **breve descr
 
 ### Restricción de que no pueda haber dos cuentas que compartan el mismo dominio personalizado
 
-En las arquitecturas sin inicio de sesión y sin inicio de sesión de Adobe Learning Manager, un **dominio personalizado** (por ejemplo, academy.example.com) se trata como una clave única global que debe asignarse exactamente a una cuenta de ALM, por lo que la plataforma aplica una restricción estricta de que **no hay dos cuentas que puedan compartir el mismo dominio personalizado**. Esto es necesario para la seguridad, el enrutamiento y el SEO: la capa de enrutamiento y la pila de elementos no registrados utilizan el dominio para buscar la configuración correcta de la cuenta (incluidos sus elementos JSON de cuenta no registrada, los menús de Experience Builder, la marca y los puntos finales de TDA/búsqueda),
+En las arquitecturas sin inicio de sesión y sin inicio de sesión de Adobe Learning Manager, un **dominio personalizado** (por ejemplo, academy.example.com) se trata como una clave única global que debe asignarse exactamente a una cuenta de ALM, por lo que la plataforma aplica una restricción estricta de que **no hay dos cuentas que puedan compartir el mismo dominio personalizado**. Esto es necesario para la seguridad, el enrutamiento y el SEO: la capa de enrutamiento y la pila de elementos no registrados utilizan el dominio para buscar la configuración de cuenta correcta (incluidos sus elementos JSON de cuenta no registrada, los menús de Experience Builder, la marca y los puntos finales de TDA/búsqueda),
 
 Permitir el mismo dominio personalizado en dos cuentas haría imposible garantizar qué datos de cuenta se devuelven, podría causar fugas entre inquilinos y también dañaría artefactos generados como sitemap.xml y robots.txt que se producen por cuenta pero que los motores de búsqueda descubren por host. Operacionalmente, esto significa que cuando asigne o mueva un dominio personalizado primero debe asegurarse de que no esté asociado a ninguna otra cuenta (o anular su registro allí), y las herramientas internas de Adobe rechazarán los intentos de vincular el mismo dominio a varias cuentas.
 
