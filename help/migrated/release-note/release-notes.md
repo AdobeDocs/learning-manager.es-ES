@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35324'
 ht-degree: 63%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -70,6 +70,10 @@ Se han realizado dos mejoras en Insights Agent. Estos son:
 * **Inscripción de cursos, excluyendo los cursos en lista de espera de forma predeterminada:** Para consultas de inscripción directas e indirectas sin filtros, el recuento de inscritos directamente incluye a los alumnos con un estado de espera, aunque estén en lista de espera y no participen activamente. De forma predeterminada, el panel Enfoque no indica que los alumnos en lista de espera estén incluidos en el recuento. Los alumnos en lista de espera se excluyen solo cuando el administrador solicita explícitamente la exclusión, en cuyo caso se muestra la regla aplicada.
 
 [Más información](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+### Certificado personalizado - Certificado Designer
+
+Cuando se agregaba una insignia a un diseño de certificado, el sistema de generación de certificados solo admitía el campo de insignia basado en texto. Como resultado, la imagen de insignia del alumno faltaba o se mostraba incorrectamente en el PDF generado. Con esta corrección, el sistema ahora reconoce el marcador de posición de la imagen de insignia y lo reemplaza por la imagen de insignia ganada del alumno, conservando la posición y el tamaño configurados en el diseñador de certificados.
 
 ## API
 
