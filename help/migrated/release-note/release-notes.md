@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35324'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++Actualización 13: Versión del 27 de octubre de 2026 de Adobe Learning Manager
+
+## Mejora en esta versión
+
+**Integración con Go1:** La integración con Go1 en Adobe Learning Manager se ha mejorado para que el seguimiento de la finalización del curso sea más fiable. Las finalizaciones de Go1 de los alumnos ahora se graban con precisión, incluso si abandonan el reproductor del curso justo después de finalizar. Esta corrección ayuda a garantizar que las transcripciones de alumnos y los informes de administrador se mantengan completos y actualizados. No es necesario realizar ninguna configuración y los cursos de Go1 existentes siguen funcionando como antes. [Más información](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Errores corregidos
+
+**Dispositivo móvil:** En iPhone que usan iOS Safari, al iniciar un curso de orientación vertical desde el catálogo o al buscar en CTA, se muestra el mensaje &quot;Gire el dispositivo&quot;. El indicador permanecía incluso después de rotar a horizontal, lo que impedía que el curso se iniciara. Este problema se ha solucionado, y el jugador ahora se recupera en la rotación e inicia el curso como se esperaba.
+
+**Alumno:** Los alumnos no pudieron enviar archivos de Excel, PowerPoint, vídeo, ZIP y otros tipos en los módulos de envío de archivos y recibieron un error genérico. Este problema se ha solucionado y los alumnos ahora pueden cargar y enviar estos tipos de archivo según lo previsto.
+
+**Plantilla de correo electrónico:** Los mensajes de correo electrónico de invitación del calendario mostraban un cuerpo en blanco y una descripción de evento .ics vacía cuando las plantillas de sesión se desvinculaban del diseño global. Este problema se ha solucionado, y las plantillas desvinculadas ahora muestran los detalles de la sesión configurada y el contenido del diseño en la descripción del evento del calendario y el correo electrónico como se esperaba.
+
++++
 
 +++Actualización 12: Versión de Adobe Learning Manager del 30 de septiembre de 2026
 
