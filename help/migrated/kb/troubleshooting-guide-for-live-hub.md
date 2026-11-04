@@ -4,7 +4,7 @@ description: Mensajes de error comunes y notificaciones que pueden aparecer dura
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Durante una sesión de Live Hub, los instructores pueden recibir mensajes de error o notificaciones que impidan que determinadas acciones se completen del modo esperado. En este artículo se describen los errores comunes que afectan al instructor, sus posibles causas y los pasos que puede seguir para resolverlos.
 
-## Problemas de conexión
+## Problemas de conexión {#connection-issues}
 
 | Mensaje de error | Escenario | Sugerencias para superar el error |
 |---|---|---|
@@ -61,7 +61,7 @@ Los mensajes siguientes aparecen como notificaciones en forma de brindis cuando 
 | &quot;FileName.pdf&quot; supera el límite de 1 MB. | Un instructor carga un archivo de PDF que supera el límite de tamaño de archivo de 1 MB. | Comprima o reduzca el tamaño del archivo del PDF a menos de 1 MB y vuelva a cargarlo. |
 | &quot;FileName.pptx&quot; supera el límite de 3 MB. | Un instructor carga un archivo PPT que supera el límite de tamaño de archivo de 3 MB. | Comprima o reduzca el tamaño del archivo PPT a menos de 3 MB y vuelva a cargarlo. |
 
-## Problemas de sesiones en grupo
+## Problemas de sesiones en grupo {#breakout-issues}
 
 Los mensajes siguientes pueden aparecer cuando un instructor intenta iniciar una sesión de grupo de trabajo.
 

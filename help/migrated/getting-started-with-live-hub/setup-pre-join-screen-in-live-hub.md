@@ -4,7 +4,7 @@ description: Descubra cómo funciona la pantalla de preunión de Live Hub, cómo
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Cuando se lo solicite su explorador, seleccione **Permitir** para habilitar el a
 ![Mensaje de permiso de explorador](assets/allow-browser-permissions-prompt.png)
 *Seleccione Permitir cuando el explorador solicite acceso al micrófono y a la cámara.*
 
-### Configurar controles de audio
+### Configurar controles de audio {#audio-controls}
 
 El micrófono y el altavoz se seleccionan automáticamente. Utilice el control de audio de la pantalla de preunión para confirmar que funciona o cambiar a un dispositivo diferente.
 
