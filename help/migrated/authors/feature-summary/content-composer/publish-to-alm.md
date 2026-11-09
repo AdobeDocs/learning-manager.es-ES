@@ -5,9 +5,9 @@ title: Publicar en Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9941036e5221aa8cc1deb4d5d05d1fd76bd4e66b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -48,3 +48,23 @@ Después de conectar su cuenta, configure los detalles de publicación en la sec
 - Escriba una **Descripción**: un breve resumen del curso que aparece junto a él en la biblioteca de contenido de ALM, para que los alumnos y los administradores comprendan su propósito.
 
 - Seleccione **Publish** para enviar el curso a la biblioteca de contenido de ALM como módulo.
+
+## Navegación del alumno en cursos publicados de Content Composer
+
+Aprenda a navegar por los cursos de Content Composer publicados en Adobe Learning Manager o exportados como paquetes SCORM, incluida la tabla de contenido contraíble y la navegación móvil.
+
+## Tabla de contenido contraíble
+
+Los cursos publicados en Adobe Learning Manager o exportados como paquetes SCORM incluyen una lección contraíble y un panel de navegación de temas.
+
+Los alumnos pueden:
+
+- **Expande** el panel de navegación para examinar lecciones y temas y saltar a cualquier sección.
+- **Contraer** el panel de navegación para centrarse en el contenido del curso sin que el panel ocupe espacio en pantalla.
+El estado del panel se mantiene a medida que los alumnos se desplazan por el curso.
+
+## Navegación móvil
+
+En dispositivos móviles, la navegación por lecciones y temas se abre como una superposición de pantalla completa en lugar de como un panel lateral. Los alumnos seleccionan el icono de navegación para abrir la superposición, buscan la lección o el tema que desean y lo seleccionan para ir allí.
+
+La superposición se cierra automáticamente después de que el alumno seleccione un destino y lo devuelva al contenido del curso.
