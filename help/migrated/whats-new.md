@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Los autores crean escenarios a partir de sus propios materiales de referencia me
 
 Virtual Coach admite nueve idiomas y se puede utilizar como ayuda de trabajo independiente o incrustarse en un curso.
 
-## Citas de rutas de aprendizaje en el Asistente del alumno
+## Citas de la ruta de aprendizaje en el Asistente del alumno
 
 Las respuestas del Asistente del alumno ahora indican la ruta de aprendizaje que contiene un curso de origen, junto con el propio curso. Los alumnos abren la página Resumen del curso o Ruta de aprendizaje de la cita. Las respuestas extraídas de una ayuda de trabajo incluyen un vínculo de descarga. Esto ayuda a los alumnos a encontrar la formación que responda a sus preguntas.
 
@@ -236,7 +236,7 @@ Para ver el nombre completo, pase el puntero sobre el nombre abreviado.
 
 ## Información de insignia para cursos y rutas de aprendizaje
 
-Cuando los autores añaden un curso o una ruta de aprendizaje, aparece una ventana con información sobre insignias en la que se enumeran los cursos y las rutas de aprendizaje existentes. La ventana muestra el nombre, el tipo (curso o ruta de aprendizaje), el estado de la publicación y el formato del curso, por ejemplo, con ritmo personalizado, virtual, de clase o mixto.
+Cuando los autores añaden un curso o una ruta de aprendizaje, aparece una ventana con una lista de los cursos y las rutas de aprendizaje existentes con información de insignia. La ventana muestra el nombre, el tipo (curso o ruta de aprendizaje), el estado de la publicación y el formato del curso, como el ritmo personalizado, virtual, de clase o mixto.
 
 ## Mejoras no registradas
 
@@ -248,7 +248,7 @@ Los visitantes de tu academia pública ahora pueden reproducir el contenido sele
 
 * **Activar o desactivar el acceso sin inicio de sesión:** Los administradores pueden activar o desactivar el consumo de contenido sin inicio de sesión en toda la cuenta.
 * **Hacer que los cursos o módulos estén disponibles sin iniciar sesión:** Los autores pueden hacer que un curso completo esté disponible sin iniciar sesión o abrir solo módulos específicos, como un módulo de introducción gratuito antes del contenido avanzado cerrado.
-* **Heredar la configuración de los cursos:** Las certificaciones y rutas de aprendizaje siguen la configuración de los cursos que contienen, sin necesidad de configuración adicional.
+* **Heredar la configuración de los cursos:** Las rutas de aprendizaje y las certificaciones siguen la configuración de los cursos que contienen, sin necesidad de configuración adicional.
 * **Ver contenido sin iniciar sesión:** Los alumnos no autenticados pueden ver el contenido disponible sin iniciar sesión en su cuenta.
 * **Solo contenido con ritmo personalizado:** El contenido con licencia de terceros y el contenido del catálogo adquirido no pueden estar disponibles sin iniciar sesión.
 * **Informes sobre consumo anónimo:** Se puede generar un informe sobre consumo mensual no registrado.
@@ -258,7 +258,6 @@ Los visitantes de tu academia pública ahora pueden reproducir el contenido sele
 
 Los administradores ahora pueden elegir los catálogos específicos que aparecen en la academia pública. Solo los visitantes anónimos pueden explorar esos catálogos e indexarlos los motores de búsqueda y los asistentes de inteligencia artificial, por lo que los cursos de pruebas o el contenido interno siguen siendo privados.
  
-
 ### Buscar en motores de búsqueda y asistentes de inteligencia artificial (Beta)
 
 Adobe Learning Manager ahora puede hacer que tu academia pública sea descubrible por motores de búsqueda como Google y por asistentes de inteligencia artificial como ChatGPT, Claude y Gemini. Los cursos pueden aparecer entonces en los resultados de búsqueda y en las respuestas generadas por IA, que se atribuyen a la academia.
@@ -267,7 +266,7 @@ Adobe Learning Manager ahora puede hacer que tu academia pública sea descubribl
 * Cada academia recibe su propio mapa del sitio y robots.txt, generado automáticamente a partir de los catálogos que has hecho públicos.
 * Las páginas se preprocesan para los rastreadores, por lo que los asistentes de inteligencia artificial que no ejecutan JavaScript pueden leerlas.
 * Los rastreadores solo ven lo que un visitante puede acceder. El contenido cerrado nunca se expone.
-* Meta title, description y datos estructurados: Adobe Learning Manager los genera automáticamente para cada curso, ruta de aprendizaje y certificación, en función de los metadatos de aprendizaje.
+* Meta title, description y datos estructurados: Adobe Learning Manager los genera automáticamente para cada curso, ruta de aprendizaje y certificación en función de los metadatos de aprendizaje.
 
 >[!NOTE]
 >
@@ -285,7 +284,7 @@ Cuando los usuarios seleccionan **Registrarse** en una página a la que se acced
 
 ## Almacenar fechas de último acceso para inscripciones de rutas de aprendizaje
 
-Adobe Learning Manager ahora le permite adjuntar metadatos personalizados, como la fecha del último acceso, a una inscripción de ruta de aprendizaje. Puede configurarlo y leerlo a través de la API, que le ayuda a realizar un seguimiento del acceso con límite de tiempo a las rutas de aprendizaje que asigne.
+Adobe Learning Manager ahora le permite adjuntar metadatos personalizados, como la fecha del último acceso, a una inscripción de ruta de aprendizaje. La configura y la lee a través de la API, que le ayuda a realizar un seguimiento del acceso limitado a tiempo a las rutas de aprendizaje que asigne.
 
 Las inscripciones a los cursos ya admiten una fecha de último acceso a través de la API, que controla el tiempo durante el que un alumno puede acceder al curso. Las inscripciones de rutas de aprendizaje ahora ofrecen un campo de metadatos genérico, por lo que puede almacenar una fecha de último acceso o cualquier otro valor del que desee realizar un seguimiento.
 
@@ -404,7 +403,7 @@ La API de inscripciones ahora admite instancias de varias inscripciones en la ap
 
 ### Fecha del último acceso para la inscripción de rutas de aprendizaje
 
-Ahora puede almacenar metadatos personalizados, como una fecha de último acceso, en una inscripción de ruta de aprendizaje y establecerlos y leerlos a través de la API. Esto le ayuda a realizar un seguimiento del acceso con plazos concretos a las rutas de aprendizaje que asigne.
+Ahora puede almacenar metadatos personalizados, como una fecha de último acceso, en una inscripción de ruta de aprendizaje y establecerlos y leerlos a través de la API. Esto te ayuda a realizar el seguimiento del acceso limitado a tiempo a las rutas de aprendizaje que asignes.
 
 * Establezca los metadatos en una inscripción existente o al inscribir un alumno, utilizando un token de administrador.
 * Léalo con un token de administrador o de alumno.
