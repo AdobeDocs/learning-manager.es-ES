@@ -6,15 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
 workflow-type: tm+mt
-source-wordcount: '4685'
+source-wordcount: '4684'
 ht-degree: 0%
 ---
 
 # Novedades de la versión de diciembre de 2026 de Adobe Learning Manager
 
-La próxima versión de Adobe Learning Manager presenta una variedad de nuevas funciones y mejoras destinadas a agilizar la plataforma y ampliar sus capacidades. Estas actualizaciones simplifican los flujos de trabajo diarios, mejoran la forma en que se organiza y distribuye el contenido de aprendizaje, y hacen que la experiencia general sea más coherente e intuitiva.
+Esta versión de Adobe Learning Manager presenta una variedad de nuevas funciones y mejoras destinadas a agilizar la plataforma y ampliar sus capacidades. Estas actualizaciones simplifican los flujos de trabajo diarios, mejoran la forma en que se organiza y distribuye el contenido de aprendizaje, y hacen que la experiencia general sea más coherente e intuitiva.
 
 ## Gráficos y paneles de Report Builder
 
@@ -258,7 +258,6 @@ Los visitantes de tu academia pública ahora pueden reproducir el contenido sele
 
 Los administradores ahora pueden elegir los catálogos específicos que aparecen en la academia pública. Solo los visitantes anónimos pueden explorar esos catálogos e indexarlos los motores de búsqueda y los asistentes de inteligencia artificial, por lo que los cursos de pruebas o el contenido interno siguen siendo privados.
  
-
 ### Buscar en motores de búsqueda y asistentes de inteligencia artificial (Beta)
 
 Adobe Learning Manager ahora puede hacer que tu academia pública sea descubrible por motores de búsqueda como Google y por asistentes de inteligencia artificial como ChatGPT, Claude y Gemini. Los cursos pueden aparecer entonces en los resultados de búsqueda y en las respuestas generadas por IA, que se atribuyen a la academia.
@@ -283,7 +282,7 @@ Los perfiles de registro automático permiten a los usuarios externos, como soci
 
 Cuando los usuarios seleccionan **Registrarse** en una página a la que se accede a través de esa dirección URL, se agregan al perfil al que pertenece la dirección URL. Esto mantiene a los usuarios de diferentes organizaciones, como agencias independientes o empresas asociadas, en perfiles independientes.
 
-## Almacenar fechas de último acceso para inscripciones en rutas de aprendizaje
+## Almacenar fechas de último acceso para inscripciones de rutas de aprendizaje
 
 Adobe Learning Manager ahora le permite adjuntar metadatos personalizados, como la fecha del último acceso, a una inscripción de ruta de aprendizaje. Puede configurarlo y leerlo a través de la API, que le ayuda a realizar un seguimiento del acceso con límite de tiempo a las rutas de aprendizaje que asigne.
 
@@ -302,7 +301,7 @@ Los tipos de trabajo existentes, incluido `generateQuizReport`, no se modifican.
 
 ## Cambios de encabezado de columna en informes descargados
 
-El Report Builder ahora incluye el nombre del conjunto de datos en los encabezados de columna predeterminados de los informes descargados, por lo que Nombre del conjunto de datos del objeto de aprendizaje aparece como **Objeto de aprendizaje - Nombre** en lugar de **Nombre**. Para las columnas agregadas, el encabezado también incluye la función, como &quot;**Recuento de objeto de aprendizaje: ID**&quot;. Si escribe un nombre personalizado en el campo **Alias** de una columna, ese alias se utiliza como encabezado y no cambia.
+El Report Builder ahora incluye el nombre del conjunto de datos en los encabezados de columna predeterminados de los informes descargados, por lo que Nombre del conjunto de datos del objeto de aprendizaje aparece como **Objeto de aprendizaje - Nombre** en lugar de **Nombre**. Para las columnas agregadas, el encabezado también incluye la función, como **Recuento del objeto de aprendizaje - ID**. Si escribe un nombre personalizado en el campo **Alias** de una columna, ese alias se utiliza como encabezado y no cambia.
 
 Después de la actualización, los informes existentes sin alias personalizados muestran los encabezados actualizados, mientras que los datos de informes, los filtros y las programaciones no se ven afectados. Si los scripts, hojas de cálculo, paneles de inteligencia empresarial o integraciones hacen referencia a columnas por encabezado, actualícelos con los nuevos nombres o establezca un alias personalizado para mantener un encabezado específico.
 
