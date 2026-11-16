@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Los visitantes de tu academia pública ahora pueden reproducir el contenido sele
 
 Los administradores ahora pueden elegir los catálogos específicos que aparecen en la academia pública. Solo los visitantes anónimos pueden explorar esos catálogos e indexarlos los motores de búsqueda y los asistentes de inteligencia artificial, por lo que los cursos de pruebas o el contenido interno siguen siendo privados.
  
-
 ### Buscar en motores de búsqueda y asistentes de inteligencia artificial (Beta)
 
 Adobe Learning Manager ahora puede hacer que tu academia pública sea descubrible por motores de búsqueda como Google y por asistentes de inteligencia artificial como ChatGPT, Claude y Gemini. Los cursos pueden aparecer entonces en los resultados de búsqueda y en las respuestas generadas por IA, que se atribuyen a la academia.
@@ -402,7 +401,7 @@ Esta versión incluye nuevas API compatibles con las notificaciones del instruct
 
 La API de inscripciones ahora admite instancias de varias inscripciones en la aplicación del alumno. Agregue el parámetro opcional `includeMultiInstanceEnrollments=true` a `GET /enrollments` para incluirlos. El valor predeterminado es `false`, por lo que las integraciones existentes, incluidas las implementaciones descentralizadas, siguen funcionando sin cambios.
 
-### Fecha del último acceso para la inscripción en la ruta de aprendizaje
+### Fecha del último acceso para la inscripción de rutas de aprendizaje
 
 Ahora puede almacenar metadatos personalizados, como una fecha de último acceso, en una inscripción de ruta de aprendizaje y establecerlos y leerlos a través de la API. Esto le ayuda a realizar un seguimiento del acceso con plazos concretos a las rutas de aprendizaje que asigne.
 
