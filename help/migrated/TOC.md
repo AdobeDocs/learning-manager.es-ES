@@ -203,7 +203,7 @@ ht-degree: 32%
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
     * [Guía de uso de webhooks](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
     * [Eventos de webhook para ediciones de instancias de objetos de aprendizaje por instructores](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
-    * Seguimiento de finalización de [Go1 con webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
+    * [Seguimiento de finalización de Go1 con webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [Con Credibilidad](integration-admin/feature-summary/credly-integration.md)
   * [Interoperabilidad de herramientas de aprendizaje](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [Vínculos profundos de LTI](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
