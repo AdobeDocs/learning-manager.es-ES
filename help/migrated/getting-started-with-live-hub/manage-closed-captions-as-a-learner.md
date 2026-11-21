@@ -4,15 +4,19 @@ description: Obtenga información sobre cómo los alumnos muestran subtítulos o
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # Administrar subtítulos opcionales como alumno
 
 Los subtítulos opcionales muestran el contenido hablado como texto en pantalla, lo que facilita el seguimiento de una sesión de Live Hub, por ejemplo, si se encuentra en un entorno ruidoso o prefiere leer junto con el audio. Puede controlar sus propios subtítulos desde el botón de subtítulos opcionales (CC) de la barra de control. En esta guía se explica cómo mostrar, ajustar y ocultar subtítulos como alumno.
+
+>[!NOTE]
+>
+>Los subtítulos se muestran en el idioma seleccionado por el instructor para la sesión.
 
 ## Visualización de subtítulos opcionales
 

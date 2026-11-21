@@ -1,16 +1,16 @@
 ---
-title: Crear una sesión de Live Hub (beta)
+title: Crear una sesión de Live Hub
 description: Aprenda a crear un curso de Live Hub, añadir instancias de cursos, asignar instructores con el buscador de instructores, inscribir alumnos y personalizar la marca de la sala.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9d05ad4a059bd1fec6e64f050070dae336ba2d1b
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1617'
 ht-degree: 0%
 ---
 
-# Crear una sesión de Live Hub (beta)
+# Crear una sesión de Live Hub
 
 Use Live Hub para impartir formación en directo con instructor en un curso de Adobe Learning Manager. Puede combinar sesiones de Live Hub con contenido con ritmo personalizado para crear una experiencia de aprendizaje mixta.
 
@@ -135,13 +135,53 @@ Para añadir instructores mediante el buscador de instructores:
 
 1. Desplácese hasta el instructor que desee asignar y, a continuación, seleccione **Agregar**. <br> El instructor seleccionado se agrega al campo **Instructores** como una etiqueta.
 
+## Crear un curso para sesiones grandes {#create-large-session}
+
+Live Hub admite sesiones grandes de hasta 5000 asistentes. Al crear un curso con esta capacidad, Live Hub configura automáticamente la sala para un público grande y aplica las restricciones de funciones correspondientes.
+
+Para crear una sesión grande:
+
+1. Inicie sesión en ALM como **autor**.
+1. Seleccione **Agregar** en la página **Catálogo de cursos**.
+1. Introduzca el nombre y la descripción del curso.
+1. Seleccione **Contenido** > **Agregar módulos** en la sección **Módulos**. Aparece la ventana emergente **Seleccionar tipo de módulo**.
+1. Selecciona **Clase virtual** e introduce los detalles del curso, como el título, la descripción, la zona horaria, la fecha de inicio y finalización, y la hora de inicio y finalización.
+1. Seleccione **Centro de actividades** en **Herramientas de formación virtual en vivo**.
+1. Seleccione **Habilitar 5000 asistentes**. Si no activa esta opción, la sesión admite hasta 100 asistentes.
+
+   ![Cuadro de diálogo de clase virtual con Live Hub seleccionado y la opción Habilitar capacidad de 5000 asistentes](assets/virtual-classroom-enable-5000-attendee-capacity.png "Cuadro de diálogo de clase virtual con Live Hub seleccionado y la opción Habilitar capacidad de 5000 asistentes")
+
+1. Seleccione **Guardar** > **Publish**.
+
+### Funciones disponibles en sesiones grandes
+
+Cuando un instructor abre la sesión, la configuración de la sala muestra que se aplican restricciones de sesiones grandes.
+
+| Función | Comportamiento en una sesión grande |
+|---|---|
+| **Asistentes** | Una sesión grande admite hasta 5000 asistentes. Una vez que la sesión alcanza este límite, los asistentes adicionales no pueden unirse. |
+| **Cámaras** | Hasta 10 instructores pueden encender sus cámaras simultáneamente. Los alumnos no pueden encender sus cámaras. Si se alcanza el límite de la cámara, aparece un mensaje cuando otro instructor intenta encender la cámara.<p>Las solicitudes de cámara realizadas al mismo tiempo se procesan como un lote. Como resultado, el número de cámaras activas puede exceder el límite configurado. Sin embargo, la información sobre herramientas del botón de cámara sigue mostrando el límite configurado. |
+| **Micrófonos** | Hasta 20 asistentes pueden activar el silencio de sus micrófonos simultáneamente. Si se alcanza el límite del micrófono, aparece un mensaje cuando otro asistente intenta reactivar el audio.<p>Las solicitudes de micrófono realizadas al mismo tiempo se procesan como un lote. Como resultado, el número de asistentes que no se silencian puede exceder temporalmente el límite configurado. |
+| **Salas para grupos de trabajo** | El icono de la sala de grupo de trabajo permanece visible, pero los instructores no pueden iniciar las salas de grupo de trabajo. Aparece un mensaje cuando intentan iniciar uno. |
+| **Uso compartido de pantalla y pizarra** | Solo los instructores pueden compartir sus pantallas y utilizar la pizarra. Los instructores no pueden proporcionar estos permisos a los alumnos. |
+| **Chat privado** | Los alumnos pueden enviar mensajes privados a los instructores, pero no pueden enviar mensajes privados a otros alumnos. |
+| **Indicador de escritura** | El indicador de escritura no aparece en sesiones grandes. |
+| **Charla, reacciones, preguntas y manos levantadas** | El sistema procesa estas interacciones en lotes, por lo que pueden aparecer tras un breve retraso. Live Hub también agrupa las reacciones y muestra un número limitado a la vez. |
+| **Historial de chat** | El sistema elimina automáticamente los mensajes de chat antiguos cuando el historial de chat se hace demasiado grande para mantener la estabilidad de la sesión. |
+| **Encuestas, cuestionarios, grabación y asistencia** | Estas funciones funcionan de la misma manera que en las sesiones regulares. |
+| **Características de IA** | <ul><li>El sistema detecta las preguntas en el chat y las muestra en el panel **Preguntas**, aunque pueden aparecer tras un breve retraso.</li><li>Las funciones de inteligencia artificial asociadas a las salas de grupo de trabajo no están disponibles porque las sesiones grandes no admiten salas de grupo de trabajo.</li><li>Otras funciones de inteligencia artificial funcionan del mismo modo que en las sesiones regulares.</li></ul> |
+
+>[!NOTE]
+>
+>Sin la opción **Habilitar capacidad de 5000 asistentes**, una sesión normal admite hasta 1100 asistentes, 50 cámaras y 20 participantes sin silenciar.
+
 ## Inscribir alumnos en el curso
 
 Los alumnos pueden inscribirse en un curso de Live Hub de las dos formas siguientes:
 
-1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/es/docs/learning-manager/using/admin/courses) para obtener más información.
+1. Un **administrador** inscribe alumnos en el curso según los requisitos de la organización. Vea [Crear instancias de curso y rutas de aprendizaje](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) para obtener más información.
 
-1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/courses) para obtener más información.
+1. Los alumnos pueden inscribirse directamente en el curso desde la página **Catálogo**. Si el curso está configurado para la inscripción automática, los alumnos se inscriben inmediatamente y pueden acceder al curso desde **My Learnings**. Vea [Mis aprendizajes](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) para obtener más información.
 
 Después de inscribirse, los alumnos se añaden al curso y reciben una notificación en su cuenta de Adobe Learning Manager. Según la configuración de notificaciones por correo electrónico de la cuenta, los alumnos también pueden recibir una invitación para unirse al curso por correo electrónico.
 

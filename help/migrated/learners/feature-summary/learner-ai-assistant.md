@@ -6,9 +6,9 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3457'
 ht-degree: 0%
 ---
 # Asistente de IA para los alumnos
@@ -26,48 +26,72 @@ Utilice el asistente de inteligencia artificial para obtener respuestas rápidas
 >Esta función no está disponible en entornos autorizados por FedRAMP. Consulte [Disponibilidad de funciones en entornos FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obtener más información.
 
 
-## ¿Qué es el Asistente de IA para alumnos?
+## Agentes y citas de la ruta de aprendizaje en el Asistente del alumno {#learning-path-citations}
 
-El Asistente de IA es un compañero de chat generativo basado en IA en Adobe Learning Manager que ofrece respuestas rápidas y precisas utilizando su contenido de aprendizaje de confianza. Incluye citas para que siempre conozca la fuente de la información.
+El Asistente del alumno ahora cita rutas de aprendizaje relevantes junto a los cursos para que los alumnos puedan encontrar un aprendizaje estructurado más amplio sobre su tema. Los administradores también pueden activar o desactivar agentes individuales del Asistente del alumno para controlar las funciones de IA que los alumnos pueden utilizar en Adobe Learning Manager.
 
-### Capacidades
+### Citas de la ruta de aprendizaje en respuestas del Asistente del alumno
 
-- **Respuesta inteligente a preguntas**
-  - Conversaciones de una vuelta y varias vueltas
-  - Comprensión del lenguaje natural en inglés
-  - Respuestas derivadas de cursos, certificaciones, rutas de aprendizaje y ayudas de trabajo
-  - Aclaración inteligente de preguntas cuando las consultas son ambiguas
+El Asistente del alumno ahora cita rutas de aprendizaje relevantes junto a los cursos para que los alumnos puedan encontrar un aprendizaje estructurado más amplio sobre su tema.
 
-- **Orígenes de contenido y citas**
-  - Recupera respuestas de recursos disponibles en catálogos compatibles
-  - Proporciona citas con vínculos directos a materiales de origen
-  - Admite todos los formatos de contenido de Learning Manager (estático e interactivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vídeo (MP4, MOV, WMV), HTML, SCORM 2004 y SCORM 1.2
+### Cómo funcionan las citas de la ruta de aprendizaje en el Asistente del alumno
 
-- **Experiencia de usuario**
-  - Interfaz del panel lateral accesible desde todas las páginas del alumno
-  - Diseño interactivo que se adapta al área de contenido
-  - Historial de chat mantenido en la sesión del navegador
-  - Limpiar pizarra en nuevo inicio de sesión o actualización de página
-  - Sonido agradable, claro y pedagógico
+Cuando el Asistente del alumno responde a una pregunta, muestra el contenido de aprendizaje que utiliza como citas. En las versiones anteriores solo se citaban cursos. El Asistente del alumno ahora también cita rutas de aprendizaje y certificaciones relevantes para la pregunta. Los alumnos pueden abrir una cita de la ruta de aprendizaje para ver el aprendizaje estructurado relacionado con su tema.
 
-- **Controles de administrador**
-  - Habilitar o deshabilitar la función en el nivel de cuenta
-  - Seleccionar los catálogos que se incluyen para las respuestas de AI
-  - Requisito de aceptación de las Condiciones de uso conforme a las directrices de IA de Adobe
+### Qué determina qué citas aparecen
 
-## Qué puede hacer el Asistente de inteligencia artificial
+* El Asistente del alumno muestra una cita solo cuando el contenido de aprendizaje es relevante para la pregunta y visible para el alumno en el catálogo.
+* Si un curso o una ruta de aprendizaje no están visibles para el alumno, el Ayudante de alumno no los muestra.
+* Si un curso y una ruta de aprendizaje relevantes están visibles, el Asistente del alumno puede mostrar ambos en formato de jerarquía.
+* Al seleccionar una cita de ruta de aprendizaje, se abre dicha ruta.
 
-El asistente de inteligencia artificial es un compañero de chat generativo que responde a las preguntas con el contenido de aprendizaje asignado. Cada respuesta incluye citas con enlaces directos al material de origen para que puedas verificar la información y seguir aprendiendo en contexto.
+### Buscar una ruta de aprendizaje mediante el Asistente del alumno
 
-Además de responder a preguntas, el Asistente de inteligencia artificial puede:
+1. Abra **Asistente del alumno** y haga una pregunta sobre un tema.
 
-- **Resumir objetos de aprendizaje**: genera una descripción general rápida de cualquier curso, ayuda de trabajo, ruta de aprendizaje o certificación en tu catálogo sin abrirlo
-- **Compara objetos de aprendizaje**: identifica las diferencias entre dos cursos en paralelo para decidir cuál se ajusta a tus objetivos de aprendizaje
-- **Responder preguntas de procedimiento**: respuestas de origen de la documentación de ayuda oficial de Adobe Experience League para preguntas sobre el uso de Adobe Learning Manager como alumno
-- **Consulta contenido de terceros**: haz preguntas sobre los cursos de Go1 o LinkedIn Learning si el administrador ha añadido esos catálogos
-- **Crea una ruta de aprendizaje personalizada**: mantén una conversación guiada con el asistente de inteligencia artificial para crear un plan de aprendizaje personalizado y secuenciado basado en tus objetivos, tus antecedentes y el tiempo disponible.
+1. Revise la respuesta y las citas que aparecen con ella.
 
-El administrador controla los catálogos que utiliza el Asistente de inteligencia artificial. Si no tiene acceso a un curso, el Asistente para inteligencia artificial no mostrará información a partir de él.
+1. Seleccione una cita de curso o de ruta de aprendizaje para abrirla.
+
+### Solucionar problemas de citas de rutas de aprendizaje
+
+**Una ruta de aprendizaje no aparece como cita**
+
+Confirme que la ruta de aprendizaje sea relevante para la pregunta y visible para el alumno en el catálogo. El Asistente del alumno no muestra contenido oculto para el alumno.
+
+## Configurar agentes del Asistente del alumno
+
+Activa o desactiva los agentes individuales del Asistente del alumno para controlar las funciones de IA que pueden utilizar los alumnos en Adobe Learning Manager.
+
+### ¿Qué son los agentes del Asistente del alumno?
+
+Los administradores pueden activar o desactivar el Asistente del alumno para toda la cuenta. A partir de esta versión, los administradores también pueden controlar los agentes individuales que componen el Asistente del alumno. Puede activar cualquier combinación de agentes.
+
+| Agente | Lo que proporciona | Créditos de IA |
+|---|---|---|
+| **Agente de conocimiento** | El agente predeterminado. Disponible siempre que se activa el Asistente de inteligencia artificial del alumno. | No se consumen créditos |
+| **Agente de respuesta** | Responde a preguntas con contenido de disponible en catálogo | Consume créditos de inteligencia artificial adquiridos por consulta |
+| **Agente de ruta de aprendizaje** | Crea rutas de aprendizaje personalizadas para los alumnos. | Consume créditos de inteligencia artificial adquiridos por consulta |
+
+>[!NOTE]
+>
+>El asistente de inteligencia artificial del administrador tiene los mismos controles de nivel de agente, con **Agente de conocimiento** y **Agente de información**.
+
+### Activar o desactivar agentes del Asistente del alumno
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+
+1. Seleccione **IA en Aprendizaje** en el panel de navegación izquierdo.
+
+   Opción ![IA en el aprendizaje en el panel de navegación izquierdo](assets/Learning-paths-in-Learner-Assistant-citations-image1.png "IA en el aprendizaje")
+
+1. En la sección Asistente de IA del alumno, seleccione **Editar** y active o desactive cada agente según sea necesario.
+
+   ![La sección del Asistente de inteligencia artificial del alumno con el agente activa o desactiva](assets/Learning-paths-in-Learner-Assistant-citations-image2.png "los agentes del Asistente del alumno")
+
+1. Guarde los cambios.
+
+El Asistente del alumno ahora cuenta con todos los agentes activados, que un alumno puede empezar a utilizar.
 
 ## Tipos de contenido admitidos
 
@@ -357,7 +381,7 @@ El Asistente de aprendizaje de Adobe Learning Manager puede responder preguntas 
 
 >[!IMPORTANT]
 >
->Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/es/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
+>Como prerrequisito, un administrador debe añadir los catálogos necesarios al Asistente del alumno. Consulta [Configurar el acceso al Asistente de inteligencia artificial](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obtener más detalles.
 
 
 Cuando un administrador añade un catálogo de Go1 o LinkedIn Learning a Adobe Learning Manager, el contenido del catálogo pasa por un proceso de ingesta programado. Una vez completada la ingesta, los objetos de aprendizaje de ese catálogo estarán disponibles para que el Asistente de aprendizaje los consulte.
@@ -379,8 +403,9 @@ Para que el Asistente de aprendizaje consulte el contenido de Go1 o LinkedIn Lea
 
 ## Solución de problemas del Asistente de AI
 
-> **NOTA**
-> Después de configurar un nuevo catálogo, espere entre 4 y 5 horas para que el contenido se indexe y esté disponible para las respuestas del Asistente de inteligencia artificial.
+>[!NOTE]
+>
+>Después de configurar un nuevo catálogo, espere entre 4 y 5 horas para que el contenido se indexe y esté disponible para las respuestas del Asistente de inteligencia artificial.
 
 ### Sin acceso al contenido
 
@@ -429,10 +454,14 @@ Para que el Asistente de aprendizaje consulte el contenido de Go1 o LinkedIn Lea
 
 El Asistente de inteligencia artificial está diseñado para responder preguntas basadas únicamente en el contenido de aprendizaje asignado y no responde a consultas fuera del ámbito.
 
-### Los cursos de Go1 o LinkedIn Learning no aparecen en la búsqueda del Asistente de aprendizaje
-
+Los cursos de **Go1 o LinkedIn Learning no aparecen en la búsqueda del Asistente de aprendizaje**
 Confirme con el administrador que el catálogo Go1 o LinkedIn Learning se ha añadido a Adobe Learning Manager y que la ingesta del catálogo se ha completado. La ingestión puede tardar entre una y dos horas después de añadir el catálogo.
 
-### Un curso añadido recientemente aún no está disponible
-
+**Un curso agregado recientemente aún no está disponible**
 Espere a que se complete la sincronización del catálogo programado. Si el curso sigue sin aparecer después de dos horas, póngase en contacto con el administrador para confirmar que la conexión del catálogo está activa.
+
+**Una ruta de aprendizaje no aparece como una cita**
+Confirme que la ruta de aprendizaje sea relevante para la pregunta y visible para el alumno en el catálogo. El Asistente del alumno no muestra contenido oculto para el alumno.
+
+**¿Qué ven los alumnos cuando se deshabilita un agente?**
+El Asistente del alumno no ejecuta un agente desactivado. Por ejemplo, si deshabilita **Answer Agent** y un alumno hace una pregunta que la necesita, el Asistente del alumno no devuelve un resumen basado en curso. Ofrece opciones de los agentes que aún están activados.

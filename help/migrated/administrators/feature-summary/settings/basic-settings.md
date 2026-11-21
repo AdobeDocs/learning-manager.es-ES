@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
 workflow-type: tm+mt
-source-wordcount: '6326'
+source-wordcount: '7201'
 ht-degree: 4%
 ---
 # Configuración básica en Adobe Learning Manager
@@ -243,6 +243,14 @@ Consulte Terminología del producto en Adobe Learning Manager para obtener más 
 
 Cuando esta opción está activada, los autores y los instructores pueden registrar el número de créditos de instrucciones para cada sesión o módulo. Los créditos representan el tiempo dedicado a las instrucciones en el que se acreditará a un alumno para completar la actividad. Los valores de crédito aparecen en transcripciones de alumnos, informes de aprendizaje y contribuyen a los cálculos de la duración total de las rutas de aprendizaje. Si deshabilita esta configuración, los valores de crédito introducidos anteriormente se conservan y se restauran si se vuelve a activar la configuración.
 
+### Inscripción de grupo
+
+Active esta configuración para permitir que los autores establezcan fechas de apertura de inscripción y reserven licencias para grupos de usuarios específicos en una instancia de curso antes de que se abra la inscripción general. Si esta configuración está desactivada, la opción Asignar puestos por grupo de usuarios no estará disponible al configurar una instancia de curso.
+
+### Integración del Explorador de examen seguro
+
+Active esta opción para permitir que los autores configuren pruebas con la integración del Explorador de exámenes seguros. Para habilitar esta integración, los administradores deben cargar el archivo de configuración del Explorador de exámenes seguros para su clúster o entorno. Si esta configuración está deshabilitada, la opción Explorador de exámenes seguro no estará disponible para los autores al configurar pruebas.
+
 ### Actualización de la versión del módulo
 
 Esta opción permite a los administradores actualizar el contenido de un módulo sin interrumpir el progreso de los alumnos que ya se han inscrito en cursos que contienen ese módulo. Esto garantiza que los alumnos puedan continuar su recorrido de aprendizaje sin problemas, mientras que los autores pueden mantener el contenido actualizado. Con la opción activada, los autores pueden cargar una nueva versión de un módulo (por ejemplo, paquetes SCORM, AICC o xAPI) para sustituir la existente.
@@ -311,7 +319,7 @@ Esta opción le permite personalizar la sección de pie de página de la aplicac
 
 A continuación se explica cómo personalizar los vínculos de pie de página:
 
-1. **[!UICONTROL Agregar vínculos]**: Selecciona **[!UICONTROL Añadir más]** e introduce el nombre y la URL o el ID de correo electrónico en los campos especificados. Asegúrese de que la URL vaya precedida de http:// o https://.
+1. **[!UICONTROL Agregar vínculos]**: Selecciona **[!UICONTROL Añadir más]** e introduce el nombre y la URL o el ID de correo electrónico en los campos especificados. Asegúrese de que la dirección URL tiene el prefijo `http://` o `https://`.
 2. **[!UICONTROL Replicar en diferentes configuraciones regionales]**: Seleccione **[!UICONTROL Replicar]** para aplicar los cambios en cascada en todas las configuraciones regionales, asegurándose de que todos los idiomas tengan el mismo nombre y URL.
 3. Seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
 
@@ -394,6 +402,48 @@ Cuando los cursos son de pago, los autores pueden especificar el curso, la ruta 
 >
 >No es posible adquirir ciertos tipos de formación, como certificaciones periódicas y cursos aprobados por el responsable.
 
+## Activar la formación automática de equipos en Adobe Learning Manager
+
+Active la formación automática de equipos en la configuración de administrador para que Adobe Learning Manager agrupe a los alumnos en equipos antes de que comience cada instancia del curso.
+
+Este ajuste es opcional. Los envíos de equipos funcionan sin ella, y los instructores pueden crear equipos manualmente.
+
+Al activar esta configuración de cuenta, Adobe Learning Manager agrupa automáticamente a los alumnos inscritos en equipos un número determinado de días antes del inicio de cada instancia del curso. El ajuste está desactivado de forma predeterminada. Los autores pueden ajustar la programación de sus cursos y los instructores pueden seguir creando equipos manualmente.
+
+### Activar la formación automática de equipos
+
+1. En la aplicación de administrador, seleccione **Configuración** > **General**.
+
+1. En la **sección de formación de equipo automática para envíos basados en el equipo**, selecciona **Editar**. La opción permanece desactivada de forma predeterminada.
+
+   ![Sección de formación de equipo automática en Configuración general](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Sección de formación de equipo automática")
+
+1. Seleccione la casilla de verificación **Habilitar**.
+
+   ![Marcar la casilla de verificación para la formación automática del equipo](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Marcar la casilla de verificación")
+
+1. En **Programación de formación de equipos**, escriba el número de días en el campo **Crear equipos**. El valor debe ser 0 o superior. Este campo es obligatorio.
+
+   ![Crear campo de equipos en la programación de formación de equipos](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Programación de formación de equipos")
+
+1. Seleccione **Guardar**.
+
+La configuración solo funciona para los cursos que tienen un módulo de envío de archivos basado en el equipo y una fecha de inicio de la instancia.
+
+## Cómo afectan los cambios a los cursos
+
+Cuando se cambia esta configuración, el cambio se aplica únicamente a los cursos que se crean después de guardarla. Los cursos que ya existen mantienen la configuración con la que se publicaron, si la formación automática del equipo estaba activada o desactivada y mantienen su programación. Por ejemplo, si activa la configuración en marzo, los cursos creados en febrero no la obtendrán y los creados en marzo o posterior sí.
+
+Adobe Learning Manager no aplica el cambio a los cursos existentes, ya que podría interrumpir el trabajo de los autores, instructores y alumnos que ya están trabajando con esos cursos. Los autores y los instructores pueden continuar con la configuración con la que se publicó el curso. Si alguien necesita una configuración diferente, puede crear un nuevo curso e informar a las personas involucradas de lo que está cambiando.
+
+Puede cambiar la configuración en cualquier momento. Lo que elija se aplicará a todos los cursos creados posteriormente, hasta que lo vuelva a cambiar. Esto le permite definir la política que mejor se adapte a su organización.
+
+* Si desactiva esta opción, los cursos que ya utilizan la formación automática de equipos seguirán funcionando según lo configurado.
+* Los equipos que ya se habían formado se mantienen y los instructores pueden editarlos.
+* Cuando los autores crean un curso nuevo, pueden ajustar la programación de ese curso. Ver cómo los autores establecen las reglas del equipo.
+
+Después de desactivar la configuración, los equipos que ya se habían formado se mantienen en su lugar. Los instructores pueden seguir editándolas.
+
 ### Habilitar carro de SKU de varios elementos
 
 Esta opción permite a los alumnos añadir varios elementos de formación (cursos, rutas de aprendizaje, certificaciones) a un carro de compras y comprarlos juntos. Esta función forma parte de la funcionalidad de comercio electrónico integrada con Adobe Commerce.
@@ -403,7 +453,7 @@ Esta función es especialmente útil para las organizaciones que venden varios a
 **Características principales:**
 
 * Compras múltiples: Los alumnos pueden añadir varios elementos a su carro y comprarlos en una transacción. Consulte Carrito de varios elementos para obtener más información.
-*Pago optimizado: Reduce la necesidad de que los alumnos realicen compras por separado para cada elemento de formación.
+* Pago optimizado: Reduce la necesidad de que los alumnos realicen compras por separado para cada elemento de formación.
 * Administración de SKU: Los administradores pueden gestionar SKU de cursos, rutas de aprendizaje y certificaciones para garantizar un seguimiento y unos informes adecuados.
 
 ### Alternar cursos/rutas
@@ -574,7 +624,9 @@ Después de activar la función, configure los campos que aparecen en el formula
 
 5. Seleccione **Guardar**.
 
-**Nota:** El campo **Título** siempre es obligatorio y no se puede ocultar ni convertir en opcional.
+>[!NOTE]
+>
+>El campo **Title** es siempre obligatorio y no se puede ocultar ni convertir en opcional.
 
 El formulario de envío de alumnos refleja inmediatamente los cambios. Los envíos existentes no se ven afectados por los cambios de configuración del formulario.
 
@@ -634,10 +686,10 @@ a.    Seleccione la pestaña **[!UICONTROL Alumnos]** en el panel izquierdo.
 b.    Seleccione el alumno cuya asistencia desea marcar.
 c.    Seleccione **[!UICONTROL Acciones]** > **[!UICONTROL Marcar finalización]**.
 
-**Notas adicionales:**
-
-* Los responsables también pueden exportar la lista de alumnos con fines de creación de informes.
-* Si un curso incluye varias instancias, los responsables pueden ver y gestionar a los alumnos por separado para cada instancia.
+>[!NOTE]
+>
+> Los responsables también pueden exportar la lista de alumnos con fines de creación de informes.
+> Si un curso incluye varias instancias, los responsables pueden ver y gestionar a los alumnos por separado para cada instancia.
 
 ### Retirar
 
@@ -656,6 +708,24 @@ i. Los alumnos que ya se han inscrito en el curso o la ruta de aprendizaje perde
 ii. Ya no podrán ver ni realizar ninguna acción en el contenido retirado.
 b. Alumnos aún no inscritos:
 i. Los alumnos que no se hayan inscrito en el curso o la ruta de aprendizaje también perderán el acceso, ya que el contenido ya no aparecerá en el catálogo.
+
+### Impacto de la retirada en los objetos de aprendizaje de nivel superior {#retiral-impact-ho-lo}
+
+El ajuste **Retirada del impacto en objetos de aprendizaje de orden superior** controla lo que ocurre con una ruta de aprendizaje o certificación cuando se retira uno de sus cursos o rutas de aprendizaje anidadas. Solo se aplica a objetos de aprendizaje de orden superior: rutas de aprendizaje y certificaciones. Seleccione una de las opciones siguientes:
+
+* **Bloquear nuevas inscripciones en objetos de aprendizaje de orden superior que contengan el objeto de aprendizaje retirado.**
+
+  Cuando se retira un objeto de aprendizaje de orden inferior, cualquier ruta de aprendizaje o certificación que la contenga deja de estar disponible para nuevas inscripciones. Los alumnos que ya se han inscrito conservan el acceso al objeto de aprendizaje retirado dentro del objeto de aprendizaje de orden superior y pueden continuar y completarlo.
+
+* **Elimine el objeto de aprendizaje retirado de las rutas de aprendizaje y certificaciones que lo contengan, manteniéndolo disponible para nuevas inscripciones.**
+
+  Cuando se retira un objeto de aprendizaje de orden inferior, se elimina de las rutas de aprendizaje y certificaciones que lo contienen, exactamente como si se hubiera eliminado manualmente. El objeto de aprendizaje de orden superior permanece disponible para las nuevas inscripciones y los nuevos alumnos lo ven como si el objeto retirado nunca hubiera formado parte de él. Los alumnos que ya se han inscrito continúan sin el objeto retirado, con su progreso existente conservado en la transcripción del alumno y los porcentajes de finalización recalculados en consecuencia. Los alumnos que ya han completado el objeto de aprendizaje de orden superior mantienen su finalización y nota final.
+
+  Si al retirar un objeto de aprendizaje se deja el objeto de aprendizaje de orden superior sin contenido restante (por ejemplo, cuando se retiran todos sus objetos de aprendizaje o todos los objetos de aprendizaje necesarios), el objeto no se elimina y el objeto de aprendizaje de orden superior se bloquea de las nuevas inscripciones.
+
+>[!NOTE]
+>
+>La eliminación no se aplica a las certificaciones periódicas, que permanecen sin cambios al retirarse.
 
 ### Retirada automática
 

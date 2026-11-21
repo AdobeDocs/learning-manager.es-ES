@@ -1,16 +1,16 @@
 ---
-title: Controlar la participación de los participantes
+title: Seguimiento de la participación de los participantes
 description: Descubre cómo los instructores usan el indicador de participación de los participantes en tiempo real en Live Hub para supervisar el enfoque del navegador, la actividad del chat y la participación en las encuestas.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 ---
 
-# Controlar la participación de los participantes
+# Seguimiento de la participación de los participantes
 
 La participación de los participantes en Live Hub ofrece a los instructores una vista en tiempo real de la participación del alumno durante una sesión en directo. Combina el enfoque del navegador, la actividad del chat y la participación en una encuesta en un solo nivel de participación, que se muestra como un indicador verde, amarillo o rojo. Utilícelo para detectar las caídas de atención y ajustar su entrega en tiempo real.
 

@@ -5,9 +5,9 @@ title: Learning Path Agent (beta) en Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ Cuando esté satisfecho con la ruta, pida al agente que la guarde escribiendo sa
 ![](assets/create-lp.png)
 -->
 
-### Ajusta la ruta de aprendizaje antes de guardar
+### Ajuste de una ruta de aprendizaje antes de guardar {#adjust-lp-before-saving}
 
-Antes de guardar la ruta, puede solicitar al agente que añada, elimine o sustituya un curso. Describa el cambio en un lenguaje sencillo. El agente sólo actualiza el curso que menciona. El resto de tu camino sigue igual.
+Antes de guardarlo, elimine, añada o sustituya temas y cursos de una ruta de aprendizaje generada mediante el icono de eliminación o el chat.
 
-Por ejemplo:
+Al solicitar al agente de rutas de aprendizaje de Adobe Learning Manager que cree una ruta personalizada, primero se proponen los temas y, a continuación, se asignan los cursos a ellos. Antes de guardar el trazado, puede perfeccionar ambos, de modo que el trazado final se ajuste a sus objetivos.
 
-- Ya he completado el segundo curso. Quítalo.
-- Agregue un curso en [tema]. No veo a ninguno en la lista.
-- El cuarto curso parece demasiado avanzado. ¿Puedes reemplazarlo con algo más fundamental?
-
-El agente aplica el cambio y le muestra la ruta actualizada. Continúe ajustando hasta que esté satisfecho y guarde el trazado.
+Puede ajustar la ruta seleccionando el icono de eliminación en una tarjeta o escribiendo una solicitud en el chat.
 
 >[!NOTE]
 >
->Una ruta de aprendizaje puede contener un máximo de cinco cursos. Si solicita añadir un curso cuando la ruta de acceso ya está llena, el agente le preguntará qué curso existente desea reemplazar.
+>El agente de ruta de aprendizaje está disponible con el nivel Ultimate o como complemento del nivel Prime. Cada solicitud utiliza créditos de inteligencia artificial. Si no ve al agente, póngase en contacto con el administrador.
 
-Si su solicitud no es clara, el agente hace una pregunta aclaratoria antes de realizar un cambio. Si no existe ningún reemplazo adecuado para un curso que desea intercambiar, el agente explica por qué y sugiere el curso de coincidencia más cercano en su lugar.
+1. En el Ayudante del alumno, pida a Learning Path Agent que genere una ruta de aprendizaje. Responda a cualquier pregunta aclaratoria que el agente le haga. Por ejemplo, escriba Ayúdame a crear una ruta de aprendizaje para pasar de coordinador de marketing a analista de datos.
+2. Responda a las preguntas aclaratorias que el agente le haga. A continuación, el agente genera una lista de temas.
+3. Revise los temas y, a continuación, ajústelos según sea necesario:
+
+   * Para quitar un tema, seleccione el icono de eliminación en su tarjeta o escriba una solicitud como &quot;Quitar este tema&quot;.
+   * Para agregar un tema, escriba una solicitud que describa el tema que desea.
+
+4. Confirme los temas. El agente asigna cursos de su cuenta a cada tema.
+5. Revise los cursos sugeridos y luego ajústelos según sea necesario:
+
+   * Para eliminar un curso, seleccione el icono de eliminación en su tarjeta o solicite al agente que lo elimine.
+   * Para añadir un curso, escriba una solicitud que describa lo que desea aprender.
+   * Para intercambiar un curso, pida al agente que lo reemplace. El agente sugiere una alternativa basada en su solicitud original.
+
+6. Repita los pasos 3 y 5 hasta que el trazado coincida con sus objetivos.
+7. Guarde la ruta de aprendizaje.
 
 ### Guarda tu ruta de aprendizaje y accede a ella
 

@@ -7,10 +7,10 @@ exl-id: 2f4f8589-2350-4683-a141-809084d6309a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a56c810d5222b6ab6f128db9661ff7fb6d2c93
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 47%
+source-wordcount: '3424'
+ht-degree: 26%
 ---
 # Administrar a los alumnos de la sesión
 
@@ -270,3 +270,230 @@ Si los alumnos han cargado documentos como asignaciones, informes o evaluaciones
    Si ya ha definido recordatorios de las sesiones, aparecen en los mosaicos de recordatorios existentes. Asimismo, puede añadir recordatorios a los ya creados.
 
    Para eliminar un recordatorio, haga clic en él. En el menú emergente, haga clic en el icono de eliminar (icono de papelera) para suprimir el recordatorio.
+
+## Creación y gestión de equipos en Adobe Learning Manager
+
+Cree equipos manualmente de los alumnos en una instancia de curso y, a continuación, añada, mueva, elimine, cambie el nombre o elimine equipos hasta que se bloquee un equipo.
+
+Como instructor, puede crear equipos para cada instancia de un curso que tenga un módulo de envío basado en el equipo. Cualquier instructor asignado a la instancia puede administrar sus equipos. Adobe Learning Manager también puede crear equipos automáticamente. Una vez formados los equipos, los alumnos pueden enviar su trabajo y usted puede evaluar los envíos del equipo.
+
+### Abra la página de administración de equipos
+
+1. En la aplicación del instructor, seleccione **Equipos** en el panel de navegación izquierdo. En la página, se muestran las instancias de curso basadas en equipo a las que se asignan los alumnos.
+
+   Opción ![Equipos en el panel de navegación izquierdo](assets/Group-Team-submission-and-rubric-based-assessments-image17.png "Página de administración de equipos")
+
+1. Para encontrar un curso, búsquelo u ordene la lista por la fecha de la última actualización.
+
+1. Seleccione la instancia del curso. La página Instancia muestra los alumnos no asignados y los equipos.
+
+### Crear equipos con una regla
+
+1. En la página Instancia, seleccione los alumnos no asignados que se van a dividir en equipos.
+
+1. Elija una regla. Seleccione **Acción** > **Formar un solo equipo** o **Formar varios equipos**.
+
+   ![Menú Acción con reglas de formación de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image18.png "Menú Acción")
+
+1. Si selecciona **Formar varios equipos**, indique el número de alumnos de cada equipo. El valor debe ser 1 o superior. La página muestra cuántos equipos se crearán. Por ejemplo, con 94 alumnos y 2 alumnos por equipo, se crean 47 equipos. Si el número es mayor que el número de alumnos inscritos, aparece un mensaje de error. Introduce un número más pequeño.
+
+   ![Número de alumnos por equipo y número resultante de equipos](assets/Group-Team-submission-and-rubric-based-assessments-image19.png "Alumnos por equipo")
+
+   Si introduce un valor mayor que el número de alumnos inscritos, aparecerá un mensaje de error.
+
+   ![Mensaje de error para un valor mayor que el número de alumnos inscritos](assets/Group-Team-submission-and-rubric-based-assessments-image20.png "Mensaje de error")
+
+1. Seleccione **Crear equipos**. Los equipos aparecen en la pestaña **Equipos**.
+
+   ![Pestaña Equipos con los equipos creados](assets/Group-Team-submission-and-rubric-based-assessments-image21.png "Equipos creados")
+
+1. Confirme y guarde. Los equipos aparecen en la pestaña **Equipos**.
+
+La regla solo se aplica a los alumnos no asignados que seleccione. Para reagrupar a todos, elimine primero los equipos existentes. Los alumnos vuelven a la lista sin asignar.
+
+![Opción Eliminar para equipos existentes](assets/Group-Team-submission-and-rubric-based-assessments-image22.png "Eliminar equipos")
+
+Después de seleccionar **Eliminar**, aparece el siguiente cuadro de diálogo de confirmación:
+
+![Cuadro de diálogo de confirmación Eliminar equipos](assets/Group-Team-submission-and-rubric-based-assessments-image23.png "Confirmación de eliminación")
+
+Seleccione **Eliminar equipos**. Todos los alumnos vuelven a la lista sin asignar.
+
+### Crea un solo equipo
+
+1. Seleccione los alumnos no asignados que desea incluir en el equipo.
+
+1. Seleccione **Acción** > **Formar un solo equipo**. Se crea un equipo con el número especificado de alumnos.
+
+   ![Formar una sola opción de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "Formar un solo equipo")
+
+1. Salva al equipo. Un equipo necesita al menos un alumno, que puede pertenecer a un solo equipo en la instancia.
+
+1. Repita los pasos para crear equipos uno a uno.
+
+### Añadir alumnos a un equipo existente
+
+1. Seleccione los alumnos no asignados que desea añadir.
+
+1. Elija asignarlos a un equipo existente y, a continuación, seleccione el equipo.
+
+   ![Asignar alumnos no asignados a un equipo existente](assets/Group-Team-submission-and-rubric-based-assessments-image25.png "Asignar a un equipo existente")
+
+1. Confirme su elección. Seleccione **Asignar alumno**.
+
+### Mover o eliminar alumnos
+
+1. Abra la pestaña **Equipos** y, a continuación, expanda un equipo para ver sus miembros.
+
+1. Seleccione los alumnos que desea mover.
+
+   ![Miembros del equipo seleccionados para mover](assets/Group-Team-submission-and-rubric-based-assessments-image26.png "Mover alumnos")
+
+1. Elija moverlos y, a continuación, seleccione el equipo de destino.
+
+1. Para eliminar a un alumno de un equipo, seleccione al alumno y elimínelo. El alumno vuelve a la lista sin asignar.
+
+Cuando a un equipo no le quedan alumnos, el equipo se elimina automáticamente.
+
+### Cambiar el nombre de un equipo
+
+1. En la pestaña **Equipos**, selecciona el equipo y luego elige cambiarle el nombre.
+
+1. Seleccione **Acción** > **Cambiar nombre**.
+
+   ![Cambiar nombre de opción en el menú Acción](assets/Group-Team-submission-and-rubric-based-assessments-image27.png "Cambiar nombre de opción")
+
+1. Escriba un nombre único, como Alpha de equipo.
+
+   ![Cuadro de diálogo Cambiar nombre de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image28.png "Cuadro de diálogo Cambiar nombre de equipo")
+
+1. Seleccione **Cambiar nombre del equipo**.
+
+Los nombres no se pueden repetir y no se puede utilizar el formato generado por el sistema, como Team-1.
+
+### Eliminar equipos
+
+1. En la pestaña **Equipos**, selecciona uno o más equipos.
+
+1. Seleccione **Acción** > **Eliminar**.
+
+1. Seleccione **Eliminar equipo**.
+
+   ![Cuadro de diálogo Eliminar confirmación de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image29.png "Eliminar equipo")
+
+1. Confirme. Los alumnos de los equipos eliminados vuelven a la lista sin asignar.
+
+### Gestionar inscripciones tardías y cancelaciones de inscripciones
+
+* Un alumno que se inscribe una vez formados los equipos aparece en la lista sin asignar. Añadir el alumno a un equipo.
+* Si todos los equipos están bloqueados, cree un nuevo equipo para el alumno.
+* Un alumno que se da de baja se elimina automáticamente de su equipo. El equipo continúa y se elimina un equipo vacío.
+
+### Resolución de problemas
+
+**No puede seleccionar un equipo ni mover a sus miembros.** Un equipo se bloquea después de su primer envío y el bloqueo se aplica a todos los módulos del equipo de la instancia. Para desbloquear el equipo, anule el envío. Ver **Evaluar y cancelar el envío de envíos de equipo**.
+
+**No se puede cambiar el nombre de un equipo.** El nombre ya está en uso o coincide con el formato generado por el sistema. Escriba un nombre diferente.
+
+**Aparece un error al crear equipos.** Un equipo no puede tener más de 100 miembros. Reducir el número de miembros por equipo.
+
+**No se puede abrir Administración de equipos para una instancia.** Es posible que se esté ejecutando la creación automática de equipos. Access regresa cuando finaliza.
+
+**Se rechaza la operación de guardar y se vuelve a cargar la página.** Otro instructor o el trabajo automático guardado cambia primero. Revise los equipos actualizados y luego rehaga el cambio.
+
+**Desapareció un equipo.** Un equipo sin alumnos se elimina automáticamente.
+
+## Evaluar y cancelar el envío de envíos de equipo
+
+Revisar el archivo enviado de un equipo, completar el plan de evaluación, aprobar o rechazar el trabajo, o cancelar el envío para que el equipo pueda volver a enviarlo.
+
+Cuando se evalúa un envío de equipo, el resultado se aplica a todos los miembros del equipo y cada miembro recibe una notificación. Solo los instructores asignados a la instancia pueden evaluar. Los pasos son los mismos para envíos individuales, excepto que los envíos individuales no tienen detalles de equipo. Asegúrate de que los equipos existan primero. Ver **Crear y administrar equipos**.
+
+Los equipos que se formaron automáticamente se pueden editar de la misma manera que los equipos manuales.
+
+### Buscar un envío
+
+1. En la aplicación del instructor, abre el área de envíos y, a continuación, selecciona **Envíos del equipo**. Seleccione **envíos individuales** para módulos de un solo alumno.
+
+1. Para buscar un módulo, busque por nombre de sesión o módulo.
+
+1. Seleccione el nombre del módulo.
+
+   ![Lista de módulos en el área de envíos](assets/Group-Team-submission-and-rubric-based-assessments-image35.png "Lista de módulos")
+
+1. Para reducir la lista, filtre por estado: **Envío pendiente**, **Revisión pendiente**, **Aprobado**, **Rechazado** o **Completado**.
+
+1. Para ver los miembros del equipo, expanda el equipo. Se muestran los nombres y las direcciones de correo electrónico, y el alumno que envió el archivo tiene una etiqueta **Remitente**.
+
+1. Para descargar el archivo enviado, seleccione la opción de descarga para el equipo.
+
+### Evaluar un envío
+
+1. Buscar el equipo con el estado **Revisión pendiente**.
+
+1. Abra el archivo enviado y revise el contenido.
+
+1. Seleccione **Acción** > **Evaluar**.
+
+   ![Opción Evaluar en el menú Acción](assets/Group-Team-submission-and-rubric-based-assessments-image36.png "Opción Evaluar")
+
+1. Completar el plan de evaluación:
+
+   * Responde a todas las preguntas que quieras.
+   * Para preguntas objetivas, seleccione una opción. Con la puntuación basada en criterios, la puntuación se actualiza a medida que se selecciona.
+   * Para preguntas subjetivas, introduzca su respuesta.
+   * Cuando se permitan observaciones, añádanse a la pregunta o a toda la evaluación.
+
+   ![Plan de evaluación con preguntas objetivas y subjetivas](assets/Group-Team-submission-and-rubric-based-assessments-image37.png "Plan de evaluación")
+
+1. Si el módulo requiere la aprobación del revisor, seleccione **Aprobar** o **Rechazar**. Añade un comentario cuando lo rechaces, para que el equipo sepa qué solucionar.
+
+   ![Opciones de aprobación y rechazo](assets/Group-Team-submission-and-rubric-based-assessments-image38.png "Aprobar o rechazar")
+
+1. Si el módulo utiliza la puntuación manual, introduzca la puntuación general.
+
+   ![Campo de puntuación global para la puntuación manual](assets/Group-Team-submission-and-rubric-based-assessments-image39.png "Puntuación general")
+
+   **Opcional**: Escriba una nota privada seleccionando el botón de alternancia **Agregar una nota privada al marcador**. Una nota privada solo está visible para los instructores asignados a la instancia. Los alumnos no pueden verlo, incluso cuando selecciona **Mostrar comentario**.
+
+1. Envíe la evaluación. Seleccione **Enviar**. El estado del envío cambia a **Aprobado**.
+
+   ![Opción Enviar para la evaluación](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "Enviar evaluación")
+
+Otros instructores también pueden evaluar el mismo envío, siempre que no se haya aprobado aún. Una evaluación posterior sustituye a otra anterior hasta que se aprueba el envío.
+
+Si el módulo no requiere la aprobación del revisor, el módulo se completa para todos los miembros del equipo cuando el equipo realiza el envío. Solo aparece la opción Enviar y no podrá editar la puntuación o los comentarios posteriormente.
+
+Después de aprobar o rechazar el envío de un equipo, un alumno puede ver el estado del envío y el resultado de la evaluación.
+
+![Vista del alumno del estado del envío y del resultado de la evaluación](assets/Group-Team-submission-and-rubric-based-assessments-image41.png "Vista del alumno del estado")
+
+Al seleccionar el resultado de la evaluación, se muestran los parámetros de evaluación y los comentarios del instructor.
+
+![Parámetros de evaluación y comentarios en el resultado de la evaluación](assets/Group-Team-submission-and-rubric-based-assessments-image42.png "Resultado de la evaluación")
+
+## Revisar o cambiar una evaluación
+
+1. Buscar un equipo con el estado **Rechazado**.
+
+1. Para abrir la evaluación finalizada, seleccione **Ver evaluación**.
+
+1. Para volver a evaluar, seleccione la opción Volver a evaluar y envíe los cambios. Puede hacer esto solo para envíos rechazados. **No se pueden cambiar los envíos aprobados**.
+
+### Cancelar el envío
+
+Anule el envío de un envío cuando el equipo necesite enviarlo de nuevo, cuando la evaluación deba comenzar de nuevo o cuando necesite cambiar un equipo bloqueado. En el caso de un envío individual, también puede utilizar esta opción para corregir una evaluación introducida para el alumno incorrecto.
+
+1. Busque un equipo o alumno que tenga un envío.
+
+1. Seleccione **Anular envío**.
+
+   ![Opción de no envío para un envío](assets/Group-Team-submission-and-rubric-based-assessments-image43.png "Opción de no envío")
+
+1. Escriba sus comentarios y, a continuación, seleccione **No enviar envío**.
+
+   ![Anular envío: cuadro de diálogo con un campo de comentarios](assets/Group-Team-submission-and-rubric-based-assessments-image44.png "Anular envío: cuadro de diálogo")
+
+Se quitará el envío y el estado volverá a **Envío pendiente**. El equipo se desbloquea para que pueda editar sus miembros. Los miembros del equipo reciben una notificación y un correo electrónico. Cualquier miembro puede volver a enviarlo y el nuevo archivo reemplaza al anterior. La nueva evaluación reemplaza a la anterior y no se conserva ningún historial.
+
+No se puede cancelar el envío una vez completado el curso para un miembro del equipo, ya que la finalización no se puede revertir.
