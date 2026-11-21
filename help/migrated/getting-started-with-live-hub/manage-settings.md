@@ -4,9 +4,9 @@ description: Descubre cómo acceden los instructores a la configuración en la s
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ En una sesión de Live Hub, los instructores pueden controlar los permisos de lo
 
    1. **Grabando**: Elija lo que se captura en la grabación, incluidas las fuentes de vídeo de los participantes, las encuestas y la transcripción del chat.
 
+   1. **Subtítulos**: Seleccione el idioma en el que se generarán los subtítulos durante la sesión.
+
    1. **IA**: Activa o desactiva los asistentes de inteligencia artificial de la sesión, incluido el asistente de preguntas y respuestas, el asistente de encuesta, el agente de supervisión de grupo de trabajo y la generación de temas de grabación.
 
-   1. **Privacidad**: Mostrar u ocultar los participantes inscritos que aún no se han unido a la sesión.
+   1. **Privacidad**: Mostrar u ocultar los participantes inscritos que aún no se han unido a la sesión.Seleccione la pestaña correspondiente en el panel izquierdo:
 
 1. Cambie los ajustes necesarios.
 
@@ -94,6 +96,12 @@ Las siguientes opciones de configuración le ayudan a administrar la sesión med
 <td>Agrega la transcripción del chat a la grabación.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Subtítulos</strong></p>
+<p><strong>Predeterminado</strong>: Inglés</p></td>
+<td>Los subtítulos muestran el idioma</td>
+<td>Define el idioma en el que se generan los subtítulos para todos los participantes. Los subtítulos no se traducen, por lo que el idioma seleccionado debe coincidir con el idioma que hable el instructor.</td>
+</tr>
 <td rowspan="4"><p><strong>IA</strong></p>
 <p><strong>Predeterminado</strong>: Todos los asistentes de inteligencia artificial se habilitan si los administradores los han habilitado.</p></td>
 <td>Habilitar el asistente de preguntas y respuestas y la generación de respuestas</td>

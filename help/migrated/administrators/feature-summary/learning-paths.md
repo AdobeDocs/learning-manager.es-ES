@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # Rutas de aprendizaje
 
@@ -78,9 +78,9 @@ Si elige Ordenado, los cursos aparecen en la misma secuencia en que se crearon. 
 
 Para añadir un curso en la ruta de aprendizaje, haga clic en **[!UICONTROL Añadir cursos o rutas de aprendizaje]**.
 
-En el cuadro de diálogo que aparece, seleccione la formación que desea añadir a la ruta de aprendizaje.
+En la ventana que aparece, seleccione el curso de formación que desea añadir a la ruta de aprendizaje. Cada entrada muestra el nombre, el tipo (curso o ruta de aprendizaje), el estado de la publicación y el formato del curso, como el ritmo personalizado, virtual, de clase o mixto.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Agregar formación a la ruta de aprendizaje*
 

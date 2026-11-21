@@ -6,9 +6,9 @@ exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0723ac982ace844ac74b1b9ffbaa66b6520231f7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1351'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,41 @@ ht-degree: 0%
 La tarjeta de informe de Virtual Coach muestra cómo se desempeñó en un juego de roles, incluidos los temas que trató, cómo se comunicó y las áreas específicas que debe mejorar antes de su próximo intento.
 
 Cada sesión completada genera automáticamente un informe. Accede a ella inmediatamente después de una sesión seleccionando **Ver análisis** o vuelve a ella en cualquier momento desde el historial de la sesión en **Mis aprendizajes**. También puede descargar el informe como PDF para conservarlo en sus propios registros o compartirlo con un responsable.
+
+## Descargar el análisis de la sesión de Virtual Coach
+
+Descargue el análisis de la sesión de Virtual Coach como PDF firmado en Adobe Learning Manager y compártalo con su responsable o instructor.
+
+Después de finalizar una sesión de Virtual Coach, Adobe Learning Manager genera un análisis de su rendimiento. Puede volver a verlo después de cerrar el reproductor, volver a realizar la sesión y descargar el análisis como un PDF firmado.
+
+1. Abra el curso o la ayuda de trabajo que contiene la sesión de Virtual Coach.
+
+1. Seleccione **Análisis de sesión**.
+
+   ![Opción de análisis de sesión para una sesión de Virtual Coach](assets/vc-enhancements-image1.png "Análisis de sesión")
+
+1. Revisa tu análisis. La generación del análisis puede tardar un momento.
+
+1. Seleccione **Descargar** para guardar el PDF firmado del análisis.
+
+Comparta el PDF con su responsable o instructor como prueba de su rendimiento. El archivo incluye una firma C2PA. Para obtener más información, consulte [Acerca de las firmas de C2PA en los PDF de análisis de sesión](#c2pa-signatures).
+
+### Acerca de las firmas C2PA en PDF de análisis de sesiones {#c2pa-signatures}
+
+La IA genera el análisis de la sesión de Virtual Coach. Para ayudar a otros usuarios a confiar en una copia descargada, Learning Manager firma al PDF con una firma [C2PA](https://c2pa.org/).
+
+C2PA es un estándar abierto del sector para la autenticidad del contenido. Adobe Learning Manager utiliza el mismo servicio de firma de Adobes que otros productos de Adobe.
+
+#### Composición de la firma
+
+La firma es un manifiesto firmado criptográficamente incrustado en el PDF. En él se indica que:
+
+* Adobe Learning Manager generó el análisis
+* El análisis se generó en una fecha específica
+
+#### Por qué es importante la firma
+
+Cuando se comparte el PDF con un responsable o un instructor, la firma proporciona evidencia de que el archivo es auténtico y no se ha editado después de la descarga.
 
 ## Cómo se calcula la puntuación global
 

@@ -7,10 +7,10 @@ exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '3238'
-ht-degree: 63%
+source-wordcount: '3588'
+ht-degree: 57%
 ---
 # Catálogos
 
@@ -26,6 +26,49 @@ En este curso de formación, aprenderá a crear y administrar catálogos.
 
 Si no puedes iniciar el entrenamiento, escribe a <almacademy@adobe.com>.
 
+## Buscar catálogos {#search-catalogs}
+
+La búsqueda de catálogos clasifica los resultados por relevancia. En la parte superior de la lista aparece una coincidencia exacta para el término de búsqueda, seguida de las coincidencias más próximas. Esto le ayuda a encontrar el catálogo que desea sin tener que desplazarse por largas listas de nombres similares.
+
+### Acerca de la búsqueda de catálogos basada en relevancia
+
+La búsqueda por catálogo devuelve resultados en orden descendente de relevancia. Utiliza el mismo tipo de coincidencia de frase y clasificación de búsqueda que ya está disponible en otras experiencias de búsqueda de Adobe Learning Manager para alumnos y administradores.
+
+Antes de diciembre de 2026 de Adobe Learning Manager, los resultados de la búsqueda no se ordenaban por relevancia. Si su cuenta tiene muchos catálogos con nombres similares, como un prefijo compartido seguido de una fecha, un mes o un ID, el catálogo que desea podría aparecer en un lugar más abajo de la lista.
+
+Con búsqueda basada en relevancia:
+
+* Primero aparece una coincidencia exacta para el término de búsqueda.
+* La siguiente coincidencia más cercana aparece en segundo lugar.
+* Los resultados restantes se presentan en orden descendente de relevancia.
+
+### Buscar un catálogo
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+
+1. Seleccione **Catálogos** en el panel de navegación izquierdo.
+
+1. En el cuadro de búsqueda, escriba el nombre del catálogo o parte de él.
+
+Revise los resultados. La coincidencia más cercana aparece en la parte superior de la lista. Seleccione el catálogo requerido de la lista.
+
+### Ejemplo de resultado de búsqueda
+
+Supongamos que su cuenta incluye catálogos con nombres que difieren en unos pocos caracteres. La siguiente tabla muestra cómo se ordenan los resultados al buscar el término 5 de marzo.
+
+| Término de búsqueda | Posición del resultado | Tipo de coincidencia |
+|---|---|---|
+| 5 de marzo | Los primeros | Coincidencia exacta |
+| 5 de marzo seguido de caracteres adicionales, como 25 de marzo | Segundo | Siguiente coincidencia más cercana |
+| Otros catálogos que contienen texto similar | Después de los partidos más cercanos | Menor relevancia |
+
+Si, por el contrario, busca 25 de marzo, el catálogo denominado 25 de marzo aparece en primer lugar, seguido de las coincidencias más próximas.
+
+La búsqueda basada en relevancia es muy útil si su organización administra cientos o miles de catálogos. Te ayuda a:
+
+* Localice un catálogo específico sin necesidad de desplazarse ni de realizar búsquedas manuales.
+* Distingue entre catálogos con patrones de nombres comunes.
+* Obtenga un comportamiento de búsqueda coherente con otras experiencias de búsqueda de Adobe Learning Manager.
 
 ## Crear un catálogo {#createacatalog}
 

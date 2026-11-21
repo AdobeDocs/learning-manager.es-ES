@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Generador de correo electrónico basado en componentes
 description: Crea tu correo electrónico basado en los diferentes componentes disponibles.
 contentowner: mmanuel
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3470'
 ht-degree: 2%
-
 ---
-
 
 ## Generador de correo electrónico basado en componentes
 
@@ -67,7 +65,7 @@ El diseño global define el encabezado, el pie de página y el contenedor estruc
 
 ### Configurar el contenedor de correo electrónico
 
-El contenedor de correo electrónico es el contenedor más externo de todos los correos electrónicos. Su configuración afecta al marco visual que rodea todo el contenido.
+El contenedor de correo electrónico es el contenedor más externo de todos los correos electrónicos. Su configuración afecta al marco visual de todo el contenido.
 
 1. Seleccione **Editar** cerca de **Diseño global de correo electrónico**
 2. Seleccione el contenedor de correo electrónico en el lienzo.
@@ -230,7 +228,30 @@ Configure lo siguiente:
 
 3. Seleccione **Guardar**.
 
-## Agregar y configurar componentes individuales
+## Opciones de formato de Email Builder
+
+Busque las opciones de fuente, color, fila y botón que puede establecer en Adobe Learning Manager Email Builder y cómo se aplican las modificaciones de formato.
+
+Utilice estas opciones para diseñar un correo electrónico completo, filas individuales, contenido dinámico y botones.
+
+### Opciones de formato de correo electrónico
+
+| **Opción** | **Se aplica a** | **Lo que puedes establecer** |
+|----|----|----|
+| Propiedades de correo electrónico | Todo el correo electrónico | Familia de fuentes, tamaño de fuente, color de fondo y estilo de contenedor |
+| Propiedades de nivel de fila | Cada fila, con un estilo independiente | Estilo que resalta las secciones de anuncios, diferencia las áreas de llamada a la acción o enfatiza la información importante |
+| Contenido dinámico | Secciones de contenido dinámico | Formato que hereda del contenedor primario |
+| Botones | Botones de acción | Texto del botón, estilo y aspecto visual |
+
+### Prioridad de formato
+
+El formato establecido en un nivel inferior anula el formato de un nivel superior. Por ejemplo, un cambio en una plantilla de curso anula el valor predeterminado que establece un administrador en la plantilla de cuenta.
+
+| **Nivel** | **Uso típico** | **Modificado por** |
+|----|----|----|
+| Plantilla de cuenta | Fuentes y colores predeterminados para toda la cuenta | Plantillas de cursos e instancias |
+| Plantilla del curso | Cambios específicos de un curso | Plantilla de instancia |
+| Plantilla de instancia | Cambios específicos de la cohorte, específicos de la sesión o regionales | Nada, porque este es el nivel más alto de personalización |
 
 ### Componente de texto
 
@@ -249,7 +270,7 @@ El componente de texto admite la edición completa de texto enriquecido.
    * **Superíndice** y **Subíndice**
    * **Color del texto** y **Color de fondo** (resaltado de texto)
    * **Alineación:** izquierda, central, derecha o justificar
-   * **Interlineado:** multiplicador de altura de línea
+   * **Interlineado:** multiplicador de height de línea
    * **Relleno horizontal y vertical:** espaciado interno dentro del bloque de texto
 5. Para agregar un hipervínculo:
    * Seleccione el texto que desea vincular
@@ -274,7 +295,7 @@ El componente de texto admite la edición completa de texto enriquecido.
    * **Tipo de borde:** Define el estilo del borde de la imagen. Las opciones disponibles son Ninguno, Sólido y Punto.
    * **Color de borde:** Establece el color del borde de la imagen cuando se aplica un estilo de borde.
    * **Radio de vértice:** Controla la redondez de los vértices de la imagen. Los valores más altos crean esquinas más redondeadas.
-   * **Línea de borde:** Ajusta el grosor (ancho) del borde de la imagen.
+   * **Línea de borde:** Ajusta el thickness (ancho) del borde de la imagen.
    * **Espaciado superior:** Agrega espacio encima de la imagen.
    * **Espaciado inferior:** Agrega espacio debajo de la imagen.
    * **Espaciado izquierdo:** Agrega espacio al lado izquierdo de la imagen.
@@ -293,7 +314,7 @@ El componente de texto admite la edición completa de texto enriquecido.
    * **Fuente:** familia de fuentes y tamaño para la etiqueta del botón
    * **Color de texto:** color de etiqueta
    * **Color de fondo:** color de relleno de botón
-   * **Tamaño:** ancho y alto del botón
+   * **Tamaño:** ancho y height del botón
    * **Estilo de vértice:** Redondeado, Cuadrado o Circular
    * **Alineación:** izquierda, central o derecha en la columna
    * **Relleno:** espaciado interno entre el texto de la etiqueta y los bordes del botón
@@ -303,11 +324,11 @@ El componente de texto admite la edición completa de texto enriquecido.
 **Divisor:** agrega una línea horizontal visible entre las secciones de contenido.
 
 1. Arrastre un componente **Divider** a una columna.
-2. Establezca el **estilo de línea** (sólido, discontinuo, punteado), **color**, **ancho** y **alto** (espacio vertical por encima y por debajo de la línea) en el panel de propiedades.
+2. Establece el **estilo de línea** (sólido, discontinuo, punteado), **color**, **ancho** y **Height** (espacio vertical por encima y por debajo de la línea) en el panel de propiedades.
 
    **Espaciador:** agrega espacio vertical invisible entre elementos sin una línea visible.
 
-3. Arrastre un componente **Spacer** y establezca su **Alto** en el panel de propiedades.
+3. Arrastre un componente **Spacer** y establezca su **Height** en el panel de propiedades.
 
 ## Insertar y administrar variables
 

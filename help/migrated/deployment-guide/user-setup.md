@@ -8,10 +8,10 @@ exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 71%
+source-wordcount: '2233'
+ht-degree: 59%
 ---
 # Configurar usuarios en Learning Manager
 
@@ -169,8 +169,6 @@ La adición de usuarios individuales es el tercer método con el que puede añad
    * **[!UICONTROL **&#x200B; DOJ &#x200B;**:]** Especifique la fecha de unión del empleado.
    * **[!UICONTROL **&#x200B; Ubicación**:]**&#x200B;Especifique la ubicación del empleado. Por ejemplo, si su organización se encuentra en varias ubicaciones geográficas, especifique el lugar donde se encuentra el empleado.
 
-
-
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
 1. Haga clic en **[!UICONTROL Añadir]**.
@@ -203,3 +201,61 @@ También puede crear grupos personalizados con una lista seleccionada de usuario
 1. Agregue usuarios al grupo de usuarios personalizado especificando el nombre de usuario o el perfil del usuario en el campo **[!UICONTROL **&#x200B; Agregar usuarios &#x200B;**.]**
 1. Para agregar más usuarios al grupo personalizado, haga clic en **[!UICONTROL **&#x200B; Agregar más usuarios &#x200B;**.]**
 1. Después de agregar todos los usuarios, haga clic en **[!UICONTROL Guardar]**&#x200B;para guardar el grupo de usuarios personalizado.
+
+## Límites de caracteres para nombres de usuario {#character-limit-username}
+
+Adobe Learning Manager admite nombres de usuario más largos, por lo que puede traer usuarios con nombres largos a su cuenta sin recortarlos. Esto resulta especialmente útil cuando migra usuarios desde un sistema externo o automatiza la creación de usuarios.
+
+A partir de la versión de diciembre de 2026, el campo de nombre acepta hasta 255 caracteres. Las versiones anteriores aceptaban un máximo de 63 caracteres.
+
+>[!NOTE]
+>
+>El límite se aplica a todos los usuarios de su cuenta, independientemente de su función. Este cambio no afecta a los usuarios existentes ni a sus nombres.
+
+Puede introducir nombres largos al añadir o editar usuarios de las siguientes maneras:
+
+* Añadir un solo usuario en la interfaz de administración
+* Editar un usuario existente
+* Importar usuarios con un archivo CSV
+* Registro de usuarios mediante el registro automático
+* Agregar usuarios externos
+
+Los nombres largos pueden ser más anchos que el espacio disponible en algunas partes de la interfaz. Para que el diseño sea legible, Adobe Learning Manager acorta nombres largos en áreas compactas, como:
+
+* Celdas de tabla
+* Elementos de la lista desplegable
+* Resultados de la búsqueda
+
+Para ver el nombre completo, pase el puntero sobre el nombre abreviado.
+
+## Añadir un usuario con un nombre largo
+
+Si el nombre de un usuario tiene más de 63 caracteres, ahora puede agregarlo a su cuenta sin abreviar el nombre. El campo de nombre acepta hasta 255 caracteres.
+
+### Agregar un único usuario
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+
+1. En el panel de navegación izquierdo, seleccione **Usuarios**.
+
+1. Seleccione **Agregar** > **Usuario único**.
+
+1. En el campo **Nombre**, escriba el nombre completo. El campo acepta hasta 255 caracteres.
+
+1. Introduzca el resto de los detalles necesarios, como el identificador y la dirección de correo electrónico exclusivos.
+
+1. Seleccione **Guardar**.
+
+El usuario se añade a su cuenta con el nombre completo. En las vistas compactas, el nombre aparece acortado. Pase el ratón sobre el nombre para verlo completo.
+
+## Importar usuarios que tengan nombres largos
+
+Si añade usuarios de forma masiva, puede incluir nombres largos en el archivo CSV. La columna del nombre acepta hasta 255 caracteres.
+
+1. Prepare el archivo CSV de usuario. Asegúrese de que cada nombre tenga 255 caracteres o menos.
+
+1. Inicie sesión en Adobe Learning Manager como administrador.
+
+1. Importe el archivo CSV usando la opción **Cargar un CSV**.
+
+1. Revise los resultados de la importación para confirmar que se han agregado todos los usuarios.

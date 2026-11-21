@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo los instructores habilitan, muestr
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '353'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,26 @@ ht-degree: 0%
 
 Los subtítulos opcionales muestran el contenido hablado como texto en pantalla, lo que facilita el seguimiento de una sesión de Live Hub, por ejemplo, mientras realiza la presentación, responde a preguntas de los participantes o trabaja en un entorno ruidoso. Como instructor, puede administrar sus propios subtítulos opcionales desde la sala **Más acciones** del menú.
 
-En este artículo se explica cómo mostrar, personalizar y ocultar subtítulos opcionales durante una sesión de Live Hub.
+En este artículo se explica cómo seleccionar el idioma de los subtítulos, mostrar los subtítulos opcionales y cambiar su apariencia durante una sesión de Live Hub.
+
+## Seleccione el idioma del subtítulo
+
+Seleccione el idioma utilizado para mostrar los subtítulos durante la sesión. Todos los participantes ven los subtítulos en el idioma seleccionado.
+
+>[!NOTE]
+>
+>Las funciones con tecnología de inteligencia artificial solo están disponibles para los cursos de inglés. Si el idioma del curso está establecido en otro idioma, la pestaña **Subtítulos** indica que las funciones impulsadas por IA no están disponibles.
+
+Para seleccionar el idioma de los subtítulos:
+
+1. Seleccione **Más acciones** en la barra de control.
+1. Seleccione **Configuración**.
+
+   Se abre el cuadro de diálogo Configuración de sala.
+
+1. Seleccione **Subtítulos**.
+1. Seleccione un idioma en el menú desplegable Idioma de visualización de subtítulos .
+1. Seleccione **Listo**.
 
 ## Visualización de subtítulos opcionales
 

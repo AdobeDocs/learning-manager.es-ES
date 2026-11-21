@@ -7,10 +7,10 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
 workflow-type: tm+mt
-source-wordcount: '10239'
-ht-degree: 56%
+source-wordcount: '12332'
+ht-degree: 47%
 ---
 # Crear, modificar y publicar cursos
 
@@ -53,7 +53,7 @@ Para crear un curso, siga los pasos a continuación:
 1. Inicie sesión en Adobe Learning Manager como autor, ya que los autores son los únicos usuarios con derechos para crear cursos. Ahora, en la página de inicio, selecciona **[!UICONTROL Crear cursos]**. Se abre la página Catálogo de cursos y aparece una lista de cursos.
 2. Seleccione **Agregar** en la parte superior derecha. Se abre una página para crear un curso nuevo.
 3. Introduzca un nombre para el curso y una breve descripción. Esta descripción se muestra en la tarjeta del curso. La descripción tendrá 140 caracteres como máximo. Después, proporcione una descripción más detallada del curso, que se mostrará en la página Detalles del curso. La descripción tendrá 1500 caracteres como máximo.
-4. Para que un curso esté disponible en otros idiomas, haga clic en Añadir nuevo idioma en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. Haga clic en **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
+4. Para que tu curso esté disponible en otros idiomas, selecciona **Añadir nuevo idioma** en la esquina superior izquierda de la página. Seleccione el idioma o los idiomas en los que desea que el curso esté disponible. **Seleccionar** **[!UICONTROL Guardar]**. Para obtener más información, consulte [Añadir contenido para diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modificar la configuración del curso**:
 
    a. En la página Configuración del curso, elija una aptitud para el curso. En la lista desplegable Aptitud, elija la aptitud requerida. A continuación, en la lista desplegable Nivel, elija el nivel requerido.
@@ -151,6 +151,124 @@ Después de activar el libro de calificaciones, agregue sus módulos de contenid
 >
 >La escala de puntuación no tiene por qué coincidir en todos los tipos de entrega. Una sesión de clase con una puntuación de 100 y un módulo SCORM con una puntuación de 10 pueden coexistir en el mismo libro de calificaciones. La fórmula normaliza cada contribución automáticamente.
 
+### Añadir un módulo de envío basado en equipo en Adobe Learning Manager
+
+Añade un módulo de envío de archivos basado en el equipo para que un miembro del equipo pueda cargar un archivo para todo el equipo y elegir cómo se revisa y se puntualiza.
+
+Un módulo de envío de archivos basado en el equipo permite a un alumno enviar un archivo en nombre de un equipo. El instructor lo evalúa una vez y el resultado se aplica a todos los miembros del equipo. Debe añadir el módulo antes de publicar el curso.
+
+### Añadir el módulo a un curso
+
+1. Inicie sesión en Adobe Learning Manager como autor.
+
+1. En la aplicación de autor, cree un curso o abra uno no publicado.
+
+1. Añada un nuevo módulo de actividad.
+
+1. Seleccione el tipo de actividad de envío de archivos.
+
+1. Seleccione la opción basada en el equipo. La opción individual es el módulo de envío de archivos anterior para alumnos individuales.
+
+   ![Opción basada en el equipo para el módulo de envío de archivos](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opción basada en el equipo")
+
+1. Seleccione el instructor o instructores.
+
+1. Establezca la duración del módulo.
+
+Un curso puede tener módulos de envío individual y basado en equipo juntos. Todos los módulos basados en equipo de una instancia de curso comparten los mismos equipos.
+
+### Elegir las opciones de revisión y puntuación
+
+1. Abra el módulo de envío de archivos basado en el equipo.
+
+1. Elija si **Se requiere la aprobación del revisor**.
+
+   * Si la activa, un instructor debe aprobar o rechazar cada envío antes de que finalice el módulo.
+   * Si la desactiva, el módulo se completa para todos los miembros del equipo en cuanto el equipo realiza el envío.
+
+1. Elija un método de puntuación:
+
+   * Seleccione la puntuación manual para permitir que el instructor introduzca una puntuación global.
+   * Seleccione la puntuación basada en criterios para calcular la puntuación a partir de los puntos de cada opción del plan de evaluación. Este método requiere un plan de evaluación.
+
+     ![Opciones de revisión y puntuación para el módulo de envío de archivos basado en equipo](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>Después de publicar el curso, no puede quitar el módulo, cambiar su configuración ni utilizar varios tipos de entrega para él.
+
+### Agregar un plan de evaluación a un módulo de envío de archivos
+
+Crea un plan de evaluación para los envíos individuales o de equipo añadiendo preguntas objetivas y subjetivas a un módulo de envío de archivos.
+
+Un plan de evaluación es el conjunto de preguntas que los instructores utilizan para evaluar un envío. Cada módulo tiene un plan de evaluación y no se puede reutilizar en otro módulo. Puede agregar un plan de evaluación a un módulo de envío de archivos individual o a un módulo de envío basado en equipo. Agréguelo antes de publicar el curso.
+
+#### Activar el plan de evaluación
+
+1. Encienda el plan de evaluación.
+
+1. Introduzca una descripción de la evaluación.
+
+1. Elija si los alumnos pueden ver el plan de evaluación antes de enviarlo. Esta opción está desactivada de forma predeterminada. Los alumnos ven la descripción de la evaluación y la descripción de cada criterio. No ven las opciones de respuesta, los puntos ni el grosor.
+
+   ![Configuración del plan de evaluación para un módulo de envío de archivos](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Configuración del plan de evaluación")
+
+#### Agregar parámetros de evaluación al plan de evaluación
+
+Puede añadir hasta 100 parámetros de evaluación. Cada parámetro es objetivo o subjetivo.
+
+1. Seleccione **Definir parámetros**. Introduzca el texto del parámetro en el campo Parámetro/Pregunta.
+
+   ![Definir la opción de parámetros con el campo Parámetro/Pregunta](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Definir parámetros")
+
+1. Seleccione el tipo de parámetro:
+
+   * **Objetivo:** El instructor selecciona entre las opciones de respuesta. Añada las opciones.
+
+     ![Parámetro objetivo con opciones de respuesta](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Parámetro objetivo")
+
+   * **Subjetivo:** El instructor escribe una respuesta descriptiva.
+
+     ![Parámetro subjetivo con respuesta descriptiva](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Parámetro subjetivo")
+
+1. Para un parámetro de objetivo con puntuación basada en criterios, introduzca puntos de número entero para cada opción. Se permiten números negativos. Cada opción necesita un valor de punto.
+
+1. Elija los ajustes de parámetro:
+
+   * **Obligatorio:** El instructor debe responder al parámetro. Los parámetros que no son necesarios muestran una etiqueta opcional al instructor.
+   * **Permitir comentarios del revisor:** El instructor puede agregar comentarios al parámetro. Esta opción sólo aparece para parámetros de objetivo.
+
+1. Para permitir que los instructores añadan un comentario para todo el plan de evaluación, active los comentarios generales.
+
+1. Repita para cada pregunta.
+
+1. Seleccione **Guardar**.
+
+>[!NOTE]
+>
+>Los parámetros subjetivos no tienen puntos.
+
+#### Calcular la puntuación global
+
+Al elegir la puntuación basada en criterios, Adobe Learning Manager calcula la puntuación global a partir de los puntos de las opciones que seleccione el instructor. Sólo cuentan los parámetros de evaluación objetiva. Los parámetros de evaluación subjetiva no contribuyen al puntaje.
+
+* **Sin techo:** La puntuación global es la suma de los puntos de las opciones seleccionadas.
+* **Con un límite máximo:** La puntuación global es la suma de los puntos, dividida por el máximo de puntos posibles, multiplicada por el límite máximo y redondeada a un número entero. El techo puede ser cualquier número entero de 1 a 100. El valor predeterminado es 100.
+
+Como una opción puede tener puntos negativos, el cálculo puede producir un número por debajo de 0. Cuando eso sucede, Adobe Learning Manager establece la puntuación general en 0. La puntuación general nunca está por debajo de 0.
+
+Por ejemplo, supongamos que los puntos máximos posibles son 12 y el límite máximo es 10. Si las opciones seleccionadas suman hasta 6, la puntuación global es 5. Si suman 10, la puntuación general es 8, que es 8,33 redondeado. Si suman hasta -3, el cálculo da un número por debajo de 0, por lo que la puntuación global es 0.
+
+Para elegir entre la puntuación manual y la basada en criterios, siga los pasos de puntuación del módulo Agregar un envío basado en equipos.
+
+#### Agregar parámetros de evaluación para cada configuración regional
+
+Las configuraciones regionales de un módulo siguen las configuraciones regionales del curso. Añada manualmente los parámetros de evaluación para cada configuración regional que utilice el curso. Los instructores ven los parámetros de evaluación en su configuración regional de contenido.
+
+#### Curso de Publish
+
+Publish imparte el curso cuando se haya completado el plan. Las instancias nuevas del curso obtienen el mismo plan. Después de publicar, solo puede editar el texto de los parámetros y las opciones de evaluación. No puede cambiar la configuración, agregar opciones de configuración ni activar o desactivar el plan.
+
 ### Definir la puntuación de aprobado mínima
 
 * En el editor del curso, busque la sección **Criterios para aprobar**.
@@ -194,6 +312,142 @@ Después de configurar todos los ajustes del Libro de calificaciones, publique e
 * Utilice **Máximo** para la configuración de varios intentos cuando los módulos sean evaluaciones que los alumnos deben reintentar. Utilice **Último** cuando desee capturar el nivel de conocimiento actual en lugar de obtener el mejor rendimiento.
 * Compruebe que el indicador **Peso total** muestra exactamente el 100 % antes de guardar.
 
+## Configurar la creación automática de equipos en Adobe Learning Manager
+
+Establece las reglas automáticas de creación de equipos para un curso de forma que Adobe Learning Manager divida a los alumnos inscritos en equipos antes de que comience una instancia.
+
+La creación automática de equipos actúa como reserva cuando los instructores no han creado equipos manualmente. Puede activar la formación automática del equipo en cualquier curso que tenga un módulo de envío de archivos basado en el equipo, incluso aunque la configuración de la cuenta esté desactivada. Si el administrador ha activado la configuración de la cuenta, los nuevos cursos comienzan con la programación de la cuenta y puede ajustarla durante la configuración del curso.
+
+El curso debe incluir un módulo de envío basado en el equipo. Cada instancia necesita una fecha de inicio.
+
+## Definir las reglas del equipo para un curso
+
+1. En la aplicación del autor, abra un curso que tenga un módulo de envío basado en el equipo.
+
+1. Abra la configuración del curso y, a continuación, busque la configuración **Formación automática del equipo para envíos de equipos**. Solo aparece cuando el curso tiene al menos un módulo de envío de archivos basado en el equipo.
+
+1. Seleccione **Habilitar**.
+
+   ![Habilitar opción para la formación automática de equipos en la configuración del curso](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Habilitar la formación automática de equipos")
+
+1. Revise la **programación de formación del equipo**. Si el administrador ha activado la configuración de la cuenta, muestra el número de días que ha establecido. Los equipos se crean muchos días antes de la fecha de inicio de la instancia.
+
+1. Opcional: Para cambiar el número de días de este curso, selecciona **Editar**, selecciona **Sí** en la advertencia y, a continuación, introduce un nuevo número.
+
+   ![Advertencia mostrada al editar la programación de formación de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Advertencia de edición")
+
+1. Cambie el valor por otro diferente.
+
+   ![Campo de valor de programación de formación de equipo](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Valor de programación de formación de equipo")
+
+1. Revise la **programación de formación del equipo**. Empieza por el valor de la cuenta. Para utilizar un plazo diferente, introduzca un nuevo número de días.
+
+1. Elige cómo formar equipos. Introduzca 1 o superior. Un equipo puede tener hasta 100 miembros.
+
+   * Seleccione **Miembros por equipo** e introduzca el número de alumnos por equipo.
+
+     ![Opción Miembros por equipo](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Miembros por equipo")
+
+   * Seleccione **Número de equipos** e introduzca el número total de equipos.
+
+     ![Opción Número de equipos](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Número de equipos")
+
+1. Guarde los cambios y publique el curso.
+
+>[!WARNING]
+>
+>Después de publicar, no se puede activar o desactivar la formación automática del equipo para el curso ni cambiar el tiempo de ejecución. Todavía puede cambiar la regla para formar los equipos y su valor.
+
+![Curso publicado con configuración automática de formación de equipos](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Configuración de cursos publicados")
+
+## Establecer la fecha de inicio de la instancia
+
+1. Abra la instancia del curso.
+
+1. Introduce una fecha de inicio y selecciona **Guardar**.
+
+   ![Campo de fecha de inicio de instancia](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Fecha de inicio de instancia")
+
+Los equipos se crean a las 12:00 a.m. del día del plazo, en la zona horaria de la instancia. Por ejemplo, con un plazo de ejecución de 3 días, los equipos se crean a las 12:00 a. m. tres días antes de la fecha de inicio. La fecha de inicio solo establece este tiempo. No bloquea la inscripción.
+
+## Cambiar las reglas del equipo después de publicar
+
+Puede cambiar la regla, **Miembros por equipo** o **Número de equipos** en cualquier momento. El cambio se aplica a todas las instancias, pero solo se hace efectivo cuando los equipos aún no se han creado. Los equipos que ya existen nunca se reagrupan.
+
+## Uso de cursos basados en equipo en rutas de aprendizaje
+
+Los equipos pertenecen a la instancia del curso. Si añade un curso basado en el equipo a una ruta de aprendizaje, establezca el plazo y la fecha de inicio en la instancia del curso, no en la ruta de aprendizaje. Para ver cómo se dividen los alumnos, consulte Límites y configuración del equipo.
+
+## Resolución de problemas
+
+**No se crearon equipos para una instancia.** Compruebe que la instancia tiene una fecha de inicio. La creación automática no se ejecuta sin una. Compruebe también que la formación de equipo automática está activada para el curso. No se han creado equipos para una instancia que comience pronto.
+
+**No se encuentra la configuración de nivel de curso.** La configuración solo aparece cuando el curso tiene al menos un módulo basado en equipo. Agregue uno antes de publicar.
+
+**Cambiaste las reglas, pero los equipos no cambiaron.** Las reglas solo se aplican si no se han creado equipos para la instancia. Para cambiar los equipos existentes, pida al instructor que los edite.
+
+## Configurar la ventana de inscripción y la asignación de licencias para un curso de clase
+
+Puede definir cuándo pueden inscribirse diferentes grupos de alumnos, asignar un número específico de puestos a los grupos de usuarios seleccionados y promocionar automáticamente a los alumnos que cumplan los requisitos de la lista de espera cuando haya puestos disponibles.
+
+Los autores pueden asignar licencias a grupos de usuarios solo después de que un administrador habilite la opción **Inscripción de grupos**. Consulte el artículo Configuración general para obtener más información.
+
+Para configurar la asignación de licencias para grupos de usuarios:
+
+1. Inicie sesión en Adobe Learning Manager como autor.
+1. Seleccione **Cursos** en la barra de navegación izquierda.
+1. Cree un curso de **clase**. Consulte los módulos del curso para obtener más información.
+1. Configure las siguientes opciones:
+
+   | Configuración | Descripción |
+   |---|---|
+   | **Límite de asientos** | Muestra el límite de puestos más bajo configurado en los módulos Clase o Clase virtual. Este campo es de solo lectura. Para asignar puestos a grupos de usuarios, primero establezca un límite de puestos en el módulo Clase o Clase virtual. |
+   | **Fecha de inscripción abierta** | Seleccione la fecha en la que todos, incluidos los grupos de usuarios seleccionados, pueden inscribirse. |
+   | **Asignar puestos por grupo de usuarios** | Active esta opción para reservar puestos para grupos de usuarios específicos.<p>**Nota:**<ul><li>Reserve el 100 % de los puestos disponibles para grupos de usuarios específicos para garantizar que solo los alumnos de esos grupos puedan inscribirse en el curso.</li><li>Esta opción no se puede activar ni desactivar una vez publicado el curso.</li></ul> |
+   | **Puestos no asignados** | Muestra el número de puestos que permanecen disponibles para los alumnos fuera de los grupos de usuarios seleccionados. |
+   | **Fecha de inscripción abierta para grupos** | Seleccione la fecha a partir de la cual los miembros de los grupos de usuarios seleccionados pueden comenzar a inscribirse. |
+
+
+1. Seleccione **Agregar asignación de grupo** y configure lo siguiente:
+
+   1. **Grupo de usuarios**: Seleccione el grupo de usuarios para el que desea reservar puestos.
+   1. **Asientos asignados**: Introduzca el número de puestos que desea reservar para el grupo de usuarios seleccionado.
+
+   ![Configuración de asignación de puestos y autorización automática de listas de espera en un curso de clase](assets/seat-allocation-and-waitlist-clearance-settings.png "Configuración de asignación de puestos y autorización automática de listas de espera en un curso de clase")
+
+1. Seleccione **Guardar**.
+
+### Administrar asignaciones de grupos de usuarios
+
+Después de añadir un grupo de usuarios, el grupo y sus puestos asignados aparecen en la lista de asignación. Utilice las acciones disponibles para modificar la asignación.
+
+![Lista de asignación de grupos de usuarios con acciones de edición y eliminación](assets/user-group-allocation-list.png "Lista de asignación de grupos de usuarios con acciones de edición y eliminación")
+
+| **Acción** | **Descripción** |
+|---|---|
+| **Editar** | Modifique el número de puestos asignados al grupo de usuarios. |
+| **Eliminar** | Eliminar la asignación de licencias para el grupo de usuarios. |
+
+>[!NOTE]
+>
+>El número total de puestos asignados entre los grupos de usuarios no puede exceder el límite de puestos.
+
+### Configurar el despacho automático de la lista de espera
+
+Cuando un administrador habilita la inscripción en grupo, el despacho automático de la lista de espera promueve al siguiente alumno en lista de espera elegible cuando se abre una licencia. Esta opción está activada de forma predeterminada.
+
+Para configurar el despacho automático de la lista de espera:
+
+1. Habilite **Permitir el despacho automático de la lista de espera** en la página **Introducción al curso**.
+1. (Opcional) Seleccione una fecha en el selector **Cortar promoción automática**.
+1. Seleccione **Guardar**.
+La promoción automática se detiene después del corte.
+
+>[!NOTE]
+>
+>* Si también asigna puestos por grupo de usuarios, sólo los miembros de un grupo se promoverán a los puestos de ese grupo.
+>* La fecha de **corte de promoción automática** se aplica a las listas de espera de grupos de usuarios y abiertas. Las promociones automáticas se detienen para ambas listas de espera después de esta fecha.
+
 ## Añadir etiquetas de cumplimiento al curso/ruta de aprendizaje/certificación {#add-custom-compliance-label}
 
 Para añadir etiquetas de cumplimiento a los cursos, siga estos pasos:
@@ -233,8 +487,10 @@ Para crear una instancia, haga lo siguiente:
    * En el campo **[!UICONTROL Nombre de instancia]**, escriba el nombre de la instancia que desea asociar al curso. Asigne un nombre exclusivo a la instancia.
    * **Fecha de inicio:** Esta es la fecha de inicio del curso. Se pueden enviar dos correos electrónicos de recordatorio al alumno antes de esta fecha de inicio en dos fechas seleccionadas diferentes. La fecha de inicio debe ser una fecha anterior a la fecha de finalización. Una vez que seleccione la fecha de inicio, esta fecha se resaltará en azul en el calendario de la sección **Alertas de notificación** de la instancia.
      ![](assets/start-date-instance.png)
-     ![](assets/start-date-highlighted-instance.png)
    * Especifique la fecha límite de finalización de la instancia. Los alumnos deben lograr el estado de finalización del curso en esta fecha.
+     ![](assets/start-date-highlighted-instance.png)
+   * **Fecha de inscripción abierta** (opcional): La fecha a partir de la cual los alumnos pueden inscribirse. Si los puestos se asignan a grupos de usuarios, esta fecha se aplica a los alumnos que no pertenecen a esos grupos.
+   * **Corte de promoción automática** (opcional): Después de esta fecha, la promoción automática de la lista de espera se detiene para la instancia. Este campo aparece cuando se activa el despacho automático de la lista de espera.
    * Seleccione **[!UICONTROL Mostrar más opciones]** para mostrar otras opciones de fecha límite.
    * **[!UICONTROL Plazo de inscripción]:** Esta es la fecha en la que se espera que un alumno se inscriba en un objeto de aprendizaje en caso de inscripción automática.
    * **[!UICONTROL Fecha límite de cancelación de inscripción]:** Puede optar por restringir que el propio alumno cancele la inscripción estableciendo una fecha límite de cancelación de inscripción.

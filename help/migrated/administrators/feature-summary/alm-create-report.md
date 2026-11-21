@@ -6,10 +6,10 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6c26277dfbd20374e57273f8371b360ee770a0df
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 1%
 ---
 
 # Crear un informe personalizado en Report Builder
@@ -46,7 +46,24 @@ En este ejemplo, identificará a los alumnos de cada responsable que están en r
    ![](assets/report-builder-0014.png)
 
 7. Reorganice las columnas arrastrándolas en el lienzo.
-8. Para cambiar el nombre de una columna, introduzca un nombre en el campo de alias de la columna. El alias aparece como encabezado de columna en el archivo descargado.
+8. Para cambiar el nombre de una columna, escriba un nombre en el campo **Alias** de la columna. Si especifica un alias, éste se utiliza como encabezado de columna. Si no especifica un alias, el encabezado de columna predeterminado incluye el nombre del conjunto de datos. Por ejemplo, Nombre del conjunto de datos de objeto de aprendizaje aparece como Objeto de aprendizaje - Nombre.
+
+   **Encabezados de columna**
+
+   Report Builder incluye el nombre del conjunto de datos en los encabezados de columna predeterminados para ayudar a distinguir columnas con nombres similares en los conjuntos de datos. Por ejemplo, si selecciona Nombre en el conjunto de datos del objeto de aprendizaje, el encabezado de columna aparece como Objeto de aprendizaje - Nombre.
+
+   Si especifica un alias personalizado para una columna, Report Builder utiliza el alias en lugar del encabezado de columna predeterminado.
+
+   **Impacto en los informes existentes**
+
+   Después de la actualización, los informes existentes que utilizan nombres de columna predeterminados sin alias personalizados muestran los encabezados de columna actualizados. Por ejemplo, Nombre del conjunto de datos del objeto de aprendizaje cambia de Nombre a Objeto de aprendizaje - Nombre.
+
+   Los datos, filtros y programaciones de informes no se ven afectados.
+
+   Si utiliza la salida del informe en scripts, hojas de cálculo, paneles de BI o integraciones que hacen referencia a columnas por encabezado, compruebe los sistemas descendentes y actualice las referencias a los encabezados de columna anteriores según sea necesario.
+
+   Para conservar un encabezado de columna específico, establezca un alias personalizado para la columna.
+
 9. Seleccione **Guardar informe**.
 
 ## Descargar el informe
@@ -106,6 +123,10 @@ Agrupar los registros por responsable en:
 4. Seleccione **Count** como una función de agregado para las columnas.
 
    ![](assets/report-builder-0019.png)
+
+   **Encabezados de columna para columnas agregadas:**
+
+   Cuando se aplica una función de agregado, el encabezado de columna predeterminado incluye la función de agregado. Por ejemplo, al aplicar **Count** a **Learning Object - ID**, el encabezado de columna aparece como **Count** de **Learning Object - ID**. Si ha especificado un alias personalizado, el alias permanece sin cambios.
 
 5. Repetir para objeto de aprendizaje - Nombre de objeto de aprendizaje.
 

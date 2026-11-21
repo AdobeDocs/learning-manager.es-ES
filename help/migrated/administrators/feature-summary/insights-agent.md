@@ -5,10 +5,10 @@ title: Insights Agent (beta) en Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
 workflow-type: tm+mt
-source-wordcount: '2929'
-ht-degree: 1%
+source-wordcount: '4257'
+ht-degree: 0%
 ---
 
 # ¿Qué es Insights Agent?
@@ -21,9 +21,9 @@ Insights Agent está diseñado para reducir los pasos entre tener una pregunta d
 
 Puede utilizar Insights Agent para:
 
-- Comprobar las métricas de finalización y cumplimiento normativo por región, departamento o grupo de usuarios
-- Analizar tendencias de inscripción en cursos o rutas de aprendizaje
-- Ver datos de progreso de un curso o ruta de aprendizaje específicos
+* Comprobar las métricas de finalización y cumplimiento normativo por región, departamento o grupo de usuarios
+* Analizar tendencias de inscripción en cursos o rutas de aprendizaje
+* Ver datos de progreso de un curso o ruta de aprendizaje específicos
 
 Cada consulta devuelve una tabla con formato o un archivo CSV descargable, junto con una explicación en lenguaje sencillo de cómo se calcularon los resultados.
 
@@ -31,9 +31,9 @@ Cada consulta devuelve una tabla con formato o un archivo CSV descargable, junto
 
 Los siguientes tipos de datos están fuera del ámbito de Insights Agent actualmente:
 
-- Comentarios y datos de la encuesta
-- Puntos e insignias de interacción
-- Historial de auditoría y registros de cambios
+* Comentarios y datos de la encuesta
+* Puntos e insignias de interacción
+* Historial de auditoría y registros de cambios
 
 Las consultas que hacen referencia a estos tipos de datos no devuelven resultados. Por ejemplo, &quot;¿Cuántos puntos de interacción se otorgaron el último trimestre?&quot; o &quot;¿Qué alumnos han obtenido una insignia de cumplimiento?&quot; devolverá un error o datos incompletos.
 
@@ -298,3 +298,127 @@ Utilícelos como puntos de partida. Adaptarlos reemplazando los nombres de conte
 **No se admiten las consultas enviadas en scripts no latinos**
 
 Insights Agent admite consultas escritas en inglés y en idiomas con alfabeto latino, como el francés y el español. Las consultas enviadas con scripts que no son latinos, como japonés, chino, árabe, coreano, hindi y ruso no se procesan. El agente mostrará un mensaje que indica que la consulta no se ha podido completar. Si envía una consulta en uno de estos idiomas, inicie una nueva consulta y vuelva a formularla en inglés.
+
+## Crear un informe a partir de una respuesta de Insights Agent
+
+En Adobe Learning Manager, puede hacer una pregunta a Insights Agent en un lenguaje sencillo y abrir la respuesta como un informe en Report Builder. A continuación, puede editar el informe y reutilizarlo, para que no tenga que volver a generarlo desde cero.
+
+## Qué es la integración de Insights Agent con Report Builder
+
+Insights Agent y Report Builder son dos formas de llegar a los mismos datos en Adobe Learning Manager. Ambos se ejecutan en la misma plataforma de datos.
+
+* **Insights Agent** te permite hacer preguntas en lenguaje natural.
+* **Report Builder** te permite crear un informe seleccionando conjuntos de datos, columnas, agregaciones y filtros. También puede utilizarlo para crear informes periódicos, suscribirse a informes y editar informes existentes.
+
+La integración conecta ambas cosas. Empieza con una pregunta, revisa la respuesta y ábrela en Report Builder. Allí puede modificar el informe y seguir trabajando con él como lo haría con cualquier otro informe. Actualmente, esta integración está disponible para los administradores.
+
+No todas las respuestas de Insights Agent pueden convertirse en un informe. Insights Agent abre una respuesta en Report Builder solo cuando el informe mantiene la intención de la respuesta del agente y su pregunta.
+
+## Cómo funciona la integración
+
+Cuando se hace una pregunta, Insights Agent genera una consulta de datos y recupera el resultado correspondiente. Si la consulta se puede convertir en construcciones de Report Builder, Adobe Learning Manager crea un borrador de informe de Report Builder basado en la consulta generada.
+
+Insights Agent:
+
+1. Genera una consulta a partir de la pregunta.
+1. Asigna la consulta generada a conjuntos de datos y campos de Report Builder.
+1. Crea un borrador de informe.
+1. Valida el informe comparándolo con la respuesta del agente y la pregunta original.
+1. Abre el informe en Report Builder para su revisión.
+
+## Crear un informe a partir de una respuesta de Insights Agent
+
+1. Inicie **Insights Agent**.
+
+1. Escriba su pregunta en un lenguaje sencillo. Espera la respuesta. Insights Agent prepara el informe en segundo plano, para que la conversación continúe sin interrupciones.
+
+   Respuesta de ![Insights Agent a una pregunta](assets/Insights-Agent-Integration-with-Report-Builder-image1.png "Respuesta de Insights Agent")
+
+1. Revise la respuesta generada después de que Insights Agents elimine la ambigüedad o proporcione un enfoque sobre cómo generó la respuesta.
+
+1. Seleccione **Editar en Report Builder**.
+
+   ![Opción Editar en Report Builder](assets/Insights-Agent-Integration-with-Report-Builder-image2.png "Editar en Report Builder")
+
+   Report Builder abre el informe generado junto con las columnas y aplica automáticamente funciones de agrupación o agregación, si es necesario. El nombre y la descripción del informe también se generan automáticamente.
+
+   >[!NOTE]
+   >
+   >La opción **Editar en Report Builder** también aparece cuando Insights Agent no encuentra datos para su pregunta. Puede crear el informe y modificarlo más adelante. Los datos pueden aparecer después de crear el informe, por lo que el informe permanece vacío hasta que existen datos coincidentes.
+
+   ![Informe generado abierto en el Report Builder](assets/Insights-Agent-Integration-with-Report-Builder-image3.png "Informe generado")
+
+1. Revise el informe generado. El Report Builder asigna los campos de la respuesta a sus propios campos, por ejemplo, el nombre y la descripción del curso. Si Insights Agent no pudo convertir parte de su pregunta, el informe muestra esos elementos como brechas junto al informe.
+
+1. Edite el informe si es necesario. Por ejemplo, agregar o cambiar columnas, agregaciones o filtros.
+
+1. Guarde el informe. Seleccione **Guardar informe**.
+
+El informe se abre en Report Builder con los campos convertidos y los datos coincidentes. Ahora puede editarlo y administrarlo como cualquier otro informe.
+
+## Editar el informe generado
+
+Después de abrir el informe en Report Builder, puede:
+
+* Agregar o quitar columnas.
+* Actualizar filtros.
+* Modificar agregaciones.
+* Cambiar la ordenación.
+* Guarde el informe.
+* Comparte el informe.
+* Añade visualizaciones.
+* Crea paneles.
+
+## Cómo Insights Agent convierte una respuesta en un informe
+
+Insights Agent y Report Builder se diseñan de forma diferente. Por lo tanto, una respuesta de Insights Agent puede incluir datos que el Report Builder no puede representar completamente. Para manejar esto, Insights Agent convierte cada respuesta por etapas.
+
+| Fase | ¿Qué sucede? |
+|---|---|
+| Consulta | Insights Agent resuelve la consulta que responde a tu pregunta. Report Builder comienza desde la misma consulta al mismo tiempo, por lo que la conversación nunca se bloquea. |
+| Asignación de campos | La consulta se asigna a conjuntos de datos y campos de Report Builder. A partir de esa asignación se genera un informe de trabajo. |
+| Borrador AI | AI redacta el informe y lo verifica. |
+| Revisar | El informe se compara con la consulta elaborada y la pregunta original. La validación se ejecuta al mismo tiempo. |
+| Corrección | Si la validación encuentra errores, se corrigen automáticamente. |
+| Lista de huecos | Cualquier parte de la pregunta que los campos de Report Builder no puedan expresar se enumera junto al informe. |
+
+## Cómo decide Insights Agent si una respuesta se puede abrir en Report Builder
+
+Insights Agent sigue dos reglas: preserva la intención de la respuesta del agente y tu pregunta, y sé abierto sobre lo que no pudo convertir.
+
+* **Conservar intención.** Insights Agent le permite abrir una respuesta en Report Builder solo cuando el informe sigue reflejando el núcleo de la respuesta de Insights Agent. Si la conversión pierde esa intención, no podrá pasar a Report Builder.
+* **Revelar brechas.** Si parte de tu pregunta no se puede expresar en el Report Builder, Insights Agent no la abandona en silencio. Se trata de enumerar las partes más destacadas como lagunas al lado del informe. Si algo parece arriesgado, el informe permanece disponible para que pueda revisarlo usted mismo.
+
+Insights Agent decide si un campo o cálculo que falta es central para su pregunta, en función de su intención.
+
+>[!NOTE]
+>
+>Insights Agent comprueba la conversión principalmente en función de su propia respuesta y solo de forma secundaria en función de su pregunta. Si la respuesta no responde completamente a la pregunta, puede convertirla en un informe en Report Builder. Revisa el informe antes de confiar en él.
+
+| Situación | Resultado |
+|---|---|
+| El Report Builder tiene campos para cada parte de la respuesta del agente de Insights | El informe se crea y está listo para revisarse. |
+| Parte de la respuesta de Insights Agent no se puede expresar en Report Builder | La pieza se muestra como un hueco. El informe sigue estando disponible para su examen. |
+| Un campo de la respuesta no está disponible en el Report Builder y el campo es menor que la respuesta | Puede abrir el informe en Report Builder. El campo se muestra como un espacio. |
+| Un campo de la respuesta no está disponible en el Report Builder y el campo es central para la respuesta | No se puede abrir la respuesta en Report Builder. Por ejemplo, nombre o ID de aptitud. |
+| La respuesta utiliza un campo calculado que el Report Builder no admite. El cálculo puede ser de dos tipos: un cálculo complejo que crea un nuevo campo o un cálculo de agregación creado a partir de campos de Report Builder existentes. El primer tipo no se puede convertir, pero el segundo sí. | El cálculo se muestra como un hueco. Si es central para la respuesta, no puede abrir la respuesta en el Report Builder. |
+| La respuesta es compleja, por ejemplo, con varias consultas combinadas | El informe convertido puede ser menos preciso. Si sigue reflejando la intención de la respuesta, se abre para que pueda verificarla. |
+| Insights Agent no encuentra datos para su pregunta | La opción **Editar en Report Builder** sigue apareciendo. Puede crear el informe y modificarlo más adelante. El informe muestra los datos cuando están disponibles los datos coincidentes. |
+
+## Solucionar problemas de conversión de informes
+
+| Problema | Solución |
+|---|---|
+| No se puede abrir la respuesta en Report Builder. | Un campo o cálculo central para la pregunta no está disponible en Report Builder. Reformule su pregunta sin ese campo o cálculo, y pregunte de nuevo. |
+| El informe tiene menos columnas que la respuesta. | Compruebe las brechas enumeradas junto al informe. No se han podido convertir los artículos que aparecen en la lista. |
+| El informe no coincide con lo que esperaba de una pregunta compleja. | Revise el informe en relación con la pregunta original. Divide la pregunta en preguntas más pequeñas y convierte cada respuesta por separado. |
+| Insights Agent dice que no encontró datos, pero **Editar en Report Builder** sigue disponible. | Esto es de esperar. Puede crear el informe de todas formas, modificarlo en Report Builder y volver a comprobarlo cuando haya nuevos datos disponibles. |
+| El informe se abre vacío en Report Builder. | Aún no existen datos coincidentes para su pregunta. Modifique el informe o ábralo de nuevo cuando haya nuevos datos disponibles. |
+
+### Vínculos relacionados
+
+* [Crear informes con Report Builder](/help/migrated/administrators/feature-summary/alm-create-report.md)
+* [Crear paneles a partir de informes de Report Builder y visualizar datos de informes con gráficos](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+* [Usar Insights Agent para la creación de informes](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
+* [Compartir y suscribirse a informes](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)
+* Visualizar datos de informes con gráficos

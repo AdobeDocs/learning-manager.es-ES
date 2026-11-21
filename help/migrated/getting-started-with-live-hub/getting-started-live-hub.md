@@ -1,20 +1,20 @@
 ---
-title: Introducción a Live Hub (beta)
+title: Introducción a Live Hub
 description: Descubre cómo Live Hub en Adobe Learning Manager te permite ofrecer sesiones de formación en directo dirigidas por instructores directamente en la plataforma.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 323f8300024f1f30f37895cf822b737aea561bb1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 ---
 
-# Introducción a Live Hub (beta)
+# Introducción a Live Hub
 
 >[!IMPORTANT]
 >
->Las funciones beta pueden contener defectos y se proporcionan &quot;TAL CUAL&quot; sin garantía de ningún tipo. Adobe tiene la única facultad de decidir si desea que las funciones beta estén disponibles de forma general. El Adobe no tiene obligación de mantener, corregir, actualizar, cambiar, modificar o de cualquier otra manera apoyar (a través de los Servicios de Soporte de Adobe o de otra manera) las características beta. Si una función beta pasa a estar disponible de forma general, puede estar sujeta a términos y condiciones adicionales, incluidos los cargos aplicables. Las funciones beta están sujetas a cambios sin previo aviso, incluida la interrupción. Se recomienda a los clientes que actúen con precaución y que no confíen en modo alguno en el funcionamiento o el rendimiento ininterrumpidos o sin errores de las funciones beta. En consecuencia, cualquier uso de las funciones beta es enteramente bajo el propio riesgo del Cliente. Las capacidades del producto y la documentación relacionada pueden cambiar a medida que evoluciona la función. Esta documentación refleja la experiencia beta actual y no debe considerarse una documentación del producto final o completa.
+>Live Hub está en versión beta para clientes de Prime. Las funciones beta pueden contener defectos y se proporcionan &quot;TAL CUAL&quot; sin garantía de ningún tipo. Adobe tiene la única facultad de decidir si desea que las funciones beta estén disponibles de forma general. El Adobe no tiene obligación de mantener, corregir, actualizar, cambiar, modificar o de cualquier otra manera apoyar (a través de los Servicios de Soporte de Adobe o de otra manera) las características beta. Si una función beta pasa a estar disponible de forma general, puede estar sujeta a términos y condiciones adicionales, incluidos los cargos aplicables. Las funciones beta están sujetas a cambios sin previo aviso, incluida la interrupción. Se recomienda a los clientes que actúen con precaución y que no confíen en modo alguno en el funcionamiento o el rendimiento ininterrumpidos o sin errores de las funciones beta. En consecuencia, cualquier uso de las funciones beta es enteramente bajo el propio riesgo del Cliente. Las capacidades del producto y la documentación relacionada pueden cambiar a medida que evoluciona la función. Esta documentación refleja la experiencia beta actual y no debe considerarse una documentación del producto final o completa.
 
 Live Hub en Adobe Learning Manager permite a las organizaciones ofrecer formación en directo dirigida por instructores directamente en la plataforma, lo que elimina la necesidad de herramientas externas para la entrega de sesiones principales.
 
