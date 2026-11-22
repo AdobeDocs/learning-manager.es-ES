@@ -743,25 +743,25 @@ es cierto. False de forma predeterminada.
 
 **Cuerpo de respuesta**
 
-{
+&lbrace;
 
-&quot;links&quot;: {
+&quot;links&quot;: &lbrace;
 
 &quot;yo&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)&quot;,
 
 &quot;siguiente&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)&quot;
 
-},
+&rbrace;,
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:15067_30122_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;completedDeadline&quot;: &quot;2026-02-24T10:50:45.000Z&quot;,
 
@@ -775,73 +775,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:15067&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:15067_30122&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:15067_3012_41715_1_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:1108800_1997400_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;SELF_ENROLL&quot;,
 
@@ -853,73 +853,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:108800&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:1108800_1997400&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:108800_1997400_2174574_0_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2027668_3707328_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -931,73 +931,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2027668&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:202768_3707328&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2027668_3707328_2665897_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2030067_3709862_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1009,73 +1009,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2030067&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2030067_3709862&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2030067_3709862_2668467_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:3081896_574915_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1087,81 +1087,81 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:3081896&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:3081896_5749155&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:3081896_5749155_3737554_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:3081896_5749155_373755_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037893_3717940_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1173,73 +1173,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037893&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037893_3717940&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037893_3717940_3676856_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:3049434_5713130_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;completedDeadline&quot;: &quot;2020-05-05T18:29:59.000Z&quot;,
 
@@ -1253,73 +1253,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:3049434&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:3049434_5713130&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:3049434_5713130_3693595_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2001397_3679403_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1331,73 +1331,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2001397&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2001397_3679403&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2001397_3679403_2635974_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037862_371790_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1409,73 +1409,73 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;PENDING_APPROVAL&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037862&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037862_3717900&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037862_3717900_3676816_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037837_3717863_3400468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;atributos&quot;: {
+&quot;atributos&quot;: &lbrace;
 
 &quot;completedDeadline&quot;: &quot;2020-02-29T18:29:59.000Z&quot;,
 
@@ -1489,69 +1489,69 @@ es cierto. False de forma predeterminada.
 
 &quot;estado&quot;: &quot;OTROS&quot;
 
-},
+&rbrace;,
 
-&quot;relaciones&quot;: {
+&quot;relaciones&quot;: &lbrace;
 
-&quot;alumno&quot;: {
+&quot;alumno&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;3400468&quot;
 
 &quot;tipo&quot;: &quot;usuario&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;learningObject&quot;: {
+&quot;learningObject&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037837&quot;,
 
 &quot;tipo&quot;: &quot;learningObject&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loInstance&quot;: {
+&quot;loInstance&quot;: &lbrace;
 
-&quot;datos&quot;: {
+&quot;datos&quot;: &lbrace;
 
 &quot;id&quot;: &quot;course:2037837_3717863&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectInstance&quot;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-&quot;loResourceGrades&quot;: {
+&quot;loResourceGrades&quot;: &lbrace;
 
-&quot;datos&quot;: \[
+&quot;datos&quot;: \&lbrack;
 
-{
+&lbrace;
 
 &quot;id&quot;: &quot;course:2037837_3717863_3597363_0_340468&quot;,
 
 &quot;tipo&quot;: &quot;learningObjectResourceGrade&quot;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
 ## Fecha del último acceso para la inscripción en la ruta de aprendizaje {#api-last-access-date-lp-enrollment}
 
