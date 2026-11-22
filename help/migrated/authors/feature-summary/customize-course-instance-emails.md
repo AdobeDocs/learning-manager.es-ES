@@ -1,21 +1,19 @@
 ---
-description: Obtenga información sobre cómo los autores personalizan los correos electrónicos de nivel de curso y de instancia en Email Builder con un diseño de administrador, y solucionan problemas comunes
+description: Personalice los correos electrónicos de nivel de curso y de instancia en Adobe Learning Manager con Email Builder y el diseño que le proporcione su administrador.
 jcr-language: en_us
 title: Personalización de correos electrónicos de curso e instancia en Email Builder
 exl-id: 06499e3f-0610-4983-83f2-3e8b578fc8bf
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 172889a4ff67e54c8e7b9a39ef5f393af0a1d703
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 
-## Personalización de correos electrónicos de curso e instancia en Email Builder
-
-Personalice los correos electrónicos de nivel de curso y de instancia en Adobe Learning Manager con Email Builder y el diseño que le proporcione su administrador.
+# Personalización de correos electrónicos de curso e instancia en Email Builder
 
 Como autor, puede personalizar los mensajes de correo electrónico de un curso o de una instancia específica de un curso. Ambos procedimientos parten de un diseño que proporciona el administrador.
 
-### Personalizar un correo electrónico de nivel de curso
+## Personalizar un correo electrónico de nivel de curso
 
 1. Abra el curso.
 2. Seleccione **Plantillas de correo electrónico**.
@@ -24,7 +22,7 @@ Como autor, puede personalizar los mensajes de correo electrónico de un curso o
 5. Guarde la plantilla.
 6. Publish el curso.
 
-### Personalizar un correo electrónico a nivel de instancia
+## Personalizar un correo electrónico a nivel de instancia
 
 Utilice un correo electrónico de instancia cuando diferentes cohortes necesiten mensajes diferentes. Estas cohortes se gestionan mediante instancias de curso.
 
@@ -38,7 +36,7 @@ Utilice un correo electrónico de instancia cuando diferentes cohortes necesiten
 >
 >Cuando ambos existen, los correos electrónicos a nivel de instancia anulan las plantillas a nivel de curso.
 
-### Utilizar la variable Title y una imagen para los encabezados de correo electrónico
+## Utilizar la variable Title y una imagen para los encabezados de correo electrónico
 
 Utilice la variable Title con un componente Image para crear el encabezado del correo electrónico en lugar del componente Banner. La imagen del componente Banner no aparece en algunos clientes de correo electrónico, como Outlook.
 
@@ -50,14 +48,14 @@ Para agregar un encabezado de título:
 2. Agregue un componente de texto e inserte la variable title desde el menú desplegable de variables en el panel de configuración del componente.
 3. Alinee al centro el componente de texto. En el diseño global, colóquelo en el encabezado superior.
 
-Los correos electrónicos individuales utilizan el encabezado del diseño global de forma predeterminada. En un correo electrónico individual, puede editar el componente de texto para:
+   Los correos electrónicos individuales utilizan el encabezado del diseño global de forma predeterminada. En un correo electrónico individual, puede editar el componente de texto para:
 
-1. Reemplace la variable por texto personalizado
-2. Agregue texto antes o después de la variable y mantenga `EmailTitle`
+4. Reemplace la variable por texto personalizado
+5. Agregue texto antes o después de la variable y mantenga `EmailTitle`
 
 Si agrega una imagen al componente Banner, Email Builder muestra una advertencia que indica que la imagen podría no aparecer correctamente en algunos clientes de correo electrónico. La advertencia sugiere utilizar un componente Image y la variable title en su lugar.
 
-### Resolución de problemas
+## Resolución de problemas
 
 **No se puede seleccionar un diseño.**
 La herencia de diseños depende de los diseños principales disponibles. Pida al administrador que cree un diseño de cuenta.
