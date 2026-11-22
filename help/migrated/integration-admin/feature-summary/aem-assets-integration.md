@@ -428,5 +428,5 @@ Confirme que el vínculo de Vista previa pública está activado, que el conteni
 **Vínculos relacionados:**
 
 * [Administrar contenido en la biblioteca de contenido](/help/migrated/authors/feature-summary/content-library.md)
-* [Documentación de Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Documentación de Adobe Admin Console](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/overview)
