@@ -5,9 +5,9 @@ title: Insights Agent (beta) en Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ La sección **Approach** es especialmente útil para consultas complejas. Muestr
 
 Utilice Insights Agent en Adobe Learning Manager para consultar datos de aprendizaje con preguntas en un lenguaje sencillo y obtener resultados como texto, tablas o archivos CSV descargables.
 
-Insights Agent está disponible para los administradores en el panel de asistentes de IA en Learning Manager. El panel es redimensionable. Puede expandirlo para facilitar la lectura de los resultados. De forma predeterminada, el modo **Obtener información** está seleccionado al abrir el panel. También hay disponible un modo de **aprendizaje** independiente para preguntas de instrucciones sobre cómo usar el producto. El modo **Aprender** responde preguntas instructivas sobre cómo usar Learning Manager. Por ejemplo, &quot;¿Cómo puedo crear una ruta de aprendizaje?&quot; No consulta datos de alumnos.
+Insights Agent está disponible para los administradores en el panel de asistentes de IA en Learning Manager. El panel es redimensionable. Puede expandirlo para facilitar la lectura de los resultados. De forma predeterminada, el modo **Obtener información** está seleccionado al abrir el panel. También hay disponible un modo de **aprendizaje** independiente para preguntas de instrucciones sobre cómo usar el producto. El modo **Aprender** responde preguntas instructivas sobre cómo usar Learning Manager. Por ejemplo, &quot;¿Cómo puedo crear una ruta de aprendizaje?&quot; No consulta datos de alumnos. [Más información](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### Haz una pregunta
 
@@ -299,7 +299,7 @@ Utilícelos como puntos de partida. Adaptarlos reemplazando los nombres de conte
 
 Insights Agent admite consultas escritas en inglés y en idiomas con alfabeto latino, como el francés y el español. Las consultas enviadas con scripts que no son latinos, como japonés, chino, árabe, coreano, hindi y ruso no se procesan. El agente mostrará un mensaje que indica que la consulta no se ha podido completar. Si envía una consulta en uno de estos idiomas, inicie una nueva consulta y vuelva a formularla en inglés.
 
-## Crear un informe a partir de una respuesta de Insights Agent
+## Crear un informe a partir de una respuesta de Insights Agent {#create-report-insights-agent}
 
 En Adobe Learning Manager, puede hacer una pregunta a Insights Agent en un lenguaje sencillo y abrir la respuesta como un informe en Report Builder. A continuación, puede editar el informe y reutilizarlo, para que no tenga que volver a generarlo desde cero.
 

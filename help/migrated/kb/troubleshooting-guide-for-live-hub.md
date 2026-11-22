@@ -1,16 +1,16 @@
 ---
-title: Guía de solución de problemas para Live Hub (Beta)
+title: Guía de solución de problemas para Live Hub
 description: Mensajes de error comunes y notificaciones que pueden aparecer durante una sesión de Live Hub, sus causas y los pasos para resolverlas.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 2%
 ---
 
-# Guía de solución de problemas de Live Hub (beta)
+# Guía de solución de problemas de Live Hub
 
 Durante una sesión de Live Hub, los instructores pueden recibir mensajes de error o notificaciones que impidan que determinadas acciones se completen del modo esperado. En este artículo se describen los errores comunes que afectan al instructor, sus posibles causas y los pasos que puede seguir para resolverlos.
 

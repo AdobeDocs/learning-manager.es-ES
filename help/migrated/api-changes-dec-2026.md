@@ -3,7 +3,7 @@ description: Aprenda a utilizar la configuración de suscripción del tablero y 
 jcr-language: en_us
 title: Cambios en la API en noviembre de 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Cambios en la API en diciembre de 2026
 
-## API para notificaciones del instructor del foro de debate
+## API para notificaciones del instructor del foro de debate {#api-discussion-board-instructors}
 
 En este artículo se describen las nuevas API compatibles con las notificaciones del instructor del foro de debate. Utilícelos para suscribir instructores y responsables de cohorte a paneles de debate y para controlar qué actividad aparece en los mensajes de correo electrónico de resumen.
 
@@ -585,7 +585,7 @@ La respuesta no tiene cuerpo.
 | 401 | A la solicitud le faltan credenciales válidas o el acceso se denegó debido a credenciales no válidas. |
 | 404 | No se encontró el recurso solicitado, como el tablero o la suscripción. |
 
-## Ordenación de API de marcadores y gestión de contenido retirado
+## Ordenación de API de marcadores y gestión de contenido retirado {#bookmark-api-ordering-retired-content}
 
 ### Propósito de la API
 
@@ -721,7 +721,7 @@ Un caso de uso común es una lista &quot;Guardados para más tarde&quot; en una 
 3. Elimine cualquier ordenación del lado del cliente o filtrado de contenido retirado que haya agregado como solución alternativa.
 4. Mostrar un recuento de marcadores usando el número de elementos de la respuesta. Los marcadores de objetos de aprendizaje retirados ya no se incluyen.
 
-### Compatibilidad de API con instancias de inscripción múltiple en el widget de cumplimiento del alumno en la aplicación del alumno
+### Compatibilidad de API con instancias de inscripción múltiple en el widget de cumplimiento del alumno en la aplicación del alumno {#api-multienrolled-instances-lc-widget}
 
 La API pública admite este comportamiento a través de un parámetro de consulta opcional en el extremo de inscripciones existente. Si se omite el parámetro, la API devolverá los mismos resultados que antes, por lo que las integraciones existentes, incluidas las implementaciones descentralizadas, seguirán funcionando sin cambios.
 
@@ -1553,7 +1553,7 @@ es cierto. False de forma predeterminada.
 
 &rbrace;
 
-## Fecha del último acceso para la inscripción en la ruta de aprendizaje {#last-access-date-lp-enrollment}
+## Fecha del último acceso para la inscripción en la ruta de aprendizaje {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager le permite almacenar metadatos personalizados, como la fecha del último acceso, en una inscripción de ruta de aprendizaje. Puede definir y leer los metadatos a través de la API. Esto le ayuda a realizar un seguimiento del acceso con plazos determinados a las rutas de aprendizaje que asigne.
 
@@ -1638,7 +1638,7 @@ Los portales externos y las integraciones utilizan las mismas llamadas de API. U
 * **Mostrar el valor en el portal:** Envíe la solicitud de GET para su tipo de token de la tabla anterior y lea el objeto `metadata` de la respuesta.
 * **Actualice el valor desde un sistema externo, como una plataforma comercial:** Envíe la solicitud del PATCH con un token de administrador.
 
-## API de trabajos: Exportar informes del Report Builder con generateCustomReport
+## API de trabajos: Exportar informes del Report Builder con generateCustomReport {#api-job-report-builder-exports}
 
 La versión de diciembre de 2026 de Adobe Learning Manager agrega un nuevo tipo de trabajo, `generateCustomReport`, a la API de trabajos. Utilícelo para exportar cualquier informe que haya creado en Report Builder, de forma automatizada, pasando el ID del informe.
 

@@ -3,9 +3,9 @@ description: Importa contenido e imágenes de aprendizaje de Adobe Experience Ma
 jcr-language: en_us
 title: Integración con AEM Assets
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ Confirme que el vínculo de Vista previa pública está activado, que el conteni
 **Q. ¿Genera ALM un vínculo de vista previa pública?**
 
 **A.** Sí, solo para archivos SCORM 1.2, SCORM 2004 y HTML. Esto solo es posible cuando el administrador de integración activa la función de previsualización pública.
+
+**Vínculos relacionados:**
+
+* [Administrar contenido en la biblioteca de contenido](/help/migrated/authors/feature-summary/content-library.md)
+* [Documentación de Adobe Admin Console](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/overview)
