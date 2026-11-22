@@ -1,9 +1,9 @@
 ---
 title: Crear un curso con el Explorador de exámenes seguro
 description: Cree una prueba con el modo Explorador de exámenes seguro y añádala a un curso como módulo con ritmo personalizado en Adobe Learning Manager para proporcionar un entorno de evaluación restringido.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ Para crear una prueba con el modo Explorador de exámenes seguro:
 
    >[!NOTE]
    >
-   > Si el administrador activa esta opción, puede activar o desactivar el requisito del Explorador de examen seguro (SEB) para un módulo de prueba de curso. Si el administrador desactiva esta opción, SEB se convierte en obligatorio para la prueba y no se puede cambiar este requisito.
+   > Si el administrador activa esta opción, puede activar o desactivar el requisito del Explorador de examen seguro (SEB) para un módulo de prueba de curso. Si el administrador desactiva esta opción, SEB se convierte en obligatorio para la prueba y no se puede cambiar este requisito. Vea [Habilitar integración del Explorador de examen seguro](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration) para obtener más información.
 
 1. Seleccione **Publish**.
 
@@ -68,3 +68,5 @@ Para añadir la prueba a un curso:
 1. Seleccione **Guardar** > **Publish**.
 
    El curso ahora incluye una evaluación que requiere que los alumnos utilicen el navegador de exámenes seguro.
+
+Visualiza [Iniciar una prueba en el navegador de exámenes seguro](../../learners/feature-summary/launch-safe-exam-browser.md) para obtener información sobre cómo los alumnos pueden acceder a las pruebas y realizarlas mediante el navegador de exámenes seguros.

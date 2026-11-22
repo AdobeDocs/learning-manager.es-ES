@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # Crear, modificar y publicar cursos
@@ -169,7 +169,7 @@ Un módulo de envío de archivos basado en el equipo permite a un alumno enviar 
 
 1. Seleccione la opción basada en el equipo. La opción individual es el módulo de envío de archivos anterior para alumnos individuales.
 
-   ![Opción basada en el equipo para el módulo de envío de archivos](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opción basada en el equipo")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Seleccione el instructor o instructores.
 
@@ -191,7 +191,7 @@ Un curso puede tener módulos de envío individual y basado en equipo juntos. To
    * Seleccione la puntuación manual para permitir que el instructor introduzca una puntuación global.
    * Seleccione la puntuación basada en criterios para calcular la puntuación a partir de los puntos de cada opción del plan de evaluación. Este método requiere un plan de evaluación.
 
-     ![Opciones de revisión y puntuación para el módulo de envío de archivos basado en equipo](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -205,7 +205,7 @@ Un plan de evaluación es el conjunto de preguntas que los instructores utilizan
 
 #### Activar el plan de evaluación
 
-1. Encienda el plan de evaluación.
+1. Activar el plan de evaluación.
 
 1. Introduzca una descripción de la evaluación.
 
@@ -1497,7 +1497,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
