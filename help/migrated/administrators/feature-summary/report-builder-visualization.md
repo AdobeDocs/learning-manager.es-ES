@@ -1,9 +1,9 @@
 ---
 title: Visualizaciones en Report Builder
 description: Cree gráficos y paneles a partir de informes guardados en Adobe Learning Manager Report Builder para comparar grupos, detectar tendencias y compartir resultados.
-source-git-commit: 8354c2285602189dd7c8211b8b44900385dc6c8b
+source-git-commit: 27a1b9f6669097ce85d1c4994537fb8cdf571abe
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3975'
 ht-degree: 0%
 ---
 
@@ -64,6 +64,7 @@ Confirme lo siguiente:
 * **Guarde el informe.** La opción para agregar un gráfico aparece en la página Report Builder después de guardar el informe.
 * **Usa tu propio informe.** Duplique un informe compartido para crear su propia copia y, a continuación, utilícelo para crear gráficos.
 * **Comprobar el tamaño.** No se puede trazar un informe con más de 10 millones de filas. No se traza un informe resumido con más de 10.000 puntos de datos. Consulte Límites del gráfico y del tablero.
+* **Optimizar los datos para su visualización.** Aplique los filtros adecuados en el nivel de informe o de gráfico para limitar la cantidad de datos trazados. El tiempo necesario para cargar un gráfico depende de factores como el volumen de datos del informe, el intervalo de fechas seleccionado y la combinación de conjuntos de datos y tablas que se utilizan en el informe. Los informes que procesan grandes volúmenes de datos o combinaciones complejas de conjuntos de datos pueden tardar más en cargarse o pueden agotarse. Si esto ocurre, restrinja los filtros o el intervalo de fechas e inténtelo de nuevo.
 * **Conoce tus columnas.** El eje X (dimensión) y el eje Y (medida) del gráfico proceden de las columnas del informe. Para resumir el propio informe, use **Agrupar por** y agregados. Para obtener más información, consulte Aplicación de agregaciones y grupos.
 
 ### Configurar un gráfico {#configure-chart}
