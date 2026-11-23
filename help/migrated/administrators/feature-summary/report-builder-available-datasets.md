@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Conjuntos de datos disponibles en Report Builder
 description: Guía de referencia de los conjuntos de datos, campos y campos derivados disponibles en Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 27%
-
+source-wordcount: '1478'
+ht-degree: 29%
 ---
-
 
 # Conjuntos de datos disponibles en Report Builder
 
@@ -61,10 +59,31 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Porcentaje de finalización del usuario
 * Porcentaje de cumplimiento del usuario
 
+### Prueba de L2 después del campo personalizado (Usuario)
+
+* Número de intentos
+* ID de curso
+* ID de instancia del curso
+* Nombre del curso
+* Tipo de interacción
+* ID de módulo
+* Nombre de módulo
+* Versión de módulo
+* Pregunta: Respuesta correcta
+* Pregunta: ID
+* Pregunta: Puntuación máxima posible
+* Pregunta: Texto
+* Respuesta: Puntuación obtenida
+* Respuesta: Respuesta
+* Respuesta: Es correcto
+* Respuesta: Marca de tiempo
+* ID de usuario
+
 ### Objeto de aprendizaje
 
 * Nombres de los autores
 * Fecha de retirada automática
+* Validez del certificado (meses)
 * Recuento de finalización
 * Fecha de creación
 * Duración (minutos)
@@ -135,6 +154,8 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Fecha de inscripción
 * Fuente de inscripción
 * Estado de inscripción
+* Es una inscripción principal
+* Metadatos
 * ID de objeto de aprendizaje
 * Nombre del objeto de aprendizaje
 * ID de instancia a objeto de aprendizaje
@@ -156,6 +177,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * ID de curso
 * ID de módulo
 * Nombre de módulo
+* Estado aprobado del módulo
 * Fecha de aprobación
 * Porcentaje de progreso
 * Puntuación total del módulo de prueba
@@ -218,7 +240,10 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 
 ### Grupo de usuarios (personalizado)
 
+* Creado por correo electrónico del usuario
+* Creado por nombre de usuario
 * Fecha de creación
+* Descripción
 * ID
 * Número de miembros
 * Nombre
@@ -227,6 +252,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 ### Grupo de usuarios (equipo directo)
 
 * Fecha de creación
+* Descripción
 * ID
 * Número de miembros
 * Nombre
@@ -239,6 +265,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 ### Grupo de usuarios (integrado)
 
 * Fecha de creación
+* Descripción
 * ID
 * Número de miembros
 * Nombre
@@ -247,6 +274,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 ### Grupo de usuarios (equipo)
 
 * Fecha de creación
+* Descripción
 * ID
 * Número de miembros
 * Descripción
