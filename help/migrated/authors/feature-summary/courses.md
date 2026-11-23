@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Después de configurar todos los ajustes del Libro de calificaciones, publique e
 * Utilice **Máximo** para la configuración de varios intentos cuando los módulos sean evaluaciones que los alumnos deben reintentar. Utilice **Último** cuando desee capturar el nivel de conocimiento actual en lugar de obtener el mejor rendimiento.
 * Compruebe que el indicador **Peso total** muestra exactamente el 100 % antes de guardar.
 
-## Configurar la creación automática de equipos en Adobe Learning Manager
+## Configurar la creación automática de equipos en Adobe Learning Manager {#enable-automatic-team-formation}
 
 Establece las reglas automáticas de creación de equipos para un curso de forma que Adobe Learning Manager divida a los alumnos inscritos en equipos antes de que comience una instancia.
 
@@ -1497,7 +1497,7 @@ También puede publicar los módulos del curso en Learning Manager desde Adobe C
 1. Inicie sesión con las credenciales de Adobe. Si no tiene un Adobe ID, haga clic en **[!UICONTROL Crear cuenta]**. Tras la autorización, se le dirige a la página de publicación del módulo.
 1. Proporcione toda la información básica sobre el módulo y haga clic en Publicar.
 
-Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/es/captivate/classic/publish-project-to-captivate-prime.html).
+Puede ver el módulo publicado en la página de módulos de Learning Manager. Para obtener más información, consulte [Publicar proyecto en Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Eficacia del curso {#courseeffectiveness}
 
