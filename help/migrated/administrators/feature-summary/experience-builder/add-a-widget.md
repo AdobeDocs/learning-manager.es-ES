@@ -3,9 +3,9 @@ title: Añadir y configurar widgets en Experience Builder
 description: Aprenda a añadir, personalizar y configurar varios widgets en Experience Builder dentro de Adobe Learning Manager. Esta guía trata los widgets más utilizados, como calendarios, categorías, estado de cumplimiento, cursos y rutas, interacción lúdica, contenido para HTML, IFrames, aprendizaje social y mucho más.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
+source-git-commit: fefdedcb70c7006bd818646c505fb5d09f0c0035
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '3102'
 ht-degree: 0%
 ---
 # Añadir y configurar widgets
@@ -153,7 +153,7 @@ Para configurar el widget Cursos y trazados:
 
 ![](assets/configure-course-paths.png)
 Widget de _cursos y rutas donde los administradores establecen el título del widget, la descripción y seleccionan Cursos o Rutas de aprendizaje para mostrarlos como tarjetas interactivas_
-&#x200B;11. Seleccione **[!UICONTROL Agregar widget]**.
+11. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Cursos y trazados se añadirá a la página. Los administradores pueden añadir otros widgets y publicar la página.
 
@@ -312,6 +312,38 @@ Para configurar el widget Mi aprendizaje:
 9. Seleccione **[!UICONTROL Agregar widget]**.
 
 El widget Mi aprendizaje se agregará a la página. Los administradores pueden añadir otros widgets y publicar la página.
+
+## Widget personalizado de ruta de aprendizaje {#add-a-plp}
+
+El widget de la ruta de aprendizaje personalizada es una tira de contenido que se puede añadir a las páginas del alumno en Experience Builder. Muestra a los alumnos la ruta de aprendizaje generada por el agente de Ruta de aprendizaje personalizada (PLP) en el Asistente del alumno, para que puedan ver los cursos recomendados y reanudar el aprendizaje sin salir de la página.
+
+Utilice el widget de la ruta de aprendizaje personalizada para mostrar a los alumnos un conjunto personalizado de cursos en una página de Experience Builder.
+
+## Antes de comenzar
+
+* Asegúrese de que el agente de la ruta de aprendizaje personalizada está activado para su cuenta. Se incluye con el nivel Ultimate o está disponible como complemento del nivel Prime.
+* Asegúrese de que el Asistente del alumno y el agente de rutas de aprendizaje personalizadas estén activados en la configuración de **Asistente de inteligencia artificial**.
+* Asegúrese de que tiene la función de administrador.
+
+### Añadir el widget de ruta de aprendizaje personalizada
+
+1. Inicie sesión en Adobe Learning Manager como **administrador**.
+
+2. En el panel izquierdo, seleccione **Marca**.
+
+3. Seleccione **Páginas personalizadas**.
+
+4. Seleccione **Editar** y, a continuación, seleccione el diseño. A continuación, seleccione
+
+5. Seleccione **Agregar widget** y, a continuación, seleccione **Ruta de aprendizaje personalizada**.
+
+6. En **Título del widget**, escriba un título para el widget.
+
+7. (Opcional) En **Descripción del widget**, escriba una breve descripción. Puede introducir hasta 180 caracteres.
+
+8. Revise la vista previa en el lado derecho de la pantalla. Cada tarjeta muestra el formato, la duración, la aptitud, la clasificación, el título y el autor del curso, junto con un botón **Continuar**.
+
+9. Seleccione **Agregar widget** y, a continuación, haga clic en **Publish** para que la página esté disponible para los alumnos.
 
 ## Widget Guardado por mí {#bookmark-widget}
 
