@@ -1,24 +1,31 @@
 ---
-description: Cree un servidor MCP en Adobe Learning Manager, conéctelo a Claude o ChatGPT y administre credenciales, herramientas, límites y solución de problemas
+description: Configure el servidor del Protocolo de contexto de modelos (MCP) una vez para su organización, de modo que los asistentes de IA puedan acceder de forma segura a la formación de sus alumnos.
 jcr-language: en_us
 title: Configurar el servidor Adobe Learning Manager MCP
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 9d93dbeca8a0c6da5e75e935bbec1ff3476c0a6e
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2095'
 ht-degree: 1%
 ---
 
 # Configurar el servidor Adobe Learning Manager MCP
 
-Configure el servidor de Protocolo de contexto de modelo (MCP) una vez para su organización. La configuración consta de dos partes: cree un servidor MCP en Learning Manager y conéctelo a su asistente de IA. Después, los alumnos inician sesión en Learning Manager desde el asistente de IA y pueden utilizar las herramientas de MCP.
+## Información general
 
-Antes de comenzar, asegúrese de que:
+La configuración consta de dos pasos. Primero, cree un servidor MCP en Adobe Learning Manager. En segundo lugar, conecta el servidor a tu asistente de IA. Después, los alumnos se autentican con Adobe Learning Manager desde el asistente de IA y pueden utilizar las herramientas de MCP.
+
+## Requisitos
 
 * El servidor MCP está habilitado para su cuenta de Learning Manager. Póngase en contacto con el administrador de éxito de clientes o con el servicio de asistencia al Adobe de Adobe para activarlo. Hasta entonces, cada solicitud devuelve 403 Prohibido.
-* El administrador del asistente de IA tiene permiso para agregar y configurar conectores en esa plataforma.
+* El servidor MCP es una característica de indicador de backend que solo está disponible para las cuentas **Ultimate tier**.
+* El administrador de su asistente de IA tiene permiso para agregar y configurar conectores en esa plataforma.
 
-**Requisito previo:** El servidor de Protocolo de contexto de modelo es una característica basada en un indicador de back-end que funciona solo para cuentas de nivel Ultimate.
+## Cómo funciona
+
+Un cliente MCP, como Claude o ChatGPT, envía solicitudes a la dirección URL del servidor MCP junto con el token de acceso de OAuth del alumno. Cada herramienta se ejecuta con los permisos del alumno que representa el distintivo. Por lo tanto, un alumno puede hacer a través del servidor MCP solo lo que ya puede hacer en Adobe Learning Manager.
+
+El servidor utiliza el flujo de código de autorización de OAuth 2.0. El asistente de inteligencia artificial se autentica como cliente confidencial con el ID de cliente y el secreto de cliente de una aplicación de Adobe Learning Manager. El servidor no es compatible con el registro de cliente dinámico de OAuth.
 
 ## Crear un servidor MCP en Learning Manager
 
@@ -28,7 +35,7 @@ La creación de un servidor MCP configura una aplicación OAuth y le proporciona
 2. En el menú de navegación, seleccione **Servidores MCP**.
 3. En la esquina superior derecha, seleccione **Crear**.
 
-   ![](assets/integration-admin-mcp1.png)
+   ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image1.png)
 
 4. En la página **Detalles de la aplicación**, escriba lo siguiente y, a continuación, seleccione **Siguiente**:
 
@@ -36,7 +43,7 @@ La creación de un servidor MCP configura una aplicación OAuth y le proporciona
    * **Dominios de redirección:** Especifique el dominio de devolución de llamada de cada asistente de IA, un dominio por línea. Comience cada uno con y no incluya un trazado. Este campo es obligatorio.
    * **Descripción:** Escriba hasta 150 caracteres; por ejemplo, permite a los alumnos usar ALM de Claude.
 
-5. En la página **Configuración de herramientas**, revise las herramientas y las descripciones que los asistentes de inteligencia artificial utilizan para decidir cuándo llamar a cada herramienta. Para cambiar una descripción, seleccione **Acciones** (**...**) \> **Editar**. Para restaurar el valor predeterminado, seleccione **Restablecer**. A continuación, seleccione **Siguiente**.
+5. En la página **Configuración de herramientas**, revise las herramientas y las descripciones que los asistentes de inteligencia artificial utilizan para decidir cuándo llamar a cada herramienta. Para cambiar una descripción, seleccione **Acciones** (**...**) > **Editar**. Para restaurar el valor predeterminado, seleccione **Restablecer**. A continuación, seleccione **Siguiente**.
 6. En la página **Credenciales de cliente**, copie la **URL del servidor MCP**, el **ID de cliente** y el **Secreto de cliente**. Guárdelos de forma segura. Las necesitas para conectar tu asistente de IA.
 
 El servidor MCP siempre tiene ámbito Alumno, por lo que no hay ámbitos que seleccionar.
@@ -48,26 +55,34 @@ Registre el dominio para cada asistente de IA que piense conectar.
 | Claude | [https://claude.ai](https://claude.ai/) y [https://claude.com](https://claude.com/) | <https://claude.ai/api/mcp/auth_callback> |
 | ChatGPT | [https://chatgpt.com](https://chatgpt.com/) | <https://chatgpt.com/connector/oauth/&lt;id>\> (ChatGPT muestra el ID durante la instalación) |
 
-Registre dominios exactos, como [https://chatgpt.com](https://chatgpt.com/). No utilice comodines parciales como [https://*chatgpt.com*](https://chatgpt.com)*, porque pueden coincidir con dominios no relacionados. Para permitir subdominios, use un comodín de etiqueta completa como* [*https://*.example.com](https://.example.com).
+>[!IMPORTANT]
+>
+>Registre dominios exactos, como [https://chatgpt.com](https://chatgpt.com/). No utilice comodines parciales como [https://*chatgpt.com*](https://chatgpt.com)*, porque pueden coincidir con dominios no relacionados. Para permitir subdominios, use un comodín de etiqueta completa como* [*https://*.example.com](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/https%3a%2f%2f.example.com).
 
 Un servidor MCP puede servir a varios asistentes de IA si enumera todos sus dominios de redirección. Para revocar el acceso de un asistente sin que afecte a los demás, cree un servidor MCP independiente para cada uno. Todos los servidores utilizan la misma dirección URL del servidor MCP.
 
-Sólo necesita la dirección URL del servidor MCP. Claude y ChatGPT descubren automáticamente los puntos finales de OAuth de Learning Manager. Para la configuración manual, vea los **puntos finales de OAuth para el servidor MCP de Learning Manager**.
+Sólo necesita la dirección URL del servidor MCP. Claude y ChatGPT descubren automáticamente los puntos finales de OAuth de Learning Manager. Para la configuración manual, vea los [puntos finales de OAuth para el servidor MCP de Learning Manager](#oauth-endpoints-reference).
 
-## Conectar Claude Pro o Max
+## Conectar su cliente MCP
 
-Consulte la documentación de Claude si estos pasos ya no coinciden con la interfaz.
+El administrador de su asistente de inteligencia artificial conecta el servidor MCP. Las interfaces de cliente cambian con frecuencia. Si estos pasos ya no coinciden, consulte la documentación del cliente.
 
 >[!NOTE]
 >
->Los clientes reformulan y dan formato a la verbosidad de las respuestas a las preguntas planteadas cuando cambian las respuestas de la herramienta answer_learning_content_question.
+>El cliente de IA reestructura y da formato a las respuestas que devuelve la herramienta answer_learning_content_question, de modo que el nivel de detalle de las respuestas puede variar según el cliente.
+
+Antes de comenzar, confirme que el servidor MCP está habilitado para su cuenta y que tiene la dirección URL del servidor MCP, el ID de cliente y el secreto de cliente de la sección anterior.
+
+### Conectar Claude Pro o Max
+
+**Nota:** Los clientes reformulan y formatean el contenido de las respuestas a las preguntas planteadas cuando las respuestas de la herramienta answer_learning_content_question.
 
 1. En Claude, vaya a **Personalizar** \> **Conectores**.
 2. Seleccione **Agregar** (+) y, a continuación, seleccione **Agregar conector personalizado**.
 3. Indique los detalles del conector y, a continuación, seleccione **Continuar**:
 
-   * **Nombre:** Escriba un nombre que los alumnos reconozcan, por ejemplo, Adobe Learning Manager.
-   * **URL del servidor MCP remoto:** Escriba la URL del servidor MCP desde la página Credenciales de cliente, con el formato [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp).
+   1. **Nombre:** Escriba un nombre que los alumnos reconozcan, por ejemplo, Adobe Learning Manager.
+   2. **URL del servidor MCP remoto:** Escriba la URL del servidor MCP desde la página Credenciales de cliente, con el formato [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp).
 
 4. En **Autenticación**, mantenga **Iniciar sesión ahora**. Claude lee la configuración de OAuth de Learning Manager y marca las opciones coincidentes como *Detectado*.
 5. En **cliente OAuth**, seleccione **Usar su propio cliente OAuth**. Pegue el **ID de cliente** y el **Secreto de cliente**.
@@ -77,7 +92,7 @@ Consulte la documentación de Claude si estos pasos ya no coinciden con la inter
 >
 >Claude etiqueta el campo Secreto de cliente como opcional, pero Learning Manager lo requiere. Si lo deja vacío o introduce un valor incorrecto, el inicio de sesión falla y aparece el mensaje &quot;Error de autorización&quot;.
 
-## Connect Claude Team o Enterprise
+### Connect Claude Team o Enterprise
 
 Solo el propietario de una organización o un miembro con una función que pueda administrar conectores pueden agregar el conector. Los miembros nunca ven el ID o el secreto de cliente.
 
@@ -85,7 +100,7 @@ Solo el propietario de una organización o un miembro con una función que pueda
 >
 >Los clientes reformulan y dan formato a la verbosidad de las respuestas a las preguntas planteadas cuando cambian las respuestas de la herramienta answer_learning_content_question.
 
-1. En Claude, inicie sesión como propietario de la organización o miembro con permiso para administrar conectores.
+1. En Claude, inicie sesión como propietario de una organización o miembro con permiso para administrar conectores.
 2. Vaya a **Configuración de la organización** \> **Conectores**.
 3. Seleccione **Agregar**, pase el puntero sobre **Personalizar** y, a continuación, seleccione **Web**.
 4. Escriba el nombre y la dirección URL del servidor MCP y, a continuación, establezca **Autenticación** y **cliente OAuth** como se describe en los pasos 4 y 5 del procedimiento anterior.
@@ -93,7 +108,7 @@ Solo el propietario de una organización o un miembro con una función que pueda
 
 El conector ya está disponible para su organización. Cada miembro selecciona **Connect** e inicia sesión en Learning Manager con su propia cuenta.
 
-## Conectar ChatGPT Team o Enterprise
+### Conectar ChatGPT Team o Enterprise
 
 >[!NOTE]
 >
@@ -108,28 +123,33 @@ El conector ya está disponible para su organización. Cada miembro selecciona *
    * **Conexión:** mantenga **URL de servidor** seleccionada e introduzca [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp)
    * **Autenticación:** OAuth
 
-
-     ![](assets/integration-administrator-mcp1.png)
+   ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image2.png)
 
 5. Haga clic en **Configuración avanzada de OAuth**. ChatGPT descubre los puntos finales de ALM OAuth automáticamente.
 6. En **Registro de cliente**, mantenga **Método de registro** establecido en **Cliente OAuth definido por el usuario** y, a continuación, introduzca el **ID de cliente OAuth** y el **secreto de cliente OAuth** en el paso 1.
 7. Compruebe la **URL de devolución de llamada** que se muestra en este panel. Su dominio (<https://chatgpt.com>) debe estar en **Dominios de redirección** del servidor MCP desde el paso 1.
 
-   ![](/help/migrated/integration-admin/feature-summary/assets/integration-admin-mcp2.png)
+   ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image3.png)
 
-**Los extremos se descubren automáticamente**
+       **Los extremos se detectan automáticamente**
+   
+   Normalmente no es necesario cambiar los puntos finales de OAuth. Si ChatGPT se lo pide, utilice: Dirección URL de autenticación [https://\[alm-host\]/oauth/o/authorised](https://[alm-host]/oauth/o/authorised), dirección URL de token [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token), dirección URL de registro vacía, recurso [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp), alumno de ámbito:write.
 
-Normalmente no es necesario cambiar los puntos finales de OAuth. Si ChatGPT se lo pide, utilice: Dirección URL de autenticación [https://\[alm-host\]/oauth/o/authorised](https://[alm-host]/oauth/o/authorised), dirección URL de token [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token), dirección URL de registro vacía, recurso [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp), alumno de ámbito:write.
+8. Selecciona **Entiendo y quiero continuar**, luego haz clic en **Crear**.
+9. En la ventana **Conectar**, haz clic en **Continuar** e inicia sesión en ALM. La ventana debe mostrar *Aprobado por el administrador*.
+10. Ponga el complemento a disposición de los usuarios de destino en su espacio de trabajo.
 
-1. Selecciona **Entiendo y quiero continuar**, luego haz clic en **Crear**.
-1. En la ventana **Conectar**, haz clic en **Continuar** e inicia sesión en ALM. La ventana debe mostrar *Aprobado por el administrador*.
-1. Ponga el complemento a disposición de los usuarios de destino en su espacio de trabajo.
-
-![](/help/migrated/integration-admin/feature-summary/assets/integration-admin-mcp3.png)
+    ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image4.png)
 
 ## Autenticación de usuario final
 
-Una vez que el administrador haya terminado de configurar el servidor MCP, los alumnos añaden el conector ALM de la lista de conectores de su asistente de IA y hacen clic en **Conectar**. Se abrirá la página de inicio de sesión de ALM. Después de iniciar sesión (con SSO, si su cuenta lo utiliza) y aprobar el acceso, el asistente de IA se vincula a la cuenta de ALM del alumno.
+Una vez que el administrador complete la configuración, los alumnos añaden el conector de Adobe Learning Manager de la lista de conectores de su asistente de IA y seleccionan Conectar. Se abrirá la página de inicio de sesión de Adobe Learning Manager. Después de que el alumno inicie sesión (mediante SSO, si la cuenta lo utiliza) y apruebe el acceso, el asistente de IA se vincula a la cuenta de Adobe Learning Manager del alumno.
+
+>[!NOTE]
+>
+>Si el navegador ya tiene una sesión de Adobe Learning Manager activa, el asistente se conecta a ese usuario sin solicitar las credenciales. Para conectarse como otro usuario, cierre sesión primero en Adobe Learning Manager o utilice una ventana privada del navegador.
+
+La autenticación es un paso que se realiza una sola vez. Si se revoca el acceso de un alumno o caduca su sesión, el asistente le solicitará que inicie sesión de nuevo.
 
 ## Girar el secreto de cliente o revocar el acceso
 
@@ -137,7 +157,7 @@ No se puede regenerar un secreto de cliente. Para rotarla:
 
 1. Cree un nuevo servidor MCP, como se describe anteriormente en este artículo.
 2. Actualice el asistente de inteligencia artificial con el nuevo ID de cliente y el secreto de cliente.
-3. En **Administrador de integración** \> **Servidores MCP**, seleccione **Acciones** (**...**) \> **Eliminar** para el servidor antiguo.
+3. En **Administrador de integración** > **Servidores MCP**, seleccione **Acciones** (**...**) > **Eliminar** para el servidor antiguo.
 
 Los alumnos deben volver a iniciar sesión después de cambiar.
 
@@ -147,7 +167,7 @@ Para desconectar un asistente de IA para todos los alumnos, elimine su servidor 
 
 El servidor MCP expone las siguientes herramientas. Todos se ejecutan con los permisos del alumno que ha iniciado sesión.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 46%" />
 <col style="width: 31%" />
@@ -208,9 +228,9 @@ Las conversaciones iniciadas mediante answer_learning_content_question aparecen 
 | Versiones de protocolo MCP compatibles | 2025-11-25, 2025-06-18, 2025-03-26 |
 | Transporte | HTTP streaming, sin estado (solo POST; sin flujo de eventos enviado por el servidor) |
 
-## **Referencia de puntos finales de OAuth**
+## Referencia de puntos finales de OAuth {#oauth-endpoints-reference}
 
-Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clientes o proxies que los necesitan introducidos a mano. Sustituya \[alm-host\] por el host de la URL del servidor MCP (el host de la región o el dominio personalizado de ALM).
+Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clientes o proxies que los necesitan introducidos a mano. Reemplace `alm-host` por el host de la dirección URL del servidor MCP (su host de región o dominio personalizado ALM).
 
 | **Valor** | **URL** |
 |----|----|
@@ -218,7 +238,7 @@ Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clie
 | URL de autorización | [https://\[alm-host\]/oauth/o/authorised](https://[alm-host]/oauth/o/authorised) |
 | URL de token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Actualizar URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base del servidor de autorización | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| Base del servidor de autorización | [https://\[alm-host](https://[alm-host)\] |
 | Recurso | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Ámbito | alumno:write |
 
@@ -235,14 +255,11 @@ Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clie
 
 ## Preguntas más frecuentes
 
-### **¿Pueden los alumnos usar el servidor MCP sin que un administrador lo haya configurado?**
+**¿Pueden los alumnos usar el servidor MCP sin que un administrador lo haya configurado?**
+No. Un administrador de integración debe crear un servidor MCP en Adobe Learning Manager (paso 1), ya que el servidor MCP no admite el registro de clientes dinámicos.
 
-No. Un administrador de integración debe crear un servidor MCP en ALM (paso 1), ya que el servidor MCP no admite el registro de clientes dinámicos.
+**¿Podemos usar nuestro propio dominio?**
+Sí. Si su cuenta de Adobe Learning Manager tiene un dominio personalizado, úselo en lugar de `alm-host` en todas las direcciones URL.
 
-### **¿Podemos usar nuestro propio dominio?**
-
-Sí. Si su cuenta de ALM tiene un dominio personalizado, úselo en lugar de \[alm-host\] en todas las direcciones URL.
-
-### **¿Qué funciones de ALM pueden utilizar el servidor MCP?**
-
-Cualquier usuario de ALM puede conectarse. Las herramientas actúan en el contexto del alumno, y las comprobaciones de permisos propios de ALM se aplican a cada solicitud.
+**¿Qué funciones de ALM pueden utilizar el servidor MCP?**
+Cualquier usuario de Adobe Learning Manager puede conectarse. Las herramientas actúan en el contexto del alumno, y las comprobaciones de permisos propios de ALM se aplican a cada solicitud.
