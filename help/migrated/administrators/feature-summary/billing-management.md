@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 37%
@@ -266,7 +266,7 @@ Cualquier usuario que efectúe las acciones siguientes o consiga finalizaciones 
 - Participar en Aprendizaje social creando tableros, publicaciones o comentarios.
 - Conseguir finalizaciones debido a aprobaciones de envío de certificados externos o a la asistencia a sesiones de clase o de clase virtual.
 
-## Ver detalles de uso {#viewusagedetails}
+## Ver detalles de uso {#view-usage-details}
 
 1. Para ver la cantidad de usuarios activos por mes, haga clic en **[!UICONTROL Ver detalles de uso]**.
 

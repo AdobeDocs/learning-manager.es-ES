@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -102,11 +102,11 @@ El servidor proporciona las siguientes capacidades:
 * Responder a pregunta de contenido de aprendizaje
 * Ruta de aprendizaje personalizada
 
-Los administradores pueden editar la descripción de cada herramienta para añadir ejemplos específicos de la organización. Los clientes leen los detalles de autorización de los metadatos del servidor, por lo que la instalación solo necesita un ID y un secreto de cliente.
+Los administradores pueden editar la descripción de cada herramienta para añadir ejemplos específicos de la organización. Los clientes leen los detalles de autorización de los metadatos del servidor, por lo que la instalación solo necesita un ID de cliente y un secreto de cliente.
 
 [Más información](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-## Edición personalizada de rutas de aprendizaje y tiras de marca
+## Tiras personalizadas de edición y marca de rutas de aprendizaje
 
 * Los alumnos ahora pueden eliminar los temas o cursos sugeridos en un solo paso, además de la opción existente para perfeccionar las listas de temas y cursos a través del chat.
 * Ahora los administradores pueden cambiar la posición de la tira de rutas de aprendizaje personalizadas en la página de inicio del alumno a través de la página Marca.
@@ -121,7 +121,7 @@ Los autores crean escenarios a partir de sus propios materiales de referencia me
 
 Virtual Coach admite nueve idiomas y se puede utilizar como ayuda de trabajo independiente o incrustarse en un curso.
 
-[Más información](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Más información](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Citas de rutas de aprendizaje en el Asistente del alumno
 
@@ -161,7 +161,7 @@ Adobe Learning Manager ahora marca la asistencia cuando un alumno reproduce la g
 
 ## Email Builder para cursos e instancias
 
-Email Builder en Adobe Learning Manager permite a los administradores y autores crear plantillas de comunicación de alumnos con marca. En la versión de diciembre de 2026 de ALM, la experiencia completa de Email Builder está disponible para los correos electrónicos de nivel de curso y de instancia. Los autores pueden personalizar estos mensajes de correo electrónico heredando los diseños y el formato que definen los administradores.
+Email Builder en Adobe Learning Manager permite a administradores y autores crear plantillas de comunicación de alumnos con marca. En la versión de diciembre de 2026 de ALM, la experiencia completa de Email Builder está disponible para los correos electrónicos de nivel de curso y de instancia. Los autores pueden personalizar estos mensajes de correo electrónico heredando los diseños y el formato definidos por los administradores.
 
 Con Email Builder, puedes hacer lo siguiente:
 
@@ -305,7 +305,6 @@ Los visitantes de tu academia pública ahora pueden reproducir el contenido sele
 
 Los administradores ahora pueden elegir los catálogos específicos que aparecen en la academia pública. Solo los visitantes anónimos pueden explorar esos catálogos e indexarlos los motores de búsqueda y los asistentes de inteligencia artificial, por lo que los cursos de pruebas o el contenido interno siguen siendo privados.
  
-
 ### Buscar en motores de búsqueda y asistentes de inteligencia artificial (Beta)
 
 Adobe Learning Manager ahora puede hacer que tu academia pública sea descubrible por motores de búsqueda como Google y por asistentes de inteligencia artificial como ChatGPT, Claude y Gemini. Los cursos pueden aparecer entonces en los resultados de búsqueda y en las respuestas generadas por IA, que se atribuyen a la academia.
@@ -338,14 +337,6 @@ Cuando los usuarios seleccionan **Registrarse** en una página a la que se acced
 
 [Más información](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Almacenar fechas de último acceso para inscripciones en rutas de aprendizaje
-
-Adobe Learning Manager ahora le permite adjuntar metadatos personalizados, como la fecha del último acceso, a una inscripción de ruta de aprendizaje. Puede configurarlo y leerlo a través de la API, que le ayuda a realizar un seguimiento del acceso con límite de tiempo a las rutas de aprendizaje que asigne.
-
-Las inscripciones a los cursos ya admiten una fecha de último acceso a través de la API, que controla el tiempo durante el que un alumno puede acceder al curso. Las inscripciones de rutas de aprendizaje ahora ofrecen un campo de metadatos genérico, por lo que puede almacenar una fecha de último acceso o cualquier otro valor del que desee realizar un seguimiento.
-
-[Más información](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Cambios de encabezado de columna en informes descargados
 
 El Report Builder ahora incluye el nombre del conjunto de datos en los encabezados de columna predeterminados de los informes descargados, por lo que Nombre del conjunto de datos del objeto de aprendizaje aparece como **Objeto de aprendizaje - Nombre** en lugar de **Nombre**. Para las columnas agregadas, el encabezado también incluye la función, como &quot;**Recuento de objeto de aprendizaje: ID**&quot;. Si escribe un nombre personalizado en el campo **Alias** de una columna, ese alias se utiliza como encabezado y no cambia.
@@ -356,7 +347,7 @@ Después de la actualización, los informes existentes sin alias personalizados 
 
 Live Hub ahora está disponible de forma general para los clientes de Ultimate y permanece en versión beta para los clientes de Prime.
 
-[Más información](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[Más información](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Compatibilidad multilingüe para subtítulos opcionales en Live Hub
 
@@ -387,7 +378,7 @@ En sesiones grandes, se aplican las siguientes capacidades y comportamientos:
 
 Esto permite a las organizaciones llevar a cabo grandes sesiones de formación en la misma plataforma, con una sala que se pueda ajustar al tamaño de audiencia previsto.
 
-[Más información](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Más información](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Canales
 
@@ -468,7 +459,7 @@ La API de inscripciones ahora admite instancias de varias inscripciones en la ap
 
 [Más información](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
-### Fecha del último acceso para la inscripción en la ruta de aprendizaje
+### Fecha del último acceso para la inscripción en rutas de aprendizaje
 
 Ahora puede almacenar metadatos personalizados, como una fecha de último acceso, en una inscripción de ruta de aprendizaje y establecerlos y leerlos a través de la API. Esto le ayuda a realizar un seguimiento del acceso con plazos concretos a las rutas de aprendizaje que asigne.
 
