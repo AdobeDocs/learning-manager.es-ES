@@ -238,7 +238,7 @@ Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clie
 | URL de autorización | [https://\[alm-host\]/oauth/o/authorised](https://[alm-host]/oauth/o/authorised) |
 | URL de token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Actualizar URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base del servidor de autorización | [https://\[alm-host](https://[alm-host)\] |
+| Base del servidor de autorización | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | Recurso | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Ámbito | alumno:write |
 
