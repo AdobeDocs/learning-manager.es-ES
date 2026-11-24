@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Conjuntos de datos disponibles en Report Builder
 description: Guía de referencia de los conjuntos de datos, campos y campos derivados disponibles en Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 29%
+source-wordcount: '1493'
+ht-degree: 31%
 ---
 
 # Conjuntos de datos disponibles en Report Builder
@@ -59,7 +59,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Porcentaje de finalización del usuario
 * Porcentaje de cumplimiento del usuario
 
-### Prueba de L2 después del campo personalizado (Usuario)
+### Prueba L2
 
 * Número de intentos
 * ID de curso
@@ -108,6 +108,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Etiquetas
 * Tipo
 * ID exclusivo
+* Validez del certificado (meses)
 
 ### Instancia a objeto de aprendizaje
 
@@ -170,6 +171,8 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Puntuación más alta del usuario
 * ID de usuario
 * Puntuación más reciente del usuario
+* Es una inscripción principal
+* Metadatos
 
 ### Transcripción (módulo)
 
@@ -189,6 +192,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * ID de usuario
 * Puntuación más reciente del usuario
 * Nombre de usuario
+* Estado aprobado del módulo
 
 ### Usuario
 
@@ -229,6 +233,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Número de miembros
 * Nombre
 * Estado
+* Número de miembros
 
 ### Grupo de usuarios (campo activo)
 
@@ -237,6 +242,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Número de miembros
 * Nombre
 * Estado
+* Número de miembros
 
 ### Grupo de usuarios (personalizado)
 
@@ -261,6 +267,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Nombre del propietario
 * ID exclusivo del propietario
 * Estado
+* Descripción
 
 ### Grupo de usuarios (integrado)
 
@@ -270,6 +277,7 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Número de miembros
 * Nombre
 * Estado
+* Descripción
 
 ### Grupo de usuarios (equipo)
 
@@ -285,6 +293,8 @@ La información que figura en el cuadro no es exhaustiva. Vea la sección **List
 * Estado del propietario
 * ID exclusivo del propietario
 * Estado
+* Descripción
+* Número de miembros
 
 ## Cómo se unen los conjuntos de datos
 
