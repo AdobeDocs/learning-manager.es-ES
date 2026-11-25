@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
+source-wordcount: '7194'
 ht-degree: 4%
 ---
 # Configuración básica en Adobe Learning Manager
@@ -402,15 +402,13 @@ Cuando los cursos son de pago, los autores pueden especificar el curso, la ruta 
 >
 >No es posible adquirir ciertos tipos de formación, como certificaciones periódicas y cursos aprobados por el responsable.
 
-## Activar la formación automática de equipos en Adobe Learning Manager
+### Formación automática de equipos para envíos basados en equipos {#enable-auto-team-formation}
 
 Active la formación automática de equipos en la configuración de administrador para que Adobe Learning Manager agrupe a los alumnos en equipos antes de que comience cada instancia del curso.
 
 Este ajuste es opcional. Los envíos de equipos funcionan sin ella, y los instructores pueden crear equipos manualmente.
 
 Al activar esta configuración de cuenta, Adobe Learning Manager agrupa automáticamente a los alumnos inscritos en equipos un número determinado de días antes del inicio de cada instancia del curso. El ajuste está desactivado de forma predeterminada. Los autores pueden ajustar la programación de sus cursos y los instructores pueden seguir creando equipos manualmente.
-
-### Activar la formación automática de equipos
 
 1. En la aplicación de administrador, seleccione **Configuración** > **General**.
 
@@ -430,7 +428,7 @@ Al activar esta configuración de cuenta, Adobe Learning Manager agrupa automát
 
 La configuración solo funciona para los cursos que tienen un módulo de envío de archivos basado en el equipo y una fecha de inicio de la instancia.
 
-## Cómo afectan los cambios a los cursos
+#### Cómo afectan los cambios a los cursos
 
 Cuando se cambia esta configuración, el cambio se aplica únicamente a los cursos que se crean después de guardarla. Los cursos que ya existen mantienen la configuración con la que se publicaron, si la formación automática del equipo estaba activada o desactivada y mantienen su programación. Por ejemplo, si activa la configuración en marzo, los cursos creados en febrero no la obtendrán y los creados en marzo o posterior sí.
 
