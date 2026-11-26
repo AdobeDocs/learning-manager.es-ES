@@ -3,9 +3,9 @@ description: Configure el servidor del Protocolo de contexto de modelos (MCP) un
 jcr-language: en_us
 title: Configurar el servidor Adobe Learning Manager MCP
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
+source-git-commit: 47770f784e9f88684c19d6c72cf08b1f36e859fe
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2089'
 ht-degree: 1%
 ---
 
@@ -182,30 +182,30 @@ El servidor MCP expone las siguientes herramientas. Todos se ejecutan con los pe
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemssolo lectura</td>
+<td>search_learning_items</td>
 <td>Busca cursos, rutas de aprendizaje, certificaciones, ayudas de trabajo, insignias, aptitudes, catálogos y etiquetas en el catálogo. Filtros: tipo, estado del alumno, aptitud, etiqueta, catálogo, formato de entrega, precio e idioma. Devuelve hasta 10 resultados por página.</td>
 <td>"Cursos de Python para principiantes"<br />
 "Cursos de formación en francés gratuitos"</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollmentssolo lectura</td>
+<td>list_my_learning_enrollments</td>
 <td>Muestra el aprendizaje inscrito, en curso y completado del alumno, con el estado, el progreso y la fecha límite. La última vez que se inscribió primero de forma predeterminada.</td>
 <td>"¿En qué estoy inscrito?"<br />
 "¿Qué hay que hacer pronto?"<br />
 "Mis cursos de formación completados"</td>
 </tr>
 <tr>
-<td>get_learning_object_read-only</td>
+<td>get_learning_object</td>
 <td>Obtiene todos los detalles de un curso, una ruta de aprendizaje, una certificación o una ayuda de trabajo por ID, incluidas opcionalmente instancias, aptitudes y subelementos.</td>
 <td>"Cuéntame más sobre el segundo plato"</td>
 </tr>
 <tr>
-<td>get_my_learning_profilersolo lectura</td>
+<td>get_my_learning_profile</td>
 <td>Obtiene el perfil de ALM del alumno, incluidos el responsable y la cuenta.</td>
 <td>"¿Quién es mi gerente en ALM?"</td>
 </tr>
 <tr>
-<td>answer_learning_content_questions_usa créditos de IA</td>
+<td>answer_learning_content_question</td>
 <td>Responde a preguntas sobre la materia del curso mediante el Asistente de aprendizaje de ALM, basado en el contenido del curso con citas. Devuelve un identificador de conversación que el asistente utiliza para las preguntas de seguimiento.</td>
 <td>"Explicar TCP frente a UDP como se describe en mi curso de redes"</td>
 </tr>
@@ -238,7 +238,7 @@ Claude y ChatGPT los descubren automáticamente. Se enumeran aquí para los clie
 | URL de autorización | [https://\[alm-host\]/oauth/o/authorised](https://[alm-host]/oauth/o/authorised) |
 | URL de token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Actualizar URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base del servidor de autorización | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| Base del servidor de autorización | [https://\[alm-host\]](https://[alm-host]) |
 | Recurso | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Ámbito | alumno:write |
 
