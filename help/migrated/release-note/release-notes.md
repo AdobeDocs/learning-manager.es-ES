@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Notas de la versión de Adobe Learning Manager
@@ -355,6 +355,7 @@ Este comportamiento se espera en la versión actual y es coherente con la arquit
 
 **El modo de pantalla completa no funciona en Firefox en iPad**
 Cuando los participantes acceden a una sesión de Live Hub utilizando el navegador Firefox en un iPad, al seleccionar el botón Pantalla completa no se cambia la sesión al modo de pantalla completa. La sesión permanece en la vista estándar del navegador en lugar de expandirse para llenar la pantalla.
+
 Esta es una limitación conocida del navegador específica de Firefox en iPad. La funcionalidad de pantalla completa no está disponible en esta combinación de navegador y dispositivo. Se trata de una limitación conocida que puede abordarse en una futura versión.
 
 **Limitaciones de calidad de los subtítulos en Live Hub**
